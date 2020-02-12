@@ -87,7 +87,7 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "official TC size: ${mapT.size} (${stop2 - stop1} ms)")
 
         val map1 = HashMap<String, WordEntry>()
-        loadAssetFile("DST_cht.po").filter {
+        loadAssetFile("dst_cht.po").filter {
             it.id != "\"\"" && it.str != "\"\""
         }.forEach {
             map1[it.key] = it
@@ -115,7 +115,7 @@ class MainActivity : AppCompatActivity() {
         val stop4 = System.currentTimeMillis()
         Log.d(TAG, "new list size: ${newList.size} (${stop4 - stop3} ms)")
 
-        writeEntryToFile(File("/sdcard/DST_cht.po"), newList)
+        writeEntryToFile(File("/sdcard/dst_cht.po"), newList)
         Log.d(TAG, "write data done. ${System.currentTimeMillis() - start} ms")
         if (postAction != null) runOnUiThread(postAction)
     }

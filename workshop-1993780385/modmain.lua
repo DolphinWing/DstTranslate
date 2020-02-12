@@ -8,7 +8,7 @@ local this_mod = "workshop-1993780385" -- steam workshop id
 local OldTranslateStringTable = GLOBAL.TranslateStringTable
 -- override GLOBAL.TranslateStringTable method
 GLOBAL.TranslateStringTable = function(...)
-	LoadPOFile("DST_cht.po", "cht") -- load my translations
+	LoadPOFile("dst_cht.po", "cht") -- load my translations
 	OldTranslateStringTable(...) -- do translations
 end
 
