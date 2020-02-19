@@ -78,6 +78,9 @@ class MainActivity : AppCompatActivity() {
         loadAssetFile("chinese_t.po").filter {
             it.id != "\"\"" && it.str != "\"\"" &&
                     (it.key.startsWith("STRINGS.CHARACTER") ||
+                            it.key.startsWith("STRINGS.LUCY.") ||
+                            it.key.startsWith("STRINGS.LAVALUCY.") ||
+                            it.key.startsWith("STRINGS.EPITAPHS.") ||
                             it.key.startsWith("STRINGS.RECIPE_DESC"))
         }.forEach {
             //Log.d(TAG, "ADD: ${it.key}")
@@ -109,6 +112,7 @@ class MainActivity : AppCompatActivity() {
             }
             if (str.isEmpty()) {
                 str = ChineseConverter.convert(it.str, ConversionType.S2TW, this@MainActivity)
+                //Log.d(TAG, ">> use $str")
             }
             newList.add(WordEntry(it.key, it.text, it.id, str))
         }
@@ -131,6 +135,10 @@ class MainActivity : AppCompatActivity() {
             while (line != null) {
                 //Log.d(TAG, "${line.length}: $line")
                 val line1 = reader.readLine()
+                if (!line1.startsWith("#")) {
+                    Log.d(TAG, "bypass $line1")
+                    continue //bypass some invalid header
+                }
                 val line2 = if (line2Enabled) reader.readLine() else ""
                 val line3 = reader.readLine()
                 val line4 = reader.readLine()

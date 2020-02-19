@@ -1,3 +1,12 @@
+ï»¿﻿#
+msgid ""
+msgstr ""
+"Language: zh\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT Version: 2.0"
+
+
 #. STRINGS.ACTIONS.ABANDON
 msgctxt "STRINGS.ACTIONS.ABANDON"
 msgid "Abandon"
@@ -114317,3 +114326,4 @@ msgstr "很糟糕的"
 msgctxt "STRINGS.WITHEREDITEM"
 msgid "Withered"
 msgstr "枯萎的"
+
