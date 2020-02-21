@@ -12,12 +12,94 @@ GLOBAL.TranslateStringTable = function(...)
 	OldTranslateStringTable(...) -- do translations
 end
 
-function table.translate(tbl, trans)
-	for k,v in pairs(tbl) do
-		if trans[v] then
-			tbl[k] = trans[v]
+local function GetConfig(name, default)
+	if conf and type(conf)=="table" then
+		for _,v in pairs(conf) do
+			if v.name==name and v.saved then
+				return v.saved
+			end
 		end
 	end
+	local data = GetModConfigData(name)
+	if data == nil then return default end
+	return data
+end
+
+-- replace fonts
+local useMyFont = GetConfig("use_font", false)
+local fontRatio = GetConfig("font_size", 1.0)
+local fontNormal = "fonts/normal.zip"
+local fontOutline = "fonts/normal_outline.zip"
+
+if useMyFont then
+	local Assets = {}
+	table.insert(Assets,GLOBAL.Asset("FONT", MODROOT..fontNormal))
+	table.insert(Assets,GLOBAL.Asset("FONT", MODROOT..fontOutline))
+
+	local FONT_TABLE = {
+		DEFAULTFONT = "myfont_outline",
+		DIALOGFONT = "myfont_outline",
+		TITLEFONT = "myfont_outline",
+		UIFONT = "myfont_outline",
+		BUTTONFONT = "myfont",
+		NEWFONT = "myfont",
+		NEWFONT_SMALL = "myfont",
+		NEWFONT_OUTLINE = "myfont_outline",
+		NEWFONT_OUTLINE_SMALL = "myfont_outline",
+		NUMBERFONT = "myfont_outline",
+		SMALLNUMBERFONT = "myfont_outline",
+		BODYTEXTFONT = "myfont_outline",
+		CODEFONT = "myfont",
+		TALKINGFONT = "myfont_outline",
+		TALKINGFONT_WORMWOOD = "myfont_outline",
+		CHATFONT = "myfont",
+		HEADERFONT = "myfont",
+		CHATFONT_OUTLINE = "myfont_outline",
+	}
+	
+	local function replaceFonts()
+		--unload previous fonts
+		GLOBAL.TheSim:UnloadFont("myfont")
+		GLOBAL.TheSim:UnloadFont("myfont_outline")
+		GLOBAL.TheSim:UnloadPrefabs({"myfonts_"..modname})
+		--register my fonts
+		GLOBAL.TheSim:RegisterPrefab("myfonts_"..modname, Assets, {})
+		GLOBAL.TheSim:LoadPrefabs({"myfonts_"..modname})
+		--load fonts
+		GLOBAL.TheSim:LoadFont(MODROOT..fontNormal, "myfont")
+		GLOBAL.TheSim:LoadFont(MODROOT..fontOutline, "myfont_outline")
+		--set fallback fonts
+		GLOBAL.TheSim:SetupFontFallbacks("myfont", GLOBAL.DEFAULT_FALLBACK_TABLE)
+		GLOBAL.TheSim:SetupFontFallbacks("myfont_outline", GLOBAL.DEFAULT_FALLBACK_TABLE_OUTLINE)
+		--replace all with our fonts
+		for k,v in pairs(FONT_TABLE) do
+			GLOBAL[k]=v
+		end
+	end
+	
+	local OldStart=GLOBAL.Start
+	GLOBAL.Start=function()
+		replaceFonts()
+		OldStart()
+	end
+	
+	local OldRegisterPrefabs=GLOBAL.ModManager.RegisterPrefabs
+	GLOBAL.ModManager.RegisterPrefabs = function(...)
+		OldRegisterPrefabs(...)
+		replaceFonts()
+	end
+
+    --resize widget text size
+    AddClassPostConstruct("widgets/text", function(self)
+	    if self.size then
+		    self:SetSize( (self.size * fontRatio) )
+	    end
+	    function self:SetSize(sz)
+		    local sz_ = sz * fontRatio
+		    self.inst.TextWidget:SetSize(sz_)
+		    self.size = sz_
+	    end
+    end)
 end
 
 -- delay load init features, refs. Chinese++(workshop-1418746242)
