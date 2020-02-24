@@ -1,5 +1,5 @@
 name = "正體中文用戶端包"
-version = "0.1.1"
+version = "0.2.2"
 author = "DolphinWing"
 description = "版本: "..version.."\n\n文字主要以Klei簡體中文文檔為主，套用Klei正體中文文檔的翻譯，再加上一些作者的私心小修正。物品及名稱的翻譯，如Klei原始文檔沒有的話，會優先參考Don't Starve 中文維基"
 forumthread = ""
@@ -55,7 +55,10 @@ local size_def = {
 	{description = "0.8x", data = 0.8}, 
 	{description = "0.9x", data = 0.9}, 
 	{description = "1.0x", data = 1.0}, 
+	{description = "1.1x", data = 1.1}, 
 	{description = "1.2x", data = 1.2}, 
+	{description = "1.3x", data = 1.3}, 
+	{description = "1.4x", data = 1.4}, 
 	{description = "1.5x", data = 1.5}, 
 }
 
