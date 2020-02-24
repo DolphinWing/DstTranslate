@@ -1,5 +1,5 @@
 name = "正體中文用戶端包"
-version = "0.2.0"
+version = "0.2.1"
 author = "DolphinWing"
 description = "版本: "..version.."\n\n文字主要以Klei簡體中文文檔為主，套用Klei正體中文文檔的翻譯，再加上一些作者的私心小修正。物品及名稱的翻譯，如Klei原始文檔沒有的話，會優先參考Don't Starve 中文維基"
 forumthread = ""

@@ -25,16 +25,26 @@ local function GetConfig(name, default)
 	return data
 end
 
+function fileExists(name)
+	local f=GLOBAL.io.open(name,"r")
+	if f~=nil then
+		GLOBAL.io.close(f) 
+		return true 
+	else 
+		return false 
+	end
+end
+
 -- replace fonts
 local useMyFont = GetConfig("use_font", false)
 local fontRatio = GetConfig("font_size", 1.0)
 local fontNormal = "fonts/normal.zip"
 local fontOutline = "fonts/normal_outline.zip"
 
-if useMyFont then
+if useMyFont and fileExists(MODROOT..fontNormal) then
 	local Assets = {}
-	table.insert(Assets,GLOBAL.Asset("FONT", MODROOT..fontNormal))
-	table.insert(Assets,GLOBAL.Asset("FONT", MODROOT..fontOutline))
+	table.insert(Assets, GLOBAL.Asset("FONT", MODROOT..fontNormal))
+	table.insert(Assets, GLOBAL.Asset("FONT", MODROOT..fontOutline))
 
 	local FONT_TABLE = {
 		DEFAULTFONT = "myfont_outline",
