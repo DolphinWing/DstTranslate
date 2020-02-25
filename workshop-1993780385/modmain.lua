@@ -24,18 +24,18 @@ end
 local useMyFont = GetConfig("use_font", false)
 local function replaceFonts(assets)
 	--unload previous fonts
-	GLOBAL.TheSim:UnloadFont("myfont")
-	GLOBAL.TheSim:UnloadFont("myfont_outline")
-	GLOBAL.TheSim:UnloadPrefabs({"myfonts_"..modname})
+	GLOBAL.TheSim:UnloadFont(FONT_REGULAR)
+	GLOBAL.TheSim:UnloadFont(FONT_OUTLINE)
+	GLOBAL.TheSim:UnloadPrefabs({FONT_PREFIX..modname})
 	--register my fonts
-	GLOBAL.TheSim:RegisterPrefab("myfonts_"..modname, assets, {})
-	GLOBAL.TheSim:LoadPrefabs({"myfonts_"..modname})
+	GLOBAL.TheSim:RegisterPrefab(FONT_PREFIX..modname, assets, {})
+	GLOBAL.TheSim:LoadPrefabs({FONT_PREFIX..modname})
 	--load fonts
-	GLOBAL.TheSim:LoadFont(MODROOT..fontNormal, "myfont")
-	GLOBAL.TheSim:LoadFont(MODROOT..fontOutline, "myfont_outline")
+	GLOBAL.TheSim:LoadFont(MODROOT..fontNormal, FONT_REGULAR)
+	GLOBAL.TheSim:LoadFont(MODROOT..fontOutline, FONT_OUTLINE)
 	--set fallback fonts
-	GLOBAL.TheSim:SetupFontFallbacks("myfont", GLOBAL.DEFAULT_FALLBACK_TABLE)
-	GLOBAL.TheSim:SetupFontFallbacks("myfont_outline", GLOBAL.DEFAULT_FALLBACK_TABLE_OUTLINE)
+	GLOBAL.TheSim:SetupFontFallbacks(FONT_REGULAR, GLOBAL.DEFAULT_FALLBACK_TABLE)
+	GLOBAL.TheSim:SetupFontFallbacks(FONT_OUTLINE, GLOBAL.DEFAULT_FALLBACK_TABLE_OUTLINE)
 	--replace all with our fonts
 	for k,v in pairs(FONT_TABLE) do
 		GLOBAL[k]=v
@@ -117,13 +117,14 @@ local function fixPresetLevel()
 end
 
 local function enableAsServerMod(self)
+    local loasAsServer = GetConfig("as_server", true)
 	-- save original method
 	local OldGetEnabledServerModNames = GLOBAL.ModManager.GetEnabledServerModNames
 	-- override GLOBAL.ModManager.GetEnabledServerModNames
 	GLOBAL.ModManager.GetEnabledServerModNames = function(self)
 		-- load current enabled mods
 		local server_mods = OldGetEnabledServerModNames(self)
-		if GLOBAL.IsNotConsole() then
+		if GLOBAL.IsNotConsole() and loasAsServer then
 			--load translation mod as server mod
 			table.insert(server_mods, this_mod)
 		end

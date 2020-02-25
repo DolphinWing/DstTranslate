@@ -1,26 +1,29 @@
 -- reference from Chinese++(workshop-1418746242)
 fontNormal = "fonts/normal.zip"
 fontOutline = "fonts/normal_outline.zip"
+FONT_PREFIX = "noto_fonts_"
+FONT_REGULAR = FONT_PREFIX.."regular"
+FONT_OUTLINE = FONT_PREFIX.."outline"
 
 FONT_TABLE = {
-	DEFAULTFONT = "myfont_outline",
-	DIALOGFONT = "myfont_outline",
-	TITLEFONT = "myfont_outline",
-	UIFONT = "myfont_outline",
-	BUTTONFONT = "myfont",
-	NEWFONT = "myfont",
-	NEWFONT_SMALL = "myfont",
-	NEWFONT_OUTLINE = "myfont_outline",
-	NEWFONT_OUTLINE_SMALL = "myfont_outline",
-	NUMBERFONT = "myfont_outline",
-	SMALLNUMBERFONT = "myfont_outline",
-	BODYTEXTFONT = "myfont_outline",
-	CODEFONT = "myfont",
-	TALKINGFONT = "myfont_outline",
-	TALKINGFONT_WORMWOOD = "myfont_outline",
-	CHATFONT = "myfont",
-	HEADERFONT = "myfont",
-	CHATFONT_OUTLINE = "myfont_outline",
+	DEFAULTFONT = FONT_OUTLINE,
+	DIALOGFONT = FONT_OUTLINE,
+	TITLEFONT = FONT_OUTLINE,
+	UIFONT = FONT_OUTLINE,
+	BUTTONFONT = FONT_REGULAR,
+	NEWFONT = FONT_REGULAR,
+	NEWFONT_SMALL = FONT_REGULAR,
+	NEWFONT_OUTLINE = FONT_OUTLINE,
+	NEWFONT_OUTLINE_SMALL = FONT_OUTLINE,
+	NUMBERFONT = FONT_OUTLINE,
+	SMALLNUMBERFONT = FONT_OUTLINE,
+	BODYTEXTFONT = FONT_OUTLINE,
+	CODEFONT = FONT_OUTLINE,
+	TALKINGFONT = FONT_OUTLINE,
+	TALKINGFONT_WORMWOOD = FONT_OUTLINE,
+	CHATFONT = FONT_REGULAR,
+	HEADERFONT = FONT_REGULAR,
+	CHATFONT_OUTLINE = FONT_OUTLINE,
 }
 
 task_set_path = GLOBAL.STRINGS.UI.CUSTOMIZATIONSCREEN.TASKSETNAMES

@@ -1,11 +1,23 @@
+-- mod name
 name = "正體中文用戶端包"
-version = "0.2.2"
+-- mod version
+version = "0.3.0"
+-- mod author
 author = "DolphinWing"
-description = "版本: "..version.."\n\n文字主要以Klei簡體中文文檔為主，套用Klei正體中文文檔的翻譯，再加上一些作者的私心小修正。物品及名稱的翻譯，如Klei原始文檔沒有的話，會優先參考Don't Starve 中文維基"
+-- mod description in the game
+description = "版本: "..version.."\n\n"..
+	"文字主要以Klei簡體中文文檔為主，套用Klei正體中文文檔的翻譯，再加上一些作者的私心小修正。\n\n"..
+	"物品及名稱的翻譯，如Klei原始文檔沒有的話，會優先參考Don't Starve 中文維基\n\n"..
+	"本模組亦會嘗試修正角色的對話，假如你擁有這個世界，則會自動載入伺服器模組來修正對話。"..
+	"（會強制預載為伺服器模組來修正對話，不喜歡的話可以關閉。預設為開啟本功能。）\n\n"
+
 forumthread = ""
+-- DST API version
 api_version = 10
+-- mod icon
 icon_atlas = "modicon.xml"
 icon = "modicon.tex"
+-- loading priority
 priority = 9999
 -- Compatible with Don't Starve Together
 dst_compatible = true
@@ -44,8 +56,8 @@ end
 local empty = {{description = "", data = 0}}
 
 local opt_def = {
-	Option("啟用", true),
 	Option("停用", false),
+	Option("啟用", true),
 }
 
 local size_def = { 
@@ -67,4 +79,5 @@ configuration_options =
 	--Config("use_font", "取代字型", "用 Noto 取代遊戲內建字型", opt_def, false),
 	Config("font_size", "字型縮放倍率", "放大或縮小字體，避免和遊戲畫面不搭配", size_def, 1.0),
 	--Config("font_size", "字型縮放倍率", "放大或縮小字體，避免和遊戲畫面不搭配", empty, 0),
+	Config("as_server", "修正人物對話", "自動載入伺服器模組，僅適用於自己建立的世界", opt_def, true),
 }
