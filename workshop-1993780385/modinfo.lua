@@ -1,16 +1,17 @@
 -- mod name
-name = "正體中文用戶端包"
+name = "正體中文包"
 -- mod version
-version = "0.3.1"
+version = "0.4.0"
 -- mod author
-author = "DolphinWing"
+author = "DolphinWing and anetrlf"
 -- mod description in the game
 description = "版本: "..version.."\n\n"..
-	"文字主要以 Klei 簡體中文文檔為主，套用 Klei 正體中文文檔的翻譯，再加上一些作者的私心小修正。\n\n"..
-	"物品及名稱的翻譯，如 Klei 原始文檔沒有的話，會優先參考 Don't Starve 中文維基\n\n"..
-	"若開啟字型取代功能，建議調整字體縮放倍率至 0.8 左右\n\n"..
-	"本模組亦會嘗試修正角色的對話，假如你擁有這個世界，則會自動載入伺服器模組來修正對話。"..
-	"（會強制預載為伺服器模組來修正對話，不喜歡的話可以關閉。預設為開啟本功能。）\n\n"
+	"文字主要以 Klei 簡體中文文檔為主，輔以 Klei 正體中文文檔，"..
+	"並參考 Don't Starve 中文維基，以及一些作者的私心小修正。\n\n"..
+	"可開啟字型取代功能，將原本遊戲字型換成「jf open 粉圓字型」。"..
+	"如果覺得更換字型之後的畫面文字太大，可調整字體縮放倍率讓整體畫面較為平衡。\n\n"..
+	"本模組亦會嘗試修正角色的對話。這將會在你建立的世界中預載為伺服器模組。"..
+	"如果不喜歡這個功能的話，可以至設定中關閉。\n\n"
 
 forumthread = ""
 -- DST API version
@@ -79,7 +80,7 @@ local size_def = {
 
 configuration_options =
 {
-	Config("use_font", "取代字型", "取代遊戲內建字型", opt_def, false),
+	Config("use_font", "取代字型", "使用粉圓體取代遊戲內建字型", opt_def, false),
 	Config("font_size", "字體縮放倍率", "放大或縮小字體，避免和遊戲畫面不搭配", size_def, 1.0),
 	--Config("font_size", "字體縮放倍率", "放大或縮小字體，避免和遊戲畫面不搭配", empty, 0),
 	Config("as_server", "修正人物對話", "自動載入伺服器模組，僅適用於自己建立的世界", opt_def, true),

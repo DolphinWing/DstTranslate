@@ -156,7 +156,7 @@ if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
 	AddClassPostConstruct("widgets/uiclock", function(self)
 		if self._text then
 			--self._text:SetFont(FONT_TABLE.NUMBERFONT)
-			self._text:SetSize(28 / fontRatio) --original 33 / 1
+			self._text:SetSize(24 / fontRatio) --original 33 / 1
 		end
 		--if self._moonanim and self._moonanim.moontext then
 		--	self._moonanim.moontext:SetFont(FontNames.NUMBERFONT)
@@ -172,11 +172,11 @@ if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
 	AddClassPostConstruct("widgets/badge", function(self)
 		if self.num then
 			self.num:SetFont(FONT_TABLE.NUMBERFONT)
-			self.num:SetSize(28 / fontRatio)
+			self.num:SetSize(30 / fontRatio)
 		end
 		if self.maxnum then
 			self.maxnum:SetFont(FONT_TABLE.NUMBERFONT)
-			self.maxnum:SetSize(28 / fontRatio)
+			self.maxnum:SetSize(30 / fontRatio)
 		end
 	end)
 
@@ -212,7 +212,7 @@ if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
 	AddClassPostConstruct("widgets/ingredientui", function(self)
 		if self.quant then
 			--self.quant:SetFont(FontNames.NUMBERFONT)
-			self.quant:SetSize(24 / fontRatio)
+			self.quant:SetSize(26 / fontRatio)
 		end
 	end)
 
@@ -254,23 +254,37 @@ if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
 		end
 	end)
 
-	--AddClassPostConstruct("widgets/loadingwidget", function(self)
-	--	if self.loading_widget then
-	--		--self.loading_widget:SetFont(FONT_TABLE.UIFONT)
-	--		self.loading_widget:SetSize(40 / fontRatio)
-	--	end
-	--end)
+	AddClassPostConstruct("widgets/loadingwidget", function(self)
+		if self.loading_widget then
+			self.loading_widget:SetFont(FONT_TABLE.UIFONT) --UIFONT
+			--self.loading_widget:SetSize(30)
+			self.loading_widget:SetRegionSize(144, 44)
+		end
+	end)
 
-	--AddClassPostConstruct("widgets/redux/loadingwidget", function(self)
-	--	if self.loading_widget then
-	--		--self.loading_widget:SetFont(FONT_TABLE.HEADERFONT)
-	--		self.loading_widget:SetSize(35 / fontRatio)
-	--	end
-	--end)
+	AddClassPostConstruct("widgets/redux/loadingwidget", function(self)
+		if self.loading_widget then
+			self.loading_widget:SetFont(FONT_TABLE.UIFONT) --HEADERFONT
+			--self.loading_widget:SetSize(30) --35
+			self.loading_widget:SetRegionSize(144, 44)
+		end
+	end)
 
 	AddClassPostConstruct("widgets/skincollector", function(self)
 		if self.text then
 			self.text:SetSize(30 / fontRatio) --original 35
+		end
+	end)
+
+	AddClassPostConstruct("screens/multiplayermainscreen", function(self)
+		if self.submenu then
+			self.submenu:SetTextSize(20 / fontRatio)
+		end
+	end)
+
+	AddClassPostConstruct("screens/redux/multiplayermainscreen", function(self)
+		if self.submenu then
+			self.submenu:SetTextSize(20 / fontRatio)
 		end
 	end)
 end
