@@ -6,8 +6,9 @@ version = "0.3.1"
 author = "DolphinWing"
 -- mod description in the game
 description = "版本: "..version.."\n\n"..
-	"文字主要以Klei簡體中文文檔為主，套用Klei正體中文文檔的翻譯，再加上一些作者的私心小修正。\n\n"..
-	"物品及名稱的翻譯，如Klei原始文檔沒有的話，會優先參考Don't Starve 中文維基\n\n"..
+	"文字主要以 Klei 簡體中文文檔為主，套用 Klei 正體中文文檔的翻譯，再加上一些作者的私心小修正。\n\n"..
+	"物品及名稱的翻譯，如 Klei 原始文檔沒有的話，會優先參考 Don't Starve 中文維基\n\n"..
+	"若開啟字型取代功能，建議調整字體縮放倍率至 0.8 左右\n\n"..
 	"本模組亦會嘗試修正角色的對話，假如你擁有這個世界，則會自動載入伺服器模組來修正對話。"..
 	"（會強制預載為伺服器模組來修正對話，不喜歡的話可以關閉。預設為開啟本功能。）\n\n"
 
@@ -78,8 +79,8 @@ local size_def = {
 
 configuration_options =
 {
-	--Config("use_font", "取代字型", "用 Noto 取代遊戲內建字型", opt_def, false),
-	Config("font_size", "字型縮放倍率", "放大或縮小字體，避免和遊戲畫面不搭配", size_def, 1.0),
-	--Config("font_size", "字型縮放倍率", "放大或縮小字體，避免和遊戲畫面不搭配", empty, 0),
+	Config("use_font", "取代字型", "取代遊戲內建字型", opt_def, false),
+	Config("font_size", "字體縮放倍率", "放大或縮小字體，避免和遊戲畫面不搭配", size_def, 1.0),
+	--Config("font_size", "字體縮放倍率", "放大或縮小字體，避免和遊戲畫面不搭配", empty, 0),
 	Config("as_server", "修正人物對話", "自動載入伺服器模組，僅適用於自己建立的世界", opt_def, true),
 }

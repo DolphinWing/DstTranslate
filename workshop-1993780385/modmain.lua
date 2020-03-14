@@ -26,34 +26,38 @@ local function replaceFonts(assets)
 	--unload previous fonts
 	GLOBAL.TheSim:UnloadFont(FONT_REGULAR)
 	GLOBAL.TheSim:UnloadFont(FONT_OUTLINE)
+	GLOBAL.TheSim:UnloadFont(FONT_NUMBER)
 	GLOBAL.TheSim:UnloadPrefabs({FONT_PREFIX..modname})
 	--register my fonts
 	GLOBAL.TheSim:RegisterPrefab(FONT_PREFIX..modname, assets, {})
 	GLOBAL.TheSim:LoadPrefabs({FONT_PREFIX..modname})
 	--load fonts
-	GLOBAL.TheSim:LoadFont(MODROOT..fontNormal, FONT_REGULAR)
-	GLOBAL.TheSim:LoadFont(MODROOT..fontOutline, FONT_OUTLINE)
+	GLOBAL.TheSim:LoadFont(MODROOT..FONT_FILE_REGULAR, FONT_REGULAR)
+	GLOBAL.TheSim:LoadFont(MODROOT..FONT_FILE_OUTLINE, FONT_OUTLINE)
+	GLOBAL.TheSim:LoadFont(MODROOT..FONT_FILE_NUMBER, FONT_NUMBER)
 	--set fallback fonts
 	GLOBAL.TheSim:SetupFontFallbacks(FONT_REGULAR, GLOBAL.DEFAULT_FALLBACK_TABLE)
 	GLOBAL.TheSim:SetupFontFallbacks(FONT_OUTLINE, GLOBAL.DEFAULT_FALLBACK_TABLE_OUTLINE)
+	GLOBAL.TheSim:SetupFontFallbacks(FONT_NUMBER, GLOBAL.DEFAULT_FALLBACK_TABLE_OUTLINE)
 	--replace all with our fonts
 	for k,v in pairs(FONT_TABLE) do
 		GLOBAL[k]=v
 	end
 end
 
-if useMyFont and fileExists(MODROOT..fontNormal) then
+if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
 	local Assets = {}
-	table.insert(Assets, GLOBAL.Asset("FONT", MODROOT..fontNormal))
-	table.insert(Assets, GLOBAL.Asset("FONT", MODROOT..fontOutline))
+	table.insert(Assets, GLOBAL.Asset("FONT", MODROOT..FONT_FILE_REGULAR))
+	table.insert(Assets, GLOBAL.Asset("FONT", MODROOT..FONT_FILE_OUTLINE))
+	table.insert(Assets, GLOBAL.Asset("FONT", MODROOT..FONT_FILE_NUMBER))
 	
-	local OldStart=GLOBAL.Start
-	GLOBAL.Start=function()
+	local OldStart = GLOBAL.Start
+	GLOBAL.Start = function()
 		replaceFonts(Assets)
 		OldStart()
 	end
 	
-	local OldRegisterPrefabs=GLOBAL.ModManager.RegisterPrefabs
+	local OldRegisterPrefabs = GLOBAL.ModManager.RegisterPrefabs
 	GLOBAL.ModManager.RegisterPrefabs = function(...)
 		OldRegisterPrefabs(...)
 		replaceFonts(Assets)
@@ -140,3 +144,133 @@ AddGlobalClassPostConstruct("frontend", "FrontEnd", function(self)
 	fixPresetLevel()   -- fix preset tasks
 	enableAsServerMod(self)
 end)
+
+--override some text size
+if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
+	AddClassPostConstruct("screens/redeemdialog", function(self)
+		if self.fineprint then
+			self.fineprint:SetSize(16 / fontRatio) --original 17
+		end
+	end)
+
+	AddClassPostConstruct("widgets/uiclock", function(self)
+		if self._text then
+			--self._text:SetFont(FONT_TABLE.NUMBERFONT)
+			self._text:SetSize(28 / fontRatio) --original 33 / 1
+		end
+		--if self._moonanim and self._moonanim.moontext then
+		--	self._moonanim.moontext:SetFont(FontNames.NUMBERFONT)
+		--end
+	end)
+
+	--AddClassPostConstruct("widgets/controls", function(self)
+	--	if self.seasonclock and self.seasonclock._text then
+	--		self.seasonclock._text:SetSize(34)
+	--	end
+	--end)
+
+	AddClassPostConstruct("widgets/badge", function(self)
+		if self.num then
+			self.num:SetFont(FONT_TABLE.NUMBERFONT)
+			self.num:SetSize(28 / fontRatio)
+		end
+		if self.maxnum then
+			self.maxnum:SetFont(FONT_TABLE.NUMBERFONT)
+			self.maxnum:SetSize(28 / fontRatio)
+		end
+	end)
+
+	AddClassPostConstruct("screens/pausescreen", function(self)
+		if self.subtitle then
+			self.subtitle:SetSize(16 / fontRatio) --original 16
+		end
+	end)
+
+	AddClassPostConstruct("widgets/itemtile", function(self)
+		if self.quantity then
+			--self.quantity:SetFont(FontNames.NUMBERFONT)
+			self.quantity:SetSize(42 / fontRatio)
+		end
+		if self.percent then
+			--self.percent:SetFont(FontNames.NUMBERFONT)
+			self.percent:SetSize(42 / fontRatio)
+		end
+	end)
+
+	AddClassPostConstruct("widgets/recipepopup", function(self)
+		if self.desc then
+			--if _G.JapaneseOnPS4() then
+			--	self.desc:SetSize(30 * 0.8)
+			--	self.desc:SetRegionSize(64*3+30,110)
+			--else
+			self.desc:SetSize(30 / fontRatio) --original 33 or 30
+			self.desc:SetRegionSize(64 * 3 + 30, 90)
+			--end
+		end
+	end)
+
+	AddClassPostConstruct("widgets/ingredientui", function(self)
+		if self.quant then
+			--self.quant:SetFont(FontNames.NUMBERFONT)
+			self.quant:SetSize(24 / fontRatio)
+		end
+	end)
+
+	AddClassPostConstruct("widgets/itemslot", function(self)
+		if self.label then
+			--self.label:SetFont(FontNames.NUMBERFONT)
+			self.label:SetSize(26 / fontRatio)
+		end
+	end)
+
+	AddClassPostConstruct("widgets/countdown", function(self)
+		if self.daysuntiltext then
+			--self.daysuntiltext:SetFont(FontNames.NUMBERFONT)
+			self.daysuntiltext:SetSize(30 / fontRatio)
+		end
+	end)
+
+	AddClassPostConstruct("widgets/countdownbeta", function(self)
+		local dayTextSize = 35
+		if self.title then
+			dayTextSize = 30 --scale down when we have title
+			--self.title:SetFont(FontNames.NUMBERFONT)
+			self.title:SetSize(35 / fontRatio)
+		end
+		if self.daysuntiltext then
+			--self.daysuntiltext:SetFont(FontNames.NUMBERFONT)
+			self.daysuntiltext:SetSize(dayTextSize / fontRatio)
+		end
+		if self.title2 then
+			--self.title2:SetFont(FontNames.NUMBERFONT)
+			self.title2:SetSize(25 / fontRatio)
+		end
+	end)
+
+	AddClassPostConstruct("widgets/demotimer", function(self)
+		if self.text then
+			--self.text:SetFont(FontNames.NUMBERFONT)
+			self.text:SetSize(30 / fontRatio)
+		end
+	end)
+
+	--AddClassPostConstruct("widgets/loadingwidget", function(self)
+	--	if self.loading_widget then
+	--		--self.loading_widget:SetFont(FONT_TABLE.UIFONT)
+	--		self.loading_widget:SetSize(40 / fontRatio)
+	--	end
+	--end)
+
+	--AddClassPostConstruct("widgets/redux/loadingwidget", function(self)
+	--	if self.loading_widget then
+	--		--self.loading_widget:SetFont(FONT_TABLE.HEADERFONT)
+	--		self.loading_widget:SetSize(35 / fontRatio)
+	--	end
+	--end)
+
+	AddClassPostConstruct("widgets/skincollector", function(self)
+		if self.text then
+			self.text:SetSize(30 / fontRatio) --original 35
+		end
+	end)
+end
