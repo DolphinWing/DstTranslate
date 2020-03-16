@@ -12,13 +12,26 @@ modimport("utils.lua")
 --LoadPOFile(pofilename, "cht")
 --GLOBAL.TranslateStringTable( GLOBAL.STRINGS )
 
+if not GLOBAL.TheNet:IsDedicated() or GLOBAL.TheNet:GetServerIsClientHosted() then
+	GLOBAL.KnownModIndex:LoadModConfigurationOptions(this_mod, true)
+end
+
 -- save original method
 local OldTranslateStringTable = GLOBAL.TranslateStringTable
 -- override GLOBAL.TranslateStringTable method
 GLOBAL.TranslateStringTable = function(...)
+	-- load offical translation first
+	if fileExists("scripts/languages/chinese_t.po") then
+		GLOBAL.LanguageTranslator:LoadPOFile("scripts/languages/chinese_t.po", "cht")
+	end
 	LoadPOFile("dst_cht.po", "cht") -- load my translations
 	OldTranslateStringTable(...) -- do translations
 end
+
+--[[ dedicated server, no need to load local configuration change
+if GLOBAL.TheNet:IsDedicated() then
+	return
+end ]]
 
 -- replace fonts
 local useMyFont = GetConfig("use_font", false)
@@ -41,7 +54,7 @@ local function replaceFonts(assets)
 	GLOBAL.TheSim:SetupFontFallbacks(FONT_NUMBER, GLOBAL.DEFAULT_FALLBACK_TABLE_OUTLINE)
 	--replace all with our fonts
 	for k,v in pairs(FONT_TABLE) do
-		GLOBAL[k]=v
+		GLOBAL[k] = v
 	end
 end
 
@@ -208,14 +221,6 @@ local function fixInventoryFontSize()
 end
 
 local function fixLoadingWidgetFontSize()
-	AddClassPostConstruct("widgets/loadingwidget", function(self)
-		if self.loading_widget then
-			self.loading_widget:SetFont(FONT_TABLE.UIFONT) --UIFONT
-			--self.loading_widget:SetSize(30)
-			self.loading_widget:SetRegionSize(144, 44)
-		end
-	end)
-
 	AddClassPostConstruct("widgets/redux/loadingwidget", function(self)
 		if self.loading_widget then
 			self.loading_widget:SetFont(FONT_TABLE.UIFONT) --HEADERFONT
@@ -226,12 +231,6 @@ local function fixLoadingWidgetFontSize()
 end
 
 local function fixMainScreenButtonFontSize()
-	AddClassPostConstruct("screens/multiplayermainscreen", function(self)
-		if self.submenu then
-			self.submenu:SetTextSize(20 / fontRatio)
-		end
-	end)
-
 	AddClassPostConstruct("screens/redux/multiplayermainscreen", function(self)
 		if self.submenu then
 			self.submenu:SetTextSize(20 / fontRatio)
@@ -290,6 +289,14 @@ local function fixMiscWidgetFontSize()
 	AddClassPostConstruct("widgets/skincollector", function(self)
 		if self.text then
 			self.text:SetSize(30 / fontRatio) --original 35
+		end
+	end)
+
+	AddClassPostConstruct("widgets/redux/intentionpicker", function(self)
+		if self.description then
+			self.description:SetRegionSize(540, 320) --500, 280
+			self.description:SetPosition(0, -420) --0, 380
+			self.description:SetSize(27 / fontRatio) --original 35
 		end
 	end)
 end
