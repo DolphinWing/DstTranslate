@@ -3,15 +3,15 @@ name = "正體中文包"
 -- mod version
 version = "0.4.0"
 -- mod author
-author = "DolphinWing and anetrlf"
+author = "DolphinWing and anetrlf2"
 -- mod description in the game
 description = "版本: "..version.."\n\n"..
-	"文字主要以 Klei 簡體中文文檔為主，輔以 Klei 正體中文文檔，"..
-	"並參考 Don't Starve 中文維基，以及一些作者的私心小修正。\n\n"..
-	"可開啟字型取代功能，將原本遊戲字型換成「jf open 粉圓字型」。"..
-	"如果覺得更換字型之後的畫面文字太大，可調整字體縮放倍率讓整體畫面較為平衡。\n\n"..
-	"本模組亦會嘗試修正角色的對話。這將會在你建立的世界中預載為伺服器模組。"..
-	"如果不喜歡這個功能的話，可以至設定中關閉。\n\n"
+	"文字主要以Klei簡體中文文檔為主，輔以Klei正體中文文檔，"..
+	"並參考Don't Starve中文維基，以及一些私心小修正。\n\n"..
+	"啟用「我想吃粉圓」的功能，會將原本遊戲字型換成「粉圓字型」。"..
+	"如果你覺得更換字型之後的畫面文字實在太大，可以在設定中「使用放大鏡」調整字體縮放倍率，讓整體畫面較為平衡。\n\n"..
+	"預設會嘗試修正角色的對話。這將會在你建立的世界中預載為伺服器模組。"..
+	"如果不喜歡這個功能，或者它拖慢了你的電腦效能，可以至設定中停用修正人物對話。\n\n"
 
 forumthread = ""
 -- DST API version
@@ -80,8 +80,8 @@ local size_def = {
 
 configuration_options =
 {
-	Config("use_font", "取代字型", "使用粉圓體取代遊戲內建字型", opt_def, false),
-	Config("font_size", "字體縮放倍率", "放大或縮小字體，避免和遊戲畫面不搭配", size_def, 1.0),
+	Config("use_font", "我想吃粉圓", "使用粉圓字型取代遊戲內建字型", opt_def, false),
+	Config("font_size", "使用放大鏡", "放大或縮小字體，避免和遊戲畫面不搭配", size_def, 1.0),
 	--Config("font_size", "字體縮放倍率", "放大或縮小字體，避免和遊戲畫面不搭配", empty, 0),
-	Config("as_server", "修正人物對話", "自動載入伺服器模組，僅適用於自己建立的世界", opt_def, true),
+	Config("as_server", "修正人物對話", "自動載入成伺服器模組（僅適用於自己建立的世界）", opt_def, true),
 }

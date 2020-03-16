@@ -1,6 +1,6 @@
-**DSTTranslate** is an Android tool to convert previous work to translation document.
+**DSTTranslate** is an Android tool to convert previous work to translation document. Only for internal use.
 
-**workshop-199378038588** ([正體中文用戶端包](https://steamcommunity.com/sharedfiles/filedetails/?id=1993780385)) is the client mod I publish to steam.
+**workshop-199378038588** ([正體中文包](https://steamcommunity.com/sharedfiles/filedetails/?id=1993780385)) is the client mod I publish to steam.
 
 Reference from:
 * [图文教程 - 如何自建MOD](https://steamcommunity.com/sharedfiles/filedetails/?id=676286328)
