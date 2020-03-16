@@ -12,9 +12,9 @@ modimport("utils.lua")
 --LoadPOFile(pofilename, "cht")
 --GLOBAL.TranslateStringTable( GLOBAL.STRINGS )
 
-if not GLOBAL.TheNet:IsDedicated() or GLOBAL.TheNet:GetServerIsClientHosted() then
+--[[if not GLOBAL.TheNet:IsDedicated() or GLOBAL.TheNet:GetServerIsClientHosted() then
 	GLOBAL.KnownModIndex:LoadModConfigurationOptions(this_mod, true)
-end
+end]]
 
 -- save original method
 local OldTranslateStringTable = GLOBAL.TranslateStringTable
@@ -26,6 +26,9 @@ GLOBAL.TranslateStringTable = function(...)
 	end
 	LoadPOFile("dst_cht.po", "cht") -- load my translations
 	OldTranslateStringTable(...) -- do translations
+	--for k, v in pairs(GLOBAL.STRINGS.ACTIONS) do
+	--	if GLOBAL.ACTIONS[k] then GLOBAL.ACTIONS[k].str = v end
+	--end
 end
 
 --[[ dedicated server, no need to load local configuration change
@@ -53,7 +56,7 @@ local function replaceFonts(assets)
 	GLOBAL.TheSim:SetupFontFallbacks(FONT_OUTLINE, GLOBAL.DEFAULT_FALLBACK_TABLE_OUTLINE)
 	GLOBAL.TheSim:SetupFontFallbacks(FONT_NUMBER, GLOBAL.DEFAULT_FALLBACK_TABLE_OUTLINE)
 	--replace all with our fonts
-	for k,v in pairs(FONT_TABLE) do
+	for k, v in pairs(FONT_TABLE) do
 		GLOBAL[k] = v
 	end
 end
@@ -63,21 +66,21 @@ local fontRatio = GetConfig("font_size", 1.0)
 if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
     fontRatio = fontRatio * .9
 
-	local Assets = {}
-	table.insert(Assets, GLOBAL.Asset("FONT", MODROOT..FONT_FILE_REGULAR))
-	table.insert(Assets, GLOBAL.Asset("FONT", MODROOT..FONT_FILE_OUTLINE))
-	table.insert(Assets, GLOBAL.Asset("FONT", MODROOT..FONT_FILE_NUMBER))
+	local assets = {}
+	table.insert(assets, GLOBAL.Asset("FONT", MODROOT..FONT_FILE_REGULAR))
+	table.insert(assets, GLOBAL.Asset("FONT", MODROOT..FONT_FILE_OUTLINE))
+	table.insert(assets, GLOBAL.Asset("FONT", MODROOT..FONT_FILE_NUMBER))
 	
 	local OldStart = GLOBAL.Start
 	GLOBAL.Start = function()
-		replaceFonts(Assets)
+		replaceFonts(assets)
 		OldStart()
 	end
 	
 	local OldRegisterPrefabs = GLOBAL.ModManager.RegisterPrefabs
 	GLOBAL.ModManager.RegisterPrefabs = function(...)
 		OldRegisterPrefabs(...)
-		replaceFonts(Assets)
+		replaceFonts(assets)
 	end
 end
 
@@ -95,7 +98,7 @@ end)
 
 local function fixGraphicSmallTexture(self)
 	-- load graphics options
-	local opts=self:GetGraphicsOptions()
+	local opts = self:GetGraphicsOptions()
     -- if small texture is enabled
 	if opts and opts:IsSmallTexturesMode() then
 		-- disable small texture
@@ -231,6 +234,11 @@ local function fixLoadingWidgetFontSize()
 end
 
 local function fixMainScreenButtonFontSize()
+	AddClassPostConstruct("screens/multiplayermainscreen", function(self)
+		if self.submenu then
+			self.submenu:SetTextSize(20 / fontRatio)
+		end
+	end)
 	AddClassPostConstruct("screens/redux/multiplayermainscreen", function(self)
 		if self.submenu then
 			self.submenu:SetTextSize(20 / fontRatio)
@@ -291,12 +299,14 @@ local function fixMiscWidgetFontSize()
 			self.text:SetSize(30 / fontRatio) --original 35
 		end
 	end)
+end
 
+local function fixIntentPickerSize()
 	AddClassPostConstruct("widgets/redux/intentionpicker", function(self)
 		if self.description then
-			self.description:SetRegionSize(540, 320) --500, 280
+			self.description:SetRegionSize(520, 320) --500, 280
 			self.description:SetPosition(0, -420) --0, 380
-			self.description:SetSize(27 / fontRatio) --original 35
+			self.description:SetSize(26 / fontRatio) --original 35
 		end
 	end)
 end
@@ -307,8 +317,9 @@ if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
 	fixRecipeHudControlFontSize()
 	fixInventoryFontSize()
 	fixLoadingWidgetFontSize()
-	fixMainScreenButtonFontSize()
+	--fixMainScreenButtonFontSize()
 	fixMiscGuiFontSize()
 	fixMiscWidgetFontSize()
+	--fixIntentPickerSize()
 	fixCountDownWidgetFontSize()
 end
