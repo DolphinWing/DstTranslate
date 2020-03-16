@@ -45,7 +45,11 @@ local function replaceFonts(assets)
 	end
 end
 
+local fontRatio = GetConfig("font_size", 1.0)
+
 if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
+    fontRatio = fontRatio * .9
+
 	local Assets = {}
 	table.insert(Assets, GLOBAL.Asset("FONT", MODROOT..FONT_FILE_REGULAR))
 	table.insert(Assets, GLOBAL.Asset("FONT", MODROOT..FONT_FILE_OUTLINE))
@@ -64,7 +68,6 @@ if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
 	end
 end
 
-local fontRatio = GetConfig("font_size", 1.0)
 --resize widget text size
 AddClassPostConstruct("widgets/text", function(self)
     if self.size then
@@ -145,14 +148,7 @@ AddGlobalClassPostConstruct("frontend", "FrontEnd", function(self)
 	enableAsServerMod(self)
 end)
 
---override some text size
-if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
-	AddClassPostConstruct("screens/redeemdialog", function(self)
-		if self.fineprint then
-			self.fineprint:SetSize(16 / fontRatio) --original 17
-		end
-	end)
-
+local function fixClockHudControlFontSize()
 	AddClassPostConstruct("widgets/uiclock", function(self)
 		if self._text then
 			--self._text:SetFont(FONT_TABLE.NUMBERFONT)
@@ -162,12 +158,6 @@ if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
 		--	self._moonanim.moontext:SetFont(FontNames.NUMBERFONT)
 		--end
 	end)
-
-	--AddClassPostConstruct("widgets/controls", function(self)
-	--	if self.seasonclock and self.seasonclock._text then
-	--		self.seasonclock._text:SetSize(34)
-	--	end
-	--end)
 
 	AddClassPostConstruct("widgets/badge", function(self)
 		if self.num then
@@ -179,13 +169,25 @@ if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
 			self.maxnum:SetSize(30 / fontRatio)
 		end
 	end)
+end
 
-	AddClassPostConstruct("screens/pausescreen", function(self)
-		if self.subtitle then
-			self.subtitle:SetSize(16 / fontRatio) --original 16
+local function fixRecipeHudControlFontSize()
+	AddClassPostConstruct("widgets/recipepopup", function(self)
+		if self.desc then
+			self.desc:SetSize(30 / fontRatio) --original 33 or 30
+			self.desc:SetRegionSize(64 * 3 + 30, 90)
 		end
 	end)
 
+	AddClassPostConstruct("widgets/ingredientui", function(self)
+		if self.quant then
+			--self.quant:SetFont(FontNames.NUMBERFONT)
+			self.quant:SetSize(26 / fontRatio)
+		end
+	end)
+end
+
+local function fixInventoryFontSize()
 	AddClassPostConstruct("widgets/itemtile", function(self)
 		if self.quantity then
 			--self.quantity:SetFont(FontNames.NUMBERFONT)
@@ -197,32 +199,47 @@ if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
 		end
 	end)
 
-	AddClassPostConstruct("widgets/recipepopup", function(self)
-		if self.desc then
-			--if _G.JapaneseOnPS4() then
-			--	self.desc:SetSize(30 * 0.8)
-			--	self.desc:SetRegionSize(64*3+30,110)
-			--else
-			self.desc:SetSize(30 / fontRatio) --original 33 or 30
-			self.desc:SetRegionSize(64 * 3 + 30, 90)
-			--end
-		end
-	end)
-
-	AddClassPostConstruct("widgets/ingredientui", function(self)
-		if self.quant then
-			--self.quant:SetFont(FontNames.NUMBERFONT)
-			self.quant:SetSize(26 / fontRatio)
-		end
-	end)
-
 	AddClassPostConstruct("widgets/itemslot", function(self)
 		if self.label then
 			--self.label:SetFont(FontNames.NUMBERFONT)
 			self.label:SetSize(26 / fontRatio)
 		end
 	end)
+end
 
+local function fixLoadingWidgetFontSize()
+	AddClassPostConstruct("widgets/loadingwidget", function(self)
+		if self.loading_widget then
+			self.loading_widget:SetFont(FONT_TABLE.UIFONT) --UIFONT
+			--self.loading_widget:SetSize(30)
+			self.loading_widget:SetRegionSize(144, 44)
+		end
+	end)
+
+	AddClassPostConstruct("widgets/redux/loadingwidget", function(self)
+		if self.loading_widget then
+			self.loading_widget:SetFont(FONT_TABLE.UIFONT) --HEADERFONT
+			--self.loading_widget:SetSize(30) --35
+			self.loading_widget:SetRegionSize(144, 44)
+		end
+	end)
+end
+
+local function fixMainScreenButtonFontSize()
+	AddClassPostConstruct("screens/multiplayermainscreen", function(self)
+		if self.submenu then
+			self.submenu:SetTextSize(20 / fontRatio)
+		end
+	end)
+
+	AddClassPostConstruct("screens/redux/multiplayermainscreen", function(self)
+		if self.submenu then
+			self.submenu:SetTextSize(20 / fontRatio)
+		end
+	end)
+end
+
+local function fixCountDownWidgetFontSize()
 	AddClassPostConstruct("widgets/countdown", function(self)
 		if self.daysuntiltext then
 			--self.daysuntiltext:SetFont(FontNames.NUMBERFONT)
@@ -246,27 +263,27 @@ if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
 			self.title2:SetSize(25 / fontRatio)
 		end
 	end)
+end
 
+local function fixMiscGuiFontSize()
+	AddClassPostConstruct("screens/redeemdialog", function(self)
+		if self.fineprint then
+			self.fineprint:SetSize(16 / fontRatio) --original 17
+		end
+	end)
+
+	AddClassPostConstruct("screens/pausescreen", function(self)
+		if self.subtitle then
+			self.subtitle:SetSize(16 / fontRatio) --original 16
+		end
+	end)
+end
+
+local function fixMiscWidgetFontSize()
 	AddClassPostConstruct("widgets/demotimer", function(self)
 		if self.text then
 			--self.text:SetFont(FontNames.NUMBERFONT)
 			self.text:SetSize(30 / fontRatio)
-		end
-	end)
-
-	AddClassPostConstruct("widgets/loadingwidget", function(self)
-		if self.loading_widget then
-			self.loading_widget:SetFont(FONT_TABLE.UIFONT) --UIFONT
-			--self.loading_widget:SetSize(30)
-			self.loading_widget:SetRegionSize(144, 44)
-		end
-	end)
-
-	AddClassPostConstruct("widgets/redux/loadingwidget", function(self)
-		if self.loading_widget then
-			self.loading_widget:SetFont(FONT_TABLE.UIFONT) --HEADERFONT
-			--self.loading_widget:SetSize(30) --35
-			self.loading_widget:SetRegionSize(144, 44)
 		end
 	end)
 
@@ -275,16 +292,16 @@ if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
 			self.text:SetSize(30 / fontRatio) --original 35
 		end
 	end)
+end
 
-	AddClassPostConstruct("screens/multiplayermainscreen", function(self)
-		if self.submenu then
-			self.submenu:SetTextSize(20 / fontRatio)
-		end
-	end)
-
-	AddClassPostConstruct("screens/redux/multiplayermainscreen", function(self)
-		if self.submenu then
-			self.submenu:SetTextSize(20 / fontRatio)
-		end
-	end)
+--override some text size
+if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
+	fixClockHudControlFontSize()
+	fixRecipeHudControlFontSize()
+	fixInventoryFontSize()
+	fixLoadingWidgetFontSize()
+	fixMainScreenButtonFontSize()
+	fixMiscGuiFontSize()
+	fixMiscWidgetFontSize()
+	fixCountDownWidgetFontSize()
 end
