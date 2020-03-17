@@ -20,9 +20,9 @@ end]]
 local OldTranslateStringTable = GLOBAL.TranslateStringTable
 -- override GLOBAL.TranslateStringTable method
 GLOBAL.TranslateStringTable = function(...)
-	-- load offical translation first
-	if fileExists("scripts/languages/chinese_t.po") then
-		GLOBAL.LanguageTranslator:LoadPOFile("scripts/languages/chinese_t.po", "cht")
+	-- load offical translation first, take simplified chinese first
+	if fileExists("scripts/languages/chinese_s.po") then
+		GLOBAL.LanguageTranslator:LoadPOFile("scripts/languages/chinese_s.po", "cht")
 	end
 	LoadPOFile("dst_cht.po", "cht") -- load my translations
 	OldTranslateStringTable(...) -- do translations
