@@ -5,6 +5,7 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
+import android.os.Environment
 import android.os.Handler
 import android.provider.Settings
 import android.util.Log
@@ -21,6 +22,7 @@ import java.util.concurrent.Executors
 class MainActivity : AppCompatActivity() {
     companion object {
         private const val TAG = "dst"
+
         // This is an array of all the permission specified in the manifest.
         private val REQUIRED_PERMISSIONS =
             arrayOf(
@@ -35,19 +37,25 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         findViewById<View>(android.R.id.button1)?.setOnClickListener {
             if (allPermissionsGranted()) {
-                executor.submit { runTranslation() }
+                runDstTranslation()
             } else {
                 startAppInfoActivity()
             }
         }
         if (allPermissionsGranted()) {
-            Handler().post {
-                executor.submit {
-                    runTranslation(Runnable {
-                        Toast.makeText(this@MainActivity, "DONE", Toast.LENGTH_SHORT).show()
-                    })
-                }
-            }
+            Handler().post { runDstTranslation() }
+        }
+    }
+
+    private fun runDstTranslation() {
+        executor.submit {
+            runTranslation(Runnable {
+                Toast.makeText(
+                    this@MainActivity,
+                    "DONE ${targetFile.absolutePath}",
+                    Toast.LENGTH_SHORT
+                ).show()
+            })
         }
     }
 
@@ -119,10 +127,16 @@ class MainActivity : AppCompatActivity() {
         val stop4 = System.currentTimeMillis()
         Log.d(TAG, "new list size: ${newList.size} (${stop4 - stop3} ms)")
 
-        writeEntryToFile(File("/sdcard/dst_cht.po"), newList)
+        writeEntryToFile(targetFile, newList)
         Log.d(TAG, "write data done. ${System.currentTimeMillis() - start} ms")
         if (postAction != null) runOnUiThread(postAction)
     }
+
+    private val targetFile: File
+        get() = File(
+            Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS),
+            "dst_cht.po"
+        )
 
     private fun loadAssetFile(name: String, line2Enabled: Boolean = true): ArrayList<WordEntry> {
         Log.d(TAG, "load asset: $name")
