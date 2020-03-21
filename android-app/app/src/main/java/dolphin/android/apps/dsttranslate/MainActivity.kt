@@ -122,6 +122,7 @@ class MainActivity : AppCompatActivity() {
                 str = ChineseConverter.convert(it.str, ConversionType.S2TW, this@MainActivity)
                 //Log.d(TAG, ">> use $str")
             }
+            str = str.replace("……", "…")
             newList.add(WordEntry(it.key, it.text, it.id, str))
         }
         val stop4 = System.currentTimeMillis()
