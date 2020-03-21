@@ -81,21 +81,21 @@ class MainActivity : AppCompatActivity() {
         val stop1 = System.currentTimeMillis()
         Log.d(TAG, "original SC size: ${s.size} (${stop1 - start} ms)")
 
-        //add character wordings
-        val mapT = HashMap<String, WordEntry>()
-        loadAssetFile("chinese_t.po").filter {
-            it.id != "\"\"" && it.str != "\"\"" &&
-                    (it.key.startsWith("STRINGS.CHARACTER") ||
-                            it.key.startsWith("STRINGS.LUCY.") ||
-                            it.key.startsWith("STRINGS.LAVALUCY.") ||
-                            it.key.startsWith("STRINGS.EPITAPHS.") ||
-                            it.key.startsWith("STRINGS.RECIPE_DESC"))
-        }.forEach {
-            //Log.d(TAG, "ADD: ${it.key}")
-            mapT[it.key] = it
-        }
-        val stop2 = System.currentTimeMillis()
-        Log.d(TAG, "official TC size: ${mapT.size} (${stop2 - stop1} ms)")
+//        //add character wordings
+//        val mapT = HashMap<String, WordEntry>()
+//        loadAssetFile("chinese_t.po").filter {
+//            it.id != "\"\"" && it.str != "\"\"" &&
+//                    (it.key.startsWith("STRINGS.CHARACTER") ||
+//                            it.key.startsWith("STRINGS.LUCY.") ||
+//                            it.key.startsWith("STRINGS.LAVALUCY.") ||
+//                            it.key.startsWith("STRINGS.EPITAPHS.") ||
+//                            it.key.startsWith("STRINGS.RECIPE_DESC"))
+//        }.forEach {
+//            //Log.d(TAG, "ADD: ${it.key}")
+//            mapT[it.key] = it
+//        }
+//        val stop2 = System.currentTimeMillis()
+//        Log.d(TAG, "official TC size: ${mapT.size} (${stop2 - stop1} ms)")
 
         val map1 = HashMap<String, WordEntry>()
         loadAssetFile("dst_cht.po").filter {
@@ -104,15 +104,16 @@ class MainActivity : AppCompatActivity() {
             map1[it.key] = it
         }
         val stop3 = System.currentTimeMillis()
-        Log.d(TAG, "previous data size: ${map1.size} (${stop3 - stop2} ms)")
+        Log.d(TAG, "previous data size: ${map1.size} (${stop3 - stop1} ms)")
 
         val newList = ArrayList<WordEntry>()
         s.forEach {
             var str = ""
-            if (mapT.containsKey(it.key)) {//character wording
-                val str2 = mapT[it.key]?.str ?: ""
-                if (str2.isNotEmpty()) str = str2
-            } else if (map1.containsKey(it.key)) {
+//            if (mapT.containsKey(it.key)) {//character wording
+//                val str2 = mapT[it.key]?.str ?: ""
+//                if (str2.isNotEmpty()) str = str2
+//            } else
+            if (map1.containsKey(it.key)) {
                 val str1 = map1[it.key]?.str ?: ""
                 if (str1.isNotEmpty()) str = str1
             } else {
@@ -133,18 +134,48 @@ class MainActivity : AppCompatActivity() {
         if (postAction != null) runOnUiThread(postAction)
     }
 
+    private val sdcard =
+        Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
+
     private val targetFile: File
-        get() = File(
-            Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS),
-            "dst_cht.po"
-        )
+        get() = File(sdcard, "dst_cht.po")
+
+    private fun loadSdCardFile(name: String): ArrayList<WordEntry> {
+        Log.d(TAG, "load sd card: $name")
+        val file = File(sdcard, name)
+        val list: ArrayList<WordEntry> = if (file.exists()) try {
+            val reader = BufferedReader(InputStreamReader(FileInputStream(file)))
+            loadFromReader(reader, true)
+        } catch (e: Exception) {
+            ArrayList<WordEntry>()
+        } else {
+            ArrayList<WordEntry>()
+        }
+        Log.d(TAG, "SD: done with $name (${list.size})")
+        return list
+    }
 
     private fun loadAssetFile(name: String, line2Enabled: Boolean = true): ArrayList<WordEntry> {
-        Log.d(TAG, "load asset: $name")
+        var list: ArrayList<WordEntry> = loadSdCardFile(name)
+        if (list.isEmpty()) {
+            Log.d(TAG, "load asset: $name")
+            val reader = BufferedReader(InputStreamReader(assets.open(name)))
+            list = try {
+                loadFromReader(reader, line2Enabled)
+            } catch (e: Exception) {
+                ArrayList<WordEntry>()
+            }
+            Log.d(TAG, "A: done with $name (${list.size})")
+        }
+        return list
+    }
+
+    private fun loadFromReader(
+        reader: BufferedReader,
+        line2Enabled: Boolean = true
+    ): ArrayList<WordEntry> {
         val list = ArrayList<WordEntry>()
-        var reader: BufferedReader? = null
         try {
-            reader = BufferedReader(InputStreamReader(assets.open(name)))
             // do reading, usually loop until end of file reading
             var line: String? = ""//reader.readLine()
             while (line != null) {
@@ -175,7 +206,6 @@ class MainActivity : AppCompatActivity() {
                 Log.e(TAG, "close: ${e.message}")
             }
         }
-        Log.d(TAG, "done with $name")
         return list
     }
 
