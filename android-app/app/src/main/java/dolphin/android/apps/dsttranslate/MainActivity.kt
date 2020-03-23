@@ -115,15 +115,15 @@ class MainActivity : AppCompatActivity() {
 //            } else
             if (map1.containsKey(it.key)) {
                 val str1 = map1[it.key]?.str ?: ""
-                if (str1.isNotEmpty()) str = str1
+                if (str1.isNotEmpty()) str = str1.trim()
             } else {
                 Log.d(TAG, "add ${it.key}")
             }
             if (str.isEmpty()) {
-                str = ChineseConverter.convert(it.str, ConversionType.S2TW, this@MainActivity)
+                str = ChineseConverter.convert(it.str, ConversionType.S2TW, this@MainActivity).trim()
                 //Log.d(TAG, ">> use $str")
             }
-            str = str.replace("……", "…")
+            str = if (str != "\"……\"") str.replace("……", "…") else str
             newList.add(WordEntry(it.key, it.text, it.id, str))
         }
         val stop4 = System.currentTimeMillis()
@@ -201,7 +201,7 @@ class MainActivity : AppCompatActivity() {
             Log.e(TAG, "Exception: ${e.message}")
         } finally {
             try {
-                reader?.close()
+                reader.close()
             } catch (e: Exception) {
                 Log.e(TAG, "close: ${e.message}")
             }
