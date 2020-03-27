@@ -123,6 +123,7 @@ class MainActivity : AppCompatActivity() {
                 str = ChineseConverter.convert(it.str, ConversionType.S2TW, this@MainActivity).trim()
                 //Log.d(TAG, ">> use $str")
             }
+            str = str.replace("...", "…")
             str = if (str != "\"……\"") str.replace("……", "…") else str
             newList.add(WordEntry(it.key, it.text, it.id, str))
         }
