@@ -1,6 +1,6 @@
 [正體中文包](https://steamcommunity.com/sharedfiles/filedetails/?id=1993780385) by DolphinWing and anetrlf2
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/DolphinWing/DSTTranslate)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/DolphinWing/DSTTranslate) ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/1993780385) ![Steam Favorites](https://img.shields.io/steam/favorites/1993780385)
 
 由於現在的遊戲有完整的官方簡體中文文檔，但正體中文缺很大。因此創作出本 MOD，將所有文字替換為正體中文的擴充功能，包含介面與對話等。並在這個基礎上，加上其他更多替換文字之後適用的功能。絕大多數的功能都可以在設定中修改，可以使用自己覺得做合適的搭配。
 
