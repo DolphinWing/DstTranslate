@@ -1,9 +1,9 @@
 **DSTTranslate** is an Android tool to convert previous work to translation document. Only for internal use. 
 ![Android CI](https://github.com/DolphinWing/DSTTranslate/workflows/Android%20CI/badge.svg)
 
-**workshop-199378038588** ([正體中文包](https://steamcommunity.com/sharedfiles/filedetails/?id=1993780385)) is the client mod I publish to steam.
+**workshop-1993780385** ([正體中文包](https://steamcommunity.com/sharedfiles/filedetails/?id=1993780385)) is the client mod I publish to steam.
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/DolphinWing/DSTTranslate) ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/1993780385) ![Steam Favorites](https://img.shields.io/steam/favorites/1993780385)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/DolphinWing/DSTTranslate?logo=github) ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/1993780385?logo=steam) ![Steam Favorites](https://img.shields.io/steam/favorites/1993780385?logo=steam)
 
 Reference from:
 * [图文教程 - 如何自建MOD](https://steamcommunity.com/sharedfiles/filedetails/?id=676286328)
