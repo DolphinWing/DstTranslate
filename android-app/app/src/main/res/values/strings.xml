@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">DST Translate</string>
+    <string name="app_name">DST PO Helper</string>
+    <string name="replacement_3dot">…</string>
+    <string name="replacement_left_bracket">「</string>
+    <string name="replacement_right_bracket">」</string>
+    <string-array name="replacement_list">
+        <item>威爾遜|威爾森</item>
+        <item>沃爾夫岡|沃夫岡</item>
+        <item>韋斯|維斯</item>
+        <item>薇克伯頓|薇克巴頓</item>
+        <item>晒|曬</item>
+        <item>溼|濕</item>
+        <item>卧槽|草泥馬</item>
+        <item>激活|啟用</item>
+        <item>檢測|偵測</item>
+        <item>里面|裡面</item>
+        <item>海里|海裡</item>
+        <item>粘|黏</item>
+        <item>考拉象|無尾象</item>
+        <item>帕格納|普格納</item>
+    </string-array>
 </resources>

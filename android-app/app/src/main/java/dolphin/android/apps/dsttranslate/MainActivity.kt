@@ -9,7 +9,9 @@ import android.os.Environment
 import android.os.Handler
 import android.provider.Settings
 import android.util.Log
-import android.view.View
+import android.view.Menu
+import android.view.MenuItem
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
@@ -31,25 +33,49 @@ class MainActivity : AppCompatActivity() {
     }
 
     private val executor = Executors.newSingleThreadExecutor()
+    private lateinit var replaceList: Array<String>
+    private lateinit var replace3dot: String
+    private lateinit var replace6dot: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        replaceList = resources.getStringArray(R.array.replacement_list)
+        replace3dot = getString(R.string.replacement_3dot)
+        replace6dot = "$replace3dot$replace3dot"
         setContentView(R.layout.activity_main)
-        findViewById<View>(android.R.id.button1)?.setOnClickListener {
-            if (allPermissionsGranted()) {
-                runDstTranslation()
-            } else {
-                startAppInfoActivity()
-            }
-        }
         if (allPermissionsGranted()) {
             Handler().post { runDstTranslation() }
         }
     }
 
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.main, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            android.R.id.button1 ->
+                if (allPermissionsGranted()) {
+                    runDstTranslation()
+                } else {
+                    startAppInfoActivity()
+                }
+        }
+        return super.onOptionsItemSelected(item)
+    }
+
     private fun runDstTranslation() {
         executor.submit {
             runTranslation(Runnable {
+                val l = wordList.filter { entry -> entry.newly }
+                var text = "total changes: ${l.size}\n\n"
+                l.forEach { entry ->
+                    //Log.d(TAG, "added: ${entry.key}")
+                    text += "${entry.key}: ${entry.str.drop(1).dropLast(1)}\n"
+                }
+                findViewById<TextView>(android.R.id.text1)?.text = text
+                Log.d(TAG, "list changed: ${l.size}")
                 Toast.makeText(
                     this@MainActivity,
                     "DONE ${targetFile.absolutePath}",
@@ -73,6 +99,8 @@ class MainActivity : AppCompatActivity() {
         ContextCompat.checkSelfPermission(baseContext, it) == PackageManager.PERMISSION_GRANTED
     }
 
+    private val wordList = ArrayList<WordEntry>()
+
     private fun runTranslation(postAction: Runnable? = null) {
         Log.d(TAG, "run translation")
         val start = System.currentTimeMillis()
@@ -81,58 +109,63 @@ class MainActivity : AppCompatActivity() {
         val stop1 = System.currentTimeMillis()
         Log.d(TAG, "original SC size: ${s.size} (${stop1 - start} ms)")
 
-//        //add character wordings
-//        val mapT = HashMap<String, WordEntry>()
-//        loadAssetFile("chinese_t.po").filter {
-//            it.id != "\"\"" && it.str != "\"\"" &&
-//                    (it.key.startsWith("STRINGS.CHARACTER") ||
-//                            it.key.startsWith("STRINGS.LUCY.") ||
-//                            it.key.startsWith("STRINGS.LAVALUCY.") ||
-//                            it.key.startsWith("STRINGS.EPITAPHS.") ||
-//                            it.key.startsWith("STRINGS.RECIPE_DESC"))
-//        }.forEach {
-//            //Log.d(TAG, "ADD: ${it.key}")
-//            mapT[it.key] = it
-//        }
-//        val stop2 = System.currentTimeMillis()
-//        Log.d(TAG, "official TC size: ${mapT.size} (${stop2 - stop1} ms)")
-
         val map1 = HashMap<String, WordEntry>()
-        loadAssetFile("dst_cht.po").filter {
-            it.id != "\"\"" && it.str != "\"\""
-        }.forEach {
-            map1[it.key] = it
+        loadAssetFile("dst_cht.po").filter { entry ->
+            entry.id != "\"\"" && entry.str != "\"\""
+        }.forEach { entry ->
+            map1[entry.key] = entry
         }
         val stop3 = System.currentTimeMillis()
         Log.d(TAG, "previous data size: ${map1.size} (${stop3 - stop1} ms)")
 
-        val newList = ArrayList<WordEntry>()
-        s.forEach {
+        wordList.clear()
+        s.forEach { entry ->
+            var newly = false
             var str = ""
-//            if (mapT.containsKey(it.key)) {//character wording
-//                val str2 = mapT[it.key]?.str ?: ""
-//                if (str2.isNotEmpty()) str = str2
-//            } else
-            if (map1.containsKey(it.key)) {
-                val str1 = map1[it.key]?.str ?: ""
+            if (map1.containsKey(entry.key)) {
+                val str1 = map1[entry.key]?.str ?: ""
                 if (str1.isNotEmpty()) str = str1.trim()
             } else {
-                Log.d(TAG, "add ${it.key}")
+                Log.d(TAG, "add ${entry.key}")
             }
-            if (str.isEmpty()) {
-                str = ChineseConverter.convert(it.str, ConversionType.S2TW, this@MainActivity).trim()
+            if (str.isEmpty()) {//not in the translated po
+                newly = true
+                str = sc2tc(entry.str).trim()
                 //Log.d(TAG, ">> use $str")
             }
-            str = str.replace("...", "…")
-            str = if (str != "\"……\"") str.replace("……", "…") else str
-            newList.add(WordEntry(it.key, it.text, it.id, str))
+            str = getReplacement(str)
+            wordList.add(WordEntry(entry.key, entry.text, entry.id, str, newly))
         }
         val stop4 = System.currentTimeMillis()
-        Log.d(TAG, "new list size: ${newList.size} (${stop4 - stop3} ms)")
+        Log.d(TAG, "new list size: ${wordList.size} (${stop4 - stop3} ms)")
 
-        writeEntryToFile(targetFile, newList)
+        writeEntryToFile(targetFile, wordList)
         Log.d(TAG, "write data done. ${System.currentTimeMillis() - start} ms")
         if (postAction != null) runOnUiThread(postAction)
+    }
+
+    private fun sc2tc(str: String): String =
+        ChineseConverter.convert(str, ConversionType.S2TW, this)
+
+    private fun getReplacement(src: String): String {
+        var str = src.replace("...", replace3dot)
+        str = if (str != "\"$replace6dot\"") str.replace(replace6dot, replace3dot) else str
+        replaceList.forEach {
+            val pair = it.split("|")
+            str = str.replace(pair[0], pair[1])
+        }
+        if (str.contains("\\\"")) {
+            var i = 0
+            val str1 = str.replace("\\\"", "%@%").replace("%@%".toRegex()) {
+                //Log.d(TAG, "$i ${it.value}")
+                getString(if (i++ % 2 == 0) R.string.replacement_left_bracket else R.string.replacement_right_bracket)
+            }
+            if (i % 2 == 0) {
+                Log.d(TAG, "$str ==> $str1")
+                str = str1 //only replace the paired string
+            }
+        }
+        return str
     }
 
     private val sdcard =
@@ -141,6 +174,7 @@ class MainActivity : AppCompatActivity() {
     private val targetFile: File
         get() = File(sdcard, "dst_cht.po")
 
+    @Suppress("RemoveExplicitTypeArguments")
     private fun loadSdCardFile(name: String): ArrayList<WordEntry> {
         Log.d(TAG, "load sd card: $name")
         val file = File(sdcard, name)
@@ -150,12 +184,13 @@ class MainActivity : AppCompatActivity() {
         } catch (e: Exception) {
             ArrayList<WordEntry>()
         } else {
-            ArrayList<WordEntry>()
+            ArrayList()
         }
         Log.d(TAG, "SD: done with $name (${list.size})")
         return list
     }
 
+    @Suppress("RemoveExplicitTypeArguments")
     private fun loadAssetFile(name: String, line2Enabled: Boolean = true): ArrayList<WordEntry> {
         var list: ArrayList<WordEntry> = loadSdCardFile(name)
         if (list.isEmpty()) {
@@ -211,25 +246,21 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun writeEntryToFile(dst: File, list: ArrayList<WordEntry>): Boolean {
-        var writer: BufferedWriter? = null
+        val writer: BufferedWriter?
         try { //http://stackoverflow.com/a/1053474
             writer = BufferedWriter(FileWriter(dst))
             var content = "\"Language: zh-tw\"\n\"POT Version: 2.0\"\n"
             writer.write(content, 0, content.length)
-            list.forEach {
+            list.forEach { entry ->
                 content = "\n"
-                content += "#. ${it.key}\n"
-                content += "msgctxt ${it.text}\n"
-                content += "msgid ${it.id}\n"
-                content += "msgstr ${it.str}\n"
+                content += "#. ${entry.key}\n"
+                content += "msgctxt ${entry.text}\n"
+                content += "msgid ${entry.id}\n"
+                content += "msgstr ${entry.str}\n"
                 writer.write(content, 0, content.length)
             }
             writer.close()
             //writer = null
-        } catch (e: FileNotFoundException) {
-            //e.printStackTrace()
-            Log.e(TAG, "FileNotFoundException: ${e.message}")
-            return false
         } catch (e: Exception) {
             //e.printStackTrace()
             Log.e(TAG, "writeStringToFile: ${e.message}")

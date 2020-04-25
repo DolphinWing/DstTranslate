@@ -1,6 +1,12 @@
 package dolphin.android.apps.dsttranslate
 
-data class WordEntry(val key: String, val text: String, val id: String, var str: String) {
+data class WordEntry(
+    val key: String,
+    val text: String,
+    val id: String,
+    val str: String,
+    val newly: Boolean = false
+) {
     companion object {
         fun from(line1: String, line2: String, line3: String, line4: String): WordEntry? {
             val key = if (line1.startsWith("#.") or line1.startsWith("#:")) {
