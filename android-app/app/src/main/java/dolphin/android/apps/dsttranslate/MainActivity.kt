@@ -24,6 +24,7 @@ import eu.davidea.flexibleadapter.common.SmoothScrollLinearLayoutManager
 import eu.davidea.flexibleadapter.items.AbstractFlexibleItem
 import eu.davidea.flexibleadapter.items.IFlexible
 import eu.davidea.viewholders.FlexibleViewHolder
+import kotlinx.android.synthetic.main.layout_main.*
 import java.io.*
 import java.util.concurrent.Executors
 
@@ -43,6 +44,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var replaceList: Array<String>
     private lateinit var replace3dot: String
     private lateinit var replace6dot: String
+    private lateinit var container: View
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -50,6 +52,7 @@ class MainActivity : AppCompatActivity() {
         replace3dot = getString(R.string.replacement_3dot)
         replace6dot = "$replace3dot$replace3dot"
         setContentView(R.layout.activity_main)
+        prepareEntryEditor()
         if (allPermissionsGranted()) {
             Handler().post { runDstTranslation() }
         }
@@ -76,14 +79,14 @@ class MainActivity : AppCompatActivity() {
 
     private fun runDstTranslation() {
         executor.submit {
-            runTranslation(Runnable {
+            runTranslation { timeCost ->
                 showChangeList()
                 Toast.makeText(
                     this@MainActivity,
-                    "DONE ${targetFile.absolutePath}",
+                    "DONE ${targetFile.absolutePath} ($timeCost ms)",
                     Toast.LENGTH_SHORT
                 ).show()
-            })
+            }
         }
     }
 
@@ -104,7 +107,7 @@ class MainActivity : AppCompatActivity() {
     private val originMap = HashMap<String, WordEntry>()
     private val wordList = ArrayList<WordEntry>()
 
-    private fun runTranslation(postAction: Runnable? = null) {
+    private fun runTranslation(postAction: ((timeCost: Long) -> Unit)? = null) {
         Log.d(TAG, "run translation")
         val start = System.currentTimeMillis()
 
@@ -143,8 +146,9 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "new list size: ${wordList.size} (${stop4 - stop3} ms)")
 
         writeEntryToFile(File(cacheDir, "dst_cht.po"), wordList)
-        Log.d(TAG, "write data done. ${System.currentTimeMillis() - start} ms")
-        if (postAction != null) runOnUiThread(postAction)
+        val cost = System.currentTimeMillis() - start
+        Log.d(TAG, "write data done. $cost ms")
+        if (postAction != null) runOnUiThread { postAction(cost) }
     }
 
     private fun sc2tc(str: String): String =
@@ -282,7 +286,7 @@ class MainActivity : AppCompatActivity() {
         private val text2: TextView? = view?.findViewById(android.R.id.text2)
         private val message: TextView? = view?.findViewById(android.R.id.message)
         fun apply(entry: WordEntry, old: WordEntry? = null) {
-            contentView.tag = entry
+            contentView.tag = Pair(entry, old)
             key?.text = entry.key
             val same = old == null || old == entry
             text1?.visibility = if (same) View.GONE else View.VISIBLE
@@ -329,7 +333,11 @@ class MainActivity : AppCompatActivity() {
         findViewById<RecyclerView>(android.R.id.list)?.apply {
             adapter = FlexibleAdapter(list, object : FlexibleAdapter.OnItemClickListener {
                 override fun onItemClick(view: View?, position: Int): Boolean {
-                    Log.d(TAG, "click ${(view?.tag as? WordEntry)?.key}")
+                    //Log.d(TAG, "click ${(view?.tag as? WordEntry)?.key}")
+                    @Suppress("UNCHECKED_CAST")
+                    (view?.tag as? Pair<WordEntry, WordEntry?>)?.apply {
+                        showEntryEditor(first, second)
+                    }
                     return true
                 }
             })
@@ -338,7 +346,41 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun showEntryEditor(entry: WordEntry) {
+    private fun prepareEntryEditor() {
+        container = findViewById(R.id.container)
+        container.setOnTouchListener { _, _ ->
+            container.visibility = View.GONE
+            true
+        }
+        editor.setOnTouchListener { _, _ -> true }
+        button1.setOnClickListener { view ->
+            textField.editText?.setText(view.tag.toString())
+            container.visibility = View.VISIBLE
+        }
+        button2.setOnClickListener { view ->
+            textField.editText?.setText(view.tag.toString())
+            container.visibility = View.VISIBLE
+        }
+        button3.setOnClickListener { view ->
+            val key = view.tag.toString()
+            wordList.find { entry -> entry.key == key }?.apply {
+                str = textField.editText?.text?.toString() ?: str
+            }
+            container.visibility = View.GONE
+        }
+    }
 
+    private fun showEntryEditor(entry: WordEntry, origin: WordEntry?) {
+        entry_id.text = entry.key
+        text1.text = origin?.id ?: entry.id
+        button1.text = origin?.str ?: entry.str
+        button1.tag = origin?.str ?: entry.str
+        button1.isEnabled = origin != null && origin.str != entry.str
+        text2.text = entry.id
+        button2.text = entry.str
+        button2.tag = entry.str
+        textField.editText?.setText(entry.str)
+        container.visibility = View.VISIBLE
+        button3.tag = entry.key
     }
 }

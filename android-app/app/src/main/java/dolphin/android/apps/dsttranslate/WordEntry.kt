@@ -4,7 +4,7 @@ data class WordEntry(
     val key: String,
     val text: String,
     val id: String,
-    val str: String,
+    var str: String,
     val newly: Boolean = false
 ) {
     companion object {
