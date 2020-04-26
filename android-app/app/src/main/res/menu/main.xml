@@ -4,5 +4,9 @@
 
     <item
         android:id="@android:id/button1"
-        android:title="RUN" />
+        android:title="Run" />
+
+    <item
+        android:id="@android:id/button2"
+        android:title="Save" />
 </menu>

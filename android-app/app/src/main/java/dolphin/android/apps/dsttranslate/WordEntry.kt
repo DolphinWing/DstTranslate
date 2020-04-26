@@ -30,4 +30,11 @@ data class WordEntry(
 //            return from(line1, "", line3, line4)
 //        }
     }
+
+    override fun hashCode(): Int = id.hashCode() + str.hashCode()
+
+    override fun equals(other: Any?): Boolean {
+        val that = other as? WordEntry
+        return (that?.key == this.key && that.id == this.id && that.str == this.str)
+    }
 }

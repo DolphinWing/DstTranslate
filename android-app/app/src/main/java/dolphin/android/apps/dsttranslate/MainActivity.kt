@@ -11,12 +11,19 @@ import android.provider.Settings
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import androidx.recyclerview.widget.RecyclerView
 import com.zqc.opencc.android.lib.ChineseConverter
 import com.zqc.opencc.android.lib.ConversionType
+import eu.davidea.flexibleadapter.FlexibleAdapter
+import eu.davidea.flexibleadapter.common.SmoothScrollLinearLayoutManager
+import eu.davidea.flexibleadapter.items.AbstractFlexibleItem
+import eu.davidea.flexibleadapter.items.IFlexible
+import eu.davidea.viewholders.FlexibleViewHolder
 import java.io.*
 import java.util.concurrent.Executors
 
@@ -61,6 +68,8 @@ class MainActivity : AppCompatActivity() {
                 } else {
                     startAppInfoActivity()
                 }
+            android.R.id.button2 ->
+                writeEntryToFile(targetFile, wordList)
         }
         return super.onOptionsItemSelected(item)
     }
@@ -68,14 +77,7 @@ class MainActivity : AppCompatActivity() {
     private fun runDstTranslation() {
         executor.submit {
             runTranslation(Runnable {
-                val l = wordList.filter { entry -> entry.newly }
-                var text = "total changes: ${l.size}\n\n"
-                l.forEach { entry ->
-                    //Log.d(TAG, "added: ${entry.key}")
-                    text += "${entry.key}: ${entry.str.drop(1).dropLast(1)}\n"
-                }
-                findViewById<TextView>(android.R.id.text1)?.text = text
-                Log.d(TAG, "list changed: ${l.size}")
+                showChangeList()
                 Toast.makeText(
                     this@MainActivity,
                     "DONE ${targetFile.absolutePath}",
@@ -99,6 +101,7 @@ class MainActivity : AppCompatActivity() {
         ContextCompat.checkSelfPermission(baseContext, it) == PackageManager.PERMISSION_GRANTED
     }
 
+    private val originMap = HashMap<String, WordEntry>()
     private val wordList = ArrayList<WordEntry>()
 
     private fun runTranslation(postAction: Runnable? = null) {
@@ -109,21 +112,21 @@ class MainActivity : AppCompatActivity() {
         val stop1 = System.currentTimeMillis()
         Log.d(TAG, "original SC size: ${s.size} (${stop1 - start} ms)")
 
-        val map1 = HashMap<String, WordEntry>()
+        originMap.clear()
         loadAssetFile("dst_cht.po").filter { entry ->
             entry.id != "\"\"" && entry.str != "\"\""
         }.forEach { entry ->
-            map1[entry.key] = entry
+            originMap[entry.key] = entry
         }
         val stop3 = System.currentTimeMillis()
-        Log.d(TAG, "previous data size: ${map1.size} (${stop3 - stop1} ms)")
+        Log.d(TAG, "previous data size: ${originMap.size} (${stop3 - stop1} ms)")
 
         wordList.clear()
         s.forEach { entry ->
             var newly = false
             var str = ""
-            if (map1.containsKey(entry.key)) {
-                val str1 = map1[entry.key]?.str ?: ""
+            if (originMap.containsKey(entry.key)) {
+                val str1 = originMap[entry.key]?.str ?: ""
                 if (str1.isNotEmpty()) str = str1.trim()
             } else {
                 Log.d(TAG, "add ${entry.key}")
@@ -139,7 +142,7 @@ class MainActivity : AppCompatActivity() {
         val stop4 = System.currentTimeMillis()
         Log.d(TAG, "new list size: ${wordList.size} (${stop4 - stop3} ms)")
 
-        writeEntryToFile(targetFile, wordList)
+        writeEntryToFile(File(cacheDir, "dst_cht.po"), wordList)
         Log.d(TAG, "write data done. ${System.currentTimeMillis() - start} ms")
         if (postAction != null) runOnUiThread(postAction)
     }
@@ -268,5 +271,74 @@ class MainActivity : AppCompatActivity() {
         }
         Log.d(TAG, "write to ${dst.absolutePath} with ${dst.length()} done")
         return true
+    }
+
+    class ItemViewHolder(
+        view: View?,
+        adapter: FlexibleAdapter<IFlexible<RecyclerView.ViewHolder>>?
+    ) : FlexibleViewHolder(view, adapter) {
+        private val key: TextView? = view?.findViewById(android.R.id.title)
+        private val text1: TextView? = view?.findViewById(android.R.id.text1)
+        private val text2: TextView? = view?.findViewById(android.R.id.text2)
+        private val message: TextView? = view?.findViewById(android.R.id.message)
+        fun apply(entry: WordEntry, old: WordEntry? = null) {
+            contentView.tag = entry
+            key?.text = entry.key
+            val same = old == null || old == entry
+            text1?.visibility = if (same) View.GONE else View.VISIBLE
+            message?.text = if (same || old?.str == entry.str) entry.str else entry.id
+            text1?.text = if (old?.id == entry.id) old.str else old?.id ?: ""
+            text2?.text = if (old?.id == entry.id) entry.str else entry.id
+        }
+    }
+
+    class EntryItemView(private val entry: WordEntry, private val old: WordEntry? = null) :
+        AbstractFlexibleItem<ItemViewHolder>() {
+        override fun bindViewHolder(
+            adapter: FlexibleAdapter<IFlexible<RecyclerView.ViewHolder>>?,
+            holder: ItemViewHolder?,
+            position: Int,
+            payloads: MutableList<Any>?
+        ) {
+            holder?.apply(entry, old)
+        }
+
+        override fun equals(other: Any?): Boolean {
+            return (other as? EntryItemView)?.entry?.key == this.entry.key
+        }
+
+        override fun createViewHolder(
+            view: View?,
+            adapter: FlexibleAdapter<IFlexible<RecyclerView.ViewHolder>>?
+        ): ItemViewHolder = ItemViewHolder(view, adapter)
+
+        override fun getLayoutRes(): Int = R.layout.item_entry
+
+        override fun hashCode(): Int = entry.hashCode()
+    }
+
+    private fun showChangeList() {
+        val list = ArrayList<EntryItemView>()
+        wordList.filter { entry ->
+            val origin = originMap[entry.key]
+            (entry.newly || origin?.id != entry.id || origin.str != entry.str)
+                    && entry.str.length > 2
+        }.forEach { entry ->
+            list.add(EntryItemView(entry = entry, old = originMap[entry.key]))
+        }
+        findViewById<RecyclerView>(android.R.id.list)?.apply {
+            adapter = FlexibleAdapter(list, object : FlexibleAdapter.OnItemClickListener {
+                override fun onItemClick(view: View?, position: Int): Boolean {
+                    Log.d(TAG, "click ${(view?.tag as? WordEntry)?.key}")
+                    return true
+                }
+            })
+            setHasFixedSize(true)
+            layoutManager = SmoothScrollLinearLayoutManager(this@MainActivity)
+        }
+    }
+
+    private fun showEntryEditor(entry: WordEntry) {
+
     }
 }
