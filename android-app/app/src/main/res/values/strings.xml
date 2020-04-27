@@ -19,4 +19,7 @@
         <item>考拉象|無尾象</item>
         <item>帕格納|普格納</item>
     </string-array>
+    <string name="button_apply">Apply</string>
+    <string name="button_refresh">Refresh</string>
+    <string name="button_save">Save</string>
 </resources>

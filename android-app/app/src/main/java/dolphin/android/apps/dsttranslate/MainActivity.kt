@@ -1,6 +1,9 @@
 package dolphin.android.apps.dsttranslate
 
 import android.Manifest
+import android.content.ClipData
+import android.content.ClipboardManager
+import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri
@@ -71,8 +74,12 @@ class MainActivity : AppCompatActivity() {
                 } else {
                     startAppInfoActivity()
                 }
-            android.R.id.button2 ->
+            android.R.id.button2 -> {
+                val start = System.currentTimeMillis()
                 writeEntryToFile(targetFile, wordList)
+                showResultToast(targetFile, System.currentTimeMillis() - start)
+            }
+
         }
         return super.onOptionsItemSelected(item)
     }
@@ -81,11 +88,7 @@ class MainActivity : AppCompatActivity() {
         executor.submit {
             runTranslation { timeCost ->
                 showChangeList()
-                Toast.makeText(
-                    this@MainActivity,
-                    "DONE ${targetFile.absolutePath} ($timeCost ms)",
-                    Toast.LENGTH_SHORT
-                ).show()
+                showResultToast(cacheFile, timeCost)
             }
         }
     }
@@ -145,7 +148,7 @@ class MainActivity : AppCompatActivity() {
         val stop4 = System.currentTimeMillis()
         Log.d(TAG, "new list size: ${wordList.size} (${stop4 - stop3} ms)")
 
-        writeEntryToFile(File(cacheDir, "dst_cht.po"), wordList)
+        writeEntryToFile(cacheFile, wordList)
         val cost = System.currentTimeMillis() - start
         Log.d(TAG, "write data done. $cost ms")
         if (postAction != null) runOnUiThread { postAction(cost) }
@@ -180,6 +183,9 @@ class MainActivity : AppCompatActivity() {
 
     private val targetFile: File
         get() = File(sdcard, "dst_cht.po")
+
+    private val cacheFile: File
+        get() = File(cacheDir, "dst_cht.po")
 
     @Suppress("RemoveExplicitTypeArguments")
     private fun loadSdCardFile(name: String): ArrayList<WordEntry> {
@@ -277,7 +283,7 @@ class MainActivity : AppCompatActivity() {
         return true
     }
 
-    class ItemViewHolder(
+    private class ItemViewHolder(
         view: View?,
         adapter: FlexibleAdapter<IFlexible<RecyclerView.ViewHolder>>?
     ) : FlexibleViewHolder(view, adapter) {
@@ -286,7 +292,7 @@ class MainActivity : AppCompatActivity() {
         private val text2: TextView? = view?.findViewById(android.R.id.text2)
         private val message: TextView? = view?.findViewById(android.R.id.message)
         fun apply(entry: WordEntry, old: WordEntry? = null) {
-            contentView.tag = Pair(entry, old)
+//            contentView.tag = Pair(entry, old)
             key?.text = entry.key
             val same = old == null || old == entry
             text1?.visibility = if (same) View.GONE else View.VISIBLE
@@ -296,7 +302,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    class EntryItemView(private val entry: WordEntry, private val old: WordEntry? = null) :
+    private class EntryItemView(val entry: WordEntry, val old: WordEntry? = null) :
         AbstractFlexibleItem<ItemViewHolder>() {
         override fun bindViewHolder(
             adapter: FlexibleAdapter<IFlexible<RecyclerView.ViewHolder>>?,
@@ -321,23 +327,27 @@ class MainActivity : AppCompatActivity() {
         override fun hashCode(): Int = entry.hashCode()
     }
 
+    private val list = ArrayList<EntryItemView>()
+
     private fun showChangeList() {
-        val list = ArrayList<EntryItemView>()
+        list.clear()
         wordList.filter { entry ->
             val origin = originMap[entry.key]
             (entry.newly || origin?.id != entry.id || origin.str != entry.str)
                     && entry.str.length > 2
         }.forEach { entry ->
-            list.add(EntryItemView(entry = entry, old = originMap[entry.key]))
+            //make a copy here that we have chance to revert back
+            list.add(EntryItemView(entry = entry.copy(), old = originMap[entry.key]))
         }
         findViewById<RecyclerView>(android.R.id.list)?.apply {
             adapter = FlexibleAdapter(list, object : FlexibleAdapter.OnItemClickListener {
                 override fun onItemClick(view: View?, position: Int): Boolean {
                     //Log.d(TAG, "click ${(view?.tag as? WordEntry)?.key}")
-                    @Suppress("UNCHECKED_CAST")
-                    (view?.tag as? Pair<WordEntry, WordEntry?>)?.apply {
-                        showEntryEditor(first, second)
-                    }
+                    showEntryEditor(list[position].entry, list[position].old)
+//                    @Suppress("UNCHECKED_CAST")
+//                    (view?.tag as? Pair<WordEntry, WordEntry?>)?.apply {
+//                        showEntryEditor(first, second)
+//                    }
                     return true
                 }
             })
@@ -355,11 +365,11 @@ class MainActivity : AppCompatActivity() {
         editor.setOnTouchListener { _, _ -> true }
         button1.setOnClickListener { view ->
             textField.editText?.setText(view.tag.toString())
-            container.visibility = View.VISIBLE
+            //container.visibility = View.VISIBLE
         }
         button2.setOnClickListener { view ->
             textField.editText?.setText(view.tag.toString())
-            container.visibility = View.VISIBLE
+            //container.visibility = View.VISIBLE
         }
         button3.setOnClickListener { view ->
             val key = view.tag.toString()
@@ -368,19 +378,42 @@ class MainActivity : AppCompatActivity() {
             }
             container.visibility = View.GONE
         }
+        text1.setOnClickListener {
+            copyToClipboard(it.tag.toString())
+            Toast.makeText(this@MainActivity, "Copied!", Toast.LENGTH_SHORT).show()
+        }
+        text2.setOnClickListener {
+            copyToClipboard(it.tag.toString())
+            Toast.makeText(this@MainActivity, "Copied!", Toast.LENGTH_SHORT).show()
+        }
     }
 
     private fun showEntryEditor(entry: WordEntry, origin: WordEntry?) {
         entry_id.text = entry.key
         text1.text = origin?.id ?: entry.id
+        text1.tag = (origin?.id ?: entry.id).drop(1).dropLast(1)
         button1.text = origin?.str ?: entry.str
         button1.tag = origin?.str ?: entry.str
         button1.isEnabled = origin != null && origin.str != entry.str
         text2.text = entry.id
+        text2.tag = entry.id.drop(1).dropLast(1)
         button2.text = entry.str
         button2.tag = entry.str
         textField.editText?.setText(entry.str)
         container.visibility = View.VISIBLE
         button3.tag = entry.key
+    }
+
+    private fun showResultToast(file: File, timeCost: Long) {
+        Toast.makeText(
+            this@MainActivity,
+            "DONE ${file.absolutePath} ($timeCost ms)",
+            Toast.LENGTH_SHORT
+        ).show()
+    }
+
+    private fun copyToClipboard(text: String, label: String = TAG) {
+        val clip = ClipData.newPlainText(label, text)
+        (getSystemService(Context.CLIPBOARD_SERVICE) as? ClipboardManager)?.setPrimaryClip(clip)
     }
 }
