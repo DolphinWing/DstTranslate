@@ -22,7 +22,7 @@ local OldTranslateStringTable = GLOBAL.TranslateStringTable
 GLOBAL.TranslateStringTable = function(...)
 	-- load offical translation first, take simplified chinese first
 	if fileExists("scripts/languages/chinese_s.po") then
-		GLOBAL.LanguageTranslator:LoadPOFile("scripts/languages/chinese_s.po", "cht")
+		GLOBAL.LanguageTranslator:LoadPOFile("scripts/languages/chinese_s.po", "chs")
 	end
 	LoadPOFile("dst_cht.po", "cht") -- load my translations
 	OldTranslateStringTable(...) -- do translations
@@ -168,7 +168,7 @@ local function fixClockHudControlFontSize()
 	AddClassPostConstruct("widgets/uiclock", function(self)
 		if self._text then
 			--self._text:SetFont(FONT_TABLE.NUMBERFONT)
-			self._text:SetSize(24 / fontRatio) --original 33 / 1
+			self._text:SetSize(25 / fontRatio) --original 33 / 1
 		end
 		--if self._moonanim and self._moonanim.moontext then
 		--	self._moonanim.moontext:SetFont(FontNames.NUMBERFONT)
