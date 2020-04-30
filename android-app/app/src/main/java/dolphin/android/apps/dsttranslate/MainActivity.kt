@@ -399,7 +399,8 @@ class MainActivity : AppCompatActivity() {
         text2.tag = entry.id.drop(1).dropLast(1)
         button2.text = entry.str
         button2.tag = entry.str
-        textField.editText?.setText(entry.str)
+        val str = wordList.find { it.key == entry.key }?.str ?: entry.str //use dictionary
+        textField.editText?.setText(str)
         container.visibility = View.VISIBLE
         button3.tag = entry.key
     }
