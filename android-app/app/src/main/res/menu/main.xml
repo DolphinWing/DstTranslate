@@ -4,9 +4,13 @@
 
     <item
         android:id="@android:id/button1"
-        android:title="Run" />
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="@string/button_refresh"
+        app:showAsAction="ifRoom|withText" />
 
     <item
         android:id="@android:id/button2"
-        android:title="Save" />
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/button_save"
+        app:showAsAction="ifRoom|withText" />
 </menu>
