@@ -287,22 +287,17 @@ class MainActivity : AppCompatActivity() {
         view: View?,
         adapter: FlexibleAdapter<IFlexible<RecyclerView.ViewHolder>>?
     ) : FlexibleViewHolder(view, adapter) {
-        private val key: TextView? = view?.findViewById(android.R.id.title)
-        private val text1: TextView? = view?.findViewById(android.R.id.text1)
-        private val text2: TextView? = view?.findViewById(android.R.id.text2)
-        private val message: TextView? = view?.findViewById(android.R.id.message)
-        fun apply(entry: WordEntry, old: WordEntry? = null) {
-//            contentView.tag = Pair(entry, old)
-            key?.text = entry.key
-            val same = old == null || old == entry
-            text1?.visibility = if (same) View.GONE else View.VISIBLE
-            message?.text = if (same || old?.str == entry.str) entry.str else entry.id
-            text1?.text = if (old?.id == entry.id) old.str else old?.id ?: ""
-            text2?.text = if (old?.id == entry.id) entry.str else entry.id
-        }
+        val key: TextView? = view?.findViewById(android.R.id.title)
+        val text1: TextView? = view?.findViewById(android.R.id.text1)
+        val text2: TextView? = view?.findViewById(android.R.id.text2)
+        val message: TextView? = view?.findViewById(android.R.id.message)
     }
 
-    private class EntryItemView(val entry: WordEntry, val old: WordEntry? = null) :
+    private class EntryItemView(
+        val origin: WordEntry,
+        val entry: WordEntry,
+        val old: WordEntry? = null
+    ) :
         AbstractFlexibleItem<ItemViewHolder>() {
         override fun bindViewHolder(
             adapter: FlexibleAdapter<IFlexible<RecyclerView.ViewHolder>>?,
@@ -310,7 +305,14 @@ class MainActivity : AppCompatActivity() {
             position: Int,
             payloads: MutableList<Any>?
         ) {
-            holder?.apply(entry, old)
+            holder?.apply {
+                key?.text = entry.key
+                val same = old == null || old == entry
+                text1?.visibility = if (same) View.GONE else View.VISIBLE
+                message?.text = if (same || old?.str == entry.str) origin.str else entry.id
+                text1?.text = if (old?.id == entry.id) old.str else old?.id ?: ""
+                text2?.text = if (old?.id == entry.id) entry.str else entry.id
+            }
         }
 
         override fun equals(other: Any?): Boolean {
@@ -328,6 +330,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private val list = ArrayList<EntryItemView>()
+    private var dataAdapter: FlexibleAdapter<*>? = null
 
     private fun showChangeList() {
         list.clear()
@@ -337,20 +340,24 @@ class MainActivity : AppCompatActivity() {
                     && entry.str.length > 2
         }.forEach { entry ->
             //make a copy here that we have chance to revert back
-            list.add(EntryItemView(entry = entry.copy(), old = originMap[entry.key]))
+            list.add(
+                EntryItemView(
+                    origin = entry,
+                    entry = entry.copy(),
+                    old = originMap[entry.key]
+                )
+            )
         }
+        dataAdapter = FlexibleAdapter(list, object : FlexibleAdapter.OnItemClickListener {
+            override fun onItemClick(view: View?, position: Int): Boolean {
+                //Log.d(TAG, "click ${(view?.tag as? WordEntry)?.key}")
+                editIndex = position
+                showEntryEditor(list[position].entry, list[position].old)
+                return true
+            }
+        })
         findViewById<RecyclerView>(android.R.id.list)?.apply {
-            adapter = FlexibleAdapter(list, object : FlexibleAdapter.OnItemClickListener {
-                override fun onItemClick(view: View?, position: Int): Boolean {
-                    //Log.d(TAG, "click ${(view?.tag as? WordEntry)?.key}")
-                    showEntryEditor(list[position].entry, list[position].old)
-//                    @Suppress("UNCHECKED_CAST")
-//                    (view?.tag as? Pair<WordEntry, WordEntry?>)?.apply {
-//                        showEntryEditor(first, second)
-//                    }
-                    return true
-                }
-            })
+            adapter = dataAdapter
             setHasFixedSize(true)
             layoutManager = SmoothScrollLinearLayoutManager(this@MainActivity)
         }
@@ -376,6 +383,7 @@ class MainActivity : AppCompatActivity() {
             wordList.find { entry -> entry.key == key }?.apply {
                 str = textField.editText?.text?.toString() ?: str
             }
+            dataAdapter?.notifyItemChanged(editIndex)
             container.visibility = View.GONE
         }
         text1.setOnClickListener {
@@ -387,6 +395,8 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this@MainActivity, "Copied!", Toast.LENGTH_SHORT).show()
         }
     }
+
+    private var editIndex: Int = 0
 
     private fun showEntryEditor(entry: WordEntry, origin: WordEntry?) {
         entry_id.text = entry.key
