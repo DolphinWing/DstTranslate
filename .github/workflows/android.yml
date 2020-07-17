@@ -5,6 +5,7 @@ on:
     branches: [ master ]
     paths:
     - android-app/**
+    - !android-app/app/src/main/assets/**
 
 jobs:
   build:
