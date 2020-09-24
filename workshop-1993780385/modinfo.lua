@@ -1,11 +1,11 @@
 -- mod name
 name = "正體中文包"
 -- mod version
-version = "0.7.4"
+version = "0.7.5"
 -- mod author
 author = "DolphinWing"
 -- mod description in the game
-description = "版本: "..version.."(427361)\n\n"..
+description = "版本: "..version.."(Wigfrid update)\n\n"..
 	"文字主要以Klei簡體中文文檔為主，輔以Klei正體中文文檔，"..
 	"並參考Don't Starve中文維基，以及一些私心小修正。\n\n"..
 	"當啟用「我想吃粉圓」的功能，會將原本遊戲字型換成「粉圓字型」。"..
