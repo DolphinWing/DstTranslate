@@ -1,6 +1,7 @@
 package dolphin.android.apps.dsttranslate
 
 import android.Manifest
+import android.annotation.SuppressLint
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
@@ -107,6 +108,7 @@ class MainActivity : AppCompatActivity() {
         ContextCompat.checkSelfPermission(baseContext, it) == PackageManager.PERMISSION_GRANTED
     }
 
+    private val sourceMap = HashMap<String, WordEntry>()
     private val originMap = HashMap<String, WordEntry>()
     private val wordList = ArrayList<WordEntry>()
 
@@ -115,6 +117,11 @@ class MainActivity : AppCompatActivity() {
         val start = System.currentTimeMillis()
 
         val s = loadAssetFile("chinese_s.po")
+        sourceMap.clear()
+        s.forEach { entry ->
+            // entry.str = sc2tc(entry.str).trim() // translate to traditional
+            sourceMap[entry.key] = entry
+        }
         val stop1 = System.currentTimeMillis()
         Log.d(TAG, "original SC size: ${s.size} (${stop1 - start} ms)")
 
@@ -178,6 +185,7 @@ class MainActivity : AppCompatActivity() {
         return str
     }
 
+    @Suppress("DEPRECATION")
     private val sdcard =
         Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
 
@@ -288,6 +296,7 @@ class MainActivity : AppCompatActivity() {
         adapter: FlexibleAdapter<IFlexible<RecyclerView.ViewHolder>>?
     ) : FlexibleViewHolder(view, adapter) {
         val key: TextView? = view?.findViewById(android.R.id.title)
+        val srcText: TextView? = view?.findViewById(android.R.id.custom)
         val text1: TextView? = view?.findViewById(android.R.id.text1)
         val text2: TextView? = view?.findViewById(android.R.id.text2)
         val message: TextView? = view?.findViewById(android.R.id.message)
@@ -295,10 +304,12 @@ class MainActivity : AppCompatActivity() {
 
     private class EntryItemView(
         val origin: WordEntry,
-        val entry: WordEntry,
-        val old: WordEntry? = null
-    ) :
-        AbstractFlexibleItem<ItemViewHolder>() {
+        val old: WordEntry? = null,
+        val src: WordEntry? = null
+    ) : AbstractFlexibleItem<ItemViewHolder>() {
+        // make a copy here that we have chance to revert back
+        val entry: WordEntry = origin.copy()
+
         override fun bindViewHolder(
             adapter: FlexibleAdapter<IFlexible<RecyclerView.ViewHolder>>?,
             holder: ItemViewHolder?,
@@ -307,11 +318,13 @@ class MainActivity : AppCompatActivity() {
         ) {
             holder?.apply {
                 key?.text = entry.key
-                val same = old == null || old == entry
-                text1?.visibility = if (same) View.GONE else View.VISIBLE
-                message?.text = if (same || old?.str == entry.str) origin.str else entry.id
-                text1?.text = if (old?.id == entry.id) old.str else old?.id ?: ""
-                text2?.text = if (old?.id == entry.id) entry.str else entry.id
+                srcText?.text = src?.id
+                // val same = old == null || old == entry
+                // text1?.visibility = if (same) View.GONE else View.VISIBLE
+                text1?.text = if (old?.id == entry.id) old.str else old?.id ?: entry.id
+                text2?.text = entry.str
+                message?.text = origin.str
+                // if (same || old?.str == entry.str) origin.str else entry.id
             }
         }
 
@@ -339,12 +352,11 @@ class MainActivity : AppCompatActivity() {
             (entry.newly || origin?.id != entry.id || origin.str != entry.str)
                     && entry.str.length > 2
         }.forEach { entry ->
-            //make a copy here that we have chance to revert back
             list.add(
                 EntryItemView(
                     origin = entry,
-                    entry = entry.copy(),
-                    old = originMap[entry.key]
+                    old = originMap[entry.key],
+                    src = sourceMap[entry.key]
                 )
             )
         }
@@ -363,6 +375,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    @SuppressLint("ClickableViewAccessibility")
     private fun prepareEntryEditor() {
         container = findViewById(R.id.container)
         container.setOnTouchListener { _, _ ->
@@ -386,6 +399,10 @@ class MainActivity : AppCompatActivity() {
             dataAdapter?.notifyItemChanged(editIndex)
             container.visibility = View.GONE
         }
+        button4.setOnClickListener { view ->
+            textField.editText?.setText(view.tag.toString())
+            //container.visibility = View.VISIBLE
+        }
         text1.setOnClickListener {
             copyToClipboard(it.tag.toString())
             Toast.makeText(this@MainActivity, "Copied!", Toast.LENGTH_SHORT).show()
@@ -399,6 +416,8 @@ class MainActivity : AppCompatActivity() {
     private var editIndex: Int = 0
 
     private fun showEntryEditor(entry: WordEntry, origin: WordEntry?) {
+        Log.d(TAG, "entry: ${entry.id} ${entry.str}")
+        Log.d(TAG, "origin: ${origin?.id} ${origin?.str}")
         entry_id.text = entry.key
         text1.text = origin?.id ?: entry.id
         text1.tag = (origin?.id ?: entry.id).drop(1).dropLast(1)
@@ -409,7 +428,12 @@ class MainActivity : AppCompatActivity() {
         text2.tag = entry.id.drop(1).dropLast(1)
         button2.text = entry.str
         button2.tag = entry.str
-        val str = wordList.find { it.key == entry.key }?.str ?: entry.str //use dictionary
+        button4.apply {
+            text = sc2tc(sourceMap[entry.key]?.str ?: "")
+            isEnabled = text?.isNotEmpty() == true
+            tag = text
+        }
+        val str = wordList.find { it.key == entry.key }?.str ?: entry.str // use dictionary
         textField.editText?.setText(str)
         container.visibility = View.VISIBLE
         button3.tag = entry.key

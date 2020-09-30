@@ -23,6 +23,14 @@
             android:fontFamily="monospace"
             android:text="@string/app_name" />
 
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:text="@string/app_name"
+            android:textSize="24sp" />
+
         <TextView
             android:id="@+id/text1"
             style="@style/TextAppearance.MaterialComponents.Headline5"
