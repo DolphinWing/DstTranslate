@@ -18,6 +18,7 @@
         <item>粘|黏</item>
         <item>考拉象|無尾象</item>
         <item>帕格納|普格納</item>
+        <item>土豆|馬鈴薯</item>
     </string-array>
     <string name="button_apply">Apply</string>
     <string name="button_refresh">Refresh</string>
