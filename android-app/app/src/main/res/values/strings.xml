@@ -19,6 +19,9 @@
         <item>考拉象|無尾象</item>
         <item>帕格納|普格納</item>
         <item>土豆|馬鈴薯</item>
+        <item>皮膚物品|造型物品</item>
+        <item>格羅姆|咕嚕咪</item>
+        <item>銩|圖勒</item>
     </string-array>
     <string name="button_apply">Apply</string>
     <string name="button_refresh">Refresh</string>
