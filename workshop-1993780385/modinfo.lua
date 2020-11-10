@@ -1,9 +1,9 @@
 -- mod name
 name = "正體中文包"
 -- mod version
-version = "0.8.5"
+version = "0.9.0"
 -- mod author
-author = "DolphinWing"
+author = "DolphinWing and anetrlf2"
 -- mod description in the game
 description = "版本: "..version.." (v438711)\n\n"..
 	"文字主要以Klei簡體中文文檔為主，輔以Klei正體中文文檔，"..

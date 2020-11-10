@@ -1,4 +1,4 @@
-[正體中文包](https://steamcommunity.com/sharedfiles/filedetails/?id=1993780385) by DolphinWing
+[正體中文包](https://steamcommunity.com/sharedfiles/filedetails/?id=1993780385) by DolphinWing and anetrlf2
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/DolphinWing/DSTTranslate?logo=github) ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/1993780385?logo=steam) ![Steam Favorites](https://img.shields.io/steam/favorites/1993780385?logo=steam)
 
