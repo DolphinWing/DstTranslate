@@ -24,6 +24,11 @@
         <item>銩|圖勒</item>
         <item>污|汙</item>
         <item>獃|呆</item>
+        <item>“|「</item>
+        <item>”|」</item>
+        <item>想象|想像</item>
+        <item>花哨|花俏</item>
+        <item>意大利|義大利</item>
     </string-array>
     <string name="button_apply">Apply</string>
     <string name="button_refresh">Refresh</string>
