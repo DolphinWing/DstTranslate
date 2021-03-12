@@ -1,7 +1,7 @@
 -- mod name
 name = "正體中文包"
 -- mod version
-version = "0.9.10"
+version = "1.0.0"
 -- mod author
 author = "DolphinWing and anetrlf2"
 -- mod description in the game
@@ -28,7 +28,7 @@ dst_compatible = true
 dont_starve_compatible = false
 reign_of_giants_compatible = false
 shipwrecked_compatible = false
---Some mods may crash or not work correctly until the game is restarted 
+--Some mods may crash or not work correctly until the game is restarted
 --after the mod is enabled/disabled
 client_only_mod = true
 server_only_mod = false
@@ -63,20 +63,20 @@ local opt_def = {
 	Option("啟用", true),
 }
 
-local size_def = { 
-	{description = "0.5x", data = 0.5}, 
-	{description = "0.6x", data = 0.6}, 
-	{description = "0.7x", data = 0.7}, 
+local size_def = {
+	{description = "0.5x", data = 0.5},
+	{description = "0.6x", data = 0.6},
+	{description = "0.7x", data = 0.7},
 	{description = "0.75x", data = 0.75},
-	{description = "0.8x", data = 0.8}, 
-	{description = "0.9x", data = 0.9}, 
-	{description = "1.0x", data = 1.0}, 
-	{description = "1.1x", data = 1.1}, 
-	{description = "1.2x", data = 1.2}, 
+	{description = "0.8x", data = 0.8},
+	{description = "0.9x", data = 0.9},
+	{description = "1.0x", data = 1.0},
+	{description = "1.1x", data = 1.1},
+	{description = "1.2x", data = 1.2},
 	{description = "1.25x", data = 1.25},
-	{description = "1.3x", data = 1.3}, 
-	{description = "1.4x", data = 1.4}, 
-	{description = "1.5x", data = 1.5}, 
+	{description = "1.3x", data = 1.3},
+	{description = "1.4x", data = 1.4},
+	{description = "1.5x", data = 1.5},
 }
 
 configuration_options =
