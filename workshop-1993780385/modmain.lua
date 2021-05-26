@@ -314,7 +314,7 @@ end
 --override some text size
 if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
 	fixClockHudControlFontSize()
-	fixRecipeHudControlFontSize()
+	--fixRecipeHudControlFontSize()
 	fixInventoryFontSize()
 	fixLoadingWidgetFontSize()
 	--fixMainScreenButtonFontSize()
