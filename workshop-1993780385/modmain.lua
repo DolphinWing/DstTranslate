@@ -188,12 +188,12 @@ local function fixClockHudControlFontSize()
 end
 
 local function fixRecipeHudControlFontSize()
-	AddClassPostConstruct("widgets/recipepopup", function(self)
-		if self.desc then
-			self.desc:SetSize(30 / fontRatio) --original 33 or 30
-			self.desc:SetRegionSize(64 * 3 + 30, 90)
-		end
-	end)
+	--AddClassPostConstruct("widgets/recipepopup", function(self)
+	--	if self.desc then
+	--		self.desc:SetSize(30 / fontRatio) --original 33 or 30
+	--		self.desc:SetRegionSize(64 * 3 + 30, 90)
+	--	end
+	--end)
 
 	AddClassPostConstruct("widgets/ingredientui", function(self)
 		if self.quant then
@@ -314,7 +314,7 @@ end
 --override some text size
 if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
 	fixClockHudControlFontSize()
-	--fixRecipeHudControlFontSize()
+	fixRecipeHudControlFontSize()
 	fixInventoryFontSize()
 	fixLoadingWidgetFontSize()
 	--fixMainScreenButtonFontSize()
