@@ -5,7 +5,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <dolphin.android.apps.dsttranslate.FixedRecyclerView
+    <!--<dolphin.android.apps.dsttranslate.FixedRecyclerView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+    <androidx.compose.ui.platform.ComposeView
         android:id="@android:id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

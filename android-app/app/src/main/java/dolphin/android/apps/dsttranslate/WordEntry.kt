@@ -5,7 +5,8 @@ data class WordEntry(
     val text: String,
     val id: String,
     var str: String,
-    val newly: Boolean = false
+    val newly: Boolean = false,
+    var changed: Long = 0L,
 ) {
     companion object {
         fun from(line1: String, line2: String, line3: String, line4: String): WordEntry? {
