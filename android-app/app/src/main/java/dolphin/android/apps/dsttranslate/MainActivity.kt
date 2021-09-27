@@ -1,7 +1,6 @@
 package dolphin.android.apps.dsttranslate
 
 import android.Manifest
-import android.annotation.SuppressLint
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
@@ -15,25 +14,33 @@ import android.provider.Settings
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
-import android.view.View
 import android.widget.Toast
+import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.requiredSize
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material.CircularProgressIndicator
 import androidx.compose.runtime.livedata.observeAsState
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.MutableLiveData
+import dolphin.android.apps.dsttranslate.compose.EntryCountView
+import dolphin.android.apps.dsttranslate.compose.EntryEditor
+import dolphin.android.apps.dsttranslate.compose.EntryView
 import kotlinx.android.synthetic.main.layout_main.*
 import java.io.*
 import java.util.concurrent.Executors
-
 
 @ExperimentalFoundationApi
 class MainActivity : AppCompatActivity() {
@@ -50,20 +57,15 @@ class MainActivity : AppCompatActivity() {
     private val executor = Executors.newSingleThreadExecutor()
     private lateinit var helper: PoHelper
 
-    private lateinit var container: View
+//    private lateinit var container: View
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         helper = PoHelper(this)
 
-        setContentView(R.layout.activity_main)
-        findViewById<ComposeView>(android.R.id.list)?.setContent {
+        setContent {
             val list = dataList.observeAsState()
             val changed = changeList.observeAsState()
-
-            if (loading.observeAsState().value == true) {
-                CircularProgressIndicator(modifier = Modifier.requiredSize(48.dp))
-            }
 
             LazyColumn {
                 stickyHeader {
@@ -72,11 +74,14 @@ class MainActivity : AppCompatActivity() {
                 itemsIndexed(list.value ?: ArrayList(), key = { _, item ->
                     item.key
                 }) { index, entry ->
+                    val origin = remember { helper.originMap[entry.key] }
+                    val source = remember { helper.sourceMap[entry.key] }
+
                     EntryView(
                         origin = entry,
                         modifier = Modifier.fillMaxWidth(),
-                        old = helper.originMap[entry.key],
-                        src = helper.sourceMap[entry.key],
+                        old = origin,
+                        src = source,
                         onItemClick = { item ->
                             showEntryEditor(item, helper.originMap[item.key])
                         },
@@ -85,8 +90,28 @@ class MainActivity : AppCompatActivity() {
                     )
                 }
             }
+
+            if (editing.observeAsState().value == true) {
+                EntryEditor(
+                    target = editTarget.observeAsState().value ?: WordEntry.default(),
+                    origin = editOrigin.observeAsState().value,
+                    source = editSource.observeAsState().value,
+                    onCancel = { hideEntryEditor() },
+                    onCopy = { text -> copyToClipboard(text) },
+                    onSave = { key, text -> applyToDictionary(key, text) },
+                    modifier = Modifier
+                        .background(Color.Black.copy(alpha = .5f))
+                        .fillMaxSize()
+                        .padding(horizontal = 48.dp, vertical = 32.dp),
+                )
+            }
+
+            if (loading.observeAsState().value == true) {
+                Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                    CircularProgressIndicator(modifier = Modifier.requiredSize(48.dp))
+                }
+            }
         }
-        prepareEntryEditor()
         if (allPermissionsGranted()) {
             Handler(Looper.getMainLooper()).post { runDstTranslation() }
         } else {
@@ -129,7 +154,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun startAppInfoActivity() {
-        //https://stackoverflow.com/a/32983128/2673859
+        // https://stackoverflow.com/a/32983128/2673859
         startActivity(Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS).apply {
             data = Uri.fromParts("package", packageName, null)
         })
@@ -145,6 +170,10 @@ class MainActivity : AppCompatActivity() {
     private val dataList = MutableLiveData<List<WordEntry>>()
     private val changeList = MutableLiveData<List<Long>>()
     private val loading = MutableLiveData(false)
+    private val editing = MutableLiveData(false)
+    private val editTarget = MutableLiveData(WordEntry.default())
+    private val editOrigin = MutableLiveData(WordEntry.default())
+    private val editSource = MutableLiveData("")
 
     private fun showChangeList() {
         val list = ArrayList<Long>()
@@ -159,68 +188,20 @@ class MainActivity : AppCompatActivity() {
         changeList.postValue(list)
     }
 
-    @SuppressLint("ClickableViewAccessibility")
-    private fun prepareEntryEditor() {
-        container = findViewById(R.id.container)
-        container.setOnTouchListener { _, _ ->
-            container.visibility = View.GONE
-            true
-        }
-        editor.setOnTouchListener { _, _ -> true }
-        button1.setOnClickListener { view ->
-            textField.editText?.setText(view.tag.toString())
-            //container.visibility = View.VISIBLE
-        }
-        button2.setOnClickListener { view ->
-            textField.editText?.setText(view.tag.toString())
-            //container.visibility = View.VISIBLE
-        }
-        button3.setOnClickListener { view ->
-            val key = view.tag.toString()
-            helper.wordList.find { entry -> entry.key == key }?.apply {
-                str = textField.editText?.text?.toString() ?: str
-                Log.d(TAG, "set new $key to $str")
-                changed = System.currentTimeMillis() // set new change time
-            }
-            showChangeList()
-            container.visibility = View.GONE
-        }
-        button4.setOnClickListener { view ->
-            textField.editText?.setText(view.tag.toString())
-            //container.visibility = View.VISIBLE
-        }
-        text1.setOnClickListener {
-            copyToClipboard(it.tag.toString())
-            Toast.makeText(this@MainActivity, "Copied!", Toast.LENGTH_SHORT).show()
-        }
-        text2.setOnClickListener {
-            copyToClipboard(it.tag.toString())
-            Toast.makeText(this@MainActivity, "Copied!", Toast.LENGTH_SHORT).show()
-        }
-    }
-
     private fun showEntryEditor(entry: WordEntry, origin: WordEntry?) {
+        if (editing.value == true) return // already editing
+
         Log.d(TAG, "entry: ${entry.id} ${entry.str}")
         if (!entry.newly) Log.d(TAG, "origin: ${origin?.id} ${origin?.str}")
-        entry_id.text = entry.key
-        text1.text = origin?.id ?: entry.id
-        text1.tag = (origin?.id ?: entry.id).drop(1).dropLast(1)
-        button1.text = origin?.str ?: entry.str
-        button1.tag = origin?.str ?: entry.str
-        button1.isEnabled = origin != null && origin.str != entry.str
-        text2.text = entry.id
-        text2.tag = entry.id.drop(1).dropLast(1)
-        button2.text = entry.str
-        button2.tag = entry.str
-        button4.apply {
-            text = helper.sc2tc(helper.sourceMap[entry.key]?.str ?: "")
-            isEnabled = text?.isNotEmpty() == true
-            tag = text
-        }
-        val str = helper.wordList.find { it.key == entry.key }?.str ?: entry.str // use dictionary
-        textField.editText?.setText(str)
-        container.visibility = View.VISIBLE
-        button3.tag = entry.key
+
+        editTarget.postValue(entry)
+        editOrigin.postValue(origin)
+        editSource.postValue(helper.sc2tc(helper.sourceMap[entry.key]?.str ?: ""))
+        editing.postValue(true)
+    }
+
+    private fun hideEntryEditor() {
+        editing.postValue(false)
     }
 
     private fun showResultToast(file: File, timeCost: Long) {
@@ -234,5 +215,16 @@ class MainActivity : AppCompatActivity() {
     private fun copyToClipboard(text: String, label: String = TAG) {
         val clip = ClipData.newPlainText(label, text)
         (getSystemService(Context.CLIPBOARD_SERVICE) as? ClipboardManager)?.setPrimaryClip(clip)
+        Toast.makeText(this@MainActivity, "Copied!", Toast.LENGTH_SHORT).show()
+    }
+
+    private fun applyToDictionary(key: String, text: String) {
+        helper.wordList.find { entry -> entry.key == key }?.apply {
+            str = text
+            Log.d(TAG, "set new $key to $str")
+            changed = System.currentTimeMillis() // set new change time
+        }
+        showChangeList()
+        hideEntryEditor()
     }
 }

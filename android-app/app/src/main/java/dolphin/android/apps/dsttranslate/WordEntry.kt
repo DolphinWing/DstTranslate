@@ -30,6 +30,8 @@ data class WordEntry(
 //        fun from(line1: String, line3: String, line4: String): WordEntry? {
 //            return from(line1, "", line3, line4)
 //        }
+
+        fun default(): WordEntry = WordEntry("", "", "", "")
     }
 
     override fun hashCode(): Int = id.hashCode() + str.hashCode()
@@ -38,4 +40,14 @@ data class WordEntry(
         val that = other as? WordEntry
         return (that?.key == this.key && that.id == this.id && that.str == this.str)
     }
+
+    fun key(): String = key.dropQuote()
+
+    fun origin(): String = id.dropQuote()
+
+    fun string(): String = str.dropQuote()
+}
+
+fun String.dropQuote(): String {
+    return if (this.startsWith("\"") && this.endsWith("\"")) this.drop(1).dropLast(1) else this
 }
