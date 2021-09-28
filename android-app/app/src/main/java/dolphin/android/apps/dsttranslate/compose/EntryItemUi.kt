@@ -1,11 +1,13 @@
 package dolphin.android.apps.dsttranslate.compose
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -20,14 +22,18 @@ import dolphin.android.apps.dsttranslate.WordEntry
 
 
 @Composable
-fun EntryCountView(list: List<WordEntry>, modifier: Modifier = Modifier) {
+fun EntryCountView(modifier: Modifier = Modifier, list: List<Long>? = null) {
     Row(
         modifier = modifier
             .background(Color(255, 255, 196))
             .padding(vertical = 4.dp, horizontal = 8.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        Text("changed: ${list.size}", modifier = Modifier.weight(1f))
+        val changed = list?.filter { it > 0L } ?: arrayListOf()
+        Text(
+            "all: ${list?.size ?: 0}, changed: ${changed.size}",
+            modifier = Modifier.weight(1f),
+        )
         Text(
             "source",
             modifier = Modifier
@@ -65,7 +71,9 @@ fun EntryView(
         modifier = modifier
             .background(if (changed > 0) Color.Yellow.copy(alpha = .1f) else Color.Transparent)
             .clickable(onClick = { onItemClick?.invoke(origin) })
-            .padding(vertical = 4.dp, horizontal = 8.dp),
+            .padding(2.dp)
+            .border(1.dp, Color.LightGray, RoundedCornerShape(4.dp))
+            .padding(vertical = 2.dp, horizontal = 6.dp),
     ) {
         Row(modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
             Text(
@@ -74,19 +82,20 @@ fun EntryView(
                 modifier = Modifier.weight(1f),
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis,
+                fontSize = AppTheme.fontSize(),
             )
-            if (origin.newly) {
-                Text(
-                    text = "NEW",
-                    modifier = Modifier.padding(horizontal = 4.dp),
-                    color = Color.Red,
-                    fontSize = 12.sp,
-                )
-            }
+//            if (origin.newly) {
+//                Text(
+//                    text = "NEW",
+//                    modifier = Modifier.padding(horizontal = 4.dp),
+//                    color = Color.Red,
+//                    fontSize = 12.sp,
+//                )
+//            }
             Text(
                 index.toString(), // String.format("%05d", index),
-                color = Color.LightGray,
-                // fontSize = 12.sp,
+                color = if (origin.newly) Color.Red else Color.LightGray,
+                fontSize = 12.sp,
             )
         }
         src?.let { source ->
@@ -115,7 +124,7 @@ fun EntryView(
 private fun PreviewEntryView() {
     AppTheme {
         Column(modifier = Modifier.background(Color.White)) {
-            EntryCountView(listOf(WordEntry.default()))
+            EntryCountView(list = listOf(0L, 0L))
 
             // new
             EntryView(

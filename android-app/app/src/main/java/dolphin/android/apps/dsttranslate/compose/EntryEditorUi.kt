@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.requiredWidth
 import androidx.compose.material.Button
 import androidx.compose.material.ButtonDefaults
@@ -47,7 +48,11 @@ fun EntryEditor(
     val holoRed = colorResource(id = android.R.color.holo_red_light)
     val holoGreen = colorResource(id = android.R.color.holo_green_dark)
 
-    Column(modifier = modifier.background(Color.White)) {
+    Column(
+        modifier = modifier
+            .background(Color.White)
+            .padding(8.dp)
+    ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Text(target.key(), modifier = Modifier.weight(1f), overflow = TextOverflow.Ellipsis)
 //            if (target.newly) {
@@ -124,18 +129,20 @@ fun EntryEditor(
                 Text(target.string())
             }
         }
+
         TextField(
             value = text,
             onValueChange = { str -> text = str },
             modifier = Modifier
                 .fillMaxWidth()
-                .weight(1f),
+                .weight(1f)
+                .padding(vertical = 4.dp),
         )
 
         Row(modifier = Modifier.fillMaxWidth()) {
             TextButton(
                 onClick = { onCancel?.invoke() },
-                modifier = Modifier.weight(1f),
+                modifier = Modifier.weight(2f),
             ) {
                 Text("Cancel")
             }

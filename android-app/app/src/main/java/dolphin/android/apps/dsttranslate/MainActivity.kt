@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
 
             LazyColumn {
                 stickyHeader {
-                    EntryCountView(list.value ?: ArrayList(), modifier = Modifier.fillMaxWidth())
+                    EntryCountView(modifier = Modifier.fillMaxWidth(), list = changed.value)
                 }
                 itemsIndexed(list.value ?: ArrayList(), key = { _, item ->
                     item.key
@@ -102,7 +102,7 @@ class MainActivity : AppCompatActivity() {
                     modifier = Modifier
                         .background(Color.Black.copy(alpha = .5f))
                         .fillMaxSize()
-                        .padding(horizontal = 48.dp, vertical = 32.dp),
+                        .padding(horizontal = 36.dp, vertical = 24.dp),
                 )
             }
 
