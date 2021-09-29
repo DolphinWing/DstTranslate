@@ -15,7 +15,9 @@ import androidx.compose.material.Text
 import androidx.compose.material.TextButton
 import androidx.compose.material.TextField
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.CopyAll
 import androidx.compose.material.icons.filled.Visibility
+import androidx.compose.material.icons.filled.Web
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -25,6 +27,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.colorResource
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -39,10 +42,11 @@ fun EntryEditor(
     source: String? = null,
     onSave: ((String, String) -> Unit)? = null,
     onCopy: ((String) -> Unit)? = null,
+    onTranslate: ((String) -> Unit)? = null,
     onCancel: (() -> Unit)? = null,
 ) {
     var text by remember { mutableStateOf(target.string()) }
-    var targetVisible by remember { mutableStateOf(!target.newly) }
+    var targetVisible by remember { mutableStateOf(true) }
     var originVisible by remember { mutableStateOf(true) }
     var sourceVisible by remember { mutableStateOf(true) }
     val holoBlue = colorResource(id = android.R.color.holo_blue_dark)
@@ -66,7 +70,7 @@ fun EntryEditor(
                     tint = if (targetVisible) holoGreen else holoGreen.copy(alpha = .25f)
                 )
             }
-            origin?.let {
+            origin?.let { // new item has no previous for reference, need to check source
                 IconButton(onClick = { originVisible = !originVisible }) {
                     Icon(
                         Icons.Default.Visibility,
@@ -91,43 +95,61 @@ fun EntryEditor(
                 enabled = source?.isNotEmpty() == true,
                 colors = ButtonDefaults.buttonColors(backgroundColor = holoBlue),
             ) {
-                Text(source ?: "")
+                Text(source?.dropQuote() ?: "", fontSize = AppTheme.largerFontSize())
             }
         }
 
         origin?.let { old ->
             if (originVisible) {
-                TextButton(
-                    onClick = { onCopy?.invoke(old.origin()) },
-                    modifier = Modifier.fillMaxWidth(),
-                    colors = ButtonDefaults.textButtonColors(contentColor = holoRed),
-                ) {
-                    Text(old.origin(), modifier = Modifier.fillMaxWidth())
+                Row {
+                    TextButton(
+                        onClick = { onTranslate?.invoke(old.origin()) },
+                        modifier = Modifier.weight(1f),
+                        colors = ButtonDefaults.textButtonColors(contentColor = holoRed),
+                    ) {
+                        Text(
+                            old.origin(),
+                            modifier = Modifier.fillMaxWidth(),
+                            fontSize = AppTheme.largerFontSize(),
+                        )
+                    }
+                    IconButton(onClick = { onCopy?.invoke(old.origin()) }) {
+                        Icon(Icons.Default.CopyAll, contentDescription = null)
+                    }
                 }
                 Button(
                     onClick = { text = old.string() },
                     modifier = Modifier.fillMaxWidth(),
                     colors = ButtonDefaults.buttonColors(backgroundColor = holoRed),
                 ) {
-                    Text(old.string())
+                    Text(old.string(), fontSize = AppTheme.largerFontSize())
                 }
             }
         }
 
         if (targetVisible) {
-            TextButton(
-                onClick = { onCopy?.invoke(target.origin()) },
-                modifier = Modifier.fillMaxWidth(),
-                colors = ButtonDefaults.textButtonColors(contentColor = holoGreen),
-            ) {
-                Text(target.origin(), modifier = Modifier.fillMaxWidth())
+            Row {
+                TextButton(
+                    onClick = { onTranslate?.invoke(target.origin()) },
+                    modifier = Modifier.weight(1f),
+                    colors = ButtonDefaults.textButtonColors(contentColor = holoGreen),
+                ) {
+                    Text(
+                        target.origin(),
+                        modifier = Modifier.fillMaxWidth(),
+                        fontSize = AppTheme.largerFontSize(),
+                    )
+                }
+                IconButton(onClick = { onCopy?.invoke(target.origin()) }) {
+                    Icon(Icons.Default.CopyAll, contentDescription = null)
+                }
             }
             Button(
                 onClick = { text = target.string() },
                 modifier = Modifier.fillMaxWidth(),
                 colors = ButtonDefaults.buttonColors(backgroundColor = holoGreen),
             ) {
-                Text(target.string())
+                Text(target.string(), fontSize = AppTheme.largerFontSize())
             }
         }
 
@@ -138,6 +160,7 @@ fun EntryEditor(
                 .fillMaxWidth()
                 .weight(1f)
                 .padding(vertical = 4.dp),
+            textStyle = TextStyle.Default.copy(fontSize = AppTheme.largerFontSize()),
         )
 
         Row(modifier = Modifier.fillMaxWidth()) {

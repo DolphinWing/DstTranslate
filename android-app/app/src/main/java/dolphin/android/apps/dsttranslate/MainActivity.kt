@@ -34,6 +34,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
+import androidx.core.net.toUri
 import androidx.lifecycle.MutableLiveData
 import dolphin.android.apps.dsttranslate.compose.AppTheme
 import dolphin.android.apps.dsttranslate.compose.EntryCountView
@@ -71,7 +72,8 @@ class MainActivity : AppCompatActivity() {
                     stickyHeader {
                         EntryCountView(
                             modifier = Modifier.fillMaxWidth(),
-                            list = changed.value,
+                            filteredList = list.value,
+                            changedList = changed.value,
                             onRefresh = { onRefreshClick() },
                             onSave = { onSaveClick() },
                         )
@@ -108,6 +110,7 @@ class MainActivity : AppCompatActivity() {
                             .background(Color.Black.copy(alpha = .5f))
                             .fillMaxSize()
                             .padding(horizontal = 36.dp, vertical = 24.dp),
+                        onTranslate = { text -> openGoogleTranslate(text) }
                     )
                 }
 
@@ -190,7 +193,7 @@ class MainActivity : AppCompatActivity() {
         val filtered = helper.wordList.filter { entry ->
             val origin = helper.originMap[entry.key]
             (entry.newly || origin?.id != entry.id || origin.str != entry.str || entry.changed > 0)
-                    && entry.str.length > 2
+                    && entry.str.length > 2 && !entry.string().startsWith("only_used_by")
         }
         filtered.forEach { item -> list.add(item.changed) }
         // Log.d(TAG, "filtered data = ${filtered.size}")
@@ -236,5 +239,13 @@ class MainActivity : AppCompatActivity() {
         }
         showChangeList()
         hideEntryEditor()
+    }
+
+    private fun openGoogleTranslate(text: String) {
+        startActivity(Intent().apply {
+            action = Intent.ACTION_VIEW
+            data = "https://translate.google.com.tw/?hl=zh-TW&sl=en&tl=zh-TW&text=$text".toUri()
+            flags = Intent.FLAG_ACTIVITY_NEW_TASK
+        })
     }
 }

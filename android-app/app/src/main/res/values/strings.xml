@@ -30,6 +30,9 @@
         <item>花哨|花俏</item>
         <item>意大利|義大利</item>
         <item>皮弗婁牛|野牛</item>
+        <item>曲奇餅|餅乾</item>
+        <item>噠噠|答答</item>
+        <item>評委|評審</item>
     </string-array>
     <string name="button_apply">Apply</string>
     <string name="button_refresh">Refresh</string>

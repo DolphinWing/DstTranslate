@@ -32,7 +32,8 @@ import dolphin.android.apps.dsttranslate.WordEntry
 @Composable
 fun EntryCountView(
     modifier: Modifier = Modifier,
-    list: List<Long>? = null,
+    filteredList: List<WordEntry>? = null,
+    changedList: List<Long>? = null,
     onRefresh: (() -> Unit)? = null,
     onSave: (() -> Unit)? = null,
 ) {
@@ -42,9 +43,9 @@ fun EntryCountView(
             .padding(vertical = 4.dp, horizontal = 8.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        val changed = list?.filter { it > 0L } ?: arrayListOf()
+        val changed = changedList?.filter { it > 0L } ?: arrayListOf()
         Text(
-            "all: ${list?.size ?: 0}, changed: ${changed.size}",
+            "all: ${filteredList?.size ?: 0}, changed: ${changed.size}",
             modifier = Modifier.weight(1f),
             fontSize = AppTheme.largerFontSize(),
             color = MaterialTheme.colors.onPrimary,
@@ -158,7 +159,7 @@ fun EntryView(
 private fun PreviewEntryView() {
     AppTheme {
         Column(modifier = Modifier.background(Color.White)) {
-            EntryCountView(list = listOf(0L, 0L))
+            EntryCountView(changedList = listOf(0L, 0L))
 
             // new
             EntryView(
