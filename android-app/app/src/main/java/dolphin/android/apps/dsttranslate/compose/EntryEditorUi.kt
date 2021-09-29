@@ -29,6 +29,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import dolphin.android.apps.dsttranslate.WordEntry
+import dolphin.android.apps.dsttranslate.dropQuote
 
 @Composable
 fun EntryEditor(
@@ -44,7 +45,7 @@ fun EntryEditor(
     var targetVisible by remember { mutableStateOf(!target.newly) }
     var originVisible by remember { mutableStateOf(true) }
     var sourceVisible by remember { mutableStateOf(true) }
-    val holoBlue = colorResource(id = android.R.color.holo_blue_bright)
+    val holoBlue = colorResource(id = android.R.color.holo_blue_dark)
     val holoRed = colorResource(id = android.R.color.holo_red_light)
     val holoGreen = colorResource(id = android.R.color.holo_green_dark)
 
@@ -62,7 +63,7 @@ fun EntryEditor(
                 Icon(
                     Icons.Default.Visibility,
                     contentDescription = null,
-                    tint = if (targetVisible) holoGreen else holoGreen.copy(alpha = .5f)
+                    tint = if (targetVisible) holoGreen else holoGreen.copy(alpha = .25f)
                 )
             }
             origin?.let {
@@ -70,7 +71,7 @@ fun EntryEditor(
                     Icon(
                         Icons.Default.Visibility,
                         contentDescription = null,
-                        tint = if (originVisible) holoRed else holoRed.copy(alpha = .5f)
+                        tint = if (originVisible) holoRed else holoRed.copy(alpha = .25f)
                     )
                 }
             }
@@ -78,14 +79,14 @@ fun EntryEditor(
                 Icon(
                     Icons.Default.Visibility,
                     contentDescription = null,
-                    tint = if (sourceVisible) holoBlue else holoBlue.copy(alpha = .5f)
+                    tint = if (sourceVisible) holoBlue else holoBlue.copy(alpha = .25f)
                 )
             }
         }
 
         if (sourceVisible) {
             Button(
-                onClick = { text = source ?: "" },
+                onClick = { text = source?.dropQuote() ?: "" },
                 modifier = Modifier.fillMaxWidth(),
                 enabled = source?.isNotEmpty() == true,
                 colors = ButtonDefaults.buttonColors(backgroundColor = holoBlue),

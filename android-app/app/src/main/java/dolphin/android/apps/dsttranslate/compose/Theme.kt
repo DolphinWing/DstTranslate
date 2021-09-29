@@ -23,11 +23,14 @@ fun AppTheme(content: @Composable () -> Unit) {
 
 object AppTheme {
     @Composable
-    fun fontSize(): TextUnit {
+    private fun isDesktop(): Boolean {
         val context = LocalContext.current
-        val desktop = context.packageManager.hasSystemFeature("org.chromium.arc.device_management")
-        return if (desktop) 18.sp else 14.sp
+        return context.packageManager.hasSystemFeature("org.chromium.arc.device_management")
     }
 
+//    @Composable
+//    fun fontSize(): TextUnit = if (isDesktop()) 18.sp else 14.sp
 
+    @Composable
+    fun largerFontSize(): TextUnit = if (isDesktop()) 24.sp else 18.sp
 }

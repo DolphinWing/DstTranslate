@@ -35,6 +35,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.MutableLiveData
+import dolphin.android.apps.dsttranslate.compose.AppTheme
 import dolphin.android.apps.dsttranslate.compose.EntryCountView
 import dolphin.android.apps.dsttranslate.compose.EntryEditor
 import dolphin.android.apps.dsttranslate.compose.EntryView
@@ -57,8 +58,6 @@ class MainActivity : AppCompatActivity() {
     private val executor = Executors.newSingleThreadExecutor()
     private lateinit var helper: PoHelper
 
-//    private lateinit var container: View
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         helper = PoHelper(this)
@@ -67,48 +66,55 @@ class MainActivity : AppCompatActivity() {
             val list = dataList.observeAsState()
             val changed = changeList.observeAsState()
 
-            LazyColumn {
-                stickyHeader {
-                    EntryCountView(modifier = Modifier.fillMaxWidth(), list = changed.value)
-                }
-                itemsIndexed(list.value ?: ArrayList(), key = { _, item ->
-                    item.key
-                }) { index, entry ->
-                    val origin = remember { helper.originMap[entry.key] }
-                    val source = remember { helper.sourceMap[entry.key] }
+            AppTheme {
+                LazyColumn {
+                    stickyHeader {
+                        EntryCountView(
+                            modifier = Modifier.fillMaxWidth(),
+                            list = changed.value,
+                            onRefresh = { onRefreshClick() },
+                            onSave = { onSaveClick() },
+                        )
+                    }
+                    itemsIndexed(list.value ?: ArrayList(), key = { _, item ->
+                        item.key
+                    }) { index, entry ->
+                        val origin = remember { helper.originMap[entry.key] }
+                        val source = remember { helper.sourceMap[entry.key] }
 
-                    EntryView(
-                        origin = entry,
-                        modifier = Modifier.fillMaxWidth(),
-                        old = origin,
-                        src = source,
-                        onItemClick = { item ->
-                            showEntryEditor(item, helper.originMap[item.key])
-                        },
-                        index = index,
-                        changed = changed.value?.get(index) ?: 0L,
+                        EntryView(
+                            origin = entry,
+                            modifier = Modifier.fillMaxWidth(),
+                            old = origin,
+                            src = source,
+                            onItemClick = { item ->
+                                showEntryEditor(item, helper.originMap[item.key])
+                            },
+                            index = index,
+                            changed = changed.value?.get(index) ?: 0L,
+                        )
+                    }
+                }
+
+                if (editing.observeAsState().value == true) {
+                    EntryEditor(
+                        target = editTarget.observeAsState().value ?: WordEntry.default(),
+                        origin = editOrigin.observeAsState().value,
+                        source = editSource.observeAsState().value,
+                        onCancel = { hideEntryEditor() },
+                        onCopy = { text -> copyToClipboard(text) },
+                        onSave = { key, text -> applyToDictionary(key, text) },
+                        modifier = Modifier
+                            .background(Color.Black.copy(alpha = .5f))
+                            .fillMaxSize()
+                            .padding(horizontal = 36.dp, vertical = 24.dp),
                     )
                 }
-            }
 
-            if (editing.observeAsState().value == true) {
-                EntryEditor(
-                    target = editTarget.observeAsState().value ?: WordEntry.default(),
-                    origin = editOrigin.observeAsState().value,
-                    source = editSource.observeAsState().value,
-                    onCancel = { hideEntryEditor() },
-                    onCopy = { text -> copyToClipboard(text) },
-                    onSave = { key, text -> applyToDictionary(key, text) },
-                    modifier = Modifier
-                        .background(Color.Black.copy(alpha = .5f))
-                        .fillMaxSize()
-                        .padding(horizontal = 36.dp, vertical = 24.dp),
-                )
-            }
-
-            if (loading.observeAsState().value == true) {
-                Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                    CircularProgressIndicator(modifier = Modifier.requiredSize(48.dp))
+                if (loading.observeAsState().value == true) {
+                    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                        CircularProgressIndicator(modifier = Modifier.requiredSize(48.dp))
+                    }
                 }
             }
         }
@@ -126,20 +132,24 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            android.R.id.button1 ->
-                if (allPermissionsGranted()) {
-                    runDstTranslation()
-                } else {
-                    startAppInfoActivity()
-                }
-            android.R.id.button2 -> {
-                val start = System.currentTimeMillis()
-                helper.writeEntryToFile()
-                showResultToast(helper.targetFile, System.currentTimeMillis() - start)
-            }
-
+            android.R.id.button1 -> onRefreshClick()
+            android.R.id.button2 -> onSaveClick()
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    private fun onRefreshClick() {
+        if (allPermissionsGranted()) {
+            runDstTranslation()
+        } else {
+            startAppInfoActivity()
+        }
+    }
+
+    private fun onSaveClick() {
+        val start = System.currentTimeMillis()
+        helper.writeEntryToFile()
+        showResultToast(helper.targetFile, System.currentTimeMillis() - start)
     }
 
     private fun runDstTranslation() {
