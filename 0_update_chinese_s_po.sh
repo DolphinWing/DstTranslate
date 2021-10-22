@@ -23,18 +23,18 @@ fi
 
 
 # print last version
-version=`cat ${WORKSHOP_DIR}/modinfo.lua |grep "..version.." |cut -d" " -f5`
-version=${version#\(v*}
-version=${version%\)*}
-echo ">>> last mod version: ${version}"
+old_version=`cat ${WORKSHOP_DIR}/modinfo.lua |grep "..version.." |cut -d" " -f5`
+old_version=${old_version#\(v*}
+old_version=${old_version%\)*}
+echo ">>> last mod version: ${old_version}"
 
 # list old file info
 ls -l android-app/app/src/main/assets/chinese_s.po
 
 
 # print current version
-version=`cat "$DST_DATA_BUNDLES/../../version.txt"`
-echo ">>>  current version: ${version}"
+new_version=`cat "$DST_DATA_BUNDLES/../../version.txt"`
+echo ">>>  current version: ${new_version}"
 
 # unzip from dst scripts
 unzip -p "$DST_DATA_BUNDLES/scripts.zip" scripts/languages/chinese_s.po > /tmp/chinese_s.po
@@ -43,4 +43,6 @@ ls -l /tmp/chinese_s.po
 # copy as new file
 cp /tmp/chinese_s.po android-app/app/src/main/assets/chinese_s.po
 ls -l android-app/app/src/main/assets/chinese_s.po
+
+sed -i "s/v${old_version}/v${new_version}/" ${WORKSHOP_DIR}/modinfo.lua
 

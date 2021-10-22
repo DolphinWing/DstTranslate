@@ -5,9 +5,9 @@ version = "1.0.17"
 -- mod author
 author = "DolphinWing and anetrlf2"
 -- mod description in the game
-description = "版本: "..version.." (v479502)\n\n"..
-	"文字主要以Klei簡體中文文檔為主，輔以Klei正體中文文檔，"..
-	"並參考Don't Starve中文維基，以及一些私心小修正。\n\n"..
+description = "版本: "..version.." (v483105)\n\n"..
+	"文字主要以 Klei 簡體中文文檔為主，輔以 Klei 正體中文文檔，"..
+	"並參考 Don't Starve 中文維基，以及一些私心小修正。\n\n"..
 	"當啟用「我想吃粉圓」的功能，會將原本遊戲字型換成「粉圓字型」。"..
 	"如果你覺得更換字型之後的畫面文字實在太大，可以在設定中「使用放大鏡」調整字體縮放倍率，讓整體畫面較為平衡。\n\n"..
 	"啟用正體中文包時會嘗試修正角色的對話。這將會在你建立的世界中預載為伺服器模組。"..

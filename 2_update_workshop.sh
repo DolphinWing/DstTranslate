@@ -10,13 +10,13 @@ if [ -f ~/Downloads/dst_cht.po ]; then
     cp ~/Downloads/dst_cht.po ${WORKSHOP_DIR}/dst_cht.po
 fi
 
-# attach dst_cht_mod.po to dst_cht.po
-msgctxt=`cat ${WORKSHOP_DIR}/dst_cht.po |tail -4 |grep msgctxt |cut -d" " -f2`
-if [[ ${msgctxt} == *"STRINGS.NAMES.BAKA_LAMP_SHORT"* ]]; then
-    echo "already attached!"
-else
-    cat ${WORKSHOP_DIR}/dst_cht_mod.po >> ${WORKSHOP_DIR}/dst_cht.po
-fi
+## attach dst_cht_mod.po to dst_cht.po
+#msgctxt=`cat ${WORKSHOP_DIR}/dst_cht.po |tail -4 |grep msgctxt |cut -d" " -f2`
+#if [[ ${msgctxt} == *"STRINGS.NAMES.BAKA_LAMP_SHORT"* ]]; then
+#    echo "already attached!"
+#else
+#    cat ${WORKSHOP_DIR}/dst_cht_mod.po >> ${WORKSHOP_DIR}/dst_cht.po
+#fi
 
 # show latest dst_cht.po
 ls -l ${WORKSHOP_DIR}/dst_cht.po
