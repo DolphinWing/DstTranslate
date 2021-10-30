@@ -16,19 +16,22 @@ modimport("utils.lua")
 	GLOBAL.KnownModIndex:LoadModConfigurationOptions(this_mod, true)
 end]]
 
--- save original method
-local OldTranslateStringTable = GLOBAL.TranslateStringTable
--- override GLOBAL.TranslateStringTable method
-GLOBAL.TranslateStringTable = function(...)
-	-- load offical translation first, take simplified chinese first
-	if fileExists("scripts/languages/chinese_s.po") then
-		GLOBAL.LanguageTranslator:LoadPOFile("scripts/languages/chinese_s.po", "chs")
+local useMyPo = GetConfig("replace_po", true)
+if useMyPo then
+	-- save original method
+	local OldTranslateStringTable = GLOBAL.TranslateStringTable
+	-- override GLOBAL.TranslateStringTable method
+	GLOBAL.TranslateStringTable = function(...)
+		-- load offical translation first, take traditional chinese first
+		if fileExists("scripts/languages/chinese_t.po") then
+			GLOBAL.LanguageTranslator:LoadPOFile("scripts/languages/chinese_t.po", "chs")
+		end
+		LoadPOFile("dst_cht.po", "cht") -- load my translations
+		OldTranslateStringTable(...) -- do translations
+		--for k, v in pairs(GLOBAL.STRINGS.ACTIONS) do
+		--	if GLOBAL.ACTIONS[k] then GLOBAL.ACTIONS[k].str = v end
+		--end
 	end
-	LoadPOFile("dst_cht.po", "cht") -- load my translations
-	OldTranslateStringTable(...) -- do translations
-	--for k, v in pairs(GLOBAL.STRINGS.ACTIONS) do
-	--	if GLOBAL.ACTIONS[k] then GLOBAL.ACTIONS[k].str = v end
-	--end
 end
 
 --[[ dedicated server, no need to load local configuration change
@@ -158,10 +161,12 @@ end
 -- delay load init features, refs. Chinese++(workshop-1418746242)
 AddGlobalClassPostConstruct("frontend", "FrontEnd", function(self)
 	fixGraphicSmallTexture(self)
-	fixTaskSet()       -- fix preset tasks
-	fixStartLocation() -- fix preset tasks
-	fixPresetLevel()   -- fix preset tasks
-	enableAsServerMod(self)
+	if useMyPo then
+		fixTaskSet()       -- fix preset tasks
+		fixStartLocation() -- fix preset tasks
+		fixPresetLevel()   -- fix preset tasks
+		enableAsServerMod(self)
+	end
 end)
 
 local function fixClockHudControlFontSize()
