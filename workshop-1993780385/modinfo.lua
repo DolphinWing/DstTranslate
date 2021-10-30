@@ -5,7 +5,7 @@ version = "1.1.0"
 -- mod author
 author = "DolphinWing and anetrlf2"
 -- mod description in the game
-description = "版本: "..version.." (v483105)\n\n"..
+description = "版本: "..version.." (v483468)\n\n"..
     "當啟用「使用翻譯蒟蒻」的功能，會將原本遊戲內的文字換成MOD自帶的翻譯本。"..
 	"文字主要以 Klei 簡體中文文檔為主，輔以 Klei 正體中文文檔，"..
 	"並參考 Don't Starve 中文維基，以及一些私心小修正。\n\n"..
