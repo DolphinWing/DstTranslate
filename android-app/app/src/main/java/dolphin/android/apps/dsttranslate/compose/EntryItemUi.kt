@@ -36,6 +36,7 @@ fun EntryCountView(
     changedList: List<Long>? = null,
     onRefresh: (() -> Unit)? = null,
     onSave: (() -> Unit)? = null,
+    enabled: Boolean = true,
 ) {
     Row(
         modifier = modifier
@@ -79,17 +80,17 @@ fun EntryCountView(
             fontSize = AppTheme.largerFontSize(),
         )
         Spacer(modifier = Modifier.requiredWidth(8.dp))
-        IconButton(onClick = { onRefresh?.invoke() }) {
+        IconButton(onClick = { onRefresh?.invoke() }, enabled = enabled) {
             Icon(
                 Icons.Default.Refresh,
-                tint = MaterialTheme.colors.onPrimary,
+                // tint = MaterialTheme.colors.onPrimary,
                 contentDescription = null,
             )
         }
-        IconButton(onClick = { onSave?.invoke() }) {
+        IconButton(onClick = { onSave?.invoke() }, enabled = enabled) {
             Icon(
                 Icons.Default.Save,
-                tint = MaterialTheme.colors.onPrimary,
+                // tint = MaterialTheme.colors.onPrimary,
                 contentDescription = null,
             )
         }

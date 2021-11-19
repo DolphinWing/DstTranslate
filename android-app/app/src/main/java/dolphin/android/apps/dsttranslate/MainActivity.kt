@@ -8,8 +8,6 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
 import android.provider.Settings
 import android.util.Log
 import android.view.Menu
@@ -19,7 +17,8 @@ import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -27,21 +26,27 @@ import androidx.compose.foundation.layout.requiredSize
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material.CircularProgressIndicator
+import androidx.compose.material.MaterialTheme
+import androidx.compose.material.Text
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
 import androidx.core.net.toUri
 import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.lifecycleScope
 import dolphin.android.apps.dsttranslate.compose.AppTheme
 import dolphin.android.apps.dsttranslate.compose.EntryCountView
 import dolphin.android.apps.dsttranslate.compose.EntryEditor
 import dolphin.android.apps.dsttranslate.compose.EntryView
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 import java.io.*
-import java.util.concurrent.Executors
 
 @ExperimentalFoundationApi
 class MainActivity : AppCompatActivity() {
@@ -55,7 +60,7 @@ class MainActivity : AppCompatActivity() {
             )
     }
 
-    private val executor = Executors.newSingleThreadExecutor()
+    // private val executor = Executors.newSingleThreadExecutor()
     private lateinit var helper: PoHelper
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -65,9 +70,13 @@ class MainActivity : AppCompatActivity() {
         setContent {
             val list = dataList.observeAsState()
             val changed = changeList.observeAsState()
+            val enabled = loading.observeAsState()
 
             AppTheme {
-                LazyColumn {
+                LazyColumn(
+                    modifier = Modifier.fillMaxSize(),
+                    verticalArrangement = Arrangement.Top,
+                ) {
                     stickyHeader {
                         EntryCountView(
                             modifier = Modifier.fillMaxWidth(),
@@ -75,6 +84,7 @@ class MainActivity : AppCompatActivity() {
                             changedList = changed.value,
                             onRefresh = { onRefreshClick() },
                             onSave = { onSaveClick() },
+                            enabled = enabled.value != true,
                         )
                     }
                     itemsIndexed(
@@ -115,15 +125,24 @@ class MainActivity : AppCompatActivity() {
                     )
                 }
 
-                if (loading.observeAsState().value == true) {
-                    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                        CircularProgressIndicator(modifier = Modifier.requiredSize(48.dp))
+                if (enabled.value == true) {
+                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                        CircularProgressIndicator(
+                            modifier = Modifier.requiredSize(48.dp),
+                            color = MaterialTheme.colors.primary,
+                        )
+                        Text(
+                            helper.processStatus.collectAsState().value,
+                            modifier = Modifier.padding(top = 16.dp),
+                            textAlign = TextAlign.Center,
+                        )
                     }
                 }
             }
         }
         if (allPermissionsGranted()) {
-            Handler(Looper.getMainLooper()).post { runDstTranslation() }
+            // Handler(Looper.getMainLooper()).post { runDstTranslation() }
+            runDstTranslation()
         } else {
             Toast.makeText(this, "No permission!", Toast.LENGTH_SHORT).show()
         }
@@ -157,13 +176,24 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun runDstTranslation() {
-        executor.submit {
+//        executor.submit {
+//            loading.postValue(true)
+//            helper.runTranslation { timeCost ->
+//                showChangeList()
+//                showResultToast(helper.cacheFile, timeCost)
+//                loading.postValue(false)
+//            }
+//        }
+
+        lifecycleScope.launch(Dispatchers.IO) {
+            Log.d(TAG, "ENTER run dst translation")
             loading.postValue(true)
-            helper.runTranslation { timeCost ->
-                showChangeList()
-                showResultToast(helper.cacheFile, timeCost)
-                loading.postValue(false)
-            }
+            val cost = helper.runTranslationProcess()
+            Log.d(TAG, "cost = $cost ms")
+            showChangeList()
+            showResultToast(helper.cacheFile, cost)
+            loading.postValue(false)
+            Log.d(TAG, "LEAVE run dst translation")
         }
     }
 
@@ -221,11 +251,13 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showResultToast(file: File, timeCost: Long) {
-        Toast.makeText(
-            this@MainActivity,
-            "DONE ${file.absolutePath} ($timeCost ms)",
-            Toast.LENGTH_SHORT
-        ).show()
+        runOnUiThread {
+            Toast.makeText(
+                this@MainActivity,
+                "DONE ${file.absolutePath} ($timeCost ms)",
+                Toast.LENGTH_SHORT
+            ).show()
+        }
     }
 
     private fun copyToClipboard(text: String, label: String = TAG) {

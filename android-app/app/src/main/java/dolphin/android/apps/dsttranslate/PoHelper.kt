@@ -5,6 +5,7 @@ import android.os.Environment
 import android.util.Log
 import com.zqc.opencc.android.lib.ChineseConverter
 import com.zqc.opencc.android.lib.ConversionType
+import kotlinx.coroutines.flow.MutableStateFlow
 import java.io.BufferedReader
 import java.io.BufferedWriter
 import java.io.File
@@ -131,10 +132,18 @@ class PoHelper(private val context: Activity) {
         return true
     }
 
-    fun runTranslation(postAction: ((timeCost: Long) -> Unit)? = null) {
+//    fun runTranslation(postAction: ((timeCost: Long) -> Unit)? = null) {
+//        val cost = runBlocking { runTranslationProcess() }
+//        postAction?.let { action -> context.runOnUiThread { action(cost) } }
+//    }
+
+    val processStatus = MutableStateFlow("")
+
+    suspend fun runTranslationProcess(): Long {
         Log.d(TAG, "run translation")
         val start = System.currentTimeMillis()
 
+        processStatus.emit("load chinese_s.po")
         val s = loadAssetFile("chinese_s.po")
         sourceMap.clear()
         s.forEach { entry ->
@@ -144,6 +153,7 @@ class PoHelper(private val context: Activity) {
         val stop1 = System.currentTimeMillis()
         Log.d(TAG, "original SC size: ${s.size} (${stop1 - start} ms)")
 
+        processStatus.emit("load chinese_t.po")
         val t = loadAssetFile("chinese_t.po")
         revisedMap.clear()
         t.forEach { entry ->
@@ -152,6 +162,7 @@ class PoHelper(private val context: Activity) {
         val stop2 = System.currentTimeMillis()
         Log.d(TAG, "original TC size: ${t.size} (${stop2 - start} ms)")
 
+        processStatus.emit("load dst_cht.po")
         originMap.clear()
         loadAssetFile("dst_cht.po").filter { entry ->
             entry.id != "\"\"" && entry.str != "\"\""
@@ -161,20 +172,22 @@ class PoHelper(private val context: Activity) {
         val stop3 = System.currentTimeMillis()
         Log.d(TAG, "previous data size: ${originMap.size} (${stop3 - stop1} ms)")
 
+        processStatus.emit("prepare word list")
         wordList.clear()
-        s.forEach { entry ->
+        s.forEachIndexed { index, entry ->
             var newly = false
             var str = ""
             if (originMap.containsKey(entry.key)) {
                 val str1 = originMap[entry.key]?.str ?: ""
                 if (str1.isNotEmpty()) str = str1.trim()
             } else {
-                Log.d(TAG, "add ${entry.key}")
+                // Log.d(TAG, "add ${entry.key}")
+                processStatus.emit("(${index + 1}/${s.size})\n${entry.key}")
             }
-            if (str.isEmpty()) {//not in the translated po
+            if (str.isEmpty()) { // not in the translated po
                 newly = true
                 str = sc2tc(entry.str).trim()
-                //Log.d(TAG, ">> use $str")
+                // Log.d(TAG, ">> use $str")
             }
             str = getReplacement(str)
             wordList.add(WordEntry(entry.key, entry.text, entry.id, str, newly))
@@ -185,7 +198,7 @@ class PoHelper(private val context: Activity) {
         writeEntryToFile(cacheFile, wordList)
         val cost = System.currentTimeMillis() - start
         Log.d(TAG, "write data done. $cost ms")
-        postAction?.let { action -> context.runOnUiThread { action(cost) } }
+        return cost
     }
 
     fun sc2tc(str: String): String = ChineseConverter.convert(str, ConversionType.S2TWP, context)
@@ -200,11 +213,11 @@ class PoHelper(private val context: Activity) {
         if (str.contains("\\\"")) {
             var i = 0
             val str1 = str.replace("\\\"", "%@%").replace("%@%".toRegex()) {
-                //Log.d(TAG, "$i ${it.value}")
+                // Log.d(TAG, "$i ${it.value}")
                 context.getString(if (i++ % 2 == 0) R.string.replacement_left_bracket else R.string.replacement_right_bracket)
             }
             if (i % 2 == 0) {
-                Log.d(TAG, "$str ==> $str1")
+                // Log.d(TAG, "$str ==> $str1")
                 str = str1 //only replace the paired string
             }
         }

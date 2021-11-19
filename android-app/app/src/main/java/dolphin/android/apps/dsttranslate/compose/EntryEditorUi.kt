@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.requiredHeight
 import androidx.compose.foundation.layout.requiredWidth
 import androidx.compose.material.Button
 import androidx.compose.material.ButtonDefaults
@@ -59,7 +60,8 @@ fun EntryEditor(
     Column(
         modifier = modifier
             .background(Color.White)
-            .padding(8.dp)
+            // .verticalScroll(rememberScrollState())
+            .padding(8.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Text(target.key(), modifier = Modifier.weight(1f), overflow = TextOverflow.Ellipsis)
@@ -176,8 +178,9 @@ fun EntryEditor(
             modifier = Modifier
                 .fillMaxWidth()
                 .weight(1f)
-                .padding(vertical = 4.dp),
+                .padding(vertical = 8.dp),
             textStyle = TextStyle.Default.copy(fontSize = AppTheme.largerFontSize()),
+            // singleLine = true,
         )
 
         Row(modifier = Modifier.fillMaxWidth()) {
