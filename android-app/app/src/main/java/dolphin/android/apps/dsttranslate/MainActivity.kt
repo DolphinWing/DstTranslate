@@ -40,7 +40,6 @@ import dolphin.android.apps.dsttranslate.compose.AppTheme
 import dolphin.android.apps.dsttranslate.compose.EntryCountView
 import dolphin.android.apps.dsttranslate.compose.EntryEditor
 import dolphin.android.apps.dsttranslate.compose.EntryView
-import kotlinx.android.synthetic.main.layout_main.*
 import java.io.*
 import java.util.concurrent.Executors
 
@@ -78,9 +77,10 @@ class MainActivity : AppCompatActivity() {
                             onSave = { onSaveClick() },
                         )
                     }
-                    itemsIndexed(list.value ?: ArrayList(), key = { _, item ->
-                        item.key
-                    }) { index, entry ->
+                    itemsIndexed(
+                        items = list.value ?: ArrayList(),
+                        key = { _, item -> item.key },
+                    ) { index, entry ->
                         val origin = remember { helper.originMap[entry.key] }
                         val source = remember { helper.sourceMap[entry.key] }
 
@@ -103,6 +103,7 @@ class MainActivity : AppCompatActivity() {
                         target = editTarget.observeAsState().value ?: WordEntry.default(),
                         origin = editOrigin.observeAsState().value,
                         source = editSource.observeAsState().value,
+                        revised = editRevise.observeAsState().value,
                         onCancel = { hideEntryEditor() },
                         onCopy = { text -> copyToClipboard(text) },
                         onSave = { key, text -> applyToDictionary(key, text) },
@@ -128,7 +129,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.main, menu)
         return super.onCreateOptionsMenu(menu)
     }
@@ -187,6 +188,7 @@ class MainActivity : AppCompatActivity() {
     private val editTarget = MutableLiveData(WordEntry.default())
     private val editOrigin = MutableLiveData(WordEntry.default())
     private val editSource = MutableLiveData("")
+    private val editRevise = MutableLiveData("")
 
     private fun showChangeList() {
         val list = ArrayList<Long>()
@@ -210,6 +212,7 @@ class MainActivity : AppCompatActivity() {
         editTarget.postValue(entry)
         editOrigin.postValue(origin)
         editSource.postValue(helper.sc2tc(helper.sourceMap[entry.key]?.str ?: ""))
+        editRevise.postValue(helper.revisedMap[entry.key]?.str ?: "")
         editing.postValue(true)
     }
 

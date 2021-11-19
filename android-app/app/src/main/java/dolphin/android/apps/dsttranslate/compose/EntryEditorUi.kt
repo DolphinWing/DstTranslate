@@ -17,7 +17,6 @@ import androidx.compose.material.TextField
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CopyAll
 import androidx.compose.material.icons.filled.Visibility
-import androidx.compose.material.icons.filled.Web
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -40,6 +39,7 @@ fun EntryEditor(
     modifier: Modifier = Modifier,
     origin: WordEntry? = null,
     source: String? = null,
+    revised: String? = null,
     onSave: ((String, String) -> Unit)? = null,
     onCopy: ((String) -> Unit)? = null,
     onTranslate: ((String) -> Unit)? = null,
@@ -49,9 +49,12 @@ fun EntryEditor(
     var targetVisible by remember { mutableStateOf(true) }
     var originVisible by remember { mutableStateOf(true) }
     var sourceVisible by remember { mutableStateOf(true) }
+    var reviseVisible by remember { mutableStateOf(true) }
     val holoBlue = colorResource(id = android.R.color.holo_blue_dark)
     val holoRed = colorResource(id = android.R.color.holo_red_light)
     val holoGreen = colorResource(id = android.R.color.holo_green_dark)
+    val holoPurple = colorResource(id = android.R.color.holo_purple)
+    val alpha = .25f
 
     Column(
         modifier = modifier
@@ -60,14 +63,11 @@ fun EntryEditor(
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Text(target.key(), modifier = Modifier.weight(1f), overflow = TextOverflow.Ellipsis)
-//            if (target.newly) {
-//                Text(text = "NEW", color = Color.Red, fontSize = 12.sp)
-//            }
             IconButton(onClick = { targetVisible = !targetVisible }) {
                 Icon(
                     Icons.Default.Visibility,
                     contentDescription = null,
-                    tint = if (targetVisible) holoGreen else holoGreen.copy(alpha = .25f)
+                    tint = if (targetVisible) holoGreen else holoGreen.copy(alpha = alpha)
                 )
             }
             origin?.let { // new item has no previous for reference, need to check source
@@ -75,7 +75,7 @@ fun EntryEditor(
                     Icon(
                         Icons.Default.Visibility,
                         contentDescription = null,
-                        tint = if (originVisible) holoRed else holoRed.copy(alpha = .25f)
+                        tint = if (originVisible) holoRed else holoRed.copy(alpha = alpha)
                     )
                 }
             }
@@ -83,7 +83,14 @@ fun EntryEditor(
                 Icon(
                     Icons.Default.Visibility,
                     contentDescription = null,
-                    tint = if (sourceVisible) holoBlue else holoBlue.copy(alpha = .25f)
+                    tint = if (sourceVisible) holoBlue else holoBlue.copy(alpha = alpha)
+                )
+            }
+            IconButton(onClick = { reviseVisible = !reviseVisible }) {
+                Icon(
+                    Icons.Default.Visibility,
+                    contentDescription = null,
+                    tint = if (reviseVisible) holoPurple else holoPurple.copy(alpha = alpha)
                 )
             }
         }
@@ -96,6 +103,16 @@ fun EntryEditor(
                 colors = ButtonDefaults.buttonColors(backgroundColor = holoBlue),
             ) {
                 Text(source?.dropQuote() ?: "", fontSize = AppTheme.largerFontSize())
+            }
+        }
+        if (reviseVisible) {
+            Button(
+                onClick = { text = revised?.dropQuote() ?: "" },
+                modifier = Modifier.fillMaxWidth(),
+                enabled = revised?.isNotEmpty() == true,
+                colors = ButtonDefaults.buttonColors(backgroundColor = holoPurple),
+            ) {
+                Text(revised?.dropQuote() ?: "", fontSize = AppTheme.largerFontSize())
             }
         }
 
@@ -198,7 +215,8 @@ private fun PreviewEntryEditor() {
                 "Assess Happy",
                 "\"Assess Happiness STR\"",
             ),
-            source = "\"Climb STR\"",
+            source = "\"Climb STR SC\"",
+            revised = "\"Climb STR TC\"",
         )
     }
 }
@@ -215,7 +233,8 @@ private fun PreviewEntryEditorForNew() {
                 "\"Assess Happiness STR\"",
                 newly = true,
             ),
-            source = "\"Climb STR\"",
+            source = "\"Climb STR SC\"",
+            revised = "\"Climb STR TC\"",
         )
     }
 }

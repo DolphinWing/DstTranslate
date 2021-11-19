@@ -58,6 +58,13 @@ fun EntryCountView(
             fontSize = AppTheme.largerFontSize(),
         )
         Text(
+            "revise",
+            modifier = Modifier
+                .background(colorResource(id = android.R.color.holo_purple))
+                .padding(vertical = 4.dp, horizontal = 8.dp),
+            fontSize = AppTheme.largerFontSize(),
+        )
+        Text(
             "origin",
             modifier = Modifier
                 .background(colorResource(id = android.R.color.holo_red_light))
@@ -119,14 +126,6 @@ fun EntryView(
                 overflow = TextOverflow.Ellipsis,
                 fontSize = 14.sp, // AppTheme.fontSize(),
             )
-//            if (origin.newly) {
-//                Text(
-//                    text = "NEW",
-//                    modifier = Modifier.padding(horizontal = 4.dp),
-//                    color = Color.Red,
-//                    fontSize = 12.sp,
-//                )
-//            }
             Text(
                 index.toString(), // String.format("%05d", index),
                 color = if (origin.newly) Color.Red else Color.LightGray,

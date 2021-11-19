@@ -5,18 +5,25 @@ import android.os.Environment
 import android.util.Log
 import com.zqc.opencc.android.lib.ChineseConverter
 import com.zqc.opencc.android.lib.ConversionType
-import java.io.*
+import java.io.BufferedReader
+import java.io.BufferedWriter
+import java.io.File
+import java.io.FileInputStream
+import java.io.FileWriter
+import java.io.InputStreamReader
 
 class PoHelper(private val context: Activity) {
     companion object {
         private const val TAG = "dst-po"
     }
 
-    private val replaceList: Array<String> = context.resources.getStringArray(R.array.replacement_list)
+    private val replaceList: Array<String> =
+        context.resources.getStringArray(R.array.replacement_list)
     private val replace3dot: String = context.getString(R.string.replacement_3dot)
     private val replace6dot: String = "$replace3dot$replace3dot"
 
     val sourceMap = HashMap<String, WordEntry>()
+    val revisedMap = HashMap<String, WordEntry>()
     val originMap = HashMap<String, WordEntry>()
     val wordList = ArrayList<WordEntry>()
 
@@ -137,6 +144,14 @@ class PoHelper(private val context: Activity) {
         val stop1 = System.currentTimeMillis()
         Log.d(TAG, "original SC size: ${s.size} (${stop1 - start} ms)")
 
+        val t = loadAssetFile("chinese_t.po")
+        revisedMap.clear()
+        t.forEach { entry ->
+            revisedMap[entry.key] = entry
+        }
+        val stop2 = System.currentTimeMillis()
+        Log.d(TAG, "original TC size: ${t.size} (${stop2 - start} ms)")
+
         originMap.clear()
         loadAssetFile("dst_cht.po").filter { entry ->
             entry.id != "\"\"" && entry.str != "\"\""
@@ -173,7 +188,7 @@ class PoHelper(private val context: Activity) {
         postAction?.let { action -> context.runOnUiThread { action(cost) } }
     }
 
-    fun sc2tc(str: String): String = ChineseConverter.convert(str, ConversionType.S2TW, context)
+    fun sc2tc(str: String): String = ChineseConverter.convert(str, ConversionType.S2TWP, context)
 
     private fun getReplacement(src: String): String {
         var str = src.replace("...", replace3dot)
