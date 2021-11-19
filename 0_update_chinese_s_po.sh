@@ -29,7 +29,7 @@ old_version=${old_version%\)*}
 echo ">>> last mod version: ${old_version}"
 
 # list old file info
-ls -l android-app/app/src/main/assets/chinese_s.po
+ls -l android-app/app/src/main/assets/chinese_*.po
 
 
 # print current version
@@ -38,11 +38,13 @@ echo ">>>  current version: ${new_version}"
 
 # unzip from dst scripts
 unzip -p "$DST_DATA_BUNDLES/scripts.zip" scripts/languages/chinese_s.po > /tmp/chinese_s.po
-ls -l /tmp/chinese_s.po
+unzip -p "$DST_DATA_BUNDLES/scripts.zip" scripts/languages/chinese_t.po > /tmp/chinese_t.po
+ls -l /tmp/chinese_*.po
 
 # copy as new file
 cp /tmp/chinese_s.po android-app/app/src/main/assets/chinese_s.po
-ls -l android-app/app/src/main/assets/chinese_s.po
+cp /tmp/chinese_t.po android-app/app/src/main/assets/chinese_t.po
+ls -l android-app/app/src/main/assets/chinese_*.po
 
 sed -i "s/v${old_version}/v${new_version}/" ${WORKSHOP_DIR}/modinfo.lua
 
