@@ -17,6 +17,7 @@ import androidx.compose.material.Text
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Save
+import androidx.compose.material.icons.filled.Search
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -36,6 +37,7 @@ fun EntryCountView(
     changedList: List<Long>? = null,
     onRefresh: (() -> Unit)? = null,
     onSave: (() -> Unit)? = null,
+    onSearch: (() -> Unit)? = null,
     enabled: Boolean = true,
 ) {
     Row(
@@ -80,19 +82,14 @@ fun EntryCountView(
             fontSize = AppTheme.largerFontSize(),
         )
         Spacer(modifier = Modifier.requiredWidth(8.dp))
+        IconButton(onClick = { onSearch?.invoke() }, enabled = enabled) {
+            Icon(Icons.Default.Search, contentDescription = null)
+        }
         IconButton(onClick = { onRefresh?.invoke() }, enabled = enabled) {
-            Icon(
-                Icons.Default.Refresh,
-                // tint = MaterialTheme.colors.onPrimary,
-                contentDescription = null,
-            )
+            Icon(Icons.Default.Refresh, contentDescription = null)
         }
         IconButton(onClick = { onSave?.invoke() }, enabled = enabled) {
-            Icon(
-                Icons.Default.Save,
-                // tint = MaterialTheme.colors.onPrimary,
-                contentDescription = null,
-            )
+            Icon(Icons.Default.Save, contentDescription = null)
         }
     }
 }

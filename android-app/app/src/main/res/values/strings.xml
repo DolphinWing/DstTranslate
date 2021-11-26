@@ -33,6 +33,7 @@
         <item>曲奇餅|餅乾</item>
         <item>噠噠|答答</item>
         <item>評委|評審</item>
+        <item>阿斯加德|阿斯嘉</item>
     </string-array>
     <string name="button_apply">Apply</string>
     <string name="button_refresh">Refresh</string>

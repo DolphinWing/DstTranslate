@@ -43,6 +43,7 @@ import androidx.lifecycle.lifecycleScope
 import dolphin.android.apps.dsttranslate.compose.AppTheme
 import dolphin.android.apps.dsttranslate.compose.EntryCountView
 import dolphin.android.apps.dsttranslate.compose.EntryEditor
+import dolphin.android.apps.dsttranslate.compose.EntrySearchView
 import dolphin.android.apps.dsttranslate.compose.EntryView
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -60,7 +61,6 @@ class MainActivity : AppCompatActivity() {
             )
     }
 
-    // private val executor = Executors.newSingleThreadExecutor()
     private lateinit var helper: PoHelper
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -84,6 +84,7 @@ class MainActivity : AppCompatActivity() {
                             changedList = changed.value,
                             onRefresh = { onRefreshClick() },
                             onSave = { onSaveClick() },
+                            onSearch = { onSearchClick() },
                             enabled = enabled.value != true,
                         )
                     }
@@ -122,6 +123,24 @@ class MainActivity : AppCompatActivity() {
                             .fillMaxSize()
                             .padding(horizontal = 36.dp, vertical = 24.dp),
                         onTranslate = { text -> openGoogleTranslate(text) }
+                    )
+                }
+
+                if (searching.observeAsState().value == true) {
+                    EntrySearchView(
+                        items = helper.originMap.map { entry -> entry.key },
+                        modifier = Modifier
+                            .background(Color.Black.copy(alpha = .5f))
+                            .fillMaxSize()
+                            .padding(horizontal = 36.dp, vertical = 24.dp),
+                        onSelect = { key ->
+                            Log.d(TAG, "key = $key")
+                            hideSearchPane()
+                            helper.originMap[key]?.let { entry ->
+                                showEntryEditor(entry, entry)
+                            }
+                        },
+                        onCancel = { hideSearchPane() },
                     )
                 }
 
@@ -175,16 +194,15 @@ class MainActivity : AppCompatActivity() {
         showResultToast(helper.targetFile, System.currentTimeMillis() - start)
     }
 
-    private fun runDstTranslation() {
-//        executor.submit {
-//            loading.postValue(true)
-//            helper.runTranslation { timeCost ->
-//                showChangeList()
-//                showResultToast(helper.cacheFile, timeCost)
-//                loading.postValue(false)
-//            }
-//        }
+    private fun onSearchClick() {
+        searching.postValue(true)
+    }
 
+    private fun hideSearchPane() {
+        searching.postValue(false)
+    }
+
+    private fun runDstTranslation() {
         lifecycleScope.launch(Dispatchers.IO) {
             Log.d(TAG, "ENTER run dst translation")
             loading.postValue(true)
@@ -215,6 +233,7 @@ class MainActivity : AppCompatActivity() {
     private val changeList = MutableLiveData<List<Long>>()
     private val loading = MutableLiveData(false)
     private val editing = MutableLiveData(false)
+    private val searching = MutableLiveData(false)
     private val editTarget = MutableLiveData(WordEntry.default())
     private val editOrigin = MutableLiveData(WordEntry.default())
     private val editSource = MutableLiveData("")
