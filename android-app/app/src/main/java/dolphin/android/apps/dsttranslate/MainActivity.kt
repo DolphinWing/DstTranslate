@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        helper = PoHelper(this)
+        helper = AndroidPoHelper(this).apply { prepare() }
 
         setContent {
             val list = dataList.observeAsState()
@@ -92,8 +92,8 @@ class MainActivity : AppCompatActivity() {
                         items = list.value ?: ArrayList(),
                         key = { _, item -> item.key },
                     ) { index, entry ->
-                        val origin = remember { helper.originMap[entry.key] }
-                        val source = remember { helper.sourceMap[entry.key] }
+                        val origin = remember { helper.origin(entry.key) }
+                        val source = remember { helper.source(entry.key) }
 
                         EntryView(
                             origin = entry,
@@ -101,7 +101,7 @@ class MainActivity : AppCompatActivity() {
                             old = origin,
                             src = source,
                             onItemClick = { item ->
-                                showEntryEditor(item, helper.originMap[item.key])
+                                showEntryEditor(item, helper.origin(entry.key))
                             },
                             index = index,
                             changed = changed.value?.get(index) ?: 0L,
@@ -128,7 +128,7 @@ class MainActivity : AppCompatActivity() {
 
                 if (searching.observeAsState().value == true) {
                     EntrySearchView(
-                        items = helper.originMap.map { entry -> entry.key },
+                        items = helper.originKeys(),
                         modifier = Modifier
                             .background(Color.Black.copy(alpha = .5f))
                             .fillMaxSize()
@@ -136,7 +136,7 @@ class MainActivity : AppCompatActivity() {
                         onSelect = { key ->
                             Log.d(TAG, "key = $key")
                             hideSearchPane()
-                            helper.originMap[key]?.let { entry ->
+                            helper.origin(key)?.let { entry ->
                                 showEntryEditor(entry, entry)
                             }
                         },
@@ -151,7 +151,7 @@ class MainActivity : AppCompatActivity() {
                             color = MaterialTheme.colors.primary,
                         )
                         Text(
-                            helper.processStatus.collectAsState().value,
+                            helper.status.collectAsState().value,
                             modifier = Modifier.padding(top = 16.dp),
                             textAlign = TextAlign.Center,
                         )
@@ -191,7 +191,7 @@ class MainActivity : AppCompatActivity() {
     private fun onSaveClick() {
         val start = System.currentTimeMillis()
         helper.writeEntryToFile()
-        showResultToast(helper.targetFile, System.currentTimeMillis() - start)
+        showResultToast(helper.getOutputFile(), System.currentTimeMillis() - start)
     }
 
     private fun onSearchClick() {
@@ -209,7 +209,7 @@ class MainActivity : AppCompatActivity() {
             val cost = helper.runTranslationProcess()
             Log.d(TAG, "cost = $cost ms")
             showChangeList()
-            showResultToast(helper.cacheFile, cost)
+            showResultToast(helper.getCachedFile(), cost)
             loading.postValue(false)
             Log.d(TAG, "LEAVE run dst translation")
         }
@@ -241,11 +241,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun showChangeList() {
         val list = ArrayList<Long>()
-        val filtered = helper.wordList.filter { entry ->
-            val origin = helper.originMap[entry.key]
-            (entry.newly || origin?.id != entry.id || origin.str != entry.str || entry.changed > 0)
-                    && entry.str.length > 2 && !entry.string().startsWith("only_used_by")
-        }
+        val filtered = helper.buildChangeList()
         filtered.forEach { item -> list.add(item.changed) }
         // Log.d(TAG, "filtered data = ${filtered.size}")
         dataList.postValue(filtered)
@@ -260,8 +256,8 @@ class MainActivity : AppCompatActivity() {
 
         editTarget.postValue(entry)
         editOrigin.postValue(origin)
-        editSource.postValue(helper.sc2tc(helper.sourceMap[entry.key]?.str ?: ""))
-        editRevise.postValue(helper.revisedMap[entry.key]?.str ?: "")
+        editSource.postValue(helper.sc2tc(helper.source(entry.key)?.str ?: ""))
+        editRevise.postValue(helper.revise(entry.key)?.str ?: "")
         editing.postValue(true)
     }
 
@@ -286,11 +282,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun applyToDictionary(key: String, text: String) {
-        helper.wordList.find { entry -> entry.key == key }?.apply {
-            str = text
-            Log.d(TAG, "set new $key to $str")
-            changed = System.currentTimeMillis() // set new change time
-        }
+        helper.update(key, text)
         showChangeList()
         hideEntryEditor()
     }

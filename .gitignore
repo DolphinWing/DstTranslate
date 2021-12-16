@@ -14,3 +14,7 @@ workshop-678340265/
 
 # local properties
 .user.config
+
+# desktop-app tmp files
+dst_cht.po*
+

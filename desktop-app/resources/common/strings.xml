@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">DST PO Helper</string>
+    <string name="replacement_3dot">…</string>
+    <string name="replacement_left_bracket">「</string>
+    <string name="replacement_right_bracket">」</string>
+    <string-array name="replacement_list">
+        <item>威爾遜|威爾森</item>
+        <item>沃爾夫岡|沃夫岡</item>
+        <item>韋斯|維斯</item>
+        <item>薇克伯頓|薇克巴頓</item>
+        <item>晒|曬</item>
+        <item>濕|溼</item>
+        <item>卧槽|草泥馬</item>
+        <item>激活|啟用</item>
+        <item>檢測|偵測</item>
+        <item>里面|裡面</item>
+        <item>海里|海裡</item>
+        <item>粘|黏</item>
+        <item>考拉象|無尾象</item>
+        <item>帕格納|普格納</item>
+        <item>土豆|馬鈴薯</item>
+        <item>皮膚物品|造型物品</item>
+        <item>格羅姆|咕嚕咪</item>
+        <item>銩|圖勒</item>
+        <item>污|汙</item>
+        <item>獃|呆</item>
+        <item>“|「</item>
+        <item>”|」</item>
+        <item>想象|想像</item>
+        <item>花哨|花俏</item>
+        <item>意大利|義大利</item>
+        <item>皮弗婁牛|野牛</item>
+        <item>曲奇餅|餅乾</item>
+        <item>噠噠|答答</item>
+        <item>評委|評審</item>
+        <item>阿斯加德|阿斯嘉</item>
+    </string-array>
+    <string name="button_apply">Apply</string>
+    <string name="button_refresh">Refresh</string>
+    <string name="button_save">Save</string>
+</resources>
