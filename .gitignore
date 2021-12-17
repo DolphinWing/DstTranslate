@@ -16,5 +16,6 @@ workshop-678340265/
 .user.config
 
 # desktop-app tmp files
-dst_cht.po*
+desktop-app/dst_cht.po*
+desktop-app/configs.ini
 

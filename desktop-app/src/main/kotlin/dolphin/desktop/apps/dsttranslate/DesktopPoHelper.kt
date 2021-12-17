@@ -106,7 +106,7 @@ class DesktopPoHelper(val ini: Ini = Ini()) : PoHelper() {
 
     override fun getOutputFile(): File = File(ini.workshopDir, "dst_cht.po")
 
-    override fun getCachedFile(): File = File(ini.workingDir, "dst_cht.po.1")
+    override fun getCachedFile(): File = File(System.getProperty("java.io.tmpdir"), "dst_cht.po")
 
     override fun sc2tc(str: String): String {
         return ZhTwConverterUtil.toTraditional(str)

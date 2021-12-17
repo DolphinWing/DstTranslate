@@ -1,4 +1,5 @@
 // Copyright 2000-2021 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license that can be found in the LICENSE file.
+
 import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -23,10 +24,10 @@ import androidx.compose.ui.window.application
 import dolphin.android.apps.dsttranslate.WordEntry
 import dolphin.desktop.apps.dsttranslate.DesktopPoHelper
 import dolphin.desktop.apps.dsttranslate.Ini
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import java.awt.Toolkit
 import java.awt.datatransfer.Clipboard
-
 import java.awt.datatransfer.StringSelection
 
 
@@ -65,20 +66,31 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit) {
         var editRevise by remember { mutableStateOf("") }
         // search
         var searching by remember { mutableStateOf(false) }
+        var toasted by remember { mutableStateOf("") }
 
         LaunchedEffect(Unit) {
             helper.setupXml() // setup replacement
         }
 
+        fun toast(message: String) {
+            composeScope.launch {
+                toasted = message
+
+                delay(2000)
+                toasted = ""
+            }
+        }
+
         fun showEntryList() {
             composeScope.launch {
                 val cost = helper.runTranslationProcess()
-                println("cost $cost ms")
+                // println("cost $cost ms")
                 val list = ArrayList<Long>()
                 val filtered = helper.buildChangeList()
                 filtered.forEach { item -> list.add(item.changed) }
                 dataList = filtered
                 changedList = list
+                toast("cost $cost ms")
             }
         }
 
@@ -110,7 +122,7 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit) {
                 val start = System.currentTimeMillis()
                 helper.writeEntryToFile()
                 val cost = System.currentTimeMillis() - start
-                println("write cost $cost ms")
+                toast("cost $cost ms")
             }
         }
 
@@ -140,8 +152,14 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit) {
                         hideEntryEditor()
                     },
                     onCancel = { hideEntryEditor() },
-                    onCopy = onCopyTo,
-                    onTranslate = onCopyTo,
+                    onCopy = { text ->
+                        onCopyTo.invoke(text)
+                        toast("Copied!")
+                    },
+                    onTranslate = { text ->
+                        onCopyTo.invoke(text)
+                        toast("Copied!")
+                    },
                 )
             }
             if (searching) {
@@ -158,6 +176,8 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit) {
                     onCancel = { hideSearchPane() },
                 )
             }
+
+            ToastUi(toasted)
         }
     }
 }
@@ -169,7 +189,7 @@ fun main() = application {
     val helper = DesktopPoHelper(Ini(workingDir))
     helper.prepare()
 
-    Window(onCloseRequest = ::exitApplication) {
+    Window(onCloseRequest = ::exitApplication, title = "DST Translate") {
         App(helper, onCopyTo = ::copyToSystemClipboard)
     }
 }

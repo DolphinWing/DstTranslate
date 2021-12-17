@@ -55,6 +55,7 @@ fun SearchPane(
             },
             modifier = Modifier.fillMaxWidth(),
             colors = TextFieldDefaults.outlinedTextFieldColors(),
+            placeholder = { Text("resource key") }
         )
         Row(verticalAlignment = Alignment.CenterVertically) {
             SearchType.values().forEach { type ->

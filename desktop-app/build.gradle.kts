@@ -19,9 +19,6 @@ repositories {
 dependencies {
     implementation(compose.desktop.currentOs)
     implementation(org.jetbrains.compose.ComposePlugin.Dependencies.materialIconsExtended)
-    // Apache POI (for XML)
-    implementation("org.apache.poi:poi:5.0.0")
-    implementation("org.apache.poi:poi-ooxml:5.0.0")
     // https://github.com/houbb/opencc4j
     implementation("com.github.houbb:opencc4j:1.7.1")
 }

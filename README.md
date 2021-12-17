@@ -11,6 +11,7 @@ Thanks those developer who have done brillent work on these mods
 * [中文語言包](https://steamcommunity.com/sharedfiles/filedetails/?id=367546858)
 * [中文高清字體](https://steamcommunity.com/sharedfiles/filedetails/?id=678340265)
 
-![Android CI](https://github.com/DolphinWing/DSTTranslate/workflows/Android%20CI/badge.svg) 
 **DSTTranslate** is a tool to convert translation document. Internal use only.
+* [android-app](android-app) runs on Android and Chromebook ![Android CI](https://github.com/DolphinWing/DSTTranslate/workflows/Android%20CI/badge.svg) 
+* [desktop-app](desktop-app) runs on Linux and Windows ![Desktop CI](https://github.com/DolphinWing/DSTTranslate/workflows/Desktop%20CI/badge.svg) 
 

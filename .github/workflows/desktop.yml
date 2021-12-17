@@ -1,0 +1,33 @@
+name: Desktop CI
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+    - 'desktop-app/**'
+    - '!desktop-app/resources/**'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-18.04
+    defaults:
+      run:
+        shell: bash
+        working-directory: desktop-app
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: set up JDK 11
+      uses: actions/setup-java@v2
+      with:
+        distribution: 'zulu'
+        java-version: '11'
+    - uses: actions/cache@v2                                                                                                                                
+        with:
+          path: ~/.gradle/caches
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
+    - name: Build with Gradle
+      run: ./gradlew assemble

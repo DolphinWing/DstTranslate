@@ -1,3 +1,10 @@
+import androidx.compose.animation.AnimatedContent
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.ExperimentalAnimationApi
+import androidx.compose.animation.core.Spring
+import androidx.compose.animation.core.spring
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
 import androidx.compose.foundation.HorizontalScrollbar
 import androidx.compose.foundation.TooltipArea
 import androidx.compose.foundation.VerticalScrollbar
@@ -13,7 +20,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyItemScope
-import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.rememberScrollState
@@ -124,4 +130,28 @@ fun RowScope.TableCell(
         Modifier.border(1.dp, borderColor).weight(weight).padding(8.dp),
         style = MaterialTheme.typography.body1
     )
+}
+
+@Composable
+fun BoxScope.ToastUi(text: String) {
+    AnimatedVisibility(
+        visible = text.isNotEmpty(),
+        modifier = Modifier.align(Alignment.BottomCenter).padding(bottom = 48.dp),
+        enter = fadeIn(spring(stiffness = Spring.StiffnessLow)),
+        exit = fadeOut(spring(stiffness = Spring.StiffnessHigh)),
+    ) {
+        Text(
+            text,
+            modifier = Modifier
+                .border(
+                    width = 1.dp,
+                    color = MaterialTheme.colors.primary.copy(alpha = .25f),
+                    shape = RoundedCornerShape(4.dp),
+                )
+                .background(Color.White.copy(.9f))
+                .background(MaterialTheme.colors.secondary.copy(alpha = .05f))
+                .padding(vertical = 8.dp, horizontal = 16.dp),
+            style = MaterialTheme.typography.h6,
+        )
+    }
 }
