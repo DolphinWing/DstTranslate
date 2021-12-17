@@ -20,6 +20,7 @@
         <item>帕格納|普格納</item>
         <item>土豆|馬鈴薯</item>
         <item>皮膚物品|造型物品</item>
+        <item>面板物品|造型物品</item>
         <item>格羅姆|咕嚕咪</item>
         <item>銩|圖勒</item>
         <item>污|汙</item>
@@ -34,6 +35,7 @@
         <item>噠噠|答答</item>
         <item>評委|評審</item>
         <item>阿斯加德|阿斯嘉</item>
+        <item>揹包|背包</item>
     </string-array>
     <string name="button_apply">Apply</string>
     <string name="button_refresh">Refresh</string>
