@@ -36,6 +36,7 @@
         <item>評委|評審</item>
         <item>阿斯加德|阿斯嘉</item>
         <item>揹包|背包</item>
+        <item>蛋清|蛋白</item>
     </string-array>
     <string name="button_apply">Apply</string>
     <string name="button_refresh">Refresh</string>

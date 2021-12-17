@@ -42,7 +42,6 @@ abstract class PoHelper {
             // do reading, usually loop until end of file reading
             var line: String? = ""//reader.readLine()
             while (line != null) {
-                // Log.d(TAG, "${line.length}: $line")
                 val line1 = reader.readLine()
                 if (!line1.startsWith("#")) {
                     log("bypass $line1")
@@ -53,7 +52,6 @@ abstract class PoHelper {
                 val line4 = reader.readLine()
                 val entry = WordEntry.from(line1, line2, line3, line4)
                 if (entry != null) {
-                    // Log.d(TAG, "entry: ${entry.id}")
                     list.add(entry)
                 } else {
                     log("invalid input: $line1")
@@ -152,13 +150,11 @@ abstract class PoHelper {
                 val str1 = originMap[entry.key]?.str ?: ""
                 if (str1.isNotEmpty()) str = str1.trim()
             } else {
-                // Log.d(TAG, "add ${entry.key}")
                 processStatus.emit("(${index + 1}/${s.size})\n${entry.key}")
             }
             if (str.isEmpty()) { // not in the translated po
                 newly = true
                 str = sc2tc(entry.str).trim()
-                // Log.d(TAG, ">> use $str")
             }
             str = getReplacement(str)
             wordList.add(WordEntry(entry.key, entry.text, entry.id, str, newly))
@@ -188,12 +184,10 @@ abstract class PoHelper {
         if (str.contains("\\\"")) {
             var i = 0
             val str1 = str.replace("\\\"", "%@%").replace("%@%".toRegex()) {
-                // Log.d(TAG, "$i ${it.value}")
                 if (i++ % 2 == 0) replaceLeftBracket else replaceRightBracket
             }
             if (i % 2 == 0) {
-                // Log.d(TAG, "$str ==> $str1")
-                str = str1 //only replace the paired string
+                str = str1 // only replace the paired string
             }
         }
         return str
@@ -201,14 +195,19 @@ abstract class PoHelper {
 
     fun buildChangeList(): List<WordEntry> = wordList.filter { entry ->
         val origin = originMap[entry.key]
-        (entry.newly || origin?.id != entry.id || origin.str != entry.str || entry.changed > 0)
+        val source = sourceMap[entry.key]
+        (entry.newly || // new entry
+                origin?.id != entry.id || // english text changed
+                origin.str != entry.str || // translation changed
+                entry.changed > 0 || // entry itself changed by editor
+                source?.id != origin.id) // source english text changed
                 && entry.str.length > 2 && !entry.string().startsWith("only_used_by")
     }
 
     fun update(key: String, value: String) {
         wordList.find { entry -> entry.key == key }?.apply {
             str = value
-            println("set new $key to $str")
+            // println("set new $key to $str")
             changed = System.currentTimeMillis() // set new change time
         }
     }

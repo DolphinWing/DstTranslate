@@ -195,7 +195,12 @@ abstract class PoHelper {
 
     fun buildChangeList(): List<WordEntry> = wordList.filter { entry ->
         val origin = originMap[entry.key]
-        (entry.newly || origin?.id != entry.id || origin.str != entry.str || entry.changed > 0)
+        val source = sourceMap[entry.key]
+        (entry.newly || // new entry
+                origin?.id != entry.id || // english text changed
+                origin.str != entry.str || // translation changed
+                entry.changed > 0 || // entry itself changed by editor
+                source?.id != origin.id) // source english text changed
                 && entry.str.length > 2 && !entry.string().startsWith("only_used_by")
     }
 
