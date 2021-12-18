@@ -21,15 +21,16 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import dolphin.android.apps.dsttranslate.WordEntry
 
 private enum class SearchType {
-    StartWith, Contains,
+    Key, Origin,
 }
 
 // See https://stackoverflow.com/a/69148766
 @Composable
 fun SearchPane(
-    items: List<String>,
+    items: List<WordEntry>,
     modifier: Modifier = Modifier,
     selectedValue: String? = null,
     onSelect: ((String) -> Unit)? = null,
@@ -37,24 +38,24 @@ fun SearchPane(
 ) {
     var data by remember { mutableStateOf(selectedValue) }
     var filteredItems by remember { mutableStateOf(emptyList<String>()) }
-    var searchType by remember { mutableStateOf(SearchType.Contains) }
+    var searchType by remember { mutableStateOf(SearchType.Key) }
 
     Column(modifier = modifier.background(MaterialTheme.colors.surface)) {
         TextField(
             data ?: "",
             onValueChange = { text ->
                 data = text
-                filteredItems = items.filter { item ->
+                filteredItems = items.map { item ->
                     when (searchType) {
-                        SearchType.StartWith -> item.startsWith(text, ignoreCase = true)
-                        SearchType.Contains -> item.contains(text, ignoreCase = true)
+                        SearchType.Origin -> item.origin()
+                        SearchType.Key -> item.key()
                     }
-                }
+                }.filter { item -> item.contains(text, ignoreCase = true) }
                 println("found ${filteredItems.size}")
             },
             modifier = Modifier.fillMaxWidth(),
             colors = TextFieldDefaults.outlinedTextFieldColors(),
-            placeholder = { Text("resource key") }
+            placeholder = { Text("text to search") }
         )
         Row(verticalAlignment = Alignment.CenterVertically) {
             SearchType.values().forEach { type ->
@@ -75,7 +76,13 @@ fun SearchPane(
             TextButton(onClick = { onCancel?.invoke() }, modifier = Modifier.weight(1f)) {
                 Text("Cancel")
             }
-            Button(onClick = { onSelect?.invoke(data ?: "") }, modifier = Modifier.weight(1f)) {
+            Button(onClick = {
+                val key = when (searchType) {
+                    SearchType.Origin -> items.find { entry-> entry.origin() == data }
+                    SearchType.Key -> items.find { entry -> entry.key() == data }
+                }?.key()
+                onSelect?.invoke(key ?: "")
+            }, modifier = Modifier.weight(1f)) {
                 Text("Edit")
             }
         }

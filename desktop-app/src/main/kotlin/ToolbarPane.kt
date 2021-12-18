@@ -42,14 +42,14 @@ fun ToolbarPane(
             color = MaterialTheme.colors.onPrimary,
         )
         Text(
-            "source",
+            "chs",
             modifier = Modifier
                 .background(AppTheme.AppColor.blue)
                 .padding(vertical = 4.dp, horizontal = 8.dp),
             fontSize = AppTheme.largerFontSize(),
         )
         Text(
-            "revise",
+            "cht",
             modifier = Modifier
                 .background(AppTheme.AppColor.purple)
                 .padding(vertical = 4.dp, horizontal = 8.dp),
@@ -57,14 +57,14 @@ fun ToolbarPane(
             color = Color.White,
         )
         Text(
-            "origin",
+            "dst",
             modifier = Modifier
                 .background(AppTheme.AppColor.orange)
                 .padding(vertical = 4.dp, horizontal = 8.dp),
             fontSize = AppTheme.largerFontSize(),
         )
         Text(
-            "target",
+            "now",
             modifier = Modifier
                 .background(AppTheme.AppColor.green)
                 .padding(vertical = 4.dp, horizontal = 8.dp),

@@ -35,19 +35,19 @@ private fun Color.tinted(visible: Boolean): Color = copy(alpha = if (visible) 1f
 fun EditorPane(
     target: WordEntry,
     modifier: Modifier = Modifier,
-    origin: WordEntry? = null,
-    source: String? = null,
-    revised: String? = null,
+    dst: WordEntry? = null,
+    chs: String? = null,
+    cht: String? = null,
     onSave: ((String, String) -> Unit)? = null,
     onCopy: ((String) -> Unit)? = null,
     onTranslate: ((String) -> Unit)? = null,
     onCancel: (() -> Unit)? = null,
 ) {
     var text by remember { mutableStateOf(target.string()) }
-    var targetVisible by remember { mutableStateOf(true) }
-    var originVisible by remember { mutableStateOf(true) }
-    var sourceVisible by remember { mutableStateOf(true) }
-    var reviseVisible by remember { mutableStateOf(true) }
+    var nowVisible by remember { mutableStateOf(true) }
+    var dstVisible by remember { mutableStateOf(true) }
+    var chsVisible by remember { mutableStateOf(true) }
+    var chtVisible by remember { mutableStateOf(true) }
 
     Column(
         modifier = modifier
@@ -61,66 +61,66 @@ fun EditorPane(
                 modifier = Modifier.weight(1f),
                 overflow = TextOverflow.Ellipsis,
             )
-            IconButton(onClick = { targetVisible = !targetVisible }) {
+            IconButton(onClick = { nowVisible = !nowVisible }) {
                 Icon(
                     Icons.Rounded.Visibility,
                     contentDescription = null,
-                    tint = AppTheme.AppColor.green.tinted(targetVisible),
+                    tint = AppTheme.AppColor.green.tinted(nowVisible),
                 )
             }
-            origin?.let { // new item has no previous for reference, need to check source
-                IconButton(onClick = { originVisible = !originVisible }) {
+            dst?.let { // new item has no previous for reference, need to check source
+                IconButton(onClick = { dstVisible = !dstVisible }) {
                     Icon(
                         Icons.Rounded.Visibility,
                         contentDescription = null,
-                        tint = AppTheme.AppColor.orange.tinted(originVisible)
+                        tint = AppTheme.AppColor.orange.tinted(dstVisible)
                     )
                 }
             }
-            IconButton(onClick = { sourceVisible = !sourceVisible }) {
+            IconButton(onClick = { chsVisible = !chsVisible }) {
                 Icon(
                     Icons.Rounded.Visibility,
                     contentDescription = null,
-                    tint = AppTheme.AppColor.blue.tinted(sourceVisible)
+                    tint = AppTheme.AppColor.blue.tinted(chsVisible)
                 )
             }
-            IconButton(onClick = { reviseVisible = !reviseVisible }) {
+            IconButton(onClick = { chtVisible = !chtVisible }) {
                 Icon(
                     Icons.Rounded.Visibility,
                     contentDescription = null,
-                    tint = AppTheme.AppColor.purple.tinted(reviseVisible)
+                    tint = AppTheme.AppColor.purple.tinted(chtVisible)
                 )
             }
         }
 
-        if (sourceVisible) {
+        if (chsVisible) {
             Button(
-                onClick = { text = source?.dropQuote() ?: "" },
+                onClick = { text = chs?.dropQuote() ?: "" },
                 modifier = Modifier.fillMaxWidth(),
-                enabled = source?.isNotEmpty() == true,
+                enabled = chs?.isNotEmpty() == true,
                 colors = ButtonDefaults.buttonColors(
                     backgroundColor = AppTheme.AppColor.blue,
                 ),
             ) {
-                Text(source?.dropQuote() ?: "", fontSize = AppTheme.largerFontSize())
+                Text(chs?.dropQuote() ?: "", fontSize = AppTheme.largerFontSize())
             }
         }
-        if (reviseVisible) {
+        if (chtVisible) {
             Button(
-                onClick = { text = revised?.dropQuote() ?: "" },
+                onClick = { text = cht?.dropQuote() ?: "" },
                 modifier = Modifier.fillMaxWidth(),
-                enabled = revised?.isNotEmpty() == true,
+                enabled = cht?.isNotEmpty() == true,
                 colors = ButtonDefaults.buttonColors(
                     contentColor = Color.White,
                     backgroundColor = AppTheme.AppColor.purple,
                 ),
             ) {
-                Text(revised?.dropQuote() ?: "", fontSize = AppTheme.largerFontSize())
+                Text(cht?.dropQuote() ?: "", fontSize = AppTheme.largerFontSize())
             }
         }
 
-        origin?.let { old ->
-            if (originVisible) {
+        dst?.let { old ->
+            if (dstVisible) {
                 Row {
                     TextButton(
                         onClick = { onTranslate?.invoke(old.origin()) },
@@ -151,7 +151,7 @@ fun EditorPane(
             }
         }
 
-        if (targetVisible) {
+        if (nowVisible) {
             Row {
                 TextButton(
                     onClick = { onTranslate?.invoke(target.origin()) },

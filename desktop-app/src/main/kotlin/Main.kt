@@ -60,16 +60,16 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit) {
         var changedList by remember { mutableStateOf(emptyList<Long>()) }
         // editor
         var editing by remember { mutableStateOf(false) }
-        var editTarget by remember { mutableStateOf(WordEntry.default()) }
-        var editOrigin by remember { mutableStateOf<WordEntry?>(WordEntry.default()) }
-        var editSource by remember { mutableStateOf("") }
-        var editRevise by remember { mutableStateOf("") }
+        var editorNow by remember { mutableStateOf(WordEntry.default()) }
+        var editorDst by remember { mutableStateOf<WordEntry?>(WordEntry.default()) }
+        var editorChs by remember { mutableStateOf("") }
+        var editorCht by remember { mutableStateOf("") }
         // search
         var searching by remember { mutableStateOf(false) }
         var toasted by remember { mutableStateOf("") }
 
         LaunchedEffect(Unit) {
-            helper.setupXml() // setup replacement
+            helper.loadXml() // setup replacement
         }
 
         fun toast(message: String) {
@@ -81,27 +81,31 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit) {
             }
         }
 
+        fun updateEntryList() {
+            val list = ArrayList<Long>()
+            val filtered = helper.buildChangeList()
+            filtered.forEach { item -> list.add(item.changed) }
+            dataList = filtered
+            changedList = list
+        }
+
         fun showEntryList() {
             composeScope.launch {
                 val cost = helper.runTranslationProcess()
                 // println("cost $cost ms")
-                val list = ArrayList<Long>()
-                val filtered = helper.buildChangeList()
-                filtered.forEach { item -> list.add(item.changed) }
-                dataList = filtered
-                changedList = list
+                updateEntryList()
                 toast("cost $cost ms")
             }
         }
 
         fun showEntryEditor(entry: WordEntry) {
-            val origin = helper.origin(entry.key)
-            println("edit: ${entry.key} ${origin?.key}")
-            if (!entry.newly) println("origin: ${origin?.id} ${origin?.str}")
-            editTarget = entry
-            editOrigin = origin
-            editSource = helper.sc2tc(helper.source(entry.key)?.str ?: "")
-            editRevise = helper.revise(entry.key)?.str ?: ""
+            val dst = helper.dst(entry.key)
+            println("edit: ${entry.key}")
+            if (!entry.newly) println("origin: ${dst?.id}")
+            editorNow = entry
+            editorDst = dst
+            editorChs = helper.sc2tc(helper.chs(entry.key)?.str ?: "")
+            editorCht = helper.cht(entry.key)?.str ?: ""
             editing = true
         }
 
@@ -142,13 +146,14 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit) {
             }
             if (editing) {
                 EditorPane(
-                    target = editTarget,
+                    target = editorNow,
                     modifier = Modifier.fillMaxSize(),
-                    origin = editOrigin,
-                    source = editSource,
-                    revised = editRevise,
+                    dst = editorDst,
+                    chs = editorChs,
+                    cht = editorCht,
                     onSave = { key, text ->
                         helper.update(key, text)
+                        updateEntryList()
                         hideEntryEditor()
                     },
                     onCancel = { hideEntryEditor() },
@@ -164,12 +169,12 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit) {
             }
             if (searching) {
                 SearchPane(
-                    items = helper.originKeys(),
+                    items = helper.dstValues(),
                     modifier = Modifier.fillMaxSize(),
                     onSelect = { key ->
                         println("key = $key")
                         hideSearchPane()
-                        helper.origin(key)?.let { entry ->
+                        helper.dst(key)?.let { entry ->
                             showEntryEditor(entry)
                         }
                     },

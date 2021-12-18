@@ -2,6 +2,8 @@ import org.jetbrains.compose.compose
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
+val releaseAppVersion = "1.0.2"
+
 plugins {
     kotlin("jvm") version "1.5.31"
     id("org.jetbrains.compose") version "1.0.0"
@@ -19,6 +21,7 @@ repositories {
 dependencies {
     implementation(compose.desktop.currentOs)
     implementation(org.jetbrains.compose.ComposePlugin.Dependencies.materialIconsExtended)
+
     // https://github.com/houbb/opencc4j
     implementation("com.github.houbb:opencc4j:1.7.1")
 }
@@ -37,6 +40,19 @@ compose.desktop {
             packageVersion = "1.0.0"
 
             appResourcesRootDir.set(project.layout.projectDirectory.dir("resources"))
+
+            windows {
+                dirChooser = true
+                msiPackageVersion = releaseAppVersion
+                exePackageVersion = releaseAppVersion
+                upgradeUuid = "f33ea1be-e738-43e0-9918-9360b0620fc0"
+            }
+
+            linux {
+                debMaintainer = "dolphinwing74+github@gmail.com"
+                debPackageVersion = releaseAppVersion
+                rpmPackageVersion = releaseAppVersion
+            }
         }
     }
 }

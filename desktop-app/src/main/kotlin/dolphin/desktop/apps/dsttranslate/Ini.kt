@@ -19,10 +19,16 @@ class Ini(val workingDir: String = System.getProperty("user.dir")) {
     suspend fun load() = withContext(Dispatchers.IO) {
         if (!configFile.exists()) {
             println("load ${configFile.absolutePath} failed")
+            // try to copy one from resource
+            if (huntForReleaseConfig().exists()) {
+                huntForReleaseConfig().copyTo(configFile)
+            } else if (huntForDebugConfig().exists()) {
+                huntForDebugConfig().copyTo(configFile)
+            }
             return@withContext
         }
         try {
-            val reader = BufferedReader(InputStreamReader(FileInputStream(configFile)))
+            val reader = BufferedReader(InputStreamReader(FileInputStream(configFile), "UTF-8"))
             try {
                 // do reading, usually loop until end of file reading
                 var line: String? = reader.readLine()
@@ -37,6 +43,16 @@ class Ini(val workingDir: String = System.getProperty("user.dir")) {
         } catch (e: Exception) {
             println("close: ${e.message}")
         }
+    }
+
+    private fun huntForReleaseConfig(): File {
+        val s = File.separator
+        return File( "${workingDir}${s}app${s}resources${s}${configFile.name}")
+    }
+
+    private fun huntForDebugConfig(): File {
+        val s = File.separator
+        return File( "${workingDir}${s}resources${s}common${s}${configFile.name}")
     }
 
     private fun parseIni(line: String) {

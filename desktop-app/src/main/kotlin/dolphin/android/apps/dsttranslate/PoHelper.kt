@@ -17,16 +17,16 @@ abstract class PoHelper {
 
     private val sourceMap = HashMap<String, WordEntry>()
 
-    fun source(key: String): WordEntry? = sourceMap[key]
+    fun chs(key: String): WordEntry? = sourceMap[key]
 
     private val revisedMap = HashMap<String, WordEntry>()
 
-    fun revise(key: String): WordEntry? = revisedMap[key]
+    fun cht(key: String): WordEntry? = revisedMap[key]
 
     private val originMap = HashMap<String, WordEntry>()
 
-    fun origin(key: String): WordEntry? = originMap[key]
-    fun originKeys(): List<String> = originMap.map { entry -> entry.key }
+    fun dst(key: String): WordEntry? = originMap[key]
+    fun dstValues(): List<WordEntry> = originMap.map { entry -> entry.value }
 
     private val wordList = ArrayList<WordEntry>()
 

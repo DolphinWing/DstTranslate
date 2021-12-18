@@ -6,11 +6,16 @@ import dolphin.android.apps.dsttranslate.WordEntry
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.w3c.dom.Element
+import org.w3c.dom.Node
+import org.w3c.dom.NodeList
+import org.xml.sax.Attributes
+import org.xml.sax.helpers.DefaultHandler
 import java.io.BufferedReader
 import java.io.File
 import java.io.FileInputStream
 import java.io.InputStreamReader
 import javax.xml.parsers.DocumentBuilderFactory
+import javax.xml.parsers.SAXParserFactory
 
 class DesktopPoHelper(val ini: Ini = Ini()) : PoHelper() {
     override fun log(message: String) {
@@ -23,7 +28,8 @@ class DesktopPoHelper(val ini: Ini = Ini()) : PoHelper() {
 
     private val replaceMap = HashMap<String, String>()
 
-    private fun loadXml(xml: File) {
+    @Suppress("unused")
+    private fun loadXmlByDom(xml: File) {
         try {
             // See https://stackoverflow.com/a/7373596
             val dbf = DocumentBuilderFactory.newInstance()
@@ -31,26 +37,18 @@ class DesktopPoHelper(val ini: Ini = Ini()) : PoHelper() {
 
             dom?.getElementsByTagName("string-array")?.let { list ->
                 (list.item(0) as? Element)?.let { replacementList ->
-                    val items = replacementList.getElementsByTagName("item")
-                    repeat(items.length) { index ->
-                        (items.item(index) as? Element)?.let { item ->
-                            val line = item.textContent.dropWhile { it == ' ' }.trim()
-                            // println("found $line")
-                            replaceMap["entry-$index"] = line
+                    replacementList.getElementsByTagName("item").items()
+                        .forEachIndexed { index, node ->
+                            replaceMap["entry-$index"] = node.content()
                         }
-                    }
                     // println("  found ${items.length} entries")
                 }
             }
-            dom?.getElementsByTagName("string")?.let { list ->
-                repeat(list.length) { index ->
-                    (list.item(index) as? Element)?.let { item ->
-                        val key = item.getAttribute("name")
-                        // println("$key: ${item.textContent}")
-                        if (key.startsWith("replacement")) {
-                            replaceMap[key] = item.textContent.trim()
-                        }
-                    }
+            dom?.getElementsByTagName("string")?.items()?.forEach { node ->
+                val key = node.attribute("name")
+                // println("{node.attribute("name")}: ${node.content()}")
+                if (key.startsWith("replacement")) {
+                    replaceMap[key] = node.content()
                 }
             }
         } catch (e: Exception) {
@@ -58,7 +56,62 @@ class DesktopPoHelper(val ini: Ini = Ini()) : PoHelper() {
         }
     }
 
-    private fun findReplaceXml(): File {
+    /**
+     * https://mkyong.com/java/how-to-read-xml-file-in-java-sax-parser/
+     */
+    private fun loadXmlBySax(xml: File) {
+        val factory = SAXParserFactory.newInstance()
+        try {
+            factory.newSAXParser().parse(xml, SaxDocumentHandler(replaceMap))
+        } catch (e: Exception) {
+            println("SAXParser: ${e.message}")
+        }
+    }
+
+    private class SaxDocumentHandler(private val map: HashMap<String, String>) : DefaultHandler() {
+        var tag: String = ""
+        var name: String? = null
+
+        override fun startElement(
+            uri: String?,
+            localName: String?,
+            qName: String?,
+            attributes: Attributes?
+        ) {
+            // println("startElement: $uri: $localName: $qName")
+            qName?.let { tag = it }
+            attributes?.let { a ->
+                repeat(a.length) { index ->
+                    // println("${a.getQName(index)}: ${a.getValue(index)}")
+                    if (a.getQName(index) == "name") name = a.getValue(index)
+                }
+            } ?: kotlin.run { name = null }
+        }
+
+        override fun characters(ch: CharArray?, start: Int, length: Int) {
+            if (tag.isNotEmpty() && ch != null) {
+                val content = ch.joinToString("").substring(start, start + length)
+                // println("<$tag name='${name ?: ""}'>$content</$tag>")
+                putMap(name ?: "", content, start)
+            }
+        }
+
+        override fun endElement(uri: String?, localName: String?, qName: String?) {
+            // println("endElement: $uri: $localName: $qName")
+            if (tag == qName) tag = ""
+        }
+
+        private fun putMap(name: String, value: String, start: Int) {
+            if (tag == "string" && name.startsWith("replacement")) {
+                map[name] = value.trim()
+            }
+            if (tag == "item" && name == "replacement_list") {
+                map["entry-$start"] = value
+            }
+        }
+    }
+
+    private fun findReplacementXml(): File {
         // locate debug build
         if (File(ini.workingDir, "resources").exists()) {
             val file = File("${ini.workingDir}/resources/common/strings.xml")
@@ -73,8 +126,9 @@ class DesktopPoHelper(val ini: Ini = Ini()) : PoHelper() {
         return File(ini.workshopDir, "strings.xml")
     }
 
-    suspend fun setupXml() = withContext(Dispatchers.IO) {
-        loadXml(findReplaceXml()) // load from replacement xml
+    suspend fun loadXml() = withContext(Dispatchers.IO) {
+        // loadXmlByDom(findReplaceXml()) // load from replacement xml
+        loadXmlBySax(findReplacementXml())
         replaceMap.filter { entry -> entry.key.startsWith("entry-") }
             .map { entry -> entry.value }
             .forEach { entry -> replaceList.add(entry) }
@@ -93,7 +147,8 @@ class DesktopPoHelper(val ini: Ini = Ini()) : PoHelper() {
         log("load asset: $dir/$name")
         val file = File(dir, name)
         val list: ArrayList<WordEntry> = if (file.exists()) try {
-            val reader = BufferedReader(InputStreamReader(FileInputStream(file)))
+            // Read UTF-8 https://stackoverflow.com/a/14918597
+            val reader = BufferedReader(InputStreamReader(FileInputStream(file), "UTF-8"))
             loadFromReader(reader, true)
         } catch (e: Exception) {
             ArrayList()
@@ -112,3 +167,12 @@ class DesktopPoHelper(val ini: Ini = Ini()) : PoHelper() {
         return ZhTwConverterUtil.toTraditional(str)
     }
 }
+
+fun NodeList.items(): List<Node> {
+    val list = java.util.ArrayList<Node>()
+    repeat(this.length) { list.add(item(it)) }
+    return list
+}
+
+fun Node.content(): String = (this as? Element)?.textContent?.dropWhile { it == ' ' }?.trim() ?: ""
+fun Node.attribute(key: String): String = (this as? Element)?.getAttribute(key) ?: ""

@@ -41,14 +41,16 @@ fun EntryListPane(
             dataList ?: emptyList(),
             modifier = Modifier.weight(1f)
         ) { index, entry ->
-            val origin = remember { helper.origin(entry.key) }
-            val source = remember { helper.source(entry.key) }
+            val dst = remember { helper.dst(entry.key) }
+            val chs = remember { helper.chs(entry.key) }
+            val cht = remember { helper.cht(entry.key) }
 
             EntryView(
                 origin = entry,
                 modifier = Modifier.fillMaxWidth(),
-                old = origin,
-                src = source,
+                dst = dst,
+                chs = chs,
+                cht = cht,
                 onItemClick = { item -> onEdit?.invoke(item) },
                 index = index,
                 changed = changedList?.get(index) ?: 0L,
@@ -61,8 +63,9 @@ fun EntryListPane(
 fun EntryView(
     origin: WordEntry,
     modifier: Modifier = Modifier,
-    old: WordEntry? = null,
-    src: WordEntry? = null,
+    dst: WordEntry? = null,
+    chs: WordEntry? = null,
+    cht: WordEntry? = null,
     onItemClick: ((WordEntry) -> Unit)? = null,
     index: Int = 0,
     changed: Long = 0L,
@@ -93,16 +96,17 @@ fun EntryView(
                 fontSize = 14.sp,
             )
         }
-        src?.let { source ->
+        chs?.let { source ->
             Text(source.origin(), fontSize = AppTheme.largerFontSize())
         }
         Text(
-            if (old?.id == origin.id) old.string() else old?.origin() ?: origin.origin(),
-            color = AppTheme.AppColor.blue,
+            // if (dst?.id == origin.id) dst.string() else dst?.origin() ?: origin.origin(),
+            cht?.string() ?: chs?.string() ?: origin.origin(),
+            color = AppTheme.AppColor.purple,
             fontSize = AppTheme.largerFontSize(),
         )
         Text(
-            old?.string() ?: src?.string() ?: origin.string(),
+            dst?.string() ?: chs?.string() ?: origin.string(),
             color = AppTheme.AppColor.orange,
             fontSize = AppTheme.largerFontSize(),
         )
