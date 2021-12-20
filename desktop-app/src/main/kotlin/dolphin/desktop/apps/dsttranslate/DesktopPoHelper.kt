@@ -17,7 +17,7 @@ import java.io.InputStreamReader
 import javax.xml.parsers.DocumentBuilderFactory
 import javax.xml.parsers.SAXParserFactory
 
-class DesktopPoHelper(val ini: Ini = Ini()) : PoHelper() {
+class DesktopPoHelper(val ini: Ini = Ini(), private val debug: Boolean = false) : PoHelper() {
     override fun log(message: String) {
         println(message)
     }
@@ -159,7 +159,11 @@ class DesktopPoHelper(val ini: Ini = Ini()) : PoHelper() {
         return list
     }
 
-    override fun getOutputFile(): File = File(ini.workshopDir, "dst_cht.po")
+    override fun getOutputFile(): File = getOutputFile(debug)
+
+    fun getOutputFile(cached: Boolean): File = if (cached) getCachedFile() else {
+        File(ini.workshopDir, "dst_cht.po")
+    }
 
     override fun getCachedFile(): File = File(System.getProperty("java.io.tmpdir"), "dst_cht.po")
 

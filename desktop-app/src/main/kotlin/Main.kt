@@ -3,17 +3,27 @@
 import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material.AlertDialog
+import androidx.compose.material.ButtonDefaults
+import androidx.compose.material.ExperimentalMaterialApi
 import androidx.compose.material.MaterialTheme
+import androidx.compose.material.Text
+import androidx.compose.material.TextButton
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.TextUnit
@@ -29,7 +39,7 @@ import kotlinx.coroutines.launch
 import java.awt.Toolkit
 import java.awt.datatransfer.Clipboard
 import java.awt.datatransfer.StringSelection
-
+import java.io.File
 
 object AppTheme {
     @Composable
@@ -41,13 +51,14 @@ object AppTheme {
         val orange = Color(255, 87, 34)
         val green = Color(76, 175, 80)
         val primary = Color(96, 125, 139)
-        val secondary = Color(0, 150, 136)
+        val secondary = Color(233, 30, 99)
     }
 }
 
+@ExperimentalMaterialApi
 @Composable
 @Preview
-fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit) {
+fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = false) {
     MaterialTheme(
         colors = lightColors(
             primary = AppTheme.AppColor.primary,
@@ -67,6 +78,7 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit) {
         // search
         var searching by remember { mutableStateOf(false) }
         var toasted by remember { mutableStateOf("") }
+        var cached by remember { mutableStateOf(false) }
 
         LaunchedEffect(Unit) {
             helper.loadXml() // setup replacement
@@ -75,7 +87,6 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit) {
         fun toast(message: String) {
             composeScope.launch {
                 toasted = message
-
                 delay(2000)
                 toasted = ""
             }
@@ -121,12 +132,18 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit) {
             searching = false
         }
 
-        fun saveEntryList() {
+        fun saveEntryList(cacheIt: Boolean = false) {
             composeScope.launch {
+                cached = false // hide debug dialog
                 val start = System.currentTimeMillis()
-                helper.writeEntryToFile()
+                val exported = helper.getOutputFile(cacheIt)
+                val result = helper.writeEntryToFile(exported)
                 val cost = System.currentTimeMillis() - start
-                toast("cost $cost ms")
+                if (result) {
+                    toast("write ${exported.absolutePath} cost $cost ms")
+                } else {
+                    toast("write failed!")
+                }
             }
         }
 
@@ -140,10 +157,17 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit) {
                     changedList = changedList,
                     onRefresh = { showEntryList() },
                     onEdit = { entry -> showEntryEditor(entry) },
-                    onSave = { saveEntryList() },
+                    onSave = { if (debug) cached = true else saveEntryList() },
                     onSearch = { showSearchPane() },
                 )
             }
+
+            Text(
+                helper.status.collectAsState().value,
+                style = MaterialTheme.typography.caption,
+                modifier = Modifier.align(Alignment.BottomStart),
+            )
+
             if (editing) {
                 EditorPane(
                     target = editorNow,
@@ -159,11 +183,11 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit) {
                     onCancel = { hideEntryEditor() },
                     onCopy = { text ->
                         onCopyTo.invoke(text)
-                        toast("Copied!")
+                        toast("Copied! $text")
                     },
                     onTranslate = { text ->
                         onCopyTo.invoke(text)
-                        toast("Copied!")
+                        toast("Copied! $text")
                     },
                 )
             }
@@ -182,20 +206,44 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit) {
                 )
             }
 
+            if (cached) {
+                AlertDialog(
+                    onDismissRequest = { cached = false },
+                    text = { Text("write to ${helper.getCachedFile()}") },
+                    buttons = {
+                        Row(modifier = Modifier.padding(horizontal = 8.dp)) {
+                            TextButton(onClick = { cached = false }) { Text("Cancel") }
+                            Spacer(modifier = Modifier.weight(1f))
+                            TextButton(onClick = { saveEntryList(false) }) { Text("No") }
+                            TextButton(
+                                onClick = { saveEntryList(true) },
+                                colors = ButtonDefaults.textButtonColors(
+                                    contentColor = MaterialTheme.colors.secondary,
+                                ),
+                            ) { Text("Yes") }
+                        }
+                    },
+                    modifier = Modifier.fillMaxWidth(.4f),
+                )
+            }
+
             ToastUi(toasted)
         }
     }
 }
 
+@ExperimentalMaterialApi
 fun main() = application {
     val workingDir: String = System.getProperty("user.dir")
-    println("workingDir=$workingDir")
+    println("workingDir = $workingDir")
 
-    val helper = DesktopPoHelper(Ini(workingDir))
+    val debug = File(workingDir, "build").exists() // has build dir
+    println("debug = $debug")
+    val helper = DesktopPoHelper(Ini(workingDir), debug = debug)
     helper.prepare()
 
     Window(onCloseRequest = ::exitApplication, title = "DST Translate") {
-        App(helper, onCopyTo = ::copyToSystemClipboard)
+        App(helper, onCopyTo = ::copyToSystemClipboard, debug = debug)
     }
 }
 

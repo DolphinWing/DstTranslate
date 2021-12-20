@@ -41,6 +41,7 @@ private fun LazyToolTip(
     backgroundColor: Color? = null,
     content: @Composable () -> Unit,
 ) {
+    val color = backgroundColor ?: MaterialTheme.colors.secondaryVariant.copy(alpha = .5f)
     TooltipArea(
         tooltip = {
             // composable tooltip content
@@ -57,9 +58,7 @@ private fun LazyToolTip(
             }
         },
         delayMillis = 600,
-        modifier = modifier.padding(2.dp)
-            .background(backgroundColor ?: MaterialTheme.colors.secondaryVariant.copy(alpha = .5f))
-            .padding(2.dp),
+        modifier = modifier.padding(2.dp).background(color).padding(2.dp),
         content = content,
     )
 }
@@ -144,12 +143,15 @@ fun BoxScope.ToastUi(text: String) {
                 .border(
                     width = 1.dp,
                     color = MaterialTheme.colors.primary.copy(alpha = .25f),
-                    shape = RoundedCornerShape(4.dp),
+                    shape = RoundedCornerShape(8.dp),
                 )
-                .background(Color.White.copy(.9f))
-                .background(MaterialTheme.colors.secondary.copy(alpha = .05f))
+                .background(Color.White.copy(.8f), shape = RoundedCornerShape(8.dp))
+                .background(
+                    MaterialTheme.colors.secondary.copy(alpha = .2f),
+                    shape = RoundedCornerShape(8.dp),
+                )
                 .padding(vertical = 8.dp, horizontal = 16.dp),
-            style = MaterialTheme.typography.h6,
+            style = MaterialTheme.typography.subtitle1,
         )
     }
 }

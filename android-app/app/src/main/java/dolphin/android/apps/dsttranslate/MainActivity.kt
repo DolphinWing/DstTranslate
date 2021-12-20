@@ -92,8 +92,8 @@ class MainActivity : AppCompatActivity() {
                         items = list.value ?: ArrayList(),
                         key = { _, item -> item.key },
                     ) { index, entry ->
-                        val origin = remember { helper.origin(entry.key) }
-                        val source = remember { helper.source(entry.key) }
+                        val origin = remember { helper.dst(entry.key) }
+                        val source = remember { helper.chs(entry.key) }
 
                         EntryView(
                             origin = entry,
@@ -101,7 +101,7 @@ class MainActivity : AppCompatActivity() {
                             old = origin,
                             src = source,
                             onItemClick = { item ->
-                                showEntryEditor(item, helper.origin(entry.key))
+                                showEntryEditor(item, helper.dst(entry.key))
                             },
                             index = index,
                             changed = changed.value?.get(index) ?: 0L,
@@ -128,7 +128,7 @@ class MainActivity : AppCompatActivity() {
 
                 if (searching.observeAsState().value == true) {
                     EntrySearchView(
-                        items = helper.originKeys(),
+                        items = helper.dstValues().map { it.key },
                         modifier = Modifier
                             .background(Color.Black.copy(alpha = .5f))
                             .fillMaxSize()
@@ -136,7 +136,7 @@ class MainActivity : AppCompatActivity() {
                         onSelect = { key ->
                             Log.d(TAG, "key = $key")
                             hideSearchPane()
-                            helper.origin(key)?.let { entry ->
+                            helper.dst(key)?.let { entry ->
                                 showEntryEditor(entry, entry)
                             }
                         },
@@ -256,8 +256,8 @@ class MainActivity : AppCompatActivity() {
 
         editTarget.postValue(entry)
         editOrigin.postValue(origin)
-        editSource.postValue(helper.sc2tc(helper.source(entry.key)?.str ?: ""))
-        editRevise.postValue(helper.revise(entry.key)?.str ?: "")
+        editSource.postValue(helper.sc2tc(helper.chs(entry.key)?.str ?: ""))
+        editRevise.postValue(helper.cht(entry.key)?.str ?: "")
         editing.postValue(true)
     }
 

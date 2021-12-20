@@ -1,7 +1,9 @@
 package dolphin.android.apps.dsttranslate
 
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.withContext
 import java.io.BufferedReader
 import java.io.BufferedWriter
 import java.io.File
@@ -74,6 +76,7 @@ abstract class PoHelper {
         dst: File = getOutputFile(),
         list: ArrayList<WordEntry> = wordList
     ): Boolean {
+        if (list.isEmpty()) return false // no list, don't write
         val writer: BufferedWriter?
         try { // http://stackoverflow.com/a/1053474
             writer = BufferedWriter(FileWriter(dst))
@@ -108,7 +111,7 @@ abstract class PoHelper {
     private val processStatus = MutableStateFlow("")
     val status: StateFlow<String> = processStatus
 
-    suspend fun runTranslationProcess(): Long {
+    suspend fun runTranslationProcess(): Long = withContext(Dispatchers.IO) {
         log("run translation")
         val start = System.currentTimeMillis()
 
@@ -150,7 +153,7 @@ abstract class PoHelper {
                 val str1 = originMap[entry.key]?.str ?: ""
                 if (str1.isNotEmpty()) str = str1.trim()
             } else {
-                processStatus.emit("(${index + 1}/${s.size})\n${entry.key}")
+                processStatus.emit("${entry.key} (${index + 1}/${s.size})")
             }
             if (str.isEmpty()) { // not in the translated po
                 newly = true
@@ -165,7 +168,8 @@ abstract class PoHelper {
         writeEntryToFile(getCachedFile(), wordList)
         val cost = System.currentTimeMillis() - start
         log("write data done. $cost ms")
-        return cost
+        processStatus.emit("") // complete
+        return@withContext cost
     }
 
     abstract fun getOutputFile(): File
