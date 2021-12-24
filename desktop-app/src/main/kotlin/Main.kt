@@ -1,4 +1,5 @@
-// Copyright 2000-2021 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license that can be found in the LICENSE file.
+// Copyright 2000-2021 JetBrains s.r.o. and contributors. Use of this source code is governed
+// by the Apache 2.0 license that can be found in the LICENSE file.
 
 import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.layout.Box
@@ -111,8 +112,8 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = fa
 
         fun showEntryEditor(entry: WordEntry) {
             val dst = helper.dst(entry.key)
-            println("edit: ${entry.key}")
-            if (!entry.newly) println("origin: ${dst?.id}")
+            // println("edit: ${entry.key}")
+            // if (!entry.newly) println("origin: ${dst?.id}")
             editorNow = entry
             editorDst = dst
             editorChs = helper.sc2tc(helper.chs(entry.key)?.str ?: "")
@@ -168,6 +169,21 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = fa
                 modifier = Modifier.align(Alignment.BottomStart),
             )
 
+            if (searching) {
+                SearchPane(
+                    items = helper.dstValues(),
+                    modifier = Modifier.fillMaxSize(),
+                    onSelect = { key ->
+                        // println("edit key = $key")
+                        // hideSearchPane()
+                        helper.dst(key)?.let { entry ->
+                            showEntryEditor(entry)
+                        }
+                    },
+                    onCancel = { hideSearchPane() },
+                )
+            }
+
             if (editing) {
                 EditorPane(
                     target = editorNow,
@@ -189,20 +205,6 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = fa
                         onCopyTo.invoke(text)
                         toast("Copied! $text")
                     },
-                )
-            }
-            if (searching) {
-                SearchPane(
-                    items = helper.dstValues(),
-                    modifier = Modifier.fillMaxSize(),
-                    onSelect = { key ->
-                        println("key = $key")
-                        hideSearchPane()
-                        helper.dst(key)?.let { entry ->
-                            showEntryEditor(entry)
-                        }
-                    },
-                    onCancel = { hideSearchPane() },
                 )
             }
 

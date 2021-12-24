@@ -51,7 +51,7 @@ fun SearchPane(
                         SearchType.Key -> item.key()
                     }
                 }.filter { item -> item.contains(text, ignoreCase = true) }
-                println("found ${filteredItems.size}")
+                // println("found ${filteredItems.size}")
             },
             modifier = Modifier.fillMaxWidth(),
             colors = TextFieldDefaults.outlinedTextFieldColors(),

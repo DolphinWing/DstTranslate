@@ -41,16 +41,15 @@ fun EntryListPane(
             dataList ?: emptyList(),
             modifier = Modifier.weight(1f)
         ) { index, entry ->
-            val dst = remember { helper.dst(entry.key) }
-            val chs = remember { helper.chs(entry.key) }
-            val cht = remember { helper.cht(entry.key) }
-
+            // val dst = remember { helper.dst(entry.key) }
+            // val chs = remember { helper.chs(entry.key) }
+            // val cht = remember { helper.cht(entry.key) }
             EntryView(
                 origin = entry,
                 modifier = Modifier.fillMaxWidth(),
-                dst = dst,
-                chs = chs,
-                cht = cht,
+                dst = helper.dst(entry.key), // dst,
+                chs = helper.chs(entry.key), // chs,
+                cht = helper.cht(entry.key), // cht,
                 onItemClick = { item -> onEdit?.invoke(item) },
                 index = index,
                 changed = changedList?.get(index) ?: 0L,
@@ -72,6 +71,7 @@ fun EntryView(
 ) {
     // val entry by remember { mutableStateOf(origin) }
     val changedColor = if (changed > 0) Color.Gray else Color.LightGray
+    // println("${origin.key()}: ${chs?.string()} ${cht?.string()} ${origin.string()}")
 
     Column(
         modifier = modifier
@@ -83,7 +83,7 @@ fun EntryView(
     ) {
         Row(modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
             Text(
-                origin.key,
+                origin.key(),
                 color = Color.DarkGray,
                 modifier = Modifier.weight(1f),
                 maxLines = 1,

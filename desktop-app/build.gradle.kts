@@ -2,7 +2,8 @@ import org.jetbrains.compose.compose
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-val releaseAppVersion = "1.0.3"
+val releaseAppVersion = "1.0.4"
+val releaseAppRevision = 1
 
 plugins {
     kotlin("jvm") version "1.5.31"
@@ -37,7 +38,7 @@ compose.desktop {
             targetFormats(TargetFormat.Msi, TargetFormat.Deb)
 
             packageName = "DstTranslator"
-            packageVersion = "1.0.0"
+            packageVersion = releaseAppVersion
 
             appResourcesRootDir.set(project.layout.projectDirectory.dir("resources"))
 
@@ -52,6 +53,7 @@ compose.desktop {
                 debMaintainer = "dolphinwing74+github@gmail.com"
                 debPackageVersion = releaseAppVersion
                 rpmPackageVersion = releaseAppVersion
+                appRelease = releaseAppRevision.toString()
             }
         }
     }
