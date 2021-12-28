@@ -189,9 +189,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun onSaveClick() {
-        val start = System.currentTimeMillis()
-        helper.writeEntryToFile()
-        showResultToast(helper.getOutputFile(), System.currentTimeMillis() - start)
+        lifecycleScope.launch {
+            val start = System.currentTimeMillis()
+            helper.writeTranslationFile()
+            showResultToast(helper.getOutputFile(), System.currentTimeMillis() - start)
+        }
     }
 
     private fun onSearchClick() {

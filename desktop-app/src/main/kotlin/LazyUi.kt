@@ -3,6 +3,7 @@ import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.spring
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.HorizontalScrollbar
 import androidx.compose.foundation.TooltipArea
 import androidx.compose.foundation.VerticalScrollbar
@@ -34,6 +35,7 @@ import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 
+@OptIn(ExperimentalFoundationApi::class)
 @Composable
 private fun LazyToolTip(
     tooltip: String,
@@ -57,8 +59,8 @@ private fun LazyToolTip(
                 )
             }
         },
-        delayMillis = 600,
         modifier = modifier.padding(2.dp).background(color).padding(2.dp),
+        delayMillis = 600,
         content = content,
     )
 }

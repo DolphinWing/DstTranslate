@@ -6,12 +6,16 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Button
+import androidx.compose.material.Icon
+import androidx.compose.material.IconButton
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.RadioButton
 import androidx.compose.material.Text
 import androidx.compose.material.TextButton
 import androidx.compose.material.TextField
 import androidx.compose.material.TextFieldDefaults
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.rounded.Clear
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -40,22 +44,29 @@ fun SearchPane(
     var filteredItems by remember { mutableStateOf(emptyList<String>()) }
     var searchType by remember { mutableStateOf(SearchType.Key) }
 
+    fun refreshItems(text: String) {
+        data = text
+        filteredItems = items.map { item ->
+            when (searchType) {
+                SearchType.Origin -> item.origin()
+                SearchType.Key -> item.key()
+            }
+        }.filter { item -> item.contains(text, ignoreCase = true) }
+        // println("found ${filteredItems.size}")
+    }
+
     Column(modifier = modifier.background(MaterialTheme.colors.surface)) {
         TextField(
             data ?: "",
-            onValueChange = { text ->
-                data = text
-                filteredItems = items.map { item ->
-                    when (searchType) {
-                        SearchType.Origin -> item.origin()
-                        SearchType.Key -> item.key()
-                    }
-                }.filter { item -> item.contains(text, ignoreCase = true) }
-                // println("found ${filteredItems.size}")
-            },
+            onValueChange = { text -> refreshItems(text) },
             modifier = Modifier.fillMaxWidth(),
             colors = TextFieldDefaults.outlinedTextFieldColors(),
-            placeholder = { Text("text to search") }
+            placeholder = { Text("text to search") },
+            trailingIcon = {
+                IconButton(onClick = { refreshItems("") }) {
+                    Icon(Icons.Rounded.Clear, contentDescription = "Clear")
+                }
+            },
         )
         Row(verticalAlignment = Alignment.CenterVertically) {
             SearchType.values().forEach { type ->
@@ -68,7 +79,7 @@ fun SearchPane(
             }
         }
         LazyScrollableColumn(filteredItems, modifier = Modifier.weight(1f)) { _, text ->
-            TextButton(onClick = { data = text }) {
+            TextButton(onClick = { refreshItems(text) }) {
                 Text(text, modifier = Modifier.fillMaxWidth())
             }
         }
@@ -78,7 +89,7 @@ fun SearchPane(
             }
             Button(onClick = {
                 val key = when (searchType) {
-                    SearchType.Origin -> items.find { entry-> entry.origin() == data }
+                    SearchType.Origin -> items.find { entry -> entry.origin() == data }
                     SearchType.Key -> items.find { entry -> entry.key() == data }
                 }?.key()
                 onSelect?.invoke(key ?: "")

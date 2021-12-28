@@ -7,10 +7,10 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -27,6 +27,7 @@ fun EntryListPane(
     onSave: (() -> Unit)? = null,
     onSearch: (() -> Unit)? = null,
     onEdit: ((WordEntry) -> Unit)? = null,
+    enabled: Boolean = true,
 ) {
     Column(modifier = modifier) {
         ToolbarPane(
@@ -36,7 +37,11 @@ fun EntryListPane(
             onRefresh = onRefresh,
             onSave = onSave,
             onSearch = onSearch,
+            enabled = enabled,
         )
+        if (enabled && (dataList?.isEmpty() == true || dataList == null)) {
+            Text("no items", modifier = Modifier.padding(8.dp), textAlign = TextAlign.Center)
+        }
         LazyScrollableColumn(
             dataList ?: emptyList(),
             modifier = Modifier.weight(1f)

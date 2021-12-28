@@ -72,7 +72,7 @@ abstract class PoHelper {
         return list
     }
 
-    fun writeEntryToFile(
+    private fun writeEntryToFile(
         dst: File = getOutputFile(),
         list: ArrayList<WordEntry> = wordList
     ): Boolean {
@@ -110,9 +110,11 @@ abstract class PoHelper {
 
     private val processStatus = MutableStateFlow("")
     val status: StateFlow<String> = processStatus
+    val loading = MutableStateFlow(false)
 
     suspend fun runTranslationProcess(): Long = withContext(Dispatchers.IO) {
         log("run translation")
+        loading.emit(true)
         val start = System.currentTimeMillis()
 
         processStatus.emit("load chinese_s.po")
@@ -165,11 +167,25 @@ abstract class PoHelper {
         val stop4 = System.currentTimeMillis()
         log("new list size: ${wordList.size} (${stop4 - stop3} ms)")
 
-        writeEntryToFile(getCachedFile(), wordList)
+        writeEntryToFile(getCachedFile(), wordList) // runTranslationProcess
         val cost = System.currentTimeMillis() - start
         log("write data done. $cost ms")
-        processStatus.emit("") // complete
+        processStatus.emit("")
+        loading.emit(false) // complete
         return@withContext cost
+    }
+
+    suspend fun writeTranslationFile(
+        dst: File = getOutputFile(),
+        list: ArrayList<WordEntry> = wordList
+    ): Boolean = withContext(Dispatchers.IO) {
+        loading.emit(true)
+        val start = System.currentTimeMillis()
+        val result = writeEntryToFile(dst, list) // writeTranslationFile
+        val cost = System.currentTimeMillis() - start
+        log("write data done. $cost ms")
+        loading.emit(false) // complete
+        return@withContext result
     }
 
     abstract fun getOutputFile(): File

@@ -37,10 +37,12 @@ import dolphin.desktop.apps.dsttranslate.DesktopPoHelper
 import dolphin.desktop.apps.dsttranslate.Ini
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
+import java.awt.Desktop
 import java.awt.Toolkit
 import java.awt.datatransfer.Clipboard
 import java.awt.datatransfer.StringSelection
 import java.io.File
+import java.net.URL
 
 object AppTheme {
     @Composable
@@ -72,18 +74,12 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = fa
         var changedList by remember { mutableStateOf(emptyList<Long>()) }
         // editor
         var editing by remember { mutableStateOf(false) }
-        var editorNow by remember { mutableStateOf(WordEntry.default()) }
-        var editorDst by remember { mutableStateOf<WordEntry?>(WordEntry.default()) }
-        var editorChs by remember { mutableStateOf("") }
-        var editorCht by remember { mutableStateOf("") }
+        var editorData by remember { mutableStateOf(EditorSpec()) }
         // search
         var searching by remember { mutableStateOf(false) }
         var toasted by remember { mutableStateOf("") }
         var cached by remember { mutableStateOf(false) }
-
-        LaunchedEffect(Unit) {
-            helper.loadXml() // setup replacement
-        }
+        val enabled = helper.loading.collectAsState()
 
         fun toast(message: String) {
             composeScope.launch {
@@ -114,10 +110,12 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = fa
             val dst = helper.dst(entry.key)
             // println("edit: ${entry.key}")
             // if (!entry.newly) println("origin: ${dst?.id}")
-            editorNow = entry
-            editorDst = dst
-            editorChs = helper.sc2tc(helper.chs(entry.key)?.str ?: "")
-            editorCht = helper.cht(entry.key)?.str ?: ""
+            editorData = EditorSpec(
+                entry,
+                dst,
+                helper.sc2tc(helper.chs(entry.key)?.str ?: ""),
+                helper.cht(entry.key)?.str,
+            )
             editing = true
         }
 
@@ -138,7 +136,7 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = fa
                 cached = false // hide debug dialog
                 val start = System.currentTimeMillis()
                 val exported = helper.getOutputFile(cacheIt)
-                val result = helper.writeEntryToFile(exported)
+                val result = helper.writeTranslationFile(exported)
                 val cost = System.currentTimeMillis() - start
                 if (result) {
                     toast("write ${exported.absolutePath} cost $cost ms")
@@ -146,6 +144,11 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = fa
                     toast("write failed!")
                 }
             }
+        }
+
+        LaunchedEffect(Unit) {
+            helper.loadXml() // setup replacement
+            showEntryList()
         }
 
         Box(modifier = Modifier.padding(vertical = 4.dp, horizontal = 8.dp)) {
@@ -160,6 +163,7 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = fa
                     onEdit = { entry -> showEntryEditor(entry) },
                     onSave = { if (debug) cached = true else saveEntryList() },
                     onSearch = { showSearchPane() },
+                    enabled = enabled.value.not(),
                 )
             }
 
@@ -186,11 +190,8 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = fa
 
             if (editing) {
                 EditorPane(
-                    target = editorNow,
+                    data = editorData,
                     modifier = Modifier.fillMaxSize(),
-                    dst = editorDst,
-                    chs = editorChs,
-                    cht = editorCht,
                     onSave = { key, text ->
                         helper.update(key, text)
                         updateEntryList()
@@ -199,19 +200,21 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = fa
                     onCancel = { hideEntryEditor() },
                     onCopy = { text ->
                         onCopyTo.invoke(text)
-                        toast("Copied! $text")
+                        toast(text)
                     },
-                    onTranslate = { text ->
-                        onCopyTo.invoke(text)
-                        toast("Copied! $text")
-                    },
+                    onTranslate = { text -> translateByGoogle(text) },
                 )
             }
 
             if (cached) {
                 AlertDialog(
                     onDismissRequest = { cached = false },
-                    text = { Text("write to ${helper.getCachedFile()}") },
+                    text = {
+                        Text(
+                            "write to ${helper.getCachedFile()}?",
+                            style = MaterialTheme.typography.h6,
+                        )
+                    },
                     buttons = {
                         Row(modifier = Modifier.padding(horizontal = 8.dp)) {
                             TextButton(onClick = { cached = false }) { Text("Cancel") }
@@ -225,7 +228,7 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = fa
                             ) { Text("Yes") }
                         }
                     },
-                    modifier = Modifier.fillMaxWidth(.4f),
+                    modifier = Modifier.fillMaxWidth(.5f),
                 )
             }
 
@@ -257,4 +260,22 @@ fun copyToSystemClipboard(text: String) {
     val stringSelection = StringSelection(text)
     val clipboard: Clipboard = Toolkit.getDefaultToolkit().systemClipboard
     clipboard.setContents(stringSelection, null)
+}
+
+/**
+ * Open Google Translate and translate the text to chinese.
+ * See https://stackoverflow.com/a/10967469
+ *
+ * @param text target text
+ */
+fun translateByGoogle(text: String) {
+    val desktop = if (Desktop.isDesktopSupported()) Desktop.getDesktop() else return
+    if (desktop.isSupported(Desktop.Action.BROWSE)) {
+        try {
+            val url = "https://translate.google.com.tw/?hl=zh-TW&sl=en&tl=zh-TW&text=$text"
+            desktop.browse(URL(url).toURI())
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
 }

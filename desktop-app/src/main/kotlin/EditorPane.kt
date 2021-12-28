@@ -31,19 +31,23 @@ import dolphin.android.apps.dsttranslate.dropQuote
 
 private fun Color.tinted(visible: Boolean): Color = copy(alpha = if (visible) 1f else .25f)
 
+data class EditorSpec(
+    val target: WordEntry = WordEntry.default(),
+    val dst: WordEntry? = null,
+    val chs: String? = null,
+    val cht: String? = null,
+)
+
 @Composable
 fun EditorPane(
-    target: WordEntry,
+    data: EditorSpec,
     modifier: Modifier = Modifier,
-    dst: WordEntry? = null,
-    chs: String? = null,
-    cht: String? = null,
     onSave: ((String, String) -> Unit)? = null,
     onCopy: ((String) -> Unit)? = null,
     onTranslate: ((String) -> Unit)? = null,
     onCancel: (() -> Unit)? = null,
 ) {
-    var text by remember { mutableStateOf(target.string()) }
+    var text by remember { mutableStateOf(data.target.string()) }
     var nowVisible by remember { mutableStateOf(true) }
     var dstVisible by remember { mutableStateOf(true) }
     var chsVisible by remember { mutableStateOf(true) }
@@ -57,7 +61,7 @@ fun EditorPane(
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Text(
-                target.key(),
+                data.target.key(),
                 modifier = Modifier.weight(1f),
                 overflow = TextOverflow.Ellipsis,
             )
@@ -68,7 +72,7 @@ fun EditorPane(
                     tint = AppTheme.AppColor.green.tinted(nowVisible),
                 )
             }
-            dst?.let { // new item has no previous for reference, need to check source
+            data.dst?.let { // new item has no previous for reference, need to check source
                 IconButton(onClick = { dstVisible = !dstVisible }) {
                     Icon(
                         Icons.Rounded.Visibility,
@@ -95,31 +99,31 @@ fun EditorPane(
 
         if (chsVisible) {
             Button(
-                onClick = { text = chs?.dropQuote() ?: "" },
+                onClick = { text = data.chs?.dropQuote() ?: "" },
                 modifier = Modifier.fillMaxWidth(),
-                enabled = chs?.isNotEmpty() == true,
+                enabled = data.chs?.isNotEmpty() == true,
                 colors = ButtonDefaults.buttonColors(
                     backgroundColor = AppTheme.AppColor.blue,
                 ),
             ) {
-                Text(chs?.dropQuote() ?: "", fontSize = AppTheme.largerFontSize())
+                Text(data.chs?.dropQuote() ?: "", fontSize = AppTheme.largerFontSize())
             }
         }
         if (chtVisible) {
             Button(
-                onClick = { text = cht?.dropQuote() ?: "" },
+                onClick = { text = data.cht?.dropQuote() ?: "" },
                 modifier = Modifier.fillMaxWidth(),
-                enabled = cht?.isNotEmpty() == true,
+                enabled = data.cht?.isNotEmpty() == true,
                 colors = ButtonDefaults.buttonColors(
                     contentColor = Color.White,
                     backgroundColor = AppTheme.AppColor.purple,
                 ),
             ) {
-                Text(cht?.dropQuote() ?: "", fontSize = AppTheme.largerFontSize())
+                Text(data.cht?.dropQuote() ?: "", fontSize = AppTheme.largerFontSize())
             }
         }
 
-        dst?.let { old ->
+        data.dst?.let { old ->
             if (dstVisible) {
                 Row {
                     TextButton(
@@ -154,28 +158,28 @@ fun EditorPane(
         if (nowVisible) {
             Row {
                 TextButton(
-                    onClick = { onTranslate?.invoke(target.origin()) },
+                    onClick = { onTranslate?.invoke(data.target.origin()) },
                     modifier = Modifier.weight(1f),
                     colors = ButtonDefaults.textButtonColors(
                         contentColor = AppTheme.AppColor.green,
                     ),
                 ) {
                     Text(
-                        target.origin(),
+                        data.target.origin(),
                         modifier = Modifier.fillMaxWidth(),
                         fontSize = AppTheme.largerFontSize(),
                     )
                 }
-                IconButton(onClick = { onCopy?.invoke(target.origin()) }) {
+                IconButton(onClick = { onCopy?.invoke(data.target.origin()) }) {
                     Icon(Icons.Rounded.CopyAll, contentDescription = null)
                 }
             }
             Button(
-                onClick = { text = target.string() },
+                onClick = { text = data.target.string() },
                 modifier = Modifier.fillMaxWidth(),
                 colors = ButtonDefaults.buttonColors(backgroundColor = AppTheme.AppColor.green),
             ) {
-                Text(target.string(), fontSize = AppTheme.largerFontSize())
+                Text(data.target.string(), fontSize = AppTheme.largerFontSize())
             }
         }
 
@@ -199,7 +203,7 @@ fun EditorPane(
             }
             Spacer(modifier = Modifier.requiredWidth(16.dp))
             Button(
-                onClick = { onSave?.invoke(target.key, "\"$text\"") },
+                onClick = { onSave?.invoke(data.target.key, "\"$text\"") },
                 modifier = Modifier.weight(3f),
             ) {
                 Text("Apply")
