@@ -139,7 +139,7 @@ class DesktopPoHelper(val ini: Ini = Ini(), private val debug: Boolean = false) 
     }
 
     override fun loadAssetFile(name: String, line2Enabled: Boolean): ArrayList<WordEntry> {
-        if (name == "dst_cht.po") return loadFile(ini.workshopDir, name)
+        if (name == DST_PO) return loadFile(ini.workshopDir, name)
         return loadFile(ini.assetsDir, name)
     }
 
@@ -162,21 +162,23 @@ class DesktopPoHelper(val ini: Ini = Ini(), private val debug: Boolean = false) 
     override fun getOutputFile(): File = getOutputFile(debug)
 
     fun getOutputFile(cached: Boolean): File = if (cached) getCachedFile() else {
-        File(ini.workshopDir, "dst_cht.po")
+        File(ini.workshopDir, DST_PO)
     }
 
-    override fun getCachedFile(): File = File(System.getProperty("java.io.tmpdir"), "dst_cht.po")
+    override fun getCachedFile(): File = File(System.getProperty("java.io.tmpdir"), DST_PO)
 
     override fun sc2tc(str: String): String {
         return ZhTwConverterUtil.toTraditional(str)
     }
-}
 
-fun NodeList.items(): List<Node> {
-    val list = java.util.ArrayList<Node>()
-    repeat(this.length) { list.add(item(it)) }
-    return list
-}
+    private fun NodeList.items(): List<Node> {
+        val list = java.util.ArrayList<Node>()
+        repeat(this.length) { list.add(item(it)) }
+        return list
+    }
 
-fun Node.content(): String = (this as? Element)?.textContent?.dropWhile { it == ' ' }?.trim() ?: ""
-fun Node.attribute(key: String): String = (this as? Element)?.getAttribute(key) ?: ""
+    private fun Node.content(): String =
+        (this as? Element)?.textContent?.dropWhile { it == ' ' }?.trim() ?: ""
+
+    private fun Node.attribute(key: String): String = (this as? Element)?.getAttribute(key) ?: ""
+}

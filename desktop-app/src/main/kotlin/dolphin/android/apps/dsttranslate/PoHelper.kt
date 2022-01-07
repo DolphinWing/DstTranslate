@@ -10,6 +10,12 @@ import java.io.File
 import java.io.FileWriter
 
 abstract class PoHelper {
+    companion object {
+        private const val CHS_PO = "chinese_s.po"
+        private const val CHT_PO = "chinese_t.po"
+        const val DST_PO = "dst_cht.po"
+    }
+
     protected val replaceList = ArrayList<String>()
     protected var replace3dot: String = ""
     private val replace6dot: String
@@ -19,20 +25,45 @@ abstract class PoHelper {
 
     private val sourceMap = HashMap<String, WordEntry>()
 
+    /**
+     * @param key entry key
+     * @return word entry from official simplified chinese po file
+     */
     fun chs(key: String): WordEntry? = sourceMap[key]
 
     private val revisedMap = HashMap<String, WordEntry>()
 
+    /**
+     * @param key entry key
+     * @return word entry from official traditional chinese po file
+     */
     fun cht(key: String): WordEntry? = revisedMap[key]
 
     private val originMap = HashMap<String, WordEntry>()
 
+    /**
+     * @param key entry key
+     * @return word entry from original map
+     */
     fun dst(key: String): WordEntry? = originMap[key]
+
+    /**
+     * @return all word entry in original map
+     */
     fun dstValues(): List<WordEntry> = originMap.map { entry -> entry.value }
 
     private val wordList = ArrayList<WordEntry>()
 
+    /**
+     * A debug log output implementation.
+     *
+     * @param message log message to standard output
+     */
     protected abstract fun log(message: String)
+
+    /**
+     * Prepare the helper instance. Usually call this when init.
+     */
     abstract fun prepare()
 
     protected fun loadFromReader(
@@ -101,6 +132,13 @@ abstract class PoHelper {
         return true
     }
 
+    /**
+     * Implementation of loading asset file to memory
+     *
+     * @param name asset name
+     * @param line2Enabled true if line 2 is required
+     * @return word entry list
+     */
     abstract fun loadAssetFile(name: String, line2Enabled: Boolean = true): ArrayList<WordEntry>
 
 //    fun runTranslation(postAction: ((timeCost: Long) -> Unit)? = null) {
@@ -109,16 +147,29 @@ abstract class PoHelper {
 //    }
 
     private val processStatus = MutableStateFlow("")
+
+    /**
+     * Process status
+     */
     val status: StateFlow<String> = processStatus
+
+    /**
+     * Loading status. True means the app is processing data.
+     */
     val loading = MutableStateFlow(false)
 
+    /**
+     * Load chs and cht translation file to app.
+     *
+     * @return total process time
+     */
     suspend fun runTranslationProcess(): Long = withContext(Dispatchers.IO) {
         log("run translation")
         loading.emit(true)
         val start = System.currentTimeMillis()
 
-        processStatus.emit("load chinese_s.po")
-        val s = loadAssetFile("chinese_s.po")
+        processStatus.emit("load $CHS_PO")
+        val s = loadAssetFile(CHS_PO)
         sourceMap.clear()
         s.forEach { entry ->
             // entry.str = sc2tc(entry.str).trim() // translate to traditional
@@ -127,8 +178,8 @@ abstract class PoHelper {
         val stop1 = System.currentTimeMillis()
         log("original SC size: ${s.size} (${stop1 - start} ms)")
 
-        processStatus.emit("load chinese_t.po")
-        val t = loadAssetFile("chinese_t.po")
+        processStatus.emit("load $CHT_PO")
+        val t = loadAssetFile(CHT_PO)
         revisedMap.clear()
         t.forEach { entry ->
             revisedMap[entry.key] = entry
@@ -136,9 +187,9 @@ abstract class PoHelper {
         val stop2 = System.currentTimeMillis()
         log("original TC size: ${t.size} (${stop2 - start} ms)")
 
-        processStatus.emit("load dst_cht.po")
+        processStatus.emit("load $DST_PO")
         originMap.clear()
-        loadAssetFile("dst_cht.po").filter { entry ->
+        loadAssetFile(DST_PO).filter { entry ->
             entry.id != "\"\"" && entry.str != "\"\""
         }.forEach { entry ->
             originMap[entry.key] = entry
@@ -175,6 +226,13 @@ abstract class PoHelper {
         return@withContext cost
     }
 
+    /**
+     * Write all word entries to a file
+     *
+     * @param dst destination file
+     * @param list word entry list
+     * @return true if file written is success
+     */
     suspend fun writeTranslationFile(
         dst: File = getOutputFile(),
         list: ArrayList<WordEntry> = wordList
@@ -188,10 +246,22 @@ abstract class PoHelper {
         return@withContext result
     }
 
+    /**
+     * @return actual output file
+     */
     abstract fun getOutputFile(): File
 
+    /**
+     * @return cache file
+     */
     abstract fun getCachedFile(): File
 
+    /**
+     * Convert simplified chinese to traditional chinese
+     *
+     * @param str simplified chinese text
+     * @return traditional chinese text
+     */
     abstract fun sc2tc(str: String): String
 
     private fun getReplacement(src: String): String {
@@ -213,17 +283,28 @@ abstract class PoHelper {
         return str
     }
 
+    /**
+     * Build a list with changed entries
+     *
+     * @return word list with change items
+     */
     fun buildChangeList(): List<WordEntry> = wordList.filter { entry ->
-        val origin = originMap[entry.key]
-        val source = sourceMap[entry.key]
+        val dst = dst(entry.key)
+        val chs = chs(entry.key)
         (entry.newly || // new entry
-                origin?.id != entry.id || // english text changed
-                origin.str != entry.str || // translation changed
+                dst?.id != entry.id || // english text changed
+                dst.str != entry.str || // translation changed
                 entry.changed > 0 || // entry itself changed by editor
-                source?.id != origin.id) // source english text changed
+                chs?.id != dst.id) // source english text changed
                 && entry.str.length > 2 && !entry.string().startsWith("only_used_by")
     }
 
+    /**
+     * Update text of specific word entry
+     *
+     * @param key entry key
+     * @param value entry text
+     */
     fun update(key: String, value: String) {
         wordList.find { entry -> entry.key == key }?.apply {
             str = value

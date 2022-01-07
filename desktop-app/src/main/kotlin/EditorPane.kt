@@ -27,7 +27,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import dolphin.android.apps.dsttranslate.WordEntry
-import dolphin.android.apps.dsttranslate.dropQuote
+import dolphin.android.apps.dsttranslate.WordEntry.Companion.dropQuote
 
 private fun Color.tinted(visible: Boolean): Color = copy(alpha = if (visible) 1f else .25f)
 

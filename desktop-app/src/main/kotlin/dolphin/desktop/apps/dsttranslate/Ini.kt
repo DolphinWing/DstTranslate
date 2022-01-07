@@ -9,13 +9,28 @@ import java.io.FileInputStream
 import java.io.FileWriter
 import java.io.InputStreamReader
 
+/**
+ * App config ini handler
+ *
+ * @property workingDir app working dir
+ */
 class Ini(val workingDir: String = System.getProperty("user.dir")) {
     private val configFile: File
         get() = File(workingDir, "configs.ini")
 
+    /**
+     * User workshop code folder
+     */
     var workshopDir: String = ""
+
+    /**
+     * Klei PO file source folder
+     */
     var assetsDir: String = ""
 
+    /**
+     * Load ini file
+     */
     suspend fun load() = withContext(Dispatchers.IO) {
         if (!configFile.exists()) {
             println("load ${configFile.absolutePath} failed")
@@ -47,12 +62,12 @@ class Ini(val workingDir: String = System.getProperty("user.dir")) {
 
     private fun huntForReleaseConfig(): File {
         val s = File.separator
-        return File( "${workingDir}${s}app${s}resources${s}${configFile.name}")
+        return File("${workingDir}${s}app${s}resources${s}${configFile.name}")
     }
 
     private fun huntForDebugConfig(): File {
         val s = File.separator
-        return File( "${workingDir}${s}resources${s}common${s}${configFile.name}")
+        return File("${workingDir}${s}resources${s}common${s}${configFile.name}")
     }
 
     private fun parseIni(line: String) {
@@ -68,6 +83,9 @@ class Ini(val workingDir: String = System.getProperty("user.dir")) {
         }
     }
 
+    /**
+     * Save ini file
+     */
     suspend fun save() = withContext(Dispatchers.IO) {
         val builder = StringBuilder()
         builder.append("workshopDir=$workshopDir\n")
