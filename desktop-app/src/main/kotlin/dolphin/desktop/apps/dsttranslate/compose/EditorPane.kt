@@ -1,3 +1,6 @@
+package dolphin.desktop.apps.dsttranslate.compose
+
+import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -209,5 +212,43 @@ fun EditorPane(
                 Text("Apply")
             }
         }
+    }
+}
+
+@Preview
+@Composable
+private fun PreviewEditorPaneTargetOnly() {
+    DstTranslatorTheme {
+        EditorPane(data = EditorSpec())
+    }
+}
+
+@Preview
+@Composable
+private fun PreviewEditorPaneWithOriginal() {
+    DstTranslatorTheme {
+        EditorPane(data = EditorSpec(dst = PreviewDefaults.dst))
+    }
+}
+
+@Preview
+@Composable
+private fun PreviewEditorPaneWithChs() {
+    DstTranslatorTheme {
+        EditorPane(data = EditorSpec(dst = PreviewDefaults.dst, chs = "simplified"))
+    }
+}
+
+@Preview
+@Composable
+private fun PreviewEditorPaneWithCht() {
+    DstTranslatorTheme {
+        EditorPane(
+            data = EditorSpec(
+                dst = PreviewDefaults.dst,
+                chs = "simplified",
+                cht = "traditional"
+            )
+        )
     }
 }

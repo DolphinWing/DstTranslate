@@ -1,7 +1,12 @@
+package dolphin.desktop.apps.dsttranslate.compose
+
+import androidx.compose.desktop.ui.tooling.preview.Preview
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
 import androidx.compose.material.MaterialTheme
+import androidx.compose.material.Text
 import androidx.compose.material.TextField
 import androidx.compose.material.TextFieldDefaults
 import androidx.compose.material.icons.Icons
@@ -54,5 +59,32 @@ fun FileChooserPane(
                 tint = MaterialTheme.colors.primary,
             )
         }
+    }
+}
+
+@Preview
+@Composable
+private fun PreviewFileChooserPane() {
+    DstTranslatorTheme {
+        Column {
+            FileChooserPane(
+                file = "/home/jimmyhu",
+                onFileChange = {},
+                selectionMode = JFileChooser.DIRECTORIES_ONLY,
+            )
+            FileChooserPane(
+                file = "/home/jimmyhu/work/clipboard.txt",
+                onFileChange = {},
+                selectionMode = JFileChooser.FILES_ONLY
+            )
+        }
+    }
+}
+
+@Preview
+@Composable
+private fun PreviewThis() {
+    DstTranslatorTheme {
+        Text("sample text")
     }
 }

@@ -1,3 +1,6 @@
+package dolphin.desktop.apps.dsttranslate.compose
+
+import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -97,5 +100,21 @@ fun SearchPane(
                 Text("Edit")
             }
         }
+    }
+}
+
+@Preview
+@Composable
+private fun PreviewSearchPaneAll() {
+    DstTranslatorTheme {
+        SearchPane(items = PreviewDefaults.samples)
+    }
+}
+
+@Preview
+@Composable
+private fun PreviewSearchPaneShowSelected() {
+    DstTranslatorTheme {
+        SearchPane(items = PreviewDefaults.samples, selectedValue = "ch")
     }
 }

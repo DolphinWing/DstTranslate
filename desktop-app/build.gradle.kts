@@ -10,7 +10,7 @@ plugins {
     id("org.jetbrains.compose") version "1.0.1"
 }
 
-group = "dolphin.apps.desktop"
+group = "dolphin.desktop.apps"
 version = "1.0"
 
 repositories {
@@ -21,7 +21,9 @@ repositories {
 
 dependencies {
     implementation(compose.desktop.currentOs)
-    implementation(org.jetbrains.compose.ComposePlugin.Dependencies.materialIconsExtended)
+    implementation(compose.materialIconsExtended)
+    implementation(compose.preview)
+    implementation(compose.uiTooling)
 
     // https://github.com/houbb/opencc4j
     implementation("com.github.houbb:opencc4j:1.7.1")

@@ -1,3 +1,6 @@
+package dolphin.desktop.apps.dsttranslate.compose
+
+import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.requiredHeight
@@ -55,5 +58,13 @@ fun ConfigPane(ini: Ini) {
             },
             selectionMode = JFileChooser.DIRECTORIES_ONLY,
         )
+    }
+}
+
+@Preview
+@Composable
+private fun PreviewConfigPane() {
+    DstTranslatorTheme {
+        ConfigPane(Ini("/home/dolphin"))
     }
 }

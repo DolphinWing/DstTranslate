@@ -1,3 +1,5 @@
+package dolphin.desktop.apps.dsttranslate.compose
+
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.spring

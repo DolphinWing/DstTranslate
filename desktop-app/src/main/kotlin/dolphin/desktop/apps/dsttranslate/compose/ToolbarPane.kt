@@ -1,3 +1,6 @@
+package dolphin.desktop.apps.dsttranslate.compose
+
+import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -80,5 +83,13 @@ fun ToolbarPane(
         IconButton(onClick = { onSave?.invoke() }, enabled = enabled) {
             Icon(Icons.Rounded.Save, contentDescription = null)
         }
+    }
+}
+
+@Preview
+@Composable
+private fun PreviewToolbarPane() {
+    DstTranslatorTheme {
+        ToolbarPane(filteredList = listOf(WordEntry.default()), changedList = listOf(0))
     }
 }

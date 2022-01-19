@@ -4,18 +4,12 @@
 import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material.AlertDialog
-import androidx.compose.material.ButtonDefaults
 import androidx.compose.material.ExperimentalMaterialApi
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
-import androidx.compose.material.TextButton
-import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
@@ -26,15 +20,20 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
 import dolphin.android.apps.dsttranslate.WordEntry
 import dolphin.desktop.apps.dsttranslate.DesktopPoHelper
 import dolphin.desktop.apps.dsttranslate.Ini
+import dolphin.desktop.apps.dsttranslate.compose.ConfigPane
+import dolphin.desktop.apps.dsttranslate.compose.DebugSaveDialog
+import dolphin.desktop.apps.dsttranslate.compose.DstTranslatorTheme
+import dolphin.desktop.apps.dsttranslate.compose.EditorPane
+import dolphin.desktop.apps.dsttranslate.compose.EditorSpec
+import dolphin.desktop.apps.dsttranslate.compose.EntryListPane
+import dolphin.desktop.apps.dsttranslate.compose.SearchPane
+import dolphin.desktop.apps.dsttranslate.compose.ToastUi
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import java.awt.Desktop
@@ -44,30 +43,12 @@ import java.awt.datatransfer.StringSelection
 import java.io.File
 import java.net.URL
 
-object AppTheme {
-    @Composable
-    fun largerFontSize(): TextUnit = 18.sp
-
-    object AppColor {
-        val purple = Color(156, 39, 176)
-        val blue = Color(33, 150, 243)
-        val orange = Color(255, 87, 34)
-        val green = Color(76, 175, 80)
-        val primary = Color(96, 125, 139)
-        val secondary = Color(233, 30, 99)
-    }
-}
 
 @ExperimentalMaterialApi
 @Composable
 @Preview
 fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = false) {
-    MaterialTheme(
-        colors = lightColors(
-            primary = AppTheme.AppColor.primary,
-            secondary = AppTheme.AppColor.secondary,
-        ),
-    ) {
+    DstTranslatorTheme {
         val composeScope = rememberCoroutineScope()
         // data list
         var dataList by remember { mutableStateOf(emptyList<WordEntry>()) }
@@ -207,27 +188,10 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = fa
             }
 
             if (cached) {
-                AlertDialog(
+                DebugSaveDialog(
                     onDismissRequest = { cached = false },
-                    text = {
-                        Text(
-                            "write to ${helper.getCachedFile()}?",
-                            style = MaterialTheme.typography.h6,
-                        )
-                    },
-                    buttons = {
-                        Row(modifier = Modifier.padding(horizontal = 8.dp)) {
-                            TextButton(onClick = { cached = false }) { Text("Cancel") }
-                            Spacer(modifier = Modifier.weight(1f))
-                            TextButton(onClick = { saveEntryList(false) }) { Text("No") }
-                            TextButton(
-                                onClick = { saveEntryList(true) },
-                                colors = ButtonDefaults.textButtonColors(
-                                    contentColor = MaterialTheme.colors.secondary,
-                                ),
-                            ) { Text("Yes") }
-                        }
-                    },
+                    onSave = { saveEntryList(it) },
+                    title = "write to ${helper.getCachedFile()}?",
                     modifier = Modifier.fillMaxWidth(.5f),
                 )
             }

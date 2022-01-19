@@ -1,3 +1,6 @@
+package dolphin.desktop.apps.dsttranslate.compose
+
+import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
@@ -119,6 +122,27 @@ fun EntryView(
             origin.string(),
             color = AppTheme.AppColor.green,
             fontSize = AppTheme.largerFontSize(),
+        )
+    }
+}
+
+@Preview
+@Composable
+private fun PreviewEntryViewOrigin() {
+    DstTranslatorTheme {
+        EntryView(origin = WordEntry.default())
+    }
+}
+
+@Preview
+@Composable
+private fun PreviewEntryViewAll() {
+    DstTranslatorTheme {
+        EntryView(
+            origin = WordEntry.default(),
+            dst = PreviewDefaults.dst,
+            chs = PreviewDefaults.chs,
+            cht = PreviewDefaults.cht,
         )
     }
 }
