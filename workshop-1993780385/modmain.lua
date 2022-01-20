@@ -316,6 +316,38 @@ local function fixIntentPickerSize()
 	end)
 end
 
+local function fixPlayerAvatorFontSize()
+	AddClassPostConstruct("widgets/playeravatarpopup", function(self)
+		if self.body_image._text then
+			self.body_image._text:SetSize(32 / fontRatio)
+		end
+		if self.hand_image._text then
+			self.hand_image._text:SetSize(32 / fontRatio)
+		end
+		if self.legs_image._text then
+			self.legs_image._text:SetSize(32 / fontRatio)
+		end
+		if self.feet_image._text then
+			self.feet_image._text:SetSize(32 / fontRatio)
+		end
+		if self.base_image._text then
+			self.base_image._text:SetSize(32 / fontRatio)
+		end
+		if self.head_equip_image._text then
+			self.head_equip_image._text:SetSize(32 / fontRatio)
+		end
+		if self.hand_equip_image._text then
+			self.hand_equip_image._text:SetSize(32 / fontRatio)
+		end
+		if self.body_equip_image._text then
+			self.body_equip_image._text:SetSize(32 / fontRatio)
+		end
+		if self.feet_image._text then
+			self.body_image._text:SetSize(35 / fontRatio)
+		end
+	end)
+end
+
 --override some text size
 if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
 	fixClockHudControlFontSize()
@@ -327,4 +359,5 @@ if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
 	fixMiscWidgetFontSize()
 	--fixIntentPickerSize()
 	fixCountDownWidgetFontSize()
+	fixPlayerAvatorFontSize()
 end
