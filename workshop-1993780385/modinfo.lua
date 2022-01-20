@@ -1,7 +1,7 @@
 -- mod name
 name = "正體中文包"
 -- mod version
-version = "1.1.7"
+version = "1.1.8"
 -- mod author
 author = "DolphinWing and anetrlf2"
 -- mod description in the game
