@@ -41,18 +41,21 @@ end ]]
 
 -- replace fonts
 local useMyFont = GetConfig("use_font", false)
+local fontFlavor = GetConfig("font_flavor", "huninn")
 local function replaceFonts(assets)
+    local flavor = GetConfig("font_flavor", "huninn")
 	--unload previous fonts
 	GLOBAL.TheSim:UnloadFont(FONT_REGULAR)
 	GLOBAL.TheSim:UnloadFont(FONT_OUTLINE)
 	GLOBAL.TheSim:UnloadFont(FONT_NUMBER)
+	GLOBAL.TheSim:UnregisterPrefabs({FONT_PREFIX..modname})
 	GLOBAL.TheSim:UnloadPrefabs({FONT_PREFIX..modname})
 	--register my fonts
 	GLOBAL.TheSim:RegisterPrefab(FONT_PREFIX..modname, assets, {})
 	GLOBAL.TheSim:LoadPrefabs({FONT_PREFIX..modname})
 	--load fonts
-	GLOBAL.TheSim:LoadFont(MODROOT..FONT_FILE_REGULAR, FONT_REGULAR)
-	GLOBAL.TheSim:LoadFont(MODROOT..FONT_FILE_OUTLINE, FONT_OUTLINE)
+	GLOBAL.TheSim:LoadFont(MODROOT..fontNormalFile(flavor), FONT_REGULAR)
+	GLOBAL.TheSim:LoadFont(MODROOT..fontOutlineFile(flavor), FONT_OUTLINE)
 	GLOBAL.TheSim:LoadFont(MODROOT..FONT_FILE_NUMBER, FONT_NUMBER)
 	--set fallback fonts
 	GLOBAL.TheSim:SetupFontFallbacks(FONT_REGULAR, GLOBAL.DEFAULT_FALLBACK_TABLE)
@@ -66,12 +69,12 @@ end
 
 local fontRatio = GetConfig("font_size", 1.0)
 
-if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
+if useMyFont and fileExists(MODROOT..fontNormalFile(fontFlavor)) then
     fontRatio = fontRatio * .9
 
 	local assets = {}
-	table.insert(assets, GLOBAL.Asset("FONT", MODROOT..FONT_FILE_REGULAR))
-	table.insert(assets, GLOBAL.Asset("FONT", MODROOT..FONT_FILE_OUTLINE))
+	table.insert(assets, GLOBAL.Asset("FONT", MODROOT..fontNormalFile(fontFlavor)))
+	table.insert(assets, GLOBAL.Asset("FONT", MODROOT..fontOutlineFile(fontFlavor)))
 	table.insert(assets, GLOBAL.Asset("FONT", MODROOT..FONT_FILE_NUMBER))
 	
 	local OldStart = GLOBAL.Start
@@ -349,7 +352,7 @@ local function fixPlayerAvatorFontSize()
 end
 
 --override some text size
-if useMyFont and fileExists(MODROOT..FONT_FILE_REGULAR) then
+if useMyFont and fileExists(MODROOT..fontNormalFile(fontFlavor)) then
 	fixClockHudControlFontSize()
 	fixRecipeHudControlFontSize()
 	fixInventoryFontSize()

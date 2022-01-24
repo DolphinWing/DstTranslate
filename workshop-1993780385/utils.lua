@@ -1,7 +1,13 @@
 -- reference from Chinese++(workshop-1418746242)
-FONT_FILE_REGULAR = "fonts/normal.zip"
-FONT_FILE_OUTLINE = "fonts/normal_outline.zip"
 FONT_FILE_NUMBER = "fonts/number.zip"
+
+function fontNormalFile(name)
+    return "fonts/"..name.."_normal.zip"
+end
+function fontOutlineFile(name)
+    return "fonts/"..name.."_outline.zip"
+end
+
 FONT_PREFIX = "ya_fonts_"
 FONT_REGULAR = FONT_PREFIX.."regular"
 FONT_OUTLINE = FONT_PREFIX.."outline"

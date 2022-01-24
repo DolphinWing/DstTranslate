@@ -23,7 +23,7 @@ api_version = 10
 icon_atlas = "modicon.xml"
 icon = "modicon.tex"
 -- loading priority
-priority = 9999
+priority = 9998
 -- Compatible with Don't Starve Together
 dst_compatible = true
 -- Compatible with both the base game and reign of giants
@@ -81,10 +81,18 @@ local size_def = {
 	{description = "1.5x", data = 1.5},
 }
 
+local font_def = {
+	Option("粉圓 huninn", "huninn"),
+	--Option("芫荽 iansui", "iansui"),
+	--Option("源樣黑 genyog", "genyog"),
+	Option("源泉圓 gensen", "gensen"),
+}
+
 configuration_options =
 {
 	Config("replace_po", "翻譯蒟蒻", "啟用MOD內隨附的翻譯本代替官方版翻譯", opt_def, true),
-	Config("use_font", "我想吃粉圓", "使用粉圓字型取代遊戲內建字型", opt_def, false),
+	Config("use_font", "我想吃粉圓", "使用自訂字型取代遊戲內建", opt_def, false),
+	--Config("font_flavor", "更換口味", "最愛的加料字型", font_def, "huninn"),
 	Config("font_size", "使用放大鏡", "放大或縮小字體，避免和遊戲畫面不搭配", size_def, 1.0),
 	Config("as_server", "修正人物對話", "自動載入成伺服器模組（僅適用於自己建立的世界）", opt_def, true),
 }
