@@ -17,12 +17,12 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import dolphin.android.apps.dsttranslate.PoHelper
 import dolphin.android.apps.dsttranslate.WordEntry
+import dolphin.desktop.apps.dsttranslate.DesktopPoHelper
 
 @Composable
 fun EntryListPane(
-    helper: PoHelper,
+    helper: DesktopPoHelper,
     modifier: Modifier = Modifier,
     dataList: List<WordEntry>? = null,
     changedList: List<Long>? = null,
@@ -31,6 +31,7 @@ fun EntryListPane(
     onSearch: (() -> Unit)? = null,
     onEdit: ((WordEntry) -> Unit)? = null,
     enabled: Boolean = true,
+    onShrink: (() -> Unit)? = null,
 ) {
     Column(modifier = modifier) {
         ToolbarPane(
@@ -41,6 +42,8 @@ fun EntryListPane(
             onSave = onSave,
             onSearch = onSearch,
             enabled = enabled,
+            onShrink = onShrink,
+            enableShrink = helper.supportShrinkText(),
         )
         if (enabled && (dataList?.isEmpty() == true || dataList == null)) {
             Text("no items", modifier = Modifier.padding(8.dp), textAlign = TextAlign.Center)

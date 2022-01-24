@@ -11,8 +11,10 @@ import org.w3c.dom.NodeList
 import org.xml.sax.Attributes
 import org.xml.sax.helpers.DefaultHandler
 import java.io.BufferedReader
+import java.io.BufferedWriter
 import java.io.File
 import java.io.FileInputStream
+import java.io.FileWriter
 import java.io.InputStreamReader
 import javax.xml.parsers.DocumentBuilderFactory
 import javax.xml.parsers.SAXParserFactory
@@ -181,4 +183,60 @@ class DesktopPoHelper(val ini: Ini = Ini(), private val debug: Boolean = false) 
         (this as? Element)?.textContent?.dropWhile { it == ' ' }?.trim() ?: ""
 
     private fun Node.attribute(key: String): String = (this as? Element)?.getAttribute(key) ?: ""
+
+    fun supportShrinkText(): Boolean {
+        val workshop = File(ini.workshopDir)
+        val fonts = File(workshop.parentFile, "fonts")
+        return File(fonts, "Taiwan4818.txt").exists()
+    }
+
+    private fun Char.valid(): Boolean =
+        this != ' ' && this != '\t' // && this != '\n' && this != '\r'
+
+    suspend fun exportText(): Int = withContext(Dispatchers.IO) {
+        loading.emit(true)
+        val map = LinkedHashMap<Char, Char>() // use map to drop duplicated char
+        // load Taiwan 4818 common characters
+        val sample = File(File(File(ini.workshopDir).parentFile, "fonts"), "Taiwan4818.txt")
+        if (sample.exists()) { // add Taiwan4818.txt
+            val reader = BufferedReader(InputStreamReader(FileInputStream(sample), "UTF-8"))
+            try {
+                var line: String? = ""//reader.readLine()
+                while (line != null) {
+                    line.filter { char -> char.valid() }.forEach { char -> map[char] = char }
+                    line = reader.readLine()
+                }
+            } catch (e: Exception) {
+                log("Exception: ${e.message}")
+            } finally {
+                reader.close()
+            }
+        }
+        // put all characters into map
+        dstValues().forEach { entry ->
+            entry.string().filter { char -> char.valid() }.forEach { char -> map[char] = char }
+        }
+        log("found ${map.size} text")
+        // output content map
+        val contentFile = if (sample.exists()) {
+            File(sample.parent, "dst_cht.txt")
+        } else {
+            File(ini.workingDir, "dst_cht.txt")
+        }
+
+        try { // http://stackoverflow.com/a/1053474
+            val writer = BufferedWriter(FileWriter(contentFile))
+            map.map { entry -> entry.value }.sortedBy { it.inc() }.forEach { char ->
+                writer.write(char.toString())
+                writer.newLine()
+            }
+            writer.close()
+            // writer = null
+        } catch (e: Exception) {
+            log("exportText: ${e.message}")
+        }
+        log("write to ${contentFile.absolutePath} with ${contentFile.length()} done")
+        loading.emit(false)
+        return@withContext map.size
+    }
 }

@@ -11,6 +11,7 @@ import androidx.compose.material.IconButton
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.rounded.ContentCut
 import androidx.compose.material.icons.rounded.Refresh
 import androidx.compose.material.icons.rounded.Save
 import androidx.compose.material.icons.rounded.Search
@@ -30,6 +31,8 @@ fun ToolbarPane(
     onSave: (() -> Unit)? = null,
     onSearch: (() -> Unit)? = null,
     enabled: Boolean = true,
+    onShrink: (() -> Unit)? = null,
+    enableShrink: Boolean = false,
 ) {
     Row(
         modifier = modifier
@@ -79,6 +82,11 @@ fun ToolbarPane(
         }
         IconButton(onClick = { onSearch?.invoke() }, enabled = enabled) {
             Icon(Icons.Rounded.Search, contentDescription = null)
+        }
+        if (enableShrink) {
+            IconButton(onClick = { onShrink?.invoke() }, enabled = enabled) {
+                Icon(Icons.Rounded.ContentCut, contentDescription = null)
+            }
         }
         IconButton(onClick = { onSave?.invoke() }, enabled = enabled) {
             Icon(Icons.Rounded.Save, contentDescription = null)

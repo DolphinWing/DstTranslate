@@ -127,6 +127,15 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = fa
             }
         }
 
+        fun exportTextMap() {
+            composeScope.launch {
+                val start = System.currentTimeMillis()
+                val count = helper.exportText()
+                val cost = System.currentTimeMillis() - start
+                toast("found $count, cost $cost ms")
+            }
+        }
+
         LaunchedEffect(Unit) {
             helper.loadXml() // setup replacement
             showEntryList()
@@ -144,6 +153,7 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = fa
                     onEdit = { entry -> showEntryEditor(entry) },
                     onSave = { if (debug) cached = true else saveEntryList() },
                     onSearch = { showSearchPane() },
+                    onShrink = { exportTextMap() },
                     enabled = enabled.value.not(),
                 )
             }
