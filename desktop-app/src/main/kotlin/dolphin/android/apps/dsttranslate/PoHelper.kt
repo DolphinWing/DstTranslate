@@ -55,6 +55,11 @@ abstract class PoHelper {
     private val wordList = ArrayList<WordEntry>()
 
     /**
+     * @return full word list entry
+     */
+    fun allValues(): List<WordEntry> = wordList
+
+    /**
      * A debug log output implementation.
      *
      * @param message log message to standard output

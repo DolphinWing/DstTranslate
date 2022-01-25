@@ -26,6 +26,7 @@ import androidx.compose.ui.window.application
 import dolphin.android.apps.dsttranslate.WordEntry
 import dolphin.desktop.apps.dsttranslate.DesktopPoHelper
 import dolphin.desktop.apps.dsttranslate.Ini
+import dolphin.desktop.apps.dsttranslate.SuspectMap
 import dolphin.desktop.apps.dsttranslate.compose.ConfigPane
 import dolphin.desktop.apps.dsttranslate.compose.DebugSaveDialog
 import dolphin.desktop.apps.dsttranslate.compose.DstTranslatorTheme
@@ -33,7 +34,9 @@ import dolphin.desktop.apps.dsttranslate.compose.EditorPane
 import dolphin.desktop.apps.dsttranslate.compose.EditorSpec
 import dolphin.desktop.apps.dsttranslate.compose.EntryListPane
 import dolphin.desktop.apps.dsttranslate.compose.SearchPane
+import dolphin.desktop.apps.dsttranslate.compose.SuspectPane
 import dolphin.desktop.apps.dsttranslate.compose.ToastUi
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import java.awt.Desktop
@@ -42,7 +45,6 @@ import java.awt.datatransfer.Clipboard
 import java.awt.datatransfer.StringSelection
 import java.io.File
 import java.net.URL
-
 
 @ExperimentalMaterialApi
 @Composable
@@ -60,10 +62,18 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = fa
         var searching by remember { mutableStateOf(false) }
         var toasted by remember { mutableStateOf("") }
         var cached by remember { mutableStateOf(false) }
+        // suspect
+        var analysis by remember { mutableStateOf(false) }
+        var suspectMap by remember { mutableStateOf(SuspectMap()) }
+
+        // global status
         val enabled = helper.loading.collectAsState()
 
+        // toast
+        val toastJob = remember { mutableStateOf<Job?>(null) }
         fun toast(message: String) {
-            composeScope.launch {
+            toastJob.value?.cancel()
+            toastJob.value = composeScope.launch {
                 toasted = message
                 delay(2000)
                 toasted = ""
@@ -127,12 +137,14 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = fa
             }
         }
 
-        fun exportTextMap() {
+        fun analyzeTextMap() {
             composeScope.launch {
                 val start = System.currentTimeMillis()
-                val count = helper.exportText()
+                val (result, suspects) = helper.analyzeText()
+                suspectMap = suspects
+                analysis = true
                 val cost = System.currentTimeMillis() - start
-                toast("found $count, cost $cost ms")
+                toast("found $result, cost $cost ms")
             }
         }
 
@@ -153,8 +165,9 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = fa
                     onEdit = { entry -> showEntryEditor(entry) },
                     onSave = { if (debug) cached = true else saveEntryList() },
                     onSearch = { showSearchPane() },
-                    onShrink = { exportTextMap() },
+                    onAnalyze = { analyzeTextMap() },
                     enabled = enabled.value.not(),
+                    debug = debug,
                 )
             }
 
@@ -166,7 +179,7 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = fa
 
             if (searching) {
                 SearchPane(
-                    items = helper.dstValues(),
+                    items = helper.allValues(),
                     modifier = Modifier.fillMaxSize(),
                     onSelect = { key ->
                         // println("edit key = $key")
@@ -176,6 +189,14 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = fa
                         }
                     },
                     onCancel = { hideSearchPane() },
+                )
+            }
+
+            if (analysis) {
+                SuspectPane(
+                    suspectMap,
+                    onEdit = { entry -> showEntryEditor(entry) },
+                    onHide = { analysis = false },
                 )
             }
 
@@ -246,10 +267,14 @@ fun translateByGoogle(text: String) {
     val desktop = if (Desktop.isDesktopSupported()) Desktop.getDesktop() else return
     if (desktop.isSupported(Desktop.Action.BROWSE)) {
         try {
-            val url = "https://translate.google.com.tw/?hl=zh-TW&sl=en&tl=zh-TW&text=$text"
+            val encoded = text.replace(" ", "%20")
+            val url = "https://translate.google.com.tw/?hl=zh-TW&sl=en&tl=zh-TW&text=$encoded"
             desktop.browse(URL(url).toURI())
         } catch (e: Exception) {
-            e.printStackTrace()
+            println("translateByGoogle: ${e.message}")
         }
+    } else {
+        println("unable to search $text")
+        copyToSystemClipboard(text) // workaround
     }
 }

@@ -5,6 +5,7 @@ import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.spring
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.HorizontalScrollbar
 import androidx.compose.foundation.TooltipArea
@@ -39,32 +40,38 @@ import androidx.compose.ui.unit.dp
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
-private fun LazyToolTip(
+fun LazyToolTip(
     tooltip: String,
     modifier: Modifier = Modifier,
     backgroundColor: Color? = null,
     content: @Composable () -> Unit,
 ) {
     val color = backgroundColor ?: MaterialTheme.colors.secondaryVariant.copy(alpha = .5f)
-    TooltipArea(
-        tooltip = {
-            // composable tooltip content
-            Surface(
-                modifier = Modifier.shadow(2.dp),
-                color = MaterialTheme.colors.secondary,
-                shape = RoundedCornerShape(4.dp),
-            ) {
-                Text(
-                    text = tooltip,
-                    modifier = Modifier.padding(8.dp),
-                    style = MaterialTheme.typography.body1,
-                )
-            }
-        },
-        modifier = modifier.padding(2.dp).background(color).padding(2.dp),
-        delayMillis = 600,
-        content = content,
-    )
+    if (tooltip.isNotEmpty()) {
+        TooltipArea(
+            tooltip = {
+                // composable tooltip content
+                Surface(
+                    modifier = Modifier.shadow(2.dp),
+                    color = MaterialTheme.colors.secondary,
+                    shape = RoundedCornerShape(4.dp),
+                    // border = BorderStroke(1.dp, MaterialTheme.colors.secondary)
+                ) {
+                    Text(
+                        text = tooltip,
+                        modifier = Modifier.padding(8.dp),
+                        style = MaterialTheme.typography.body1,
+                        color = MaterialTheme.colors.onSecondary,
+                    )
+                }
+            },
+            modifier = modifier.background(color),
+            delayMillis = 600,
+            content = content,
+        )
+    } else {
+        content()
+    }
 }
 
 @Composable
@@ -135,27 +142,29 @@ fun RowScope.TableCell(
 
 @Composable
 fun BoxScope.ToastUi(text: String) {
-    AnimatedVisibility(
-        visible = text.isNotEmpty(),
-        modifier = Modifier.align(Alignment.BottomCenter).padding(bottom = 48.dp),
-        enter = fadeIn(spring(stiffness = Spring.StiffnessLow)),
-        exit = fadeOut(spring(stiffness = Spring.StiffnessHigh)),
-    ) {
-        Text(
-            text,
-            modifier = Modifier
-                .border(
-                    width = 1.dp,
-                    color = MaterialTheme.colors.primary.copy(alpha = .25f),
-                    shape = RoundedCornerShape(8.dp),
-                )
-                .background(Color.White.copy(.8f), shape = RoundedCornerShape(8.dp))
-                .background(
-                    MaterialTheme.colors.secondary.copy(alpha = .2f),
-                    shape = RoundedCornerShape(8.dp),
-                )
-                .padding(vertical = 8.dp, horizontal = 16.dp),
-            style = MaterialTheme.typography.subtitle1,
-        )
+    if (text.isNotEmpty()) {
+        AnimatedVisibility(
+            visible = true,
+            modifier = Modifier.align(Alignment.BottomCenter).padding(bottom = 48.dp),
+            enter = fadeIn(spring(stiffness = Spring.StiffnessLow)),
+            // exit = fadeOut(spring(stiffness = Spring.StiffnessHigh)),
+        ) {
+            Text(
+                text,
+                modifier = Modifier
+                    .border(
+                        width = 1.dp,
+                        color = MaterialTheme.colors.primary.copy(alpha = .25f),
+                        shape = RoundedCornerShape(8.dp),
+                    )
+                    .background(Color.White.copy(.8f), shape = RoundedCornerShape(8.dp))
+                    .background(
+                        MaterialTheme.colors.secondary.copy(alpha = .2f),
+                        shape = RoundedCornerShape(8.dp),
+                    )
+                    .padding(vertical = 8.dp, horizontal = 16.dp),
+                style = MaterialTheme.typography.subtitle1,
+            )
+        }
     }
 }

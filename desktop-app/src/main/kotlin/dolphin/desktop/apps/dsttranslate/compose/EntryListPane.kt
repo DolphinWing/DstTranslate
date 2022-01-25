@@ -31,7 +31,8 @@ fun EntryListPane(
     onSearch: (() -> Unit)? = null,
     onEdit: ((WordEntry) -> Unit)? = null,
     enabled: Boolean = true,
-    onShrink: (() -> Unit)? = null,
+    onAnalyze: (() -> Unit)? = null,
+    debug: Boolean = false,
 ) {
     Column(modifier = modifier) {
         ToolbarPane(
@@ -42,8 +43,8 @@ fun EntryListPane(
             onSave = onSave,
             onSearch = onSearch,
             enabled = enabled,
-            onShrink = onShrink,
-            enableShrink = helper.supportShrinkText(),
+            onAnalyze = onAnalyze,
+            enableAnalyze = debug,
         )
         if (enabled && (dataList?.isEmpty() == true || dataList == null)) {
             Text("no items", modifier = Modifier.padding(8.dp), textAlign = TextAlign.Center)

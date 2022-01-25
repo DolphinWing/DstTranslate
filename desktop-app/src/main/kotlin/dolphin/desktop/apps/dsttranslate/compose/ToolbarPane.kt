@@ -11,7 +11,7 @@ import androidx.compose.material.IconButton
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.rounded.ContentCut
+import androidx.compose.material.icons.rounded.Analytics
 import androidx.compose.material.icons.rounded.Refresh
 import androidx.compose.material.icons.rounded.Save
 import androidx.compose.material.icons.rounded.Search
@@ -19,8 +19,17 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import dolphin.android.apps.dsttranslate.WordEntry
+
+private val textMap = listOf(
+    Pair("chs", AppTheme.AppColor.blue),
+    Pair("cht", AppTheme.AppColor.purple),
+    Pair("dst", AppTheme.AppColor.orange),
+    Pair("now", AppTheme.AppColor.green),
+)
 
 @Composable
 fun ToolbarPane(
@@ -31,8 +40,8 @@ fun ToolbarPane(
     onSave: (() -> Unit)? = null,
     onSearch: (() -> Unit)? = null,
     enabled: Boolean = true,
-    onShrink: (() -> Unit)? = null,
-    enableShrink: Boolean = false,
+    onAnalyze: (() -> Unit)? = null,
+    enableAnalyze: Boolean = false,
 ) {
     Row(
         modifier = modifier
@@ -47,46 +56,27 @@ fun ToolbarPane(
             fontSize = AppTheme.largerFontSize(),
             color = MaterialTheme.colors.onPrimary,
         )
-        Text(
-            "chs",
-            modifier = Modifier
-                .background(AppTheme.AppColor.blue)
-                .padding(vertical = 4.dp, horizontal = 8.dp),
-            fontSize = AppTheme.largerFontSize(),
-        )
-        Text(
-            "cht",
-            modifier = Modifier
-                .background(AppTheme.AppColor.purple)
-                .padding(vertical = 4.dp, horizontal = 8.dp),
-            fontSize = AppTheme.largerFontSize(),
-            color = Color.White,
-        )
-        Text(
-            "dst",
-            modifier = Modifier
-                .background(AppTheme.AppColor.orange)
-                .padding(vertical = 4.dp, horizontal = 8.dp),
-            fontSize = AppTheme.largerFontSize(),
-        )
-        Text(
-            "now",
-            modifier = Modifier
-                .background(AppTheme.AppColor.green)
-                .padding(vertical = 4.dp, horizontal = 8.dp),
-            fontSize = AppTheme.largerFontSize(),
-        )
+        if (enableAnalyze) {
+            IconButton(onClick = { onAnalyze?.invoke() }, enabled = enabled) {
+                Icon(Icons.Rounded.Analytics, contentDescription = null)
+            }
+            Spacer(modifier = Modifier.requiredWidth(8.dp))
+        }
+        textMap.forEach { (title, color) ->
+            Text(
+                text = title,
+                modifier = Modifier.background(color).padding(vertical = 4.dp, horizontal = 8.dp),
+                fontSize = AppTheme.largerFontSize(),
+                // fontFamily = FontFamily.Monospace,
+                textAlign = TextAlign.Center,
+            )
+        }
         Spacer(modifier = Modifier.requiredWidth(8.dp))
         IconButton(onClick = { onRefresh?.invoke() }, enabled = enabled) {
             Icon(Icons.Rounded.Refresh, contentDescription = null)
         }
         IconButton(onClick = { onSearch?.invoke() }, enabled = enabled) {
             Icon(Icons.Rounded.Search, contentDescription = null)
-        }
-        if (enableShrink) {
-            IconButton(onClick = { onShrink?.invoke() }, enabled = enabled) {
-                Icon(Icons.Rounded.ContentCut, contentDescription = null)
-            }
         }
         IconButton(onClick = { onSave?.invoke() }, enabled = enabled) {
             Icon(Icons.Rounded.Save, contentDescription = null)

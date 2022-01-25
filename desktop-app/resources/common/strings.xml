@@ -33,11 +33,39 @@
         <item>意大利|義大利</item>
         <item>皮弗婁牛|野牛</item>
         <item>曲奇餅|餅乾</item>
-        <item>噠噠|答答</item>
+        <item>噠|答</item>
         <item>評委|評審</item>
         <item>阿斯加德|阿斯嘉</item>
-        <item>揹包|背包</item>
+        <item>揹|背</item>
         <item>蛋清|蛋白</item>
+        <item>沙羅曼蛇|沙拉蠑螈</item>
+        <item>神秘|神祕</item>
+        <item>誒|欸</item>
+        <item>籽|子</item>
+        <item>熒光果|螢光果</item>
+        <item>乾凈|乾淨</item>
+        <item>裝璜|裝潢</item>
+        <item>艷|豔</item>
+        <item>呦|唷</item>
+        <item>毛氈|毛毯</item>
+        <item>秘|祕</item>
+        <item>柜|櫃</item>
+        <item>呣|姆</item>
+        <item>熏肉|培根</item>
+        <item>歎|嘆</item>
+        <item>乾癟|乾扁</item>
+        <item>咔|卡</item>
+        <item>嗒|答</item>
+        <item>嗞|滋</item>
+        <item>嗶|逼</item>
+        <item>神龕|祭壇</item>
+        <item>攢|累積</item>
+        <item>迹|跡</item>
+        <item>嚓|喳</item>
+        <item>咿|噫</item>
+        <item>哧|叱</item>
+        <item>噼|劈</item>
+        <item>洩|泄</item>
     </string-array>
     <string name="button_apply">Apply</string>
     <string name="button_refresh">Refresh</string>

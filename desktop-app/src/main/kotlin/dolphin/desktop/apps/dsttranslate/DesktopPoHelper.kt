@@ -19,6 +19,8 @@ import java.io.InputStreamReader
 import javax.xml.parsers.DocumentBuilderFactory
 import javax.xml.parsers.SAXParserFactory
 
+typealias SuspectMap = HashMap<Char, ArrayList<WordEntry>>
+
 class DesktopPoHelper(val ini: Ini = Ini(), private val debug: Boolean = false) : PoHelper() {
     override fun log(message: String) {
         println(message)
@@ -184,16 +186,16 @@ class DesktopPoHelper(val ini: Ini = Ini(), private val debug: Boolean = false) 
 
     private fun Node.attribute(key: String): String = (this as? Element)?.getAttribute(key) ?: ""
 
-    fun supportShrinkText(): Boolean {
-        val workshop = File(ini.workshopDir)
-        val fonts = File(workshop.parentFile, "fonts")
-        return File(fonts, "Taiwan4818.txt").exists()
-    }
+//    fun supportShrinkText(): Boolean {
+//        val workshop = File(ini.workshopDir)
+//        val fonts = File(workshop.parentFile, "fonts")
+//        return File(fonts, "Taiwan4818.txt").exists()
+//    }
 
     private fun Char.valid(): Boolean =
-        this != ' ' && this != '\t' // && this != '\n' && this != '\r'
+        this != ' ' && this != '\t' && this != '\n' && this != '\r'
 
-    suspend fun exportText(): Int = withContext(Dispatchers.IO) {
+    suspend fun analyzeText(): Pair<Int, SuspectMap> = withContext(Dispatchers.IO) {
         loading.emit(true)
         val map = LinkedHashMap<Char, Char>() // use map to drop duplicated char
         // load Taiwan 4818 common characters
@@ -212,18 +214,38 @@ class DesktopPoHelper(val ini: Ini = Ini(), private val debug: Boolean = false) 
                 reader.close()
             }
         }
+
+        val suspects = SuspectMap()
+        // check our text files
+        allValues().filter { entry ->
+            val text = entry.string().trim().filter { char -> char.valid() }
+                .filterNot { char -> map.containsKey(char) }
+                .filter { char -> char.toString() != replace3dot }
+            if (text.isNotEmpty()) {
+                text.forEach { char ->
+                    suspects.putIfAbsent(char, ArrayList())
+                    if (suspects[char]?.any { e -> entry.key() == e.key() } == false) {
+                        suspects[char]?.add(entry)
+                        println("$char: ${entry.string()}")
+                    }
+                }
+            }
+            text.isNotEmpty()
+        }
+
         // put all characters into map
-        dstValues().forEach { entry ->
+        allValues().forEach { entry ->
             entry.string().filter { char -> char.valid() }.forEach { char -> map[char] = char }
         }
         log("found ${map.size} text")
+
         // output content map
         val contentFile = if (sample.exists()) {
             File(sample.parent, "dst_cht.txt")
         } else {
             File(ini.workingDir, "dst_cht.txt")
         }
-
+        // write to file
         try { // http://stackoverflow.com/a/1053474
             val writer = BufferedWriter(FileWriter(contentFile))
             map.map { entry -> entry.value }.sortedBy { it.inc() }.forEach { char ->
@@ -237,6 +259,6 @@ class DesktopPoHelper(val ini: Ini = Ini(), private val debug: Boolean = false) 
         }
         log("write to ${contentFile.absolutePath} with ${contentFile.length()} done")
         loading.emit(false)
-        return@withContext map.size
+        return@withContext Pair(map.size, suspects)
     }
 }
