@@ -20,6 +20,7 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
@@ -49,7 +50,12 @@ import java.net.URL
 @ExperimentalMaterialApi
 @Composable
 @Preview
-fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = false) {
+fun App(
+    helper: DesktopPoHelper,
+    onCopyTo: (String) -> Unit,
+    debug: Boolean = false,
+    appVersion: String = "x.x.x",
+) {
     DstTranslatorTheme {
         val composeScope = rememberCoroutineScope()
         // data list
@@ -154,6 +160,12 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = fa
         }
 
         Box(modifier = Modifier.padding(vertical = 4.dp, horizontal = 8.dp)) {
+            Text(
+                appVersion,
+                style = MaterialTheme.typography.caption,
+                modifier = Modifier.align(Alignment.TopEnd),
+                color = Color.LightGray,
+            )
             Column(modifier = Modifier.fillMaxSize()) {
                 ConfigPane(ini = helper.ini)
                 EntryListPane(
@@ -233,7 +245,9 @@ fun App(helper: DesktopPoHelper, onCopyTo: (String) -> Unit, debug: Boolean = fa
 }
 
 @ExperimentalMaterialApi
-fun main() = application {
+fun main(args: Array<String>) = application {
+    val version = args.find { it.startsWith("v=") }?.drop(2) ?: "x.x.x"
+
     val workingDir: String = System.getProperty("user.dir")
     println("workingDir = $workingDir")
 
@@ -243,7 +257,7 @@ fun main() = application {
     helper.prepare()
 
     Window(onCloseRequest = ::exitApplication, title = "DST Translate") {
-        App(helper, onCopyTo = ::copyToSystemClipboard, debug = debug)
+        App(helper, onCopyTo = ::copyToSystemClipboard, debug = debug, appVersion = version)
     }
 }
 

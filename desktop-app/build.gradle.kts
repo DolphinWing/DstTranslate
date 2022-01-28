@@ -2,7 +2,7 @@ import org.jetbrains.compose.compose
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-val releaseAppVersion = "1.0.6"
+val releaseAppVersion = "1.0.7"
 val releaseAppRevision = 1
 
 plugins {
@@ -58,5 +58,7 @@ compose.desktop {
                 appRelease = releaseAppRevision.toString()
             }
         }
+
+        args += listOf("v=$releaseAppVersion")
     }
 }

@@ -138,14 +138,19 @@ fun SearchPane(
                 refreshItems(entry.toSearchText())
             }) {
                 Column(Modifier.fillMaxWidth()) {
-                    if (searchType != SearchType.Key) {
+                    Text(
+                        entry.key(),
+                        style = MaterialTheme.typography.caption,
+                        color = MaterialTheme.colors.secondary,
+                    )
+                    if (searchType == SearchType.Origin) {
                         Text(
-                            entry.key(),
+                            entry.origin(),
                             style = MaterialTheme.typography.caption,
-                            color = MaterialTheme.colors.secondary,
+                            color = Color.Gray,
                         )
                     }
-                    Text(entry.toSearchText(), style = MaterialTheme.typography.body1)
+                    Text(entry.string(), style = MaterialTheme.typography.body1)
                 }
             }
         }
