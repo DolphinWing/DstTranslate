@@ -2,12 +2,12 @@ import org.jetbrains.compose.compose
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-val releaseAppVersion = "1.0.7"
+val releaseAppVersion = "1.0.8"
 val releaseAppRevision = 1
 
 plugins {
     kotlin("jvm") version "1.6.10"
-    id("org.jetbrains.compose") version "1.0.1"
+    id("org.jetbrains.compose") version "1.1.0"
 }
 
 group = "dolphin.desktop.apps"
@@ -26,7 +26,7 @@ dependencies {
     implementation(compose.uiTooling)
 
     // https://github.com/houbb/opencc4j
-    implementation("com.github.houbb:opencc4j:1.7.1")
+    implementation("com.github.houbb:opencc4j:1.7.2")
 }
 
 tasks.withType<KotlinCompile> {
