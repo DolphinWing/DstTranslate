@@ -29,6 +29,7 @@ import dolphin.desktop.apps.dsttranslate.DesktopPoHelper
 import dolphin.desktop.apps.dsttranslate.Ini
 import dolphin.desktop.apps.dsttranslate.SuspectMap
 import dolphin.desktop.apps.dsttranslate.compose.ConfigPane
+import dolphin.desktop.apps.dsttranslate.compose.Configs
 import dolphin.desktop.apps.dsttranslate.compose.DebugSaveDialog
 import dolphin.desktop.apps.dsttranslate.compose.DstTranslatorTheme
 import dolphin.desktop.apps.dsttranslate.compose.EditorPane
@@ -58,6 +59,8 @@ fun App(
 ) {
     DstTranslatorTheme {
         val composeScope = rememberCoroutineScope()
+        var configs by remember { mutableStateOf(Configs()) }
+        var isLinux by remember { mutableStateOf(false) }
         // data list
         var dataList by remember { mutableStateOf(emptyList<WordEntry>()) }
         var changedList by remember { mutableStateOf(emptyList<Long>()) }
@@ -92,6 +95,16 @@ fun App(
             filtered.forEach { item -> list.add(item.changed) }
             dataList = filtered
             changedList = list
+        }
+
+        fun loadIniAndPo() {
+            composeScope.launch {
+                helper.loadXml() // setup replacement at launch
+                configs = Configs(helper.ini)
+                isLinux = helper.ini.isLinux
+                helper.runTranslationProcess() // setup replacement at launch
+                updateEntryList() // setup replacement at launch
+            }
         }
 
         fun showEntryList() {
@@ -155,8 +168,7 @@ fun App(
         }
 
         LaunchedEffect(Unit) {
-            helper.loadXml() // setup replacement
-            showEntryList()
+            loadIniAndPo() // LaunchedEffect
         }
 
         Box(modifier = Modifier.padding(vertical = 4.dp, horizontal = 8.dp)) {
@@ -166,8 +178,18 @@ fun App(
                 modifier = Modifier.align(Alignment.TopEnd),
                 color = Color.LightGray,
             )
+
             Column(modifier = Modifier.fillMaxSize()) {
-                ConfigPane(ini = helper.ini)
+                ConfigPane(configs = configs, isLinux = isLinux, onConfigChange = { newConfigs ->
+                    composeScope.launch {
+                        helper.ini.apply(
+                            workingDir = newConfigs.workshopDir,
+                            assetsDir = newConfigs.assetsDir,
+                            stringMap = newConfigs.stringMap,
+                        )
+                        loadIniAndPo() // refresh when configs changed
+                    }
+                })
                 EntryListPane(
                     helper,
                     modifier = Modifier.weight(1f),
@@ -246,13 +268,24 @@ fun App(
 
 @ExperimentalMaterialApi
 fun main(args: Array<String>) = application {
-    val version = args.find { it.startsWith("v=") }?.drop(2) ?: "x.x.x"
+    var version = args.find { it.startsWith("v=") }?.drop(2) ?: "x.x.x"
 
-    val workingDir: String = System.getProperty("user.dir")
+//    val osName: String = System.getProperties().getProperty("os.name")
+//    println("os.name = $osName")
+
+    val workingDir: String = System.getProperties().getProperty("user.dir")
     println("workingDir = $workingDir")
 
     val debug = File(workingDir, "build").exists() // has build dir
     println("debug = $debug")
+    if (debug) version += "D" // check if it is a debug version
+
+//    val tempDir: String = System.getProperty("java.io.tmpdir")
+//    println("tempDir = $tempDir")
+//
+//    val homeDir: String = System.getProperty("user.home")
+//    println("homeDir = $homeDir")
+
     val helper = DesktopPoHelper(Ini(workingDir), debug = debug)
     helper.prepare()
 

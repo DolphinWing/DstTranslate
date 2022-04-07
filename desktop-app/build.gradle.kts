@@ -2,7 +2,7 @@ import org.jetbrains.compose.compose
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-val releaseAppVersion = "1.0.8"
+val releaseAppVersion = "1.1.0"
 val releaseAppRevision = 1
 
 plugins {
@@ -36,25 +36,31 @@ tasks.withType<KotlinCompile> {
 compose.desktop {
     application {
         mainClass = "MainKt"
+
         nativeDistributions {
             targetFormats(TargetFormat.Msi, TargetFormat.Deb)
 
             packageName = "DstTranslator"
             packageVersion = releaseAppVersion
+            version = releaseAppVersion
+            description = "DST Translator"
+            vendor = "DolphinWing"
 
             appResourcesRootDir.set(project.layout.projectDirectory.dir("resources"))
 
             windows {
                 dirChooser = true
+                packageVersion = releaseAppVersion
                 msiPackageVersion = releaseAppVersion
-                exePackageVersion = releaseAppVersion
+                // exePackageVersion = releaseAppVersion
                 upgradeUuid = "f33ea1be-e738-43e0-9918-9360b0620fc0"
             }
 
             linux {
                 debMaintainer = "dolphinwing74+github@gmail.com"
+                packageVersion = releaseAppVersion
                 debPackageVersion = releaseAppVersion
-                rpmPackageVersion = releaseAppVersion
+                // rpmPackageVersion = releaseAppVersion
                 appRelease = releaseAppRevision.toString()
             }
         }

@@ -10,6 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.material.TextField
 import androidx.compose.material.TextFieldDefaults
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.rounded.FileCopy
 import androidx.compose.material.icons.rounded.Folder
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -54,7 +55,10 @@ fun FileChooserPane(
             }
         }) {
             Icon(
-                Icons.Rounded.Folder,
+                when (selectionMode) {
+                    JFileChooser.FILES_ONLY -> Icons.Rounded.FileCopy
+                    else -> Icons.Rounded.Folder
+                },
                 contentDescription = "Folder",
                 tint = MaterialTheme.colors.primary,
             )

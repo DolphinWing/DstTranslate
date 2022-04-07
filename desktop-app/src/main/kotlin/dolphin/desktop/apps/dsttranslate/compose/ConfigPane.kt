@@ -1,63 +1,72 @@
 package dolphin.desktop.apps.dsttranslate.compose
 
 import androidx.compose.desktop.ui.tooling.preview.Preview
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.requiredHeight
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import dolphin.desktop.apps.dsttranslate.Ini
-import kotlinx.coroutines.launch
 import javax.swing.JFileChooser
 
-@Composable
-fun ConfigPane(ini: Ini) {
-    val composeScope = rememberCoroutineScope()
-    // configs, usually we set this one time
-    var workshopDir by remember { mutableStateOf(ini.workshopDir) }
-    var assetsDir by remember { mutableStateOf(ini.assetsDir) }
+data class Configs(
+    val workshopDir: String = "",
+    val assetsDir: String = "",
+    val stringMap: String = "",
+) {
+    constructor(ini: Ini) : this(ini.workshopDir, ini.assetsDir, ini.stringMap)
+}
 
-    LaunchedEffect(Unit) {
-        ini.load() // load default configs
-        workshopDir = ini.workshopDir
-        assetsDir = ini.assetsDir
-    }
+@Composable
+fun ConfigPane(
+    configs: Configs,
+    isLinux: Boolean = false,
+    onConfigChange: ((configs: Configs) -> Unit)? = null,
+) {
+    var visible by remember { mutableStateOf(false) }
 
     Column {
         Text("workshop dir", style = MaterialTheme.typography.caption)
         FileChooserPane(
-            file = workshopDir,
+            file = configs.workshopDir,
             onFileChange = { file ->
-                composeScope.launch {
-                    workshopDir = file.absolutePath
-                    ini.workshopDir = workshopDir
-                    ini.save()
-                }
+                // println("workshopDir = ${file.absolutePath}")
+                onConfigChange?.invoke(configs.copy(workshopDir = file.absolutePath))
             },
             selectionMode = JFileChooser.DIRECTORIES_ONLY,
         )
         Spacer(modifier = Modifier.requiredHeight(4.dp))
         Text("assets dir", style = MaterialTheme.typography.caption)
         FileChooserPane(
-            file = assetsDir,
+            file = configs.assetsDir,
             onFileChange = { file ->
-                composeScope.launch {
-                    assetsDir = file.absolutePath
-                    ini.assetsDir = assetsDir
-                    ini.save()
-                }
+                // println("assetsDir = ${file.absolutePath}")
+                onConfigChange?.invoke(configs.copy(assetsDir = file.absolutePath))
             },
             selectionMode = JFileChooser.DIRECTORIES_ONLY,
         )
+        if (isLinux) { // only used in linux mode
+            Spacer(modifier = Modifier.requiredHeight(4.dp))
+            Text(
+                "strings.xml: ${configs.stringMap}",
+                style = MaterialTheme.typography.caption,
+                modifier = Modifier.clickable { visible = true },
+            )
+            if (visible) {
+                FileChooserPane(file = configs.stringMap, onFileChange = { file ->
+                    // println("strings.xml = ${file.absolutePath}")
+                    onConfigChange?.invoke(configs.copy(stringMap = file.absolutePath))
+                })
+            }
+        }
     }
 }
 
@@ -65,6 +74,6 @@ fun ConfigPane(ini: Ini) {
 @Composable
 private fun PreviewConfigPane() {
     DstTranslatorTheme {
-        ConfigPane(Ini("/home/dolphin"))
+        ConfigPane(Configs("/home/dolphin", "/home/dolphin/assets"))
     }
 }

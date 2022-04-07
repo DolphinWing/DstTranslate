@@ -16,7 +16,7 @@ abstract class PoHelper {
         const val DST_PO = "dst_cht.po"
     }
 
-    protected val replaceList = ArrayList<String>()
+    protected val replaceList = ArrayList<Pair<String, String>>()
     protected var replace3dot: String = ""
     private val replace6dot: String
         get() = "$replace3dot$replace3dot"
@@ -82,7 +82,7 @@ abstract class PoHelper {
             while (line != null) {
                 val line1 = reader.readLine()
                 if (!line1.startsWith("#")) {
-                    log("bypass $line1")
+                    // log("bypass $line1")
                     continue //bypass some invalid header
                 }
                 val line2 = if (line2Enabled) reader.readLine() else ""
@@ -169,7 +169,7 @@ abstract class PoHelper {
      * @return total process time
      */
     suspend fun runTranslationProcess(): Long = withContext(Dispatchers.IO) {
-        log("run translation")
+        // log("run translation")
         loading.emit(true)
         val start = System.currentTimeMillis()
 
@@ -217,7 +217,7 @@ abstract class PoHelper {
                 newly = true
                 str = sc2tc(entry.str).trim()
             }
-            str = getReplacement(str)
+            str = refactor(str)
             wordList.add(WordEntry(entry.key, entry.text, entry.id, str, newly))
         }
         val stop4 = System.currentTimeMillis()
@@ -269,12 +269,11 @@ abstract class PoHelper {
      */
     abstract fun sc2tc(str: String): String
 
-    private fun getReplacement(src: String): String {
+    private fun refactor(src: String): String {
         var str = src.replace("...", replace3dot)
         str = if (str != "\"$replace6dot\"") str.replace(replace6dot, replace3dot) else str
-        replaceList.forEach {
-            val pair = it.split("|")
-            str = str.replace(pair[0], pair[1])
+        replaceList.forEach { (_old, _new) ->
+            str = str.replace(_old, _new)
         }
         if (str.contains("\\\"")) {
             var i = 0

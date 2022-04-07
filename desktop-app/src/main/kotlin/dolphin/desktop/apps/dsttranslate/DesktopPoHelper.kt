@@ -116,6 +116,10 @@ class DesktopPoHelper(val ini: Ini = Ini(), private val debug: Boolean = false) 
     }
 
     private fun findReplacementXml(): File {
+        // load from ini
+        if (File(ini.stringMap).exists()) {
+            return File(ini.stringMap)
+        }
         // locate debug build
         if (File(ini.workingDir, "resources").exists()) {
             val file = File("${ini.workingDir}/resources/common/strings.xml")
@@ -131,12 +135,17 @@ class DesktopPoHelper(val ini: Ini = Ini(), private val debug: Boolean = false) 
     }
 
     suspend fun loadXml() = withContext(Dispatchers.IO) {
+        ini.load() // load ini
         // loadXmlByDom(findReplaceXml()) // load from replacement xml
         loadXmlBySax(findReplacementXml())
+        replaceList.clear() // reset list from loading XML
         replaceMap.filter { entry -> entry.key.startsWith("entry-") }
-            .map { entry -> entry.value }
+            .map { entry ->
+                val pair = entry.value.split("|")
+                Pair(pair[0], pair[1])
+            }
             .forEach { entry -> replaceList.add(entry) }
-        println("replace list: ${replaceList.size}")
+        // println("replace list: ${replaceList.size}")
         replace3dot = replaceMap["replacement_3dot"] ?: ""
         replaceLeftBracket = replaceMap["replacement_left_bracket"] ?: ""
         replaceRightBracket = replaceMap["replacement_right_bracket"] ?: ""

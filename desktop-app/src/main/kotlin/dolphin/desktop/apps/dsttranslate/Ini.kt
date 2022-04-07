@@ -13,10 +13,31 @@ import java.io.InputStreamReader
  * App config ini handler
  *
  * @property workingDir app working dir
+ * @param os os name
  */
-class Ini(val workingDir: String = System.getProperty("user.dir")) {
+class Ini(
+    val workingDir: String = System.getProperty("user.dir"),
+    private val os: String = System.getProperty("os.name") ?: "Linux",
+) {
+    private val homeConfigs
+        get() = File("${System.getProperty("user.home")}/.config/dst-translator")
+
     private val configFile: File
-        get() = File(workingDir, "configs.ini")
+        get() {
+            if (isLinux) {
+                // write to ~/.configs on Ubuntu
+                if (!homeConfigs.exists()) {
+                    val r = homeConfigs.mkdirs()
+                    println("make a new config folder: $r")
+                }
+                return File(homeConfigs, "configs.ini")
+
+            }
+            // try this on Windows
+            return File(workingDir, "configs.ini")
+        }
+
+    val isLinux: Boolean = os.startsWith("Linux") || os.startsWith("Ubuntu")
 
     /**
      * User workshop code folder
@@ -27,6 +48,11 @@ class Ini(val workingDir: String = System.getProperty("user.dir")) {
      * Klei PO file source folder
      */
     var assetsDir: String = ""
+
+    /**
+     * Replacement strings
+     */
+    var stringMap: String = ""
 
     /**
      * Load ini file
@@ -77,6 +103,7 @@ class Ini(val workingDir: String = System.getProperty("user.dir")) {
             when (data[0]) {
                 "workshopDir" -> workshopDir = value
                 "assetsDir" -> assetsDir = value
+                "stringMap" -> stringMap = value
             }
         } else {
             println("invalid line: $line")
@@ -86,10 +113,12 @@ class Ini(val workingDir: String = System.getProperty("user.dir")) {
     /**
      * Save ini file
      */
+    @Suppress("MemberVisibilityCanBePrivate")
     suspend fun save() = withContext(Dispatchers.IO) {
         val builder = StringBuilder()
         builder.append("workshopDir=$workshopDir\n")
         builder.append("assetsDir=$assetsDir\n")
+        builder.append("stringMap=$stringMap\n")
         val content = builder.toString()
         try { // http://stackoverflow.com/a/1053474
             val writer = BufferedWriter(FileWriter(configFile))
@@ -99,5 +128,33 @@ class Ini(val workingDir: String = System.getProperty("user.dir")) {
             e.printStackTrace()
             println("writeStringToFile: " + e.message)
         }
+    }
+
+    private suspend fun updateMaps(srcFile: File) = withContext(Dispatchers.IO) {
+        if (!srcFile.exists()) return@withContext
+        val map = File(homeConfigs, "strings.xml")
+        srcFile.copyTo(target = map, overwrite = true)
+        stringMap = map.absolutePath
+        save() // write configs
+    }
+
+    /**
+     * Apply configs changed
+     *
+     * @param workingDir app working dir
+     * @param assetsDir source Klei PO assets
+     * @param stringMap refactor list
+     */
+    suspend fun apply(
+        workingDir: String? = null,
+        assetsDir: String? = null,
+        stringMap: String? = null,
+    ) = withContext(Dispatchers.IO) {
+        if (stringMap != null && stringMap != this@Ini.stringMap) {
+            this@Ini.updateMaps(File(stringMap))
+        }
+        workingDir?.let { dir -> this@Ini.workshopDir = dir }
+        assetsDir?.let { dir -> this@Ini.assetsDir = dir }
+        save()
     }
 }
