@@ -44,6 +44,7 @@ import kotlinx.coroutines.launch
 import java.awt.Desktop
 import java.awt.Toolkit
 import java.awt.datatransfer.Clipboard
+import java.awt.datatransfer.DataFlavor
 import java.awt.datatransfer.StringSelection
 import java.io.File
 import java.net.URL
@@ -54,6 +55,7 @@ import java.net.URL
 fun App(
     helper: DesktopPoHelper,
     onCopyTo: (String) -> Unit,
+    onCopyFrom: () -> String,
     debug: Boolean = false,
     appVersion: String = "x.x.x",
 ) {
@@ -244,11 +246,12 @@ fun App(
                         hideEntryEditor()
                     },
                     onCancel = { hideEntryEditor() },
-                    onCopy = { text ->
+                    onCopyToClipboard = { text ->
                         onCopyTo.invoke(text)
                         toast(text)
                     },
                     onTranslate = { text -> translateByGoogle(text) },
+                    onCopyFromClipboard = onCopyFrom,
                 )
             }
 
@@ -290,7 +293,13 @@ fun main(args: Array<String>) = application {
     helper.prepare()
 
     Window(onCloseRequest = ::exitApplication, title = "DST Translate") {
-        App(helper, onCopyTo = ::copyToSystemClipboard, debug = debug, appVersion = version)
+        App(
+            helper,
+            onCopyTo = ::copyToSystemClipboard,
+            onCopyFrom = ::copyFromSystemClipboard,
+            debug = debug,
+            appVersion = version,
+        )
     }
 }
 
@@ -302,6 +311,16 @@ fun copyToSystemClipboard(text: String) {
     val stringSelection = StringSelection(text)
     val clipboard: Clipboard = Toolkit.getDefaultToolkit().systemClipboard
     clipboard.setContents(stringSelection, null)
+}
+
+/**
+ * Copy text from system clipboard
+ * See https://stackoverflow.com/q/11596368
+ */
+fun copyFromSystemClipboard(): String {
+    val clipboard: Clipboard = Toolkit.getDefaultToolkit().systemClipboard
+    // println("get data: ${clipboard.getData(DataFlavor.stringFlavor)}")
+    return clipboard.getData(DataFlavor.stringFlavor).toString()
 }
 
 /**

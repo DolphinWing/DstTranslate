@@ -2,27 +2,13 @@ package dolphin.desktop.apps.dsttranslate.compose
 
 import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.requiredWidth
-import androidx.compose.material.Button
-import androidx.compose.material.ButtonDefaults
-import androidx.compose.material.Icon
-import androidx.compose.material.IconButton
-import androidx.compose.material.Text
-import androidx.compose.material.TextButton
-import androidx.compose.material.TextField
+import androidx.compose.foundation.layout.*
+import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.rounded.ContentPaste
 import androidx.compose.material.icons.rounded.CopyAll
 import androidx.compose.material.icons.rounded.Visibility
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -46,8 +32,9 @@ fun EditorPane(
     data: EditorSpec,
     modifier: Modifier = Modifier,
     onSave: ((String, String) -> Unit)? = null,
-    onCopy: ((String) -> Unit)? = null,
+    onCopyToClipboard: ((String) -> Unit)? = null,
     onTranslate: ((String) -> Unit)? = null,
+    onCopyFromClipboard: (() -> String)? = null,
     onCancel: (() -> Unit)? = null,
 ) {
     var text by remember { mutableStateOf(data.target.string()) }
@@ -142,7 +129,7 @@ fun EditorPane(
                             fontSize = AppTheme.largerFontSize(),
                         )
                     }
-                    IconButton(onClick = { onCopy?.invoke(old.origin()) }) {
+                    IconButton(onClick = { onCopyToClipboard?.invoke(old.origin()) }) {
                         Icon(Icons.Rounded.CopyAll, contentDescription = null)
                     }
                 }
@@ -173,7 +160,7 @@ fun EditorPane(
                         fontSize = AppTheme.largerFontSize(),
                     )
                 }
-                IconButton(onClick = { onCopy?.invoke(data.target.origin()) }) {
+                IconButton(onClick = { onCopyToClipboard?.invoke(data.target.origin()) }) {
                     Icon(Icons.Rounded.CopyAll, contentDescription = null)
                 }
             }
@@ -198,6 +185,13 @@ fun EditorPane(
         )
 
         Row(modifier = Modifier.fillMaxWidth()) {
+            IconButton(onClick = { onCopyToClipboard?.invoke(text) }) {
+                Icon(Icons.Rounded.CopyAll, contentDescription = null)
+            }
+            IconButton(onClick = { onCopyFromClipboard?.invoke()?.let { result -> text = result } }) {
+                Icon(Icons.Rounded.ContentPaste, contentDescription = null)
+            }
+            Spacer(modifier = Modifier.requiredWidth(16.dp))
             TextButton(
                 onClick = { onCancel?.invoke() },
                 modifier = Modifier.weight(2f),
