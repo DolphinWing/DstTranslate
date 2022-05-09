@@ -161,7 +161,7 @@ fun SearchPane(
                     currentEntry ?: model.helper.allValues().find { entry -> entry.toSearchText() == data.value }
                 onSelect?.invoke(entry?.key() ?: "")
             }, modifier = Modifier.weight(1f)) {
-                Text("Edit")
+                Text(stringResource("Edit"))
             }
         }
     }

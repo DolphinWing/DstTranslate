@@ -117,18 +117,25 @@ class DesktopPoHelper(val ini: Ini = Ini(), private val debug: Boolean = false) 
 
     private fun findReplacementXml(): File {
         // load from ini
-        if (File(ini.stringMap).exists()) {
+        if (ini.isLinux && File(ini.stringMap).exists()) {
             return File(ini.stringMap)
         }
+        val s = File.separator
         // locate debug build
         if (File(ini.workingDir, "resources").exists()) {
-            val file = File("${ini.workingDir}/resources/common/strings.xml")
-            if (file.exists()) return file
+            val file = File("${ini.workingDir}${s}resources${s}common${s}strings.xml")
+            if (file.exists()) {
+                ini.stringMap = file.absolutePath // debug build
+                return file
+            }
         }
         // locate release build
         if (File(ini.workingDir, "app").exists()) {
-            val file = File("${ini.workingDir}/app/resources/strings.xml")
-            if (file.exists()) return file
+            val file = File("${ini.workingDir}${s}app${s}resources${s}strings.xml")
+            if (file.exists()) {
+                ini.stringMap = file.absolutePath // release build
+                return file
+            }
         }
         // locate in workshop dir
         return File(ini.workshopDir, "strings.xml")
@@ -157,7 +164,7 @@ class DesktopPoHelper(val ini: Ini = Ini(), private val debug: Boolean = false) 
     }
 
     private fun loadFile(dir: String, name: String): ArrayList<WordEntry> {
-        log("load asset: $dir/$name")
+        log("load asset: $dir${File.separator}$name")
         val file = File(dir, name)
         val list: ArrayList<WordEntry> = if (file.exists()) try {
             // Read UTF-8 https://stackoverflow.com/a/14918597

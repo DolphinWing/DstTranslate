@@ -17,6 +17,7 @@ import androidx.compose.ui.Modifier
 import dolphin.android.apps.dsttranslate.WordEntry
 import dolphin.desktop.apps.dsttranslate.PoDataModel
 import kotlinx.coroutines.flow.collect
+import res.stringResource
 
 private sealed class SuspectData(
     val title: String? = null,
@@ -68,7 +69,7 @@ fun SuspectPane(
                 }
             }
             TextButton(onClick = onHide, modifier = Modifier.fillMaxWidth()) {
-                Text("Close")
+                Text(stringResource("Close"))
             }
         }
     }

@@ -37,19 +37,7 @@ class Ini(
         }
 
     private val configFile: File
-        get() = File(homeConfigs, "configs.ini") /*{
-            if (isLinux) {
-                // write to ~/.configs on Ubuntu
-                if (!homeConfigs.exists()) {
-                    val r = homeConfigs.mkdirs()
-                    println("make a new config folder: $r")
-                }
-                return File(homeConfigs, "configs.ini")
-
-            }
-            // try this on Windows
-            return File(workingDir, "configs.ini")
-        }*/
+        get() = File(homeConfigs, "configs.ini")
 
     val isLinux: Boolean = os.startsWith("Linux") || os.startsWith("Ubuntu")
 

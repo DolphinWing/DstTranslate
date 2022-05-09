@@ -2,13 +2,28 @@ package dolphin.desktop.apps.dsttranslate.compose
 
 import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.*
-import androidx.compose.material.*
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.requiredWidth
+import androidx.compose.material.Button
+import androidx.compose.material.ButtonDefaults
+import androidx.compose.material.Icon
+import androidx.compose.material.IconButton
+import androidx.compose.material.Text
+import androidx.compose.material.TextButton
+import androidx.compose.material.TextField
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.ContentPaste
 import androidx.compose.material.icons.rounded.CopyAll
 import androidx.compose.material.icons.rounded.Visibility
-import androidx.compose.runtime.*
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -17,6 +32,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import dolphin.android.apps.dsttranslate.WordEntry
 import dolphin.android.apps.dsttranslate.WordEntry.Companion.dropQuote
+import res.stringResource
 
 private fun Color.tinted(visible: Boolean): Color = copy(alpha = if (visible) 1f else .25f)
 
@@ -196,14 +212,14 @@ fun EditorPane(
                 onClick = { onCancel?.invoke() },
                 modifier = Modifier.weight(2f),
             ) {
-                Text("Cancel")
+                Text(stringResource("Cancel"))
             }
             Spacer(modifier = Modifier.requiredWidth(16.dp))
             Button(
                 onClick = { onSave?.invoke(data.target.key, "\"$text\"") },
                 modifier = Modifier.weight(3f),
             ) {
-                Text("Apply")
+                Text(stringResource("Apply"))
             }
         }
     }
@@ -241,7 +257,7 @@ private fun PreviewEditorPaneWithCht() {
             data = EditorSpec(
                 dst = PreviewDefaults.dst,
                 chs = "simplified",
-                cht = "traditional"
+                cht = "traditional",
             )
         )
     }
