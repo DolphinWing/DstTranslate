@@ -1,9 +1,6 @@
-@file:OptIn(ExperimentalFoundationApi::class)
-
 package dolphin.desktop.apps.dsttranslate.compose
 
 import androidx.compose.desktop.ui.tooling.preview.Preview
-import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -26,9 +23,12 @@ import androidx.compose.material.icons.rounded.RadioButtonUnchecked
 import androidx.compose.material.icons.rounded.Save
 import androidx.compose.material.icons.rounded.Undo
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -36,63 +36,59 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import dolphin.android.apps.dsttranslate.WordEntry
+import dolphin.desktop.apps.dsttranslate.PoDataModel
+import kotlinx.coroutines.launch
+import res.stringResource
 
-private enum class SearchType {
+enum class SearchType {
     Key, Origin, Text,
 }
 
 // See https://stackoverflow.com/a/69148766
 @Composable
 fun SearchPane(
-    items: List<WordEntry>,
+    model: PoDataModel,
     modifier: Modifier = Modifier,
     selectedValue: String? = null,
     onSelect: ((String) -> Unit)? = null,
     onCancel: (() -> Unit)? = null,
 ) {
+    val composeScope = rememberCoroutineScope()
     var currentEntry: WordEntry? = null
-    var data by remember { mutableStateOf(selectedValue ?: "") }
+    val data = model.searchText.collectAsState()
     var last by remember { mutableStateOf("") }
-    var filteredItems by remember { mutableStateOf(emptyList<WordEntry>()) }
-    var searchType by remember { mutableStateOf(SearchType.Key) }
+    val filteredItems = model.searchList.collectAsState()
+    val searchType = model.searchType.collectAsState()
 
     fun refreshItems(text: String) {
-        data = text
-        filteredItems = items.filter { item ->
-            when (searchType) {
-                SearchType.Origin -> item.origin()
-                SearchType.Key -> item.key()
-                SearchType.Text -> item.string()
-            }.contains(text, ignoreCase = true)
-        }
+        composeScope.launch { model.search(text) }
         // println("found ${filteredItems.size}")
     }
 
-    fun WordEntry.toSearchText() = when (searchType) {
+    fun WordEntry.toSearchText() = when (searchType.value) {
         SearchType.Origin -> origin()
         SearchType.Key -> key()
         SearchType.Text -> string()
     }
 
-    fun changeSearchType(type: SearchType) {
-        searchType = type
-        refreshItems(data)
+    LaunchedEffect(Unit) {
+        selectedValue?.let { model.search(it) }
     }
 
     Column(modifier = modifier.background(MaterialTheme.colors.surface)) {
         TextField(
-            data,
+            data.value,
             onValueChange = { text -> refreshItems(text) },
             modifier = Modifier.fillMaxWidth(),
             colors = TextFieldDefaults.outlinedTextFieldColors(),
             placeholder = { Text("text to search") },
             trailingIcon = {
                 Row {
-                    IconButton(onClick = { last = data }) {
+                    IconButton(onClick = { last = data.value }) {
                         Icon(
                             Icons.Rounded.Save,
                             contentDescription = "Cached",
-                            tint = if (data.isNotEmpty()) Color.Gray else Color.LightGray,
+                            tint = if (data.value.isNotEmpty()) Color.Gray else Color.LightGray,
                         )
                     }
                     LazyToolTip(tooltip = last, backgroundColor = Color.Transparent) {
@@ -113,11 +109,13 @@ fun SearchPane(
         Row(verticalAlignment = Alignment.CenterVertically) {
             SearchType.values().forEach { type ->
                 Row(
-                    modifier = Modifier.clickable { changeSearchType(type) }.padding(8.dp),
+                    modifier = Modifier.clickable {
+                        composeScope.launch { model.searchType(type) }
+                    }.padding(8.dp),
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
                     Icon(
-                        if (type == searchType) {
+                        if (type == searchType.value) {
                             Icons.Rounded.RadioButtonChecked
                         } else {
                             Icons.Rounded.RadioButtonUnchecked
@@ -132,7 +130,7 @@ fun SearchPane(
                 }
             }
         }
-        LazyScrollableColumn(filteredItems, modifier = Modifier.weight(1f)) { _, entry ->
+        LazyScrollableColumn(filteredItems.value, modifier = Modifier.weight(1f)) { _, entry ->
             TextButton(onClick = {
                 currentEntry = entry
                 refreshItems(entry.toSearchText())
@@ -143,7 +141,7 @@ fun SearchPane(
                         style = MaterialTheme.typography.caption,
                         color = MaterialTheme.colors.secondary,
                     )
-                    if (searchType == SearchType.Origin) {
+                    if (searchType.value == SearchType.Origin) {
                         Text(
                             entry.origin(),
                             style = MaterialTheme.typography.caption,
@@ -156,10 +154,11 @@ fun SearchPane(
         }
         Row(horizontalArrangement = Arrangement.End, modifier = Modifier.fillMaxWidth()) {
             TextButton(onClick = { onCancel?.invoke() }, modifier = Modifier.weight(1f)) {
-                Text("Cancel")
+                Text(stringResource("Cancel"))
             }
             Button(onClick = {
-                val entry = currentEntry ?: items.find { entry -> entry.toSearchText() == data }
+                val entry =
+                    currentEntry ?: model.helper.allValues().find { entry -> entry.toSearchText() == data.value }
                 onSelect?.invoke(entry?.key() ?: "")
             }, modifier = Modifier.weight(1f)) {
                 Text("Edit")
@@ -172,7 +171,7 @@ fun SearchPane(
 @Composable
 private fun PreviewSearchPaneAll() {
     DstTranslatorTheme {
-        SearchPane(items = PreviewDefaults.samples)
+        SearchPane(PreviewDefaults.model)
     }
 }
 
@@ -180,6 +179,6 @@ private fun PreviewSearchPaneAll() {
 @Composable
 private fun PreviewSearchPaneShowSelected() {
     DstTranslatorTheme {
-        SearchPane(items = PreviewDefaults.samples, selectedValue = "ch")
+        SearchPane(PreviewDefaults.model, selectedValue = "ch")
     }
 }

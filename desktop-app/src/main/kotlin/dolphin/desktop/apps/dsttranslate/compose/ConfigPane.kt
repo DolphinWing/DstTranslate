@@ -7,7 +7,11 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.requiredHeight
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
-import androidx.compose.runtime.*
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
@@ -25,7 +29,6 @@ data class Configs(
 @Composable
 fun ConfigPane(
     configs: Configs,
-    isLinux: Boolean = false,
     onConfigChange: ((configs: Configs) -> Unit)? = null,
 ) {
     var visible by remember { mutableStateOf(false) }
@@ -50,20 +53,18 @@ fun ConfigPane(
             },
             selectionMode = JFileChooser.DIRECTORIES_ONLY,
         )
-        if (isLinux) { // only used in linux mode
-            Spacer(modifier = Modifier.requiredHeight(4.dp))
-            Text(
-                "strings.xml: ${configs.stringMap}",
-                style = MaterialTheme.typography.caption,
-                modifier = Modifier.clickable { visible = true },
-                color = if (configs.stringMap.isEmpty()) Color.Red else MaterialTheme.typography.caption.color,
-            )
-            if (visible) {
-                FileChooserPane(file = configs.stringMap, onFileChange = { file ->
-                    // println("strings.xml = ${file.absolutePath}")
-                    onConfigChange?.invoke(configs.copy(stringMap = file.absolutePath))
-                })
-            }
+        Spacer(modifier = Modifier.requiredHeight(4.dp))
+        Text(
+            "strings.xml: ${configs.stringMap}",
+            style = MaterialTheme.typography.caption,
+            modifier = Modifier.clickable { visible = true },
+            color = if (configs.stringMap.isEmpty()) Color.Red else MaterialTheme.typography.caption.color,
+        )
+        if (visible) {
+            FileChooserPane(file = configs.stringMap, onFileChange = { file ->
+                // println("strings.xml = ${file.absolutePath}")
+                onConfigChange?.invoke(configs.copy(stringMap = file.absolutePath))
+            })
         }
     }
 }

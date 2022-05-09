@@ -19,11 +19,25 @@ class Ini(
     val workingDir: String = System.getProperty("user.dir"),
     private val os: String = System.getProperty("os.name") ?: "Linux",
 ) {
-    private val homeConfigs
-        get() = File("${System.getProperty("user.home")}/.config/dst-translator")
+    private val homeConfigs: File
+        get() {
+            val s = File.separator
+            val folder = if (isLinux) {
+                File("${System.getProperty("user.home")}${s}.config${s}dst-translator")
+            } else {
+                File("${System.getProperty("user.home")}${s}AppData${s}Local${s}dst-translator")
+            }
+            try {
+                if (!folder.exists()) folder.mkdirs()
+                return folder // make sure it exists
+            } catch (e: Exception) {
+                println("no such folder")
+            }
+            return File(System.getProperty("user.home")) // it must exist
+        }
 
     private val configFile: File
-        get() {
+        get() = File(homeConfigs, "configs.ini") /*{
             if (isLinux) {
                 // write to ~/.configs on Ubuntu
                 if (!homeConfigs.exists()) {
@@ -35,7 +49,7 @@ class Ini(
             }
             // try this on Windows
             return File(workingDir, "configs.ini")
-        }
+        }*/
 
     val isLinux: Boolean = os.startsWith("Linux") || os.startsWith("Ubuntu")
 

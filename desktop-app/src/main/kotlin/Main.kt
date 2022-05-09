@@ -27,9 +27,8 @@ import androidx.compose.ui.window.application
 import dolphin.android.apps.dsttranslate.WordEntry
 import dolphin.desktop.apps.dsttranslate.DesktopPoHelper
 import dolphin.desktop.apps.dsttranslate.Ini
-import dolphin.desktop.apps.dsttranslate.SuspectMap
+import dolphin.desktop.apps.dsttranslate.PoDataModel
 import dolphin.desktop.apps.dsttranslate.compose.ConfigPane
-import dolphin.desktop.apps.dsttranslate.compose.Configs
 import dolphin.desktop.apps.dsttranslate.compose.DebugSaveDialog
 import dolphin.desktop.apps.dsttranslate.compose.DstTranslatorTheme
 import dolphin.desktop.apps.dsttranslate.compose.EditorPane
@@ -49,11 +48,15 @@ import java.awt.datatransfer.StringSelection
 import java.io.File
 import java.net.URL
 
+enum class UiState {
+    Main, Editor, Search, Analysis,
+}
+
 @ExperimentalMaterialApi
 @Composable
 @Preview
 fun App(
-    helper: DesktopPoHelper,
+    model: PoDataModel,
     onCopyTo: (String) -> Unit,
     onCopyFrom: () -> String,
     debug: Boolean = false,
@@ -61,24 +64,15 @@ fun App(
 ) {
     DstTranslatorTheme {
         val composeScope = rememberCoroutineScope()
-        var configs by remember { mutableStateOf(Configs()) }
-        var isLinux by remember { mutableStateOf(false) }
-        // data list
-        var dataList by remember { mutableStateOf(emptyList<WordEntry>()) }
-        var changedList by remember { mutableStateOf(emptyList<Long>()) }
-        // editor
-        var editing by remember { mutableStateOf(false) }
-        var editorData by remember { mutableStateOf(EditorSpec()) }
-        // search
-        var searching by remember { mutableStateOf(false) }
+        var uiState by remember { mutableStateOf<Pair<UiState, UiState?>>(Pair(UiState.Main, null)) }
+        val configs = model.configs.collectAsState()
+
+        var editorData by remember { mutableStateOf(EditorSpec()) } // editor
+
         var toasted by remember { mutableStateOf("") }
         var cached by remember { mutableStateOf(false) }
-        // suspect
-        var analysis by remember { mutableStateOf(false) }
-        var suspectMap by remember { mutableStateOf(SuspectMap()) }
 
-        // global status
-        val enabled = helper.loading.collectAsState()
+        val enabled = model.helper.loading.collectAsState() // global status
 
         // toast
         val toastJob = remember { mutableStateOf<Job?>(null) }
@@ -91,67 +85,37 @@ fun App(
             }
         }
 
-        fun updateEntryList() {
-            val list = ArrayList<Long>()
-            val filtered = helper.buildChangeList()
-            filtered.forEach { item -> list.add(item.changed) }
-            dataList = filtered
-            changedList = list
-        }
-
-        fun loadIniAndPo() {
-            composeScope.launch {
-                helper.loadXml() // setup replacement at launch
-                configs = Configs(helper.ini)
-                isLinux = helper.ini.isLinux
-                helper.runTranslationProcess() // setup replacement at launch
-                updateEntryList() // setup replacement at launch
-            }
-        }
-
-        fun showEntryList() {
-            composeScope.launch {
-                val cost = helper.runTranslationProcess()
-                // println("cost $cost ms")
-                updateEntryList()
-                toast("cost $cost ms")
-            }
+        fun changeUiState(state: UiState? = null) {
+            uiState = Pair(
+                state ?: uiState.second ?: UiState.Main, // change to new state or go back
+                if (state == null) UiState.Main else uiState.first // if it is go back,
+            )
         }
 
         fun showEntryEditor(entry: WordEntry) {
-            val dst = helper.dst(entry.key)
             // println("edit: ${entry.key}")
-            // if (!entry.newly) println("origin: ${dst?.id}")
-            editorData = EditorSpec(
-                entry,
-                dst,
-                helper.sc2tc(helper.chs(entry.key)?.str ?: ""),
-                helper.cht(entry.key)?.str,
-            )
-            editing = true
+            editorData = model.requestEdit(entry)
+            changeUiState(UiState.Editor)
         }
 
         fun hideEntryEditor() {
-            editing = false
+            changeUiState() // hideEntryEditor
         }
 
         fun showSearchPane() {
-            searching = true
+            changeUiState(UiState.Search)
         }
 
         fun hideSearchPane() {
-            searching = false
+            changeUiState() // hideSearchPane
         }
 
         fun saveEntryList(cacheIt: Boolean = false) {
             composeScope.launch {
                 cached = false // hide debug dialog
-                val start = System.currentTimeMillis()
-                val exported = helper.getOutputFile(cacheIt)
-                val result = helper.writeTranslationFile(exported)
-                val cost = System.currentTimeMillis() - start
-                if (result) {
-                    toast("write ${exported.absolutePath} cost $cost ms")
+                val (exported, cost) = model.save(cacheIt)
+                if (cost > 0) {
+                    toast("write $exported cost $cost ms")
                 } else {
                     toast("write failed!")
                 }
@@ -161,16 +125,15 @@ fun App(
         fun analyzeTextMap() {
             composeScope.launch {
                 val start = System.currentTimeMillis()
-                val (result, suspects) = helper.analyzeText()
-                suspectMap = suspects
-                analysis = true
+                val result = model.analyze()
+                changeUiState(UiState.Analysis)
                 val cost = System.currentTimeMillis() - start
                 toast("found $result, cost $cost ms")
             }
         }
 
         LaunchedEffect(Unit) {
-            loadIniAndPo() // LaunchedEffect
+            model.loadIniAndPo() // LaunchedEffect
         }
 
         Box(modifier = Modifier.padding(vertical = 4.dp, horizontal = 8.dp)) {
@@ -181,85 +144,86 @@ fun App(
                 color = Color.LightGray,
             )
 
-            Column(modifier = Modifier.fillMaxSize()) {
-                ConfigPane(configs = configs, isLinux = isLinux, onConfigChange = { newConfigs ->
-                    composeScope.launch {
-                        helper.ini.apply(
-                            workingDir = newConfigs.workshopDir,
-                            assetsDir = newConfigs.assetsDir,
-                            stringMap = newConfigs.stringMap,
+            when (uiState.first) {
+                UiState.Main -> {
+                    Column(modifier = Modifier.fillMaxSize()) {
+                        ConfigPane(
+                            configs = configs.value,
+                            onConfigChange = { newConfigs ->
+                                composeScope.launch { model.saveConfig(newConfigs) }
+                            },
                         )
-                        loadIniAndPo() // refresh when configs changed
+                        EntryListPane(
+                            model,
+                            modifier = Modifier.weight(1f),
+                            onRefresh = {
+                                composeScope.launch {
+                                    val cost = model.translate()
+                                    toast("cost $cost ms")
+                                }
+                            },
+                            onEdit = { entry -> showEntryEditor(entry) },
+                            onSave = { if (debug) cached = true else saveEntryList() },
+                            onSearch = { showSearchPane() },
+                            onAnalyze = { analyzeTextMap() },
+                            enabled = enabled.value.not(),
+                            debug = debug,
+                        )
                     }
-                })
-                EntryListPane(
-                    helper,
-                    modifier = Modifier.weight(1f),
-                    dataList = dataList,
-                    changedList = changedList,
-                    onRefresh = { showEntryList() },
-                    onEdit = { entry -> showEntryEditor(entry) },
-                    onSave = { if (debug) cached = true else saveEntryList() },
-                    onSearch = { showSearchPane() },
-                    onAnalyze = { analyzeTextMap() },
-                    enabled = enabled.value.not(),
-                    debug = debug,
-                )
-            }
 
-            Text(
-                helper.status.collectAsState().value,
-                style = MaterialTheme.typography.caption,
-                modifier = Modifier.align(Alignment.BottomStart),
-            )
+                    Text(
+                        model.helper.status.collectAsState().value,
+                        style = MaterialTheme.typography.caption,
+                        modifier = Modifier.align(Alignment.BottomStart),
+                    )
+                }
 
-            if (searching) {
-                SearchPane(
-                    items = helper.allValues(),
-                    modifier = Modifier.fillMaxSize(),
-                    onSelect = { key ->
-                        // println("edit key = $key")
-                        // hideSearchPane()
-                        helper.dst(key)?.let { entry ->
-                            showEntryEditor(entry)
-                        }
-                    },
-                    onCancel = { hideSearchPane() },
-                )
-            }
+                UiState.Editor ->
+                    EditorPane(
+                        data = editorData,
+                        modifier = Modifier.fillMaxSize(),
+                        onSave = { key, text ->
+                            composeScope.launch {
+                                model.edit(key, text)
+                                hideEntryEditor()
+                            }
+                        },
+                        onCancel = { hideEntryEditor() },
+                        onCopyToClipboard = { text ->
+                            onCopyTo.invoke(text)
+                            toast(text)
+                        },
+                        onTranslate = { text -> translateByGoogle(text) },
+                        onCopyFromClipboard = onCopyFrom,
+                    )
 
-            if (analysis) {
-                SuspectPane(
-                    suspectMap,
-                    onEdit = { entry -> showEntryEditor(entry) },
-                    onHide = { analysis = false },
-                )
-            }
+                UiState.Search ->
+                    SearchPane(
+                        model = model,
+                        modifier = Modifier.fillMaxSize(),
+                        onSelect = { key ->
+                            // println("edit key = $key")
+                            // hideSearchPane()
+                            model.helper.dst(key)?.let { entry ->
+                                showEntryEditor(entry)
+                            }
+                        },
+                        onCancel = { hideSearchPane() },
+                    )
 
-            if (editing) {
-                EditorPane(
-                    data = editorData,
-                    modifier = Modifier.fillMaxSize(),
-                    onSave = { key, text ->
-                        helper.update(key, text)
-                        updateEntryList()
-                        hideEntryEditor()
-                    },
-                    onCancel = { hideEntryEditor() },
-                    onCopyToClipboard = { text ->
-                        onCopyTo.invoke(text)
-                        toast(text)
-                    },
-                    onTranslate = { text -> translateByGoogle(text) },
-                    onCopyFromClipboard = onCopyFrom,
-                )
+                UiState.Analysis ->
+                    SuspectPane(
+                        model,
+                        onEdit = { entry -> showEntryEditor(entry) },
+                        onHide = { changeUiState() /* BACK */ },
+                    )
             }
 
             if (cached) {
                 DebugSaveDialog(
                     onDismissRequest = { cached = false },
                     onSave = { saveEntryList(it) },
-                    title = "write to ${helper.getCachedFile()}?",
+                    title = "write to ${model.helper.getCachedFile()}?",
                     modifier = Modifier.fillMaxWidth(.5f),
                 )
             }
@@ -289,12 +253,11 @@ fun main(args: Array<String>) = application {
 //    val homeDir: String = System.getProperty("user.home")
 //    println("homeDir = $homeDir")
 
-    val helper = DesktopPoHelper(Ini(workingDir), debug = debug)
-    helper.prepare()
+    val model = PoDataModel(DesktopPoHelper(Ini(workingDir), debug = debug).apply { prepare() })
 
     Window(onCloseRequest = ::exitApplication, title = "DST Translate") {
         App(
-            helper,
+            model,
             onCopyTo = ::copyToSystemClipboard,
             onCopyFrom = ::copyFromSystemClipboard,
             debug = debug,

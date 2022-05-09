@@ -7,6 +7,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.sp
 import dolphin.android.apps.dsttranslate.WordEntry
+import dolphin.desktop.apps.dsttranslate.DesktopPoHelper
+import dolphin.desktop.apps.dsttranslate.PoDataModel
 
 object AppTheme {
     @Composable
@@ -38,5 +40,12 @@ object PreviewDefaults {
     val chs = WordEntry("key-chs", "text-chs", "id-chs", "str-chs")
     val cht = WordEntry("key-cht", "text-cht", "id-cht", "str-cht")
 
-    val samples = listOf(WordEntry.default(), dst, chs, cht)
+    // val samples = listOf(WordEntry.default(), dst, chs, cht)
+
+    val model = PoDataModel(DesktopPoHelper().apply {
+        addEntry(WordEntry.default())
+        addEntry(dst)
+        addEntry(chs)
+        addEntry(cht)
+    })
 }

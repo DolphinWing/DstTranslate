@@ -47,10 +47,10 @@ abstract class PoHelper {
      */
     fun dst(key: String): WordEntry? = originMap[key]
 
-    /**
-     * @return all word entry in original map
-     */
-    fun dstValues(): List<WordEntry> = originMap.map { entry -> entry.value }
+//    /**
+//     * @return all word entry in original map
+//     */
+//    fun dstValues(): List<WordEntry> = originMap.map { entry -> entry.value }
 
     private val wordList = ArrayList<WordEntry>()
 
@@ -218,7 +218,7 @@ abstract class PoHelper {
                 str = sc2tc(entry.str).trim()
             }
             str = refactor(str)
-            wordList.add(WordEntry(entry.key, entry.text, entry.id, str, newly))
+            addEntry(WordEntry(entry.key, entry.text, entry.id, str, newly))
         }
         val stop4 = System.currentTimeMillis()
         log("new list size: ${wordList.size} (${stop4 - stop3} ms)")
@@ -229,6 +229,15 @@ abstract class PoHelper {
         processStatus.emit("")
         loading.emit(false) // complete
         return@withContext cost
+    }
+
+    /**
+     * Add an entry to the database
+     *
+     * @param entry new word
+     */
+    fun addEntry(entry: WordEntry) {
+        wordList.add(entry)
     }
 
     /**
