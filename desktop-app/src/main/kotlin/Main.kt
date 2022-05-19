@@ -2,13 +2,17 @@
 // by the Apache 2.0 license that can be found in the LICENSE file.
 
 import androidx.compose.desktop.ui.tooling.preview.Preview
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.ExperimentalMaterialApi
 import androidx.compose.material.MaterialTheme
+import androidx.compose.material.ScrollableTabRow
+import androidx.compose.material.Tab
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -136,46 +140,79 @@ fun App(
             model.loadIniAndPo() // LaunchedEffect
         }
 
-        Box(modifier = Modifier.padding(vertical = 4.dp, horizontal = 8.dp)) {
-            Text(
-                appVersion,
-                style = MaterialTheme.typography.caption,
-                modifier = Modifier.align(Alignment.TopEnd),
-                color = Color.LightGray,
-            )
-
+        Box {
             when (uiState.first) {
                 UiState.Main -> {
                     Column(modifier = Modifier.fillMaxSize()) {
-                        ConfigPane(
-                            configs = configs.value,
-                            onConfigChange = { newConfigs ->
-                                composeScope.launch { model.saveConfig(newConfigs) }
-                            },
-                        )
-                        EntryListPane(
-                            model,
-                            modifier = Modifier.weight(1f),
-                            onRefresh = {
-                                composeScope.launch {
-                                    val cost = model.translate()
-                                    toast("cost $cost ms")
-                                }
-                            },
-                            onEdit = { entry -> showEntryEditor(entry) },
-                            onSave = { if (debug) cached = true else saveEntryList() },
-                            onSearch = { showSearchPane() },
-                            onAnalyze = { analyzeTextMap() },
-                            enabled = enabled.value.not(),
-                            debug = debug,
-                        )
-                    }
+                        var selectedTab by remember { mutableStateOf(1) }
 
-                    Text(
-                        model.helper.status.collectAsState().value,
-                        style = MaterialTheme.typography.caption,
-                        modifier = Modifier.align(Alignment.BottomStart),
-                    )
+                        Row(
+                            verticalAlignment = Alignment.CenterVertically,
+                            modifier = Modifier.background(MaterialTheme.colors.secondaryVariant),
+                        ) {
+                            ScrollableTabRow(
+                                selectedTabIndex = selectedTab,
+                                // modifier = Modifier.defaultMinSize(minHeight = 36.dp),
+                                backgroundColor = Color.Transparent, // MaterialTheme.colors.secondaryVariant,
+                                contentColor = MaterialTheme.colors.onSecondary,
+                                modifier = Modifier.weight(1f),
+                            ) {
+                                Tab(
+                                    selected = selectedTab == 0,
+                                    onClick = { selectedTab = 0 },
+                                ) {
+                                    Text("Config", modifier = Modifier.padding(8.dp))
+                                }
+                                Tab(
+                                    selected = selectedTab == 1,
+                                    onClick = { selectedTab = 1 },
+                                ) {
+                                    Text("Translation", modifier = Modifier.padding(8.dp))
+                                }
+                            }
+                            Text(
+                                appVersion,
+                                style = MaterialTheme.typography.caption,
+                                modifier = Modifier.padding(8.dp),
+                                color = Color.LightGray,
+                            )
+                        }
+
+                        Box(modifier = Modifier.weight(1f).padding(vertical = 4.dp, horizontal = 8.dp)) {
+                            when (selectedTab) {
+                                0 ->
+                                    ConfigPane(
+                                        configs = configs.value,
+                                        onConfigChange = { newConfigs ->
+                                            composeScope.launch { model.saveConfig(newConfigs) }
+                                        },
+                                    )
+                                1 ->
+                                    EntryListPane(
+                                        model,
+                                        modifier = Modifier.fillMaxSize(),
+                                        onRefresh = {
+                                            composeScope.launch {
+                                                val cost = model.translate()
+                                                toast("cost $cost ms")
+                                            }
+                                        },
+                                        onEdit = { entry -> showEntryEditor(entry) },
+                                        onSave = { if (debug) cached = true else saveEntryList() },
+                                        onSearch = { showSearchPane() },
+                                        onAnalyze = { analyzeTextMap() },
+                                        enabled = enabled.value.not(),
+                                        debug = debug,
+                                    )
+                            }
+
+                            Text(
+                                model.helper.status.collectAsState().value,
+                                style = MaterialTheme.typography.caption,
+                                modifier = Modifier.align(Alignment.BottomStart),
+                            )
+                        }
+                    }
                 }
 
                 UiState.Editor ->
