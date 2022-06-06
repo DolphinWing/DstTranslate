@@ -22,6 +22,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyItemScope
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.rememberScrollState
@@ -78,11 +79,10 @@ fun LazyToolTip(
 fun <T> LazyScrollableColumn(
     list: List<T>,
     modifier: Modifier = Modifier,
+    state: LazyListState = rememberLazyListState(),
     itemContent: @Composable LazyItemScope.(Int, T) -> Unit,
 ) {
     Box(modifier = modifier) {
-        val state = rememberLazyListState()
-
         LazyColumn(Modifier.fillMaxSize().padding(end = 12.dp), state) {
             itemsIndexed(list, itemContent = itemContent)
         }

@@ -9,6 +9,8 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyListState
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material.ExperimentalMaterialApi
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.ScrollableTabRow
@@ -39,10 +41,12 @@ import dolphin.desktop.apps.dsttranslate.compose.EditorPane
 import dolphin.desktop.apps.dsttranslate.compose.EditorSpec
 import dolphin.desktop.apps.dsttranslate.compose.EntryListPane
 import dolphin.desktop.apps.dsttranslate.compose.SearchPane
+import dolphin.desktop.apps.dsttranslate.compose.SuspectData
 import dolphin.desktop.apps.dsttranslate.compose.SuspectPane
 import dolphin.desktop.apps.dsttranslate.compose.ToastUi
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import java.awt.Desktop
 import java.awt.Toolkit
@@ -54,220 +58,6 @@ import java.net.URL
 
 enum class UiState {
     Main, Editor, Search, Analysis,
-}
-
-@ExperimentalMaterialApi
-@Composable
-@Preview
-fun App(
-    model: PoDataModel,
-    onCopyTo: (String) -> Unit,
-    onCopyFrom: () -> String,
-    debug: Boolean = false,
-    appVersion: String = "x.x.x",
-) {
-    DstTranslatorTheme {
-        val composeScope = rememberCoroutineScope()
-        var uiState by remember { mutableStateOf<Pair<UiState, UiState?>>(Pair(UiState.Main, null)) }
-        val configs = model.configs.collectAsState()
-
-        var editorData by remember { mutableStateOf(EditorSpec()) } // editor
-
-        var toasted by remember { mutableStateOf("") }
-        var cached by remember { mutableStateOf(false) }
-
-        val enabled = model.helper.loading.collectAsState() // global status
-
-        // toast
-        val toastJob = remember { mutableStateOf<Job?>(null) }
-        fun toast(message: String) {
-            toastJob.value?.cancel()
-            toastJob.value = composeScope.launch {
-                toasted = message
-                delay(2000)
-                toasted = ""
-            }
-        }
-
-        fun changeUiState(state: UiState? = null) {
-            uiState = Pair(
-                state ?: uiState.second ?: UiState.Main, // change to new state or go back
-                if (state == null) UiState.Main else uiState.first // if it is go back,
-            )
-        }
-
-        fun showEntryEditor(entry: WordEntry) {
-            // println("edit: ${entry.key}")
-            editorData = model.requestEdit(entry)
-            changeUiState(UiState.Editor)
-        }
-
-        fun hideEntryEditor() {
-            changeUiState() // hideEntryEditor
-        }
-
-        fun showSearchPane() {
-            changeUiState(UiState.Search)
-        }
-
-        fun hideSearchPane() {
-            changeUiState() // hideSearchPane
-        }
-
-        fun saveEntryList(cacheIt: Boolean = false) {
-            composeScope.launch {
-                cached = false // hide debug dialog
-                val (exported, cost) = model.save(cacheIt)
-                if (cost > 0) {
-                    toast("write $exported cost $cost ms")
-                } else {
-                    toast("write failed!")
-                }
-            }
-        }
-
-        fun analyzeTextMap() {
-            composeScope.launch {
-                val start = System.currentTimeMillis()
-                val result = model.analyze()
-                changeUiState(UiState.Analysis)
-                val cost = System.currentTimeMillis() - start
-                toast("found $result, cost $cost ms")
-            }
-        }
-
-        LaunchedEffect(Unit) {
-            model.loadIniAndPo() // LaunchedEffect
-        }
-
-        Box {
-            when (uiState.first) {
-                UiState.Main -> {
-                    Column(modifier = Modifier.fillMaxSize()) {
-                        var selectedTab by remember { mutableStateOf(1) }
-
-                        Row(
-                            verticalAlignment = Alignment.CenterVertically,
-                            modifier = Modifier.background(MaterialTheme.colors.secondaryVariant),
-                        ) {
-                            ScrollableTabRow(
-                                selectedTabIndex = selectedTab,
-                                // modifier = Modifier.defaultMinSize(minHeight = 36.dp),
-                                backgroundColor = Color.Transparent, // MaterialTheme.colors.secondaryVariant,
-                                contentColor = MaterialTheme.colors.onSecondary,
-                                modifier = Modifier.weight(1f),
-                            ) {
-                                Tab(
-                                    selected = selectedTab == 0,
-                                    onClick = { selectedTab = 0 },
-                                ) {
-                                    Text("Config", modifier = Modifier.padding(8.dp))
-                                }
-                                Tab(
-                                    selected = selectedTab == 1,
-                                    onClick = { selectedTab = 1 },
-                                ) {
-                                    Text("Translation", modifier = Modifier.padding(8.dp))
-                                }
-                            }
-                            Text(
-                                appVersion,
-                                style = MaterialTheme.typography.caption,
-                                modifier = Modifier.padding(8.dp),
-                                color = Color.LightGray,
-                            )
-                        }
-
-                        Box(modifier = Modifier.weight(1f).padding(vertical = 4.dp, horizontal = 8.dp)) {
-                            when (selectedTab) {
-                                0 ->
-                                    ConfigPane(
-                                        configs = configs.value,
-                                        onConfigChange = { newConfigs ->
-                                            composeScope.launch { model.saveConfig(newConfigs) }
-                                        },
-                                    )
-                                1 ->
-                                    EntryListPane(
-                                        model,
-                                        modifier = Modifier.fillMaxSize(),
-                                        onRefresh = {
-                                            composeScope.launch {
-                                                val cost = model.translate()
-                                                toast("cost $cost ms")
-                                            }
-                                        },
-                                        onEdit = { entry -> showEntryEditor(entry) },
-                                        onSave = { if (debug) cached = true else saveEntryList() },
-                                        onSearch = { showSearchPane() },
-                                        onAnalyze = { analyzeTextMap() },
-                                        enabled = enabled.value.not(),
-                                        debug = debug,
-                                    )
-                            }
-
-                            Text(
-                                model.helper.status.collectAsState().value,
-                                style = MaterialTheme.typography.caption,
-                                modifier = Modifier.align(Alignment.BottomStart),
-                            )
-                        }
-                    }
-                }
-
-                UiState.Editor ->
-                    EditorPane(
-                        data = editorData,
-                        modifier = Modifier.fillMaxSize(),
-                        onSave = { key, text ->
-                            composeScope.launch {
-                                model.edit(key, text)
-                                hideEntryEditor()
-                            }
-                        },
-                        onCancel = { hideEntryEditor() },
-                        onCopyToClipboard = { text ->
-                            onCopyTo.invoke(text)
-                            toast(text)
-                        },
-                        onTranslate = { text -> translateByGoogle(text) },
-                        onCopyFromClipboard = onCopyFrom,
-                    )
-
-                UiState.Search ->
-                    SearchPane(
-                        model = model,
-                        modifier = Modifier.fillMaxSize(),
-                        onSelect = { key ->
-                            // println("edit key = $key")
-                            // hideSearchPane()
-                            model.helper.dst(key)?.let { entry ->
-                                showEntryEditor(entry)
-                            }
-                        },
-                        onCancel = { hideSearchPane() },
-                    )
-
-                UiState.Analysis ->
-                    SuspectPane(
-                        model,
-                        onEdit = { entry -> showEntryEditor(entry) },
-                        onHide = { changeUiState() /* BACK */ },
-                    )
-            }
-
-            if (cached) {
-                DebugSaveDialog(
-                    onDismissRequest = { cached = false },
-                    onSave = { saveEntryList(it) },
-                    title = "write to ${model.helper.getCachedFile()}?",
-                    modifier = Modifier.fillMaxWidth(.5f),
-                )
-            }
-
-            ToastUi(toasted)
-        }
-    }
 }
 
 @ExperimentalMaterialApi
@@ -300,6 +90,249 @@ fun main(args: Array<String>) = application {
             debug = debug,
             appVersion = version,
         )
+    }
+}
+
+@ExperimentalMaterialApi
+@Composable
+@Preview
+fun App(
+    model: PoDataModel,
+    onCopyTo: (String) -> Unit,
+    onCopyFrom: () -> String,
+    debug: Boolean = false,
+    appVersion: String = "x.x.x",
+) {
+    val composeScope = rememberCoroutineScope()
+
+    DstTranslatorTheme {
+        var uiState by remember { mutableStateOf<Pair<UiState, UiState?>>(Pair(UiState.Main, null)) }
+        val entryListState = rememberLazyListState()
+        val suspectState = rememberLazyListState()
+        var suspectList by remember { mutableStateOf(emptyList<SuspectData>()) }
+
+        var editorData by remember { mutableStateOf(EditorSpec()) } // editor
+
+        var toasted by remember { mutableStateOf("") }
+        var cached by remember { mutableStateOf(false) }
+
+        // toast
+        val toastJob = remember { mutableStateOf<Job?>(null) }
+        fun toast(message: String) {
+            toastJob.value?.cancel()
+            toastJob.value = composeScope.launch {
+                toasted = message
+                delay(2000)
+                toasted = ""
+            }
+        }
+
+        fun changeUiState(state: UiState? = null) {
+            uiState = Pair(
+                state ?: uiState.second ?: UiState.Main, // change to new state or go back
+                if (state == null) UiState.Main else uiState.first // if it is go back,
+            )
+        }
+
+        fun showEntryEditor(entry: WordEntry) {
+            // println("edit: ${entry.key}")
+            editorData = model.requestEdit(entry)
+            changeUiState(UiState.Editor)
+        }
+
+        fun saveEntryList(cacheIt: Boolean = false) {
+            composeScope.launch {
+                cached = false // hide debug dialog
+                val (exported, cost) = model.save(cacheIt)
+                if (cost > 0) {
+                    toast("write $exported cost $cost ms")
+                } else {
+                    toast("write failed!")
+                }
+            }
+        }
+
+        fun analyzeTextMap() {
+            composeScope.launch {
+                val start = System.currentTimeMillis()
+                val result = model.analyze()
+                changeUiState(UiState.Analysis)
+                val cost = System.currentTimeMillis() - start
+                toast("found $result, cost $cost ms")
+            }
+        }
+
+        fun refreshTranslation() {
+            composeScope.launch {
+                val cost = model.translate()
+                toast("cost $cost ms")
+            }
+        }
+
+        LaunchedEffect(Unit) {
+            model.loadIniAndPo() // LaunchedEffect
+            model.suspectMap.collect { suspects ->
+                val list = ArrayList<SuspectData>()
+                suspects.forEach { (category, map) ->
+                    list.add(SuspectData.Category(category))
+                    map.forEach { entry -> list.add(SuspectData.Entry(entry)) }
+                }
+                suspectList = list
+            }
+        }
+
+        Box {
+            when (uiState.first) {
+                UiState.Main ->
+                    MainPane(
+                        model,
+                        modifier = Modifier.fillMaxSize(),
+                        state = entryListState,
+                        onSave = { if (debug) cached = true else saveEntryList() },
+                        onEdit = { entry -> showEntryEditor(entry) },
+                        onSearch = { changeUiState(UiState.Search) },
+                        onAnalyze = { analyzeTextMap() },
+                        onRefresh = { refreshTranslation() },
+                        appVersion = appVersion,
+                    )
+
+                UiState.Editor ->
+                    EditorPane(
+                        data = editorData,
+                        modifier = Modifier.fillMaxSize(),
+                        onSave = { key, text ->
+                            composeScope.launch {
+                                model.edit(key, text)
+                                changeUiState() // hideEntryEditor
+                            }
+                        },
+                        onCancel = { changeUiState() /* BACK */ },
+                        onCopyToClipboard = { text ->
+                            onCopyTo.invoke(text)
+                            toast(text)
+                        },
+                        onTranslate = { text -> translateByGoogle(text) },
+                        onCopyFromClipboard = onCopyFrom,
+                    )
+
+                UiState.Search ->
+                    SearchPane(
+                        model = model,
+                        modifier = Modifier.fillMaxSize(),
+                        onSelect = { key ->
+                            // println("edit key = $key")
+                            // hideSearchPane()
+                            model.helper.dst(key)?.let { entry ->
+                                showEntryEditor(entry)
+                            }
+                        },
+                        onCancel = { changeUiState() /* BACK */ },
+                    )
+
+                UiState.Analysis ->
+                    SuspectPane(
+                        suspectList = suspectList,
+                        state = suspectState,
+                        onEdit = { entry -> showEntryEditor(entry) },
+                        onHide = { changeUiState() /* BACK */ },
+                    )
+            }
+
+            if (cached) {
+                DebugSaveDialog(
+                    onDismissRequest = { cached = false },
+                    onSave = { saveEntryList(it) },
+                    title = "write to ${model.helper.getCachedFile()}?",
+                    modifier = Modifier.fillMaxWidth(.5f),
+                )
+            }
+
+            ToastUi(toasted)
+        }
+    }
+}
+
+@Composable
+private fun MainPane(
+    model: PoDataModel,
+    modifier: Modifier = Modifier,
+    state: LazyListState = rememberLazyListState(),
+    onRefresh: (() -> Unit)? = null,
+    onSave: (() -> Unit)? = null,
+    onSearch: (() -> Unit)? = null,
+    onEdit: ((WordEntry) -> Unit)? = null,
+    onAnalyze: (() -> Unit)? = null,
+    appVersion: String = "x.x.x",
+) {
+    val composeScope = rememberCoroutineScope()
+    val configs = model.configs.collectAsState()
+    val enabled = model.helper.loading.collectAsState() // global status
+
+    Column(modifier = modifier) {
+        var selectedTab by remember { mutableStateOf(1) }
+
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+            modifier = Modifier.background(MaterialTheme.colors.secondaryVariant),
+        ) {
+            ScrollableTabRow(
+                selectedTabIndex = selectedTab,
+                // modifier = Modifier.defaultMinSize(minHeight = 36.dp),
+                backgroundColor = Color.Transparent, // MaterialTheme.colors.secondaryVariant,
+                contentColor = MaterialTheme.colors.onSecondary,
+                modifier = Modifier.weight(1f),
+            ) {
+                Tab(
+                    selected = selectedTab == 0,
+                    onClick = { selectedTab = 0 },
+                ) {
+                    Text("Config", modifier = Modifier.padding(8.dp))
+                }
+                Tab(
+                    selected = selectedTab == 1,
+                    onClick = { selectedTab = 1 },
+                ) {
+                    Text("Translation", modifier = Modifier.padding(8.dp))
+                }
+            }
+            Text(
+                appVersion,
+                style = MaterialTheme.typography.caption,
+                modifier = Modifier.padding(8.dp),
+                color = Color.LightGray,
+            )
+        }
+
+        Box(modifier = Modifier.weight(1f).padding(vertical = 4.dp, horizontal = 8.dp)) {
+            when (selectedTab) {
+                0 ->
+                    ConfigPane(
+                        configs = configs.value,
+                        onConfigChange = { newConfigs ->
+                            composeScope.launch { model.saveConfig(newConfigs) }
+                        },
+                    )
+                1 ->
+                    EntryListPane(
+                        model,
+                        modifier = Modifier.fillMaxSize(),
+                        state = state,
+                        onRefresh = onRefresh,
+                        onEdit = onEdit,
+                        onSave = onSave,
+                        onSearch = onSearch,
+                        onAnalyze = onAnalyze,
+                        enabled = enabled.value.not(),
+                        enableAnalyze = true,
+                    )
+            }
+
+            Text(
+                model.helper.status.collectAsState().value,
+                style = MaterialTheme.typography.caption,
+                modifier = Modifier.align(Alignment.BottomStart),
+            )
+        }
     }
 }
 

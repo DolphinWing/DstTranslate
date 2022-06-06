@@ -7,6 +7,8 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyListState
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
@@ -25,13 +27,14 @@ import dolphin.desktop.apps.dsttranslate.PoDataModel
 fun EntryListPane(
     model: PoDataModel,
     modifier: Modifier = Modifier,
+    state: LazyListState = rememberLazyListState(),
     onRefresh: (() -> Unit)? = null,
     onSave: (() -> Unit)? = null,
     onSearch: (() -> Unit)? = null,
     onEdit: ((WordEntry) -> Unit)? = null,
     enabled: Boolean = true,
     onAnalyze: (() -> Unit)? = null,
-    debug: Boolean = false,
+    enableAnalyze: Boolean = false,
 ) {
     val dataList = model.filteredList.collectAsState()
     val changedList = model.changedList.collectAsState()
@@ -46,12 +49,12 @@ fun EntryListPane(
             onSearch = onSearch,
             enabled = enabled,
             onAnalyze = onAnalyze,
-            enableAnalyze = debug,
+            enableAnalyze = enableAnalyze,
         )
         if (enabled && (dataList.value.isEmpty())) {
             Text("no items", modifier = Modifier.padding(8.dp), textAlign = TextAlign.Center)
         }
-        LazyScrollableColumn(dataList.value, modifier = Modifier.weight(1f)) { index, entry ->
+        LazyScrollableColumn(dataList.value, modifier = Modifier.weight(1f), state = state) { index, entry ->
             // val dst = remember { helper.dst(entry.key) }
             // val chs = remember { helper.chs(entry.key) }
             // val cht = remember { helper.cht(entry.key) }
