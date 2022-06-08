@@ -44,6 +44,8 @@ import dolphin.desktop.apps.dsttranslate.compose.SearchPane
 import dolphin.desktop.apps.dsttranslate.compose.SuspectData
 import dolphin.desktop.apps.dsttranslate.compose.SuspectPane
 import dolphin.desktop.apps.dsttranslate.compose.ToastUi
+import dolphin.desktop.apps.dsttranslate.compose.ToolbarCallback
+import dolphin.desktop.apps.dsttranslate.compose.ToolbarSpec
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.collect
@@ -152,20 +154,32 @@ fun App(
             }
         }
 
-        fun analyzeTextMap() {
-            composeScope.launch {
-                val start = System.currentTimeMillis()
-                val result = model.analyze()
-                changeUiState(UiState.Analysis)
-                val cost = System.currentTimeMillis() - start
-                toast("found $result, cost $cost ms")
-            }
-        }
+        val callback = remember {
+            object : ToolbarCallback {
+                override fun onRefresh() {
+                    composeScope.launch {
+                        val cost = model.translate()
+                        toast("cost $cost ms")
+                    }
+                }
 
-        fun refreshTranslation() {
-            composeScope.launch {
-                val cost = model.translate()
-                toast("cost $cost ms")
+                override fun onSave() {
+                    if (debug) cached = true else saveEntryList()
+                }
+
+                override fun onSearch() {
+                    changeUiState(UiState.Search)
+                }
+
+                override fun onAnalyze() {
+                    composeScope.launch {
+                        val start = System.currentTimeMillis()
+                        val result = model.analyze()
+                        changeUiState(UiState.Analysis)
+                        val cost = System.currentTimeMillis() - start
+                        toast("found $result, cost $cost ms")
+                    }
+                }
             }
         }
 
@@ -188,11 +202,8 @@ fun App(
                         model,
                         modifier = Modifier.fillMaxSize(),
                         state = entryListState,
-                        onSave = { if (debug) cached = true else saveEntryList() },
                         onEdit = { entry -> showEntryEditor(entry) },
-                        onSearch = { changeUiState(UiState.Search) },
-                        onAnalyze = { analyzeTextMap() },
-                        onRefresh = { refreshTranslation() },
+                        callback = callback,
                         appVersion = appVersion,
                     )
 
@@ -257,16 +268,20 @@ private fun MainPane(
     model: PoDataModel,
     modifier: Modifier = Modifier,
     state: LazyListState = rememberLazyListState(),
-    onRefresh: (() -> Unit)? = null,
-    onSave: (() -> Unit)? = null,
-    onSearch: (() -> Unit)? = null,
+    callback: ToolbarCallback? = null,
     onEdit: ((WordEntry) -> Unit)? = null,
-    onAnalyze: (() -> Unit)? = null,
     appVersion: String = "x.x.x",
 ) {
     val composeScope = rememberCoroutineScope()
     val configs = model.configs.collectAsState()
-    val enabled = model.helper.loading.collectAsState() // global status
+    // val enabled = model.helper.loading.collectAsState() // global status
+    var spec by remember { mutableStateOf(ToolbarSpec(enableAnalyze = true)) }
+
+    LaunchedEffect(Unit) {
+        model.helper.loading.collect { loading ->
+            spec = spec.copy(enabled = loading.not())
+        }
+    }
 
     Column(modifier = modifier) {
         var selectedTab by remember { mutableStateOf(1) }
@@ -299,7 +314,7 @@ private fun MainPane(
                 appVersion,
                 style = MaterialTheme.typography.caption,
                 modifier = Modifier.padding(8.dp),
-                color = Color.LightGray,
+                color = MaterialTheme.colors.onSecondary,
             )
         }
 
@@ -317,13 +332,9 @@ private fun MainPane(
                         model,
                         modifier = Modifier.fillMaxSize(),
                         state = state,
-                        onRefresh = onRefresh,
                         onEdit = onEdit,
-                        onSave = onSave,
-                        onSearch = onSearch,
-                        onAnalyze = onAnalyze,
-                        enabled = enabled.value.not(),
-                        enableAnalyze = true,
+                        callback = callback,
+                        spec = spec,
                     )
             }
 

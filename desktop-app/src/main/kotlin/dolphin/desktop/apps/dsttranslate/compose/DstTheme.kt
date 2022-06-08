@@ -29,7 +29,9 @@ fun DstTranslatorTheme(content: @Composable () -> Unit) {
     MaterialTheme(
         colors = lightColors(
             primary = AppTheme.AppColor.primary,
+            onPrimary = Color.White,
             secondary = AppTheme.AppColor.secondary,
+            onSecondary = Color.LightGray,
         ),
         content = content,
     )

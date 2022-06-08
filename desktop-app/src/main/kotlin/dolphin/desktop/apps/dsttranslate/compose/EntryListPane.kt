@@ -3,13 +3,17 @@ package dolphin.desktop.apps.dsttranslate.compose
 import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.requiredHeight
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.CircularProgressIndicator
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
@@ -28,13 +32,9 @@ fun EntryListPane(
     model: PoDataModel,
     modifier: Modifier = Modifier,
     state: LazyListState = rememberLazyListState(),
-    onRefresh: (() -> Unit)? = null,
-    onSave: (() -> Unit)? = null,
-    onSearch: (() -> Unit)? = null,
+    callback: ToolbarCallback? = null,
+    spec: ToolbarSpec = ToolbarSpec(),
     onEdit: ((WordEntry) -> Unit)? = null,
-    enabled: Boolean = true,
-    onAnalyze: (() -> Unit)? = null,
-    enableAnalyze: Boolean = false,
 ) {
     val dataList = model.filteredList.collectAsState()
     val changedList = model.changedList.collectAsState()
@@ -44,15 +44,18 @@ fun EntryListPane(
             modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp),
             filteredList = dataList.value,
             changedList = changedList.value,
-            onRefresh = onRefresh,
-            onSave = onSave,
-            onSearch = onSearch,
-            enabled = enabled,
-            onAnalyze = onAnalyze,
-            enableAnalyze = enableAnalyze,
+            callback = callback,
+            spec = spec,
         )
-        if (enabled && (dataList.value.isEmpty())) {
+        if (spec.enabled && (dataList.value.isEmpty())) {
             Text("no items", modifier = Modifier.padding(8.dp), textAlign = TextAlign.Center)
+        }
+        if (!spec.enabled) {
+            Spacer(modifier = Modifier.requiredHeight(16.dp))
+            Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.Center) {
+                CircularProgressIndicator()
+            }
+            Spacer(modifier = Modifier.requiredHeight(16.dp))
         }
         LazyScrollableColumn(dataList.value, modifier = Modifier.weight(1f), state = state) { index, entry ->
             // val dst = remember { helper.dst(entry.key) }
