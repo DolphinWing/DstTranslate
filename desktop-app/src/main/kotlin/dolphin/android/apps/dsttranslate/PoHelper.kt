@@ -8,6 +8,7 @@ import java.io.BufferedReader
 import java.io.BufferedWriter
 import java.io.File
 import java.io.FileWriter
+import java.nio.charset.StandardCharsets
 
 abstract class PoHelper {
     companion object {
@@ -115,7 +116,7 @@ abstract class PoHelper {
         if (list.isEmpty()) return false // no list, don't write
         val writer: BufferedWriter?
         try { // http://stackoverflow.com/a/1053474
-            writer = BufferedWriter(FileWriter(dst))
+            writer = BufferedWriter(FileWriter(dst, StandardCharsets.UTF_8))
             var content = "\"Language: zh-tw\"\n\"POT Version: 2.0\"\n"
             writer.write(content, 0, content.length)
             list.forEach { entry ->
