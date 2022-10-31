@@ -165,9 +165,9 @@ end
 AddGlobalClassPostConstruct("frontend", "FrontEnd", function(self)
 	fixGraphicSmallTexture(self)
 	if useMyPo then
-		fixTaskSet()       -- fix preset tasks
-		fixStartLocation() -- fix preset tasks
-		fixPresetLevel()   -- fix preset tasks
+		--fixTaskSet()       -- fix preset tasks
+		--fixStartLocation() -- fix preset tasks
+		--fixPresetLevel()   -- fix preset tasks
 		enableAsServerMod(self)
 	end
 end)
@@ -353,14 +353,14 @@ end
 
 --override some text size
 if useMyFont and fileExists(MODROOT..fontNormalFile(fontFlavor)) then
-	fixClockHudControlFontSize()
-	fixRecipeHudControlFontSize()
+	--fixClockHudControlFontSize()
+	--fixRecipeHudControlFontSize()
 	fixInventoryFontSize()
-	fixLoadingWidgetFontSize()
+	--fixLoadingWidgetFontSize()
 	--fixMainScreenButtonFontSize()
 	fixMiscGuiFontSize()
 	fixMiscWidgetFontSize()
 	--fixIntentPickerSize()
-	fixCountDownWidgetFontSize()
+	--fixCountDownWidgetFontSize()
 	fixPlayerAvatorFontSize()
 end
