@@ -1,7 +1,7 @@
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-val releaseAppVersion = "2.0.0"
+val releaseAppVersion = "2.0.1"
 val releaseAppRevision = 1
 
 plugins {
@@ -42,7 +42,7 @@ compose.desktop {
             packageName = "DstTranslator"
             packageVersion = releaseAppVersion
             version = releaseAppVersion
-            description = "DST Translator"
+            description = "DST/ONI Translator"
             vendor = "DolphinWing"
 
             appResourcesRootDir.set(project.layout.projectDirectory.dir("resources"))

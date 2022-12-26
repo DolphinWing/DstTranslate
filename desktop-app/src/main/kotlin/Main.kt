@@ -266,10 +266,10 @@ fun App(
 
             if (loading.value) {
                 Box(
-                    Modifier.fillMaxSize().background(Color.Black.copy(alpha = .5f)),
+                    Modifier.fillMaxSize().background(Color.Black.copy(alpha = .25f)),
                     contentAlignment = Alignment.Center,
                 ) {
-                    CircularProgressIndicator()
+                    CircularProgressIndicator(color = MaterialTheme.colors.secondary)
                 }
             }
 
@@ -368,14 +368,14 @@ private fun MainPane(
                     )
             }
 
-            if (loading) {
-                Box(
-                    Modifier.fillMaxSize().background(Color.Black.copy(alpha = .5f)),
-                    contentAlignment = Alignment.Center,
-                ) {
-                    CircularProgressIndicator()
-                }
-            }
+//            if (loading) {
+//                Box(
+//                    Modifier.fillMaxSize().background(Color.Black.copy(alpha = .5f)),
+//                    contentAlignment = Alignment.Center,
+//                ) {
+//                    CircularProgressIndicator()
+//                }
+//            }
 
             Text(
                 status.value,

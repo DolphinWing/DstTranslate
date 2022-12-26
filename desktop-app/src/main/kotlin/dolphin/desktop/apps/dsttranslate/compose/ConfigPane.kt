@@ -63,8 +63,8 @@ fun ConfigPane(
                         dstWorkshopDir = "${file.absolutePath}${s}workshop-1993780385",
                         dstAssetsDir = "${file.absolutePath}${s}android-app${s}app${s}src${s}main${s}assets",
                         stringMap = "${file.absolutePath}${s}desktop-app${s}resources${s}common${s}strings.xml",
-                        oniWorkshopDir = "${file.absolutePath}${s}workshop",
-                        oniAssetsDir = "${file.absolutePath}${s}oni",
+                        oniWorkshopDir = "${file.absolutePath}${s}workshop-2906930548",
+                        oniAssetsDir = "${file.absolutePath}${s}oni-assets",
                     )
                 )
             },
@@ -91,19 +91,6 @@ fun ConfigPane(
             selectionMode = JFileChooser.DIRECTORIES_ONLY,
         )
         Spacer(modifier = Modifier.requiredHeight(4.dp))
-        Text(
-            "strings.xml: ${configs.stringMap}",
-            style = MaterialTheme.typography.body2,
-            modifier = Modifier.clickable { visible = true }.padding(8.dp),
-            color = if (configs.stringMap.isEmpty()) Color.Red else MaterialTheme.typography.caption.color,
-        )
-        if (visible) {
-            FileChooserPane(file = configs.stringMap, onFileChange = { file ->
-                // println("strings.xml = ${file.absolutePath}")
-                onConfigChange?.invoke(configs.copy(stringMap = file.absolutePath))
-            })
-            Spacer(modifier = Modifier.requiredHeight(4.dp))
-        }
         Text("ONI workshop dir", style = MaterialTheme.typography.caption)
         FileChooserPane(
             file = configs.oniWorkshopDir,
@@ -123,6 +110,20 @@ fun ConfigPane(
             },
             selectionMode = JFileChooser.DIRECTORIES_ONLY,
         )
+
+        Text(
+            "strings.xml: ${configs.stringMap}",
+            style = MaterialTheme.typography.body2,
+            modifier = Modifier.clickable { visible = true }.padding(8.dp),
+            color = if (configs.stringMap.isEmpty()) Color.Red else MaterialTheme.typography.caption.color,
+        )
+        if (visible) {
+            FileChooserPane(file = configs.stringMap, onFileChange = { file ->
+                // println("strings.xml = ${file.absolutePath}")
+                onConfigChange?.invoke(configs.copy(stringMap = file.absolutePath))
+            })
+            Spacer(modifier = Modifier.requiredHeight(4.dp))
+        }
 
         Row(modifier = Modifier.padding(8.dp)) {
             TextButton(
