@@ -1,5 +1,6 @@
 package dolphin.desktop.apps.dsttranslate
 
+import dolphin.android.apps.dsttranslate.PoHelper
 import dolphin.android.apps.dsttranslate.WordEntry
 import dolphin.desktop.apps.dsttranslate.compose.Configs
 import dolphin.desktop.apps.dsttranslate.compose.EditorSpec
@@ -16,16 +17,18 @@ class PoDataModel(val helper: DesktopPoHelper) {
     val searchText = MutableStateFlow("")
     val searchList = MutableStateFlow(emptyList<WordEntry>())
     val suspectMap = MutableStateFlow(SuspectMap())
+    val appMode = MutableStateFlow(PoHelper.Mode.DST)
 
     /**
      * Load Ini and Po files from disk
      */
-    suspend fun loadIniAndPo() = withContext(Dispatchers.IO) {
+    suspend fun loadIniAndPo(mode: PoHelper.Mode = PoHelper.Mode.DST) = withContext(Dispatchers.IO) {
+        appMode.emit(mode)
         helper.loadXml() // setup replacement at launch
         configs.emit(Configs(helper.ini))
-        helper.runTranslationProcess() // setup replacement at launch
-        refreshDataSource() // loadIniAndPo
-        searchList.emit(helper.allValues()) // loadIniAndPo
+        helper.runTranslationProcess(mode) // setup replacement at launch
+        refreshDataSource() // loadPo
+        searchList.emit(helper.allValues()) // loadPo
     }
 
     /**
@@ -35,11 +38,13 @@ class PoDataModel(val helper: DesktopPoHelper) {
      */
     suspend fun saveConfig(configs: Configs) = withContext(Dispatchers.IO) {
         helper.ini.apply(
-            workingDir = configs.workshopDir,
-            assetsDir = configs.assetsDir,
+            workingDir = configs.dstWorkshopDir,
+            assetsDir = configs.dstAssetsDir,
             stringMap = configs.stringMap,
+            workingDirOni = configs.oniWorkshopDir,
+            assetsDirOni = configs.oniAssetsDir,
         )
-        loadIniAndPo()
+        loadIniAndPo(appMode.value)
     }
 
     /**
@@ -48,7 +53,7 @@ class PoDataModel(val helper: DesktopPoHelper) {
      * @return cost time of translation process
      */
     suspend fun translate(): Long = withContext(Dispatchers.IO) {
-        val cost = helper.runTranslationProcess() // setup replacement at launch
+        val cost = helper.runTranslationProcess(appMode.value) // setup replacement at launch
         refreshDataSource() // translate
         return@withContext cost
     }
@@ -80,8 +85,8 @@ class PoDataModel(val helper: DesktopPoHelper) {
      */
     suspend fun save(cacheIt: Boolean = false): Pair<String, Long> = withContext(Dispatchers.IO) {
         val start = System.currentTimeMillis()
-        val exported = helper.getOutputFile(cacheIt)
-        val result = helper.writeTranslationFile(exported)
+        val exported = helper.getOutputFile(cacheIt, appMode.value)
+        val result = helper.writeTranslationFile(appMode.value, exported)
         val cost = System.currentTimeMillis() - start
         return@withContext Pair(exported.absolutePath, if (result) cost else -1)
     }
@@ -132,8 +137,8 @@ class PoDataModel(val helper: DesktopPoHelper) {
      */
     fun requestEdit(entry: WordEntry): EditorSpec = EditorSpec(
         entry,
-        helper.dst(entry.key),
-        helper.sc2tc(helper.chs(entry.key)?.str ?: ""),
-        helper.cht(entry.key)?.str,
+        dst = helper.dst(entry.key),
+        chs = helper.sc2tc(helper.chs(entry.key)?.str ?: ""),
+        cht = if (appMode.value == PoHelper.Mode.DST) helper.cht(entry.key)?.str else null,
     )
 }

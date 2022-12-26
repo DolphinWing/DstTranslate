@@ -19,3 +19,5 @@ workshop-678340265/
 desktop-app/dst_cht.po*
 desktop-app/configs.ini
 
+Thumbs.*
+.DS_Store*

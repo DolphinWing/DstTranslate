@@ -12,10 +12,16 @@ import java.nio.charset.StandardCharsets
 
 abstract class PoHelper {
     companion object {
-        private const val CHS_PO = "chinese_s.po"
-        private const val CHT_PO = "chinese_t.po"
+        private const val DST_CHS_PO = "chinese_s.po"
+        private const val DST_CHT_PO = "chinese_t.po"
         const val DST_PO = "dst_cht.po"
+
+        private const val ONI_PO_TEMPLATE = "strings_template.pot"
+        private const val ONI_CHS_PO = "strings_preinstalled_zh_klei.po"
+        const val ONI_PO = "strings.po"
     }
+
+    enum class Mode { DST, ONI }
 
     protected val replaceList = ArrayList<Pair<String, String>>()
     protected var replace3dot: String = ""
@@ -72,10 +78,7 @@ abstract class PoHelper {
      */
     abstract fun prepare()
 
-    protected fun loadFromReader(
-        reader: BufferedReader,
-        @Suppress("SameParameterValue") line2Enabled: Boolean = true
-    ): ArrayList<WordEntry> {
+    protected fun loadFromReader(reader: BufferedReader): ArrayList<WordEntry> {
         val list = ArrayList<WordEntry>()
         try {
             // do reading, usually loop until end of file reading
@@ -86,16 +89,28 @@ abstract class PoHelper {
                     // log("bypass $line1")
                     continue //bypass some invalid header
                 }
-                val line2 = if (line2Enabled) reader.readLine() else ""
-                val line3 = reader.readLine()
-                val line4 = reader.readLine()
+                var line2 = reader.readLine()
+                var line3 = reader.readLine()
+                while (!line3.startsWith("msgid")) {
+                    line2 = line2.dropLast(1) + line3.drop(1)
+                    line3 = reader.readLine()
+                }
+                var line4 = reader.readLine()
+                while (!line4.startsWith("msgstr")) {
+                    line3 = line3.dropLast(1) + line4.drop(1)
+                    line4 = reader.readLine()
+                }
+                line = reader.readLine()
+                while (!line.isNullOrEmpty()) {
+                    line4 = line4.dropLast(1) + line.drop(1)
+                    line = reader.readLine()
+                }
                 val entry = WordEntry.from(line1, line2, line3, line4)
                 if (entry != null) {
                     list.add(entry)
                 } else {
                     log("invalid input: $line1")
                 }
-                line = reader.readLine()
             }
         } catch (e: Exception) {
             log("Exception: ${e.message}")
@@ -110,7 +125,8 @@ abstract class PoHelper {
     }
 
     private fun writeEntryToFile(
-        dst: File = getOutputFile(),
+        mode: Mode = Mode.DST,
+        dst: File = getOutputFile(mode),
         list: ArrayList<WordEntry> = wordList
     ): Boolean {
         if (list.isEmpty()) return false // no list, don't write
@@ -118,6 +134,12 @@ abstract class PoHelper {
         try { // http://stackoverflow.com/a/1053474
             writer = BufferedWriter(FileWriter(dst, StandardCharsets.UTF_8))
             var content = "\"Language: zh-tw\"\n\"POT Version: 2.0\"\n"
+            if (mode == Mode.ONI) {
+                content += "Application: Oxygen Not Included"
+                content += "Last-Translator: DolphinWing"
+                content += "MIME-Version: 1.0"
+                content += "Content-Type: text/plain; charset=UTF-8"
+            }
             writer.write(content, 0, content.length)
             list.forEach { entry ->
                 content = "\n"
@@ -142,10 +164,10 @@ abstract class PoHelper {
      * Implementation of loading asset file to memory
      *
      * @param name asset name
-     * @param line2Enabled true if line 2 is required
+     * @param mode app mode
      * @return word entry list
      */
-    abstract fun loadAssetFile(name: String, line2Enabled: Boolean = true): ArrayList<WordEntry>
+    abstract fun loadAssetFile(name: String, mode: Mode = Mode.DST): ArrayList<WordEntry>
 
 //    fun runTranslation(postAction: ((timeCost: Long) -> Unit)? = null) {
 //        val cost = runBlocking { runTranslationProcess() }
@@ -169,13 +191,17 @@ abstract class PoHelper {
      *
      * @return total process time
      */
-    suspend fun runTranslationProcess(): Long = withContext(Dispatchers.IO) {
+    suspend fun runTranslationProcess(mode: Mode = Mode.DST): Long = withContext(Dispatchers.IO) {
         // log("run translation")
         loading.emit(true)
         val start = System.currentTimeMillis()
 
-        processStatus.emit("load $CHS_PO")
-        val s = loadAssetFile(CHS_PO)
+        var chsPoFile = DST_CHS_PO
+        if (mode == Mode.ONI) {
+            chsPoFile = ONI_CHS_PO
+        }
+        processStatus.emit("load $chsPoFile")
+        val s = loadAssetFile(chsPoFile, mode)
         sourceMap.clear()
         s.forEach { entry ->
             // entry.str = sc2tc(entry.str).trim() // translate to traditional
@@ -184,8 +210,12 @@ abstract class PoHelper {
         val stop1 = System.currentTimeMillis()
         log("original SC size: ${s.size} (${stop1 - start} ms)")
 
-        processStatus.emit("load $CHT_PO")
-        val t = loadAssetFile(CHT_PO)
+        var chtPoFile = DST_CHT_PO
+        if (mode == Mode.ONI) {
+            chtPoFile = ONI_PO_TEMPLATE
+        }
+        processStatus.emit("load $chtPoFile")
+        val t = loadAssetFile(chtPoFile, mode)
         revisedMap.clear()
         t.forEach { entry ->
             revisedMap[entry.key] = entry
@@ -193,9 +223,13 @@ abstract class PoHelper {
         val stop2 = System.currentTimeMillis()
         log("original TC size: ${t.size} (${stop2 - start} ms)")
 
-        processStatus.emit("load $DST_PO")
+        var outputPoFile = DST_PO
+        if (mode == Mode.ONI) {
+            outputPoFile = ONI_PO
+        }
+        processStatus.emit("load $outputPoFile")
         originMap.clear()
-        loadAssetFile(DST_PO).filter { entry ->
+        loadAssetFile(outputPoFile, mode).filter { entry ->
             entry.id != "\"\"" && entry.str != "\"\""
         }.forEach { entry ->
             originMap[entry.key] = entry
@@ -218,13 +252,13 @@ abstract class PoHelper {
                 newly = true
                 str = sc2tc(entry.str).trim()
             }
-            str = refactor(str)
+            str = refactor(str, mode)
             addEntry(WordEntry(entry.key, entry.text, entry.id, str, newly))
         }
         val stop4 = System.currentTimeMillis()
         log("new list size: ${wordList.size} (${stop4 - stop3} ms)")
 
-        writeEntryToFile(getCachedFile(), wordList) // runTranslationProcess
+        writeEntryToFile(mode, getCachedFile(mode), wordList) // runTranslationProcess
         val cost = System.currentTimeMillis() - start
         log("write data done. $cost ms")
         processStatus.emit("")
@@ -249,12 +283,13 @@ abstract class PoHelper {
      * @return true if file written is success
      */
     suspend fun writeTranslationFile(
-        dst: File = getOutputFile(),
+        mode: Mode = Mode.DST,
+        dst: File = getOutputFile(mode),
         list: ArrayList<WordEntry> = wordList
     ): Boolean = withContext(Dispatchers.IO) {
         loading.emit(true)
         val start = System.currentTimeMillis()
-        val result = writeEntryToFile(dst, list) // writeTranslationFile
+        val result = writeEntryToFile(mode, dst, list) // writeTranslationFile
         val cost = System.currentTimeMillis() - start
         log("write data done. $cost ms")
         loading.emit(false) // complete
@@ -264,12 +299,12 @@ abstract class PoHelper {
     /**
      * @return actual output file
      */
-    abstract fun getOutputFile(): File
+    abstract fun getOutputFile(mode: Mode = Mode.DST): File
 
     /**
      * @return cache file
      */
-    abstract fun getCachedFile(): File
+    abstract fun getCachedFile(mode: Mode = Mode.DST): File
 
     /**
      * Convert simplified chinese to traditional chinese
@@ -279,19 +314,22 @@ abstract class PoHelper {
      */
     abstract fun sc2tc(str: String): String
 
-    private fun refactor(src: String): String {
-        var str = src.replace("...", replace3dot)
-        str = if (str != "\"$replace6dot\"") str.replace(replace6dot, replace3dot) else str
-        replaceList.forEach { (_old, _new) ->
-            str = str.replace(_old, _new)
-        }
-        if (str.contains("\\\"")) {
-            var i = 0
-            val str1 = str.replace("\\\"", "%@%").replace("%@%".toRegex()) {
-                if (i++ % 2 == 0) replaceLeftBracket else replaceRightBracket
+    private fun refactor(src: String, mode: Mode = Mode.DST): String {
+        var str = src;
+        if (mode == Mode.DST) {
+            str = str.replace("...", replace3dot)
+            str = if (str != "\"$replace6dot\"") str.replace(replace6dot, replace3dot) else str
+            replaceList.forEach { (_old, _new) ->
+                str = str.replace(_old, _new)
             }
-            if (i % 2 == 0) {
-                str = str1 // only replace the paired string
+            if (str.contains("\\\"")) {
+                var i = 0
+                val str1 = str.replace("\\\"", "%@%").replace("%@%".toRegex()) {
+                    if (i++ % 2 == 0) replaceLeftBracket else replaceRightBracket
+                }
+                if (i % 2 == 0) {
+                    str = str1 // only replace the paired string
+                }
             }
         }
         return str

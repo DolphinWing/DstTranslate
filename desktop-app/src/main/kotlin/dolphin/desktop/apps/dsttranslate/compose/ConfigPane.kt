@@ -3,11 +3,13 @@ package dolphin.desktop.apps.dsttranslate.compose
 import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.requiredHeight
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
+import androidx.compose.material.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -16,26 +18,37 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
+import dolphin.android.apps.dsttranslate.PoHelper
 import dolphin.desktop.apps.dsttranslate.Ini
 import java.io.File
 import javax.swing.JFileChooser
 
 data class Configs(
-    val workshopDir: String = "",
-    val assetsDir: String = "",
+    val dstWorkshopDir: String = "",
+    val dstAssetsDir: String = "",
     val stringMap: String = "",
+    val oniWorkshopDir: String = "",
+    val oniAssetsDir: String = "",
 ) {
-    constructor(ini: Ini) : this(ini.workshopDir, ini.assetsDir, ini.stringMap)
+    constructor(ini: Ini) : this(
+        ini.dstWorkshopDir,
+        ini.dstAssetsDir,
+        ini.dstStringMap,
+        ini.oniWorkshopDir,
+        ini.oniAssetsDir,
+    )
 }
 
 @Composable
 fun ConfigPane(
     configs: Configs,
     onConfigChange: ((configs: Configs) -> Unit)? = null,
+    mode: PoHelper.Mode = PoHelper.Mode.DST,
+    onModeChange: ((mode: PoHelper.Mode) -> Unit)? = null,
 ) {
     var visible by remember { mutableStateOf(false) }
-    val githubRoot = if (configs.workshopDir.contains("DstTranslate")) {
-        configs.workshopDir.substring(0, configs.workshopDir.indexOf("DstTranslate"))
+    val githubRoot = if (configs.dstWorkshopDir.contains("DstTranslate")) {
+        configs.dstWorkshopDir.substring(0, configs.dstWorkshopDir.indexOf("DstTranslate"))
     } else ""
 
     Column {
@@ -47,30 +60,33 @@ fun ConfigPane(
                 val s = File.separator
                 onConfigChange?.invoke(
                     configs.copy(
-                        workshopDir = "${file.absolutePath}${s}workshop-1993780385",
-                        assetsDir = "${file.absolutePath}${s}android-app${s}app${s}src${s}main${s}assets",
+                        dstWorkshopDir = "${file.absolutePath}${s}workshop-1993780385",
+                        dstAssetsDir = "${file.absolutePath}${s}android-app${s}app${s}src${s}main${s}assets",
                         stringMap = "${file.absolutePath}${s}desktop-app${s}resources${s}common${s}strings.xml",
+                        oniWorkshopDir = "${file.absolutePath}${s}workshop",
+                        oniAssetsDir = "${file.absolutePath}${s}oni",
                     )
                 )
             },
             selectionMode = JFileChooser.DIRECTORIES_ONLY,
         )
+
         Text("workshop dir", style = MaterialTheme.typography.caption)
         FileChooserPane(
-            file = configs.workshopDir,
+            file = configs.dstWorkshopDir,
             onFileChange = { file ->
                 // println("workshopDir = ${file.absolutePath}")
-                onConfigChange?.invoke(configs.copy(workshopDir = file.absolutePath))
+                onConfigChange?.invoke(configs.copy(dstWorkshopDir = file.absolutePath))
             },
             selectionMode = JFileChooser.DIRECTORIES_ONLY,
         )
         Spacer(modifier = Modifier.requiredHeight(4.dp))
         Text("assets dir", style = MaterialTheme.typography.caption)
         FileChooserPane(
-            file = configs.assetsDir,
+            file = configs.dstAssetsDir,
             onFileChange = { file ->
                 // println("assetsDir = ${file.absolutePath}")
-                onConfigChange?.invoke(configs.copy(assetsDir = file.absolutePath))
+                onConfigChange?.invoke(configs.copy(dstAssetsDir = file.absolutePath))
             },
             selectionMode = JFileChooser.DIRECTORIES_ONLY,
         )
@@ -86,6 +102,41 @@ fun ConfigPane(
                 // println("strings.xml = ${file.absolutePath}")
                 onConfigChange?.invoke(configs.copy(stringMap = file.absolutePath))
             })
+            Spacer(modifier = Modifier.requiredHeight(4.dp))
+        }
+        Text("ONI workshop dir", style = MaterialTheme.typography.caption)
+        FileChooserPane(
+            file = configs.oniWorkshopDir,
+            onFileChange = { file ->
+                // println("workshopDir = ${file.absolutePath}")
+                onConfigChange?.invoke(configs.copy(oniWorkshopDir = file.absolutePath))
+            },
+            selectionMode = JFileChooser.DIRECTORIES_ONLY,
+        )
+        Spacer(modifier = Modifier.requiredHeight(4.dp))
+        Text("ONI asset dir", style = MaterialTheme.typography.caption)
+        FileChooserPane(
+            file = configs.oniAssetsDir,
+            onFileChange = { file ->
+                // println("assetDir = ${file.absolutePath}")
+                onConfigChange?.invoke(configs.copy(oniAssetsDir = file.absolutePath))
+            },
+            selectionMode = JFileChooser.DIRECTORIES_ONLY,
+        )
+
+        Row(modifier = Modifier.padding(8.dp)) {
+            TextButton(
+                onClick = { onModeChange?.invoke(PoHelper.Mode.DST) },
+                enabled = mode != PoHelper.Mode.DST,
+            ) {
+                Text("Switch to DST mode")
+            }
+            TextButton(
+                onClick = { onModeChange?.invoke(PoHelper.Mode.ONI) },
+                enabled = mode != PoHelper.Mode.ONI,
+            ) {
+                Text("Switch to ONI mode")
+            }
         }
     }
 }

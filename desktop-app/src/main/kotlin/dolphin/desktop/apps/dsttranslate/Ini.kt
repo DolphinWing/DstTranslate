@@ -44,17 +44,19 @@ class Ini(
     /**
      * User workshop code folder
      */
-    var workshopDir: String = ""
+    var dstWorkshopDir: String = ""
+    var oniWorkshopDir: String = ""
 
     /**
      * Klei PO file source folder
      */
-    var assetsDir: String = ""
+    var dstAssetsDir: String = ""
+    var oniAssetsDir: String = ""
 
     /**
      * Replacement strings
      */
-    var stringMap: String = ""
+    var dstStringMap: String = ""
 
     /**
      * Load ini file
@@ -103,9 +105,11 @@ class Ini(
             val data = line.split("=")
             val value = if (data.size > 1) data[1] else ""
             when (data[0]) {
-                "workshopDir" -> workshopDir = value
-                "assetsDir" -> assetsDir = value
-                "stringMap" -> stringMap = value
+                "workshopDir" -> dstWorkshopDir = value
+                "assetsDir" -> dstAssetsDir = value
+                "stringMap" -> dstStringMap = value
+                "workshopDir_oni" -> oniWorkshopDir = value
+                "assetsDir_oni" -> oniAssetsDir = value
             }
         } else {
             println("invalid line: $line")
@@ -118,9 +122,11 @@ class Ini(
     @Suppress("MemberVisibilityCanBePrivate")
     suspend fun save() = withContext(Dispatchers.IO) {
         val builder = StringBuilder()
-        builder.append("workshopDir=$workshopDir\n")
-        builder.append("assetsDir=$assetsDir\n")
-        builder.append("stringMap=$stringMap\n")
+        builder.append("workshopDir=$dstWorkshopDir\n")
+        builder.append("assetsDir=$dstAssetsDir\n")
+        builder.append("stringMap=$dstStringMap\n")
+        builder.append("workshopDir_oni=$oniWorkshopDir\n")
+        builder.append("assetsDir_oni=$oniAssetsDir\n")
         val content = builder.toString()
         try { // http://stackoverflow.com/a/1053474
             val writer = BufferedWriter(FileWriter(configFile))
@@ -136,7 +142,7 @@ class Ini(
         if (!srcFile.exists()) return@withContext
         val map = File(homeConfigs, "strings.xml")
         srcFile.copyTo(target = map, overwrite = true)
-        stringMap = map.absolutePath
+        dstStringMap = map.absolutePath
         save() // write configs
     }
 
@@ -151,12 +157,16 @@ class Ini(
         workingDir: String? = null,
         assetsDir: String? = null,
         stringMap: String? = null,
+        workingDirOni: String? = null,
+        assetsDirOni: String? = null,
     ) = withContext(Dispatchers.IO) {
-        if (stringMap != null && stringMap != this@Ini.stringMap) {
+        if (stringMap != null && stringMap != this@Ini.dstStringMap) {
             this@Ini.updateMaps(File(stringMap))
         }
-        workingDir?.let { dir -> this@Ini.workshopDir = dir }
-        assetsDir?.let { dir -> this@Ini.assetsDir = dir }
+        workingDir?.let { dir -> this@Ini.dstWorkshopDir = dir }
+        assetsDir?.let { dir -> this@Ini.dstAssetsDir = dir }
+        workingDirOni?.let { dir -> this@Ini.oniWorkshopDir = dir }
+        assetsDirOni?.let { dir -> this@Ini.oniAssetsDir = dir }
         save()
     }
 }

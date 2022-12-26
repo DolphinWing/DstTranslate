@@ -30,6 +30,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import dolphin.android.apps.dsttranslate.PoHelper
 import dolphin.android.apps.dsttranslate.WordEntry
 import dolphin.android.apps.dsttranslate.WordEntry.Companion.dropQuote
 import res.stringResource
@@ -52,6 +53,7 @@ fun EditorPane(
     onTranslate: ((String) -> Unit)? = null,
     onCopyFromClipboard: (() -> String)? = null,
     onCancel: (() -> Unit)? = null,
+    mode: PoHelper.Mode = PoHelper.Mode.DST,
 ) {
     var text by remember { mutableStateOf(data.target.string()) }
     var nowVisible by remember { mutableStateOf(true) }
@@ -78,13 +80,15 @@ fun EditorPane(
                     tint = AppTheme.AppColor.green.tinted(nowVisible),
                 )
             }
-            data.dst?.let { // new item has no previous for reference, need to check source
-                IconButton(onClick = { dstVisible = !dstVisible }) {
-                    Icon(
-                        Icons.Rounded.Visibility,
-                        contentDescription = null,
-                        tint = AppTheme.AppColor.orange.tinted(dstVisible)
-                    )
+            if (mode == PoHelper.Mode.DST) {
+                data.dst?.let { // new item has no previous for reference, need to check source
+                    IconButton(onClick = { dstVisible = !dstVisible }) {
+                        Icon(
+                            Icons.Rounded.Visibility,
+                            contentDescription = null,
+                            tint = AppTheme.AppColor.orange.tinted(dstVisible)
+                        )
+                    }
                 }
             }
             IconButton(onClick = { chsVisible = !chsVisible }) {
@@ -94,12 +98,14 @@ fun EditorPane(
                     tint = AppTheme.AppColor.blue.tinted(chsVisible)
                 )
             }
-            IconButton(onClick = { chtVisible = !chtVisible }) {
-                Icon(
-                    Icons.Rounded.Visibility,
-                    contentDescription = null,
-                    tint = AppTheme.AppColor.purple.tinted(chtVisible)
-                )
+            if (mode == PoHelper.Mode.DST) {
+                IconButton(onClick = { chtVisible = !chtVisible }) {
+                    Icon(
+                        Icons.Rounded.Visibility,
+                        contentDescription = null,
+                        tint = AppTheme.AppColor.purple.tinted(chtVisible)
+                    )
+                }
             }
         }
 
@@ -115,7 +121,7 @@ fun EditorPane(
                 Text(data.chs?.dropQuote() ?: "", fontSize = AppTheme.largerFontSize())
             }
         }
-        if (chtVisible) {
+        if (mode == PoHelper.Mode.DST && chtVisible) {
             Button(
                 onClick = { text = data.cht?.dropQuote() ?: "" },
                 modifier = Modifier.fillMaxWidth(),
@@ -129,34 +135,36 @@ fun EditorPane(
             }
         }
 
-        data.dst?.let { old ->
-            if (dstVisible) {
-                Row {
-                    TextButton(
-                        onClick = { onTranslate?.invoke(old.origin()) },
-                        modifier = Modifier.weight(1f),
-                        colors = ButtonDefaults.textButtonColors(
-                            contentColor = AppTheme.AppColor.orange,
+        if (mode == PoHelper.Mode.DST) {
+            data.dst?.let { old ->
+                if (dstVisible) {
+                    Row {
+                        TextButton(
+                            onClick = { onTranslate?.invoke(old.origin()) },
+                            modifier = Modifier.weight(1f),
+                            colors = ButtonDefaults.textButtonColors(
+                                contentColor = AppTheme.AppColor.orange,
+                            ),
+                        ) {
+                            Text(
+                                old.origin(),
+                                modifier = Modifier.fillMaxWidth(),
+                                fontSize = AppTheme.largerFontSize(),
+                            )
+                        }
+                        IconButton(onClick = { onCopyToClipboard?.invoke(old.origin()) }) {
+                            Icon(Icons.Rounded.CopyAll, contentDescription = null)
+                        }
+                    }
+                    Button(
+                        onClick = { text = old.string() },
+                        modifier = Modifier.fillMaxWidth(),
+                        colors = ButtonDefaults.buttonColors(
+                            backgroundColor = AppTheme.AppColor.orange,
                         ),
                     ) {
-                        Text(
-                            old.origin(),
-                            modifier = Modifier.fillMaxWidth(),
-                            fontSize = AppTheme.largerFontSize(),
-                        )
+                        Text(old.string(), fontSize = AppTheme.largerFontSize())
                     }
-                    IconButton(onClick = { onCopyToClipboard?.invoke(old.origin()) }) {
-                        Icon(Icons.Rounded.CopyAll, contentDescription = null)
-                    }
-                }
-                Button(
-                    onClick = { text = old.string() },
-                    modifier = Modifier.fillMaxWidth(),
-                    colors = ButtonDefaults.buttonColors(
-                        backgroundColor = AppTheme.AppColor.orange,
-                    ),
-                ) {
-                    Text(old.string(), fontSize = AppTheme.largerFontSize())
                 }
             }
         }

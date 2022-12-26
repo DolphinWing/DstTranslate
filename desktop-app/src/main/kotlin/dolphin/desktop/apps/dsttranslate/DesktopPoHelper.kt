@@ -16,6 +16,7 @@ import java.io.File
 import java.io.FileInputStream
 import java.io.FileWriter
 import java.io.InputStreamReader
+import java.nio.charset.StandardCharsets
 import javax.xml.parsers.DocumentBuilderFactory
 import javax.xml.parsers.SAXParserFactory
 
@@ -117,15 +118,15 @@ class DesktopPoHelper(val ini: Ini = Ini(), private val debug: Boolean = false) 
 
     private fun findReplacementXml(): File {
         // load from ini
-        if (ini.isLinux && File(ini.stringMap).exists()) {
-            return File(ini.stringMap)
+        if (ini.isLinux && File(ini.dstStringMap).exists()) {
+            return File(ini.dstStringMap)
         }
         val s = File.separator
         // locate debug build
         if (File(ini.workingDir, "resources").exists()) {
             val file = File("${ini.workingDir}${s}resources${s}common${s}strings.xml")
             if (file.exists()) {
-                ini.stringMap = file.absolutePath // debug build
+                ini.dstStringMap = file.absolutePath // debug build
                 return file
             }
         }
@@ -133,12 +134,12 @@ class DesktopPoHelper(val ini: Ini = Ini(), private val debug: Boolean = false) 
         if (File(ini.workingDir, "app").exists()) {
             val file = File("${ini.workingDir}${s}app${s}resources${s}strings.xml")
             if (file.exists()) {
-                ini.stringMap = file.absolutePath // release build
+                ini.dstStringMap = file.absolutePath // release build
                 return file
             }
         }
         // locate in workshop dir
-        return File(ini.workshopDir, "strings.xml")
+        return File(ini.dstWorkshopDir, "strings.xml")
     }
 
     suspend fun loadXml() = withContext(Dispatchers.IO) {
@@ -158,9 +159,13 @@ class DesktopPoHelper(val ini: Ini = Ini(), private val debug: Boolean = false) 
         replaceRightBracket = replaceMap["replacement_right_bracket"] ?: ""
     }
 
-    override fun loadAssetFile(name: String, line2Enabled: Boolean): ArrayList<WordEntry> {
-        if (name == DST_PO) return loadFile(ini.workshopDir, name)
-        return loadFile(ini.assetsDir, name)
+    override fun loadAssetFile(name: String, mode: Mode): ArrayList<WordEntry> {
+        if (name == DST_PO) return loadFile(ini.dstWorkshopDir, name)
+        if (name == ONI_PO) return loadFile(ini.oniWorkshopDir, name)
+        return when (mode) {
+            Mode.ONI -> loadFile(ini.oniAssetsDir, name)
+            else -> loadFile(ini.dstAssetsDir, name)
+        }
     }
 
     private fun loadFile(dir: String, name: String): ArrayList<WordEntry> {
@@ -168,8 +173,8 @@ class DesktopPoHelper(val ini: Ini = Ini(), private val debug: Boolean = false) 
         val file = File(dir, name)
         val list: ArrayList<WordEntry> = if (file.exists()) try {
             // Read UTF-8 https://stackoverflow.com/a/14918597
-            val reader = BufferedReader(InputStreamReader(FileInputStream(file), "UTF-8"))
-            loadFromReader(reader, true)
+            val reader = BufferedReader(InputStreamReader(FileInputStream(file), StandardCharsets.UTF_8))
+            loadFromReader(reader)
         } catch (e: Exception) {
             ArrayList()
         } else {
@@ -179,13 +184,17 @@ class DesktopPoHelper(val ini: Ini = Ini(), private val debug: Boolean = false) 
         return list
     }
 
-    override fun getOutputFile(): File = getOutputFile(debug)
+    override fun getOutputFile(mode: Mode): File = getOutputFile(debug, mode)
 
-    fun getOutputFile(cached: Boolean): File = if (cached) getCachedFile() else {
-        File(ini.workshopDir, DST_PO)
+    fun getOutputFile(cached: Boolean, mode: Mode = Mode.DST): File = if (cached) getCachedFile(mode) else {
+        if (mode == Mode.DST)
+            File(ini.dstWorkshopDir, DST_PO)
+        else
+            File(ini.oniWorkshopDir, ONI_PO)
     }
 
-    override fun getCachedFile(): File = File(System.getProperty("java.io.tmpdir"), DST_PO)
+    override fun getCachedFile(mode: Mode): File =
+        File(System.getProperty("java.io.tmpdir"), if (mode == Mode.DST) DST_PO else ONI_PO)
 
     override fun sc2tc(str: String): String {
         return ZhTwConverterUtil.toTraditional(str)
@@ -215,7 +224,7 @@ class DesktopPoHelper(val ini: Ini = Ini(), private val debug: Boolean = false) 
         loading.emit(true)
         val map = LinkedHashMap<Char, Char>() // use map to drop duplicated char
         // load Taiwan 4818 common characters
-        val sample = File(File(File(ini.workshopDir).parentFile, "fonts"), "Taiwan4818.txt")
+        val sample = File(File(File(ini.dstWorkshopDir).parentFile, "fonts"), "Taiwan4818.txt")
         if (sample.exists()) { // add Taiwan4818.txt
             val reader = BufferedReader(InputStreamReader(FileInputStream(sample), "UTF-8"))
             try {

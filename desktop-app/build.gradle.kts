@@ -1,13 +1,12 @@
-import org.jetbrains.compose.compose
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-val releaseAppVersion = "1.1.6"
+val releaseAppVersion = "2.0.0"
 val releaseAppRevision = 1
 
 plugins {
-    kotlin("jvm") version "1.6.10"
-    id("org.jetbrains.compose") version "1.1.0"
+    kotlin("jvm") version "1.7.20"
+    id("org.jetbrains.compose") version "1.2.2"
 }
 
 group = "dolphin.desktop.apps"

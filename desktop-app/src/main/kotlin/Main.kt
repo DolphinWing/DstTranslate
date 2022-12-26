@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.material.CircularProgressIndicator
 import androidx.compose.material.ExperimentalMaterialApi
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.ScrollableTabRow
@@ -30,6 +31,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
+import dolphin.android.apps.dsttranslate.PoHelper
 import dolphin.android.apps.dsttranslate.WordEntry
 import dolphin.desktop.apps.dsttranslate.DesktopPoHelper
 import dolphin.desktop.apps.dsttranslate.Ini
@@ -48,7 +50,6 @@ import dolphin.desktop.apps.dsttranslate.compose.ToolbarCallback
 import dolphin.desktop.apps.dsttranslate.compose.ToolbarSpec
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import java.awt.Desktop
 import java.awt.Toolkit
@@ -117,6 +118,8 @@ fun App(
 
         var toasted by remember { mutableStateOf("") }
         var cached by remember { mutableStateOf(false) }
+        var selectedTab by remember { mutableStateOf(0) }
+        val loading = model.helper.loading.collectAsState()
 
         // toast
         val toastJob = remember { mutableStateOf<Job?>(null) }
@@ -205,6 +208,8 @@ fun App(
                         onEdit = { entry -> showEntryEditor(entry) },
                         callback = callback,
                         appVersion = appVersion,
+                        selectedTab = selectedTab,
+                        onTabChange = { composeScope.launch { selectedTab = it } },
                     )
 
                 UiState.Editor ->
@@ -224,6 +229,7 @@ fun App(
                         },
                         onTranslate = { text -> translateByGoogle(text) },
                         onCopyFromClipboard = onCopyFrom,
+                        mode = model.appMode.value,
                     )
 
                 UiState.Search ->
@@ -253,9 +259,18 @@ fun App(
                 DebugSaveDialog(
                     onDismissRequest = { cached = false },
                     onSave = { saveEntryList(it) },
-                    title = "write to ${model.helper.getCachedFile()}?",
+                    title = "write to ${model.helper.getCachedFile(model.appMode.value)}?",
                     modifier = Modifier.fillMaxWidth(.5f),
                 )
+            }
+
+            if (loading.value) {
+                Box(
+                    Modifier.fillMaxSize().background(Color.Black.copy(alpha = .5f)),
+                    contentAlignment = Alignment.Center,
+                ) {
+                    CircularProgressIndicator()
+                }
             }
 
             ToastUi(toasted)
@@ -271,21 +286,27 @@ private fun MainPane(
     callback: ToolbarCallback? = null,
     onEdit: ((WordEntry) -> Unit)? = null,
     appVersion: String = "x.x.x",
+    selectedTab: Int = 0,
+    onTabChange: ((tab: Int) -> Unit)? = null,
 ) {
     val composeScope = rememberCoroutineScope()
     val configs = model.configs.collectAsState()
+    val mode = model.appMode.collectAsState()
     // val enabled = model.helper.loading.collectAsState() // global status
     var spec by remember { mutableStateOf(ToolbarSpec(enableAnalyze = true)) }
+    val status = model.helper.status.collectAsState()
+    var loading by remember { mutableStateOf(false) }
 
     LaunchedEffect(Unit) {
         model.helper.loading.collect { loading ->
-            spec = spec.copy(enabled = loading.not())
+            spec = spec.copy(
+                enabled = loading.not(),
+                enableAnalyze = model.appMode.value == PoHelper.Mode.DST,
+            )
         }
     }
 
     Column(modifier = modifier) {
-        var selectedTab by remember { mutableStateOf(1) }
-
         Row(
             verticalAlignment = Alignment.CenterVertically,
             modifier = Modifier.background(MaterialTheme.colors.secondaryVariant),
@@ -299,13 +320,13 @@ private fun MainPane(
             ) {
                 Tab(
                     selected = selectedTab == 0,
-                    onClick = { selectedTab = 0 },
+                    onClick = { onTabChange?.invoke(0) },
                 ) {
                     Text("Config", modifier = Modifier.padding(8.dp))
                 }
                 Tab(
                     selected = selectedTab == 1,
-                    onClick = { selectedTab = 1 },
+                    onClick = { onTabChange?.invoke(1) },
                 ) {
                     Text("Translation", modifier = Modifier.padding(8.dp))
                 }
@@ -326,10 +347,19 @@ private fun MainPane(
                         onConfigChange = { newConfigs ->
                             composeScope.launch { model.saveConfig(newConfigs) }
                         },
+                        mode = mode.value,
+                        onModeChange = { mode ->
+                            composeScope.launch {
+                                loading = true
+                                model.loadIniAndPo(mode)
+                                loading = false
+                            }
+                        },
                     )
+
                 1 ->
                     EntryListPane(
-                        model,
+                        model = model,
                         modifier = Modifier.fillMaxSize(),
                         state = state,
                         onEdit = onEdit,
@@ -338,8 +368,17 @@ private fun MainPane(
                     )
             }
 
+            if (loading) {
+                Box(
+                    Modifier.fillMaxSize().background(Color.Black.copy(alpha = .5f)),
+                    contentAlignment = Alignment.Center,
+                ) {
+                    CircularProgressIndicator()
+                }
+            }
+
             Text(
-                model.helper.status.collectAsState().value,
+                status.value,
                 style = MaterialTheme.typography.caption,
                 modifier = Modifier.align(Alignment.BottomStart),
             )

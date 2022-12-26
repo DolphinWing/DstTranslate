@@ -116,17 +116,21 @@ fun EntryView(
         chs?.let { source ->
             Text(source.origin(), fontSize = AppTheme.largerFontSize())
         }
-        Text(
-            // if (dst?.id == origin.id) dst.string() else dst?.origin() ?: origin.origin(),
-            cht?.string() ?: chs?.string() ?: origin.origin(),
-            color = AppTheme.AppColor.purple,
-            fontSize = AppTheme.largerFontSize(),
-        )
-        Text(
-            dst?.string() ?: chs?.string() ?: origin.string(),
-            color = AppTheme.AppColor.orange,
-            fontSize = AppTheme.largerFontSize(),
-        )
+        if (cht?.string()?.isNotEmpty() == true) {
+            Text(
+                // if (dst?.id == origin.id) dst.string() else dst?.origin() ?: origin.origin(),
+                cht.string(),
+                color = AppTheme.AppColor.purple,
+                fontSize = AppTheme.largerFontSize(),
+            )
+        }
+        if (dst?.string()?.isNotEmpty() == true) {
+            Text(
+                dst.string(),
+                color = AppTheme.AppColor.orange,
+                fontSize = AppTheme.largerFontSize(),
+            )
+        }
         Text(
             origin.string(),
             color = AppTheme.AppColor.green,
