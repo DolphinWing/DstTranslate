@@ -1,0 +1,6 @@
+# recommended you make this the same as your mod name in Steam
+title: "正體中文包 by DolphinWing"
+# currently unused, but may be someday
+description: "正體中文翻譯包"
+# a name for other mods to recognize you by, recommended to not change this once you set it
+staticID: dolphin.oni.translation.tc
