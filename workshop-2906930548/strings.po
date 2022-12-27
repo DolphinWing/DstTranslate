@@ -2137,7 +2137,7 @@ msgstr "探測系統品質：{TotalQuality}"
 #. STRINGS.BUILDING.STATUSITEMS.NETWORKQUALITY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NETWORKQUALITY.TOOLTIP"
 msgid "This scanner network is scanning at <b>{TotalQuality}</b> effectiveness\n\nIt will detect incoming objects <b>{WorstTime}</b> to <b>{BestTime}</b> before they arrive\n\nBuild multiple <link=\"COMETDETECTOR\">Space Scanner</link>s and ensure they're each scanning effectively for the best detection results"
-msgstr "此雷達網目前的探測效率為 <b>{TotalQuality}</b>\n\n將會在流星雨來臨前的 <b>{WorstTime}</b> 到 <b>{BestTime}</b> 偵測到它們\n\n建造更多的 <link=\"COMETDETECTOR\">慧星雷達</link> 可以確保每次探測都有最好的結果"
+msgstr "此雷達網目前的探測效率為 <b>{TotalQuality}</b>\n\n將會在流星雨來臨前的 <b>{WorstTime}</b> 到 <b>{BestTime}</b> 偵測到它們\n\n建造更多的 <link=\"COMETDETECTOR\">太空雷達</link> 可以確保每次探測都有最好的結果"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEUTRONIUMUNMINABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEUTRONIUMUNMINABLE.NAME"
@@ -4007,7 +4007,7 @@ msgstr "<link=\"APOTHECARY\">核能製藥桌</link>"
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDDOCTORSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDDOCTORSTATION.DESC"
 msgid "Disease clinics require power, but treat more serious illnesses than sick bays alone."
-msgstr "診療艙需要電力，但能治療比加護病房更嚴重的疾病。"
+msgstr "回復倉需要電力，但能治療比加護病房更嚴重的疾病。"
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDDOCTORSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDDOCTORSTATION.EFFECT"
@@ -4017,7 +4017,7 @@ msgstr "允許複製人對生病的複製人進行高級治療。\n\n複製人�
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDDOCTORSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDDOCTORSTATION.NAME"
 msgid "<link=\"ADVANCEDDOCTORSTATION\">Disease Clinic</link>"
-msgstr "<link=\"ADVANCEDDOCTORSTATION\">診療艙</link>"
+msgstr "<link=\"ADVANCEDDOCTORSTATION\">回復倉</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.DESC"
@@ -4212,7 +4212,7 @@ msgstr "在設定的範圍內自動挖掘所有原料。"
 #. STRINGS.BUILDINGS.PREFABS.AUTOMINER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.AUTOMINER.NAME"
 msgid "<link=\"AUTOMINER\">Robo-Miner</link>"
-msgstr "<link=\"AUTOMINER\"> 智能採礦機</link>"
+msgstr "<link=\"AUTOMINER\">智能採礦機</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERY.CHARGE_LOSS
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.CHARGE_LOSS"
@@ -4267,17 +4267,17 @@ msgstr "<link=\"BATTERYMODULE\">電池模組</link>"
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.ACTIVATE_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.ACTIVATE_TOOLTIP"
 msgid "Sends a <b><style=\"logic_on\">Green Signal</style></b> when battery is less than <b>{0}%</b> charged, until it is <b>{1}% (High Threshold)</b> charged"
-msgstr "當電量少於 <b>{0}%</b> 時會發出 <b><style=\"logic_on\">綠色訊號</style></b>，並充電直到 <b>{1}%（高門檻）</b>為止"
+msgstr "當電量低於 <b>{0}%</b> 時會發出 <b><style=\"logic_on\">綠色訊號</style></b>，並充電直到 <b>{1}%（高門檻）</b>為止"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DEACTIVATE_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DEACTIVATE_TOOLTIP"
 msgid "Sends a <b><style=\"logic_off\">Red Signal</style></b> when battery is <b>{0}%</b> charged, until it is less than <b>{1}% (Low Threshold)</b> charged"
-msgstr "當電量大於 <b>{0}%</b> 時會發出 <b><style=\"logic_off\">紅色訊號</style></b>，直到電量低於 <b>{1}%（低門檻）</b>為止"
+msgstr "當電量高於 <b>{0}%</b> 時會發出 <b><style=\"logic_off\">紅色訊號</style></b>，直到電量低於 <b>{1}%（低門檻）</b>為止"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC"
 msgid "Smart batteries send a <b><style=\"logic_on\">Green Signal</style></b> when they require charging."
-msgstr "當智能電池需要充電時，會發出 <b><style=\"logic_on\">綠色訊號</style></b>。"
+msgstr "當智慧電池需要充電時，會發出 <b><style=\"logic_on\">綠色訊號</style></b>。"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.EFFECT"
@@ -4302,7 +4302,7 @@ msgstr "當電量大於 <b>高門檻</b> 時會發出 <b><style=\"logic_off\">�
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.NAME"
 msgid "<link=\"BATTERYSMART\">Smart Battery</link>"
-msgstr "<link=\"BATTERYSMART\">智能電池</link>"
+msgstr "<link=\"BATTERYSMART\">智慧電池</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_ACTIVATE
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.SIDESCREEN_ACTIVATE"
@@ -4337,7 +4337,7 @@ msgstr "{attrib}：{amount}（明亮）"
 #. STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.LIGHTEFFECT_HIGH_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.LIGHTEFFECT_HIGH_TOOLTIP"
 msgid "Duplicants will gain {amount} {attrib} if this building is in at least {lux} light."
-msgstr "如果此建築的照明度最少有 {lux}，複製人會獲得 {amount} {attrib}。"
+msgstr "如果此建築的照明度高於 {lux}，複製人會獲得 {amount} {attrib}。"
 
 #. STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.LIGHTEFFECT_LOW
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.LIGHTEFFECT_LOW"
@@ -4347,7 +4347,7 @@ msgstr "{attrib}：{amount}（昏暗）"
 #. STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.LIGHTEFFECT_LOW_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.LIGHTEFFECT_LOW_TOOLTIP"
 msgid "Duplicants will gain {amount} {attrib} if this building is in light dimmer than {lux}."
-msgstr "如果此建築的照明度小於 {lux}，複製人會獲得 {amount} {attrib}。"
+msgstr "如果此建築的照明度低於 {lux}，複製人會獲得 {amount} {attrib}。"
 
 #. STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.NAME"
@@ -5032,7 +5032,7 @@ msgstr "望遠鏡是研究太空的必需品，可讓火箭飛向其它世界。
 #. STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPEENCLOSED.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPEENCLOSED.EFFECT"
 msgid "Reveals visitable Planetoids in space... in comfort!\n\nAssigned Duplicants must possess the <link=\"ASTRONOMY\">Astronomy</link> skill.\n\nExcellent sunburn protection  (100%), partial <link=\"RADIATION\">Radiation</link> protection (50%) .\n\nBuilding must be exposed to space to function."
-msgstr "揭露太空中可拜訪的小行星…舒服。\n\n複製人必須具備 <link=\"ASTRONOMY\">天文學</link> 技能。\n\n出色的防曬保護 (100%)，和部分 <link=\"RADIATION\">輻射</link> 保護 (50%) 。\n\n建築必須曝露在太空中才能運作。"
+msgstr "揭露太空中可拜訪的小行星…舒服地。\n\n複製人必須具備 <link=\"ASTRONOMY\">天文學</link> 技能。\n\n出色的防曬保護 (100%)，和部分 <link=\"RADIATION\">輻射</link> 保護 (50%) 。\n\n建築必須曝露在太空中才能運作。"
 
 #. STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPEENCLOSED.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPEENCLOSED.NAME"
@@ -5242,7 +5242,7 @@ msgstr "複製人會自動的將捕捉的生物運送至此安置地點釋放。
 #. STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.EFFECT"
 msgid "Releases trapped <link=\"CRITTERS\">Critters</link> back into the world.\n\nCan be used multiple times."
-msgstr "將已補獲的 <link=\"CRITTERS\">動物</link> 釋放回大自然\n\n可以多次使用。"
+msgstr "將已捕獲的 <link=\"CRITTERS\">動物</link> 釋放回大自然\n\n可以多次使用。"
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREDELIVERYPOINT.NAME"
@@ -5267,7 +5267,7 @@ msgstr "<link=\"CREATUREFEEDER\">動物餵食器</link>"
 #. STRINGS.BUILDINGS.PREFABS.CREATURETRAP.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.DESC"
 msgid "Critter traps cannot catch swimming or flying critters."
-msgstr "陷阱不能捕捉水中或飛行生物。"
+msgstr "小動物陷阱不能捕捉水中或飛行生物。"
 
 #. STRINGS.BUILDINGS.PREFABS.CREATURETRAP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATURETRAP.EFFECT"
@@ -5337,7 +5337,7 @@ msgstr "鹽可以精製成食鹽，用餐時間會有士氣加成。"
 #. STRINGS.BUILDINGS.PREFABS.DESALINATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DESALINATOR.EFFECT"
 msgid "Removes <link=\"SALT\">Salt</link> from <link=\"BRINE\">Brine</link> or <link=\"SALTWATER\">Salt Water</link>, producing <link=\"WATER\">Water</link>."
-msgstr "消除 <link=\"BRINE\">鹽水</link> 或 <link=\"SALTWATER\">海水</link> 中的 <link=\"SALT\">鹽份</link>，產生 <link=\"WATER\">水</link>。"
+msgstr "去除 <link=\"BRINE\">鹽水</link> 或 <link=\"SALTWATER\">海水</link> 中的 <link=\"SALT\">鹽</link>，產生 <link=\"WATER\">水</link>。"
 
 #. STRINGS.BUILDINGS.PREFABS.DESALINATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DESALINATOR.NAME"
@@ -6372,12 +6372,12 @@ msgstr "<link=\"GASCONDUITDISEASESENSOR\">氣體管細菌感測器</link>"
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.DESC"
 msgid "Element sensors can be used to detect the presence of a specific gas in a pipe."
-msgstr "氣體管元素感測器，用於檢測氣體管中特定氣體的存在。"
+msgstr "氣體管元素感測器，用於偵測氣體管中特定氣體的存在。"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT"
 msgid "Sends a <b><style=\"logic_on\">Green Signal</style></b> when the selected <link=\"ELEMENTSGAS\">Gas</link> is detected within a pipe."
-msgstr "當檢測到指定的 <link=\"ELEMENTSGAS\">氣體</link> 在管線內時，發出 <b><style=\"logic_on\">綠色訊號</style></b> 訊號。"
+msgstr "當偵測到指定的 <link=\"ELEMENTSGAS\">氣體</link> 在管線內時，發出 <b><style=\"logic_on\">綠色訊號</style></b> 訊號。"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT"
@@ -6387,7 +6387,7 @@ msgstr "內部 <link=\"ELEMENTSGAS\">氣體</link> 存在"
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT_ACTIVE"
 msgid "Sends a <b><style=\"logic_on\">Green Signal</style></b> if the configured Gas is detected"
-msgstr "檢測到指定氣體時，發出 <b><style=\"logic_on\">綠色訊號</style></b>"
+msgstr "偵測到指定氣體時，發出 <b><style=\"logic_on\">綠色訊號</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT_INACTIVE"
@@ -7822,12 +7822,12 @@ msgstr "<link=\"LIQUIDCONDUITDISEASESENSOR\">液體管細菌感測器</link>"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.DESC"
 msgid "Element sensors can be used to detect the presence of a specific liquid in a pipe."
-msgstr "液體管元素感測器，用來檢測管線是否存在特定液體。"
+msgstr "液體管元素感測器，用來偵測管線是否存在特定液體。"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.EFFECT"
 msgid "Sends a <b><style=\"logic_on\">Green Signal</style></b> when the selected <link=\"ELEMENTSLIQUID\">Liquid</link> is detected within a pipe."
-msgstr "當檢測到指定的 <link=\"ELEMENTSLIQUID\">液體</link> 在管線內時，發出 <b><style=\"logic_on\">綠色訊號</style></b>。"
+msgstr "當偵測到指定的 <link=\"ELEMENTSLIQUID\">液體</link> 在管線內時，發出 <b><style=\"logic_on\">綠色訊號</style></b>。"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.LOGIC_PORT"
@@ -7837,7 +7837,7 @@ msgstr "內部 <link=\"ELEMENTSLIQUID\">液體</link> 存在"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.LOGIC_PORT_ACTIVE"
 msgid "Sends a <b><style=\"logic_on\">Green Signal</style></b> if the configured Liquid is detected within the pipe"
-msgstr "檢測到指定液體時，發出 <b><style=\"logic_on\">綠色訊號</style></b>"
+msgstr "偵測到指定液體時，發出 <b><style=\"logic_on\">綠色訊號</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.LOGIC_PORT_INACTIVE"
@@ -8322,7 +8322,7 @@ msgstr "動物感測器"
 #. STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.DESC"
 msgid "Detecting germ populations can help block off or clean up dangerous areas."
-msgstr "檢測細菌數量有助於隔離或清理危險區域。"
+msgstr "偵測細菌數量有助於隔離或清理危險區域。"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.EFFECT"
@@ -8382,12 +8382,12 @@ msgstr "<link=\"DUPLICANTSENSOR\">複製人動作感測器</link>"
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.DESC"
 msgid "These sensors can detect the presence of a specific gas and alter systems accordingly."
-msgstr "這些感測器可以檢測特定氣體的存在並改變系統運作。"
+msgstr "這些感測器可以偵測特定氣體的存在並改變系統運作。"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.EFFECT"
 msgid "Sends a <b><style=\"logic_on\">Green Signal</style></b> when the selected <link=\"ELEMENTSGAS\">Gas</link> is detected on this sensor's tile.\n\nSends a <b><style=\"logic_off\">Red Signal</style></b> when the selected <link=\"ELEMENTSGAS\">Gas</link> is not present."
-msgstr "當感測器所在的格子，檢測到指定的 <link=\"ELEMENTSGAS\">氣體</link> 時，發出 <b><style=\"logic_on\">綠色訊號</style></b>。\n\n當 <link=\"ELEMENTSGAS\">氣體</link> 不存在時，發出 <b><style=\"logic_off\">紅色訊號</style></b>。"
+msgstr "當感測器所在的格子，偵測到指定的 <link=\"ELEMENTSGAS\">氣體</link> 時，發出 <b><style=\"logic_on\">綠色訊號</style></b>。\n\n當 <link=\"ELEMENTSGAS\">氣體</link> 不存在時，發出 <b><style=\"logic_off\">紅色訊號</style></b>。"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.LOGIC_PORT"
@@ -8397,7 +8397,7 @@ msgstr "指定 <link=\"ELEMENTSGAS\">氣體</link> 存在"
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.LOGIC_PORT_ACTIVE"
 msgid "Sends a <b><style=\"logic_on\">Green Signal</style></b> if the selected Gas is detected"
-msgstr "檢測到指定的氣體時，發出 <b><style=\"logic_on\">綠色訊號</style></b>"
+msgstr "偵測到指定的氣體時，發出 <b><style=\"logic_on\">綠色訊號</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.LOGIC_PORT_INACTIVE"
@@ -8412,12 +8412,12 @@ msgstr "<link=\"LOGICELEMENTSENSORGAS\">氣體元素感測器</link>"
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.DESC"
 msgid "These sensors can detect the presence of a specific liquid and alter systems accordingly."
-msgstr "這些感測器可以檢測特定液體的存在並改變系統運作。"
+msgstr "這些感測器可以偵測特定液體的存在並改變系統運作。"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.EFFECT"
 msgid "Sends a <b><style=\"logic_on\">Green Signal</style></b> when the selected <link=\"ELEMENTSLIQUID\">Liquid</link> is detected on this sensor's tile.\n\nSends a <b><style=\"logic_off\">Red Signal</style></b> when the selected <link=\"ELEMENTSLIQUID\">Liquid</link> is not present."
-msgstr "當感測器所在的格子，檢測到指定的 <link=\"ELEMENTSLIQUID\">液體</link> 時，發出 <b><style=\"logic_on\">綠色訊號</style></b>。\n\n當 <link=\"ELEMENTSLIQUID\">液體</link> 不存在時，發出 <b><style=\"logic_off\">紅色訊號</style></b>。"
+msgstr "當感測器所在的格子，偵測到指定的 <link=\"ELEMENTSLIQUID\">液體</link> 時，發出 <b><style=\"logic_on\">綠色訊號</style></b>。\n\n當 <link=\"ELEMENTSLIQUID\">液體</link> 不存在時，發出 <b><style=\"logic_off\">紅色訊號</style></b>。"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.LOGIC_PORT"
@@ -8427,7 +8427,7 @@ msgstr "指定 <link=\"ELEMENTSLIQUID\">液體</link> 存在"
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.LOGIC_PORT_ACTIVE"
 msgid "Sends a <b><style=\"logic_on\">Green Signal</style></b> if the selected Liquid is detected"
-msgstr "檢測到指定的液體時，發出 <b><style=\"logic_on\">綠色訊號</style></b>"
+msgstr "偵測到指定的液體時，發出 <b><style=\"logic_on\">綠色訊號</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.LOGIC_PORT_INACTIVE"
@@ -8722,17 +8722,17 @@ msgstr "輻射粒子感測器可以在輻射粒子通過它們時發出訊號。
 #. STRINGS.BUILDINGS.PREFABS.LOGICHEPSENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHEPSENSOR.EFFECT"
 msgid "Sends a <b><style=\"logic_on\">Green Signal</style></b> or a <b><style=\"logic_off\">Red Signal</style></b> when Radbolts detected enters the chosen range."
-msgstr "當輻射粒子檢測達到指定範圍時，發出 <b><style=\"logic_on\">綠色訊號</style></b> 或 <b><style=\"logic_off\">紅色訊號</style></b>。"
+msgstr "當輻射粒子偵測達到指定範圍時，發出 <b><style=\"logic_on\">綠色訊號</style></b> 或 <b><style=\"logic_off\">紅色訊號</style></b>。"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICHEPSENSOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHEPSENSOR.LOGIC_PORT"
 msgid "Detected Radbolts"
-msgstr "檢測到輻射粒子"
+msgstr "偵測到輻射粒子"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICHEPSENSOR.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHEPSENSOR.LOGIC_PORT_ACTIVE"
 msgid "Sends a <b><style=\"logic_on\">Green Signal</style></b> if detected Radbolts are within the selected range"
-msgstr "檢測到輻射粒子達到所設定的範圍時，發出 <b><style=\"logic_on\">綠色訊號</style></b>"
+msgstr "偵測到輻射粒子達到所設定的範圍時，發出 <b><style=\"logic_on\">綠色訊號</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICHEPSENSOR.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHEPSENSOR.LOGIC_PORT_INACTIVE"
@@ -8807,7 +8807,7 @@ msgstr "廣播：<b><style=\"logic_off\">紅色訊號</style></b>"
 #. STRINGS.BUILDINGS.PREFABS.LOGICINTERASTEROIDSENDER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICINTERASTEROIDSENDER.NAME"
 msgid "<link=\"LOGICINTERASTEROIDSENDER\">Automation Broadcaster</link>"
-msgstr "<link=\"LOGICINTERASTEROIDSENDER\">自動化廣播站</link>"
+msgstr "<link=\"LOGICINTERASTEROIDSENDER\">訊號廣播站</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.DESC"
@@ -8967,7 +8967,7 @@ msgstr "<link=\"LOGICPRESSURESENSORLIQUID\">液壓感測器</link>"
 #. STRINGS.BUILDINGS.PREFABS.LOGICRADIATIONSENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRADIATIONSENSOR.DESC"
 msgid "Radiation sensors can disable buildings when they detect dangerous levels of radiation."
-msgstr "輻射感測器在檢測到危險的輻射劑量時會停用建築。"
+msgstr "輻射感測器在偵測到危險的輻射劑量時會停用建築。"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRADIATIONSENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRADIATIONSENSOR.EFFECT"
@@ -12252,12 +12252,12 @@ msgstr "<link=\"SOLIDCONDUITDISEASESENSOR\">輸送帶軌道細菌感測器</link
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.DESC"
 msgid "Element sensors can be used to detect the presence of a specific item on a rail."
-msgstr "元素感測器，用於檢測軌道上特定物品的存在。"
+msgstr "元素感測器，用於偵測軌道上特定物品的存在。"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.EFFECT"
 msgid "Sends a <b><style=\"logic_on\">Green Signal</style></b> when the selected item is detected on a rail."
-msgstr "檢測到指定物品在軌道上時，發出 <b><style=\"logic_on\">綠色訊號</style></b>。"
+msgstr "偵測到指定物品在軌道上時，發出 <b><style=\"logic_on\">綠色訊號</style></b>。"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.LOGIC_PORT"
@@ -12267,7 +12267,7 @@ msgstr "內部 <link=\"ELEMENTSLIQUID\">物品</link> 存在"
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.LOGIC_PORT_ACTIVE"
 msgid "Sends a <b><style=\"logic_on\">Green Signal</style></b> if the configured item is detected on the rail"
-msgstr "檢測到指定物品在軌道上時，，發出 <b><style=\"logic_on\">綠色訊號</style></b>"
+msgstr "偵測到指定物品在軌道上時，，發出 <b><style=\"logic_on\">綠色訊號</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.LOGIC_PORT_INACTIVE"
@@ -13782,7 +13782,7 @@ msgstr "初始化成功"
 #. STRINGS.CODEX.A1_CLONEDRACCOONS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A1_CLONEDRACCOONS.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subject Identified: B111]</smallcaps>\n\n[LOG BEGINS]\n\n[A throat clears.]\n\nB111: We are now reliably printing healthy, living subjects, though all have exhibited unusual qualities as a result of the cloning process.\n\n[Trilling sounds can be heard.]\n\nB111: Unusual mewings, benign neoplasms, and atavistic extremities have been seen in all subjects thus far, to varying degrees of severity. It seems that bypassing or accelerating juvenility halts certain critical stages of development. Brain function, however, appears typical.\n\n[Trilling.]\n\nB111: T-They also seem quite happy.\n\nB111: Dr. Broussard, signing off.\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音記錄初始化】\n【實驗編號：B111】</smallcaps>\n\n【日誌開始】\n\n【清嗓聲。】\n\nB111：我們現在能確實的列印健康、活的實驗體，雖然在複製的過程中全部都顯現出異常品質。\n\n【可以聽見觀呼聲。】\n\nB111：到目前為止，所有的實驗體都可以見到不同程度的，發音異常、良性腫瘤生長與肢體殘缺。實驗體似乎跳過或提早停止某些重要發育的階段。不過，大腦功能似乎完整。\n\n【觀呼聲。】\n\nB111：他ー他們似乎相當高興。\n\nB111：Broussard 博士，簽字。\n\n【日誌結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：B111】</smallcaps>\n\n【日誌開始】\n\n【清嗓聲。】\n\nB111：我們現在能確實的列印健康、活的實驗體，雖然在複製的過程中全部都顯現出異常品質。\n\n【可以聽見觀呼聲。】\n\nB111：到目前為止，所有的實驗體都可以見到不同程度的，發音異常、良性腫瘤生長與肢體殘缺。實驗體似乎跳過或提早停止某些重要發育的階段。不過，大腦功能似乎完整。\n\n【觀呼聲。】\n\nB111：他ー他們似乎相當高興。\n\nB111：Broussard 博士，簽字。\n\n【日誌結束】"
 
 #. STRINGS.CODEX.A1_CLONEDRACCOONS.SUBTITLE
 msgctxt "STRINGS.CODEX.A1_CLONEDRACCOONS.SUBTITLE"
@@ -13797,7 +13797,7 @@ msgstr "初始化成功"
 #. STRINGS.CODEX.A1_CLONEDRATS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A1_CLONEDRATS.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subject Identified: B111]</smallcaps>\n\n[LOG BEGINS]\n\n[A throat clears.]\n\nB111: We are now reliably printing healthy, living subjects, though all have exhibited unusual qualities as a result of the cloning process.\n\n[Squeaking sounds can be heard.]\n\nB111: Unusual vocalizations, benign growths, and missing appendages have been seen in all subjects thus far, to varying degrees of severity. It seems that bypassing or accelerating juvenility halts certain critical stages of development. Brain function, however, appears typical.\n\n[Squeaking.]\n\nB111: T-They also seem quite happy.\n\nB111: Dr. Broussard, signing off.\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音記錄初始化】\n【實驗編號：B111】</smallcaps>\n\n【日誌開始】\n\n【清嗓聲。】\n\nB111：我們現在能確實的列印健康、活的實驗體，雖然在複製的過程中全部都顯現出異常品質。\n\n【可以聽見觀呼聲。】\n\nB111：到目前為止，所有的實驗體都可以見到不同程度的，發音異常、良性腫瘤生長與肢體殘缺。實驗體似乎跳過或提早停止某些重要發育的階段。不過，大腦功能似乎完整。\n\n【觀呼聲。】\n\nB111：他ー他們似乎相當高興。\n\nB111：Broussard 博士，簽字。\n\n【日誌結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：B111】</smallcaps>\n\n【日誌開始】\n\n【清嗓聲。】\n\nB111：我們現在能確實的列印健康、活的實驗體，雖然在複製的過程中全部都顯現出異常品質。\n\n【可以聽見觀呼聲。】\n\nB111：到目前為止，所有的實驗體都可以見到不同程度的，發音異常、良性腫瘤生長與肢體殘缺。實驗體似乎跳過或提早停止某些重要發育的階段。不過，大腦功能似乎完整。\n\n【觀呼聲。】\n\nB111：他ー他們似乎相當高興。\n\nB111：Broussard 博士，簽字。\n\n【日誌結束】"
 
 #. STRINGS.CODEX.A1_CLONEDRATS.SUBTITLE
 msgctxt "STRINGS.CODEX.A1_CLONEDRATS.SUBTITLE"
@@ -13907,37 +13907,37 @@ msgstr "個人日誌：B111"
 #. STRINGS.CODEX.A2_AGRICULTURALNOTES.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A2_AGRICULTURALNOTES.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subject Identified: B577]</smallcaps>\n\n[LOG BEGINS]\n\nGeneticist: We've engineered crops to be rotated as needed depending on environmental situation. While a variety of plants would be ideal to supplement any remaining nutritional needs, any one of our designs would be enough to sustain a colony indefinitely without adverse effects on physical health.\n\nGeneticist: Some environmental survival issues still remain. Differing temperatures, light availability and last pass changes to nutrient levels take top priority, particularly for food and oxygen producing plants.\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音記錄初始化】\n【實驗體識別：B577】</smallcaps>\n\n【記錄開始】\n\n遺傳學家：我們根據環境情況設計了一些農作物。各種植物都可以理想的補充營養所需，而任何一種我們所設計的植物都足以無限期的維持殖民地而不會對身體健康有不利的影響。\n\n遺傳學家：仍然有一些環境生存上的問題。不同的溫度、可見光與最後所施予的養份是最重的，特別是可生產食物與氧氣的植物。\n\n【記錄結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗體識別：B577】</smallcaps>\n\n【記錄開始】\n\n遺傳學家：我們根據環境情況設計了一些農作物。各種植物都可以理想的補充營養所需，而任何一種我們所設計的植物都足以無限期的維持殖民地而不會對身體健康有不利的影響。\n\n遺傳學家：仍然有一些環境生存上的問題。不同的溫度、可見光與最後所施予的養份是最重的，特別是可生產食物與氧氣的植物。\n\n【記錄結束】"
 
 #. STRINGS.CODEX.A2_AGRICULTURALNOTES.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A2_AGRICULTURALNOTES.BODY.CONTAINER2"
 msgid "<smallcaps>[Log fragmentation detected]\n[Voice Recognition unavailable]</smallcaps>\n\n[LOG BEGINS]\n\n...Selected in response to concerns about colony psychological well-being.\n\nWhile design should focus on attributing mood-enhancing effects to natural Briar pheromone emissions, the project has been moved to the lowest priority level beneath more life-sustaining designs...\n\n[LOG ENDS]\n------------------\n"
-msgstr "<smallcaps>【檢測到日誌碎片】\n【語音記錄不可用】</smallcaps>\n\n【記錄開始】\n\n…選擇回應關心殖民地的心理健康。\n\n整個設計應專注於情緒增強效果來自於天然荊棘所釋放的費洛蒙，此計畫已被將降到最低優先層級，比維持生命設計更低層級…\n\n【記錄結束】\n------------------\n"
+msgstr "<smallcaps>【偵測到日誌碎片】\n【語音記錄不可用】</smallcaps>\n\n【記錄開始】\n\n…選擇回應關心殖民地的心理健康。\n\n整個設計應專注於情緒增強效果來自於天然荊棘所釋放的費洛蒙，此計畫已被將降到最低優先層級，比維持生命設計更低層級…\n\n【記錄結束】\n------------------\n"
 
 #. STRINGS.CODEX.A2_AGRICULTURALNOTES.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.A2_AGRICULTURALNOTES.BODY.CONTAINER3"
 msgid "<smallcaps>[Log fragmentation detected]\n[Voice Recognition unavailable]</smallcaps>\n\n[LOG BEGINS]\n\n...It is yet unknown if we can surmount the obstacles that stand in the way of engineering a root capable of reproduction in the more uninhabitable situations we anticipate for our colonies, or whether it is even worth the effort...\n\n[LOG ENDS]\n------------------\n"
-msgstr "<smallcaps>【檢測到日誌碎片】\n【語音記錄不可用】</smallcaps>\n\n【記錄開始】\n\n…目前還不知道，我們是否可以在不適合居住的環境下，利用工程學來克服殖民地在繁殖上的根本問題，但還是值得努力的…\n\n【日誌結束】\n------------------\n"
+msgstr "<smallcaps>【偵測到日誌碎片】\n【語音記錄不可用】</smallcaps>\n\n【記錄開始】\n\n…目前還不知道，我們是否可以在不適合居住的環境下，利用工程學來克服殖民地在繁殖上的根本問題，但還是值得努力的…\n\n【日誌結束】\n------------------\n"
 
 #. STRINGS.CODEX.A2_AGRICULTURALNOTES.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.A2_AGRICULTURALNOTES.BODY.CONTAINER4"
 msgid "<smallcaps>[Log fragmentation detected]\n[Voice Recognition unavailable]</smallcaps>\n\n[LOG BEGINS]\n\n...The Mealwood's hardiness will make it a potential contingency crop should Bristle Blossoms be unable to sustain sizable populations.\n\nIf pursued, design should focus on longterm viability and solving the psychological repercussions of prolonged Mealwood grain ingestion...\n\n[LOG ENDS]\n------------------\n"
-msgstr "<smallcaps>【檢測到日誌碎片】\n【語音記錄不可用】</smallcaps>\n\n【日誌開始】\n\n…如果鬃花無法維持在一定栽種數量，那麼虱子樹可以作為一種應急的農作物。\n\n以此前提，那麼設計上應該著眼於長期的生存能力，與長時間食用虱子樹對心理層面的影響…\n\n【日誌結束】\n------------------\n"
+msgstr "<smallcaps>【偵測到日誌碎片】\n【語音記錄不可用】</smallcaps>\n\n【日誌開始】\n\n…如果鬃花無法維持在一定栽種數量，那麼虱子樹可以作為一種應急的農作物。\n\n以此前提，那麼設計上應該著眼於長期的生存能力，與長時間食用虱子樹對心理層面的影響…\n\n【日誌結束】\n------------------\n"
 
 #. STRINGS.CODEX.A2_AGRICULTURALNOTES.BODY.CONTAINER5
 msgctxt "STRINGS.CODEX.A2_AGRICULTURALNOTES.BODY.CONTAINER5"
 msgid "<smallcaps>[Log fragmentation detected]\n[Voice Recognition unavailable]</smallcaps>\n\n[LOG BEGINS]\n\n...The Thimble Reed will be used as a contingency for textile production in the event that printed materials not be sufficient.\n\nDesign should focus on the yield frequency of the plant, as well as... erm... softness.\n\n[LOG ENDS]\n------------------\n"
-msgstr "<smallcaps>【檢測到日誌碎片】\n【語音記錄不可用】</smallcaps>\n\n【日誌開始】\n\n…如果列印材料不足，蘆葦可以作為應急的紡織材料。\n\n設計上應著眼於此植物的產量，以及…恩…柔軟度。\n\n【日誌結束】\n------------------\n"
+msgstr "<smallcaps>【偵測到日誌碎片】\n【語音記錄不可用】</smallcaps>\n\n【日誌開始】\n\n…如果列印材料不足，蘆葦可以作為應急的紡織材料。\n\n設計上應著眼於此植物的產量，以及…恩…柔軟度。\n\n【日誌結束】\n------------------\n"
 
 #. STRINGS.CODEX.A2_AGRICULTURALNOTES.BODY.CONTAINER6
 msgctxt "STRINGS.CODEX.A2_AGRICULTURALNOTES.BODY.CONTAINER6"
 msgid "<smallcaps>[Log fragmentation detected]\n[Voice Recognition unavailable]</smallcaps>\n\n[LOG BEGINS]\n\n...Balm Lily is a reliable all-purpose medicinal plant.\n\nVery little need be altered, save for assurances that it will survive wherever it may be planted...\n\n[LOG ENDS]\n------------------\n"
-msgstr "<smallcaps>【檢測到日誌碎片】\n【語音記錄不可用】</smallcaps>\n\n【日誌開始】\n\n…香水百合是一種可靠又多用途的藥用植物。\n\n基乎不需要修改，只要確保它在任何地方都可以種植…\n\n【日誌結束】\n------------------\n"
+msgstr "<smallcaps>【偵測到日誌碎片】\n【語音記錄不可用】</smallcaps>\n\n【日誌開始】\n\n…香水百合是一種可靠又多用途的藥用植物。\n\n基乎不需要修改，只要確保它在任何地方都可以種植…\n\n【日誌結束】\n------------------\n"
 
 #. STRINGS.CODEX.A2_AGRICULTURALNOTES.BODY.CONTAINER7
 msgctxt "STRINGS.CODEX.A2_AGRICULTURALNOTES.BODY.CONTAINER7"
 msgid "<smallcaps>[Log fragmentation detected]\n[Voice Recognition unavailable]</smallcaps>\n\n[LOG BEGINS]\n\n...The gene sequences within the common Dusk Cap allow it to grow in low light environments.\n\nThese genes should be sampled, with the hope that we can splice them into other plant designs....\n\n[LOG ENDS]\n------------------\n"
-msgstr "<smallcaps>【檢測到日誌碎片】\n【語音辨識不可用】</smallcaps>\n\n【日誌開始】\n\n…常見的黃昏蘑菇的基因序列，讓它可以生長在低光源的環境中。\n\n應該採樣這些基因，希望可以將它們加入到其它植物設計中…\n\n【日誌結束】\n------------------\n"
+msgstr "<smallcaps>【偵測到日誌碎片】\n【語音辨識不可用】</smallcaps>\n\n【日誌開始】\n\n…常見的黃昏蘑菇的基因序列，讓它可以生長在低光源的環境中。\n\n應該採樣這些基因，希望可以將它們加入到其它植物設計中…\n\n【日誌結束】\n------------------\n"
 
 #. STRINGS.CODEX.A2_AGRICULTURALNOTES.SUBTITLE
 msgctxt "STRINGS.CODEX.A2_AGRICULTURALNOTES.SUBTITLE"
@@ -14127,7 +14127,7 @@ msgstr "主旨：devon 的部落格"
 #. STRINGS.CODEX.A3_HUSBANDRYNOTES.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A3_HUSBANDRYNOTES.BODY.CONTAINER1"
 msgid "<smallcaps>[Log Fragmentation Detected]\n[Voice Recognition Unavailable]</smallcaps>\n\n[LOG BEGINS]\n\n...The Hatch has been selected for development due to its naturally wide range of potential food sources.\n\nEnergy production is our primary goal, but augmentation to allow for the consumption of non-organic materials is a more attainable first step, and will have additional uses for waste disposal...\n\n[LOG ENDS]\n------------------\n"
-msgstr "<smallcaps>【檢測到日誌碎片】\n【語音辨識不可用】</smallcaps>\n\n【日誌開始】\n\n…選擇哈奇是因為其廣範的潛在食物來源。\n\n生產能源是我們的主要目標，但增加無機原料的使用是實現的第一步，而且廢棄物將會有更多的用途…\n\n【日誌結束】\n------------------\n"
+msgstr "<smallcaps>【偵測到日誌碎片】\n【語音辨識不可用】</smallcaps>\n\n【日誌開始】\n\n…選擇哈奇是因為其廣範的潛在食物來源。\n\n生產能源是我們的主要目標，但增加無機原料的使用是實現的第一步，而且廢棄物將會有更多的用途…\n\n【日誌結束】\n------------------\n"
 
 #. STRINGS.CODEX.A3_HUSBANDRYNOTES.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A3_HUSBANDRYNOTES.BODY.CONTAINER2"
@@ -14157,7 +14157,7 @@ msgstr "【日誌開始】\n\n…生物發光一直令人新奇，但現在應�
 #. STRINGS.CODEX.A3_HUSBANDRYNOTES.BODY.CONTAINER7
 msgctxt "STRINGS.CODEX.A3_HUSBANDRYNOTES.BODY.CONTAINER7"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subject Identified: B363]</smallcaps>\n\n[LOG BEGINS]\n\nGeneticist: The primary concern raised by this project is the variability of environments that colonies may be forced to deal with. The creatures we send with the settlement party will not have the time to evolve and adapt to a new environment, yet each creature has been chosen to play a vital role in colony sustainability and is thus too precious to risk loss.\n\nGeneticist: It follows that each organism we design must be equipped with the tools to survive in as many volatile environments as we are capable of planning for. We should not rely on the Pod alone to replenish creature populations.\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音記錄初始化】\n【實驗編號：B363】</smallcaps>\n\n【日誌開始】\n\n遺傳學家：這計劃被關心的主要風險是，殖民地可能被迫面對環境的可變性。我們送出的移民團和生物將沒有時間進化和適應新環境，而每個被選中的生物在殖民地的可持續性發展都擔任重要的角色且異常珍貴，無法冒著損失的風險。\n\n遺傳學家：因此我們設計的生物都必須裝備工具，以便在我們能夠設想的多種可變環境中生存。我們不應該只靠列印設備來補充生物群落。\n\n【日誌結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：B363】</smallcaps>\n\n【日誌開始】\n\n遺傳學家：這計劃被關心的主要風險是，殖民地可能被迫面對環境的可變性。我們送出的移民團和生物將沒有時間進化和適應新環境，而每個被選中的生物在殖民地的可持續性發展都擔任重要的角色且異常珍貴，無法冒著損失的風險。\n\n遺傳學家：因此我們設計的生物都必須裝備工具，以便在我們能夠設想的多種可變環境中生存。我們不應該只靠列印設備來補充生物群落。\n\n【日誌結束】"
 
 #. STRINGS.CODEX.A3_HUSBANDRYNOTES.SUBTITLE
 msgctxt "STRINGS.CODEX.A3_HUSBANDRYNOTES.SUBTITLE"
@@ -14297,7 +14297,7 @@ msgstr "生物液體"
 #. STRINGS.CODEX.A5_SHRIMP.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A5_SHRIMP.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subject Identified: B111]</smallcaps>\n\n[LOG BEGINS]\n\n\"A-and how are you clever little guys today?\n\n(trilling)\n\nLook! I brought some pink shrimp for you to eat. Your favorite! Are you hungry?\n\n(excited trilling)\n\nOh, one moment, my keen eager pals. I left the recorder on --\n\n(rustling)\"\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音記錄初始化】\n【實驗編號：B111】</smallcaps>\n\n【日誌開始】\n\n「聰明的小伙伴，今…今天好嗎？\n\n（激動）\n\n看！粉紅蝦。 你的最愛！你餓了嗎？\n\n（興奮的尖叫聲）\n\n哦，馬上來朋友們。我留下了錄音機在——\n\n（沙沙）」\n\n【日誌結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：B111】</smallcaps>\n\n【日誌開始】\n\n「聰明的小伙伴，今…今天好嗎？\n\n（激動）\n\n看！粉紅蝦。 你的最愛！你餓了嗎？\n\n（興奮的尖叫聲）\n\n哦，馬上來朋友們。我留下了錄音機在——\n\n（沙沙）」\n\n【日誌結束】"
 
 #. STRINGS.CODEX.A5_SHRIMP.SUBTITLE
 msgctxt "STRINGS.CODEX.A5_SHRIMP.SUBTITLE"
@@ -14312,7 +14312,7 @@ msgstr "蝦子"
 #. STRINGS.CODEX.A5_STRAWBERRIES.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A5_STRAWBERRIES.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subject Identified: B111]</smallcaps>\n\n[LOG BEGINS]\n\n\"A-and how are you bouncy little critters today?\n\n(chattering)\n\nLook! I brought strawberries. Your favorite! Are you hungry?\n\n(excited chattering)\n\nOh, one moment, my precious, little pals. I left the recorder on --\n\n(rustling)\"\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音記錄初始化】\n【實驗編號：B111】</smallcaps>\n\n【日誌開始】\n\n「快活的小動物，今…今天好嗎？\n\n（喋喋不休）\n\n看！草莓。 你的最愛！你餓了嗎？\n\n（興奮的喋喋不休）\n\n哦，馬上來朋友們。我留下了錄音機在——\n\n（沙沙）」\n\n【日誌結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：B111】</smallcaps>\n\n【日誌開始】\n\n「快活的小動物，今…今天好嗎？\n\n（喋喋不休）\n\n看！草莓。 你的最愛！你餓了嗎？\n\n（興奮的喋喋不休）\n\n哦，馬上來朋友們。我留下了錄音機在——\n\n（沙沙）」\n\n【日誌結束】"
 
 #. STRINGS.CODEX.A5_STRAWBERRIES.SUBTITLE
 msgctxt "STRINGS.CODEX.A5_STRAWBERRIES.SUBTITLE"
@@ -14327,7 +14327,7 @@ msgstr "草莓"
 #. STRINGS.CODEX.A5_SUNFLOWERSEEDS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A5_SUNFLOWERSEEDS.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subject Identified: B111]</smallcaps>\n\n[LOG BEGINS]\n\n\"A-and how are you furry little fellows today?\n\n(squeaking)\n\nLook! I brought sunflower seeds. Your favorite! Are you hungry?\n\n(excited squeaking)\n\nOh, one moment, my dear, little friends. I left the recorder on --\n\n(rustling)\"\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音記錄初始化】\n【實驗編號：B111】</smallcaps>\n\n【日誌開始】\n\n「你今天好嗎？\n\n（尖叫聲）\n\n看！葵花子。 你的最愛！你餓了嗎？\n\n（興奮的尖叫聲）\n\n哦，馬上來朋友們。我留下了錄音機在——\n\n（沙沙）」\n\n【日誌結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：B111】</smallcaps>\n\n【日誌開始】\n\n「你今天好嗎？\n\n（尖叫聲）\n\n看！葵花子。 你的最愛！你餓了嗎？\n\n（興奮的尖叫聲）\n\n哦，馬上來朋友們。我留下了錄音機在——\n\n（沙沙）」\n\n【日誌結束】"
 
 #. STRINGS.CODEX.A5_SUNFLOWERSEEDS.SUBTITLE
 msgctxt "STRINGS.CODEX.A5_SUNFLOWERSEEDS.SUBTITLE"
@@ -14457,7 +14457,7 @@ msgstr "新的安檢系統？"
 #. STRINGS.CODEX.A7_EMPLOYEEPROCESSING.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A7_EMPLOYEEPROCESSING.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subjects Identified: A001, A435, B111]</smallcaps>\n\n[LOG BEGINS]\n\nTechnician: Thank you for the fingerprints, doctor. We just need a quick voice sample, then you can be on your way.\n\nDr. Broussard: Wow Jackie, your new security's no joke.\n\nDirector: Please address me as \"Director\" while on Facility grounds.\n\nDr. Broussard: ...R-right.\n\n(clicking)\n\nTechnician: This should only take a moment. Speak clearly and the system will derive a vocal signature for you.\n\nTechnician: When you're ready.\n\n(throat clearing)\n\nDr. Broussard: Security code B111, Dr. Olivia Broussard. Gravitas Facility Bioengineering Department.\n\n(pause)\n\nTechnician: Great.\n\nDr. Broussard: What was that light just now?\n\nDirector: A basic security scan. No need for concern.\n\n(machine printing)\n\nTechnician: Here's your ID. You should have access to all doors in the facility now, Dr. Broussard.\n\nDr. Broussard: Thank you.\n\nDirector: Come along, Doctor.\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音記錄初始化】\n【實驗編號：A001、A435、B111】</smallcaps>\n\n【日誌開始】\n\n技術人員：感謝您提供指紋，博士。現在我們只需要一個快速的語音樣本，你就可以繼續通過了。\n\nBroussard 博士：哇！Jackie，你新的安檢系統不是開玩笑的。\n\n經理：請到「經理室」所在的樓層來見我。\n\nBroussard 博士：…馬上來。\n\n（按鍵聲）\n\n技術人員：這只需要花點時間。發音清楚，然後系統將會記錄您的聲音識別特徵。\n\n技術人員：當你準備好了。\n\n（咳咳咳）\n\nBroussard 博士：安全碼 B111，Olivia Broussard 博士。引力科技生物工程部\n\n（暫停）\n\n技術人員：很好。\n\nBroussard 博士：剛剛那道光是什麼？\n\n經理： 一個基本的安全掃描。不需要在意。\n\n（機器列印聲）\n\n技術人員：這是你的識別證。你現在應該能通過這公司內所有的門了，Broussard 博士。\n\nBroussard 博士：謝謝您。\n\n經理：一起來，博士。\n\n【日誌結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：A001、A435、B111】</smallcaps>\n\n【日誌開始】\n\n技術人員：感謝您提供指紋，博士。現在我們只需要一個快速的語音樣本，你就可以繼續通過了。\n\nBroussard 博士：哇！Jackie，你新的安檢系統不是開玩笑的。\n\n經理：請到「經理室」所在的樓層來見我。\n\nBroussard 博士：…馬上來。\n\n（按鍵聲）\n\n技術人員：這只需要花點時間。發音清楚，然後系統將會記錄您的聲音識別特徵。\n\n技術人員：當你準備好了。\n\n（咳咳咳）\n\nBroussard 博士：安全碼 B111，Olivia Broussard 博士。引力科技生物工程部\n\n（暫停）\n\n技術人員：很好。\n\nBroussard 博士：剛剛那道光是什麼？\n\n經理： 一個基本的安全掃描。不需要在意。\n\n（機器列印聲）\n\n技術人員：這是你的識別證。你現在應該能通過這公司內所有的門了，Broussard 博士。\n\nBroussard 博士：謝謝您。\n\n經理：一起來，博士。\n\n【日誌結束】"
 
 #. STRINGS.CODEX.A7_EMPLOYEEPROCESSING.SUBTITLE
 msgctxt "STRINGS.CODEX.A7_EMPLOYEEPROCESSING.SUBTITLE"
@@ -14542,7 +14542,7 @@ msgstr "振奮人心的結果"
 #. STRINGS.CODEX.A8_NEWSECURITY3.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A8_NEWSECURITY3.BODY.CONTAINER2"
 msgid "<indent=5%>I'm almost certain now that the Facility's stolen our genetic information.\n\nForty-odd employees would make for mighty convenient lab rats, and even if we discovered what Gravitas did, we wouldn't have a lot of legal options. We can't exactly go to the public given the nature of our work.\n\nI can't stop thinking about what sort of experiments they might be conducting on my DNA, but I have to keep my mouth shut.\n\nI can't risk losing my job.</indent>"
-msgstr "<indent=5%>我現在幾乎可以肯定公司竊取了我們的遺傳資訊。\n\n四十多名員工將很快成為實驗室的老鼠，\n即使我們發現了引力科技做了什麼，\n我們也沒有很多的法律選項。\n因為我們的工作性質無法完全公開。\n\n我不禁想到他們可能用我的 DNA 進行什麼樣的實驗，但我必須閉上我的嘴。\n\n我不能冒險而失去工作。</indent>"
+msgstr "<indent=5%>我現在幾乎可以肯定公司竊取了我們的遺傳資訊。\n\n四十多名員工將很快成為實驗室的老鼠，\n即使我們發現了引力科技做了什麼，\n我們也沒有很多的法律選項。\n因為我們的工作性質無法完全公開。\n\n我不禁想到他們可能用我的基因進行什麼樣的實驗，但我必須閉上我的嘴。\n\n我不能冒險而失去工作。</indent>"
 
 #. STRINGS.CODEX.A8_NEWSECURITY3.BODY.EMAILHEADER1
 msgctxt "STRINGS.CODEX.A8_NEWSECURITY3.BODY.EMAILHEADER1"
@@ -14562,7 +14562,7 @@ msgstr "加密等級：二"
 #. STRINGS.CODEX.A8_NEWSECURITY3.TITLE
 msgctxt "STRINGS.CODEX.A8_NEWSECURITY3.TITLE"
 msgid "They Stole Our DNA"
-msgstr "他們竊取了我們的 DNA"
+msgstr "他們竊取了我們的基因"
 
 #. STRINGS.CODEX.A9_NEUTRONIUMAPPLICATIONS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A9_NEUTRONIUMAPPLICATIONS.BODY.CONTAINER1"
@@ -14642,7 +14642,7 @@ msgstr "除了 <link=\"WIRE\">電線</link> 外，多數的用電設施都可用
 #. STRINGS.CODEX.AUTOMATION.PARAGRAPH_3
 msgctxt "STRINGS.CODEX.AUTOMATION.PARAGRAPH_3"
 msgid "There are two signals that an <link=\"LOGICWIRE\">Automation Wire</link> can send: Green and Red. The green signal will usually cause buildings to turn on, and the red signal will usually cause buildings to turn off. Sensors can often be configured to send their green signal only under certain conditions. A <link=\"LOGICTEMPERATURESENSOR\">Thermo Sensor</link> could be configured to only send a green signal if detecting temperatures greater than a chosen value.\n\n"
-msgstr "<link=\"LOGICWIRE\">訊號線</link> 可以發出：綠色與紅色兩種訊號。\n綠色訊號通常會將建築物打開，而紅色訊號通常會將建築物關閉。\n感測器通常可以設定只在某些條件發出綠色訊號。\n像是 <link=\"LOGICTEMPERATURESENSOR\">溫度感測器</link> 可設定為只在檢測到溫度高於所設定的值時發出綠色訊號。\n\n"
+msgstr "<link=\"LOGICWIRE\">訊號線</link> 可以發出：綠色與紅色兩種訊號。\n綠色訊號通常會將建築物打開，而紅色訊號通常會將建築物關閉。\n感測器通常可以設定只在某些條件發出綠色訊號。\n像是 <link=\"LOGICTEMPERATURESENSOR\">溫度感測器</link> 可設定為只在偵測到溫度高於所設定的值時發出綠色訊號。\n\n"
 
 #. STRINGS.CODEX.AUTOMATION.PARAGRAPH_4
 msgctxt "STRINGS.CODEX.AUTOMATION.PARAGRAPH_4"
@@ -14702,7 +14702,7 @@ msgstr "回覆：Holland 博士的狗"
 #. STRINGS.CODEX.B1_HOLLANDSDOG.TITLE2
 msgctxt "STRINGS.CODEX.B1_HOLLANDSDOG.TITLE2"
 msgid "dr. holland's dog"
-msgstr "holland 博士的狗"
+msgstr "Holland 博士的狗"
 
 #. STRINGS.CODEX.B1_SPACEFACILITYDISPLAY1.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B1_SPACEFACILITYDISPLAY1.BODY.CONTAINER1"
@@ -14727,7 +14727,7 @@ msgstr "太空中的辦公空間！"
 #. STRINGS.CODEX.B10_AI.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B10_AI.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subject Identified: B111-1]</smallcaps>\n\n[LOG BEGINS]\n\nI made a horrible discovery today while reviewing work on the artificial intelligence programming. It seems Dr. Ali mixed up a file when uploading a program onto a rudimentary robot and discovered that the device displayed the characteristics of what he called \"a puppy that was lost in a teleportation experiment weeks ago\".\n\nThis is unbelievable! Jackie has been hiding the nature of the teleportation experiments from me. What's worse is I know from previous conversations that she knows I would never approve of pursuing this line of experimentation. The societal benefits of teleportation aside, you <i>cannot</i> kill a living being every time you want to send them to another room. The moral and ethical implications of this are horrendous.\n\nI know she has been keeping this information from me. When I searched through the Gravitas database I found nothing to do with these teleportation experiments. It was only because this reference showed up in Dr. Ali's AI paper that I was able to discover what has been happening.\n\nJackie has to be stopped.\n\nBut I know she is beyond reasonable discussion. I hope this is the only thing she is hiding from me, but I fear it is not.\n\n[LOG ENDS]\n\n[LOG BEGINS]\n\nDespite myself, I can't help thinking of the intriguing possiblities this presents for the AI development. It haunts me.\n\nI fear I may be sliding down a slippery slope, at the bottom of which Jackie is waiting for me with open arms.\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音記錄初始化】\n【實驗編號：B111-1】</smallcaps>\n\n【日誌開始】\n\n今天我在重新檢視人工智慧程式時有了一個可怕的發現。\n看來 Ali 博士將程式上傳到一個初級機器人時夾雜了一個檔案，\n然後發現該設備顯示的特徵為所它謂的「一隻小狗在上星期的傳送實驗中失蹤了」。\n\n無法置信！Jackie 向我隱瞞了傳送實驗的本質。\n更糟糕的是我從以前的談話得知，她知道我絕對不會同意這項實驗。\n除了傳送的社會益處外，你 <I>不能</i> 在每次你想將它們傳送到另一個房間時都殺死一個生物。\n這種道德與論理的意義是可怕的。\n\n我知道她一直對我保密此資訊。\n當我搜尋引力設施的資料庫時，我發現這些與傳送實驗無關。\n只因為僅在 Ali 博士的 AI 文件中顯示這個線索，我才能發現正在發生的事。\n\nJackie 必須停止。\n\n但我知道她已經無法合理討論了。\n我希望這是她對我隱瞞的唯一一件事，\n但我擔心並不是如此。\n\n【日誌結束】\n\n【日誌開始】\n\n僅管我自己不禁想到這對 AI 開發帶來的可能性。\n它困擾著我。\n\n我擔心滑坡效應，而 Jackie 正在底端張開雙臂等著我。\n\n【日誌結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：B111-1】</smallcaps>\n\n【日誌開始】\n\n今天我在重新檢視人工智慧程式時有了一個可怕的發現。\n看來 Ali 博士將程式上傳到一個初級機器人時夾雜了一個檔案，\n然後發現該設備顯示的特徵為所它謂的「一隻小狗在上星期的傳送實驗中失蹤了」。\n\n無法置信！Jackie 向我隱瞞了傳送實驗的本質。\n更糟糕的是我從以前的談話得知，她知道我絕對不會同意這項實驗。\n除了傳送的社會益處外，你 <I>不能</i> 在每次你想將它們傳送到另一個房間時都殺死一個生物。\n這種道德與論理的意義是可怕的。\n\n我知道她一直對我保密此資訊。\n當我搜尋引力設施的資料庫時，我發現這些與傳送實驗無關。\n只因為僅在 Ali 博士的 AI 文件中顯示這個線索，我才能發現正在發生的事。\n\nJackie 必須停止。\n\n但我知道她已經無法合理討論了。\n我希望這是她對我隱瞞的唯一一件事，\n但我擔心並不是如此。\n\n【日誌結束】\n\n【日誌開始】\n\n僅管我自己不禁想到這對 AI 開發帶來的可能性。\n它困擾著我。\n\n我擔心滑坡效應，而 Jackie 正在底端張開雙臂等著我。\n\n【日誌結束】"
 
 #. STRINGS.CODEX.B10_AI.SUBTITLE
 msgctxt "STRINGS.CODEX.B10_AI.SUBTITLE"
@@ -14807,7 +14807,7 @@ msgstr "規格變更"
 #. STRINGS.CODEX.B3_MOVEDRABBITS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B3_MOVEDRABBITS.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subjects Identified: A001, B111]</smallcaps>\n\n[LOG BEGINS]\n\nBroussard: Director, do you know where my rabbits have been moved to? I asked around the bioengineering division but I was referred back to you.\n\nDirector: Hm? Oh, yes, they've been removed.\n\nBroussard: \"Removed\"?\n\nDirector: Discarded. I'm sorry, did you still need them? The reports showed your experiments with them were completed.\n\nBroussard: No, I-I... I'd collected all the data I needed, I just --\n\nDirector: -- Doctor. You weren't making pets out of test subjects, were you?\n\nBroussard: Don't be ridiculous, I --\n\nDirector: -- Good.They were horrible to look at anyway. All those red eyes looking at me.\n\nBroussard: In the future, please do not mess with my things. It... disturbs me.\n\nDirector: I will notify you beforehand next time, Doctor.\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音記錄初始化】\n【實驗編號：A001、B111】</smallcaps>\n\n【記錄開始】\n\nBroussard：經理，您知道我的小白鼠們被搬到那了嗎？我詢問了生物工程部，但是我被轉介給了您。\n\nDirector：恩？哦，是的，它們被清除了。\n\nBroussard：「清除」？\n\nDirector：丟棄了。我很抱歉，你還需要它們？報告顯示你對它們的實驗完成了。\n\nBroussard：不，我…我是收集了全部所需的資料，我只是──\n\nDirector：——博士。你不會拿實驗對象當作寵物，是嗎？\n\nBroussard：別笑了，我——\n\nDirector：——很好。不管怎樣它們看起來都很可怕。那些紅色眼睛望著我時。\n\nBroussard：未來，請不要亂動我的東西。這會…擾亂我。\n\nDirector：我下次會提先通知你的，博士。\n\n【記錄結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：A001、B111】</smallcaps>\n\n【記錄開始】\n\nBroussard：經理，您知道我的小白鼠們被搬到那了嗎？我詢問了生物工程部，但是我被轉介給了您。\n\nDirector：恩？哦，是的，它們被清除了。\n\nBroussard：「清除」？\n\nDirector：丟棄了。我很抱歉，你還需要它們？報告顯示你對它們的實驗完成了。\n\nBroussard：不，我…我是收集了全部所需的資料，我只是──\n\nDirector：——博士。你不會拿實驗對象當作寵物，是嗎？\n\nBroussard：別笑了，我——\n\nDirector：——很好。不管怎樣它們看起來都很可怕。那些紅色眼睛望著我時。\n\nBroussard：未來，請不要亂動我的東西。這會…擾亂我。\n\nDirector：我下次會提先通知你的，博士。\n\n【記錄結束】"
 
 #. STRINGS.CODEX.B3_MOVEDRABBITS.SUBTITLE
 msgctxt "STRINGS.CODEX.B3_MOVEDRABBITS.SUBTITLE"
@@ -14822,7 +14822,7 @@ msgstr "被移走的小白鼠"
 #. STRINGS.CODEX.B3_MOVEDRACCOONS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B3_MOVEDRACCOONS.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subjects Identified: A001, B111]</smallcaps>\n\n[LOG BEGINS]\n\nBroussard: Director, do you know where my raccoons have been moved to? I asked around the bioengineering division but I was referred back to you.\n\nDirector: Hm? Oh, yes, they've been removed.\n\nBroussard: \"Removed\"?\n\nDirector: Discarded. I'm sorry, did you still need them? The reports showed your experiments with them were completed.\n\nBroussard: No, I-I... I'd collected all the data I needed, I just --\n\nDirector: -- Doctor. You weren't making pets out of test subjects, were you?\n\nBroussard: Don't be ridiculous, I --\n\nDirector: -- Good.They were horrible to look at anyway. All that mangy fur.\n\nBroussard: In the future, please do not mess with my things. It... disturbs me.\n\nDirector: I will notify you beforehand next time, Doctor.\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音記錄初始化】\n【實驗編號：A001、B111】</smallcaps>\n\n【記錄開始】\n\nBroussard：經理，您知道我的小老鼠被搬到那了嗎？我詢問了生物工程部，但是我被轉介給了您。\n\nDirector：恩？哦，是的，它們被清除了。\n\nBroussard：「清除」？\n\nDirector：丟棄了。我很抱歉，你還需要它們？報告顯示你對它們的實驗完成了。\n\nBroussard：不，我…我是收集了全部所需的資料，我只是──\n\nDirector：——博士。你不會拿實驗對象當作寵物，是嗎？\n\nBroussard：別笑了，我——\n\nDirector：——很好。不管怎樣它們看起來都很可怕。那些臟兮兮的毛髮。\n\nBroussard：未來，請不要亂動我的東西。這會…擾亂我。\n\nDirector：我下會提先通知你的，博士。\n\n【記錄結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：A001、B111】</smallcaps>\n\n【記錄開始】\n\nBroussard：經理，您知道我的小老鼠被搬到那了嗎？我詢問了生物工程部，但是我被轉介給了您。\n\nDirector：恩？哦，是的，它們被清除了。\n\nBroussard：「清除」？\n\nDirector：丟棄了。我很抱歉，你還需要它們？報告顯示你對它們的實驗完成了。\n\nBroussard：不，我…我是收集了全部所需的資料，我只是──\n\nDirector：——博士。你不會拿實驗對象當作寵物，是嗎？\n\nBroussard：別笑了，我——\n\nDirector：——很好。不管怎樣它們看起來都很可怕。那些臟兮兮的毛髮。\n\nBroussard：未來，請不要亂動我的東西。這會…擾亂我。\n\nDirector：我下會提先通知你的，博士。\n\n【記錄結束】"
 
 #. STRINGS.CODEX.B3_MOVEDRACCOONS.SUBTITLE
 msgctxt "STRINGS.CODEX.B3_MOVEDRACCOONS.SUBTITLE"
@@ -14837,7 +14837,7 @@ msgstr "被移走的小白鼠"
 #. STRINGS.CODEX.B3_MOVEDRATS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B3_MOVEDRATS.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subjects Identified: A001, B111]</smallcaps>\n\n[LOG BEGINS]\n\nBroussard: Director, do you know where my rats have been moved to? I asked around the bioengineering division but I was referred back to you.\n\nDirector: Hm? Oh, yes, they've been removed.\n\nBroussard: \"Removed\"?\n\nDirector: Discarded. I'm sorry, did you still need them? The reports showed your experiments with them were completed.\n\nBroussard: No, I-I... I'd collected all the data I needed, I just --\n\nDirector: -- Doctor. You weren't making pets out of test subjects, were you?\n\nBroussard: Don't be ridiculous, I --\n\nDirector: -- Good.They were horrible to look at anyway. All those bumps.\n\nBroussard: In the future, please do not mess with my things. It... disturbs me.\n\nDirector: I will notify you beforehand next time, Doctor.\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音記錄初始化】\n【實驗編號：A001、B111】</smallcaps>\n\n【記錄開始】\n\nBroussard：經理，您知道我的小老鼠被搬到那了嗎？我詢問了生物工程部，但是我被轉介給了您。\n\nDirector：恩？哦，是的，它們被清除了。\n\nBroussard：「清除」？\n\nDirector：丟棄了。我很抱歉，你還需要它們？報告顯示你對它們的實驗完成了。\n\nBroussard：不，我…我是收集了所有的所需的資料，我只是──\n\nDirector：——博士。你不會拿實驗對象當作寵物，是嗎？\n\nBroussard：別笑了，我——\n\nDirector：——很好。不管怎樣它們看起來都很可怕。那些碰撞。\n\nBroussard：未來，請不要亂動我的東西。這會…擾亂我。\n\nDirector：我下會提先通知你的，博士。\n\n【記錄結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：A001、B111】</smallcaps>\n\n【記錄開始】\n\nBroussard：經理，您知道我的小老鼠被搬到那了嗎？我詢問了生物工程部，但是我被轉介給了您。\n\nDirector：恩？哦，是的，它們被清除了。\n\nBroussard：「清除」？\n\nDirector：丟棄了。我很抱歉，你還需要它們？報告顯示你對它們的實驗完成了。\n\nBroussard：不，我…我是收集了所有的所需的資料，我只是──\n\nDirector：——博士。你不會拿實驗對象當作寵物，是嗎？\n\nBroussard：別笑了，我——\n\nDirector：——很好。不管怎樣它們看起來都很可怕。那些碰撞。\n\nBroussard：未來，請不要亂動我的東西。這會…擾亂我。\n\nDirector：我下會提先通知你的，博士。\n\n【記錄結束】"
 
 #. STRINGS.CODEX.B3_MOVEDRATS.SUBTITLE
 msgctxt "STRINGS.CODEX.B3_MOVEDRATS.SUBTITLE"
@@ -14942,7 +14942,7 @@ msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：A001、B111】
 #. STRINGS.CODEX.B4_REVISITEDNUMBERS.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.B4_REVISITEDNUMBERS.BODY.CONTAINER2"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subjects Identified: A001, B111]</smallcaps>\n\n[LOG BEGINS]\n\nJackie: Dr. Jones projects that traditional fuel will be insufficient for the Pod to make the flight.\n\nOlivia: Then we need to change its specs. Use lighter materials, cut weight wherever possible, do widespread optimizations across the whole project.\n\nJackie: We have another option.\n\nOlivia: No. Absolutely not. You needed me and I-I came back, but if you plan to revive our research--\n\nJackie: The world's doomed regardless, Olivia. We need to use any advantage we've got... And just think about it! If we built [REDACTED] technology into the Pod it wouldn't just fix the flight problem, we'd know for a fact it would run uninterrupted for thousands of years, maybe more.\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音記錄初始化】\n【實驗編號：A001、B111】</smallcaps>\n\n【記錄開始】\n\nJackie：Jones 博士，計劃裡的傳統燃料不足以讓列印設備飛行。\n\nOlivia：那麼我們需要修改規格。使用更輕的材料，盡可能的減少重量，對整個計劃進行更全面的優化。\n\nJackie：我們還有別的選擇。\n\nOlivia：不行。絕對不行。你需要我，然後－我回來了，但是如果你打算採用我們的研究——\n\nJackie：世界注定會毀滅，Olivia。我們需要利用任何我們擁有的優勢…並考慮一下！如果將我們創造的【已刪除】技術應用在列印設備上，或許解決的不僅僅是飛行的問題，我們知道它可以持續運轉數千年的時間，也許更久。"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：A001、B111】</smallcaps>\n\n【記錄開始】\n\nJackie：Jones 博士，計劃裡的傳統燃料不足以讓列印設備飛行。\n\nOlivia：那麼我們需要修改規格。使用更輕的材料，盡可能的減少重量，對整個計劃進行更全面的優化。\n\nJackie：我們還有別的選擇。\n\nOlivia：不行。絕對不行。你需要我，然後－我回來了，但是如果你打算採用我們的研究——\n\nJackie：世界注定會毀滅，Olivia。我們需要利用任何我們擁有的優勢…並考慮一下！如果將我們創造的【已刪除】技術應用在列印設備上，或許解決的不僅僅是飛行的問題，我們知道它可以持續運轉數千年的時間，也許更久。"
 
 #. STRINGS.CODEX.B4_REVISITEDNUMBERS.SUBTITLE
 msgctxt "STRINGS.CODEX.B4_REVISITEDNUMBERS.SUBTITLE"
@@ -14957,7 +14957,7 @@ msgstr "重訪號碼"
 #. STRINGS.CODEX.B5_ANTS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B5_ANTS.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subjects Identified: A001, B556]</smallcaps>\n\n[LOG BEGINS]\n\nTechnician: <i>Atta cephalotes</i>. What sort of experiment are you doing with these?\n\nDirector: No experiment. I just find them interesting. Don't you?\n\nTech: Not really?\n\nDirector: You ought to. Very efficient. They perfected farming millions of years before humans.\n\n(sound of tapping on glass)\n\nDirector: An entire colony led by and in service to its queen. Each organism knows its role.\n\nTech: I have the results from the power tests, director.\n\nDirector: And?\n\nTech: Negative, ma'am.\n\nDirector: I see. You know, another admirable quality of ants occurs to me. They can pull twenty times their own weight.\n\nTech: I'm not sure I follow, ma'am.\n\nDirector: Are you pulling your weight, Doctor?\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音記錄初始化】\n【實驗編號：A001、B556】</smallcaps>\n\n【記錄開始】\n\n技師：<i>Atta cephalotes</i>。你正在做什麼實驗？\n\n經理：不是實驗。我只是發現它們很迷人。你覺得呢？\n\n技師：我不覺得？\n\n經理：你應該覺得。它們效率很高。在人類出現前幾百萬年就完善了農業。\n\n（敲打玻璃的聲音）\n\n經理：整個殖民地由蟻后所統治並為其服務。每隻螞蟻都知道它的角色\n\n技師：經理，能量測試有了結果。\n\n經理：然後？\n\n技師：不夠，女士。\n\n經理：我了解了。你知道，我發現了另一種很棒的螞蟻。它們可以抬起比它們本身重 20 倍的東西。\n\n技師：我不確定我知道，女士。\n\n經理：你能抬起和你體重一樣的東西嗎，博士？\n\n【記錄結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：A001、B556】</smallcaps>\n\n【記錄開始】\n\n技師：<i>Atta cephalotes</i>。你正在做什麼實驗？\n\n經理：不是實驗。我只是發現它們很迷人。你覺得呢？\n\n技師：我不覺得？\n\n經理：你應該覺得。它們效率很高。在人類出現前幾百萬年就完善了農業。\n\n（敲打玻璃的聲音）\n\n經理：整個殖民地由蟻后所統治並為其服務。每隻螞蟻都知道它的角色\n\n技師：經理，能量測試有了結果。\n\n經理：然後？\n\n技師：不夠，女士。\n\n經理：我了解了。你知道，我發現了另一種很棒的螞蟻。它們可以抬起比它們本身重 20 倍的東西。\n\n技師：我不確定我知道，女士。\n\n經理：你能抬起和你體重一樣的東西嗎，博士？\n\n【記錄結束】"
 
 #. STRINGS.CODEX.B5_ANTS.SUBTITLE
 msgctxt "STRINGS.CODEX.B5_ANTS.SUBTITLE"
@@ -15147,7 +15147,7 @@ msgstr "嗨~~~~~!"
 #. STRINGS.CODEX.B7_INSPACE.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B7_INSPACE.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subjects Identified: B835, B997]</smallcaps>\n\n[LOG BEGINS]\n\nDr.Ansari: Shhhh...\n\nDr. Bubare: What? What are we doing here?\n\nDr. Ansari: I'll show you, just keep your voice down.\n\nDr. Bubare: Are we even allowed to be here?\n\nDr. Ansari: No. Trust me it'll all be worth it once I can find it.\n\nDr. Bubare: Find what?\n\nDr. Ansari: That!\n\nDr. Bubare: ...Video feed from a rat cage? What's so great about -- Wait. Are they--?\n\nDr. Ansari: Floating!\n\nDr. Bubare: You mean they're in--?\n\nDr. Ansari: Space!\n\nDr. Bubare: Our thermal rats are in space?!?!\n\nDr. Ansari: Yep! There's Applecart and Cherrypie and little Bananabread. Look at them, they're so happy. We made ratstronauts!!\n\nDr. Bubare: HAPPY rat-stronauts.\n\nDr. Ansari: WE MADE HAPPY RATSTRONAUTS!!\n\nDr. Bubare: Shhhhhh...Someone's coming.\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音記錄初始化】\n【實驗編號：B835, B997】</smallcaps>\n\n【日誌開始】\n\nAnsari 博士：噓…\n\nBubare 博士：什麼？我們在這做什麼？\n\nAnsari 博士：我展示給你看，只要你小聲點。\n\nBubare 博士：這裡允許我們這樣做？\n\nAnsari 博士：不。相信我，一旦我找到它了一切都是值得的。\n\nBubare 博士：找到什麼？\n\nAnsari 博士：那個！\n\nBubare 博士：…老鼠籠的影片？有什麼了不起的…等等。它們…？\n\nAnsari 博士：漂浮！\n\nBubare 博士：你的意思是它們在…？\n\nAnsari 博士：太空！\n\nBubare 博士：我們的熱鼠在太空中？！？！\n\nAnsari 博士：是的！這裡有蘋果車，莓果派與小香蕉蛋糕。看看它們，它們很開心。我們創造了太空鼠！！\n\nBubare 博士：開心的太空鼠。\n\nAnsari 博士：我們創造了開心的太空鼠！！\n\nBubare 博士：噓…有人來了。\n\n【日誌結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：B835, B997】</smallcaps>\n\n【日誌開始】\n\nAnsari 博士：噓…\n\nBubare 博士：什麼？我們在這做什麼？\n\nAnsari 博士：我展示給你看，只要你小聲點。\n\nBubare 博士：這裡允許我們這樣做？\n\nAnsari 博士：不。相信我，一旦我找到它了一切都是值得的。\n\nBubare 博士：找到什麼？\n\nAnsari 博士：那個！\n\nBubare 博士：…老鼠籠的影片？有什麼了不起的…等等。它們…？\n\nAnsari 博士：漂浮！\n\nBubare 博士：你的意思是它們在…？\n\nAnsari 博士：太空！\n\nBubare 博士：我們的熱鼠在太空中？！？！\n\nAnsari 博士：是的！這裡有蘋果車，莓果派與小香蕉蛋糕。看看它們，它們很開心。我們創造了太空鼠！！\n\nBubare 博士：開心的太空鼠。\n\nAnsari 博士：我們創造了開心的太空鼠！！\n\nBubare 博士：噓…有人來了。\n\n【日誌結束】"
 
 #. STRINGS.CODEX.B7_INSPACE.SUBTITLE
 msgctxt "STRINGS.CODEX.B7_INSPACE.SUBTITLE"
@@ -15222,7 +15222,7 @@ msgstr "禮貌的請求"
 #. STRINGS.CODEX.B9_TELEPORTATION.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B9_TELEPORTATION.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subject Identified: A001]</smallcaps>\n\n[LOG BEGINS]\n\nDr. Techna's newest notes on Duplicant memories have revealed some interesting discoveries. It seems memories </i>can</i> be transferred to the cloned subject but it requires the host to be subjected to a machine that performs extremely detailed microanalysis. This in-depth dissection of the subject would produce the results we need but at the expense of destroying the host.\n\nOf course this is not ideal for our current situation. The time and energy it took to recruit Gravitas’ highly trained staff would be wasted if we were to extirpate these people for the sake of experimentation. But perhaps we can use our Duplicants as experimental subjects until we perfect the process and look into finding volunteers for the future in order to obtain an ideal specimen. I will have to discuss this with Dr. Techna but I'm sure he would be enthusiastic about such an opportunity to continue his work.\n\nI am also very interested in the commercial opportunities this presents. Off the top of my head I can think of applications in genetics, AI development, and teleportation technology. This could be a significant financial windfall for the company.\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音記錄初始化】\n【實驗編號】：A001</smallcaps>\n\n【日誌開始】\n\nTechna 博士關於複製人記憶的最新記錄，\n揭露了一些有趣的發現。記憶似乎 </I>可以</i> 可移到複製體上，\n但需要將主體送入一台機器做非常細微的分析。\n對主體的深入剖析會產生我們需要的結果，但需要以破壞主體為代價。\n\n當然，這對於我們目前的狀況來說不是個好方案。\n如果我們為了實驗而淘汰這些人，那麼引力科技就浪費這些花了時間與精力培養的資深員工。\n 但也許我們可以將複製人當作實驗對像，直到我們完善流程與找到自願者來完成這個目標。\n我必須和 Techna 博士討論，但我相信他他會能繼續工作而充滿熱情。\n\n我對這所能創造的商機很感興趣。\n我想到了遺傳學的應用、AI 開發與傳送技術。\n這對公司來說可能是個巨大意外收益。\n\n【日誌結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號】：A001</smallcaps>\n\n【日誌開始】\n\nTechna 博士關於複製人記憶的最新記錄，\n揭露了一些有趣的發現。記憶似乎 </I>可以</i> 可移到複製體上，\n但需要將主體送入一台機器做非常細微的分析。\n對主體的深入剖析會產生我們需要的結果，但需要以破壞主體為代價。\n\n當然，這對於我們目前的狀況來說不是個好方案。\n如果我們為了實驗而淘汰這些人，那麼引力科技就浪費這些花了時間與精力培養的資深員工。\n 但也許我們可以將複製人當作實驗對像，直到我們完善流程與找到自願者來完成這個目標。\n我必須和 Techna 博士討論，但我相信他他會能繼續工作而充滿熱情。\n\n我對這所能創造的商機很感興趣。\n我想到了遺傳學的應用、AI 開發與傳送技術。\n這對公司來說可能是個巨大意外收益。\n\n【日誌結束】"
 
 #. STRINGS.CODEX.B9_TELEPORTATION.SUBTITLE
 msgctxt "STRINGS.CODEX.B9_TELEPORTATION.SUBTITLE"
@@ -15297,7 +15297,7 @@ msgstr "天堂草"
 #. STRINGS.CODEX.BLUFFBRIAR.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.BLUFFBRIAR.BODY.CONTAINER1"
 msgid "Bluff Briars have formed a symbiotic relationship with a closely related plant strain, the <link=\"PRICKLEFLOWER\">Bristle Blossom</link>.\n\nThey tend to thrive in areas where the Bristle Blossom is present, as the berry it produces emits a rare chemical while decaying that the Briar is capable of absorbing to supplement its own pheromone production."
-msgstr "荊棘與其相關品種 <link=\"PRICKLEFLOWER\">鬃花</link> 形成共生關系。\n\n它們常出現在鬃果繁植的區域，\n因為鬃花會散發一種化學物質，\n同時荊棘能吸收以補充它們的費洛蒙。"
+msgstr "荊棘與其相關品種 <link=\"PRICKLEFLOWER\">鬃花</link> 形成共生關係。\n\n它們常出現在鬃果繁植的區域，\n因為鬃花會散發一種化學物質，\n同時荊棘能吸收以補充它們的費洛蒙。"
 
 #. STRINGS.CODEX.BLUFFBRIAR.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.BLUFFBRIAR.BODY.CONTAINER2"
@@ -15437,7 +15437,7 @@ msgstr "經理的筆記"
 #. STRINGS.CODEX.C8_TIMESORDER.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.C8_TIMESORDER.BODY.CONTAINER1"
 msgid "We have been successfully using the Temporal Bow now for some time with no obvious consequences. I should be happy that this works so well, but several questions gnaw at my brain late at night.\n\nIf Time's Arrow is moving forward the Laws of Entropy declare that the universe should be moving from a state of order to one of chaos. If the Temporal Bow bends to a previous point in time to a point when things were more orderly, logic would dictate that we are making this point more chaotic by taking things from it. All known laws of the natural universe suggests that this should have affected our Present Day, but all evidence points to that not being true. It appears the theory that we cannot change our past was incorrect!\n\nThis suggests that Time is, in fact, not an arrow but several arrows, each pointing different directions. Fundamentally, this proves the existence of other timelines - different dimensions - some of which we can assume have also built their own Temporal Bow.\n\nThe promise of crossing this final dimensional threshold is too tempting. Imagine what things Gravitas has invented in another dimension!! I must find a way to tear open the fabric of spacetime and tap into the limitless human potential of a thousand alternate timelines."
-msgstr "我們已經使用時光弓一段時間了，沒有明顯的後果。\n我應該高興這很有用，但在深夜有幾個問題在腦裡困擾著我。\n\n如果時光箭往前移動，熵的定律表明了宇宙應該會由有序狀態轉會混沌狀態。\n如果時光弓扭曲到前一個時間點，一個事情更有序的時間點，\n邏輯上來講，從中取出的事物會使這個時間點更加的混亂。\n所有已知的自然宇宙定律都表明了會影響我們的今天，\n但所有證據的都表明了不是這樣。\n看來我們無法改變過去的理論是錯誤的！\n\n這表示時間實際上不是一支箭，是多個箭指向不同的方向。\n從根本上說，這證明了其它時間線的存在\n－不同的維度\n－我們可以假設他們也建立了自己的時光弓。\n\n跨越這最終維度的保證太誘人了。\n想象一下引力科技在其它的維度發明了什麼！！\n我必須找到一種撕裂時空的方法，\n在上千條時間線中挖掘無限的人類潛力。"
+msgstr "我們已經使用時光之弓一段時間了，沒有明顯的後果。\n我應該高興這很有用，但在深夜有幾個問題在腦裡困擾著我。\n\n如果時光箭往前移動，熵的定律表明了宇宙應該會由有序狀態轉會混沌狀態。\n如果時光之弓扭曲到前一個時間點，一個事情更有序的時間點，\n邏輯上來講，從中取出的事物會使這個時間點更加的混亂。\n所有已知的自然宇宙定律都表明了會影響我們的今天，\n但所有證據的都表明了不是這樣。\n看來我們無法改變過去的理論是錯誤的！\n\n這表示時間實際上不是一支箭，是多個箭指向不同的方向。\n從根本上說，這證明了其它時間線的存在\n－不同的維度\n－我們可以假設他們也建立了自己的時光之弓。\n\n跨越這最終維度的保證太誘人了。\n想象一下引力科技在其它的維度發明了什麼！！\n我必須找到一種撕裂時空的方法，\n在上千條時間線中挖掘無限的人類潛力。"
 
 #. STRINGS.CODEX.C8_TIMESORDER.SUBTITLE
 msgctxt "STRINGS.CODEX.C8_TIMESORDER.SUBTITLE"
@@ -15547,7 +15547,7 @@ msgstr "<smallcaps>圖為：「長髮」小油怪變種</smallcaps>"
 #. STRINGS.CODEX.DECOR.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.DECOR.BODY.CONTAINER2"
 msgid "Positioned on either side of the Major Rhinophores are Minor Rhinophores, which specialize in mechanical reception and detect air pressure around the Slickster. These send signals to the brain to contract or expand its air sacks accordingly."
-msgstr "主要的觸鬚位於次要的觸鬚兩側，是專門用來接收與檢測小油怪周圍的氣壓的器官。\n這些訊號發送到大腦，於是它的氣囊會收縮或擴張。"
+msgstr "主要的觸鬚位於次要的觸鬚兩側，是專門用來接收與偵測小油怪周圍的氣壓的器官。\n這些訊號發送到大腦，於是它的氣囊會收縮或擴張。"
 
 #. STRINGS.CODEX.DECOR.SUBTITLE
 msgctxt "STRINGS.CODEX.DECOR.SUBTITLE"
@@ -15717,7 +15717,7 @@ msgstr "<link=\"EXOBASES\">太空旅行</link>"
 #. STRINGS.CODEX.EXPERIMENT52B.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.EXPERIMENT52B.BODY.CONTAINER1"
 msgid "Experiment 52B is an aggressive, yet sessile creature that produces 5 kilograms of resin per 1000 kcal it consumes.\n\nDuplicants would do well to maintain a safe distance when delivering food to Experiment 52B.\n\nWhile this creature may look like a tree, its taxonomy more closely resembles a giant land-based coral with cybernetic implants.\n\nAlthough normally lab-grown creatures would be given a better name than Experiment 52B, in this particular case the experimenting scientists weren't sure that they were done."
-msgstr "實驗體 52B 是一種具有攻擊性的無柄植物，每消耗 1000 大卡食物會產生 5 公斤樹脂。\n\n複製人在向實驗 52B 運送食物時最好保持安全距離。\n\n雖然這種生物可能看起來像一棵樹，但它的分類更類似於帶有控制植入體的巨型陸基珊瑚。\n\n雖然通常實驗室培育的生物會被賦予比實驗體 52B 更好的名字，但在這種特殊情況下，實驗科學家並不確定它們是否已經完成。"
+msgstr "實驗體 52B 是一種具有攻擊性的定點植物，每消耗 1000 大卡食物會產生 5 公斤樹脂。\n\n複製人在向實驗 52B 運送食物時最好保持安全距離。\n\n雖然這種生物可能看起來像一棵樹，但它的分類更類似於帶有控制植入體的巨型陸基珊瑚。\n\n雖然通常實驗室培育的生物會被賦予比實驗體 52B 更好的名字，但在這種特殊情況下，實驗科學家並不確定它們是否已經完成。"
 
 #. STRINGS.CODEX.EXPERIMENT52B.SUBTITLE
 msgctxt "STRINGS.CODEX.EXPERIMENT52B.SUBTITLE"
@@ -15837,7 +15837,7 @@ msgstr "塑膠龍鱗蜥"
 #. STRINGS.CODEX.GRUBFRUITPLANT.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.GRUBFRUITPLANT.BODY.CONTAINER1"
 msgid "The Grubfruit Plant exhibits a coevolutionary relationship with the Divergent species.\n\nThough capable of producing fruit without the help of the Divergent, the Spindly Grubfruit is a substandard version of the Grubfruit in both taste and caloric value.\n\nThe mechanism for how the Divergent inspires Grubfruit Plant growth is not entirely known but is thought to be somehow tied to the infrasonic 'songs' these insects lovingly purr to their plants."
-msgstr "燈籠草與甲蟲物種之間形成共同進化的關系。\n\n雖然能夠在沒有甲蟲幫助下也能生產果實，\n但劣質燈籠草果實在美味與熱量方面都輸給正常的燈籠草果實。\n\n甲蟲們如何刺激燈籠草成長的機制尚未完全清楚，\n但被認為以某種方式親切向植物發出一種次聲波的「歌聲」。"
+msgstr "燈籠草與甲蟲物種之間形成共同進化的關係。\n\n雖然能夠在沒有甲蟲幫助下也能生產果實，\n但劣質燈籠草果實在美味與熱量方面都輸給正常的燈籠草果實。\n\n甲蟲們如何刺激燈籠草成長的機制尚未完全清楚，\n但被認為以某種方式親切向植物發出一種次聲波的「歌聲」。"
 
 #. STRINGS.CODEX.GRUBFRUITPLANT.SUBTITLE
 msgctxt "STRINGS.CODEX.GRUBFRUITPLANT.SUBTITLE"
@@ -15852,7 +15852,7 @@ msgstr "燈籠草"
 #. STRINGS.CODEX.HATCH.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.HATCH.BODY.CONTAINER1"
 msgid "The Hatch has no eyes and is completely blind, although a photosensitive patch atop its head is capable of detecting even minor changes in overhead light, making it prefer dark caves and tunnels."
-msgstr "哈奇沒有眼睛是完全失明的，雖說頭上感光部位可以偵測微量的光線變化，但使其更喜歡待在黑暗的洞穴與通道。"
+msgstr "哈奇沒有眼睛，是完全失明的。雖說頭上感光部位可以偵測微量的光線變化，但使其更喜歡待在黑暗的洞穴與通道。"
 
 #. STRINGS.CODEX.HATCH.SPECIES_SUBTITLE
 msgctxt "STRINGS.CODEX.HATCH.SPECIES_SUBTITLE"
@@ -16162,7 +16162,7 @@ msgstr "<indent=5%>親愛的同事、朋友和社區成員，\n\n在擔任 STEM 
 #. STRINGS.CODEX.JOURNALISTREQUEST.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.JOURNALISTREQUEST.BODY.CONTAINER2"
 msgid "<indent=5%>I don’t know how you pulled it off, but Stern’s office just called the paper and granted me an exclusive…and a tour of the Gravitas Facility. I owe you a beer. No - a case of beer. Six cases of beer!\n\nSeriously, thank you. I know you're in a difficult position but you’ve done the right thing. See you on Tuesday.</indent>"
-msgstr "<indent=5%>我不知道你是怎麼做到的，但斯特恩的辦公室剛剛給報社打了電話，給了我一個獨家的……和 Gravitas 設施的參觀機會。 我欠你一杯啤酒。 不...一箱啤酒...六箱啤酒！\n\n說真的，謝謝。 我知道你的處境很艱難，但你做對了。 週二見。</indent>"
+msgstr "<indent=5%>我不知道你是怎麼做到的，但 Stern 的辦公室剛剛給報社打了電話，給了我一個獨家的……和 Gravitas 設施的參觀機會。 我欠你一杯啤酒。 不...一箱啤酒...六箱啤酒！\n\n說真的，謝謝。 我知道你的處境很艱難，但你做對了。 週二見。</indent>"
 
 #. STRINGS.CODEX.JOURNALISTREQUEST.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.JOURNALISTREQUEST.BODY.CONTAINER3"
@@ -16172,7 +16172,7 @@ msgstr "<indent=5%>我在噴泉旁邊等了四個小時。 你到底在哪裡？
 #. STRINGS.CODEX.JOURNALISTREQUEST.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.JOURNALISTREQUEST.BODY.CONTAINER4"
 msgid "<indent=5%>Dr. Olowe,\n\nI’m sorry - I know ambushing you at your home last night was a bad idea. But something is happening at Gravitas, and people need to know. Please call me.</indent>"
-msgstr "<indent=5%>奧洛維 博士 你好,\n\n對不起 - 我知道昨晚在你家埋伏你是個壞主意。 但 Gravitas 正在發生一些事情，而人們需要知道。 請給我打個電話。</indent>"
+msgstr "<indent=5%>Olowe 博士 你好,\n\n對不起 - 我知道昨晚在你家埋伏你是個壞主意。 但 Gravitas 正在發生一些事情，而人們需要知道。 請給我打個電話。</indent>"
 
 #. STRINGS.CODEX.JOURNALISTREQUEST.BODY.EMAILHEADER1
 msgctxt "STRINGS.CODEX.JOURNALISTREQUEST.BODY.EMAILHEADER1"
@@ -16282,7 +16282,7 @@ msgstr "木材"
 #. STRINGS.CODEX.MEALWOOD.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.MEALWOOD.BODY.CONTAINER1"
 msgid "Mealwood is an bramble-like plant that has a parasitic symbiotic relationship with the nutrient-rich Meal Lice that inhabit it.\n\nMealwood experience a rapid growth rate in its first stages, but once the Meal Lice become active they consume all the new fruiting spurs on the plant before they can fully mature.\n\nTheoretically the flowers of this plant are a beautiful color of fuchsia, however no Mealwood has ever reached the point of flowering without being overrun by the parasitic Meal Lice."
-msgstr "虱子樹是一種類似荊棘的植物，\n與其寄生在樹上營養豐富的食用虱子形成共生關系。\n\n虱子樹在第一階段會經歷快速生長，\n不過一旦食用虱子變的活躍，它們會\n在完全成熟前吃掉樹上所有的果實。\n\n理論上來說，\n此種植物的花朵是美麗的紫紅色，\n然後沒有虱子樹曾在沒有食用虱子\n寄生的情況下達到開花的程度。"
+msgstr "虱子樹是一種類似荊棘的植物，\n與其寄生在樹上營養豐富的食用虱子形成共生關係。\n\n虱子樹在第一階段會經歷快速生長，\n不過一旦食用虱子變的活躍，它們會\n在完全成熟前吃掉樹上所有的果實。\n\n理論上來說，\n此種植物的花朵是美麗的紫紅色，\n然後沒有虱子樹曾在沒有食用虱子\n寄生的情況下達到開花的程度。"
 
 #. STRINGS.CODEX.MEALWOOD.SUBTITLE
 msgctxt "STRINGS.CODEX.MEALWOOD.SUBTITLE"
@@ -16327,7 +16327,7 @@ msgstr "合歡葉"
 #. STRINGS.CODEX.MISSINGNOTES.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.MISSINGNOTES.BODY.CONTAINER1"
 msgid "<indent=5%>Hello Dr. Jones,\n\nHope you are well. Sorry to bother you- I believe that someone may have inappropriately accessed my computer.\n\nWhen I was logging in this morning, the \"last log-in\" pop-up indicated that my computer had been accessed at 2 a.m. My last actual log-in was 6 p.m. And some of my files have gone missing.\n\nThe privacy of my work is paramount. Would it be possible to have someone take a look, please?</indent>"
-msgstr "<indent=5%>瓊斯博士，您好，\n\n希望你一切都好。 很抱歉打擾您 - 我認為有人可能偷偷使用了我的電腦。\n\n當我今天早上登錄時，\"最後一次登錄\" 彈出視窗顯示我的電腦在凌晨 2 點被訪問。我最後一次實際登錄是下午 6 點。 我的一些文件遺失了。\n\n我工作內容的隱私是最重要的。 請問可以請人檢查一下嗎？</indent>"
+msgstr "<indent=5%>Jones 博士，您好，\n\n希望你一切都好。 很抱歉打擾您 - 我認為有人可能偷偷使用了我的電腦。\n\n當我今天早上登錄時，\"最後一次登錄\" 彈出視窗顯示我的電腦在凌晨 2 點被訪問。我最後一次實際登錄是下午 6 點。 我的一些文件遺失了。\n\n我工作內容的隱私是最重要的。 請問可以請人檢查一下嗎？</indent>"
 
 #. STRINGS.CODEX.MISSINGNOTES.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.MISSINGNOTES.BODY.CONTAINER2"
@@ -16337,7 +16337,7 @@ msgstr "<indent=5%>我的天啊 Amari，你太神經質了！！ 這可能只是
 #. STRINGS.CODEX.MISSINGNOTES.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.MISSINGNOTES.BODY.CONTAINER3"
 msgid "<indent=5%>Dear Dr. Jones,\nI'm so sorry to bother you again...it's just that I'm absolutely certain that someone has been interfering with my files.\n\nI've noticed several discrepancies since last week's \"glitch.\" For example, responses to my recent employee survey on workplace satisfaction and safety were decrypted, and significant portions of my data and research notes have been erased. I'm even missing a few e-mails.\n\nIt's all quite alarming. Could you or Dr. Summers please investigate this when you have a moment?\n\nThank you so much,\n\n</indent>"
-msgstr "<indent=5%>親愛的 瓊斯 博士，\n很抱歉再次打擾您...只是我絕對確定有人一直在擾亂我的文件。\n\n自上週的“故障”以來，我注意到了一些差異。 例如，我最近對工作場所滿意度和安全性的員工調查的回復被解密，我的大部分資料和研究筆記被刪除。 我甚至錯過了一些電子郵件。\n\n這一切都非常令人擔憂。可以麻煩您或 Summers 博士在有時間的時候調查一下嗎？\n\n非常感謝，\n\n</indent>"
+msgstr "<indent=5%>親愛的 Jones 博士，\n很抱歉再次打擾您...只是我絕對確定有人一直在擾亂我的文件。\n\n自上週的“故障”以來，我注意到了一些差異。 例如，我最近對工作場所滿意度和安全性的員工調查的回復被解密，我的大部分資料和研究筆記被刪除。 我甚至錯過了一些電子郵件。\n\n這一切都非常令人擔憂。可以麻煩您或 Summers 博士在有時間的時候調查一下嗎？\n\n非常感謝，\n\n</indent>"
 
 #. STRINGS.CODEX.MISSINGNOTES.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.MISSINGNOTES.BODY.CONTAINER4"
@@ -16797,7 +16797,7 @@ msgstr "時間的潛力"
 #. STRINGS.CODEX.MYLOG.BODY.TEMPORALTEAR.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.TEMPORALTEAR.BODY"
 msgid "My Duplicants' space research has made a startling discovery.\n\nFar, far off on the horizon, their telescopes have spotted an anomaly that I could only possibly call a \"Temporal Tear\". Neutronium is detected in its readings, suggesting that it's related to the Neutronium that encases most of our asteroid.\n\nThough I believe it is through this Tear that we became jumbled within the section of our old planet, its discovery provides a glimmer of hope.\n\nTheoretically, we could send a rocket through the Tear to allow a Duplicant to explore the timelines and universes on the other side. They would never return, and we could not follow, but perhaps they could find a home among the stars, or even undo the terrible past that led us to our current fate.\n\n"
-msgstr "我的複製人們的太空研究有了驚人的發現。\n\n望遠鏡從遙遠的地平線上發現了一個異常現象，\n我只能將其稱為「時空裂縫」，\n讀數中檢測到了 0 號元素，\n這表示它與大量包裡我們小行星的 0 號元素有關。\n\n儘管我相信，\n正是這個裂縫讓我們陷入了我們舊星球的混亂區，\n但此發現帶來了一線希望。\n\n理論上，\n我們可以發射火箭穿過裂縫，\n讓複製人可以探索另一側的時間線與宇宙。\n\n他們可能永遠無法返回，\n而我們可能無法追蹤，\n但也許他們可以在星海中找到一個家，\n或甚至消除導致我們目前命運的可怕過去。\n\n"
+msgstr "我的複製人們的太空研究有了驚人的發現。\n\n望遠鏡從遙遠的地平線上發現了一個異常現象，\n我只能將其稱為「時空裂縫」，\n讀數中偵測到了 0 號元素，\n這表示它與大量包裡我們小行星的 0 號元素有關。\n\n儘管我相信，\n正是這個裂縫讓我們陷入了我們舊星球的混亂區，\n但此發現帶來了一線希望。\n\n理論上，\n我們可以發射火箭穿過裂縫，\n讓複製人可以探索另一側的時間線與宇宙。\n\n他們可能永遠無法返回，\n而我們可能無法追蹤，\n但也許他們可以在星海中找到一個家，\n或甚至消除導致我們目前命運的可怕過去。\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.TEMPORALTEAR.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.TEMPORALTEAR.TITLE"
@@ -17462,7 +17462,7 @@ msgstr "草食哈奇"
 #. STRINGS.CODEX.SATURNCRITTERTRAP.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.SATURNCRITTERTRAP.BODY.CONTAINER1"
 msgid "The Saturn Critter Trap plant is a carnivorous plant that lays in wait for unsuspecting critters to happen by, then traps them in its mouth for consumption.\n\nThe Saturn Trap Plant's predatory mechanism is reflective of the harsh radioactive habitat it resides in.\n\nOnce trapped in the deadly maw of the plant, creatures are gently asphyxiated then digested through powerful acidic enzymes which coat the inner sides of the Saturn Trap Plant's leaves."
-msgstr "補獸草是一種食肉植物，它們會等待毫無防備的小動物經過，然後將它們困在嘴裡吃掉。\n\n補獸草的捕食機制反映出了它所處的輻射棲息地。\n\n一旦被困在植物致命的喉嚨裡、小動物會慢慢窒息然後被補獸草葉子內側的強酸所消化。"
+msgstr "捕獸草是一種食肉植物，它們會等待毫無防備的小動物經過，然後將它們困在嘴裡吃掉。\n\n捕獸草的捕食機制反映出了它所處的輻射棲息地。\n\n一旦被困在植物致命的喉嚨裡、小動物會慢慢窒息然後被捕獸草葉子內側的強酸所消化。"
 
 #. STRINGS.CODEX.SATURNCRITTERTRAP.SUBTITLE
 msgctxt "STRINGS.CODEX.SATURNCRITTERTRAP.SUBTITLE"
@@ -17532,7 +17532,7 @@ msgstr "雪地小麥的穀粒磨碎後可製成高品質的食物，\n或栽種�
 #. STRINGS.CODEX.SLEETWHEAT.SUBTITLE
 msgctxt "STRINGS.CODEX.SLEETWHEAT.SUBTITLE"
 msgid "Edible Plant"
-msgstr "糧食"
+msgstr "食用植物"
 
 #. STRINGS.CODEX.SLEETWHEAT.TITLE
 msgctxt "STRINGS.CODEX.SLEETWHEAT.TITLE"
@@ -17587,7 +17587,7 @@ msgstr "金屬哈奇"
 #. STRINGS.CODEX.SO_LAUNCH_TRAILER.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.SO_LAUNCH_TRAILER.BODY.CONTAINER1"
 msgid "Spaced Out Trailer"
-msgstr "Spaced Out! 預告"
+msgstr "眼冒金星! 預告"
 
 #. STRINGS.CODEX.SO_LAUNCH_TRAILER.SUBTITLE
 msgctxt "STRINGS.CODEX.SO_LAUNCH_TRAILER.SUBTITLE"
@@ -17597,7 +17597,7 @@ msgstr ""
 #. STRINGS.CODEX.SO_LAUNCH_TRAILER.TITLE
 msgctxt "STRINGS.CODEX.SO_LAUNCH_TRAILER.TITLE"
 msgid "Spaced Out Trailer"
-msgstr "Spaced Out! 預告"
+msgstr "眼冒金星! 預告"
 
 #. STRINGS.CODEX.SPINDLYGRUBFRUITPLANT.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.SPINDLYGRUBFRUITPLANT.BODY.CONTAINER1"
@@ -17727,7 +17727,7 @@ msgstr "小動物異變器"
 #. STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.PARKING.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.PARKING.BODY.CONTAINER1"
 msgid "<indent=5%>Another set of masticated windshield wipers has been discovered in Parking Lot D following the Bioengineering Department's critter enclosure breach last week.\n\nEmployees are strongly encouraged to plug their vehicles in at lots A-C until further notice.\n\nPlease refrain from calling municipal animal control - all critter sightings should be reported directly to Dr. Byron.</indent>"
-msgstr "<indent=5%>在上周生物工程部的小動物為藍被損毀後，我們在D區停車場又發現了另一組被咬爛的擋風玻璃雨刷。\n\n在另行通知前，強烈建議員工在A-C區停車。\n\n請不要給市政動物管理中心打電話——所有募集到的小動物都應該直接報告給 Byron 博士。</indent>"
+msgstr "<indent=5%>在上周生物工程部的小動物圍欄被損毀後，我們在D區停車場又發現了另一組被咬爛的擋風玻璃雨刷。\n\n在另行通知前，強烈建議員工在A-C區停車。\n\n請不要給市政動物管理中心打電話——所有目擊到的小動物都應該直接報告給 Byron 博士。</indent>"
 
 #. STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.PARKING.BODY.EMAILHEADER1
 msgctxt "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.PARKING.BODY.EMAILHEADER1"
@@ -17752,7 +17752,7 @@ msgstr "D區停車場"
 #. STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES.BEETA
 msgctxt "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES.BEETA"
 msgid "Strong collective consciousness detected. Review data for more information."
-msgstr "檢測到強烈的集體意識。查看資料以獲得更多訊息。"
+msgstr "偵測到強烈的集體意識。查看資料以獲得更多訊息。"
 
 #. STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES.CRAB
 msgctxt "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES.CRAB"
@@ -17762,7 +17762,7 @@ msgstr "當心鉗子！查看資料以獲得更多訊息。"
 #. STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES.DIVERGENTSPECIES
 msgctxt "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES.DIVERGENTSPECIES"
 msgid "Specimen responded gently to the probative apparatus, as though being careful not to cause any damage.\n\nReview data for more information."
-msgstr "樣品對檢測儀器的反應十分溫和，好像不想造成損壞而如此小心似的。\n\n查看資料以獲得更多訊息。"
+msgstr "樣品對偵測儀器的反應十分溫和，好像不想造成損壞而如此小心似的。\n\n查看資料以獲得更多訊息。"
 
 #. STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES.DRECKO
 msgctxt "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES.DRECKO"
@@ -17772,7 +17772,7 @@ msgstr "這隻小動物幾乎完全沒有注意到在被檢查。查看資料以
 #. STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES.GLOM
 msgctxt "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES.GLOM"
 msgid "DNA results confirm: this species is the very definition of \"icky\"."
-msgstr "DNA結果確認：這種物種正是「黏糊」的近似定義。"
+msgstr "去氧核糖核酸結果確認：這種物種正是「黏糊」的近似定義。"
 
 #. STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES.HATCH
 msgctxt "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES.HATCH"
@@ -17797,7 +17797,7 @@ msgstr "哎呀！這種掃描儀不是用於這種體型的小動物。這種生
 #. STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES.OILFLOATER
 msgctxt "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES.OILFLOATER"
 msgid "Incessant wriggling made it difficult to scan this critter. Difficult, but not impossible."
-msgstr "不停的鈕動使這種小動物很難被掃描。難，但不是不可能。"
+msgstr "不停的扭動使這種小動物很難被掃描。難，但不是不可能。"
 
 #. STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES.PACU
 msgctxt "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES.PACU"
@@ -17842,7 +17842,7 @@ msgstr "這個物種通過揮舞鉗子來回應掃描器的嗡嗡聲，這些姿
 #. STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES_EXPANDED.DIVERGENTSPECIES
 msgctxt "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES_EXPANDED.DIVERGENTSPECIES"
 msgid "Specimen responded gently to the probative apparatus, as though being careful not to cause any damage.\n\nIt also produced a series of deep, rhythmic vibrations during analysis. An attempt to communicate with the sensors, perhaps?"
-msgstr "樣品對檢測儀器的反應十分溫和，好像不想造成損壞而如此小心似的。\n\n在分析過程中，它還產生了一系列有節奏的強振動。可能是想嘗試與感測器交流？"
+msgstr "樣品對偵測儀器的反應十分溫和，好像不想造成損壞而如此小心似的。\n\n在分析過程中，它還產生了一系列有節奏的強振動。可能是想嘗試與感測器交流？"
 
 #. STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES_EXPANDED.DRECKO
 msgctxt "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES_EXPANDED.DRECKO"
@@ -17852,7 +17852,7 @@ msgstr "這隻小動物幾乎完全沒有注意到在被檢查。\n\n內置的�
 #. STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES_EXPANDED.GLOM
 msgctxt "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES_EXPANDED.GLOM"
 msgid "DNA results confirm: this species is the scientific definition of \"icky\"."
-msgstr "DNA結果表明：這個物種正是「黏糊」的科學定義。"
+msgstr "去氧核糖核酸結果表明：這個物種正是「黏糊」的科學定義。"
 
 #. STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES_EXPANDED.HATCH
 msgctxt "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES_EXPANDED.HATCH"
@@ -17947,7 +17947,7 @@ msgstr "Byron 的哈奇解剖"
 #. STRINGS.CODEX.STORY_TRAITS.LONELYMINION.ANCIENTPODENTRY.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.STORY_TRAITS.LONELYMINION.ANCIENTPODENTRY.BODY.CONTAINER1"
 msgid "<indent=%5>Notable improvement to nutrient retention: subjects who participated in the most recent meal intake displayed minimal symptoms of gastrointestinal distress.\n\nMineshaft excavation at Urvara crater resumed following resolution of tunnel wall fracture. Projected time to brine reservoir penetration at current rate: 41 days, local time. Moisture seepage along eastern wall of shaft is being monitored.\n\nNote: Preliminary subsurface temperature data is significantly lower than programmed estimates.</indent>\n------------------\n"
-msgstr "<indent=%5>營養保留的明顯改善：參加最近飲食攝入的受試者表現出輕微的腸胃不適症状。\n\n隧道壁破裂事件解決後，烏拉瓦拉隕石坑的礦景挖掘工作恢復。以當前狀況估計鹽水層滲透時間：當地時間 41 天。以開始檢測礦井東側壁的水份滲透情況。\n\n注：初步的地下溫度資料明顯低於預估值。</indent>\n------------------\n"
+msgstr "<indent=%5>營養保留的明顯改善：參加最近飲食攝入的受試者表現出輕微的腸胃不適症状。\n\n隧道壁破裂事件解決後，烏拉瓦拉隕石坑的礦景挖掘工作恢復。以當前狀況估計鹽水層滲透時間：當地時間 41 天。以開始偵測礦井東側壁的水份滲透情況。\n\n注：初步的地下溫度資料明顯低於預估值。</indent>\n------------------\n"
 
 #. STRINGS.CODEX.STORY_TRAITS.LONELYMINION.ANCIENTPODENTRY.SUBTITLE
 msgctxt "STRINGS.CODEX.STORY_TRAITS.LONELYMINION.ANCIENTPODENTRY.SUBTITLE"
@@ -18017,7 +18017,7 @@ msgstr "挑戰完成"
 #. STRINGS.CODEX.STORY_TRAITS.LONELYMINION.END_POPUP.DESCRIPTION
 msgctxt "STRINGS.CODEX.STORY_TRAITS.LONELYMINION.END_POPUP.DESCRIPTION"
 msgid "My sweet Duplicants' efforts paid off! Our reclusive neighbor has agreed to join the colony.\n\nThe only keepsake he insists on bringing with him is a toolbox which, while rusty, seems to hold great sentimental value.\n\nNow that he'll be living among us, his former home can be deconstructed or repurposed as storage."
-msgstr "我的善良的複製人的努力得到了回報！我們隱居的鄰居同意加入殖民地了。\n\n他堅持要隨身帶的紀念品是一個工具箱，雖然上面鏽跡班班，但似乎有很大的情感價值。\n\n現在他會和我們一起住，他之前的房子可以拆掉或者作為儲藏室使用。"
+msgstr "我親愛的複製人的努力得到了回報！我們隱居的鄰居同意加入殖民地了。\n\n他堅持要隨身帶的紀念品是一個工具箱，雖然上面鏽跡班班，但似乎有很大的情感價值。\n\n現在他會和我們一起住，他之前的房子可以拆掉或者作為儲藏室使用。"
 
 #. STRINGS.CODEX.STORY_TRAITS.LONELYMINION.END_POPUP.NAME
 msgctxt "STRINGS.CODEX.STORY_TRAITS.LONELYMINION.END_POPUP.NAME"
@@ -18082,7 +18082,7 @@ msgstr "取消敲門"
 #. STRINGS.CODEX.STORY_TRAITS.LONELYMINION.KNOCK_KNOCK.TEXT
 msgctxt "STRINGS.CODEX.STORY_TRAITS.LONELYMINION.KNOCK_KNOCK.TEXT"
 msgid "Knock Knock"
-msgstr "咚咚咚"
+msgstr "敲敲門"
 
 #. STRINGS.CODEX.STORY_TRAITS.LONELYMINION.KNOCK_KNOCK.TOOLTIP
 msgctxt "STRINGS.CODEX.STORY_TRAITS.LONELYMINION.KNOCK_KNOCK.TOOLTIP"
@@ -18302,7 +18302,7 @@ msgstr "清潔機器人是一個被設計為打掃室內固體與液體雜物的
 #. STRINGS.CODEX.SWEEPY.SUBTITLE
 msgctxt "STRINGS.CODEX.SWEEPY.SUBTITLE"
 msgid "Cleaning Robot"
-msgstr "清潔機器人"
+msgstr "負責清潔的機器人"
 
 #. STRINGS.CODEX.SWEEPY.TITLE
 msgctxt "STRINGS.CODEX.SWEEPY.TITLE"
@@ -18497,7 +18497,7 @@ msgstr "活力發光蟲"
 #. STRINGS.CODEX.WATERWEED.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.WATERWEED.BODY.CONTAINER1"
 msgid "An inexperienced farmer may assume at first glance that the transluscent, fluid-containing bulb atop the Waterweed is the edible portion of the plant.\n\nIn fact, the bulb is extremely poisonous and should never be consumed under any circumstances."
-msgstr "經驗不足的農夫第一看到可能會視而不見，\n水草頂部含有水份的球莖是此植物的可食用部分。\n\n實際上，球莖是有劇毒的，\n在任何清況下都不能食用。"
+msgstr "經驗不足的農夫第一眼看到可能會視而不見，\n水草頂部含有水份的球莖是此植物的可食用部分。\n\n實際上，球莖是有劇毒的，\n在任何清況下都不能食用。"
 
 #. STRINGS.CODEX.WATERWEED.SUBTITLE
 msgctxt "STRINGS.CODEX.WATERWEED.SUBTITLE"
@@ -18617,7 +18617,7 @@ msgstr "DLC1"
 #. STRINGS.COLONY_ACHIEVEMENTS.DLC.EXPANSION1
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.DLC.EXPANSION1"
 msgid "<style=\"KKeyword\">\n\n<i>Spaced Out!</i></style> DLC Achievement"
-msgstr "<style=\"KKeyword\">\n\n<i>Spaced Out!</i></style> DLC 成就"
+msgstr "<style=\"KKeyword\">\n\n<i>眼冒金星!</i></style> 可下載內容成就"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.FAILED_THIS_COLONY
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.FAILED_THIS_COLONY"
@@ -18647,7 +18647,7 @@ msgstr "殖民地最少有一間廁所，且每位複製人都有一張床。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_PUMPING
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_PUMPING"
 msgid "Oxygen Not Occluded"
-msgstr "氧氣未被阻塞"
+msgstr "不缺氧"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_PUMPING_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_PUMPING_DESCRIPTION"
@@ -18937,7 +18937,7 @@ msgstr "以滿負荷運行研究反應爐 {0} 個週期。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SIXKELVIN_BUILDING
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SIXKELVIN_BUILDING"
 msgid "Not 0K, But Pretty Cool"
-msgstr "未達絕對零度，但是很冷"
+msgstr "不 0 K，但很冷"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SIXKELVIN_BUILDING_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SIXKELVIN_BUILDING_DESCRIPTION"
@@ -19222,7 +19222,7 @@ msgstr "反應爐持續運行週期：{0}／{1}"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.SKILL_BRANCH
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.SKILL_BRANCH"
 msgid "Unlocked an entire branch of the skill tree"
-msgstr "解鎖一整個技能樹的分支"
+msgstr "解鎖技能樹的一整個分支"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.SURVIVE_SPACE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.SURVIVE_SPACE"
@@ -19912,7 +19912,7 @@ msgstr "吃飼料"
 #. STRINGS.CREATURES.MODIFIERS.ATE_FROM_FEEDER.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.ATE_FROM_FEEDER.TOOLTIP"
 msgid "This critter is getting more <style=\"KKeyword\">Tame</style> because it ate from a feeder."
-msgstr "此動物漸漸變的 <style=\"KKeyword\">溫馴</style>，因為它吃了餵食機的食物。"
+msgstr "此動物漸漸變得 <style=\"KKeyword\">溫馴</style>，因為它吃了餵食機的食物。"
 
 #. STRINGS.CREATURES.MODIFIERS.BABY.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.BABY.NAME"
@@ -20222,7 +20222,7 @@ msgstr "{PlantName}（{MutationList}）"
 #. STRINGS.CREATURES.PLANT_MUTATIONS.ROTTENHEAPS.DESCRIPTION
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.ROTTENHEAPS.DESCRIPTION"
 msgid "Plants with this mutation grow extremely quickly, though the produce they make is sometimes questionable."
-msgstr "此植物變種生長相當快速，僅管產物有時令人懷疑。"
+msgstr "此植物變種生長相當快速，儘管產物有時令人懷疑。"
 
 #. STRINGS.CREATURES.PLANT_MUTATIONS.ROTTENHEAPS.NAME
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.ROTTENHEAPS.NAME"
@@ -20387,7 +20387,7 @@ msgstr "枯萎"
 #. STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.DESC"
 msgid "A highly pressurized geyser that periodically erupts with <link=\"CHLORINEGAS\">Chlorine</link>."
-msgstr "<link=\"CHLORINEGAS\">氯氣</link> 定期噴發的高壓間歇泉。"
+msgstr "定期噴發 <link=\"CHLORINEGAS\">氯氣</link> 的高壓間歇泉。"
 
 #. STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.NAME"
@@ -20442,7 +20442,7 @@ msgstr "<link=\"COLDWHEAT\">雪地小麥</link>"
 #. STRINGS.CREATURES.SPECIES.CRAB.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.CRAB.BABY.DESC"
 msgid "A snippy little Pokeshell Spawn.\n\nIn time it will mature into a fully grown <link=\"CRAB\">Pokeshell</link>."
-msgstr "一隻小拋殼蟹寶寶。\n\n隨著時間，它會長大成為一隻成年的 <link=\"CRAB\">拋殼蟹</link>。"
+msgstr "一隻狡猾的小拋殼蟹寶寶。\n\n隨著時間，它會長大成為一隻成年的 <link=\"CRAB\">拋殼蟹</link>。"
 
 #. STRINGS.CREATURES.SPECIES.CRAB.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.CRAB.BABY.NAME"
@@ -20467,7 +20467,7 @@ msgstr "<link=\"CRAB\">拋殼蟹</link>"
 #. STRINGS.CREATURES.SPECIES.CRAB.VARIANT_FRESH_WATER.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.CRAB.VARIANT_FRESH_WATER.BABY.DESC"
 msgid "A picky little Sanishell Spawn.\n\nIn time it will mature into a fully grown <link=\"CRABFRESHWATER\">Sanishell</link>."
-msgstr "一隻小水生蟹寶寶。\n\n隨著時間，它會長大成為一隻成年的 <link=\"CRAB\">水生蟹</link>。"
+msgstr "一隻挑剔的小水生蟹寶寶。\n\n隨著時間，它會長大成為一隻成年的 <link=\"CRAB\">水生蟹</link>。"
 
 #. STRINGS.CREATURES.SPECIES.CRAB.VARIANT_FRESH_WATER.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.CRAB.VARIANT_FRESH_WATER.BABY.NAME"
@@ -20492,7 +20492,7 @@ msgstr "<link=\"CRABFRESHWATER\">水生蟹</link>"
 #. STRINGS.CREATURES.SPECIES.CRAB.VARIANT_WOOD.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.CRAB.VARIANT_WOOD.BABY.DESC"
 msgid "A knotty little Oakshell Spawn.\n\nIn time it will mature into a fully grown <link=\"CRABWOOD\">Oakshell</link>."
-msgstr "一隻小橡木蟹寶寶。\n\n隨著時間，它會長大成為一隻成年的 <link=\"CRAB\">橡木蟹</link>。"
+msgstr "一隻多節的小橡木蟹寶寶。\n\n隨著時間，它會長大成為一隻成年的 <link=\"CRAB\">橡木蟹</link>。"
 
 #. STRINGS.CREATURES.SPECIES.CRAB.VARIANT_WOOD.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.CRAB.VARIANT_WOOD.BABY.NAME"
@@ -20557,7 +20557,7 @@ msgstr "枯萎"
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.BABY.DESC"
 msgid "A crawly little Sweetle Larva.\n\nIn time, it will mature into an adult <link=\"DIVERGENTBEETLE\">Sweetle</link>."
-msgstr "一隻甲蟲寶寶。\n\n隨的時間，它會成長為一隻成年的 <link=\"DIVERGENTBEETLE\">甲蟲</link>。"
+msgstr "一隻爬行的甲蟲寶寶。\n\n隨的時間，它會成長為一隻成年的 <link=\"DIVERGENTBEETLE\">甲蟲</link>。"
 
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.BABY.NAME"
@@ -20607,7 +20607,7 @@ msgstr "<link=\"DIVERGENTWORM\">甲蟲幼體</link>"
 #. STRINGS.CREATURES.SPECIES.DRECKO.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.BABY.DESC"
 msgid "A little, bug-eyed Drecklet.\n\nIn time it will mature into a fully grown <link=\"DRECKO\">Drecko</link>."
-msgstr "一隻小小龍鱗蜥寶寶。\n\n隨著時間經過，它成年後將會成為 <link=\"DRECKO\">龍鱗蜥</link>。"
+msgstr "一隻眼睛凸出的小小龍鱗蜥寶寶。\n\n隨著時間經過，它成年後將會成為 <link=\"DRECKO\">龍鱗蜥</link>。"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.BABY.NAME"
@@ -20632,7 +20632,7 @@ msgstr "<link=\"DRECKO\">龍鱗蜥</link>"
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.DESC"
 msgid "A bug-eyed little Glossy Drecklet.\n\nIn time it will mature into an adult Drecko morph, the <link=\"DRECKOPLASTIC\">Glossy Drecko</link>."
-msgstr "一隻小塑膠龍鱗蜥寶寶。\n\n隨著時間經過，它成年後將會成為 <link=\"DRECKO\">塑膠龍鱗蜥</link>。"
+msgstr "一隻眼睛凸出的小塑膠龍鱗蜥寶寶。\n\n隨著時間經過，它成年後將會成為 <link=\"DRECKO\">塑膠龍鱗蜥</link>。"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.NAME"
@@ -20722,7 +20722,7 @@ msgstr "<link=\"GASGRASS\">瓦斯草</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.BIG_VOLCANO.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.BIG_VOLCANO.DESC"
 msgid "A massive volcano that periodically erupts with molten <link=\"MAGMA\">Magma</link>."
-msgstr "<link=\"STEAM\">岩漿</link> 定期噴發的巨大火山口。"
+msgstr "定期噴發熔融 <link=\"STEAM\">岩漿</link> 的巨大火山。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.BIG_VOLCANO.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.BIG_VOLCANO.NAME"
@@ -20732,7 +20732,7 @@ msgstr "<link=\"GEYSERGENERICBIGVOLCANO\">火山口</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.CHLORINE_GAS.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.CHLORINE_GAS.DESC"
 msgid "A highly pressurized vent that periodically erupts with warm <link=\"CHLORINEGAS\">Chlorine</link>."
-msgstr "<link=\"CHLORINEGAS\">氯氣</link> 定期噴發的高壓噴口。"
+msgstr "定期噴發溫暖 <link=\"CHLORINEGAS\">氯氣</link> 的高壓噴口。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.CHLORINE_GAS.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.CHLORINE_GAS.NAME"
@@ -20742,12 +20742,12 @@ msgstr "<link=\"GEYSERGENERICCHLORINEGAS\">氯氣噴口</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.DESC"
 msgid "A highly pressurized geyser that periodically erupts, spraying <link=\"STEAM\">Steam</link> and boiling hot <link=\"WATER\">Water</link>."
-msgstr "<link=\"STEAM\">蒸氣</link> 與非常熱的 <link=\"WATER\">水</link> 定期噴發的高壓間歇泉。"
+msgstr "定期噴發 <link=\"STEAM\">蒸氣</link> 與非常熱的 <link=\"WATER\">水</link> 的高壓間歇泉。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.FILTHY_WATER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.FILTHY_WATER.DESC"
 msgid "A highly pressurized vent that periodically erupts with boiling <link=\"DIRTYWATER\">Contaminated Water</link>."
-msgstr "<link=\"DIRTYWATER\">汙水</link> 定期噴發的高壓噴口。"
+msgstr "定期噴發 <link=\"DIRTYWATER\">汙水</link> 的高壓噴口。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.FILTHY_WATER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.FILTHY_WATER.NAME"
@@ -20757,7 +20757,7 @@ msgstr "<link=\"GEYSERGENERICFILTHYWATER\">汙水噴口</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_CO2.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_CO2.DESC"
 msgid "A highly pressurized vent that periodically erupts with hot gaseous <link=\"CARBONDIOXIDE\">Carbon Dioxide</link>."
-msgstr "<link=\"CARBONDIOXIDE\">二氧化碳</link> 定期噴發的高壓噴口。"
+msgstr "定期噴發高溫氣態的 <link=\"CARBONDIOXIDE\">二氧化碳</link> 高壓噴口。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_CO2.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_CO2.NAME"
@@ -20767,7 +20767,7 @@ msgstr "<link=\"GEYSERGENERICHOTCO2\">二氧化碳噴口</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_HYDROGEN.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_HYDROGEN.DESC"
 msgid "A highly pressurized vent that periodically erupts with hot gaseous <link=\"HYDROGEN\">Hydrogen</link>."
-msgstr "<link=\"HYDROGEN\">氫氣</link> 定期噴發的高壓噴口。"
+msgstr "定期噴發 <link=\"HYDROGEN\">氫氣</link> 的高壓噴口。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_HYDROGEN.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_HYDROGEN.NAME"
@@ -20777,7 +20777,7 @@ msgstr "<link=\"GEYSERGENERICHOTHYDROGEN\">氫氣噴口</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_PO2.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_PO2.DESC"
 msgid "A highly pressurized vent that periodically erupts with hot <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link>."
-msgstr "<link=\"CONTAMINATEDOXYGEN\">汙氧</link> 定期噴發的高壓噴口。"
+msgstr "定期噴發 <link=\"CONTAMINATEDOXYGEN\">汙氧</link> 的高壓噴口。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_PO2.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_PO2.NAME"
@@ -20787,7 +20787,7 @@ msgstr "<link=\"GEYSERGENERICHOTPO2\">高溫汙氧噴口</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_STEAM.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_STEAM.DESC"
 msgid "A highly pressurized vent that periodically erupts with scalding <link=\"STEAM\">Steam</link>."
-msgstr "<link=\"STEAM\">蒸氣</link> 定期噴發的高壓噴口。"
+msgstr "定期噴發高溫 <link=\"STEAM\">蒸氣</link> 的高壓噴口。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_STEAM.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_STEAM.NAME"
@@ -20797,7 +20797,7 @@ msgstr "<link=\"GEYSERGENERICHOTSTEAM\">蒸氣噴口</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.DESC"
 msgid "A highly pressurized geyser that periodically erupts with hot <link=\"WATER\">Water</link>."
-msgstr "熱 <link=\"WATER\">水</link> 定期噴發的高壓間歇泉。"
+msgstr "定期噴發熱 <link=\"WATER\">水</link> 的高壓間歇泉。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.NAME"
@@ -20807,7 +20807,7 @@ msgstr "<link=\"GEYSERGENERICHOTWATER\">溫泉</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_CO2.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_CO2.DESC"
 msgid "A highly pressurized geyser that periodically erupts with boiling liquid <link=\"LIQUIDCARBONDIOXIDE\">Carbon Dioxide</link>."
-msgstr "<link=\"LIQUIDCARBONDIOXIDE\">二氧化碳</link> 定期噴發的高壓間歇泉。"
+msgstr "定期噴發低溫液態 <link=\"LIQUIDCARBONDIOXIDE\">二氧化碳</link> 的高壓間歇泉。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_CO2.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_CO2.NAME"
@@ -20817,7 +20817,7 @@ msgstr "<link=\"GEYSERGENERICLIQUIDCO2\">二氧化碳噴泉</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.DESC"
 msgid "A highly pressurized geyser that periodically erupts with boiling <link=\"LIQUIDSULFUR\">Sulfur</link>."
-msgstr "熱 <link=\"LIQUIDSULFUR\">硫磺</link> 定期噴發的高壓間歇泉。"
+msgstr "定期噴發熱 <link=\"LIQUIDSULFUR\">硫磺</link> 的高壓間歇泉。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.NAME"
@@ -20827,7 +20827,7 @@ msgstr "<link=\"GEYSERGENERICLIQUIDSULFUR\">液態硫磺噴泉</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.METHANE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.METHANE.DESC"
 msgid "A highly pressurized geyser that periodically erupts with hot <link=\"METHANE\">Natural Gas</link>."
-msgstr "<link=\"METHANE\">天然氣</link> 定期噴發的高壓間歇泉。"
+msgstr "定期噴發高溫 <link=\"METHANE\">天然氣</link> 的高壓間歇泉。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.METHANE.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.METHANE.NAME"
@@ -20837,7 +20837,7 @@ msgstr "<link=\"GEYSERGENERICMETHANE\">天然氣噴泉</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_ALUMINUM.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_ALUMINUM.DESC"
 msgid "A large volcano that periodically erupts with molten <link=\"MOLTENALUMINUM\">Aluminum</link>."
-msgstr "<link=\"MOLTENALUMINUM\">鋁</link> 定期噴發的高壓間歇泉。"
+msgstr "定期噴發熔融 <link=\"MOLTENALUMINUM\">鋁</link> 的大火山。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_ALUMINUM.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_ALUMINUM.NAME"
@@ -20847,7 +20847,7 @@ msgstr "<link=\"GEYSERGENERICMOLTENALUMINUM\">鋁火山</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COBALT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COBALT.DESC"
 msgid "A large volcano that periodically erupts with molten <link=\"MOLTENCOBALT\">Cobalt</link>."
-msgstr "<link=\"MOLTENCOBALT\">鈷</link> 定期噴發的高壓間歇泉。"
+msgstr "定期噴發熔融 <link=\"MOLTENCOBALT\">鈷</link> 的大火山。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COBALT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COBALT.NAME"
@@ -20857,7 +20857,7 @@ msgstr "<link=\"GEYSERGENERICMOLTENCOBALT\">鈷火山</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.DESC"
 msgid "A large volcano that periodically erupts with molten <link=\"MOLTENCOPPER\">Copper</link>."
-msgstr "<link=\"MOLTENCOPPER\">銅</link> 定期噴發的高壓間歇泉。"
+msgstr "定期噴發熔融 <link=\"MOLTENCOPPER\">銅</link> 的大火山。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.NAME"
@@ -20867,7 +20867,7 @@ msgstr "<link=\"GEYSERGENERICMOLTENCOPPER\">銅火山</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_GOLD.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_GOLD.DESC"
 msgid "A large volcano that periodically erupts with molten <link=\"MOLTENGOLD\">Gold</link>."
-msgstr "<link=\"MOLTENGOLD\">金</link> 定期噴發的高壓間歇泉。"
+msgstr "定期噴發熔融 <link=\"MOLTENGOLD\">金</link> 的大火山。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_GOLD.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_GOLD.NAME"
@@ -20877,7 +20877,7 @@ msgstr "<link=\"GEYSERGENERICMOLTENGOLD\">金火山</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.DESC"
 msgid "A large volcano that periodically erupts with molten <link=\"MOLTENIRON\">Iron</link>."
-msgstr "<link=\"MOLTENIRON\">鐵</link> 定期噴發的高壓間歇泉。"
+msgstr "定期噴發熔融 <link=\"MOLTENIRON\">鐵</link> 的大火山。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.NAME"
@@ -20887,7 +20887,7 @@ msgstr "<link=\"GEYSERGENERICMOLTENIRON\">鐵火山</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_NIOBIUM.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_NIOBIUM.DESC"
 msgid "A large volcano that periodically erupts with molten <link=\"NIOBIUM\">Niobium</link>."
-msgstr "<link=\"NIOBIUM\">鈮</link> 定期噴發的高壓間歇泉。"
+msgstr "定期噴發熔融 <link=\"NIOBIUM\">鈮</link> 的大火山。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_NIOBIUM.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_NIOBIUM.NAME"
@@ -20897,7 +20897,7 @@ msgstr "<link=\"NIOBIUMGEYSER\">鈮火山</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_TUNGSTEN.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_TUNGSTEN.DESC"
 msgid "A large volcano that periodically erupts with molten <link=\"MOLTENTUNGSTEN\">Tungsten</link>."
-msgstr "<link=\"MOLTENTUNGSTEN\">鎢</link> 定期噴發的高壓間歇泉。"
+msgstr "定期噴發熔融 <link=\"MOLTENTUNGSTEN\">鎢</link> 的大火山。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_TUNGSTEN.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_TUNGSTEN.NAME"
@@ -20922,7 +20922,7 @@ msgstr "<link=\"GEYSERGENERICOILDRIP\">石油裂縫</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.SALT_WATER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SALT_WATER.DESC"
 msgid "A highly pressurized geyser that periodically erupts with <link=\"SALTWATER\">Salt Water</link>."
-msgstr "<link=\"SALTWATER\">海水</link> 定期噴發的高壓間歇泉。"
+msgstr "定期噴發 <link=\"SALTWATER\">海水</link> 的高壓間歇泉。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SALT_WATER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SALT_WATER.NAME"
@@ -20932,7 +20932,7 @@ msgstr "<link=\"GEYSERGENERICSALTWATER\">海水噴泉</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLIMY_PO2.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLIMY_PO2.DESC"
 msgid "A highly pressurized vent that periodically erupts with warm <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link>."
-msgstr "<link=\"CONTAMINATEDOXYGEN\">汙氧</link> 定期噴發的高壓噴口。"
+msgstr "定期噴發溫暖的 <link=\"CONTAMINATEDOXYGEN\">汙氧</link> 的高壓噴口。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLIMY_PO2.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLIMY_PO2.NAME"
@@ -20942,7 +20942,7 @@ msgstr "<link=\"GEYSERGENERICSLIMYPO2\">有傳染病的汙氧噴口</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_SALT_WATER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_SALT_WATER.DESC"
 msgid "A highly pressurized geyser that periodically erupts with freezing <link=\"BRINE\">Brine</link>."
-msgstr "<link=\"BRINE\">鹽水</link> 定期噴發的高壓間歇泉。"
+msgstr "定期噴發低溫 <link=\"BRINE\">鹽水</link> 的高壓間歇泉。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_SALT_WATER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_SALT_WATER.NAME"
@@ -20952,7 +20952,7 @@ msgstr "<link=\"GEYSERGENERICSLUSHSALTWATER\">低溫鹽水噴泉</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_WATER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_WATER.DESC"
 msgid "A highly pressurized geyser that periodically erupts with freezing <link=\"DIRTYWATER\">Polluted Water</link>."
-msgstr "<link=\"DIRTYWATER\">汙水</link> 定期噴發的高壓間歇泉。"
+msgstr "定期噴發低溫 <link=\"DIRTYWATER\">汙水</link> 的高壓間歇泉。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_WATER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_WATER.NAME"
@@ -20962,7 +20962,7 @@ msgstr "<link=\"GEYSERGENERICSLUSHWATER\">低溫汙水噴泉</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.SMALL_VOLCANO.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SMALL_VOLCANO.DESC"
 msgid "A miniature volcano that periodically erupts with molten <link=\"MAGMA\">Magma</link>."
-msgstr "<link=\"MAGMA\">岩漿</link> 定期噴發的高壓間歇泉。"
+msgstr "定期噴發熔融 <link=\"MAGMA\">岩漿</link> 的微型火山。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SMALL_VOLCANO.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SMALL_VOLCANO.NAME"
@@ -20972,7 +20972,7 @@ msgstr "<link=\"GEYSERGENERICSMALLVOLCANO\">小火山口</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.STEAM.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.STEAM.DESC"
 msgid "A highly pressurized vent that periodically erupts with <link=\"STEAM\">Steam</link>."
-msgstr "<link=\"STEAM\">蒸氣</link> 定期噴發的高壓噴口。"
+msgstr "定期噴發 <link=\"STEAM\">蒸氣</link> 的高壓噴口。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.STEAM.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.STEAM.NAME"
@@ -21367,7 +21367,7 @@ msgstr "<link=\"LIGHTBUGRADIOACTIVE\">輻射發光蟲</link>"
 #. STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.DESC"
 msgid "A highly pressurized geyser that periodically erupts with <link=\"METHANE\">Natural Gas</link>."
-msgstr "<link=\"METHANE\">天然氣</link> 定期噴發的高壓間歇泉。"
+msgstr "定期噴發 <link=\"METHANE\">天然氣</link> 的高壓間歇泉。"
 
 #. STRINGS.CREATURES.SPECIES.METHANEGEYSER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.NAME"
@@ -21377,7 +21377,7 @@ msgstr "<link=\"GEYSERGENERICMETHANEGEYSER\">天然氣噴泉</link>"
 #. STRINGS.CREATURES.SPECIES.MOLE.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.BABY.DESC"
 msgid "A snuggly little pup.\n\nOne day it will grow into an adult <link=\"MOLE\">Shove Vole</link>."
-msgstr "一隻鑽地田鼠寶寶。\n\n有一天它會成長為成年的 <link=\"MOLE\">鑽地田鼠</link>。"
+msgstr "一隻依偎的鑽地田鼠寶寶。\n\n有一天它會成長為成年的 <link=\"MOLE\">鑽地田鼠</link>。"
 
 #. STRINGS.CREATURES.SPECIES.MOLE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.BABY.NAME"
@@ -21402,7 +21402,7 @@ msgstr "<link=\"MOLE\">鑽地田鼠</link>"
 #. STRINGS.CREATURES.SPECIES.MOLE.VARIANT_DELICACY.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.VARIANT_DELICACY.BABY.DESC"
 msgid "A tender little Delecta Vole pup.\n\nOne day it will grow into an adult Shove Vole morph, the <link=\"MOLEDELICACY\">Delecta Vole</link>."
-msgstr "一隻辛香田鼠寶寶。\n\n隨著時間經過它會成長為一隻成年的 <link=\"MOLEDELICACY\">辛香田鼠</link>。"
+msgstr "一隻細嫩的辛香田鼠寶寶。\n\n隨著時間經過它會成長為一隻成年的 <link=\"MOLEDELICACY\">辛香田鼠</link>。"
 
 #. STRINGS.CREATURES.SPECIES.MOLE.VARIANT_DELICACY.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.VARIANT_DELICACY.BABY.NAME"
@@ -21472,7 +21472,7 @@ msgstr "<link=\"OIL_WELL\">油田</link>"
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.DESC"
 msgid "A goopy little Slickster Larva.\n\nOne day it will grow into an adult <link=\"OILFLOATER\">Slickster</link>."
-msgstr "小油怪寶寶。\n\n有一天它會成長為一隻成年的 <link=\"OILFLOATER\">小油怪</link>。"
+msgstr "一隻黏糊糊的小油怪寶寶。\n\n有一天它會成長為一隻成年的 <link=\"OILFLOATER\">小油怪</link>。"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.NAME"
@@ -21497,7 +21497,7 @@ msgstr "<link=\"OILFLOATER\">小油怪</link>"
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.DESC"
 msgid "A snuggly little Longhair Larva.\n\nOne day it will grow into an adult Slickster morph, the <link=\"OILFLOATERDECOR\">Longhair Slickster</link>."
-msgstr "長髮小油怪寶寶。\n\n有一天它會成長為一隻成年的 <link=\"OILFLOATERDECOR\">長髮小油怪</link>。"
+msgstr "一隻依偎的長髮小油怪寶寶。\n\n有一天它會成長為一隻成年的 <link=\"OILFLOATERDECOR\">長髮小油怪</link>。"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.NAME"
@@ -21522,7 +21522,7 @@ msgstr "<link=\"OILFLOATERDECOR\">長髮小油怪</link>"
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.BABY.DESC"
 msgid "A goopy little Molten Larva.\n\nOne day it will grow into an adult Slickster morph, the <link=\"OILFLOATERHIGHTEMP\">Molten Slickster</link>."
-msgstr "熔岩小油怪寶寶。\n\n有一天它會成長為一隻成年的 <link=\"OILFLOATERHIGHTEMP\">熔岩小油怪</link>。"
+msgstr "一隻黏糊糊的熔岩小油怪寶寶。\n\n有一天它會成長為一隻成年的 <link=\"OILFLOATERHIGHTEMP\">熔岩小油怪</link>。"
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.BABY.NAME"
@@ -21547,7 +21547,7 @@ msgstr "<link=\"OILFLOATERHIGHTEMP\">熔岩小油怪</link>"
 #. STRINGS.CREATURES.SPECIES.OILSPOUT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.OILSPOUT.DESC"
 msgid "A rocky vent that spouts <link=\"CRUDEOIL\">Crude Oil</link>."
-msgstr "<link=\"CRUDEOIL\">原油</link> 定期噴發的間歇泉。"
+msgstr "噴出 <link=\"CRUDEOIL\">原油</link> 的岩石噴口。"
 
 #. STRINGS.CREATURES.SPECIES.OILSPOUT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILSPOUT.NAME"
@@ -21557,7 +21557,7 @@ msgstr "<link=\"OILSPOUT\">原油噴口</link>"
 #. STRINGS.CREATURES.SPECIES.OXYFERN.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.OXYFERN.DESC"
 msgid "Oxyferns absorb <link=\"CARBONDIOXIDE\">Carbon Dioxide</link> and exude breathable <link=\"OXYGEN\">Oxygen</link>."
-msgstr "氧氣蕨吸收 <link=\"CARBONDIOXIDE\">二氧化碳</link> 與排放可呼吸的 <link=\"OXYGEN\">氧氣</link>。"
+msgstr "氧氣蕨吸收 <link=\"CARBONDIOXIDE\">二氧化碳</link> 並排放可呼吸的 <link=\"OXYGEN\">氧氣</link>。"
 
 #. STRINGS.CREATURES.SPECIES.OXYFERN.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.OXYFERN.DOMESTICATEDDESC"
@@ -21782,7 +21782,7 @@ msgstr "<link=\"PUFTBLEACHSTONE\">氯氣帕夫</link>"
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.DESC"
 msgid "A stocky little Dense Puftlet.\n\nOne day it will grow into an adult Puft morph, the <link=\"PUFTOXYLITE\">Dense Puft</link>."
-msgstr "一隻氧氣帕夫寶寶。\n\n隨著時間經過它會成長為一隻成年的帕夫變種， <link=\"PUFTOXYLITE\">氧氣帕夫</link>。"
+msgstr "一隻敦實的氧氣帕夫寶寶。\n\n隨著時間經過它會成長為一隻成年的帕夫變種， <link=\"PUFTOXYLITE\">氧氣帕夫</link>。"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.NAME"
@@ -21792,7 +21792,7 @@ msgstr "<link=\"PUFTOXYLITE\">氧氣帕夫寶寶</link>"
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.DESC"
 msgid "Dense Pufts are non-aggressive critters that excrete condensed <link=\"OXYROCK\">Oxylite</link> with each breath."
-msgstr "帕夫是沒有侵略性的動物，每次呼吸會排出 <link=\"OXYROCK\">氧氣石</link>。"
+msgstr "氧氣帕夫是沒有侵略性的動物，每次呼吸會排出 <link=\"OXYROCK\">氧氣石</link>。"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.EGG_NAME"
@@ -21807,12 +21807,12 @@ msgstr "<link=\"PUFTOXYLITE\">氧氣帕夫</link>"
 #. STRINGS.CREATURES.SPECIES.SALTPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SALTPLANT.DESC"
 msgid "Dasha Saltvines consume small amounts of <link=\"CHLORINE\">Chlorine Gas</link> and form sodium deposits as they grow, producing harvestable <link=\"SALT\">Salt</link>."
-msgstr "沙鹽藤在生長時會消耗少量的 <link=\"CHLORINE\">氯氣</link>，產生的鈉結晶可採集成為 <link=\"SALT\">鹽</link>。"
+msgstr "沙鹽藤在生長時會消耗少量的 <link=\"CHLORINE\">氯氣</link>，形成鈉結晶，產生可採集的 <link=\"SALT\">鹽</link>。"
 
 #. STRINGS.CREATURES.SPECIES.SALTPLANT.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.SALTPLANT.DOMESTICATEDDESC"
 msgid "This plant produces unrefined <link=\"SALT\">Salt</link>."
-msgstr "此植物生產未精煉的 <link=\"SALT\">鹽</link>。"
+msgstr "此植物生產未精製的 <link=\"SALT\">鹽</link>。"
 
 #. STRINGS.CREATURES.SPECIES.SALTPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SALTPLANT.NAME"
@@ -22397,7 +22397,7 @@ msgstr "<link=\"FORESTTREE\">喬木</link>"
 #. STRINGS.CREATURES.SPECIES.WOOD_TREE_BRANCH.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.WOOD_TREE_BRANCH.DESC"
 msgid "Arbor Trees Branches can be harvested for lumber."
-msgstr "喬木的樹支可收獲作為木材。"
+msgstr "喬木的樹枝可收獲作為木材。"
 
 #. STRINGS.CREATURES.SPECIES.WOOD_TREE_BRANCH.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.WOOD_TREE_BRANCH.NAME"
@@ -22467,7 +22467,7 @@ msgstr "繁殖"
 #. STRINGS.CREATURES.STATS.FERTILITY.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATS.FERTILITY.TOOLTIP"
 msgid "At 100% <style=\"KKeyword\">Reproduction</style>, critters will reach the end of their reproduction cycle and lay a new <style=\"KKeyword\">Egg</style>\n\nAfter an <style=\"KKeyword\">Egg</style> is laid, <style=\"KKeyword\">Reproduction</style> is rolled back to 0%"
-msgstr "在 <style=\"KKeyword\">繁殖度</style> 到達 100% 時，動物將迎來繁殖期並產下一個 <style=\"KKeyword\">蛋</style>\n\n在產下一個 <style=\"KKeyword\">蛋</style> 之後，<style=\"KKeyword\">繁殖度</style> 將會變回 0%"
+msgstr "在 <style=\"KKeyword\">繁殖度</style> 到達 100% 時，動物將結束繁殖期並產下一個 <style=\"KKeyword\">蛋</style>\n\n在產下一個 <style=\"KKeyword\">蛋</style> 之後，<style=\"KKeyword\">繁殖度</style> 將會變回 0%"
 
 #. STRINGS.CREATURES.STATS.FERTILIZATION.ABSORBING_MODIFIER
 msgctxt "STRINGS.CREATURES.STATS.FERTILIZATION.ABSORBING_MODIFIER"
@@ -22867,7 +22867,7 @@ msgstr "    • 光照"
 #. STRINGS.CREATURES.STATUSITEMS.CROP_TOO_DARK.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_TOO_DARK.TOOLTIP"
 msgid "Growth will resume when <style=\"KKeyword\">Light</style> requirements are met"
-msgstr "當 <style=\"KKeyword\">照明</style> 需求滿足時，會恢復長生"
+msgstr "當 <style=\"KKeyword\">照明</style> 需求滿足時，會恢復生長"
 
 #. STRINGS.CREATURES.STATUSITEMS.CROP_TOO_NONRADIATED.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_TOO_NONRADIATED.NAME"
@@ -22877,7 +22877,7 @@ msgstr "    • 低輻射等級"
 #. STRINGS.CREATURES.STATUSITEMS.CROP_TOO_NONRADIATED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_TOO_NONRADIATED.TOOLTIP"
 msgid "Growth will resume when <style=\"KKeyword\">Radiation</style> requirements are met"
-msgstr "當 <style=\"KKeyword\">輻射</style> 需求滿足時，會繼續生長"
+msgstr "當 <style=\"KKeyword\">輻射</style> 需求滿足時，會恢復生長"
 
 #. STRINGS.CREATURES.STATUSITEMS.CROP_TOO_RADIATED.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_TOO_RADIATED.NAME"
@@ -22887,7 +22887,7 @@ msgstr "    • 高輻射等級"
 #. STRINGS.CREATURES.STATUSITEMS.CROP_TOO_RADIATED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_TOO_RADIATED.TOOLTIP"
 msgid "Growth will resume when <style=\"KKeyword\">Radiation</style> requirements are met"
-msgstr "當 <style=\"KKeyword\">輻射</style> 需求滿足時，會繼續生長"
+msgstr "當 <style=\"KKeyword\">輻射</style> 需求滿足時，會恢復生長"
 
 #. STRINGS.CREATURES.STATUSITEMS.DEAD.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.DEAD.NAME"
@@ -23272,7 +23272,7 @@ msgstr "這隻動物寶寶即將成年"
 #. STRINGS.CREATURES.STATUSITEMS.HATCHING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HATCHING.NAME"
 msgid "Hatching"
-msgstr "哈奇"
+msgstr "孵化"
 
 #. STRINGS.CREATURES.STATUSITEMS.HATCHING.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HATCHING.TOOLTIP"
@@ -23892,7 +23892,7 @@ msgstr "停止成長 {Reasons}"
 #. STRINGS.CREATURES.STATUSITEMS.WILTING.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WILTING.TOOLTIP"
 msgid "Growth will resume when conditions improve"
-msgstr "當條件改善時會繼續生長"
+msgstr "當條件改善時會恢復生長"
 
 #. STRINGS.CREATURES.STATUSITEMS.WILTING_NON_GROWING_PLANT.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WILTING_NON_GROWING_PLANT.NAME"
@@ -23902,7 +23902,7 @@ msgstr "生長停滯{Reasons}"
 #. STRINGS.CREATURES.STATUSITEMS.WILTING_NON_GROWING_PLANT.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WILTING_NON_GROWING_PLANT.TOOLTIP"
 msgid "Growth will resume when conditions improve"
-msgstr "生長將在條件改善後恢復"
+msgstr "當條件改善時會恢復生長"
 
 #. STRINGS.CREATURES.STATUSITEMS.WILTINGDOMESTIC.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WILTINGDOMESTIC.NAME"
@@ -23912,12 +23912,12 @@ msgstr "生長停滯{Reasons}"
 #. STRINGS.CREATURES.STATUSITEMS.WILTINGDOMESTIC.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WILTINGDOMESTIC.TOOLTIP"
 msgid "Growth will resume when conditions improve"
-msgstr "生長將在條件改善後恢復"
+msgstr "當條件改善時會恢復生長"
 
 #. STRINGS.CREATURES.STATUSITEMS.WRONGATMOSPHERE.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGATMOSPHERE.NAME"
 msgid "    • Atmosphere"
-msgstr "    • 大氣層"
+msgstr "    • 環境"
 
 #. STRINGS.CREATURES.STATUSITEMS.WRONGATMOSPHERE.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGATMOSPHERE.TOOLTIP"
@@ -24232,7 +24232,7 @@ msgstr "<link=\"DISEASE\">疾病</link> 恢復加成"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DOCTOREDLEVEL.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DOCTOREDLEVEL.DESC"
 msgid "Duplicants who receive medical care while in a <link=\"DOCTORSTATION\">Sick Bay</link> or <link=\"ADVANCEDDOCTORSTATION\">Disease Clinic</link> will gain the <style=\"KKeyword\">Treatment Received</style> effect\n\nThis effect reduces the severity of <style=\"KKeyword\">Disease</style> symptoms"
-msgstr "在 <link=\"DOCTORSTATION\">加護病房</link> 或 <link=\"ADVANCEDDOCTORSTATION\">診療艙</link> 接收治療的複製人會獲得 <style=\"KKeyword\">接受治療</style> 效果\n\n此效果會減少 <style=\"KKeyword\">疾病</style> 的嚴重程度"
+msgstr "在 <link=\"DOCTORSTATION\">加護病房</link> 或 <link=\"ADVANCEDDOCTORSTATION\">回復倉</link> 接收治療的複製人會獲得 <style=\"KKeyword\">接受治療</style> 效果\n\n此效果會減少 <style=\"KKeyword\">疾病</style> 的嚴重程度"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DOCTOREDLEVEL.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DOCTOREDLEVEL.NAME"
@@ -29242,7 +29242,7 @@ msgstr "小夜曲"
 #. STRINGS.DUPLICANTS.MODIFIERS.HEARDJOYSINGER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.HEARDJOYSINGER.TOOLTIP"
 msgid "A Yodeler's singing thrilled this Duplicant\n\nThis Duplicant works at a higher tempo now!"
-msgstr "約德爾的歌聲讓這個複製人興奮不已\n\n這個複製人現在以更高的效率工作！"
+msgstr "輕曲哼唱者的歌聲讓這個複製人興奮不已\n\n這個複製人現在以更高的效率工作！"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.HISTAMINESUPPRESSION.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.HISTAMINESUPPRESSION.NAME"
@@ -29362,12 +29362,12 @@ msgstr "靜脈注射"
 #. STRINGS.DUPLICANTS.MODIFIERS.ISJOYSINGER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ISJOYSINGER.NAME"
 msgid "Yodeling"
-msgstr "約得爾歌唱"
+msgstr "輕曲哼唱"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ISJOYSINGER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ISJOYSINGER.TOOLTIP"
 msgid "This Duplicant is currently Yodeling!"
-msgstr "這個複製人目前正在進行約德爾歌唱！"
+msgstr "這個複製人目前正在輕曲哼唱！"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ISSPARKLESTREAKER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ISSPARKLESTREAKER.NAME"
@@ -31587,7 +31587,7 @@ msgstr "<link=\"FARMING3\">農業技術改良 II</link>"
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_MEDIC.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_MEDIC.DESCRIPTION"
 msgid "Trains Duplicants to operate the <link=\"ADVANCEDDOCTORSTATION\">Disease Clinic</link>"
-msgstr "訓練複製人操作 <link=\"ADVANCEDDOCTORSTATION\">診療艙</link>"
+msgstr "訓練複製人操作 <link=\"ADVANCEDDOCTORSTATION\">回復倉</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_MEDIC.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_MEDIC.NAME"
@@ -32257,7 +32257,7 @@ msgstr "此複製人正在拆除遺跡 <b>{Target}</b>"
 #. STRINGS.DUPLICANTS.STATUSITEMS.DIGGING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.DIGGING.NAME"
 msgid "Digging"
-msgstr "挖掘"
+msgstr "正在挖掘"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.DIGGING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.DIGGING.TOOLTIP"
@@ -32327,7 +32327,7 @@ msgstr "此複製人正在運送原料給 <b>{Target}</b>"
 #. STRINGS.DUPLICANTS.STATUSITEMS.EATING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EATING.NAME"
 msgid "Eating {Target}"
-msgstr "食用 {Target}"
+msgstr "正在吃 {Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EATING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EATING.TOOLTIP"
@@ -32552,7 +32552,7 @@ msgstr "維持"
 #. STRINGS.DUPLICANTS.STATUSITEMS.GENERATINGPOWER.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GENERATINGPOWER.NAME"
 msgid "Generating power"
-msgstr "發電"
+msgstr "發電中"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.GENERATINGPOWER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GENERATINGPOWER.TOOLTIP"
@@ -32812,7 +32812,7 @@ msgstr "此複製人正在運送原料給 <b>{Target}</b>"
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOPPING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOPPING.NAME"
 msgid "Mopping"
-msgstr "擦地"
+msgstr "擦地中"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOPPING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOPPING.TOOLTIP"
@@ -32852,7 +32852,7 @@ msgstr "此複製人正在運送原料給 <b>{Target}</b>"
 #. STRINGS.DUPLICANTS.STATUSITEMS.MUSHING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MUSHING.NAME"
 msgid "Mushing {Item}"
-msgstr "正在攪拌 {Item}"
+msgstr "正在壓製 {Item}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MUSHING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MUSHING.TOOLTIP"
@@ -33537,7 +33537,7 @@ msgstr "像有胃裡有蝴蝶在飛舞，除非他們是在打嗝\n\n在複製�
 #. STRINGS.DUPLICANTS.STATUSITEMS.STRESSED.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESSED.NAME"
 msgid "Stressed"
-msgstr "壓力過大"
+msgstr "壓力"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STRESSED.NOTIFICATION_NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESSED.NOTIFICATION_NAME"
@@ -33597,7 +33597,7 @@ msgstr "此複製人 <style=\"KKeyword\">壓力</style> 過大吐了滿地\n\n�
 #. STRINGS.DUPLICANTS.STATUSITEMS.STUDYING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STUDYING.NAME"
 msgid "Analyzing"
-msgstr "分析"
+msgstr "分析中"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STUDYING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STUDYING.TOOLTIP"
@@ -33687,7 +33687,7 @@ msgstr "此複製人無法到達 <link=\"OUTHOUSE\">茅廁</link> 或 <link=\"FL
 #. STRINGS.DUPLICANTS.STATUSITEMS.UPROOTING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.UPROOTING.NAME"
 msgid "Uprooting {Target}"
-msgstr "剷起 {Target}"
+msgstr "正在剷起 {Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.UPROOTING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.UPROOTING.TOOLTIP"
@@ -33727,7 +33727,7 @@ msgstr "此複製人因為 <link=\"DISEASE\">疾病</link> 引起嘔吐\n\n複�
 #. STRINGS.DUPLICANTS.STATUSITEMS.WARMINGUP.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.WARMINGUP.NAME"
 msgid "Warming up"
-msgstr "熱身"
+msgstr "正在熱身"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.WARMINGUP.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.WARMINGUP.TOOLTIP"
@@ -33747,7 +33747,7 @@ msgstr "此複製人正在運送原料給 <b>{Target}</b>"
 #. STRINGS.DUPLICANTS.STATUSITEMS.WASHINGHANDS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.WASHINGHANDS.NAME"
 msgid "Washing hands"
-msgstr "洗手"
+msgstr "正在洗手"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.WASHINGHANDS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.WASHINGHANDS.TOOLTIP"
@@ -33987,7 +33987,7 @@ msgstr "當此複製人 <style=\"KKeyword\">壓力</style> 過大時，會瘋狂
 #. STRINGS.DUPLICANTS.TRAITS.BANSHEE.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.BANSHEE.NAME"
 msgid "Banshee"
-msgstr "女妖"
+msgstr "鬼嚎"
 
 #. STRINGS.DUPLICANTS.TRAITS.BEDSIDEMANNER.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.BEDSIDEMANNER.DESC"
@@ -34692,7 +34692,7 @@ msgstr "此複製人獲得免費的 <style=\"KKeyword\">技能</style> 而不會
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.DESC"
 msgid "Trains Duplicants to operate the <link=\"ADVANCEDDOCTORSTATION\">Disease Clinic</link>"
-msgstr "訓練複製人操作 <link=\"ADVANCEDDOCTORSTATION\">診療艙</link>"
+msgstr "訓練複製人操作 <link=\"ADVANCEDDOCTORSTATION\">回復倉</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.NAME"
@@ -34997,7 +34997,7 @@ msgstr "當他們<style=\"KKeyword\">高士氣</style>時，這個複製人會�
 #. STRINGS.DUPLICANTS.TRAITS.HAPPYSINGER.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.HAPPYSINGER.NAME"
 msgid "Yodeler"
-msgstr "約德爾"
+msgstr "輕曲哼唱者"
 
 #. STRINGS.DUPLICANTS.TRAITS.HEMOPHOBIA.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.HEMOPHOBIA.DESC"
@@ -35382,7 +35382,7 @@ msgstr "打呼"
 #. STRINGS.DUPLICANTS.TRAITS.SNORER.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.SNORER.SHORT_DESC"
 msgid "Snores loudly"
-msgstr "打呼"
+msgstr "大聲地打呼"
 
 #. STRINGS.DUPLICANTS.TRAITS.SNORER.SHORT_DESC_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.TRAITS.SNORER.SHORT_DESC_TOOLTIP"
@@ -35642,7 +35642,7 @@ msgstr "<link=\"BRICK\">瓷磚</link>"
 #. STRINGS.ELEMENTS.BRINE.DESC
 msgctxt "STRINGS.ELEMENTS.BRINE.DESC"
 msgid "Brine is a natural, highly concentrated solution of <link=\"SALT\">Salt</link> dissolved in <link=\"WATER\">Water</link>.\n\nIt can be used in desalination processes, separating out usable salt."
-msgstr "鹽水是一種天然、高濃度的 <link=\"SALT\">鹽</link> 融於 <link=\"WATER\">水</link> 中。\n\n用海水淡化機處理後，可分離出可用的鹽。"
+msgstr "鹽水是一種天然、高濃度的 <link=\"SALT\">鹽</link> 溶於 <link=\"WATER\">水</link> 中。\n\n可用於海水淡化過程，分離出可用的鹽。"
 
 #. STRINGS.ELEMENTS.BRINE.NAME
 msgctxt "STRINGS.ELEMENTS.BRINE.NAME"
@@ -35652,7 +35652,7 @@ msgstr "<link=\"BURNER\">鹽水</link>"
 #. STRINGS.ELEMENTS.BRINEICE.DESC
 msgctxt "STRINGS.ELEMENTS.BRINEICE.DESC"
 msgid "Brine is a natural, highly concentrated solution of <link=\"SALT\">Salt</link> dissolved in <link=\"WATER\">Water</link>.\n\nIt can be used in desalination processes, separating out usable salt."
-msgstr "鹽水是一種天然、高濃度的 <link=\"SALT\">鹽</link> 融於 <link=\"WATER\">水</link> 中。\n\n用海水淡化機處理後，可分離出可用的鹽。"
+msgstr "鹽水是一種天然、高濃度的 <link=\"SALT\">鹽</link> 溶於 <link=\"WATER\">水</link> 中。\n\n可用於海水淡化過程，分離出可用的鹽。"
 
 #. STRINGS.ELEMENTS.BRINEICE.NAME
 msgctxt "STRINGS.ELEMENTS.BRINEICE.NAME"
@@ -36937,7 +36937,7 @@ msgstr "<link=\"SALTGAS\">氣態鹽</link>"
 #. STRINGS.ELEMENTS.SALTWATER.DESC
 msgctxt "STRINGS.ELEMENTS.SALTWATER.DESC"
 msgid "Salt Water is a natural, lightly concentrated solution of <link=\"SALT\">Salt</link> dissolved in <link=\"WATER\">Water</link>.\n\nIt can be used in desalination processes, separating out usable salt."
-msgstr "海水是一種天然，低濃度的 <link=\"SALT\">鹽</link> 溶於 <link=\"WATER\">水</link> 中。\n\n可使用海水淡化機，分離出可食用的鹽。"
+msgstr "海水是一種天然，低濃度的 <link=\"SALT\">鹽</link> 溶於 <link=\"WATER\">水</link> 中。\n\n可用於海水淡化過程，分離出可用的鹽。"
 
 #. STRINGS.ELEMENTS.SALTWATER.NAME
 msgctxt "STRINGS.ELEMENTS.SALTWATER.NAME"
@@ -46137,7 +46137,7 @@ msgstr "此小行星上的複製人 {0}"
 #. STRINGS.RESEARCH.MESSAGING.DLC.EXPANSION1
 msgctxt "STRINGS.RESEARCH.MESSAGING.DLC.EXPANSION1"
 msgid "<style=\"KKeyword\">\n\n<i>Spaced Out!</i></style> DLC Content"
-msgstr "<style=\"KKeyword\">\n\n<i>Spaced Out!</i></style> DLC 內容"
+msgstr "<style=\"KKeyword\">\n\n<i>眼冒金星!</i></style> 可下載內容"
 
 #. STRINGS.RESEARCH.MESSAGING.MISSING_RESEARCH_STATION
 msgctxt "STRINGS.RESEARCH.MESSAGING.MISSING_RESEARCH_STATION"
@@ -48967,7 +48967,7 @@ msgstr "海洋"
 #. STRINGS.SUBWORLDS.OCEAN.UTILITY
 msgctxt "STRINGS.SUBWORLDS.OCEAN.UTILITY"
 msgid "<link=\"CRABSPECIES\">Pokeshell</link> molt is an excellent source of <link=\"LIME\">Lime</link> but much care must be taken with domesticating this species as it can get aggressive around its eggs.\n\nHarvesting <link=\"SEALETTUCE\">Waterweed</link> provides <link=\"LETTUCE\">Lettuce</link> for many higher-tier <link=\"FOOD\">foods</link>.\n\nAny water will need to be filtered through a <link=\"DESALINATOR\">Desalinator</link> to remove the <link=\"SALT\">Salt</link> from <link=\"WATER\">Water</link> in order to be useful for my Duplicants. Luckily <link=\"SALT\">Table Salt</link> can be produced using a <link=\"ROCKCRUSHER\">Rock Crusher</link> which, when combined with a <link=\"DININGTABLE\">Mess Table</link>, gives my Duplicants a Morale boost."
-msgstr "<link=\"CRABSPECIES\">拋殼蟹殼</link> 是 <link=\"LIME\">石灰</link> 極佳的來源，但馴化此物種必須格外小心，因為它們在蛋的附近會變得有侵略性。\n\n收成 <link=\"SEALETTUCE\">水草</link> 提供 <link=\"LETTUCE\">生菜</link> 用來製作許多高級的 <link=\"FOOD\">食物</link>。\n\n任何 <link=\"WATER\">水</link> 都需要經過 <link=\"DESALINATOR\">海水淡化機</link> 去除 <link=\"SALT\">鹽</link> 才能供給複製人使用。\n幸運的是可以使用 <link=\"ROCKCRUSHER\">碎石機</link> 生產 <link=\"SALT\">食鹽</link>，當與 <link=\"DININGTABLE\">餐桌</link> 結合使用，會給予複製人士加成。"
+msgstr "<link=\"CRABSPECIES\">拋殼蟹</link> 殼是 <link=\"LIME\">石灰</link> 極佳的來源，但馴化此物種必須格外小心，因為它們在蛋的附近會變得有侵略性。\n\n收成 <link=\"SEALETTUCE\">水草</link> 提供 <link=\"LETTUCE\">生菜</link> 用來製作許多高級的 <link=\"FOOD\">食物</link>。\n\n任何 <link=\"WATER\">水</link> 都需要經過 <link=\"DESALINATOR\">海水淡化機</link> 去除 <link=\"SALT\">鹽</link> 才能供給複製人使用。\n幸運的是可以使用 <link=\"ROCKCRUSHER\">碎石機</link> 生產 <link=\"SALT\">食鹽</link>，當與 <link=\"DININGTABLE\">餐桌</link> 結合使用，會給予複製人士加成。"
 
 #. STRINGS.SUBWORLDS.OIL.DESC
 msgctxt "STRINGS.SUBWORLDS.OIL.DESC"
@@ -48987,7 +48987,7 @@ msgstr "雖然 <link=\"OXYGEN\">氧氣</link> 在此生態系中相當稀少，�
 #. STRINGS.SUBWORLDS.RADIOACTIVE.DESC
 msgctxt "STRINGS.SUBWORLDS.RADIOACTIVE.DESC"
 msgid "A highly volatile environment containing a highly useful resource, this biome is invaluable when venturing into Nuclear technologies."
-msgstr "高危的環境含有大量有用的資源，當進入核能科技時此生態系是無價的。"
+msgstr "一個高度不穩定的環境包含一個非常有用的資源，當進入核能科技時此生態系是無價的。"
 
 #. STRINGS.SUBWORLDS.RADIOACTIVE.NAME
 msgctxt "STRINGS.SUBWORLDS.RADIOACTIVE.NAME"
@@ -49082,12 +49082,12 @@ msgstr "雖然廢土生態系看起來不是特別有趣，但務實的殖民地
 #. STRINGS.SUBWORLDS.WASTELAND.NAME
 msgctxt "STRINGS.SUBWORLDS.WASTELAND.NAME"
 msgid "Wasteland"
-msgstr "廢土"
+msgstr "荒地"
 
 #. STRINGS.SUBWORLDS.WASTELAND.UTILITY
 msgctxt "STRINGS.SUBWORLDS.WASTELAND.UTILITY"
 msgid "The prevalance of <link=\"COPPER\">Copper</link>, <link=\"SANDSTONE\">Sandstone</link>, <link=\"IGNEOUSROCK\">Igneous Rock</link> and its <link=\"IRON\">Iron</link> rich counterpart <link=\"MAFICROCK\">Mafic Rock</link>, make this a fruitful biome to explore for construction material. <link=\"SAND\">Sand</link> is also in abundance here which is useful as a filtering material.\n\nWhile the wildlife is not in abundance in the Wasteland Biome, the <link=\"DIVERGENTBEETLE\">Sweetle</link> and <link=\"DIVERGENTWORM\">Grubgrub</link> make interesting creatures to domesticate as they co-exist with the  <link=\"WORMPLANT\">Grubfruit Plants</link> to produce a much higher quality food than the <link=\"WORMPLANT\">Spindly Grubfruit Plant</link> found in the wild. Additionally, the <link=\"SULFUR\">Sulfur</link> found here works both as food for the GrubGrubs and fertilizer for the Grubfruit Plants.\n\nThe abundance of <link=\"OXYGEN\">Oxygen</link> found in the Wasteland Biome makes for a low-risk area to send my Duplicants into to collect useful resources to continue with their construction projects."
-msgstr "大量的 <link=\"COPPER\">銅</link>、<link=\"SANDSTONE\">沙岩</link>、<link=\"IGNEOUSROCK\">火成岩</link> 與富含 <link=\"IRON\">鐵</link> 的 <link=\"MAFICROCK\">基岩</link>，使此生態系成為取得建築材料的良好地點。\n這裡也有豐富的 <link=\"SAND\">沙子</link> 可用來作為過濾介質。\n\n雖然廢土生態系的野生動物並不豐富，但 <link=\"DIVERGENTBEETLE\">甲蟲</link> 與 <link=\"DIVERGENTWORM\">甲蟲幼體</link> 是可馴化的有趣動物，它們與 <link=\"WORMPLANT\">燈籠草</link> 形成共生關系，可以生產比野生 <link=\"WORMPLANT\">劣質燈籠草</link> 品質更好的食物。\n此外， <link=\"SULFUR\">硫磺</link> 同時可作為甲蟲幼體的食物與燈籠肥料。\n\n廢土生態系有豐富的 <link=\"OXYGEN\">氧氣</link> 是個低風險的區域，將複製送到這裡收集有用的資源有利建築計劃的繼續進行。"
+msgstr "大量的 <link=\"COPPER\">銅</link>、<link=\"SANDSTONE\">沙岩</link>、<link=\"IGNEOUSROCK\">火成岩</link> 與富含 <link=\"IRON\">鐵</link> 的 <link=\"MAFICROCK\">基岩</link>，使此生態系成為取得建築材料的良好地點。\n這裡也有豐富的 <link=\"SAND\">沙子</link> 可用來作為過濾介質。\n\n雖然廢土生態系的野生動物並不豐富，但 <link=\"DIVERGENTBEETLE\">甲蟲</link> 與 <link=\"DIVERGENTWORM\">甲蟲幼體</link> 是可馴化的有趣動物，它們與 <link=\"WORMPLANT\">燈籠草</link> 形成共生關係，可以生產比野生 <link=\"WORMPLANT\">劣質燈籠草</link> 品質更好的食物。\n此外， <link=\"SULFUR\">硫磺</link> 同時可作為甲蟲幼體的食物與燈籠肥料。\n\n廢土生態系有豐富的 <link=\"OXYGEN\">氧氣</link> 是個低風險的區域，將複製送到這裡收集有用的資源有利建築計劃的繼續進行。"
 
 #. STRINGS.UI.ACTIONS
 msgctxt "STRINGS.UI.ACTIONS"
@@ -49732,7 +49732,7 @@ msgstr "種植箱懲罰"
 #. STRINGS.UI.BUILDINGEFFECTS.PREFERS_ROOM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.PREFERS_ROOM"
 msgid "Preferred Room: {0}"
-msgstr "首選房間：{0}"
+msgstr "可能房間：{0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.PROCESSEDITEM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.PROCESSEDITEM"
@@ -49987,7 +49987,7 @@ msgstr "每次使用生產 <style=\"produced\">{1}</style> 的 <style=\"KKeyword
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DOCTORING
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DOCTORING"
 msgid "Doctoring increases existing health benefits and can allow the treatment of otherwise stubborn <style=\"KKeyword\">Diseases</style>"
-msgstr "醫療改善現有的健康狀況，並可以治癒其他頑固的 <style=\"KKeyword\">疾病</style>"
+msgstr "醫療增加了現有的健康益處，並可以治癒其他頑固的 <style=\"KKeyword\">疾病</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DUPLICANTMOVEMENTBOOST
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DUPLICANTMOVEMENTBOOST"
@@ -50262,7 +50262,7 @@ msgstr "此建築配有 <style=\"KKeyword\">輻射粒子</style> 的發射端口
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PLANTERBOX_PENTALTY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PLANTERBOX_PENTALTY"
 msgid "Plants grow more slowly when contained within boxes"
-msgstr "在種植箱內的植物會長生的較慢"
+msgstr "在種植箱內的植物會生長的較慢"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PREFERS_ROOM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PREFERS_ROOM"
@@ -50567,7 +50567,7 @@ msgstr "{0}：{1}"
 #. STRINGS.UI.CHARACTERCONTAINER_NOARCHETYPESELECTED
 msgctxt "STRINGS.UI.CHARACTERCONTAINER_NOARCHETYPESELECTED"
 msgid "Random"
-msgstr "亂數"
+msgstr "隨機"
 
 #. STRINGS.UI.CHARACTERCONTAINER_SKILL_VALUE
 msgctxt "STRINGS.UI.CHARACTERCONTAINER_SKILL_VALUE"
@@ -50617,7 +50617,7 @@ msgstr "稀少"
 #. STRINGS.UI.CLUSTERMAP.ASTEROIDS.SURFACE_CONDITIONS.LIGHT
 msgctxt "STRINGS.UI.CLUSTERMAP.ASTEROIDS.SURFACE_CONDITIONS.LIGHT"
 msgid "Peak Light"
-msgstr "峰值亮度"
+msgstr "尖峰亮度"
 
 #. STRINGS.UI.CLUSTERMAP.ASTEROIDS.SURFACE_CONDITIONS.RADIATION
 msgctxt "STRINGS.UI.CLUSTERMAP.ASTEROIDS.SURFACE_CONDITIONS.RADIATION"
@@ -50957,7 +50957,7 @@ msgstr "<link=\"BUILDINGS\">建築物</link>"
 #. STRINGS.UI.CODEX.CATEGORYNAMES.CREATURES
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.CREATURES"
 msgid "<link=\"CREATURES\">Critters</link>"
-msgstr "<link=\"CREATURES\">動物</link>"
+msgstr "<link=\"CREATURES\">小動物</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.DISEASE
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.DISEASE"
@@ -52377,12 +52377,12 @@ msgstr "關閉"
 #. STRINGS.UI.CREDITSSCREEN.THIRD_PARTY.FMOD
 msgctxt "STRINGS.UI.CREDITSSCREEN.THIRD_PARTY.FMOD"
 msgid "FMOD Sound System\nCopyright Firelight Technologies"
-msgstr "FMOD 音效系統\n版權所有 Firelight Technologies"
+msgstr "FMOD Sound System\nCopyright Firelight Technologies"
 
 #. STRINGS.UI.CREDITSSCREEN.THIRD_PARTY.HARMONY
 msgctxt "STRINGS.UI.CREDITSSCREEN.THIRD_PARTY.HARMONY"
 msgid "Harmony by Andreas Pardeike"
-msgstr "由 Andreas Pardeike 協助"
+msgstr "Harmony by Andreas Pardeike"
 
 #. STRINGS.UI.CREDITSSCREEN.TITLE
 msgctxt "STRINGS.UI.CREDITSSCREEN.TITLE"
@@ -53472,12 +53472,12 @@ msgstr "謝謝！"
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.BODY
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.BODY"
 msgid "This game is in the early stages of development which means you're likely to encounter strange, amusing, and occasionally just downright frustrating bugs.\n\nDuring this time Oxygen Not Included will be receiving regular updates to fix bugs, add features, and introduce additional content, so if you encounter issues or just have suggestions to share, please let us know on our forums: <u>http://forums.kleientertainment.com</u>\n\nA special thanks to those who joined us during our time in Alpha. We value your feedback and thank you for joining us in the development process. We couldn't do this without you.\n\nEnjoy your time in deep space!\n\n- Klei"
-msgstr "DLC 目前處於開發的初期階段，這意味著您可能會遇到奇怪的，有趣的，偶爾令人沮喪的錯誤。\n\n在 Spaced Out! 期間，我們將會定期更新修復錯誤、加入新機制和新內容。請加入我們的論壇，留意我們最新的計劃、回報問題或提供建議：<u>http://forums.kleientertainment.com</u>\n\n在此 DLC 準備好之前，我們還會加入許多舊有與新的內容。\n我們很高興有你們的陪伴。\n\n在浩瀚的太空中享受你的時光！\n\n－Klei 團隊"
+msgstr "此遊戲目前處於開發的初期階段，這意味著您可能會遇到奇怪的，有趣的，偶爾令人沮喪的錯誤。\n\n在 缺氧 的開發期間，我們將會定期更新修復錯誤、加入新機制和新內容。請加入我們的論壇，留意我們最新的計劃、回報問題或提供建議：<u>http://forums.kleientertainment.com</u>\n\n在此 DLC 準備好之前，我們還會加入許多舊有與新的內容。\n我們很高興有你們的陪伴。\n\n在浩瀚的太空中享受你的時光！\n\n－Klei 團隊"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.BODY_NOLINKS
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.BODY_NOLINKS"
 msgid "This DLC is currently in active development, which means you're likely to encounter strange, amusing, and occasionally just downright frustrating bugs.\n\n During this time Spaced Out! will be receiving regular updates to fix bugs, add features, and introduce additional content.\n\n We've got lots of content old and new to add to this DLC before it's ready, and we're happy to have you along with us. Enjoy your time in deep space!\n\n - The Team at Klei"
-msgstr "DLC 目前正在開發階段，這意味著您可能會遇到奇怪的，有趣的，偶爾令人沮喪的錯誤。\n\n在 Spaced Out! 期間，我們將會定期更新修復錯誤、加入新機制和新內容。\n\n在準備好之前，我還有許多新與舊的會加入到此 DLC 中，並很高興有你與我們一起。\n\n在浩瀚的太空中享受你的時光！\n\n－Klei 團隊"
+msgstr "此 DLC 目前正在開發階段，這意味著您可能會遇到奇怪的，有趣的，偶爾令人沮喪的錯誤。\n\n在 眼冒金星! 的開發期間，我們將會定期更新修復錯誤、加入新機制和新內容。\n\n在準備好之前，我們還有許多新與舊的內容會加入到此 DLC 中，並很高興有你與我們一起。\n\n在浩瀚的太空中享受你的時光！\n\n－Klei 團隊"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.FORUMBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.FORUMBUTTON"
@@ -53672,12 +53672,12 @@ msgstr "全部"
 #. STRINGS.UI.DLC1.NAME
 msgctxt "STRINGS.UI.DLC1.NAME"
 msgid "Spaced Out!"
-msgstr "Spaced Out!"
+msgstr "眼冒金星!"
 
 #. STRINGS.UI.DLC1.NAME_ITAL
 msgctxt "STRINGS.UI.DLC1.NAME_ITAL"
 msgid "<i>Spaced Out!</i>"
-msgstr "<i>Spaced Out!</i>"
+msgstr "<i>眼冒金星!</i>"
 
 #. STRINGS.UI.DROPDOWN.NONE
 msgctxt "STRINGS.UI.DROPDOWN.NONE"
@@ -54457,12 +54457,12 @@ msgstr "小行星種類"
 #. STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.SPACEDOUT_DESC
 msgctxt "STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.SPACEDOUT_DESC"
 msgid "Scenarios designed for the <b>Spaced Out! DLC</b>.\nSmaller starting asteroids with resources distributed across the starmap. More emphasis on space travel."
-msgstr "設計給 <b>Spaced Out! DLC</b> 的場景。\n較小的小行星起始地，資源散佈在星圖上。\n更強調太空旅行。"
+msgstr "設計給 <b>眼冒金星! DLC</b> 的場景。\n較小的小行星起始地，資源散佈在星圖上。\n更強調太空旅行。"
 
 #. STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.SPACEDOUT_TITLE
 msgctxt "STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.SPACEDOUT_TITLE"
 msgid "Spaced Out!"
-msgstr "Spaced Out!"
+msgstr "眼冒金星!"
 
 #. STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.VANILLA_DESC
 msgctxt "STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.VANILLA_DESC"
@@ -54832,7 +54832,7 @@ msgstr "停用"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS.DISABLED.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS.DISABLED.TOOLTIP"
 msgid "Unchecked: <i>Spaced Out!</i> Content is turned off (Default)"
-msgstr "停用：關掉 <i>Spaced Out!</i> 內容（預設）"
+msgstr "停用：關掉 <i>眼冒金星!</i> 內容（預設）"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS.ENABLED.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS.ENABLED.NAME"
@@ -54842,17 +54842,17 @@ msgstr "啟用"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS.ENABLED.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS.ENABLED.TOOLTIP"
 msgid "Checked: <i>Spaced Out!</i> Content is turned on"
-msgstr "啟用：打開 <i>Spaced Out!</i> 內容"
+msgstr "啟用：打開 <i>眼冒金星!</i> 內容"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.NAME"
 msgid "<i>Spaced Out!</i> Content Enabled"
-msgstr "<i>Spaced Out!</i> 內容啟用"
+msgstr "<i>眼冒金星!</i> 內容啟用"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.TOOLTIP"
 msgid "If checked, content from the <i>Spaced Out!</i> Expansion will be available"
-msgstr "如果勾選，<i>Spaced Out!</i> DLC 會啟用"
+msgstr "如果勾選，<i>眼冒金星!</i> DLC 會啟用"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.FASTWORKERSMODE.LEVELS.DISABLED.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.FASTWORKERSMODE.LEVELS.DISABLED.NAME"
@@ -55827,12 +55827,12 @@ msgstr "存活人數"
 #. STRINGS.UI.FRONTEND.LOADSCREEN.EXPANSION1_CONTENT
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.EXPANSION1_CONTENT"
 msgid "<i>Spaced Out!</i> Expansion FIXME"
-msgstr "<i>Spaced Out!</i> DLC FIXME"
+msgstr "<i>眼冒金星!</i> DLC FIXME"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.EXPANSION1_RESTART
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.EXPANSION1_RESTART"
 msgid "Loading this colony will require restarting the game with <i>Spaced Out!</i> content enabled"
-msgstr "<i>Spaced Out!</i> 內容啟用，載入此殖民地需要重啟遊戲"
+msgstr "<i>眼冒金星!</i> 內容啟用，載入此殖民地需要重啟遊戲"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.LOCAL_SAVE
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.LOCAL_SAVE"
@@ -55892,7 +55892,7 @@ msgstr "    3. 重啟遊戲並重新轉換存檔。"
 #. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_POST
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_POST"
 msgid "\n<b>If this still doesn't solve the problem, please post a bug in the forums and we will attempt to assist with your issue.</b>"
-msgstr "\n<b>如果仍然無法解決問題，請到論譠回報錯誤試著協助你解決問題。</b>"
+msgstr "\n<b>如果仍然無法解決問題，請到論譠回報錯誤，我們試著協助你解決問題。</b>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_PRE
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_PRE"
@@ -55947,12 +55947,12 @@ msgstr "本地存檔"
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT"
 msgid "<b><color=#ff0000>This save is from <i>Spaced Out!</i> Activate the DLC to play it! (v{2}/v{4})</color></b>"
-msgstr "<b><color=#ff0000>此存檔來自於 <i>Spaced Out!</i> 啟動 DLC 才能遊玩！(v{2}/v{4})</color></b>"
+msgstr "<b><color=#ff0000>此存檔來自於 <i>眼冒金星!</i> 啟動 DLC 才能遊玩！(v{2}/v{4})</color></b>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT_TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT_TOOLTIP"
 msgid "This save was created in the <i>Spaced Out!</i> DLC and can't be loaded in the base game."
-msgstr "此存檔是由 <i>Spaced Out!</i> DLC 建立的且不能在基本版遊戲中載入。"
+msgstr "此存檔是由 <i>眼冒金星!</i> DLC 建立的且不能在基本版遊戲中載入。"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO"
@@ -56007,7 +56007,7 @@ msgstr "<b><color=#ff0000>此存檔來自於以前的遊戲版本，已不再支
 #. STRINGS.UI.FRONTEND.LOADSCREEN.UNSUPPORTED_VANILLA_TEMP
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.UNSUPPORTED_VANILLA_TEMP"
 msgid "<b><color=#ff0000>This save file is from the base version of the game and currently cannot be loaded while <i>Spaced Out!</i> is installed.</color></b>"
-msgstr "<b><color=#ff0000>這個存檔來自於基礎的遊戲版本，當 <i>Spaced Out!</i> DLC 安裝時無法載入。</color></b>"
+msgstr "<b><color=#ff0000>這個存檔來自於基礎的遊戲版本，當 <i>眼冒金星!</i> 安裝時無法載入。</color></b>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.VANILLA_CONTENT
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.VANILLA_CONTENT"
@@ -56017,7 +56017,7 @@ msgstr "基礎版 FIXME"
 #. STRINGS.UI.FRONTEND.LOADSCREEN.VANILLA_RESTART
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.VANILLA_RESTART"
 msgid "Loading this colony will require restarting the game with <i>Spaced Out!</i> content disabled"
-msgstr "<i>Spaced Out!</i> 內容停用，載入此殖民地需要重啟遊戲"
+msgstr "<i>眼冒金星!</i> 內容停用，載入此殖民地需要重啟遊戲"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.WORLD_NAME
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.WORLD_NAME"
@@ -56037,22 +56037,22 @@ msgstr "啟用 DLC"
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_DESC
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_DESC"
 msgid "The game will need to restart in order to activate <i>Spaced Out!</i>"
-msgstr "遊戲需要重啟以便下載並安裝 <i>Spaced Out!</i>"
+msgstr "遊戲需要重啟以便下載並安裝 <i>眼冒金星!</i>"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_RAIL_DESC
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_RAIL_DESC"
 msgid "<i>Spaced Out!</i> will be activated the next time you launch the game. The game will now close."
-msgstr "<i>Spaced Out!</i> 將在您下次啟動遊戲時可用。 遊戲現在將關閉。"
+msgstr "<i>眼冒金星!</i> 將在您下次啟動遊戲時可用。 遊戲現在將關閉。"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.AD_DLC1
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.AD_DLC1"
 msgid "Spaced Out! DLC"
-msgstr "Spaced Out! DLC"
+msgstr "眼冒金星! 可下載內容"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1"
 msgid "DEACTIVATE DLC"
-msgstr "停用 DLC"
+msgstr "停用可下載內容"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_DESC
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_DESC"
@@ -56062,7 +56062,7 @@ msgstr "遊戲需要重啟以便下載並安裝 <I>缺氧</i> 的基本版遊戲
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_RAIL_DESC
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_RAIL_DESC"
 msgid "<i>Spaced Out!</i> will be deactivated the next time you launch the game. The game will now close."
-msgstr "<i>Spaced Out!</i> 將在您下次啟動遊戲時停用。 遊戲現在將關閉。"
+msgstr "<i>眼冒金星!</i> 將在您下次啟動遊戲時停用。 遊戲現在將關閉。"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.KLEIINVENTORY
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.KLEIINVENTORY"
@@ -56147,12 +56147,12 @@ msgstr "玩家資料"
 #. STRINGS.UI.FRONTEND.METRIC_OPTIONS_SCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.METRIC_OPTIONS_SCREEN.TITLE"
 msgid "DATA COMMUNICATION"
-msgstr "資料通信"
+msgstr "資料通訊"
 
 #. STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.DESCRIPTION
 msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.DESCRIPTION"
 msgid "Collecting user data helps us improve the game.\nPlayers who opt out of data communication will no longer send crash reports and play data to the game team. They will also no longer be able to unlock items.\n\nFor more details on our privacy policy and how we use the data we collect, please visit our <color=#ECA6C9><u><b>privacy center</b></u></color>."
-msgstr "收集用戶資料可幫助我們改進遊戲。\n選擇不啟用資料通信的玩家，將不再向遊戲團隊發送崩潰報告和用戶資料。他們也將無法解鎖物品。\n\n有關我們的隱私政策以及如何使用我們所收集資料的更多細節，請訪問我們的 <color=#ECA6C9><u><b>隱私中心</b></u>。"
+msgstr "收集用戶資料可幫助我們改進遊戲。\n選擇不啟用資料通訊的玩家，將不再向遊戲團隊發送崩潰報告和用戶資料。他們也將無法解鎖物品。\n\n有關我們的隱私政策以及如何使用我們所收集資料的更多細節，請訪問我們的 <color=#ECA6C9><u><b>隱私中心</b></u>。"
 
 #. STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.DONE_BUTTON
 msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.DONE_BUTTON"
@@ -56162,7 +56162,7 @@ msgstr "完成"
 #. STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.ENABLE_BUTTON
 msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.ENABLE_BUTTON"
 msgid "Enable Data Communication"
-msgstr "啟用資料通信"
+msgstr "啟用資料通訊"
 
 #. STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.RESTART_BUTTON
 msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.RESTART_BUTTON"
@@ -56177,17 +56177,17 @@ msgstr "需要重新啟動遊戲才能套用設置。"
 #. STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.TITLE"
 msgid "DATA COMMUNICATION OPTIONS"
-msgstr "資料通信選項"
+msgstr "資料通訊選項"
 
 #. STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.TOOLTIP"
 msgid "Uncheck to disable data communication"
-msgstr "取消勾選以停用資料通信"
+msgstr "取消勾選以停用資料通訊"
 
 #. STRINGS.UI.FRONTEND.MINSPECSCREEN.BODY
 msgctxt "STRINGS.UI.FRONTEND.MINSPECSCREEN.BODY"
 msgid "We've detected that this computer does not meet the minimum requirements to run Oxygen Not Included. While you may continue with your current specs, the game might not run smoothly for you.\n\nPlease be aware that your experience may suffer as a result."
-msgstr "我們檢測到這台電腦不符合運行此遊戲的最低要求。當您繼續使用當前的規格，此遊戲可能無法順利運行。\n\n請注意，您的遊戲體驗可能會受到影響。"
+msgstr "我們偵測到這台電腦不符合運行此遊戲的最低要求。當您繼續使用當前的規格，此遊戲可能無法順利運行。\n\n請注意，您的遊戲體驗可能會受到影響。"
 
 #. STRINGS.UI.FRONTEND.MINSPECSCREEN.OKBUTTON
 msgctxt "STRINGS.UI.FRONTEND.MINSPECSCREEN.OKBUTTON"
@@ -56217,7 +56217,7 @@ msgstr "（…省略其它條目）"
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.ALL_MODS_DISABLED_EARLY_ACCESS.MESSAGE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.ALL_MODS_DISABLED_EARLY_ACCESS.MESSAGE"
 msgid "Mod support is temporarily suspended for the initial launch of <i>Spaced Out!</i> into Early Access:\n{0}"
-msgstr "在 Spaced Out! 的搶先體驗期間，將暫時的停止模組支援：\n{0}"
+msgstr "在 眼冒金星! 的搶先體驗期間，將暫時的停止模組支援：\n{0}"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.ALL_MODS_DISABLED_EARLY_ACCESS.TITLE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.ALL_MODS_DISABLED_EARLY_ACCESS.TITLE"
@@ -56247,12 +56247,12 @@ msgstr "載入失敗"
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.DEV_MESSAGE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.DEV_MESSAGE"
 msgid "An error occurred during start-up with mods active.\n{0}\nDisable all mods and restart, or continue in an unstable state?"
-msgstr "啟用模組時發常錯誤。\n{0}\n停用全部模組並重啟，或以不穩定的狀態繼續？"
+msgstr "啟用模組時發生錯誤。\n{0}\n停用全部模組並重啟，或以不穩定的狀態繼續？"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.MESSAGE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.MESSAGE"
 msgid "An error occurred during start-up with mods active.\nAll mods have been disabled to ensure a clean restart.\n{0}"
-msgstr "啟用模組時發常錯誤。\n已停用全部模組。確保遊戲在乾淨的情況下重啟。\n{0}"
+msgstr "啟用模組時發生錯誤。\n已停用全部模組。確保遊戲在乾淨的情況下重啟。\n{0}"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.TITLE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.TITLE"
@@ -56382,7 +56382,7 @@ msgstr "停用"
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.AVAILABLE_CONTENT_CHANGED
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.AVAILABLE_CONTENT_CHANGED"
 msgid "CONTENT CHANGED"
-msgstr "更改內容"
+msgstr "內容變更"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.BAD_WORLD_GEN
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.BAD_WORLD_GEN"
@@ -56447,7 +56447,7 @@ msgstr "崩潰的原因可能是啟用了模組"
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.ALL_MODS_DISABLED_EARLY_ACCESS
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.ALL_MODS_DISABLED_EARLY_ACCESS"
 msgid "Deactivated due to Early Access for <i>Spaced Out!</i>"
-msgstr "在 <i>Spaced Out!</i> 的搶先體驗期間停用"
+msgstr "在 <i>眼冒金星!</i> 的搶先體驗期間停用"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.AVAILABLE_CONTENT_CHANGED
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.AVAILABLE_CONTENT_CHANGED"
@@ -56527,7 +56527,7 @@ msgstr "版本更新"
 #. STRINGS.UI.FRONTEND.MODESELECTSCREEN.BLANK_DESC
 msgctxt "STRINGS.UI.FRONTEND.MODESELECTSCREEN.BLANK_DESC"
 msgid "Select a playstyle..."
-msgstr "選擇模式…"
+msgstr "選擇遊戲風格…"
 
 #. STRINGS.UI.FRONTEND.MODESELECTSCREEN.HEADER
 msgctxt "STRINGS.UI.FRONTEND.MODESELECTSCREEN.HEADER"
@@ -56562,7 +56562,7 @@ msgstr " －<b>不相容於 <i>{Content}</i></b>"
 #. STRINGS.UI.FRONTEND.MODS.CONTENT_FAILURE.NO_CONTENT
 msgctxt "STRINGS.UI.FRONTEND.MODS.CONTENT_FAILURE.NO_CONTENT"
 msgid " - <b>No compatible mod found</b>"
-msgstr " －<b>發現不相同的模組</i></b>"
+msgstr " －<b>沒有發現相容的模組</i></b>"
 
 #. STRINGS.UI.FRONTEND.MODS.CONTENT_FAILURE.OLD_API
 msgctxt "STRINGS.UI.FRONTEND.MODS.CONTENT_FAILURE.OLD_API"
@@ -56832,7 +56832,7 @@ msgstr "選擇不同語言"
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.METRICS
 msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.METRICS"
 msgid "Data Communication"
-msgstr "資料通信"
+msgstr "資料通訊"
 
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.MODS
 msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.MODS"
@@ -56992,7 +56992,7 @@ msgstr "將坐標分享給好友，讓他們可以遊玩相同的小行星！\n\
 #. STRINGS.UI.FRONTEND.RAILFORCEQUIT.DLC_NOT_PURCHASED
 msgctxt "STRINGS.UI.FRONTEND.RAILFORCEQUIT.DLC_NOT_PURCHASED"
 msgid "The <i>Spaced Out!</i> DLC has not yet been purchased in the WeGame store. Purchase <i>Spaced Out!</i> to support <i>Oxygen Not Included</i> and enjoy the new content!"
-msgstr "Spaced Out! DLC 尚未在 Wegame 商店中購買。購買 Spaced Out! 來支持缺氧與遊玩新內容！"
+msgstr "眼冒金星! DLC 尚未在 WeGame 商店中購買。購買 眼冒金星! 來支持缺氧與遊玩新內容！"
 
 #. STRINGS.UI.FRONTEND.RAILFORCEQUIT.SAVE_EXIT
 msgctxt "STRINGS.UI.FRONTEND.RAILFORCEQUIT.SAVE_EXIT"
@@ -57687,7 +57687,7 @@ msgstr "腐爛的"
 #. STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_DIG_ONLY
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_DIG_ONLY"
 msgid "Consumes 1 <link=\"PLANTS\">Seed</link>"
-msgstr "消耗 1 <link=\"PLANTS\">種子</link>"
+msgstr "消耗 1 顆 <link=\"PLANTS\">種子</link>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_FINAL_HARVEST
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_FINAL_HARVEST"
@@ -57727,12 +57727,12 @@ msgstr "低環境氣溫"
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.EMITS_LIGHT
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.EMITS_LIGHT"
 msgid "Emits <style=\"KKeyword\">Light</style>\n\nDuplicants can operate buildings more quickly when they're well lit"
-msgstr "<style=\"KKeyword\">發光</style>\n\n複製人在有光地方操作建築的速度會變快"
+msgstr "散發 <style=\"KKeyword\">光線</style>\n\n複製人在有光的地方操作建築的速度會變快"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.EMITS_LIGHT_LUX
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.EMITS_LIGHT_LUX"
 msgid "Emits <style=\"KKeyword\">Light</style>\n\nDuplicants can operate buildings more quickly when they're well lit"
-msgstr "<style=\"KKeyword\">發光</style>\n\n複製人在有光地方操作建築的速度會變快"
+msgstr "散發 <style=\"KKeyword\">光線</style>\n\n複製人在有光的地方操作建築的速度會變快"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.EQUIPMENT_MODS
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.EQUIPMENT_MODS"
@@ -57792,7 +57792,7 @@ msgstr "\n\n生長於最大輻射的環境會增加產生變異種子機率"
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.MUTANT_STERILE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.MUTANT_STERILE"
 msgid "This plant will not produce seeds of its own due to changes to its DNA"
-msgstr "由於 DNA 的改變，此植物將不會產出種子"
+msgstr "由於基因的改變，此植物將不會產出種子"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REGROWTHTIME
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REGROWTHTIME"
@@ -57902,7 +57902,7 @@ msgstr "何地：{0}"
 #. STRINGS.UI.GENESHUFFLERMESSAGE.BODY_FAILURE
 msgctxt "STRINGS.UI.GENESHUFFLERMESSAGE.BODY_FAILURE"
 msgid "The machine attempted to alter this Duplicant, but there's no improving on perfection.\n\n<b>{0}</b> already has all positive traits!"
-msgstr "此機器試圖改造這個複製人，但改造的並不完美。\n\n<b>{0}</b> 已經有了所有正面的特質！"
+msgstr "此機器試圖改造這個複製人，但已經完美地無法改進。\n\n<b>{0}</b> 已經有了所有正面的特質！"
 
 #. STRINGS.UI.GENESHUFFLERMESSAGE.BODY_SUCCESS
 msgctxt "STRINGS.UI.GENESHUFFLERMESSAGE.BODY_SUCCESS"
@@ -57952,12 +57952,12 @@ msgstr "{0} 的 {1}"
 #. STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONBODY
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONBODY"
 msgid "The Printing Pod will need time to recharge if I reject these Printables."
-msgstr "如果拒絕了這些藍圖，列印設備將需要時間充能。"
+msgstr "如果拒絕了這些可印物，列印設備將需要時間充能。"
 
 #. STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONTITLE
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONTITLE"
 msgid "Reject All Printables?"
-msgstr "拒絕全部藍圖？"
+msgstr "拒絕全部可印物？"
 
 #. STRINGS.UI.IMMIGRANTSCREEN.DUPLICATE_COLONY_NAME
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.DUPLICATE_COLONY_NAME"
@@ -58232,7 +58232,7 @@ msgstr "{Name} 擁有 <style=\"KKeyword\">{Trait}</style> 特質，<b>無法</b>
 #. STRINGS.UI.KEEPSAKES.CRITTER_MANIPULATOR.DESCRIPTION
 msgctxt "STRINGS.UI.KEEPSAKES.CRITTER_MANIPULATOR.DESCRIPTION"
 msgid "A pottery project produced in an HR-mandated art therapy class.\n\nIt's glazed with a substance that once landed a curious lab technician in the ER."
-msgstr "在 HR 規定的藝術治療課程中製作的陶器項目。\n\n它塗有一種物質，曾經讓一名好奇的實驗室技術人員進入急診室。"
+msgstr "在人資規定的藝術治療課程中製作的陶器項目。\n\n它塗有一種物質，曾經讓一名好奇的實驗室技術人員進入急診室。"
 
 #. STRINGS.UI.KEEPSAKES.CRITTER_MANIPULATOR.NAME
 msgctxt "STRINGS.UI.KEEPSAKES.CRITTER_MANIPULATOR.NAME"
@@ -58482,7 +58482,7 @@ msgstr "關閉"
 #. STRINGS.UI.LOCKER_NAVIGATOR.DATA_COLLECTION_WARNING_POPUP.BODY
 msgctxt "STRINGS.UI.LOCKER_NAVIGATOR.DATA_COLLECTION_WARNING_POPUP.BODY"
 msgid "Data Communication must be enabled to recieve any newly unlocked items. This setting can be found in the Options menu.\n\nExisting item unlocks can still be used while Data Communication is disabled."
-msgstr "必須啟用資料通信才能接收任何新解鎖的物品。 此設置可以在「選項」菜單中找到。\n\n在資料通信被停用時，現有的已解鎖項目仍然可以使用。"
+msgstr "必須啟用資料通訊才能接收任何新解鎖的物品。 此設置可以在「選項」菜單中找到。\n\n在資料通訊被停用時，現有的已解鎖項目仍然可以使用。"
 
 #. STRINGS.UI.LOCKER_NAVIGATOR.DATA_COLLECTION_WARNING_POPUP.BUTTON_OK
 msgctxt "STRINGS.UI.LOCKER_NAVIGATOR.DATA_COLLECTION_WARNING_POPUP.BUTTON_OK"
@@ -58497,7 +58497,7 @@ msgstr "開啟選項"
 #. STRINGS.UI.LOCKER_NAVIGATOR.DATA_COLLECTION_WARNING_POPUP.HEADER
 msgctxt "STRINGS.UI.LOCKER_NAVIGATOR.DATA_COLLECTION_WARNING_POPUP.HEADER"
 msgid "Data Communication is Disabled"
-msgstr "資料通信被停用"
+msgstr "資料通訊被停用"
 
 #. STRINGS.UI.LOGIC_PORTS.CONTROL_OPERATIONAL
 msgctxt "STRINGS.UI.LOGIC_PORTS.CONTROL_OPERATIONAL"
@@ -61852,7 +61852,7 @@ msgstr "<b>{0}</b> <style=\"KKeyword\">{1}</style>"
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ADVANCED_MEDICINE.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ADVANCED_MEDICINE.DESCRIPTION"
 msgid "<link=\"ADVANCEDDOCTORSTATION\">Disease Clinic</link> Usage"
-msgstr "使用 <link=\"ADVANCEDDOCTORSTATION\">診療艙</link>"
+msgstr "使用 <link=\"ADVANCEDDOCTORSTATION\">回復倉</link>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ART.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ART.DESCRIPTION"
@@ -62042,7 +62042,7 @@ msgstr "基礎工作培訓"
 #. STRINGS.UI.ROLES_SCREEN.PERKS.TITLE_MORETRAINING
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.TITLE_MORETRAINING"
 msgid "Additional Job Training"
-msgstr "額外的工作培訓"
+msgstr "額外工作培訓"
 
 #. STRINGS.UI.ROLES_SCREEN.PRIORITY.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PRIORITY.DESCRIPTION"
@@ -62497,7 +62497,7 @@ msgstr "注入或移除世界中的輻射 {Hotkey}"
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.SAMPLE.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SAMPLE.NAME"
 msgid "Sample"
-msgstr "樣本"
+msgstr "取樣"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.SAMPLE.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SAMPLE.TOOLTIP"
@@ -62642,12 +62642,12 @@ msgstr "在 <style=\"KKeyword\">洗澡時間</style>，複製人會處理他們�
 #. STRINGS.UI.SCHEDULEGROUPS.MISSINGBLOCKS
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.MISSINGBLOCKS"
 msgid "Warning: Scheduling Issues ({0})"
-msgstr "警告：時間表問題（{0}）"
+msgstr "警告：排程問題（{0}）"
 
 #. STRINGS.UI.SCHEDULEGROUPS.NOTIME
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.NOTIME"
 msgid "No {0} shifts allotted"
-msgstr "沒有分配 {0} 時間表"
+msgstr "沒有分配 {0} 輪值"
 
 #. STRINGS.UI.SCHEDULEGROUPS.RECREATION.DESCRIPTION
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.RECREATION.DESCRIPTION"
@@ -62702,22 +62702,22 @@ msgstr "在 <style=\"KKeyword\">工作時間</style>，複製人必須執行我�
 #. STRINGS.UI.SCHEDULESCREEN.ADD_SCHEDULE
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ADD_SCHEDULE"
 msgid "Add New Schedule"
-msgstr "新增時間表"
+msgstr "新增排程"
 
 #. STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON"
 msgid "Shift Alarms"
-msgstr "時間表鬧鐘"
+msgstr "輪值鬧鐘"
 
 #. STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON_OFF_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON_OFF_TOOLTIP"
 msgid "Toggle Notifications\n\nNo sounds or notifications will play for this schedule.\n\nDISABLED\n(ClickType/Click) to enable"
-msgstr "切換通知\n\n此時間表不會播放音效或通知。\n\n停用\n點擊 啟用"
+msgstr "切換通知\n\n此排程不會播放音效或通知。\n\n停用\n點擊 啟用"
 
 #. STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON_ON_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON_ON_TOOLTIP"
 msgid "Toggle Notifications\n\nSounds and notifications will play when shifts change for this schedule.\n\nENABLED\n(ClickType/Click) to disable"
-msgstr "切換通知\n\n當這個班表的時間區域發生變化時播放音效與通知。\n\n已啟用\n點擊 停用"
+msgstr "切換通知\n\n當這個輪值的時間區域發生變化時播放音效與通知。\n\n已啟用\n點擊 停用"
 
 #. STRINGS.UI.SCHEDULESCREEN.ALARM_TITLE_DISABLED
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ALARM_TITLE_DISABLED"
@@ -62732,17 +62732,17 @@ msgstr "鬧鐘打開"
 #. STRINGS.UI.SCHEDULESCREEN.DELETE_BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.DELETE_BUTTON_TOOLTIP"
 msgid "Delete Schedule"
-msgstr "刪除時間表"
+msgstr "刪除排程"
 
 #. STRINGS.UI.SCHEDULESCREEN.DELETE_SCHEDULE
 msgctxt "STRINGS.UI.SCHEDULESCREEN.DELETE_SCHEDULE"
 msgid "Delete Schedule"
-msgstr "刪除時間表"
+msgstr "刪除排程"
 
 #. STRINGS.UI.SCHEDULESCREEN.DELETE_SCHEDULE_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.DELETE_SCHEDULE_TOOLTIP"
 msgid "Remove this schedule and unassign all Duplicants from it"
-msgstr "刪除此時間表，並取消分配到此時間表的全部複製人"
+msgstr "刪除此排程，並取消分配到此時間表的全部複製人"
 
 #. STRINGS.UI.SCHEDULESCREEN.DOWNTIME_MORALE
 msgctxt "STRINGS.UI.SCHEDULESCREEN.DOWNTIME_MORALE"
@@ -62772,17 +62772,17 @@ msgstr "dar"
 #. STRINGS.UI.SCHEDULESCREEN.RENAME_BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.RENAME_BUTTON_TOOLTIP"
 msgid "Rename custom schedule"
-msgstr "重新命名時間表"
+msgstr "重新命名排程"
 
 #. STRINGS.UI.SCHEDULESCREEN.RESET_SETTINGS
 msgctxt "STRINGS.UI.SCHEDULESCREEN.RESET_SETTINGS"
 msgid "Reset Shifts"
-msgstr "重設時間表"
+msgstr "重設輪值"
 
 #. STRINGS.UI.SCHEDULESCREEN.RESET_SETTINGS_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.RESET_SETTINGS_TOOLTIP"
 msgid "Restore this schedule to default shifts"
-msgstr "將時間表還原到預設值"
+msgstr "將排程還原到預設值"
 
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DOWNTIME_MORALE
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DOWNTIME_MORALE"
@@ -62802,17 +62802,17 @@ msgstr "<i>移動複製人…</i>"
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_EDITOR
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_EDITOR"
 msgid "Schedule Editor"
-msgstr "時間表編輯器"
+msgstr "排程編輯器"
 
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_NAME_DEFAULT
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_NAME_DEFAULT"
 msgid "Default Schedule"
-msgstr "預設時間表"
+msgstr "預設排程"
 
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_NAME_FORMAT
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_NAME_FORMAT"
 msgid "Schedule {0}"
-msgstr "時間表 {0}"
+msgstr "排程 {0}"
 
 #. STRINGS.UI.SCHEDULESCREEN.SETTINGS
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SETTINGS"
@@ -63177,7 +63177,7 @@ msgstr "莫爾道玻隕石"
 #. STRINGS.UI.SPACEARTIFACTS.MOODRING.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MOODRING.ARTIFACT"
 msgid "A wholly unique ring not found anywhere outside of the Gravitas Laboratory.\n\nThough it can't be determined for sure who worked on this extraordinary curiousity it's worth noting that, for his Ph.D. thesis, Dr. Travaldo Farrington wrote a paper entitled \"Novelty Uses for Radiochromatic Dyes\"."
-msgstr "一個完全獨特的戒子，在引力科技實驗室以外任何地方都找不到。\n\n雖然無法確定是誰專注在此特殊的好奇心上，\n值得注意是，他的博士學位論文，\nTravaldo Jones 博士撰寫了一篇題為「放射性染料的新用途」的論文。"
+msgstr "一個完全獨特的戒指，在引力科技實驗室以外任何地方都找不到。\n\n雖然無法確定是誰專注在此特殊的好奇心上，\n值得注意是，他的博士學位論文，\nTravaldo Jones 博士撰寫了一篇題為「放射性染料的新用途」的論文。"
 
 #. STRINGS.UI.SPACEARTIFACTS.MOODRING.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MOODRING.DESCRIPTION"
@@ -63312,7 +63312,7 @@ msgstr "彩蛋石雕"
 #. STRINGS.UI.SPACEARTIFACTS.REACTORMODEL.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.REACTORMODEL.ARTIFACT"
 msgid "Though this Nuclear Power Plant was never built, this model exists as an artifact to a time early in the life of Gravitas when it was researching all alternatives to solving the global energy problem.\n\nUltimately, the idea of building a Nuclear Power Plant was abandoned in favor of the \"much safer\" alternative of developing the Temporal Bow."
-msgstr "雖然此核能發電廠從未完工，\n此模型是引力科技早期研究解決全球能源問題，\n所有替代方案的產物。\n\n最終，建造核能發電廠的計劃被終止，\n取而代之的是開發時光弓這項「更安全」的替代方案。"
+msgstr "雖然此核能發電廠從未完工，\n此模型是引力科技早期研究解決全球能源問題，\n所有替代方案的產物。\n\n最終，建造核能發電廠的計劃被終止，\n取而代之的是開發時光之弓這項「更安全」的替代方案。"
 
 #. STRINGS.UI.SPACEARTIFACTS.REACTORMODEL.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.REACTORMODEL.DESCRIPTION"
@@ -63387,7 +63387,7 @@ msgstr "沙岩"
 #. STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.ARTIFACT"
 msgid "Though it is often remarked that \"in space, no one can hear you scream\", Thomas Pesquet proved the same cannot be said for the smooth jazzy sounds of a saxophone.\n\nAlthough this instrument once belonged to the eminent French Astronaut its current bumped and bent shape suggests it has seen many adventures beyond that of just being used to perform an out-of-this-world saxophone solo."
-msgstr "雖然人們常說「在太空中，沒人能聽到你的尖叫」，\nThomas Pesquet 證明了薩克斯管流暢的爵士樂並非如此。\n\n儘管這件樂器曾經屬於一位杰出的法國太空人，\n但它現在凹凸不平的形狀讓人聯想到它經歷許多冒險，\n而不僅僅是用來表演超凡脫俗的薩克斯獨奏。"
+msgstr "雖然人們常說「在太空中，沒人能聽到你的尖叫」，\nThomas Pesquet 證明了薩克斯管流暢的爵士樂並非如此。\n\n儘管這件樂器曾經屬於一位傑出的法國太空人，\n但它現在凹凸不平的形狀讓人聯想到它經歷許多冒險，\n而不僅僅是用來表演超凡脫俗的薩克斯獨奏。"
 
 #. STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.DESCRIPTION"
@@ -63422,7 +63422,7 @@ msgstr "此水槽上鑲嵌的一點肥皂，\n強烈的顯示它是安裝在個�
 #. STRINGS.UI.SPACEARTIFACTS.SINK.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SINK.DESCRIPTION"
 msgid "No collection is complete without it."
-msgstr "沒有它，就無法完成收。"
+msgstr "沒有它，任何收藏都是不完整的。"
 
 #. STRINGS.UI.SPACEARTIFACTS.SINK.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SINK.NAME"
@@ -63572,7 +63572,7 @@ msgstr "過時的太空站模組"
 #. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.RUSSELLSTEAPOT.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.RUSSELLSTEAPOT.DESC"
 msgid "Has never been disproven to not exist."
-msgstr "從未證明並不存在。"
+msgstr "從未被證明不存在。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.RUSSELLSTEAPOT.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.RUSSELLSTEAPOT.NAME"
@@ -63622,7 +63622,7 @@ msgstr "原油小行星"
 #. STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.ROCKYASTEROID.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.ROCKYASTEROID.DESCRIPTION"
 msgid "A minor mineral planet. Unlike a comet, it does not possess a tail."
-msgstr "一個小型礦物星球。不像慧星，它沒有尾巴。"
+msgstr "一個小型礦物星球。不像彗星，它沒有尾巴。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.ROCKYASTEROID.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.ROCKYASTEROID.NAME"
@@ -63632,7 +63632,7 @@ msgstr "岩石小行星"
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.COPPERCOMET.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.COPPERCOMET.NAME"
 msgid "Copper Comet"
-msgstr "銅慧星"
+msgstr "銅彗星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.DUSTCOMET.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.DUSTCOMET.NAME"
@@ -63657,22 +63657,22 @@ msgstr "瓦斯牛彗星"
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.GOLDCOMET.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.GOLDCOMET.NAME"
 msgid "Gold Comet"
-msgstr "金慧星"
+msgstr "金彗星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.IRONCOMET.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.IRONCOMET.NAME"
 msgid "Iron Comet"
-msgstr "鐵慧星"
+msgstr "鐵彗星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.NUCLEAR_WASTE.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.NUCLEAR_WASTE.NAME"
 msgid "Radioactive Comet"
-msgstr "放射性慧星"
+msgstr "放射性彗星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.ROCKCOMET.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.ROCKCOMET.NAME"
 msgid "Rock Comet"
-msgstr "岩石慧星"
+msgstr "岩石彗星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.SATELLITE.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.SATELLITE.NAME"
@@ -63762,7 +63762,7 @@ msgstr "有大量的 <link=\"HYDROGEN\">氫氣</link> 圍繞一個實體的小�
 #. STRINGS.UI.SPACEDESTINATIONS.GIANTS.GASGIANT.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.GIANTS.GASGIANT.NAME"
 msgid "Gas Giant"
-msgstr "氣體大行星"
+msgstr "氣體巨行星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.GIANTS.HYDROGENGIANT.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.GIANTS.HYDROGENGIANT.DESCRIPTION"
@@ -63772,7 +63772,7 @@ msgstr "有大量的 <link=\"HELIUM\">氦氣</link> 圍繞一個實體的小核�
 #. STRINGS.UI.SPACEDESTINATIONS.GIANTS.HYDROGENGIANT.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.GIANTS.HYDROGENGIANT.NAME"
 msgid "Helium Giant"
-msgstr "氦氣大行星"
+msgstr "氦氣巨行星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.GIANTS.ICEGIANT.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.GIANTS.ICEGIANT.DESCRIPTION"
@@ -63782,7 +63782,7 @@ msgstr "大量的冰凍原料，主要由 <link=\"ICE\">冰</link> 組成。"
 #. STRINGS.UI.SPACEDESTINATIONS.GIANTS.ICEGIANT.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.GIANTS.ICEGIANT.NAME"
 msgid "Ice Giant"
-msgstr "冰雪大行星"
+msgstr "冰雪巨行星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.GRAVITAS_SPACE_POI.STATION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.GRAVITAS_SPACE_POI.STATION"
@@ -65072,7 +65072,7 @@ msgstr "模組"
 #. STRINGS.UI.STARMAP.LISTTITLES.OXIDIZER
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.OXIDIZER"
 msgid "Oxidizer"
-msgstr "助燃劑"
+msgstr "氧化劑"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.PASSENGERS
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.PASSENGERS"
@@ -66307,7 +66307,7 @@ msgstr "必須建造在結實的地面上"
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_FLOOR_OR_ATTACHPOINT
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_FLOOR_OR_ATTACHPOINT"
 msgid "Must be built on solid ground or overlapping an {0}"
-msgstr "必須建造在實地或著疊在 {0} 上面"
+msgstr "必須建造在實地或重疊在 {0} 上面"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_GASPORTS_OVERLAP
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_GASPORTS_OVERLAP"
@@ -66407,7 +66407,7 @@ msgstr "無法回轉"
 #. STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_STRAIGHT_BRIDGES
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_STRAIGHT_BRIDGES"
 msgid "Can't Turn Here"
-msgstr "無法回轉"
+msgstr "無法在此轉彎"
 
 #. STRINGS.UI.TOOLTIPS.INFOPANEL
 msgctxt "STRINGS.UI.TOOLTIPS.INFOPANEL"
@@ -66677,7 +66677,7 @@ msgstr "開啟紅色警報"
 #. STRINGS.UI.TOOLTIPS.RED_ALERT_CONTENT
 msgctxt "STRINGS.UI.TOOLTIPS.RED_ALERT_CONTENT"
 msgid "Duplicants will work, ignoring schedules and their basic needs\n\nUse in case of emergency"
-msgstr "複製人會忽略時間表與基礎需求去工作\n\n用在緊急情況"
+msgstr "複製人會忽略排程與基礎需求去工作\n\n用在緊急情況"
 
 #. STRINGS.UI.TOOLTIPS.RED_ALERT_TITLE
 msgctxt "STRINGS.UI.TOOLTIPS.RED_ALERT_TITLE"
@@ -67362,7 +67362,7 @@ msgstr "彈道學"
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.HEADER
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.HEADER"
 msgid "Sends automation signal when selected object is detected"
-msgstr "當檢測到指定的物品時，發出自動化訊號"
+msgstr "當偵測到指定的物品時，發出自動化訊號"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.NOTHING
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.NOTHING"
@@ -67387,7 +67387,7 @@ msgstr "複製人"
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.TITLE"
 msgid "Space Scanner"
-msgstr "慧星雷達"
+msgstr "太空雷達"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.UNASSIGN_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.UNASSIGN_TOOLTIP"
@@ -69787,7 +69787,7 @@ msgstr "你確定要啟動這個？"
 #. STRINGS.UI.UISIDESCREENS.TEMPORALTEARSIDESCREEN.CONFIRM_POPUP_TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.TEMPORALTEARSIDESCREEN.CONFIRM_POPUP_TITLE"
 msgid "Temporal Tear Opener"
-msgstr "時空裂縫產生器"
+msgstr "時空裂縫開啟器"
 
 #. STRINGS.UI.UISIDESCREENS.TEMPORALTEARSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.TEMPORALTEARSIDESCREEN.TITLE"
@@ -71672,7 +71672,7 @@ msgstr "小行星"
 #. STRINGS.UI.WORLDGEN.ANALYZINGWORLD
 msgctxt "STRINGS.UI.WORLDGEN.ANALYZINGWORLD"
 msgid "Shuffling DNA Blueprints..."
-msgstr "隨機 DNA 藍圖…"
+msgstr "隨機基因藍圖…"
 
 #. STRINGS.UI.WORLDGEN.ANALYZINGWORLDCOMPLETE
 msgctxt "STRINGS.UI.WORLDGEN.ANALYZINGWORLDCOMPLETE"
