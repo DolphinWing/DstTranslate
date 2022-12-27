@@ -224,9 +224,11 @@ class DesktopPoHelper(val ini: Ini = Ini(), private val debug: Boolean = false) 
         loading.emit(true)
         val map = LinkedHashMap<Char, Char>() // use map to drop duplicated char
         // load Taiwan 4818 common characters
-        val sample = File(File(File(ini.dstWorkshopDir).parentFile, "fonts"), "Taiwan4818.txt")
+        val githubRoot = File(ini.dstWorkshopDir).parentFile
+        val dstAsset = File(githubRoot, "dst-assets")
+        val sample = File(dstAsset, "Taiwan4818.txt")
         if (sample.exists()) { // add Taiwan4818.txt
-            val reader = BufferedReader(InputStreamReader(FileInputStream(sample), "UTF-8"))
+            val reader = BufferedReader(InputStreamReader(FileInputStream(sample), StandardCharsets.UTF_8))
             try {
                 var line: String? = ""//reader.readLine()
                 while (line != null) {

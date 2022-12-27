@@ -4,6 +4,9 @@ WORKSHOP_ID=1993780385
 WORKSHOP_DIR=workshop-$WORKSHOP_ID
 LOCAL_PROPERTIES=.user.config
 
+# go back to project root
+pushd ../
+
 # copy updated translation
 if [ -f ~/Downloads/dst_cht.po ]; then
     ls -l ~/Downloads/dst_cht.po

@@ -3,6 +3,9 @@
 WORKSHOP_ID=1993780385
 WORKSHOP_DIR=workshop-$WORKSHOP_ID
 
+# go back to project root
+pushd ../
+
 ls -l ~/Downloads/chinese_*.po
 ls -l ~/Downloads/dst_cht.po
 ls -l android-app/app/src/main/assets/chinese_*.po

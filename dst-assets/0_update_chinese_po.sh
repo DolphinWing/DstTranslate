@@ -4,6 +4,9 @@ WORKSHOP_ID=1993780385
 WORKSHOP_DIR=workshop-$WORKSHOP_ID
 LOCAL_PROPERTIES=.user.config
 
+# go back to project root
+pushd ../
+
 # check local properties
 #echo "check if we have set steam library in $LOCAL_PROPERTIES"
 if [ ! -f $LOCAL_PROPERTIES ]; then

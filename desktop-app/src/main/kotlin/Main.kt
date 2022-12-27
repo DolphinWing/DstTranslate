@@ -295,7 +295,6 @@ private fun MainPane(
     // val enabled = model.helper.loading.collectAsState() // global status
     var spec by remember { mutableStateOf(ToolbarSpec(enableAnalyze = true)) }
     val status = model.helper.status.collectAsState()
-    var loading by remember { mutableStateOf(false) }
 
     LaunchedEffect(Unit) {
         model.helper.loading.collect { loading ->
@@ -349,11 +348,7 @@ private fun MainPane(
                         },
                         mode = mode.value,
                         onModeChange = { mode ->
-                            composeScope.launch {
-                                loading = true
-                                model.loadIniAndPo(mode)
-                                loading = false
-                            }
+                            composeScope.launch { model.loadIniAndPo(mode) }
                         },
                     )
 
@@ -367,15 +362,6 @@ private fun MainPane(
                         spec = spec,
                     )
             }
-
-//            if (loading) {
-//                Box(
-//                    Modifier.fillMaxSize().background(Color.Black.copy(alpha = .5f)),
-//                    contentAlignment = Alignment.Center,
-//                ) {
-//                    CircularProgressIndicator()
-//                }
-//            }
 
             Text(
                 status.value,
