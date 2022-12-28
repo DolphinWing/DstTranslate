@@ -3887,7 +3887,7 @@ msgstr "啟用手動"
 #. STRINGS.BUILDINGS.AUTOMATABLE.DISABLE_AUTOMATIONONLY.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.AUTOMATABLE.DISABLE_AUTOMATIONONLY.TOOLTIP"
 msgid "This building's storage may be accessed by both Duplicants and Auto-Sweeper buildings"
-msgstr "此建築物可被複製人與智能手臂存取"
+msgstr "此建築物可被複製人與自動手臂存取"
 
 #. STRINGS.BUILDINGS.AUTOMATABLE.ENABLE_AUTOMATIONONLY.NAME
 msgctxt "STRINGS.BUILDINGS.AUTOMATABLE.ENABLE_AUTOMATIONONLY.NAME"
@@ -3897,7 +3897,7 @@ msgstr "停用手動"
 #. STRINGS.BUILDINGS.AUTOMATABLE.ENABLE_AUTOMATIONONLY.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.AUTOMATABLE.ENABLE_AUTOMATIONONLY.TOOLTIP"
 msgid "This building's storage may be accessed by Auto-Sweepers only\n\nDuplicants will not be permitted to add or remove materials from this building"
-msgstr "此建築的儲物箱只能被智能手臂存取\n\n複製人將不允許從此建築物存放或取出原料"
+msgstr "此建築的儲物箱只能被自動手臂存取\n\n複製人將不允許從此建築物存放或取出原料"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.BAD_INPUT_ELEMENT
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.BAD_INPUT_ELEMENT"
@@ -4112,7 +4112,7 @@ msgstr "<link=\"ALGAEHABITAT\">藻類盆栽</link>"
 #. STRINGS.BUILDINGS.PREFABS.ALGAEHABITAT.SIDESCREEN_TITLE
 msgctxt "STRINGS.BUILDINGS.PREFABS.ALGAEHABITAT.SIDESCREEN_TITLE"
 msgid "Empty <link=\"DIRTYWATER\">Polluted Water</link> Threshold"
-msgstr "清空 <link=\"DIRTYWATER\">汙水</link> 閾值"
+msgstr "清空 <link=\"DIRTYWATER\">汙水</link> 門檻"
 
 #. STRINGS.BUILDINGS.PREFABS.APOTHECARY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.APOTHECARY.DESC"
@@ -4202,7 +4202,7 @@ msgstr "<link=\"ASTRONAUTTRAININGCENTER\">太空人培訓離心機</link>"
 #. STRINGS.BUILDINGS.PREFABS.AUTOMINER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.AUTOMINER.DESC"
 msgid "A robo-miner's range can be viewed at any time by selecting the building."
-msgstr "隨時點擊建築物，觀看採礦機的開採範圍。"
+msgstr "隨時點擊建築物，觀看機械礦工的開採範圍。"
 
 #. STRINGS.BUILDINGS.PREFABS.AUTOMINER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.AUTOMINER.EFFECT"
@@ -4212,7 +4212,7 @@ msgstr "在設定的範圍內自動挖掘所有原料。"
 #. STRINGS.BUILDINGS.PREFABS.AUTOMINER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.AUTOMINER.NAME"
 msgid "<link=\"AUTOMINER\">Robo-Miner</link>"
-msgstr "<link=\"AUTOMINER\">智能採礦機</link>"
+msgstr "<link=\"AUTOMINER\">機械礦工</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERY.CHARGE_LOSS
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.CHARGE_LOSS"
@@ -4827,7 +4827,7 @@ msgstr "粗糙的畫作"
 #. STRINGS.BUILDINGS.PREFABS.CARGOBAY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CARGOBAY.DESC"
 msgid "Duplicants will fill cargo bays with any resources they find during space missions."
-msgstr "複製人會用他們在太空任務期間發現的何任資源裝滿貨艙。"
+msgstr "複製人會用他們在太空任務期間發現的任何資源裝滿貨艙。"
 
 #. STRINGS.BUILDINGS.PREFABS.CARGOBAY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CARGOBAY.EFFECT"
@@ -6267,7 +6267,7 @@ msgstr "<link=\"GASBOTTLER\">氣體裝罐器</link>"
 #. STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.DESC"
 msgid "Duplicants will fill cargo bays with any resources they find during space missions."
-msgstr "複製人會用他們在太空任務期間發現的何任資源裝滿貨艙。"
+msgstr "複製人會用他們在太空任務期間發現的任何資源裝滿貨艙。"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.EFFECT"
@@ -6297,7 +6297,7 @@ msgstr "<link=\"GASCARGOBAY\">大型氣體貨艙</link>"
 #. STRINGS.BUILDINGS.PREFABS.GASCARGOBAYSMALL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCARGOBAYSMALL.DESC"
 msgid "Duplicants fill cargo canisters with any resources they find during space missions."
-msgstr "複製人會用他們在太空任務期間發現的何任資源裝滿氣體貨艙。"
+msgstr "複製人會用他們在太空任務期間發現的任何資源裝滿氣體貨艙。"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCARGOBAYSMALL.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCARGOBAYSMALL.EFFECT"
@@ -7702,7 +7702,7 @@ msgstr "<link=\"LEADSUITMARKER\">輻射防護衣檢查點</link>"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.DESC"
 msgid "Duplicants will fill cargo bays with any resources they find during space missions."
-msgstr "複製人會用他們在太空任務期間發現的何任資源裝滿貨艙。"
+msgstr "複製人會用他們在太空任務期間發現的任何資源裝滿貨艙。"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.EFFECT"
@@ -7732,7 +7732,7 @@ msgstr "<link=\"LIQUIDCARGOBAY\">大型液體貨艙</link>"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAYSMALL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAYSMALL.DESC"
 msgid "Duplicants will fill cargo tanks with whatever resources they find during space missions."
-msgstr "複製人會用他們在太空任務期間發現的何任資源裝滿貨艙。"
+msgstr "複製人會用他們在太空任務期間發現的任何資源裝滿貨艙。"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAYSMALL.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAYSMALL.EFFECT"
@@ -9512,7 +9512,7 @@ msgstr "精煉輻射礦物以產生輻射粒子。\n\n釋放輻射粒子時可�
 #. STRINGS.BUILDINGS.PREFABS.MANUALHIGHENERGYPARTICLESPAWNER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MANUALHIGHENERGYPARTICLESPAWNER.NAME"
 msgid "<link=\"MANUALHIGHENERGYPARTICLESPAWNER\">Manual Radbolt Generator</link>"
-msgstr "<link=\"MANUALHIGHENERGYPARTICLESPAWNER\">人工輻射粒子產生器</link>"
+msgstr "<link=\"MANUALHIGHENERGYPARTICLESPAWNER\">人工輻射粒產生器</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MANUALHIGHENERGYPARTICLESPAWNER.RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.MANUALHIGHENERGYPARTICLESPAWNER.RECIPE_DESCRIPTION"
@@ -9912,7 +9912,7 @@ msgstr "<link=\"MICROBEMUSHER\">製糕機</link>"
 #. STRINGS.BUILDINGS.PREFABS.MINERALDEOXIDIZER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MINERALDEOXIDIZER.DESC"
 msgid "Oxygen diffusers are inefficient, but output enough oxygen to keep a colony breathing."
-msgstr "製氧機的效率低，但能輸出足以維持殖民地呼吸的氧氣。"
+msgstr "氧氣擴散機的效率低，但能輸出足以維持殖民地呼吸的氧氣。"
 
 #. STRINGS.BUILDINGS.PREFABS.MINERALDEOXIDIZER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MINERALDEOXIDIZER.EFFECT"
@@ -9922,7 +9922,7 @@ msgstr "轉換大量的 <link=\"ALGAE\">藻類</link> 成為 <link=\"OXYGEN\">�
 #. STRINGS.BUILDINGS.PREFABS.MINERALDEOXIDIZER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MINERALDEOXIDIZER.NAME"
 msgid "<link=\"MINERALDEOXIDIZER\">Oxygen Diffuser</link>"
-msgstr "<link=\"MINERALDEOXIDIZER\">製氧機</link>"
+msgstr "<link=\"MINERALDEOXIDIZER\">氧氣擴散機</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MISSIONCONTROL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MISSIONCONTROL.DESC"
@@ -9987,7 +9987,7 @@ msgstr "裝載 <link=\"ELEMENTSGAS\">氣體</link> 到火箭貨艙。\n\n當建�
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.NAME"
 msgid "<link=\"MODULARLAUNCHPADPORTGAS\">Gas Rocket Port Loader</link>"
-msgstr "<link=\"MODULARLAUNCHPADPORTGAS\">火箭氣體貨港裝載機</link>"
+msgstr "<link=\"MODULARLAUNCHPADPORTGAS\">氣體貨物裝載機</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGASUNLOADER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGASUNLOADER.DESC"
@@ -10002,7 +10002,7 @@ msgstr "卸載火箭貨艙的 <link=\"ELEMENTSGAS\">氣體</link>。\n\n當建�
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGASUNLOADER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGASUNLOADER.NAME"
 msgid "<link=\"MODULARLAUNCHPADPORTGASUNLOADER\">Gas Rocket Port Unloader</link>"
-msgstr "<link=\"MODULARLAUNCHPADPORTGASUNLOADER\">火箭氣體貨港卸載機</link>"
+msgstr "<link=\"MODULARLAUNCHPADPORTGASUNLOADER\">氣體貨物卸載機</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.DESC"
@@ -10017,7 +10017,7 @@ msgstr "裝載 <link=\"ELEMENTSLIQUID\">液體</link> 到火箭貨艙。\n\n當�
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.NAME"
 msgid "<link=\"MODULARLAUNCHPADPORTLIQUID\">Liquid Rocket Port Loader</link>"
-msgstr "<link=\"MODULARLAUNCHPADPORTLIQUID\">火箭液體貨港裝載機</link>"
+msgstr "<link=\"MODULARLAUNCHPADPORTLIQUID\">液體貨物裝載機</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUIDUNLOADER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUIDUNLOADER.DESC"
@@ -10032,7 +10032,7 @@ msgstr "卸載火箭貨艙的 <link=\"ELEMENTSLIQUID\">液體</link>。\n\n當�
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUIDUNLOADER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUIDUNLOADER.NAME"
 msgid "<link=\"MODULARLAUNCHPADPORTLIQUIDUNLOADER\">Liquid Rocket Port Unloader</link>"
-msgstr "<link=\"MODULARLAUNCHPADPORTLIQUIDUNLOADER\">火箭液體貨港卸載機</link>"
+msgstr "<link=\"MODULARLAUNCHPADPORTLIQUIDUNLOADER\">液體貨港卸載機</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.DESC"
@@ -10047,7 +10047,7 @@ msgstr "裝載 <link=\"ELEMENTSSOLID\">固體</link> 到火箭貨艙。\n\n當�
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.NAME"
 msgid "<link=\"MODULARLAUNCHPADPORTSOLID\">Solid Rocket Port Loader</link>"
-msgstr "<link=\"MODULARLAUNCHPADPORTSOLID\">火箭固體貨港裝載機</link>"
+msgstr "<link=\"MODULARLAUNCHPADPORTSOLID\">固體貨物裝載機</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLIDUNLOADER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLIDUNLOADER.DESC"
@@ -10062,7 +10062,7 @@ msgstr "卸載火箭貨艙的 <link=\"ELEMENTSSOLID\">固體</link>。\n\n當建
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLIDUNLOADER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLIDUNLOADER.NAME"
 msgid "<link=\"MODULARLAUNCHPADPORTSOLIDUNLOADER\">Solid Rocket Port Unloader</link>"
-msgstr "<link=\"MODULARLAUNCHPADPORTSOLIDUNLOADER\">火箭固體貨港卸載機</link>"
+msgstr "<link=\"MODULARLAUNCHPADPORTSOLIDUNLOADER\">固體貨港卸載機</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLIQUIDINPUT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLIQUIDINPUT.DESC"
@@ -10227,7 +10227,7 @@ msgstr "自動分配機可儲存與倒出少量資源。"
 #. STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.EFFECT"
 msgid "Stores any <link=\"ELEMENTSSOLID\">Solid Materials</link> delivered to it by Duplicants.\n\nDumps stored materials back into the world when it receives a <b><style=\"logic_on\">Green Signal</style></b>."
-msgstr "儲存複製人運來 <link=\"ELEMENTSSOLID\">固體原料</link>。\n\n當收到 <b><style=\"logic_on\">綠色訊號</style></b> 時，倒出儲存的原料回到世界中。"
+msgstr "儲存複製人運來 <link=\"ELEMENTSSOLID\">固體材料</link>。\n\n當收到 <b><style=\"logic_on\">綠色訊號</style></b> 時，倒出儲存的原料回到世界中。"
 
 #. STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.LOGIC_PORT"
@@ -10297,7 +10297,7 @@ msgstr "<link=\"ORBITALCARGOMODULE\">軌道貨艙模組</link>"
 #. STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.DESC"
 msgid "Orbital Data Collection Labs record data while orbiting a Planetoid and write it to a <link=\"ORBITALRESEARCHDATABANK\">Data Bank</link>"
-msgstr "軌道資料收集實驗室在繞行星球軌道時會將資料存入 <link=\"ORBITALRESEARCHDATABANK\">資料磁片</link>"
+msgstr "軌道資料收集儀在繞行星球軌道時會將資料存入 <link=\"ORBITALRESEARCHDATABANK\">資料磁片</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.EFFECT"
@@ -10307,7 +10307,7 @@ msgstr "產生可以在 <link=\"DLC1COSMICRESEARCHCENTER\">虛擬天文館</link
 #. STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.NAME"
 msgid "<link=\"ORBITALRESEARCHCENTER\">Orbital Data Collection Lab</link>"
-msgstr "<link=\"ORBITALRESEARCHCENTER\">軌道資料收集實驗儀</link>"
+msgstr "<link=\"ORBITALRESEARCHCENTER\">軌道資料收集儀</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ORESCRUBBER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORESCRUBBER.DESC"
@@ -10317,7 +10317,7 @@ msgstr "在將礦石運回殖民地前，先用洗礦機消毒淨化。"
 #. STRINGS.BUILDINGS.PREFABS.ORESCRUBBER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORESCRUBBER.EFFECT"
 msgid "Kills a significant amount of <link=\"DISEASE\">Germs</link> present on <link=\"RAWMINERAL\">Raw Ore</link>."
-msgstr "殺死 <link=\"RAWMINERAL\">礦物原料</link> 上大量的 <link=\"DISEASE\">細菌</link>。"
+msgstr "殺死 <link=\"RAWMINERAL\">礦物材料</link> 上大量的 <link=\"DISEASE\">細菌</link>。"
 
 #. STRINGS.BUILDINGS.PREFABS.ORESCRUBBER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORESCRUBBER.NAME"
@@ -10352,7 +10352,7 @@ msgstr "儲存 <link=\"OXYROCK\">氧氣石</link> 與其它氧化劑作為火箭
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.NAME"
 msgid "<link=\"OXIDIZERTANK\">Solid Oxidizer Tank</link>"
-msgstr "<link=\"OXIDIZERTANK\">固體氧化劑儲存艙</link>"
+msgstr "<link=\"OXIDIZERTANK\">固體氧化劑艙</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.UI_FILTER_CATEGORY
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.UI_FILTER_CATEGORY"
@@ -10372,7 +10372,7 @@ msgstr "儲存 <link=\"OXYROCK\">氧氣石</link> 與其它氧化劑作為火箭
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKCLUSTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKCLUSTER.NAME"
 msgid "<link=\"OXIDIZERTANKCLUSTER\">Large Solid Oxidizer Tank</link>"
-msgstr "<link=\"OXIDIZERTANKCLUSTER\">大型固體氧化劑儲存艙</link>"
+msgstr "<link=\"OXIDIZERTANKCLUSTER\">大型固體氧化劑艙</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKCLUSTER.UI_FILTER_CATEGORY
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKCLUSTER.UI_FILTER_CATEGORY"
@@ -11297,7 +11297,7 @@ msgstr "幫動物洗澡使他們看起來乾淨，聞起來很香，感覺開心
 #. STRINGS.BUILDINGS.PREFABS.RANCHSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.RANCHSTATION.EFFECT"
 msgid "Allows the assigned <link=\"RANCHER\">Rancher</link> to care for <link=\"CRITTERS\">Critters</link>.\n\nAssigned Duplicants must possess the <link=\"RANCHING1\">Critter Ranching</link> skill.\n\nThis building is a necessary component of the Stable room."
-msgstr "可以分配 <link=\"RANCHER\">牧場工人</link> 照顧 <link=\"CRITTERS\">動物</link>。\n\n分配的複製人必須備 <link=\"RANCHING1\">畜牧</link> 特質。\n\n此建築物是牧場的組成要素之一。"
+msgstr "可以分配 <link=\"RANCHER\">畜牧員</link> 照顧 <link=\"CRITTERS\">動物</link>。\n\n分配的複製人必須備 <link=\"RANCHING1\">畜牧</link> 特質。\n\n此建築物是牧場的組成要素之一。"
 
 #. STRINGS.BUILDINGS.PREFABS.RANCHSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.RANCHSTATION.NAME"
@@ -11397,7 +11397,7 @@ msgstr "<link=\"RESETSKILLSSTATION\">技能重置機</link>"
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.DESC"
 msgid "Rock Crushers loosen nuggets from raw ore and can process many different resources."
-msgstr "碎石機可以將礦物原料加工成許多不同的資源。"
+msgstr "碎石機可以將礦物材料加工成許多不同的資源。"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.EFFECT"
@@ -11647,7 +11647,7 @@ msgstr "當你可以將全部的東西都堆在這裡，為什麼還需要整理
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORSOLIDINPUT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORSOLIDINPUT.EFFECT"
 msgid "Allows <link=\"ELEMENTSSOLID\">Solid Materials</link> to be moved into rocket storage via <link=\"SOLIDCONDUIT\">Conveyor Rails</link>.\n\nSends solid material to the first Rocket Module with available space.\n\nMust be built within the interior of a Rocket Module."
-msgstr "透過 <link=\"SOLIDCONDUIT\">輸送帶軌道</link> 將 <link=\"ELEMENTSSOLID\">固體原料</link> 存入火箭貨艙。\n\n將固體原料存入有可用空間的第一個火箭模組。\n\n必須建造在火箭模組內部。"
+msgstr "透過 <link=\"SOLIDCONDUIT\">輸送帶軌道</link> 將 <link=\"ELEMENTSSOLID\">固體材料</link> 存入火箭貨艙。\n\n將固體材料存入有可用空間的第一個火箭模組。\n\n必須建造在火箭模組內部。"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORSOLIDINPUT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORSOLIDINPUT.NAME"
@@ -11662,7 +11662,7 @@ msgstr "用於飛行中存放你的行李。"
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORSOLIDOUTPUT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORSOLIDOUTPUT.EFFECT"
 msgid "Allows <link=\"ELEMENTSSOLID\">Solid Materials</link> to be moved out of rocket storage via <link=\"SOLIDCONDUIT\">Conveyor Rails</link>.\n\nDraws solid material from the first Rocket Module with the requested material.\n\nMust be built within the interior of a Rocket Module."
-msgstr "透過 <link=\"SOLIDCONDUIT\">輸送帶軌道</link> 將 <link=\"ELEMENTSSOLID\">固體原料</link> 搬出火箭貨艙。\n\n從存有所需資源的第一個火箭貨艙取出固體原料。\n\n必須建造在火箭模組內部。"
+msgstr "透過 <link=\"SOLIDCONDUIT\">輸送帶軌道</link> 將 <link=\"ELEMENTSSOLID\">固體材料</link> 搬出火箭貨艙。\n\n從存有所需資源的第一個火箭貨艙取出固體材料。\n\n必須建造在火箭模組內部。"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORSOLIDOUTPUT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORSOLIDOUTPUT.NAME"
@@ -11907,7 +11907,7 @@ msgstr "修剪站可以安全地修剪 <link=\"DRECKO\">龍鱗蜥</link> 和 <li
 #. STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.EFFECT"
 msgid "Allows the assigned Rancher to shear Dreckos and Delecta Voles."
-msgstr "允許牧場工人修剪龍鱗蜥和辛香田鼠。"
+msgstr "允許畜牧員修剪龍鱗蜥和辛香田鼠。"
 
 #. STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.NAME"
@@ -11977,7 +11977,7 @@ msgstr "儲存 <link=\"FERTILIZER\">肥料</link> 與 <link=\"OXYROCK\">氧氣�
 #. STRINGS.BUILDINGS.PREFABS.SMALLOXIDIZERTANK.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLOXIDIZERTANK.NAME"
 msgid "<link=\"SMALLOXIDIZERTANK\">Small Solid Oxidizer Tank</link>"
-msgstr "<link=\"SMALLOXIDIZERTANK\">小型固體氧化劑儲存艙</link>"
+msgstr "<link=\"SMALLOXIDIZERTANK\">小型固體氧化劑艙</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SMALLOXIDIZERTANK.UI_FILTER_CATEGORY
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLOXIDIZERTANK.UI_FILTER_CATEGORY"
@@ -12177,12 +12177,12 @@ msgstr "<link=\"SOLIDBOOSTER\">固體燃料推進器</link>"
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCARGOBAYSMALL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCARGOBAYSMALL.DESC"
 msgid "Duplicants will fill cargo bays with any resources they find during space missions."
-msgstr "複製人會用他們在太空任務期間發現的何任資源裝滿貨艙。"
+msgstr "複製人會用他們在太空任務期間發現的任何資源裝滿貨艙。"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCARGOBAYSMALL.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCARGOBAYSMALL.EFFECT"
 msgid "Allows Duplicants to store some of the <link=\"ELEMENTSSOLID\">Solid Materials</link> found during space missions.\n\nStored resources become available to the colony upon the rocket's return. \n\nMust be built via <link=\"LAUNCHPAD\">Rocket Platform</link>."
-msgstr "允許複製人儲存在太空任務期間發現的任何 <link=\"ELEMENTSSOLID\">固體原料</link>。\n\n火箭回到殖民地時，將可以使用貨艙內的資源。\n\n必須透過 <link=\"LAUNCHPAD\">火箭平台</link> 建造。"
+msgstr "允許複製人儲存在太空任務期間發現的任何 <link=\"ELEMENTSSOLID\">固體材料</link>。\n\n火箭回到殖民地時，將可以使用貨艙內的資源。\n\n必須透過 <link=\"LAUNCHPAD\">火箭平台</link> 建造。"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCARGOBAYSMALL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCARGOBAYSMALL.NAME"
@@ -12197,7 +12197,7 @@ msgstr "軌道運送原料到所需的地方，節省複製人的移動時間。
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUIT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUIT.EFFECT"
 msgid "Transports <link=\"ELEMENTSSOLID\">Solid Materials</link> on a track between <link=\"SOLIDCONDUITINBOX\">Conveyor Loader</link> and <link=\"SOLIDCONDUITOUTBOX\">Conveyor Receptacle</link>.\n\nCan be run through wall and floor tile."
-msgstr "在 <link=\"SOLIDCONDUITINBOX\">輸送帶裝載機</link> 與 <link=\"SOLIDCONDUITOUTBOX\">輸送帶儲存箱</link> 之間運送 <link=\"ELEMENTSSOLID\">固體原料</link>。\n\n可以穿過牆壁與地板。"
+msgstr "在 <link=\"SOLIDCONDUITINBOX\">輸送帶裝載機</link> 與 <link=\"SOLIDCONDUITOUTBOX\">輸送帶儲存箱</link> 之間運送 <link=\"ELEMENTSSOLID\">固體材料</link>。\n\n可以穿過牆壁與地板。"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUIT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUIT.NAME"
@@ -12247,7 +12247,7 @@ msgstr "否則，發出 <b><style=\"logic_off\">紅色訊號</style></b>"
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITDISEASESENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITDISEASESENSOR.NAME"
 msgid "<link=\"SOLIDCONDUITDISEASESENSOR\">Conveyor Rail Germ Sensor</link>"
-msgstr "<link=\"SOLIDCONDUITDISEASESENSOR\">輸送帶軌道細菌感測器</link>"
+msgstr "<link=\"SOLIDCONDUITDISEASESENSOR\">輸送帶細菌感測器</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.DESC"
@@ -12277,7 +12277,7 @@ msgstr "否則，發出 <b><style=\"logic_off\">紅色訊號</style></b>"
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.NAME"
 msgid "<link=\"SOLIDCONDUITELEMENTSENSOR\">Conveyor Rail Element Sensor</link>"
-msgstr "<link=\"SOLIDCONDUITELEMENTSENSOR\">輸送帶軌道元素感測器</link>"
+msgstr "<link=\"SOLIDCONDUITELEMENTSENSOR\">輸送帶元素感測器</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.DESC"
@@ -12287,7 +12287,7 @@ msgstr "原料過濾器可以決定那些資源可以放到軌道上。"
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.EFFECT"
 msgid "Loads <link=\"ELEMENTSSOLID\">Solid Materials</link> onto <link=\"SOLIDCONDUIT\">Conveyor Rail</link> for transport.\n\nOnly loads the resources of your choosing."
-msgstr "接收 <link=\"ELEMENTSSOLID\">固體原料</link> 放到 <link=\"SOLIDCONDUIT\">輸送帶軌道</link> 上運輸。\n\n只接收你所指定的資源。"
+msgstr "接收 <link=\"ELEMENTSSOLID\">固體材料</link> 放到 <link=\"SOLIDCONDUIT\">輸送帶軌道</link> 上運輸。\n\n只接收你所指定的資源。"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.NAME"
@@ -12302,7 +12302,7 @@ msgstr "當原料到達軌道的末端時，會進入輸送帶儲存箱以供複
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITOUTBOX.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITOUTBOX.EFFECT"
 msgid "Unloads <link=\"ELEMENTSSOLID\">Solid Materials</link> from a <link=\"SOLIDCONDUIT\">Conveyor Rail</link> into storage."
-msgstr "從 <link=\"SOLIDCONDUIT\">輸送帶軌道</link> 將 <link=\"ELEMENTSSOLID\">固體原料</link> 存入儲存箱。"
+msgstr "從 <link=\"SOLIDCONDUIT\">輸送帶軌道</link> 將 <link=\"ELEMENTSSOLID\">固體材料</link> 存入儲存箱。"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITOUTBOX.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITOUTBOX.NAME"
@@ -12337,7 +12337,7 @@ msgstr "否則，發出 <b><style=\"logic_off\">紅色訊號</style></b>"
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITTEMPERATURESENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITTEMPERATURESENSOR.NAME"
 msgid "<link=\"SOLIDCONDUITTEMPERATURESENSOR\">Conveyor Rail Thermo Sensor</link>"
-msgstr "<link=\"SOLIDCONDUITTEMPERATURESENSOR\">輸送帶軌道溫度感測器</link>"
+msgstr "<link=\"SOLIDCONDUITTEMPERATURESENSOR\">輸送帶溫度感測器</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.DESC"
@@ -12347,7 +12347,7 @@ msgstr "除了指定的固體，其它所有固體都會被送進此建築的輸
 #. STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.EFFECT"
 msgid "Separates one <link=\"ELEMENTSSOLID\">Solid Material</link> from the conveyor, sending it into a dedicated <link=\"SOLIDCONDUIT\">Conveyor Rail</link>."
-msgstr "從輸送帶中分離一種 <link=\"ELEMENTSSOLID\">固體原料</link>，送進專用的 <link=\"SOLIDCONDUIT\">輸送帶軌道</link> 中。"
+msgstr "從輸送帶中分離一種 <link=\"ELEMENTSSOLID\">固體材料</link>，送進專用的 <link=\"SOLIDCONDUIT\">輸送帶軌道</link> 中。"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.ELEMENT_NOT_SPECIFIED
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.ELEMENT_NOT_SPECIFIED"
@@ -12417,7 +12417,7 @@ msgstr "自動化輸送帶系統，節省能源與減少需要複製人輸入的
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.EFFECT"
 msgid "Connects to an <link=\"LOGIC\">Automation</link> grid to automatically turn <link=\"ELEMENTSSOLID\">Solid Material</link> transport on or off."
-msgstr "連接到 <link=\"LOGIC\">自動化</link> 系統，可以自動控制打開或關閉 <link=\"ELEMENTSSOLID\">固體原料</link> 運送。"
+msgstr "連接到 <link=\"LOGIC\">自動化</link> 系統，可以自動控制打開或關閉 <link=\"ELEMENTSSOLID\">固體材料</link> 運送。"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.LOGIC_PORT"
@@ -12442,7 +12442,7 @@ msgstr "<link=\"SOLIDLOGICVALVE\">輸送帶閘門</link>"
 #. STRINGS.BUILDINGS.PREFABS.SOLIDTRANSFERARM.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDTRANSFERARM.DESC"
 msgid "An auto-sweeper's range can be viewed at any time by  (ClickType/clicking) on the building."
-msgstr "任何時間 點擊 智能手臂，都可以看到它的工作範圍。"
+msgstr "任何時間 點擊 自動手臂，都可以看到它的工作範圍。"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDTRANSFERARM.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDTRANSFERARM.EFFECT"
@@ -12452,7 +12452,7 @@ msgstr "自動執行 <link=\"CHORES\">搬運</link> 與 <link=\"CHORES\">補給<
 #. STRINGS.BUILDINGS.PREFABS.SOLIDTRANSFERARM.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDTRANSFERARM.NAME"
 msgid "<link=\"SOLIDTRANSFERARM\">Auto-Sweeper</link>"
-msgstr "<link=\"SOLIDTRANSFERARM\">智能手臂</link>"
+msgstr "<link=\"SOLIDTRANSFERARM\">自動手臂</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDVENT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDVENT.DESC"
@@ -12462,7 +12462,7 @@ msgstr "當原料到達軌道的終點時會掉回世界中。"
 #. STRINGS.BUILDINGS.PREFABS.SOLIDVENT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDVENT.EFFECT"
 msgid "Unloads <link=\"ELEMENTSSOLID\">Solid Materials</link> from a <link=\"SOLIDCONDUIT\">Conveyor Rail</link> onto the floor."
-msgstr "從 <link=\"SOLIDCONDUIT\">輸送帶軌道</link> 將 <link=\"ELEMENTSSOLID\">固體原料</link> 卸載到地上。"
+msgstr "從 <link=\"SOLIDCONDUIT\">輸送帶軌道</link> 將 <link=\"ELEMENTSSOLID\">固體材料</link> 卸載到地上。"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDVENT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDVENT.NAME"
@@ -12632,7 +12632,7 @@ msgstr "未收納的地上資源會變成「雑物」並降低裝飾值。"
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.EFFECT"
 msgid "Stores the <link=\"ELEMENTSSOLID\">Solid Materials</link> of your choosing."
-msgstr "儲存你選擇的 <link=\"ELEMENTSSOLID\">固體原料</link>。"
+msgstr "儲存你選擇的 <link=\"ELEMENTSSOLID\">固體材料</link>。"
 
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.NAME"
@@ -12642,12 +12642,12 @@ msgstr "<link=\"STORAGELOCKER\">儲存箱</link>"
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.DESC"
 msgid "Smart storage bins can automate resource organization based on type and mass."
-msgstr "智能儲存箱，基於種類與質量自動的儲存資源。"
+msgstr "智慧儲存箱，基於種類與質量自動的儲存資源。"
 
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.EFFECT"
 msgid "Stores the <link=\"ELEMENTSSOLID\">Solid Materials</link> of your choosing.\n\nSends a <b><style=\"logic_on\">Green Signal</style></b> when bin is full."
-msgstr "儲存你選擇的 <link=\"ELEMENTSSOLID\">固體原料</link>。\n\n裝滿時發出 <b><style=\"logic_on\">綠色訊號</style></b>。"
+msgstr "儲存你選擇的 <link=\"ELEMENTSSOLID\">固體材料</link>。\n\n裝滿時發出 <b><style=\"logic_on\">綠色訊號</style></b>。"
 
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.LOGIC_PORT"
@@ -12667,7 +12667,7 @@ msgstr "否則，發出 <b><style=\"logic_off\">紅色訊號</style></b>"
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.NAME"
 msgid "<link=\"STORAGELOCKERSMART\">Smart Storage Bin</link>"
-msgstr "<link=\"STORAGELOCKERSMART\">智能儲存箱</link>"
+msgstr "<link=\"STORAGELOCKERSMART\">智慧儲存箱</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SUBLIMATIONSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUBLIMATIONSTATION.DESC"
@@ -12772,7 +12772,7 @@ msgstr "加工 <link=\"RAREMATERIALS\">稀有原料</link> 製成高級工業產
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.FULLERENE_RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.FULLERENE_RECIPE_DESCRIPTION"
 msgid "Fullerene is a <link=\"ELEMENTSSOLID\">Solid Material</link> used in the production of <link=\"SUPERCOOLANT\">Super Coolant</link>."
-msgstr "富勒烯是一種 <link=\"ELEMENTSSOLID\">固體原料</link> 用來製作 <link=\"SUPERCOOLANT\">超級冷卻液</link>。"
+msgstr "富勒烯是一種 <link=\"ELEMENTSSOLID\">固體材料</link> 用來製作 <link=\"SUPERCOOLANT\">超級冷卻液</link>。"
 
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.NAME"
@@ -12802,7 +12802,7 @@ msgstr "黏膠是一種高表面張力的 <link=\"ELEMENTSLIQUID\">液體</link>
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.YELLOWCAKE_RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.YELLOWCAKE_RECIPE_DESCRIPTION"
 msgid "Yellowcake is a <link=\"ELEMENTSSOLID\">Solid Material</link> used in uranium enrichment."
-msgstr "黃餅是一種 <link=\"ELEMENTSSOLID\">固體原料</link>，用於製造濃縮鈾。"
+msgstr "黃餅是一種 <link=\"ELEMENTSSOLID\">固體材料</link>，用於製造濃縮鈾。"
 
 #. STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.DESC"
@@ -12907,7 +12907,7 @@ msgstr "如果最少與一位複製人進行跨星際聊天，複製人會獲得
 #. STRINGS.BUILDINGS.PREFABS.TELEPHONE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELEPHONE.NAME"
 msgid "<link=\"TELEPHONE\">Party Line Phone</link>"
-msgstr "<link=\"TELEPHONE\">電話亭</link>"
+msgstr "<link=\"TELEPHONE\">派對專線電話</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.TELEPORTALPAD.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELEPORTALPAD.DESC"
@@ -15607,7 +15607,7 @@ msgstr "氧氣帕夫"
 #. STRINGS.CODEX.DIVERGENT.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.DIVERGENT.BODY.CONTAINER1"
 msgid "'Divergent' is the name given to the two different genders of one species, the Sweetle and the Grubgrub, both of which are able to reproduce asexually and tend to Grubfruit Plants.\n\nWhen tending to the Grubfruit Plant, both gender variants of the Divergent display the exact same behaviors, however the Grubgrub possesses slightly more tiny facial hair which helps in pollinating the plants and stimulates faster growth."
-msgstr "【甲蟲】是一個物種兩種不同性別的名稱，甲蟲與甲蟲幼體，兩者都能無性生殖與照顧燈籠草。\n\n當照顧燈籠草時兩個變種都展現出相同的行為，然而甲蟲幼體面部的毛髮更細一些，這有助於植物授粉並刺激更快的生長。"
+msgstr "【變異蟲】是一個物種兩種不同性別的名稱，甜素甲蟲與蟲果果蟲，兩者都能無性生殖與照顧燈籠草。\n\n當照顧燈籠草時兩個變種都展現出相同的行為，然而蟲果果蟲面部的毛髮更細一些，這有助於植物授粉並刺激更快的生長。"
 
 #. STRINGS.CODEX.DIVERGENT.SUBTITLE
 msgctxt "STRINGS.CODEX.DIVERGENT.SUBTITLE"
@@ -15617,7 +15617,7 @@ msgstr "可馴養的動物"
 #. STRINGS.CODEX.DIVERGENT.TITLE
 msgctxt "STRINGS.CODEX.DIVERGENT.TITLE"
 msgid "Divergent"
-msgstr "甲蟲"
+msgstr "變異蟲"
 
 #. STRINGS.CODEX.DRECKO.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.DRECKO.BODY.CONTAINER1"
@@ -15702,7 +15702,7 @@ msgstr "建造火箭需先建造 <link=\"LAUNCHPAD\">火箭平台</link> 然後�
 #. STRINGS.CODEX.EXOBASES.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.EXOBASES.PARAGRAPH_2"
 msgid "To scan space and see nearby intersteller destinations a <link=\"CLUSTERTELESCOPE\">Telescope</link> must first be built on the surface of a Planetoid. <link=\"ORBITALRESEARCHCENTER\">Orbital Microlabs</link> in orbit around a Planetoid, and <link=\"SCANNERMODULE\">Cartographic Module</link> attached to a rocket can also reveal places on a Starmap.\n\nAlways check engine fuel to determine if your rocket can reach its destination, keeping in mind rockets can only land on Plantoids with a <link=\"LAUNCHPAD\">Rocket Platform</link> on it although some modules like <link=\"SCOUTMODULE\">Rover's Modules</link> and <link=\"PIONEERMODULE\">Trailblazer Modules</link> can be sent to the surface of a Planetoid from a rocket in orbit.\n\n"
-msgstr "掃描太空並查看附近的星際目的地，<link=\"CLUSTERTELESCOPE\">望遠鏡</link> 必須先建造在小行星表面。\n在小行星軌道上的 <link=\"ORBITALRESEARCHCENTER\">軌道資料收集實驗儀</link> 與加裝在火箭上的 <link=\"SCANNERMODULE\">製圖模組</link> 也可以揭露星圖的區塊。\n\n務必檢查火箭燃料，確保可以到達目的地，\n請記牢記火箭只能在有 <link=\"LAUNCHPAD\">火箭平台</link> 的小行星著陸，\n僅管可以從位於軌道上的火箭發射 <link=\"SCOUTMODULE\">漫遊者模組</link> 與 <link=\"PIONEERMODULE\">開拓者模組</link> 到小行星表面。\n\n"
+msgstr "掃描太空並查看附近的星際目的地，<link=\"CLUSTERTELESCOPE\">望遠鏡</link> 必須先建造在小行星表面。\n在小行星軌道上的 <link=\"ORBITALRESEARCHCENTER\">軌道資料收集儀</link> 與加裝在火箭上的 <link=\"SCANNERMODULE\">製圖模組</link> 也可以揭露星圖的區塊。\n\n務必檢查火箭燃料，確保可以到達目的地，\n請記牢記火箭只能在有 <link=\"LAUNCHPAD\">火箭平台</link> 的小行星著陸，\n僅管可以從位於軌道上的火箭發射 <link=\"SCOUTMODULE\">漫遊者模組</link> 與 <link=\"PIONEERMODULE\">開拓者模組</link> 到小行星表面。\n\n"
 
 #. STRINGS.CODEX.EXOBASES.PARAGRAPH_3
 msgctxt "STRINGS.CODEX.EXOBASES.PARAGRAPH_3"
@@ -15837,7 +15837,7 @@ msgstr "塑膠龍鱗蜥"
 #. STRINGS.CODEX.GRUBFRUITPLANT.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.GRUBFRUITPLANT.BODY.CONTAINER1"
 msgid "The Grubfruit Plant exhibits a coevolutionary relationship with the Divergent species.\n\nThough capable of producing fruit without the help of the Divergent, the Spindly Grubfruit is a substandard version of the Grubfruit in both taste and caloric value.\n\nThe mechanism for how the Divergent inspires Grubfruit Plant growth is not entirely known but is thought to be somehow tied to the infrasonic 'songs' these insects lovingly purr to their plants."
-msgstr "燈籠草與甲蟲物種之間形成共同進化的關係。\n\n雖然能夠在沒有甲蟲幫助下也能生產果實，\n但劣質燈籠草果實在美味與熱量方面都輸給正常的燈籠草果實。\n\n甲蟲們如何刺激燈籠草成長的機制尚未完全清楚，\n但被認為以某種方式親切向植物發出一種次聲波的「歌聲」。"
+msgstr "燈籠草與變異蟲物種之間形成共同進化的關係。\n\n雖然能夠在沒有變異蟲幫助下也能生產果實，\n但劣質燈籠草果實在美味與熱量方面都輸給正常的燈籠草果實。\n\n變異蟲們如何刺激燈籠草成長的機制尚未完全清楚，\n但被認為以某種方式親切向植物發出一種次聲波的「歌聲」。"
 
 #. STRINGS.CODEX.GRUBFRUITPLANT.SUBTITLE
 msgctxt "STRINGS.CODEX.GRUBFRUITPLANT.SUBTITLE"
@@ -17387,7 +17387,7 @@ msgstr "一旦殖民地研究站的研究點數足夠了，\n所選擇的研究�
 #. STRINGS.CODEX.RESEARCHDLC1.PARAGRAPH_3
 msgctxt "STRINGS.CODEX.RESEARCHDLC1.PARAGRAPH_3"
 msgid "Advanced research tasks require special research stations to generate the proper kind of research points. These research stations often consume more advanced resources.\n\nUsing higher level research stations also requires Duplicants to have learned higher level research <link=\"ROLES\">skills</link>.\n\nNovice Research is performed at the <link=\"RESEARCHCENTER\">Research Station</link>\nAdvanced Research is performed at the <link=\"ADVANCEDRESEARCHCENTER\">Super Computer</link>\nInterstellar Research is performed at the <link=\"ORBITALRESEARCHCENTER\">Orbital Data Collection Lab</link>\nApplied Sciences Research is performed at the <link=\"NUCLEARRESEARCHCENTER\">Materials Study Terminal</link>\n\n"
-msgstr "高級研究任務需要特殊的研究站來產生相應的研究點數。\n這些研究站通常會消耗更多的高級資源。\n\n要使用較高級的研究站的同時，\n也要求複製人必須學會較高等級的研究 <link=\"ROLES\">技能</link>\n\n初級研究在 <link=\"RESEARCHCENTER\">研究站</link> 進行。\n高級研究在 <link=\"ADVANCEDRESEARCHCENTER\">超級電腦</link> 進行。\n星際研究在 <link=\"ORBITALRESEARCHCENTER\">軌道資料收集實驗儀</link> 進行。\n應用科學研究在 <link=\"NUCLEARRESEARCHCENTER\">材料研究終端機</link> 進行。\n\n"
+msgstr "高級研究任務需要特殊的研究站來產生相應的研究點數。\n這些研究站通常會消耗更多的高級資源。\n\n要使用較高級的研究站的同時，\n也要求複製人必須學會較高等級的研究 <link=\"ROLES\">技能</link>\n\n初級研究在 <link=\"RESEARCHCENTER\">研究站</link> 進行。\n高級研究在 <link=\"ADVANCEDRESEARCHCENTER\">超級電腦</link> 進行。\n星際研究在 <link=\"ORBITALRESEARCHCENTER\">軌道資料收集儀</link> 進行。\n應用科學研究在 <link=\"NUCLEARRESEARCHCENTER\">材料研究終端機</link> 進行。\n\n"
 
 #. STRINGS.CODEX.RESEARCHDLC1.TITLE
 msgctxt "STRINGS.CODEX.RESEARCHDLC1.TITLE"
@@ -18262,7 +18262,7 @@ msgstr "小動物變種"
 #. STRINGS.CODEX.SUNNY.TITLE
 msgctxt "STRINGS.CODEX.SUNNY.TITLE"
 msgid "Sun Bug"
-msgstr "發光蟲"
+msgstr "陽光發光蟲"
 
 #. STRINGS.CODEX.SWAMPCHARD.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.SWAMPCHARD.BODY.CONTAINER1"
@@ -18842,7 +18842,7 @@ msgstr "簡單生活"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.IDLE_DUPLICANTS_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.IDLE_DUPLICANTS_DESCRIPTION"
 msgid "Have Auto-Sweepers complete more deliveries to machines than Duplicants over 5 cycles."
-msgstr "連續 5 周期，讓智能手臂完成運送原料給機器的工作比複製人多。"
+msgstr "連續 5 周期，讓自動手臂完成運送原料給機器的工作比複製人多。"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.INSPECT_POI
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.INSPECT_POI"
@@ -18962,12 +18962,12 @@ msgstr "分析 {0} 個變異"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ARM_PERFORMANCE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ARM_PERFORMANCE"
 msgid "Auto-Sweepers outperformed dupes for cycles: {0} / {1}"
-msgstr "本周智能手臂比複製人：{0}／{1}"
+msgstr "本周自動手臂比複製人：{0}／{1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ARM_VS_DUPE_FETCHES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ARM_VS_DUPE_FETCHES"
 msgid "Deliveries this cycle: Auto-Sweepers: {1} Duplicants: {2}"
-msgstr "本周搬運：智能手臂：{1} 複製人：{2}"
+msgstr "本周搬運：自動手臂：{1} 複製人：{2}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.AUTOMATE_A_BUILDING
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.AUTOMATE_A_BUILDING"
@@ -19677,7 +19677,7 @@ msgstr "<link=\"CRABSPECIES\">拋殼蟹</link>"
 #. STRINGS.CREATURES.FAMILY.DIVERGENTSPECIES
 msgctxt "STRINGS.CREATURES.FAMILY.DIVERGENTSPECIES"
 msgid "<link=\"DIVERGENTSPECIES\">Divergent</link>"
-msgstr "<link=\"DIVERGENTSPECIES\">甲蟲</link>"
+msgstr "<link=\"DIVERGENTSPECIES\">變異蟲</link>"
 
 #. STRINGS.CREATURES.FAMILY.DRECKO
 msgctxt "STRINGS.CREATURES.FAMILY.DRECKO"
@@ -19757,7 +19757,7 @@ msgstr "<link=\"CRABSPECIES\">拋殼蟹</link>"
 #. STRINGS.CREATURES.FAMILY_PLURAL.DIVERGENTSPECIES
 msgctxt "STRINGS.CREATURES.FAMILY_PLURAL.DIVERGENTSPECIES"
 msgid "<link=\"DIVERGENTSPECIES\">Divergents</link>"
-msgstr "<link=\"DIVERGENTSPECIES\">甲蟲</link>"
+msgstr "<link=\"DIVERGENTSPECIES\">變異蟲</link>"
 
 #. STRINGS.CREATURES.FAMILY_PLURAL.DRECKOSPECIES
 msgctxt "STRINGS.CREATURES.FAMILY_PLURAL.DRECKOSPECIES"
@@ -19952,22 +19952,22 @@ msgstr "此動物被困在一扇門，磚塊或狹窄的空間裡\n\n聽起來�
 #. STRINGS.CREATURES.MODIFIERS.DIVERGENTPLANTTENDED.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.DIVERGENTPLANTTENDED.NAME"
 msgid "Sweetle Tending"
-msgstr "甲蟲照料"
+msgstr "甜素甲蟲照料"
 
 #. STRINGS.CREATURES.MODIFIERS.DIVERGENTPLANTTENDED.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.DIVERGENTPLANTTENDED.TOOLTIP"
 msgid "A <link=\"DIVERGENTBEETLE\">Sweetle</link> rubbed against this <style=\"KKeyword\">Plant</style> for a tiny growth boost"
-msgstr "一隻 <link=\"DIVERGENTBEETLE\">甲蟲</link> 親近此 <style=\"KKeyword\">植物</style> 給予小幅生長速度加成"
+msgstr "一隻 <link=\"DIVERGENTBEETLE\">甜素甲蟲</link> 親近此 <style=\"KKeyword\">植物</style> 給予小幅生長速度加成"
 
 #. STRINGS.CREATURES.MODIFIERS.DIVERGENTPLANTTENDEDWORM.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.DIVERGENTPLANTTENDEDWORM.NAME"
 msgid "Grubgrub Rub"
-msgstr "甲蟲幼體照料"
+msgstr "蟲果果蟲照料"
 
 #. STRINGS.CREATURES.MODIFIERS.DIVERGENTPLANTTENDEDWORM.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.DIVERGENTPLANTTENDEDWORM.TOOLTIP"
 msgid "A <link=\"DIVERGENTWORM\">Grubgrub</link> rubbed against this <style=\"KKeyword\">Plant</style>, dramatically boosting growth"
-msgstr "一隻 <link=\"DIVERGENTWORM\">甲蟲寶寶</link> 親近此 <style=\"KKeyword\">植物</style>，提供大幅生長速度加成"
+msgstr "一隻 <link=\"DIVERGENTWORM\">蟲果果蟲</link> 親近此 <style=\"KKeyword\">植物</style>，提供大幅生長速度加成"
 
 #. STRINGS.CREATURES.MODIFIERS.DOMESTICATION_DECREASING.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.DOMESTICATION_DECREASING.NAME"
@@ -20557,52 +20557,52 @@ msgstr "枯萎"
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.BABY.DESC"
 msgid "A crawly little Sweetle Larva.\n\nIn time, it will mature into an adult <link=\"DIVERGENTBEETLE\">Sweetle</link>."
-msgstr "一隻爬行的甲蟲寶寶。\n\n隨的時間，它會成長為一隻成年的 <link=\"DIVERGENTBEETLE\">甲蟲</link>。"
+msgstr "一隻爬行的甜素甲蟲寶寶。\n\n隨的時間，它會成長為一隻成年的 <link=\"DIVERGENTBEETLE\">甜素甲蟲</link>。"
 
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.BABY.NAME"
 msgid "<link=\"DIVERGENTBEETLE\">Sweetle Larva</link>"
-msgstr "<link=\"DIVERGENTBEETLE\">甲蟲寶寶</link>"
+msgstr "<link=\"DIVERGENTBEETLE\">甜素甲蟲寶寶</link>"
 
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.DESC"
 msgid "Sweetles are nonhostile critters that excrete large amounts of solid <link=\"SUCROSE\">Sucrose</link>.\n\nThey are closely related to the <link=\"DIVERGENTWORM\">Grubgrub</link> and exhibit similar, albeit less effective farming behaviors."
-msgstr "甲蟲是友善的動物，會排放大量的 <link=\"SUCROSE\">蔗糖</link>。\n\n它們與 <link=\"DIVERGENTWORM\">甲蟲幼體</link> 是共生關係且表現相似，雖然養殖行為不太有效。"
+msgstr "甜素甲蟲是友善的動物，會排放大量的 <link=\"SUCROSE\">蔗糖</link>。\n\n它們與 <link=\"DIVERGENTWORM\">蟲果果蟲</link> 是共生關係且表現相似，雖然養殖行為不太有效。"
 
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.EGG_NAME"
 msgid "<link=\"DIVERGENTBEETLE\">Sweetle Egg</link>"
-msgstr "<link=\"DIVERGENTBEETLE\">甲蟲蛋</link>"
+msgstr "<link=\"DIVERGENTBEETLE\">甜素甲蟲蛋</link>"
 
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.NAME"
 msgid "<link=\"DIVERGENTBEETLE\">Sweetle</link>"
-msgstr "<link=\"DIVERGENTBEETLE\">甲蟲</link>"
+msgstr "<link=\"DIVERGENTBEETLE\">甜素甲蟲</link>"
 
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.BABY.DESC"
 msgid "A squirmy little Grubgrub Wormling.\n\nIn time, it will mature into an adult <link=\"WORM\">Grubgrub</link> and drastically grow in size."
-msgstr "一隻蠕動的小甲蟲幼體寶寶。\n\n隨著時間，它會成長為一隻成年的 <link=\"WORM\">甲蟲幼體</link> 且體型會急速成長。"
+msgstr "一隻蠕動的小蟲果果蟲寶寶。\n\n隨著時間，它會成長為一隻成年的 <link=\"WORM\">蟲果果蟲</link> 且體型會急速成長。"
 
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.BABY.NAME"
 msgid "<link=\"DIVERGENTWORM\">Grubgrub Wormling</link>"
-msgstr "<link=\"DIVERGENTWORM\">甲蟲幼體寶寶</link>"
+msgstr "<link=\"DIVERGENTWORM\">蟲果果蟲寶寶</link>"
 
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.DESC"
 msgid "Grubgrubs form symbiotic relationships with plants, especially <link=\"WORMPLANT\">Grubfruit Plants</link>, and instinctually tend to them.\n\nGrubgrubs are closely related to <link=\"DIVERGENTBEETLE\">Sweetles</link>."
-msgstr "甲蟲幼體與植物形成共生關係，特別是 <link=\"WORMPLANT\">燈籠草</link>，並本能的親近他們。\n\n甲蟲幼體與 <link=\"DIVERGENTBEETLE\">甲蟲</link> 是共生關係。"
+msgstr "蟲果果蟲與植物形成共生關係，特別是 <link=\"WORMPLANT\">燈籠草</link>，並本能的親近他們。\n\n蟲果果蟲與 <link=\"DIVERGENTBEETLE\">甜素甲蟲</link> 是共生關係。"
 
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.EGG_NAME"
 msgid "<link=\"DIVERGENTWORM\">Grubgrub Egg</link>"
-msgstr "<link=\"DIVERGENTWORM\">甲蟲幼體蛋</link>"
+msgstr "<link=\"DIVERGENTWORM\">蟲果果蟲蛋</link>"
 
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.NAME"
 msgid "<link=\"DIVERGENTWORM\">Grubgrub</link>"
-msgstr "<link=\"DIVERGENTWORM\">甲蟲幼體</link>"
+msgstr "<link=\"DIVERGENTWORM\">蟲果果蟲</link>"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.BABY.DESC"
@@ -21282,12 +21282,12 @@ msgstr "發光蟲散發柔和的 <link=\"LIGHT\">光線</link> ，為了吸引�
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.EGG_NAME"
 msgid "<link=\"LIGHTBUGORANGE\">Sun Nymph Egg</link>"
-msgstr "<link=\"LIGHTBUGORANGE\">晴天發光蟲蛋</link>"
+msgstr "<link=\"LIGHTBUGORANGE\">陽光發光蟲蛋</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.NAME"
 msgid "<link=\"LIGHTBUGORANGE\">Sun Bug</link>"
-msgstr "<link=\"LIGHTBUGORANGE\">晴天發光蟲</link>"
+msgstr "<link=\"LIGHTBUGORANGE\">陽光發光蟲</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.BABY.DESC"
@@ -22277,7 +22277,7 @@ msgstr "<link=\"GEYSERS\">蒸氣噴口</link>"
 #. STRINGS.CREATURES.SPECIES.SUPERWORMPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SUPERWORMPLANT.DESC"
 msgid "A Grubfruit Plant that has flourished after being tended by a <link=\"DIVERGENTSPECIES\">Divergent</link> critter.\n\nIt will produce high quality <link=\"WORMSUPERFRUIT\">Grubfruits</link>."
-msgstr "燈籠草在感受到 <link=\"DIVERGENTSPECIES\">甲蟲</link> 親近時會長的很茂盛。\n\n它會生產高品質的 <link=\"WORMSUPERFRUIT\">燈籠草果實</link>。"
+msgstr "燈籠草在感受到 <link=\"DIVERGENTSPECIES\">變異蟲</link> 親近時會長的很茂盛。\n\n它會生產高品質的 <link=\"WORMSUPERFRUIT\">燈籠草果實</link>。"
 
 #. STRINGS.CREATURES.SPECIES.SUPERWORMPLANT.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.SUPERWORMPLANT.DOMESTICATEDDESC"
@@ -22407,7 +22407,7 @@ msgstr "<link=\"FORESTTREE\">喬木樹枝</link>"
 #. STRINGS.CREATURES.SPECIES.WORMPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.WORMPLANT.DESC"
 msgid "Spindly Grubfruit Plants produce <link=\"WORMBASICFRUIT\">Spindly Grubfruit</link> for <link=\"FOOD\">Food</link>.\n\nIf it is tended by a <link=\"DIVERGENTSPECIES\">Divergent</link> critter, it will produce high quality fruits instead."
-msgstr "劣質燈籠草生產 <link=\"WORMBASICFRUIT\">劣質燈籠草果實</link> 可作為 <link=\"FOOD\">食物</link>。\n\n如果被 <link=\"DIVERGENTSPECIES\">甲蟲</link> 照料，會生產高品質的果實。"
+msgstr "劣質燈籠草生產 <link=\"WORMBASICFRUIT\">劣質燈籠草果實</link> 可作為 <link=\"FOOD\">食物</link>。\n\n如果被 <link=\"DIVERGENTSPECIES\">變異蟲</link> 照料，會生產高品質的果實。"
 
 #. STRINGS.CREATURES.SPECIES.WORMPLANT.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.WORMPLANT.DOMESTICATEDDESC"
@@ -25012,7 +25012,7 @@ msgstr "治療"
 #. STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.ARCHETYPE_NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.ARCHETYPE_NAME"
 msgid "Rancher"
-msgstr "畜牧人員"
+msgstr "畜牧員"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.DESC
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.DESC"
@@ -26897,7 +26897,7 @@ msgstr "正在洗礦"
 #. STRINGS.DUPLICANTS.CHORES.SCRUBORE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.SCRUBORE.TOOLTIP"
 msgid "Material ore can be scrubbed to remove <style=\"KKeyword\">Germs</style> present on its surface"
-msgstr "礦物原料可以清洗去除表面上存在的 <style=\"KKeyword\">細菌</style>"
+msgstr "礦物材料可以清洗去除表面上存在的 <style=\"KKeyword\">細菌</style>"
 
 #. STRINGS.DUPLICANTS.CHORES.SHOWER.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.SHOWER.NAME"
@@ -30487,7 +30487,7 @@ msgstr "此複製人因 <style=\"KKeyword\">壓力</style> 過大變成愛哭鬼
 #. STRINGS.DUPLICANTS.MODIFIERS.UNCOMFORTABLEFEET.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.UNCOMFORTABLEFEET.CAUSE"
 msgid "This Duplicant got so good at their job that their feet became sensitive"
-msgstr "此複製人把工作做的很好，不遛他們的腳部變得敏感"
+msgstr "此複製人把工作做的很好，以至於他們的腳部變得敏感"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.UNCOMFORTABLEFEET.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.UNCOMFORTABLEFEET.NAME"
@@ -30507,7 +30507,7 @@ msgstr "睡不安穩"
 #. STRINGS.DUPLICANTS.MODIFIERS.UNCOMFORTABLESLEEP.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.UNCOMFORTABLESLEEP.TOOLTIP"
 msgid "This Duplicant collapsed on the floor from sheer exhaustion"
-msgstr "此複製人累倒了"
+msgstr "此複製人因精疲力竭而倒在地上"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.UNDERWATER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.UNDERWATER.NAME"
@@ -31512,7 +31512,7 @@ msgstr "可抽取與精煉 <link=\"CRUDEOIL\">原油</link>"
 #. STRINGS.DUPLICANTS.ROLES.OIL_TECHNICIAN.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.OIL_TECHNICIAN.NAME"
 msgid "<link=\"OILTECHNICIAN\">Oil Engineering</link>"
-msgstr "<link=\"OILTECHNICIAN\">石油工程師</link>"
+msgstr "<link=\"OILTECHNICIAN\">石油工程</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.PLUMBER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.PLUMBER.DESCRIPTION"
@@ -31642,7 +31642,7 @@ msgstr "複製人在火箭內使用 <link=\"DLC1COSMICRESEARCHCENTER\">虛擬天
 #. STRINGS.DUPLICANTS.ROLES.SPACE_RESEARCHER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.SPACE_RESEARCHER.NAME"
 msgid "<link=\"SPACERESEARCH\">Data Analysis Researcher</link>"
-msgstr "<link=\"SPACERESEARCH\">軌道研究員</link>"
+msgstr "<link=\"SPACERESEARCH\">資料分析研究員</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.SUIT_DURABILITY.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.SUIT_DURABILITY.DESCRIPTION"
@@ -31652,7 +31652,7 @@ msgstr "降低此複製人使用太空衣時的耐久消耗速度 25%。"
 #. STRINGS.DUPLICANTS.ROLES.SUIT_DURABILITY.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.SUIT_DURABILITY.NAME"
 msgid "<link=\"SUITDURABILITY\">Suit Sustainability Training</link>"
-msgstr "<link=\"SUITDURABILITY\">太空衣耐久訓練</link>"
+msgstr "<link=\"SUITDURABILITY\">裝備耐久度訓練</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.SUIT_EXPERT.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.SUIT_EXPERT.DESCRIPTION"
@@ -31717,12 +31717,12 @@ msgstr "礦工"
 #. STRINGS.DUPLICANTS.SKILLGROUPS.RANCHING.NAME
 msgctxt "STRINGS.DUPLICANTS.SKILLGROUPS.RANCHING.NAME"
 msgid "Rancher"
-msgstr "牧場工人"
+msgstr "畜牧員"
 
 #. STRINGS.DUPLICANTS.SKILLGROUPS.RESEARCH.NAME
 msgctxt "STRINGS.DUPLICANTS.SKILLGROUPS.RESEARCH.NAME"
 msgid "Researcher"
-msgstr "科學家"
+msgstr "研究員"
 
 #. STRINGS.DUPLICANTS.SKILLGROUPS.ROCKETRY.NAME
 msgctxt "STRINGS.DUPLICANTS.SKILLGROUPS.ROCKETRY.NAME"
@@ -35557,7 +35557,7 @@ msgstr "<link=\"AEROGEL\">氣凝膠</link>"
 #. STRINGS.ELEMENTS.ALGAE.DESC
 msgctxt "STRINGS.ELEMENTS.ALGAE.DESC"
 msgid "Algae is a cluster of non-motile, single-celled lifeforms.\n\nIt can be used to produce <link=\"OXYGEN\">Oxygen</link> when used in a <link=\"MINERALDEOXIDIZER\">Oxygen Diffuser</link>"
-msgstr "藻類是一種不會移動的單細胞生物。\n\n將其投入 <link=\"MINERALDEOXIDIZER\">製氧機</link>，可以生產 <link=\"OXYGEN\">氧氣</link>"
+msgstr "藻類是一種不會移動的單細胞生物。\n\n將其投入 <link=\"MINERALDEOXIDIZER\">氧氣擴散機</link>，可以生產 <link=\"OXYGEN\">氧氣</link>"
 
 #. STRINGS.ELEMENTS.ALGAE.NAME
 msgctxt "STRINGS.ELEMENTS.ALGAE.NAME"
@@ -38537,7 +38537,7 @@ msgstr "Lit-erally Great"
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSOXYGEN.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSOXYGEN.DESCRIPTION"
 msgid "{dupe} is experiencing a sudden unexpected improvement to their physical prowess which appears to be a result of exposure to elevated levels of oxygen from passing by an Oxygen Diffuser.\n\nObservations such as this are important in documenting just how beneficial having access to oxygen is to my colony."
-msgstr "{dupe} 正在經歷他們體質突然的增強，似乎是因為製氧機所造成的高含氧環境所致。\n\n這樣的觀察證明氧氣的益處對殖民地有多重要。"
+msgstr "{dupe} 正在經歷他們體質突然的增強，似乎是因為氧氣擴散機所造成的高含氧環境所致。\n\n這樣的觀察證明氧氣的益處對殖民地有多重要。"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSOXYGEN.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSOXYGEN.NAME"
@@ -40627,7 +40627,7 @@ msgstr "<link=\"WORMSUPERFOOD\">燈籠草蜜餞</link>"
 #. STRINGS.ITEMS.FOOD.WORMSUPERFOOD.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.WORMSUPERFOOD.RECIPEDESC"
 msgid "A long lasting <link=\"WORMSUPERFRUIT\">Grubfruit</link> jam preserved in <link=\"SUCROSE\">Sucrose</link>."
-msgstr "用 <link=\"SUCROSE\">蔗糖</link> 製作，可長時間保存的 <link=\"WORMSUPERFRUIT\">甲蟲幼體</link> 罐頭。"
+msgstr "用 <link=\"SUCROSE\">蔗糖</link> 製作，可長時間保存的 <link=\"WORMSUPERFRUIT\">燈籠草果實</link> 罐頭。"
 
 #. STRINGS.ITEMS.FOOD.WORMSUPERFRUIT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.WORMSUPERFRUIT.DESC"
@@ -40772,7 +40772,7 @@ msgstr "資料磁片"
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ORBITAL_RESEARCH_DATABANK.RECIPE_DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ORBITAL_RESEARCH_DATABANK.RECIPE_DESC"
 msgid "Databanks of raw data generated from exploring, either by exploring new areas with Duplicants, or by using an <link=\"ORBITALRESEARCHCENTER\">Orbital Data Collection Lab</link>.\n\nUsed by the <link=\"DLC1COSMICRESEARCHCENTER\">Virtual Planetarium</link> to conduct research."
-msgstr "探索時產生的原始資料資料磁片，透過複製人探索新區域，或是使用 <link=\"ORBITALRESEARCHCENTER\">軌道資料收集實驗室</link> 取得。\n\n用於 <link=\"DLC1COSMICRESEARCHCENTER\">虛擬天文館</link> 進行研究。"
+msgstr "探索時產生的原始資料資料磁片，透過複製人探索新區域，或是使用 <link=\"ORBITALRESEARCHCENTER\">軌道資料收集儀</link> 取得。\n\n用於 <link=\"DLC1COSMICRESEARCHCENTER\">虛擬天文館</link> 進行研究。"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.DESC"
@@ -41937,7 +41937,7 @@ msgstr "未建造 <link=\"OXYGEN\">製氧機</link>"
 #. STRINGS.MISC.NOTIFICATIONS.NO_OXYGEN_GENERATOR.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NO_OXYGEN_GENERATOR.TOOLTIP"
 msgid "My colony is not producing any new <link=\"OXYGEN\">Oxygen</link>\n\n<link=\"MINERALDEOXIDIZER\">Oxygen Diffusers</link> can be built from the <b>Oxygen Tab</b> {Hotkey/Plan2}"
-msgstr "殖民地沒有製造新的 <link=\"OXYGEN\">氧氣</link>\n\n可以建造 <b>氧氣</b> {Hotkey/Plan2} 中的 <link=\"MINERALDEOXIDIZER\">製氧機</link>"
+msgstr "殖民地沒有製造新的 <link=\"OXYGEN\">氧氣</link>\n\n可以建造 <b>氧氣</b> {Hotkey/Plan2} 中的 <link=\"MINERALDEOXIDIZER\">氧氣擴散機</link>"
 
 #. STRINGS.MISC.NOTIFICATIONS.NOALERTS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NOALERTS.NAME"
@@ -43012,7 +43012,7 @@ msgstr "精煉礦物"
 #. STRINGS.MISC.TAGS.BUILDABLERAW
 msgctxt "STRINGS.MISC.TAGS.BUILDABLERAW"
 msgid "Raw Mineral"
-msgstr "礦物原料"
+msgstr "礦物材料"
 
 #. STRINGS.MISC.TAGS.BUILDING
 msgctxt "STRINGS.MISC.TAGS.BUILDING"
@@ -43442,7 +43442,7 @@ msgstr "固體"
 #. STRINGS.MISC.TAGS.SOLIDMATERIAL
 msgctxt "STRINGS.MISC.TAGS.SOLIDMATERIAL"
 msgid "Solid Material"
-msgstr "固體原料"
+msgstr "固體材料"
 
 #. STRINGS.MISC.TAGS.SPECIAL
 msgctxt "STRINGS.MISC.TAGS.SPECIAL"
@@ -46912,7 +46912,7 @@ msgstr "殖民地的建築操作可以被開關完全控制。"
 #. STRINGS.RESEARCH.TECHS.LOGICCONTROL.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.LOGICCONTROL.NAME"
 msgid "<link=\"LOGICCONTROL\">Smart Home</link>"
-msgstr "<link=\"LOGICCONTROL\">智能家居</link>"
+msgstr "<link=\"LOGICCONTROL\">智慧家居</link>"
 
 #. STRINGS.RESEARCH.TECHS.LUXURY.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.LUXURY.DESC"
@@ -47082,7 +47082,7 @@ msgstr "讓複製人在一天漫長的挖掘工作之後，有一小杯熱咖啡
 #. STRINGS.RESEARCH.TECHS.PRECISIONPLUMBING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.PRECISIONPLUMBING.NAME"
 msgid "<link=\"PRECISIONPLUMBING\">Advanced Caffeination</link>"
-msgstr "<link=\"PRECISIONPLUMBING\">高級咖啡</link>"
+msgstr "<link=\"PRECISIONPLUMBING\">高級咖啡因</link>"
 
 #. STRINGS.RESEARCH.TECHS.PRESSUREMANAGEMENT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.PRESSUREMANAGEMENT.DESC"
@@ -47212,7 +47212,7 @@ msgstr "完全自動化的儲存固體資源。"
 #. STRINGS.RESEARCH.TECHS.SMARTSTORAGE.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SMARTSTORAGE.NAME"
 msgid "<link=\"SMARTSTORAGE\">Smart Storage</link>"
-msgstr "<link=\"SMARTSTORAGE\">智能儲存箱</link>"
+msgstr "<link=\"SMARTSTORAGE\">智慧儲存箱</link>"
 
 #. STRINGS.RESEARCH.TECHS.SMELTING.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SMELTING.DESC"
@@ -47327,7 +47327,7 @@ msgstr "<link=\"TEMPERATUREMODULATION\">溫度調節</link>"
 #. STRINGS.RESEARCH.TECHS.TRAVELTUBES.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.TRAVELTUBES.DESC"
 msgid "A wholly futuristic way to move Duplicants around the base."
-msgstr "一種前所未有，讓複製人在基地裡移式的方式。"
+msgstr "一種前所未有，讓複製人在基地裡移動的方式。"
 
 #. STRINGS.RESEARCH.TECHS.TRAVELTUBES.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.TRAVELTUBES.NAME"
@@ -47397,7 +47397,7 @@ msgstr "火箭"
 #. STRINGS.RESEARCH.TREES.TITLE_SOLIDS
 msgctxt "STRINGS.RESEARCH.TREES.TITLE_SOLIDS"
 msgid "Solid Material"
-msgstr "固體原料"
+msgstr "固體材料"
 
 #. STRINGS.RESEARCH.TREES.TITLE_SUITS
 msgctxt "STRINGS.RESEARCH.TREES.TITLE_SUITS"
@@ -47472,7 +47472,7 @@ msgstr "缺少配方描述"
 #. STRINGS.RESEARCH.TYPES.ORBITAL.DESC
 msgctxt "STRINGS.RESEARCH.TYPES.ORBITAL.DESC"
 msgid "<link=\"RESEARCH\">Data Analysis Research</link> is required to unlock Data Analysis technologies.\nIt can be conducted at a <link=\"ORBITALRESEARCHCENTER\">Orbital Data Collection Lab</link>."
-msgstr "解鎖軌道科技需要 <link=\"RESEARCH\">軌道研究</link>。\n它可在 <link=\"ORBITALRESEARCHCENTER\">軌道資料收集實驗儀</link> 進行研究。"
+msgstr "解鎖資料分析研究需要 <link=\"RESEARCH\">軌道研究</link>。\n它可在 <link=\"ORBITALRESEARCHCENTER\">軌道資料收集儀</link> 進行研究。"
 
 #. STRINGS.RESEARCH.TYPES.ORBITAL.NAME
 msgctxt "STRINGS.RESEARCH.TYPES.ORBITAL.NAME"
@@ -49077,7 +49077,7 @@ msgstr "<link=\"SWAMPFORAGEPLANTPLANTED\">沼澤甜菜</link> 可在複製人建
 #. STRINGS.SUBWORLDS.WASTELAND.DESC
 msgctxt "STRINGS.SUBWORLDS.WASTELAND.DESC"
 msgid "While the Wasteland Biome does not look particularly interesting, a pragmatic colony can take advantage of its selection of construction resources."
-msgstr "雖然廢土生態系看起來不是特別有趣，但務實的殖民地可以選擇利用建築資源所帶來的好處。"
+msgstr "雖然荒地生態系看起來不是特別有趣，但務實的殖民地可以選擇利用建築資源所帶來的好處。"
 
 #. STRINGS.SUBWORLDS.WASTELAND.NAME
 msgctxt "STRINGS.SUBWORLDS.WASTELAND.NAME"
@@ -49087,7 +49087,7 @@ msgstr "荒地"
 #. STRINGS.SUBWORLDS.WASTELAND.UTILITY
 msgctxt "STRINGS.SUBWORLDS.WASTELAND.UTILITY"
 msgid "The prevalance of <link=\"COPPER\">Copper</link>, <link=\"SANDSTONE\">Sandstone</link>, <link=\"IGNEOUSROCK\">Igneous Rock</link> and its <link=\"IRON\">Iron</link> rich counterpart <link=\"MAFICROCK\">Mafic Rock</link>, make this a fruitful biome to explore for construction material. <link=\"SAND\">Sand</link> is also in abundance here which is useful as a filtering material.\n\nWhile the wildlife is not in abundance in the Wasteland Biome, the <link=\"DIVERGENTBEETLE\">Sweetle</link> and <link=\"DIVERGENTWORM\">Grubgrub</link> make interesting creatures to domesticate as they co-exist with the  <link=\"WORMPLANT\">Grubfruit Plants</link> to produce a much higher quality food than the <link=\"WORMPLANT\">Spindly Grubfruit Plant</link> found in the wild. Additionally, the <link=\"SULFUR\">Sulfur</link> found here works both as food for the GrubGrubs and fertilizer for the Grubfruit Plants.\n\nThe abundance of <link=\"OXYGEN\">Oxygen</link> found in the Wasteland Biome makes for a low-risk area to send my Duplicants into to collect useful resources to continue with their construction projects."
-msgstr "大量的 <link=\"COPPER\">銅</link>、<link=\"SANDSTONE\">沙岩</link>、<link=\"IGNEOUSROCK\">火成岩</link> 與富含 <link=\"IRON\">鐵</link> 的 <link=\"MAFICROCK\">基岩</link>，使此生態系成為取得建築材料的良好地點。\n這裡也有豐富的 <link=\"SAND\">沙子</link> 可用來作為過濾介質。\n\n雖然廢土生態系的野生動物並不豐富，但 <link=\"DIVERGENTBEETLE\">甲蟲</link> 與 <link=\"DIVERGENTWORM\">甲蟲幼體</link> 是可馴化的有趣動物，它們與 <link=\"WORMPLANT\">燈籠草</link> 形成共生關係，可以生產比野生 <link=\"WORMPLANT\">劣質燈籠草</link> 品質更好的食物。\n此外， <link=\"SULFUR\">硫磺</link> 同時可作為甲蟲幼體的食物與燈籠肥料。\n\n廢土生態系有豐富的 <link=\"OXYGEN\">氧氣</link> 是個低風險的區域，將複製送到這裡收集有用的資源有利建築計劃的繼續進行。"
+msgstr "大量的 <link=\"COPPER\">銅</link>、<link=\"SANDSTONE\">沙岩</link>、<link=\"IGNEOUSROCK\">火成岩</link> 與富含 <link=\"IRON\">鐵</link> 的 <link=\"MAFICROCK\">基岩</link>，使此生態系成為取得建築材料的良好地點。\n這裡也有豐富的 <link=\"SAND\">沙子</link> 可用來作為過濾介質。\n\n雖然荒地生態系的野生動物並不豐富，但 <link=\"DIVERGENTBEETLE\">甜素甲蟲</link> 與 <link=\"DIVERGENTWORM\">蟲果果蟲</link> 是可馴化的有趣動物，它們與 <link=\"WORMPLANT\">燈籠草</link> 形成共生關係，可以生產比野生 <link=\"WORMPLANT\">劣質燈籠草</link> 品質更好的食物。\n此外， <link=\"SULFUR\">硫磺</link> 同時可作為蟲果果蟲的食物與燈籠肥料。\n\n荒地生態系有豐富的 <link=\"OXYGEN\">氧氣</link> 是個低風險的區域，將複製人送到這裡收集有用的資源有利建築計劃的繼續進行。"
 
 #. STRINGS.UI.ACTIONS
 msgctxt "STRINGS.UI.ACTIONS"
@@ -49232,7 +49232,7 @@ msgstr "<link=\"BUILDCATEGORYCONVEYANCE\">運輸</link>"
 #. STRINGS.UI.BUILDCATEGORIES.CONVEYANCE.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.CONVEYANCE.TOOLTIP"
 msgid "Transport ore and solid materials around my base. {Hotkey}"
-msgstr "輕鬆地運輸基地周圍的礦物和固體原料。{Hotkey}"
+msgstr "輕鬆地運輸基地周圍的礦物和固體材料。{Hotkey}"
 
 #. STRINGS.UI.BUILDCATEGORIES.EQUIPMENT.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.EQUIPMENT.NAME"
@@ -63087,7 +63087,7 @@ msgstr "蛋型石雕"
 #. STRINGS.UI.SPACEARTIFACTS.GRUBSTATUE.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.GRUBSTATUE.ARTIFACT"
 msgid "It's very likely this statue was placed in a hidden, secluded place in the Gravitas laboratory since the creation of Grubgrubs was a closely held secret that the general public was not privy to.\n\nThis is a shame since the artistic quality of this statue is really quite accomplished."
-msgstr "這個雕象很可能是偷偷擺放的，\n這個甲蟲作品被創作後在一般大眾不知道的情況下，\n被幽靜的放在了引力科技的大廳。\n\n這是一種恥辱，因為此雕像的藝術品質確實相當有造詣。"
+msgstr "這個雕像很可能是偷偷擺放的，\n這個蟲果果蟲作品被創作後在一般大眾不知道的情況下，\n被幽靜的放在了引力科技的大廳。\n\n這是一種恥辱，因為此雕像的藝術品質確實相當有造詣。"
 
 #. STRINGS.UI.SPACEARTIFACTS.GRUBSTATUE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.GRUBSTATUE.DESCRIPTION"
@@ -63097,7 +63097,7 @@ msgstr "向一個小小的植物擁抱者致敬。"
 #. STRINGS.UI.SPACEARTIFACTS.GRUBSTATUE.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.GRUBSTATUE.NAME"
 msgid "Grubgrub Statue"
-msgstr "甲蟲幼體雕像"
+msgstr "蟲果果蟲雕像"
 
 #. STRINGS.UI.SPACEARTIFACTS.HATCHFOSSIL.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.HATCHFOSSIL.ARTIFACT"
