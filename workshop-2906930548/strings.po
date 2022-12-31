@@ -17702,7 +17702,7 @@ msgstr "為小動物設計的革命性基因操縱設備。"
 #. STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.END_POPUP.BUTTON
 msgctxt "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.END_POPUP.BUTTON"
 msgid "Unlock Gene Manipulation Mode"
-msgstr "解所基因操縱模式"
+msgstr "解鎖基因操縱模式"
 
 #. STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.END_POPUP.CODEX_NAME
 msgctxt "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.END_POPUP.CODEX_NAME"
@@ -18162,7 +18162,7 @@ msgstr "初遇"
 #. STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.BEGIN_POPUP.DESCRIPTION
 msgctxt "STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.BEGIN_POPUP.DESCRIPTION"
 msgid "I've discovered a new dream-analyzing building buried deep inside our asteroid.\n\nIt seems to contain new sleep-specific suits...could these be the key to unlocking my Duplicants' ability to dream?\n\nI've often wondered what they might be capable of, once their imaginations were awakened."
-msgstr "我在我們的小行星中發現了深埋的夢境分析儀器。\n\n這裡似乎有一些專門用於睡眠的新衣服……這可能是解所我的複製人作夢能力的關鍵？\n\n我經常在想，要是他們的想像力被喚醒，他們能做些什麼呢。"
+msgstr "我在我們的小行星中發現了深埋的夢境分析儀器。\n\n這裡似乎有一些專門用於睡眠的新衣服……這可能是解鎖我的複製人作夢能力的關鍵？\n\n我經常在想，要是他們的想像力被喚醒，他們能做些什麼呢。"
 
 #. STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.BEGIN_POPUP.NAME
 msgctxt "STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.BEGIN_POPUP.NAME"
@@ -18182,7 +18182,7 @@ msgstr "為引力科技的地下睡眠實驗室內的巨大遺物供能。"
 #. STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.END_POPUP.BUTTON
 msgctxt "STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.END_POPUP.BUTTON"
 msgid "Unlock Maximum Aptitude Mode"
-msgstr "解所天賦最大化模式"
+msgstr "解鎖天賦最大化模式"
 
 #. STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.END_POPUP.CODEX_NAME
 msgctxt "STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.END_POPUP.CODEX_NAME"
@@ -56032,7 +56032,7 @@ msgstr "確定要離開遊戲？\n所有未儲存的進度將會遺失。"
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1"
 msgid "ACTIVATE DLC"
-msgstr "啟用 DLC"
+msgstr "啟用眼冒金星!"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_DESC
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_DESC"
@@ -56052,7 +56052,7 @@ msgstr "眼冒金星! 可下載內容"
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1"
 msgid "DEACTIVATE DLC"
-msgstr "停用可下載內容"
+msgstr "停用眼冒金星!"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_DESC
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_DESC"
