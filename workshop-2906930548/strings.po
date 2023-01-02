@@ -1672,12 +1672,12 @@ msgstr "被自動化系統啟動"
 #. STRINGS.BUILDING.STATUSITEMS.LOGIC_FEEDBACK_LOOP.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGIC_FEEDBACK_LOOP.NAME"
 msgid "Feedback Loop"
-msgstr "反饋迴路"
+msgstr "閉合迴路"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGIC_FEEDBACK_LOOP.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGIC_FEEDBACK_LOOP.TOOLTIP"
 msgid "Feedback loops prevent automation grids from functioning\n\nFeedback loops occur when the <style=\"KKeyword\">Output</style> of an automated building connects back to its own <style=\"KKeyword\">Input</style> through the Automation grid"
-msgstr "反饋迴路阻止自動化系統運作\n\n當一個自動化建築物的 <style=\"KKeyword\">訊號輸出端</style>，透過訊號線連回自己的 <style=\"KKeyword\">訊號輸入端</style>，就會出現反饋迴路"
+msgstr "閉合迴路阻止自動化系統運作\n\n當一個自動化建築物的 <style=\"KKeyword\">訊號輸出端</style>，透過訊號線連回自己的 <style=\"KKeyword\">訊號輸入端</style>，就會出現閉合迴路"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGICOVERLOADED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICOVERLOADED.NAME"
@@ -5012,7 +5012,7 @@ msgstr "望遠鏡是太空研究的必需品，可讓火箭可以飛到其它世
 #. STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPE.EFFECT"
 msgid "Reveals visitable Planetoids in space.\n\nAssigned Duplicants must possess the <link=\"ASTRONOMY\">Astronomy</link> skill.\n\nBuilding must be exposed to space to function."
-msgstr "揭露太空中可拜訪的小行星。\n\n複製人必須具備 <link=\"ASTRONOMY\">天文學</link> 技能。\n\n建築必須曝露在太空中才能運作。"
+msgstr "揭露太空中可拜訪的小行星。\n\n複製人必須具備 <link=\"ASTRONOMY\">天文學</link> 技能。\n\n建築必須暴露在太空中才能運作。"
 
 #. STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPE.NAME"
@@ -5032,7 +5032,7 @@ msgstr "望遠鏡是研究太空的必需品，可讓火箭飛向其它世界。
 #. STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPEENCLOSED.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPEENCLOSED.EFFECT"
 msgid "Reveals visitable Planetoids in space... in comfort!\n\nAssigned Duplicants must possess the <link=\"ASTRONOMY\">Astronomy</link> skill.\n\nExcellent sunburn protection  (100%), partial <link=\"RADIATION\">Radiation</link> protection (50%) .\n\nBuilding must be exposed to space to function."
-msgstr "揭露太空中可拜訪的小行星…舒服地。\n\n複製人必須具備 <link=\"ASTRONOMY\">天文學</link> 技能。\n\n出色的防曬保護 (100%)，和部分 <link=\"RADIATION\">輻射</link> 保護 (50%) 。\n\n建築必須曝露在太空中才能運作。"
+msgstr "揭露太空中可拜訪的小行星…舒服地。\n\n複製人必須具備 <link=\"ASTRONOMY\">天文學</link> 技能。\n\n出色的防曬保護 (100%)，和部分 <link=\"RADIATION\">輻射</link> 保護 (50%) 。\n\n建築必須暴露在太空中才能運作。"
 
 #. STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPEENCLOSED.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPEENCLOSED.NAME"
@@ -8752,7 +8752,7 @@ msgstr "接收來自太空的自動化訊號。"
 #. STRINGS.BUILDINGS.PREFABS.LOGICINTERASTEROIDRECEIVER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICINTERASTEROIDRECEIVER.EFFECT"
 msgid "Receives a <b><style=\"logic_on\">Green Signal</style></b> or a <b><style=\"logic_off\">Red Signal</style></b> from an <link=\"LOGICINTERASTEROIDSENDER\">Automation Broadcaster</link> over vast distances in space.\n\nBoth the Automation Receiver and the Automation Broadcaster must be exposed to space to function."
-msgstr "接收來自遠方太空 <link=\"LOGICINTERASTEROIDSENDER\">訊號廣播站</link> 所發出的 <b><style=\"logic_on\">綠色訊號</style></b> 或 <b><style=\"logic_off\">紅色訊號</style></b>。\n\n訊號接收站與訊號廣播站必須曝露於太空中才能運作。"
+msgstr "接收來自遠方太空 <link=\"LOGICINTERASTEROIDSENDER\">訊號廣播站</link> 所發出的 <b><style=\"logic_on\">綠色訊號</style></b> 或 <b><style=\"logic_off\">紅色訊號</style></b>。\n\n訊號接收站與訊號廣播站必須暴露於太空中才能運作。"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICINTERASTEROIDRECEIVER.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICINTERASTEROIDRECEIVER.LOGIC_PORT"
@@ -11227,7 +11227,7 @@ msgstr "盆栽植物"
 #. STRINGS.BUILDINGS.PREFABS.RADIATIONLIGHT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.RADIATIONLIGHT.DESC"
 msgid "Duplicants can become sick if exposed to radiation without protection."
-msgstr "複製人如果沒有防護而曝露在輻射環境中的話會生病。"
+msgstr "複製人如果沒有防護而暴露在輻射環境中的話會生病。"
 
 #. STRINGS.BUILDINGS.PREFABS.RADIATIONLIGHT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.RADIATIONLIGHT.EFFECT"
@@ -11847,7 +11847,7 @@ msgstr "對一位使用彈弓的英雄的精湛描繪。"
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.FACADES.SCULPTURE_AMAZING_3.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCULPTURE.FACADES.SCULPTURE_AMAZING_3.NAME"
 msgid "<link=\"SCULPTUREAMAZING3\">Before Battle</link>"
-msgstr "link=\"SCULPTUREAMAZING3\">戰鬥之前</link>"
+msgstr "<link=\"SCULPTUREAMAZING3\">戰鬥之前</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.FACADES.SCULPTURE_AMAZING_4.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCULPTURE.FACADES.SCULPTURE_AMAZING_4.DESC"
@@ -12137,7 +12137,7 @@ msgstr "太陽能板將高強度的陽光轉換成電力並且沒有汙染。"
 #. STRINGS.BUILDINGS.PREFABS.SOLARPANEL.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLARPANEL.EFFECT"
 msgid "Converts <link=\"LIGHT\">Sunlight</link> into electrical <link=\"POWER\">Power</link>.\n\nMust be exposed to space."
-msgstr "轉換 <link=\"LIGHT\">陽光</link> 成為 <link=\"POWER\">電力</link>。\n\n必須曝露於太空中。"
+msgstr "轉換 <link=\"LIGHT\">陽光</link> 成為 <link=\"POWER\">電力</link>。\n\n必須暴露於太空中。"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLARPANEL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLARPANEL.NAME"
@@ -12152,7 +12152,7 @@ msgstr "在起飛前與飛行中收集太陽能。"
 #. STRINGS.BUILDINGS.PREFABS.SOLARPANELMODULE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLARPANELMODULE.EFFECT"
 msgid "Converts <link=\"LIGHT\">Sunlight</link> into electrical <link=\"POWER\">Power</link> for use on rockets.\n\nMust be built via <link=\"LAUNCHPAD\">Rocket Platform</link>. \n\nMust be exposed to space."
-msgstr "轉換 <link=\"LIGHT\">陽光</link> 成為 <link=\"POWER\">電力</link> 供火箭使用。\n\n必須透過 <link=\"LAUNCHPAD\">火箭平台</link> 建造。\n\n必須曝露於太空中。"
+msgstr "轉換 <link=\"LIGHT\">陽光</link> 成為 <link=\"POWER\">電力</link> 供火箭使用。\n\n必須透過 <link=\"LAUNCHPAD\">火箭平台</link> 建造。\n\n必須暴露於太空中。"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLARPANELMODULE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLARPANELMODULE.NAME"
@@ -12947,7 +12947,7 @@ msgstr "學習星圖與進行火箭任務必須使用望遠鏡。"
 #. STRINGS.BUILDINGS.PREFABS.TELESCOPE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.EFFECT"
 msgid "Maps Starmap destinations.\n\nAssigned Duplicants must possess the <link=\"RESEARCHING2\">Field Research</link> skill.\n\nBuilding must be exposed to space to function."
-msgstr "顯示星圖上的目的地。\n\n複製人必須擁備 <link=\"RESEARCHING2\">野外調查</link> 技能。\n\n建築必須曝露在太空中才能運作。"
+msgstr "顯示星圖上的目的地。\n\n複製人必須擁備 <link=\"RESEARCHING2\">野外調查</link> 技能。\n\n建築必須暴露在太空中才能運作。"
 
 #. STRINGS.BUILDINGS.PREFABS.TELESCOPE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.NAME"
@@ -17307,12 +17307,12 @@ msgstr "核能"
 #. STRINGS.CODEX.RADIATION.PARAGRAPH_1
 msgctxt "STRINGS.CODEX.RADIATION.PARAGRAPH_1"
 msgid "When transporting radioactive materials such as <link=\"URANIUMORE\">Uranium</link>, care must be taken to avoid exposing outside objects to <link=\"RADIATIONSICKNESS\">Radioactive Contaminants</link>.\n\nUsing proper transportation vessels, such as those which are lined with <link=\"LEAD\">Lead</link>, is crucial to ensuring that Duplicants avoid <link=\"RADIATIONSICKNESS\">Radiation Sickness</link>."
-msgstr "當在運送像是<link=\"URANIUMORE\">鈾礦</link>等的輻射原料時，必須小心避免物件曝露造成<link=\"RADIATIONSICKNESS\">放射性汙染</link>。\n\n使用適合的運輸容器，像是<link=\"LEAD\">鉛製容器</link>，可以確保複製人避免<link=\"RADIATIONSICKNESS\">輻射中毒</link>。"
+msgstr "當在運送像是<link=\"URANIUMORE\">鈾礦</link>等的輻射原料時，必須小心避免物件暴露造成<link=\"RADIATIONSICKNESS\">放射性汙染</link>。\n\n使用適合的運輸容器，像是<link=\"LEAD\">鉛製容器</link>，可以確保複製人避免<link=\"RADIATIONSICKNESS\">輻射中毒</link>。"
 
 #. STRINGS.CODEX.RADIATION.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.RADIATION.PARAGRAPH_2"
 msgid "Duplicants who are exposed to <link=\"RADIATIONSICKNESS\">Radioactive Contaminants</link> will need to wear protection or they risk coming down with <link=\"RADIATIONSICKNESS\">Radiation Sickness</link>.\n\nSome Duplicants will have more of a natural resistance to radiation, but prolonged exposure will still increase their chances of becoming sick.\n\nConsuming <link=\"BASICRADPILL\">Rad Pills</link> or seafood such as <link=\"COOKEDFISH\">Cooked Seafood</link> or <link=\"SEALETTUCE\">Waterweed</link> increases a Duplicant's radiation resistance, but will not cure a Duplicant's <link=\"RADIATIONSICKNESS\">Radiation Sickness</link> once they have become infected.\n\nOn the other hand, exposure to radiation will kill <link=\"FOODPOISONING\">Food Poisoning</link>, <link=\"SLIMELUNG\">Slimelung</link> and <link=\"ZOMBIESPORES\">Zombie Spores</link> on surfaces (including on Duplicants).\n\n"
-msgstr "複製人曝露在<link=\"RADIATIONSICKNESS\">輻射汙染</link>區時會需要穿防護衣，否則會有<link=\"RADIATIONSICKNESS\">輻射中毒</link>的危險。\n\n有些複製人天生有較強的輻射抗性，但長時間曝露在輻射汙染區仍然會增加輻射中毒的機率。\n\n補充<link=\"BASICRADPILL\">抗輻射藥</link>或食用海鮮(<link=\"COOKEDFISH\">烤魚</link>、<link=\"SEALETTUCE\">海藻</link>...等)可以增加複製人的輻射抗性，但不能治療已感染<link=\"RADIATIONSICKNESS\">輻射中毒</link>的複製人。\n\n另一方面曝露於輻射環境會殺死表面的<link=\"FOODPOISONING\">腸病毒</link>、<link=\"SLIMELUNG\">肺結核</link>與<link=\"ZOMBIESPORES\">殭屍孢子</link>（包括複製人）。\n\n"
+msgstr "複製人暴露在<link=\"RADIATIONSICKNESS\">輻射汙染</link>區時會需要穿防護衣，否則會有<link=\"RADIATIONSICKNESS\">輻射中毒</link>的危險。\n\n有些複製人天生有較強的輻射抗性，但長時間暴露在輻射汙染區仍然會增加輻射中毒的機率。\n\n補充<link=\"BASICRADPILL\">抗輻射藥</link>或食用海鮮(<link=\"COOKEDFISH\">烤魚</link>、<link=\"SEALETTUCE\">海藻</link>...等)可以增加複製人的輻射抗性，但不能治療已感染<link=\"RADIATIONSICKNESS\">輻射中毒</link>的複製人。\n\n另一方面暴露於輻射環境會殺死表面的<link=\"FOODPOISONING\">腸病毒</link>、<link=\"SLIMELUNG\">肺結核</link>與<link=\"ZOMBIESPORES\">殭屍孢子</link>（包括複製人）。\n\n"
 
 #. STRINGS.CODEX.RADIATION.PARAGRAPH_3
 msgctxt "STRINGS.CODEX.RADIATION.PARAGRAPH_3"
@@ -18247,7 +18247,7 @@ msgstr "<link=\"STRESS\">壓力</link>"
 #. STRINGS.CODEX.SUNNY.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.SUNNY.BODY.CONTAINER1"
 msgid "<smallcaps>Pictured: \"Sun\" Shine Bug variant</smallcaps>"
-msgstr "<smallcaps>圖為：「晴天」發光蟲變種</smallcaps>"
+msgstr "<smallcaps>圖為：「陽光」發光蟲變種</smallcaps>"
 
 #. STRINGS.CODEX.SUNNY.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.SUNNY.BODY.CONTAINER2"
@@ -21267,17 +21267,17 @@ msgstr "<link=\"LIGHTBUGCRYSTAL\">水晶發光蟲</link>"
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.BABY.DESC"
 msgid "A chubby baby <link=\"LIGHTBUGORANGE\">Shine Bug</link>.\n\nThis one is a Sun morph."
-msgstr "一隻圓滾滾的 <link=\"LIGHTBUGORANGE\">晴天發光蟲</link> 寶寶。\n\n這是一隻橘色的晴天變種。"
+msgstr "一隻圓滾滾的 <link=\"LIGHTBUGORANGE\">陽光發光蟲</link> 寶寶。\n\n這是一隻橘色的陽光變種。"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.BABY.NAME"
 msgid "<link=\"LIGHTBUGORANGE\">Sun Nymph</link>"
-msgstr "<link=\"LIGHTBUGORANGE\">晴天發光蟲蛋寶寶</link>"
+msgstr "<link=\"LIGHTBUGORANGE\">陽光發光蟲蛋寶寶</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.DESC"
 msgid "Shine Bugs emit a soft <link=\"LIGHT\">Light</link> in hopes of attracting more of their kind for company.\n\nThe light of the Sun morph has been turned orange through selective breeding."
-msgstr "發光蟲散發柔和的 <link=\"LIGHT\">光線</link> ，為了吸引更多的同伴。\n\n透過選擇性的繁殖，晴天變種的光線將會變為橘色的。"
+msgstr "發光蟲散發柔和的 <link=\"LIGHT\">光線</link> ，為了吸引更多的同伴。\n\n透過選擇性的繁殖，陽光變種的光線將會變為橘色的。"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.EGG_NAME"
@@ -22802,7 +22802,7 @@ msgstr "汙染環境"
 #. STRINGS.CREATURES.STATUSITEMS.CONTAMINATEDATMOSPHERE.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CONTAMINATEDATMOSPHERE.TOOLTIP"
 msgid "Exposure to contaminants is accelerating this food's <style=\"KKeyword\">Decay Rate</style>"
-msgstr "曝露在汙染環境中會加速食物 <style=\"KKeyword\">腐壞</style>"
+msgstr "暴露在汙染環境中會加速食物 <style=\"KKeyword\">腐壞</style>"
 
 #. STRINGS.CREATURES.STATUSITEMS.COOLING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.COOLING.NAME"
@@ -23137,7 +23137,7 @@ msgstr "釋放氣體"
 #. STRINGS.CREATURES.STATUSITEMS.EXPELLING_GAS.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXPELLING_GAS.TOOLTIP"
 msgid "This critter is emitting <style=\"KKeyword\">Gas</style>\n\nYuck!"
-msgstr "此動物正釋放一些 <style=\"KKeyword\">氣體</style>\n\n噁心！"
+msgstr "此動物正排出一些 <style=\"KKeyword\">氣體</style>\n\n噁心！"
 
 #. STRINGS.CREATURES.STATUSITEMS.EXPELLING_LIQUID.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXPELLING_LIQUID.NAME"
@@ -23347,7 +23347,7 @@ msgstr "當環境 <style=\"KKeyword\">溫度</style> 介於 <b>{low_temperature}
 #. STRINGS.CREATURES.STATUSITEMS.HUGEGG.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HUGEGG.NAME"
 msgid "Hugging Eggs"
-msgstr "計算蛋的數量"
+msgstr "擁抱蛋中"
 
 #. STRINGS.CREATURES.STATUSITEMS.HUGEGG.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HUGEGG.TOOLTIP"
@@ -23397,7 +23397,7 @@ msgstr "<style=\"KKeyword\">體溫</style> 太高很危險【<b>{InternalTempera
 #. STRINGS.CREATURES.STATUSITEMS.HYPOTHERMIA.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HYPOTHERMIA.NAME"
 msgid "Freezing"
-msgstr "冷凍"
+msgstr "過冷"
 
 #. STRINGS.CREATURES.STATUSITEMS.HYPOTHERMIA.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HYPOTHERMIA.TOOLTIP"
@@ -23412,7 +23412,7 @@ msgstr "閒置"
 #. STRINGS.CREATURES.STATUSITEMS.IDLE.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.IDLE.TOOLTIP"
 msgid "Just enjoying life, y'know?"
-msgstr "只是在享受生活，你知道嗎？"
+msgstr "只是在享受生活，懂嗎？"
 
 #. STRINGS.CREATURES.STATUSITEMS.IN_INCUBATOR.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.IN_INCUBATOR.NAME"
@@ -25437,17 +25437,17 @@ msgstr "咳嗽是 <link=\"SLIMESICKNESS\">肺結核</link> 的病症，並在空
 #. STRINGS.DUPLICANTS.CHORES.CROP_TEND.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.CROP_TEND.NAME"
 msgid "Tend"
-msgstr "管理農作物"
+msgstr "照料"
 
 #. STRINGS.DUPLICANTS.CHORES.CROP_TEND.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.CROP_TEND.STATUS"
 msgid "Tending plant"
-msgstr "管理農作物中"
+msgstr "照料作物中"
 
 #. STRINGS.DUPLICANTS.CHORES.CROP_TEND.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.CROP_TEND.TOOLTIP"
 msgid "Tending to plants increases their <style=\"KKeyword\">Growth Rate</style>"
-msgstr "管理農作物增加它們的 <style=\"KKeyword\">生長速度</style>"
+msgstr "照料作物增加它們的 <style=\"KKeyword\">生長速度</style>"
 
 #. STRINGS.DUPLICANTS.CHORES.DEBUGGOTO.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.DEBUGGOTO.NAME"
@@ -27542,7 +27542,7 @@ msgstr "接觸這些物質將會快速殺死 <style=\"KKeyword\">細菌</style>"
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_QUICKLY_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_QUICKLY_TOOLTIP"
 msgid "Halves germ count every {0}"
-msgstr "細菌數減半每 {0}"
+msgstr "每 {0} 細菌數減半"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_SLOWLY
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_SLOWLY"
@@ -27562,12 +27562,12 @@ msgstr "接觸這些物質將會慢慢的減少 <style=\"KKeyword\">細菌</styl
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_SLOWLY_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_SLOWLY_TOOLTIP"
 msgid "Halves germ count every {0}"
-msgstr "細菌數減半每 {0}"
+msgstr "每 {0} 細菌數減半"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.DIES_TOOLTIP"
 msgid "Halves germ count every {0}"
-msgstr "細菌數減半每 {0}"
+msgstr "每 {0} 細菌數減半"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.FOODBORNE
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.FOODBORNE"
@@ -27597,7 +27597,7 @@ msgstr "這些物質讓 <style=\"KKeyword\">細菌</style> 擴散和繁殖"
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.GROWS_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.GROWS_TOOLTIP"
 msgid "Doubles germ count every {0}"
-msgstr "細菌數加倍每 {0}"
+msgstr "每 {0} 細菌數加倍"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.GROWTH_FORMAT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.GROWTH_FORMAT"
@@ -27647,12 +27647,12 @@ msgstr "複製人接觸帶有這些 <style=\"KKeyword\">細菌</style> 的物品
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.SUNBORNE
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.SUNBORNE"
 msgid "Contracted via environmental exposure\n------------------"
-msgstr "透過環境曝露感染\n------------------"
+msgstr "透過環境暴露感染\n------------------"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.SUNBORNE_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.SUNBORNE_TOOLTIP"
 msgid "Duplicants may contract this <style=\"KKeyword\">Disease</style> through exposure to hazardous environments"
-msgstr "複製人因曝露在有害環境而感染此 <style=\"KKeyword\">疾病</style>"
+msgstr "複製人因暴露在有害環境而感染此 <style=\"KKeyword\">疾病</style>"
 
 #. STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.TEMPERATURE_RANGE
 msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.TEMPERATURE_RANGE"
@@ -27727,7 +27727,7 @@ msgstr "此複製人成為宿主，需要的細菌量"
 #. STRINGS.DUPLICANTS.DISEASES.HEATSICKNESS.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DISEASES.HEATSICKNESS.DESCRIPTION"
 msgid "This Duplicant's thought processes have short circuited from extreme <style=\"KKeyword\">Heat</style> exposure"
-msgstr "複製人曝露在 <style=\"KKeyword\">高溫</style> 之下使他大腦短路"
+msgstr "複製人暴露在 <style=\"KKeyword\">高溫</style> 之下使他大腦短路"
 
 #. STRINGS.DUPLICANTS.DISEASES.HEATSICKNESS.DESCRIPTIVE_SYMPTOMS
 msgctxt "STRINGS.DUPLICANTS.DISEASES.HEATSICKNESS.DESCRIPTIVE_SYMPTOMS"
@@ -27802,7 +27802,7 @@ msgstr "皮膚感染"
 #. STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.TOXIC_AREA
 msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.TOXIC_AREA"
 msgid "Exposure to toxic areas"
-msgstr "曝露在有毒區域"
+msgstr "暴露在有毒區域"
 
 #. STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.UNKNOWN
 msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.UNKNOWN"
@@ -28007,7 +28007,7 @@ msgstr "在 <link=\"SLIMEMOLD\">軟泥</link> 和 <link=\"CONTAMINATEDOXYGEN\">�
 #. STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.LEGEND_HOVERTEXT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.LEGEND_HOVERTEXT"
 msgid "Slimelung Germs present\n"
-msgstr "結核菌存在\n"
+msgstr "肺結核菌存在\n"
 
 #. STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.NAME
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.NAME"
@@ -28107,7 +28107,7 @@ msgstr "{InfectionSource}{Duration}{Doctor}{Fatality}{Cures}{Bedrest}\n\n\n{Symp
 #. STRINGS.DUPLICANTS.DISEASES.SUNBURNSICKNESS.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SUNBURNSICKNESS.DESCRIPTION"
 msgid "Extreme sun exposure has given this Duplicant a nasty burn."
-msgstr "曝露在炙熱的陽光下會使複製人曬傷。"
+msgstr "暴露在炙熱的陽光下會使複製人曬傷。"
 
 #. STRINGS.DUPLICANTS.DISEASES.SUNBURNSICKNESS.DESCRIPTIVE_SYMPTOMS
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SUNBURNSICKNESS.DESCRIPTIVE_SYMPTOMS"
@@ -29062,32 +29062,32 @@ msgstr "此複製人喝了美味的飲料！\n\n休閒活動提升複製人的 <
 #. STRINGS.DUPLICANTS.MODIFIERS.EXPOSEDTOFOODGERMS.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EXPOSEDTOFOODGERMS.NAME"
 msgid "Food Poisoning Exposure"
-msgstr "腸病毒曝露"
+msgstr "腸病毒暴露"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EXPOSEDTOFOODGERMS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EXPOSEDTOFOODGERMS.TOOLTIP"
 msgid "This Duplicant was exposed to <link=\"FOODPOISONING\">Food Poisoning</link> Germs and is at risk of developing the <style=\"KKeyword\">Disease</style>"
-msgstr "此複製人曝露在有 <link=\"SLIMELUNG\">腸病毒</link> 的地方，有產生 <style=\"KKeyword\">疾病</style> 的風險"
+msgstr "此複製人暴露在有 <link=\"SLIMELUNG\">腸病毒</link> 的地方，有產生 <style=\"KKeyword\">疾病</style> 的風險"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EXPOSEDTOSLIMEGERMS.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EXPOSEDTOSLIMEGERMS.NAME"
 msgid "Slimelung Exposure"
-msgstr "肺結核曝露"
+msgstr "肺結核暴露"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EXPOSEDTOSLIMEGERMS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EXPOSEDTOSLIMEGERMS.TOOLTIP"
 msgid "This Duplicant was exposed to <link=\"SLIMELUNG\">Slimelung</link> and is at risk of developing the <style=\"KKeyword\">Disease</style>"
-msgstr "此複製人曝露在有 <link=\"SLIMELUNG\">結核菌</link> 的地方，有產生 <style=\"KKeyword\">疾病</style> 的風險"
+msgstr "此複製人暴露在有 <link=\"SLIMELUNG\">結核菌</link> 的地方，有產生 <style=\"KKeyword\">疾病</style> 的風險"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EXPOSEDTOZOMBIESPORES.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EXPOSEDTOZOMBIESPORES.NAME"
 msgid "Zombie Spores Exposure"
-msgstr "殭屍孢子曝露"
+msgstr "殭屍孢子暴露"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EXPOSEDTOZOMBIESPORES.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EXPOSEDTOZOMBIESPORES.TOOLTIP"
 msgid "This Duplicant was exposed to <link=\"ZOMBIESPORES\">Zombie Spores</link> and is at risk of developing the <style=\"KKeyword\">Disease</style>"
-msgstr "此複製人曝露在有 <link=\"ZOMBIESPORES\">殭屍孢子</link> 的地方，有產生 <style=\"KKeyword\">疾病</style> 的風險"
+msgstr "此複製人暴露在有 <link=\"ZOMBIESPORES\">殭屍孢子</link> 的地方，有產生 <style=\"KKeyword\">疾病</style> 的風險"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.FARMTINKER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.FARMTINKER.NAME"
@@ -29462,7 +29462,7 @@ msgstr "重度眼睛刺激"
 #. STRINGS.DUPLICANTS.MODIFIERS.MAJORIRRITATION.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MAJORIRRITATION.TOOLTIP"
 msgid "Woah, something really messed up this Duplicant's eyes!\n\nCaused by exposure to a harsh liquid or gas"
-msgstr "哇，複製人的臉受到了刺激！\n\n因曝露於嚴酷的液體與氣體環境導致"
+msgstr "哇，複製人的臉受到了刺激！\n\n因暴露於嚴酷的液體與氣體環境導致"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MANAGEDCOLONY.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MANAGEDCOLONY.NAME"
@@ -29782,7 +29782,7 @@ msgstr "耳膜炸裂"
 #. STRINGS.DUPLICANTS.MODIFIERS.POPPEDEARDRUMS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.POPPEDEARDRUMS.TOOLTIP"
 msgid "This Duplicant was exposed to an over-pressurized area that popped their eardrums"
-msgstr "此複製人曝露在高壓區域，他的耳膜脹痛著"
+msgstr "此複製人暴露在高壓區域，他的耳膜脹痛著"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.POSTDISEASERECOVERY.ADDITIONAL_EFFECTS
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.POSTDISEASERECOVERY.ADDITIONAL_EFFECTS"
@@ -29827,7 +29827,7 @@ msgstr "致命輻射病"
 #. STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREDEADLY.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREDEADLY.TOOLTIP"
 msgid "Extreme <style=\"KKeyword\">Radiation</style> exposure has incapacitated this Duplicant"
-msgstr "曝露在高劑量的輻射中會傷害此複製人"
+msgstr "暴露在高劑量的輻射中會傷害此複製人"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREEXTREME.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREEXTREME.NAME"
@@ -30312,7 +30312,7 @@ msgstr "討厭！此複製人走進某些令人討厭的東西裡"
 #. STRINGS.DUPLICANTS.MODIFIERS.STRESSED_BY_COLD_WATER.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STRESSED_BY_COLD_WATER.CAUSE"
 msgid "Obtained by exposure to icy water"
-msgstr "因曝露在冰水下而獲得"
+msgstr "因暴露在冰水下而獲得"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.STRESSED_BY_COLD_WATER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STRESSED_BY_COLD_WATER.NAME"
@@ -31302,7 +31302,7 @@ msgstr "<link=\"COOKING2\">燒烤 II</link>"
 #. STRINGS.DUPLICANTS.ROLES.FARMER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.FARMER.DESCRIPTION"
 msgid "Enables tending <style=\"KKeyword\">Plants</style>, which will increase their growth speed"
-msgstr "可以管理 <style=\"KKeyword\">農作物</style>，增加它們的生長速度"
+msgstr "可以管理 <style=\"KKeyword\">植物</style>，增加它們的生長速度"
 
 #. STRINGS.DUPLICANTS.ROLES.FARMER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.FARMER.NAME"
@@ -31822,7 +31822,7 @@ msgstr "當複製人的 <style=\"KKeyword\">生命值</style> 降到零時，會
 #. STRINGS.DUPLICANTS.STATS.RADIATIONBALANCE.CURRENT_EXPOSURE
 msgctxt "STRINGS.DUPLICANTS.STATS.RADIATIONBALANCE.CURRENT_EXPOSURE"
 msgid "Current Exposure: {0}/cycle"
-msgstr "目前曝露：{0}／周期"
+msgstr "目前暴露：{0}／周期"
 
 #. STRINGS.DUPLICANTS.STATS.RADIATIONBALANCE.CURRENT_REJUVENATION
 msgctxt "STRINGS.DUPLICANTS.STATS.RADIATIONBALANCE.CURRENT_REJUVENATION"
@@ -32422,22 +32422,22 @@ msgstr "{Severity} 於 {Sickness} 細菌"
 #. STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TIER1
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TIER1"
 msgid "Mild Exposure"
-msgstr "輕度曝露"
+msgstr "輕度暴露"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TIER2
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TIER2"
 msgid "Medium Exposure"
-msgstr "中度曝露"
+msgstr "中度暴露"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TIER3
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TIER3"
 msgid "Exposure"
-msgstr "曝露"
+msgstr "暴露"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TOOLTIP"
 msgid "This Duplicant has been exposed to a concentration of {Sickness} Germs and is at risk of waking up sick on their next shift\n\nExposed {Source}\n\nRate of Contracting {Sickness}: {Chance}\n\nResistance Rating: {Total}\n    • Base {Sickness} Resistance: {Base}\n    • Germ Resistance: {Dupe}\n    • {Severity} Exposure: {ExposureLevelBonus}\n\n<i>(ClickType/Click) to jump to last exposure location</i>"
-msgstr "此複製人曝露在 {Sickness} 細菌濃度高的地方，在下周會提高他們生病的風險\n\n曝露 {Source}\n\n{Sickness} 感染機率：{Chance}\n\n抵抗力：{Total}\n    • 基礎 {Sickness} 抗性：{Base}\n    • 細菌抗性：{Dupe}\n    • {Severity} 曝露：{ExposureLevelBonus}\n\n<i>點擊 跳到最後曝露的地點</i>"
+msgstr "此複製人暴露在 {Sickness} 細菌濃度高的地方，在下周會提高他們生病的風險\n\n暴露 {Source}\n\n{Sickness} 感染機率：{Chance}\n\n抵抗力：{Total}\n    • 基礎 {Sickness} 抗性：{Base}\n    • 細菌抗性：{Dupe}\n    • {Severity} 暴露：{ExposureLevelBonus}\n\n<i>點擊 跳到最後暴露的地點</i>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.FABRICATEDELIVERSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FABRICATEDELIVERSTATUS.NAME"
@@ -32527,7 +32527,7 @@ msgstr "啊，刺痛！\n\n此可憐的複製人臉上有刺激的氣體與液�
 #. STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSED
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSED"
 msgid "Current exposure to {element} is {rate} eye irritation"
-msgstr "目前曝露於 {element} 中眼睛受到的刺激 {rate}"
+msgstr "目前暴露於 {element} 中眼睛受到的刺激 {rate}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSURE_LEVEL
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSURE_LEVEL"
@@ -33897,7 +33897,7 @@ msgstr "• 當 <style=\"KKeyword\">壓力</style> 在 60% 以上時，將不會
 #. STRINGS.DUPLICANTS.TRAITS.ALLERGIES.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.ALLERGIES.DESC"
 msgid "This Duplicant will sneeze uncontrollably when exposed to the pollen present in <link=\"POLLENGERMS\">Floral Scent</link>"
-msgstr "當曝露於 <link=\"POLLENGERMS\">花香</link> 的花粉中時，複製人會無法控制的打噴嚏"
+msgstr "當暴露於 <link=\"POLLENGERMS\">花香</link> 的花粉中時，複製人會無法控制的打噴嚏"
 
 #. STRINGS.DUPLICANTS.TRAITS.ALLERGIES.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.ALLERGIES.NAME"
@@ -34572,7 +34572,7 @@ msgstr "此複製人獲得免費的 <style=\"KKeyword\">技能</style> 而不會
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING2.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING2.DESC"
 msgid "Enables tending <style=\"KKeyword\">Plants</style>, which will increase their growth speed"
-msgstr "可以管理 <style=\"KKeyword\">農作物</style>，增加它們的生長速度"
+msgstr "可以管理 <style=\"KKeyword\">植物</style>，增加它們的生長速度"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING2.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_FARMING2.NAME"
@@ -37537,7 +37537,7 @@ msgstr "將 <link=\"ATMOSUIT\">破舊太空衣</link> 恢復到工作狀態。"
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.REPAIR_WORN_RECIPE_NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.REPAIR_WORN_RECIPE_NAME"
 msgid "Repair<link=\"ATMOSUIT\">Atmo Suit</link>"
-msgstr "维修<link=\"ATMOSUIT\">太空衣</link>"
+msgstr "維修<link=\"ATMOSUIT\">太空衣</link>"
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.WORN_DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.WORN_DESC"
@@ -38217,7 +38217,7 @@ msgstr "防護衣電池"
 #. STRINGS.EQUIPMENT.PREFABS.LEAD_SUIT.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.LEAD_SUIT.DESC"
 msgid "Because exposure to radiation doesn't grant Duplicants superpowers."
-msgstr "曝露在輻射環境中不會使複製人變成超人。"
+msgstr "暴露在輻射環境中不會使複製人變成超人。"
 
 #. STRINGS.EQUIPMENT.PREFABS.LEAD_SUIT.EFFECT
 msgctxt "STRINGS.EQUIPMENT.PREFABS.LEAD_SUIT.EFFECT"
@@ -38452,7 +38452,7 @@ msgstr "熱鑽頭！"
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDOOR.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDOOR.DESCRIPTION"
 msgid "The act of closing a door has apparently lead to a decrease in the <link=\"STRESS\">Stress</link> levels of {dupe}, as well as decreased the exposure of this Duplicant to harmful <link=\"GERMS\">Germs</link>.\n\nWhile it may be more efficient to group all my Duplicants together in common sleeping quarters, it's important to remember the mental benefits to privacy and space to express their individuality."
-msgstr "關閉這項行為會顯著的減少 {dupe} 的 <link=\"STRESS\">壓力</link> 等級，以及減少讓此複製人曝露於有害的 <link=\"GERMS\">細菌</link> 環境中。\n\n雖然將全部的複製人安排在同個房間睡覺會更有效率，重要的是記住隱私與空間對他們個人心理的情感表現有益處。"
+msgstr "關閉這項行為會顯著的減少 {dupe} 的 <link=\"STRESS\">壓力</link> 等級，以及減少讓此複製人暴露於有害的 <link=\"GERMS\">細菌</link> 環境中。\n\n雖然將全部的複製人安排在同個房間睡覺會更有效率，重要的是記住隱私與空間對他們個人心理的情感表現有益處。"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDOOR.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDOOR.NAME"
@@ -39557,7 +39557,7 @@ msgstr "氧氣透視圖"
 #. STRINGS.INPUT_BINDINGS.ROOT.OVERLAY10
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.OVERLAY10"
 msgid "Overlay 10"
-msgstr "農作物透視圖"
+msgstr "耕作透視圖"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.OVERLAY11
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.OVERLAY11"
@@ -42752,12 +42752,12 @@ msgstr "未挖掘的原料被磚塊阻擋"
 #. STRINGS.MISC.STATUSITEMS.SPACE.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.SPACE.NAME"
 msgid "Space exposure"
-msgstr "太空曝露"
+msgstr "太空暴露"
 
 #. STRINGS.MISC.STATUSITEMS.SPACE.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.SPACE.TOOLTIP"
 msgid "This region is exposed to the vacuum of space and will result in the loss of <style=\"KKeyword\">Gas</style> and <style=\"KKeyword\">Liquid</style> resources"
-msgstr "此區域曝露於太空，真空環境會導致 <style=\"KKeyword\">氣體</style> 與 <style=\"KKeyword\">液體</style> 資源流失"
+msgstr "此區域暴露於太空，真空環境會導致 <style=\"KKeyword\">氣體</style> 與 <style=\"KKeyword\">液體</style> 資源流失"
 
 #. STRINGS.MISC.STATUSITEMS.SPICEDFOOD.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.SPICEDFOOD.NAME"
@@ -42787,7 +42787,7 @@ msgstr "噴發 {StudiedDetails}"
 #. STRINGS.MISC.STATUSITEMS.SPOUTEMITTING.STUDIED
 msgctxt "STRINGS.MISC.STATUSITEMS.SPOUTEMITTING.STUDIED"
 msgid "(idle in <b>{Time}</b>)"
-msgstr "（<b>{Time}</b> 後休眠）"
+msgstr "（<b>{Time}</b> 後閒置）"
 
 #. STRINGS.MISC.STATUSITEMS.SPOUTEMITTING.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.SPOUTEMITTING.TOOLTIP"
@@ -42797,7 +42797,7 @@ msgstr "此間歇泉正在噴發"
 #. STRINGS.MISC.STATUSITEMS.SPOUTIDLE.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.SPOUTIDLE.NAME"
 msgid "Idle {StudiedDetails}"
-msgstr "休眠 {StudiedDetails}"
+msgstr "閒置 {StudiedDetails}"
 
 #. STRINGS.MISC.STATUSITEMS.SPOUTIDLE.STUDIED
 msgctxt "STRINGS.MISC.STATUSITEMS.SPOUTIDLE.STUDIED"
@@ -42817,7 +42817,7 @@ msgstr "壓力過高 {StudiedDetails}"
 #. STRINGS.MISC.STATUSITEMS.SPOUTOVERPRESSURE.STUDIED
 msgctxt "STRINGS.MISC.STATUSITEMS.SPOUTOVERPRESSURE.STUDIED"
 msgid "(idle in <b>{Time}</b>)"
-msgstr "（<b>{Time}</b> 後休眠）"
+msgstr "（<b>{Time}</b> 後閒置）"
 
 #. STRINGS.MISC.STATUSITEMS.SPOUTOVERPRESSURE.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.SPOUTOVERPRESSURE.TOOLTIP"
@@ -42867,7 +42867,7 @@ msgstr "{SubElement} 釋放受阻"
 #. STRINGS.MISC.STATUSITEMS.SUBLIMATIONBLOCKED.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.SUBLIMATIONBLOCKED.TOOLTIP"
 msgid "This {Element} deposit is not exposed to air and cannot emit {SubElement}"
-msgstr "此 {Element} 未曝露在空氣中，不會釋放 {SubElement}"
+msgstr "此 {Element} 未暴露在空氣中，不會釋放 {SubElement}"
 
 #. STRINGS.MISC.STATUSITEMS.SUBLIMATIONEMITTING.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.SUBLIMATIONEMITTING.NAME"
@@ -51717,17 +51717,17 @@ msgstr "查看疾病"
 #. STRINGS.UI.COLONY_DIAGNOSTICS.RADIATIONDIAGNOSTIC.CRITERIA_RADIATION_EXPOSURE.FAIL_CONCERN
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.RADIATIONDIAGNOSTIC.CRITERIA_RADIATION_EXPOSURE.FAIL_CONCERN"
 msgid "Exposure levels are above safe limits for one or more Duplicants"
-msgstr "一位或多位複製人曝露等級高於安全限制"
+msgstr "一位或多位複製人暴露等級高於安全限制"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.RADIATIONDIAGNOSTIC.CRITERIA_RADIATION_EXPOSURE.FAIL_WARNING
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.RADIATIONDIAGNOSTIC.CRITERIA_RADIATION_EXPOSURE.FAIL_WARNING"
 msgid "One or more Duplicants are being exposed to extreme levels of radiation"
-msgstr "一位或多位複製人曝露於極高的輻射環境"
+msgstr "一位或多位複製人暴露於極高的輻射環境"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.RADIATIONDIAGNOSTIC.CRITERIA_RADIATION_EXPOSURE.PASS
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.RADIATIONDIAGNOSTIC.CRITERIA_RADIATION_EXPOSURE.PASS"
 msgid "Safe exposure levels"
-msgstr "安全曝露等級"
+msgstr "安全暴露等級"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.RADIATIONDIAGNOSTIC.CRITERIA_RADIATION_SICKNESS.FAIL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.RADIATIONDIAGNOSTIC.CRITERIA_RADIATION_SICKNESS.FAIL"
@@ -52827,12 +52827,12 @@ msgstr "    • 目前壓力 {0}：{1}"
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.RADIATION.DIE_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.RADIATION.DIE_TOOLTIP"
 msgid "Radiation exposure is causing germs to die off"
-msgstr "輻射曝露導致細菌死亡"
+msgstr "輻射暴露導致細菌死亡"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.RADIATION.TITLE
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.RADIATION.TITLE"
 msgid "    • Exposed to {0} Rads: {1}"
-msgstr "    • 曝露於：{0} 輻射：{1}"
+msgstr "    • 暴露於：{0} 輻射：{1}"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.RATE_OF_CHANGE
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.RATE_OF_CHANGE"
@@ -52922,7 +52922,7 @@ msgstr "細菌數是靜止的"
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.NODISEASE
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.NODISEASE"
 msgid "No surface germs"
-msgstr "無細菌"
+msgstr "無表面細菌"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.NODISEASE_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.NODISEASE_TOOLTIP"
@@ -53492,7 +53492,7 @@ msgstr "<b>歡迎來到缺氧！</b>"
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.FEEDBACK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.FEEDBACK"
 msgid "FEEDBACK"
-msgstr "反饋"
+msgstr "回饋"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.FORUMBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.FORUMBUTTON"
@@ -55472,7 +55472,7 @@ msgstr "建議論壇"
 #. STRINGS.UI.FRONTEND.FEEDBACK_SCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.FEEDBACK_SCREEN.TITLE"
 msgid "FEEDBACK"
-msgstr "反饋"
+msgstr "回饋"
 
 #. STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.CAMERA_SPEED_LABEL
 msgctxt "STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.CAMERA_SPEED_LABEL"
@@ -55572,12 +55572,12 @@ msgstr "藍色盲"
 #. STRINGS.UI.FRONTEND.GRAPHICS_OPTIONS_SCREEN.COLORBLIND_FEEDBACK
 msgctxt "STRINGS.UI.FRONTEND.GRAPHICS_OPTIONS_SCREEN.COLORBLIND_FEEDBACK"
 msgid "Color blindness options are currently in progress.\n\nIf you would benefit from an alternative color mode or have had difficulties with any of the default colors, please visit the forums and let us know about your experiences.\n\nYour feedback is extremely helpful to us!"
-msgstr "色盲選項仍在開發中\n\n如果您在調整顏色模式有獲得改善，或是在使用預設顏色遇到了任何困難，請訪問論壇並讓我們知道您的體驗。\n\n您的反饋會對我們非常地有幫助！"
+msgstr "色盲選項仍在開發中\n\n如果您在調整顏色模式有獲得改善，或是在使用預設顏色遇到了任何困難，請訪問論壇並讓我們知道您的體驗。\n\n您的回饋會對我們非常地有幫助！"
 
 #. STRINGS.UI.FRONTEND.GRAPHICS_OPTIONS_SCREEN.COLORBLIND_FEEDBACK_BUTTON
 msgctxt "STRINGS.UI.FRONTEND.GRAPHICS_OPTIONS_SCREEN.COLORBLIND_FEEDBACK_BUTTON"
 msgid "Provide Feedback"
-msgstr "提供反饋"
+msgstr "提供回饋"
 
 #. STRINGS.UI.FRONTEND.GRAPHICS_OPTIONS_SCREEN.COLORMODE
 msgctxt "STRINGS.UI.FRONTEND.GRAPHICS_OPTIONS_SCREEN.COLORMODE"
@@ -56812,7 +56812,7 @@ msgstr "製作人員"
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.FEEDBACK
 msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.FEEDBACK"
 msgid "Feedback"
-msgstr "反饋"
+msgstr "回饋"
 
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.GAME
 msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.GAME"
@@ -57827,7 +57827,7 @@ msgstr "此植物需要至少 {Lux} 的 <style=\"KKeyword\">光源</style>"
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_NO_MIN_RADIATION
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_NO_MIN_RADIATION"
 msgid "This plant will stop growing if exposed to more than {MaxRads} of <link=\"RADIATION\">Radiation</link>"
-msgstr "如果此植物曝露於 <link=\"RADIATION\">輻射</link> 高於 {MaxRads} 的環境會停止生長"
+msgstr "如果此植物暴露於 <link=\"RADIATION\">輻射</link> 高於 {MaxRads} 的環境會停止生長"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_PRESSURE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_PRESSURE"
@@ -58822,7 +58822,7 @@ msgstr "{0} x {1}"
 #. STRINGS.UI.NEG_INFINITY
 msgctxt "STRINGS.UI.NEG_INFINITY"
 msgid "-Infinity"
-msgstr "－無限"
+msgstr "負無限大"
 
 #. STRINGS.UI.NEGATIVE_FORMAT
 msgctxt "STRINGS.UI.NEGATIVE_FORMAT"
@@ -59657,7 +59657,7 @@ msgstr "<b>裝載機</b>\n裝載原料到 <style=\"KKeyword\">輸送帶軌道</s
 #. STRINGS.UI.OVERLAYS.CROP.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.CROP.BUTTON"
 msgid "Farming Overlay"
-msgstr "農作物透視圖"
+msgstr "耕作透視圖"
 
 #. STRINGS.UI.OVERLAYS.CROP.FULLY_GROWN
 msgctxt "STRINGS.UI.OVERLAYS.CROP.FULLY_GROWN"
@@ -59677,7 +59677,7 @@ msgstr "停止成長"
 #. STRINGS.UI.OVERLAYS.CROP.NAME
 msgctxt "STRINGS.UI.OVERLAYS.CROP.NAME"
 msgid "FARMING OVERLAY"
-msgstr "農作物透視圖"
+msgstr "耕作透視圖"
 
 #. STRINGS.UI.OVERLAYS.CROP.TOOLTIPS.FULLY_GROWN
 msgctxt "STRINGS.UI.OVERLAYS.CROP.TOOLTIPS.FULLY_GROWN"
@@ -59697,12 +59697,12 @@ msgstr "<b>停止成長</b>\n不符標準的生長環境阻礙了這些植物成
 #. STRINGS.UI.OVERLAYS.CROPS.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.CROPS.BUTTON"
 msgid "Farming Overlay"
-msgstr "農作物透視圖"
+msgstr "耕作透視圖"
 
 #. STRINGS.UI.OVERLAYS.CROPS.NAME
 msgctxt "STRINGS.UI.OVERLAYS.CROPS.NAME"
 msgid "FARMING OVERLAY"
-msgstr "農作物透視圖"
+msgstr "耕作透視圖"
 
 #. STRINGS.UI.OVERLAYS.DECOR.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.DECOR.BUTTON"
@@ -60622,12 +60622,12 @@ msgstr "最高危害"
 #. STRINGS.UI.OVERLAYS.RADIATION.RANGES.MEDIUM
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.RANGES.MEDIUM"
 msgid "Slight Hazard"
-msgstr "中度危害"
+msgstr "輕微危害"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.RANGES.NONE
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.RANGES.NONE"
 msgid "Completely Safe"
-msgstr "沒有危害"
+msgstr "絕對安全"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.RANGES.OUTPUTPORT
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.RANGES.OUTPUTPORT"
@@ -60642,7 +60642,7 @@ msgstr "極度危害"
 #. STRINGS.UI.OVERLAYS.RADIATION.RANGES.VERY_LOW
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.RANGES.VERY_LOW"
 msgid "Mostly Safe"
-msgstr "輕微危害"
+msgstr "大致安全"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.SHIELDING_DESC
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.SHIELDING_DESC"
@@ -60662,7 +60662,7 @@ msgstr "輻射粒子輸入端"
 #. STRINGS.UI.OVERLAYS.RADIATION.TOOLTIPS.LOW
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.TOOLTIPS.LOW"
 msgid "Barely Safe"
-msgstr "輕度危害"
+msgstr "勉強安全"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.TOOLTIPS.MAX
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.TOOLTIPS.MAX"
@@ -60672,12 +60672,12 @@ msgstr "最高危害"
 #. STRINGS.UI.OVERLAYS.RADIATION.TOOLTIPS.MEDIUM
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.TOOLTIPS.MEDIUM"
 msgid "Slight Hazard"
-msgstr "中度危害"
+msgstr "輕微危害"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.TOOLTIPS.NONE
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.TOOLTIPS.NONE"
 msgid "Completely Safe"
-msgstr "沒有危害"
+msgstr "絕對安全"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.TOOLTIPS.OUTPUTPORT
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.TOOLTIPS.OUTPUTPORT"
@@ -60692,7 +60692,7 @@ msgstr "極度危害"
 #. STRINGS.UI.OVERLAYS.RADIATION.TOOLTIPS.VERY_LOW
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.TOOLTIPS.VERY_LOW"
 msgid "Mostly Safe"
-msgstr "最低危害"
+msgstr "大致安全"
 
 #. STRINGS.UI.OVERLAYS.ROOMS.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.ROOMS.BUTTON"
@@ -60982,7 +60982,7 @@ msgstr "所需資源："
 #. STRINGS.UI.PRODUCTINFO_MISSINGRESOURCES_DESC
 msgctxt "STRINGS.UI.PRODUCTINFO_MISSINGRESOURCES_DESC"
 msgid "{0} has yet to be discovered"
-msgstr "{0} 尚未發現"
+msgstr "尚未發現 {0}"
 
 #. STRINGS.UI.PRODUCTINFO_MISSINGRESOURCES_HOVER
 msgctxt "STRINGS.UI.PRODUCTINFO_MISSINGRESOURCES_HOVER"
@@ -72122,12 +72122,12 @@ msgstr "使用指定的世界生成種子：{0}"
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT"
 msgid "Freezing ice formations..."
-msgstr "凍結冰層…"
+msgstr "結冰的冰層…"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT1
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT1"
 msgid "Freezing ice formations..."
-msgstr "凍結冰層…"
+msgstr "結冰的冰層…"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT10
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT10"
@@ -72137,12 +72137,12 @@ msgstr "噴灑沙子…"
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT2
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT2"
 msgid "Freezing ice formations..."
-msgstr "凍結冰層…"
+msgstr "結冰的冰層…"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT3
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT3"
 msgid "Freezing ice formations..."
-msgstr "凍結冰層…"
+msgstr "結冰的冰層…"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT4
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT4"
