@@ -9402,7 +9402,7 @@ msgstr "複製人喜歡舒適床勝過簡易床，在舒適床上睡覺能恢復
 #. STRINGS.BUILDINGS.PREFABS.LUXURYBED.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LUXURYBED.EFFECT"
 msgid "Provides a sleeping area for one Duplicant and restores additional <link=\"STAMINA\">Stamina</link>.\n\nDuplicants will automatically sleep in their assigned beds at night."
-msgstr "提供一個睡覺的地方給複製人，能回復額外的 <link=\"STAMINA\">耐力</link>。\n\n晚上複製人會回到分配給他們的床位睡覺。"
+msgstr "提供一個睡覺的地方給複製人，能恢復額外的 <link=\"STAMINA\">耐力</link>。\n\n晚上複製人會回到分配給他們的床位睡覺。"
 
 #. STRINGS.BUILDINGS.PREFABS.LUXURYBED.FACADES.BOAT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LUXURYBED.FACADES.BOAT.DESC"
@@ -9897,7 +9897,7 @@ msgstr "<link=\"METHANEGENERATOR\">天然氣發電機</link>"
 #. STRINGS.BUILDINGS.PREFABS.MICROBEMUSHER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MICROBEMUSHER.DESC"
 msgid "Musher recipes will keep Duplicants fed, but may impact health and morale over time."
-msgstr "製糕機可餵飽複製人，但時間一長會影響健康與士氣。"
+msgstr "製糕機食譜可餵飽複製人，但時間一長會影響健康與士氣。"
 
 #. STRINGS.BUILDINGS.PREFABS.MICROBEMUSHER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MICROBEMUSHER.EFFECT"
@@ -10342,7 +10342,7 @@ msgstr "<link=\"OUTHOUSE\">茅廁</link>"
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.DESC"
 msgid "Solid oxidizers allows rocket fuel to be efficiently burned in the vacuum of space."
-msgstr "固態氧化劑使火箭燃料在太空中能有效燃燒。"
+msgstr "固態氧化劑使火箭燃料在太空的真空中能有效燃燒。"
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.EFFECT"
@@ -10947,7 +10947,7 @@ msgstr "博士學位"
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASCEILINGROBOT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASCEILINGROBOT.DESC"
 msgid "Non-functioning robotic arms that once assisted lab technicians."
-msgstr "曾經協助實驗室技術人員不再運作的機器人。"
+msgstr "曾經協助實驗室技術人員不再運作的機器人手臂。"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASCEILINGROBOT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASCEILINGROBOT.NAME"
@@ -11022,7 +11022,7 @@ msgstr "精密的安全裝置。\n\n它似乎使用指紋以外的方法來驗�
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASHANDSCANNER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASHANDSCANNER.NAME"
 msgid "Hand Scanner"
-msgstr "手持式掃描儀"
+msgstr "手部掃描儀"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASJAR1.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASJAR1.DESC"
@@ -11292,7 +11292,7 @@ msgstr "<link=\"RAILGUNPAYLOADOPENER\">星際貨箱拆封機</link>"
 #. STRINGS.BUILDINGS.PREFABS.RANCHSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.RANCHSTATION.DESC"
 msgid "Grooming critters make them look nice, smell pretty, feel happy, and produce more."
-msgstr "幫動物洗澡使他們看起來乾淨，聞起來很香，感覺開心，並且生產更多。"
+msgstr "幫動物美容使他們看起來乾淨，聞起來很香，感覺開心，並且生產更多。"
 
 #. STRINGS.BUILDINGS.PREFABS.RANCHSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.RANCHSTATION.EFFECT"
@@ -15457,7 +15457,7 @@ msgstr "<smallcaps>圖為：「寒帶」帕庫變種</smallcaps>"
 #. STRINGS.CODEX.CLEANER.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.CLEANER.BODY.CONTAINER2"
 msgid "Despite descending from the Pacu, the Gulp Fish is unique enough both in genetics and behavior to be considered its own subspecies."
-msgstr "由帕庫退化而來，寒帶帕庫在遺傳學與行為都是獨一無二的，因此被認定為亞種。"
+msgstr "儘管是由帕庫演化而來，寒帶帕庫在遺傳學與行為都是獨一無二的，因此可被認定為自己的亞種。"
 
 #. STRINGS.CODEX.CLEANER.SUBTITLE
 msgctxt "STRINGS.CODEX.CLEANER.SUBTITLE"
@@ -15497,7 +15497,7 @@ msgstr "製造運送"
 #. STRINGS.CODEX.CRYOTANKWARNINGS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.CRYOTANKWARNINGS.BODY.CONTAINER1"
 msgid "    • Do not leave the contents of the Cryotank 3000 unattended unless an apocalyptic disaster has left you no choice.\n\n    • Ensure that the Cryotank 3000 has enough battery power to remain active for at least 6000 years.\n\n    • Do not attempt to defrost the contents of the Cryotank 3000 while it is submerged in molten hot lava.\n\n    • Use only a qualified Gravitas Cryotank repair facility to repair your Cryotank 3000. Attempting to service the device yourself will void the warranty.\n\n    • Do not put food in the Cryotank 3000. The Cryotank 3000 is not a refrigerator.\n\n    • Do not allow children to play in the Cryotank 3000. The Cryotank 3000 is not a toy.\n\n    • While the Cryotank 3000 is able to withstand a nuclear blast, Gravitas and its subsidiaries are not responsible for what may happen in the resulting nuclear fallout.\n\n    • Wait at least 5 minutes after being unfrozen from the Cryotank 3000 before operating heavy machinery.\n\n    • Each Cryotank 3000 is good for only one use.\n\n"
-msgstr "    • 除非在末日疾病下別無選擇，否則別在無人值守的情形下成為低溫艙 3000 的內容物。\n\n    • 確保低溫艙 3000 最少有可運作 6000 年的剩餘電量。\n\n    • 當低溫艙被融岩淹沒時不要解凍內容物。\n\n    • 僅使用合格的引力科技低溫艙保養廠來維修你的低溫艙。自行修理將沒有保固。\n\n    • 請勿將食物放進低溫艙 3000。它不是冰箱。\n\n    • 請勿讓小孩在低溫艙 3000 內遊玩。它不是玩具。\n\n    • 雖然低溫艙 3000 能承受核爆，引力科技與其子公司對可能由其產生核輻射概不付責。\n\n    • 從低溫艙 3000 解凍後最少等待 5 分鐘後才能操作重型機械。\n\n    • 每個低溫艙 3000 僅適合一人使用。\n\n"
+msgstr "    • 除非在末日疾病下別無選擇，否則別在無人值守的情形下成為低溫艙 3000 的內容物。\n\n    • 確保低溫艙 3000 最少有可運作 6000 年的剩餘電量。\n\n    • 當低溫艙被熔岩淹沒時不要解凍內容物。\n\n    • 僅使用合格的引力科技低溫艙保養廠來維修你的低溫艙。自行修理將沒有保固。\n\n    • 請勿將食物放進低溫艙 3000。它不是冰箱。\n\n    • 請勿讓小孩在低溫艙 3000 內遊玩。它不是玩具。\n\n    • 雖然低溫艙 3000 能承受核爆，引力科技與其子公司對可能由其產生核輻射概不付責。\n\n    • 從低溫艙 3000 解凍後最少等待 5 分鐘後才能操作重型機械。\n\n    • 每個低溫艙 3000 僅適合一人使用。\n\n"
 
 #. STRINGS.CODEX.CRYOTANKWARNINGS.SUBTITLE
 msgctxt "STRINGS.CODEX.CRYOTANKWARNINGS.SUBTITLE"
@@ -18902,7 +18902,7 @@ msgstr "高級浴室"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.PLUMBED_WASHROOMS_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.PLUMBED_WASHROOMS_DESCRIPTION"
 msgid "Replace all the Outhouses and Wash Basins in your colony with Lavatories and Sinks."
-msgstr "將植民地內的所有茅廁與洗手盆升級為沖水馬桶與洗手台。"
+msgstr "將殖民地內的所有茅廁與洗手盆升級為沖水馬桶與洗手台。"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.RADICAL_TRIP
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.RADICAL_TRIP"
@@ -25402,22 +25402,22 @@ msgstr "補充食材"
 #. STRINGS.DUPLICANTS.CHORES.COOKFETCH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.COOKFETCH.TOOLTIP"
 msgid "This Duplicant is delivering materials required to cook <style=\"KKeyword\">Food</style>"
-msgstr "複製人正在運送原料到需要 <style=\"KKeyword\">料理</style> 食物的地方"
+msgstr "複製人正在運送必須的原料到料理 <style=\"KKeyword\">食物</style> 的地方"
 
 #. STRINGS.DUPLICANTS.CHORES.COOLDOWN.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.COOLDOWN.NAME"
 msgid "Cool Off"
-msgstr "避暑"
+msgstr "降溫"
 
 #. STRINGS.DUPLICANTS.CHORES.COOLDOWN.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.COOLDOWN.STATUS"
 msgid "Going to cool off"
-msgstr "正要去避暑"
+msgstr "正要去清涼一下"
 
 #. STRINGS.DUPLICANTS.CHORES.COOLDOWN.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.COOLDOWN.TOOLTIP"
 msgid "This Duplicant got too hot and is going somewhere to cool off"
-msgstr "此複製人太熱了，需要清涼一下"
+msgstr "此複製人太熱了，需要到其他地方降溫一下"
 
 #. STRINGS.DUPLICANTS.CHORES.COUGH.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.COUGH.NAME"
@@ -25642,7 +25642,7 @@ msgstr "正在表達自我"
 #. STRINGS.DUPLICANTS.CHORES.EMOTEHIGHPRIORITY.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.EMOTEHIGHPRIORITY.TOOLTIP"
 msgid "This Duplicant needs a moment to express their feelings, then they'll be on their way"
-msgstr "此複製人需要一點時間舒發他們的情緒，並且正在路上"
+msgstr "此複製人需要一點時間抒發他們的情緒，然後就會上路了"
 
 #. STRINGS.DUPLICANTS.CHORES.EMPTYDESALINATOR.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.EMPTYDESALINATOR.NAME"
@@ -26057,17 +26057,17 @@ msgstr "士氣反應"
 #. STRINGS.DUPLICANTS.CHORES.JOYREACTION.REPORT_NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.JOYREACTION.REPORT_NAME"
 msgid "Overjoyed Reaction"
-msgstr "士氣反應"
+msgstr "喜出望外反應"
 
 #. STRINGS.DUPLICANTS.CHORES.JOYREACTION.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.JOYREACTION.STATUS"
 msgid "Overjoyed"
-msgstr "超級開心"
+msgstr "欣喜若狂"
 
 #. STRINGS.DUPLICANTS.CHORES.JOYREACTION.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.JOYREACTION.TOOLTIP"
 msgid "This Duplicant is taking a moment to relish in their own happiness"
-msgstr "此複製人花了一些時間來享受他們的辛福"
+msgstr "此複製人花了一些時間來享受自己的辛福"
 
 #. STRINGS.DUPLICANTS.CHORES.LEARNSKILL.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.LEARNSKILL.NAME"
@@ -26587,7 +26587,7 @@ msgstr "不是喜愛的分配"
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_ROCKET_TRAVELLING
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_ROCKET_TRAVELLING"
 msgid "Rocket must be travelling"
-msgstr "火箭旅行中"
+msgstr "火箭必須在旅行中"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_SCHEDULED_TIME
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_SCHEDULED_TIME"
@@ -26902,17 +26902,17 @@ msgstr "礦物材料可以清洗去除表面上存在的 <style=\"KKeyword\">細
 #. STRINGS.DUPLICANTS.CHORES.SHOWER.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.SHOWER.NAME"
 msgid "Shower"
-msgstr "洗澡"
+msgstr "淋浴"
 
 #. STRINGS.DUPLICANTS.CHORES.SHOWER.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.SHOWER.STATUS"
 msgid "Showering"
-msgstr "正在洗澡"
+msgstr "正在淋浴"
 
 #. STRINGS.DUPLICANTS.CHORES.SHOWER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.SHOWER.TOOLTIP"
 msgid "This Duplicant is having a refreshing shower"
-msgstr "此複製人正在淋浴"
+msgstr "此複製人正在洗香香"
 
 #. STRINGS.DUPLICANTS.CHORES.SIGH.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.SIGH.NAME"
@@ -27067,7 +27067,7 @@ msgstr "思考中"
 #. STRINGS.DUPLICANTS.CHORES.THINKING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.THINKING.TOOLTIP"
 msgid "This Duplicant is mulling over what they should do next"
-msgstr "此複製人正在思考等下應該要做什麼"
+msgstr "此複製人正在考慮等下應該要做什麼"
 
 #. STRINGS.DUPLICANTS.CHORES.TOGGLE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.TOGGLE.NAME"
@@ -28577,7 +28577,7 @@ msgstr "非常舒適"
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET2.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET2.TOOLTIP"
 msgid "This Duplicant used a <link=\"OUTHOUSE\">Outhouse</link>and liked how comfortable it felt"
-msgstr "此複製人使用了 <link=\"OUTHOUSE\">茅廁</link> 並喜歡它適舒的感覺"
+msgstr "此複製人使用了 <link=\"OUTHOUSE\">茅廁</link> 並喜歡它舒適的感覺"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET3.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET3.NAME"
@@ -28697,7 +28697,7 @@ msgstr "體內平衡"
 #. STRINGS.DUPLICANTS.MODIFIERS.CARPETFEET.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CARPETFEET.NAME"
 msgid "Tickled Tootsies"
-msgstr "腳地發癢"
+msgstr "腳底發癢"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.CARPETFEET.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CARPETFEET.TOOLTIP"
@@ -28712,17 +28712,17 @@ msgstr "插管"
 #. STRINGS.DUPLICANTS.MODIFIERS.CATHETERIZED.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CATHETERIZED.TOOLTIP"
 msgid "Let's leave it at that"
-msgstr "讓我走吧"
+msgstr "讓我們就此打住"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.CENTEROFATTENTION.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CENTEROFATTENTION.NAME"
 msgid "Center of Attention"
-msgstr "專注"
+msgstr "聚焦點"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.CENTEROFATTENTION.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CENTEROFATTENTION.TOOLTIP"
 msgid "This Duplicant feels like someone's watching over them..."
-msgstr "此複製人專注在某些喜歡的事物上…"
+msgstr "這個複製人感覺就像成為世界的中心…"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.CHARGING.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CHARGING.NAME"
@@ -28737,7 +28737,7 @@ msgstr "此機器人正在充電"
 #. STRINGS.DUPLICANTS.MODIFIERS.CLAUSTROPHOBIC.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CLAUSTROPHOBIC.CAUSE"
 msgid "This Duplicant got so good at their job that they became claustrophobic"
-msgstr "此複製人把工作完成的很好，他們變的有幽閉恐懼症"
+msgstr "此複製人把工作完成的很好，他們變得有幽閉恐懼症"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.CLAUSTROPHOBIC.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CLAUSTROPHOBIC.NAME"
@@ -28782,7 +28782,7 @@ msgstr "此複製人的肺都是 <link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
 #. STRINGS.DUPLICANTS.MODIFIERS.COOLINGDOWN.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.COOLINGDOWN.NAME"
 msgid "Cooling Down"
-msgstr "避暑"
+msgstr "降溫"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.COOLINGDOWN.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.COOLINGDOWN.TOOLTIP"
@@ -28807,12 +28807,12 @@ msgstr "此複製人做出的哭泣的表情"
 #. STRINGS.DUPLICANTS.MODIFIERS.CRYOFRIEND.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CRYOFRIEND.NAME"
 msgid "Motivated By Friend"
-msgstr "激動的朋友"
+msgstr "受朋友啟發"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.CRYOFRIEND.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CRYOFRIEND.TOOLTIP"
 msgid "This Duplicant feels motivated after meeting a long lost friend"
-msgstr "此複製人在見到久違的朋友之後感到激動"
+msgstr "此複製人在見到久違的朋友之後感到很有動力"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DANCED.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DANCED.NAME"
@@ -28832,7 +28832,7 @@ msgstr "跳舞"
 #. STRINGS.DUPLICANTS.MODIFIERS.DANCING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DANCING.TOOLTIP"
 msgid "This Duplicant is showing off their best moves."
-msgstr "此複製人秀出了他最好的舞步。"
+msgstr "此複製人秀出了最好的舞步。"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DARKNESS.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DARKNESS.NAME"
@@ -29227,7 +29227,7 @@ msgstr "此複製人在餐廳看見了一位朋友，並向他打了聲「招呼
 #. STRINGS.DUPLICANTS.MODIFIERS.HASBALLOON.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.HASBALLOON.NAME"
 msgid "Balloon Buddy"
-msgstr "氣球朋友"
+msgstr "氣球夥伴"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.HASBALLOON.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.HASBALLOON.TOOLTIP"
@@ -29272,7 +29272,7 @@ msgstr "好熱"
 #. STRINGS.DUPLICANTS.MODIFIERS.HOT.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.HOT.TOOLTIP"
 msgid "This Duplicant is uncomfortably warm"
-msgstr "此複製人覺得很熱"
+msgstr "此複製人覺得不舒服地熱"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.HOTSTUFF.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.HOTSTUFF.CAUSE"
@@ -29642,7 +29642,7 @@ msgstr "<style=\"KKeyword\">{0}</style>：{1}"
 #. STRINGS.DUPLICANTS.MODIFIERS.MOURNING.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MOURNING.NAME"
 msgid "Mourning"
-msgstr "悲傷"
+msgstr "哀悼"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MOURNING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MOURNING.TOOLTIP"
@@ -29652,7 +29652,7 @@ msgstr "此複製人正為失去一個朋友傷心"
 #. STRINGS.DUPLICANTS.MODIFIERS.NARCOLEPTICSLEEP.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.NARCOLEPTICSLEEP.NAME"
 msgid "Narcoleptic Nap"
-msgstr "渴睡症"
+msgstr "嗜睡症"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.NARCOLEPTICSLEEP.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.NARCOLEPTICSLEEP.TOOLTIP"
@@ -32492,7 +32492,7 @@ msgstr "逃跑！"
 #. STRINGS.DUPLICANTS.STATUSITEMS.FLEEING.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FLEEING.NOTIFICATION_TOOLTIP"
 msgid "These Duplicants are trying to escape:"
-msgstr "這些複製人試著逃離："
+msgstr "這些複製人試著遠離："
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.FLEEING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FLEEING.TOOLTIP"
@@ -33572,7 +33572,7 @@ msgstr "<b>擦拭工具</b> {Hotkey/Mop} 可用於清理複製人製造的相關
 #. STRINGS.DUPLICANTS.STATUSITEMS.STRESSFULLYEMPTYINGBLADDER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESSFULLYEMPTYINGBLADDER.TOOLTIP"
 msgid "This poor Duplicant couldn't find an <link=\"OUTHOUSE\">Outhouse</link> in time and is super embarrassed\n\n<link=\"OUTHOUSE\">Outhouses</link> can be built from the <b>Plumbing Tab</b> {Hotkey/Plan5}"
-msgstr "可憐的複製人在時間內找不到 <link=\"OUTHOUSE\">茅廁</link> 可用並且很尷尬\n------------------\n建造 <b>供水</b> {Hotkey/Plan5} 中的 <link=\"OUTHOUSE\">茅廁</link>"
+msgstr "可憐的複製人在時間內找不到 <link=\"OUTHOUSE\">茅廁</link> 可用並且覺得超尷尬\n------------------\n建造 <b>供水</b> {Hotkey/Plan5} 中的 <link=\"OUTHOUSE\">茅廁</link>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STRESSVOMITING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESSVOMITING.NAME"
@@ -33972,7 +33972,7 @@ msgstr "{0}：{1}"
 #. STRINGS.DUPLICANTS.TRAITS.BALLOONARTIST.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.BALLOONARTIST.DESC"
 msgid "This Duplicant hands out balloons when they are <style=\"KKeyword\">Overjoyed</style>"
-msgstr "此複製人 <style=\"KKeyword\">開心</style> 時會到處發氣球"
+msgstr "此複製人 <style=\"KKeyword\">欣喜若狂</style> 時會到處發氣球"
 
 #. STRINGS.DUPLICANTS.TRAITS.BALLOONARTIST.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.BALLOONARTIST.NAME"
@@ -34092,7 +34092,7 @@ msgstr "沒有愛心"
 #. STRINGS.DUPLICANTS.TRAITS.CHATTY.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.CHATTY.DESC"
 msgid "This Duplicant's so charming, chatting with them is sometimes enough to trigger an <style=\"KKeyword\">Overjoyed</style> response"
-msgstr "這名複製人非常迷人，和他聊天有時能觸發<style=\"KKeyword\">喜悅</style>反應"
+msgstr "這名複製人非常迷人，和他聊天有時能觸發<style=\"KKeyword\">欣喜若狂</style>反應"
 
 #. STRINGS.DUPLICANTS.TRAITS.CHATTY.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.CHATTY.NAME"
@@ -34152,7 +34152,7 @@ msgstr "天生時尚"
 #. STRINGS.DUPLICANTS.TRAITS.DEEPERDIVERSLUNGS.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.DEEPERDIVERSLUNGS.DESC"
 msgid "This Duplicant has a frankly impressive ability to hold their breath"
-msgstr "此複製人的肺活量很好"
+msgstr "這複製人閉氣能力令人印象深刻"
 
 #. STRINGS.DUPLICANTS.TRAITS.DEEPERDIVERSLUNGS.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.DEEPERDIVERSLUNGS.NAME"
@@ -34982,7 +34982,7 @@ msgstr "搗蛋鬼"
 #. STRINGS.DUPLICANTS.TRAITS.GREENTHUMB.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GREENTHUMB.DESC"
 msgid "This Duplicant regards every plant as a potential friend"
-msgstr "此複製人將每種植物都視為潛在的朋友"
+msgstr "這複製人認為每個植物都是潛在的朋友"
 
 #. STRINGS.DUPLICANTS.TRAITS.GREENTHUMB.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GREENTHUMB.NAME"
@@ -34992,7 +34992,7 @@ msgstr "綠拇指"
 #. STRINGS.DUPLICANTS.TRAITS.HAPPYSINGER.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.HAPPYSINGER.DESC"
 msgid "This Duplicant belts out catchy tunes when they are <style=\"KKeyword\">Overjoyed</style>"
-msgstr "當他們<style=\"KKeyword\">高士氣</style>時，這個複製人會高興的歌唱"
+msgstr "當他們<style=\"KKeyword\">欣喜若狂</style>時，這個複製人會高興的歌唱"
 
 #. STRINGS.DUPLICANTS.TRAITS.HAPPYSINGER.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.HAPPYSINGER.NAME"
@@ -35312,7 +35312,7 @@ msgstr "無法執行 <b>{0} 工作</b>"
 #. STRINGS.DUPLICANTS.TRAITS.REGENERATION.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.REGENERATION.DESC"
 msgid "This robust Duplicant is constantly regenerating health"
-msgstr "此強壯的複製人會持續的恢復生命值"
+msgstr "這名強大的複製人會不斷地恢復生命值"
 
 #. STRINGS.DUPLICANTS.TRAITS.REGENERATION.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.REGENERATION.NAME"
@@ -35322,7 +35322,7 @@ msgstr "恢復力"
 #. STRINGS.DUPLICANTS.TRAITS.ROCKCRUSHER.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.ROCKCRUSHER.DESC"
 msgid "This Duplicant's got muscles on their muscles!"
-msgstr "此複製人全身都是肌肉！"
+msgstr "這複製人的肌肉上面還有肌肉！"
 
 #. STRINGS.DUPLICANTS.TRAITS.ROCKCRUSHER.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.ROCKCRUSHER.NAME"
@@ -35392,7 +35392,7 @@ msgstr "此複製人的打呼聲會吵醒附近的友人"
 #. STRINGS.DUPLICANTS.TRAITS.SPARKLESTREAKER.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.SPARKLESTREAKER.DESC"
 msgid "This Duplicant leaves a trail of happy sparkles when they are <style=\"KKeyword\">Overjoyed</style>"
-msgstr "此複製人 <style=\"KKeyword\">開心</style> 時會留下了幸福的火花"
+msgstr "此複製人 <style=\"KKeyword\">欣喜若狂</style> 時會留下了幸福的火花"
 
 #. STRINGS.DUPLICANTS.TRAITS.SPARKLESTREAKER.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.SPARKLESTREAKER.NAME"
@@ -35422,7 +35422,7 @@ msgstr "在外太空：<b>+10</b> <style=\"KKeyword\">士氣</style>"
 #. STRINGS.DUPLICANTS.TRAITS.STICKERBOMBER.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.STICKERBOMBER.DESC"
 msgid "This Duplicant will spontaneously redecorate a room when they are <style=\"KKeyword\">Overjoyed</style>"
-msgstr "此複製人 <style=\"KKeyword\">開心</style> 時，會重新裝飾房間"
+msgstr "此複製人 <style=\"KKeyword\">欣喜若狂</style> 時，會自發性地重新裝飾房間"
 
 #. STRINGS.DUPLICANTS.TRAITS.STICKERBOMBER.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.STICKERBOMBER.NAME"
@@ -35462,7 +35462,7 @@ msgstr "抗菌體質"
 #. STRINGS.DUPLICANTS.TRAITS.SUNNYDISPOSITION.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.SUNNYDISPOSITION.DESC"
 msgid "This Duplicant has an unwaveringly positive outlook on life"
-msgstr "此複製人生活態度相當積極"
+msgstr "這複製人對生活抱有絕對積極的態度"
 
 #. STRINGS.DUPLICANTS.TRAITS.SUNNYDISPOSITION.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.SUNNYDISPOSITION.NAME"
@@ -35472,7 +35472,7 @@ msgstr "性格開朗"
 #. STRINGS.DUPLICANTS.TRAITS.SUPERPRODUCTIVE.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.SUPERPRODUCTIVE.DESC"
 msgid "This Duplicant is super productive when they are <style=\"KKeyword\">Overjoyed</style>"
-msgstr "此複製人在 <style=\"KKeyword\">開心</style> 時生產力會變高"
+msgstr "此複製人在 <style=\"KKeyword\">欣喜若狂</style> 時生產力會變高"
 
 #. STRINGS.DUPLICANTS.TRAITS.SUPERPRODUCTIVE.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.SUPERPRODUCTIVE.NAME"
@@ -38127,7 +38127,7 @@ msgstr "一位漂浮中的朋友向複製人們保證，他們非常、非常的
 #. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.EFFECT
 msgctxt "STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.EFFECT"
 msgid "Gives Duplicants a boost in brain function.\n\nSupplied by Duplicants with the Balloon Artist <link=\"MORALE\">Overjoyed</link> response."
-msgstr "使複製人的大腦功能獲得加成\n\n由變成氣球藝術家的複製人，因其 <link=\"MORALE\">士氣反應</link> 所提供的加成。"
+msgstr "使複製人的大腦功能獲得加成\n\n由變成氣球藝術家的複製人，因其 <link=\"MORALE\">欣喜若狂</link> 所提供的加成。"
 
 #. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.GENERICNAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.GENERICNAME"
@@ -38142,7 +38142,7 @@ msgstr "<link=\"EQUIPPABLEBALLOON\">氣球朋友</link>"
 #. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.RECIPE_DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.RECIPE_DESC"
 msgid "Gives Duplicants a boost in brain function.\n\nSupplied by Duplicants with the Balloon Artist <link=\"MORALE\">Overjoyed</link> response"
-msgstr "使複製人的大腦功能獲得加成。\n\n由變成氣球藝術家的複製人，因其 <link=\"MORALE\">士氣反應</link> 所提供的加成"
+msgstr "使複製人的大腦功能獲得加成。\n\n由變成氣球藝術家的複製人，因其 <link=\"MORALE\">欣喜若狂</link> 所提供的加成"
 
 #. STRINGS.EQUIPMENT.PREFABS.FUNKY_VEST.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.FUNKY_VEST.DESC"
@@ -38192,7 +38192,7 @@ msgstr "<link=\"JETSUIT\">飛行衣</link>"
 #. STRINGS.EQUIPMENT.PREFABS.JET_SUIT.RECIPE_DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.RECIPE_DESC"
 msgid "Supplies Duplicants with <link=\"OXYGEN\">Oxygen</link> in toxic and low breathability environments.\n\nAllows Duplicant flight."
-msgstr "在低氧的環境下供應複製人 <link=\"OXYGEN\">氧氣</link>。\n\n讓複製人可以飛行。"
+msgstr "在低氧的環境下供應複製人 <link=\"OXYGEN\">氧氣</link>。\n\n讓複製人可以跟鋼鐵人一樣飛行。"
 
 #. STRINGS.EQUIPMENT.PREFABS.JET_SUIT.TANK_EFFECT_NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.TANK_EFFECT_NAME"
@@ -38202,7 +38202,7 @@ msgstr "燃料瓶"
 #. STRINGS.EQUIPMENT.PREFABS.JET_SUIT.WORN_DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.WORN_DESC"
 msgid "A worn out <link=\"JETSUIT\">Jet Suit</link>.\n\nSuits can be repaired at an <link=\"SUITFABRICATOR\">Exosuit Forge</link>."
-msgstr "一套破舊的 <link=\"JETSUIT\">飛行衣</link>。\n\n飛行衣可以在 <link=\"CRAFTINGTABLE\">工藝台</link> 修理。"
+msgstr "一套破舊的 <link=\"JETSUIT\">飛行衣</link>。\n\n飛行衣可以在 <link=\"SUITFABRICATOR\">太空衣工廠</link> 修理。"
 
 #. STRINGS.EQUIPMENT.PREFABS.JET_SUIT.WORN_NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.WORN_NAME"
@@ -38217,7 +38217,7 @@ msgstr "防護衣電池"
 #. STRINGS.EQUIPMENT.PREFABS.LEAD_SUIT.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.LEAD_SUIT.DESC"
 msgid "Because exposure to radiation doesn't grant Duplicants superpowers."
-msgstr "暴露在輻射環境中不會使複製人變成超人。"
+msgstr "暴露在輻射環境中不會使複製人得到超能力。"
 
 #. STRINGS.EQUIPMENT.PREFABS.LEAD_SUIT.EFFECT
 msgctxt "STRINGS.EQUIPMENT.PREFABS.LEAD_SUIT.EFFECT"
@@ -46167,12 +46167,12 @@ msgstr "未選擇研究"
 #. STRINGS.RESEARCH.MESSAGING.RESEARCHTYPEALSOREQUIRED
 msgctxt "STRINGS.RESEARCH.MESSAGING.RESEARCHTYPEALSOREQUIRED"
 msgid "{0} also required"
-msgstr "{0} 也需要"
+msgstr "也需要 {0}"
 
 #. STRINGS.RESEARCH.MESSAGING.RESEARCHTYPEREQUIRED
 msgctxt "STRINGS.RESEARCH.MESSAGING.RESEARCHTYPEREQUIRED"
 msgid "{0} required"
-msgstr "{0} 需要"
+msgstr "需要 {0}"
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.ATMO_SUIT.DESC
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.ATMO_SUIT.DESC"
@@ -46297,7 +46297,7 @@ msgstr "<link=\"ACOUSTICS\">擴音器</link>"
 #. STRINGS.RESEARCH.TECHS.ADVANCEDFILTRATION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDFILTRATION.DESC"
 msgid "Basic technologies for filtering <link=\"ELEMENTSLIQUID\">Liquids</link> and <link=\"ELEMENTSGAS\">Gases</link>."
-msgstr "初級科技提供過濾 <link=\"ELEMENTSLIQUID\">液體</link> 和 <link=\"ELEMENTSGAS\">氣體</link>。"
+msgstr "提供過濾 <link=\"ELEMENTSLIQUID\">液體</link> 和 <link=\"ELEMENTSGAS\">氣體</link> 的初級科技。"
 
 #. STRINGS.RESEARCH.TECHS.ADVANCEDFILTRATION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDFILTRATION.NAME"
@@ -46417,7 +46417,7 @@ msgstr "<link=\"ARTISTRY\">藝術表現</link>"
 #. STRINGS.RESEARCH.TECHS.BASICREFINEMENT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.BASICREFINEMENT.DESC"
 msgid "Low-tech refinement methods for producing clay and renewable sources of sand."
-msgstr "以低技術的精煉方法生產黏土與可再生的沙子。"
+msgstr "以低科技的精煉方法生產黏土與可再生的沙子。"
 
 #. STRINGS.RESEARCH.TECHS.BASICREFINEMENT.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.BASICREFINEMENT.NAME"
@@ -46427,7 +46427,7 @@ msgstr "<link=\"BASICREFINEMENT\">基礎提煉</link>"
 #. STRINGS.RESEARCH.TECHS.BASICROCKETRY.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.BASICROCKETRY.DESC"
 msgid "Everything required for launching the colony's very first space program."
-msgstr "殖民地的啟動第一項太空計劃的所需一切。"
+msgstr "啟動殖民地第一個太空計劃所需的一切。"
 
 #. STRINGS.RESEARCH.TECHS.BASICROCKETRY.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.BASICROCKETRY.NAME"
@@ -46452,7 +46452,7 @@ msgstr "變異研究站。"
 #. STRINGS.RESEARCH.TECHS.BIOENGINEERING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.BIOENGINEERING.NAME"
 msgid "<link=\"BIOENGINEERING\">Bioengineering</link>"
-msgstr "<link=\"BIOENGINEERING\">生物工程 </link>"
+msgstr "<link=\"BIOENGINEERING\">生物工程</link>"
 
 #. STRINGS.RESEARCH.TECHS.CARGOI.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.CARGOI.DESC"
@@ -46517,7 +46517,7 @@ msgstr "<link=\"COMBUSTION\">內燃</link>"
 #. STRINGS.RESEARCH.TECHS.CRASHPLAN.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.CRASHPLAN.DESC"
 msgid "What goes up, must come down."
-msgstr "有東西往上，也有東西往下。"
+msgstr "出來混，遲早要還的。"
 
 #. STRINGS.RESEARCH.TECHS.CRASHPLAN.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.CRASHPLAN.NAME"
@@ -46527,7 +46527,7 @@ msgstr "<link=\"CRASHPLAN\">防撞計劃</link>"
 #. STRINGS.RESEARCH.TECHS.CRYOFUELPROPULSION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.CRYOFUELPROPULSION.DESC"
 msgid "A semi-powerful engine to propel you further into the galaxy."
-msgstr "一種半強力引擎，可將你帶入銀河。"
+msgstr "一種半強力引擎，可將您推向銀河系的更深處。"
 
 #. STRINGS.RESEARCH.TECHS.CRYOFUELPROPULSION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.CRYOFUELPROPULSION.NAME"
@@ -46547,7 +46547,7 @@ msgstr "<link=\"DIRECTEDAIRSTREAMS\">除汙</link>"
 #. STRINGS.RESEARCH.TECHS.DISTILLATION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.DISTILLATION.DESC"
 msgid "Distill difficult mixtures down to their most useful parts."
-msgstr "從難以混合的物質蒸餾出他們最有用的部分。"
+msgstr "從複雜的混合物中提煉出其中最有用的部分。"
 
 #. STRINGS.RESEARCH.TECHS.DISTILLATION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.DISTILLATION.NAME"
@@ -46557,7 +46557,7 @@ msgstr "<link=\"DISTILLATION\">蒸餾</link>"
 #. STRINGS.RESEARCH.TECHS.DUPETRAFFICCONTROL.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.DUPETRAFFICCONTROL.DESC"
 msgid "Virtually extend the boundaries of Duplicant imagination."
-msgstr "實質上擴展複製人想像力的界限。"
+msgstr "無形中擴展了複製人想像力的邊界。"
 
 #. STRINGS.RESEARCH.TECHS.DUPETRAFFICCONTROL.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.DUPETRAFFICCONTROL.NAME"
@@ -46567,7 +46567,7 @@ msgstr "<link=\"DUPETRAFFICCONTROL\">運算</link>"
 #. STRINGS.RESEARCH.TECHS.DURABLELIFESUPPORT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.DURABLELIFESUPPORT.DESC"
 msgid "Improved devices for extended missions into space."
-msgstr "強化的結構讓任務擴展至太空。"
+msgstr "用於擴展太空任務的改進設備。"
 
 #. STRINGS.RESEARCH.TECHS.DURABLELIFESUPPORT.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.DURABLELIFESUPPORT.NAME"
@@ -46587,7 +46587,7 @@ msgstr "<link=\"ENGINESI\">固體燃料引擎</link>"
 #. STRINGS.RESEARCH.TECHS.ENGINESII.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ENGINESII.DESC"
 msgid "Delve deeper into the vastness of space than ever before."
-msgstr "深入探索之前無法前往的太空深處。"
+msgstr "比以往任何時候都更深入地探索浩瀚的太空。"
 
 #. STRINGS.RESEARCH.TECHS.ENGINESII.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.ENGINESII.NAME"
@@ -46597,7 +46597,7 @@ msgstr "<link=\"ENGINESII\">氣體燃料引擎</link>"
 #. STRINGS.RESEARCH.TECHS.ENGINESIII.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ENGINESIII.DESC"
 msgid "With this technology, the sky is your oyster. Go exploring!"
-msgstr "有了此科技，太空隨處可去。去探險吧！"
+msgstr "有了此科技，天空就是你的偉大航道。去探險吧！"
 
 #. STRINGS.RESEARCH.TECHS.ENGINESIII.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.ENGINESIII.NAME"
@@ -46627,7 +46627,7 @@ msgstr "<link=\"FARMINGTECH\">基礎農業</link>"
 #. STRINGS.RESEARCH.TECHS.FINEART.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.FINEART.DESC"
 msgid "Broader options for artistic <link=\"DECOR\">Decor</link> improvements."
-msgstr "提供藝術 <link=\"DECOR\">裝飾</link> 改善更多的選擇。"
+msgstr "提供更廣泛的選項作為藝術 <link=\"DECOR\">裝飾</link> 改善。"
 
 #. STRINGS.RESEARCH.TECHS.FINEART.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.FINEART.NAME"
@@ -46667,7 +46667,7 @@ msgstr "<link=\"FLOWREDIRECTION\">流體方向調整</link>"
 #. STRINGS.RESEARCH.TECHS.FOODREPURPOSING.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.FOODREPURPOSING.DESC"
 msgid "Blend that leftover <link=\"FOOD\">Food</link> into a <link=\"MORALE\">Morale</link> boosting slurry."
-msgstr "將剩下 <link=\"FOOD\">食物</link> 製成 <link=\"MORALE\">士氣</link> 增強劑。"
+msgstr "將剩下 <link=\"FOOD\">食物</link> 製成加強 <link=\"MORALE\">士氣</link> 的原料。"
 
 #. STRINGS.RESEARCH.TECHS.FOODREPURPOSING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.FOODREPURPOSING.NAME"
@@ -46687,7 +46687,7 @@ msgstr "<link=\"GASDISTRIBUTION\">氣體分配</link>"
 #. STRINGS.RESEARCH.TECHS.GASPIPING.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.GASPIPING.DESC"
 msgid "Rudimentary technologies for installing <link=\"ELEMENTSGAS\">Gas</link> infrastructure."
-msgstr "初級科技提供安裝 <link=\"ELEMENTSGAS\">氣體</link> 設施。"
+msgstr "提供安裝 <link=\"ELEMENTSGAS\">氣體</link> 設施的初級科技。"
 
 #. STRINGS.RESEARCH.TECHS.GASPIPING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.GASPIPING.NAME"
@@ -46762,7 +46762,7 @@ msgstr "調整殖民地內的 <link=\"HEAT\">溫度</link>，有助於 <link=\"P
 #. STRINGS.RESEARCH.TECHS.HVAC.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.HVAC.NAME"
 msgid "<link=\"HVAC\">HVAC</link>"
-msgstr "<link=\"HVAC\">暖氣空調</link>"
+msgstr "<link=\"HVAC\">暖通空調</link>"
 
 #. STRINGS.RESEARCH.TECHS.HYDROCARBONPROPULSION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.HYDROCARBONPROPULSION.DESC"
@@ -46867,7 +46867,7 @@ msgstr "<link=\"LIQUIDDISTRIBUTION\">液體分配</link>"
 #. STRINGS.RESEARCH.TECHS.LIQUIDFILTERING.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.LIQUIDFILTERING.DESC"
 msgid "Use pumped <link=\"ELEMENTSLIQUID\">Liquids</link> to filter out unwanted elements."
-msgstr "從泵入管道的<link=\"ELEMENTSLIQUID\">液體</link>中過濾出不想要的元素。"
+msgstr "從管道的<link=\"ELEMENTSLIQUID\">液體</link>中過濾出不想要的元素。"
 
 #. STRINGS.RESEARCH.TECHS.LIQUIDFILTERING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.LIQUIDFILTERING.NAME"
@@ -46957,7 +46957,7 @@ msgstr "<link=\"MEDICINEIII\">病源識別</link>"
 #. STRINGS.RESEARCH.TECHS.MEDICINEIV.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.MEDICINEIV.DESC"
 msgid "State of the art equipment to conquer the most stubborn of illnesses."
-msgstr "最先行的醫療設備，治療最頑固的疾病。"
+msgstr "最先進的醫療設備，治療最頑固的疾病。"
 
 #. STRINGS.RESEARCH.TECHS.MEDICINEIV.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.MEDICINEIV.NAME"
@@ -47007,7 +47007,7 @@ msgstr "<link=\"NUCLEARPROPULSION\">輻射粒子動力</link>"
 #. STRINGS.RESEARCH.TECHS.NUCLEARREFINEMENT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARREFINEMENT.DESC"
 msgid "Refine uranium and generate radiation."
-msgstr "精煉鈾並產生輻射。"
+msgstr "提煉鈾並產生輻射。"
 
 #. STRINGS.RESEARCH.TECHS.NUCLEARREFINEMENT.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARREFINEMENT.NAME"
@@ -47167,7 +47167,7 @@ msgstr "<link=\"RENEWABLEENERGY\">再生能源</link>"
 #. STRINGS.RESEARCH.TECHS.ROBOTICTOOLS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ROBOTICTOOLS.DESC"
 msgid "The goal of every great civilization is to one day make itself obsolete."
-msgstr "每個偉大文明的目標似乎都被自己淘汰。"
+msgstr "每個偉大文明的目標似乎都是讓自己被淘汰。"
 
 #. STRINGS.RESEARCH.TECHS.ROBOTICTOOLS.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.ROBOTICTOOLS.NAME"
@@ -47237,7 +47237,7 @@ msgstr "<link=\"SOLIDDISTRIBUTION\">固體分配</link>"
 #. STRINGS.RESEARCH.TECHS.SOLIDMANAGEMENT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDMANAGEMENT.DESC"
 msgid "Make solid decisions in <link=\"ELEMENTSSOLID\">Solid</link> sorting."
-msgstr "用固體判斷 <link=\"ELEMENTSSOLID\">固體</link> 的分類。"
+msgstr "精準判斷 <link=\"ELEMENTSSOLID\">固體</link> 的分類。"
 
 #. STRINGS.RESEARCH.TECHS.SOLIDMANAGEMENT.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDMANAGEMENT.NAME"
@@ -47267,7 +47267,7 @@ msgstr "<link=\"SOLIDTRANSPORT\">固體運輸</link>"
 #. STRINGS.RESEARCH.TECHS.SPACECOMBUSTION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SPACECOMBUSTION.DESC"
 msgid "Sweet advancements in rocket engines."
-msgstr "火箭引擎的甜密進步。"
+msgstr "火箭引擎的甜蜜進步。"
 
 #. STRINGS.RESEARCH.TECHS.SPACECOMBUSTION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SPACECOMBUSTION.NAME"
@@ -47807,7 +47807,7 @@ msgstr "最低高度：{0} 格"
 #. STRINGS.ROOMS.CRITERIA.CLINIC.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.CLINIC.DESCRIPTION"
 msgid "Requires one or more Sick Bays or Disease Clinics"
-msgstr "需要一個加護病房或診療艙"
+msgstr "需要一個加護病房或回復倉"
 
 #. STRINGS.ROOMS.CRITERIA.CLINIC.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.CLINIC.NAME"
@@ -53712,7 +53712,7 @@ msgstr "此物品的年齡未知"
 #. STRINGS.UI.ELEMENTAL.CONDUCTIVITYBARRIER.NAME
 msgctxt "STRINGS.UI.ELEMENTAL.CONDUCTIVITYBARRIER.NAME"
 msgid "Insulation Thickness: {0}"
-msgstr "絕綠厚度：{0}"
+msgstr "絕緣厚度：{0}"
 
 #. STRINGS.UI.ELEMENTAL.CONDUCTIVITYBARRIER.TOOLTIP
 msgctxt "STRINGS.UI.ELEMENTAL.CONDUCTIVITYBARRIER.TOOLTIP"
@@ -57152,7 +57152,7 @@ msgstr "劇本"
 #. STRINGS.UI.FRONTEND.SCENARIOS_MENU.UNSUBSCRIBE
 msgctxt "STRINGS.UI.FRONTEND.SCENARIOS_MENU.UNSUBSCRIBE"
 msgid "Unsubscribe"
-msgstr "取消訂閱"
+msgstr "解除訂閱"
 
 #. STRINGS.UI.FRONTEND.SCENARIOS_MENU.UNSUBSCRIBE_CONFIRM
 msgctxt "STRINGS.UI.FRONTEND.SCENARIOS_MENU.UNSUBSCRIBE_CONFIRM"
@@ -57172,7 +57172,7 @@ msgstr "更多資訊"
 #. STRINGS.UI.FRONTEND.SUPPORTWARNINGS.DUPLICATE_KEY_BINDINGS
 msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.DUPLICATE_KEY_BINDINGS"
 msgid "<b>Duplicate key bindings were detected.\nThis may be because your custom key bindings conflicted with a new feature's default key.\nPlease visit the controls screen to ensure your key bindings are set how you like them.</b>\n{0}"
-msgstr "<b>偵測到重複的按鍵連結。\n這可能是因為您的自訂按鍵連結與新功能的預設按鍵衝突。\n請檢查控制項目，確保您的按鍵連結為您希望的方式。</b>\n{0}"
+msgstr "<b>偵測到重複的按鍵連結。\n這可能是因為您的自訂按鍵連結與新功能的預設按鍵衝突。\n請檢查控制項目，確保您的快捷鍵是您希望的方式。</b>\n{0}"
 
 #. STRINGS.UI.FRONTEND.SUPPORTWARNINGS.IO_SUFFICIENT_SPACE
 msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.IO_SUFFICIENT_SPACE"
@@ -57272,7 +57272,7 @@ msgstr "請重新啟動你的遊戲，以使這些更改生效。"
 #. STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_HEADER
 msgctxt "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_HEADER"
 msgid "Preinstalled Language Packs"
-msgstr "預安裝的語言包"
+msgstr "預安裝語言包"
 
 #. STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.EN
 msgctxt "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.EN"
@@ -57367,7 +57367,7 @@ msgstr "完成"
 #. STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.RANDOM_BUTTON
 msgctxt "STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.RANDOM_BUTTON"
 msgid "Randomize"
-msgstr "亂數"
+msgstr "隨機"
 
 #. STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.RANDOM_BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.RANDOM_BUTTON_TOOLTIP"
@@ -57592,7 +57592,7 @@ msgstr "開始成長：{0}"
 #. STRINGS.UI.GAMEOBJECTEFFECTS.INSULATED.NAME
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.INSULATED.NAME"
 msgid "Insulated"
-msgstr "絕綠"
+msgstr "絕緣"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.INSULATED.TOOLTIP
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.INSULATED.TOOLTIP"
@@ -57907,7 +57907,7 @@ msgstr "此機器試圖改造這個複製人，但已經完美地無法改進。
 #. STRINGS.UI.GENESHUFFLERMESSAGE.BODY_SUCCESS
 msgctxt "STRINGS.UI.GENESHUFFLERMESSAGE.BODY_SUCCESS"
 msgid "Whew! <b>{0}'s</b> brain is still vibrating, but they've never felt better!\n\n<b>{0}</b> acquired the <b>{1}</b> trait.\n\n<b>{1}:</b>\n{2}"
-msgstr "呼！<b>{0} 的</b> 大腦仍在振動，但從未感覺到更好！\n\n<b>{0}</b> 獲得了 <b>{1}</b> 特質。\n\n<b>{1}：</b>\n{2}"
+msgstr "呼！<b>{0} 的</b> 大腦仍在震動，但從未感覺到更好！\n\n<b>{0}</b> 獲得了 <b>{1}</b> 特質。\n\n<b>{1}：</b>\n{2}"
 
 #. STRINGS.UI.GENESHUFFLERMESSAGE.DISMISSBUTTON
 msgctxt "STRINGS.UI.GENESHUFFLERMESSAGE.DISMISSBUTTON"
@@ -57952,12 +57952,12 @@ msgstr "{0} 的 {1}"
 #. STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONBODY
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONBODY"
 msgid "The Printing Pod will need time to recharge if I reject these Printables."
-msgstr "如果拒絕了這些可印物，列印設備將需要時間充能。"
+msgstr "如果拒絕了這些可列印物，列印設備將需要時間充能。"
 
 #. STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONTITLE
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONTITLE"
 msgid "Reject All Printables?"
-msgstr "拒絕全部可印物？"
+msgstr "拒絕全部可列印物？"
 
 #. STRINGS.UI.IMMIGRANTSCREEN.DUPLICATE_COLONY_NAME
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.DUPLICATE_COLONY_NAME"
@@ -58022,7 +58022,7 @@ msgstr "列印禮物"
 #. STRINGS.UI.ITEM_DROP_SCREEN.THANKS_FOR_PLAYING
 msgctxt "STRINGS.UI.ITEM_DROP_SCREEN.THANKS_FOR_PLAYING"
 msgid "Thanks for keeping this colony alive!"
-msgstr "感謝您讓這個殖民地活著！"
+msgstr "感謝您讓此殖民地生生不息！"
 
 #. STRINGS.UI.JOBS
 msgctxt "STRINGS.UI.JOBS"
@@ -65962,7 +65962,7 @@ msgstr "必須清除直到太空的路徑"
 #. STRINGS.UI.TOOLS.PLACE.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.PLACE.TOOLACTION"
 msgid "(ClickType/CLICK)  TO PLACE"
-msgstr "(ClickType/CLICK) 放置"
+msgstr "點擊 放置"
 
 #. STRINGS.UI.TOOLS.PLACE.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.PLACE.TOOLNAME"
@@ -66952,7 +66952,7 @@ msgstr "清除當前作品\n\n為熟練的複製人建立工作來繪製選擇�
 #. STRINGS.UI.UISIDESCREENS.ARTABLESELECTIONSIDESCREEN.CLEAR_BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.ARTABLESELECTIONSIDESCREEN.CLEAR_BUTTON_TOOLTIP"
 msgid "Clears current artwork\n\nAllows a skilled Duplicant to create artwork of their choice"
-msgstr "清除當前作品\n\n允許熟練的複製人依他們的意志繪製作品"
+msgstr "清除當前作品\n\n允許熟練的複製人自由發揮自己的創意"
 
 #. STRINGS.UI.UISIDESCREENS.ARTABLESELECTIONSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.ARTABLESELECTIONSIDESCREEN.TITLE"
@@ -67292,7 +67292,7 @@ msgstr "沒有符合此火箭的著陸點"
 #. STRINGS.UI.UISIDESCREENS.CLUSTERDESTINATIONSIDESCREEN.NONEAVAILABLE
 msgctxt "STRINGS.UI.UISIDESCREENS.CLUSTERDESTINATIONSIDESCREEN.NONEAVAILABLE"
 msgid "No landing site"
-msgstr "沒有著路點"
+msgstr "沒有著陸點"
 
 #. STRINGS.UI.UISIDESCREENS.CLUSTERDESTINATIONSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.CLUSTERDESTINATIONSIDESCREEN.TITLE"
@@ -67327,7 +67327,7 @@ msgstr "查看小行星"
 #. STRINGS.UI.UISIDESCREENS.CLUSTERWORLDSIDESCREEN.VIEW_WORLD_DISABLE_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.CLUSTERWORLDSIDESCREEN.VIEW_WORLD_DISABLE_TOOLTIP"
 msgid "Cannot view Planetoid"
-msgstr "無法觀查小行星"
+msgstr "無法觀察小行星"
 
 #. STRINGS.UI.UISIDESCREENS.CLUSTERWORLDSIDESCREEN.VIEW_WORLD_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.CLUSTERWORLDSIDESCREEN.VIEW_WORLD_TOOLTIP"
@@ -68002,7 +68002,7 @@ msgstr "此振盪器沒有能源。"
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.CONSUMED_WAITING
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.CONSUMED_WAITING"
 msgid "Recharge requested, awaiting delivery by Duplicant."
-msgstr "需要充能，等待複製人運送。"
+msgstr "需要補充，等待複製人運送。"
 
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.TITLE"
@@ -68247,7 +68247,7 @@ msgstr "發射！"
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_REQUESTED_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_REQUESTED_BUTTON"
 msgid "CANCEL LAUNCH"
-msgstr "不能發射"
+msgstr "取消發射"
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_REQUESTED_BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_REQUESTED_BUTTON_TOOLTIP"
@@ -69632,17 +69632,17 @@ msgstr "取消此運送"
 #. STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_DROP_SUIT
 msgctxt "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_DROP_SUIT"
 msgid "Undock Suit"
-msgstr "脫下太空衣"
+msgstr "卸下裝備"
 
 #. STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_DROP_SUIT_NO_SUIT_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_DROP_SUIT_NO_SUIT_TOOLTIP"
 msgid "There is no suit in this building to undock"
-msgstr "此建築沒有太空衣可使用"
+msgstr "此建築沒有裝備可使用"
 
 #. STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_DROP_SUIT_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_DROP_SUIT_TOOLTIP"
 msgid "Disconnect this suit, dropping it on the ground"
-msgstr "取出太空衣，將它丟棄在地上"
+msgstr "取出裝備，將它丟棄在地上"
 
 #. STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_NO_SUIT
 msgctxt "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_NO_SUIT"
@@ -69657,12 +69657,12 @@ msgstr "下個通過的複製人會脫下太空衣並存放在這裡"
 #. STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_REQUEST_SUIT
 msgctxt "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_REQUEST_SUIT"
 msgid "Deliver Suit"
-msgstr "運送太空衣"
+msgstr "運送裝備"
 
 #. STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_REQUEST_SUIT_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_REQUEST_SUIT_TOOLTIP"
 msgid "Duplicants will immediately deliver and dock the nearest unequipped suit"
-msgstr "複製人將會馬上運送離他們最近且未裝備的太空衣"
+msgstr "複製人將會馬上運送離他們最近且未裝備的裝備"
 
 #. STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIGURATION_REQUIRED
 msgctxt "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIGURATION_REQUIRED"
