@@ -1,8 +1,14 @@
 This is a project that includes my work for the games being developed by Klei Entertainment.
 
 ### Steam Workshop
-* [workshop-1993780385](workshop-1993780385) is a DST client language pack mod. [正體中文包](https://steamcommunity.com/sharedfiles/filedetails/?id=1993780385)
-* [workshop-2906930548](workshop-2906930548) is an ONI language pack mod. [正體中文包](https://steamcommunity.com/sharedfiles/filedetails/?id=2906930548)
+* DST [正體中文包](https://steamcommunity.com/sharedfiles/filedetails/?id=1993780385)
+![Steam Subscriptions](https://img.shields.io/steam/subscriptions/1993780385?logo=steam) 
+![Steam Favorites](https://img.shields.io/steam/favorites/1993780385?logo=steam) <br />
+[workshop-1993780385](workshop-1993780385) is a DST client language pack mod. 
+* ONI [正體中文包](https://steamcommunity.com/sharedfiles/filedetails/?id=2906930548)
+![Steam Subscriptions](https://img.shields.io/steam/subscriptions/2906930548?logo=steam) 
+![Steam Favorites](https://img.shields.io/steam/favorites/2906930548?logo=steam) <br />
+[workshop-2906930548](workshop-2906930548) is an ONI language pack mod. 
 
 ### Mod Reference
 
@@ -26,5 +32,6 @@ Thanks those developer who have done brilliant work on these mods
 
 DstTranslator is a tool to convert translation document. For internal use only. I also use the tool to study Compose UI.
 
-* [android-app](android-app) runs on Android and Chromebook ![Android CI](https://github.com/DolphinWing/DSTTranslate/workflows/Android%20CI/badge.svg) 
-* [desktop-app](desktop-app) runs on Linux and Windows ![Desktop CI](https://github.com/DolphinWing/DSTTranslate/workflows/Desktop%20CI/badge.svg) 
+* ![Android CI](https://github.com/DolphinWing/DSTTranslate/workflows/Android%20CI/badge.svg) [android-app](android-app) runs on Android and Chromebook
+* ![Desktop CI](https://github.com/DolphinWing/DSTTranslate/workflows/Desktop%20CI/badge.svg) [desktop-app](desktop-app) runs on Linux and Windows
+

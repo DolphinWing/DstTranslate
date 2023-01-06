@@ -362,7 +362,7 @@ msgstr "本地殖民地缺少 {Skills}"
 #. STRINGS.BUILDING.STATUSITEMS.CLUSTERCOLONYLACKSREQUIREDSKILLPERK.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLUSTERCOLONYLACKSREQUIREDSKILLPERK.TOOLTIP"
 msgid "{Skills} Skill required to operate\n\nOpen the <b>Skills Panel</b> {Hotkey/ManageSkills} to teach {Skills} to a Duplicant, or bring a Duplicant with the skill from another Planetoid"
-msgstr "需要 {Skills} 技能才能操作\n\n開啟 <b>技能面板</b> {Hotkey/ManageSkills} 傳授 {Skills} 給一位複製人、或從其它星球帶來有此技能的複製人"
+msgstr "需要 {Skills} 技能才能操作\n\n開啟 <b>技能面板</b> {Hotkey/ManageSkills} 教導 {Skills} 給一位複製人、或從其它星球帶來有此技能的複製人"
 
 #. STRINGS.BUILDING.STATUSITEMS.CLUSTERTELESCOPEALLWORKCOMPLETE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLUSTERTELESCOPEALLWORKCOMPLETE.NAME"
@@ -392,7 +392,7 @@ msgstr "殖民地缺少 {Skills}"
 #. STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.TOOLTIP"
 msgid "{Skills} Skill required to operate\n\nOpen the <b>Skills Panel</b> {Hotkey/ManageSkills} to teach {Skills} to a Duplicant"
-msgstr "需要 {Skills} 技能才能操作\n\n開啟 <b>技能面板</b> {Hotkey/ManageSkills} 傳授 {Skills} 給一位複製人"
+msgstr "需要 {Skills} 技能才能操作\n\n開啟 <b>技能面板</b> {Hotkey/ManageSkills} 教導 {Skills} 給一位複製人"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME"
@@ -612,7 +612,7 @@ msgstr "無物種資料"
 #. STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORPROGRESS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORPROGRESS.TOOLTIP"
 msgid "This building requires data from multiple <style=\"KKeyword\">Critter</style> species to unlock its genetic manipulator\n\nSpecies scanned:"
-msgstr "這個建築需要多種<style=\"KKeyword\">小動物</style>的資料來解鎖其基因操作器\n\n已掃描的物种："
+msgstr "這個建築需要多種<style=\"KKeyword\">小動物</style>的資料來解鎖其基因操作器\n\n已掃描的物種："
 
 #. STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORWAITING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORWAITING.NAME"
@@ -1042,7 +1042,7 @@ msgstr "等待輻射粒子 ({CurrentHEP}/{HEPRequired})"
 #. STRINGS.BUILDING.STATUSITEMS.FABRICATORLACKSHEP.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FABRICATORLACKSHEP.TOOLTIP"
 msgid "A queued recipe requires more Radbolts than are currently stored.\n\nCurrently stored: {CurrentHEP}\nRequired for recipe: {HEPRequired}"
-msgstr "佇列中的配方需要比現有庫存更多的輻射粒子\n\n目前存量：{CurrentHEP}\n配方需要：{HEPRequired}"
+msgstr "佇列中的訂單需要比現有庫存更多的輻射粒子\n\n目前存量：{CurrentHEP}\n訂單需要：{HEPRequired}"
 
 #. STRINGS.BUILDING.STATUSITEMS.FISHFEEDERACCEPTSMUTANTSEEDS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FISHFEEDERACCEPTSMUTANTSEEDS.NAME"
@@ -3997,7 +3997,7 @@ msgstr "一些藥物幫助預防疾病，而其它藥物則用來減輕症狀。
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDAPOTHECARY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDAPOTHECARY.EFFECT"
 msgid "Produces <link=\"MEDICINE\">Medicine</link> to cure most basic <link=\"DISEASE\">Diseases</link>.\n\nDuplicants must possess the Medicine Compounding <link=\"ROLES\">Skill</link> to fabricate medicines.\n\nDuplicants will not fabricate items unless recipes are queued."
-msgstr "生產 <link=\"MEDICINE\">藥物</link> 以治療大部分基本的 <link=\"DISEASE\">疾病</link>。\n\n複製人必須有 <link=\"ROLES\">配藥</link> 技能，才能製作藥物。\n\n沒有指定配方，複製人將不會製作。"
+msgstr "生產 <link=\"MEDICINE\">藥物</link> 以治療大部分基本的 <link=\"DISEASE\">疾病</link>。\n\n複製人必須有 <link=\"ROLES\">配藥</link> 技能，才能製作藥物。\n\n佇列中沒有訂單，複製人將不會製作。"
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDAPOTHECARY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDAPOTHECARY.NAME"
@@ -4122,7 +4122,7 @@ msgstr "一些藥物幫助預防疾病，而其它藥物則用來減輕症狀。
 #. STRINGS.BUILDINGS.PREFABS.APOTHECARY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.APOTHECARY.EFFECT"
 msgid "Produces <link=\"MEDICINE\">Medicine</link> to cure most basic <link=\"DISEASE\">Diseases</link>.\n\nDuplicants must possess the Medicine Compounding <link=\"ROLES\">Skill</link> to fabricate medicines.\n\nDuplicants will not fabricate items unless recipes are queued."
-msgstr "生產 <link=\"MEDICINE\">藥物</link> 以治療大部分基本的 <link=\"DISEASE\">疾病</link>。\n\n複製人必須有 <link=\"ROLES\">配藥</link> 技能，才能製作藥物。\n\n沒有指定配方，複製人將不會製作。"
+msgstr "生產 <link=\"MEDICINE\">藥物</link> 以治療大部分基本的 <link=\"DISEASE\">疾病</link>。\n\n複製人必須有 <link=\"ROLES\">配藥</link> 技能，才能製作藥物。\n\n佇列中沒有訂單，複製人將不會製作。"
 
 #. STRINGS.BUILDINGS.PREFABS.APOTHECARY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.APOTHECARY.NAME"
@@ -5182,7 +5182,7 @@ msgstr "適當的烹飪能避免腸胃炎，並做出美味、減輕壓力的食
 #. STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.EFFECT"
 msgid "Cooks a wide variety of improved <link=\"FOOD\">Foods</link>.\n\nDuplicants will not fabricate items unless recipes are queued."
-msgstr "使用多種材料，改善 <link=\"FOOD\">食物</link>。\n\n佇列中沒有食譜，複製人將不會製作。"
+msgstr "使用多種材料，改善 <link=\"FOOD\">食物</link>。\n\n佇列中沒有訂單，複製人將不會製作。"
 
 #. STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.NAME"
@@ -5227,7 +5227,7 @@ msgstr "工藝台允許複製人製作氧氣面罩在低氧的區域中使用。
 #. STRINGS.BUILDINGS.PREFABS.CRAFTINGTABLE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CRAFTINGTABLE.EFFECT"
 msgid "Produces items and equipment for Duplicant use.\n\nDuplicants will not fabricate items unless recipes are queued."
-msgstr "生產物品與裝備給複製人使用。\n\n佇列中沒有設計圖，複製人將不會製作。"
+msgstr "生產物品與裝備給複製人使用。\n\n佇列中沒有訂單，複製人將不會製作。"
 
 #. STRINGS.BUILDINGS.PREFABS.CRAFTINGTABLE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CRAFTINGTABLE.NAME"
@@ -5427,7 +5427,7 @@ msgstr "粉碎精製炭製成鑽石。"
 #. STRINGS.BUILDINGS.PREFABS.DIAMONDPRESS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DIAMONDPRESS.EFFECT"
 msgid "Uses <link=\"POWER\">Power</link> and <link=\"RADIATION\">Radbolts</link> to crush <link=\"REFINEDCARBON\">Refined Carbon</link> into <link=\"DIAMOND\">Diamond</link>.\n\nDuplicants will not fabricate items unless recipes are queued and <link=\"REFINEDCARBON\">Refined Carbon</link> has been discovered."
-msgstr "使用 <link=\"POWER\">電力</link> 與 <link=\"HEP\">輻射粒子</link> 粉碎 <link=\"REFINEDCARBON\">精製炭</link> 製成 <link=\"DIAMOND\">鑽石</link>。\n\n複製人不會製作，除非佇列中有配方且已經發現 <link=\"REFINEDCARBON\">精製炭</link>。"
+msgstr "使用 <link=\"POWER\">電力</link> 與 <link=\"HEP\">輻射粒子</link> 粉碎 <link=\"REFINEDCARBON\">精製炭</link> 製成 <link=\"DIAMOND\">鑽石</link>。\n\n複製人不會製作，除非佇列中有訂單且已經發現 <link=\"REFINEDCARBON\">精製炭</link>。"
 
 #. STRINGS.BUILDINGS.PREFABS.DIAMONDPRESS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DIAMONDPRESS.NAME"
@@ -5612,7 +5612,7 @@ msgstr "生蛋是高品質食譜中的食材。"
 #. STRINGS.BUILDINGS.PREFABS.EGGCRACKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.EFFECT"
 msgid "Converts viable <link=\"CRITTERS\">Critter</link> eggs into cooking ingredients.\n\nCracked Eggs cannot hatch.\n\nDuplicants will not crack eggs unless tasks are queued."
-msgstr "將 <link=\"CRITTERS\">動物蛋</link> 變成料理食材。\n\n破掉的蛋無法孵化。\n\n沒有生產佇列，複製人將不會打蛋。"
+msgstr "將 <link=\"CRITTERS\">動物蛋</link> 變成料理食材。\n\n破掉的蛋無法孵化。\n\n佇列沒有訂單，複製人將不會打蛋。"
 
 #. STRINGS.BUILDINGS.PREFABS.EGGCRACKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.NAME"
@@ -6212,7 +6212,7 @@ msgstr "微波加熱你的食物"
 #. STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.EFFECT"
 msgid "Cooks a variety of <link=\"FOOD\">Foods</link>.\n\nDuplicants will not fabricate items unless recipes are queued."
-msgstr "可料理多種 <link=\"FOOD\">食物</link>。\n\n沒有指定食譜，複製人將不會製作。"
+msgstr "可料理多種 <link=\"FOOD\">食物</link>。\n\n佇列中沒有訂單，複製人將不會製作。"
 
 #. STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.NAME"
@@ -6777,7 +6777,7 @@ msgstr "玻璃可以用於建造玻璃磚。"
 #. STRINGS.BUILDINGS.PREFABS.GLASSFORGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSFORGE.EFFECT"
 msgid "Produces <link=\"MOLTENGLASS\">Molten Glass</link> from raw <link=\"SAND\">Sand</link>.\n\nOutputs <link=\"HEAT\">High Temperature</link> <link=\"ELEMENTSLIQUID\">Liquid</link>.\n\nDuplicants will not fabricate items unless recipes are queued."
-msgstr "用 <link=\"SAND\">沙子</link> 生產 <link=\"MOLTENGLASS\">液態玻璃</link>。\n\n輸出 <link=\"HEAT\">高溫</link> 的 <link=\"ELEMENTSLIQUID\">液體</link>。\n\n佇列中沒有配方，複製人將不會生產。"
+msgstr "用 <link=\"SAND\">沙子</link> 生產 <link=\"MOLTENGLASS\">液態玻璃</link>。\n\n輸出 <link=\"HEAT\">高溫</link> 的 <link=\"ELEMENTSLIQUID\">液體</link>。\n\n佇列中沒有訂單，複製人將不會生產。"
 
 #. STRINGS.BUILDINGS.PREFABS.GLASSFORGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSFORGE.NAME"
@@ -6812,7 +6812,7 @@ msgstr "豪華餐點可以提升複製人的士氣，並避免他們壓力過大
 #. STRINGS.BUILDINGS.PREFABS.GOURMETCOOKINGSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GOURMETCOOKINGSTATION.EFFECT"
 msgid "Cooks a wide variety of quality <link=\"FOOD\">Foods</link>.\n\nDuplicants will not fabricate items unless recipes are queued."
-msgstr "可料理多種 <link=\"FOOD\">食物</link>。\n\n沒有指定食譜，複製人將不會製作。"
+msgstr "可料理多種 <link=\"FOOD\">食物</link>。\n\n沒有訂單，複製人將不會製作。"
 
 #. STRINGS.BUILDINGS.PREFABS.GOURMETCOOKINGSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GOURMETCOOKINGSTATION.NAME"
@@ -7527,7 +7527,7 @@ msgstr "窯廠也可以用來將煤炭精製成純炭。"
 #. STRINGS.BUILDINGS.PREFABS.KILN.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.KILN.EFFECT"
 msgid "Fires <link=\"CLAY\">Clay</link> to produce <link=\"CERAMIC\">Ceramic</link>.\n\nDuplicants will not fabricate items unless recipes are queued."
-msgstr "將 <link=\"CLAY\">黏土</link> 燒製成 <link=\"CERAMIC\">陶瓷</link>。\n\n佇列中沒有配房，複製人將不會生產。"
+msgstr "將 <link=\"CLAY\">黏土</link> 燒製成 <link=\"CERAMIC\">陶瓷</link>。\n\n佇列中沒有訂單，複製人將不會生產。"
 
 #. STRINGS.BUILDINGS.PREFABS.KILN.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.KILN.NAME"
@@ -9762,7 +9762,7 @@ msgstr "精煉金屬是建造高級的電子與科技產品所必需。"
 #. STRINGS.BUILDINGS.PREFABS.METALREFINERY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.METALREFINERY.EFFECT"
 msgid "Produces <link=\"REFINEDMETAL\">Refined Metals</link> from raw <link=\"RAWMETAL\">Metal Ore</link>.\n\nSignificantly <link=\"HEAT\">Heats</link> and outputs the <link=\"ELEMENTSLIQUID\">Liquid</link> piped into it.\n\nDuplicants will not fabricate items unless recipes are queued."
-msgstr "用 <link=\"RAWMETAL\">金屬礦物</link> 生產 <link=\"REFINEDMETAL\">精煉金屬</link>。\n\n釋放高溫 <link=\"HEAT\">加熱</link> 過的 <link=\"ELEMENTSLIQUID\">液體</link>。\n\n佇列中沒有配方時，複製人將不會生產。"
+msgstr "用 <link=\"RAWMETAL\">金屬礦物</link> 生產 <link=\"REFINEDMETAL\">精煉金屬</link>。\n\n釋放高溫 <link=\"HEAT\">加熱</link> 過的 <link=\"ELEMENTSLIQUID\">液體</link>。\n\n佇列中沒有訂單時，複製人將不會生產。"
 
 #. STRINGS.BUILDINGS.PREFABS.METALREFINERY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.METALREFINERY.NAME"
@@ -9902,7 +9902,7 @@ msgstr "製糕機食譜可餵飽複製人，但時間一長會影響健康與士
 #. STRINGS.BUILDINGS.PREFABS.MICROBEMUSHER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MICROBEMUSHER.EFFECT"
 msgid "Produces low quality <link=\"FOOD\">Food</link> using common ingredients.\n\nDuplicants will not fabricate items unless recipes are queued."
-msgstr "使用一般材料製作低品質的 <link=\"FOOD\">食物</link>。\n\n佇列中沒有食譜，複製人將不會製作。"
+msgstr "使用一般材料製作低品質的 <link=\"FOOD\">食物</link>。\n\n佇列中沒有訂單，複製人將不會製作。"
 
 #. STRINGS.BUILDINGS.PREFABS.MICROBEMUSHER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MICROBEMUSHER.NAME"
@@ -11402,7 +11402,7 @@ msgstr "碎石機可以將礦物材料加工成許多不同的資源。"
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.EFFECT"
 msgid "Inefficiently produces refined materials from raw resources.\n\nDuplicants will not fabricate items unless recipes are queued."
-msgstr "將原料低效率的生產成精煉原料。\n\n生產列表中沒有配方，複製人將不會製作。"
+msgstr "將原料低效率的生產成精煉原料。\n\n佇列中沒有訂單，複製人將不會製作。"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.LIME_FROM_LIMESTONE_RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.LIME_FROM_LIMESTONE_RECIPE_DESCRIPTION"
@@ -11952,7 +11952,7 @@ msgstr "那個複製人不喜歡玩泥巴呢？"
 #. STRINGS.BUILDINGS.PREFABS.SLUDGEPRESS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SLUDGEPRESS.EFFECT"
 msgid "Separates <link=\"MUD\">Mud</link> and other sludges into their base elements.\n\nDuplicants will not fabricate items unless recipes are queued."
-msgstr "將 <link=\"MUD\">泥漿</link> 與汙泥漿分離成基礎元素。\n\n佇列中沒有配方複製人將不會生產。"
+msgstr "將 <link=\"MUD\">泥漿</link> 與其他材料分離成基礎元素。\n\n佇列中沒有訂單，複製人將不會生產。"
 
 #. STRINGS.BUILDINGS.PREFABS.SLUDGEPRESS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SLUDGEPRESS.NAME"
@@ -12707,7 +12707,7 @@ msgstr "太空衣可以填充氧氣，讓複製人可以安全地進入危險區
 #. STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.EFFECT"
 msgid "Forges protective <link=\"EXOSUIT\">Exosuits</link> for Duplicants to wear.\n\nDuplicants will not fabricate items unless recipes are queued."
-msgstr "製作防護用的 <link=\"EXOSUIT\">太空衣</link> 給複製人穿。\n\n佇列中沒有設計圖，複製人將不會製作。"
+msgstr "製作防護用的 <link=\"EXOSUIT\">太空衣</link> 給複製人穿。\n\n佇列中沒有訂單，複製人將不會製作。"
 
 #. STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.NAME"
@@ -12767,7 +12767,7 @@ msgstr "稀有原料可以透過火箭任務從太空中取得。"
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.EFFECT"
 msgid "Processes <link=\"RAREMATERIALS\">Rare Materials</link> into advanced industrial goods.\n\nRare materials can be retrieved from space missions.\n\nDuplicants will not fabricate items unless recipes are queued."
-msgstr "加工 <link=\"RAREMATERIALS\">稀有原料</link> 製成高級工業產品。\n\n稀有原料可從太空任務取得。\n\n佇列中沒有配方，複製人將不會生產。"
+msgstr "加工 <link=\"RAREMATERIALS\">稀有原料</link> 製成高級工業產品。\n\n稀有原料可從太空任務取得。\n\n佇列中沒有訂單，複製人將不會生產。"
 
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.FULLERENE_RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.FULLERENE_RECIPE_DESCRIPTION"
@@ -12987,7 +12987,7 @@ msgstr "一種能夠撕裂時空結構的強大機器。"
 #. STRINGS.BUILDINGS.PREFABS.TEMPORALTEAROPENER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.TEMPORALTEAROPENER.NAME"
 msgid "Temporal Tear Opener"
-msgstr "時空裂縫傳送器"
+msgstr "時空裂縫開啟器"
 
 #. STRINGS.BUILDINGS.PREFABS.TEMPORALTEAROPENER.SIDESCREEN.TEXT
 msgctxt "STRINGS.BUILDINGS.PREFABS.TEMPORALTEAROPENER.SIDESCREEN.TEXT"
@@ -17932,7 +17932,7 @@ msgstr "查看資料"
 #. STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.WORKIVERSARY.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.WORKIVERSARY.BODY.CONTAINER1"
 msgid "Happy 3rd work-iversary, Ada!\n\nI drew this to fill the space left by the cabinet that your chompy critters tore off the wall last week. Hope it's big enough!\n\nI still can't believe they can digest solid steel—you really know how to breed 'em!\n\n- Liam"
-msgstr "第三次工作纪念日快乐，Ada！\n\n我化這個侍衛了填補儲物櫃旁邊的空間，你那些貪吃的小動物上週把那片牆撕壞了。希望這夠大了！\n\n我仍然無法相信他們居然能消化鋼鐵——還是你知道怎麼繁殖它們！\n\n- Liam"
+msgstr "第三次工作纪念日快樂，Ada！\n\n我畫這個是為了填補儲物櫃旁邊的空間，你那些貪吃的小動物上週把那片牆撕壞了。希望這夠大了！\n\n我仍然無法相信他們居然能消化鋼鐵——還是你知道怎麼繁殖它們！\n\n- Liam"
 
 #. STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.WORKIVERSARY.SUBTITLE
 msgctxt "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.WORKIVERSARY.SUBTITLE"
@@ -18437,7 +18437,7 @@ msgstr "<smallcaps>圖為：「抱抱」樹鼠變種</smallcaps>"
 #. STRINGS.CODEX.VARIANT_HUG.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.VARIANT_HUG.BODY.CONTAINER2"
 msgid "Cuddle Pips are genetically predisposed to feel deeply affectionate towards the unhatched young of all species, and can often be observed hugging eggs."
-msgstr "抱抱樹鼠在本能的對所有物種未孵化的幼崽抱持深厚的感情，並且經常可以觀察到它擁抱各種的蛋。"
+msgstr "抱抱樹鼠在本能地對所有物種未孵化的幼崽抱持深厚的感情，並且經常可以觀察到牠擁抱各種的蛋。"
 
 #. STRINGS.CODEX.VARIANT_HUG.SUBTITLE
 msgctxt "STRINGS.CODEX.VARIANT_HUG.SUBTITLE"
@@ -18542,7 +18542,7 @@ msgstr "此目標已由過去的殖民地完成"
 #. STRINGS.COLONY_ACHIEVEMENTS.ACHIEVED_THIS_COLONY_TOOLTIP
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ACHIEVED_THIS_COLONY_TOOLTIP"
 msgid "The current colony fulfilled this Initiative"
-msgstr "殖民地完成了此項目標"
+msgstr "此殖民地完成了此項目標"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.DESCRIPTION"
@@ -18647,7 +18647,7 @@ msgstr "殖民地最少有一間廁所，且每位複製人都有一張床。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_PUMPING
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_PUMPING"
 msgid "Oxygen Not Occluded"
-msgstr "不缺氧"
+msgstr "不遺餘氣"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_PUMPING_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_PUMPING_DESCRIPTION"
@@ -18657,7 +18657,7 @@ msgstr "使用排氣口，運送 1000 公斤的氧氣。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_NATURE_RESERVES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_NATURE_RESERVES"
 msgid "Some Reservations"
-msgstr "來點保護區"
+msgstr "有備無患"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_NATURE_RESERVES_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_NATURE_RESERVES_DESCRIPTION"
@@ -18677,7 +18677,7 @@ msgstr "在初始生活區外建造一個建築。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUNKER_DOOR_DEFENSE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUNKER_DOOR_DEFENSE"
 msgid "Immovable Object"
-msgstr "堅固的物體"
+msgstr "不動如山"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUNKER_DOOR_DEFENSE_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUNKER_DOOR_DEFENSE_DESCRIPTION"
@@ -18687,7 +18687,7 @@ msgstr "使用要塞門保護流星撞擊你的殖民地。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.CLEAN_ENERGY
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.CLEAN_ENERGY"
 msgid "Super Sustainable"
-msgstr "再生能源"
+msgstr "超級永續"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.CLEAN_ENERGY_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.CLEAN_ENERGY_DESCRIPTION"
@@ -18697,7 +18697,7 @@ msgstr "不使用煤炭、天然氣、石油或木頭發電機，發出 240,000 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.CLEAR_FOW
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.CLEAR_FOW"
 msgid "Pulling Back The Veil"
-msgstr "探索未知區域"
+msgstr "揭開面紗"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.CLEAR_FOW_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.CLEAR_FOW_DESCRIPTION"
@@ -18797,7 +18797,7 @@ msgstr "傳送複製人並解凍另一個世界的朋友。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.GENERATOR_TUNEUP
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.GENERATOR_TUNEUP"
 msgid "Finely Tuned Machine"
-msgstr "微調機器"
+msgstr "精益求精"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.GENERATOR_TUNEUP_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.GENERATOR_TUNEUP_DESCRIPTION"
@@ -18807,7 +18807,7 @@ msgstr "進行 {0} 次發電機調整。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.GMO_OK
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.GMO_OK"
 msgid "GMO A-OK"
-msgstr "GMO A-OK"
+msgstr "一異俱全"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.GMO_OK_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.GMO_OK_DESCRIPTION"
@@ -18857,12 +18857,12 @@ msgstr "在遺跡中恢復資料庫記錄。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.LAND_ON_ALL_WORLDS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.LAND_ON_ALL_WORLDS"
 msgid "Cluster Conquest"
-msgstr "征服星團"
+msgstr "征服星群"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.LAND_ON_ALL_WORLDS_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.LAND_ON_ALL_WORLDS_DESCRIPTION"
 msgid "Land dupes or rovers on all worlds in the cluster."
-msgstr "複製人或漫遊者已登陸小行星團中所有的星球。"
+msgstr "複製人或漫遊者已登陸小行星群中所有的星球。"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.MASTERPIECE_PAINTING
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.MASTERPIECE_PAINTING"
@@ -18877,12 +18877,12 @@ msgstr "擁有大師作品的技能的複製人，完成一幅傑作品質的畫
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.MINE_THE_GAP
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.MINE_THE_GAP"
 msgid "Mine the Gap"
-msgstr "太空採礦"
+msgstr "取自深空"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.MINE_THE_GAP_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.MINE_THE_GAP_DESCRIPTION"
 msgid "Mine 1,000,000kg from space POIs."
-msgstr "從太空中開採 1,000,000kg 的資源。"
+msgstr "從太空中開採 1,000,000 公斤的資源。"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.NO_PLANTERBOX
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.NO_PLANTERBOX"
@@ -18897,7 +18897,7 @@ msgstr "複製人消耗 400,000 大卡的食物，而不在種植箱、農耕磚
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.PLUMBED_WASHROOMS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.PLUMBED_WASHROOMS"
 msgid "Royal Flush"
-msgstr "高級浴室"
+msgstr "皇家禮遇"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.PLUMBED_WASHROOMS_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.PLUMBED_WASHROOMS_DESCRIPTION"
@@ -18927,7 +18927,7 @@ msgstr "發射第一枚火箭進入太空。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.REACTOR_USAGE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.REACTOR_USAGE"
 msgid "That's Rad!"
-msgstr "是粒子!!!"
+msgstr "是粒子!!"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.REACTOR_USAGE_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.REACTOR_USAGE_DESCRIPTION"
@@ -19172,7 +19172,7 @@ msgstr "無農作物"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.OPEN_TEMPORAL_TEAR
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.OPEN_TEMPORAL_TEAR"
 msgid "Open the Temporal Tear by finding and activating the Temporal Tear Opener"
-msgstr "找到並啟動時間裂縫傳送器可以打開時間裂縫"
+msgstr "找到並啟動時間裂縫開啟器可以打開時間裂縫"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.PLATFORM_UNLOCKING_DISABLED
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.PLATFORM_UNLOCKING_DISABLED"
@@ -19277,7 +19277,7 @@ msgstr "至少一位活的複製人生存到 100 周期。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SURVIVE_IN_A_ROCKET
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SURVIVE_IN_A_ROCKET"
 msgid "Morale High Ground"
-msgstr "高士氣"
+msgstr "士氣制高點"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SURVIVE_IN_A_ROCKET_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SURVIVE_IN_A_ROCKET_DESCRIPTION"
@@ -26207,7 +26207,7 @@ msgstr "尋找安全區中"
 #. STRINGS.DUPLICANTS.CHORES.MOVETOSAFETY.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.MOVETOSAFETY.TOOLTIP"
 msgid "This Duplicant is <style=\"KKeyword\">Idle</style> and looking for somewhere safe and comfy to chill"
-msgstr "複製人目前 <style=\"KKeyword\">閒置</style> 中，正在尋安全且舒適的地方"
+msgstr "複製人目前 <style=\"KKeyword\">閒置</style> 中，正在尋找安全且舒適的地方"
 
 #. STRINGS.DUPLICANTS.CHORES.MUSH.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.MUSH.NAME"
@@ -29492,7 +29492,7 @@ msgstr "刺激"
 #. STRINGS.DUPLICANTS.MODIFIERS.MECHANICALSURFBOARD.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MECHANICALSURFBOARD.TOOLTIP"
 msgid "This Duplicant had a rad experience on a surfboard.\n\nLeisure activities increase Duplicants' <style=\"KKeyword\">Morale</style>"
-msgstr "此複製人在沖浪板上有個很棒的體驗！\n\n休閒活動提升複製人的 <style=\"KKeyword\">士氣</style>"
+msgstr "此複製人在衝浪板上有個很棒的體驗！\n\n休閒活動提升複製人的 <style=\"KKeyword\">士氣</style>"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MECHANICALSURFING.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MECHANICALSURFING.NAME"
@@ -29512,7 +29512,7 @@ msgstr "醫療床休息"
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICALCOT.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICALCOT.TOOLTIP"
 msgid "Bedrest is improving this Duplicant's physical recovery time"
-msgstr "醫療床會加快複製人外傷的恢復時間"
+msgstr "醫療床會加快複製人身體的恢復時間"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICALCOTDOCTORED.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICALCOTDOCTORED.NAME"
@@ -29632,7 +29632,7 @@ msgstr "中度創傷"
 #. STRINGS.DUPLICANTS.MODIFIERS.MODERATEWOUNDS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MODERATEWOUNDS.TOOLTIP"
 msgid "This Duplicant sustained injuries that are affecting their ability to work"
-msgstr "此複製人持續受傷正影響他們的工作能力"
+msgstr "此複製人帶傷上陣，影響了他們的工作能力"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MODIFIER_FORMAT
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MODIFIER_FORMAT"
@@ -29762,7 +29762,7 @@ msgstr "個人美夢破碎"
 #. STRINGS.DUPLICANTS.MODIFIERS.PEOPLETOOCLOSEWHILESLEEPING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PEOPLETOOCLOSEWHILESLEEPING.TOOLTIP"
 msgid "This Duplicant had to sleep too close to others and it was awkward for them"
-msgstr "此複製人不得不和其他們睡在一起，那會吵醒他們"
+msgstr "此複製人不得不和其他人睡在一起，這對他們來說很尷尬"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.PLAYEDARCADE.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PLAYEDARCADE.NAME"
@@ -29837,7 +29837,7 @@ msgstr "極端輻射病"
 #. STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREEXTREME.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREEXTREME.TOOLTIP"
 msgid "Dangerously high <style=\"KKeyword\">Radiation</style> exposure is making this Duplicant wish they'd never been printed"
-msgstr "危險的高<style=\"KKeyword\">輻射</style>暴露讓這個複製人不想活了"
+msgstr "危險的高 <style=\"KKeyword\">輻射</style> 暴露讓這個複製人不想活了"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREMAJOR.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREMAJOR.NAME"
@@ -29847,7 +29847,7 @@ msgstr "嚴重輻射病"
 #. STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREMAJOR.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREMAJOR.TOOLTIP"
 msgid "Significant <style=\"KKeyword\">Radiation</style> exposure has left this Duplicant totally exhausted"
-msgstr "嚴重的<style=\"KKeyword\">輻射</style>暴露讓這個複製人精疲力盡"
+msgstr "嚴重的 <style=\"KKeyword\">輻射</style> 暴露讓這個複製人精疲力盡"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREMINOR.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREMINOR.NAME"
@@ -29857,12 +29857,12 @@ msgstr "輕微輻射病"
 #. STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREMINOR.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREMINOR.TOOLTIP"
 msgid "A bit of <style=\"KKeyword\">Radiation</style> exposure has made this Duplicant feel sluggish"
-msgstr "輕微的<style=\"KKeyword\">輻射</style>暴露讓這個複製人感覺呆滯"
+msgstr "輕微的 <style=\"KKeyword\">輻射</style> 暴露讓這個複製人感覺呆滯"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.RECENTLYPARTIED.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RECENTLYPARTIED.NAME"
 msgid "Partied Hard"
-msgstr "參加派對"
+msgstr "派對狂歡"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.RECENTLYPARTIED.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RECENTLYPARTIED.TOOLTIP"
@@ -30107,7 +30107,7 @@ msgstr "重度創傷"
 #. STRINGS.DUPLICANTS.MODIFIERS.SEVEREWOUNDS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SEVEREWOUNDS.TOOLTIP"
 msgid "This Duplicant sustained serious injuries that are impacting their work and well-being"
-msgstr "此複製人持續受傷將會影響工作與健康"
+msgstr "此複製人受了重傷，影響了他們的工作和健康"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SHOWERED.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SHOWERED.NAME"
@@ -30457,7 +30457,7 @@ msgstr "休息時間"
 #. STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.TOOLTIP"
 msgid "This Duplicant has a bit of time off from work to attend to personal matters"
-msgstr "此複製人有一點時間休息，處理一下個人的生理需求"
+msgstr "此複製人有一點時間休息，能夠處理個人的生理需求"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TOXICENVIRONMENT.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOXICENVIRONMENT.NAME"
@@ -30862,7 +30862,7 @@ msgstr "Ada"
 #. STRINGS.DUPLICANTS.PERSONALITIES.AMARI.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.AMARI.DESC"
 msgid "{0}s likes to keep the peace. Ironically, they're a riot at parties."
-msgstr "{0}喜歡保持平靜。 但具有諷刺意味的是，他們在聚會時非常吵鬧。"
+msgstr "{0}喜歡保持平靜。 但具有諷刺意味的是，她們在聚會時非常吵鬧。"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.AMARI.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.AMARI.NAME"
@@ -30902,7 +30902,7 @@ msgstr "Banhi"
 #. STRINGS.DUPLICANTS.PERSONALITIES.BUBBLES.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.BUBBLES.DESC"
 msgid "This {0} is constantly challenging others to fight her, regardless of whether or not she can actually take them."
-msgstr "{0} 總是在挑釁別人跟他打架，不管他是否有把握能打倒對方。"
+msgstr "{0} 總是在挑釁別人跟她打架，不管她是否有把握能打倒對方。"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.BUBBLES.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.BUBBLES.NAME"
@@ -30922,7 +30922,7 @@ msgstr "Burt"
 #. STRINGS.DUPLICANTS.PERSONALITIES.CAMILLE.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.CAMILLE.DESC"
 msgid "This {0} loves anything that makes her feel nostalgic, including things that haven't aged well."
-msgstr "這個 {0} 喜歡任何讓他感到懷舊的東西，包括那些還不顯老的東西。"
+msgstr "這個 {0} 喜歡任何讓他感到懷舊的東西，包括那些還不嫌老的東西。"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.CAMILLE.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.CAMILLE.NAME"
@@ -30932,7 +30932,7 @@ msgstr "Camille"
 #. STRINGS.DUPLICANTS.PERSONALITIES.CATALINA.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.CATALINA.DESC"
 msgid "A {0} is admired by all for her seemingly tireless work ethic. Little do people know, she's dying on the inside."
-msgstr "{0} 因為那看起來努力不懈的工作態度受到大家敬佩。但很少人知道，他的內心正在死亡。"
+msgstr "{0} 因為那看起來努力不懈的工作態度受到大家敬佩。但很少人知道，她的內心正在死亡。"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.CATALINA.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.CATALINA.NAME"
@@ -31052,7 +31052,7 @@ msgstr "Liam"
 #. STRINGS.DUPLICANTS.PERSONALITIES.LINDSAY.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.LINDSAY.DESC"
 msgid "A {0} is a charming woman, unless you make the mistake of messing with one of her friends."
-msgstr "{0} 是個可愛又迷人的女人，只要你不跟他的朋友亂搞關係的話。"
+msgstr "{0} 是個可愛又迷人的女人，只要你不跟她的朋友亂搞關係的話。"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.LINDSAY.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.LINDSAY.NAME"
@@ -31072,7 +31072,7 @@ msgstr "Mae"
 #. STRINGS.DUPLICANTS.PERSONALITIES.MARIE.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.MARIE.DESC"
 msgid "This {0} is positively glowing! What's her secret? Radioactive isotopes, of course."
-msgstr "{0} 閃耀著幸福的光芒。他的秘密是什麼？放射性同位素，肯定是這樣的。"
+msgstr "{0} 閃耀著幸福的光芒。她的秘密是什麼？放射性同位素，肯定是這樣的。"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.MARIE.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.MARIE.NAME"
@@ -31132,7 +31132,7 @@ msgstr "Nikola"
 #. STRINGS.DUPLICANTS.PERSONALITIES.NISBET.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.NISBET.DESC"
 msgid "This {0} likes to punch people to show her affection. Everyone's too afraid of her to tell her it hurts."
-msgstr "{0} 喜歡透過凌虐別人來表達他的關愛，所有人因懼怕他而不敢叫疼。"
+msgstr "{0} 喜歡透過凌虐別人來表達她的關愛，所有人因懼怕她而不敢叫疼。"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.NISBET.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.NISBET.NAME"
@@ -31152,7 +31152,7 @@ msgstr "Otto"
 #. STRINGS.DUPLICANTS.PERSONALITIES.PEI.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.PEI.DESC"
 msgid "Every {0} spends at least half the day pretending that they remember what they came into this room for."
-msgstr "每個{0}都會花至少半天的時間假裝他們記得他們來到這個房間的目的。"
+msgstr "每個 {0} 都會花至少半天的時間假裝她們記得她們來到這個房間的目的。"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.PEI.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.PEI.NAME"
@@ -31162,7 +31162,7 @@ msgstr "Pei"
 #. STRINGS.DUPLICANTS.PERSONALITIES.QUINN.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.QUINN.DESC"
 msgid "This {0}'s favorite genre of music is \"festive power ballad\"."
-msgstr "這個{0}最喜歡的音樂類型是“節日力量民謠”。"
+msgstr "這個 {0} 最喜歡的音樂類型是「節日力量民謠」。"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.QUINN.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.QUINN.NAME"
@@ -31672,7 +31672,7 @@ msgstr "此技能目前沒有什麼作用。"
 #. STRINGS.DUPLICANTS.ROLES.USELESSSKILL.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.USELESSSKILL.NAME"
 msgid "W.I.P. Skill"
-msgstr "W.I.P. 技能"
+msgstr "未定技能"
 
 #. STRINGS.DUPLICANTS.SKILLGROUPS.ART.NAME
 msgctxt "STRINGS.DUPLICANTS.SKILLGROUPS.ART.NAME"
@@ -31757,7 +31757,7 @@ msgstr "呼吸"
 #. STRINGS.DUPLICANTS.STATS.BREATH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATS.BREATH.TOOLTIP"
 msgid "A Duplicant with zero remaining <style=\"KKeyword\">Breath</style> will begin suffocating"
-msgstr "複製人 <style=\"KKeyword\">缺氧</style> 時會開始窒息"
+msgstr "複製人缺乏 <style=\"KKeyword\">呼吸</style> 時會開始窒息"
 
 #. STRINGS.DUPLICANTS.STATS.CALORIES.NAME
 msgctxt "STRINGS.DUPLICANTS.STATS.CALORIES.NAME"
@@ -31817,7 +31817,7 @@ msgstr "生命值"
 #. STRINGS.DUPLICANTS.STATS.HITPOINTS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATS.HITPOINTS.TOOLTIP"
 msgid "When Duplicants reach zero <style=\"KKeyword\">Health</style> they become incapacitated and require rescuing\n\nWhen critters reach zero <style=\"KKeyword\">Health</style>, they will die immediately"
-msgstr "當複製人的 <style=\"KKeyword\">生命值</style> 降到零時，會變成沒有行為能力並且需要治療\n\n當動物的 <style=\"KKeyword\">生命值</style> 降到零時，它們會立即死亡"
+msgstr "當複製人的 <style=\"KKeyword\">生命值</style> 降到零時，會變成沒有行為能力並且需要治療\n\n當小動物的 <style=\"KKeyword\">生命值</style> 降到零時，它們會立即死亡"
 
 #. STRINGS.DUPLICANTS.STATS.RADIATIONBALANCE.CURRENT_EXPOSURE
 msgctxt "STRINGS.DUPLICANTS.STATS.RADIATIONBALANCE.CURRENT_EXPOSURE"
@@ -31877,47 +31877,47 @@ msgstr "複製人在 <style=\"KKeyword\">壓力</style> 達 100% 時，會表現
 #. STRINGS.DUPLICANTS.STATS.SUBJECTS.CREATURE
 msgctxt "STRINGS.DUPLICANTS.STATS.SUBJECTS.CREATURE"
 msgid "critter"
-msgstr "動物"
+msgstr " 隻小動物"
 
 #. STRINGS.DUPLICANTS.STATS.SUBJECTS.CREATURE_PLURAL
 msgctxt "STRINGS.DUPLICANTS.STATS.SUBJECTS.CREATURE_PLURAL"
 msgid "critters"
-msgstr " 隻動物"
+msgstr " 隻小動物"
 
 #. STRINGS.DUPLICANTS.STATS.SUBJECTS.CREATURE_POSSESSIVE
 msgctxt "STRINGS.DUPLICANTS.STATS.SUBJECTS.CREATURE_POSSESSIVE"
 msgid "critter's"
-msgstr " 隻動物"
+msgstr "小動物的"
 
 #. STRINGS.DUPLICANTS.STATS.SUBJECTS.DUPLICANT
 msgctxt "STRINGS.DUPLICANTS.STATS.SUBJECTS.DUPLICANT"
 msgid "Duplicant"
-msgstr "複製人"
+msgstr " 個複製人"
 
 #. STRINGS.DUPLICANTS.STATS.SUBJECTS.DUPLICANT_PLURAL
 msgctxt "STRINGS.DUPLICANTS.STATS.SUBJECTS.DUPLICANT_PLURAL"
 msgid "Duplicants"
-msgstr "複製人數量"
+msgstr " 個複製人"
 
 #. STRINGS.DUPLICANTS.STATS.SUBJECTS.DUPLICANT_POSSESSIVE
 msgctxt "STRINGS.DUPLICANTS.STATS.SUBJECTS.DUPLICANT_POSSESSIVE"
 msgid "Duplicant's"
-msgstr "複製人數量"
+msgstr "複製人的"
 
 #. STRINGS.DUPLICANTS.STATS.SUBJECTS.PLANT
 msgctxt "STRINGS.DUPLICANTS.STATS.SUBJECTS.PLANT"
 msgid "plant"
-msgstr "植物"
+msgstr " 株植物"
 
 #. STRINGS.DUPLICANTS.STATS.SUBJECTS.PLANT_PLURAL
 msgctxt "STRINGS.DUPLICANTS.STATS.SUBJECTS.PLANT_PLURAL"
 msgid "plants"
-msgstr "植物"
+msgstr " 株植物"
 
 #. STRINGS.DUPLICANTS.STATS.SUBJECTS.PLANT_POSESSIVE
 msgctxt "STRINGS.DUPLICANTS.STATS.SUBJECTS.PLANT_POSESSIVE"
 msgid "plant's"
-msgstr "植物"
+msgstr "植物的"
 
 #. STRINGS.DUPLICANTS.STATS.TEMPERATURE.NAME
 msgctxt "STRINGS.DUPLICANTS.STATS.TEMPERATURE.NAME"
@@ -35557,7 +35557,7 @@ msgstr "<link=\"AEROGEL\">氣凝膠</link>"
 #. STRINGS.ELEMENTS.ALGAE.DESC
 msgctxt "STRINGS.ELEMENTS.ALGAE.DESC"
 msgid "Algae is a cluster of non-motile, single-celled lifeforms.\n\nIt can be used to produce <link=\"OXYGEN\">Oxygen</link> when used in a <link=\"MINERALDEOXIDIZER\">Oxygen Diffuser</link>"
-msgstr "藻類是一種不會移動的單細胞生物。\n\n將其投入 <link=\"MINERALDEOXIDIZER\">氧氣擴散機</link>，可以生產 <link=\"OXYGEN\">氧氣</link>"
+msgstr "藻類是一群不會移動的單細胞生物。\n\n將其投入 <link=\"MINERALDEOXIDIZER\">氧氣擴散機</link>，可以生產 <link=\"OXYGEN\">氧氣</link>"
 
 #. STRINGS.ELEMENTS.ALGAE.NAME
 msgctxt "STRINGS.ELEMENTS.ALGAE.NAME"
@@ -39242,7 +39242,7 @@ msgstr "【除錯】切換一般模式"
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLECLUSTERFX
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLECLUSTERFX"
 msgid "Debug Cluster FX"
-msgstr "【除錯】星團 FX"
+msgstr "【除錯】星群 FX"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEFASTWORKERS
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEFASTWORKERS"
@@ -42787,7 +42787,7 @@ msgstr "噴發 {StudiedDetails}"
 #. STRINGS.MISC.STATUSITEMS.SPOUTEMITTING.STUDIED
 msgctxt "STRINGS.MISC.STATUSITEMS.SPOUTEMITTING.STUDIED"
 msgid "(idle in <b>{Time}</b>)"
-msgstr "（<b>{Time}</b> 後閒置）"
+msgstr "（<b>{Time}</b> 後歇息）"
 
 #. STRINGS.MISC.STATUSITEMS.SPOUTEMITTING.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.SPOUTEMITTING.TOOLTIP"
@@ -42797,7 +42797,7 @@ msgstr "此間歇泉正在噴發"
 #. STRINGS.MISC.STATUSITEMS.SPOUTIDLE.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.SPOUTIDLE.NAME"
 msgid "Idle {StudiedDetails}"
-msgstr "閒置 {StudiedDetails}"
+msgstr "歇息 {StudiedDetails}"
 
 #. STRINGS.MISC.STATUSITEMS.SPOUTIDLE.STUDIED
 msgctxt "STRINGS.MISC.STATUSITEMS.SPOUTIDLE.STUDIED"
@@ -42817,7 +42817,7 @@ msgstr "壓力過高 {StudiedDetails}"
 #. STRINGS.MISC.STATUSITEMS.SPOUTOVERPRESSURE.STUDIED
 msgctxt "STRINGS.MISC.STATUSITEMS.SPOUTOVERPRESSURE.STUDIED"
 msgid "(idle in <b>{Time}</b>)"
-msgstr "（<b>{Time}</b> 後閒置）"
+msgstr "（<b>{Time}</b> 後歇息）"
 
 #. STRINGS.MISC.STATUSITEMS.SPOUTOVERPRESSURE.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.SPOUTOVERPRESSURE.TOOLTIP"
@@ -42907,7 +42907,7 @@ msgstr "時空裂縫打開"
 #. STRINGS.MISC.STATUSITEMS.TEAROPEN.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.TEAROPEN.TOOLTIP"
 msgid "An open passage through spacetime"
-msgstr "穿過時間的通道"
+msgstr "穿越時空的通道"
 
 #. STRINGS.MISC.STATUSITEMS.TREEFILTERABLETAGS.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.TREEFILTERABLETAGS.NAME"
@@ -43127,7 +43127,7 @@ msgstr "調味料"
 #. STRINGS.MISC.TAGS.CROPSEEDS
 msgctxt "STRINGS.MISC.TAGS.CROPSEEDS"
 msgid "Crop Seeds"
-msgstr "作物种子"
+msgstr "作物種子"
 
 #. STRINGS.MISC.TAGS.CRUSHABLE
 msgctxt "STRINGS.MISC.TAGS.CRUSHABLE"
@@ -43747,7 +43747,7 @@ msgstr "哀傷的"
 #. STRINGS.NAMEGEN.COLONY.ADJECTIVE.LEAKY
 msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.LEAKY"
 msgid "Leaky"
-msgstr "易洩密的"
+msgstr "易漏的"
 
 #. STRINGS.NAMEGEN.COLONY.ADJECTIVE.LOVELIEST
 msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.LOVELIEST"
@@ -43767,7 +43767,7 @@ msgstr "幸運的"
 #. STRINGS.NAMEGEN.COLONY.ADJECTIVE.LUNAR
 msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.LUNAR"
 msgid "Lunar"
-msgstr "月球上的"
+msgstr "月亮的"
 
 #. STRINGS.NAMEGEN.COLONY.ADJECTIVE.LUXURY
 msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.LUXURY"
@@ -44017,7 +44017,7 @@ msgstr "衛城"
 #. STRINGS.NAMEGEN.COLONY.NOUN.ANTFARM
 msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.ANTFARM"
 msgid "Antfarm"
-msgstr "蟲蟻農場"
+msgstr "螞蟻農場"
 
 #. STRINGS.NAMEGEN.COLONY.NOUN.ASTEROID
 msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.ASTEROID"
@@ -44042,7 +44042,7 @@ msgstr "旅"
 #. STRINGS.NAMEGEN.COLONY.NOUN.BUNKER
 msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.BUNKER"
 msgid "Bunker"
-msgstr "地堡"
+msgstr "碉堡"
 
 #. STRINGS.NAMEGEN.COLONY.NOUN.BURROW
 msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.BURROW"
@@ -44257,7 +44257,7 @@ msgstr "太空訓練營"
 #. STRINGS.NAMEGEN.COLONY.NOUN.SPACEJUNK
 msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.SPACEJUNK"
 msgid "Spacejunk"
-msgstr "太空廢棄物"
+msgstr "太空垃圾"
 
 #. STRINGS.NAMEGEN.COLONY.NOUN.SPACEPAD
 msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.SPACEPAD"
@@ -45502,7 +45502,7 @@ msgstr "\nHW\nGQ\nNA\nTH\nZL\nEV\nSK\nFP\nNJ\nRA\nUO\nXE"
 #. STRINGS.NAMEGEN.GRAVE.EPITAPHS.ALL_GOOD_THINGS
 msgctxt "STRINGS.NAMEGEN.GRAVE.EPITAPHS.ALL_GOOD_THINGS"
 msgid "All good things must come to an end."
-msgstr "所有好的事情，總有結束的一天。"
+msgstr "所有美好的事物，總有結束的一天。"
 
 #. STRINGS.NAMEGEN.GRAVE.EPITAPHS.ASHES_TO_ASHES_STARDUST_TO_STARDUST
 msgctxt "STRINGS.NAMEGEN.GRAVE.EPITAPHS.ASHES_TO_ASHES_STARDUST_TO_STARDUST"
@@ -45512,7 +45512,7 @@ msgstr "塵歸塵，土歸土。"
 #. STRINGS.NAMEGEN.GRAVE.EPITAPHS.FREE_FROM_THE_CLUTCHES_OF_TIME
 msgctxt "STRINGS.NAMEGEN.GRAVE.EPITAPHS.FREE_FROM_THE_CLUTCHES_OF_TIME"
 msgid "Free from the clutches of time."
-msgstr "逃離了時間的摧殘。"
+msgstr "擺脫時間的束縛。"
 
 #. STRINGS.NAMEGEN.GRAVE.EPITAPHS.GO_ON_WITHOUT_ME
 msgctxt "STRINGS.NAMEGEN.GRAVE.EPITAPHS.GO_ON_WITHOUT_ME"
@@ -45552,12 +45552,12 @@ msgstr "感謝老天。他們開始有味道了。"
 #. STRINGS.NAMEGEN.GRAVE.EPITAPHS.THEY_DIED_DOING_WHAT_THEY_LOVED
 msgctxt "STRINGS.NAMEGEN.GRAVE.EPITAPHS.THEY_DIED_DOING_WHAT_THEY_LOVED"
 msgid "They died doing what they loved."
-msgstr "他們為了他們所熱衷的事而死。"
+msgstr "鞠躬盡瘁，死而後已"
 
 #. STRINGS.NAMEGEN.GRAVE.EPITAPHS.TO_DIG_TO_MUSH_NO_MORE
 msgctxt "STRINGS.NAMEGEN.GRAVE.EPITAPHS.TO_DIG_TO_MUSH_NO_MORE"
 msgid "To dig, to mush, no more."
-msgstr "挖掘，攪拌，沒有了。"
+msgstr "浮光掠影。"
 
 #. STRINGS.NAMEGEN.GRAVE.EPITAPHS.WHERE_ONE_ADVENTURE_ENDS_ANOTHER_BEGINS
 msgctxt "STRINGS.NAMEGEN.GRAVE.EPITAPHS.WHERE_ONE_ADVENTURE_ENDS_ANOTHER_BEGINS"
@@ -45582,7 +45582,7 @@ msgstr "他們是最棒的男孩。"
 #. STRINGS.NAMEGEN.GRAVE.PETITAPHS.GOOD_GIRL
 msgctxt "STRINGS.NAMEGEN.GRAVE.PETITAPHS.GOOD_GIRL"
 msgid "They were the goodest girl."
-msgstr "他們是最棒的女孩。"
+msgstr "她們是最棒的女孩。"
 
 #. STRINGS.NAMEGEN.LAUNCHPAD.FORMAT
 msgctxt "STRINGS.NAMEGEN.LAUNCHPAD.FORMAT"
@@ -46157,7 +46157,7 @@ msgstr "未分配研究人員"
 #. STRINGS.RESEARCH.MESSAGING.NO_RESEARCHER_SKILL_TOOLTIP
 msgctxt "STRINGS.RESEARCH.MESSAGING.NO_RESEARCHER_SKILL_TOOLTIP"
 msgid "The selected research focus requires {ResearchType} to complete\n\nOpen the <b>Skills Panel</b> {Hotkey/ManageSkills} and teach a Duplicant the {ResearchType} Skill to use this building"
-msgstr "此項研究重點需要 {ResearchType} 才能完成\n\n打開 <b>技能面板</b> {Hotkey/ManageSkills} 並教導複製人 {ResearchType} 技能來使用此建築"
+msgstr "此項研究需要 {ResearchType} 才能完成\n\n打開 <b>技能面板</b> {Hotkey/ManageSkills} 並教導複製人 {ResearchType} 技能來使用此建築"
 
 #. STRINGS.RESEARCH.MESSAGING.NORESEARCHSELECTED
 msgctxt "STRINGS.RESEARCH.MESSAGING.NORESEARCHSELECTED"
@@ -46867,7 +46867,7 @@ msgstr "<link=\"LIQUIDDISTRIBUTION\">液體分配</link>"
 #. STRINGS.RESEARCH.TECHS.LIQUIDFILTERING.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.LIQUIDFILTERING.DESC"
 msgid "Use pumped <link=\"ELEMENTSLIQUID\">Liquids</link> to filter out unwanted elements."
-msgstr "從管道的<link=\"ELEMENTSLIQUID\">液體</link>中過濾出不想要的元素。"
+msgstr "從管道的<link=\"ELEMENTSLIQUID\">液體</link>中過濾掉不想要的元素。"
 
 #. STRINGS.RESEARCH.TECHS.LIQUIDFILTERING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.LIQUIDFILTERING.NAME"
@@ -46987,7 +46987,7 @@ msgstr "<link=\"MULTIPLEXING\">多工</link>"
 #. STRINGS.RESEARCH.TECHS.NOTIFICATIONSYSTEMS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.NOTIFICATIONSYSTEMS.DESC"
 msgid "Get all the news you need to know about your complex colony."
-msgstr "獲取殖民地所有你需要知道的資訊。"
+msgstr "獲取複雜殖民地中，所有你需要知道的新聞。"
 
 #. STRINGS.RESEARCH.TECHS.NOTIFICATIONSYSTEMS.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.NOTIFICATIONSYSTEMS.NAME"
@@ -46997,7 +46997,7 @@ msgstr "<link=\"NOTIFICATIONSYSTEMS\">通知系統</link>"
 #. STRINGS.RESEARCH.TECHS.NUCLEARPROPULSION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARPROPULSION.DESC"
 msgid "Radical technology to get you to the stars."
-msgstr "輻射科技讓你進入星空。"
+msgstr "激進的技術帶你接觸繁星。"
 
 #. STRINGS.RESEARCH.TECHS.NUCLEARPROPULSION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARPROPULSION.NAME"
@@ -47107,7 +47107,7 @@ msgstr "<link=\"PRETTYGOODCONDUCTORS\">低電阻導體</link>"
 #. STRINGS.RESEARCH.TECHS.RADIATIONPROTECTION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.RADIATIONPROTECTION.DESC"
 msgid "Shield Duplicants from dangerous amounts of radiation."
-msgstr "在某些輻射劑量下保護複製人免於受到危害。"
+msgstr "保護複製人免於受到危險量的輻射。"
 
 #. STRINGS.RESEARCH.TECHS.RADIATIONPROTECTION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.RADIATIONPROTECTION.NAME"
@@ -47127,7 +47127,7 @@ msgstr "<link=\"RANCHING\">畜牧</link>"
 #. STRINGS.RESEARCH.TECHS.REFINEDOBJECTS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.REFINEDOBJECTS.DESC"
 msgid "Improve base infrastructure with new objects crafted from <link=\"REFINEDMETAL\">Refined Metals</link>."
-msgstr "使用 <link=\"REFINEDMETAL\">精煉金屬</link>，改善基礎設施。"
+msgstr "使用 <link=\"REFINEDMETAL\">精煉金屬</link> 製作新物品改善基礎設施。"
 
 #. STRINGS.RESEARCH.TECHS.REFINEDOBJECTS.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.REFINEDOBJECTS.NAME"
@@ -47157,7 +47157,7 @@ msgstr "<link=\"RENAISSANCEART\">文藝復興藝術</link>"
 #. STRINGS.RESEARCH.TECHS.RENEWABLEENERGY.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.RENEWABLEENERGY.DESC"
 msgid "Clean, sustainable <link=\"POWER\">Power</link> production that produces little to no waste."
-msgstr "製造乾淨持續的 <link=\"POWER\">電力</link>，幾乎沒有浪費。"
+msgstr "乾淨，可持續性的 <link=\"POWER\">電力</link>，幾或沒有廢棄物。"
 
 #. STRINGS.RESEARCH.TECHS.RENEWABLEENERGY.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.RENEWABLEENERGY.NAME"
@@ -48347,7 +48347,7 @@ msgstr "衝突的房間"
 #. STRINGS.ROOMS.TYPES.CREATUREPEN.DESCRIPTION
 msgctxt "STRINGS.ROOMS.TYPES.CREATUREPEN.DESCRIPTION"
 msgid "Critters don't mind it here, as long as things don't get too overcrowded.\n\nStabled critters can be tended at a Grooming Station to hasten their domestication and increase their production."
-msgstr "小動物不太在意待在這裡，只要不太擁擠即可。\n\n圈養的小動物可以在美容站被照料，以加速它們的馴化並增加它們的產量。"
+msgstr "小動物不太在意待在這裡，只要不太擁擠即可。\n\n圈養的小動物可以在畜牧站被照料，以加速它們的馴化並增加它們的產量。"
 
 #. STRINGS.ROOMS.TYPES.CREATUREPEN.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.CREATUREPEN.EFFECT"
@@ -48562,7 +48562,7 @@ msgstr "自然保護區"
 #. STRINGS.ROOMS.TYPES.NATURERESERVE.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.NATURERESERVE.TOOLTIP"
 msgid "A Nature Reserve will grant higher Morale bonuses to Duplicants than a Park"
-msgstr "自然保護區比公園對複製人有更高的士氣加成"
+msgstr "對複製人而言，自然保護區比公園有更高的士氣加成"
 
 #. STRINGS.ROOMS.TYPES.NEUTRAL.DESCRIPTION
 msgctxt "STRINGS.ROOMS.TYPES.NEUTRAL.DESCRIPTION"
@@ -70092,7 +70092,7 @@ msgstr "允許儲存資源類別為 {0} 的任何東西"
 #. STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.MATERIALBUTTONTOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.MATERIALBUTTONTOOLTIP"
 msgid "Add or remove this material from storage"
-msgstr "從先儲存箱增加或移除原料"
+msgstr "從儲存箱增加或移除原料"
 
 #. STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.ONLYALLOWSPICEDITEMSBUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.ONLYALLOWSPICEDITEMSBUTTON"
@@ -70717,12 +70717,12 @@ msgstr "取消此拆除命令"
 #. STRINGS.UI.USERMENUACTIONS.DEMOLISH.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.DEMOLISH.NAME"
 msgid "Demolish"
-msgstr "拆除遺跡"
+msgstr "拆毀遺跡"
 
 #. STRINGS.UI.USERMENUACTIONS.DEMOLISH.NAME_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.DEMOLISH.NAME_OFF"
 msgid "Cancel Demolition"
-msgstr "取消拆除遺跡"
+msgstr "取消拆毀"
 
 #. STRINGS.UI.USERMENUACTIONS.DEMOLISH.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.DEMOLISH.TOOLTIP"
