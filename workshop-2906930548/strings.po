@@ -567,7 +567,7 @@ msgstr "設置"
 #. STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.READY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.READY.TOOLTIP"
 msgid "This trap has been set and is ready to catch a <style=\"KKeyword\">Critter</style>"
-msgstr "此陷阱已經架設完畢，等待 <style=\"KKeyword\">動物</style>上門"
+msgstr "此陷阱已經架設完畢，等待 <style=\"KKeyword\">小動物</style>上門"
 
 #. STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.SPRUNG.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.SPRUNG.NAME"
@@ -587,7 +587,7 @@ msgstr "目前狀態：上線"
 #. STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORMORPHMODE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORMORPHMODE.TOOLTIP"
 msgid "This building is ready to manipulate <style=\"KKeyword\">Critter</style> DNA"
-msgstr "這個建築已經準備好操縱<style=\"KKeyword\">小動物</style>的基因了"
+msgstr "這個建築已經準備好操縱 <style=\"KKeyword\">小動物</style> 的基因了"
 
 #. STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORMORPHMODELOCKED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORMORPHMODELOCKED.NAME"
@@ -597,7 +597,7 @@ msgstr "目前狀態：離線"
 #. STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORMORPHMODELOCKED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORMORPHMODELOCKED.TOOLTIP"
 msgid "This building cannot operate until it collects more <style=\"KKeyword\">Critter</style> DNA"
-msgstr "這個建築在收集更多的<style=\"KKeyword\">小動物</style>基因前不能工作"
+msgstr "這個建築在收集更多的 <style=\"KKeyword\">小動物</style> 基因前不能工作"
 
 #. STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORPROGRESS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORPROGRESS.NAME"
@@ -612,7 +612,7 @@ msgstr "無物種資料"
 #. STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORPROGRESS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORPROGRESS.TOOLTIP"
 msgid "This building requires data from multiple <style=\"KKeyword\">Critter</style> species to unlock its genetic manipulator\n\nSpecies scanned:"
-msgstr "這個建築需要多種<style=\"KKeyword\">小動物</style>的資料來解鎖其基因操作器\n\n已掃描的物種："
+msgstr "這個建築需要多種 <style=\"KKeyword\">小動物</style> 的資料來解鎖其基因操作器\n\n已掃描的物種："
 
 #. STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORWAITING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORWAITING.NAME"
@@ -622,7 +622,7 @@ msgstr "等待小動物"
 #. STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORWAITING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORWAITING.TOOLTIP"
 msgid "This building is waiting for a <style=\"KKeyword\">Critter</style> to get sucked into its scanning area"
-msgstr "這個建築正在等待<style=\"KKeyword\">小動物</style>被吸入掃描區域"
+msgstr "這個建築正在等待 <style=\"KKeyword\">小動物</style> 被吸入掃描區域"
 
 #. STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORWORKING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORWORKING.NAME"
@@ -717,7 +717,7 @@ msgstr "需要挖掘技能"
 #. STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESSKILLPERK.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESSKILLPERK.TOOLTIP"
 msgid "Only Duplicants with one of the following <style=\"KKeyword\">Skills</style> can mine this material:\n{Skills}"
-msgstr "只有在擁有以下 <style=\"KKeyword\">技能</style> 的複製人，可以挖掘此原料：\n{Skills}"
+msgstr "只有擁有以下 <style=\"KKeyword\">技能</style> 的複製人，可以挖掘此材料：\n{Skills}"
 
 #. STRINGS.BUILDING.STATUSITEMS.DIGUNREACHABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGUNREACHABLE.NAME"
@@ -952,7 +952,7 @@ msgstr "已武裝"
 #. STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.ARMED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.ARMED.TOOLTIP"
 msgid "Stand back, this baby's ready to blow!"
-msgstr "退後，這個炸藥準備爆炸！"
+msgstr "退後，這個炸藥即將爆炸！"
 
 #. STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.COUNTDOWN.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.COUNTDOWN.NAME"
@@ -962,17 +962,17 @@ msgstr "倒數：{0}"
 #. STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.COUNTDOWN.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.COUNTDOWN.TOOLTIP"
 msgid "<b>{0}</b> seconds until detonation"
-msgstr "<b>{0}</b> 秒，直到爆炸"
+msgstr "距離爆炸還有 <b>{0}</b> 秒"
 
 #. STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.DUPE_DANGER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.DUPE_DANGER.NAME"
 msgid "Duplicant Preservation Override"
-msgstr "複製保護機制"
+msgstr "複製人保護機制"
 
 #. STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.DUPE_DANGER.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.DUPE_DANGER.TOOLTIP"
 msgid "Explosive disabled due to close Duplicant proximity"
-msgstr "炸彈太靠近複製人而無法使用"
+msgstr "炸彈因太靠近複製人而被停用"
 
 #. STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.EXPLODING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EXCAVATOR_BOMB.EXPLODING.NAME"
@@ -1012,17 +1012,17 @@ msgstr "此建築物接受變異種子"
 #. STRINGS.BUILDING.STATUSITEMS.FABRICATORACCEPTSMUTANTSEEDS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FABRICATORACCEPTSMUTANTSEEDS.TOOLTIP"
 msgid "This fabricator is allowed to use <style=\"KKeyword\">Mutant Seeds</style> as recipe ingredients"
-msgstr "這個建築物允許使用變異種子作為訂單原料"
+msgstr "這個建築物允許使用變異種子作為訂單材料"
 
 #. STRINGS.BUILDING.STATUSITEMS.FABRICATOREMPTY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FABRICATOREMPTY.NAME"
 msgid "Waiting For Materials"
-msgstr "等待原料"
+msgstr "等待材料"
 
 #. STRINGS.BUILDING.STATUSITEMS.FABRICATOREMPTY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FABRICATOREMPTY.TOOLTIP"
 msgid "Fabrication will begin once materials have been delivered"
-msgstr "一旦原料送達將會開始製造"
+msgstr "一旦材料送達將會開始製造"
 
 #. STRINGS.BUILDING.STATUSITEMS.FABRICATORIDLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FABRICATORIDLE.NAME"
@@ -1062,7 +1062,7 @@ msgstr "全部的貨港已裝滿"
 #. STRINGS.BUILDING.STATUSITEMS.FLIGHTALLCARGOFULL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLIGHTALLCARGOFULL.TOOLTIP"
 msgid "Rocket cannot store any more materials"
-msgstr "火箭無法儲存更多的原料"
+msgstr "火箭無法儲存更多的材料"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLIGHTCARGOREMAINING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLIGHTCARGOREMAINING.NAME"
@@ -1072,7 +1072,7 @@ msgstr "貨艙剩餘容量：{0}"
 #. STRINGS.BUILDING.STATUSITEMS.FLIGHTCARGOREMAINING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLIGHTCARGOREMAINING.TOOLTIP"
 msgid "Rocket can store up to {0} more materials"
-msgstr "火箭可儲存 {0} 的原料"
+msgstr "火箭可儲存 {0} 的材料"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLOODED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLOODED.NAME"
@@ -1322,7 +1322,7 @@ msgstr "已地理調整（{0}/{1}）"
 #. STRINGS.BUILDING.STATUSITEMS.GEYSER_GEOTUNED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GEYSER_GEOTUNED.TOOLTIP"
 msgid "This geyser is being boosted by {0} out {1} of <style=\"KKeyword\">Geotuners</style>"
-msgstr "這個間歇泉已由{1}個<style=\"KKeyword\">地理調諧儀</style>中的{0}個加強了"
+msgstr "這個間歇泉已由{1}個 <style=\"KKeyword\">地理調諧儀</style> 中的 {0} 個加強了"
 
 #. STRINGS.BUILDING.STATUSITEMS.GRAVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GRAVE.NAME"
@@ -1822,7 +1822,7 @@ msgstr "建築物缺乏資源"
 #. STRINGS.BUILDING.STATUSITEMS.MATERIALSUNAVAILABLE.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MATERIALSUNAVAILABLE.NOTIFICATION_TOOLTIP"
 msgid "Crucial materials are unavailable or beyond reach for these buildings:"
-msgstr "這些建築物無法使用或取得關鍵原料："
+msgstr "這些建築物無法使用或取得關鍵材料："
 
 #. STRINGS.BUILDING.STATUSITEMS.MATERIALSUNAVAILABLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MATERIALSUNAVAILABLE.TOOLTIP"
@@ -1842,7 +1842,7 @@ msgstr "資源不足\n{ItemsRemaining}"
 #. STRINGS.BUILDING.STATUSITEMS.MATERIALSUNAVAILABLEFORREFILL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MATERIALSUNAVAILABLEFORREFILL.TOOLTIP"
 msgid "This building will soon require materials that are unavailable"
-msgstr "此建築即將停止運作，需要補充原料"
+msgstr "此建築即將停止運作，需要補充材料"
 
 #. STRINGS.BUILDING.STATUSITEMS.MEGABRAINNOTENOUGHOXYGEN.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MEGABRAINNOTENOUGHOXYGEN.NAME"
@@ -2082,7 +2082,7 @@ msgstr "需要資源"
 #. STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCE.TOOLTIP"
 msgid "This building is missing required materials"
-msgstr "此建築缺少所需原料"
+msgstr "此建築缺少所需材料"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.LINE_ITEM
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.LINE_ITEM"
@@ -2097,7 +2097,7 @@ msgstr "資源不足\n{ResourcesRequired}"
 #. STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.TOOLTIP"
 msgid "The mass of material that was delivered to this building was too low\n\nDeliver more material to run this building"
-msgstr "此建築的原料不足\n\n供應更多原料才能運作此建築"
+msgstr "此建築的材料不足\n\n供應更多材料才能運作此建築"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSEED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSEED.NAME"
@@ -3667,12 +3667,12 @@ msgstr "• {0}"
 #. STRINGS.BUILDING.STATUSITEMS.WAITINGFORMATERIALS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WAITINGFORMATERIALS.NAME"
 msgid "Awaiting Delivery\n{ItemsRemaining}"
-msgstr "等待原料運送\n{ItemsRemaining}"
+msgstr "等待材料運送\n{ItemsRemaining}"
 
 #. STRINGS.BUILDING.STATUSITEMS.WAITINGFORMATERIALS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WAITINGFORMATERIALS.TOOLTIP"
 msgid "These materials will be delivered once a Duplicant is available"
-msgstr "複製人有空時會運送這些原料"
+msgstr "複製人有空時會運送這些材料"
 
 #. STRINGS.BUILDING.STATUSITEMS.WAITINGFORRADIATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WAITINGFORRADIATION.NAME"
@@ -3692,12 +3692,12 @@ msgstr "• <style=\"KKeyword\">{0}</style>：<b>{1}</b>"
 #. STRINGS.BUILDING.STATUSITEMS.WAITINGFORREPAIRMATERIALS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WAITINGFORREPAIRMATERIALS.NAME"
 msgid "Awaiting Repair Delivery\n{ItemsRemaining}\n"
-msgstr "等待運送修理原料\n{ItemsRemaining}\n"
+msgstr "等待運送修理材料\n{ItemsRemaining}\n"
 
 #. STRINGS.BUILDING.STATUSITEMS.WAITINGFORREPAIRMATERIALS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WAITINGFORREPAIRMATERIALS.TOOLTIP"
 msgid "These materials must be delivered before this building can be repaired"
-msgstr "這些原料都送達了才能修理此建築"
+msgstr "這些材料都送達了才能修理此建築"
 
 #. STRINGS.BUILDING.STATUSITEMS.WARPCONDUITPARTNERDISABLED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WARPCONDUITPARTNERDISABLED.NAME"
@@ -3897,7 +3897,7 @@ msgstr "停用手動"
 #. STRINGS.BUILDINGS.AUTOMATABLE.ENABLE_AUTOMATIONONLY.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.AUTOMATABLE.ENABLE_AUTOMATIONONLY.TOOLTIP"
 msgid "This building's storage may be accessed by Auto-Sweepers only\n\nDuplicants will not be permitted to add or remove materials from this building"
-msgstr "此建築的儲物箱只能被自動手臂存取\n\n複製人將不允許從此建築物存放或取出原料"
+msgstr "此建築的儲物箱只能被自動手臂存取\n\n複製人將不允許從此建築物存放或取出材料"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.BAD_INPUT_ELEMENT
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.BAD_INPUT_ELEMENT"
@@ -4207,7 +4207,7 @@ msgstr "隨時點擊建築物，觀看機械礦工的開採範圍。"
 #. STRINGS.BUILDINGS.PREFABS.AUTOMINER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.AUTOMINER.EFFECT"
 msgid "Automatically digs out all materials in a set range."
-msgstr "在設定的範圍內自動挖掘所有原料。"
+msgstr "在設定的範圍內自動挖掘所有材料。"
 
 #. STRINGS.BUILDINGS.PREFABS.AUTOMINER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.AUTOMINER.NAME"
@@ -6707,12 +6707,12 @@ msgstr "多工能列印機無法印製有機物質。"
 #. STRINGS.BUILDINGS.PREFABS.GENERICFABRICATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERICFABRICATOR.EFFECT"
 msgid "Converts <link=\"RAWMINERAL\">Raw Mineral</link> into unique materials and objects."
-msgstr "轉換 <link=\"RAWMINERAL\">原料</link> 成為特殊材料或物品。。"
+msgstr "轉換 <link=\"RAWMINERAL\">礦物材料</link> 成為特殊材料或物品。。"
 
 #. STRINGS.BUILDINGS.PREFABS.GENERICFABRICATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERICFABRICATOR.NAME"
 msgid "<link=\"GENERICFABRICATOR\">Omniprinter</link>"
-msgstr "<link=\"GENERICFABRICATOR\">多工能列印機</link>"
+msgstr "<link=\"GENERICFABRICATOR\">多功能列印機</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GENESHUFFLER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENESHUFFLER.DESC"
@@ -6747,7 +6747,7 @@ msgstr "目標間歇泉在噴發時會收到儲存的加強資料。"
 #. STRINGS.BUILDINGS.PREFABS.GEOTUNER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GEOTUNER.EFFECT"
 msgid "Increases the <link=\"HEAT\">Temperature</link> and output of an analyzed <link=\"GEYSERS\">Geyser</link>.\n\nMultiple Geotuners can be directed at a single <link=\"GEYSERS\">Geyser</link> anywhere on an asteroid."
-msgstr "提高已分析<link=\"GEYSERS\">間歇泉</link>的產出及其<link=\"HEAT\">溫度</link>。\n\n多個地理調協儀可以指向小行星上的同一個<link=\"GEYSERS\">間歇泉</link>。"
+msgstr "提高已分析 <link=\"GEYSERS\">間歇泉</link> 的產出及其 <link=\"HEAT\">溫度</link>。\n\n多個地理調協儀可以指向小行星上的同一個 <link=\"GEYSERS\">間歇泉</link>。"
 
 #. STRINGS.BUILDINGS.PREFABS.GEOTUNER.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GEOTUNER.LOGIC_PORT"
@@ -6757,12 +6757,12 @@ msgstr "間歇泉噴發監視器"
 #. STRINGS.BUILDINGS.PREFABS.GEOTUNER.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.GEOTUNER.LOGIC_PORT_ACTIVE"
 msgid "Sends a <b><style=\"logic_on\">Green Signal</style></b> when geyser is erupting"
-msgstr "當間歇泉噴發時，輸出<b><style=\"logic_on\">綠色信號</style></b>"
+msgstr "當間歇泉噴發時，輸出 <b><style=\"logic_on\">綠色信號</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.GEOTUNER.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.GEOTUNER.LOGIC_PORT_INACTIVE"
 msgid "Otherwise, sends a <b><style=\"logic_off\">Red Signal</style></b>"
-msgstr "否則，輸出<b><style=\"logic_off\">紅色信號</style></b>"
+msgstr "否則，輸出 <b><style=\"logic_off\">紅色信號</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.GEOTUNER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GEOTUNER.NAME"
@@ -10227,7 +10227,7 @@ msgstr "自動分配機可儲存與倒出少量資源。"
 #. STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.EFFECT"
 msgid "Stores any <link=\"ELEMENTSSOLID\">Solid Materials</link> delivered to it by Duplicants.\n\nDumps stored materials back into the world when it receives a <b><style=\"logic_on\">Green Signal</style></b>."
-msgstr "儲存複製人運來 <link=\"ELEMENTSSOLID\">固體材料</link>。\n\n當收到 <b><style=\"logic_on\">綠色訊號</style></b> 時，倒出儲存的原料回到世界中。"
+msgstr "儲存複製人運來 <link=\"ELEMENTSSOLID\">固體材料</link>。\n\n當收到 <b><style=\"logic_on\">綠色訊號</style></b> 時，倒出儲存的材料回到世界中。"
 
 #. STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.LOGIC_PORT"
@@ -10237,12 +10237,12 @@ msgstr "傾倒觸發器"
 #. STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.LOGIC_PORT_ACTIVE"
 msgid "<b><style=\"logic_on\">Green Signal</style></b>: Dump all stored materials"
-msgstr "<b><style=\"logic_on\">綠色訊號</style></b>：倒出所有儲存的原料"
+msgstr "<b><style=\"logic_on\">綠色訊號</style></b>：倒出所有儲存的材料"
 
 #. STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.LOGIC_PORT_INACTIVE"
 msgid "<b><style=\"logic_off\">Red Signal</style></b>: Store materials"
-msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：儲存原料"
+msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：儲存材料"
 
 #. STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.NAME"
@@ -10677,7 +10677,7 @@ msgstr "塑膠可用於製作獨特的建築物和物品。"
 #. STRINGS.BUILDINGS.PREFABS.POLYMERIZER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.POLYMERIZER.EFFECT"
 msgid "Converts <link=\"PETROLEUM\">Petroleum</link> into raw <link=\"POLYPROPYLENE\">Plastic</link>."
-msgstr "轉換 <link=\"PETROLEUM\">石油</link> 成為 <link=\"POLYPROPYLENE\">塑膠</link> 原料。"
+msgstr "轉換 <link=\"PETROLEUM\">石油</link> 成為 <link=\"POLYPROPYLENE\">塑膠</link> 。"
 
 #. STRINGS.BUILDINGS.PREFABS.POLYMERIZER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.POLYMERIZER.NAME"
@@ -10912,7 +10912,7 @@ msgstr "一個大型，現代化的雕塑座落在此大聽的中央。\n\n一�
 #. STRINGS.BUILDINGS.PREFABS.PROPFACILITYSTATUE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYSTATUE.NAME"
 msgid "Gravitas Monument"
-msgstr "引力記念碑"
+msgstr "引力紀念碑"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPFACILITYTABLE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYTABLE.DESC"
@@ -11402,7 +11402,7 @@ msgstr "碎石機可以將礦物材料加工成許多不同的資源。"
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.EFFECT"
 msgid "Inefficiently produces refined materials from raw resources.\n\nDuplicants will not fabricate items unless recipes are queued."
-msgstr "將原料低效率的生產成精煉原料。\n\n佇列中沒有訂單，複製人將不會製作。"
+msgstr "將材料低效率的生產成精煉材料。\n\n佇列中沒有訂單，複製人將不會製作。"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.LIME_FROM_LIMESTONE_RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.LIME_FROM_LIMESTONE_RECIPE_DESCRIPTION"
@@ -12192,7 +12192,7 @@ msgstr "<link=\"SOLIDCARGOBAYSMALL\">貨艙</link>"
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUIT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUIT.DESC"
 msgid "Rails move materials where they'll be needed most, saving Duplicants the walk."
-msgstr "軌道運送原料到所需的地方，節省複製人的移動時間。"
+msgstr "軌道運送材料到所需的地方，節省複製人的移動時間。"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUIT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUIT.EFFECT"
@@ -12207,7 +12207,7 @@ msgstr "<link=\"SOLIDCONDUIT\">輸送帶軌道</link>"
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITBRIDGE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITBRIDGE.DESC"
 msgid "Separating rail systems helps ensure materials go to the intended destinations."
-msgstr "分離軌道系統有助於確保原料到達預定目的地。"
+msgstr "分離軌道系統有助於確保材料到達預定目的地。"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITBRIDGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITBRIDGE.EFFECT"
@@ -12282,7 +12282,7 @@ msgstr "<link=\"SOLIDCONDUITELEMENTSENSOR\">輸送帶元素感測器</link>"
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.DESC"
 msgid "Material filters can be used to determine what resources are sent down the rail."
-msgstr "原料過濾器可以決定那些資源可以放到軌道上。"
+msgstr "材料過濾器可以決定那些資源可以放到軌道上。"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.EFFECT"
@@ -12297,7 +12297,7 @@ msgstr "<link=\"SOLIDCONDUITINBOX\">輸送帶裝載機</link>"
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITOUTBOX.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITOUTBOX.DESC"
 msgid "When materials reach the end of a rail they enter a receptacle to be used by Duplicants."
-msgstr "當原料到達軌道的末端時，會進入輸送帶儲存箱以供複製人使用。"
+msgstr "當材料到達軌道的末端時，會進入輸送帶儲存箱以供複製人使用。"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITOUTBOX.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITOUTBOX.EFFECT"
@@ -12367,12 +12367,12 @@ msgstr "篩選：{0}"
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.DESC"
 msgid "Conveyor Meters let an exact amount of materials pass through before shutting off."
-msgstr "在關閉前，輸送帶可以通過一定量的原料。"
+msgstr "在關閉前，輸送帶可以通過一定量的材料。"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.EFFECT"
 msgid "Connects to an <link=\"LOGIC\">Automation</link> grid to automatically turn material transfer off when the specified amount has passed through it."
-msgstr "連接 <link=\"LOGIC\">自動化</link> 系統，當指定量通過時關閉原料運送。"
+msgstr "連接 <link=\"LOGIC\">自動化</link> 系統，當指定量通過時關閉材料運送。"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.LOGIC_PORT_OUTPUT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.LOGIC_PORT_OUTPUT"
@@ -12427,12 +12427,12 @@ msgstr "打開／關閉"
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.LOGIC_PORT_ACTIVE"
 msgid "<b><style=\"logic_on\">Green Signal</style></b>: Allow material transport"
-msgstr "<b><style=\"logic_on\">綠色訊號</style></b>：允許原料運送"
+msgstr "<b><style=\"logic_on\">綠色訊號</style></b>：允許材料運送"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.LOGIC_PORT_INACTIVE"
 msgid "<b><style=\"logic_off\">Red Signal</style></b>: Prevent material transport"
-msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：禁止原料運送"
+msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：禁止材料運送"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.NAME"
@@ -12447,7 +12447,7 @@ msgstr "任何時間 點擊 自動手臂，都可以看到它的工作範圍。"
 #. STRINGS.BUILDINGS.PREFABS.SOLIDTRANSFERARM.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDTRANSFERARM.EFFECT"
 msgid "Automates <link=\"CHORES\">Sweeping</link> and <link=\"CHORES\">Supplying</link> errands by sucking up all nearby <link=\"DECOR\">Debris</link>.\n\nMaterials are automatically delivered to any <link=\"SOLIDCONDUITINBOX\">Conveyor Loader</link>, <link=\"SOLIDCONDUITOUTBOX\">Conveyor Receptacle</link>, storage, or buildings within range."
-msgstr "自動執行 <link=\"CHORES\">搬運</link> 與 <link=\"CHORES\">補給</link> 工作，透過吸取附近 <link=\"DECOR\">雜物</link> 的方式。\n\n原料自動運送到任何範圍內的 <link=\"SOLIDCONDUITINBOX\">輸送帶裝載機</link>、<link=\"SOLIDCONDUITOUTBOX\">輸送帶儲存箱</link>、儲存箱或是建築物。"
+msgstr "自動執行 <link=\"CHORES\">搬運</link> 與 <link=\"CHORES\">補給</link> 工作，透過吸取附近 <link=\"DECOR\">雜物</link> 的方式。\n\n材料自動運送到任何範圍內的 <link=\"SOLIDCONDUITINBOX\">輸送帶裝載機</link>、<link=\"SOLIDCONDUITOUTBOX\">輸送帶儲存箱</link>、儲存箱或是建築物。"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDTRANSFERARM.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDTRANSFERARM.NAME"
@@ -12457,7 +12457,7 @@ msgstr "<link=\"SOLIDTRANSFERARM\">自動手臂</link>"
 #. STRINGS.BUILDINGS.PREFABS.SOLIDVENT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDVENT.DESC"
 msgid "When materials reach the end of a rail they are dropped back into the world."
-msgstr "當原料到達軌道的終點時會掉回世界中。"
+msgstr "當材料到達軌道的終點時會掉回世界中。"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDVENT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDVENT.EFFECT"
@@ -12512,7 +12512,7 @@ msgstr "生產能夠加強由需要技能的烹飪台準備的<link=\"FOOD\">食
 #. STRINGS.BUILDINGS.PREFABS.SPICEGRINDER.INGREDIENTHEADER
 msgctxt "STRINGS.BUILDINGS.PREFABS.SPICEGRINDER.INGREDIENTHEADER"
 msgid "Ingredients per 1000kcal:"
-msgstr "每1000千卡所需原料："
+msgstr "每 1000 千卡所需原料："
 
 #. STRINGS.BUILDINGS.PREFABS.SPICEGRINDER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SPICEGRINDER.NAME"
@@ -12762,12 +12762,12 @@ msgstr "<link=\"SUNLAMP\">日光燈</link>"
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.DESC"
 msgid "Rare materials can be procured through rocket missions into space."
-msgstr "稀有原料可以透過火箭任務從太空中取得。"
+msgstr "稀有材料可以透過火箭任務從太空中取得。"
 
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.EFFECT"
 msgid "Processes <link=\"RAREMATERIALS\">Rare Materials</link> into advanced industrial goods.\n\nRare materials can be retrieved from space missions.\n\nDuplicants will not fabricate items unless recipes are queued."
-msgstr "加工 <link=\"RAREMATERIALS\">稀有原料</link> 製成高級工業產品。\n\n稀有原料可從太空任務取得。\n\n佇列中沒有訂單，複製人將不會生產。"
+msgstr "加工 <link=\"RAREMATERIALS\">稀有材料</link> 製成高級工業產品。\n\n稀有材料可從太空任務取得。\n\n佇列中沒有訂單，複製人將不會生產。"
 
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.FULLERENE_RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.FULLERENE_RECIPE_DESCRIPTION"
@@ -14127,7 +14127,7 @@ msgstr "主旨：devon 的部落格"
 #. STRINGS.CODEX.A3_HUSBANDRYNOTES.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A3_HUSBANDRYNOTES.BODY.CONTAINER1"
 msgid "<smallcaps>[Log Fragmentation Detected]\n[Voice Recognition Unavailable]</smallcaps>\n\n[LOG BEGINS]\n\n...The Hatch has been selected for development due to its naturally wide range of potential food sources.\n\nEnergy production is our primary goal, but augmentation to allow for the consumption of non-organic materials is a more attainable first step, and will have additional uses for waste disposal...\n\n[LOG ENDS]\n------------------\n"
-msgstr "<smallcaps>【偵測到日誌碎片】\n【語音辨識不可用】</smallcaps>\n\n【日誌開始】\n\n…選擇哈奇是因為其廣範的潛在食物來源。\n\n生產能源是我們的主要目標，但增加無機原料的使用是實現的第一步，而且廢棄物將會有更多的用途…\n\n【日誌結束】\n------------------\n"
+msgstr "<smallcaps>【偵測到日誌碎片】\n【語音辨識不可用】</smallcaps>\n\n【日誌開始】\n\n…選擇哈奇是因為其廣範的潛在食物來源。\n\n生產能源是我們的主要目標，但增加無機材料的使用是實現的第一步，而且廢棄物將會有更多的用途…\n\n【日誌結束】\n------------------\n"
 
 #. STRINGS.CODEX.A3_HUSBANDRYNOTES.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A3_HUSBANDRYNOTES.BODY.CONTAINER2"
@@ -16007,7 +16007,7 @@ msgstr "未發現的資料"
 #. STRINGS.CODEX.HEADERS.SUBENTRIES
 msgctxt "STRINGS.CODEX.HEADERS.SUBENTRIES"
 msgid "Entries ({0}/{1})"
-msgstr "條目 ({0}/{1})"
+msgstr "條目（{0}/{1}）"
 
 #. STRINGS.CODEX.HEADERS.TECH_UNLOCKS
 msgctxt "STRINGS.CODEX.HEADERS.TECH_UNLOCKS"
@@ -17307,7 +17307,7 @@ msgstr "核能"
 #. STRINGS.CODEX.RADIATION.PARAGRAPH_1
 msgctxt "STRINGS.CODEX.RADIATION.PARAGRAPH_1"
 msgid "When transporting radioactive materials such as <link=\"URANIUMORE\">Uranium</link>, care must be taken to avoid exposing outside objects to <link=\"RADIATIONSICKNESS\">Radioactive Contaminants</link>.\n\nUsing proper transportation vessels, such as those which are lined with <link=\"LEAD\">Lead</link>, is crucial to ensuring that Duplicants avoid <link=\"RADIATIONSICKNESS\">Radiation Sickness</link>."
-msgstr "當在運送像是<link=\"URANIUMORE\">鈾礦</link>等的輻射原料時，必須小心避免物件暴露造成<link=\"RADIATIONSICKNESS\">放射性汙染</link>。\n\n使用適合的運輸容器，像是<link=\"LEAD\">鉛製容器</link>，可以確保複製人避免<link=\"RADIATIONSICKNESS\">輻射中毒</link>。"
+msgstr "當在運送像是<link=\"URANIUMORE\">鈾礦</link>等的輻射材料時，必須小心避免物件暴露造成<link=\"RADIATIONSICKNESS\">放射性汙染</link>。\n\n使用適合的運輸容器，像是<link=\"LEAD\">鉛製容器</link>，可以確保複製人避免<link=\"RADIATIONSICKNESS\">輻射中毒</link>。"
 
 #. STRINGS.CODEX.RADIATION.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.RADIATION.PARAGRAPH_2"
@@ -17447,7 +17447,7 @@ msgstr "<smallcaps>圖為：「長髮」哈奇變種</smallcaps>"
 #. STRINGS.CODEX.SAGE.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.SAGE.BODY.CONTAINER2"
 msgid "It is difficult to classify the Hatch's diet as the term \"omnivore\" does not extend to the non-organic materials it is capable of ingesting.\n\nA more appropriate term is \"totumvore\", given that it can consume and find nutritional value in nearly every known substance."
-msgstr "難以為哈奇的飲食進行分類，\n因為專業術語上所謂的「雜食動物」未包含非有機原料。\n\n更合適的術語是「全食性動物」，\n因為它可以食用並找到所有已知物質的營養價值。"
+msgstr "難以替哈奇的飲食進行分類，\n因為專業術語上所謂的「雜食動物」未包含非有機材料。\n\n更合適的術語是「全食性動物」，\n因為它可以食用並找到所有已知物質的營養價值。"
 
 #. STRINGS.CODEX.SAGE.SUBTITLE
 msgctxt "STRINGS.CODEX.SAGE.SUBTITLE"
@@ -18632,7 +18632,7 @@ msgstr "紅燈，綠燈"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.AUTOMATE_A_BUILDING_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.AUTOMATE_A_BUILDING_DESCRIPTION"
 msgid "Automate a building using sensors or switches from the Automation tab in the Build Menu."
-msgstr "使用從自動化選項中自的感測器或開關將建築物自動化。"
+msgstr "使用自動化建築中自動感測器或開關，將建築物自動化。"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_COMFORTS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_COMFORTS"
@@ -18667,7 +18667,7 @@ msgstr "規劃 {1} 個 {0}，提升複製人的士氣。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_OUTSIDE_BIOME
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_OUTSIDE_BIOME"
 msgid "Outdoor Renovations"
-msgstr "室外裝修"
+msgstr "戶外裝修"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_OUTSIDE_BIOME_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_OUTSIDE_BIOME_DESCRIPTION"
@@ -18737,7 +18737,7 @@ msgstr "讓一位複製人吃掉用電烤爐或瓦斯爐所製作的任何料理
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.CURED_DISEASE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.CURED_DISEASE"
 msgid "They Got Better"
-msgstr "他們好多了"
+msgstr "妙手回春"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.CURED_DISEASE_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.CURED_DISEASE_DESCRIPTION"
@@ -18822,7 +18822,7 @@ msgstr "好蛋"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.HATCH_A_CRITTER_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.HATCH_A_CRITTER_DESCRIPTION"
 msgid "Hatch a new critter morph from an egg."
-msgstr "孵化一隻新動物變種。"
+msgstr "孵化一隻新的小動物變種。"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.HATCH_REFINEMENT
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.HATCH_REFINEMENT"
@@ -18842,17 +18842,17 @@ msgstr "簡單生活"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.IDLE_DUPLICANTS_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.IDLE_DUPLICANTS_DESCRIPTION"
 msgid "Have Auto-Sweepers complete more deliveries to machines than Duplicants over 5 cycles."
-msgstr "連續 5 周期，讓自動手臂完成運送原料給機器的工作比複製人多。"
+msgstr "連續 5 周期，讓自動手臂完成運送材料給機器的工作比複製人多。"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.INSPECT_POI
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.INSPECT_POI"
 msgid "Ghosts of Gravitas"
-msgstr "莊嚴的幽靈"
+msgstr "寒灰更然"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.INSPECT_POI_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.INSPECT_POI_DESCRIPTION"
 msgid "Recover a Database entry by inspecting facility ruins."
-msgstr "在遺跡中恢復資料庫記錄。"
+msgstr "在遺跡中恢復一條資料庫記錄。"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.LAND_ON_ALL_WORLDS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.LAND_ON_ALL_WORLDS"
@@ -18927,12 +18927,12 @@ msgstr "發射第一枚火箭進入太空。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.REACTOR_USAGE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.REACTOR_USAGE"
 msgid "That's Rad!"
-msgstr "是粒子!!"
+msgstr "是粒子！"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.REACTOR_USAGE_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.REACTOR_USAGE_DESCRIPTION"
 msgid "Run a Research Reactor at full capacity for {0} cycles."
-msgstr "以滿負荷運行研究反應爐 {0} 個週期。"
+msgstr "研究反應爐以全速運轉 {0} 個週期。"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SIXKELVIN_BUILDING
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SIXKELVIN_BUILDING"
@@ -18967,7 +18967,7 @@ msgstr "本周自動手臂比複製人：{0}／{1}"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ARM_VS_DUPE_FETCHES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ARM_VS_DUPE_FETCHES"
 msgid "Deliveries this cycle: Auto-Sweepers: {1} Duplicants: {2}"
-msgstr "本周搬運：自動手臂：{1} 複製人：{2}"
+msgstr "本周運送：自動手臂：{1} 複製人：{2}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.AUTOMATE_A_BUILDING
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.AUTOMATE_A_BUILDING"
@@ -18987,7 +18987,7 @@ msgstr "在沒有傳送器的新世界上建造火箭發射台"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILING_BEDS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILING_BEDS"
 msgid "Built beds: {0} ({1} Needed)"
-msgstr "建造床： {0}（{1} 需要）"
+msgstr "建造床： {0}（需要 {1}）"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILT_A_ROOM
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILT_A_ROOM"
@@ -19012,12 +19012,12 @@ msgstr "建造一間廁所"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILT_OUTSIDE_START
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILT_OUTSIDE_START"
 msgid "Built outside the starting biome"
-msgstr "建造在生活區外面"
+msgstr "建造在起始生態區外面"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CALORIE_SURPLUS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CALORIE_SURPLUS"
 msgid "Calorie surplus: {0} / {1}"
-msgstr "卡路里過剩：{0}／{1}"
+msgstr "卡路里剩餘：{0}／{1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CALORIES_FROM_MEAT
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CALORIES_FROM_MEAT"
@@ -19037,7 +19037,7 @@ msgstr "穿衣服的複製人：{0}／{1}"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.COLLECT_ARTIFACTS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.COLLECT_ARTIFACTS"
 msgid "Study different Terrestrial Artifacts at the Artifact Analysis Station.\nUnique Terrestrial Artifacts studied: {collectedCount} / {neededCount}"
-msgstr "在文物研究站研究陸地文物。\n陸地文物研究：{collectedCount} / {neededCount}"
+msgstr "在文物分析站研究不同的陸地文物。\n已研究的獨特陸地文物：{collectedCount} / {neededCount}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.COLLECT_SPACE_ARTIFACTS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.COLLECT_SPACE_ARTIFACTS"
@@ -19057,7 +19057,7 @@ msgstr "消耗已準備好的物品 {0}"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CREATE_A_PAINTING
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CREATE_A_PAINTING"
 msgid "Created a masterpiece painting"
-msgstr "創作一幅傑作"
+msgstr "創作一幅傑作畫作"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CURED_DISEASE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CURED_DISEASE"
@@ -19122,7 +19122,7 @@ msgstr "從輻射蜂巢中萃取鈾而沒有被螫傷"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.HATCH_A_MORPH
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.HATCH_A_MORPH"
 msgid "Hatched a critter morph"
-msgstr "孵化一隻動物變種"
+msgstr "孵化一隻小動物變種"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.INVESTIGATE_A_POI
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.INVESTIGATE_A_POI"
@@ -19152,7 +19152,7 @@ msgstr "派出複製人進行單向任務，前往最遠的星圖目的地"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.MINE_SPACE_POI
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.MINE_SPACE_POI"
 msgid "Mined: {0:n} / {1:n} kg"
-msgstr "開採：{0:n} / {1:n} 公斤"
+msgstr "已開採：{0:n} / {1:n} 公斤"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.MORALE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.MORALE"
@@ -19172,7 +19172,7 @@ msgstr "無農作物"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.OPEN_TEMPORAL_TEAR
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.OPEN_TEMPORAL_TEAR"
 msgid "Open the Temporal Tear by finding and activating the Temporal Tear Opener"
-msgstr "找到並啟動時間裂縫開啟器可以打開時間裂縫"
+msgstr "找到並啟動時間裂縫開啟器，打開時間裂縫"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.PLATFORM_UNLOCKING_DISABLED
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.PLATFORM_UNLOCKING_DISABLED"
@@ -19312,7 +19312,7 @@ msgstr "獸語者"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.TAME_BASIC_CRITTERS_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.TAME_BASIC_CRITTERS_DESCRIPTION"
 msgid "Find and tame one of every critter species in the world. Default morphs only."
-msgstr "找到並馴化此世界中的每種動物各一隻。只需預設變種。"
+msgstr "找到並馴化此世界中的每種動物各一隻。只限預設變種。"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.TAME_GASSYMOO
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.TAME_GASSYMOO"
@@ -19337,7 +19337,7 @@ msgstr "複製人使用運輸管旅行了 10,000 公尺。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.TWENTY_DUPES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.TWENTY_DUPES"
 msgid "No Place Like Clone"
-msgstr "別再複製了"
+msgstr "無處不在"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.TWENTY_DUPES_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.TWENTY_DUPES_DESCRIPTION"
@@ -19347,7 +19347,7 @@ msgstr "在殖民地最少有 20 位活的複製人。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.VARIETY_OF_ROOMS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.VARIETY_OF_ROOMS"
 msgid "Get a Room"
-msgstr "建造房間"
+msgstr "具體而微"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.VARIETY_OF_ROOMS_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.VARIETY_OF_ROOMS_DESCRIPTION"
@@ -19362,7 +19362,7 @@ msgstr "宇宙考古"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.WINCONDITION_ARTIFACTS_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.WINCONDITION_ARTIFACTS_DESCRIPTION"
 msgid "Uncover the past to secure your future by fullfilling the requirements of the Exploration Imperative."
-msgstr "滿足逃離的需求，確保殖民地的資產。"
+msgstr "滿足探索命令的要求，揭開過去以確保您的未來。"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.WINCONDITION_LEAVE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.WINCONDITION_LEAVE"
@@ -19372,7 +19372,7 @@ msgstr "大逃亡"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.WINCONDITION_LEAVE_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.WINCONDITION_LEAVE_DESCRIPTION"
 msgid "Ensure your colony's legacy by fulfilling the requirements of the Escape Imperative."
-msgstr "滿足逃離的需求，確保殖民地的資產。"
+msgstr "滿足逃離命令的需求，以確保您殖民地的遺產。"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.WINCONDITION_STAY
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.WINCONDITION_STAY"
@@ -19382,7 +19382,7 @@ msgstr "甜蜜的家"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.WINCONDITION_STAY_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.WINCONDITION_STAY_DESCRIPTION"
 msgid "Establish your permanent home by fulfilling the requirements of the Colonize Imperative."
-msgstr "滿足殖民地的需求，建立永久的家園。"
+msgstr "滿足殖民命令的需求，建立您的永久家園。"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.NOT_ACHIEVED_EVER
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.NOT_ACHIEVED_EVER"
@@ -19457,7 +19457,7 @@ msgstr "研究 {artifactCount} 個陸地文物"
 #. STRINGS.COLONY_ACHIEVEMENTS.STUDY_ARTIFACTS.REQUIREMENTS.STUDY_ARTIFACTS_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.STUDY_ARTIFACTS.REQUIREMENTS.STUDY_ARTIFACTS_DESCRIPTION"
 msgid "Study {artifactCount} Terrestrial Artifacts at the Artifact Analysis Station"
-msgstr "在文物研究站，研究 {artifactCount} 個陸地文物"
+msgstr "在文物分析站，研究 {artifactCount} 個陸地文物"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.STUDY_ARTIFACTS.REQUIREMENTS.STUDY_SPACE_ARTIFACTS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.STUDY_ARTIFACTS.REQUIREMENTS.STUDY_SPACE_ARTIFACTS"
@@ -19467,7 +19467,7 @@ msgstr "研究 {artifactCount} 個太空文物"
 #. STRINGS.COLONY_ACHIEVEMENTS.STUDY_ARTIFACTS.REQUIREMENTS.STUDY_SPACE_ARTIFACTS_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.STUDY_ARTIFACTS.REQUIREMENTS.STUDY_SPACE_ARTIFACTS_DESCRIPTION"
 msgid "Study {artifactCount} Space Artifacts at the Artifact Analysis Station"
-msgstr "在文物研究站，研究 {artifactCount} 個太空文物"
+msgstr "在文物分析站，研究 {artifactCount} 個太空文物"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.STUDY_ARTIFACTS.VIDEO_TEXT.FIRST
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.STUDY_ARTIFACTS.VIDEO_TEXT.FIRST"
@@ -19572,7 +19572,7 @@ msgstr "這個小行星是我們的家。"
 #. STRINGS.CREATURES.ATTRIBUTES.FERTILITYDELTA.DESC
 msgctxt "STRINGS.CREATURES.ATTRIBUTES.FERTILITYDELTA.DESC"
 msgid "Determines the amount of time needed for a <style=\"KKeyword\">Critter</style> to lay new <style=\"KKeyword\">Eggs</style>."
-msgstr "決定 <style=\"KKeyword\">動物</style> 產下新 <style=\"KKeyword\">蛋</style> 的所需時間。"
+msgstr "決定 <style=\"KKeyword\">小動物</style> 產下新 <style=\"KKeyword\">蛋</style> 的所需時間。"
 
 #. STRINGS.CREATURES.ATTRIBUTES.FERTILITYDELTA.NAME
 msgctxt "STRINGS.CREATURES.ATTRIBUTES.FERTILITYDELTA.NAME"
@@ -19637,7 +19637,7 @@ msgstr "鱗片生長"
 #. STRINGS.CREATURES.ATTRIBUTES.SCALEGROWTHDELTA.TOOLTIP
 msgctxt "STRINGS.CREATURES.ATTRIBUTES.SCALEGROWTHDELTA.TOOLTIP"
 msgid "Determines how long this <style=\"KKeyword\">Critter's</style> scales will take to grow back."
-msgstr "決定 <style=\"KKeyword\">動物</style> 的毛髮重長回來的所需時間。"
+msgstr "決定 <style=\"KKeyword\">小動物</style> 的鱗片重長回來的所需時間。"
 
 #. STRINGS.CREATURES.ATTRIBUTES.VIABILITYDELTA.DESC
 msgctxt "STRINGS.CREATURES.ATTRIBUTES.VIABILITYDELTA.DESC"
@@ -20022,7 +20022,7 @@ msgstr "快樂"
 #. STRINGS.CREATURES.MODIFIERS.HAPPY.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.HAPPY.TOOLTIP"
 msgid "This critter's in high spirits because all of its needs are being met\n\nIt will produce more materials as a result"
-msgstr "此動物的所有需求都得到滿足，它感覺相當開心\n------------------\n它將會生產更多原料"
+msgstr "此動物的所有需求都得到滿足，它感覺相當開心\n------------------\n它將會生產更多材料"
 
 #. STRINGS.CREATURES.MODIFIERS.HUGGINGFRENZY.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.HUGGINGFRENZY.NAME"
@@ -20122,7 +20122,7 @@ msgstr "悲傷"
 #. STRINGS.CREATURES.MODIFIERS.UNHAPPY.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.UNHAPPY.TOOLTIP"
 msgid "This critter's feeling down because its needs aren't being met\n\nIt will produce less materials as a result"
-msgstr "此動物的心情失落，因為需求未得到滿足\n------------------\n因此它將會減少原料生產"
+msgstr "此動物的心情失落，因為需求未得到滿足\n------------------\n因此它將會減少材料生產"
 
 #. STRINGS.CREATURES.MODIFIERS.WILD.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.WILD.NAME"
@@ -21082,7 +21082,7 @@ msgstr "<link=\"HATCHMETAL\">金屬哈奇</link>"
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.BABY.DESC"
 msgid "A doofy little Sage Hatchling.\n\nIt matures into an adult Hatch morph, the <link=\"HATCHVEGGIE\">Sage Hatch</link>, which loves nibbling on organic materials."
-msgstr "一隻呆呆的小草食哈奇寶寶。\n\n它會成長為一隻成年的哈奇變種，<link=\"HATCHVEGGIE\">草食哈奇</link>，並喜歡吃有機原料。"
+msgstr "一隻呆呆的小草食哈奇寶寶。\n\n它會成長為一隻成年的哈奇變種，<link=\"HATCHVEGGIE\">草食哈奇</link>，並喜歡吃有機材料。"
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.BABY.NAME"
@@ -22447,7 +22447,7 @@ msgstr "馴化"
 #. STRINGS.CREATURES.STATS.DOMESTICATION.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATS.DOMESTICATION.TOOLTIP"
 msgid "Fully <style=\"KKeyword\">Tame</style> critters produce more materials than wild ones, and may even provide psychological benefits to my colony\n\nThis critter is <b>{0}</b> domesticated"
-msgstr "完全 <style=\"KKeyword\">馴化</style> 的動物會比野生動物生產更多的原料，甚至可能讓殖民地心情愉快。\n\n此動物被 <b>{0}</b> 馴化"
+msgstr "完全 <style=\"KKeyword\">馴化</style> 的動物會比野生動物生產更多的材料，甚至可能讓殖民地心情愉快。\n\n此動物被 <b>{0}</b> 馴化"
 
 #. STRINGS.CREATURES.STATS.ELEMENTGROWTH.NAME
 msgctxt "STRINGS.CREATURES.STATS.ELEMENTGROWTH.NAME"
@@ -23652,7 +23652,7 @@ msgstr "準備收成"
 #. STRINGS.CREATURES.STATUSITEMS.READYFORHARVEST.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.READYFORHARVEST.TOOLTIP"
 msgid "This plant can be harvested for materials"
-msgstr "此植物可收成為原料"
+msgstr "此植物可收成為材料"
 
 #. STRINGS.CREATURES.STATUSITEMS.RECEPTACLEINOPERATIONAL.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.RECEPTACLEINOPERATIONAL.NAME"
@@ -24327,7 +24327,7 @@ msgstr "細菌抗性"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.HAPPINESSDELTA.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HAPPINESSDELTA.DESC"
 msgid "Contented <link=\"CREATURES\">Critters</link> produce usable materials with increased frequency."
-msgstr "幸福的 <link=\"CREATURES\">動物</link> 生產可用原料的頻率會增加。"
+msgstr "幸福的 <link=\"CREATURES\">小動物</link> 生產可用材料的頻率會增加。"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.HAPPINESSDELTA.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HAPPINESSDELTA.NAME"
@@ -25292,7 +25292,7 @@ msgstr "建造支援"
 #. STRINGS.DUPLICANTS.CHORES.BUILDFETCH.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.BUILDFETCH.STATUS"
 msgid "Supplying construction materials"
-msgstr "補充建造原料"
+msgstr "補充建造材料"
 
 #. STRINGS.DUPLICANTS.CHORES.BUILDFETCH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.BUILDFETCH.TOOLTIP"
@@ -25402,7 +25402,7 @@ msgstr "補充食材"
 #. STRINGS.DUPLICANTS.CHORES.COOKFETCH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.COOKFETCH.TOOLTIP"
 msgid "This Duplicant is delivering materials required to cook <style=\"KKeyword\">Food</style>"
-msgstr "複製人正在運送必須的原料到料理 <style=\"KKeyword\">食物</style> 的地方"
+msgstr "複製人正在運送必須的材料到料理 <style=\"KKeyword\">食物</style> 的地方"
 
 #. STRINGS.DUPLICANTS.CHORES.COOLDOWN.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.COOLDOWN.NAME"
@@ -25767,12 +25767,12 @@ msgstr "製造供應 {0}"
 #. STRINGS.DUPLICANTS.CHORES.FABRICATEFETCH.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.FABRICATEFETCH.STATUS"
 msgid "Supplying fabrication materials"
-msgstr "補充製造原料"
+msgstr "補充製造材料"
 
 #. STRINGS.DUPLICANTS.CHORES.FABRICATEFETCH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.FABRICATEFETCH.TOOLTIP"
 msgid "This Duplicant is delivering materials required to fabricate new objects"
-msgstr "此複製人正在運送原料到製造新物品的地方"
+msgstr "此複製人正在運送材料到製造新物品的地方"
 
 #. STRINGS.DUPLICANTS.CHORES.FARMFETCH.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.FARMFETCH.NAME"
@@ -25782,12 +25782,12 @@ msgstr "農業供應"
 #. STRINGS.DUPLICANTS.CHORES.FARMFETCH.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.FARMFETCH.STATUS"
 msgid "Supplying farming materials"
-msgstr "供給農業原料"
+msgstr "供給農業材料"
 
 #. STRINGS.DUPLICANTS.CHORES.FARMFETCH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.FARMFETCH.TOOLTIP"
 msgid "This Duplicant is delivering farming materials where they're needed to tend <style=\"KKeyword\">Crops</style>"
-msgstr "此複製人正在運送農業原料到需要耕作的 <style=\"KKeyword\">農田</style>"
+msgstr "此複製人正在運送農業材料到需要耕作的 <style=\"KKeyword\">農田</style>"
 
 #. STRINGS.DUPLICANTS.CHORES.FETCH.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.FETCH.NAME"
@@ -25807,7 +25807,7 @@ msgstr "運送中"
 #. STRINGS.DUPLICANTS.CHORES.FETCH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.FETCH.TOOLTIP"
 msgid "This Duplicant is delivering materials where they need to go"
-msgstr "此複製人正在運送原料到需要的地方"
+msgstr "此複製人正在運送材料到需要的地方"
 
 #. STRINGS.DUPLICANTS.CHORES.FETCHCREATURE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.FETCHCREATURE.NAME"
@@ -25822,7 +25822,7 @@ msgstr "正在安置動動"
 #. STRINGS.DUPLICANTS.CHORES.FETCHCREATURE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.FETCHCREATURE.TOOLTIP"
 msgid "This Duplicant is moving a <style=\"KKeyword\">Critter</style> to a new location"
-msgstr "此複製人正在移動一隻 <style=\"KKeyword\">動物</style> 到新的地點"
+msgstr "此複製人正在移動一隻 <style=\"KKeyword\">小動物</style> 到新的地點"
 
 #. STRINGS.DUPLICANTS.CHORES.FETCHCRITICAL.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.FETCHCRITICAL.NAME"
@@ -25837,12 +25837,12 @@ msgstr "維生供應給 {0}"
 #. STRINGS.DUPLICANTS.CHORES.FETCHCRITICAL.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.FETCHCRITICAL.STATUS"
 msgid "Supplying critical materials"
-msgstr "補充關鍵原料"
+msgstr "補充關鍵材料"
 
 #. STRINGS.DUPLICANTS.CHORES.FETCHCRITICAL.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.FETCHCRITICAL.TOOLTIP"
 msgid "This Duplicant is delivering materials required to perform <style=\"KKeyword\">Life Support</style> Errands"
-msgstr "此複製人正在運送原料給 <style=\"KKeyword\">生存</style> 工作"
+msgstr "此複製人正在運送材料給 <style=\"KKeyword\">生存</style> 工作"
 
 #. STRINGS.DUPLICANTS.CHORES.FETCHRANCHING.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.FETCHRANCHING.NAME"
@@ -25852,12 +25852,12 @@ msgstr "畜牧供應"
 #. STRINGS.DUPLICANTS.CHORES.FETCHRANCHING.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.FETCHRANCHING.STATUS"
 msgid "Supplying ranching materials"
-msgstr "供給畜牧原料"
+msgstr "供給畜牧材料"
 
 #. STRINGS.DUPLICANTS.CHORES.FETCHRANCHING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.FETCHRANCHING.TOOLTIP"
 msgid "This Duplicant is delivering materials for ranching activities"
-msgstr "此複製人正在為畜牧活動運送原料到"
+msgstr "此複製人正在為畜牧活動運送材料到"
 
 #. STRINGS.DUPLICANTS.CHORES.FLEE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.FLEE.NAME"
@@ -25982,7 +25982,7 @@ msgstr "要去收成"
 #. STRINGS.DUPLICANTS.CHORES.HARVEST.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.HARVEST.TOOLTIP"
 msgid "This Duplicant is harvesting usable materials from a mature <style=\"KKeyword\">Plant</style>"
-msgstr "此複製人正從成熟的 <style=\"KKeyword\">植物</style> 收獲可用原料"
+msgstr "此複製人正從成熟的 <style=\"KKeyword\">植物</style> 收獲可用材料"
 
 #. STRINGS.DUPLICANTS.CHORES.HEAL.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.HEAL.NAME"
@@ -26112,12 +26112,12 @@ msgstr "操作供應給 {0}"
 #. STRINGS.DUPLICANTS.CHORES.MACHINEFETCH.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.MACHINEFETCH.STATUS"
 msgid "Supplying operational materials"
-msgstr "供應操作原料"
+msgstr "供應操作材料"
 
 #. STRINGS.DUPLICANTS.CHORES.MACHINEFETCH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.MACHINEFETCH.TOOLTIP"
 msgid "This Duplicant is delivering materials to where they'll be needed for machine operation"
-msgstr "複製人正在運送原料到需要操作機器的地方"
+msgstr "複製人正在運送材料到需要操作機器的地方"
 
 #. STRINGS.DUPLICANTS.CHORES.MIGRATE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.MIGRATE.NAME"
@@ -26302,12 +26302,12 @@ msgstr "發電供應給 {0}"
 #. STRINGS.DUPLICANTS.CHORES.POWERFETCH.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.POWERFETCH.STATUS"
 msgid "Supplying power materials"
-msgstr "供應發電原料"
+msgstr "供應發電材料"
 
 #. STRINGS.DUPLICANTS.CHORES.POWERFETCH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.POWERFETCH.TOOLTIP"
 msgid "This Duplicant is delivering materials to where they'll be needed for <style=\"KKeyword\">Power</style>"
-msgstr "複製人正在運送原料到需要 <style=\"KKeyword\">發電</style> 的地方"
+msgstr "複製人正在運送材料到需要 <style=\"KKeyword\">發電</style> 的地方"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.ALLOWED_TO_DEPRESSURIZE
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.ALLOWED_TO_DEPRESSURIZE"
@@ -26682,7 +26682,7 @@ msgstr "正在畜牧"
 #. STRINGS.DUPLICANTS.CHORES.RANCH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.RANCH.TOOLTIP"
 msgid "This Duplicant is tending to a <style=\"KKeyword\">Critter</style>'s well-being"
-msgstr "此複製人正在照顧 <style=\"KKeyword\">動物</style>"
+msgstr "此複製人正在照顧 <style=\"KKeyword\">小動物</style>"
 
 #. STRINGS.DUPLICANTS.CHORES.RECHARGE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.RECHARGE.NAME"
@@ -26767,12 +26767,12 @@ msgstr "修理供應"
 #. STRINGS.DUPLICANTS.CHORES.REPAIRFETCH.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.REPAIRFETCH.STATUS"
 msgid "Supplying repair materials"
-msgstr "補充修理原料"
+msgstr "補充修理材料"
 
 #. STRINGS.DUPLICANTS.CHORES.REPAIRFETCH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.REPAIRFETCH.TOOLTIP"
 msgid "This Duplicant is delivering materials to where they'll be needed to repair buildings"
-msgstr "複製人正在運送原料給需要修理的建築"
+msgstr "複製人正在運送材料給需要修理的建築"
 
 #. STRINGS.DUPLICANTS.CHORES.RESCUEINCAPACITATED.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.RESCUEINCAPACITATED.NAME"
@@ -26812,12 +26812,12 @@ msgstr "研究供應"
 #. STRINGS.DUPLICANTS.CHORES.RESEARCHFETCH.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.RESEARCHFETCH.STATUS"
 msgid "Supplying research materials"
-msgstr "補充研究原料"
+msgstr "補充研究材料"
 
 #. STRINGS.DUPLICANTS.CHORES.RESEARCHFETCH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.RESEARCHFETCH.TOOLTIP"
 msgid "This Duplicant is delivering materials where they'll be needed to conduct <style=\"KKeyword\">Research</style>"
-msgstr "複製人正在運送原料到需要進行 <style=\"KKeyword\">研究</style> 的地方"
+msgstr "複製人正在運送材料到需要進行 <style=\"KKeyword\">研究</style> 的地方"
 
 #. STRINGS.DUPLICANTS.CHORES.RESTDUETODISEASE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.RESTDUETODISEASE.NAME"
@@ -26962,7 +26962,7 @@ msgstr "Zzzzzz..."
 #. STRINGS.DUPLICANTS.CHORES.STORAGEFETCH.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.STORAGEFETCH.NAME"
 msgid "Store Materials"
-msgstr "儲存原料"
+msgstr "儲存材料"
 
 #. STRINGS.DUPLICANTS.CHORES.STORAGEFETCH.REPORT_NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.STORAGEFETCH.REPORT_NAME"
@@ -26972,12 +26972,12 @@ msgstr "儲存 {0}"
 #. STRINGS.DUPLICANTS.CHORES.STORAGEFETCH.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.STORAGEFETCH.STATUS"
 msgid "Storing materials"
-msgstr "正在儲存原料"
+msgstr "正在儲存材料"
 
 #. STRINGS.DUPLICANTS.CHORES.STORAGEFETCH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.STORAGEFETCH.TOOLTIP"
 msgid "This Duplicant is moving materials into storage for later use"
-msgstr "複製人正在搬運原料儲存起來供後續使用"
+msgstr "複製人正在搬運材料儲存起來供後續使用"
 
 #. STRINGS.DUPLICANTS.CHORES.STRESSACTINGOUT.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSACTINGOUT.NAME"
@@ -31397,7 +31397,7 @@ msgstr "<link=\"MEDICINE1\">配藥</link>"
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.DESCRIPTION"
 msgid "Allows the excavation of <style=\"KKeyword\">Very Firm</style> materials such as <link=\"GRANITE\">Granite</link>"
-msgstr "可挖掘 <style=\"KKeyword\">很硬</style> 的原料，像是 <link=\"GRANITE\">花崗岩</link>"
+msgstr "可挖掘 <style=\"KKeyword\">很硬</style> 的材料，像是 <link=\"GRANITE\">花崗岩</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_MINER.NAME"
@@ -31437,7 +31437,7 @@ msgstr "<link=\"ARTING3\">大師作品</link>"
 #. STRINGS.DUPLICANTS.ROLES.MASTER_MINER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.MASTER_MINER.DESCRIPTION"
 msgid "Allows the excavation of dangerous materials like <link=\"CORIUM\">Corium</link>"
-msgstr "可挖掘危險的原料，像是 <link=\"CORIUM\">爐心熔融物</link>"
+msgstr "可挖掘危險的材料，像是 <link=\"CORIUM\">爐心熔融物</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.MASTER_MINER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.MASTER_MINER.NAME"
@@ -32052,7 +32052,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.BREAKDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BREAKDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.BREAKWORKSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BREAKWORKSTATUS.NAME"
@@ -32082,7 +32082,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.BUILDDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BUILDDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.BUILDING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BUILDING.NAME"
@@ -32122,7 +32122,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.CLEARDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.CLEARDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.CLEARING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.CLEARING.NAME"
@@ -32172,7 +32172,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.COOKDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.COOKDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.COOKING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.COOKING.NAME"
@@ -32232,7 +32232,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.DECONSTRUCTDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.DECONSTRUCTDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.DECONSTRUCTING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.DECONSTRUCTING.NAME"
@@ -32322,7 +32322,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.EATDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EATDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EATING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EATING.NAME"
@@ -32352,7 +32352,7 @@ msgstr "清空 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.EMPTYING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EMPTYING.TOOLTIP"
 msgid "This Duplicant is removing materials from the <b>{Target}</b>"
-msgstr "此複製人正在從 <b>{Target}</b> 移除原料"
+msgstr "此複製人正在從 <b>{Target}</b> 移除材料"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EMPTYSTORAGEDELIVERSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EMPTYSTORAGEDELIVERSTATUS.NAME"
@@ -32362,7 +32362,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.EMPTYSTORAGEDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EMPTYSTORAGEDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.ENTOMBEDCHORE.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ENTOMBEDCHORE.NAME"
@@ -32392,7 +32392,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.EQUIPDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EQUIPDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EQUIPPING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EQUIPPING.NAME"
@@ -32447,7 +32447,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.FABRICATEDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FABRICATEDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.FABRICATING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FABRICATING.NAME"
@@ -32472,12 +32472,12 @@ msgstr "戰鬥！"
 #. STRINGS.DUPLICANTS.STATUSITEMS.FIGHTING.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FIGHTING.NOTIFICATION_TOOLTIP"
 msgid "These Duplicants have engaged a <style=\"KKeyword\">Critter</style> in combat:"
-msgstr "這些複製人正在與一隻 <style=\"KKeyword\">動物</style> 戰鬥中："
+msgstr "這些複製人正在與一隻 <style=\"KKeyword\">小動物</style> 戰鬥中："
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.FIGHTING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FIGHTING.TOOLTIP"
 msgid "This Duplicant is attacking a <style=\"KKeyword\">Critter</style>!"
-msgstr "此複製人正在攻擊一隻 <style=\"KKeyword\">動物</style>！"
+msgstr "此複製人正在攻擊一隻 <style=\"KKeyword\">小動物</style>！"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.FLEEING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FLEEING.NAME"
@@ -32567,7 +32567,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.GENERIC_DELIVER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GENERIC_DELIVER.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.GOOD_FOOD_QUALITY.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GOOD_FOOD_QUALITY.NAME"
@@ -32587,7 +32587,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.HARVESTDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.HARVESTDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.HARVESTING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.HARVESTING.NAME"
@@ -32807,7 +32807,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOPDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOPDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOPPING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOPPING.NAME"
@@ -32847,7 +32847,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.MUSHDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MUSHDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MUSHING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MUSHING.NAME"
@@ -32997,7 +32997,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.PACIFYDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.PACIFYDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.PICKINGUP.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.PICKINGUP.NAME"
@@ -33017,7 +33017,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.PICKUPDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.PICKUPDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.POOR_FOOD_QUALITY.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.POOR_FOOD_QUALITY.NAME"
@@ -33117,7 +33117,7 @@ msgstr "畜牧"
 #. STRINGS.DUPLICANTS.STATUSITEMS.RANCHING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RANCHING.TOOLTIP"
 msgid "This Duplicant is tending to a <style=\"KKeyword\">Critter</style>'s well-being"
-msgstr "此複製人正在照顧 <style=\"KKeyword\">動物</style>"
+msgstr "此複製人正在照顧 <style=\"KKeyword\">小動物</style>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.RATIONSNOTPERMITTED.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RATIONSNOTPERMITTED.NAME"
@@ -33197,7 +33197,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.REPAIRDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.REPAIRDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.REPAIRWORKSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.REPAIRWORKSTATUS.NAME"
@@ -33217,7 +33217,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.RESCUEDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RESCUEDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.RESCUEWORKSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RESCUEWORKSTATUS.NAME"
@@ -33297,7 +33297,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.SLEEPDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SLEEPING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPING.NAME"
@@ -33432,7 +33432,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.STORECRITICALDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STORECRITICALDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STOREDELIVERSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STOREDELIVERSTATUS.NAME"
@@ -33442,7 +33442,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.STOREDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STOREDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STOREFORBUILDDELIVERSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STOREFORBUILDDELIVERSTATUS.NAME"
@@ -33452,7 +33452,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.STOREFORBUILDDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STOREFORBUILDDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STOREFORBUILDPRIORITIZEDDELIVERSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STOREFORBUILDPRIORITIZEDDELIVERSTATUS.NAME"
@@ -33472,7 +33472,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.STOREPRIORITYDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STOREPRIORITYDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STORING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STORING.NAME"
@@ -33652,7 +33652,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.TOGGLEDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.TOGGLEDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.TOGGLING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.TOGGLING.NAME"
@@ -33702,7 +33702,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.USEITEMDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.USEITEMDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.VOMITING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.VOMITING.NAME"
@@ -33742,7 +33742,7 @@ msgstr "正在運送資源到 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.WARMUPDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.WARMUPDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "此複製人正在運送原料給 <b>{Target}</b>"
+msgstr "此複製人正在運送材料給 <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.WASHINGHANDS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.WASHINGHANDS.NAME"
@@ -34712,7 +34712,7 @@ msgstr "此複製人獲得免費的 <style=\"KKeyword\">技能</style> 而不會
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING1.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING1.DESC"
 msgid "Allows the excavation of <style=\"KKeyword\">Very Firm</style> materials such as <link=\"GRANITE\">Granite</link>"
-msgstr "可挖掘 <style=\"KKeyword\">很硬</style> 的原料，像是 <link=\"GRANITE\">花崗岩</link>"
+msgstr "可挖掘 <style=\"KKeyword\">很硬</style> 的材料，像是 <link=\"GRANITE\">花崗岩</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING1.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING1.NAME"
@@ -34772,7 +34772,7 @@ msgstr "此複製人獲得免費的 <style=\"KKeyword\">技能</style> 而不會
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.DESC"
 msgid "Allows the excavation of dangerous materials like <link=\"CORIUM\">Corium</link>"
-msgstr "可挖掘危險的原料，像是 <link=\"CORIUM\">爐心熔融物</link>"
+msgstr "可挖掘危險的材料，像是 <link=\"CORIUM\">爐心熔融物</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.NAME"
@@ -35702,7 +35702,7 @@ msgstr "<link=\"CARBONGAS\">碳</link>"
 #. STRINGS.ELEMENTS.CEMENT.DESC
 msgctxt "STRINGS.ELEMENTS.CEMENT.DESC"
 msgid "Cement is a refined building material used for assembling advanced buildings."
-msgstr "水泥是一種精煉過的建築原料，被用來建造高級建築物。"
+msgstr "水泥是一種精煉過的建築材料，被用來建造高級建築物。"
 
 #. STRINGS.ELEMENTS.CEMENT.NAME
 msgctxt "STRINGS.ELEMENTS.CEMENT.NAME"
@@ -35852,7 +35852,7 @@ msgstr "<link=\"CREATURE\">基因軟泥</link>"
 #. STRINGS.ELEMENTS.CRUDEOIL.DESC
 msgctxt "STRINGS.ELEMENTS.CRUDEOIL.DESC"
 msgid "Crude Oil is a raw potential <link=\"POWER\">Power</link> source composed of billions of dead, primordial organisms."
-msgstr "原油是一種 <link=\"POWER\">發電</link> 原料，由數十億死亡的原始有機物構成。"
+msgstr "原油是一種 <link=\"POWER\">發電</link> 資源，由數十億死亡的原始有機物構成。"
 
 #. STRINGS.ELEMENTS.CRUDEOIL.NAME
 msgctxt "STRINGS.ELEMENTS.CRUDEOIL.NAME"
@@ -36037,7 +36037,7 @@ msgstr "<link=\"FOOLSGOLD\">黃鐵礦</link>"
 #. STRINGS.ELEMENTS.FOSSIL.DESC
 msgctxt "STRINGS.ELEMENTS.FOSSIL.DESC"
 msgid "Fossil is organic matter, highly compressed and hardened into a mineral state.\n\nIt is useful as a <b>Construction Material</b>."
-msgstr "化石是有機物，經過高壓與硬化變成礦物狀態。\n\n它可作為有用的 <b>建築原料</b>。"
+msgstr "化石是有機物，經過高壓與硬化變成礦物狀態。\n\n它可作為有用的 <b>建築材料</b>。"
 
 #. STRINGS.ELEMENTS.FOSSIL.NAME
 msgctxt "STRINGS.ELEMENTS.FOSSIL.NAME"
@@ -36262,7 +36262,7 @@ msgstr "<link=\"IRONORE\">鐵礦</link>"
 #. STRINGS.ELEMENTS.ISORESIN.DESC
 msgctxt "STRINGS.ELEMENTS.ISORESIN.DESC"
 msgid "Isoresin is a crystallized sap composed of long-chain polymers.\n\nIt is used in the production of rare, high grade materials."
-msgstr "異構樹脂是一種長鏈聚合物組成的樹液結晶液。\n\n它可用來生產稀有、高等級的原料。"
+msgstr "異構樹脂是一種長鏈聚合物組成的樹液結晶液。\n\n它可用來生產稀有、高等級的材料。"
 
 #. STRINGS.ELEMENTS.ISORESIN.NAME
 msgctxt "STRINGS.ELEMENTS.ISORESIN.NAME"
@@ -36467,17 +36467,17 @@ msgstr "<style=\"KKeyword\">出色的輻射護盾</style> 輻射難以通過具�
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.HIGH_SPECIFIC_HEAT_CAPACITY
 msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.HIGH_SPECIFIC_HEAT_CAPACITY"
 msgid "<style=\"KKeyword\">Slow Heating</style> materials require a large amount of energy to raise in <style=\"KKeyword\">Temperature</style>, and therefore heat and cool slowly\n\nSpecific Heat Capacity: {1} DTU to raise 1g by 1K"
-msgstr "<style=\"KKeyword\">緩慢升溫</style> 的原料需要大量的能量才能提高 <style=\"KKeyword\">溫度</style>，所以溫度變化較慢\n\n比熱：{1} DTU 可提高 1 公克的溫度 1K"
+msgstr "<style=\"KKeyword\">緩慢升溫</style> 的材料需要大量的能量才能提高 <style=\"KKeyword\">溫度</style>，所以溫度變化較慢\n\n比熱：{1} DTU 可提高 1 公克的溫度 1K"
 
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.HIGH_THERMAL_CONDUCTIVITY
 msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.HIGH_THERMAL_CONDUCTIVITY"
 msgid "This material disperses <style=\"KKeyword\">Heat</style> because energy transfers quickly through materials with high <style=\"KKeyword\">Thermal Conductivity</style>\n\nBetween two objects, the rate of <style=\"KKeyword\">Heat</style> transfer will be determined by the object with the <i>lowest</i> <style=\"KKeyword\">Thermal Conductivity</style>\n\nThermal Conductivity: {1} W per degree K difference (Oxygen: 0.024 W)"
-msgstr "此種原料會分散 <style=\"KKeyword\">熱量</style>，因為能量會在高 <style=\"KKeyword\">導熱係數</style> 的材質中快速傳遞\n\n在兩個物體之間，<style=\"KKeyword\">熱量</style> 傳遞的速率，將由 <style=\"KKeyword\">導熱係數</style> <i>最低</i> 的物體決定\n\n導熱係數：{1} 瓦 / 每度（氧氣：0.024 瓦）"
+msgstr "此種材料會分散 <style=\"KKeyword\">熱量</style>，因為能量會在高 <style=\"KKeyword\">導熱係數</style> 的材質中快速傳遞\n\n在兩個物體之間，<style=\"KKeyword\">熱量</style> 傳遞的速率，將由 <style=\"KKeyword\">導熱係數</style> <i>最低</i> 的物體決定\n\n導熱係數：{1} 瓦 / 每度（氧氣：0.024 瓦）"
 
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.LOW_SPECIFIC_HEAT_CAPACITY
 msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.LOW_SPECIFIC_HEAT_CAPACITY"
 msgid "<style=\"KKeyword\">Thermally Reactive</style> materials require little energy to raise in <style=\"KKeyword\">Temperature</style>, and therefore heat and cool quickly\n\nSpecific Heat Capacity: {1} DTU to raise 1g by 1K"
-msgstr "<style=\"KKeyword\">導熱</style> 原料只需少量的能量來改變 <style=\"KKeyword\">溫度</style>，因此溫度變化快速\n\n比熱：{1} DUT 可提高 1 公克的溫度 1K"
+msgstr "<style=\"KKeyword\">導熱</style> 材料只需少量的能量來改變 <style=\"KKeyword\">溫度</style>，因此溫度變化快速\n\n比熱：{1} DUT 可提高 1 公克的溫度 1K"
 
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.LOW_THERMAL_CONDUCTIVITY
 msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.LOW_THERMAL_CONDUCTIVITY"
@@ -36967,7 +36967,7 @@ msgstr "<link=\"SANDCEMENT\">水泥沙</link>"
 #. STRINGS.ELEMENTS.SANDSTONE.DESC
 msgctxt "STRINGS.ELEMENTS.SANDSTONE.DESC"
 msgid "Sandstone is a composite of relatively soft sedimentary rock.\n\nIt is useful as a <b>Construction Material</b>."
-msgstr "沙岩是一種相對較軟的沉積岩。\n\n它是有用的 <b>建築原料</b>。"
+msgstr "沙岩是一種相對較軟的沉積岩。\n\n它是有用的 <b>建築材料</b>。"
 
 #. STRINGS.ELEMENTS.SANDSTONE.NAME
 msgctxt "STRINGS.ELEMENTS.SANDSTONE.NAME"
@@ -39197,7 +39197,7 @@ msgstr "【除錯】回報臭蟲"
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSELECTMATERIAL
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSELECTMATERIAL"
 msgid "Debug Select Material"
-msgstr "【除錯】選擇原料"
+msgstr "【除錯】選擇材料"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSIMSTEP
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSIMSTEP"
@@ -40712,7 +40712,7 @@ msgstr "小包肥料"
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FUEL_BRICK.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FUEL_BRICK.DESC"
 msgid "A densely compressed brick of combustible material.\n\nIt can be burned to produce a one-time burst of <link=\"POWER\">Power</link>."
-msgstr "一種高度壓縮可消耗的原料。\n\n它可以燃燒，產生一次性的 <link=\"POWER\">電力</link>。"
+msgstr "一種高度壓縮可消耗的材料。\n\n它可以燃燒，產生一次性的 <link=\"POWER\">電力</link>。"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FUEL_BRICK.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FUEL_BRICK.NAME"
@@ -41802,7 +41802,7 @@ msgstr "複製人疾病風險的注意事項"
 #. STRINGS.MISC.NOTIFICATIONS.MISSINGMATERIALS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MISSINGMATERIALS.NAME"
 msgid "Missing materials"
-msgstr "缺少原料"
+msgstr "缺少材料"
 
 #. STRINGS.MISC.NOTIFICATIONS.MISSINGMATERIALS.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MISSINGMATERIALS.TOOLTIP"
@@ -41822,7 +41822,7 @@ msgstr "教學：汙水"
 #. STRINGS.MISC.NOTIFICATIONS.MOPPINGMESSAGE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MOPPINGMESSAGE.TOOLTIP"
 msgid "Notes on handling polluted materials"
-msgstr "掌握汙染的原料的注意事項"
+msgstr "掌握汙染的材料的注意事項"
 
 #. STRINGS.MISC.NOTIFICATIONS.MORALE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MORALE.MESSAGEBODY"
@@ -42647,7 +42647,7 @@ msgstr "等待攻擊"
 #. STRINGS.MISC.STATUSITEMS.ORDERATTACK.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.ORDERATTACK.TOOLTIP"
 msgid "Waiting for a Duplicant to murderize this defenseless <style=\"KKeyword\">Critter</style>"
-msgstr "等待複製人攻擊這隻手無寸鐵的 <style=\"KKeyword\">動物</style>"
+msgstr "等待複製人攻擊這隻手無寸鐵的 <style=\"KKeyword\">小動物</style>"
 
 #. STRINGS.MISC.STATUSITEMS.ORDERCAPTURE.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.ORDERCAPTURE.NAME"
@@ -42657,7 +42657,7 @@ msgstr "等待捕捉"
 #. STRINGS.MISC.STATUSITEMS.ORDERCAPTURE.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.ORDERCAPTURE.TOOLTIP"
 msgid "Waiting for a Duplicant to capture this <style=\"KKeyword\">Critter</style>\n\nOnly Duplicants with the <link=\"RANCHING1\">Critter Ranching I</link> Skill can catch critters without traps"
-msgstr "等待複製人捕捉此 <style=\"KKeyword\">動物</style>\n\n只有學會 <link=\"RANCHING1\">畜牧 I</link> 的複製人可以不用陷阱捕捉動物"
+msgstr "等待複製人捕捉此 <style=\"KKeyword\">小動物</style>\n\n只有學會 <link=\"RANCHING1\">畜牧 I</link> 的複製人可以不用陷阱捕捉動物"
 
 #. STRINGS.MISC.STATUSITEMS.OREMASS.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.OREMASS.NAME"
@@ -42747,7 +42747,7 @@ msgstr "阻擋"
 #. STRINGS.MISC.STATUSITEMS.REGIONISBLOCKED.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.REGIONISBLOCKED.TOOLTIP"
 msgid "Undug material is blocking off an essential tile"
-msgstr "未挖掘的原料被磚塊阻擋"
+msgstr "未挖掘的材料被磚塊阻擋"
 
 #. STRINGS.MISC.STATUSITEMS.SPACE.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.SPACE.NAME"
@@ -43092,7 +43092,7 @@ msgstr "<link=\"COMPOSTABLE\">堆肥</link>"
 #. STRINGS.MISC.TAGS.COMPOSTABLE_DESC
 msgctxt "STRINGS.MISC.TAGS.COMPOSTABLE_DESC"
 msgid "Compostables are biological materials which can be put into a <link=\"COMPOST\">Compost</link> to generate clean <link=\"DIRT\">Dirt</link>.\n\nComposting also generates a small amount of <link=\"HEAT\">Heat</link>.\n\nOnce it starts to rot, consumable food should be composted to prevent <link=\"FOODSICKNESS\">Food Poisoning</link>."
-msgstr "可堆肥的生物原料可放進 <link=\"COMPOST\">堆肥</link> 中來產生乾淨的 <link=\"DIRT\">泥土</link>。\n\n堆肥行為同時也會產生少量的 <link=\"HEAT\">熱</link>。\n\n食物一旦開始腐壞，應該將其堆肥以防止 <link=\"FOODSICKNESS\">腸病毒</link>。"
+msgstr "可堆肥的生物材料可放進 <link=\"COMPOST\">堆肥</link> 中來產生乾淨的 <link=\"DIRT\">泥土</link>。\n\n堆肥行為同時也會產生少量的 <link=\"HEAT\">熱</link>。\n\n食物一旦開始腐壞，應該將其堆肥以防止 <link=\"FOODSICKNESS\">腸病毒</link>。"
 
 #. STRINGS.MISC.TAGS.COMPOSTBASICPLANTFOOD
 msgctxt "STRINGS.MISC.TAGS.COMPOSTBASICPLANTFOOD"
@@ -43232,7 +43232,7 @@ msgstr "<link=\"ICEORE\">冰</link>"
 #. STRINGS.MISC.TAGS.ICEORE_DESC
 msgctxt "STRINGS.MISC.TAGS.ICEORE_DESC"
 msgid "Ice is a class of materials made up mostly (if not completely) of <link=\"WATER\">Water</link> in a frozen or partially frozen form.\n\nAs a material in a frigid solid or semi-solid state, these elements are very useful as a low-cost way to cool the environment around them.\n\nWhen heated, ice will melt into its original liquified form (ie.<link=\"BRINEICE\">Brine Ice</link> will liquify into <link=\"BRINE\">Brine</link>). Each ice element has a different freezing and melting point based upon its composition and state."
-msgstr "冰是一種原料，主要由（但不完全是）<link=\"WATER\">水</link> 結冰或部分結冰形成。\n\n作為低溫固體或半固體的材料，這些元素作為低成本的方式來冰卻環境是很有用的。\n\n當加熱時，冰會融化為原始的液體形態。（例如：<link=\"BRINEICE\">鹽冰</link> 會液化成 <link=\"BRINE\">鹽水</link>）。\n每一種冰元素基於它們的組成與狀態都有不同的冰點與融點。"
+msgstr "冰是一種材料，主要由（但不完全是）<link=\"WATER\">水</link> 結冰或部分結冰形成。\n\n作為低溫固體或半固體的材料，這些元素作為低成本的方式來冰卻環境是很有用的。\n\n當加熱時，冰會融化為原始的液體形態。（例如：<link=\"BRINEICE\">鹽冰</link> 會液化成 <link=\"BRINE\">鹽水</link>）。\n每一種冰元素基於它們的組成與狀態都有不同的冰點與融點。"
 
 #. STRINGS.MISC.TAGS.INDUSTRIALINGREDIENT
 msgctxt "STRINGS.MISC.TAGS.INDUSTRIALINGREDIENT"
@@ -43272,7 +43272,7 @@ msgstr "機械工廠"
 #. STRINGS.MISC.TAGS.MANUFACTUREDMATERIAL
 msgctxt "STRINGS.MISC.TAGS.MANUFACTUREDMATERIAL"
 msgid "Manufactured Material"
-msgstr "加工原料"
+msgstr "加工材料"
 
 #. STRINGS.MISC.TAGS.MARKEDFORCOMPOST
 msgctxt "STRINGS.MISC.TAGS.MARKEDFORCOMPOST"
@@ -43382,7 +43382,7 @@ msgstr "發電廠"
 #. STRINGS.MISC.TAGS.PRECIOUSMETAL
 msgctxt "STRINGS.MISC.TAGS.PRECIOUSMETAL"
 msgid "Precious Metal"
-msgstr "貴金屬"
+msgstr "貴重金屬"
 
 #. STRINGS.MISC.TAGS.PRECIOUSROCK
 msgctxt "STRINGS.MISC.TAGS.PRECIOUSROCK"
@@ -44152,7 +44152,7 @@ msgstr "銀河"
 #. STRINGS.NAMEGEN.COLONY.NOUN.GANG
 msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.GANG"
 msgid "Gang"
-msgstr "一群"
+msgstr "幫夥"
 
 #. STRINGS.NAMEGEN.COLONY.NOUN.HOME
 msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.HOME"
@@ -47257,7 +47257,7 @@ msgstr "<link=\"SOLIDSPACE\">固體控制</link>"
 #. STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.DESC"
 msgid "Free Duplicants from the drudgery of day-to-day material deliveries with new methods of automation."
-msgstr "全新的自動化的方式，可以解放複製人每日需要人工運送原料的苦差事。"
+msgstr "全新的自動化的方式，可以解放複製人每日需要人工運送材料的苦差事。"
 
 #. STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.NAME"
@@ -47432,7 +47432,7 @@ msgstr "高級研究"
 #. STRINGS.RESEARCH.TYPES.BETA.RECIPEDESC
 msgctxt "STRINGS.RESEARCH.TYPES.BETA.RECIPEDESC"
 msgid "Unlocks improved technologies."
-msgstr "解鎖改進技術。"
+msgstr "解鎖改進科技。"
 
 #. STRINGS.RESEARCH.TYPES.DELTA.DESC
 msgctxt "STRINGS.RESEARCH.TYPES.DELTA.DESC"
@@ -47522,7 +47522,7 @@ msgstr "清潔機器人"
 #. STRINGS.ROBOTS.STATS.INTERNALBATTERY.NAME
 msgctxt "STRINGS.ROBOTS.STATS.INTERNALBATTERY.NAME"
 msgid "Rechargeable Battery"
-msgstr "充電電源"
+msgstr "充電電池"
 
 #. STRINGS.ROBOTS.STATS.INTERNALBATTERY.TOOLTIP
 msgctxt "STRINGS.ROBOTS.STATS.INTERNALBATTERY.TOOLTIP"
@@ -47867,7 +47867,7 @@ msgstr "需要 {0} 或更多裝飾品"
 #. STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM.NAME"
 msgid "Decor item ({0})"
-msgstr "裝飾物品 ({0})"
+msgstr "裝飾物品（{0}）"
 
 #. STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM_N.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM_N.DESCRIPTION"
@@ -49042,7 +49042,7 @@ msgstr "沙岩"
 #. STRINGS.SUBWORLDS.SANDSTONE.UTILITY
 msgctxt "STRINGS.SUBWORLDS.SANDSTONE.UTILITY"
 msgid "<link=\"OXYROCK\">Oxylite</link> and <link=\"BASICFORAGEPLANTPLANTED\">Buried Muckroot</link> are in sufficient supply to sustain your colony while you gather more resources.\n\n<link=\"DIRT\">Dirt</link>, <link=\"ALGAE\">Algae</link>, <link=\"COPPER\">Copper</link> and, of course, <link=\"SANDSTONE\">Sandstone</link> provide all the materials to get basic colony essentials built.\n\nRandom <link=\"LIGHTBUGSPECIES\">Shine Bugs</link> provide Morale boosts for my Duplicants but are not a reliable light source.\n\n<link=\"HATCHSPECIES\">Hatch</link> can be domesticated for food or <link=\"CARBON\">Coal</link>, which will be useful if using a <link=\"GENERATOR\">Coal Generator</link> for power.\n\nAll-in-all this biome is the perfect starting spot for my colony to establish a base full of essentials, from which they can then venture out and explore."
-msgstr "當你在收集更多資源時，<link=\"OXYROCK\">氧氣石</link> 與 <link=\"BASICFORAGEPLANTPLANTED\">塊根</link> 足夠供應殖民地所需。\n\n<link=\"DIRT\">泥土</link>、<link=\"ALGAE\">藻類</link>、<link=\"COPPER\">銅礦</link> 當然還有 <link=\"SANDSTONE\">沙岩</link> 提供建立基本的殖民地的所有原料。\n\n<link=\"LIGHTBUGSPECIES\">發光蟲</link> 提供複製人士氣加成，但不是可靠的光源。\n\n<link=\"HATCHSPECIES\">哈奇</link> 可以馴服作為食物，或生產 <link=\"CARBON\">煤炭</link> 用於 <link=\"GENERATOR\">燃煤發電機</link> 發電。\n\n總之此生態系是一個建立穩定殖民地的完全地點，然後他們可以外出探索。"
+msgstr "當你在收集更多資源時，<link=\"OXYROCK\">氧氣石</link> 與 <link=\"BASICFORAGEPLANTPLANTED\">塊根</link> 足夠供應殖民地所需。\n\n<link=\"DIRT\">泥土</link>、<link=\"ALGAE\">藻類</link>、<link=\"COPPER\">銅礦</link> 當然還有 <link=\"SANDSTONE\">沙岩</link> 提供建立基本的殖民地的所有材料。\n\n<link=\"LIGHTBUGSPECIES\">發光蟲</link> 提供複製人士氣加成，但不是可靠的光源。\n\n<link=\"HATCHSPECIES\">哈奇</link> 可以馴服作為食物，或生產 <link=\"CARBON\">煤炭</link> 用於 <link=\"GENERATOR\">燃煤發電機</link> 發電。\n\n總之此生態系是一個建立穩定殖民地的完全地點，然後他們可以外出探索。"
 
 #. STRINGS.SUBWORLDS.SPACE.DESC
 msgctxt "STRINGS.SUBWORLDS.SPACE.DESC"
@@ -49682,7 +49682,7 @@ msgstr "最高 <link=\"POWER\">電力</link>：{0}"
 #. STRINGS.UI.BUILDINGEFFECTS.MESS_TABLE_SALT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.MESS_TABLE_SALT"
 msgid "Table Salt: +{0}"
-msgstr "食鹽：{0}"
+msgstr "食鹽：+{0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.MINIMUM_TEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.MINIMUM_TEMP"
@@ -49962,17 +49962,17 @@ msgstr "在 <b>{1}</b> 格範圍內，增加 <b><b>{0}</b></b> <style=\"KKeyword
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_CONSUMED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_CONSUMED"
 msgid "This critter can typically consume these materials at the following rates:\n\n{Foodlist}"
-msgstr "此動物通常會依下列速率消耗這些原料：\n\n{Foodlist}"
+msgstr "此動物通常會依下列速率消耗這些材料：\n\n{Foodlist}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_HEADER
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_HEADER"
 msgid "Creatures will eat and digest only specific materials"
-msgstr "動物會吃掉並消化特殊的原料"
+msgstr "小動物會吃掉並消化特定的材料"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_PRODUCED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_PRODUCED"
 msgid "This critter will \"produce\" the following materials:\n\n{Items}"
-msgstr "此動物將「生產」以下原料：\n\n{Items}"
+msgstr "此動物將「生產」以下材料：\n\n{Items}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DISEASECONSUMEDPERUSE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DISEASECONSUMEDPERUSE"
@@ -50017,7 +50017,7 @@ msgstr "使用時生產 <style=\"produced\">{1}</style> 的<style=\"KKeyword\">{
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_INPUTTEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_INPUTTEMP"
 msgid "Produces <style=\"produced\">{1}</style> of <style=\"KKeyword\">{0}</style> when in use\n\nIt will be the combined <style=\"KKeyword\">Temperature</style> of the input materials."
-msgstr "使用時生產 <style=\"produced\">{1}</style> 的<style=\"KKeyword\">{0}</style>\n\n它會加上輸入原料的 <style=\"KKeyword\">溫度</style>。"
+msgstr "使用時生產 <style=\"produced\">{1}</style> 的<style=\"KKeyword\">{0}</style>\n\n它會加上輸入材料的 <style=\"KKeyword\">溫度</style>。"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_MINORENTITYTEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_MINORENTITYTEMP"
@@ -50027,7 +50027,7 @@ msgstr "使用時生產 <style=\"produced\">{1}</style> 的<style=\"KKeyword\">{
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_MINTEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_MINTEMP"
 msgid "Produces <style=\"produced\">{1}</style> of <style=\"KKeyword\">{0}</style> when in use\n\nIt will be at least <b>{2}</b>, or hotter if the input materials are hotter."
-msgstr "使用時生產 <style=\"produced\">{1}</style> 的<style=\"KKeyword\">{0}</style>\n\n最小溫度為 <b>{2}</b>，如果輸入原料變熱也會跟著升溫。"
+msgstr "使用時生產 <style=\"produced\">{1}</style> 的<style=\"KKeyword\">{0}</style>\n\n最小溫度為 <b>{2}</b>，如果輸入材料變熱也會跟著升溫。"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_TOILET
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_TOILET"
@@ -50037,7 +50037,7 @@ msgstr "每次使用生產 <style=\"produced\">{1}</style> 的<style=\"KKeyword\
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTEDPERUSE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTEDPERUSE"
 msgid "Produces <style=\"produced\">{1}</style> of <style=\"KKeyword\">{0}</style> per use\n\nIt will be the <style=\"KKeyword\">Temperature</style> of the input materials."
-msgstr "每次使用生產 <style=\"produced\">{1}</style> 的<style=\"KKeyword\">{0}</style>\n\n它的溫度等於輸入原料的 <style=\"KKeyword\">溫度</style>。"
+msgstr "每次使用生產 <style=\"produced\">{1}</style> 的<style=\"KKeyword\">{0}</style>\n\n它的溫度等於輸入材料的 <style=\"KKeyword\">溫度</style>。"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ENABLESDOMESTICGROWTH
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ENABLESDOMESTICGROWTH"
@@ -50087,17 +50087,17 @@ msgstr "當噴發時，此間歇泉將會以 <style=\"produced\">{1}</style> 速
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PRODUCTION_GEOTUNED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PRODUCTION_GEOTUNED"
 msgid "While erupting, this geyser will produce <style=\"KKeyword\">{0}</style> at a rate of <style=\"produced\">{1}</style>, and at a <style=\"KKeyword\">Temperature</style> of <b>{2}</b>"
-msgstr "噴發時，這個間歇泉會以<style=\"produced\">{1}</style>的速率輸出<style=\"KKeyword\">温度</style>為<b>{2}</b>的<style=\"KKeyword\">{0}</style>"
+msgstr "噴發時，這個間歇泉會以 <style=\"produced\">{1}</style> 的速率輸出 <style=\"KKeyword\">温度</style> 為 <b>{2}</b> 的 <style=\"KKeyword\">{0}</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PRODUCTION_GEOTUNED_COUNT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PRODUCTION_GEOTUNED_COUNT"
 msgid "<b>{0}</b> of <b>{1}</b> Geotuners targeting this geyser are amplifying it"
-msgstr "總共<b>{1}</b>個地理調諧儀中的<b>{0}</b>個正在加強此間歇泉"
+msgstr "總共 <b>{1}</b> 個地理調諧儀中的 <b>{0}</b> 個正在加強此間歇泉"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PRODUCTION_GEOTUNED_TOTAL
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PRODUCTION_GEOTUNED_TOTAL"
 msgid "Total geotuning: {0} {1}"
-msgstr "全部地理調整的：{0} {1}"
+msgstr "全部地理調整過的：{0} {1}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PRODUCTION_GEOTUNED_TOTAL_ROW_TITLE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PRODUCTION_GEOTUNED_TOTAL_ROW_TITLE"
@@ -50122,7 +50122,7 @@ msgstr "所有地理調整過的 "
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_AVR_OUTPUT_UNSTUDIED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_AVR_OUTPUT_UNSTUDIED"
 msgid "A researcher must analyze this geyser to determine its average output rate"
-msgstr "研究員必須分析此間歇泉以確定他的平均產出率"
+msgstr "研究員必須分析此間歇泉以確定它的平均產出率"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_NEXT_ACTIVE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_NEXT_ACTIVE"
@@ -50272,12 +50272,12 @@ msgstr "當此建築位於 <style=\"KKeyword\">{0}</style> 內，會獲得額外
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PROCESSEDITEM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PROCESSEDITEM"
 msgid "Refining this material produces <style=\"KKeyword\">{0}</style>"
-msgstr "將此原料精煉成 <style=\"KKeyword\">{0}</style>"
+msgstr "將此材料精煉成 <style=\"KKeyword\">{0}</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PROCESSES
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PROCESSES"
 msgid "Processes raw materials into refined materials"
-msgstr "加工原料變成精煉原料"
+msgstr "加工材料變成精煉材料"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PRODUCES_RESEARCH_POINTS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PRODUCES_RESEARCH_POINTS"
@@ -50407,17 +50407,17 @@ msgstr "此動物每 <b>{Time}</b> 可剃毛，生產 <b>{Amount}</b> <style=\"K
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_ATMO
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_ATMO"
 msgid "This critter can be sheared every <b>{Time}</b> to produce <style=\"produced\">{Amount}</style> of <style=\"KKeyword\">{Item}</style>\n\nIt must be kept in <style=\"KKeyword\">{Atmosphere}</style>-rich environments to regrow sheared <style=\"KKeyword\">{Item}</style>"
-msgstr "此動物每 <b>{Time}</b> 可修剪，生產 <style=\"produced\">{Amount}</style> <style=\"KKeyword\">{Item}</style>\n\n它必須在 <style=\"KKeyword\">{Atmosphere}</style> 含量高的環境中才會重新長回被剃掉的 <style=\"KKeyword\">{Item}</style>"
+msgstr "這隻小動物每 <b>{Time}</b> 可修剪，產生 <style=\"produced\">{Amount}</style> <style=\"KKeyword\">{Item}</style>\n\n牠必須在 <style=\"KKeyword\">{Atmosphere}</style> 含量高的環境中，才會重新長回被剃掉的 <style=\"KKeyword\">{Item}</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_TEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_TEMP"
 msgid "This critter can be sheared every <b>{Time}</b> to produce <style=\"produced\">{Amount}</style> of <style=\"KKeyword\">{Item}</style>\n\nIt must eat food between {TempMin}-{TempMax} to regrow sheared <style=\"KKeyword\">{Item}</style>"
-msgstr "這隻小動物可以每 <b>{Time}</b> 剪一次以產生 <style=\"produced\">{Amount}</style> 單位的 <style=\"KKeyword\">{Item}</style>\n\n它必須在進食溫度在 {TempMin}-{TempMax} 之間的食物，才能再生剪過的 <style=\"KKeyword\">{Item}</style>"
+msgstr "這隻小動物每 <b>{Time}</b> 可修剪，產生 <style=\"produced\">{Amount}</style> 單位的 <style=\"KKeyword\">{Item}</style>\n\n牠必須進食溫度在 {TempMin}-{TempMax} 之間的食物，才能再生剪過的 <style=\"KKeyword\">{Item}</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STORAGECAPACITY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STORAGECAPACITY"
 msgid "Holds up to <b>{0}</b> of material"
-msgstr "儲存了 <b>{0}</b> 的原料"
+msgstr "儲存了 <b>{0}</b> 的材料"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STRESSREDUCEDPERMINUTE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STRESSREDUCEDPERMINUTE"
@@ -50917,7 +50917,7 @@ msgstr "距離：{0} / {1}"
 #. STRINGS.UI.CLUSTERMAP.TOOLTIP_PATH_LENGTH_RETURN
 msgctxt "STRINGS.UI.CLUSTERMAP.TOOLTIP_PATH_LENGTH_RETURN"
 msgid "Trip Distance: {0}/{1} (Return Trip)"
-msgstr "行程距離：{0}/{1} (回程)"
+msgstr "行程距離：{0}/{1} （回程）"
 
 #. STRINGS.UI.CLUSTERMAP.TOOLTIP_PEEKED_HEX_WITH_OBJECT
 msgctxt "STRINGS.UI.CLUSTERMAP.TOOLTIP_PEEKED_HEX_WITH_OBJECT"
@@ -51172,7 +51172,7 @@ msgstr "系統"
 #. STRINGS.UI.CODEX.GEYSERS.DESC
 msgctxt "STRINGS.UI.CODEX.GEYSERS.DESC"
 msgid "Geysers and Fumaroles emit elements at variable intervals. They provide a sustainable source of material, albeit in typically low volumes.\n\nThe variable factors of a geyser are:\n\n    • Emission element \n    • Emission temperature \n    • Emission mass \n    • Cycle length \n    • Dormancy duration \n    • Disease emitted"
-msgstr "間歇泉和噴氣孔以不同的間隔排放元素。它們提供一種可持續的、少量的原料來源。\n\n間歇泉的可變因素是：\n\n    • 排放元素 \n    • 排放溫度 \n    • 排放質量 \n    • 周期長度 \n    • 休眠持續時間 \n    • 排放疾病"
+msgstr "間歇泉和噴氣孔以不同的間隔排放元素。它們提供一種可持續的、少量的材料來源。\n\n間歇泉的可變因素是：\n\n    • 排放元素 \n    • 排放溫度 \n    • 排放質量 \n    • 周期長度 \n    • 休眠持續時間 \n    • 排放疾病"
 
 #. STRINGS.UI.CODEX.MANAGEMENT_BUTTON
 msgctxt "STRINGS.UI.CODEX.MANAGEMENT_BUTTON"
@@ -52367,7 +52367,7 @@ msgstr "「沒事的！我們很報歉，您似乎遇到了錯誤。\n如果您�
 #. STRINGS.UI.CRASHSCREEN.UPLOADINFO
 msgctxt "STRINGS.UI.CRASHSCREEN.UPLOADINFO"
 msgid "UPLOAD ADDITIONAL INFO ({0})"
-msgstr "上傳額外資訊 ({0})"
+msgstr "上傳額外資訊（{0}）"
 
 #. STRINGS.UI.CREDITSSCREEN.CLOSEBUTTON
 msgctxt "STRINGS.UI.CREDITSSCREEN.CLOSEBUTTON"
@@ -53777,7 +53777,7 @@ msgstr "過熱調整：{0}"
 #. STRINGS.UI.ELEMENTAL.OVERHEATPOINT.TOOLTIP
 msgctxt "STRINGS.UI.ELEMENTAL.OVERHEATPOINT.TOOLTIP"
 msgid "This building will overheat and take damage if its temperature reaches {0}\n\nBuilding with better building materials can increase overheat temperature"
-msgstr "如果溫度達到 {0}，此建築會過熱並損壞\n\n建築物使用較好的原料建造可以提高過熱溫度"
+msgstr "如果溫度達到 {0}，此建築會過熱並損壞\n\n建築物使用較好的材料建造可以提高過熱溫度"
 
 #. STRINGS.UI.ELEMENTAL.PRIMARYELEMENT.NAME
 msgctxt "STRINGS.UI.ELEMENTAL.PRIMARYELEMENT.NAME"
@@ -55942,7 +55942,7 @@ msgstr "雲端存檔"
 #. STRINGS.UI.FRONTEND.LOADSCREEN.OPEN_SAVE_FOLDER
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.OPEN_SAVE_FOLDER"
 msgid "LOCAL SAVES"
-msgstr "本地存檔"
+msgstr "本機存檔"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT"
@@ -56227,7 +56227,7 @@ msgstr "全部模組停用"
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.INSTALL_INFO_INACCESSIBLE.MESSAGE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.INSTALL_INFO_INACCESSIBLE.MESSAGE"
 msgid "Failed to access local Steam files for mod {0}.\nTry restarting Oxygen not Included.\nIf that doesn't work, try re-subscribing to the mod via Steam."
-msgstr "模組 {0} 存取本地 Steam 檔案失敗。\n試著重啟缺氧。\n如果無效，試著透過 Steam 重新訂閱模組。"
+msgstr "模組 {0} 存取本機 Steam 檔案失敗。\n試著重新啟動缺氧。\n如果無效，試著透過 Steam 重新訂閱模組。"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.INSTALL_INFO_INACCESSIBLE.TITLE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.INSTALL_INFO_INACCESSIBLE.TITLE"
@@ -56717,7 +56717,7 @@ msgstr "啟用"
 #. STRINGS.UI.FRONTEND.MODS.TOOLTIPS.MANAGE_LOCAL_MOD
 msgctxt "STRINGS.UI.FRONTEND.MODS.TOOLTIPS.MANAGE_LOCAL_MOD"
 msgid "Manage Local Mod"
-msgstr "管理本地模組"
+msgstr "管理本機模組"
 
 #. STRINGS.UI.FRONTEND.MODS.TOOLTIPS.MANAGE_RAIL_SUBSCRIPTION
 msgctxt "STRINGS.UI.FRONTEND.MODS.TOOLTIPS.MANAGE_RAIL_SUBSCRIPTION"
@@ -59022,7 +59022,7 @@ msgstr "<link=\"BUILDCATEGORYINDUSTRIAL\">工業</link>"
 #. STRINGS.UI.NEWBUILDCATEGORIES.INDUSTRIAL.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.INDUSTRIAL.TOOLTIP"
 msgid "Machinery for oxygen production, heat management, and material refinement. {Hotkey}"
-msgstr "製造氧氣、管理溫度與精煉原料的機器。{Hotkey}"
+msgstr "製造氧氣、管理溫度與精煉材料的機器。{Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.INFRASTRUCTURE.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.INFRASTRUCTURE.NAME"
@@ -59102,7 +59102,7 @@ msgstr "<link=\"BUILDCATEGORYLOGISTICS\">後勤</link>"
 #. STRINGS.UI.NEWBUILDCATEGORIES.LOGISTICS.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LOGISTICS.TOOLTIP"
 msgid "Devices for base automation and material transport. {Hotkey}"
-msgstr "用於基地自動化與原料運送的裝置。{Hotkey}"
+msgstr "用於基地自動化與材料運送的裝置。{Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.MEDICAL.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.MEDICAL.BUILDMENUTITLE"
@@ -59647,12 +59647,12 @@ msgstr "裝載機"
 #. STRINGS.UI.OVERLAYS.CONVEYOR.TOOLTIPS.INPUT
 msgctxt "STRINGS.UI.OVERLAYS.CONVEYOR.TOOLTIPS.INPUT"
 msgid "<b>Receptacle</b>\nReceives material from a <style=\"KKeyword\">Conveyor Rail</style> and stores it for Duplicant use"
-msgstr "<b>儲存箱</b>\n從 <style=\"KKeyword\">輸送帶軌道</style> 接收原料並儲存，以供應給複製人使用"
+msgstr "<b>儲存箱</b>\n從 <style=\"KKeyword\">輸送帶軌道</style> 接收材料並儲存，以供應給複製人使用"
 
 #. STRINGS.UI.OVERLAYS.CONVEYOR.TOOLTIPS.OUTPUT
 msgctxt "STRINGS.UI.OVERLAYS.CONVEYOR.TOOLTIPS.OUTPUT"
 msgid "<b>Loader</b>\nLoads material onto a <style=\"KKeyword\">Conveyor Rail</style> for transport to Receptacles"
-msgstr "<b>裝載機</b>\n裝載原料到 <style=\"KKeyword\">輸送帶軌道</style> 上，並運送到輸送帶儲存箱"
+msgstr "<b>裝載機</b>\n裝載材料到 <style=\"KKeyword\">輸送帶軌道</style> 上，並運送到輸送帶儲存箱"
 
 #. STRINGS.UI.OVERLAYS.CROP.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.CROP.BUTTON"
@@ -61202,7 +61202,7 @@ msgstr "+ 查看全部（{0}）"
 #. STRINGS.UI.RESOURCESCREEN.TREND_TOOLTIP
 msgctxt "STRINGS.UI.RESOURCESCREEN.TREND_TOOLTIP"
 msgid "The available amount of this resource has {0} {1} in the last cycle"
-msgstr "在上周期此原料有 {0} {1} 可用"
+msgstr "在上周期此資源有 {0} {1} 可用"
 
 #. STRINGS.UI.RESOURCESCREEN.TREND_TOOLTIP_NO_CHANGE
 msgctxt "STRINGS.UI.RESOURCESCREEN.TREND_TOOLTIP_NO_CHANGE"
@@ -61912,7 +61912,7 @@ msgstr "<link=\"UNOBTANIUM\">0 號元素</link> 採礦"
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_VERY_FIRM.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_VERY_FIRM.DESCRIPTION"
 msgid "<link=\"HARDNESS\">Very Firm Material</link> Mining"
-msgstr "挖掘 <link=\"HARDNESS\">很硬的原料</link>"
+msgstr "挖掘 <link=\"HARDNESS\">很硬的材料</link>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DO_ASTRONAUT_TRAINING.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DO_ASTRONAUT_TRAINING.DESCRIPTION"
@@ -62262,7 +62262,7 @@ msgstr "間歇泉"
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.GRAVITAS
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.GRAVITAS"
 msgid "Gravitas"
-msgstr "引力記念碑"
+msgstr "引力紀念碑"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.INDUSTRIAL_PRODUCTS
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.INDUSTRIAL_PRODUCTS"
@@ -63717,7 +63717,7 @@ msgstr "冰矮星"
 #. STRINGS.UI.SPACEDESTINATIONS.DWARFPLANETS.ORGANICDWARF.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.DWARFPLANETS.ORGANICDWARF.DESCRIPTION"
 msgid "A mass of organic material similar to the ooze used to print Duplicants. This sample is heavily degraded."
-msgstr "含有大量有機原料，類似於用來列印複製人的基因軟泥。此樣本嚴重退化。"
+msgstr "含有大量有機材料，類似於用來列印複製人的基因軟泥。此樣本嚴重退化。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.DWARFPLANETS.ORGANICDWARF.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.DWARFPLANETS.ORGANICDWARF.NAME"
@@ -63777,7 +63777,7 @@ msgstr "氦氣巨行星"
 #. STRINGS.UI.SPACEDESTINATIONS.GIANTS.ICEGIANT.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.GIANTS.ICEGIANT.DESCRIPTION"
 msgid "A massive volume of frozen material, primarily composed of <link=\"ICE\">Ice</link>."
-msgstr "大量的冰凍原料，主要由 <link=\"ICE\">冰</link> 組成。"
+msgstr "大量的冰凍材料，主要由 <link=\"ICE\">冰</link> 組成。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.GIANTS.ICEGIANT.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.GIANTS.ICEGIANT.NAME"
@@ -64187,7 +64187,7 @@ msgstr "採集於：{1}"
 #. STRINGS.UI.STARMAP.CANT_CARRY_ELEMENT
 msgctxt "STRINGS.UI.STARMAP.CANT_CARRY_ELEMENT"
 msgid "{0} installation required to retrieve material"
-msgstr "取要安裝 {0} 才能採集原料"
+msgstr "取要安裝 {0} 才能採集材料"
 
 #. STRINGS.UI.STARMAP.CANT_LAUNCH_MISSION
 msgctxt "STRINGS.UI.STARMAP.CANT_LAUNCH_MISSION"
@@ -64247,7 +64247,7 @@ msgstr "需要進一步研究才能識別資源\n\n運送一個研究模組到�
 #. STRINGS.UI.STARMAP.CONTAINER_REQUIRED
 msgctxt "STRINGS.UI.STARMAP.CONTAINER_REQUIRED"
 msgid "{0} installation required to retrieve material"
-msgstr "需要安裝 {0} 才能取回原料"
+msgstr "需要安裝 {0} 才能取回材料"
 
 #. STRINGS.UI.STARMAP.CURRENT_MASS
 msgctxt "STRINGS.UI.STARMAP.CURRENT_MASS"
@@ -66692,7 +66692,7 @@ msgstr "顯示特殊目的房間與加成 {Hotkey}"
 #. STRINGS.UI.TOOLTIPS.SELECTAMATERIAL
 msgctxt "STRINGS.UI.TOOLTIPS.SELECTAMATERIAL"
 msgid "There are insufficient materials to construct this building"
-msgstr "建築原料不足"
+msgstr "建築材料不足"
 
 #. STRINGS.UI.TOOLTIPS.SORTCOLUMN
 msgctxt "STRINGS.UI.TOOLTIPS.SORTCOLUMN"
@@ -66742,7 +66742,7 @@ msgstr "顯示環境溫度 {Hotkey}"
 #. STRINGS.UI.TOOLTIPS.TILEMODE_OVERLAY_STRING
 msgctxt "STRINGS.UI.TOOLTIPS.TILEMODE_OVERLAY_STRING"
 msgid "Displays material information {Hotkey}"
-msgstr "顯示原料資訊 {Hotkey}"
+msgstr "顯示材料資訊 {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.UNPAUSE
 msgctxt "STRINGS.UI.TOOLTIPS.UNPAUSE"
@@ -67057,7 +67057,7 @@ msgstr "允許手動操作"
 #. STRINGS.UI.UISIDESCREENS.AUTOMATABLE_SIDE_SCREEN.ALLOWMANUALBUTTONTOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.AUTOMATABLE_SIDE_SCREEN.ALLOWMANUALBUTTONTOOLTIP"
 msgid "Allow Duplicants to manually manage these storage materials"
-msgstr "允許複製人手動操作管理這些儲存的原料"
+msgstr "允許複製人手動操作管理這些儲存的材料"
 
 #. STRINGS.UI.UISIDESCREENS.AUTOMATABLE_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.AUTOMATABLE_SIDE_SCREEN.TITLE"
@@ -67492,12 +67492,12 @@ msgstr "動物數量感測器"
 #. STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TOOLTIP_ABOVE
 msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TOOLTIP_ABOVE"
 msgid "Will send a <b><style=\"logic_on\">Green Signal</style></b> if there are more than <b>{0}</b> <style=\"KKeyword\">Critters</style> or <style=\"KKeyword\">Eggs</style> in the room"
-msgstr "如果房間內的 <style=\"KKeyword\">動物</style> 或 <style=\"KKeyword\">蛋</style> 的數量大於 <b>{0}</b> 時，會發出 <b><style=\"logic_on\">綠色訊號</style></b>"
+msgstr "如果房間內的 <style=\"KKeyword\">小動物</style> 或 <style=\"KKeyword\">蛋</style> 的數量大於 <b>{0}</b> 時，會發出 <b><style=\"logic_on\">綠色訊號</style></b>"
 
 #. STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TOOLTIP_BELOW
 msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TOOLTIP_BELOW"
 msgid "Will send a <b><style=\"logic_on\">Green Signal</style></b> if there are fewer than <b>{0}</b> <style=\"KKeyword\">Critters</style> or <style=\"KKeyword\">Eggs</style> in the room"
-msgstr "如果房間內的 <style=\"KKeyword\">動物</style> 或 <style=\"KKeyword\">蛋</style> 的數量少於 <b>{0}</b> 時，會發出 <b><style=\"logic_on\">綠色訊號</style></b>"
+msgstr "如果房間內的 <style=\"KKeyword\">小動物</style> 或 <style=\"KKeyword\">蛋</style> 的數量少於 <b>{0}</b> 時，會發出 <b><style=\"logic_on\">綠色訊號</style></b>"
 
 #. STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.VALUE_NAME
 msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.VALUE_NAME"
@@ -68072,7 +68072,7 @@ msgstr "基礎 {BASE}"
 #. STRINGS.UI.UISIDESCREENS.GEOTUNERSIDESCREEN.STUDIED_TOOLTIP_GEOTUNER_MODIFIER_ROW_TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.GEOTUNERSIDESCREEN.STUDIED_TOOLTIP_GEOTUNER_MODIFIER_ROW_TITLE"
 msgid "Geotuned "
-msgstr "地理調整的 "
+msgstr "地理調整過的 "
 
 #. STRINGS.UI.UISIDESCREENS.GEOTUNERSIDESCREEN.STUDIED_TOOLTIP_MATERIAL
 msgctxt "STRINGS.UI.UISIDESCREENS.GEOTUNERSIDESCREEN.STUDIED_TOOLTIP_MATERIAL"
@@ -70092,7 +70092,7 @@ msgstr "允許儲存資源類別為 {0} 的任何東西"
 #. STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.MATERIALBUTTONTOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.MATERIALBUTTONTOOLTIP"
 msgid "Add or remove this material from storage"
-msgstr "從儲存箱增加或移除原料"
+msgstr "從儲存箱增加或移除材料"
 
 #. STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.ONLYALLOWSPICEDITEMSBUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.ONLYALLOWSPICEDITEMSBUTTON"
@@ -70867,7 +70867,7 @@ msgstr "收成"
 #. STRINGS.UI.USERMENUACTIONS.HARVEST.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.HARVEST.TOOLTIP"
 msgid "Harvest materials from this plant"
-msgstr "從此植物收成原料"
+msgstr "從此植物收成材料"
 
 #. STRINGS.UI.USERMENUACTIONS.HARVEST.TOOLTIP_DISABLED
 msgctxt "STRINGS.UI.USERMENUACTIONS.HARVEST.TOOLTIP_DISABLED"
@@ -70897,12 +70897,12 @@ msgstr "開啟運送"
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_DELIVERY.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_DELIVERY.TOOLTIP"
 msgid "Do not deliver materials to this building"
-msgstr "不要運送原料到此建築"
+msgstr "不要運送材料到此建築"
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_DELIVERY.TOOLTIP_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_DELIVERY.TOOLTIP_OFF"
 msgid "Deliver materials to this building"
-msgstr "運送原料到此建築"
+msgstr "運送材料到此建築"
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED.NAME"
@@ -70967,7 +70967,7 @@ msgstr "取消尋找"
 #. STRINGS.UI.USERMENUACTIONS.OPENPOI.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.OPENPOI.TOOLTIP"
 msgid "Scrounge for usable materials"
-msgstr "尋找可用原料"
+msgstr "尋找可用材料"
 
 #. STRINGS.UI.USERMENUACTIONS.OPENPOI.TOOLTIP_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.OPENPOI.TOOLTIP_OFF"
@@ -71342,7 +71342,7 @@ msgstr "過濾設定"
 #. STRINGS.UI.USERMENUACTIONS.TAGFILTER.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.TAGFILTER.TOOLTIP"
 msgid "Assign materials to storage"
-msgstr "分配原料給儲存箱"
+msgstr "分配材料給儲存箱"
 
 #. STRINGS.UI.USERMENUACTIONS.UNEQUIP.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.UNEQUIP.NAME"
@@ -72302,7 +72302,7 @@ msgstr "地質活躍"
 #. STRINGS.WORLD_TRAITS.GEODES.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.GEODES.DESCRIPTION"
 msgid "Large geodes containing rare material caches are deposited across this world"
-msgstr "此小行星蘊藏了大量的稀有原料"
+msgstr "此小行星蘊藏了大量的稀有材料"
 
 #. STRINGS.WORLD_TRAITS.GEODES.NAME
 msgctxt "STRINGS.WORLD_TRAITS.GEODES.NAME"
@@ -72422,7 +72422,7 @@ msgstr "沒有異常特徵"
 #. STRINGS.WORLD_TRAITS.RADIOACTIVE_CRUST.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.RADIOACTIVE_CRUST.DESCRIPTION"
 msgid "Deposits of <link=\"URANIUMORE\">Uranium Ore</link> are found in this world's crust"
-msgstr "在這個星球中發現了<link=\"URANIUMORE\">鈾礦</link>的礦床"
+msgstr "在這個星球中發現了 <link=\"URANIUMORE\">鈾礦</link> 的礦床"
 
 #. STRINGS.WORLD_TRAITS.RADIOACTIVE_CRUST.NAME
 msgctxt "STRINGS.WORLD_TRAITS.RADIOACTIVE_CRUST.NAME"
@@ -72502,7 +72502,7 @@ msgstr "森林行星"
 #. STRINGS.WORLDS.FORESTMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.FORESTMOONLET.DESCRIPTION"
 msgid "A small moon with a forest start.\n\n<smallcaps>Folia Asteroids have plenty of organic material but Duplicants will have to venture outside their starting biome quickly to find any metal.</smallcaps>"
-msgstr "有著森林起始地的小月球\n\n<smallcaps>森林小行星有大量的有機原料，但是複製人必須在起始地的戶外冒險以快速的找到任何金屬。</smallcaps>"
+msgstr "有著森林起始地的小月球\n\n<smallcaps>森林小行星有大量的有機材料，但是複製人必須在起始地的戶外冒險以快速的找到任何金屬。</smallcaps>"
 
 #. STRINGS.WORLDS.FORESTMOONLET.NAME
 msgctxt "STRINGS.WORLDS.FORESTMOONLET.NAME"
