@@ -16097,7 +16097,7 @@ msgstr "狀態變化"
 #. STRINGS.CODEX.HEAT.PARAGRAPH_1
 msgctxt "STRINGS.CODEX.HEAT.PARAGRAPH_1"
 msgid "Just about everything on the asteroid has a temperature. It's normal for temperature to rise and fall a bit, but extreme temperatures can cause all sorts of problems for a base. Buildings can stop functioning, crops can wilt, and things can even melt, boil, and freeze when they really ought not to.\n\n"
-msgstr "小行星上的所有東西都有溫度。\n溫度小幅的上升或下降是正常的，但極端問題可能會為基地許多的問題。\n建築會停止運作、農作物會枯萎、有些東西甚至會融化與冰凍。\n\n"
+msgstr "小行星上的所有東西都有溫度。\n溫度小幅的上升或下降是正常的，但極端溫度問題可能會為基地許多的問題。\n建築會停止運作、農作物會枯萎、有些東西甚至會融化與冰凍。\n\n"
 
 #. STRINGS.CODEX.HEAT.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.HEAT.PARAGRAPH_2"
@@ -16127,7 +16127,7 @@ msgstr "<link=\"HEAT\">熱</link>"
 #. STRINGS.CODEX.HEXALENT.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.HEXALENT.BODY.CONTAINER1"
 msgid "While most plants grow new sections and leaves according to the Fibonacci Sequence, the Hexalent forms new sections similar to how atoms form into crystal structures.\n\nThe result is a geometric pattern that resembles a honeycomb."
-msgstr "雖然植物大體上按照斐波那契序列生長新的部分與葉子，但六方體的新部分較近於以原子形成晶體結構。\n\n結果就是類似於蜂巢的幾何圖案。"
+msgstr "雖然植物大體上按照費波那契數列生長新的部分與葉子，但六方體的新部分較近於以原子形成晶體結構。\n\n結果就是類似於蜂巢的幾何圖案。"
 
 #. STRINGS.CODEX.HEXALENT.SUBTITLE
 msgctxt "STRINGS.CODEX.HEXALENT.SUBTITLE"
@@ -16527,7 +16527,7 @@ msgstr "世界群"
 #. STRINGS.CODEX.MYLOG.BODY.DUPLICANTDEATH.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.DUPLICANTDEATH.BODY"
 msgid "I lost my first Duplicant today. Duplicants form strong bonds with each other, and I expect I'll see a drop in morale over the next few cycles as they take time to grieve their loss.\n\nI find myself grieving too, in my way. I was tasked to protect these Duplicants, and I failed. All I can do now is move forward and resolve to better protect those remaining in my colony from here on out.\n\nRest in peace, dear little friend.\n\n"
-msgstr "今天我損失了第一位複製人。\n\n複製人之間形成牢固的紐帶，\n接下來的幾周之前我預期士氣會降低，\n因為它們需要時間來平復心情。\n\n我也可以透過自己的方式來感傷。\n我受命保護這些複製人，但我失敗了。\n\n現在我所能做的是，\n往前並保護好殖民地剩餘的其它人。\n\n安息吧ー親愛的、小朋友。\n\n"
+msgstr "今天我損失了第一位複製人。\n\n複製人彼此之間建立了堅固的情感連繫，\n接下來的幾周之前我預期士氣會降低，\n因為他們需要時間來平復心情。\n\n我也可以透過自己的方式來感傷。\n我受命保護這些複製人，但我失敗了。\n\n現在我所能做的是，\n往前並保護好殖民地剩餘的其它人。\n\n安息吧ー親愛的、小朋友。\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.DUPLICANTDEATH.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.DUPLICANTDEATH.TITLE"
@@ -16537,7 +16537,7 @@ msgstr "死在殖民地"
 #. STRINGS.CODEX.MYLOG.BODY.FULLDUPECOLONY.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.FULLDUPECOLONY.BODY"
 msgid "I've officially run out of unique blueprints from which to print new Duplicants.\n\nIf I desire to grow the colony further, I'll have no choice but to print doubles of existing individuals. Hopefully it won't throw anyone into an existential crisis to live side by side with their double.\n\nPerhaps I could give the new clones nicknames to reduce the confusion.\n\n"
-msgstr "我用完了可以列印複製人的獨特藍圖。\n\n如果我想進一步擴大殖民地，我別無選擇，只能從已存在的個體複製出另一位。\n希望它們與自己的複製體一起生活，不會讓任何人陷入生存的危機。\n\n也許我可以給新的複製體取個暱稱，以減少混亂。\n\n"
+msgstr "我用完了可以列印複製人的獨特藍圖。\n\n如果我想進一步擴大殖民地，我別無選擇，只能從已存在的個體複製出另一位。\n希望他們與自己的複製體一起生活，不會讓任何人陷入生存的危機。\n\n也許我可以給新的複製體取個暱稱，以減少混亂。\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.FULLDUPECOLONY.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.FULLDUPECOLONY.TITLE"
@@ -16667,7 +16667,7 @@ msgstr "周期 4001"
 #. STRINGS.CODEX.MYLOG.BODY.NEARINGMAGMA.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.NEARINGMAGMA.BODY"
 msgid "The readings I'm collecting from my Duplicant's sensory systems tell me that the further down they dig, the closer they come to an extreme and potentially dangerous heat source.\n\nI believe they are approaching a molten core, which could mean magma and lethal temperatures. I should equip them accordingly.\n\n"
-msgstr "我從複製人的感官系統所收集的數據顯示，\n他們越挖越深，\n他們接近了一個有極高溫度與潛在危險的熱源。\n\n我相信他們到達了融岩核心，\n這意味著岩漿與致命的溫度。\n我應該為他們準備相應的裝備。\n\n"
+msgstr "我從複製人的感官系統所收集的數據顯示，\n他們越挖越深，\n他們接近了一個有極高溫度與潛在危險的熱源。\n\n我相信他們到達了熔岩核心，\n這意味著岩漿與致命的溫度。\n我應該為他們準備相應的裝備。\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.NEARINGMAGMA.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.NEARINGMAGMA.TITLE"
@@ -16922,7 +16922,7 @@ msgstr ""
 #. STRINGS.CODEX.PAGENOTFOUND.SUBTITLE
 msgctxt "STRINGS.CODEX.PAGENOTFOUND.SUBTITLE"
 msgid "This database entry is under construction or unavailable"
-msgstr "此資料庫條目正在建構中或不可用"
+msgstr "這條資料庫條目正在建構中或不可用"
 
 #. STRINGS.CODEX.PAGENOTFOUND.TITLE
 msgctxt "STRINGS.CODEX.PAGENOTFOUND.TITLE"
