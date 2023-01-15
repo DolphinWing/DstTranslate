@@ -902,7 +902,7 @@ msgstr "空的"
 #. STRINGS.BUILDING.STATUSITEMS.EMPTYPUMPINGSTATION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMPTYPUMPINGSTATION.TOOLTIP"
 msgid "This pumping station cannot access any <style=\"KKeyword\">Liquid</style>"
-msgstr "這座手壓幫浦無法抽取 <style=\"KKeyword\">液體</style>"
+msgstr "這個手壓幫浦無法抽取 <style=\"KKeyword\">液體</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.ENOUGH_COOLANT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ENOUGH_COOLANT.NAME"
@@ -2802,7 +2802,7 @@ msgstr "可用液體：{Liquids}"
 #. STRINGS.BUILDING.STATUSITEMS.PUMPINGSTATION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PUMPINGSTATION.TOOLTIP"
 msgid "This pumping station has access to: {Liquids}"
-msgstr "這座手壓幫浦可抽取：{Liquids}"
+msgstr "這個手壓幫浦可抽取：{Liquids}"
 
 #. STRINGS.BUILDING.STATUSITEMS.RADIATOR_ENERGY_CURRENT_EMISSION_RATE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RADIATOR_ENERGY_CURRENT_EMISSION_RATE.NAME"
@@ -12437,7 +12437,7 @@ msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：禁止材料運送"
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.NAME"
 msgid "<link=\"SOLIDLOGICVALVE\">Conveyor Shutoff</link>"
-msgstr "<link=\"SOLIDLOGICVALVE\">輸送帶閘門</link>"
+msgstr "<link=\"SOLIDLOGICVALVE\">輸送帶開關閥</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDTRANSFERARM.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDTRANSFERARM.DESC"
@@ -18957,7 +18957,7 @@ msgstr "在沒有傳送器的世界上建造火箭發射台。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ANALYZE_SEED
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ANALYZE_SEED"
 msgid "Analyze {0} mutant"
-msgstr "分析 {0} 個變異"
+msgstr "分析 {0} 變異"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ARM_PERFORMANCE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ARM_PERFORMANCE"
@@ -19217,7 +19217,7 @@ msgstr "揭露：{0:0.##}% / {1:0.##}%"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.RUN_A_REACTOR
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.RUN_A_REACTOR"
 msgid "Reactor running for cycles: {0} / {1}"
-msgstr "反應爐持續運行週期：{0}／{1}"
+msgstr "反應爐持續運轉週期：{0}／{1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.SKILL_BRANCH
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.SKILL_BRANCH"
@@ -30842,7 +30842,7 @@ msgstr "全部技能點：{0}"
 #. STRINGS.DUPLICANTS.PERSONALITIES.ABE.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.ABE.DESC"
 msgid "{0}s are sweet, delicate flowers. They need to be treated gingerly, with great consideration for their feelings."
-msgstr "{0} 是甜美纖細的花朶。他們需要被小心地對待，重視他們的感受。"
+msgstr "{0} 是甜美纖細的花朵。他們需要被小心地對待，重視他們的感受。"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.ABE.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.ABE.NAME"
@@ -40867,7 +40867,7 @@ msgstr "<link=\"GINGER\">辛香根</link>"
 #. STRINGS.ITEMS.INGREDIENTS.SWAMPLILYFLOWER.DESC
 msgctxt "STRINGS.ITEMS.INGREDIENTS.SWAMPLILYFLOWER.DESC"
 msgid "A medicinal flower that soothes most minor maladies.\n\nIt is exceptionally fragrant."
-msgstr "一種藥用花朶，可治療大部分的輕微疾病。\n\n它特別香。"
+msgstr "一種藥用花朵，可治療大部分的輕微疾病。\n\n它特別香。"
 
 #. STRINGS.ITEMS.INGREDIENTS.SWAMPLILYFLOWER.NAME
 msgctxt "STRINGS.ITEMS.INGREDIENTS.SWAMPLILYFLOWER.NAME"
@@ -41722,7 +41722,7 @@ msgstr "殖民地的 <link=\"OXYGEN\">氧氣</link> 消耗量大於生產量，�
 #. STRINGS.MISC.NOTIFICATIONS.INSULATION.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INSULATION.MESSAGEBODY"
 msgid "The temperature of an environment can have positive or negative effects on the well-being of my Duplicants, as well as the plants and critters in my colony. Selecting {Hotkey/Overlay3} will open the Temperature Overlay where I can check for any hot or cold spots.\n\nI can use a Utility building like an Ice-E Fan or a Space Heater to make an area colder or warmer. However, I will have limited success changing the temperature of a room unless I build the area with insulating tiles to prevent cold or warm air from escaping."
-msgstr "環境溫度會對殖民地內的複製人、植物與動物產生正面或負面的影響。\n按下 {Hotkey/Overlay3} 打開溫度透視圖可以查看冷熱的分佈情形。\n\n使用像是涼風扇或是暖氣機可以讓一個區域內的溫度變冷或變熱。\n但是，除非使用隔熱磚阻止冷（熱）空氣的散失，\n否則對改便房間內溫度的效果有限。"
+msgstr "環境溫度會對殖民地內的複製人、植物與動物產生正面或負面的影響。\n按下 {Hotkey/Overlay3} 打開溫度透視圖可以查看冷熱的分佈情形。\n\n使用像是涼風扇或是暖氣機可以讓一個區域內的溫度變冷或變熱。\n但是，除非使用隔熱磚阻止冷（熱）空氣的散失，\n否則對改變房間內溫度的效果有限。"
 
 #. STRINGS.MISC.NOTIFICATIONS.INSULATION.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INSULATION.NAME"
@@ -42502,7 +42502,7 @@ msgstr "樹枝生長中"
 #. STRINGS.MISC.STATUSITEMS.GROWINGBRANCHES.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.GROWINGBRANCHES.TOOLTIP"
 msgid "This tree is working hard to grow new branches right now"
-msgstr "這棵樹的枝幹正在努力生長"
+msgstr "這棵樹現在正在努力長出新的樹枝"
 
 #. STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.ALRIGHT.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.ALRIGHT.NAME"
@@ -46487,7 +46487,7 @@ msgstr "<link=\"CARGOIII\">特殊貨艙</link>"
 #. STRINGS.RESEARCH.TECHS.CATALYTICS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.CATALYTICS.DESC"
 msgid "Advanced gas manipulation using unique catalysts."
-msgstr "高級氣體控制用於特殊催化劑。"
+msgstr "使用獨特的催化劑進行先進的氣體處理。"
 
 #. STRINGS.RESEARCH.TECHS.CATALYTICS.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.CATALYTICS.NAME"
@@ -46507,7 +46507,7 @@ msgstr "<link=\"CLOTHING\">紡織工藝</link>"
 #. STRINGS.RESEARCH.TECHS.COMBUSTION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.COMBUSTION.DESC"
 msgid "Fuel-powered generators for crude yet powerful <link=\"POWER\">Power</link> production."
-msgstr "燃油發電機，發出大量的 <link=\"POWER\">電力</link>。"
+msgstr "燃料驅動的發電機，發出原始但強大的 <link=\"POWER\">電力</link>。"
 
 #. STRINGS.RESEARCH.TECHS.COMBUSTION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.COMBUSTION.NAME"
@@ -47257,7 +47257,7 @@ msgstr "<link=\"SOLIDSPACE\">固體控制</link>"
 #. STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.DESC"
 msgid "Free Duplicants from the drudgery of day-to-day material deliveries with new methods of automation."
-msgstr "全新的自動化的方式，可以解放複製人每日需要人工運送材料的苦差事。"
+msgstr "全新的自動化招式，可以解放複製人每日需要人工運送材料的苦差事。"
 
 #. STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.NAME"
@@ -47287,7 +47287,7 @@ msgstr "<link=\"SPACEGAS\">高級氣體流動</link>"
 #. STRINGS.RESEARCH.TECHS.SPACEPOWER.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SPACEPOWER.DESC"
 msgid "It's like power... in space!"
-msgstr "就像電力…在太空中！"
+msgstr "就像平常的電力一樣…在太空中！"
 
 #. STRINGS.RESEARCH.TECHS.SPACEPOWER.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SPACEPOWER.NAME"
