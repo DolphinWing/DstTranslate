@@ -1,11 +1,11 @@
 -- mod name
 name = "正體中文包"
 -- mod version
-version = "1.2.20"
+version = "1.2.21"
 -- mod author
 author = "DolphinWing and anetrlf2"
 -- mod description in the game
-description = "版本: "..version.." (v535236)\n\n"..
+description = "版本: "..version.." (v538959)\n\n"..
     "吃下「翻譯蒟蒻」之後，會將原本遊戲內的文字換成 MOD 自帶的翻譯本。"..
 	"翻譯本主要以 Klei 簡體中文文檔為主，輔以 Klei 正體中文文檔，"..
 	"並參考 Don't Starve 中文維基，以及一些私心小修正。\n\n"..
