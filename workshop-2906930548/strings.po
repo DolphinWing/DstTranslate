@@ -32608,7 +32608,7 @@ msgstr "這個複製人開始了新的一天\n• 早上，所有 <style=\"KKeyw
 #. STRINGS.DUPLICANTS.STATUSITEMS.EATDELIVERSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EATDELIVERSTATUS.NAME"
 msgid "Delivering resources to {Target}"
-msgstr "正在運送資源到 {Target}"
+msgstr "正在運送資源到{Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EATDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EATDELIVERSTATUS.TOOLTIP"
@@ -32618,7 +32618,7 @@ msgstr "這個複製人正在運送材料給 <b>{Target}</b>"
 #. STRINGS.DUPLICANTS.STATUSITEMS.EATING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EATING.NAME"
 msgid "Eating {Target}"
-msgstr "正在吃 {Target}"
+msgstr "正在吃{Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EATING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EATING.TOOLTIP"
@@ -32648,12 +32648,12 @@ msgstr "這個複製人正在從 <b>{Target}</b> 移除材料"
 #. STRINGS.DUPLICANTS.STATUSITEMS.EMPTYSTORAGEDELIVERSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EMPTYSTORAGEDELIVERSTATUS.NAME"
 msgid "Delivering resources to {Target}"
-msgstr "正在運送資源到 {Target}"
+msgstr "正在運送資源到{Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EMPTYSTORAGEDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EMPTYSTORAGEDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "這個複製人正在運送材料給 <b>{Target}</b>"
+msgstr "這個複製人正在運送材料給<b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.ENTOMBEDCHORE.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ENTOMBEDCHORE.NAME"
@@ -32678,22 +32678,22 @@ msgstr "這個複製人需要有人幫忙救出他們！"
 #. STRINGS.DUPLICANTS.STATUSITEMS.EQUIPDELIVERSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EQUIPDELIVERSTATUS.NAME"
 msgid "Delivering resources to {Target}"
-msgstr "正在運送資源到 {Target}"
+msgstr "正在運送資源到{Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EQUIPDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EQUIPDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "這個複製人正在運送材料給 <b>{Target}</b>"
+msgstr "這個複製人正在運送材料給<b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EQUIPPING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EQUIPPING.NAME"
 msgid "Equipping {Target}"
-msgstr "裝備 {Target}"
+msgstr "裝備{Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EQUIPPING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EQUIPPING.TOOLTIP"
 msgid "This Duplicant is equipping a <b>{Target}</b>"
-msgstr "這個複製人正在裝備 <b>{Target}</b>"
+msgstr "這個複製人正在裝備<b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EXPELLINGRADS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EXPELLINGRADS.NAME"
@@ -32733,22 +32733,22 @@ msgstr "這個複製人暴露在 {Sickness} 細菌濃度高的地方，在下周
 #. STRINGS.DUPLICANTS.STATUSITEMS.FABRICATEDELIVERSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FABRICATEDELIVERSTATUS.NAME"
 msgid "Delivering resources to {Target}"
-msgstr "正在運送資源到 {Target}"
+msgstr "正在運送資源到{Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.FABRICATEDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FABRICATEDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "這個複製人正在運送材料給 <b>{Target}</b>"
+msgstr "這個複製人正在運送材料給<b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.FABRICATING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FABRICATING.NAME"
 msgid "Fabricating {Item}"
-msgstr "製作 {Item}"
+msgstr "製作{Item}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.FABRICATING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FABRICATING.TOOLTIP"
 msgid "This Duplicant is crafting a <b>{Item}</b>"
-msgstr "這個複製人正在製作 <b>{Item}</b>"
+msgstr "這個複製人正在製作<b>{Item}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.FIGHTING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FIGHTING.NAME"
@@ -32853,7 +32853,7 @@ msgstr "這個複製人正在使用 <b>{Target}</b> 生產 <style=\"KKeyword\">�
 #. STRINGS.DUPLICANTS.STATUSITEMS.GENERIC_DELIVER.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GENERIC_DELIVER.NAME"
 msgid "Delivering resources to {Target}"
-msgstr "正在運送資源到 {Target}"
+msgstr "正在運送資源到{Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.GENERIC_DELIVER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GENERIC_DELIVER.TOOLTIP"
@@ -32873,12 +32873,12 @@ msgstr "這個複製人吃了超出他們期望的一餐！"
 #. STRINGS.DUPLICANTS.STATUSITEMS.HARVESTDELIVERSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.HARVESTDELIVERSTATUS.NAME"
 msgid "Delivering resources to {Target}"
-msgstr "正在運送資源到 {Target}"
+msgstr "正在運送資源到{Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.HARVESTDELIVERSTATUS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.HARVESTDELIVERSTATUS.TOOLTIP"
 msgid "This Duplicant is transporting materials to <b>{Target}</b>"
-msgstr "這個複製人正在運送材料給 <b>{Target}</b>"
+msgstr "這個複製人正在運送材料給<b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.HARVESTING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.HARVESTING.NAME"
@@ -32888,7 +32888,7 @@ msgstr "收成中 {Target}"
 #. STRINGS.DUPLICANTS.STATUSITEMS.HARVESTING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.HARVESTING.TOOLTIP"
 msgid "This Duplicant is gathering resources from a <b>{Target}</b>"
-msgstr "這個複製人正在從 <b>{Target}</b> 採集資源"
+msgstr "這個複製人正在從<b>{Target}</b>採集資源"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.HASDISEASE.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.HASDISEASE.NAME"
@@ -50088,7 +50088,7 @@ msgstr "有了火箭，天空將不再是極限！{Hotkey}"
 #. STRINGS.UI.BUILDCATEGORIES.UTILITIES.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.UTILITIES.NAME"
 msgid "<link=\"BUILDCATEGORYUTILITIES\">Utilities</link>"
-msgstr "<link=\"BUILDCATEGORYUTILITIES\">公共</link>"
+msgstr "<link=\"BUILDCATEGORYUTILITIES\">實用</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.UTILITIES.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.UTILITIES.TOOLTIP"
@@ -60088,7 +60088,7 @@ msgstr ""
 #. STRINGS.UI.NEWBUILDCATEGORIES.INFRASTRUCTURE.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.INFRASTRUCTURE.NAME"
 msgid "<link=\"BUILDCATEGORYINFRASTRUCTURE\">Utilities</link>"
-msgstr "<link=\"BUILDCATEGORYINFRASTRUCTURE\">公共</link>"
+msgstr "<link=\"BUILDCATEGORYINFRASTRUCTURE\">實用</link>"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.INFRASTRUCTURE.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.INFRASTRUCTURE.TOOLTIP"
