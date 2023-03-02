@@ -7586,6 +7586,16 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BALM_LILY.NAME"
 msgid "<link=\"EXTERIORWALL\">Balm Lily Print</link>"
 msgstr "<link=\"EXTERIORWALL\">芳香百合印花壁纸</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_WHITE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_WHITE.DESC"
+msgid "It's just so fresh and so clean."
+msgstr "如此清新，如此整洁。"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_WHITE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_WHITE.NAME"
+msgid "<link=\"EXTERIORWALL\">Fresh White</link>"
+msgstr "<link=\"EXTERIORWALL\">洁白壁纸</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_BLUE_COBALT_WHITE.DESC
 msgctxt ""
 "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_BLUE_COBALT_WHITE.DESC"
@@ -25676,7 +25686,7 @@ msgstr ""
 #. STRINGS.CODEX.JOURNALISTREQUEST.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.JOURNALISTREQUEST.BODY.CONTAINER2"
 msgid ""
-"<indent=5%>I don't know how you pulled it off, but Stern's office just "
+"<indent=5%>I don't don't know how you pulled it off, but Stern's office just "
 "called the paper and granted me an exclusive...and a tour of the Gravitas "
 "Facility. I owe you a beer. No - a case of beer. Six cases of beer!\n"
 "\n"
@@ -27209,7 +27219,7 @@ msgid ""
 "possible. This is going to change everything about...well, everything.\"\n"
 "\n"
 "This is the second time that Pei has made headlines. Last year, the striking "
-"young nanoscientist won the Miss Planetary Belle pageant's talent show with "
+"young nanoscientist won the Miss Planetary Belle pageant�s talent show with "
 "a live demonstration of nanorobots weaving a ballgown out of fibers "
 "harvested from common houseplants.\n"
 "\n"
@@ -31271,7 +31281,7 @@ msgstr "最冷的建筑：{0:##0.#}K"
 msgctxt ""
 "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.LAND_DUPES_ON_ALL_WORLDS"
 msgid "Duplicants or rovers landed on {0} of {1} planetoids"
-msgstr "复制人或侦察者已在{0颗小行星上着陆，总共需要{1}个"
+msgstr "复制人或侦察者已在{0}颗小行星上着陆，总共需要{1}个"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.LAUNCHED_ROCKET
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.LAUNCHED_ROCKET"
@@ -62325,7 +62335,7 @@ msgstr "塑料"
 #. STRINGS.MISC.TAGS.PLUMBABLE
 msgctxt "STRINGS.MISC.TAGS.PLUMBABLE"
 msgid "Plumbable"
-msgstr "可做管道的物品"
+msgstr "可做水管的物品"
 
 #. STRINGS.MISC.TAGS.POWER
 msgctxt "STRINGS.MISC.TAGS.POWER"

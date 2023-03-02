@@ -1,6 +1,6 @@
 "Language: zh-tw"
 "POT Version: 2.0"
-"Application: Oxygen Not Included"
+"Application: Oxygen Not Included\n"
 "Last-Translator: DolphinWing\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5869,6 +5869,16 @@ msgstr "一種由柔和花卉圖案構成的壁紙。"
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BALM_LILY.NAME"
 msgid "<link=\"EXTERIORWALL\">Balm Lily Print</link>"
 msgstr "<link=\"EXTERIORWALL\">香水百合印花壁紙</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_WHITE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_WHITE.DESC"
+msgid "It's just so fresh and so clean."
+msgstr "如此清新，如此整潔。"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_WHITE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_WHITE.NAME"
+msgid "<link=\"EXTERIORWALL\">Fresh White</link>"
+msgstr "<link=\"EXTERIORWALL\">潔白桌布</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_BLUE_COBALT_WHITE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_BLUE_COBALT_WHITE.DESC"
@@ -16442,7 +16452,7 @@ msgstr "<indent=5%>親愛的同事、朋友和社區成員，\n\n在擔任 STEM 
 
 #. STRINGS.CODEX.JOURNALISTREQUEST.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.JOURNALISTREQUEST.BODY.CONTAINER2"
-msgid "<indent=5%>I don't know how you pulled it off, but Stern's office just called the paper and granted me an exclusive...and a tour of the Gravitas Facility. I owe you a beer. No - a case of beer. Six cases of beer!\n\nSeriously, thank you. I know you're in a difficult position but you've done the right thing. See you on Tuesday.</indent>"
+msgid "<indent=5%>I don't don't know how you pulled it off, but Stern's office just called the paper and granted me an exclusive...and a tour of the Gravitas Facility. I owe you a beer. No - a case of beer. Six cases of beer!\n\nSeriously, thank you. I know you're in a difficult position but you've done the right thing. See you on Tuesday.</indent>"
 msgstr "<indent=5%>我不知道你是怎麼做到的，但 Stern 的辦公室剛剛給報社打了電話，給了我一個獨家的……和引力科技設施的參觀機會。 我欠你一杯啤酒。 不...一箱啤酒...六箱啤酒！\n\n說真的，非常感謝。 我知道你現在的處境很艱難，但你做了正確的事情。我們星期二見。</indent>"
 
 #. STRINGS.CODEX.JOURNALISTREQUEST.BODY.CONTAINER3
@@ -17107,7 +17117,7 @@ msgstr "<b>神秘項目獲得奈米技術獎</b>"
 
 #. STRINGS.CODEX.MYSTERYAWARD.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.MYSTERYAWARD.BODY.CONTAINER2"
-msgid "Last night's Worldwide Nanotech Awards has sparked controversy in the scientific community after it was announced that the top prize had been awarded to a project whose details could not be publicly disclosed.\n\nThe highly classified paper was presented to the jury in a closed session by lead researcher Dr. Liling Pei, recipient of the inaugural Gravitas Accelerator Scholarship at the Elion University of Science and Technology.\n\nHead judge Dr. Elias Balko acknowledges that it was unorthodox, but defends the decision. \"We�re scientists�it�s our job to push boundaries.\"\n\nPei was awarded the coveted Halas Medal, the top prize for innovation in the field.\n\n\"I wish I could tell you more,\" says Pei. \"I'm SO grateful to the WNA for this great honor, and to Dr. Stern for the funding that made it all possible. This is going to change everything about...well, everything.\"\n\nThis is the second time that Pei has made headlines. Last year, the striking young nanoscientist won the Miss Planetary Belle pageant's talent show with a live demonstration of nanorobots weaving a ballgown out of fibers harvested from common houseplants.\n\nPei joins the team at the Gravitas Facility early next month."
+msgid "Last night's Worldwide Nanotech Awards has sparked controversy in the scientific community after it was announced that the top prize had been awarded to a project whose details could not be publicly disclosed.\n\nThe highly classified paper was presented to the jury in a closed session by lead researcher Dr. Liling Pei, recipient of the inaugural Gravitas Accelerator Scholarship at the Elion University of Science and Technology.\n\nHead judge Dr. Elias Balko acknowledges that it was unorthodox, but defends the decision. \"We�re scientists�it�s our job to push boundaries.\"\n\nPei was awarded the coveted Halas Medal, the top prize for innovation in the field.\n\n\"I wish I could tell you more,\" says Pei. \"I'm SO grateful to the WNA for this great honor, and to Dr. Stern for the funding that made it all possible. This is going to change everything about...well, everything.\"\n\nThis is the second time that Pei has made headlines. Last year, the striking young nanoscientist won the Miss Planetary Belle pageant�s talent show with a live demonstration of nanorobots weaving a ballgown out of fibers harvested from common houseplants.\n\nPei joins the team at the Gravitas Facility early next month."
 msgstr "昨晚的全球奈米技術獎在宣布最高獎項授予一個細節無法公開的項目後，在科學界引發了爭議。\n\n這篇高度機密的論文由首席研究員 Liling Pei 博士在閉門會議上提交給評委會，她是 Elion 科技大學首屆 Gravitas 加速器獎學金的獲得者。\n\n主任評審委員 Elias Balko 博士承認這是打破常規的，但為這一決定辯護。「我們是科學家——我們的工作就是突破界限。」\n\nPei 獲得了令人夢寐以求的 Halas 獎章，這是該領域的最高創新獎。\n\n「我希望我能告訴你更多」， Pei 說。 「我非常感謝 WNA 授予的這一榮譽，並感謝 Stern 博士提供的資助，使這一切成為可能。這將改變……嗯，一切。」\n\n這是 Pei 第二次登上頭條。去年，這位引人注目的年輕奈米科學家贏得了行星美女小姐選美大賽的才藝表演，現場展示了奈米機器人用從普通室內植物中採集的纖維編織出一件長袍。\n\nPei 將於下月初加入引力科技的團隊。"
 
 #. STRINGS.CODEX.MYSTERYAWARD.SUBTITLE
@@ -19418,7 +19428,7 @@ msgstr "最冷的建築：{0:##0.#}K"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.LAND_DUPES_ON_ALL_WORLDS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.LAND_DUPES_ON_ALL_WORLDS"
 msgid "Duplicants or rovers landed on {0} of {1} planetoids"
-msgstr "複製人或漫遊者降落在 {1} 個小行星中的 {0} 個"
+msgstr "複製人或漫遊者已降落在 {1} 個小行星中的 {0} 個"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.LAUNCHED_ROCKET
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.LAUNCHED_ROCKET"
