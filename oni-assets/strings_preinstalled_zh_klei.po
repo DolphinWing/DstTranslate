@@ -446,7 +446,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.CLUSTERCOLONYLACKSREQUIREDSKILLPERK.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLUSTERCOLONYLACKSREQUIREDSKILLPERK.NAME"
-msgid "Local Colony Lacks {Skills}"
+msgid "Local Colony Lacks {Skills} Skill"
 msgstr "本地殖民地缺少{Skills}技能"
 
 #. STRINGS.BUILDING.STATUSITEMS.CLUSTERCOLONYLACKSREQUIREDSKILLPERK.TOOLTIP
@@ -488,7 +488,7 @@ msgstr "正在从环境辐射中聚集辐射粒子"
 
 #. STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.NAME"
-msgid "Colony Lacks {Skills}"
+msgid "Colony Lacks {Skills} Skill"
 msgstr "殖民地缺少{Skills}技能"
 
 #. STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.TOOLTIP
@@ -1386,6 +1386,26 @@ msgid ""
 msgstr ""
 "康复中的复制人必须要在<b>{0}</b>格内有可获取的<style=\"KKeyword\">食物</"
 "style>"
+
+#. STRINGS.BUILDING.STATUSITEMS.FOSSILHUNT.EXCAVATING.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.FOSSILHUNT.EXCAVATING.NAME"
+msgid "Excavation In Progress"
+msgstr "发掘进行中"
+
+#. STRINGS.BUILDING.STATUSITEMS.FOSSILHUNT.EXCAVATING.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.FOSSILHUNT.EXCAVATING.TOOLTIP"
+msgid "Currently being excavated by a Duplicant"
+msgstr "当前正由复制人发掘"
+
+#. STRINGS.BUILDING.STATUSITEMS.FOSSILHUNT.PENDING_EXCAVATION.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.FOSSILHUNT.PENDING_EXCAVATION.NAME"
+msgid "Awaiting Excavation"
+msgstr "等待发掘"
+
+#. STRINGS.BUILDING.STATUSITEMS.FOSSILHUNT.PENDING_EXCAVATION.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.FOSSILHUNT.PENDING_EXCAVATION.TOOLTIP"
+msgid "Currently awaiting excavation by a Duplicant"
+msgstr "当前正等待复制人前来发掘"
 
 #. STRINGS.BUILDING.STATUSITEMS.FRIDGECOOLING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FRIDGECOOLING.NAME"
@@ -2380,6 +2400,38 @@ msgstr "这些建筑正在崩塌："
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MELTINGDOWN.TOOLTIP"
 msgid "This building is collapsing"
 msgstr "这个建筑正在崩塌"
+
+#. STRINGS.BUILDING.STATUSITEMS.MISSILELAUNCHER_NOSURFACESIGHT.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSILELAUNCHER_NOSURFACESIGHT.NAME"
+msgid "No Line of Sight"
+msgstr "无视野"
+
+#. STRINGS.BUILDING.STATUSITEMS.MISSILELAUNCHER_NOSURFACESIGHT.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSILELAUNCHER_NOSURFACESIGHT.TOOLTIP"
+msgid ""
+"This building has no view of space\n"
+"\n"
+"To properly function, this building requires an unblocked view of space"
+msgstr ""
+"这个建筑没有太空视野\n"
+"\n"
+"为正常工作，需要确保这个建筑的太空视野畅通无阻"
+
+#. STRINGS.BUILDING.STATUSITEMS.MISSILELAUNCHER_PARTIALLYBLOCKED.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSILELAUNCHER_PARTIALLYBLOCKED.NAME"
+msgid "Limited Line of Sight"
+msgstr "视野受限"
+
+#. STRINGS.BUILDING.STATUSITEMS.MISSILELAUNCHER_PARTIALLYBLOCKED.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSILELAUNCHER_PARTIALLYBLOCKED.TOOLTIP"
+msgid ""
+"This building has a partially obstructed view of space\n"
+"\n"
+"To properly function, this building requires an unblocked view of space"
+msgstr ""
+"这个建筑部分太空视野受遮挡\n"
+"\n"
+"为正常工作，需要确保这个建筑的太空视野畅通无阻"
 
 #. STRINGS.BUILDING.STATUSITEMS.MISSINGFOUNDATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSINGFOUNDATION.NAME"
@@ -4227,22 +4279,22 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSACTIVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSACTIVE.NAME"
 msgid "Active"
-msgstr "闭合"
+msgstr "激活"
 
 #. STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSACTIVE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSACTIVE.TOOLTIP"
 msgid "This switch is currently toggled <b>On</b>"
-msgstr "这个开关已<b>闭合</b>"
+msgstr "当前状态为<b>激活</b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSINACTIVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSINACTIVE.NAME"
 msgid "Inactive"
-msgstr "断开"
+msgstr "失效"
 
 #. STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSINACTIVE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSINACTIVE.TOOLTIP"
 msgid "This switch is currently toggled <b>Off</b>"
-msgstr "这个开关已<b>断开</b>"
+msgstr "当前状态为<b>失效</b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.TANNINGLIGHTINSUFFICIENT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TANNINGLIGHTINSUFFICIENT.NAME"
@@ -6155,7 +6207,7 @@ msgstr "<link=\"ARTWIDEE\">《看，一把叉子》</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_F.DESC"
 msgid ""
 "Its companion piece, \"The Astronomer at Work\" was lost in a meteor shower."
-msgstr "其姊妹篇，《工作中的天文学家》在陨石雨中丢失了。"
+msgstr "其姊妹篇，《工作中的天文学家》在流星雨中丢失了。"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_F.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_F.NAME"
@@ -6658,7 +6710,7 @@ msgstr ""
 "当探测到太空来袭的物体时向自动化电路输出<b><style=\"logic_on\">绿色信号</"
 "style></b>。\n"
 "\n"
-"可以用于探测来袭的陨石雨或返回的太空火箭。"
+"可以用于探测来袭的流星雨或返回的太空火箭。"
 
 #. STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.NAME"
@@ -7586,6 +7638,72 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BALM_LILY.NAME"
 msgid "<link=\"EXTERIORWALL\">Balm Lily Print</link>"
 msgstr "<link=\"EXTERIORWALL\">芳香百合印花壁纸</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_BLUE_COBALT.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_BLUE_COBALT.DESC"
+msgid "It doesn't cure the blues, so much as emphasize them."
+msgstr "它不能治愈忧郁，而是强调。"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_BLUE_COBALT.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_BLUE_COBALT.NAME"
+msgid "<link=\"EXTERIORWALL\">Solid Cobalt</link>"
+msgstr "<link=\"EXTERIORWALL\">纯蓝壁纸</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_GREEN_KELLY.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_GREEN_KELLY.DESC"
+msgid "It's cheaper than having a garden."
+msgstr "比拥有一个花园便宜多了。"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_GREEN_KELLY.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_GREEN_KELLY.NAME"
+msgid "<link=\"EXTERIORWALL\">Spring Green</link>"
+msgstr "<link=\"EXTERIORWALL\">绿意壁纸</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_GREY_CHARCOAL.DESC
+msgctxt ""
+"STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_GREY_CHARCOAL.DESC"
+msgid "An elevated take on \"gray\"."
+msgstr "对“灰色”的高度理解。"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_GREY_CHARCOAL.NAME
+msgctxt ""
+"STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_GREY_CHARCOAL.NAME"
+msgid "<link=\"EXTERIORWALL\">Solid Charcoal</link>"
+msgstr "<link=\"EXTERIORWALL\">木炭壁纸</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_ORANGE_SATSUMA.DESC
+msgctxt ""
+"STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_ORANGE_SATSUMA.DESC"
+msgid "Less fruit-forward, but just as fresh."
+msgstr "没那么水果风，但还是很新鲜。"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_ORANGE_SATSUMA.NAME
+msgctxt ""
+"STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_ORANGE_SATSUMA.NAME"
+msgid "<link=\"EXTERIORWALL\">Solid Satsuma</link>"
+msgstr "<link=\"EXTERIORWALL\">蜜橘壁纸</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_PINK_FLAMINGO.DESC
+msgctxt ""
+"STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_PINK_FLAMINGO.DESC"
+msgid "A bold statement, for bold Duplicants."
+msgstr "一个大胆的声明，用于大胆的复制人。"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_PINK_FLAMINGO.NAME
+msgctxt ""
+"STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_PINK_FLAMINGO.NAME"
+msgid "<link=\"EXTERIORWALL\">Solid Pink</link>"
+msgstr "<link=\"EXTERIORWALL\">纯粉壁纸</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_RED_DEEP.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_RED_DEEP.DESC"
+msgid "It really spices up dull walls."
+msgstr "它真的能让沉闷的墙壁火辣起来。"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_RED_DEEP.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_RED_DEEP.NAME"
+msgid "<link=\"EXTERIORWALL\">Chili Red</link>"
+msgstr "<link=\"EXTERIORWALL\">辣椒红壁纸</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_WHITE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_WHITE.DESC"
 msgid "It's just so fresh and so clean."
@@ -7595,6 +7713,28 @@ msgstr "如此清新，如此整洁。"
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_WHITE.NAME"
 msgid "<link=\"EXTERIORWALL\">Fresh White</link>"
 msgstr "<link=\"EXTERIORWALL\">洁白壁纸</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_YELLOW_LEMON.DESC
+msgctxt ""
+"STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_YELLOW_LEMON.DESC"
+msgid "The original coal-mine chic."
+msgstr "原汁原味的煤矿时尚。"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_YELLOW_LEMON.NAME
+msgctxt ""
+"STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_YELLOW_LEMON.NAME"
+msgid "<link=\"EXTERIORWALL\">Canary Yellow</link>"
+msgstr "<link=\"EXTERIORWALL\">金丝雀黄壁纸</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BLUEBERRIES.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BLUEBERRIES.DESC"
+msgid "It stains the fingers."
+msgstr "它可会把手指弄脏了。"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BLUEBERRIES.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BLUEBERRIES.NAME"
+msgid "<link=\"EXTERIORWALL\">Juicy Blueberry</link>"
+msgstr "<link=\"EXTERIORWALL\">多汁蓝莓壁纸</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_BLUE_COBALT_WHITE.DESC
 msgctxt ""
@@ -7814,6 +7954,36 @@ msgctxt ""
 msgid "<link=\"EXTERIORWALL\">Yellowcake Diagonal</link>"
 msgstr "<link=\"EXTERIORWALL\">黄饼对角壁纸</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.GRAPES.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.GRAPES.DESC"
+msgid "It's seedless, if that matters."
+msgstr "如果非要知道的话，这是无籽的。"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.GRAPES.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.GRAPES.NAME"
+msgid "<link=\"EXTERIORWALL\">Grape Escape</link>"
+msgstr "<link=\"EXTERIORWALL\">葡萄逍遥壁纸</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.LEMON.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.LEMON.DESC"
+msgid "A bitter yet refreshing style."
+msgstr "苦涩而清爽的风格。"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.LEMON.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.LEMON.NAME"
+msgid "<link=\"EXTERIORWALL\">Sour Lemon</link>"
+msgstr "<link=\"EXTERIORWALL\">酸柠檬壁纸</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.LIME.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.LIME.DESC"
+msgid "Contains no actual vitamin C."
+msgstr "不含实际的维生素C。"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.LIME.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.LIME.NAME"
+msgid "<link=\"EXTERIORWALL\">Juicy Lime</link>"
+msgstr "<link=\"EXTERIORWALL\">多汁酸橙壁纸</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.MUSHBAR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.MUSHBAR.DESC"
 msgid "A gag-inducing wallpaper."
@@ -7914,6 +8084,16 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.RAINBOW.NAME"
 msgid "<link=\"EXTERIORWALL\">Rainbow Stripe</link>"
 msgstr "<link=\"EXTERIORWALL\">彩虹条纹壁纸</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.SATSUMA.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.SATSUMA.DESC"
+msgid "Adds some much-needed zest to the room."
+msgstr "添加了一些房间急需的橘味。"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.SATSUMA.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.SATSUMA.NAME"
+msgid "<link=\"EXTERIORWALL\">Satsuma Slice</link>"
+msgstr "<link=\"EXTERIORWALL\">蜜橘切片壁纸</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.SNOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.SNOW.DESC"
 msgid "A wallpaper as unique as my colony."
@@ -7924,6 +8104,16 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.SNOW.NAME"
 msgid "<link=\"EXTERIORWALL\">Snowflake Print</link>"
 msgstr "<link=\"EXTERIORWALL\">雪花印花壁纸</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.STRAWBERRY.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.STRAWBERRY.DESC"
+msgid "Fruity freckles for naturally sweet spaces."
+msgstr "果味斑点，用于自然而温馨的空间。"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.STRAWBERRY.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.STRAWBERRY.NAME"
+msgid "<link=\"EXTERIORWALL\">Strawberry Speckle</link>"
+msgstr "<link=\"EXTERIORWALL\">草莓斑点壁纸</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.SUN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.SUN.DESC"
 msgid "A UV-free wallpaper."
@@ -7933,6 +8123,16 @@ msgstr "一种无紫外光的壁纸。"
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.SUN.NAME"
 msgid "<link=\"EXTERIORWALL\">Sunshine Print</link>"
 msgstr "<link=\"EXTERIORWALL\">阳光印花壁纸</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.WATERMELON.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.WATERMELON.DESC"
+msgid "Far more practical than gluing real fruit at a wall."
+msgstr "远比真正将水果粘在墙上实用得多。"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.WATERMELON.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.WATERMELON.NAME"
+msgid "<link=\"EXTERIORWALL\">Juicy Watermelon</link>"
+msgstr "<link=\"EXTERIORWALL\">多汁西瓜壁纸</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.NAME"
@@ -8335,6 +8535,68 @@ msgstr ""
 "\n"
 "必须挂在墙体上。"
 
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.DEFAULT_FLOWERVASEWALL.DESC
+msgctxt ""
+"STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.DEFAULT_FLOWERVASEWALL.DESC"
+msgid "Facilitates vertical plant displays."
+msgstr "便于垂直地展示植物。"
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.DEFAULT_FLOWERVASEWALL.NAME
+msgctxt ""
+"STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.DEFAULT_FLOWERVASEWALL.NAME"
+msgid "<link=\"FLOWERVASEWALL\">Wall Pot</link>"
+msgstr "<link=\"FLOWERVASEWALL\">墙壁花盆</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_BLUE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_BLUE.DESC"
+msgid "Vertical gardens are pretty nifty."
+msgstr "垂直的花园非常漂亮。"
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_BLUE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_BLUE.NAME"
+msgid "<link=\"FLOWERVASEWALL\">Dreamy Retro Wall Pot</link>"
+msgstr "<link=\"FLOWERVASEWALL\">梦幻复古墙壁花盆</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_GREEN.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_GREEN.DESC"
+msgid "Vertical gardens are pretty nifty."
+msgstr "垂直的花园非常漂亮。"
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_GREEN.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_GREEN.NAME"
+msgid "<link=\"FLOWERVASEWALL\">Bright Retro Wall Pot</link>"
+msgstr "<link=\"FLOWERVASEWALL\">明亮复古墙壁花盆</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_RED.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_RED.DESC"
+msgid "Vertical gardens are pretty nifty."
+msgstr "垂直的花园非常漂亮。"
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_RED.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_RED.NAME"
+msgid "<link=\"FLOWERVASEWALL\">Bold Retro Wall Pot</link>"
+msgstr "<link=\"FLOWERVASEWALL\">醒目复古墙壁花盆</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_WHITE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_WHITE.DESC"
+msgid "Vertical gardens are pretty nifty."
+msgstr "垂直的花园非常漂亮。"
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_WHITE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_WHITE.NAME"
+msgid "<link=\"FLOWERVASEWALL\">Elegant Retro Wall Pot</link>"
+msgstr "<link=\"FLOWERVASEWALL\">优雅复古墙壁花盆</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_YELLOW.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_YELLOW.DESC"
+msgid "Vertical gardens are pretty nifty."
+msgstr "垂直的花园非常漂亮。"
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_YELLOW.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_YELLOW.NAME"
+msgid "<link=\"FLOWERVASEWALL\">Sunny Retro Wall Pot</link>"
+msgstr "<link=\"FLOWERVASEWALL\">阳光复古墙壁花盆</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.NAME"
 msgid "<link=\"FLOWERVASEWALL\">Wall Pot</link>"
@@ -8385,10 +8647,48 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.FLYINGCREATUREBAIT.NAME"
 msgid "<link=\"FLYINGCREATUREBAIT\">Airborne Critter Bait</link>"
 msgstr "<link=\"FLYINGCREATUREBAIT\">飞行动物诱饵</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.FOSSILDIG.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.FOSSILDIG.DESC"
+msgid "It's not from around here."
+msgstr "它不是来自这里的。"
+
+#. STRINGS.BUILDINGS.PREFABS.FOSSILDIG.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.FOSSILDIG.EFFECT"
+msgid ""
+"Contains a partial <link=\"FOSSIL\">Fossil</link> left behind by a giant "
+"critter.\n"
+"\n"
+"Studying the full skeleton could yield the information required to access a "
+"valuable new resource."
+msgstr ""
+"含有一只巨型动物留下的<link=\"FOSSIL\">化石</link>。\n"
+"\n"
+"研究完整骨架可以产生获得新有用资源的方法信息。"
+
+#. STRINGS.BUILDINGS.PREFABS.FOSSILDIG.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.FOSSILDIG.NAME"
+msgid "Ancient Specimen"
+msgstr "远古标本"
+
+#. STRINGS.BUILDINGS.PREFABS.FOSSILDIG_COMPLETED.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.FOSSILDIG_COMPLETED.DESC"
+msgid "There sure are a lot of old bones in this area."
+msgstr "这片区域一定有很多老骨头。"
+
+#. STRINGS.BUILDINGS.PREFABS.FOSSILDIG_COMPLETED.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.FOSSILDIG_COMPLETED.EFFECT"
+msgid "Contains a deep cache of harvestable <link=\"FOSSIL\">Fossils</link>."
+msgstr "含有可获取的深层<link=\"FOSSIL\">化石</link>矿藏。"
+
+#. STRINGS.BUILDINGS.PREFABS.FOSSILDIG_COMPLETED.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.FOSSILDIG_COMPLETED.NAME"
+msgid "Fossil Quarry"
+msgstr "化石采集场"
+
 #. STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.DESC"
-msgid "Nuke your food"
-msgstr "“嘭”饪你的食物"
+msgid "Nuke your food."
+msgstr "“嘭”饪你的食物。"
 
 #. STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.EFFECT"
@@ -9971,8 +10271,8 @@ msgstr "<link=\"ICESCULPTUREAMAZING1\">《精致的咀嚼者》</link>"
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.FACADES.ICESCULPTURE_AMAZING_2.DESC
 msgctxt ""
 "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.FACADES.ICESCULPTURE_AMAZING_2.DESC"
-msgid "A masterful depiction of the mighty Pokeshell in mid-rampage."
-msgstr "对横冲直撞的抛壳蟹的精湛描绘。"
+msgid "A charming depiction of the mighty Pokeshell in mid-rampage."
+msgstr "对横冲直撞的抛壳蟹的精美描绘。"
 
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.FACADES.ICESCULPTURE_AMAZING_2.NAME
 msgctxt ""
@@ -11285,7 +11585,7 @@ msgstr "星图位置传感器能在火箭处于某个位置时发出信号"
 #. STRINGS.BUILDINGS.PREFABS.LOGICCLUSTERLOCATIONSENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCLUSTERLOCATIONSENSOR.EFFECT"
 msgid ""
-"Send <b><style=\"logic_on\">Green Signals</style></b> at the chosen starmap "
+"Send <b><style=\"logic_on\">Green Signals</style></b> at the chosen Starmap "
 "locations and <b><style=\"logic_off\">Red Signals</style></b> everywhere "
 "else."
 msgstr ""
@@ -11301,8 +11601,8 @@ msgstr "星图位置传感器"
 msgctxt ""
 "STRINGS.BUILDINGS.PREFABS.LOGICCLUSTERLOCATIONSENSOR.LOGIC_PORT_ACTIVE"
 msgid ""
-"Sends a <b><style=\"logic_on\">Green Signal</style></b> at the chosen "
-"starmap locations"
+"Sends a <b><style=\"logic_on\">Green Signal</style></b>when a spacecraft is "
+"at the chosen Starmap locations"
 msgstr ""
 "当处于选定的星图位置时，输出<b><style=\"logic_on\">绿色信号</style></b>"
 
@@ -13038,20 +13338,18 @@ msgstr "<link=\"LONELYMINIONHOUSECOMPLETE\">庄严科技运输集装箱</link>"
 #. STRINGS.BUILDINGS.PREFABS.LUXURYBED.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LUXURYBED.DESC"
 msgid ""
-"Duplicants prefer comfy beds to cots and gain more stamina from sleeping in "
-"them."
-msgstr ""
-"比起床铺，复制人更喜欢睡在舒适的床上，而且睡在舒适的床上能补充更多体力。"
+"Duplicants prefer comfy beds to cots and wake up more rested after sleeping "
+"in them."
+msgstr "比起床铺，复制人更喜欢睡在舒适的床上，且睡醒后会感到更舒适。"
 
 #. STRINGS.BUILDINGS.PREFABS.LUXURYBED.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LUXURYBED.EFFECT"
 msgid ""
-"Provides a sleeping area for one Duplicant and restores additional <link="
-"\"STAMINA\">Stamina</link>.\n"
+"Provides a sleeping area for one Duplicant and restores additional stamina.\n"
 "\n"
 "Duplicants will automatically sleep in their assigned beds at night."
 msgstr ""
-"为一名复制人提供睡眠区并恢复额外的<link=\"STAMINA\">体力</link>。\n"
+"为一名复制人提供睡眠区并恢复额外的体力。\n"
 "\n"
 "复制人晚上会自动在指定的床位上睡觉。"
 
@@ -13796,6 +14094,79 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.MINERALDEOXIDIZER.NAME"
 msgid "<link=\"MINERALDEOXIDIZER\">Oxygen Diffuser</link>"
 msgstr "<link=\"MINERALDEOXIDIZER\">氧气扩散器</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.MISSILEFABRICATOR.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILEFABRICATOR.DESC"
+msgid ""
+"Blastshot shells are an effective defense against incoming meteor showers."
+msgstr "爆破弹能高效防御来袭的流星雨。"
+
+#. STRINGS.BUILDINGS.PREFABS.MISSILEFABRICATOR.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILEFABRICATOR.EFFECT"
+msgid ""
+"Produces <link=\"MISSILELAUNCHER\">Blastshot</link> from <link=\"REFINEDMETAL"
+"\">Refined Metals</link> combined with <link=\"PETROLEUM\">Petroleum</"
+"link>.\n"
+"\n"
+"Duplicants will not fabricate items unless recipes are queued."
+msgstr ""
+"将<link=\"REFINEDMETAL\">精炼金属</link>与<link=\"PETROLEUM\">石油</link>组合"
+"以生产<link=\"MISSILELAUNCHER\">爆破弹</link>。\n"
+"\n"
+"只有在队列中安排配方复制人才会进行制作。"
+
+#. STRINGS.BUILDINGS.PREFABS.MISSILEFABRICATOR.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILEFABRICATOR.NAME"
+msgid "<link=\"MISSILEFABRICATOR\">Blastshot Maker</link>"
+msgstr "<link=\"MISSILEFABRICATOR\">爆破弹组装机</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.MISSILEFABRICATOR.RECIPE_DESCRIPTION
+msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILEFABRICATOR.RECIPE_DESCRIPTION"
+msgid "Produces {0} from {1} and {2}."
+msgstr "由{1}和{2}生产{0}。"
+
+#. STRINGS.BUILDINGS.PREFABS.MISSILELAUNCHER.BODY.CONTAINER1
+msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILELAUNCHER.BODY.CONTAINER1"
+msgid ""
+"Fires <link=\"MISSILELAUNCHER\">Blastshot</link> shells at meteor showers to "
+"defend the colony from impact-related damage.\n"
+"\n"
+"Range: 16 tiles horizontally, 32 tiles vertically.\n"
+"\n"
+"Meteors that have been blown to smithereens leave behind no harvestable "
+"resources."
+msgstr ""
+"在流星雨期间发射<link=\"MISSILELAUNCHER\">爆破弹</link>以免受殖民地遭受撞击损"
+"坏。\n"
+"\n"
+"范围：水平16格，垂直32格。\n"
+"\n"
+"炸成碎片的流星不会留下可获得的资源。"
+
+#. STRINGS.BUILDINGS.PREFABS.MISSILELAUNCHER.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILELAUNCHER.DESC"
+msgid ""
+"Meteors that have been blown to smithereens leave behind no harvestable "
+"resources."
+msgstr "被炸成碎片的流星不会留下可获得的资源。"
+
+#. STRINGS.BUILDINGS.PREFABS.MISSILELAUNCHER.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILELAUNCHER.EFFECT"
+msgid ""
+"Fires <link=\"MISSILELAUNCHER\">Blastshot</link> shells at meteor showers to "
+"defend the colony from impact-related damage.\n"
+"\n"
+"Range: 16 tiles horizontally, 32 tiles vertically."
+msgstr ""
+"在流星雨期间发射<link=\"MISSILELAUNCHER\">爆破弹</link>以免受殖民地遭受撞击损"
+"坏。\n"
+"\n"
+"范围：水平16格，垂直32格。"
+
+#. STRINGS.BUILDINGS.PREFABS.MISSILELAUNCHER.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILELAUNCHER.NAME"
+msgid "Meteor Blaster"
+msgstr "流星爆破炮"
+
 #. STRINGS.BUILDINGS.PREFABS.MISSIONCONTROL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MISSIONCONTROL.DESC"
 msgid "Like a backseat driver who actually does know better."
@@ -14400,7 +14771,7 @@ msgid ""
 "write it to a <link=\"ORBITALRESEARCHDATABANK\">Data Bank</link>. "
 msgstr ""
 "在小行星轨道上时，轨道数据收集实验仪可以记录数据，并将其写入<link="
-"\"ORBITALRESEARCHDATABANK\">数据磁盘</link>"
+"\"ORBITALRESEARCHDATABANK\">数据磁盘</link>。"
 
 #. STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.EFFECT"
@@ -18080,22 +18451,22 @@ msgstr "电闸"
 #. STRINGS.BUILDINGS.PREFABS.SWITCH.TURN_OFF
 msgctxt "STRINGS.BUILDINGS.PREFABS.SWITCH.TURN_OFF"
 msgid "Turn Off"
-msgstr "断开"
+msgstr "关闭"
 
 #. STRINGS.BUILDINGS.PREFABS.SWITCH.TURN_OFF_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.SWITCH.TURN_OFF_TOOLTIP"
 msgid "Turn Off {Hotkey}"
-msgstr "断开 {Hotkey}"
+msgstr "关闭 {Hotkey}"
 
 #. STRINGS.BUILDINGS.PREFABS.SWITCH.TURN_ON
 msgctxt "STRINGS.BUILDINGS.PREFABS.SWITCH.TURN_ON"
 msgid "Turn On"
-msgstr "闭合"
+msgstr "开启"
 
 #. STRINGS.BUILDINGS.PREFABS.SWITCH.TURN_ON_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.SWITCH.TURN_ON_TOOLTIP"
 msgid "Turn On {Hotkey}"
-msgstr "闭合 {Hotkey}"
+msgstr "开启 {Hotkey}"
 
 #. STRINGS.BUILDINGS.PREFABS.TELEPHONE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELEPHONE.DESC"
@@ -18247,7 +18618,7 @@ msgstr "<link=\"TEMPERATURECONTROLLEDSWITCH\">温控开关</link>"
 #. STRINGS.BUILDINGS.PREFABS.TEMPORALTEAROPENER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.TEMPORALTEAROPENER.DESC"
 msgid "Infinite possibilities, with a complimentary side of meteor showers."
-msgstr "蕴含无限可能，附赠陨石雨。"
+msgstr "蕴含无限可能，附赠流星雨。"
 
 #. STRINGS.BUILDINGS.PREFABS.TEMPORALTEAROPENER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.TEMPORALTEAROPENER.EFFECT"
@@ -18824,7 +19195,7 @@ msgid ""
 "\n"
 "Can be run through wall and floor tile."
 msgstr ""
-"可以运载比普通<link=\"WIREBRIDGE\">点线桥</link>更高的<link=\"POWER\">功率</"
+"可以运载比普通<link=\"WIREBRIDGE\">电线桥</link>更高的<link=\"POWER\">功率</"
 "link>而不会过载。\n"
 "\n"
 "让一条电线可以越过另一条电线，而不会连在一起。\n"
@@ -19641,7 +20012,7 @@ msgid ""
 msgstr ""
 "<smallcaps><b>提醒：邮件室行为规范</b>\n"
 "发件人：<b>管理员</b> <alpha=#AA><admin@gravitas.nova></color>\n"
-"收件人：<b>所有人</b></smallcaps>\n"
+"收件人：<b>全体</b></smallcaps>\n"
 "------------------\n"
 "\n"
 "<indent=5%>请勿将活蜜蜂送到办公室邮件室。实验测试对象申请需递交给管理员处"
@@ -20216,7 +20587,7 @@ msgid ""
 msgstr ""
 "<smallcaps><b>提醒所有人员</b>\n"
 "发件人：<b>管理员</b> <alpha=#AA><admin@gravitas.nova></color>\n"
-"收件人：<b>所有人</b></smallcaps>\n"
+"收件人：<b>全体</b></smallcaps>\n"
 "------------------\n"
 "\n"
 "<indent=5%>为了同事的安全和健康，请不要在食堂冰箱里存放无标签细菌培养物。\n"
@@ -20744,7 +21115,7 @@ msgstr ""
 "[录音开始]\n"
 "\n"
 "遗传学家：这个项目的主要问题是，殖民地居民可能不得不去应对各种环境变化。随同"
-"定居者一同前往的生物将没有时间进化和适应新环境，但我们选择的每一种生物都在殖"
+"定居组一同前往的生物将没有时间进化和适应新环境，但我们选择的每一种生物都在殖"
 "民地的维持中扮演着至关重要的角色，它们太宝贵，我们不能冒着失去它们的风险。\n"
 "\n"
 "遗传学家：因此，我们设计的每一种生物都必须配备相应的工具，以便在我们所能想到"
@@ -20792,7 +21163,7 @@ msgid ""
 msgstr ""
 "<smallcaps><b>标题：新安保方案</b>\n"
 "发件人：<b>管理员</b> <alpha=#AA><admin@gravitas.nova></color>\n"
-"收件人：<b>所有人</b></smallcaps>\n"
+"收件人：<b>全体</b></smallcaps>\n"
 "------------------\n"
 "\n"
 "<indent=5%>所有人员请注意\n"
@@ -21006,7 +21377,7 @@ msgid ""
 msgstr ""
 "<smallcaps><b>周五便装日！</b>\n"
 "发件人：<b>管理员</b> <alpha=#AA><admin@gravitas.nova></color>\n"
-"收件人：<b>所有人</b></smallcaps>\n"
+"收件人：<b>全体</b></smallcaps>\n"
 "------------------\n"
 "\n"
 "<indent=5%>致所有员工；\n"
@@ -21440,7 +21811,7 @@ msgid ""
 msgstr ""
 "<smallcaps><b>请认领您的机器人</b>\n"
 "发件人：<b>管理员</b> <alpha=#AA><admin@gravitas.nova></color>\n"
-"收件人：<b>所有人</b></smallcaps>\n"
+"收件人：<b>全体</b></smallcaps>\n"
 "------------------\n"
 "\n"
 "<indent=5%>我们很感激您致力于办公室维护工作，但特此通知在食堂安装洗碗机器人的"
@@ -21772,7 +22143,7 @@ msgid ""
 "From: <b>[REDACTED]</b></smallcaps>\n"
 "------------------\n"
 msgstr ""
-"<smallcaps>收件人：<b>所有人</b>\n"
+"<smallcaps>收件人：<b>全体</b>\n"
 "发件人：<b>[加密]</b></smallcaps>\n"
 "------------------\n"
 
@@ -22934,7 +23305,7 @@ msgid ""
 "From: <b>[REDACTED]</b></color></smallcaps>\n"
 "------------------\n"
 msgstr ""
-"<smallcaps>收件人：<b>所有人</b>\n"
+"<smallcaps>收件人：<b>全体</b>\n"
 "发件人：<b>[加密]</b></color></smallcaps>\n"
 "------------------\n"
 
@@ -22991,7 +23362,7 @@ msgid ""
 "smallcaps>\n"
 "------------------\n"
 msgstr ""
-"<smallcaps>收件人：<b>所有人</b>\n"
+"<smallcaps>收件人：<b>全体</b>\n"
 "发件人：<b>管理员</b><size=12><alpha=#AA> <admin@gravitas.nova></color></"
 "size></smallcaps>\n"
 "------------------\n"
@@ -23872,7 +24243,7 @@ msgid ""
 "From: <b>Admin</b> <alpha=#AA><admin@gravitas.nova></color></smallcaps>\n"
 "------------------\n"
 msgstr ""
-"<smallcaps>收件人：<b>所有人</b>\n"
+"<smallcaps>收件人：<b>全体</b>\n"
 "发件人：<b>管理员</b> <alpha=#AA><admin@gravitas.nova></color></smallcaps>\n"
 "------------------\n"
 
@@ -25686,7 +26057,7 @@ msgstr ""
 #. STRINGS.CODEX.JOURNALISTREQUEST.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.JOURNALISTREQUEST.BODY.CONTAINER2"
 msgid ""
-"<indent=5%>I don't don't know how you pulled it off, but Stern's office just "
+"<indent=5%>I don't know how you pulled it off, but Stern's office just "
 "called the paper and granted me an exclusive...and a tour of the Gravitas "
 "Facility. I owe you a beer. No - a case of beer. Six cases of beer!\n"
 "\n"
@@ -27209,7 +27580,7 @@ msgid ""
 "Accelerator Scholarship at the Elion University of Science and Technology.\n"
 "\n"
 "Head judge Dr. Elias Balko acknowledges that it was unorthodox, but defends "
-"the decision. \"We�re scientists�it�s our job to push boundaries.\"\n"
+"the decision. \"We're scientists - it's our job to push boundaries.\"\n"
 "\n"
 "Pei was awarded the coveted Halas Medal, the top prize for innovation in the "
 "field.\n"
@@ -27219,7 +27590,7 @@ msgid ""
 "possible. This is going to change everything about...well, everything.\"\n"
 "\n"
 "This is the second time that Pei has made headlines. Last year, the striking "
-"young nanoscientist won the Miss Planetary Belle pageant�s talent show with "
+"young nanoscientist won the Miss Planetary Belle pageant's talent show with "
 "a live demonstration of nanorobots weaving a ballgown out of fibers "
 "harvested from common houseplants.\n"
 "\n"
@@ -27999,6 +28370,72 @@ msgstr ""
 "已运送的食物：\n"
 "{1}"
 
+#. STRINGS.CODEX.QUESTS.CRITERIA.LOSTICEFOSSIL.NAME
+msgctxt "STRINGS.CODEX.QUESTS.CRITERIA.LOSTICEFOSSIL.NAME"
+msgid "<link=\"MOVECAMERATOFOSSILICE\">Frozen Fossil</link>"
+msgstr "<link=\"MOVECAMERATOFOSSILICE\">冰封化石</link>"
+
+#. STRINGS.CODEX.QUESTS.CRITERIA.LOSTICEFOSSIL.NONE
+msgctxt "STRINGS.CODEX.QUESTS.CRITERIA.LOSTICEFOSSIL.NONE"
+msgid "None"
+msgstr "无"
+
+#. STRINGS.CODEX.QUESTS.CRITERIA.LOSTICEFOSSIL.TOOLTIP
+msgctxt "STRINGS.CODEX.QUESTS.CRITERIA.LOSTICEFOSSIL.TOOLTIP"
+msgid ""
+"Retrieve a piece of the ancient critter that has been preserved in <style="
+"\"KKeyword\">Ice</style>"
+msgstr "取回一块保存在<style=\"KKeyword\">冰</style>中的远古小动物碎片"
+
+#. STRINGS.CODEX.QUESTS.CRITERIA.LOSTRESINFOSSIL.NAME
+msgctxt "STRINGS.CODEX.QUESTS.CRITERIA.LOSTRESINFOSSIL.NAME"
+msgid "<link=\"MOVECAMERATOFOSSILRESIN\">Amber Fossil</link>"
+msgstr "<link=\"MOVECAMERATOFOSSILRESIN\">琥珀化石</link>"
+
+#. STRINGS.CODEX.QUESTS.CRITERIA.LOSTRESINFOSSIL.NONE
+msgctxt "STRINGS.CODEX.QUESTS.CRITERIA.LOSTRESINFOSSIL.NONE"
+msgid "None"
+msgstr "无"
+
+#. STRINGS.CODEX.QUESTS.CRITERIA.LOSTRESINFOSSIL.TOOLTIP
+msgctxt "STRINGS.CODEX.QUESTS.CRITERIA.LOSTRESINFOSSIL.TOOLTIP"
+msgid ""
+"Retrieve a piece of the ancient critter that has been preserved in a "
+"strangely resin-like substance"
+msgstr "取回一块保存在奇怪的树脂状物质中的远古小动物碎片"
+
+#. STRINGS.CODEX.QUESTS.CRITERIA.LOSTROCKFOSSIL.NAME
+msgctxt "STRINGS.CODEX.QUESTS.CRITERIA.LOSTROCKFOSSIL.NAME"
+msgid "<link=\"MOVECAMERATOFOSSILROCK\">Petrified Fossil</link>"
+msgstr "<link=\"MOVECAMERATOFOSSILROCK\">石化化石</link>"
+
+#. STRINGS.CODEX.QUESTS.CRITERIA.LOSTROCKFOSSIL.NONE
+msgctxt "STRINGS.CODEX.QUESTS.CRITERIA.LOSTROCKFOSSIL.NONE"
+msgid "None"
+msgstr "无"
+
+#. STRINGS.CODEX.QUESTS.CRITERIA.LOSTROCKFOSSIL.TOOLTIP
+msgctxt "STRINGS.CODEX.QUESTS.CRITERIA.LOSTROCKFOSSIL.TOOLTIP"
+msgid ""
+"Retrieve a piece of the ancient critter that has been preserved in <style="
+"\"KKeyword\">Rock</style> "
+msgstr "取回一块保存在<style=\"KKeyword\">岩石</style>中的远古小动物碎片"
+
+#. STRINGS.CODEX.QUESTS.CRITERIA.LOSTSPECIMEN.NAME
+msgctxt "STRINGS.CODEX.QUESTS.CRITERIA.LOSTSPECIMEN.NAME"
+msgid "<link=\"MOVECAMERATOFOSSILDIG\">Ancient Specimen</link>"
+msgstr "<link=\"MOVECAMERATOFOSSILDIG\">远古标本</link>"
+
+#. STRINGS.CODEX.QUESTS.CRITERIA.LOSTSPECIMEN.NONE
+msgctxt "STRINGS.CODEX.QUESTS.CRITERIA.LOSTSPECIMEN.NONE"
+msgid "None"
+msgstr "无"
+
+#. STRINGS.CODEX.QUESTS.CRITERIA.LOSTSPECIMEN.TOOLTIP
+msgctxt "STRINGS.CODEX.QUESTS.CRITERIA.LOSTSPECIMEN.TOOLTIP"
+msgid "Retrieve the largest deposit of the ancient critter's remains"
+msgstr "取回远古小动物残骸的最大部分的化石"
+
 #. STRINGS.CODEX.QUESTS.CRITERIA.NEIGHBOR.NAME
 msgctxt "STRINGS.CODEX.QUESTS.CRITERIA.NEIGHBOR.NAME"
 msgid "Knock on door"
@@ -28045,6 +28482,23 @@ msgstr ""
 msgctxt "STRINGS.CODEX.QUESTS.FOODQUEST.NAME"
 msgid "Welcome Dinner"
 msgstr "欢迎晚宴"
+
+#. STRINGS.CODEX.QUESTS.FOSSILHUNTQUEST.COMPLETE
+msgctxt "STRINGS.CODEX.QUESTS.FOSSILHUNTQUEST.COMPLETE"
+msgid ""
+"Each of the fossil deposits on this asteroid has been excavated, and its "
+"contents safely retrieved.\n"
+"\n"
+"The ancient specimen's deeper cache of fossil can now be mined."
+msgstr ""
+"这颗小行星上的各个化石碎片都已发掘，其内容物已安全取回。\n"
+"\n"
+"现在远古标本的深层化石矿藏可供开采了。"
+
+#. STRINGS.CODEX.QUESTS.FOSSILHUNTQUEST.NAME
+msgctxt "STRINGS.CODEX.QUESTS.FOSSILHUNTQUEST.NAME"
+msgid "Scattered Fragments"
+msgstr "散落的碎片"
 
 #. STRINGS.CODEX.QUESTS.HIGHDECOR.COMPLETE
 msgctxt "STRINGS.CODEX.QUESTS.HIGHDECOR.COMPLETE"
@@ -28885,7 +29339,7 @@ msgid ""
 "smallcaps>\n"
 "------------------\n"
 msgstr ""
-"<smallcaps>收件人：<b>所有人</b><alpha=#AA><size=12></size></color>\n"
+"<smallcaps>收件人：<b>全体</b><alpha=#AA><size=12></size></color>\n"
 "发件人：<b>管理员</b><alpha=#AA><size=12> <admin@gravitas.nova></size></"
 "color></smallcaps>\n"
 "------------------\n"
@@ -29322,6 +29776,719 @@ msgctxt "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.WORKIVERSARY.TITLE"
 msgid "Anatomy of a Byron's Hatch"
 msgstr "拜伦的哈奇的解剖"
 
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.BEGIN_POPUP.BUTTON
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.BEGIN_POPUP.BUTTON"
+msgid "Close"
+msgstr "关闭"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.BEGIN_POPUP.CODEX_NAME
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.BEGIN_POPUP.CODEX_NAME"
+msgid "First Encounter"
+msgstr "初遇"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.BEGIN_POPUP.DESCRIPTION
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.BEGIN_POPUP.DESCRIPTION"
+msgid ""
+"I've discovered a fossilized critter buried in my colony—at least, part of "
+"one—but it does not resemble any of the species we have encountered on this "
+"asteroid.\n"
+"\n"
+"Where did it come from? How did it get here? And what other questions might "
+"these bones hold the answer to?\n"
+"\n"
+"There is only one way to find out."
+msgstr ""
+"我发现了一只化石化的小动物埋藏在我的殖民地中——至少是其中一部分碎片——但它与我"
+"们在这颗小行星上发现的任何物种都不一样。\n"
+"\n"
+"它是从哪里来的？它是怎么到这里的？这些骨头藏着什么其他问题的答案呢？\n"
+"\n"
+"只有一种方法可以找到答案。"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.BEGIN_POPUP.NAME
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.BEGIN_POPUP.NAME"
+msgid "Story Trait: Ancient Specimen"
+msgstr "故事特质：远古标本"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DESCRIPTION
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DESCRIPTION"
+msgid ""
+"This asteroid has a few skeletons in its geological closet.\n"
+"\n"
+"Track down the fossilized fragments of an ancient critter to assemble key "
+"pieces of Gravitas history and unlock a new resource."
+msgstr ""
+"这颗小行星的地下有一些骨架。\n"
+"\n"
+"搜寻一种远古小动物的化石碎片，以此收集庄严科技的历史并解锁新资源。"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DESCRIPTION_BUILDINGMENU_COVERED
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DESCRIPTION_BUILDINGMENU_COVERED"
+msgid ""
+"Unlocking full access to the fossil cache buried beneath the ancient "
+"specimen requires excavation of all deposit sites."
+msgstr "解锁远古标本下方埋藏的化石矿藏需要发掘全部化石遗迹。"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DESCRIPTION_REVEALED
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DESCRIPTION_REVEALED"
+msgid ""
+"Unlocking full access to the fossil cache buried beneath the ancient "
+"specimen requires excavation of all deposit sites."
+msgstr "解锁远古标本下方埋藏的化石矿藏需要发掘全部化石遗迹。"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DESCRIPTION_SHORT
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DESCRIPTION_SHORT"
+msgid "Track down the fossilized fragments of an ancient critter."
+msgstr "搜寻一种远古小动物的化石碎片。"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DNADATA_ENTRY.TELEPORTFAILURE
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DNADATA_ENTRY.TELEPORTFAILURE"
+msgid ""
+"It appears that this creature's DNA was once used as a kind of genetic "
+"storage unit."
+msgstr "似乎这种生物的DNA曾用作一种基因存储单元。"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DNADATA_ENTRY_EXPANDED.BODY.CONTAINER1
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DNADATA_ENTRY_EXPANDED.BODY.CONTAINER1"
+msgid ""
+"<indent=5%>Dear [REDACTED]\n"
+"\n"
+"We are pleased to announce that research objectives for Operation Piazzi's "
+"Planet are nearing completion. Thank you all for your patience as we "
+"navigated the unprecedented obstacles that such groundbreaking work "
+"entails.\n"
+"\n"
+"We are aware of rumors regarding documents leaked from Dr. [REDACTED]'s "
+"files.\n"
+"\n"
+"Rest assured that the contents of this supposed \"whistleblower\" effort are "
+"entirely fabricated—our technology is far too advanced to allow for the type "
+"of miscalculation that would result in OPP shipments arriving at their "
+"destination some 10,000 years prior to the targeted date.\n"
+"\n"
+"Our IT security team is currently investigating the document's digital "
+"footprint to determine its origin.\n"
+"\n"
+"To express our gratitude for your continued support, we would like to invite "
+"key stakeholders to a private launch party held at the Gravitas Facility. "
+"The evening will be emceed by Dr. Olivia Broussard, who will present our "
+"groundbreaking prototypes along with a five-course meal featuring lab-"
+"crafted ingredients.\n"
+"\n"
+"Due to the sensitive nature of our work, we regret that no additional guests "
+"or dietary restrictions can be accommodated at this time.\n"
+"\n"
+"Director Stern will be hosting a 30-minute Q&A session after dinner. "
+"Questions must be submitted at least 24 hours in advance.\n"
+"\n"
+"Queries about the [REDACTED] papers will be disregarded.\n"
+"\n"
+"Please be advised that the contents of this e-mail will expire three minutes "
+"from the time of opening.</indent>"
+msgstr ""
+"<indent=5%>亲爱的[加密]\n"
+"\n"
+"我们很高兴地宣布，在皮亚齐行动行星上的研究目标已接近尾声。我们已经克服了这种"
+"开创性工作带来的前所未有的障碍，感谢大家的耐心。\n"
+"\n"
+"我们知道有传言说[加密]博士的文件中泄露了一些文档。\n"
+"\n"
+"请大家放心，所谓的“告密者”完全是捏造的——我们的技术远超一般水准，不允许出现OPP"
+"货物在目标日期前1万年就到达其目的地的错误计算。\n"
+"\n"
+"我们的IT安全团队目前正在调查这份文档的数字痕迹以确定其来源。\n"
+"\n"
+"为了感谢大家的不断支持，我们想邀请主要利益相关者参加庄严科技举行的私人发布"
+"会。当晚将由奥莉维亚·布鲁萨德博士主持，她将展示我们开创性的原型体，以及用实验"
+"室制作的食材制成的五道菜。\n"
+"\n"
+"由于我们工作的敏感性，我们很抱歉目前无法容纳更多客人，并存在饮食限制。\n"
+"\n"
+"斯特恩主管在晚餐后将主持30分钟的问答环节。所有问题必须提前至少24小时提交。\n"
+"\n"
+"有关[加密]文件的问题将不予解答。\n"
+"\n"
+"请注意，此电子邮件的内容将在打开后3分钟后失效。</indent>"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DNADATA_ENTRY_EXPANDED.BODY.EMAILHEADER
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DNADATA_ENTRY_EXPANDED.BODY.EMAILHEADER"
+msgid ""
+"<smallcaps>To: <b>[REDACTED]</b><alpha=#AA><size=12></size></color>\n"
+"From: <b>[REDACTED]</b><alpha=#AA></smallcaps>\n"
+"------------------\n"
+msgstr ""
+"<smallcaps>收件人：<b>[加密]</b><alpha=#AA><size=12></size></color>\n"
+"发件人：<b>[加密]</b><alpha=#AA></smallcaps>\n"
+"------------------\n"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DNADATA_ENTRY_EXPANDED.BODY.SIGNATURE
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DNADATA_ENTRY_EXPANDED.BODY.SIGNATURE"
+msgid ""
+"\n"
+"Sincerely,\n"
+"[REDACTED]\n"
+"<size=11>The Gravitas Facility</size>\n"
+"------------------\n"
+msgstr ""
+"\n"
+"谨上\n"
+"[加密]\n"
+"<size=11>庄严科技</size>\n"
+"------------------\n"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DNADATA_ENTRY_EXPANDED.SUBTITLE
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DNADATA_ENTRY_EXPANDED.SUBTITLE"
+msgid "ENCRYPTION LEVEL: THREE"
+msgstr "加密级别：三"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DNADATA_ENTRY_EXPANDED.TITLE
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DNADATA_ENTRY_EXPANDED.TITLE"
+msgid "SUBJECT: RESETTLEMENT LAUNCH PARTY"
+msgstr "主题：重定居计划启动派对"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.END_POPUP.BUTTON
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.END_POPUP.BUTTON"
+msgid "Activate Fossil Quarry"
+msgstr "激活化石采集场"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.END_POPUP.CODEX_NAME
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.END_POPUP.CODEX_NAME"
+msgid "Challenge Completed"
+msgstr "挑战完成"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.END_POPUP.DESCRIPTION
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.END_POPUP.DESCRIPTION"
+msgid ""
+"My Duplicants have meticulously reassembled as much of the giant critter's "
+"scattered remains as they could find.\n"
+"\n"
+"Their efforts have unearthed a seemingly bottomless fossil quarry beneath "
+"the largest fragment's dig site.\n"
+"\n"
+"Nestled among the topmost bones was a handcrafted critter collar. It's too "
+"large to have belonged to any species traditionally categorized as companion "
+"animals."
+msgstr ""
+"我的复制人已经找到这只巨型动物尽可能多的散落残骸，并进行了精心组装。\n"
+"\n"
+"通过努力，他们在最大化石的挖掘地点下发掘了一个看似无底的化石采集场。\n"
+"\n"
+"在最上方的骨头中间嵌着一个手工制作的小动物项圈。因为过大，它不应属于任何传统"
+"意义上的伴侣动物。"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.END_POPUP.NAME
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.END_POPUP.NAME"
+msgid "Story Trait Complete: Ancient Specimen"
+msgstr "故事特质完成：远古标本"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ENTITIES.FOSSIL_BITS.DESC
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ENTITIES.FOSSIL_BITS.DESC"
+msgid "Bony debris that can be excavated for <link=\"FOSSIL\">Fossil</link>."
+msgstr "可以发掘出<link=\"FOSSIL\">化石</link>的骨头碎物。"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ENTITIES.FOSSIL_BITS.NAME
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ENTITIES.FOSSIL_BITS.NAME"
+msgid "Fossil Fragments"
+msgstr "化石碎片"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ENTITIES.FOSSIL_DIG_SITE.DESC
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ENTITIES.FOSSIL_DIG_SITE.DESC"
+msgid ""
+"Here lies a significant portion of the remains of an enormous, long-dead "
+"critter.\n"
+"\n"
+"It's not from around here."
+msgstr ""
+"这里残留着一只早已死去的巨大动物的大部分遗骸。\n"
+"\n"
+"它不是来自这里的。"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ENTITIES.FOSSIL_DIG_SITE.NAME
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ENTITIES.FOSSIL_DIG_SITE.NAME"
+msgid "Ancient Specimen"
+msgstr "远古标本"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ENTITIES.FOSSIL_ICE.DESC
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ENTITIES.FOSSIL_ICE.DESC"
+msgid ""
+"The well-preserved partial remains of a critter of unknown origin.\n"
+"\n"
+"It appears to belong to the same ancient specimen found at another site.\n"
+"\n"
+"This fragment has been preserved in <link=\"ICE\">Ice</link>."
+msgstr ""
+"未知来源的小动物部分残骸，保存完好。\n"
+"\n"
+"似乎与在另一个遗迹中找到的那份来自同一种生物。\n"
+"\n"
+"这份碎片保存在<link=\"ICE\">冰</link>中。"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ENTITIES.FOSSIL_ICE.NAME
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ENTITIES.FOSSIL_ICE.NAME"
+msgid "Frozen Fossil"
+msgstr "冰封化石"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ENTITIES.FOSSIL_RESIN.DESC
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ENTITIES.FOSSIL_RESIN.DESC"
+msgid ""
+"The well-preserved partial remains of a critter of unknown origin.\n"
+"\n"
+"It appears to belong to the same ancient specimen found at another site.\n"
+"\n"
+"This fragment has been preserved in a resin-like substance."
+msgstr ""
+"未知来源的小动物部分残骸，保存完好。\n"
+"\n"
+"似乎与在另一个遗迹中找到的那份来自同一种生物。\n"
+"\n"
+"这份碎片保存在树脂状物质中。"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ENTITIES.FOSSIL_RESIN.NAME
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ENTITIES.FOSSIL_RESIN.NAME"
+msgid "Amber Fossil"
+msgstr "琥珀化石"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ENTITIES.FOSSIL_ROCK.DESC
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ENTITIES.FOSSIL_ROCK.DESC"
+msgid ""
+"The well-preserved partial remains of a critter of unknown origin.\n"
+"\n"
+"It appears to belong to the same ancient specimen found at another site.\n"
+"\n"
+"This fragment has been preserved in petrified <link=\"DIRT\">Dirt</link>."
+msgstr ""
+"未知来源的小动物部分残骸，保存完好。\n"
+"\n"
+"似乎与在另一个遗迹中找到的那份来自同一种生物。\n"
+"\n"
+"这份碎片保存在石化<link=\"DIRT\">泥土</link>中。"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ENTITIES.FOSSIL_ROCK.NAME
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ENTITIES.FOSSIL_ROCK.NAME"
+msgid "Petrified Fossil"
+msgstr "石化化石"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.HALLWAYRACES.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.HALLWAYRACES.BODY.CONTAINER1"
+msgid ""
+"<indent=5%>Employees are advised that removing organisms from the "
+"bioengineering labs without an approved requisition form is strictly "
+"prohibited.\n"
+"\n"
+"Gravitas projects are not designed to be ridden for sport. Injuries "
+"sustained during unsanctioned activities are not eligible for coverage under "
+"corporate health benefits.\n"
+"\n"
+"Please find a comprehensive summary of company regulations attached.\n"
+"\n"
+"<alpha=#AA>[MISSING ATTACHMENT]</indent>"
+msgstr ""
+"<indent=5%>员工在未得到批准的申请表的情况下，严禁移除生物工程实验室中的生物"
+"体。\n"
+"\n"
+"庄严科技的项目并非为运动设计。未经批准的活动导致的受伤不在公司健康福利的承保"
+"范围内。\n"
+"\n"
+"请查看下方附件，即公司规定的综合摘要。\n"
+"\n"
+"<alpha=#AA>[附件丢失]</indent>"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.HALLWAYRACES.BODY.EMAILHEADER
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.HALLWAYRACES.BODY.EMAILHEADER"
+msgid ""
+"<smallcaps>To: <b>ALL</b><alpha=#AA><size=12></size></color>\n"
+"From: <b>Admin</b> <alpha=#AA><admin@gravitas.nova></color></smallcaps>\n"
+"------------------\n"
+msgstr ""
+"<smallcaps>收件人：<b>全体</b><alpha=#AA><size=12></size></color>\n"
+"发件人：<b>管理员</b><alpha=#AA> <admin@gravitas.nova></color></smallcaps>\n"
+"------------------\n"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.HALLWAYRACES.BODY.SIGNATURE
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.HALLWAYRACES.BODY.SIGNATURE"
+msgid ""
+"\n"
+"Thank-you,\n"
+"-Admin\n"
+"<size=11>The Gravitas Facility</size>\n"
+"------------------\n"
+msgstr ""
+"\n"
+"谢谢！\n"
+"- 管理员\n"
+"<size=11>庄严科技</size>\n"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.HALLWAYRACES.SUBTITLE
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.HALLWAYRACES.SUBTITLE"
+msgid "ENCRYPTION LEVEL: NONE"
+msgstr "加密级别：无"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.HALLWAYRACES.TITLE
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.HALLWAYRACES.TITLE"
+msgid "Unauthorized Activity"
+msgstr "未经授权的活动"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ICECRITTERDESIGN.BODY.CONTAINER1
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ICECRITTERDESIGN.BODY.CONTAINER1"
+msgid ""
+"<smallcaps>[Voice Recognition Initialized]\n"
+"[Subject Identified: B363]</smallcaps>\n"
+"\n"
+"[LOG BEGINS]\n"
+"\n"
+"...Restricting our organism design to specifically target survival in an off-"
+"planet polar climate has narrowed our focus significantly, allowing "
+"development of this project to rapidly outpace the others.\n"
+"\n"
+"We have successfully optimized for adaptive features such as the formation "
+"of protective adipose tissue at >40% of the organism's total mass. Dr. "
+"Bubare was concerned about the consequences for muscle mass, but results "
+"confirm that reductions fall within an acceptable range.\n"
+"\n"
+"Our next step is to adapt the organism's diet. It would be inadvisable to "
+"populate a new colony with carnivorous creatures of this size.\n"
+"\n"
+"[LOG ENDS]\n"
+"------------------\n"
+"[LOG BEGINS]\n"
+"\n"
+"...When I am alone in the lab, I find myself gravitating toward the "
+"enclosure to listen to the creature's melodic vocalizations. Sometimes the "
+"pitch changes slightly as I approach.\n"
+"\n"
+"I am not certain what that means.\n"
+"\n"
+"[LOG ENDS]\n"
+"------------------\n"
+msgstr ""
+"<smallcaps>[声纹识别系统初始化完成]\n"
+"[识别编号：B363]</smallcaps>\n"
+"\n"
+"[录音开始]\n"
+"\n"
+"……将我们的生物体设计做出特定目标的限制，使其在外行星极地气候中生存，以此大大"
+"缩小了我们的研究范围，使本项目的开发进度能迅速超过其他的项目。\n"
+"\n"
+"我们已经成功优化了适应性特征，比如形成的脂肪组织超过了生物体总质量的40%。布贝"
+"尔博士之前担心肌肉质量降低的问题，但最终确定减少量处于可接受范围内。\n"
+"\n"
+"我们的下一步是调整生物体的饮食。让这种大小的食肉生物加入新殖民地很不明智。\n"
+"\n"
+"[录音结束]\n"
+"------------------\n"
+"[录音开始]\n"
+"\n"
+"……当我独自一人在实验室时，我发现自己情不自禁地会去围栏听这种生物的旋律声。当"
+"我靠近时，它的音调有时会有稍微的变化。\n"
+"\n"
+"我不清楚这是什么意思。\n"
+"\n"
+"[录音结束]\n"
+"------------------\n"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ICECRITTERDESIGN.BODY.CONTAINER2
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ICECRITTERDESIGN.BODY.CONTAINER2"
+msgid ""
+"[LOG BEGINS]\n"
+"\n"
+"...Some of the other departments have taken to calling our work here "
+"\"Project Meat Popsicle\". It is a crass misnomer. This species is not "
+"designed to be a food source: it must survive the Ceres climate long enough "
+"to establish a stable population that will enable the subsequent settlement "
+"party to access the essential research data stored in its DNA via Dr. "
+"Winslow's revolutionary genome-encoding technique.\n"
+"\n"
+"Imagine, countless yottabytes' worth of scientific documentation wandering "
+"freely around a new colony...the ultimate self-sustaining archive, providing "
+"stable data storage that requires zero technological maintenance.\n"
+"\n"
+"It gives new meaning to the term, \"living document.\"\n"
+"\n"
+"[LOG ENDS]\n"
+"------------------\n"
+"[LOG BEGINS]\n"
+"\n"
+"...Today is the day. My sonorous critter and her handful of progeny are "
+"ready to be transported to their new home. They are scheduled to arrive "
+"three months in the past, to ensure that they are well established before "
+"the settlement party's arrival next week.\n"
+"\n"
+"Dr. Techna invited me to assist with the teleportation. I was relieved to be "
+"too busy to accept. I have heard rumors about previous shipments going awry. "
+"These stories are unsubstantiated, and yet...\n"
+"\n"
+"The urgency of our mission sometimes necessitates non-ideal compromises.\n"
+"\n"
+"The lab is so very quiet now.\n"
+"\n"
+"[LOG ENDS]\n"
+"------------------\n"
+msgstr ""
+"[录音开始]\n"
+"\n"
+"……其他部门的一些人把我们的工作称为“肉糕计划”。可以说是用词不当且十分粗鲁。这"
+"个物种的目标不是作为食物来源：它必须在谷神星的气候中生存足够长时间，建立稳定"
+"的种群，随后通过温斯洛博士革命性基因编码技术，安置组可以将储存在其DNA中的基本"
+"研究数据取出。\n"
+"\n"
+"想象一下，无数尧字节量的科学文档就在新殖民地周围自由徘徊……能自我维护的终极档"
+"案，能提供稳定的数据存储，不需要任何技术维护。\n"
+"\n"
+"它给予了“活的文档”新的含义。\n"
+"\n"
+"[录音结束]\n"
+"------------------\n"
+"[录音开始]\n"
+"\n"
+"……今天到日子了。我的“大嗓门”和其一小部分后代已准备好运送到新家了。它们计划三"
+"个月前到达，以确保在下周定居组到达前状态良好。\n"
+"\n"
+"特切纳博士邀请我协助传送任务，我因为太忙就没接受，为此也松了一口气，因为我听"
+"人说以前的货物出了岔子，虽然这些闲言碎语并没有得到证实，就目前为止吧……\n"
+"\n"
+"在我们任务的急迫性下有时还是得做一些不理想的妥协。\n"
+"\n"
+"现在实验室真是非常非常安静啊。\n"
+"\n"
+"[录音结束]\n"
+"------------------\n"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ICECRITTERDESIGN.SUBTITLE
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ICECRITTERDESIGN.SUBTITLE"
+msgid "ENCRYPTION LEVEL: THREE"
+msgstr "加密级别：三"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ICECRITTERDESIGN.TITLE
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ICECRITTERDESIGN.TITLE"
+msgid "Organism Design Notes"
+msgstr "生物体设计记录"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.MISC.DECREASE_DECOR_ATTRIBUTE
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.MISC.DECREASE_DECOR_ATTRIBUTE"
+msgid "Obscured"
+msgstr "受遮蔽"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.NAME
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.NAME"
+msgid "Ancient Specimen"
+msgstr "远古标本"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST.LINKED_TOOLTIP
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST.LINKED_TOOLTIP"
+msgid ""
+"\n"
+"\n"
+"Click to show this site"
+msgstr ""
+"\n"
+"\n"
+"点击以查看位置"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST_AVAILABLE_NOTIFICATION.NAME
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST_AVAILABLE_NOTIFICATION.NAME"
+msgid "Fossil Excavated"
+msgstr "已发掘化石"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST_AVAILABLE_NOTIFICATION.TOOLTIP
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST_AVAILABLE_NOTIFICATION.TOOLTIP"
+msgid "Additional fossils located"
+msgstr "已发现其他化石"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST_AVAILABLE_POPUP.CHECK_BUTTON
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST_AVAILABLE_POPUP.CHECK_BUTTON"
+msgid "View Site"
+msgstr "查看地点"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST_AVAILABLE_POPUP.DESCRIPTION
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST_AVAILABLE_POPUP.DESCRIPTION"
+msgid ""
+"Success! My Duplicants have safely excavated a set of strange, fossilized "
+"remains.\n"
+"\n"
+"It appears that there are more of this giant critter's bones strewn around "
+"the asteroid. It's vital that we reassemble this skeleton for deeper "
+"analysis."
+msgstr ""
+"成功了！我的复制人已将安全地发掘出一组奇怪的化石残骸。\n"
+"\n"
+"看起来这只巨型动物还有更多的骨头散落在小行星上。我们必须重新组装骨架才能进行"
+"更深入的分析。"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST_AVAILABLE_POPUP.NAME
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST_AVAILABLE_POPUP.NAME"
+msgid "Fossil Excavated"
+msgstr "已发掘化石"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.REWARDS.MINED_FOSSIL.DESC
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.REWARDS.MINED_FOSSIL.DESC"
+msgid "Mined <link=\"FOSSIL\">Fossil</link>"
+msgstr "开采的<link=\"FOSSIL\">化石</link>"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.STATUSITEMS.FOSSILEMPTY.NAME
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.STATUSITEMS.FOSSILEMPTY.NAME"
+msgid "Waiting For Materials"
+msgstr "等待材料"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.STATUSITEMS.FOSSILEMPTY.TOOLTIP
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.STATUSITEMS.FOSSILEMPTY.TOOLTIP"
+msgid "Mining will begin once materials have been delivered"
+msgstr "所有材料运送就绪后，采矿工作就会开始"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.STATUSITEMS.FOSSILENTOMBED.LINE_ITEM
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.STATUSITEMS.FOSSILENTOMBED.LINE_ITEM"
+msgid "    • Entombed"
+msgstr "    • 掩埋"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.STATUSITEMS.FOSSILENTOMBED.NAME
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.STATUSITEMS.FOSSILENTOMBED.NAME"
+msgid "Entombed"
+msgstr "掩埋"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.STATUSITEMS.FOSSILENTOMBED.TOOLTIP
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.STATUSITEMS.FOSSILENTOMBED.TOOLTIP"
+msgid "This fossil must be dug out before it can be excavated"
+msgstr "这块化石必须先挖出才能发掘"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.STATUSITEMS.FOSSILIDLE.NAME
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.STATUSITEMS.FOSSILIDLE.NAME"
+msgid "No Mining Orders Queued"
+msgstr "无发掘安排队列"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.STATUSITEMS.FOSSILIDLE.TOOLTIP
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.STATUSITEMS.FOSSILIDLE.TOOLTIP"
+msgid "Select an excavation order to begin mining"
+msgstr "选择一个发掘安排以开始采矿"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.STATUSITEMS.FOSSILMINEPENDINGWORK.NAME
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.STATUSITEMS.FOSSILMINEPENDINGWORK.NAME"
+msgid "Work Errand"
+msgstr "操作任务"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.STATUSITEMS.FOSSILMINEPENDINGWORK.TOOLTIP
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.STATUSITEMS.FOSSILMINEPENDINGWORK."
+"TOOLTIP"
+msgid "Fossil mine will be operated once a Duplicant is available"
+msgstr "复制人有空就会来操作化石矿"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS.DIG_SITE_CANCEL_EXCAVATION_BUTTON
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS."
+"DIG_SITE_CANCEL_EXCAVATION_BUTTON"
+msgid "Cancel Excavation"
+msgstr "取消发掘"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS.DIG_SITE_CANCEL_EXCAVATION_BUTTON_TOOLTIP
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS."
+"DIG_SITE_CANCEL_EXCAVATION_BUTTON_TOOLTIP"
+msgid "Abandon excavation efforts"
+msgstr "放弃发掘工作"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS.DIG_SITE_EXCAVATE_BUTTON
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS.DIG_SITE_EXCAVATE_BUTTON"
+msgid "Excavate"
+msgstr "发掘"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS.DIG_SITE_EXCAVATE_BUTTON_TOOLTIP
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS."
+"DIG_SITE_EXCAVATE_BUTTON_TOOLTIP"
+msgid "Carefully uncover and examine this fossil"
+msgstr "小心揭示并检查这块化石"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS.FABRICATOR_LIST_TITLE
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS.FABRICATOR_LIST_TITLE"
+msgid "Mining Orders"
+msgstr "开采安排"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS.FABRICATOR_RECIPE_SCREEN_TITLE
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS."
+"FABRICATOR_RECIPE_SCREEN_TITLE"
+msgid "Recipe"
+msgstr "配方"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS.FOSSIL_BITS_CANCEL_EXCAVATION_BUTTON
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS."
+"FOSSIL_BITS_CANCEL_EXCAVATION_BUTTON"
+msgid "Cancel Excavation"
+msgstr "取消发掘"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS.FOSSIL_BITS_CANCEL_EXCAVATION_BUTTON_TOOLTIP
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS."
+"FOSSIL_BITS_CANCEL_EXCAVATION_BUTTON_TOOLTIP"
+msgid "Abandon excavation efforts"
+msgstr "放弃发掘工作"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS.FOSSIL_BITS_EXCAVATE_BUTTON
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS."
+"FOSSIL_BITS_EXCAVATE_BUTTON"
+msgid "Excavate"
+msgstr "发掘"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS.FOSSIL_BITS_EXCAVATE_BUTTON_TOOLTIP
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS."
+"FOSSIL_BITS_EXCAVATE_BUTTON_TOOLTIP"
+msgid "Carefully uncover and examine this fossil"
+msgstr "小心揭示并检查这块化石"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS.MINOR_DIG_SITE_REVEAL_BUTTON
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS."
+"MINOR_DIG_SITE_REVEAL_BUTTON"
+msgid "Main Site"
+msgstr "主遗迹"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS.MINOR_DIG_SITE_REVEAL_BUTTON_TOOLTIP
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS."
+"MINOR_DIG_SITE_REVEAL_BUTTON_TOOLTIP"
+msgid "Click to show this site"
+msgstr "点击以查看位置"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UNLOCK_DNADATA_NOTIFICATION.NAME
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UNLOCK_DNADATA_NOTIFICATION.NAME"
+msgid "Fossil Data Decoded"
+msgstr "已解码化石数据"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UNLOCK_DNADATA_NOTIFICATION.TOOLTIP
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UNLOCK_DNADATA_NOTIFICATION.TOOLTIP"
+msgid "There was data stored in this fossilized critter's DNA"
+msgstr "这只化石化的小动物DNA中储存了一些数据"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UNLOCK_DNADATA_POPUP.NAME
+msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UNLOCK_DNADATA_POPUP.NAME"
+msgid "Data Discovered in Fossil"
+msgstr "在化石中发现的数据"
+
+#. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UNLOCK_DNADATA_POPUP.VIEW_IN_CODEX
+msgctxt ""
+"STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UNLOCK_DNADATA_POPUP.VIEW_IN_CODEX"
+msgid "View Data"
+msgstr "查看数据"
+
 #. STRINGS.CODEX.STORY_TRAITS.LONELYMINION.ANCIENTPODENTRY.BODY.CONTAINER1
 msgctxt ""
 "STRINGS.CODEX.STORY_TRAITS.LONELYMINION.ANCIENTPODENTRY.BODY.CONTAINER1"
@@ -29517,7 +30684,7 @@ msgstr ""
 "\n"
 "B577：我们能不能专心一下？\n"
 "\n"
-"B997：没人拿了你的三明治，石头博士。\n"
+"B997：没人拿了你的三明治，“石头”博士。\n"
 "\n"
 "B083：那么为什么我的食物总是失踪？\n"
 "\n"
@@ -30755,7 +31922,7 @@ msgstr "不动产"
 msgctxt ""
 "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUNKER_DOOR_DEFENSE_DESCRIPTION"
 msgid "Block a meteor from hitting your base using a Bunker Door."
-msgstr "用地堡门阻挡陨石向你的基地撞击。"
+msgstr "用地堡门阻挡流星向你的基地撞击。"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.CLEAN_ENERGY
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.CLEAN_ENERGY"
@@ -30952,7 +32119,7 @@ msgstr "通过检查设施遗迹来取回一个数据库条目。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.LAND_ON_ALL_WORLDS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.LAND_ON_ALL_WORLDS"
 msgid "Cluster Conquest"
-msgstr "星群征服者"
+msgstr "星群征服家"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.LAND_ON_ALL_WORLDS_DESCRIPTION
 msgctxt ""
@@ -30983,7 +32150,7 @@ msgstr "钻拓星石"
 msgctxt ""
 "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.MINE_THE_GAP_DESCRIPTION"
 msgid "Mine 1,000,000kg from space POIs."
-msgstr "在太空地点挖掘1,000,000千克资源。"
+msgstr "在太空地点开采1,000,000千克资源。"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.NO_PLANTERBOX
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.NO_PLANTERBOX"
@@ -31093,7 +32260,7 @@ msgstr "使一个建筑自动化"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BLOCKED_A_COMET
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BLOCKED_A_COMET"
 msgid "Blocked a meteor with a Bunker Door"
-msgstr "用地堡门阻挡陨石"
+msgstr "用地堡门阻挡流星"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILD_A_LAUNCHPAD
 msgctxt ""
@@ -31225,7 +32392,7 @@ msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXOSUIT_CYCLES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXOSUIT_CYCLES"
-msgid "All Dupes completed a Exosuit errand for cycles: {0} / {1}"
+msgid "All Dupes completed an Exosuit errand for cycles: {0} / {1}"
 msgstr "所有复制人穿太空服完成任务的周期：{0}/{1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXOSUIT_THIS_CYCLE
@@ -31299,7 +32466,7 @@ msgstr "将一名复制人单程送到星图的最远目的地"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.MINE_SPACE_POI
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.MINE_SPACE_POI"
 msgid "Mined: {0:n} / {1:n} kg"
-msgstr "已挖掘：{0:n}/{1:n}千克"
+msgstr "已开采：{0:n}/{1:n}千克"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.MORALE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.MORALE"
@@ -33044,14 +34211,14 @@ msgid ""
 "In time, it will mature into an adult <link=\"DIVERGENTBEETLE\">Sweetle</"
 "link>."
 msgstr ""
-"一只有点吓人的甜素幼虫。\n"
+"一只有点吓人的甜素甲虫幼虫。\n"
 "\n"
 "它会逐渐长大成熟，变成<link=\"DIVERGENTBEETLE\">甜素甲虫</link>成年体。"
 
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.BABY.NAME"
 msgid "<link=\"DIVERGENTBEETLE\">Sweetle Larva</link>"
-msgstr "<link=\"DIVERGENTBEETLE\">甜素幼虫</link>"
+msgstr "<link=\"DIVERGENTBEETLE\">甜素甲虫幼虫</link>"
 
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.DESC"
@@ -33086,14 +34253,14 @@ msgid ""
 "In time, it will mature into an adult <link=\"WORM\">Grubgrub</link> and "
 "drastically grow in size."
 msgstr ""
-"一只蠕动的虫果幼虫。\n"
+"一只蠕动的虫果果虫幼虫。\n"
 "\n"
 "它会逐渐长大成熟，变成<link=\"WORM\">虫果果虫</link>成年体。"
 
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.BABY.NAME"
 msgid "<link=\"DIVERGENTWORM\">Grubgrub Wormling</link>"
-msgstr "<link=\"DIVERGENTWORM\">虫果幼虫</link>"
+msgstr "<link=\"DIVERGENTWORM\">虫果果虫幼虫</link>"
 
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.DESC"
@@ -33861,7 +35028,7 @@ msgstr "一只肥肥的<link=\"LIGHTBUG\">发光虫</link>幼体。"
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.BABY.NAME"
 msgid "<link=\"LIGHTBUG\">Shine Nymph</link>"
-msgstr "<link=\"LIGHTBUG\">发光幼虫</link>"
+msgstr "<link=\"LIGHTBUG\">发光虫幼虫</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.DESC"
@@ -33895,7 +35062,7 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.BABY.NAME"
 msgid "<link=\"LIGHTBUGBLACK\">Abyss Nymph</link>"
-msgstr "<link=\"LIGHTBUGBLACK\">深渊幼虫</link>"
+msgstr "<link=\"LIGHTBUGBLACK\">深渊虫幼虫</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.DESC"
@@ -33928,7 +35095,7 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.BABY.NAME"
 msgid "<link=\"LIGHTBUGBLUE\">Azure Nymph</link>"
-msgstr "<link=\"LIGHTBUGBLUE\">天蓝幼虫</link>"
+msgstr "<link=\"LIGHTBUGBLUE\">天蓝虫幼虫</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.DESC"
@@ -33966,7 +35133,7 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.BABY.NAME"
 msgid "<link=\"LIGHTBUGCRYSTAL\">Radiant Nymph</link>"
-msgstr "<link=\"LIGHTBUGCRYSTAL\">光耀幼虫</link>"
+msgstr "<link=\"LIGHTBUGCRYSTAL\">光耀虫幼虫</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.DESC"
@@ -34004,7 +35171,7 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.BABY.NAME"
 msgid "<link=\"LIGHTBUGORANGE\">Sun Nymph</link>"
-msgstr "<link=\"LIGHTBUGORANGE\">阳光幼虫</link>"
+msgstr "<link=\"LIGHTBUGORANGE\">阳光虫幼虫</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.DESC"
@@ -34042,7 +35209,7 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.BABY.NAME"
 msgid "<link=\"LIGHTBUGPINK\">Coral Nymph</link>"
-msgstr "<link=\"LIGHTBUGPINK\">珊瑚幼虫</link>"
+msgstr "<link=\"LIGHTBUGPINK\">珊瑚虫幼虫</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.DESC"
@@ -34080,7 +35247,7 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.BABY.NAME"
 msgid "<link=\"LIGHTBUGPURPLE\">Royal Nymph</link>"
-msgstr "<link=\"LIGHTBUGPURPLE\">皇家幼虫</link>"
+msgstr "<link=\"LIGHTBUGPURPLE\">皇家虫幼虫</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.DESC"
@@ -34119,7 +35286,7 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_RADIOACTIVE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_RADIOACTIVE.BABY.NAME"
 msgid "<link=\"LIGHTBUGRADIOACTIVE\">Ionizing Nymph</link>"
-msgstr "<link=\"LIGHTBUGRADIOACTIVE\">电离幼虫</link>"
+msgstr "<link=\"LIGHTBUGRADIOACTIVE\">电离虫幼虫</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_RADIOACTIVE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_RADIOACTIVE.DESC"
@@ -39594,6 +40761,21 @@ msgstr "正在装备太空服"
 msgctxt "STRINGS.DUPLICANTS.CHORES.EQUIPPINGSUIT.TOOLTIP"
 msgid "This Duplicant is putting on protective gear"
 msgstr "这名复制人正在穿戴防护装备"
+
+#. STRINGS.DUPLICANTS.CHORES.EXCAVATEFOSSIL.NAME
+msgctxt "STRINGS.DUPLICANTS.CHORES.EXCAVATEFOSSIL.NAME"
+msgid "Excavate Fossil"
+msgstr "发掘化石"
+
+#. STRINGS.DUPLICANTS.CHORES.EXCAVATEFOSSIL.STATUS
+msgctxt "STRINGS.DUPLICANTS.CHORES.EXCAVATEFOSSIL.STATUS"
+msgid "Excavating a fossil"
+msgstr "正在发掘化石"
+
+#. STRINGS.DUPLICANTS.CHORES.EXCAVATEFOSSIL.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.CHORES.EXCAVATEFOSSIL.TOOLTIP"
+msgid "This Duplicant is excavating a <style=\"KKeyword\">Fossil</style> site"
+msgstr "这名复制人正在发掘一处<style=\"KKeyword\">化石</style>遗迹"
 
 #. STRINGS.DUPLICANTS.CHORES.FABRICATE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.FABRICATE.NAME"
@@ -46329,6 +47511,20 @@ msgctxt "STRINGS.DUPLICANTS.ROLES.POWER_TECHNICIAN.NAME"
 msgid "<link=\"TECHNICALS2\">Electrical Engineering</link>"
 msgstr "<link=\"TECHNICALS2\">电气工程</link>"
 
+#. STRINGS.DUPLICANTS.ROLES.PYROTECHNIC.DESCRIPTION
+msgctxt "STRINGS.DUPLICANTS.ROLES.PYROTECHNIC.DESCRIPTION"
+msgid ""
+"Allows a Duplicant to make <style=\"KKeyword\">Blastshot</style> for the "
+"<style=\"KKeyword\">Meteor Blaster</style>"
+msgstr ""
+"允许复制人为<style=\"KKeyword\">流星爆破炮</style>制作<style=\"KKeyword\">爆"
+"破弹</style>"
+
+#. STRINGS.DUPLICANTS.ROLES.PYROTECHNIC.NAME
+msgctxt "STRINGS.DUPLICANTS.ROLES.PYROTECHNIC.NAME"
+msgid "<link=\"PYROTECHNICS\">Pyrotechnics</link>"
+msgstr "<link=\"PYROTECHNICS\">火工技艺</link>"
+
 #. STRINGS.DUPLICANTS.ROLES.RANCHER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.RANCHER.DESCRIPTION"
 msgid ""
@@ -47242,7 +48438,7 @@ msgid ""
 "• All <style=\"KKeyword\">Attributes</style> <b>+2</b> in the morning"
 msgstr ""
 "这名复制人兴奋地开始新的一天\n"
-"• 在早上所有<style=\"KKeyword\">属性</style><b>+2</b>"
+"• 在早上全部<style=\"KKeyword\">属性</style><b>+2</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EATDELIVERSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EATDELIVERSTATUS.NAME"
@@ -47457,6 +48653,16 @@ msgstr "这些复制人正在试图逃离："
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FLEEING.TOOLTIP"
 msgid "This Duplicant is trying to escape something scary!"
 msgstr "这名复制人正在试图逃离某些可怕的东西！"
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.FOSSILHUNT.WORKEREXCAVATING.NAME
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FOSSILHUNT.WORKEREXCAVATING.NAME"
+msgid "Excavating Fossil"
+msgstr "发掘化石"
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.FOSSILHUNT.WORKEREXCAVATING.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FOSSILHUNT.WORKEREXCAVATING.TOOLTIP"
+msgid "This Duplicant is carefully uncovering a <link=\"FOSSIL\">Fossil</link>"
+msgstr "这名复制人正在小心地发掘一块<link=\"OUTHOUSE\">化石</link>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.FULLBLADDER.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FULLBLADDER.NAME"
@@ -47815,6 +49021,20 @@ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.LOWOXYGEN.TOOLTIP"
 msgid "This Duplicant is working in a low breathability area"
 msgstr "这名复制人正在难以呼吸的区域工作"
 
+#. STRINGS.DUPLICANTS.STATUSITEMS.METEORPHILE.NAME
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.METEORPHILE.NAME"
+msgid "Rock Fan"
+msgstr "岩石迷"
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.METEORPHILE.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.METEORPHILE.TOOLTIP"
+msgid ""
+"This Duplicant is <i>really</i> into meteor showers\n"
+"• All <style=\"KKeyword\">Attributes</style> <b>+3</b> during meteor showers"
+msgstr ""
+"这名复制人<b>十分</b>喜欢流星雨\n"
+"• 流星雨期间全部<style=\"KKeyword\">属性</style><b>+3</b>"
+
 #. STRINGS.DUPLICANTS.STATUSITEMS.MINGLING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MINGLING.NAME"
 msgid "Mingling"
@@ -47934,7 +49154,7 @@ msgid ""
 "• All <style=\"KKeyword\">Attributes</style> <b>+3</b> at night"
 msgstr ""
 "这名复制人在夜间<style=\"KKeyword\">安排工作</style>效率更高\n"
-"• 在夜间所有<style=\"KKeyword\">属性</style><b>+3</b>"
+"• 在夜间全部<style=\"KKeyword\">属性</style><b>+3</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOISEMAJOR.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOISEMAJOR.NAME"
@@ -49496,7 +50716,7 @@ msgid ""
 "• Morning: <b>{0}</b> bonus to all <style=\"KKeyword\">Attributes</style>\n"
 "• Duration: 5 Schedule Blocks"
 msgstr ""
-"• 早上：所有<style=\"KKeyword\">属性</style><b>{0}</b>\n"
+"• 早上：全部<style=\"KKeyword\">属性</style><b>{0}</b>\n"
 "• 持续：5个时段"
 
 #. STRINGS.DUPLICANTS.TRAITS.EARLYBIRD.NAME
@@ -50256,6 +51476,34 @@ msgstr ""
 "这名复制人会获得一个免费<style=\"KKeyword\">技能</style>而不增加<style="
 "\"KKeyword\">士气需求</style>"
 
+#. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_PYROTECHNICS.DESC
+msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_PYROTECHNICS.DESC"
+msgid ""
+"Allows a Duplicant to make <style=\"KKeyword\">Blastshot</style> for the "
+"<style=\"KKeyword\">Meteor Blaster</style>"
+msgstr ""
+"允许复制人为<style=\"KKeyword\">流星爆破炮</style>制作<style=\"KKeyword\">爆"
+"破弹</style>"
+
+#. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_PYROTECHNICS.NAME
+msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_PYROTECHNICS.NAME"
+msgid "Skilled: <link=\"PYROTECHNICS\">Pyrotechnics</link>"
+msgstr "掌握技能：<link=\"PYROTECHNICS\">火工技艺</link>"
+
+#. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_PYROTECHNICS.SHORT_DESC
+msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_PYROTECHNICS.SHORT_DESC"
+msgid "Starts with a Tier 3 <b>Skill</b>"
+msgstr "开始时拥有第3阶<b>技能</b>"
+
+#. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_PYROTECHNICS.SHORT_DESC_TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_PYROTECHNICS.SHORT_DESC_TOOLTIP"
+msgid ""
+"This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the "
+"drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
+msgstr ""
+"这名复制人会获得一个免费<style=\"KKeyword\">技能</style>而不增加<style="
+"\"KKeyword\">士气需求</style>"
+
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING1.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING1.DESC"
 msgid ""
@@ -50607,7 +51855,7 @@ msgid ""
 "Only Duplicant on a world: <b>+4</b> bonus to all <style=\"KKeyword"
 "\">Attributes</style>"
 msgstr ""
-"在一个星球上仅有该复制人：所有<style=\"KKeyword\">属性</style><b>+4</b>"
+"在一个星球上仅有该复制人：全部<style=\"KKeyword\">属性</style><b>+4</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.MACHINERYDOWN.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.MACHINERYDOWN.DESC"
@@ -50620,6 +51868,35 @@ msgstr "这名复制人总是邀请朋友，只是为了把他们连到电子设
 msgctxt "STRINGS.DUPLICANTS.TRAITS.MACHINERYDOWN.NAME"
 msgid "Luddite"
 msgstr "反对技术"
+
+#. STRINGS.DUPLICANTS.TRAITS.METEORPHILE.DESC
+msgctxt "STRINGS.DUPLICANTS.TRAITS.METEORPHILE.DESC"
+msgid "Meteor showers get this Duplicant really, really hyped"
+msgstr "流星雨真的会让这名复制人十分激动"
+
+#. STRINGS.DUPLICANTS.TRAITS.METEORPHILE.EXTENDED_DESC
+msgctxt "STRINGS.DUPLICANTS.TRAITS.METEORPHILE.EXTENDED_DESC"
+msgid ""
+"• During meteor showers: <b>{0}</b> bonus to all <style=\"KKeyword"
+"\">Attributes</style>"
+msgstr "• 流星雨期间：全部<style=\"KKeyword\">属性</style><b>{0}</b>"
+
+#. STRINGS.DUPLICANTS.TRAITS.METEORPHILE.NAME
+msgctxt "STRINGS.DUPLICANTS.TRAITS.METEORPHILE.NAME"
+msgid "Rock Fan"
+msgstr "岩石迷"
+
+#. STRINGS.DUPLICANTS.TRAITS.METEORPHILE.SHORT_DESC
+msgctxt "STRINGS.DUPLICANTS.TRAITS.METEORPHILE.SHORT_DESC"
+msgid "Gains Attribute bonuses during meteor showers."
+msgstr "流星雨期间会有属性加成。"
+
+#. STRINGS.DUPLICANTS.TRAITS.METEORPHILE.SHORT_DESC_TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.TRAITS.METEORPHILE.SHORT_DESC_TOOLTIP"
+msgid ""
+"During meteor showers: <b>+3</b> bonus to all <style=\"KKeyword"
+"\">Attributes</style>"
+msgstr "流星雨期间：全部<style=\"KKeyword\">属性</style><b>{0}</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.MOLEHANDS.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.MOLEHANDS.DESC"
@@ -50790,7 +52067,7 @@ msgid ""
 "• Nighttime: <b>{0}</b> bonus to all <style=\"KKeyword\">Attributes</style>\n"
 "• Duration: All Night"
 msgstr ""
-"• 夜间：所有<style=\"KKeyword\">属性</style><b>{0}</b>\n"
+"• 夜间：全部<style=\"KKeyword\">属性</style><b>{0}</b>\n"
 "• 持续：整个晚上"
 
 #. STRINGS.DUPLICANTS.TRAITS.NIGHTOWL.NAME
@@ -50809,7 +52086,7 @@ msgid ""
 "Nighttime: <b>+3</b> bonus to all <style=\"KKeyword\">Attributes</style>\n"
 "• Duration: All Night"
 msgstr ""
-"夜间：所有<style=\"KKeyword\">属性</style><b>+3</b>\n"
+"夜间：全部<style=\"KKeyword\">属性</style><b>+3</b>\n"
 "• 持续：整个晚上"
 
 #. STRINGS.DUPLICANTS.TRAITS.NOODLEARMS.DESC
@@ -51071,7 +52348,7 @@ msgctxt "STRINGS.DUPLICANTS.TRAITS.THRIVER.SHORT_DESC_TOOLTIP"
 msgid ""
 "More than 60% Stress: <b>+7</b> bonus to all <style=\"KKeyword\">Attributes</"
 "style>"
-msgstr "压力高于60%：所有<style=\"KKeyword\">属性</style><b>+7</b>"
+msgstr "压力高于60%：全部<style=\"KKeyword\">属性</style><b>+7</b>"
 
 #. STRINGS.DUPLICANTS.TRAITS.TRAIT_DESCRIPTION_LIST_ENTRY
 msgctxt "STRINGS.DUPLICANTS.TRAITS.TRAIT_DESCRIPTION_LIST_ENTRY"
@@ -52479,7 +53756,7 @@ msgstr ""
 "<style=\"KKeyword\">升温慢</style>的材料升高<style=\"KKeyword\">温度</style>"
 "需要相对较多的热量，因此加热和冷却都很缓慢\n"
 "\n"
-"比热容：给1克该物质升温1K需要{1}DTU"
+"比热容：给1克该物质升温1K需要{1}复热"
 
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.HIGH_THERMAL_CONDUCTIVITY
 msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.HIGH_THERMAL_CONDUCTIVITY"
@@ -52515,7 +53792,7 @@ msgstr ""
 "<style=\"KKeyword\">热敏感</style>的材料升高<style=\"KKeyword\">温度</style>"
 "需要相对较少的热量，因此加热和冷却都很迅速\n"
 "\n"
-"比热容：给1克该物质升温1K需要{1}DTU"
+"比热容：给1克该物质升温1K需要{1}复热"
 
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.LOW_THERMAL_CONDUCTIVITY
 msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.LOW_THERMAL_CONDUCTIVITY"
@@ -54453,6 +55730,84 @@ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_YELLOW.NAME"
 msgid "Basic Yellow Gloves"
 msgstr "黄色基础手套"
 
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_BLUEBERRY.DESC
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_BLUEBERRY.DESC"
+msgid "Wrist coverage is <i>so</i> overrated."
+msgstr "手腕覆盖部分<b>没必要</b>那么长。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_BLUEBERRY.NAME
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_BLUEBERRY.NAME"
+msgid "Blueberry Glovelets"
+msgstr "蓝莓小手套"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_GRAPE.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_GRAPE.DESC"
+msgid "Wrist coverage is <i>so</i> overrated."
+msgstr "手腕覆盖部分<b>没必要</b>那么长。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_GRAPE.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_GRAPE.NAME"
+msgid "Grape Glovelets"
+msgstr "葡萄小手套"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_LEMON.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_LEMON.DESC"
+msgid "Wrist coverage is <i>so</i> overrated."
+msgstr "手腕覆盖部分<b>没必要</b>那么长。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_LEMON.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_LEMON.NAME"
+msgid "Lemon Glovelets"
+msgstr "柠檬小手套"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_LIME.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_LIME.DESC"
+msgid "Wrist coverage is <i>so</i> overrated."
+msgstr "手腕覆盖部分<b>没必要</b>那么长。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_LIME.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_LIME.NAME"
+msgid "Lime Glovelets"
+msgstr "酸橙小手套"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_SATSUMA.DESC
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_SATSUMA.DESC"
+msgid "Wrist coverage is <i>so</i> overrated."
+msgstr "手腕覆盖部分<b>没必要</b>那么长。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_SATSUMA.NAME
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_SATSUMA.NAME"
+msgid "Satsuma Glovelets"
+msgstr "蜜橘小手套"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_STRAWBERRY.DESC
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_STRAWBERRY.DESC"
+msgid "Wrist coverage is <i>so</i> overrated."
+msgstr "手腕覆盖部分<b>没必要</b>那么长。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_STRAWBERRY.NAME
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_STRAWBERRY.NAME"
+msgid "Strawberry Glovelets"
+msgstr "草莓小手套"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_WATERMELON.DESC
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_WATERMELON.DESC"
+msgid "Wrist coverage is <i>so</i> overrated."
+msgstr "手腕覆盖部分<b>没必要</b>那么长。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_WATERMELON.NAME
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_WATERMELON.NAME"
+msgid "Watermelon Glovelets"
+msgstr "西瓜小手套"
+
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.GLOVES_ATHLETIC_CHARCOAL.DESC
 msgctxt ""
 "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.GLOVES_ATHLETIC_CHARCOAL."
@@ -54873,6 +56228,96 @@ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.BASIC_YELLOW.NAME"
 msgid "Basic Yellow Shirt"
 msgstr "黄色基础衬衫"
 
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_BLUEBERRY.DESC
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_BLUEBERRY."
+"DESC"
+msgid "It's best to keep jelly-filled puffer jackets away from sharp corners."
+msgstr "最好让充满果冻的蓬松夹克离尖角远点。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_BLUEBERRY.NAME
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_BLUEBERRY."
+"NAME"
+msgid "Blueberry Jelly Jacket"
+msgstr "蓝莓果冻夹克"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_GRAPE.DESC
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_GRAPE.DESC"
+msgid "It's best to keep jelly-filled puffer jackets away from sharp corners."
+msgstr "最好让充满果冻的蓬松夹克离尖角远点。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_GRAPE.NAME
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_GRAPE.NAME"
+msgid "Grape Jelly Jacket"
+msgstr "葡萄果冻夹克"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_LEMON.DESC
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_LEMON.DESC"
+msgid "It's best to keep jelly-filled puffer jackets away from sharp corners."
+msgstr "最好让充满果冻的蓬松夹克离尖角远点。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_LEMON.NAME
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_LEMON.NAME"
+msgid "Lemon Jelly Jacket"
+msgstr "柠檬果冻夹克"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_LIME.DESC
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_LIME.DESC"
+msgid "It's best to keep jelly-filled puffer jackets away from sharp corners."
+msgstr "最好让充满果冻的蓬松夹克离尖角远点。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_LIME.NAME
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_LIME.NAME"
+msgid "Lime Jelly Jacket"
+msgstr "酸橙果冻夹克"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_SATSUMA.DESC
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_SATSUMA.DESC"
+msgid "It's best to keep jelly-filled puffer jackets away from sharp corners."
+msgstr "最好让充满果冻的蓬松夹克离尖角远点。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_SATSUMA.NAME
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_SATSUMA.NAME"
+msgid "Satsuma Jelly Jacket"
+msgstr "蜜橘果冻夹克"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_STRAWBERRY.DESC
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_STRAWBERRY."
+"DESC"
+msgid "It's best to keep jelly-filled puffer jackets away from sharp corners."
+msgstr "最好让充满果冻的蓬松夹克离尖角远点。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_STRAWBERRY.NAME
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_STRAWBERRY."
+"NAME"
+msgid "Strawberry Jelly Jacket"
+msgstr "草莓果冻夹克"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_WATERMELON.DESC
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_WATERMELON."
+"DESC"
+msgid "It's best to keep jelly-filled puffer jackets away from sharp corners."
+msgstr "最好让充满果冻的蓬松夹克离尖角远点。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_WATERMELON.NAME
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_WATERMELON."
+"NAME"
+msgid "Watermelon Jelly Jacket"
+msgstr "西瓜果冻夹克"
+
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.RAGLANTOP_CHARCOAL.DESC
 msgctxt ""
 "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.RAGLANTOP_CHARCOAL.DESC"
@@ -55279,6 +56724,82 @@ msgctxt ""
 "BALLOON_YELLOW_LONG_SPARKLES.NAME"
 msgid "<link=\"EQUIPPABLEBALLOON\">Lavatory Glitter</link>"
 msgstr "<link=\"EQUIPPABLEBALLOON\">冲水马桶闪光气球</link>"
+
+#. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_BLUEBERRY.DESC
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_BLUEBERRY.DESC"
+msgid "A juicy bunch of blueberry-scented balloons."
+msgstr "一束多汁的蓝莓味气球。"
+
+#. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_BLUEBERRY.NAME
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_BLUEBERRY.NAME"
+msgid "<link=\"EQUIPPABLEBALLOON\">Candied Blueberry</link>"
+msgstr "<link=\"EQUIPPABLEBALLOON\">蜜饯蓝莓气球</link>"
+
+#. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_GRAPE.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_GRAPE.DESC"
+msgid "A juicy bunch of grape-scented balloons."
+msgstr "一束多汁的葡萄味气球。"
+
+#. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_GRAPE.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_GRAPE.NAME"
+msgid "<link=\"EQUIPPABLEBALLOON\">Candied Grape</link>"
+msgstr "<link=\"EQUIPPABLEBALLOON\">蜜饯葡萄气球</link>"
+
+#. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_LEMON.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_LEMON.DESC"
+msgid "A juicy lemon-scented bunch of balloons."
+msgstr "一束多汁的柠檬味气球。"
+
+#. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_LEMON.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_LEMON.NAME"
+msgid "<link=\"EQUIPPABLEBALLOON\">Candied Lemon</link>"
+msgstr "<link=\"EQUIPPABLEBALLOON\">蜜饯柠檬气球</link>"
+
+#. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_LIME.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_LIME.DESC"
+msgid "A juicy lime-scented bunch of balloons."
+msgstr "一束多汁的酸橙味气球。"
+
+#. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_LIME.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_LIME.NAME"
+msgid "<link=\"EQUIPPABLEBALLOON\">Candied Lime</link>"
+msgstr "<link=\"EQUIPPABLEBALLOON\">蜜饯酸橙气球</link>"
+
+#. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_ORANGE.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_ORANGE.DESC"
+msgid "A juicy satsuma-scented bunch of balloons."
+msgstr "一束多汁的蜜橘味气球。"
+
+#. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_ORANGE.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_ORANGE.NAME"
+msgid "<link=\"EQUIPPABLEBALLOON\">Candied Satsuma</link>"
+msgstr "<link=\"EQUIPPABLEBALLOON\">蜜饯蜜橘气球</link>"
+
+#. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_STRAWBERRY.DESC
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_STRAWBERRY.DESC"
+msgid "A juicy strawberry-scented bunch of balloons."
+msgstr "一束多汁的草莓味气球。"
+
+#. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_STRAWBERRY.NAME
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_STRAWBERRY.NAME"
+msgid "<link=\"EQUIPPABLEBALLOON\">Candied Strawberry</link>"
+msgstr "<link=\"EQUIPPABLEBALLOON\">蜜饯草莓气球</link>"
+
+#. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_WATERMELON.DESC
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_WATERMELON.DESC"
+msgid "A juicy watermelon-scented bunch of balloons."
+msgstr "一束多汁的西瓜味气球。"
+
+#. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_WATERMELON.NAME
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_WATERMELON.NAME"
+msgid "<link=\"EQUIPPABLEBALLOON\">Candied Watermelon</link>"
+msgstr "<link=\"EQUIPPABLEBALLOON\">蜜饯西瓜气球</link>"
 
 #. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.DEFAULT_BALLOON.DESC
 msgctxt ""
@@ -58023,7 +59544,7 @@ msgid ""
 msgstr ""
 "<link=\"LIGHTBUG\">发光虫</link>产的卵。\n"
 "\n"
-"可孵化出新的<link=\"LIGHTBUG\">发光幼虫</link>。"
+"可孵化出新的<link=\"LIGHTBUG\">发光虫幼虫</link>。"
 
 #. STRINGS.ITEMS.FOOD.LIGHTBUGEGG.NAME
 msgctxt "STRINGS.ITEMS.FOOD.LIGHTBUGEGG.NAME"
@@ -58922,6 +60443,22 @@ msgstr ""
 msgctxt "STRINGS.ITEMS.INGREDIENTS.SWAMPLILYFLOWER.NAME"
 msgid "<link=\"SWAMPLILYFLOWER\">Balm Lily Flower</link>"
 msgstr "<link=\"SWAMPLILYFLOWER\">芳香百合花</link>"
+
+#. STRINGS.ITEMS.MISSILE_BASIC.DESC
+msgctxt "STRINGS.ITEMS.MISSILE_BASIC.DESC"
+msgid ""
+"An explosive projectile designed to defend against meteor showers.\n"
+"\n"
+"Must be launched by a <link=\"MISSILELAUNCHER\">Meteor Blaster</link>."
+msgstr ""
+"一种爆炸性弹道体，用于抵御流星雨。\n"
+"\n"
+"必须通过<link=\"MISSILELAUNCHER\">流星爆破炮</link>发射。"
+
+#. STRINGS.ITEMS.MISSILE_BASIC.NAME
+msgctxt "STRINGS.ITEMS.MISSILE_BASIC.NAME"
+msgid "<link=\"MISSILELAUNCHER\">Blastshot</link>"
+msgstr "<link=\"MISSILELAUNCHER\">爆破弹</link>"
 
 #. STRINGS.ITEMS.PILLS.ADVANCEDCURE.DESC
 msgctxt "STRINGS.ITEMS.PILLS.ADVANCEDCURE.DESC"
@@ -59859,9 +61396,9 @@ msgid ""
 "\n"
 "1 DTU = 1055.06 J"
 msgstr ""
-"我的复制人使用复制人热量单位（简称“DTU”）衡量热能。\n"
+"我的复制人使用复制人热量单位（简称“复热”）衡量热能。\n"
 "\n"
-"1DTU = 1055.06焦"
+"1复热 = 1055.06焦"
 
 #. STRINGS.MISC.NOTIFICATIONS.DTU.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DTU.NAME"
@@ -61252,6 +62789,16 @@ msgstr "清理"
 msgctxt "STRINGS.MISC.STATUSITEMS.CLEANING.TOOLTIP"
 msgid "This building is currently being cleaned"
 msgstr "这个建筑正被清理"
+
+#. STRINGS.MISC.STATUSITEMS.CLUSTERMETEORREMAININGTRAVELTIME.NAME
+msgctxt "STRINGS.MISC.STATUSITEMS.CLUSTERMETEORREMAININGTRAVELTIME.NAME"
+msgid "Time before collision: {time}"
+msgstr "撞击前剩余时间：{time}"
+
+#. STRINGS.MISC.STATUSITEMS.CLUSTERMETEORREMAININGTRAVELTIME.TOOLTIP
+msgctxt "STRINGS.MISC.STATUSITEMS.CLUSTERMETEORREMAININGTRAVELTIME.TOOLTIP"
+msgid "The remaining time before this meteor reaches its destination"
+msgstr "这群流星到达其目的地的剩余时间"
 
 #. STRINGS.MISC.STATUSITEMS.DURABILITY.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.DURABILITY.NAME"
@@ -63052,8 +64599,8 @@ msgstr "殖民地"
 
 #. STRINGS.NAMEGEN.COLONY.NOUN.COMET
 msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.COMET"
-msgid "Comet"
-msgstr "彗星"
+msgid "Meteor"
+msgstr "流星"
 
 #. STRINGS.NAMEGEN.COLONY.NOUN.COMMITTEE
 msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.COMMITTEE"
@@ -69043,7 +70590,7 @@ msgstr ""
 "<link=\"IGNEOUSROCK\">火成岩</link>与其更密实的形式，<link=\"GRANITE\">花岗岩"
 "</link>，可作为实用的建筑材料，但这片生态真正的重点是吃<link=\"GASGRASS\">释"
 "气草</link>排泄<link=\"METHANE\">天然气</link>的<link=\"MOO\">释气海牛</"
-"link>。释气海牛不能繁殖，但释气海牛陨石会经常从太空降落到这片生态上，使其成为"
+"link>。释气海牛不能繁殖，但释气海牛流星会经常从太空降落到这片生态上，使其成为"
 "寻找这些难以捉摸的生物的最好方式。\n"
 "\n"
 "这片生态没有<link=\"OXYGEN\">氧气</link>，所以我的复制人在深入冒险前需要做好"
@@ -69346,7 +70893,7 @@ msgctxt "STRINGS.SUBWORLDS.SPACE.DESC"
 msgid ""
 "The Space Biome is located on the scenic surface of an asteroid. Watch for "
 "dazzling meteorites to shower elements down from the sky."
-msgstr "太空生态位于小行星的表面。要小心从天而降的耀眼陨石。"
+msgstr "太空生态位于小行星的表面。要小心从天而降的耀眼流星。"
 
 #. STRINGS.SUBWORLDS.SPACE.NAME
 msgctxt "STRINGS.SUBWORLDS.SPACE.NAME"
@@ -74528,6 +76075,11 @@ msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_LORE"
 msgid "RECOVERED FILES"
 msgstr "恢复的文件"
 
+#. STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_METEORSHOWERS
+msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_METEORSHOWERS"
+msgid "METEOR SHOWERS"
+msgstr "流星雨"
+
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_REQUIREMENTS
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_REQUIREMENTS"
 msgid "REQUIREMENTS"
@@ -74562,6 +76114,11 @@ msgstr "状态"
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.NO_GEYSERS"
 msgid "No geysers detected"
 msgstr "未检测到间歇泉"
+
+#. STRINGS.UI.DETAILTABS.SIMPLEINFO.NO_METEORSHOWERS
+msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.NO_METEORSHOWERS"
+msgid "No meteor showers forecasted"
+msgstr "未预测到流星雨"
 
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.TOOLTIP"
@@ -74710,7 +76267,7 @@ msgid ""
 "opting out of all new features, fixes and content from the live branch.\n"
 "\n"
 "This branch is temporary. It will be replaced when the next update is "
-"released. It's also completely unsupported—please don't report bugs or "
+"released. It's also completely unsupported: please don't report bugs or "
 "issues you find here.\n"
 "\n"
 "Are you sure you want to opt in?"
@@ -74720,7 +76277,7 @@ msgstr ""
 "你即将选择进入<b>上个版本分支</b>。这意味着选择弃掉所有主分支的新内容和修"
 "复。\n"
 "\n"
-"这一分支是临时的，下次更新发布后就会被替换，且完全不受支持——请不要报告任何在"
+"这一分支是临时的，下次更新发布后就会被替换，且完全不受支持：请不要报告任何在"
 "这里找到的漏洞或问题。\n"
 "\n"
 "你确定要选择进入吗？"
@@ -76447,6 +78004,88 @@ msgid ""
 "Affects Duplicants' chances of contracting a disease after germ exposure"
 msgstr "影响复制人遭受病菌侵染后患病的几率"
 
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS.CLEAR_SKIES.NAME
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS."
+"CLEAR_SKIES.NAME"
+msgid "Clear Skies"
+msgstr "晴空万里"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS.CLEAR_SKIES.TOOLTIP
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS."
+"CLEAR_SKIES.TOOLTIP"
+msgid "No meteor damage, no worries"
+msgstr "没有流星损伤，不必担心"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS.DEFAULT.NAME
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS."
+"DEFAULT.NAME"
+msgid "Default"
+msgstr "默认"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS.DEFAULT.TOOLTIP
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS."
+"DEFAULT.TOOLTIP"
+msgid "Default meteor shower frequency and intensity"
+msgstr "默认的流星雨频率和强度"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS.DOOMED.NAME
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS."
+"DOOMED.NAME"
+msgid "Doomsday"
+msgstr "末日浩劫"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS.DOOMED.TOOLTIP
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS."
+"DOOMED.TOOLTIP"
+msgid "An onslaught of apocalyptic hailstorms that feels almost personal"
+msgstr "一场世界末日般的“冰雹”袭击，感觉就是针对你来的"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS.INFREQUENT.NAME
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS."
+"INFREQUENT.NAME"
+msgid "Spring Showers"
+msgstr "春意阵雨"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS.INFREQUENT.TOOLTIP
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS."
+"INFREQUENT.TOOLTIP"
+msgid "Meteor showers are less frequent and less intense than usual"
+msgstr "流星雨比平常更不频繁，强度也更低"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS.INTENSE.NAME
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS."
+"INTENSE.NAME"
+msgid "Cosmic Storm"
+msgstr "宇宙风暴"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS.INTENSE.TOOLTIP
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS."
+"INTENSE.TOOLTIP"
+msgid "Meteor showers are more frequent and more intense than usual"
+msgstr "流星雨比平常更频繁，强度也更高"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.NAME
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.NAME"
+msgid "Meteor Showers"
+msgstr "流星雨"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.TOOLTIP
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.TOOLTIP"
+msgid "Adjusts the intensity of incoming space rocks"
+msgstr "调整来袭太空岩的强度"
+
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.DEFAULT.NAME
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.DEFAULT."
@@ -77796,21 +79435,23 @@ msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.OPEN_SAVE_FOLDER"
 msgid "LOCAL SAVES"
 msgstr "本地存档"
 
-#. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT
-msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT"
-msgid ""
-"<b><color=#ff0000>This save is from <i>Spaced Out!</i> Activate the DLC to "
-"play it! (v{2}/v{4})</color></b>"
-msgstr ""
-"<b><color=#ff0000>这个存档来自<i>《眼冒金星！》</i>，激活DLC才能玩！（v{2}/"
-"v{4}）</color></b>"
-
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT_TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT_TOOLTIP"
 msgid ""
-"This save was created in the <i>Spaced Out!</i> DLC and can't be loaded in "
-"the base game."
-msgstr "这个存档在<b>《眼冒金星！》</b>DLC中创建，不能在游戏本体中加载。"
+"<color=#ff0000>This save was created in the <i>Spaced Out!</i> DLC. Activate "
+"the DLC to play it</color>"
+msgstr ""
+"<color=#ff0000>这个存档于<b>《眼冒金星！》DLC</b>中创建，激活DLC才能游玩。</"
+"color>"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_VANILLA_TOOLTIP
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_VANILLA_TOOLTIP"
+msgid ""
+"<color=#ff0000>This save was created in the base game. Deactivate the "
+"<i>Spaced Out!</i> DLC to play it.</color>"
+msgstr ""
+"<color=#ff0000>这个存档于游戏本体中创建，禁用<b>《眼冒金星！》</b>DLC才能游"
+"玩。</color>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO"
@@ -77831,6 +79472,16 @@ msgstr "存档信息"
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO_DIALOG_TOOLTIP"
 msgid "Access your save file locations from here."
 msgstr "从这里访问你的存档文件位置。"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_IS_SPACED_OUT_TOOLTIP
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_IS_SPACED_OUT_TOOLTIP"
+msgid "<i>Spaced Out!</i> DLC save"
+msgstr "<b>《眼冒金星！》</b>DLC存档"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_IS_VANILLA_TOOLTIP
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_IS_VANILLA_TOOLTIP"
+msgid "Base game save"
+msgstr "游戏本体存档"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_MISSING_CONTENT
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_MISSING_CONTENT"
@@ -78768,8 +80419,8 @@ msgstr "Steam创意工坊"
 
 #. STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER
 msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
-msgid "FEB 2023 QOL"
-msgstr "2023年2月生活质量更新"
+msgid "WHATTA BLAST!"
+msgstr "百发齐放！"
 
 #. STRINGS.UI.FRONTEND.MOTD.NEWS_BODY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.NEWS_BODY"
@@ -78789,19 +80440,18 @@ msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
 msgid ""
 "This update includes:\n"
 "\n"
-"•<indent=20px>New search function and subcategories view for the build menu."
-"</indent>\n"
-"•<indent=20px>New Disconnect tool.</indent>\n"
-"•<indent=20px>New Supply Closet music.</indent>\n"
+"•<indent=20px>New Meteor Blaster and Blastshot Maker buildings.</indent>\n"
+"•<indent=20px>New meteor showers in Spaced Out!</indent>\n"
+"•<indent=20px>Customizable meteor shower intensity.</indent>\n"
 "•<indent=20px>Bug fixes and quality of life improvements.</indent>\n"
 "\n"
 "   Check out the full patch notes for more details!"
 msgstr ""
 "这次更新包括：\n"
 "\n"
-"•<indent=20px>用于建造菜单的新搜索功能和子类浏览。</indent>\n"
-"•<indent=20px>新的拆断工具。</indent>\n"
-"•<indent=20px>新的供应柜音乐。</indent>\n"
+"•<indent=20px>新的流星爆破炮和爆破弹组装机建筑。</indent>\n"
+"•<indent=20px>眼冒金星中新的流星雨。</indent>\n"
+"•<indent=20px>可自定义的流星雨强度。</indent>\n"
 "•<indent=20px>漏洞修复与生活质量提升。</indent>\n"
 "\n"
 "   查看完整的更新公告以获取详情！"
@@ -79752,7 +81402,7 @@ msgstr "过载损害"
 #. STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.COMET
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.COMET"
 msgid "Meteor Damage"
-msgstr "陨石损害"
+msgstr "流星损害"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.CONDUIT_CONTENTS_BOILED
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.CONDUIT_CONTENTS_BOILED"
@@ -80093,6 +81743,13 @@ msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.INITIALGROWTHTIME"
 msgid "This plant takes <b>{0}</b> to mature again once replanted"
 msgstr "这株植物在重新种植后，需要<b>{0}</b>才会再次成熟"
 
+#. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.METEOR_SHOWER_SINGLE_METEOR_PERCENTAGE_TOOLTIP
+msgctxt ""
+"STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS."
+"METEOR_SHOWER_SINGLE_METEOR_PERCENTAGE_TOOLTIP"
+msgid "Distribution of meteor types in this shower"
+msgstr "这次流星雨中分布的流星类型"
+
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.MUTANT_SEED_TOOLTIP
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.MUTANT_SEED_TOOLTIP"
 msgid ""
@@ -80397,15 +82054,45 @@ msgid ""
 "type"
 msgstr "勾选时，这个建筑将持续孵化所选类型的蛋"
 
-#. STRINGS.UI.ITEM_DROP_SCREEN.ACTIONS.ACCEPT_ITEM
-msgctxt "STRINGS.UI.ITEM_DROP_SCREEN.ACTIONS.ACCEPT_ITEM"
-msgid "Print Gift"
-msgstr "打印礼物"
+#. STRINGS.UI.ITEM_DROP_SCREEN.DISMISS_BUTTON
+msgctxt "STRINGS.UI.ITEM_DROP_SCREEN.DISMISS_BUTTON"
+msgid "DISMISS"
+msgstr "搁置"
+
+#. STRINGS.UI.ITEM_DROP_SCREEN.IN_GAME_BUTTON.TOOLTIP_ERROR_NO_ITEMS
+msgctxt "STRINGS.UI.ITEM_DROP_SCREEN.IN_GAME_BUTTON.TOOLTIP_ERROR_NO_ITEMS"
+msgid "No new blueprints to unlock"
+msgstr "无新蓝图可供解锁"
+
+#. STRINGS.UI.ITEM_DROP_SCREEN.IN_GAME_BUTTON.TOOLTIP_ITEMS_AVAILABLE
+msgctxt "STRINGS.UI.ITEM_DROP_SCREEN.IN_GAME_BUTTON.TOOLTIP_ITEMS_AVAILABLE"
+msgid "Unlock new blueprints"
+msgstr "解锁新蓝图"
+
+#. STRINGS.UI.ITEM_DROP_SCREEN.NOTHING_AVAILABLE
+msgctxt "STRINGS.UI.ITEM_DROP_SCREEN.NOTHING_AVAILABLE"
+msgid "All available blueprints claimed"
+msgstr "所有可用蓝图均已领取"
+
+#. STRINGS.UI.ITEM_DROP_SCREEN.OPEN_URL_BUTTON
+msgctxt "STRINGS.UI.ITEM_DROP_SCREEN.OPEN_URL_BUTTON"
+msgid "CLAIM"
+msgstr "领取"
+
+#. STRINGS.UI.ITEM_DROP_SCREEN.PRINT_ITEM_BUTTON
+msgctxt "STRINGS.UI.ITEM_DROP_SCREEN.PRINT_ITEM_BUTTON"
+msgid "PRINT"
+msgstr "打印"
 
 #. STRINGS.UI.ITEM_DROP_SCREEN.THANKS_FOR_PLAYING
 msgctxt "STRINGS.UI.ITEM_DROP_SCREEN.THANKS_FOR_PLAYING"
-msgid "Thanks for keeping this colony alive!"
-msgstr "感谢你让这个殖民地焕发生机！"
+msgid "New blueprints unlocked!"
+msgstr "新蓝图已解锁！"
+
+#. STRINGS.UI.ITEM_DROP_SCREEN.WEB_REWARDS_AVAILABLE
+msgctxt "STRINGS.UI.ITEM_DROP_SCREEN.WEB_REWARDS_AVAILABLE"
+msgid "Rewards available online!"
+msgstr "可用的线上奖励！"
 
 #. STRINGS.UI.JOBS
 msgctxt "STRINGS.UI.JOBS"
@@ -80702,7 +82389,7 @@ msgstr "喜悦反应"
 msgctxt ""
 "STRINGS.UI.JOY_RESPONSE_DESIGNER_SCREEN.CHANGES_NOT_SAVED_WARNING_POPUP."
 "HEADER"
-msgid "Discard changes to {MinionName}'s overjoyed response?"
+msgid "Discard changes to {MinionName}'s Overjoyed Response?"
 msgstr "放弃对{MinionName}喜悦反应的更改？"
 
 #. STRINGS.UI.JOY_RESPONSE_DESIGNER_SCREEN.TOOLTIP_NO_FACADES_FOR_JOY_TRAIT
@@ -80716,9 +82403,9 @@ msgctxt ""
 "STRINGS.UI.JOY_RESPONSE_DESIGNER_SCREEN."
 "TOOLTIP_PICK_JOY_RESPONSE_ERROR_LOCKED"
 msgid ""
-"Cannot assign this overjoyed response to {MinionName} because my colony "
-"doesn't have it's blueprint yet"
-msgstr "无法将这个喜悦反应分配至{MinionName}，因为我的殖民地尚未拥有其蓝图"
+"This Overjoyed Response blueprint cannot be assigned because my colony "
+"doesn't own it yet"
+msgstr "这个喜悦反应蓝图无法分配，因为我的殖民地尚未拥有"
 
 #. STRINGS.UI.KEEPSAKES.CRITTER_MANIPULATOR.DESCRIPTION
 msgctxt "STRINGS.UI.KEEPSAKES.CRITTER_MANIPULATOR.DESCRIPTION"
@@ -80737,6 +82424,23 @@ msgstr ""
 msgctxt "STRINGS.UI.KEEPSAKES.CRITTER_MANIPULATOR.NAME"
 msgid "Ceramic Morb"
 msgstr "陶瓷疫病章鱼"
+
+#. STRINGS.UI.KEEPSAKES.FOSSIL_HUNT.DESCRIPTION
+msgctxt "STRINGS.UI.KEEPSAKES.FOSSIL_HUNT.DESCRIPTION"
+msgid ""
+"The tag reads \"Molly\".\n"
+"\n"
+"On the reverse is \"Designed by B363\" stamped above what appears to be an "
+"unusually shaped pawprint."
+msgstr ""
+"标签上写着“莫莉”。\n"
+"\n"
+"背面写着“由B363设计”，印在了一种似乎不太寻常的爪印上面。"
+
+#. STRINGS.UI.KEEPSAKES.FOSSIL_HUNT.NAME
+msgctxt "STRINGS.UI.KEEPSAKES.FOSSIL_HUNT.NAME"
+msgid "Critter Collar"
+msgstr "小动物项圈"
 
 #. STRINGS.UI.KEEPSAKES.LONELY_MINION.DESCRIPTION
 msgctxt "STRINGS.UI.KEEPSAKES.LONELY_MINION.DESCRIPTION"
@@ -80782,6 +82486,31 @@ msgstr "这份蓝图可用于任何气球艺术家。"
 msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ARTWORKS"
 msgid "Artwork"
 msgstr "艺术品"
+
+#. STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_BELT
+msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_BELT"
+msgid "Atmo Suit Belt"
+msgstr "气压服腰带"
+
+#. STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_BODY
+msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_BODY"
+msgid "Atmo Suit Body"
+msgstr "气压服上身"
+
+#. STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_BOOTS
+msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_BOOTS"
+msgid "Atmo Suit Boots"
+msgstr "气压服靴子"
+
+#. STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_GLOVES
+msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_GLOVES"
+msgid "Atmo Suit Gloves"
+msgstr "气压服手套"
+
+#. STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_HELMET
+msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_HELMET"
+msgid "Atmo Suit Helmet"
+msgstr "气压服头盔"
 
 #. STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMOSUITS
 msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMOSUITS"
@@ -80943,13 +82672,18 @@ msgstr "     {0}"
 
 #. STRINGS.UI.LOCKER_MENU.BUTTON_CLAIM
 msgctxt "STRINGS.UI.LOCKER_MENU.BUTTON_CLAIM"
-msgid "Check Shipments"
-msgstr "检查货件"
+msgid "Claim Blueprints"
+msgstr "领取蓝图"
 
 #. STRINGS.UI.LOCKER_MENU.BUTTON_CLAIM_DESCRIPTION
 msgctxt "STRINGS.UI.LOCKER_MENU.BUTTON_CLAIM_DESCRIPTION"
-msgid "Check for available blueprints on the Klei Rewards website"
-msgstr "在科雷奖励网站上查看可用蓝图"
+msgid "Claim any available blueprints"
+msgstr "领取可用蓝图"
+
+#. STRINGS.UI.LOCKER_MENU.BUTTON_CLAIM_NONE_DESCRIPTION
+msgctxt "STRINGS.UI.LOCKER_MENU.BUTTON_CLAIM_NONE_DESCRIPTION"
+msgid "All available blueprints claimed"
+msgstr "所有蓝图均已领取"
 
 #. STRINGS.UI.LOCKER_MENU.BUTTON_DUPLICANTS
 msgctxt "STRINGS.UI.LOCKER_MENU.BUTTON_DUPLICANTS"
@@ -80991,10 +82725,15 @@ msgctxt "STRINGS.UI.LOCKER_MENU.TITLE"
 msgid "SUPPLY CLOSET"
 msgstr "供应柜"
 
+#. STRINGS.UI.LOCKER_MENU.UNOPENED_ITEMS_NONE_TOOLTIP
+msgctxt "STRINGS.UI.LOCKER_MENU.UNOPENED_ITEMS_NONE_TOOLTIP"
+msgid "All available blueprints claimed"
+msgstr "所有蓝图均已领取"
+
 #. STRINGS.UI.LOCKER_MENU.UNOPENED_ITEMS_TOOLTIP
 msgctxt "STRINGS.UI.LOCKER_MENU.UNOPENED_ITEMS_TOOLTIP"
-msgid "You may have blueprints available to claim on the Klei Rewards website"
-msgstr "你可能在科雷奖励网站上有可供领取的蓝图"
+msgid "New blueprints available"
+msgstr "新蓝图可用"
 
 #. STRINGS.UI.LOCKER_NAVIGATOR.BUTTON_BACK
 msgctxt "STRINGS.UI.LOCKER_NAVIGATOR.BUTTON_BACK"
@@ -81329,6 +83068,11 @@ msgctxt "STRINGS.UI.MINION_BROWSER_SCREEN.BUTTON_CHANGE_OUTFIT"
 msgid "Open Wardrobe"
 msgstr "打开衣柜"
 
+#. STRINGS.UI.MINION_BROWSER_SCREEN.BUTTON_EDIT_ATMO_SUIT_OUTFIT_ITEMS
+msgctxt "STRINGS.UI.MINION_BROWSER_SCREEN.BUTTON_EDIT_ATMO_SUIT_OUTFIT_ITEMS"
+msgid "Restyle Atmo Suit"
+msgstr "重新设计气压服"
+
 #. STRINGS.UI.MINION_BROWSER_SCREEN.BUTTON_EDIT_JOY_RESPONSE
 msgctxt "STRINGS.UI.MINION_BROWSER_SCREEN.BUTTON_EDIT_JOY_RESPONSE"
 msgid "Restyle Overjoyed Response"
@@ -81343,6 +83087,11 @@ msgstr "重新设计服装"
 msgctxt "STRINGS.UI.MINION_BROWSER_SCREEN.CATEGORY_HEADER"
 msgid "DUPLICANTS"
 msgstr "复制人"
+
+#. STRINGS.UI.MINION_BROWSER_SCREEN.OUTFIT_TYPE_ATMOSUIT
+msgctxt "STRINGS.UI.MINION_BROWSER_SCREEN.OUTFIT_TYPE_ATMOSUIT"
+msgid "ATMO SUIT"
+msgstr "气压服"
 
 #. STRINGS.UI.MINION_BROWSER_SCREEN.OUTFIT_TYPE_CLOTHING
 msgctxt "STRINGS.UI.MINION_BROWSER_SCREEN.OUTFIT_TYPE_CLOTHING"
@@ -81409,11 +83158,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.ADVANCED.BUILDMENUTITLE"
 msgid "Advanced"
 msgstr "高级"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.ADVANCED.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.ADVANCED.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.ADVANCED.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.ADVANCED.NAME"
 msgid "Advanced"
@@ -81429,11 +83173,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.ARCHAEOLOGY.BUILDMENUTITLE"
 msgid "Archaeology"
 msgstr "考古"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.ARCHAEOLOGY.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.ARCHAEOLOGY.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.ARCHAEOLOGY.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.ARCHAEOLOGY.NAME"
 msgid "Archaeology"
@@ -81448,11 +83187,6 @@ msgstr ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.AUTOMATED.BUILDMENUTITLE"
 msgid "Automated"
 msgstr "自动化"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.AUTOMATED.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.AUTOMATED.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.AUTOMATED.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.AUTOMATED.NAME"
@@ -81480,11 +83214,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.BATTERIES.BUILDMENUTITLE"
 msgid "Batteries"
 msgstr "电池"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.BATTERIES.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.BATTERIES.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.BATTERIES.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.BATTERIES.NAME"
 msgid "Batteries"
@@ -81499,11 +83228,6 @@ msgstr ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.BEDS.BUILDMENUTITLE"
 msgid "Beds"
 msgstr "床铺"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.BEDS.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.BEDS.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.BEDS.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.BEDS.NAME"
@@ -81520,11 +83244,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.BUILDMENUPORTS.BUILDMENUTITLE"
 msgid "Ports"
 msgstr "端口"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.BUILDMENUPORTS.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.BUILDMENUPORTS.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.BUILDMENUPORTS.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.BUILDMENUPORTS.NAME"
 msgid "Ports"
@@ -81535,15 +83254,25 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.BUILDMENUPORTS.TOOLTIP"
 msgid ""
 msgstr ""
 
+#. STRINGS.UI.NEWBUILDCATEGORIES.CARGO.BUILDMENUTITLE
+msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CARGO.BUILDMENUTITLE"
+msgid "Cargo"
+msgstr "货舱"
+
+#. STRINGS.UI.NEWBUILDCATEGORIES.CARGO.NAME
+msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CARGO.NAME"
+msgid "Cargo"
+msgstr "货舱"
+
+#. STRINGS.UI.NEWBUILDCATEGORIES.CARGO.TOOLTIP
+msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CARGO.TOOLTIP"
+msgid ""
+msgstr ""
+
 #. STRINGS.UI.NEWBUILDCATEGORIES.CONDUITSENSORS.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONDUITSENSORS.BUILDMENUTITLE"
 msgid "Pipe Sensors"
 msgstr "管道传感器"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.CONDUITSENSORS.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONDUITSENSORS.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.CONDUITSENSORS.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONDUITSENSORS.NAME"
@@ -81559,11 +83288,6 @@ msgstr ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONVEYANCE.BUILDMENUTITLE"
 msgid "Ore Transport"
 msgstr "矿石运输"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.CONVEYANCE.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONVEYANCE.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.CONVEYANCE.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONVEYANCE.NAME"
@@ -81584,11 +83308,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONVEYANCESTRUCTURES.BUILDMENUTITLE"
 msgid "Structural"
 msgstr "构造"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.CONVEYANCESTRUCTURES.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONVEYANCESTRUCTURES.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.CONVEYANCESTRUCTURES.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONVEYANCESTRUCTURES.NAME"
 msgid "Structural"
@@ -81603,11 +83322,6 @@ msgstr ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.COOKING.BUILDMENUTITLE"
 msgid "Cooking"
 msgstr "烹饪"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.COOKING.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.COOKING.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.COOKING.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.COOKING.NAME"
@@ -81624,11 +83338,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.DECOR.BUILDMENUTITLE"
 msgid "Decor"
 msgstr "装饰"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.DECOR.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.DECOR.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.DECOR.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.DECOR.NAME"
 msgid "Decor"
@@ -81643,11 +83352,6 @@ msgstr "用一些生动的室内装饰美化你的殖民地。{Hotkey}"
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.DINING.BUILDMENUTITLE"
 msgid "Dining"
 msgstr "饮食"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.DINING.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.DINING.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.DINING.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.DINING.NAME"
@@ -81664,11 +83368,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.DOORS.BUILDMENUTITLE"
 msgid "Doors"
 msgstr "门"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.DOORS.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.DOORS.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.DOORS.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.DOORS.NAME"
 msgid "Doors"
@@ -81679,15 +83378,25 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.DOORS.TOOLTIP"
 msgid ""
 msgstr ""
 
+#. STRINGS.UI.NEWBUILDCATEGORIES.ENGINES.BUILDMENUTITLE
+msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.ENGINES.BUILDMENUTITLE"
+msgid "Engines"
+msgstr "引擎"
+
+#. STRINGS.UI.NEWBUILDCATEGORIES.ENGINES.NAME
+msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.ENGINES.NAME"
+msgid "Engines"
+msgstr "引擎"
+
+#. STRINGS.UI.NEWBUILDCATEGORIES.ENGINES.TOOLTIP
+msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.ENGINES.TOOLTIP"
+msgid ""
+msgstr ""
+
 #. STRINGS.UI.NEWBUILDCATEGORIES.EQUIPMENT.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.EQUIPMENT.BUILDMENUTITLE"
 msgid "Equipment"
 msgstr "装备"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.EQUIPMENT.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.EQUIPMENT.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.EQUIPMENT.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.EQUIPMENT.NAME"
@@ -81704,11 +83413,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.FARMING.BUILDMENUTITLE"
 msgid "Farming"
 msgstr "耕种"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.FARMING.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.FARMING.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.FARMING.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.FARMING.NAME"
 msgid "Farming"
@@ -81723,11 +83427,6 @@ msgstr ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.FITTINGS.BUILDMENUTITLE"
 msgid "Fittings"
 msgstr "配件"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.FITTINGS.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.FITTINGS.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.FITTINGS.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.FITTINGS.NAME"
@@ -81754,11 +83453,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.FURNITURE.BUILDMENUTITLE"
 msgid "Furniture"
 msgstr "家具"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.FURNITURE.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.FURNITURE.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.FURNITURE.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.FURNITURE.NAME"
 msgid "Furniture"
@@ -81773,11 +83467,6 @@ msgstr "用于保持我的复制人快乐、舒适、高效的生活设施。{Ho
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.GENERATORS.BUILDMENUTITLE"
 msgid "Generators"
 msgstr "发电机"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.GENERATORS.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.GENERATORS.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.GENERATORS.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.GENERATORS.NAME"
@@ -81804,11 +83493,6 @@ msgstr "复制人所需要的一切就是保持快乐、健康、满足。{Hotke
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.HYGIENE.BUILDMENUTITLE"
 msgid "Hygiene"
 msgstr "卫生"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.HYGIENE.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.HYGIENE.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.HYGIENE.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.HYGIENE.NAME"
@@ -81837,11 +83521,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.INDUSTRIALSTATION.BUILDMENUTITLE"
 msgid "Industrial"
 msgstr "工业"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.INDUSTRIALSTATION.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.INDUSTRIALSTATION.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.INDUSTRIALSTATION.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.INDUSTRIALSTATION.NAME"
 msgid "Industrial"
@@ -81867,11 +83546,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LADDERS.BUILDMENUTITLE"
 msgid "Ladders"
 msgstr "梯子"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.LADDERS.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LADDERS.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.LADDERS.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LADDERS.NAME"
 msgid "Ladders"
@@ -81886,11 +83560,6 @@ msgstr ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LIGHTS.BUILDMENUTITLE"
 msgid "Lights"
 msgstr "照明"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.LIGHTS.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LIGHTS.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.LIGHTS.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LIGHTS.NAME"
@@ -81907,11 +83576,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LOGICAUDIO.BUILDMENUTITLE"
 msgid "Ambience"
 msgstr "环境"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.LOGICAUDIO.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LOGICAUDIO.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.LOGICAUDIO.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LOGICAUDIO.NAME"
 msgid "Ambience"
@@ -81927,11 +83591,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LOGICGATES.BUILDMENUTITLE"
 msgid "Gates"
 msgstr "逻辑门"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.LOGICGATES.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LOGICGATES.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.LOGICGATES.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LOGICGATES.NAME"
 msgid "Gates"
@@ -81946,11 +83605,6 @@ msgstr ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LOGICMANAGER.BUILDMENUTITLE"
 msgid "Monitoring"
 msgstr "监测"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.LOGICMANAGER.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LOGICMANAGER.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.LOGICMANAGER.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LOGICMANAGER.NAME"
@@ -81977,11 +83631,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.MANUFACTURING.BUILDMENUTITLE"
 msgid "Manufacturing"
 msgstr "制造"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.MANUFACTURING.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.MANUFACTURING.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.MANUFACTURING.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.MANUFACTURING.NAME"
 msgid "Manufacturing"
@@ -81996,11 +83645,6 @@ msgstr ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.MATERIALS.BUILDMENUTITLE"
 msgid "Materials"
 msgstr "材料"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.MATERIALS.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.MATERIALS.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.MATERIALS.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.MATERIALS.NAME"
@@ -82017,11 +83661,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.MEDICAL.BUILDMENUTITLE"
 msgid "Medical"
 msgstr "医疗"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.MEDICAL.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.MEDICAL.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.MEDICAL.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.MEDICAL.NAME"
 msgid "Medical"
@@ -82032,15 +83671,55 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.MEDICAL.TOOLTIP"
 msgid "A cure for everything but the common cold. {Hotkey}"
 msgstr "除了普通感冒，一切都能治好。{Hotkey}"
 
+#. STRINGS.UI.NEWBUILDCATEGORIES.METEORDEFENSE.BUILDMENUTITLE
+msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.METEORDEFENSE.BUILDMENUTITLE"
+msgid "Meteor Defense"
+msgstr "流星抵御"
+
+#. STRINGS.UI.NEWBUILDCATEGORIES.METEORDEFENSE.NAME
+msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.METEORDEFENSE.NAME"
+msgid "Meteor Defense"
+msgstr "流星抵御"
+
+#. STRINGS.UI.NEWBUILDCATEGORIES.METEORDEFENSE.TOOLTIP
+msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.METEORDEFENSE.TOOLTIP"
+msgid ""
+msgstr ""
+
+#. STRINGS.UI.NEWBUILDCATEGORIES.MISSILES.BUILDMENUTITLE
+msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.MISSILES.BUILDMENUTITLE"
+msgid "Meteor Defense"
+msgstr "流星抵御"
+
+#. STRINGS.UI.NEWBUILDCATEGORIES.MISSILES.NAME
+msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.MISSILES.NAME"
+msgid "Meteor Defense"
+msgstr "流星抵御"
+
+#. STRINGS.UI.NEWBUILDCATEGORIES.MISSILES.TOOLTIP
+msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.MISSILES.TOOLTIP"
+msgid ""
+msgstr ""
+
+#. STRINGS.UI.NEWBUILDCATEGORIES.MODULE.BUILDMENUTITLE
+msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.MODULE.BUILDMENUTITLE"
+msgid "Modules"
+msgstr "舱块"
+
+#. STRINGS.UI.NEWBUILDCATEGORIES.MODULE.NAME
+msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.MODULE.NAME"
+msgid "Modules"
+msgstr "舱块"
+
+#. STRINGS.UI.NEWBUILDCATEGORIES.MODULE.TOOLTIP
+msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.MODULE.TOOLTIP"
+msgid ""
+msgstr ""
+
 #. STRINGS.UI.NEWBUILDCATEGORIES.OIL.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.OIL.BUILDMENUTITLE"
 msgid "Oil"
 msgstr "石油"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.OIL.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.OIL.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.OIL.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.OIL.NAME"
@@ -82057,11 +83736,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.OXYGEN.BUILDMENUTITLE"
 msgid "Oxygen"
 msgstr "氧气"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.OXYGEN.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.OXYGEN.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.OXYGEN.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.OXYGEN.NAME"
 msgid "Oxygen"
@@ -82076,11 +83750,6 @@ msgstr "保持殖民地呼吸顺畅，这里有我需要的一切。{Hotkey}"
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PIPES.BUILDMENUTITLE"
 msgid "Pipes"
 msgstr "管道"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.PIPES.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PIPES.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.PIPES.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PIPES.NAME"
@@ -82097,11 +83766,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PLUMBINGSTRUCTURES.BUILDMENUTITLE"
 msgid "Plumbing"
 msgstr "水管"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.PLUMBINGSTRUCTURES.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PLUMBINGSTRUCTURES.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.PLUMBINGSTRUCTURES.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PLUMBINGSTRUCTURES.NAME"
 msgid "Plumbing"
@@ -82117,11 +83781,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PORTS.BUILDMENUTITLE"
 msgid "Ports"
 msgstr "端口"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.PORTS.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PORTS.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.PORTS.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PORTS.NAME"
 msgid "Ports"
@@ -82136,11 +83795,6 @@ msgstr ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.POWERCONTROL.BUILDMENUTITLE"
 msgid "Power Regulation"
 msgstr "电力调节"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.POWERCONTROL.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.POWERCONTROL.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.POWERCONTROL.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.POWERCONTROL.NAME"
@@ -82161,11 +83815,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PRINTINGPODS.BUILDMENUTITLE"
 msgid "Printing Pods"
 msgstr "打印舱"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.PRINTINGPODS.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PRINTINGPODS.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.PRINTINGPODS.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PRINTINGPODS.NAME"
 msgid "Printing Pods"
@@ -82180,11 +83829,6 @@ msgstr ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PRODUCERS.BUILDMENUTITLE"
 msgid "Production"
 msgstr "生产"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.PRODUCERS.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PRODUCERS.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.PRODUCERS.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PRODUCERS.NAME"
@@ -82201,11 +83845,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PUMPS.BUILDMENUTITLE"
 msgid "Pumps"
 msgstr "泵"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.PUMPS.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PUMPS.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.PUMPS.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PUMPS.NAME"
 msgid "Pumps"
@@ -82220,11 +83859,6 @@ msgstr ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.RANCHING.BUILDMENUTITLE"
 msgid "Ranching"
 msgstr "养殖"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.RANCHING.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.RANCHING.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.RANCHING.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.RANCHING.NAME"
@@ -82241,11 +83875,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.RECREATION.BUILDMENUTITLE"
 msgid "Recreation"
 msgstr "娱乐"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.RECREATION.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.RECREATION.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.RECREATION.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.RECREATION.NAME"
 msgid "Recreation"
@@ -82260,11 +83889,6 @@ msgstr "减轻压力和增加乐趣，这里有所需的一切。"
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.REFINING.BUILDMENUTITLE"
 msgid "Refinement"
 msgstr "精炼"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.REFINING.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.REFINING.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.REFINING.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.REFINING.NAME"
@@ -82281,11 +83905,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.RESEARCH.BUILDMENUTITLE"
 msgid "Research"
 msgstr "研究"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.RESEARCH.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.RESEARCH.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.RESEARCH.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.RESEARCH.NAME"
 msgid "Research"
@@ -82300,11 +83919,6 @@ msgstr ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.ROCKETNAV.BUILDMENUTITLE"
 msgid "Navigation"
 msgstr "导航"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.ROCKETNAV.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.ROCKETNAV.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.ROCKETNAV.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.ROCKETNAV.NAME"
@@ -82321,11 +83935,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.ROCKETRY.BUILDMENUTITLE"
 msgid "Rocketry"
 msgstr "火箭"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.ROCKETRY.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.ROCKETRY.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.ROCKETRY.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.ROCKETRY.NAME"
 msgid "Rocketry"
@@ -82340,11 +83949,6 @@ msgstr "火箭 {Hotkey}"
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.ROCKETSTRUCTURES.BUILDMENUTITLE"
 msgid "Structural"
 msgstr "构造"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.ROCKETSTRUCTURES.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.ROCKETSTRUCTURES.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.ROCKETSTRUCTURES.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.ROCKETSTRUCTURES.NAME"
@@ -82361,11 +83965,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.SANITATION.BUILDMENUTITLE"
 msgid "Sanitation"
 msgstr "卫生"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.SANITATION.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.SANITATION.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.SANITATION.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.SANITATION.NAME"
 msgid "Sanitation"
@@ -82380,11 +83979,6 @@ msgstr ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.SCRUBBERS.BUILDMENUTITLE"
 msgid "Purification"
 msgstr "净化"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.SCRUBBERS.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.SCRUBBERS.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.SCRUBBERS.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.SCRUBBERS.NAME"
@@ -82401,11 +83995,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.SENSORS.BUILDMENUTITLE"
 msgid "Sensors"
 msgstr "传感器"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.SENSORS.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.SENSORS.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.SENSORS.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.SENSORS.NAME"
 msgid "Sensors"
@@ -82420,11 +84009,6 @@ msgstr ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.STORAGE.BUILDMENUTITLE"
 msgid "Storage"
 msgstr "存储"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.STORAGE.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.STORAGE.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.STORAGE.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.STORAGE.NAME"
@@ -82441,11 +84025,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.SWITCHES.BUILDMENUTITLE"
 msgid "Switches"
 msgstr "开关"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.SWITCHES.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.SWITCHES.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.SWITCHES.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.SWITCHES.NAME"
 msgid "Switches"
@@ -82456,15 +84035,25 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.SWITCHES.TOOLTIP"
 msgid ""
 msgstr ""
 
+#. STRINGS.UI.NEWBUILDCATEGORIES.TANKS.BUILDMENUTITLE
+msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TANKS.BUILDMENUTITLE"
+msgid "Tanks"
+msgstr "液缸"
+
+#. STRINGS.UI.NEWBUILDCATEGORIES.TANKS.NAME
+msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TANKS.NAME"
+msgid "Tanks"
+msgstr "液缸"
+
+#. STRINGS.UI.NEWBUILDCATEGORIES.TANKS.TOOLTIP
+msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TANKS.TOOLTIP"
+msgid ""
+msgstr ""
+
 #. STRINGS.UI.NEWBUILDCATEGORIES.TELESCOPES.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TELESCOPES.BUILDMENUTITLE"
 msgid "Telescopes"
 msgstr "望远镜"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.TELESCOPES.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TELESCOPES.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.TELESCOPES.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TELESCOPES.NAME"
@@ -82481,11 +84070,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TEMPERATURE.BUILDMENUTITLE"
 msgid "Temperature"
 msgstr "温度"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.TEMPERATURE.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TEMPERATURE.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.TEMPERATURE.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TEMPERATURE.NAME"
 msgid "Temperature"
@@ -82500,11 +84084,6 @@ msgstr ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TILES.BUILDMENUTITLE"
 msgid "Tiles and Drywall"
 msgstr "砖块与干板墙"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.TILES.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TILES.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.TILES.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TILES.NAME"
@@ -82521,11 +84100,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TRANSMISSIONS.BUILDMENUTITLE"
 msgid "Transmissions"
 msgstr "传输"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.TRANSMISSIONS.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TRANSMISSIONS.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.TRANSMISSIONS.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TRANSMISSIONS.NAME"
 msgid "Transmissions"
@@ -82540,11 +84114,6 @@ msgstr ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TRANSPORT.BUILDMENUTITLE"
 msgid "Transit Tubes"
 msgstr "运载管道"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.TRANSPORT.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TRANSPORT.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.TRANSPORT.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TRANSPORT.NAME"
@@ -82561,11 +84130,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.UTILITIES.BUILDMENUTITLE"
 msgid "Temperature"
 msgstr "温度"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.UTILITIES.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.UTILITIES.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.UTILITIES.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.UTILITIES.NAME"
 msgid "Temperature"
@@ -82580,11 +84144,6 @@ msgstr ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.VALVES.BUILDMENUTITLE"
 msgid "Valves"
 msgstr "阀"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.VALVES.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.VALVES.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.VALVES.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.VALVES.NAME"
@@ -82601,11 +84160,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.VENTILATIONSTRUCTURES.BUILDMENUTITLE"
 msgid "Ventilation"
 msgstr "通风"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.VENTILATIONSTRUCTURES.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.VENTILATIONSTRUCTURES.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.VENTILATIONSTRUCTURES.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.VENTILATIONSTRUCTURES.NAME"
 msgid "Ventilation"
@@ -82620,11 +84174,6 @@ msgstr "控制基地中的气体流动。{Hotkey}"
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.WASHROOM.BUILDMENUTITLE"
 msgid "Washroom"
 msgstr "厕所"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.WASHROOM.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.WASHROOM.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.WASHROOM.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.WASHROOM.NAME"
@@ -82641,11 +84190,6 @@ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.WELLNESS.BUILDMENUTITLE"
 msgid "Wellness"
 msgstr "健康"
 
-#. STRINGS.UI.NEWBUILDCATEGORIES.WELLNESS.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.WELLNESS.INVISIBLETAG"
-msgid ""
-msgstr ""
-
 #. STRINGS.UI.NEWBUILDCATEGORIES.WELLNESS.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.WELLNESS.NAME"
 msgid "Wellness"
@@ -82660,11 +84204,6 @@ msgstr ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.WIRES.BUILDMENUTITLE"
 msgid "Wires"
 msgstr "电线"
-
-#. STRINGS.UI.NEWBUILDCATEGORIES.WIRES.INVISIBLETAG
-msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.WIRES.INVISIBLETAG"
-msgid ""
-msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.WIRES.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.WIRES.NAME"
@@ -82784,6 +84323,31 @@ msgid ""
 "This outfit cannot be worn because my colony doesn't have all of its "
 "blueprints yet."
 msgstr "无法穿上这套服装，因为我的殖民地尚未拥有其中的全部蓝图。"
+
+#. STRINGS.UI.OUTFIT_DESCRIPTION.NO_ATMO_SUIT_BELT
+msgctxt "STRINGS.UI.OUTFIT_DESCRIPTION.NO_ATMO_SUIT_BELT"
+msgid "Default Belt"
+msgstr "默认腰带"
+
+#. STRINGS.UI.OUTFIT_DESCRIPTION.NO_ATMO_SUIT_BODY
+msgctxt "STRINGS.UI.OUTFIT_DESCRIPTION.NO_ATMO_SUIT_BODY"
+msgid "Default Body"
+msgstr "默认上身"
+
+#. STRINGS.UI.OUTFIT_DESCRIPTION.NO_ATMO_SUIT_BOOTS
+msgctxt "STRINGS.UI.OUTFIT_DESCRIPTION.NO_ATMO_SUIT_BOOTS"
+msgid "Default Boots"
+msgstr "默认靴子"
+
+#. STRINGS.UI.OUTFIT_DESCRIPTION.NO_ATMO_SUIT_GLOVES
+msgctxt "STRINGS.UI.OUTFIT_DESCRIPTION.NO_ATMO_SUIT_GLOVES"
+msgid "Default Gloves"
+msgstr "默认手套"
+
+#. STRINGS.UI.OUTFIT_DESCRIPTION.NO_ATMO_SUIT_HELMET
+msgctxt "STRINGS.UI.OUTFIT_DESCRIPTION.NO_ATMO_SUIT_HELMET"
+msgid "Default Helmet"
+msgstr "默认头盔"
 
 #. STRINGS.UI.OUTFIT_DESCRIPTION.NO_DUPE_ACCESSORIES
 msgctxt "STRINGS.UI.OUTFIT_DESCRIPTION.NO_DUPE_ACCESSORIES"
@@ -82924,7 +84488,7 @@ msgstr "保存模板"
 msgctxt ""
 "STRINGS.UI.OUTFIT_DESIGNER_SCREEN.OUTFIT_TEMPLATE.TOOLTIP_SAVE_ERROR_LOCKED"
 msgid ""
-"Cannot save this outfit because my colony doesn't have all of its blueprints "
+"Cannot save this outfit because my colony doesn't own all of its blueprints "
 "yet"
 msgstr "无法保存这套服装，因为我的殖民地尚未拥有其中的全部蓝图"
 
@@ -82964,6 +84528,11 @@ msgstr "自定义服装"
 msgctxt "STRINGS.UI.OUTFIT_NAME.NONE"
 msgid "Default Outfit"
 msgstr "默认服装"
+
+#. STRINGS.UI.OUTFIT_NAME.NONE_ATMO_SUIT
+msgctxt "STRINGS.UI.OUTFIT_NAME.NONE_ATMO_SUIT"
+msgid "Default Atmo Suit"
+msgstr "默认气压服"
 
 #. STRINGS.UI.OUTFIT_NAME.NONE_JOY_RESPONSE
 msgctxt "STRINGS.UI.OUTFIT_NAME.NONE_JOY_RESPONSE"
@@ -83054,6 +84623,41 @@ msgstr "白色基础服装"
 msgctxt "STRINGS.UI.OUTFITS.BASIC_YELLOW.NAME"
 msgid "Basic Yellow Outfit"
 msgstr "黄色基础服装"
+
+#. STRINGS.UI.OUTFITS.JELLYPUFF_BLUEBERRY.NAME
+msgctxt "STRINGS.UI.OUTFITS.JELLYPUFF_BLUEBERRY.NAME"
+msgid "Blueberry Jelly Outfit"
+msgstr "蓝莓果冻服装"
+
+#. STRINGS.UI.OUTFITS.JELLYPUFF_GRAPE.NAME
+msgctxt "STRINGS.UI.OUTFITS.JELLYPUFF_GRAPE.NAME"
+msgid "Grape Jelly Outfit"
+msgstr "葡萄果冻服装"
+
+#. STRINGS.UI.OUTFITS.JELLYPUFF_LEMON.NAME
+msgctxt "STRINGS.UI.OUTFITS.JELLYPUFF_LEMON.NAME"
+msgid "Lemon Jelly Outfit"
+msgstr "柠檬果冻服装"
+
+#. STRINGS.UI.OUTFITS.JELLYPUFF_LIME.NAME
+msgctxt "STRINGS.UI.OUTFITS.JELLYPUFF_LIME.NAME"
+msgid "Lime Jelly Outfit"
+msgstr "酸橙果冻服装"
+
+#. STRINGS.UI.OUTFITS.JELLYPUFF_SATSUMA.NAME
+msgctxt "STRINGS.UI.OUTFITS.JELLYPUFF_SATSUMA.NAME"
+msgid "Satsuma Jelly Outfit"
+msgstr "蜜橘果冻服装"
+
+#. STRINGS.UI.OUTFITS.JELLYPUFF_STRAWBERRY.NAME
+msgctxt "STRINGS.UI.OUTFITS.JELLYPUFF_STRAWBERRY.NAME"
+msgid "Strawberry Jelly Outfit"
+msgstr "草莓果冻服装"
+
+#. STRINGS.UI.OUTFITS.JELLYPUFF_WATERMELON.NAME
+msgctxt "STRINGS.UI.OUTFITS.JELLYPUFF_WATERMELON.NAME"
+msgid "Watermelon Jelly Outfit"
+msgstr "西瓜果冻服装"
 
 #. STRINGS.UI.OVERLAYS.CONVEYOR.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.CONVEYOR.BUTTON"
@@ -84541,28 +86145,28 @@ msgstr "概览"
 
 #. STRINGS.UI.PERMIT_RARITY.COMMON
 msgctxt "STRINGS.UI.PERMIT_RARITY.COMMON"
-msgid "Common"
-msgstr "普通"
+msgid "<color=#97B2B9>Common</color>"
+msgstr "<color=#97B2B9>普通</color>"
 
 #. STRINGS.UI.PERMIT_RARITY.DECENT
 msgctxt "STRINGS.UI.PERMIT_RARITY.DECENT"
-msgid "Decent"
-msgstr "雅观"
+msgid "<color=#81EBDE>Decent</color>"
+msgstr "<color=#81EBDE>雅观</color>"
 
 #. STRINGS.UI.PERMIT_RARITY.LOYALTY
 msgctxt "STRINGS.UI.PERMIT_RARITY.LOYALTY"
-msgid "Loyalty"
-msgstr "忠诚"
+msgid "<color=#FFB037>Loyalty</color>"
+msgstr "<color=#FFB037>忠诚</color>"
 
 #. STRINGS.UI.PERMIT_RARITY.NIFTY
 msgctxt "STRINGS.UI.PERMIT_RARITY.NIFTY"
-msgid "Nifty"
-msgstr "杰出"
+msgid "<color=#71E379>Nifty</color>"
+msgstr "<color=#71E379>杰出</color>"
 
 #. STRINGS.UI.PERMIT_RARITY.SPLENDID
 msgctxt "STRINGS.UI.PERMIT_RARITY.SPLENDID"
-msgid "Splendid"
-msgstr "华丽"
+msgid "<color=#FF6DE7>Splendid</color>"
+msgstr "<color=#FF6DE7>华丽</color>"
 
 #. STRINGS.UI.PERMIT_RARITY.UNIVERSAL
 msgctxt "STRINGS.UI.PERMIT_RARITY.UNIVERSAL"
@@ -85760,6 +87364,11 @@ msgstr ""
 "可以在<link=\"GENETICANALYSISSTATION\">植物分析仪</link>分析<style=\"KKeyword"
 "\">变异种子</style>"
 
+#. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_MAKE_MISSILES.DESCRIPTION
+msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_MAKE_MISSILES.DESCRIPTION"
+msgid "<link=\"MISSILEFABRICATOR\">Blastshot Maker</link> Usage"
+msgstr "<link=\"MISSILEFABRICATOR\">爆破弹组装机</link>的使用"
+
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_MISSION_CONTROL.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_MISSION_CONTROL.DESCRIPTION"
 msgid "<link=\"MISSIONCONTROL\">Mission Control Station</link> Usage"
@@ -86049,8 +87658,8 @@ msgstr "工艺品"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.COMETS
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.COMETS"
-msgid "Comets"
-msgstr "彗星"
+msgid "Meteors"
+msgstr "流星"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.CREATURE
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.CREATURE"
@@ -86687,7 +88296,7 @@ msgid ""
 "• All <style=\"KKeyword\">Attributes</style> <b>+2</b> in the morning"
 msgstr ""
 "早起鸟\n"
-"• 在早上所有<style=\"KKeyword\">属性</style><b>+2</b>"
+"• 在早上全部<style=\"KKeyword\">属性</style><b>+2</b>"
 
 #. STRINGS.UI.SCHEDULESCREEN.DUPLICANT_NIGHTOWL_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.DUPLICANT_NIGHTOWL_TOOLTIP"
@@ -86696,7 +88305,7 @@ msgid ""
 "• All <style=\"KKeyword\">Attributes</style> <b>+3</b> at night"
 msgstr ""
 "夜猫子\n"
-"• 在晚上所有<style=\"KKeyword\">属性</style><b>+3</b>"
+"• 在晚上全部<style=\"KKeyword\">属性</style><b>+3</b>"
 
 #. STRINGS.UI.SCHEDULESCREEN.PAINT_TOOLS
 msgctxt "STRINGS.UI.SCHEDULESCREEN.PAINT_TOOLS"
@@ -87170,7 +88779,7 @@ msgstr "保存起来的早期哈奇骨骼。"
 #. STRINGS.UI.SPACEARTIFACTS.HATCHFOSSIL.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.HATCHFOSSIL.NAME"
 msgid "Pristine Fossil"
-msgstr "远古化石"
+msgstr "原始化石"
 
 #. STRINGS.UI.SPACEARTIFACTS.HONEYJAR.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.HONEYJAR.ARTIFACT"
@@ -87997,15 +89606,209 @@ msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.ROCKYASTEROID.NAME"
 msgid "Rocky Asteroid"
 msgstr "岩石小行星"
 
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.BLEACHSTONE.DESCRIPTION
+msgctxt ""
+"STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.BLEACHSTONE.DESCRIPTION"
+msgid ""
+"A shower of bleach stone meteors on a collision course with the surface of "
+"an asteroid."
+msgstr "一群漂白石流星，很可能与小行星地表相撞。"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.BLEACHSTONE.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.BLEACHSTONE.NAME"
+msgid "Bleach Stone Meteor Shower"
+msgstr "漂白石流星雨"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.COPPER.DESCRIPTION
+msgctxt ""
+"STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.COPPER.DESCRIPTION"
+msgid ""
+"A shower of metallic meteors on a collision course with the surface of an "
+"asteroid."
+msgstr "一群金属流星，很可能与小行星地表相撞。"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.COPPER.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.COPPER.NAME"
+msgid "Copper Meteor Shower"
+msgstr "铜流星雨"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.GOLD.DESCRIPTION
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.GOLD.DESCRIPTION"
+msgid ""
+"A shower of shiny metallic space rocks on a collision course with the "
+"surface of an asteroid."
+msgstr "一群闪亮的金属太空岩，很可能与小行星地表相撞。"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.GOLD.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.GOLD.NAME"
+msgid "Gold Meteor Shower"
+msgstr "金流星雨"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.HEAVYDUST.DESCRIPTION
+msgctxt ""
+"STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.HEAVYDUST.DESCRIPTION"
+msgid ""
+"A dark cloud of heavy dust meteors heading towards the surface of an "
+"asteroid."
+msgstr "一团乌黑的尘埃流星，正向小行星地表飞去。"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.HEAVYDUST.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.HEAVYDUST.NAME"
+msgid "Dense Dust Meteor Shower"
+msgstr "密集尘埃流星雨"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.ICE.DESCRIPTION
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.ICE.DESCRIPTION"
+msgid ""
+"A hailstorm of icy space rocks on a collision course with the surface of an "
+"asteroid."
+msgstr "一群覆冰太空岩，很可能与小行星地表相撞。"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.ICE.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.ICE.NAME"
+msgid "Ice Meteor Shower"
+msgstr "冰流星雨"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.IRON.DESCRIPTION
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.IRON.DESCRIPTION"
+msgid ""
+"A shower of metallic space rocks on a collision course with the surface of "
+"an asteroid."
+msgstr "一群金属太空岩，很可能与小行星地表相撞。"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.IRON.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.IRON.NAME"
+msgid "Iron Meteor Shower"
+msgstr "铁流星雨"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.LIGHTDUST.DESCRIPTION
+msgctxt ""
+"STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.LIGHTDUST.DESCRIPTION"
+msgid ""
+"A cloud-like shower of dust fluff meteors heading towards the surface of an "
+"asteroid."
+msgstr "一团云状的浮尘流星，正向小行星表面飞去。"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.LIGHTDUST.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.LIGHTDUST.NAME"
+msgid "Dust Fluff Meteor Shower"
+msgstr "浮尘流星雨"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.MOO.DESCRIPTION
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.MOO.DESCRIPTION"
+msgid ""
+"A herd of methane-infused meteors that cause a bit of a stink, but do no "
+"actual damage."
+msgstr "一群充满甲烷的流星，会产生一些臭味，但没有实际伤害。"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.MOO.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.MOO.NAME"
+msgid "Gassy Mooteor Shower"
+msgstr "释气海牛流星雨"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.OXYLITE.DESCRIPTION
+msgctxt ""
+"STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.OXYLITE.DESCRIPTION"
+msgid ""
+"A shower of rocky, oxygen-rich meteors on a collision course with the "
+"surface of an asteroid."
+msgstr "一群氧气充足的岩石流星，很可能与小行星地表相撞。"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.OXYLITE.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.OXYLITE.NAME"
+msgid "Oxylite Meteor Shower"
+msgstr "氧石流星雨"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.REGOLITH.DESCRIPTION
+msgctxt ""
+"STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.REGOLITH.DESCRIPTION"
+msgid ""
+"A shower of rocky meteors on a collision course with the surface of an "
+"asteroid."
+msgstr "一群岩石流星，很可能与小行星地表相撞。"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.REGOLITH.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.REGOLITH.NAME"
+msgid "Regolith Meteor Shower"
+msgstr "浮土流星雨"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.SLIME.DESCRIPTION
+msgctxt ""
+"STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.SLIME.DESCRIPTION"
+msgid ""
+"A shower of slimy, biodynamic meteors on a collision course with the surface "
+"of an asteroid."
+msgstr "一群粘糊糊的生物动力流星，很可能与小行星地表相撞。"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.SLIME.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.SLIME.NAME"
+msgid "Slimy Meteor Shower"
+msgstr "菌泥流星雨"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.SNOW.DESCRIPTION
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.SNOW.DESCRIPTION"
+msgid ""
+"A shower of cold, cold meteors on a collision course with the surface of an "
+"asteroid."
+msgstr "一群非常非常冷的流星，很可能与小行星地表相撞。"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.SNOW.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.SNOW.NAME"
+msgid "Blizzard Meteor Shower"
+msgstr "雪暴流星雨"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.UNIDENTIFIED.DESCRIPTION
+msgctxt ""
+"STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.UNIDENTIFIED.DESCRIPTION"
+msgid ""
+"A cosmic anomaly is traveling through the galaxy.\n"
+"\n"
+"Its origins and purpose are currently unknown, though a <link="
+"\"CLUSTERTELESCOPE\">Telescope</link> could change that."
+msgstr ""
+"一个宇宙异常物体，正在宇宙中穿梭。\n"
+"\n"
+"它的起源和目标尚不清楚，但通过<link=\"CLUSTERTELESCOPE\">望远镜</link>观察就"
+"能知道了。"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.UNIDENTIFIED.NAME
+msgctxt ""
+"STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.UNIDENTIFIED.NAME"
+msgid "Unidentified Object"
+msgstr "不明物体"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.URANIUM.DESCRIPTION
+msgctxt ""
+"STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.URANIUM.DESCRIPTION"
+msgid ""
+"A toxic shower of radioactive meteors on a collision course with the surface "
+"of an asteroid."
+msgstr "一群有毒的放射性流星，很可能与小行星地表相撞。"
+
+#. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.URANIUM.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.URANIUM.NAME"
+msgid "Uranium Meteor Shower"
+msgstr "铀流星雨"
+
+#. STRINGS.UI.SPACEDESTINATIONS.COMETS.ALGAECOMET.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.ALGAECOMET.NAME"
+msgid "Algae Meteor"
+msgstr "绿藻流星"
+
+#. STRINGS.UI.SPACEDESTINATIONS.COMETS.BLEACHSTONECOMET.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.BLEACHSTONECOMET.NAME"
+msgid "Bleach Stone Meteor"
+msgstr "漂白石流星"
+
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.COPPERCOMET.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.COPPERCOMET.NAME"
-msgid "Copper Comet"
-msgstr "铜质彗星"
+msgid "Copper Meteor"
+msgstr "铜流星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.DUSTCOMET.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.DUSTCOMET.NAME"
-msgid "Dust Comet"
-msgstr "尘埃彗星"
+msgid "Dust Meteor"
+msgstr "尘埃流星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.FOODCOMET.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.FOODCOMET.NAME"
@@ -88014,43 +89817,73 @@ msgstr "小吃炸弹"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.FULLERENECOMET.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.FULLERENECOMET.NAME"
-msgid "Fullerene Comet"
-msgstr "富勒烯彗星"
+msgid "Fullerene Meteor"
+msgstr "富勒烯流星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.GASSYMOOCOMET.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.GASSYMOOCOMET.NAME"
 msgid "Gassy Mooteor"
-msgstr "释气海牛陨石"
+msgstr "释气海牛流星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.GOLDCOMET.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.GOLDCOMET.NAME"
-msgid "Gold Comet"
-msgstr "金质彗星"
+msgid "Gold Meteor"
+msgstr "金流星"
+
+#. STRINGS.UI.SPACEDESTINATIONS.COMETS.HARDICECOMET.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.HARDICECOMET.NAME"
+msgid "Ice Meteor"
+msgstr "冰流星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.IRONCOMET.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.IRONCOMET.NAME"
-msgid "Iron Comet"
-msgstr "铁质彗星"
+msgid "Iron Meteor"
+msgstr "铁流星"
+
+#. STRINGS.UI.SPACEDESTINATIONS.COMETS.LIGHTDUSTCOMET.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.LIGHTDUSTCOMET.NAME"
+msgid "Dust Fluff Meteor"
+msgstr "浮尘流星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.NUCLEAR_WASTE.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.NUCLEAR_WASTE.NAME"
-msgid "Radioactive Comet"
-msgstr "放射性彗星"
+msgid "Radioactive Meteor"
+msgstr "放射性流星"
+
+#. STRINGS.UI.SPACEDESTINATIONS.COMETS.OXYLITECOMET.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.OXYLITECOMET.NAME"
+msgid "Oxylite Meteor"
+msgstr "氧石流星"
+
+#. STRINGS.UI.SPACEDESTINATIONS.COMETS.PHOSPHORICCOMET.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.PHOSPHORICCOMET.NAME"
+msgid "Phosphoric Meteor"
+msgstr "磷流星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.ROCKCOMET.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.ROCKCOMET.NAME"
-msgid "Rock Comet"
-msgstr "岩石彗星"
+msgid "Rock Meteor"
+msgstr "岩石流星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.SATELLITE.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.SATELLITE.NAME"
 msgid "Defunct Satellite"
 msgstr "失效卫星"
 
+#. STRINGS.UI.SPACEDESTINATIONS.COMETS.SLIMECOMET.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.SLIMECOMET.NAME"
+msgid "Slime Meteor"
+msgstr "菌泥流星"
+
+#. STRINGS.UI.SPACEDESTINATIONS.COMETS.SNOWBALLCOMET.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.SNOWBALLCOMET.NAME"
+msgid "Snow Meteor"
+msgstr "雪流星"
+
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.URANIUMORECOMET.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.URANIUMORECOMET.NAME"
-msgid "Unanium Comet"
-msgstr "铀彗星"
+msgid "Uranium Meteor"
+msgstr "铀流星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.DEBRIS.SATELLITE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.DEBRIS.SATELLITE.DESCRIPTION"
@@ -90457,7 +92290,7 @@ msgstr "拆断工具"
 #. STRINGS.UI.TOOLS.DISCONNECT.TOOLTIP
 msgctxt "STRINGS.UI.TOOLS.DISCONNECT.TOOLTIP"
 msgid "Sever conduits and connectors {Hotkey}"
-msgstr "切断管道和导体 {Hotkey}"
+msgstr "切断管道与导体 {Hotkey}"
 
 #. STRINGS.UI.TOOLS.DISINFECT.NAME
 msgctxt "STRINGS.UI.TOOLS.DISINFECT.NAME"
@@ -92386,6 +94219,30 @@ msgctxt "STRINGS.UI.UISIDESCREENS.CLUSTERLOCATIONFILTERSIDESCREEN.TITLE"
 msgid "Location Filter"
 msgstr "地点筛选项"
 
+#. STRINGS.UI.UISIDESCREENS.CLUSTERTELESCOPESIDESCREEN.CHECKBOX_METEORS
+msgctxt "STRINGS.UI.UISIDESCREENS.CLUSTERTELESCOPESIDESCREEN.CHECKBOX_METEORS"
+msgid "Allow meteor shower identification"
+msgstr "允许识别流星雨"
+
+#. STRINGS.UI.UISIDESCREENS.CLUSTERTELESCOPESIDESCREEN.CHECKBOX_TOOLTIP_METEORS
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.CLUSTERTELESCOPESIDESCREEN.CHECKBOX_TOOLTIP_METEORS"
+msgid ""
+"Prioritizes unidentified meteors that come within range in a previously "
+"revealed location\n"
+"\n"
+"Will interrupt a Duplicant working on revealing a new <style=\"KKeyword"
+"\">Starmap</style> location"
+msgstr ""
+"优先考虑范围内已揭示位置尚未识别的流星\n"
+"\n"
+"这将打断复制人当前揭示<style=\"KKeyword\">星图</style>新位置的工作"
+
+#. STRINGS.UI.UISIDESCREENS.CLUSTERTELESCOPESIDESCREEN.TITLE
+msgctxt "STRINGS.UI.UISIDESCREENS.CLUSTERTELESCOPESIDESCREEN.TITLE"
+msgid "Telescope Configuration"
+msgstr "望远镜配置"
+
 #. STRINGS.UI.UISIDESCREENS.CLUSTERWORLDSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.CLUSTERWORLDSIDESCREEN.TITLE"
 msgid "Planetoid"
@@ -92420,7 +94277,7 @@ msgstr "已分配"
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.COMETS
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.COMETS"
 msgid "Meteor Showers"
-msgstr "陨石雨"
+msgstr "流星雨"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.DISABLED
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.DISABLED"
@@ -92429,8 +94286,8 @@ msgstr "不符合条件"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.DUPEMADE
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.DUPEMADE"
-msgid "Dupe-made Ballistics"
-msgstr "人造弹道体"
+msgid "Interplanetary Payloads"
+msgstr "星际载货"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.HEADER
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.HEADER"
@@ -92834,6 +94691,12 @@ msgstr "{0}"
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.CANCEL"
 msgid "Cancel"
 msgstr "取消"
+
+#. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.CHANGE_RECIPE_ARROW_LABEL
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.CHANGE_RECIPE_ARROW_LABEL"
+msgid "Change recipe"
+msgstr "更换配方"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.COST
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.COST"
@@ -95289,7 +97152,7 @@ msgctxt ""
 "STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.NO_SELECTED_ANALYSIS_TARGET"
 msgid ""
 "No analysis focus selected\n"
-"Open the <b>Starmap</b> {Hotkey/ManageStarmap} to selected a focus"
+"Open the <b>Starmap</b> {Hotkey/ManageStarmap} to select a focus"
 msgstr ""
 "未选择分析对象\n"
 "打开<b>星图</b> {Hotkey/ManageStarmap} 以选择一个对象"
@@ -95357,7 +97220,7 @@ msgstr "不，我需要更多时间准备一下。"
 #. STRINGS.UI.UISIDESCREENS.TEMPORALTEARSIDESCREEN.CONFIRM_POPUP_CONFIRM
 msgctxt "STRINGS.UI.UISIDESCREENS.TEMPORALTEARSIDESCREEN.CONFIRM_POPUP_CONFIRM"
 msgid "Yes, I'm ready for a meteor shower."
-msgstr "是，我已经准备好面对陨石雨了。"
+msgstr "是，我已经准备好面对流星雨了。"
 
 #. STRINGS.UI.UISIDESCREENS.TEMPORALTEARSIDESCREEN.CONFIRM_POPUP_MESSAGE
 msgctxt "STRINGS.UI.UISIDESCREENS.TEMPORALTEARSIDESCREEN.CONFIRM_POPUP_MESSAGE"
@@ -95981,22 +97844,22 @@ msgstr "生长进度"
 #. STRINGS.UI.UNITSUFFIXES.HEAT.DTU
 msgctxt "STRINGS.UI.UNITSUFFIXES.HEAT.DTU"
 msgid " DTU"
-msgstr "DTU"
+msgstr "复热"
 
 #. STRINGS.UI.UNITSUFFIXES.HEAT.DTU_S
 msgctxt "STRINGS.UI.UNITSUFFIXES.HEAT.DTU_S"
 msgid " DTU/s"
-msgstr "DTU/秒"
+msgstr "复热/秒"
 
 #. STRINGS.UI.UNITSUFFIXES.HEAT.KDTU
 msgctxt "STRINGS.UI.UNITSUFFIXES.HEAT.KDTU"
 msgid " kDTU"
-msgstr "千DTU"
+msgstr "千复热"
 
 #. STRINGS.UI.UNITSUFFIXES.HEAT.KDTU_S
 msgctxt "STRINGS.UI.UNITSUFFIXES.HEAT.KDTU_S"
 msgid " kDTU/s"
-msgstr "千DTU/秒"
+msgstr "千复热/秒"
 
 #. STRINGS.UI.UNITSUFFIXES.HIGHENERGYPARTICLES.PARTRICLE
 msgctxt "STRINGS.UI.UNITSUFFIXES.HIGHENERGYPARTICLES.PARTRICLE"
@@ -97819,7 +99682,7 @@ msgstr "正在稳定造物结构……"
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE6
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE6"
 msgid "Taking hot meteor shower..."
-msgstr "正在洗热陨石雨澡……"
+msgstr "正在洗热流星雨澡……"
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE7
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE7"
@@ -99641,6 +101504,463 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
 msgid "Water Asteroid"
 msgstr "水域小行星"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSILELAUNCHER_NOSURFACESIGHT.NAME"
+#~ msgid "No surface sight"
+#~ msgstr "无地表视野"
+
+#~ msgctxt ""
+#~ "STRINGS.BUILDING.STATUSITEMS.MISSILELAUNCHER_NOSURFACESIGHT.TOOLTIP"
+#~ msgid "No surface sight tooltip"
+#~ msgstr "无地表视野悬停提示"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSILELAUNCHER_PARTIALLYBLOCKED.NAME"
+#~ msgid "Partially blocked"
+#~ msgstr "部分受阻"
+
+#~ msgctxt ""
+#~ "STRINGS.BUILDING.STATUSITEMS.MISSILELAUNCHER_PARTIALLYBLOCKED.TOOLTIP"
+#~ msgid "Partially blocked tooltip"
+#~ msgstr "部分受阻的悬停提示"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.FOSSILDIG_COMPLETED.DESC"
+#~ msgid ""
+#~ "Bones are useful long after they've fulfilled their original purpose."
+#~ msgstr "骨头在其实现最初目的很长时间之后才会有用。"
+
+#~ msgctxt ""
+#~ "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DESCRIPTION_BUILDINGMENU_COVERED"
+#~ msgid "This site must be fully excavated before it can be inspected."
+#~ msgstr "这个地点必须完全发掘后才能检查。"
+
+#~ msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DESCRIPTION_REVEALED"
+#~ msgid ""
+#~ "Several fossil deposits on this asteroid appear to come from one massive "
+#~ "critter.\n"
+#~ "\n"
+#~ "The pieces must be found and reassembled."
+#~ msgstr ""
+#~ "这颗小行星上的几块化石沉积物似乎来自一种大型动物。\n"
+#~ "\n"
+#~ "必须找到相应碎片并将其组装起来。"
+
+#~ msgctxt ""
+#~ "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST_AVAILABLE_NOTIFICATION.NAME"
+#~ msgid "Ancient Specimen Excavated"
+#~ msgstr "已发掘远古标本"
+
+#~ msgctxt ""
+#~ "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST_AVAILABLE_POPUP.CHECK_BUTTON"
+#~ msgid "View Specimen"
+#~ msgstr "查看标本"
+
+#~ msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST_AVAILABLE_POPUP.NAME"
+#~ msgid "Ancient Specimen Excavated"
+#~ msgstr "已发掘远古标本"
+
+#~ msgctxt "STRINGS.ITEMS.MISSILE_BASIC.NAME"
+#~ msgid "Blastshot"
+#~ msgstr "爆破弹"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
+#~ msgid "FEB 2023 QOL"
+#~ msgstr "2023年2月生活质量更新"
+
+#~ msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.SLIME.NAME"
+#~ msgid "Muck Meteor Shower"
+#~ msgstr "泥团流星雨"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.FOSSILDIG.NAME"
+#~ msgid "Main Fossil Site"
+#~ msgstr "主化石遗迹"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.FOSSILDIG_COMPLETED.DESC"
+#~ msgid "It's not from around here. COMPLETED"
+#~ msgstr "它不是来自这里的。已完成"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.FOSSILDIG_COMPLETED.EFFECT"
+#~ msgid ""
+#~ "Contains the <link=\"FOSSIL\">Fossils</link> left behind by a giant "
+#~ "critter.\n"
+#~ "\n"
+#~ "Must be excavated by Duplicants with the <link=\"ARTING3\">Masterworks</"
+#~ "link> skill. COMPLETED"
+#~ msgstr ""
+#~ "含有一只巨大动物留下的<link=\"FOSSIL\">化石</link>。\n"
+#~ "\n"
+#~ "必须由具有<link=\"ARTING3\">大师技艺</link>技能的复制人发掘。已完成"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.FOSSILDIG_COMPLETED.NAME"
+#~ msgid "Main Fossil Site COMPLETED"
+#~ msgstr "主化石遗迹已完成"
+
+#~ msgctxt ""
+#~ "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.ENTITIES.FOSSIL_DIG_SITE.NAME"
+#~ msgid "Main Fossil Site"
+#~ msgstr "主化石遗迹"
+
+#~ msgctxt ""
+#~ "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST_AVAILABLE_NOTIFICATION.TOOLTIP"
+#~ msgid "An excavation has been completed and requires your attention"
+#~ msgstr "发掘工作已完成，需要注意"
+
+#~ msgctxt ""
+#~ "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST_AVAILABLE_POPUP.CHECK_BUTTON"
+#~ msgid "Check"
+#~ msgstr "检查"
+
+#~ msgctxt ""
+#~ "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST_AVAILABLE_POPUP.DESCRIPTION"
+#~ msgid ""
+#~ "We have uncover and excavated most of the dirt hidding a mysterious "
+#~ "critter fossil inside, after some observation there seem to be others, we "
+#~ "need to find them"
+#~ msgstr ""
+#~ "我们发现了一块神秘的小动物化石，并除去了其外面的大部分泥土，经过一番观察，"
+#~ "似乎周围还有其他部分，我们得找一找"
+
+#~ msgctxt ""
+#~ "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.UISIDESCREENS."
+#~ "MINOR_DIG_SITE_REVEAL_BUTTON_TOOLTIP"
+#~ msgid "Pan to largest deposit of fossil fragments"
+#~ msgstr "移动至最大的化石碎片"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.COPPER.DESCRIPTION"
+#~ msgid "Several giant rocks of copper moving across the galaxy"
+#~ msgstr "在银河中穿梭的几块巨大铜质岩石"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.GOLD.DESCRIPTION"
+#~ msgid "Several giant rocks of gold moving across the galaxy"
+#~ msgstr "在银河中穿梭的几块巨大金质岩石"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.HEAVYDUST.DESCRIPTION"
+#~ msgid "A heavy dark cloud like matter is moving across the galaxy"
+#~ msgstr "在银河中穿梭的一团乌黑色云状物"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.LIGHTDUST.DESCRIPTION"
+#~ msgid "A light gray cloud-like matter is moving across the galaxy"
+#~ msgstr "在银河中穿梭的一团浅灰色云状物"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.REGOLITH.DESCRIPTION"
+#~ msgid "A heavy dark cloud like matter is moving across the galaxy"
+#~ msgstr "在银河中穿梭的一团乌黑色云状物"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.SNOW.DESCRIPTION"
+#~ msgid ""
+#~ "A smattering of snowy space rocks on a collision course with the "
+#~ "asteroid's surface."
+#~ msgstr "一群覆雪太空岩，可能与小行星地表相撞。"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.URANIUM.DESCRIPTION"
+#~ msgid "Several toxic rocks of uranium moving across the galaxy"
+#~ msgstr "在银河中穿梭的几块有毒的铀岩石"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILEFABRICATOR.EFFECT"
+#~ msgid ""
+#~ "Produces <link=\"MISSILEBASIC\">Blastshot</link> from metals such as "
+#~ "<link=\"IRON\">Iron</link>, <link=\"COBALT\">Cobalt</link>, <link=\"COPPER"
+#~ "\">Copper</link> or <link=\"ALUMINUMORE\">Aluminum</link> combined with "
+#~ "<link=\"PETROLEUM\">Petroleum</link>.\n"
+#~ "\n"
+#~ "Outputs <link=\"HEAT\">High Temperature</link>.\n"
+#~ "\n"
+#~ "Duplicants will not fabricate items unless recipes are queued."
+#~ msgstr ""
+#~ "使用金属，比如<link=\"IRON\">铁</link>、<link=\"COBALT\">钴</link>、<link="
+#~ "\"COPPER\">铜</link>或<link=\"ALUMINUMORE\">铝</link>，与<link=\"PETROLEUM"
+#~ "\">石油</link>组合以生产<link=\"MISSILEBASIC\">爆破弹</link>。\n"
+#~ "\n"
+#~ "输出<link=\"HEAT\">高温</link>。\n"
+#~ "\n"
+#~ "只有在队列中安排配方复制人才会进行制作。"
+
+#~ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.MISSILES.BUILDMENUTITLE"
+#~ msgid "Blasters"
+#~ msgstr "爆破物"
+
+#~ msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.MISSILES.NAME"
+#~ msgid "Blasters"
+#~ msgstr "爆破物"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILEFABRICATOR.DESC"
+#~ msgid "Missiles can protect you from anything"
+#~ msgstr "导弹能保护你免受任何伤害"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILEFABRICATOR.RECIPE_DESCRIPTION"
+#~ msgid "Extracts pure MISSILES from the INGREDIENTS."
+#~ msgstr "从原料中提取出纯导弹。"
+
+#~ msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.REWARDS.MINED_FOSSIL.DESC"
+#~ msgid "Mined <link=\"FOSSIL\">Fossil</link> fragments"
+#~ msgstr "开采的<link=\"FOSSIL\">化石</link>碎片"
+
+#~ msgctxt "STRINGS.DUPLICANTS.ROLES.PYROTECHNIC.DESCRIPTION"
+#~ msgid "Allows a Duplicant to make missiles"
+#~ msgstr "允许复制人组装导弹"
+
+#~ msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_PYROTECHNICS.DESC"
+#~ msgid "Allows a Duplicant to make missiles"
+#~ msgstr "允许复制人组装导弹"
+
+#~ msgctxt "STRINGS.ITEMS.MISSILE_BASIC.DESC"
+#~ msgid "Load into a launcher to protect from meteors"
+#~ msgstr "装入发射器中以保护基地免受流星损坏"
+
+#~ msgctxt "STRINGS.ITEMS.MISSILE_BASIC.NAME"
+#~ msgid "Missile"
+#~ msgstr "导弹"
+
+#~ msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.COMET"
+#~ msgid "Comet"
+#~ msgstr "彗星"
+
+#~ msgctxt "STRINGS.UI.ITEM_DROP_SCREEN.ACTIONS.ACCEPT_ITEM"
+#~ msgid "Print Gift"
+#~ msgstr "打印礼物"
+
+#~ msgctxt "STRINGS.UI.ITEM_DROP_SCREEN.THANKS_FOR_PLAYING"
+#~ msgid "Thanks for keeping this colony alive!"
+#~ msgstr "感谢你让这个殖民地焕发生机！"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.JOY_RESPONSE_DESIGNER_SCREEN."
+#~ "TOOLTIP_PICK_JOY_RESPONSE_ERROR_LOCKED"
+#~ msgid ""
+#~ "Cannot assign this overjoyed response to {MinionName} because my colony "
+#~ "doesn't have it's blueprint yet"
+#~ msgstr "无法将这个喜悦反应分配至{MinionName}，因为我的殖民地尚未拥有其蓝图"
+
+#~ msgctxt "STRINGS.UI.LOCKER_MENU.BUTTON_CLAIM"
+#~ msgid "Check Shipments"
+#~ msgstr "检查货件"
+
+#~ msgctxt "STRINGS.UI.LOCKER_MENU.BUTTON_CLAIM_DESCRIPTION"
+#~ msgid "Check for available blueprints on the Klei Rewards website"
+#~ msgstr "在科雷奖励网站上查看可用蓝图"
+
+#~ msgctxt "STRINGS.UI.LOCKER_MENU.UNOPENED_ITEMS_TOOLTIP"
+#~ msgid ""
+#~ "You may have blueprints available to claim on the Klei Rewards website"
+#~ msgstr "你可能在科雷奖励网站上有可供领取的蓝图"
+
+#~ msgctxt "STRINGS.UI.PERMIT_RARITY.COMMON"
+#~ msgid "Common"
+#~ msgstr "普通"
+
+#~ msgctxt "STRINGS.UI.PERMIT_RARITY.DECENT"
+#~ msgid "Decent"
+#~ msgstr "雅观"
+
+#~ msgctxt "STRINGS.UI.PERMIT_RARITY.LOYALTY"
+#~ msgid "Loyalty"
+#~ msgstr "忠诚"
+
+#~ msgctxt "STRINGS.UI.PERMIT_RARITY.NIFTY"
+#~ msgid "Nifty"
+#~ msgstr "杰出"
+
+#~ msgctxt "STRINGS.UI.PERMIT_RARITY.SPLENDID"
+#~ msgid "Splendid"
+#~ msgstr "华丽"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.ICE.DESCRIPTION"
+#~ msgid "Several giant rocks of ice moving across the galaxy"
+#~ msgstr "在银河中穿梭的几块巨大冰岩石"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.IRON.DESCRIPTION"
+#~ msgid "Shiny solid rocks of iron moving across the galaxy"
+#~ msgstr "在银河中穿梭的闪光坚硬岩石"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.MOO.DESCRIPTION"
+#~ msgid "Moooo moo moo, mmmm, no... moo"
+#~ msgstr "哞哞哞，哞……哞"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.SLIME.DESCRIPTION"
+#~ msgid "Moldy and sticky rocks moving across the galaxy"
+#~ msgstr "在银河中穿梭的发霉粘糊岩石"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.SNOW.DESCRIPTION"
+#~ msgid "Cold fluffy rock shaped objects moving across the galaxy"
+#~ msgstr "在银河中穿梭的霜晶岩石"
+
+#~ msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.SNOW.NAME"
+#~ msgid "Snow Meteor Shower"
+#~ msgstr "雪流星雨"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.UNIDENTIFIED."
+#~ "DESCRIPTION"
+#~ msgid "An unknown object seems to be moving across the galaxy."
+#~ msgstr "似乎是在银河中穿梭的一个未知物体。"
+
+#~ msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.LIGHTDUSTCOMET.NAME"
+#~ msgid "Light Dust Meteor"
+#~ msgstr "轻尘流星"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.DUPEMADE"
+#~ msgid "Dupe-made Ballistics"
+#~ msgstr "人造弹道体"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LUXURYBED.DESC"
+#~ msgid ""
+#~ "Duplicants prefer comfy beds to cots and gain more stamina from sleeping "
+#~ "in them."
+#~ msgstr ""
+#~ "比起床铺，复制人更喜欢睡在舒适的床上，而且睡在舒适的床上能补充更多体力。"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LUXURYBED.EFFECT"
+#~ msgid ""
+#~ "Provides a sleeping area for one Duplicant and restores additional <link="
+#~ "\"STAMINA\">Stamina</link>.\n"
+#~ "\n"
+#~ "Duplicants will automatically sleep in their assigned beds at night."
+#~ msgstr ""
+#~ "为一名复制人提供睡眠区并恢复额外的<link=\"STAMINA\">体力</link>。\n"
+#~ "\n"
+#~ "复制人晚上会自动在指定的床位上睡觉。"
+
+#~ msgctxt "STRINGS.CODEX.JOURNALISTREQUEST.BODY.CONTAINER2"
+#~ msgid ""
+#~ "<indent=5%>I don't don't know how you pulled it off, but Stern's office "
+#~ "just called the paper and granted me an exclusive...and a tour of the "
+#~ "Gravitas Facility. I owe you a beer. No - a case of beer. Six cases of "
+#~ "beer!\n"
+#~ "\n"
+#~ "Seriously, thank you. I know you're in a difficult position but you've "
+#~ "done the right thing. See you on Tuesday.</indent>"
+#~ msgstr ""
+#~ "<indent=5%>我不知道你是怎么做到的，但斯特恩的办公室刚刚给报社打电话了，并"
+#~ "给了我一次独家采访……以及参观庄严科技的机会。我欠你一瓶啤酒。不，一箱啤酒。"
+#~ "六箱啤酒！\n"
+#~ "\n"
+#~ "说正经的，多谢你了。我知道你现在处境艰难但你做了正确的事情。我们周二见。</"
+#~ "indent>"
+
+#~ msgctxt "STRINGS.CODEX.MYSTERYAWARD.BODY.CONTAINER2"
+#~ msgid ""
+#~ "Last night's Worldwide Nanotech Awards has sparked controversy in the "
+#~ "scientific community after it was announced that the top prize had been "
+#~ "awarded to a project whose details could not be publicly disclosed.\n"
+#~ "\n"
+#~ "The highly classified paper was presented to the jury in a closed session "
+#~ "by lead researcher Dr. Liling Pei, recipient of the inaugural Gravitas "
+#~ "Accelerator Scholarship at the Elion University of Science and "
+#~ "Technology.\n"
+#~ "\n"
+#~ "Head judge Dr. Elias Balko acknowledges that it was unorthodox, but "
+#~ "defends the decision. \"We�re scientists�it�s our job to push boundaries."
+#~ "\"\n"
+#~ "\n"
+#~ "Pei was awarded the coveted Halas Medal, the top prize for innovation in "
+#~ "the field.\n"
+#~ "\n"
+#~ "\"I wish I could tell you more,\" says Pei. \"I'm SO grateful to the WNA "
+#~ "for this great honor, and to Dr. Stern for the funding that made it all "
+#~ "possible. This is going to change everything about...well, everything.\"\n"
+#~ "\n"
+#~ "This is the second time that Pei has made headlines. Last year, the "
+#~ "striking young nanoscientist won the Miss Planetary Belle pageant�s "
+#~ "talent show with a live demonstration of nanorobots weaving a ballgown "
+#~ "out of fibers harvested from common houseplants.\n"
+#~ "\n"
+#~ "Pei joins the team at the Gravitas Facility early next month."
+#~ msgstr ""
+#~ "昨晚的全球纳米科技奖在科学界引发了争议，因为这项最高奖颁给了一个细节无法公"
+#~ "开的项目。\n"
+#~ "\n"
+#~ "这篇高度机密的论文由首席研究员裴丽玲博士在非公开会议上提交给了陪审团，她是"
+#~ "埃利昂科技大学首届引力加速器奖学金的获得者。\n"
+#~ "\n"
+#~ "裁判长埃利亚斯·巴尔科承认这是不正规的，但支持这一决定。“我们是科学家——我们"
+#~ "的工作就是打破界限。”\n"
+#~ "\n"
+#~ "裴丽玲赢得了人人向往的哈拉斯奖章，这是该领域的最高创新奖项。\n"
+#~ "\n"
+#~ "“我希望我能再多说一些，”裴丽玲说，“我非常感谢全球纳米科技奖给予我这一伟大"
+#~ "荣誉，以及斯特恩博士的资助让这一切成为可能。这将改变一切关于……呃，改变一"
+#~ "切。”\n"
+#~ "\n"
+#~ "这是裴丽玲第二次登上头条。去年，这位令人瞩目的的年轻纳米科学家在“行星小"
+#~ "姐”选美大赛中胜出，当场展示了纳米机器人如何用常见的室内植物收获的纤维编织"
+#~ "舞裙。\n"
+#~ "\n"
+#~ "下个月裴丽玲将加入庄严科技的团队。"
+
+#~ msgctxt ""
+#~ "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXOSUIT_CYCLES"
+#~ msgid "All Dupes completed a Exosuit errand for cycles: {0} / {1}"
+#~ msgstr "所有复制人穿太空服完成任务的周期：{0}/{1}"
+
+#~ msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.PREVIOUS_UPDATE.BODY"
+#~ msgid ""
+#~ "Whoops!\n"
+#~ "\n"
+#~ "You're about to opt in to the <b>Previous Update branch</b>. That means "
+#~ "opting out of all new features, fixes and content from the live branch.\n"
+#~ "\n"
+#~ "This branch is temporary. It will be replaced when the next update is "
+#~ "released. It's also completely unsupported—please don't report bugs or "
+#~ "issues you find here.\n"
+#~ "\n"
+#~ "Are you sure you want to opt in?"
+#~ msgstr ""
+#~ "哎呀！\n"
+#~ "\n"
+#~ "你即将选择进入<b>上个版本分支</b>。这意味着选择弃掉所有主分支的新内容和修"
+#~ "复。\n"
+#~ "\n"
+#~ "这一分支是临时的，下次更新发布后就会被替换，且完全不受支持——请不要报告任何"
+#~ "在这里找到的漏洞或问题。\n"
+#~ "\n"
+#~ "你确定要选择进入吗？"
+
+#~ msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.COMETS"
+#~ msgid "Comets"
+#~ msgstr "彗星"
+
+#~ msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.COPPERCOMET.NAME"
+#~ msgid "Copper Comet"
+#~ msgstr "铜质彗星"
+
+#~ msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.DUSTCOMET.NAME"
+#~ msgid "Dust Comet"
+#~ msgstr "尘埃彗星"
+
+#~ msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.FULLERENECOMET.NAME"
+#~ msgid "Fullerene Comet"
+#~ msgstr "富勒烯彗星"
+
+#~ msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.GOLDCOMET.NAME"
+#~ msgid "Gold Comet"
+#~ msgstr "金质彗星"
+
+#~ msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.IRONCOMET.NAME"
+#~ msgid "Iron Comet"
+#~ msgstr "铁质彗星"
+
+#~ msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.NUCLEAR_WASTE.NAME"
+#~ msgid "Radioactive Comet"
+#~ msgstr "放射性彗星"
+
+#~ msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.ROCKCOMET.NAME"
+#~ msgid "Rock Comet"
+#~ msgstr "岩石彗星"
+
+#~ msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.URANIUMORECOMET.NAME"
+#~ msgid "Unanium Comet"
+#~ msgstr "铀彗星"
 
 #~ msgctxt ""
 #~ "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES."
