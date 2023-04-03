@@ -2199,7 +2199,7 @@ msgstr "有新東西可列印"
 #. STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.NOTIFICATION_TOOLTIP"
 msgid "The Printing Pod {Hotkey/Plan1} is ready to print a new Duplicant or care package.\nI'll need to select a blueprint:"
-msgstr "列印設備 {Hotkey/Plan1} 已準備好列印一個新的複製人或補給包裡。\n需要選擇一個藍圖："
+msgstr "列印設備 {Hotkey/Plan1} 已準備好列印一個新的複製人或補給包裹。\n需要選擇一個藍圖："
 
 #. STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.TOOLTIP"
@@ -5974,7 +5974,7 @@ msgstr "如此清新，如此整潔。"
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_WHITE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_WHITE.NAME"
 msgid "<link=\"EXTERIORWALL\">Fresh White</link>"
-msgstr "<link=\"EXTERIORWALL\">純白壁紙</link>"
+msgstr "<link=\"EXTERIORWALL\">純白牆板</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_YELLOW_LEMON.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_YELLOW_LEMON.DESC"
@@ -6004,7 +6004,7 @@ msgstr "可將其排列成巨大的藍色波點。"
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_BLUE_COBALT_WHITE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_BLUE_COBALT_WHITE.NAME"
 msgid "<link=\"EXTERIORWALL\">H2O Wedge</link>"
-msgstr "<link=\"EXTERIORWALL\">氧化氫扇形壁紙</link>"
+msgstr "<link=\"EXTERIORWALL\">氧化氫扇形牆板</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_GREEN_KELLY_WHITE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_GREEN_KELLY_WHITE.DESC"
@@ -6014,7 +6014,7 @@ msgstr "可將其排列成巨大的綠色波點。"
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_GREEN_KELLY_WHITE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_GREEN_KELLY_WHITE.NAME"
 msgid "<link=\"EXTERIORWALL\">Algae Wedge</link>"
-msgstr "<link=\"EXTERIORWALL\">藻類扇形壁紙</link>"
+msgstr "<link=\"EXTERIORWALL\">藻類扇形牆板</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_GREY_CHARCOAL_WHITE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_GREY_CHARCOAL_WHITE.DESC"
@@ -6024,7 +6024,7 @@ msgstr "可將其排列成巨大的幽暗波點。"
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_GREY_CHARCOAL_WHITE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_GREY_CHARCOAL_WHITE.NAME"
 msgid "<link=\"EXTERIORWALL\">Charcoal Wedge</link>"
-msgstr "<link=\"EXTERIORWALL\">木炭扇形壁紙</link>"
+msgstr "<link=\"EXTERIORWALL\">木炭扇形牆板</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_ORANGE_SATSUMA_WHITE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_ORANGE_SATSUMA_WHITE.DESC"
@@ -6034,7 +6034,7 @@ msgstr "可將其排列成巨大的橙色波點。"
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_ORANGE_SATSUMA_WHITE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_ORANGE_SATSUMA_WHITE.NAME"
 msgid "<link=\"EXTERIORWALL\">Bright Wedge</link>"
-msgstr "<link=\"EXTERIORWALL\">明亮扇形壁紙</link>"
+msgstr "<link=\"EXTERIORWALL\">明亮扇形牆板</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_PINK_FLAMINGO_WHITE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_PINK_FLAMINGO_WHITE.DESC"
@@ -6044,7 +6044,7 @@ msgstr "可將其排列成巨大的粉色波點。"
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_PINK_FLAMINGO_WHITE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_PINK_FLAMINGO_WHITE.NAME"
 msgid "<link=\"EXTERIORWALL\">Petal Wedge</link>"
-msgstr "<link=\"EXTERIORWALL\">花瓣扇形壁紙</link>"
+msgstr "<link=\"EXTERIORWALL\">花瓣扇形牆板</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_RED_DEEP_WHITE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_RED_DEEP_WHITE.DESC"
@@ -6054,7 +6054,7 @@ msgstr "可將其排列成巨大的紅色波點。"
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_RED_DEEP_WHITE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_RED_DEEP_WHITE.NAME"
 msgid "<link=\"EXTERIORWALL\">Magma Wedge</link>"
-msgstr "<link=\"EXTERIORWALL\">岩漿扇形壁紙</link>"
+msgstr "<link=\"EXTERIORWALL\">岩漿扇形牆板</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_YELLOW_LEMON_WHITE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_YELLOW_LEMON_WHITE.DESC"
@@ -6064,7 +6064,7 @@ msgstr "一種無輻射的樣式，可將其排列成巨大的波點。"
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_YELLOW_LEMON_WHITE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CIRCLE_YELLOW_LEMON_WHITE.NAME"
 msgid "<link=\"EXTERIORWALL\">Yellowcake Wedge</link>"
-msgstr "<link=\"EXTERIORWALL\">黃餅扇形壁紙</link>"
+msgstr "<link=\"EXTERIORWALL\">黃餅扇形牆板</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CLOUDS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.CLOUDS.DESC"
@@ -6099,72 +6099,72 @@ msgstr "<link=\"EXTERIORWALL\">牆板</link>"
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_BLUE_COBALT_WHITE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_BLUE_COBALT_WHITE.DESC"
 msgid "A damp wallpaper with a diagonal stripe."
-msgstr "一種有著對角條紋的潮溼桌布。"
+msgstr "一種有著對角條紋的潮溼壁紙。"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_BLUE_COBALT_WHITE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_BLUE_COBALT_WHITE.NAME"
 msgid "<link=\"EXTERIORWALL\">H2O Diagonal</link>"
-msgstr "<link=\"EXTERIORWALL\">氧化氫對角桌布</link>"
+msgstr "<link=\"EXTERIORWALL\">氧化氫對角壁紙</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_GREEN_KELLY_WHITE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_GREEN_KELLY_WHITE.DESC"
 msgid "A slippery wallpaper with a diagonal stripe."
-msgstr "一種有著對角條紋的油滑桌布。"
+msgstr "一種有著對角條紋的油滑壁紙。"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_GREEN_KELLY_WHITE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_GREEN_KELLY_WHITE.NAME"
 msgid "<link=\"EXTERIORWALL\">Algae Diagonal</link>"
-msgstr "<link=\"EXTERIORWALL\">藻類對角桌布</link>"
+msgstr "<link=\"EXTERIORWALL\">藻類對角壁紙</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_GREY_CHARCOAL_WHITE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_GREY_CHARCOAL_WHITE.DESC"
 msgid "A sleek wallpaper with a diagonal stripe."
-msgstr "一種有著對角條紋的光亮桌布。"
+msgstr "一種有著對角條紋的光亮壁紙。"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_GREY_CHARCOAL_WHITE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_GREY_CHARCOAL_WHITE.NAME"
 msgid "<link=\"EXTERIORWALL\">Charcoal Diagonal</link>"
-msgstr "<link=\"EXTERIORWALL\">木炭對角桌布</link>"
+msgstr "<link=\"EXTERIORWALL\">木炭對角壁紙</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_ORANGE_SATSUMA_WHITE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_ORANGE_SATSUMA_WHITE.DESC"
 msgid "An orange wallpaper with a diagonal stripe."
-msgstr "一種有著對角條紋的橙色桌布。"
+msgstr "一種有著對角條紋的橙色壁紙。"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_ORANGE_SATSUMA_WHITE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_ORANGE_SATSUMA_WHITE.NAME"
 msgid "<link=\"EXTERIORWALL\">Bright Diagonal</link>"
-msgstr "<link=\"EXTERIORWALL\">明亮對角桌布</link>"
+msgstr "<link=\"EXTERIORWALL\">明亮對角壁紙</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_PINK_FLAMINGO_WHITE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_PINK_FLAMINGO_WHITE.DESC"
 msgid "A pink wallpaper with a diagonal stripe."
-msgstr "一種有著對角條紋的粉色桌布。"
+msgstr "一種有著對角條紋的粉色壁紙。"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_PINK_FLAMINGO_WHITE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_PINK_FLAMINGO_WHITE.NAME"
 msgid "<link=\"EXTERIORWALL\">Petal Diagonal</link>"
-msgstr "<link=\"EXTERIORWALL\">花瓣對角桌布</link>"
+msgstr "<link=\"EXTERIORWALL\">花瓣對角壁紙</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_RED_DEEP_WHITE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_RED_DEEP_WHITE.DESC"
 msgid "A red wallpaper with a diagonal stripe."
-msgstr "一種有著對角條紋的紅色桌布。"
+msgstr "一種有著對角條紋的紅色壁紙。"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_RED_DEEP_WHITE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_RED_DEEP_WHITE.NAME"
 msgid "<link=\"EXTERIORWALL\">Magma Diagonal</link>"
-msgstr "<link=\"EXTERIORWALL\">岩漿對角桌布</link>"
+msgstr "<link=\"EXTERIORWALL\">岩漿對角壁紙</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_YELLOW_LEMON_WHITE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_YELLOW_LEMON_WHITE.DESC"
 msgid "A radiation-free wallpaper with a diagonal stripe."
-msgstr "一種有著對角條紋的無輻射桌布。"
+msgstr "一種有著對角條紋的無輻射壁紙。"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_YELLOW_LEMON_WHITE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.DIAGONAL_YELLOW_LEMON_WHITE.NAME"
 msgid "<link=\"EXTERIORWALL\">Yellowcake Diagonal</link>"
-msgstr "<link=\"EXTERIORWALL\">黃餅對角桌布</link>"
+msgstr "<link=\"EXTERIORWALL\">黃餅對角壁紙</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.GRAPES.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.GRAPES.DESC"
@@ -43469,7 +43469,7 @@ msgstr "可列印物品已回收"
 #. STRINGS.MISC.NOTIFICATIONS.IMMIGRANTSLEFT.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.IMMIGRANTSLEFT.TOOLTIP"
 msgid "The care packages have been disintegrated and printable Duplicants have been Oozed"
-msgstr "可列印的補給包裡與複製人已分解"
+msgstr "可列印的補給包裹與複製人已分解"
 
 #. STRINGS.MISC.NOTIFICATIONS.INCREASEDEXPECTATIONS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INCREASEDEXPECTATIONS.NAME"
@@ -56554,12 +56554,12 @@ msgstr "全部"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CAREPACKAGES.LEVELS.NORMAL.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CAREPACKAGES.LEVELS.NORMAL.TOOLTIP"
 msgid "Checked: The Printing Pod will offer both Duplicant blueprints and care packages (Default)"
-msgstr "勾選：列印設備將同時可列印複製人藍圖與補給包裡（預設）"
+msgstr "勾選：列印設備將同時可列印複製人藍圖與補給包裹（預設）"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CAREPACKAGES.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CAREPACKAGES.NAME"
 msgid "Care Packages"
-msgstr "補給包裡"
+msgstr "補給包裹"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CAREPACKAGES.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CAREPACKAGES.TOOLTIP"
@@ -59589,22 +59589,22 @@ msgstr "腐爛的"
 #. STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_DIG_ONLY
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_DIG_ONLY"
 msgid "Consumes 1 <link=\"PLANTS\">Seed</link>"
-msgstr "消耗 1 顆 <link=\"PLANTS\">種子</link>"
+msgstr "消耗 1 顆<link=\"PLANTS\">種子</link>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_FINAL_HARVEST
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_FINAL_HARVEST"
 msgid "Final harvest yields <link=\"PLANTS\">Seeds</link>"
-msgstr "最後一次收成 <link=\"PLANTS\">種子</link>"
+msgstr "最後一次收成<link=\"PLANTS\">種子</link>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_FRUIT
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_FRUIT"
 msgid "Fruit produces <link=\"PLANTS\">Seeds</link>"
-msgstr "水果生產 <link=\"PLANTS\">種子</link>"
+msgstr "水果生產<link=\"PLANTS\">種子</link>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_HARVEST
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_HARVEST"
 msgid "Harvest yields <link=\"PLANTS\">Seeds</link>"
-msgstr "收成 <link=\"PLANTS\">種子</link>"
+msgstr "收成<link=\"PLANTS\">種子</link>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.SEED_REQUIREMENT_CEILING
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.SEED_REQUIREMENT_CEILING"
@@ -59674,12 +59674,12 @@ msgstr "這株植物需要 <b>{1}</b> <style=\"KKeyword\">{0}</style> 才能成�
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.IDEAL_PRESSURE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.IDEAL_PRESSURE"
 msgid "This plant requires <style=\"KKeyword\">Gas</style> pressures above <b>{0}</b> for basic growth"
-msgstr "這株植物需要 <b>{0}</b> 以上的 <style=\"KKeyword\">氣壓</style> 才能成長"
+msgstr "這株植物需要 <b>{0}</b> 以上的<style=\"KKeyword\">氣壓</style>才能成長"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.IDEAL_TEMPERATURE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.IDEAL_TEMPERATURE"
 msgid "This plant requires internal <style=\"KKeyword\">Temperature</style> between <b>{0}</b> and <b>{1}</b> for basic growth"
-msgstr "這株植物內部 <style=\"KKeyword\">溫度</style> 必須保持在 <b>{0}</b> 與 <b>{1}</b> 之間才能成長"
+msgstr "這株植物內部<style=\"KKeyword\">溫度</style>必須保持在 <b>{0}</b> 與 <b>{1}</b> 之間才能成長"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.INITIALGROWTHTIME
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.INITIALGROWTHTIME"
@@ -59729,37 +59729,37 @@ msgstr "這株植物需要完全黑暗"
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_LIGHT
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_LIGHT"
 msgid "This plant requires a <style=\"KKeyword\">Light</style> source bathing it in at least {Lux}"
-msgstr "這株植物需要至少 {Lux} 的 <style=\"KKeyword\">光源</style>"
+msgstr "這株植物需要至少 {Lux} 的<style=\"KKeyword\">光源</style>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_NO_MIN_RADIATION
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_NO_MIN_RADIATION"
 msgid "This plant will stop growing if exposed to more than {MaxRads} of <link=\"RADIATION\">Radiation</link>"
-msgstr "如果這株植物暴露於 <link=\"RADIATION\">輻射</link> 高於 {MaxRads} 的環境會停止生長"
+msgstr "如果這株植物暴露於<link=\"RADIATION\">輻射</link>高於 {MaxRads} 的環境會停止生長"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_PRESSURE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_PRESSURE"
 msgid "Ambient <style=\"KKeyword\">Gas</style> pressure must be at least <b>{0}</b> for basic growth"
-msgstr "環境 <style=\"KKeyword\">氣壓</style> 必須最少 <b>{0}</b> 才能成長"
+msgstr "環境<style=\"KKeyword\">氣壓</style>必須不少於 <b>{0}</b> 才能成長"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_RADIATION
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_RADIATION"
 msgid "This plant will only grow if it has between {MinRads} and {MaxRads} of <link=\"RADIATION\">Radiation</link>"
-msgstr "這株植物物只會在 <link=\"RADIATION\">輻射</link> 介於 {MinRads} 與 {MaxRads} 之間時生長"
+msgstr "這株植物物只會在<link=\"RADIATION\">輻射</link>介於 {MinRads} 與 {MaxRads} 之間時生長"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_RECEPTACLE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_RECEPTACLE"
 msgid "This plant must be housed in a <link=\"PLANTERBOX\">Planter Box</link>, <link=\"FARMTILE\">Farm Tile</link>, or <link=\"HYDROPONICFARM\">Hydroponic Farm</link> farm to grow domestically"
-msgstr "這株植物必須使用 <link=\"PLANTERBOX\">種植箱</link>、<link=\"FARMTILE\">農耕磚</link> 或 <link=\"HYDROPONICFARM\">水耕磚</link> 才能在室內生長"
+msgstr "這株植物必須使用<link=\"PLANTERBOX\">種植箱</link>、<link=\"FARMTILE\">農耕磚</link>或<link=\"HYDROPONICFARM\">水耕磚</link>才能在室內生長"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_SUBMERSION
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_SUBMERSION"
 msgid "This plant must be fully submerged in <style=\"KKeyword\">Liquid</style> for basic growth"
-msgstr "這株植物必須完全淹沒在 <style=\"KKeyword\">液體</style> 中才能生長"
+msgstr "這株植物必須完全淹沒在<style=\"KKeyword\">液體</style>中才能生長"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_TEMPERATURE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_TEMPERATURE"
 msgid "Internal <style=\"KKeyword\">Temperature</style> must be between <b>{0}</b> and <b>{1}</b> for basic growth"
-msgstr "內部 <style=\"KKeyword\">溫度</style> 必須保持在 <b>{0}</b> 與 <b>{1}</b> 之間才能生長"
+msgstr "內部<style=\"KKeyword\">溫度</style>必須保持在 <b>{0}</b> 與 <b>{1}</b> 之間才能生長"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRESFERTILIZER
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRESFERTILIZER"
@@ -59769,22 +59769,22 @@ msgstr "這株植物需要 <b>{1}</b> <style=\"KKeyword\">{0}</style>才能生�
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_PRODUCTION_DIG_ONLY
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_PRODUCTION_DIG_ONLY"
 msgid "May be replanted, but will produce no further <style=\"KKeyword\">Seeds</style>"
-msgstr "可以重新種植，但不會產生 <style=\"KKeyword\">種子</style>"
+msgstr "可以重新種植，但不會產生<style=\"KKeyword\">種子</style>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_PRODUCTION_FINAL_HARVEST
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_PRODUCTION_FINAL_HARVEST"
 msgid "Yields new <style=\"KKeyword\">Seeds</style> on the final harvest of its life cycle"
-msgstr "這株植物最後一次收成時，會獲得新 <style=\"KKeyword\">種子</style>"
+msgstr "這株植物最後一次收成時，會獲得新<style=\"KKeyword\">種子</style>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_PRODUCTION_FRUIT
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_PRODUCTION_FRUIT"
 msgid "Consuming this plant's fruit will yield new <style=\"KKeyword\">Seeds</style>"
-msgstr "食用這株植物的果實，會獲得新 <style=\"KKeyword\">種子</style>"
+msgstr "食用這株植物的果實，會獲得新<style=\"KKeyword\">種子</style>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_PRODUCTION_HARVEST
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_PRODUCTION_HARVEST"
 msgid "Harvesting this plant will yield new <style=\"KKeyword\">Seeds</style>"
-msgstr "收成這株植物，會獲得新 <style=\"KKeyword\">種子</style>"
+msgstr "收成這株植物，會獲得新<style=\"KKeyword\">種子</style>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_REQUIREMENT_CEILING
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_REQUIREMENT_CEILING"
@@ -59924,7 +59924,7 @@ msgstr "當勾選時，這個建築會持續的孵化該種類的蛋"
 #. STRINGS.UI.ITEM_DROP_SCREEN.DISMISS_BUTTON
 msgctxt "STRINGS.UI.ITEM_DROP_SCREEN.DISMISS_BUTTON"
 msgid "DISMISS"
-msgstr "擱置"
+msgstr "關閉"
 
 #. STRINGS.UI.ITEM_DROP_SCREEN.IN_GAME_BUTTON.TOOLTIP_ERROR_NO_ITEMS
 msgctxt "STRINGS.UI.ITEM_DROP_SCREEN.IN_GAME_BUTTON.TOOLTIP_ERROR_NO_ITEMS"
@@ -70269,7 +70269,7 @@ msgstr "條件不符"
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.DUPEMADE
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.DUPEMADE"
 msgid "Interplanetary Payloads"
-msgstr "星際酬載"
+msgstr "星際貨箱"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.HEADER
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.HEADER"
