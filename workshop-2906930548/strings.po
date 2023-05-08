@@ -7329,7 +7329,7 @@ msgstr "<link=\"GLASSFORGE\">玻璃廠</link>"
 #. STRINGS.BUILDINGS.PREFABS.GLASSFORGE.RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSFORGE.RECIPE_DESCRIPTION"
 msgid "Extracts pure {0} from {1}."
-msgstr "從 {1} 中提取純 {0}。"
+msgstr "從{1}中提取純{0}。"
 
 #. STRINGS.BUILDINGS.PREFABS.GLASSTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSTILE.DESC"
@@ -7364,7 +7364,7 @@ msgstr "<link=\"GOURMETCOOKINGSTATION\">瓦斯爐</link>"
 #. STRINGS.BUILDINGS.PREFABS.GRAVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVE.DESC"
 msgid "Burying dead Duplicants reduces health hazards and stress on the colony."
-msgstr "埋葬死亡的複製人可減少健康危害並為殖民地減少壓力。"
+msgstr "埋葬死亡的複製人可減少健康危害並降低殖民地壓力。"
 
 #. STRINGS.BUILDINGS.PREFABS.GRAVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVE.EFFECT"
@@ -7954,7 +7954,7 @@ msgstr "<link=\"INSULATIONTILE\">隔熱磚</link>"
 #. STRINGS.BUILDINGS.PREFABS.ITEMPEDESTAL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ITEMPEDESTAL.DESC"
 msgid "Perception can be drastically changed by a bit of thoughtful presentation."
-msgstr "透過合理的展示可以徹底改變感覺。"
+msgstr "透過合理的展示可以徹底改變印象。"
 
 #. STRINGS.BUILDINGS.PREFABS.ITEMPEDESTAL.DISPLAYED_ITEM_FMT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ITEMPEDESTAL.DISPLAYED_ITEM_FMT"
@@ -8319,7 +8319,7 @@ msgstr "<link=\"LIQUIDCONDUIT\">液體管</link>"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITBRIDGE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITBRIDGE.DESC"
 msgid "Separate pipe systems help prevent building damage caused by mingled pipe contents."
-msgstr "分開管線系統有助於防止內容物混合導致建築物受損。"
+msgstr "分開管線系統有助於防止因混合內容物造成的建築物受損。"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITBRIDGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITBRIDGE.EFFECT"
@@ -10074,7 +10074,7 @@ msgstr "<link=\"MANUALHIGHENERGYPARTICLESPAWNER\">人工輻射粒產生器</link
 #. STRINGS.BUILDINGS.PREFABS.MANUALHIGHENERGYPARTICLESPAWNER.RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.MANUALHIGHENERGYPARTICLESPAWNER.RECIPE_DESCRIPTION"
 msgid "Creates <link=\"RADIATION\">Radbolts</link> by processing {0}. Also creates {1} as a byproduct."
-msgstr "通過處理{0}產生<link=\"RADIATION\">輻射粒子</link>。 同時產生{1}作為副產品。"
+msgstr "通過處理{0}產生<link=\"RADIATION\">輻射粒子</link>。同時產生{1}作為副產品。"
 
 #. STRINGS.BUILDINGS.PREFABS.MANUALPRESSUREDOOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MANUALPRESSUREDOOR.DESC"
@@ -13269,7 +13269,7 @@ msgstr "昇華是固體直接由變成氣體的過程。"
 #. STRINGS.BUILDINGS.PREFABS.SUBLIMATIONSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUBLIMATIONSTATION.EFFECT"
 msgid "Speeds up the conversion of <link=\"TOXICSAND\">Polluted Dirt</link> into <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link>.\n\nBecomes idle when the area reaches maximum pressure capacity."
-msgstr "加快<link=\"TOXICSAND\">汙土</link>轉換成 <link=\"CONTAMINATEDOXYGEN\">汙氧</link> 的速度。\n\n當區域的氣壓達到最大時會閒置。"
+msgstr "加快<link=\"TOXICSAND\">汙土</link>轉換成<link=\"CONTAMINATEDOXYGEN\">汙氧</link>的速度。\n\n當區域的氣壓達到最大時會閒置。"
 
 #. STRINGS.BUILDINGS.PREFABS.SUBLIMATIONSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUBLIMATIONSTATION.NAME"
@@ -14614,7 +14614,7 @@ msgstr "<indent=10%><b>第零定律</b></indent>\n<indent=15%>若兩個熱力學
 #. STRINGS.CODEX.A2_THERMODYNAMICLAWS.BODY.CONTAINER6
 msgctxt "STRINGS.CODEX.A2_THERMODYNAMICLAWS.BODY.CONTAINER6"
 msgid "<indent=5%>\nIf this is too complicated for you, you can come by to chat. I'd be <i>thrilled</i> to answer your questions. ;)</indent>"
-msgstr "<indent=5%>\n如果對你來說太複雜了，你可以來找我聊聊。我很 <i>樂意</i> 為你解答。 ;)</indent>"
+msgstr "<indent=5%>\n如果對你來說太複雜了，你可以來找我聊聊。我很<i>樂意</i>為你解答。;)</indent>"
 
 #. STRINGS.CODEX.A2_THERMODYNAMICLAWS.BODY.EMAILHEADER1
 msgctxt "STRINGS.CODEX.A2_THERMODYNAMICLAWS.BODY.EMAILHEADER1"
@@ -18654,7 +18654,7 @@ msgstr "似乎這種生物的DNA曾用作一種基因儲存單元。"
 #. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DNADATA_ENTRY_EXPANDED.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DNADATA_ENTRY_EXPANDED.BODY.CONTAINER1"
 msgid "<indent=5%>Dear [REDACTED]\n\nWe are pleased to announce that research objectives for Operation Piazzi's Planet are nearing completion. Thank you all for your patience as we navigated the unprecedented obstacles that such groundbreaking work entails.\n\nWe are aware of rumors regarding documents leaked from Dr. [REDACTED]'s files.\n\nRest assured that the contents of this supposed \"whistleblower\" effort are entirely fabricated—our technology is far too advanced to allow for the type of miscalculation that would result in OPP shipments arriving at their destination some 10,000 years prior to the targeted date.\n\nOur IT security team is currently investigating the document's digital footprint to determine its origin.\n\nTo express our gratitude for your continued support, we would like to invite key stakeholders to a private launch party held at the Gravitas Facility. The evening will be emceed by Dr. Olivia Broussard, who will present our groundbreaking prototypes along with a five-course meal featuring lab-crafted ingredients.\n\nDue to the sensitive nature of our work, we regret that no additional guests or dietary restrictions can be accommodated at this time.\n\nDirector Stern will be hosting a 30-minute Q&A session after dinner. Questions must be submitted at least 24 hours in advance.\n\nQueries about the [REDACTED] papers will be disregarded.\n\nPlease be advised that the contents of this e-mail will expire three minutes from the time of opening.</indent>"
-msgstr "<indent=5%>親愛的[加密]\n\n我們很高興地宣佈，在 Piazzi 行星行動上的研究目標已接近尾聲。感謝大家的耐心，我們已經克服了這種開創性工作帶來的前所未有的障礙。\n\n我們知道有關[加密]博士的檔案中洩露了一些文件的謠言。\n\n請大家放心，所謂的「告密者」完全是捏造的——我們的技術遠超一般水準，不會出現那種會導致 OPP 貨物在目標日期前1萬年就到達其目的地的錯誤計算。\n\n我們的 IT 安全團隊目前正在調查這份文件的數字痕跡以確定其來源。\n\n爲了感謝大家的不斷支援，我們想邀請主要利益相關者參加引力科技舉行的私人發佈會。當晚將由 Olivia Broussard 博士主持，她將展示我們開創性的原型體，以及用實驗室製作的食材製成的五道菜餐點。\n\n由於我們工作的敏感性，我們很抱歉目前無法容納更多客人，並存在飲食限制。\n\nStern 主管在晚餐後將主持 30 分鐘的問答環節。所有問題必須提前至少 24 小時提交。\n\n有關[加密]論文的問題將被忽略。\n\n請注意，此電子郵件的內容將在開啟後3分鐘後失效。</indent>"
+msgstr "<indent=5%>親愛的[加密]\n\n我們很高興地宣佈，在 Piazzi 行星行動上的研究目標已接近尾聲。感謝大家的耐心，我們已經克服了這種開創性工作帶來的前所未有的障礙。\n\n我們知道有關[加密]博士的檔案中洩露了一些文件的謠言。\n\n請大家放心，所謂的「告密者」完全是捏造的——我們的技術遠超一般水準，不會出現那種會導致 OPP 貨物在目標日期前1萬年就到達其目的地的錯誤計算。\n\n我們的 IT 安全團隊目前正在調查這份文件的數位痕跡以確定其來源。\n\n爲了感謝大家的不斷支援，我們想邀請主要利益相關者參加引力科技舉行的私人發佈會。當晚將由 Olivia Broussard 博士主持，她將展示我們開創性的原型體，以及用實驗室製作的食材製成的五道菜餐點。\n\n由於我們工作的敏感性，我們很抱歉目前無法容納更多客人，並存在飲食限制。\n\nStern 主管在晚餐後將主持 30 分鐘的問答環節。所有問題必須提前至少 24 小時提交。\n\n有關[加密]論文的問題將被忽略。\n\n請注意，此電子郵件的內容將在開啟後3分鐘後失效。</indent>"
 
 #. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DNADATA_ENTRY_EXPANDED.BODY.EMAILHEADER
 msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DNADATA_ENTRY_EXPANDED.BODY.EMAILHEADER"
@@ -19679,7 +19679,7 @@ msgstr "有備無患"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_NATURE_RESERVES_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_NATURE_RESERVES_DESCRIPTION"
 msgid "Improve Duplicant Morale by designating {1} areas as {0}."
-msgstr "規劃 {1} 個 {0}，提升複製人的士氣。"
+msgstr "規劃 {1} 個{0}，提升複製人的士氣。"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_OUTSIDE_BIOME
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_OUTSIDE_BIOME"
@@ -19849,7 +19849,7 @@ msgstr "哈奇之下"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.HATCH_REFINEMENT_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.HATCH_REFINEMENT_DESCRIPTION"
 msgid "Produce {0} of refined metal by ranching Smooth Hatches."
-msgstr "透過飼養金屬哈奇，生產 {0} 精煉金屬。"
+msgstr "透過飼養金屬哈奇，生產 {0}精煉金屬。"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.IDLE_DUPLICANTS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.IDLE_DUPLICANTS"
@@ -19959,7 +19959,7 @@ msgstr "不 0 K，但很冷"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SIXKELVIN_BUILDING_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SIXKELVIN_BUILDING_DESCRIPTION"
 msgid "Reduce the temperature of a building to 6 Kelvin."
-msgstr "降低一個建築物的溫度至 6 度（絕對溫度）。"
+msgstr "降低一個建築物的溫度至絕對溫度 6 度。"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SOFT_LAUNCH
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SOFT_LAUNCH"
@@ -19974,7 +19974,7 @@ msgstr "在沒有傳送器的世界上建造火箭發射台。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ANALYZE_SEED
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ANALYZE_SEED"
 msgid "Analyze {0} mutant"
-msgstr "分析 {0} 變異"
+msgstr "分析{0}變異"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ARM_PERFORMANCE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ARM_PERFORMANCE"
@@ -20179,7 +20179,7 @@ msgstr "{0} 士氣：{1}"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.NO_BUILDING
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.NO_BUILDING"
 msgid "Never built a {0}"
-msgstr "從未建造 {0}"
+msgstr "從未建造{0}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.NO_FARM_TILES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.NO_FARM_TILES"
@@ -20214,7 +20214,7 @@ msgstr "人口：{0}／{1}"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.PREPARED_SEPARATOR
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.PREPARED_SEPARATOR"
 msgid " or "
-msgstr " 或 "
+msgstr "或"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.RADBOLT_TRAVEL
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.RADBOLT_TRAVEL"
@@ -20254,7 +20254,7 @@ msgstr "複製人在太空中以至少 {0} 的士氣存活了 {1} 個週期。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.TAME_A_CRITTER
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.TAME_A_CRITTER"
 msgid "Tamed a {0}"
-msgstr "馴服一隻 {0}"
+msgstr "馴服一隻{0}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.TECH_RESEARCHED
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.TECH_RESEARCHED"
@@ -20274,7 +20274,7 @@ msgstr "距離：{0:n} 公尺 / {1:n} 公尺"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.UPGRADE_ALL_BUILDINGS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.UPGRADE_ALL_BUILDINGS"
 msgid "All {0} upgraded to {1}"
-msgstr "全部 {0} 升級為 {1}"
+msgstr "全部{0}升級為{1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.VENTED_MASS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.VENTED_MASS"
@@ -20589,7 +20589,7 @@ msgstr "這個小行星是我們的家。"
 #. STRINGS.CREATURES.ATTRIBUTES.FERTILITYDELTA.DESC
 msgctxt "STRINGS.CREATURES.ATTRIBUTES.FERTILITYDELTA.DESC"
 msgid "Determines the amount of time needed for a <style=\"KKeyword\">Critter</style> to lay new <style=\"KKeyword\">Eggs</style>."
-msgstr "決定 <style=\"KKeyword\">小動物</style> 產下新 <style=\"KKeyword\">蛋</style> 的所需時間。"
+msgstr "決定 <style=\"KKeyword\">小動物</style> 產下新<style=\"KKeyword\">蛋</style>的所需時間。"
 
 #. STRINGS.CREATURES.ATTRIBUTES.FERTILITYDELTA.NAME
 msgctxt "STRINGS.CREATURES.ATTRIBUTES.FERTILITYDELTA.NAME"
@@ -20679,12 +20679,12 @@ msgstr "野性"
 #. STRINGS.CREATURES.BAGGED_DESC_FMT
 msgctxt "STRINGS.CREATURES.BAGGED_DESC_FMT"
 msgid "This {0} has been captured and is now safe to relocate."
-msgstr "{0} 已被捕捉，可以安全地送達別處。"
+msgstr "{0}已被捕捉，可以安全地送達別處。"
 
 #. STRINGS.CREATURES.BAGGED_NAME_FMT
 msgctxt "STRINGS.CREATURES.BAGGED_NAME_FMT"
 msgid "Bagged {0}"
-msgstr "袋裝 {0}"
+msgstr "袋裝{0}"
 
 #. STRINGS.CREATURES.FAMILY.CRAB
 msgctxt "STRINGS.CREATURES.FAMILY.CRAB"
@@ -20864,7 +20864,7 @@ msgstr "飲食"
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.LIVING_IN_ELEMENT.DESC
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.LIVING_IN_ELEMENT.DESC"
 msgid "Dwells in {0}"
-msgstr "住在 {0}"
+msgstr "住在{0}"
 
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.LIVING_IN_ELEMENT.LIQUID
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.LIVING_IN_ELEMENT.LIQUID"
@@ -20929,7 +20929,7 @@ msgstr "吃飼料"
 #. STRINGS.CREATURES.MODIFIERS.ATE_FROM_FEEDER.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.ATE_FROM_FEEDER.TOOLTIP"
 msgid "This critter is getting more <style=\"KKeyword\">Tame</style> because it ate from a feeder."
-msgstr "這隻動物漸漸變得 <style=\"KKeyword\">溫馴</style>，因為它吃了餵食機的食物。"
+msgstr "這隻動物漸漸變得<style=\"KKeyword\">溫馴</style>，因為它吃了餵食機的食物。"
 
 #. STRINGS.CREATURES.MODIFIERS.BABY.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.BABY.NAME"
@@ -20949,7 +20949,7 @@ msgstr "基礎繁殖度"
 #. STRINGS.CREATURES.MODIFIERS.BASE_FERTILITY.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.BASE_FERTILITY.TOOLTIP"
 msgid "This is the base speed with which critters produce new <style=\"KKeyword\">Eggs</style>"
-msgstr "這隻動物產下一個新 <style=\"KKeyword\">蛋</style> 的基礎速度"
+msgstr "這隻動物產下一個新<style=\"KKeyword\">蛋</style>的基礎速度"
 
 #. STRINGS.CREATURES.MODIFIERS.BASE_INCUBATION_RATE.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.BASE_INCUBATION_RATE.NAME"
@@ -20974,7 +20974,7 @@ msgstr "甜素甲蟲照料"
 #. STRINGS.CREATURES.MODIFIERS.DIVERGENTPLANTTENDED.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.DIVERGENTPLANTTENDED.TOOLTIP"
 msgid "A <link=\"DIVERGENTBEETLE\">Sweetle</link> rubbed against this <style=\"KKeyword\">Plant</style> for a tiny growth boost"
-msgstr "一隻 <link=\"DIVERGENTBEETLE\">甜素甲蟲</link> 親近這株 <style=\"KKeyword\">植物</style> 給予小幅生長速度加成"
+msgstr "一隻<link=\"DIVERGENTBEETLE\">甜素甲蟲</link>親近這株<style=\"KKeyword\">植物</style>給予小幅生長速度加成"
 
 #. STRINGS.CREATURES.MODIFIERS.DIVERGENTPLANTTENDEDWORM.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.DIVERGENTPLANTTENDEDWORM.NAME"
@@ -20984,7 +20984,7 @@ msgstr "蟲果果蟲照料"
 #. STRINGS.CREATURES.MODIFIERS.DIVERGENTPLANTTENDEDWORM.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.DIVERGENTPLANTTENDEDWORM.TOOLTIP"
 msgid "A <link=\"DIVERGENTWORM\">Grubgrub</link> rubbed against this <style=\"KKeyword\">Plant</style>, dramatically boosting growth"
-msgstr "一隻 <link=\"DIVERGENTWORM\">蟲果果蟲</link> 親近這株 <style=\"KKeyword\">植物</style>，提供大幅生長速度加成"
+msgstr "一隻<link=\"DIVERGENTWORM\">蟲果果蟲</link>親近這株<style=\"KKeyword\">植物</style>，提供大幅生長速度加成"
 
 #. STRINGS.CREATURES.MODIFIERS.DOMESTICATION_DECREASING.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.DOMESTICATION_DECREASING.NAME"
@@ -21029,7 +21029,7 @@ msgstr "擁擠"
 #. STRINGS.CREATURES.MODIFIERS.FUTURE_OVERCROWDED.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.FUTURE_OVERCROWDED.TOOLTIP"
 msgid "This <style=\"KKeyword\">Room</style> will become overcrowded once all nearby <style=\"KKeyword\">Eggs</style> hatch\n\nThe selected critter has slowed its <style=\"KKeyword\">Reproduction</style> to prevent further overpopulation"
-msgstr "一旦全部的 <style=\"KKeyword\">蛋</style> 都孵化了，這個 <style=\"KKeyword\">房間</style> 會變得過度擁擠\n\n這隻動物已減緩 <style=\"KKeyword\">繁殖</style> 速度來避免人口過剩"
+msgstr "一旦全部的<style=\"KKeyword\">蛋</style>都孵化了，這個<style=\"KKeyword\">房間</style>會變得過度擁擠\n\n這隻動物已減緩<style=\"KKeyword\">繁殖</style>速度來避免繁殖過剩"
 
 #. STRINGS.CREATURES.MODIFIERS.HAPPY.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.HAPPY.NAME"
@@ -21049,7 +21049,7 @@ msgstr "擁抱狂歡"
 #. STRINGS.CREATURES.MODIFIERS.HUGGINGFRENZY.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.HUGGINGFRENZY.TOOLTIP"
 msgid "This critter was recently hugged by a Duplicant and is feeling extra affectionate\n\nWhile in this state, it hugs <style=\"KKeyword\">Eggs</style> more frequently"
-msgstr "這隻小動物最近被一個複製人擁抱，感覺格外親切\n\n在這種狀態下，牠會更頻繁地擁抱 <style=\"KKeyword\">蛋</style>"
+msgstr "這隻小動物最近被一個複製人擁抱，感覺格外親切\n\n在這種狀態下，牠會更頻繁地擁抱<style=\"KKeyword\">蛋</style>"
 
 #. STRINGS.CREATURES.MODIFIERS.INCUBATING.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATING.NAME"
@@ -21079,7 +21079,7 @@ msgstr "搖籃曲"
 #. STRINGS.CREATURES.MODIFIERS.INCUBATOR_SONG.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATOR_SONG.TOOLTIP"
 msgid "This egg was recently sung to by a kind Duplicant\n\nIncreased <style=\"KKeyword\">Incubation Rate</style>\n\nDuplicants must possess the <style=\"KKeyword\">Critter Ranching</style> Skill to sing to eggs"
-msgstr "這個蛋聽到了複製人的歌聲\n\n增加 <style=\"KKeyword\">孵化率</style>\n\n複製人必須有 <style=\"KKeyword\">畜牧</style> 技能才能唱歌給蛋聽"
+msgstr "這個蛋聽到了複製人的歌聲\n\n增加<style=\"KKeyword\">孵化率</style>\n\n複製人必須有<style=\"KKeyword\">畜牧</style>技能才能唱歌給蛋聽"
 
 #. STRINGS.CREATURES.MODIFIERS.OUT_OF_CALORIES.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.OUT_OF_CALORIES.NAME"
@@ -21104,7 +21104,7 @@ msgstr "過度擁擠"
 #. STRINGS.CREATURES.MODIFIERS.OVERCROWDED.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.OVERCROWDED.TOOLTIP"
 msgid "This critter isn't comfortable with so many other critters in a <style=\"KKeyword\">Room</style> of this size"
-msgstr "這隻小動物感到不舒服，有太多的小動物飼養在同一個 <style=\"KKeyword\">房間</style>"
+msgstr "這隻小動物感到不舒服，有太多的小動物飼養在同一個<style=\"KKeyword\">房間</style>"
 
 #. STRINGS.CREATURES.MODIFIERS.RANCHED.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.RANCHED.NAME"
@@ -21114,7 +21114,7 @@ msgstr "香噴噴"
 #. STRINGS.CREATURES.MODIFIERS.RANCHED.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.RANCHED.TOOLTIP"
 msgid "This critter has recently been attended to by a kind Duplicant\n\nDuplicants must possess the <style=\"KKeyword\">Critter Ranching</style> Skill to care for critters"
-msgstr "這隻小動物受到複製人的關注\n\n複製人必須有 <style=\"KKeyword\">畜牧</style> 技能才能照顧小動物"
+msgstr "這隻小動物受到複製人的關注\n\n複製人必須有<style=\"KKeyword\">畜牧</style>技能才能照顧小動物"
 
 #. STRINGS.CREATURES.MODIFIERS.SCALE_GROWTH_RATE.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.SCALE_GROWTH_RATE.NAME"
@@ -21129,7 +21129,7 @@ msgstr "溫馴"
 #. STRINGS.CREATURES.MODIFIERS.TAME.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.TAME.TOOLTIP"
 msgid "This critter is <style=\"KKeyword\">Tame</style>"
-msgstr "這隻小動物被 <style=\"KKeyword\">馴服</style>"
+msgstr "這隻小動物被<style=\"KKeyword\">馴服</style>"
 
 #. STRINGS.CREATURES.MODIFIERS.UNHAPPY.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.UNHAPPY.NAME"
@@ -21274,12 +21274,12 @@ msgstr "未知的亞種"
 #. STRINGS.CREATURES.PLANT_MUTATIONS.UNIDENTIFIED_DESC
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.UNIDENTIFIED_DESC"
 msgid "This seed must be identified at the <link=\"GENETICANALYSISSTATION\">Botanical Analyzer</link> before it can be planted."
-msgstr "這顆種子必須用 <link=\"GENETICANALYSISSTATION\">植物分析儀</link> 辨識後才能種植。"
+msgstr "這顆種子必須用<link=\"GENETICANALYSISSTATION\">植物分析儀</link>辨識後才能種植。"
 
 #. STRINGS.CREATURES.SPECIES.BASICFABRICMATERIALPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.BASICFABRICMATERIALPLANT.DESC"
 msgid "Thimble Reeds produce indescribably soft Reed Fiber for <link=\"EQUIPMENT\">Clothing</link> production."
-msgstr "蘆葦生產一種超級柔軟的蘆葦纖維，可做成 <link=\"EQUIPMENT\">服裝</link>。"
+msgstr "蘆葦生產一種超級柔軟的蘆葦纖維，可做成<link=\"EQUIPMENT\">服裝</link>。"
 
 #. STRINGS.CREATURES.SPECIES.BASICFABRICMATERIALPLANT.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.BASICFABRICMATERIALPLANT.DOMESTICATEDDESC"
@@ -21304,12 +21304,12 @@ msgstr "<link=\"BASICFORAGEPLANTPLANTED\">埋住的塊根</link>"
 #. STRINGS.CREATURES.SPECIES.BASICSINGLEHARVESTPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.BASICSINGLEHARVESTPLANT.DESC"
 msgid "Mealwoods produce <link=\"BASICPLANTFOOD\">Meal Lice</link>, an oddly wriggly grain that can be harvested for <link=\"FOOD\">Food</link>."
-msgstr "虱子樹生產 <link=\"BASICPLANTFOOD\">食用虱子</link>，一種奇怪會蠕動的縠粒，可被當作<link=\"FOOD\">食物</link>。"
+msgstr "虱子樹生產<link=\"BASICPLANTFOOD\">虱子</link>，一種奇怪會蠕動的縠粒，可被當作<link=\"FOOD\">食物</link>。"
 
 #. STRINGS.CREATURES.SPECIES.BASICSINGLEHARVESTPLANT.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.BASICSINGLEHARVESTPLANT.DOMESTICATEDDESC"
 msgid "This plant produces edible <link=\"BASICPLANTFOOD\">Meal Lice</link>."
-msgstr "這株植物生產可食用的 <link=\"BASICPLANTFOOD\">虱子</link>。"
+msgstr "這株植物生產可食用的<link=\"BASICPLANTFOOD\">虱子</link>。"
 
 #. STRINGS.CREATURES.SPECIES.BASICSINGLEHARVESTPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.BASICSINGLEHARVESTPLANT.NAME"
@@ -21319,7 +21319,7 @@ msgstr "<link=\"BASICSINGLEHARVESTPLANT\">虱子樹</link>"
 #. STRINGS.CREATURES.SPECIES.BEAN_PLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.BEAN_PLANT.DESC"
 msgid "Nosh Sprouts thrive in colder climates and produce edible <link=\"BEAN\">Nosh Beans</link>."
-msgstr "大豆樹生長在氣候較寒冷的地區，並生產可食用的 <link=\"BEAN\">大豆</link>。"
+msgstr "大豆樹生長在氣候較寒冷的地區，並生產可食用的<link=\"BEAN\">大豆</link>。"
 
 #. STRINGS.CREATURES.SPECIES.BEAN_PLANT.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.BEAN_PLANT.DOMESTICATEDDESC"
@@ -21334,7 +21334,7 @@ msgstr "<link=\"BEANPLANT\">大豆樹</link>"
 #. STRINGS.CREATURES.SPECIES.BEE.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.BEE.BABY.DESC"
 msgid "A harmless little Beetiny.\n\nIn time, it will mature into a vicious adult <link=\"BEE\">Beeta</link>."
-msgstr "一個蠕動的小輻射蜂寶寶。\n\n隨的時間，它會成長為一隻成年的 <link=\"BEE\">輻射蜂</link>。"
+msgstr "一個蠕動的小輻射蜂寶寶。\n\n隨的時間，它會成長為一隻成年的<link=\"BEE\">輻射蜂</link>。"
 
 #. STRINGS.CREATURES.SPECIES.BEE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.BEE.BABY.NAME"
@@ -21344,7 +21344,7 @@ msgstr "<link=\"BEE\">輻射蜂寶寶</link>"
 #. STRINGS.CREATURES.SPECIES.BEE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.BEE.DESC"
 msgid "Beetas are hostile critters that thrive in <link=\"RADIATION\">Radioactive</link> environments.\n\nThey commonly gather <link=\"URANIUMORE\">Uranium</link> for their <link=\"BEEHIVE\">Beeta Hives</link> to produce <link=\"ENRICHEDURANIUM\">Enriched Uranium</link>."
-msgstr "輻射蜂是有敵意的動物，它們生存在<link=\"RADIATION\">輻射</link>環境中。\n\n它們會採集 <link=\"URANIUM\">鈾礦 </link> 供給它們的 <link=\"BEEHIVE\">輻射蜂巢</link> 生產<link=\"ENRICHEDURANIUM\">濃縮鈾</link>."
+msgstr "輻射蜂是有敵意的動物，它們生存在<link=\"RADIATION\">輻射</link>環境中。\n\n它們會採集<link=\"URANIUM\">鈾礦</link>供給它們的<link=\"BEEHIVE\">輻射蜂巢</link>生產<link=\"ENRICHEDURANIUM\">濃縮鈾</link>."
 
 #. STRINGS.CREATURES.SPECIES.BEE.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.BEE.NAME"
@@ -21379,7 +21379,7 @@ msgstr "枯萎"
 #. STRINGS.CREATURES.SPECIES.CACTUSPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.CACTUSPLANT.DESC"
 msgid "Joyas are <link=\"DECOR\">Decorative</link> <link=\"PLANTS\">Plants</link> that are colloquially said to make gardeners \"jump for joy\"."
-msgstr "仙人掌是 <link=\"DECOR\">裝飾性</link><link=\"PLANTS\">植物</link>，通俗地說是為了讓園丁「歡呼雀躍」。"
+msgstr "仙人掌是<link=\"DECOR\">裝飾性</link><link=\"PLANTS\">植物</link>，通俗地說是為了讓園丁「歡呼雀躍」。"
 
 #. STRINGS.CREATURES.SPECIES.CACTUSPLANT.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.CACTUSPLANT.DOMESTICATEDDESC"
@@ -21404,7 +21404,7 @@ msgstr "枯萎"
 #. STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.DESC"
 msgid "A highly pressurized geyser that periodically erupts with <link=\"CHLORINEGAS\">Chlorine</link>."
-msgstr "定期噴發 <link=\"CHLORINEGAS\">氯氣</link> 的高壓間歇泉。"
+msgstr "定期噴發<link=\"CHLORINEGAS\">氯氣</link>的高壓間歇泉。"
 
 #. STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.CHLORINEGEYSER.NAME"
@@ -21414,7 +21414,7 @@ msgstr "<link=\"GEYSERGENERICCHLORINEGAS\">氯氣噴泉</link>"
 #. STRINGS.CREATURES.SPECIES.COLDBREATHER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.COLDBREATHER.DESC"
 msgid "Wheezeworts can be planted in <link=\"PLANTERBOX\">Planter Boxes</link>, <link=\"FARMTILE\">Farm Tiles</link> or <link=\"HYDROPONICFARM\">Hydroponic Farms</link>, and absorb <link=\"HEAT\">Heat</link> by respiring through their porous outer membranes."
-msgstr "冰樹可種在 <link=\"PLANTERBOX\">種植箱</link>、<link=\"FARMTILE\">農耕磚</link> 或 <link=\"HYDROPONICFARM\">水耕磚</link>，並透過它們的毛孔吸收<link=\"HEAT\">熱</link>。"
+msgstr "冰樹可種在<link=\"PLANTERBOX\">種植箱</link>、<link=\"FARMTILE\">農耕磚</link>或<link=\"HYDROPONICFARM\">水耕磚</link>，並透過它們的毛孔吸收<link=\"HEAT\">熱</link>。"
 
 #. STRINGS.CREATURES.SPECIES.COLDBREATHER.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.COLDBREATHER.DOMESTICATEDDESC"
@@ -21444,12 +21444,12 @@ msgstr "<link=\"COLDBREATHERCLUSTER\">冰樹</link>"
 #. STRINGS.CREATURES.SPECIES.COLDWHEAT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.COLDWHEAT.DESC"
 msgid "Sleet Wheat produces <link=\"COLDWHEATSEED\">Sleet Wheat Grain</link>, a chilly grain that can be processed into <link=\"FOOD\">Food</link>."
-msgstr "雪地小麥生產 <link=\"COLDWHEATSEED\">雪地小麥穀粒</link>，冰冷的穀粒可被製作成<link=\"FOOD\">食物</link>。"
+msgstr "雪地小麥生產<link=\"COLDWHEATSEED\">雪地小麥穀粒</link>，冰冷的穀粒可被製作成<link=\"FOOD\">食物</link>。"
 
 #. STRINGS.CREATURES.SPECIES.COLDWHEAT.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.COLDWHEAT.DOMESTICATEDDESC"
 msgid "This plant produces edible <link=\"COLDWHEATSEED\">Sleet Wheat Grain</link>."
-msgstr "這株植物生產可食用的 <link=\"COLDWHEATSEED\">雪地小麥穀粒</link>。"
+msgstr "這株植物生產可食用的<link=\"COLDWHEATSEED\">雪地小麥穀粒</link>。"
 
 #. STRINGS.CREATURES.SPECIES.COLDWHEAT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.COLDWHEAT.NAME"
@@ -21459,7 +21459,7 @@ msgstr "<link=\"COLDWHEAT\">雪地小麥</link>"
 #. STRINGS.CREATURES.SPECIES.CRAB.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.CRAB.BABY.DESC"
 msgid "A snippy little Pokeshell Spawn.\n\nIn time it will mature into a fully grown <link=\"CRAB\">Pokeshell</link>."
-msgstr "一隻狡猾的小拋殼蟹寶寶。\n\n隨著時間，它會長大成為一隻成年的 <link=\"CRAB\">拋殼蟹</link>。"
+msgstr "一隻狡猾的小拋殼蟹寶寶。\n\n隨著時間，它會長大成為一隻成年的<link=\"CRAB\">拋殼蟹</link>。"
 
 #. STRINGS.CREATURES.SPECIES.CRAB.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.CRAB.BABY.NAME"
@@ -21469,7 +21469,7 @@ msgstr "<link=\"CRAB\">拋殼蟹寶寶</link>"
 #. STRINGS.CREATURES.SPECIES.CRAB.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.CRAB.DESC"
 msgid "Pokeshells are nonhostile critters that eat <link=\"TOXICSAND\">Polluted Dirt</link> and <link=\"COMPOST\">Rot Piles</link>.\n\nThe shells they leave behind after molting can be crushed into <link=\"LIME\">Lime</link>."
-msgstr "拋殼蟹是友善的動物，會吃<link=\"TOXICSAND\">汙土</link>與 <link=\"COMPOST\">腐壞物</link>。\n\n它們蛻下的殼的可以磨碎製成 <link=\"LIME\">石灰</link>。"
+msgstr "拋殼蟹是友善的動物，會吃<link=\"TOXICSAND\">汙土</link>與<link=\"COMPOST\">腐壞物</link>。\n\n它們蛻下的殼的可以磨碎製成<link=\"LIME\">石灰</link>。"
 
 #. STRINGS.CREATURES.SPECIES.CRAB.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.CRAB.EGG_NAME"
@@ -21484,7 +21484,7 @@ msgstr "<link=\"CRAB\">拋殼蟹</link>"
 #. STRINGS.CREATURES.SPECIES.CRAB.VARIANT_FRESH_WATER.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.CRAB.VARIANT_FRESH_WATER.BABY.DESC"
 msgid "A picky little Sanishell Spawn.\n\nIn time it will mature into a fully grown <link=\"CRABFRESHWATER\">Sanishell</link>."
-msgstr "一隻挑剔的小水生蟹寶寶。\n\n隨著時間，它會長大成為一隻成年的 <link=\"CRAB\">水生蟹</link>。"
+msgstr "一隻挑剔的小水生蟹寶寶。\n\n隨著時間，它會長大成為一隻成年的<link=\"CRAB\">水生蟹</link>。"
 
 #. STRINGS.CREATURES.SPECIES.CRAB.VARIANT_FRESH_WATER.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.CRAB.VARIANT_FRESH_WATER.BABY.NAME"
@@ -21509,7 +21509,7 @@ msgstr "<link=\"CRABFRESHWATER\">水生蟹</link>"
 #. STRINGS.CREATURES.SPECIES.CRAB.VARIANT_WOOD.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.CRAB.VARIANT_WOOD.BABY.DESC"
 msgid "A knotty little Oakshell Spawn.\n\nIn time it will mature into a fully grown <link=\"CRABWOOD\">Oakshell</link>."
-msgstr "一隻多節的小橡木蟹寶寶。\n\n隨著時間，它會長大成為一隻成年的 <link=\"CRAB\">橡木蟹</link>。"
+msgstr "一隻多節的小橡木蟹寶寶。\n\n隨著時間，它會長大成為一隻成年的<link=\"CRAB\">橡木蟹</link>。"
 
 #. STRINGS.CREATURES.SPECIES.CRAB.VARIANT_WOOD.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.CRAB.VARIANT_WOOD.BABY.NAME"
@@ -21574,7 +21574,7 @@ msgstr "枯萎"
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.BABY.DESC"
 msgid "A crawly little Sweetle Larva.\n\nIn time, it will mature into an adult <link=\"DIVERGENTBEETLE\">Sweetle</link>."
-msgstr "一隻爬行的甜素甲蟲寶寶。\n\n隨的時間，它會成長為一隻成年的 <link=\"DIVERGENTBEETLE\">甜素甲蟲</link>。"
+msgstr "一隻爬行的甜素甲蟲寶寶。\n\n隨的時間，它會成長為一隻成年的<link=\"DIVERGENTBEETLE\">甜素甲蟲</link>。"
 
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.BABY.NAME"
@@ -21584,7 +21584,7 @@ msgstr "<link=\"DIVERGENTBEETLE\">甜素甲蟲寶寶</link>"
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.DESC"
 msgid "Sweetles are nonhostile critters that excrete large amounts of solid <link=\"SUCROSE\">Sucrose</link>.\n\nThey are closely related to the <link=\"DIVERGENTWORM\">Grubgrub</link> and exhibit similar, albeit less effective farming behaviors."
-msgstr "甜素甲蟲是友善的動物，會排放大量的 <link=\"SUCROSE\">蔗糖</link>。\n\n它們與 <link=\"DIVERGENTWORM\">蟲果果蟲</link> 是共生關係且表現相似，雖然養殖行為不太有效。"
+msgstr "甜素甲蟲是友善的動物，會排放大量的<link=\"SUCROSE\">蔗糖</link>。\n\n它們與<link=\"DIVERGENTWORM\">蟲果果蟲</link>是共生關係且表現相似，雖然養殖行為不太有效。"
 
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_BEETLE.EGG_NAME"
@@ -21599,7 +21599,7 @@ msgstr "<link=\"DIVERGENTBEETLE\">甜素甲蟲</link>"
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.BABY.DESC"
 msgid "A squirmy little Grubgrub Wormling.\n\nIn time, it will mature into an adult <link=\"WORM\">Grubgrub</link> and drastically grow in size."
-msgstr "一隻蠕動的小蟲果果蟲寶寶。\n\n隨著時間，它會成長為一隻成年的 <link=\"WORM\">蟲果果蟲</link> 且體型會急速成長。"
+msgstr "一隻蠕動的小蟲果果蟲寶寶。\n\n隨著時間，它會成長為一隻成年的<link=\"WORM\">蟲果果蟲</link>且體型會急速成長。"
 
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.BABY.NAME"
@@ -21609,7 +21609,7 @@ msgstr "<link=\"DIVERGENTWORM\">蟲果果蟲寶寶</link>"
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.DESC"
 msgid "Grubgrubs form symbiotic relationships with plants, especially <link=\"WORMPLANT\">Grubfruit Plants</link>, and instinctually tend to them.\n\nGrubgrubs are closely related to <link=\"DIVERGENTBEETLE\">Sweetles</link>."
-msgstr "蟲果果蟲與植物形成共生關係，特別是 <link=\"WORMPLANT\">燈籠草</link>，並本能的親近他們。\n\n蟲果果蟲與 <link=\"DIVERGENTBEETLE\">甜素甲蟲</link> 是共生關係。"
+msgstr "蟲果果蟲與植物形成共生關係，特別是<link=\"WORMPLANT\">燈籠草</link>，並本能的親近他們。\n\n蟲果果蟲與<link=\"DIVERGENTBEETLE\">甜素甲蟲</link>是共生關係。"
 
 #. STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DIVERGENT.VARIANT_WORM.EGG_NAME"
@@ -21634,7 +21634,7 @@ msgstr "<link=\"DRECKO\">龍鱗蜥寶寶</link>"
 #. STRINGS.CREATURES.SPECIES.DRECKO.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.DESC"
 msgid "Dreckos are nonhostile critters that graze on <link=\"SPICEVINE\">Pincha Pepperplants</link>, <link=\"SWAMPLILY\">Balm Lily</link> or <link=\"BASICSINGLEHARVESTPLANT\">Mealwood Plants</link>.\n\nTheir backsides are covered in thick woolly fibers that only grow in <link=\"HYDROGEN\">Hydrogen</link> climates."
-msgstr "龍鱗蜥是溫和的動物，只吃 <link=\"SPICEVINE\">胡椒藤</link>、<link=\"SWAMPLILY\">香水百合</link> 或 <link=\"BASICSINGLEHARVESTPLANT\">虱子樹</link> 來維持生命。\n\n它們的背面覆蓋著厚厚的毛髮纖維，只會在充滿 <link="\"HYDROGEN\">氫氣</link> 環境下生長。"
+msgstr "龍鱗蜥是溫和的動物，只吃<link=\"SPICEVINE\">胡椒藤</link>、<link=\"SWAMPLILY\">香水百合</link>或<link=\"BASICSINGLEHARVESTPLANT\">虱子樹</link>來維持生命。\n\n它們的背面覆蓋著厚厚的毛髮纖維，只會在充滿<link="\"HYDROGEN\">氫氣</link>環境下生長。"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.EGG_NAME"
@@ -21649,7 +21649,7 @@ msgstr "<link=\"DRECKO\">龍鱗蜥</link>"
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.DESC"
 msgid "A bug-eyed little Glossy Drecklet.\n\nIn time it will mature into an adult Drecko morph, the <link=\"DRECKOPLASTIC\">Glossy Drecko</link>."
-msgstr "一隻眼睛凸出的小塑膠龍鱗蜥寶寶。\n\n隨著時間經過，它成年後將會成為 <link=\"DRECKO\">塑膠龍鱗蜥</link>。"
+msgstr "一隻眼睛凸出的小塑膠龍鱗蜥寶寶。\n\n隨著時間經過，它成年後將會成為<link=\"DRECKO\">塑膠龍鱗蜥</link>。"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.NAME"
@@ -21659,7 +21659,7 @@ msgstr "<link=\"DRECKOPLASTIC\">塑膠龍鱗蜥寶寶</link>"
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.DESC"
 msgid "Glossy Dreckos are nonhostile critters that graze on live <link=\"BASICSINGLEHARVESTPLANT\">Mealwood Plants</link> and <link=\"PRICKLEFLOWER\">Bristle Blossoms</link>.\n\nTheir backsides are covered in bioplastic scales that only grow in <link=\"HYDROGEN\">Hydrogen</link> climates."
-msgstr "塑膠龍鱗蜥是溫和的動物，吃 <link=\"BASICSINGLEHARVESTPLANT\">虱子樹</link> 及 <link=\"PRICKLEFLOWER\">鬃花</link> 來維持生命。\n\n它們的背面覆蓋著厚厚的生物塑膠鱗片，只能在充滿<link=\"HYDROGEN\">氫氣</link>的環境下生長。"
+msgstr "塑膠龍鱗蜥是溫和的動物，吃<link=\"BASICSINGLEHARVESTPLANT\">虱子樹</link>及<link=\"PRICKLEFLOWER\">鬃花</link>來維持生命。\n\n它們的背面覆蓋著厚厚的生物塑膠鱗片，只能在充滿<link=\"HYDROGEN\">氫氣</link>的環境下生長。"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.EGG_NAME"
@@ -21679,7 +21679,7 @@ msgstr "惡魔花有著迷人的外表，將其腦狀的菌株體隱藏起來。
 #. STRINGS.CREATURES.SPECIES.EVILFLOWER.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.EVILFLOWER.DOMESTICATEDDESC"
 msgid "This plant improves ambient <link=\"DECOR\">Decor</link> but produces high quantities of <link=\"ZOMBIESPORES\">Zombie Spores</link>."
-msgstr "這株植物可增加<link=\"DECOR\">裝飾</link>，但會產生大量的 <link=\"ZOMBIESPORES\">殭屍孢子</link>。"
+msgstr "這株植物可增加<link=\"DECOR\">裝飾</link>，但會產生大量的<link=\"ZOMBIESPORES\">殭屍孢子</link>。"
 
 #. STRINGS.CREATURES.SPECIES.EVILFLOWER.GROWTH_BONUS
 msgctxt "STRINGS.CREATURES.SPECIES.EVILFLOWER.GROWTH_BONUS"
@@ -21729,7 +21729,7 @@ msgstr "瓦斯草。"
 #. STRINGS.CREATURES.SPECIES.GASGRASS.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.GASGRASS.DOMESTICATEDDESC"
 msgid "An alien grass variety that is eaten by <link=\"MOO\">Gassy Moos</link>."
-msgstr "一種外星品種的草，是 <link=\"MOO\">瓦斯牛</link> 的食物。"
+msgstr "一種外星品種的草，是<link=\"MOO\">瓦斯牛</link>的食物。"
 
 #. STRINGS.CREATURES.SPECIES.GASGRASS.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GASGRASS.NAME"
@@ -21749,7 +21749,7 @@ msgstr "<link=\"GEYSERGENERICBIGVOLCANO\">火山口</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.CHLORINE_GAS.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.CHLORINE_GAS.DESC"
 msgid "A highly pressurized vent that periodically erupts with warm <link=\"CHLORINEGAS\">Chlorine</link>."
-msgstr "定期噴發溫暖 <link=\"CHLORINEGAS\">氯氣</link> 的高壓噴口。"
+msgstr "定期噴發溫暖<link=\"CHLORINEGAS\">氯氣</link>的高壓噴口。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.CHLORINE_GAS.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.CHLORINE_GAS.NAME"
@@ -21794,7 +21794,7 @@ msgstr "<link=\"GEYSERGENERICHOTHYDROGEN\">氫氣噴口</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_PO2.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_PO2.DESC"
 msgid "A highly pressurized vent that periodically erupts with hot <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link>."
-msgstr "定期噴發 <link=\"CONTAMINATEDOXYGEN\">汙氧</link> 的高壓噴口。"
+msgstr "定期噴發<link=\"CONTAMINATEDOXYGEN\">汙氧</link>的高壓噴口。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_PO2.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_PO2.NAME"
@@ -21824,7 +21824,7 @@ msgstr "<link=\"GEYSERGENERICHOTWATER\">溫泉</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_CO2.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_CO2.DESC"
 msgid "A highly pressurized geyser that periodically erupts with boiling liquid <link=\"LIQUIDCARBONDIOXIDE\">Carbon Dioxide</link>."
-msgstr "定期噴發低溫液態 <link=\"LIQUIDCARBONDIOXIDE\">二氧化碳</link> 的高壓間歇泉。"
+msgstr "定期噴發低溫液態<link=\"LIQUIDCARBONDIOXIDE\">二氧化碳</link>的高壓間歇泉。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_CO2.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_CO2.NAME"
@@ -21834,7 +21834,7 @@ msgstr "<link=\"GEYSERGENERICLIQUIDCO2\">二氧化碳噴泉</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.DESC"
 msgid "A highly pressurized geyser that periodically erupts with boiling <link=\"LIQUIDSULFUR\">Sulfur</link>."
-msgstr "定期噴發熱 <link=\"LIQUIDSULFUR\">硫磺</link> 的高壓間歇泉。"
+msgstr "定期噴發熱<link=\"LIQUIDSULFUR\">硫磺</link>的高壓間歇泉。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.LIQUID_SULFUR.NAME"
@@ -21854,7 +21854,7 @@ msgstr "<link=\"GEYSERGENERICMETHANE\">天然氣噴泉</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_ALUMINUM.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_ALUMINUM.DESC"
 msgid "A large volcano that periodically erupts with molten <link=\"MOLTENALUMINUM\">Aluminum</link>."
-msgstr "定期噴發熔融 <link=\"MOLTENALUMINUM\">鋁</link> 的大火山。"
+msgstr "定期噴發熔融<link=\"MOLTENALUMINUM\">鋁</link>的大火山。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_ALUMINUM.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_ALUMINUM.NAME"
@@ -21864,7 +21864,7 @@ msgstr "<link=\"GEYSERGENERICMOLTENALUMINUM\">鋁火山</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COBALT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COBALT.DESC"
 msgid "A large volcano that periodically erupts with molten <link=\"MOLTENCOBALT\">Cobalt</link>."
-msgstr "定期噴發熔融 <link=\"MOLTENCOBALT\">鈷</link> 的大火山。"
+msgstr "定期噴發熔融<link=\"MOLTENCOBALT\">鈷</link>的大火山。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COBALT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COBALT.NAME"
@@ -21874,7 +21874,7 @@ msgstr "<link=\"GEYSERGENERICMOLTENCOBALT\">鈷火山</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.DESC"
 msgid "A large volcano that periodically erupts with molten <link=\"MOLTENCOPPER\">Copper</link>."
-msgstr "定期噴發熔融 <link=\"MOLTENCOPPER\">銅</link> 的大火山。"
+msgstr "定期噴發熔融<link=\"MOLTENCOPPER\">銅</link>的大火山。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.NAME"
@@ -21884,7 +21884,7 @@ msgstr "<link=\"GEYSERGENERICMOLTENCOPPER\">銅火山</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_GOLD.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_GOLD.DESC"
 msgid "A large volcano that periodically erupts with molten <link=\"MOLTENGOLD\">Gold</link>."
-msgstr "定期噴發熔融 <link=\"MOLTENGOLD\">金</link> 的大火山。"
+msgstr "定期噴發熔融<link=\"MOLTENGOLD\">金</link>的大火山。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_GOLD.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_GOLD.NAME"
@@ -21894,7 +21894,7 @@ msgstr "<link=\"GEYSERGENERICMOLTENGOLD\">金火山</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.DESC"
 msgid "A large volcano that periodically erupts with molten <link=\"MOLTENIRON\">Iron</link>."
-msgstr "定期噴發熔融 <link=\"MOLTENIRON\">鐵</link> 的大火山。"
+msgstr "定期噴發熔融<link=\"MOLTENIRON\">鐵</link>的大火山。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_IRON.NAME"
@@ -21904,7 +21904,7 @@ msgstr "<link=\"GEYSERGENERICMOLTENIRON\">鐵火山</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_NIOBIUM.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_NIOBIUM.DESC"
 msgid "A large volcano that periodically erupts with molten <link=\"NIOBIUM\">Niobium</link>."
-msgstr "定期噴發熔融 <link=\"NIOBIUM\">鈮</link> 的大火山。"
+msgstr "定期噴發熔融<link=\"NIOBIUM\">鈮</link>的大火山。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_NIOBIUM.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_NIOBIUM.NAME"
@@ -21914,7 +21914,7 @@ msgstr "<link=\"NIOBIUMGEYSER\">鈮火山</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_TUNGSTEN.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_TUNGSTEN.DESC"
 msgid "A large volcano that periodically erupts with molten <link=\"MOLTENTUNGSTEN\">Tungsten</link>."
-msgstr "定期噴發熔融 <link=\"MOLTENTUNGSTEN\">鎢</link> 的大火山。"
+msgstr "定期噴發熔融<link=\"MOLTENTUNGSTEN\">鎢</link>的大火山。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_TUNGSTEN.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_TUNGSTEN.NAME"
@@ -21929,7 +21929,7 @@ msgstr "<link=\"GEYSER\">蒸氣噴泉</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.DESC"
 msgid "A fissure that periodically erupts with boiling <link=\"CRUDEOIL\">Crude Oil</link>."
-msgstr "小行星中的裂隙隨著沸騰而周期性地噴發 <link=\"CRUDEOIL\">石油</link>。"
+msgstr "小行星中的裂隙隨著沸騰而周期性地噴發<link=\"CRUDEOIL\">石油</link>。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.NAME"
@@ -21939,7 +21939,7 @@ msgstr "<link=\"GEYSERGENERICOILDRIP\">石油裂縫</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.SALT_WATER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SALT_WATER.DESC"
 msgid "A highly pressurized geyser that periodically erupts with <link=\"SALTWATER\">Salt Water</link>."
-msgstr "定期噴發 <link=\"SALTWATER\">海水</link> 的高壓間歇泉。"
+msgstr "定期噴發<link=\"SALTWATER\">海水</link>的高壓間歇泉。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SALT_WATER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SALT_WATER.NAME"
@@ -21949,7 +21949,7 @@ msgstr "<link=\"GEYSERGENERICSALTWATER\">海水噴泉</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLIMY_PO2.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLIMY_PO2.DESC"
 msgid "A highly pressurized vent that periodically erupts with warm <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link>."
-msgstr "定期噴發溫暖的 <link=\"CONTAMINATEDOXYGEN\">汙氧</link> 的高壓噴口。"
+msgstr "定期噴發溫暖的<link=\"CONTAMINATEDOXYGEN\">汙氧</link>的高壓噴口。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLIMY_PO2.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLIMY_PO2.NAME"
@@ -21959,7 +21959,7 @@ msgstr "<link=\"GEYSERGENERICSLIMYPO2\">有傳染病的汙氧噴口</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_SALT_WATER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_SALT_WATER.DESC"
 msgid "A highly pressurized geyser that periodically erupts with freezing <link=\"BRINE\">Brine</link>."
-msgstr "定期噴發低溫 <link=\"BRINE\">鹽水</link> 的高壓間歇泉。"
+msgstr "定期噴發低溫<link=\"BRINE\">鹽水</link>的高壓間歇泉。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_SALT_WATER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_SALT_WATER.NAME"
@@ -21979,7 +21979,7 @@ msgstr "<link=\"GEYSERGENERICSLUSHWATER\">低溫汙水噴泉</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.SMALL_VOLCANO.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SMALL_VOLCANO.DESC"
 msgid "A miniature volcano that periodically erupts with molten <link=\"MAGMA\">Magma</link>."
-msgstr "定期噴發熔融 <link=\"MAGMA\">岩漿</link> 的微型火山。"
+msgstr "定期噴發熔融<link=\"MAGMA\">岩漿</link>的微型火山。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SMALL_VOLCANO.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SMALL_VOLCANO.NAME"
@@ -21999,7 +21999,7 @@ msgstr "<link=\"GEYSERGENERICSTEAM\">低溫蒸氣噴口</link>"
 #. STRINGS.CREATURES.SPECIES.GLOM.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GLOM.DESC"
 msgid "Morbs are attracted to unhygienic conditions and frequently excrete bursts of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link>."
-msgstr "莫布被生物分解的屍體所吸引，並經常釋放少量 <link=\"CONTAMINATEDOXYGEN\">汙氧</link>。"
+msgstr "莫布被生物分解的屍體所吸引，並經常釋放少量<link=\"CONTAMINATEDOXYGEN\">汙氧</link>。"
 
 #. STRINGS.CREATURES.SPECIES.GLOM.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GLOM.EGG_NAME"
@@ -22024,7 +22024,7 @@ msgstr "<link=\"GREEDYGREEN\">阿瓦里藤</link>"
 #. STRINGS.CREATURES.SPECIES.HATCH.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.BABY.DESC"
 msgid "An innocent little Hatchling.\n\nIn time, it will mature into an adult <link=\"HATCH\">Hatch</link>."
-msgstr "一隻無辜的小哈奇寶寶。\n\n隨著時間經過，它會成長為一隻成年的 <link=\"HATCH\">哈奇</link>。"
+msgstr "一隻無辜的小哈奇寶寶。\n\n隨著時間經過，它會成長為一隻成年的<link=\"HATCH\">哈奇</link>。"
 
 #. STRINGS.CREATURES.SPECIES.HATCH.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.BABY.NAME"
@@ -22049,7 +22049,7 @@ msgstr "<link=\"HATCH\">哈奇</link>"
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_HARD.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_HARD.BABY.DESC"
 msgid "A doofy little Stone Hatchling.\n\nIt matures into an adult Hatch morph, the <link=\"HATCHHARD\">Stone Hatch</link>, which loves nibbling on various rocks and metals."
-msgstr "一隻呆呆的石頭哈奇寶寶。\n\n它會成長為一隻成年的哈奇變種，<link=\"HATCHHARD\">石頭哈奇</link>，它們喜歡吃各種石頭與金屬。"
+msgstr "一隻呆呆的石頭哈奇寶寶。\n\n它會成長為一隻成年的哈奇變種：<link=\"HATCHHARD\">石頭哈奇</link>，喜歡吃各種石頭與金屬。"
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_HARD.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_HARD.BABY.NAME"
@@ -22074,7 +22074,7 @@ msgstr "<link=\"HATCHHARD\">石頭哈奇</link>"
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.BABY.DESC"
 msgid "A doofy little Smooth Hatchling.\n\nIt matures into an adult Hatch morph, the <link=\"HATCHMETAL\">Smooth Hatch</link>, which loves nibbling on different types of metals."
-msgstr "一隻無辜的金屬哈奇寶寶。\n\n這是一隻金屬變種，<link=\"HATCHMETAL\">金屬哈奇</link> 喜歡吃不同的金屬。"
+msgstr "一隻無辜的金屬哈奇寶寶。\n\n這是一隻金屬變種，<link=\"HATCHMETAL\">金屬哈奇</link>喜歡吃不同的金屬。"
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.BABY.NAME"
@@ -22099,7 +22099,7 @@ msgstr "<link=\"HATCHMETAL\">金屬哈奇</link>"
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.BABY.DESC"
 msgid "A doofy little Sage Hatchling.\n\nIt matures into an adult Hatch morph, the <link=\"HATCHVEGGIE\">Sage Hatch</link>, which loves nibbling on organic materials."
-msgstr "一隻呆呆的小草食哈奇寶寶。\n\n它會成長為一隻成年的哈奇變種，<link=\"HATCHVEGGIE\">草食哈奇</link>，並喜歡吃有機材料。"
+msgstr "一隻呆呆的小草食哈奇寶寶。\n\n它會成長為一隻成年的哈奇變種：<link=\"HATCHVEGGIE\">草食哈奇</link>，喜歡吃有機材料。"
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.BABY.NAME"
@@ -22109,7 +22109,7 @@ msgstr "<link=\"HATCHVEGGIE\">草食哈奇寶寶</link>"
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.DESC"
 msgid "Sage Hatches excrete solid <link=\"CARBON\">Coal</link> as waste and enjoy burrowing into the ground."
-msgstr "草食哈奇會排放 <link=\"CARBON\">炭</link> 作為廢棄物，並喜歡鑽進地底。"
+msgstr "草食哈奇會排放<link=\"CARBON\">煤炭</link>作為廢棄物，並喜歡鑽進地底。"
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.EGG_NAME"
@@ -22459,7 +22459,7 @@ msgstr "黃昏蘑菇生產<link=\"MUSHROOM\">蘑菇</link>，採收的菌絲體�
 #. STRINGS.CREATURES.SPECIES.MUSHROOMPLANT.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.MUSHROOMPLANT.DOMESTICATEDDESC"
 msgid "This plant produces edible <link=\"MUSHROOM\">Mushrooms</link>."
-msgstr "這株植物生產可食用的 <link=\"MUSHROOM\">蘑菇</link>。"
+msgstr "這株植物生產可食用的<link=\"MUSHROOM\">蘑菇</link>。"
 
 #. STRINGS.CREATURES.SPECIES.MUSHROOMPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.MUSHROOMPLANT.NAME"
@@ -22774,7 +22774,7 @@ msgstr "<link=\"PUFTALPHA\">帕夫王子</link>"
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.BABY.DESC"
 msgid "A frazzled little Squeaky Puftlet.\n\nOne day it will grow into an adult Puft morph, the <link=\"PUFTBLEACHSTONE\">Squeaky Puft</link>."
-msgstr "一隻發出聲音的帕夫寶寶。\n\n有一天它會成長為一隻成年的帕夫變種，<link=\"PUFTBLEACHSTONE\">氯氣帕夫</link>。"
+msgstr "一隻發出聲音的帕夫寶寶。\n\n有一天它會成長為一隻成年的帕夫變種：<link=\"PUFTBLEACHSTONE\">氯氣帕夫</link>。"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.BABY.NAME"
@@ -22799,7 +22799,7 @@ msgstr "<link=\"PUFTBLEACHSTONE\">氯氣帕夫</link>"
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.DESC"
 msgid "A stocky little Dense Puftlet.\n\nOne day it will grow into an adult Puft morph, the <link=\"PUFTOXYLITE\">Dense Puft</link>."
-msgstr "一隻敦實的氧氣帕夫寶寶。\n\n隨著時間經過它會成長為一隻成年的帕夫變種，<link=\"PUFTOXYLITE\">氧氣帕夫</link>。"
+msgstr "一隻敦實的氧氣帕夫寶寶。\n\n隨著時間經過它會成長為一隻成年的帕夫變種：<link=\"PUFTOXYLITE\">氧氣帕夫</link>。"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.NAME"
@@ -22924,7 +22924,7 @@ msgstr "<link=\"COLDBREATHER\">冰樹種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.COLDWHEAT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.COLDWHEAT.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"COLDWHEAT\">Sleet Wheat</link> plant.\n\nGrain can be sown to cultivate more Sleet Wheat, or processed into <link=\"FOOD\">Food</link>."
-msgstr "<link=\"COLDWHEAT\">雪地小麥</link>的 <link=\"SEEDS\">種子</link>。\n\n可以種植得到更多的小麥，或製作成<link=\"FOOD\">食物</link>。"
+msgstr "<link=\"COLDWHEAT\">雪地小麥</link>的<link=\"SEEDS\">種子</link>。\n\n可以種植得到更多的小麥，或製作成<link=\"FOOD\">食物</link>。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.COLDWHEAT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.COLDWHEAT.NAME"
@@ -23399,12 +23399,12 @@ msgstr "枯萎"
 #. STRINGS.CREATURES.SPECIES.WOOD_TREE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.WOOD_TREE.DESC"
 msgid "Arbor Trees grow <link=\"FORESTTREE\">Arbor Tree Branches</link> and can be harvested for lumber."
-msgstr "喬木生長的 <link=\"FORESTTREE\">喬木樹枝</link> 可收成當作木材。"
+msgstr "喬木生長的<link=\"FORESTTREE\">喬木樹枝</link>可收成當作木材。"
 
 #. STRINGS.CREATURES.SPECIES.WOOD_TREE.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.WOOD_TREE.DOMESTICATEDDESC"
 msgid "This plant produces <link=\"FORESTTREE\">Arbor Tree Branches</link> that can be harvested for lumber."
-msgstr "這株植物生產 <link=\"FORESTTREE\">喬木樹枝</link> 可收成當作木材。"
+msgstr "這株植物生產<link=\"FORESTTREE\">喬木樹枝</link>可收成當作木材。"
 
 #. STRINGS.CREATURES.SPECIES.WOOD_TREE.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.WOOD_TREE.NAME"
@@ -23484,7 +23484,7 @@ msgstr "繁殖"
 #. STRINGS.CREATURES.STATS.FERTILITY.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATS.FERTILITY.TOOLTIP"
 msgid "At 100% <style=\"KKeyword\">Reproduction</style>, critters will reach the end of their reproduction cycle and lay a new <style=\"KKeyword\">Egg</style>\n\nAfter an <style=\"KKeyword\">Egg</style> is laid, <style=\"KKeyword\">Reproduction</style> is rolled back to 0%"
-msgstr "在 <style=\"KKeyword\">繁殖度</style> 到達 100% 時，動物將結束繁殖期並產下一個<style=\"KKeyword\">蛋</style>\n\n在產下一個<style=\"KKeyword\">蛋</style>之後，<style=\"KKeyword\">繁殖度</style>將會變回 0%"
+msgstr "在<style=\"KKeyword\">繁殖度</style>到達 100% 時，動物將結束繁殖期並產下一個<style=\"KKeyword\">蛋</style>\n\n在產下一個<style=\"KKeyword\">蛋</style>之後，<style=\"KKeyword\">繁殖度</style>將會變回 0%"
 
 #. STRINGS.CREATURES.STATS.FERTILIZATION.ABSORBING_MODIFIER
 msgctxt "STRINGS.CREATURES.STATS.FERTILIZATION.ABSORBING_MODIFIER"
@@ -24004,7 +24004,7 @@ msgstr "    • 擱淺"
 #. STRINGS.CREATURES.STATUSITEMS.DRYINGOUT.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.DRYINGOUT.TOOLTIP"
 msgid "This plant must be submerged in <style=\"KKeyword\">Liquid</style> to grow"
-msgstr "這株植物必須在 <style=\"KKeyword\">液體</style> 中才能生長"
+msgstr "這株植物必須在<style=\"KKeyword\">液體</style>中才能生長"
 
 #. STRINGS.CREATURES.STATUSITEMS.EATING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EATING.NAME"
@@ -24024,7 +24024,7 @@ msgstr "挑食：全部滿足"
 #. STRINGS.CREATURES.STATUSITEMS.ELEMENT_GROWTH_COMPLETE.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.ELEMENT_GROWTH_COMPLETE.TOOLTIP"
 msgid "This critter's <style=\"KKeyword\">Tonic Root</style> quills are fully grown\n\nPreferred food temperature range: {templo}-{temphi}"
-msgstr "這隻小動物身上的<style=\"KKeyword\">辛香根</style> 已經完全長大\n\n首選食物溫度範圍：{templo}-{temphi}"
+msgstr "這隻小動物身上的<style=\"KKeyword\">辛香根</style>已經完全長大\n\n首選食物溫度範圍：{templo}-{temphi}"
 
 #. STRINGS.CREATURES.STATUSITEMS.ELEMENT_GROWTH_GROWING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.ELEMENT_GROWTH_GROWING.NAME"
@@ -24034,7 +24034,7 @@ msgstr "挑食：恰到好處"
 #. STRINGS.CREATURES.STATUSITEMS.ELEMENT_GROWTH_GROWING.PREFERRED_TEMP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.ELEMENT_GROWTH_GROWING.PREFERRED_TEMP"
 msgid "Last eaten: {element} at {temperature}"
-msgstr "最低 {element} 溫度：{temperature}"
+msgstr "最低{element}溫度：{temperature}"
 
 #. STRINGS.CREATURES.STATUSITEMS.ELEMENT_GROWTH_GROWING.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.ELEMENT_GROWTH_GROWING.TOOLTIP"
@@ -24369,7 +24369,7 @@ msgstr "擁抱蛋中"
 #. STRINGS.CREATURES.STATUSITEMS.HUGEGG.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HUGEGG.TOOLTIP"
 msgid "This critter is snuggling up to an <style=\"KKeyword\">Egg</style> "
-msgstr "這個小動物正在擁抱一個<style=\"KKeyword\">蛋</style> "
+msgstr "這個小動物正在擁抱一個<style=\"KKeyword\">蛋</style>"
 
 #. STRINGS.CREATURES.STATUSITEMS.HUGMINION.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HUGMINION.NAME"
@@ -24819,7 +24819,7 @@ msgstr "無菌環境"
 #. STRINGS.CREATURES.STATUSITEMS.STERILIZINGATMOSPHERE.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.STERILIZINGATMOSPHERE.TOOLTIP"
 msgid "Microbe destroying conditions have decreased this food's <style=\"KKeyword\">Decay Rate</style>"
-msgstr "無菌環境降低了這份食物的 <style=\"KKeyword\">腐壞速度</style>"
+msgstr "無菌環境降低了這份食物的<style=\"KKeyword\">腐壞速度</style>"
 
 #. STRINGS.CREATURES.STATUSITEMS.STRUGGLING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.STRUGGLING.NAME"
@@ -26564,7 +26564,7 @@ msgstr "要去挖掘"
 #. STRINGS.DUPLICANTS.CHORES.DIG.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.DIG.TOOLTIP"
 msgid "This Duplicant is digging out a tile"
-msgstr "複製人正在挖掘一個方塊"
+msgstr "複製人正在挖掘一個磚塊"
 
 #. STRINGS.DUPLICANTS.CHORES.DISINFECT.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.DISINFECT.NAME"
@@ -26599,12 +26599,12 @@ msgstr "這個複製人試著讓他們的同事感覺更好"
 #. STRINGS.DUPLICANTS.CHORES.DOCTORFETCH.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.DOCTORFETCH.NAME"
 msgid "Medical Supply"
-msgstr "醫療用品"
+msgstr "醫療補給"
 
 #. STRINGS.DUPLICANTS.CHORES.DOCTORFETCH.REPORT_NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.DOCTORFETCH.REPORT_NAME"
 msgid "Medical Supply to {0}"
-msgstr "醫療用品給 {0}"
+msgstr "給{0}醫療補給"
 
 #. STRINGS.DUPLICANTS.CHORES.DOCTORFETCH.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.DOCTORFETCH.STATUS"
@@ -26614,7 +26614,7 @@ msgstr "補給醫療資源"
 #. STRINGS.DUPLICANTS.CHORES.DOCTORFETCH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.DOCTORFETCH.TOOLTIP"
 msgid "This Duplicant is delivering the materials that will be needed to treat sick patients"
-msgstr "複製人正在運送醫療用品給需要的患者"
+msgstr "複製人正在運送治療病人所需的材料"
 
 #. STRINGS.DUPLICANTS.CHORES.DROPUNUSEDINVENTORY.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.DROPUNUSEDINVENTORY.NAME"
@@ -26704,7 +26704,7 @@ msgstr "埋住"
 #. STRINGS.DUPLICANTS.CHORES.ENTOMBED.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.ENTOMBED.TOOLTIP"
 msgid "Entombed Duplicants are at risk of suffocating and must be dug out by others in the colony"
-msgstr "被埋住的複製人有窒息的危險，必須由殖民地的其他人救他出來"
+msgstr "被埋住的複製人有窒息的危險，必須由殖民地的其他人救出來"
 
 #. STRINGS.DUPLICANTS.CHORES.EQUIP.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.EQUIP.NAME"
@@ -26729,7 +26729,7 @@ msgstr "儲存裝備"
 #. STRINGS.DUPLICANTS.CHORES.EQUIPMENTFETCH.REPORT_NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.EQUIPMENTFETCH.REPORT_NAME"
 msgid "Store {0}"
-msgstr "儲存 {0}"
+msgstr "儲存{0}"
 
 #. STRINGS.DUPLICANTS.CHORES.EQUIPMENTFETCH.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.EQUIPMENTFETCH.STATUS"
@@ -26794,7 +26794,7 @@ msgstr "製造供應"
 #. STRINGS.DUPLICANTS.CHORES.FABRICATEFETCH.REPORT_NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.FABRICATEFETCH.REPORT_NAME"
 msgid "Fabrication Supply to {0}"
-msgstr "製造供應 {0}"
+msgstr "製造供應{0}"
 
 #. STRINGS.DUPLICANTS.CHORES.FABRICATEFETCH.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.FABRICATEFETCH.STATUS"
@@ -26829,7 +26829,7 @@ msgstr "運送"
 #. STRINGS.DUPLICANTS.CHORES.FETCH.REPORT_NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.FETCH.REPORT_NAME"
 msgid "Deliver to {0}"
-msgstr "運送到 {0}"
+msgstr "運送到{0}"
 
 #. STRINGS.DUPLICANTS.CHORES.FETCH.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.FETCH.STATUS"
@@ -26864,7 +26864,7 @@ msgstr "維生供應"
 #. STRINGS.DUPLICANTS.CHORES.FETCHCRITICAL.REPORT_NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.FETCHCRITICAL.REPORT_NAME"
 msgid "Life Support Supply to {0}"
-msgstr "維生供應給 {0}"
+msgstr "給{0}維生供應"
 
 #. STRINGS.DUPLICANTS.CHORES.FETCHCRITICAL.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.FETCHCRITICAL.STATUS"
@@ -26889,7 +26889,7 @@ msgstr "供給畜牧材料"
 #. STRINGS.DUPLICANTS.CHORES.FETCHRANCHING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.FETCHRANCHING.TOOLTIP"
 msgid "This Duplicant is delivering materials for ranching activities"
-msgstr "這個複製人正在為畜牧活動運送材料到"
+msgstr "這個複製人正在為畜牧活動運送材料"
 
 #. STRINGS.DUPLICANTS.CHORES.FLEE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.FLEE.NAME"
@@ -27139,7 +27139,7 @@ msgstr "操作供應"
 #. STRINGS.DUPLICANTS.CHORES.MACHINEFETCH.REPORT_NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.MACHINEFETCH.REPORT_NAME"
 msgid "Operational Supply to {0}"
-msgstr "操作供應給{0}"
+msgstr "給{0}操作供應"
 
 #. STRINGS.DUPLICANTS.CHORES.MACHINEFETCH.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.MACHINEFETCH.STATUS"
@@ -27244,12 +27244,12 @@ msgstr "這個複製人目前<style=\"KKeyword\">閒置</style>中，正在尋�
 #. STRINGS.DUPLICANTS.CHORES.MUSH.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.MUSH.NAME"
 msgid "Mush"
-msgstr "製糕"
+msgstr "壓製"
 
 #. STRINGS.DUPLICANTS.CHORES.MUSH.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.MUSH.STATUS"
 msgid "Going to mush"
-msgstr "要去製糕"
+msgstr "要去壓製"
 
 #. STRINGS.DUPLICANTS.CHORES.MUSH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.MUSH.TOOLTIP"
@@ -27329,7 +27329,7 @@ msgstr "發電供應"
 #. STRINGS.DUPLICANTS.CHORES.POWERFETCH.REPORT_NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.POWERFETCH.REPORT_NAME"
 msgid "Power Supply to {0}"
-msgstr "發電供應給{0}"
+msgstr "給{0}發電供應"
 
 #. STRINGS.DUPLICANTS.CHORES.POWERFETCH.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.POWERFETCH.STATUS"
@@ -28309,7 +28309,7 @@ msgstr "不論這個複製人到何處，都會照亮其它人"
 #. STRINGS.DUPLICANTS.CONGENITALTRAITS.JOSHUA.NAME
 msgctxt "STRINGS.DUPLICANTS.CONGENITALTRAITS.JOSHUA.NAME"
 msgid "Cheery Disposition"
-msgstr "愉快的性格"
+msgstr "性格開朗"
 
 #. STRINGS.DUPLICANTS.CONGENITALTRAITS.LIAM.DESC
 msgctxt "STRINGS.DUPLICANTS.CONGENITALTRAITS.LIAM.DESC"
@@ -29034,7 +29034,7 @@ msgstr "輕微"
 #. STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.DESC
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.DESC"
 msgid "Slimelung germs are found in <link=\"SLIMEMOLD\">Slime</link> and <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link>. Inhaling these germs can cause Duplicants to cough and struggle to breathe."
-msgstr "在<link=\"SLIMEMOLD\">軟泥</link>和 <link=\"CONTAMINATEDOXYGEN\">汙氧</link>中發現了肺結核。 吸入這些細菌會導致複製人咳嗽和呼吸困難。"
+msgstr "在<link=\"SLIMEMOLD\">軟泥</link>和<link=\"CONTAMINATEDOXYGEN\">汙氧</link>中發現了肺結核。 吸入這些細菌會導致複製人咳嗽和呼吸困難。"
 
 #. STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.LEGEND_HOVERTEXT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.LEGEND_HOVERTEXT"
@@ -35904,7 +35904,7 @@ msgstr "這個複製人獲得免費的<style=\"KKeyword\">技能</style>而不�
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING2.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING2.DESC"
 msgid "Improves a Duplicant's <style=\"KKeyword\">Ranching</style> skills"
-msgstr "提升複製人的<style=\"KKeyword\">畜牧</style> 技能"
+msgstr "提升複製人的<style=\"KKeyword\">畜牧</style>技能"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING2.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RANCHING2.NAME"
@@ -44989,7 +44989,7 @@ msgstr "<link=\"FILTER\">過濾介質</link>"
 #. STRINGS.MISC.TAGS.FILTER_DESC
 msgctxt "STRINGS.MISC.TAGS.FILTER_DESC"
 msgid "Filtration Mediums are materials which are supplied to some filtration buildings that are used in separating purified <link=\"ELEMENTSGASSES\">gases</link> or <link=\"ELEMENTSLIQUID\">liquids</link> from their polluted forms.\n\nExamples include filtering <link=\"WATER\">Water</link> from <link=\"DIRTYWATER\">Polluted Water</link> using a <link=\"WATERPURIFIER\">Water Sieve</link>, or a <link=\"AIRFILTER\">Deodorizer</link> purifying <link=\"OXYGEN\">Oxygen</link> from <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link>.\n\nFiltration Mediums are a consumable that will be transformed by the filtering process to generate a by-product, like when <link=\"TOXICSAND\">Polluted Dirt</link> is the result after <link=\"SAND\">Sand</link> has been used to filter polluted water. The filtering building will cease to function once the filtering material has been consumed. Once the Filtering Material has been resupplied to the filtering building it will start working again."
-msgstr "過濾介質是一種材料，提供給一些過濾建築將汙染<link=\"ELEMENTSGASSES\">氣體</link>或<link=\"ELEMENTSLIQUID\">液體</link>分離淨化使用。\n\n舉例，包括使用<link=\"WATERPURIFIER\">淨水器</link>將<link=\"DIRTYWATER\">汙水</link>過濾成<link=\"WATER\">水</link>，或使用<link=\"AIRFILTER\">空氣濾淨機</link>將 <link=\"CONTAMINATEDOXYGEN\">汙氧</link>淨化<link=\"OXYGEN\">氧氣</link>。\n\n過濾介質是一種耗材，過程會轉化成副產品，像是使用<link=\"SAND\">沙子</link>過濾汙水會變成<link=\"TOXICSAND\">汙土</link>。\n一旦過濾材料消耗完了，過濾建築會停止運作。而在重新補充後會重新開始運作。"
+msgstr "過濾介質是一種材料，提供給一些過濾建築將汙染<link=\"ELEMENTSGASSES\">氣體</link>或<link=\"ELEMENTSLIQUID\">液體</link>分離淨化使用。\n\n舉例，包括使用<link=\"WATERPURIFIER\">淨水器</link>將<link=\"DIRTYWATER\">汙水</link>過濾成<link=\"WATER\">水</link>，或使用<link=\"AIRFILTER\">空氣濾淨機</link>將<link=\"CONTAMINATEDOXYGEN\">汙氧</link>淨化<link=\"OXYGEN\">氧氣</link>。\n\n過濾介質是一種耗材，過程會轉化成副產品，像是使用<link=\"SAND\">沙子</link>過濾汙水會變成<link=\"TOXICSAND\">汙土</link>。\n一旦過濾材料消耗完了，過濾建築會停止運作。而在重新補充後會重新開始運作。"
 
 #. STRINGS.MISC.TAGS.FLYINGCRITTEREDIBLE
 msgctxt "STRINGS.MISC.TAGS.FLYINGCRITTEREDIBLE"
@@ -55769,12 +55769,12 @@ msgstr "<link=\"CONTAMINATEDOXYGEN\">放屁</link> 生產："
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP"
 msgid "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was consumed by {1} over the course of the day"
-msgstr "{1} 今天消耗了 {0} <link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
+msgstr "{1} 今天消耗了 {0}<link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.POSITIVE_TOOLTIP"
 msgid "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was generated by {1} over the course of the day"
-msgstr "{1} 今天產生了 {0} <link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
+msgstr "{1} 今天產生了 {0}<link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME"
@@ -55784,12 +55784,12 @@ msgstr "<link=\"CONTAMINATEDOXYGEN\">升華</link>："
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NEGATIVE_TOOLTIP"
 msgid "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was consumed by {1} over the course of the day"
-msgstr "{1} 今天消耗了 {0} <link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
+msgstr "{1} 今天消耗了 {0}<link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.POSITIVE_TOOLTIP"
 msgid "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was generated by {1} over the course of the day"
-msgstr "{1} 今天產生了 {0} <link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
+msgstr "{1} 今天產生了 {0}<link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NAME"
@@ -55799,12 +55799,12 @@ msgstr "<link=\"CONTAMINATEDOXYGEN\">廁所排放：</link>"
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NEGATIVE_TOOLTIP"
 msgid "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was consumed by {1} over the course of the day"
-msgstr "{1} 今天消耗了 {0} <link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
+msgstr "{1} 今天消耗了 {0}<link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.POSITIVE_TOOLTIP"
 msgid "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was generated by {1} over the course of the day"
-msgstr "{1} 今天產生了 {0} <link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
+msgstr "{1} 今天產生了 {0}<link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DAY_TITLE
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DAY_TITLE"
@@ -66674,7 +66674,7 @@ msgstr "碳小行星礦場"
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.CHLORINECLOUD.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.CHLORINECLOUD.DESC"
 msgid "A cloud of harvestable debris containing <link=\"CHLORINEGAS\">Chlorine</link> and <link=\"BLEACHSTONE\">Bleach Stone</link>.\n\nHarvesting resources requires a rocket equipped with a <link=\"NOSECONEHARVEST\">Drillcone</link>."
-msgstr "可採集 <link=\"CHLORINEGAS\">氯氣</link> 與 <link=\"BLEACHSTONE\">漂白石</link> 的星雲。\n\n火箭需要裝備 <link=\"NOSECONEHARVEST\">鑽頭鼻錐</link> 才能採集資源。"
+msgstr "可採集<link=\"CHLORINEGAS\">氯氣</link>與 <link=\"BLEACHSTONE\">漂白石</link> 的星雲。\n\n火箭需要裝備 <link=\"NOSECONEHARVEST\">鑽頭鼻錐</link> 才能採集資源。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.CHLORINECLOUD.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.CHLORINECLOUD.NAME"
@@ -66814,7 +66814,7 @@ msgstr "氧化小行星礦場"
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.OXYGENRICHASTEROIDFIELD.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.OXYGENRICHASTEROIDFIELD.DESC"
 msgid "An asteroid field containing <link=\"ICE\">Ice</link>, <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> and <link=\"WATER\">Water</link>.\n\nHarvesting resources requires a rocket equipped with a <link=\"NOSECONEHARVEST\">Drillcone</link>."
-msgstr "含有<link=\"ICE\">冰</link>、<link=\"CONTAMINATEDOXYGEN\">汙氧</link> 與<link=\"WATER\">水</link>的小行星礦場。\n\n火箭需裝備 <link=\"NOSECONEHARVEST\">鑽頭鼻錐</link> 才能採集資源。"
+msgstr "含有<link=\"ICE\">冰</link>、<link=\"CONTAMINATEDOXYGEN\">汙氧</link>與<link=\"WATER\">水</link>的小行星礦場。\n\n火箭需裝備 <link=\"NOSECONEHARVEST\">鑽頭鼻錐</link> 才能採集資源。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.OXYGENRICHASTEROIDFIELD.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.OXYGENRICHASTEROIDFIELD.NAME"
@@ -66844,7 +66844,7 @@ msgstr "輻射小行星礦場"
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.RADIOACTIVEGASCLOUD.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.RADIOACTIVEGASCLOUD.DESC"
 msgid "A cloud of resources containing <link=\"CHLORINEGAS\">Chlorine</link>, <link=\"URANIUMORE\">Uranium Ore</link> and <link=\"CARBONDIOXIDE\">Carbon Dioxide</link>.\n\nHarvesting resources requires a rocket equipped with a <link=\"NOSECONEHARVEST\">Drillcone</link>."
-msgstr "含有 <link=\"CHLORINEGAS\">氯氣</link>、<link=\"URANIUMORE\">鈾礦</link> 與<link=\"CARBONDIOXIDE\">二氧化碳</link>的星雲。\n\n火箭需裝備 <link=\"NOSECONEHARVEST\">鑽頭鼻錐</link> 才能採集資源。"
+msgstr "含有<link=\"CHLORINEGAS\">氯氣</link>、<link=\"URANIUMORE\">鈾礦</link> 與<link=\"CARBONDIOXIDE\">二氧化碳</link>的星雲。\n\n火箭需裝備 <link=\"NOSECONEHARVEST\">鑽頭鼻錐</link> 才能採集資源。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.RADIOACTIVEGASCLOUD.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.RADIOACTIVEGASCLOUD.NAME"
@@ -69284,7 +69284,7 @@ msgstr "電力連接不能重疊"
 #. STRINGS.UI.TOOLTIPS.HELP_REQUIRES_ROOM
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_REQUIRES_ROOM"
 msgid "Must be in a <style=\"KKeyword\">Room</style>"
-msgstr "必須在一個 <style=\"KKeyword\">房間</style> 中"
+msgstr "必須在一個<style=\"KKeyword\">房間</style>中"
 
 #. STRINGS.UI.TOOLTIPS.HELP_ROTATE_KEY
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_ROTATE_KEY"
@@ -70399,12 +70399,12 @@ msgstr "動物數量感測器"
 #. STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TOOLTIP_ABOVE
 msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TOOLTIP_ABOVE"
 msgid "Will send a <b><style=\"logic_on\">Green Signal</style></b> if there are more than <b>{0}</b> <style=\"KKeyword\">Critters</style> or <style=\"KKeyword\">Eggs</style> in the room"
-msgstr "如果房間內的 <style=\"KKeyword\">小動物</style> 或 <style=\"KKeyword\">蛋</style> 的數量大於 <b>{0}</b> 時，會發出<b><style=\"logic_on\">綠色訊號</style></b>"
+msgstr "如果房間內的 <style=\"KKeyword\">小動物</style> 或<style=\"KKeyword\">蛋</style>的數量大於 <b>{0}</b> 時，會發出<b><style=\"logic_on\">綠色訊號</style></b>"
 
 #. STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TOOLTIP_BELOW
 msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TOOLTIP_BELOW"
 msgid "Will send a <b><style=\"logic_on\">Green Signal</style></b> if there are fewer than <b>{0}</b> <style=\"KKeyword\">Critters</style> or <style=\"KKeyword\">Eggs</style> in the room"
-msgstr "如果房間內的 <style=\"KKeyword\">小動物</style> 或 <style=\"KKeyword\">蛋</style> 的數量少於 <b>{0}</b> 時，會發出<b><style=\"logic_on\">綠色訊號</style></b>"
+msgstr "如果房間內的 <style=\"KKeyword\">小動物</style> 或<style=\"KKeyword\">蛋</style>的數量少於 <b>{0}</b> 時，會發出<b><style=\"logic_on\">綠色訊號</style></b>"
 
 #. STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.VALUE_NAME
 msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.VALUE_NAME"
