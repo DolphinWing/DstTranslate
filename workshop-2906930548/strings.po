@@ -21954,7 +21954,7 @@ msgstr "定期噴發溫暖的<link=\"CONTAMINATEDOXYGEN\">汙氧</link>的高壓
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLIMY_PO2.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLIMY_PO2.NAME"
 msgid "<link=\"GEYSERGENERICSLIMYPO2\">Infectious Polluted Oxygen Vent</link>"
-msgstr "<link=\"GEYSERGENERICSLIMYPO2\">有傳染病的汙氧噴口</link>"
+msgstr "<link=\"GEYSERGENERICSLIMYPO2\">帶菌汙氧噴口</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_SALT_WATER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_SALT_WATER.DESC"
@@ -29209,7 +29209,7 @@ msgstr "<link=\"ZOMBIESICKNESS\">殭屍孢子</link>"
 #. STRINGS.DUPLICANTS.DISEASES.ZOMBIESPORES.DESC
 msgctxt "STRINGS.DUPLICANTS.DISEASES.ZOMBIESPORES.DESC"
 msgid "Zombie Spores are a parasitic brain fungus released by <link=\"EVILFLOWER\">Sporechids</link>. Duplicants who touch or inhale the spores risk becoming infected and temporarily losing motor control."
-msgstr "殭屍孢子是一種由<link=\"EVILFLOWER\">惡魔花</link> 釋放的寄生腦真菌。觸摸或吸入孢子的複製人有被感染並暫時失去運動能力的風險。"
+msgstr "殭屍孢子是一種由<link=\"EVILFLOWER\">惡魔花</link>釋放的寄生腦真菌。觸摸或吸入孢子的複製人有被感染並暫時失去運動能力的風險。"
 
 #. STRINGS.DUPLICANTS.DISEASES.ZOMBIESPORES.LEGEND_HOVERTEXT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.ZOMBIESPORES.LEGEND_HOVERTEXT"
@@ -50764,7 +50764,7 @@ msgstr "豐富的原油生態系，充滿了黏稠閃爍的<link=\"CRUDEOIL\">�
 #. STRINGS.SUBWORLDS.OIL.NAME
 msgctxt "STRINGS.SUBWORLDS.OIL.NAME"
 msgid "Oily"
-msgstr "原油小行星"
+msgstr "原油"
 
 #. STRINGS.SUBWORLDS.OIL.UTILITY
 msgctxt "STRINGS.SUBWORLDS.OIL.UTILITY"
@@ -50794,7 +50794,7 @@ msgstr "風化層生態系含有大量的<link=\"REGOLITH\">表土</link>，作�
 #. STRINGS.SUBWORLDS.REGOLITH.NAME
 msgctxt "STRINGS.SUBWORLDS.REGOLITH.NAME"
 msgid "Regolith"
-msgstr "風化小行星"
+msgstr "風化"
 
 #. STRINGS.SUBWORLDS.REGOLITH.UTILITY
 msgctxt "STRINGS.SUBWORLDS.REGOLITH.UTILITY"
