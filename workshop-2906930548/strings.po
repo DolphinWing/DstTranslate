@@ -789,7 +789,7 @@ msgstr "消耗{ElementTypes}：{FlowRate}"
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTCONSUMER.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONSUMER.TOOLTIP"
 msgid "This object is utilizing ambient {ElementTypes} from the environment"
-msgstr "這個物件正在使用環境中的 {ElementTypes}"
+msgstr "這個物件正在使用環境中的{ElementTypes}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTERINPUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTERINPUT.NAME"
@@ -804,7 +804,7 @@ msgstr "這個建築正以 <style=\"consumed\">{FlowRate}</style> 的速度使�
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTEROUTPUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTEROUTPUT.NAME"
 msgid "Emitting {ElementTypes}: {FlowRate}"
-msgstr "排出 {ElementTypes}：{FlowRate}"
+msgstr "排出{ElementTypes}：{FlowRate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTEROUTPUT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTEROUTPUT.TOOLTIP"
@@ -814,7 +814,7 @@ msgstr "這個建築正以 <style=\"produced\">{FlowRate}</style> 的速度排�
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTEMITTEROUTPUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTEMITTEROUTPUT.NAME"
 msgid "Emitting {ElementTypes}: {FlowRate}"
-msgstr "排出 {ElementTypes}：{FlowRate}"
+msgstr "排出{ElementTypes}：{FlowRate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTEMITTEROUTPUT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTEMITTEROUTPUT.TOOLTIP"
@@ -829,7 +829,7 @@ msgstr "未揮發：壓力過大"
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGBLOCKEDHIGHPRESSURE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGBLOCKEDHIGHPRESSURE.TOOLTIP"
 msgid "Ambient pressure is too high for {Element} to be released"
-msgstr "環境壓力太高，無法排出 {Element}"
+msgstr "環境壓力太高，無法排出{Element}"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGBLOCKEDLOWTEMPERATURE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGBLOCKEDLOWTEMPERATURE.NAME"
@@ -1094,7 +1094,7 @@ msgstr "建築目前飽合無法運作"
 #. STRINGS.BUILDING.STATUSITEMS.FLUSHTOILET.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLUSHTOILET.NAME"
 msgid "{toilet} Ready"
-msgstr "{toilet} 就緒"
+msgstr "{toilet}就緒"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLUSHTOILET.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLUSHTOILET.TOOLTIP"
@@ -1104,7 +1104,7 @@ msgstr "這間廁所已準備好接客"
 #. STRINGS.BUILDING.STATUSITEMS.FLUSHTOILETINUSE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLUSHTOILETINUSE.NAME"
 msgid "{toilet} In Use"
-msgstr "{toilet} 使用中"
+msgstr "{toilet}使用中"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLUSHTOILETINUSE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLUSHTOILETINUSE.TOOLTIP"
@@ -1189,7 +1189,7 @@ msgstr "空的管線"
 #. STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.TOOLTIP"
 msgid "There is no <style=\"KKeyword\">Gas</style> in this pipe"
-msgstr "這條管線中沒有 <style=\"KKeyword\">氣體</style>"
+msgstr "這條管線中沒有<style=\"KKeyword\">氣體</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.GASPIPEOBSTRUCTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASPIPEOBSTRUCTED.NAME"
@@ -6749,7 +6749,7 @@ msgstr "化石採集場"
 #. STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.DESC"
 msgid "Nuke your food."
-msgstr "微波加熱你的食物"
+msgstr "核爆你的食物"
 
 #. STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.EFFECT"
@@ -8129,7 +8129,7 @@ msgstr "Geronimo!"
 #. STRINGS.BUILDINGS.PREFABS.LANDING_POD.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LANDING_POD.EFFECT"
 msgid "Contains a Duplicant deployed from orbit.\n\nPod will disintegrate on arrival."
-msgstr "載著一位複製人從軌道上部署。\n\n到達時著陸艙會分解。"
+msgstr "載著一位複製人從軌道上部署。\n\n艙體到達時會解體。"
 
 #. STRINGS.BUILDINGS.PREFABS.LANDING_POD.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LANDING_POD.NAME"
@@ -12384,7 +12384,7 @@ msgstr "祝你好運，孩子！"
 #. STRINGS.BUILDINGS.PREFABS.SCOUTROCKETPOD.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCOUTROCKETPOD.EFFECT"
 msgid "Contains a <link=\"SCOUT\">Rover</link> deployed from an orbiting <link=\"SCOUTMODULE\">Rover's Module</link>.\n\nPod will disintegrate on arrival."
-msgstr "部署在軌道上<link=\"SCOUTMODULE\">漫遊者模組</link>內的<link=\"SCOUTMODULE\">漫遊者</link>。\n\n艙體在抵達時會分解。"
+msgstr "部署在軌道上<link=\"SCOUTMODULE\">漫遊者模組</link>內的<link=\"SCOUTMODULE\">漫遊者</link>。\n\n艙體在抵達時會解體。"
 
 #. STRINGS.BUILDINGS.PREFABS.SCOUTROCKETPOD.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCOUTROCKETPOD.NAME"
@@ -12424,7 +12424,7 @@ msgstr "<link=\"SCULPTUREAMAZING1\">假設者</link>"
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.FACADES.SCULPTURE_AMAZING_2.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCULPTURE.FACADES.SCULPTURE_AMAZING_2.DESC"
 msgid "A masterful portrayal of an athlete who's been banned from the communal kitchen."
-msgstr "對一位被禁止進入公共廚房的精湛描繪。"
+msgstr "對一位被禁止進入公共廚房的運動員的精湛描繪。"
 
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.FACADES.SCULPTURE_AMAZING_2.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCULPTURE.FACADES.SCULPTURE_AMAZING_2.NAME"
@@ -12544,7 +12544,7 @@ msgstr "那個複製人不喜歡玩泥巴呢？"
 #. STRINGS.BUILDINGS.PREFABS.SLUDGEPRESS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SLUDGEPRESS.EFFECT"
 msgid "Separates <link=\"MUD\">Mud</link> and other sludges into their base elements.\n\nDuplicants will not fabricate items unless recipes are queued."
-msgstr "將 <link=\"MUD\">泥漿</link> 與其他材料分離成基礎元素。\n\n佇列中沒有訂單，複製人將不會生產。"
+msgstr "將<link=\"MUD\">泥漿</link>與其他材料分離成基礎元素。\n\n佇列中沒有訂單，複製人將不會生產。"
 
 #. STRINGS.BUILDINGS.PREFABS.SLUDGEPRESS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SLUDGEPRESS.NAME"
@@ -12554,7 +12554,7 @@ msgstr "<link=\"SLUDGEPRESS\">脫水機</link>"
 #. STRINGS.BUILDINGS.PREFABS.SLUDGEPRESS.RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.SLUDGEPRESS.RECIPE_DESCRIPTION"
 msgid "Separates {0} into its base elements."
-msgstr "分離 {0} 成為基本元素。"
+msgstr "分離{0}成為基本元素。"
 
 #. STRINGS.BUILDINGS.PREFABS.SMALLOXIDIZERTANK.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLOXIDIZERTANK.DESC"
@@ -13114,7 +13114,7 @@ msgstr "<link=\"SPICEGRINDER\">香料研磨器</link>"
 #. STRINGS.BUILDINGS.PREFABS.STATERPILLAREGG.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.STATERPILLAREGG.DESC"
 msgid "The electrifying egg of the <link=\"STATERPILLAR\">Plug Slug</link>."
-msgstr "激動人心的 <link=\"STATERPILLAR\">電氣蛞蝓</link> 蛋。"
+msgstr "激動人心的<link=\"STATERPILLAR\">電氣蛞蝓</link>蛋。"
 
 #. STRINGS.BUILDINGS.PREFABS.STATERPILLAREGG.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.STATERPILLAREGG.EFFECT"
@@ -13194,7 +13194,7 @@ msgstr "可用於將地熱轉化為可用電力。"
 #. STRINGS.BUILDINGS.PREFABS.STEAMTURBINE2.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMTURBINE2.EFFECT"
 msgid "Draws in <link=\"STEAM\">Steam</link> from the tiles directly below the machine's foundation and uses it to generate electrical <link=\"POWER\">Power</link>.\n\nOutputs <link=\"WATER\">Water</link>."
-msgstr "從機器的下方吸入<link=\"STEAM\">蒸氣</link>用來 <link=\"POWER\">發電</link>。\n\n輸出<link=\"WATER\">水</link>。"
+msgstr "從機器的下方吸入<link=\"STEAM\">蒸氣</link>用來<link=\"POWER\">發電</link>。\n\n輸出<link=\"WATER\">水</link>。"
 
 #. STRINGS.BUILDINGS.PREFABS.STEAMTURBINE2.HEAT_SOURCE
 msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMTURBINE2.HEAT_SOURCE"
@@ -13284,7 +13284,7 @@ msgstr "不是最時尚的太空旅行方式，但一定是最美味的。"
 #. STRINGS.BUILDINGS.PREFABS.SUGARENGINE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUGARENGINE.EFFECT"
 msgid "Burns <link=\"SUCROSE\">Sucrose</link> to propel rockets for short range space exploration.\n\nSugar Engines have higher height restrictions than <link=\"CO2ENGINE\">Carbon Dioxide Engines</link>, but move slower.\n\nEngine must be built via <link=\"LAUNCHPAD\">Rocket Platform</link>. \n\nOnce the engine has been built, more rocket modules can be added."
-msgstr "燃燒 <link=\"SUCROSE\">蔗糖</link> 推動火箭進行太空探索。\n\n蔗糖引擎的高度限制比 <link=\"CO2ENGINE\">二氧化碳引擎</link> 高，但速度較慢。\n\n必須透過<link=\"LAUNCHPAD\">火箭平台</link>建造。\n\n一旦引擎建造好了，可以加裝更多的火箭模組。"
+msgstr "燃燒<link=\"SUCROSE\">蔗糖</link>推動火箭進行太空探索。\n\n蔗糖引擎的高度限制比<link=\"CO2ENGINE\">二氧化碳引擎</link>高，但速度較慢。\n\n必須透過<link=\"LAUNCHPAD\">火箭平台</link>建造。\n\n一旦引擎建造好了，可以加裝更多的火箭模組。"
 
 #. STRINGS.BUILDINGS.PREFABS.SUGARENGINE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUGARENGINE.NAME"
@@ -13489,7 +13489,7 @@ msgstr "如果最少與一位複製人聊天，複製人會獲得 {amount} {attr
 #. STRINGS.BUILDINGS.PREFABS.TELEPHONE.EFFECT_LONG_DISTANCE
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELEPHONE.EFFECT_LONG_DISTANCE"
 msgid "{attrib}: {amount} (At least one Duplicant across space)"
-msgstr "{attrib}：{amount}（最少與一位複製人跨星際通訊）"
+msgstr "{attrib}：{amount}（最少一位跨星際的複製人）"
 
 #. STRINGS.BUILDINGS.PREFABS.TELEPHONE.EFFECT_LONG_DISTANCE_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELEPHONE.EFFECT_LONG_DISTANCE_TOOLTIP"
@@ -14309,7 +14309,7 @@ msgstr "挖掘槍促銷"
 #. STRINGS.CODEX.A0_PROPFACILITYDISPLAY3.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A0_PROPFACILITYDISPLAY3.BODY.CONTAINER1"
 msgid "Tired of shutting down during seasonal heat waves? Looking to cut weather-related operating costs?\n\nLook no further: Gravitas's revolutionary Anti Entropy Thermo-Nullifier is the exciting, affordable new way to eliminate operational downtime.\n\nPowered by our proprietary renewable power sources, the AETN efficiently cools an entire office building without incurring any of the environmental surcharges associated with comparable systems.\n\nInitial setup includes hydrogen duct installation and discounted monthly maintenance visits from our elite team of specially trained contractors.\n\nNow available for pre-order!"
-msgstr "厭倦了週期性的過熱問題？ 希望降低與溫度相關的處理成本？\n\n不要再猶豫了：Gravitas 的革命性反熵除熱機是減少過熱停機時間又令人興奮的經濟實惠新方法。\n\nAETN 由我們專有的可再生能源提供動力，可有效地冷卻整個建築物，而不會產生任何附帶問題。\n\n初始設置包括氫氣管道安裝和我們經過專門培訓的承包商精英團隊所提供的每月維護服務。\n\n現在可以開始預訂了！"
+msgstr "厭倦了週期性的過熱問題？希望降低與溫度相關的處理成本？\n\n不要再猶豫了：Gravitas 的革命性反熵除熱機是減少過熱停機時間又令人興奮的經濟實惠新方法。\n\nAETN 由我們專有的可再生能源提供動力，可有效地冷卻整個建築物，而不會產生任何附帶問題。\n\n初始設置包括氫氣管道安裝和我們經過專門培訓的承包商精英團隊所提供的每月維護服務。\n\n現在可以開始預訂了！"
 
 #. STRINGS.CODEX.A0_PROPFACILITYDISPLAY3.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A0_PROPFACILITYDISPLAY3.BODY.CONTAINER2"
@@ -15224,7 +15224,7 @@ msgstr "邏輯閘"
 #. STRINGS.CODEX.AUTOMATION.PARAGRAPH_1
 msgctxt "STRINGS.CODEX.AUTOMATION.PARAGRAPH_1"
 msgid "Automation is a tool for controlling the operation of buildings based on what sensors in the colony are detecting.\n\nA <link=\"CEILINGLIGHT\">Ceiling Light</link> could be configured to automatically turn on when a <link=\"DUPLICANTSENSOR\">Duplicant Motion Sensor</link> detects a Duplicant in the room.\n\nA <link=\"LIQUIDPUMP\">Liquid Pump</link> might activate only when a <link=\"LOGICELEMENTSENSORLIQUID\">Liquid Element Sensor</link> detects water.\n\nA <link=\"AIRCONDITIONER\">Thermo Regulator</link> might activate only when the <link=\"LOGICTEMPERATURESENSOR\">Thermo Sensor</link> detects too much heat.\n\n"
-msgstr "自動化是一種在殖民地內利用各種感測器來控制並操作建築的工具。\n\n當 <link=\"DUPLICANTSENSOR\">複製人動作感測器</link> 感測到複製人在房間內時，會自動打開 <link=\"CEILINGLIGHT\">燈泡</link>。\n\n當 <link=\"LOGICELEMENTSENSORLIQUID\">液體元素感測器</link> 感測到水時，會自動啟動 <link=\"LIQUIDPUMP\">液體幫浦</link>。\n\n當 <link=\"LOGICTEMPERATURESENSOR\">溫度感測器</link> 感測到太熱時，會自動啟動 <link=\"AIRCONDITIONER\">冷氣機</link>。\n\n"
+msgstr "自動化是一種在殖民地內利用各種感測器來控制並操作建築的工具。\n\n當<link=\"DUPLICANTSENSOR\">複製人動作感測器</link>感測到複製人在房間內時，會自動打開<link=\"CEILINGLIGHT\">燈泡</link>。\n\n當<link=\"LOGICELEMENTSENSORLIQUID\">液體元素感測器</link>偵測到水時，會自動啟動<link=\"LIQUIDPUMP\">液體幫浦</link>。\n\n當<link=\"LOGICTEMPERATURESENSOR\">溫度感測器</link>偵測到太熱時，會自動啟動<link=\"AIRCONDITIONER\">冷氣機</link>。\n\n"
 
 #. STRINGS.CODEX.AUTOMATION.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.AUTOMATION.PARAGRAPH_2"
@@ -15234,12 +15234,12 @@ msgstr "除了<link=\"WIRE\">電線</link>外，多數的用電設施都可用<l
 #. STRINGS.CODEX.AUTOMATION.PARAGRAPH_3
 msgctxt "STRINGS.CODEX.AUTOMATION.PARAGRAPH_3"
 msgid "There are two signals that an <link=\"LOGICWIRE\">Automation Wire</link> can send: Green and Red. The green signal will usually cause buildings to turn on, and the red signal will usually cause buildings to turn off. Sensors can often be configured to send their green signal only under certain conditions. A <link=\"LOGICTEMPERATURESENSOR\">Thermo Sensor</link> could be configured to only send a green signal if detecting temperatures greater than a chosen value.\n\n"
-msgstr "<link=\"LOGICWIRE\">訊號線</link>可以發出：綠色與紅色兩種訊號。\n綠色訊號通常會將建築物打開，而紅色訊號通常會將建築物關閉。\n感測器通常可以設定只在某些條件發出綠色訊號。\n像是 <link=\"LOGICTEMPERATURESENSOR\">溫度感測器</link> 可設定為只在偵測到溫度高於所設定的值時發出綠色訊號。\n\n"
+msgstr "<link=\"LOGICWIRE\">訊號線</link>可以發出：綠色與紅色兩種訊號。\n綠色訊號通常會將建築物打開，而紅色訊號通常會將建築物關閉。\n感測器通常可以設定只在某些條件發出綠色訊號。\n像是<link=\"LOGICTEMPERATURESENSOR\">溫度感測器</link>可設定為只在偵測到溫度高於所設定的值時發出綠色訊號。\n\n"
 
 #. STRINGS.CODEX.AUTOMATION.PARAGRAPH_4
 msgctxt "STRINGS.CODEX.AUTOMATION.PARAGRAPH_4"
 msgid "The signals of sensor wires can be combined using special buildings called \"Gates\" in order to create complex activation conditions.\nThe <link=\"LOGICGATEAND\">AND Gate</link> can have two automation wires connected to its input slots, and one connected to its output slots. It will send a \"Green\" signal to its output slot only if it is receiving a \"Green\" signal from both its input slots. This could be used to activate a building only when multiple sensors are detecting something.\n\n"
-msgstr "為了實現某些複雜的啟動條件，感測器的訊號線可以使用稱為「邏輯閘」的特殊建築結合在一起。\n<link=\"LOGICGATEAND\">及閘</link> 可以連接兩條訊號輸入線，然後連接一條訊號輸出線。\n如果在兩個輸入訊號都是「綠色」的時候，它會輸出「綠色」訊號。\n這可以用於只有當多個感測器檢查到某些事物時才啟動建築。\n\n"
+msgstr "為了實現某些複雜的啟動條件，感測器的訊號線可以使用稱為「邏輯閘」的特殊建築結合在一起。\n<link=\"LOGICGATEAND\">及閘</link>可以連接兩條訊號輸入線，然後連接一條訊號輸出線。\n如果在兩個輸入訊號都是「綠色」的時候，它會輸出「綠色」訊號。\n這可以用於只有當多個感測器檢查到某些事物時才啟動建築。\n\n"
 
 #. STRINGS.CODEX.AUTOMATION.TITLE
 msgctxt "STRINGS.CODEX.AUTOMATION.TITLE"
@@ -15334,7 +15334,7 @@ msgstr "悖論"
 #. STRINGS.CODEX.B2_ELLIESBIRTHDAY.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B2_ELLIESBIRTHDAY.BODY.CONTAINER1"
 msgid "Joshua: Hey Mr. Kraus, I'm passing around the collection pan. Wanna pitch in a couple bucks to get a cake for Ellie?\n\nOtto: Uh... I think I'll pass.\n\nJoshua: C'mon Otto, it's her birthday.\n\nOtto: Alright, fine. But this is all I have on me.\n\nOtto: I don't get why you hang out with her. Isn't she kind of... you know, mean?\n\nJoshua: Even the meanest people have a little niceness in them somewhere.\n\nOtto: Huh. Good luck finding it.\n\nJoshua: Thanks for the cake money, Otto.\n------------------\n"
-msgstr "Joshua：嘿，Kraus 先生，我繞過了收集盤。想花點錢為 Ellie 買個蛋糕嗎？\n\nOtto：恩…我想不用了。\n\nJoshua：買吧 Otto，今天可是她的生日。\n\nOtto：好吧。但這是我所有的錢了。\n\nOtto：我不懂為什麼你要和她閒逛。她不是那種…你知道的，是嗎？\n\nJoshua：即使是最刻薄的人，也有某些優點的。\n\nOtto：恩。祝你好運。\n\nJoshua：感謝你的蛋糕錢，Otto。\n------------------\n"
+msgstr "Joshua：嘿，Kraus 先生，我正在找爸爸斗內。想花點錢為 Ellie 買個蛋糕嗎？\n\nOtto：恩…我想不用了。\n\nJoshua：買吧 Otto，今天可是她的生日。\n\nOtto：好吧。但這是我所有的錢了。\n\nOtto：我不懂為什麼你要和她閒逛。她不是那種…你知道的，是嗎？\n\nJoshua：即使是最刻薄的人，也有某些優點的。\n\nOtto：恩。祝你好運。\n\nJoshua：感謝你的蛋糕錢，Otto。\n------------------\n"
 
 #. STRINGS.CODEX.B2_ELLIESBIRTHDAY.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.B2_ELLIESBIRTHDAY.BODY.CONTAINER2"
@@ -16289,17 +16289,17 @@ msgstr "太空運輸"
 #. STRINGS.CODEX.EXOBASES.PARAGRAPH_1
 msgctxt "STRINGS.CODEX.EXOBASES.PARAGRAPH_1"
 msgid "Building a rocket first requires constructing a <link=\"LAUNCHPAD\">Rocket Platform</link> and adding modules from the menu. All rockets will require an engine, a nosecone and a Command Module piloted by a Duplicant possessing the <link=\"ROCKETPILOTING1\">Rocket Piloting</link> skill or higher. Note that the <link=\"HABITATMODULESMALL\">Solo Spacefarer Nosecone</link> functions as both a Command Module and a nosecone.\n\n"
-msgstr "建造火箭需先建造<link=\"LAUNCHPAD\">火箭平台</link>然後從選單增加模組。\n所有的火箭都需要引擎、鼻錐與駕駛模組，複製人需學會 <link=\"ROCKETPILOTING1\">火箭駕駛</link> 或更高級的技能。\n注意 <link=\"HABITATMODULESMALL\">單座鼻錐</link> 功能與駕駛模組與鼻錐相同。\n\n"
+msgstr "建造火箭需先建造<link=\"LAUNCHPAD\">火箭平台</link>然後從選單增加模組。\n所有的火箭都需要引擎、鼻錐與駕駛模組，複製人需學會<link=\"ROCKETPILOTING1\">火箭駕駛</link>或更高級的技能。\n注意<link=\"HABITATMODULESMALL\">單座鼻錐</link>功能與駕駛模組與鼻錐相同。\n\n"
 
 #. STRINGS.CODEX.EXOBASES.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.EXOBASES.PARAGRAPH_2"
 msgid "To scan space and see nearby intersteller destinations a <link=\"CLUSTERTELESCOPE\">Telescope</link> must first be built on the surface of a Planetoid. <link=\"ORBITALRESEARCHCENTER\">Orbital Data Collection Lab</link> in orbit around a Planetoid, and <link=\"SCANNERMODULE\">Cartographic Module</link> attached to a rocket can also reveal places on a Starmap.\n\nAlways check engine fuel to determine if your rocket can reach its destination, keeping in mind rockets can only land on Plantoids with a <link=\"LAUNCHPAD\">Rocket Platform</link> on it although some modules like <link=\"SCOUTMODULE\">Rover's Modules</link> and <link=\"PIONEERMODULE\">Trailblazer Modules</link> can be sent to the surface of a Planetoid from a rocket in orbit.\n\n"
-msgstr "掃描太空並查看附近的星際目的地，必須先在小行星表面建造 <link=\"CLUSTERTELESCOPE\">望遠鏡</link> 。\n在小行星軌道上的 <link=\"ORBITALRESEARCHCENTER\">軌道資料收集儀</link> ，與加裝在火箭上的 <link=\"SCANNERMODULE\">製圖模組</link> 也可以揭露星圖的區塊。\n\n務必檢查火箭燃料，確保你的火箭可以到達目的地，\n請牢記火箭只能在有<link=\"LAUNCHPAD\">火箭平台</link>的小行星著陸，\n另外還有可以從位於軌道上的火箭發射 <link=\"SCOUTMODULE\">漫遊者模組</link> 與 <link=\"PIONEERMODULE\">開拓者模組</link> 到小行星表面。\n\n"
+msgstr "掃描太空並查看附近的星際目的地，必須先在小行星表面建造<link=\"CLUSTERTELESCOPE\">望遠鏡</link>。\n在小行星軌道上的<link=\"ORBITALRESEARCHCENTER\">軌道資料收集儀</link>，與加裝在火箭上的<link=\"SCANNERMODULE\">製圖模組</link>也可以揭露星圖的區塊。\n\n務必檢查火箭燃料，確保你的火箭可以到達目的地，\n請牢記火箭只能在有<link=\"LAUNCHPAD\">火箭平台</link>的小行星著陸，\n另外還有可以從位於軌道上的火箭發射<link=\"SCOUTMODULE\">漫遊者模組</link>與<link=\"PIONEERMODULE\">開拓者模組</link>到小行星表面。\n\n"
 
 #. STRINGS.CODEX.EXOBASES.PARAGRAPH_3
 msgctxt "STRINGS.CODEX.EXOBASES.PARAGRAPH_3"
 msgid "Goods can be teleported between worlds with connected Supply Teleporters through <link=\"ELEMENTSGAS\">Gas</link>, <link=\"ELEMENTSLIQUID\">Liquid</link>, and <link=\"ELEMENTSSOLID\">Solid</link> conduits.\n\nPlanetoids not connected through Supply Teleporters can use rockets to transport goods, either by landing on a <link=\"LAUNCHPAD\">Rocket Platform</link> or a <link=\"ORBITALCARGOMODULE\">Orbital Cargo Module</link> deployed from a rocket in orbit. Additionally, the <link=\"RAILGUN\">Interplanetary Launcher</link> can send <link=\"RAILGUNPAYLOAD\">Interplanetary Payloads</link> full of goods through space but must be opened by a <link=\"RAILGUNPAYLOADOPENER\">Payload Opener</link>. A <link=\"LANDINGBEACON\">Targeting Beacon</link> can guide payloads and orbital modules to land at a specific location on a Planetoid surface."
-msgstr "貨物可以透過連接補給傳送器上的<link=\"ELEMENTSGAS\">氣體</link>、<link=\"ELEMENTSLIQUID\">液體</link>與<link=\"ELEMENTSSOLID\">固體</link>輸送帶軌道在兩個世界中傳送。\n\n未連接補給傳送器的小行星可以使用火箭運送貨物，\n通過著陸<link=\"LAUNCHPAD\">火箭平台</link>或是從位於軌道上的火箭佈署 <link=\"ORBITALCARGOMODULE\">軌道貨艙模組</link>。\n另外，<link=\"RAILGUN\">軌道炮</link>可以發送裝滿貨物的 <link=\"RAILGUNPAYLOAD\">星際貨箱</link> 進行太空運輸，但必須由 <link=\"RAILGUNPAYLOADOPENER\">星際貨箱拆箱機</link> 打開。\n<link=\"LANDINGBEACON\">定位信標</link> 可以引導貨箱與軌道模組著陸到小行星表面的指定地點。"
+msgstr "貨物可以透過連接補給傳送器上的<link=\"ELEMENTSGAS\">氣體</link>、<link=\"ELEMENTSLIQUID\">液體</link>與<link=\"ELEMENTSSOLID\">固體</link>輸送帶軌道在兩個世界中傳送。\n\n未連接補給傳送器的小行星可以使用火箭運送貨物，\n透過降落於<link=\"LAUNCHPAD\">火箭平台</link>或是從位於軌道上的火箭佈署<link=\"ORBITALCARGOMODULE\">軌道貨艙模組</link>。\n另外，<link=\"RAILGUN\">軌道炮</link>可以發送裝滿貨物的<link=\"RAILGUNPAYLOAD\">星際貨箱</link>進行太空運輸，但必須由<link=\"RAILGUNPAYLOADOPENER\">星際貨箱拆箱機</link>打開。\n<link=\"LANDINGBEACON\">定位信標</link>可以引導貨箱與軌道模組著陸到小行星表面的指定地點。"
 
 #. STRINGS.CODEX.EXOBASES.TITLE
 msgctxt "STRINGS.CODEX.EXOBASES.TITLE"
@@ -16649,12 +16649,12 @@ msgstr "失能與死亡"
 #. STRINGS.CODEX.HEALTH.PARAGRAPH_1
 msgctxt "STRINGS.CODEX.HEALTH.PARAGRAPH_1"
 msgid "Duplicants can be physically damaged by some rare circumstances, such as extreme <link=\"HEAT\">Heat</link> or aggressive <link=\"CREATURES\">Critters</link>. Damaged Duplicants will suffer greatly reduced athletic abilities, and are at risk of incapacitation if damaged too severely.\n\n"
-msgstr "在某些罕見的情況下，複製人會收到物理傷害，像是<link=\"HEAT\">熱</link>或侵略性強的 <link=\"CREATURES\">動物</link>。\n受傷的複製人會大大降低行動能力，如果太嚴重則會失去行動能力。\n\n"
+msgstr "在某些罕見的情況下，複製人會收到物理傷害，像是<link=\"HEAT\">熱</link>或侵略性強的<link=\"CREATURES\">動物</link>。\n受傷的複製人會大大降低行動能力，如果太嚴重則會失去行動能力。\n\n"
 
 #. STRINGS.CODEX.HEALTH.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.HEALTH.PARAGRAPH_2"
 msgid "Incapacitated Duplicants cannot move or perform errands. They must be rescued by another Duplicant before their health drops to zero. If a Duplicant's health reaches zero they will die.\n\nHealth can be restored slowly over time and quickly through rest at the <link=\"MEDICALCOT\">Triage Cot</link>.\n\n Duplicants are generally more vulnerable to <link=\"DISEASE\">Disease</link> than physical damage.\n\n"
-msgstr "喪失行動能力的複製人無法移動或執行工作。\n在他們的生命值歸零之前必須被其它的複製人搶救。\n如果複製人的生命值歸零會死亡。\n\n生命值會隨著時間緩慢恢復，而在 <link=\"MEDICALCOT\">醫療床</link> 上會快速地恢復。\n\n與物理傷害相比，複製人更容易受到 <link=\"DISEASE\">疾病</link> 危害。\n\n"
+msgstr "喪失行動能力的複製人無法移動或執行工作。\n在他們的生命值歸零之前必須被其它的複製人搶救。\n如果複製人的生命值歸零會死亡。\n\n生命值會隨著時間緩慢恢復，而在<link=\"MEDICALCOT\">醫療床</link>上會快速地恢復。\n\n與物理傷害相比，複製人更容易受到<link=\"DISEASE\">疾病</link>危害。\n\n"
 
 #. STRINGS.CODEX.HEALTH.TITLE
 msgctxt "STRINGS.CODEX.HEALTH.TITLE"
@@ -16834,17 +16834,17 @@ msgstr "測量燈光"
 #. STRINGS.CODEX.LIGHT.PARAGRAPH_1
 msgctxt "STRINGS.CODEX.LIGHT.PARAGRAPH_1"
 msgid "Most of the asteroid is dark. Light sources such as the <link=\"CEILINGLIGHT\">Ceiling Light</link> or <link=\"LIGHTBUG\">Shine Bug</link> improves Decor and gives Duplicants a boost to their productivity. Many plants are also sensitive to the amount of light they receive.\n\n"
-msgstr "大多數的小行星是黑暗的。\n像是 <link=\"CEILINGLIGHT\">燈泡</link> 或 <link=\"LIGHTBUG\">發光蟲</link> 等光源，可以給予複製人士氣與生產力加成。\n許多植物對接收到的光照量也很敏感。\n"
+msgstr "大多數的小行星是黑暗的。\n像是<link=\"CEILINGLIGHT\">燈泡</link>或<link=\"LIGHTBUG\">發光蟲</link>等光源，可以給予複製人士氣與生產力加成。\n許多植物對接收到的光照量也很敏感。\n"
 
 #. STRINGS.CODEX.LIGHT.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.LIGHT.PARAGRAPH_2"
 msgid "The <link=\"FLOORLAMP\">Lamp</link> and <link=\"CEILINGLIGHT\">Ceiling Light</link> produce a decent amount of light when powered. The <link=\"LIGHTBUG\">Shine Bug</link> naturally emits a halo of light. Strong solar light is available on the surface during daytime.\n\n"
-msgstr "<link=\"FLOORLAMP\">立燈</link> 與 <link=\"CEILINGLIGHT\">燈泡</link> 通電時會產生明亮的光線。\n<link=\"LIGHTBUG\">發光蟲</link> 會自然散發少量光線。\n白天在地表有強大的太陽能可利用。\n\n"
+msgstr "<link=\"FLOORLAMP\">立燈</link>與<link=\"CEILINGLIGHT\">燈泡</link>通電時會產生明亮的光線。\n<link=\"LIGHTBUG\">發光蟲</link>會自然散發少量光線。\n白天在地表有強大的太陽能可利用。\n\n"
 
 #. STRINGS.CODEX.LIGHT.PARAGRAPH_3
 msgctxt "STRINGS.CODEX.LIGHT.PARAGRAPH_3"
 msgid "The amount of light on a cell is measured in Lux. Lux has a dramatic range - A simple <link=\"CEILINGLIGHT\">Ceiling Light</link> produces 1800 Lux, while the sun can produce values as high as 80000 Lux. The <link=\"SOLARPANEL\">Solar Panel</link> generates power proportional to how many Lux it is exposed to.\n\n"
-msgstr "光的單位是勒克斯。\n勒克斯的範圍很大－舉例 <link=\"CEILINGLIGHT\">燈泡</link> 產生 1800 勒克斯，而太陽產生的量通常會高達 80000 勒克斯。\n<link=\"SOLARPANEL\">太陽能板</link> 產生的電力與光照量成正比。\n"
+msgstr "光的單位是勒克斯。\n勒克斯的範圍很大－舉例<link=\"CEILINGLIGHT\">燈泡</link>產生 1800 勒克斯，而太陽產生的量通常會高達 80000 勒克斯。\n<link=\"SOLARPANEL\">太陽能板</link>產生的電力與光照量成正比。\n"
 
 #. STRINGS.CODEX.LIGHT.TITLE
 msgctxt "STRINGS.CODEX.LIGHT.TITLE"
@@ -16859,7 +16859,7 @@ msgstr "神經振盪器"
 #. STRINGS.CODEX.LUMBER.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.LUMBER.BODY.CONTAINER1"
 msgid "Lumber is harvested from <link=\"FORESTTREE\">Arbor Trees</link> and <link=\"CRABWOOD\">Oakshells</link>."
-msgstr "木材採自 <link=\"FORESTTREE\">喬木</link> 和 <link=\"CRABWOOD\">橡木蟹</link>。"
+msgstr "木材採自<link=\"FORESTTREE\">喬木</link>和<link=\"CRABWOOD\">橡木蟹</link>。"
 
 #. STRINGS.CODEX.LUMBER.SUBTITLE
 msgctxt "STRINGS.CODEX.LUMBER.SUBTITLE"
@@ -16929,7 +16929,7 @@ msgstr "<indent=5%>我的天啊 Amari，你太神經質了！！ 這可能只是
 #. STRINGS.CODEX.MISSINGNOTES.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.MISSINGNOTES.BODY.CONTAINER3"
 msgid "<indent=5%>Dear Dr. Jones,\nI'm so sorry to bother you again...it's just that I'm absolutely certain that someone has been interfering with my files.\n\nI've noticed several discrepancies since last week's \"glitch.\" For example, responses to my recent employee survey on workplace satisfaction and safety were decrypted, and significant portions of my data and research notes have been erased. I'm even missing a few e-mails.\n\nIt's all quite alarming. Could you or Dr. Summers please investigate this when you have a moment?\n\nThank you so much,\n\n</indent>"
-msgstr "<indent=5%>親愛的 Jones 博士，\n很抱歉再次打擾您...只是我絕對確定有人一直在擾亂我的文件。\n\n自上週的“故障”以來，我注意到了一些差異。例如，我最近對工作場所滿意度和安全性的員工調查的回復被解密，我的大部分資料和研究筆記被刪除。我甚至錯過了一些電子郵件。\n\n這一切都非常令人擔憂。可以麻煩您或 Summers 博士在有時間的時候調查一下嗎？\n\n非常感謝，\n\n</indent>"
+msgstr "<indent=5%>親愛的 Jones 博士，\n很抱歉再次打擾您...只是我絕對確定有人一直在擾亂我的文件。\n\n自上週的「故障」以來，我注意到了一些差異。例如，我最近對工作場所滿意度和安全性的員工調查的回復被解密，我的大部分資料和研究筆記被刪除。我甚至錯過了一些電子郵件。\n\n這一切都非常令人擔憂。可以麻煩您或 Summers 博士在有時間的時候調查一下嗎？\n\n非常感謝，\n\n</indent>"
 
 #. STRINGS.CODEX.MISSINGNOTES.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.MISSINGNOTES.BODY.CONTAINER4"
@@ -17039,17 +17039,17 @@ msgstr "士氣反應"
 #. STRINGS.CODEX.MORALE.PARAGRAPH_1
 msgctxt "STRINGS.CODEX.MORALE.PARAGRAPH_1"
 msgid "Morale describes the relationship between a Duplicant's <link=\"ROLES\">Skills</link> and their Lifestyle. The more skills a Duplicant has, the higher their morale expectation will be. Duplicants with morale below their expectation will experience a <link=\"STRESS\">Stress</link> penalty. Comforts such as quality <link=\"FOOD\">Food</link>, nice rooms, and recreation will increase morale.\n\n"
-msgstr "士氣描述了複製人的 <link=\"ROLES\">技能</link> 與他們的生活方式之間的關係。\n複製人學會的技能愈多，他們的士氣期望也會愈高。\n複製人的士氣一旦降到他們期望之下會產生<link=\"STRESS\">壓力</link>。\n提供 <link=\"FOOD\">優質食物</link>、漂亮的房間與娛樂活動會增加士氣。\n\n"
+msgstr "士氣描述了複製人的<link=\"ROLES\">技能</link>與他們的生活方式之間的關係。\n複製人學會的技能愈多，他們的士氣期望也會愈高。\n複製人的士氣一旦降到他們期望之下會產生<link=\"STRESS\">壓力</link>。\n提供<link=\"FOOD\">優質食物</link>、漂亮的房間與娛樂活動會增加士氣。\n\n"
 
 #. STRINGS.CODEX.MORALE.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.MORALE.PARAGRAPH_2"
 msgid "Recreation buildings such as the <link=\"WATERCOOLER\">Water Cooler</link> and <link=\"ESPRESSOMACHINE\">Espresso Machine</link> improve a Duplicant's morale when used. Duplicants need downtime time in their schedules to use these buildings.\n\n"
-msgstr "娛樂建築像是 <link=\"WATERCOOLER\">飲水機</link> 與 <link=\"ESPRESSOMACHINE\">濃縮咖啡機</link> 使用後會增加複製人的士氣。\n複製人在他們的時間表中需要排定休閒時間才能使用這些建築。\n\n"
+msgstr "娛樂建築像是<link=\"WATERCOOLER\">飲水機</link>與<link=\"ESPRESSOMACHINE\">濃縮咖啡機</link>使用後會增加複製人的士氣。\n複製人在他們的時間表中需要排定休閒時間才能使用這些建築。\n\n"
 
 #. STRINGS.CODEX.MORALE.PARAGRAPH_3
 msgctxt "STRINGS.CODEX.MORALE.PARAGRAPH_3"
 msgid "If a Duplicant has a very high Morale value, they will spontaneously display an Overjoyed Response. Each Duplicant has a different Overjoyed Behavior - but all overjoyed responses are good. Some will positively affect Building <link=\"DECOR\">Decor</link>, others will positively affect Duplicant morale or productivity.\n\n"
-msgstr "如果複製人的士氣值非常高，他們會表現出高士氣反應。每個複製人都有不同的高士氣行為——但所有高士氣的反應都是好的。有些會對<link=\"DECOR\">裝飾</link>產生積極影響，另一些會對其他複製人的士氣或生產力產生積極影響。\n\n\n"
+msgstr "如果複製人的士氣值非常高，他們會同時出現欣喜若狂反應。每個複製人都有不同的欣喜若狂行為 —— 但所有的欣喜若狂反應都是好的。有些會對<link=\"DECOR\">裝飾</link>產生積極影響，另一些會對其他複製人的士氣或生產力產生積極影響。\n\n\n"
 
 #. STRINGS.CODEX.MORALE.TITLE
 msgctxt "STRINGS.CODEX.MORALE.TITLE"
@@ -27089,7 +27089,7 @@ msgstr "士氣反應"
 #. STRINGS.DUPLICANTS.CHORES.JOYREACTION.REPORT_NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.JOYREACTION.REPORT_NAME"
 msgid "Overjoyed Reaction"
-msgstr "喜出望外反應"
+msgstr "欣喜若狂反應"
 
 #. STRINGS.DUPLICANTS.CHORES.JOYREACTION.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.JOYREACTION.STATUS"
@@ -38629,7 +38629,7 @@ msgstr "確保複製人可以在任何時間，任何地點輕鬆的呼吸。"
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.EFFECT
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.EFFECT"
 msgid "Supplies Duplicants with <style=\"oxygen\">Oxygen</style> in toxic and low breathability environments.\n\nMust be refilled with oxygen at an <link=\"SUITLOCKER\">Atmo Suit Dock</link> when depleted."
-msgstr "提供複製人<style=\"oxygen\">氧氣</style> 在有毒與低氧的環境中呼吸。\n\n氧氣耗盡時，必須在<link=\"SUITLOCKER\">太空衣存放櫃</link>重新補充。"
+msgstr "提供複製人<style=\"oxygen\">氧氣</style>在有毒與低氧的環境中呼吸。\n\n氧氣耗盡時，必須在<link=\"SUITLOCKER\">太空衣存放櫃</link>重新補充。"
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.GENERICNAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.GENERICNAME"
@@ -39554,7 +39554,7 @@ msgstr "不要出汗！"
 #. STRINGS.EQUIPMENT.PREFABS.COOL_VEST.EFFECT
 msgctxt "STRINGS.EQUIPMENT.PREFABS.COOL_VEST.EFFECT"
 msgid "Protects the wearer from <style=\"heat\">Heat</style> by decreasing insulation."
-msgstr "減少隔熱，保護穿載者免受 <style=\"heat\">熱</style> 的影響。"
+msgstr "減少隔熱，保護穿載者免受<style=\"heat\">熱</style>的影響。"
 
 #. STRINGS.EQUIPMENT.PREFABS.COOL_VEST.GENERICNAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.COOL_VEST.GENERICNAME"
@@ -39569,7 +39569,7 @@ msgstr "<link=\"COOLVEST\">涼爽背心</link>"
 #. STRINGS.EQUIPMENT.PREFABS.COOL_VEST.RECIPE_DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.COOL_VEST.RECIPE_DESC"
 msgid "Protects the wearer from <style=\"heat\">Heat</style> by decreasing insulation"
-msgstr "減少隔熱，在 <style=\"heat\">熱</style> 的環境中保護穿載者"
+msgstr "減少隔熱，在<style=\"heat\">熱</style>的環境中保護穿載者"
 
 #. STRINGS.EQUIPMENT.PREFABS.CUSTOMCLOTHING.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CUSTOMCLOTHING.DESC"
@@ -39794,7 +39794,7 @@ msgstr "一種有著熟悉色調的閃光氣球。"
 #. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.BALLOON_YELLOW_LONG_SPARKLES.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.BALLOON_YELLOW_LONG_SPARKLES.NAME"
 msgid "<link=\"EQUIPPABLEBALLOON\">Lavatory Glitter</link>"
-msgstr "<link=\"EQUIPPABLEBALLOON\">沖水馬桶閃光氣球</link>"
+msgstr "<link=\"EQUIPPABLEBALLOON\">廁所閃光氣球</link>"
 
 #. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_BLUEBERRY.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_BLUEBERRY.DESC"
@@ -40169,7 +40169,7 @@ msgstr "在<style=\"heat\">寒冷</style>的環境中保護穿載者"
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSALGAE.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSALGAE.DESCRIPTION"
 msgid "{dupe}'s recent proximity to an Algae Terrarium has left them feeling refreshed and exuberant and is correlated to an increase in their physical attributes. It is unclear whether these physical improvements came from the excess of oxygen or the invigorating smell of algae.\n\nIt's curious that I find myself nostalgic for the smell of algae growing in a lab. But how could this be...?"
-msgstr "{dupe}最近接近藻類盆栽使他們感覺神清氣爽，且增加了他們的身體素質。不清楚這些體質方面的提升是因為吸了高濃度的氧氣，或者是因為藻類的氣味。\n\n奇怪的是，我開始懷念實驗室內的藻類氣味。但這怎麼可能…？"
+msgstr "{dupe} 最近接近藻類盆栽使他們感覺神清氣爽，且增加了他們的身體素質。不清楚這些體質方面的提升是因為吸了高濃度的氧氣，或者是因為藻類的氣味。\n\n奇怪的是，我開始懷念實驗室內的藻類氣味。但這怎麼可能…？"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSALGAE.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSALGAE.NAME"
@@ -40179,7 +40179,7 @@ msgstr "新鮮藻類的氣味"
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSBUILDER.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSBUILDER.DESCRIPTION"
 msgid "{dupe} has been hard at work building many structures crucial to the future of the colony. It seems this activity has improved this Duplicant's budding construction and mechanical skills beyond what my models predicted.\n\nWhether this increase in ability is due to them learning new skills or simply gaining self-confidence I cannot say, but this unexpected development is a welcome surprise development."
-msgstr "{dupe}努力建造對殖民地未來至關重要的許多建築。這些活動會增強複製人的建造與機械技能，超出了原先設計的模型。\n\n我說不出來這種能力的提升是因為學習新技能或僅僅是因為自信所帶來的，但這是個令人喜歡的意外發展。"
+msgstr "{dupe} 努力建造對殖民地未來至關重要的許多建築。這些活動會增強複製人的建造與機械技能，超出了原先設計的模型。\n\n我說不出來這種能力的提升是因為學習新技能或僅僅是因為自信所帶來的，但這是個令人喜歡的意外發展。"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSBUILDER.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSBUILDER.NAME"
@@ -40189,7 +40189,7 @@ msgstr "熟練的建築師"
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDIGGING1.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDIGGING1.DESCRIPTION"
 msgid "Some interesting data has revealed that {dupe} has had a marked increase in physical abilities, an increase that cannot entirely be attributed to the usual improvements that occur after regular physical activity.\n\nBased on previous observations this Duplicant's positive associations with digging appear to account for this additional physical boost.\n\nThis would mean the personal preferences of my Duplicants are directly correlated to how hard they work. How interesting..."
-msgstr "我發現了一些有趣的資料，{dupe}的身體機能有了顯著的提高，而這種提高不能完全歸因於定期身體活動後的常規提升。\n\n根據之前的觀察，這名複製人的積極挖掘似乎是這種身體增強的原因。\n\n這意味著我的複製人的個人喜好，會直接與其努力程度相關。真有趣……"
+msgstr "我發現了一些有趣的資料，{dupe} 的身體機能有了顯著的提高，而這種提高不能完全歸因於定期身體活動後的常規提升。\n\n根據之前的觀察，這名複製人的積極挖掘似乎是這種身體增強的原因。\n\n這意味著我的複製人的個人喜好，會直接與其努力程度相關。真有趣……"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDIGGING1.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDIGGING1.NAME"
@@ -40199,7 +40199,7 @@ msgstr "熱鑽頭！"
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDOOR.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDOOR.DESCRIPTION"
 msgid "The act of closing a door has apparently lead to a decrease in the <link=\"STRESS\">Stress</link> levels of {dupe}, as well as decreased the exposure of this Duplicant to harmful <link=\"GERMS\">Germs</link>.\n\nWhile it may be more efficient to group all my Duplicants together in common sleeping quarters, it's important to remember the mental benefits to privacy and space to express their individuality."
-msgstr "關閉這項行為會顯著的減少{dupe}的<link=\"STRESS\">壓力</link>等級，以及減少讓這個複製人暴露於有害的<link=\"GERMS\">細菌</link>環境中。\n\n雖然將全部的複製人安排在同個房間睡覺會更有效率，重要的是記住隱私與空間對他們個人心理的情感表現有益處。"
+msgstr "關閉這項行為會顯著的減少 {dupe} 的<link=\"STRESS\">壓力</link>等級，以及減少讓這個複製人暴露於有害的<link=\"GERMS\">細菌</link>環境中。\n\n雖然將全部的複製人安排在同個房間睡覺會更有效率，重要的是記住隱私與空間對他們個人心理的情感表現有益處。"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDOOR.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDOOR.NAME"
@@ -40209,12 +40209,12 @@ msgstr "開門與關門"
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDREAM1.CHAIN_TOOLTIP
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDREAM1.CHAIN_TOOLTIP"
 msgid "Improving the living conditions of {dupe} will lead to more good dreams."
-msgstr "改善{dupe}的生活條件會使他們做個更好的美夢。"
+msgstr "改善 {dupe} 的生活條件會使他們做個更好的美夢。"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDREAM1.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDREAM1.DESCRIPTION"
 msgid "I've observed many improvements to {dupe}'s demeanor today. Analysis indicates unusually high amounts of dopamine in their system. There's a good chance this is due to an exceptionally good dream and analysis indicates that current sleeping conditions may have contributed to this occurrence.\n\nFurther improvements to sleeping conditions may have additional positive effects to the <link=\"MORALE\">Morale</link> of {dupe} and other Duplicants."
-msgstr "我觀察到今天{dupe}的行為有了很多改善。分析顯示他們體內的多巴胺含量異常的高。因為這個特別美好的夢是個機會而分析顯示可能是目前的睡眠條件造成這種情況。\n\n進一步改善睡眠品質可能對{dupe}與其它複製人的<link=\"MORALE\">士氣</link>有額外的正向效果。"
+msgstr "我觀察到今天 {dupe} 的行為有了很多改善。分析顯示他們體內的多巴胺含量異常的高。因為這個特別美好的夢是個機會而分析顯示可能是目前的睡眠條件造成這種情況。\n\n進一步改善睡眠品質可能對{dupe}與其它複製人的<link=\"MORALE\">士氣</link>有額外的正向效果。"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDREAM1.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDREAM1.NAME"
@@ -40224,7 +40224,7 @@ msgstr "好夢"
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDREAM2.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDREAM2.DESCRIPTION"
 msgid "{dupe} had another really good dream and the resulting release of dopamine has made this Duplicant energetic and full of possibilities! This is an encouraging byproduct of improving the living conditions of the colony.\n\nBased on these observations, building a better sleeping area for my Duplicants will have a similar effect on their <link=\"MORALE\">Morale</link>."
-msgstr "{dupe}做了一個真實的美夢而所釋放的多巴胺讓複製人充滿了活力與可能性！\n這是改善殖民地生活條件後鼓舞人心的副產品。\n\n根據這些觀察，為複製人打造一個更好的睡房會影響他們的<link=\"MORALE\">士氣</link>。"
+msgstr "{dupe} 做了一個真實的美夢而所釋放的多巴胺讓複製人充滿了活力與可能性！\n這是改善殖民地生活條件後鼓舞人心的副產品。\n\n根據這些觀察，為複製人打造一個更好的睡房會影響他們的<link=\"MORALE\">士氣</link>。"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDREAM2.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDREAM2.NAME"
@@ -40234,7 +40234,7 @@ msgstr "真實的美夢"
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDREAM3.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDREAM3.DESCRIPTION"
 msgid "I have detected a distinct spring in {dupe}'s step today. There is a good chance that this Duplicant had another great dream last night. Such incidents are further indications that working on the care and comfort of the colony is not a waste of time.\n\nI do wonder though: What do Duplicants dream of?"
-msgstr "我發現今天{dupe}的腳步顯示像是春天。複製人昨晚做了另一個美夢。這樣的事進一步顯示關心與提供舒適的殖民地不是在浪費時間。\n\n我真想知道：複製人都夢到些什麼？"
+msgstr "我發現今天 {dupe} 的腳步顯示像是春天。複製人昨晚做了另一個美夢。這樣的事進一步顯示關心與提供舒適的殖民地不是在浪費時間。\n\n我真想知道：複製人都夢到些什麼？"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDREAM3.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDREAM3.NAME"
@@ -40244,7 +40244,7 @@ msgstr "美夢"
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDREAM4.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDREAM4.DESCRIPTION"
 msgid "{dupe}'s dream last night must have been simply amazing! Their dopamine levels are at an all time high. Based on these results, it can be safely assumed that improving the living conditions of my Duplicants will reduce <link=\"STRESS\">Stress</link> and have similar positive effects on their well-being.\n\nObservations such as this are an integral and enjoyable part of science. When I see my Duplicants happy, I can't help but share in some of their joy."
-msgstr "{dupe}昨天做了個神奇的夢！多巴胺含量一直處於高點。\n根據這些結果可以安全的假設，改善複製人的生活條件會減少<link=\"STRESS\">壓力</link>並對身心健康有正向的影響。\n\n這樣觀察是科學不可或缺的一部分。當我看見複製人們開心，我忍不住分享他們的喜悅。"
+msgstr "{dupe} 昨天做了個神奇的夢！多巴胺含量一直處於高點。\n根據這些結果可以安全的假設，改善複製人的生活條件會減少<link=\"STRESS\">壓力</link>並對身心健康有正向的影響。\n\n這樣觀察是科學不可或缺的一部分。當我看見複製人們開心，我忍不住分享他們的喜悅。"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDREAM4.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSDREAM4.NAME"
@@ -40254,7 +40254,7 @@ msgstr "神奇的夢"
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSGENERATOR.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSGENERATOR.DESCRIPTION"
 msgid "{dupe} ran in a Manual Generator and the physical activity appears to have given this Duplicant increased strength and sense of well-being.\n\nWhile not the primary reason for building Manual Generators, I am very pleased to see my Duplicants reaping the <link=\"STRESS\">Stress</link> relieving benefits to physical activity."
-msgstr "{dupe}在人力發電機中跑步，而體能活動似乎會增強複製人的力量與幸福感。\n\n雖然這不是建造人力發電機的主要原因，但我很高興見到複製人從事體能活動帶來了釋放<link=\"STRESS\">壓力</link>的益處。"
+msgstr "{dupe} 在人力發電機中跑步，而體能活動似乎會增強複製人的力量與幸福感。\n\n雖然這不是建造人力發電機的主要原因，但我很高興見到複製人從事體能活動帶來了釋放<link=\"STRESS\">壓力</link>的益處。"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSGENERATOR.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSGENERATOR.NAME"
@@ -40264,7 +40264,7 @@ msgstr "運動"
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSHITTHEBOOKS.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSHITTHEBOOKS.DESCRIPTION"
 msgid "{dupe}'s recent Research errand has resulted in a significant increase to this Duplicant's brain activity. The discovery of newly found knowledge has given {dupe} an invigorating jolt of excitement.\n\nI am all too familiar with this feeling."
-msgstr "{dupe}最近的研究工作明顯增加這個複製人的腦部活動。新發現的知識讓{dupe}非常激動。\n\n我對這種感覺太熟悉了。"
+msgstr "{dupe} 最近的研究工作明顯增加這個複製人的腦部活動。新發現的知識讓 {dupe} 非常激動。\n\n我對這種感覺太熟悉了。"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSHITTHEBOOKS.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSHITTHEBOOKS.NAME"
@@ -40274,7 +40274,7 @@ msgstr "努力鑽研"
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSLITWORKSPACE.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSLITWORKSPACE.DESCRIPTION"
 msgid "{dupe}'s recent time in a well-lit area has greatly improved this Duplicant's ability to work with, and on, machinery.\n\nThis supports the prevailing theory that a well-lit workspace has many benefits beyond just improving my Duplicant's ability to see."
-msgstr "{dupe}在光線充足的地方工作，大大提高了操作機械的工作效率。\n\n這提供了一種理論，光線充足的工作空間不僅能讓複製人看的清楚，也能提升他們的能力。"
+msgstr "{dupe} 在光線充足的地方工作，大大提高了操作機械的工作效率。\n\n這提供了一種理論，光線充足的工作空間不僅能讓複製人看的清楚，也能提升他們的能力。"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSLITWORKSPACE.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSLITWORKSPACE.NAME"
@@ -40284,7 +40284,7 @@ msgstr "Lit-erally Great"
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSOXYGEN.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSOXYGEN.DESCRIPTION"
 msgid "{dupe} is experiencing a sudden unexpected improvement to their physical prowess which appears to be a result of exposure to elevated levels of oxygen from passing by an Oxygen Diffuser.\n\nObservations such as this are important in documenting just how beneficial having access to oxygen is to my colony."
-msgstr "{dupe}正在經歷他們體質突然的增強，似乎是因為氧氣擴散機所造成的高含氧環境所致。\n\n這樣的觀察證明氧氣的益處對殖民地有多重要。"
+msgstr "{dupe} 正在經歷他們體質突然的增強，似乎是因為氧氣擴散機所造成的高含氧環境所致。\n\n這樣的觀察證明氧氣的益處對殖民地有多重要。"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSOXYGEN.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSOXYGEN.NAME"
@@ -40294,7 +40294,7 @@ msgstr "新鮮空氣"
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSRESEARCH.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSRESEARCH.DESCRIPTION"
 msgid "Analysis indicates that the appearance of a <style=\"KKeyword\">Research Station</style> has inspired {dupe} and heightened their brain activity on a cellular level.\n\nBrain stimulation is important if my Duplicants are going to adapt and innovate in their increasingly harsh environment."
-msgstr "分析顯示<style=\"KKeyword\">研究站</style>啟發了{dupe}並增加他們的腦部活動。\n\n如果複製人要適應或改善日期嚴酷的環境，腦部刺激是很重要的。"
+msgstr "分析顯示<style=\"KKeyword\">研究站</style>啟發了 {dupe} 並增加他們的腦部活動。\n\n如果複製人要適應或改善日期嚴酷的環境，腦部刺激是很重要的。"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSRESEARCH.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSRESEARCH.NAME"
@@ -40304,7 +40304,7 @@ msgstr "受鼓舞的初學者"
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSSTORAGE.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSSTORAGE.DESCRIPTION"
 msgid "Data indicates that {dupe}'s activity in storing something in a Storage Bin has led to an increase in this Duplicant's physical strength as well as an overall improvement to their general demeanor.\n\nThere have been many studies connecting organization with an increase in well-being. It is possible this explains {dupe}'s <link=\"MORALE\">Morale</link> improvements."
-msgstr "資料顯示{dupe}從事有關儲存箱的儲物活動，會從整體上增加這個複製人的體能。\n\n有許多的研究將組織化與幸福感連接。這可以解釋為何{dupe}的<link=\"MORALE\">士氣</link>提高了。"
+msgstr "資料顯示 {dupe} 從事有關儲存箱的儲物活動，會從整體上增加這個複製人的體能。\n\n有許多的研究將組織化與幸福感連接。這可以解釋為何 {dupe} 的<link=\"MORALE\">士氣</link>提高了。"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSSTORAGE.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSSTORAGE.NAME"
@@ -40314,7 +40314,7 @@ msgstr "庫存物品"
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSTALKER.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSTALKER.DESCRIPTION"
 msgid "{dupe}'s recent conversation with another Duplicant shows a correlation to improved serotonin and <link=\"MORALE\">Morale</link> levels in this Duplicant. It is very possible that small talk with a co-worker, however short and seemingly insignificant, will make my Duplicant's feel connected to the colony as a whole.\n\nAs the colony gets bigger and more sophisticated, I must ensure that the opportunity for such connections continue, for the good of my Duplicants' mental well being."
-msgstr "{dupe}最近與其它複製人聊天，顯示血清素與提升這個複製人的<link=\"MORALE\">士氣</link>有關。\n很可能是與同事閒聊、雖然是短暫且看似無關，但會讓複製人感覺自己與殖民地有所連結。\n\n隨著殖民地慢慢變大與變複雜，為了讓複製人保持身心健康，我必須確保這種連結持續。"
+msgstr "{dupe} 最近與其它複製人聊天，顯示血清素與提升這個複製人的<link=\"MORALE\">士氣</link>有關。\n很可能是與同事閒聊、雖然是短暫且看似無關，但會讓複製人感覺自己與殖民地有所連結。\n\n隨著殖民地慢慢變大與變複雜，為了讓複製人保持身心健康，我必須確保這種連結持續。"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSTALKER.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSTALKER.NAME"
@@ -40324,7 +40324,7 @@ msgstr "閒話家常"
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSTOILET1.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSTOILET1.DESCRIPTION"
 msgid "{dupe} recently visited an Outhouse and appears to have appreciated the small comforts based on the marked increase to their <link=\"MORALE\">Morale</link>.\n\nHigh <link=\"MORALE\">Morale</link> has been linked to a better work ethic and greater enthusiasm for complex jobs, which are essential in building a successful new colony."
-msgstr "{dupe}使用了茅廁並感謝這個舒適的小地方且顯著的提升他們的<link=\"MORALE\">士氣</link>。\n\n高<link=\"MORALE\">士氣</link>聯繫到較好工作態度和較複雜工作，這對建立成功的新殖民地是必要的。"
+msgstr "{dupe} 使用了茅廁並感謝這個舒適的小地方且顯著的提升他們的<link=\"MORALE\">士氣</link>。\n\n高<link=\"MORALE\">士氣</link>聯繫到較好工作態度和較複雜工作，這對建立成功的新殖民地是必要的。"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSTOILET1.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSTOILET1.NAME"
@@ -40334,7 +40334,7 @@ msgstr "小而舒適"
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSTOILET2.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSTOILET2.DESCRIPTION"
 msgid "{dupe} used a Lavatory and analysis shows a decided improvement to this Duplicant's <link=\"MORALE\">Morale</link>.\n\nAs my colony grows and expands, it's important not to ignore the benefits of giving my Duplicants a pleasant place to relieve themselves."
-msgstr "{dupe}使用了沖水馬桶且分析顯示會提升複製人的<link=\"MORALE\">士氣</link>。\n\n隨著殖民地的擴張，重要的是不要忽略為複製人提供一個放鬆的地方所能帶來的益處。"
+msgstr "{dupe} 使用了沖水馬桶且分析顯示會提升複製人的<link=\"MORALE\">士氣</link>。\n\n隨著殖民地的擴張，重要的是不要忽略為複製人提供一個放鬆的地方所能帶來的益處。"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSTOILET2.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSTOILET2.NAME"
@@ -40344,7 +40344,7 @@ msgstr "非常舒適"
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSTOILET3.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSTOILET3.DESCRIPTION"
 msgid "{dupe} visited a Latrine and experienced luxury unlike they anything this Duplicant had previously experienced as analysis has revealed yet another boost to their <link=\"MORALE\">Morale</link>.\n\nIt is unclear whether this development is a result of increased hygiene or whether there is something else inherently about working plumbing which would improve <link=\"MORALE\">Morale</link> in this way. Further analysis is needed."
-msgstr "{dupe}訪問了一間浴室並體驗了前所未有的奢華，分析顯示這對他們的<link=\"MORALE\">士氣</link>有著另一種加成。\n\n目前不清楚此發展是因為衛生條件的改善所導致，還是現有沖水馬桶在這方面所提升的<link=\"MORALE\">Morale</link>。需要進一步分析。"
+msgstr "{dupe} 訪問了一間浴室並體驗了前所未有的奢華，分析顯示這對他們的<link=\"MORALE\">士氣</link>有著另一種加成。\n\n目前不清楚此發展是因為衛生條件的改善所導致，還是現有沖水馬桶在這方面所提升的<link=\"MORALE\">Morale</link>。需要進一步分析。"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSTOILET3.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSTOILET3.NAME"
@@ -40354,7 +40354,7 @@ msgstr "小而奢華"
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSTOILET4.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSTOILET4.DESCRIPTION"
 msgid "{dupe} visited a Washroom and the experience has left this Duplicant with significantly improved <link=\"MORALE\">Morale</link>. Analysis indicates this improvement should continue for many cycles.\n\nThe relationship of my Duplicants and their surroundings is an interesting aspect of colony life. I should continue to watch future developments in this department closely."
-msgstr "{dupe}訪問了一間廁所而其體驗大大提升了這個複製人的<link=\"MORALE\">士氣</link>。分析顯示此加成會持續幾個周期。\n\n複製人與周遭環境的關係是一個殖民地生活其中一個有趣的面向。\n我應該持續密切觀察這部分的未來發展。"
+msgstr "{dupe} 訪問了一間廁所而其體驗大大提升了這個複製人的<link=\"MORALE\">士氣</link>。分析顯示此加成會持續幾個周期。\n\n複製人與周遭環境的關係是一個殖民地生活其中一個有趣的面向。\n我應該持續密切觀察這部分的未來發展。"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSTOILET4.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSTOILET4.NAME"
@@ -40419,12 +40419,12 @@ msgstr "小動物入侵"
 #. STRINGS.GAMEPLAY_EVENTS.EVENT_TYPES.CRYOFRIEND.BUTTON
 msgctxt "STRINGS.GAMEPLAY_EVENTS.EVENT_TYPES.CRYOFRIEND.BUTTON"
 msgid "{friend} is thawed!"
-msgstr "{friend}已解凍！"
+msgstr "{friend} 已解凍！"
 
 #. STRINGS.GAMEPLAY_EVENTS.EVENT_TYPES.CRYOFRIEND.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.EVENT_TYPES.CRYOFRIEND.DESCRIPTION"
 msgid "{dupe} has made an amazing discovery! A barely working <link=\"CRYOTANK\">Cryotank 3000</link> has been uncovered containing a {friend} inside in a frozen state.\n\n{dupe} was successful in thawing {friend} and this encounter has filled both Duplicants with a sense of hope, something they will desperately need to keep their <link=\"MORALE\">Morale</link> up when facing the dangers ahead."
-msgstr "{dupe}取得了驚人的發現！找到了一個勉強還在運作中的<link=\"CRYOTANK\">低溫艙 3000</link>，裡面有一位{friend}處於冷凍狀態。\n\n{dupe}已成功解凍{friend}，在此相遇使兩位複製人都充滿了希望，當面臨危險時他們更需要維持<link=\"MORALE\">士氣</link>。"
+msgstr "{dupe} 取得了驚人的發現！找到了一個勉強還在運作中的<link=\"CRYOTANK\">低溫艙 3000</link>，裡面有一位 {friend} 處於冷凍狀態。\n\n{dupe} 已成功解凍 {friend}，在此相遇使兩位複製人都充滿了希望，當面臨危險時他們更需要維持<link=\"MORALE\">士氣</link>。"
 
 #. STRINGS.GAMEPLAY_EVENTS.EVENT_TYPES.CRYOFRIEND.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.EVENT_TYPES.CRYOFRIEND.NAME"
@@ -40509,7 +40509,7 @@ msgstr "派對取消"
 #. STRINGS.GAMEPLAY_EVENTS.EVENT_TYPES.PARTY.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.EVENT_TYPES.PARTY.DESCRIPTION"
 msgid "THIS EVENT IS NOT WORKING\n{host} is throwing a birthday party for {dupe}. Make sure there is an available Recreation Room for the party.\n\nSocial events are good for Duplicant morale. Rejecting this party will hurt {host} and {dupe}'s fragile ego."
-msgstr "這個事件沒有作用\n{host}為{dupe}舉辦了生日派對。確認有娛樂室可以舉行派對。\n\n社交事件讓複製人有好士氣。拒絕參加這個派對會傷害{host}與{dupe}的自尊。"
+msgstr "這個事件沒有作用\n{host} 為 {dupe} 舉辦了生日派對。確認有娛樂室可以舉行派對。\n\n社交事件讓複製人有好士氣。拒絕參加這個派對會傷害 {host} 與 {dupe} 的自尊。"
 
 #. STRINGS.GAMEPLAY_EVENTS.EVENT_TYPES.PARTY.NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.EVENT_TYPES.PARTY.NAME"
@@ -40519,7 +40519,7 @@ msgstr "派對"
 #. STRINGS.GAMEPLAY_EVENTS.EVENT_TYPES.PARTY.REJECT_OPTION_DESC
 msgctxt "STRINGS.GAMEPLAY_EVENTS.EVENT_TYPES.PARTY.REJECT_OPTION_DESC"
 msgid "{host} and {dupe} gain {badEffect}"
-msgstr "{host}與{dupe}獲得{badEffect}"
+msgstr "{host} 與 {dupe} 獲得{badEffect}"
 
 #. STRINGS.GAMEPLAY_EVENTS.EVENT_TYPES.PARTY.REJECT_OPTION_NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.EVENT_TYPES.PARTY.REJECT_OPTION_NAME"
@@ -40554,7 +40554,7 @@ msgstr "枯萎治理：{plant}"
 #. STRINGS.GAMEPLAY_EVENTS.EVENT_TYPES.PLANT_BLIGHT.SUCCESS_TOOLTIP
 msgctxt "STRINGS.GAMEPLAY_EVENTS.EVENT_TYPES.PLANT_BLIGHT.SUCCESS_TOOLTIP"
 msgid "All the blighted {plant} plants have been dealt with, halting the infection."
-msgstr "全部枯萎的 {plant} 都已死了且感染已停止。"
+msgstr "全部枯萎的{plant}都已死了且感染已停止。"
 
 #. STRINGS.GAMEPLAY_EVENTS.EVENT_TYPES.SATELLITE_CRASH.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.EVENT_TYPES.SATELLITE_CRASH.DESCRIPTION"
@@ -41664,7 +41664,7 @@ msgstr "補給包裹"
 #. STRINGS.ITEMS.DEBRISPAYLOAD.DESC
 msgctxt "STRINGS.ITEMS.DEBRISPAYLOAD.DESC"
 msgid "Whatever is left over from a Rocket Self-Destruct can be recovered once it has crash-landed."
-msgstr "從火箭自毀中留下的東西在墜落後都可以回收。"
+msgstr "火箭自毀遺留下來的任何東西都可以在墜毀後回收。"
 
 #. STRINGS.ITEMS.DEBRISPAYLOAD.NAME
 msgctxt "STRINGS.ITEMS.DEBRISPAYLOAD.NAME"
@@ -41694,7 +41694,7 @@ msgstr "<link=\"BASICFORAGEPLANT\">塊根</link>"
 #. STRINGS.ITEMS.FOOD.BASICPLANTBAR.DESC
 msgctxt "STRINGS.ITEMS.FOOD.BASICPLANTBAR.DESC"
 msgid "<link=\"BASICPLANTFOOD\">Meal Lice</link> compacted into a dense, immobile loaf."
-msgstr "<link=\"BASICPLANTFOOD\">虱子</link> 壓製而成的糕點。"
+msgstr "<link=\"BASICPLANTFOOD\">虱子</link>壓製而成的糕點。"
 
 #. STRINGS.ITEMS.FOOD.BASICPLANTBAR.NAME
 msgctxt "STRINGS.ITEMS.FOOD.BASICPLANTBAR.NAME"
@@ -41704,7 +41704,7 @@ msgstr "<link=\"BASICPLANTBAR\">虱子糕</link>"
 #. STRINGS.ITEMS.FOOD.BASICPLANTBAR.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.BASICPLANTBAR.RECIPEDESC"
 msgid "<link=\"BASICPLANTFOOD\">Meal Lice</link> compacted into a dense, immobile loaf."
-msgstr "<link=\"BASICPLANTFOOD\">虱子</link> 壓製而成的糕點。"
+msgstr "<link=\"BASICPLANTFOOD\">虱子</link>壓製而成的糕點。"
 
 #. STRINGS.ITEMS.FOOD.BASICPLANTFOOD.DESC
 msgctxt "STRINGS.ITEMS.FOOD.BASICPLANTFOOD.DESC"
@@ -41944,7 +41944,7 @@ msgstr "一盤炸過的<link=\"MUSHROOM\">蘑菇</link>。"
 #. STRINGS.ITEMS.FOOD.FRUITCAKE.DESC
 msgctxt "STRINGS.ITEMS.FOOD.FRUITCAKE.DESC"
 msgid "A mashed up <link=\"PRICKLEFRUIT\">Bristle Berry</link> sludge with an exceptionally long shelf life.\n\nIts aggressive, overbearing sweetness can leave the tongue feeling temporarily numb."
-msgstr "一種<link=\"PRICKLEFRUIT\">鬃果</link>製成的糕餅，有非常長的保存期限。\n\n它的甜度非常高，會讓舌頭暫時感到麻木。"
+msgstr "一種壓製的<link=\"PRICKLEFRUIT\">鬃果</link>製成的糕餅，有異常地長的保存期限。\n\n它的甜度非常高，會讓舌頭暫時感到麻木。"
 
 #. STRINGS.ITEMS.FOOD.FRUITCAKE.NAME
 msgctxt "STRINGS.ITEMS.FOOD.FRUITCAKE.NAME"
@@ -41954,7 +41954,7 @@ msgstr "<link=\"FRUITCAKE\">鬃果糕</link>"
 #. STRINGS.ITEMS.FOOD.FRUITCAKE.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.FRUITCAKE.RECIPEDESC"
 msgid "A mashed up <link=\"PRICKLEFRUIT\">Bristle Berry</link> sludge with an exceptionally long shelf life."
-msgstr "一個<link=\"PRICKLEFRUIT\">鬃果</link>糕，與非常長的保存期限。"
+msgstr "一種壓製的<link=\"PRICKLEFRUIT\">鬃果</link>製成的糕餅，有異常地長的保存期限。"
 
 #. STRINGS.ITEMS.FOOD.GAMMAMUSH.DESC
 msgctxt "STRINGS.ITEMS.FOOD.GAMMAMUSH.DESC"
@@ -41969,7 +41969,7 @@ msgstr "<link=\"GAMMAMUSH\">泥糕糊</link>"
 #. STRINGS.ITEMS.FOOD.GAMMAMUSH.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.GAMMAMUSH.RECIPEDESC"
 msgid "<link=\"FRIEDMUSHBAR\">Mush Fry</link> reheated in a <link=\"GAMMARAYOVEN\">Gamma Ray Oven</link>."
-msgstr "<link=\"FRIEDMUSHBAR\">炸汙土</link>在<link=\"GAMMARAYOVEN\">烤箱</link>中重新加熱。"
+msgstr "<link=\"FRIEDMUSHBAR\">炸汙土</link>在<link=\"GAMMARAYOVEN\">伽瑪射線烤箱</link>中重新加熱。"
 
 #. STRINGS.ITEMS.FOOD.GRILLEDPRICKLEFRUIT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.GRILLEDPRICKLEFRUIT.DESC"
@@ -42044,7 +42044,7 @@ msgstr "<link=\"MEAT\">肉</link>"
 #. STRINGS.ITEMS.FOOD.MICROWAVEDLETTUCE.DESC
 msgctxt "STRINGS.ITEMS.FOOD.MICROWAVEDLETTUCE.DESC"
 msgid "<link=\"LETTUCE\">Lettuce</link> scrumptiously wilted in the <link=\"GAMMARAYOVEN\">Gamma Ray Oven</link>."
-msgstr "<link=\"LETTUCE\">生菜</link>在<link=\"GAMMARAYOVEN\">烤箱</link>中快速乾燥。"
+msgstr "<link=\"LETTUCE\">生菜</link>在<link=\"GAMMARAYOVEN\">伽瑪射線烤箱</link>中快速乾燥。"
 
 #. STRINGS.ITEMS.FOOD.MICROWAVEDLETTUCE.NAME
 msgctxt "STRINGS.ITEMS.FOOD.MICROWAVEDLETTUCE.NAME"
@@ -42054,7 +42054,7 @@ msgstr "<link=\"MICROWAVEDLETTUCE\">烤生菜</link>"
 #. STRINGS.ITEMS.FOOD.MICROWAVEDLETTUCE.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.MICROWAVEDLETTUCE.RECIPEDESC"
 msgid "<link=\"LETTUCE\">Lettuce</link> scrumptiously wilted in the <link=\"GAMMARAYOVEN\">Gamma Ray Oven</link>."
-msgstr "<link=\"LETTUCE\">生產</link>在<link=\"GAMMARAYOVEN\">烤箱</link>中快速萎縮。"
+msgstr "<link=\"LETTUCE\">生菜</link>在<link=\"GAMMARAYOVEN\">伽瑪射線烤箱</link>中快速乾燥。"
 
 #. STRINGS.ITEMS.FOOD.MUSHBAR.DESC
 msgctxt "STRINGS.ITEMS.FOOD.MUSHBAR.DESC"
@@ -42139,7 +42139,7 @@ msgstr "<link=\"PLANTMEAT\">植物肉</link>"
 #. STRINGS.ITEMS.FOOD.POPCORN.DESC
 msgctxt "STRINGS.ITEMS.FOOD.POPCORN.DESC"
 msgid "<link=\"COLDWHEATSEED\">Sleet Wheat Grain</link> popped in a <link=\"GAMMARAYOVEN\">Gamma Ray Oven</link>.\n\nCompletely devoid of any fancy flavorings."
-msgstr "<link=\"COLDWHEATSEED\">雪地小麥穀粒</link>在<link=\"GAMMARAYOVEN\">烤箱</link>跳舞。\n\n完全沒有任何花俏的調味。"
+msgstr "<link=\"COLDWHEATSEED\">雪地小麥穀粒</link>在<link=\"GAMMARAYOVEN\">伽瑪射線烤箱</link>跳舞。\n\n完全沒有任何花俏的調味。"
 
 #. STRINGS.ITEMS.FOOD.POPCORN.NAME
 msgctxt "STRINGS.ITEMS.FOOD.POPCORN.NAME"
@@ -43114,7 +43114,7 @@ msgstr "複製人過熱"
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_OVERHEATING.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_OVERHEATING.TOOLTIP"
 msgid "These Duplicants died from extreme <style=\"KKeyword\">Heat</style>:"
-msgstr "這些複製人死於極度 <style=\"KKeyword\">高溫</style>："
+msgstr "這些複製人死於極度<style=\"KKeyword\">高溫</style>："
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_OVERPRESSURE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_OVERPRESSURE.NAME"
@@ -43124,7 +43124,7 @@ msgstr "複製人壓力很大"
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_OVERPRESSURE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_OVERPRESSURE.TOOLTIP"
 msgid "These Duplicants died in a high pressure environment:"
-msgstr "這些複製人死於高壓環境："
+msgstr "這些複製人在高壓環境中死亡："
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_POISONED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_POISONED.NAME"
@@ -43144,7 +43144,7 @@ msgstr "複製人體內壓力很大"
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_RAPIDDECOMPRESSION.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_RAPIDDECOMPRESSION.TOOLTIP"
 msgid "These Duplicants died in a low pressure environment:"
-msgstr "這些複製人在快速減壓的環境中自爆了："
+msgstr "這些複製人在低壓環境中死亡："
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_STARVATION.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_STARVATION.NAME"
@@ -43249,7 +43249,7 @@ msgstr "教學：複製人的熱能單位"
 #. STRINGS.MISC.NOTIFICATIONS.DTU.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DTU.TOOLTIP"
 msgid "Notes on measuring heat energy"
-msgstr "測量熱能的註意事項"
+msgstr "測量熱能的注意事項"
 
 #. STRINGS.MISC.NOTIFICATIONS.DUPLICANT_CRASH_LANDED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANT_CRASH_LANDED.NAME"
@@ -43319,7 +43319,7 @@ msgstr "食物短缺"
 #. STRINGS.MISC.NOTIFICATIONS.FOODLOW.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FOODLOW.TOOLTIP"
 msgid "The colony's <link=\"FOOD\">Food</link> reserves are low:\n\n    • {0} are currently available\n    • {1} is being consumed per cycle\n\n<link=\"MICROBEMUSHER\">Microbe Mushers</link> can be built from the <b>Food Tab</b> {Hotkey/Plan4}"
-msgstr "殖民地的<link=\"FOOD\">食物</link>存量處於低點：\n\n    • {0} 目前可食用\n    • {1} 每周期消耗\n\n可以建造 <b>食物</b> {Hotkey/Plan4} 中的<link=\"MICROBEMUSHER\">製糕機</link>"
+msgstr "殖民地的<link=\"FOOD\">食物</link>存量處於低點：\n\n    • {0} 目前可食用\n    • {1} 每周期消耗\n\n可以建造<b>食物</b> {Hotkey/Plan4} 中的<link=\"MICROBEMUSHER\">製糕機</link>"
 
 #. STRINGS.MISC.NOTIFICATIONS.FOODROT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FOODROT.NAME"
@@ -43374,7 +43374,7 @@ msgstr ""
 #. STRINGS.MISC.NOTIFICATIONS.GASCLOUDPEAK.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GASCLOUDPEAK.NAME"
 msgid "The gas cloud is at its densest point"
-msgstr "氣體雲處在密集點"
+msgstr "氣體雲處於最密集的位置"
 
 #. STRINGS.MISC.NOTIFICATIONS.GASCLOUDPEAK.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GASCLOUDPEAK.TOOLTIP"
@@ -43429,7 +43429,7 @@ msgstr "治療"
 #. STRINGS.MISC.NOTIFICATIONS.HEALING.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HEALING.TOOLTIP"
 msgid "This Duplicant is recovering from an injury"
-msgstr "這個複製人正在從傷害中回復"
+msgstr "這個複製人正在從傷病中回復"
 
 #. STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.NAME"
@@ -43444,17 +43444,17 @@ msgstr " 已發展 <style=\"KKeyword\">{0}</style>"
 #. STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.TOOLTIP"
 msgid "These Duplicants' injuries weren't set and healed improperly.\nThey developed <style=\"KKeyword\">Traits</style> as a result:"
-msgstr "這些複製人的傷口沒有妥善處理。\n結果他們發展了新的<style=\"KKeyword\">特質</style>："
+msgstr "這些複製人的傷口沒有妥善處理。\n結果他們發展出新的<style=\"KKeyword\">特質</style>："
 
 #. STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.NAME"
 msgid "No <link=\"WASHBASIN\">Wash Basin</link> built"
-msgstr "未建造 <link=\"WASHBASIN\">洗手盆</link>"
+msgstr "未建造<link=\"WASHBASIN\">洗手盆</link>"
 
 #. STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.TOOLTIP"
 msgid "<link=\"DISEASE\">Germs</link> are spreading in the colony because my Duplicants have nowhere to clean up\n\n<link=\"WASHBASIN\">Wash Basins</link> can be built from the <b>Medicine Tab</b> {Hotkey/Plan8}"
-msgstr "因為複製人沒有地方清潔，<link=\"DISEASE\">細菌</link>正在殖民地裡傳播\n\n建造 <b>醫療</b> {Hotkey/Plan8} 中的<link=\"WASHBASIN\">洗手盆</link>"
+msgstr "因為複製人沒有地方清潔，<link=\"DISEASE\">細菌</link>正在殖民地裡傳播\n\n建造<b>醫療</b> {Hotkey/Plan8} 中的<link=\"WASHBASIN\">洗手盆</link>"
 
 #. STRINGS.MISC.NOTIFICATIONS.IMMIGRANTSLEFT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.IMMIGRANTSLEFT.NAME"
@@ -43464,7 +43464,7 @@ msgstr "可列印物品已回收"
 #. STRINGS.MISC.NOTIFICATIONS.IMMIGRANTSLEFT.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.IMMIGRANTSLEFT.TOOLTIP"
 msgid "The care packages have been disintegrated and printable Duplicants have been Oozed"
-msgstr "可列印的補給包裹與複製人已分解"
+msgstr "可列印的補給包裹已分解，可列印的複製人已生成"
 
 #. STRINGS.MISC.NOTIFICATIONS.INCREASEDEXPECTATIONS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INCREASEDEXPECTATIONS.NAME"
@@ -43634,7 +43634,7 @@ msgstr "殖民地需要食物"
 #. STRINGS.MISC.NOTIFICATIONS.NEEDFOOD.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDFOOD.TOOLTIP"
 msgid "The colony will exhaust their supplies without a new <link=\"FOOD\">Food</link> source\n\n<link=\"MICROBEMUSHER\">Microbe Mushers</link> can be built from the <b>Food Tab</b> {Hotkey/Plan4}"
-msgstr "如果沒有新的<link=\"FOOD\">食物</link>來源，殖民地將耗盡他們的補給，\n\n可以建造 <b>食物</b> {Hotkey/Plan4} 中的<link=\"MICROBEMUSHER\">製糕機</link>"
+msgstr "如果沒有新的<link=\"FOOD\">食物</link>來源，殖民地將耗盡他們的補給，\n\n可以建造<b>食物</b> {Hotkey/Plan4} 中的<link=\"MICROBEMUSHER\">製糕機</link>"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDSLEEP.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDSLEEP.NAME"
@@ -43644,7 +43644,7 @@ msgstr "沒有建造<link=\"COT\">簡易床</link>"
 #. STRINGS.MISC.NOTIFICATIONS.NEEDSLEEP.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDSLEEP.TOOLTIP"
 msgid "My Duplicants would appreciate a place to sleep\n\n<link=\"COTS\">Cots</link> can be built from the <b>Furniture Tab</b> {Hotkey/Plan9}"
-msgstr "複製人會感激有個能睡覺的地方\n\n可以從 <b>家具</b> {Hotkey/Plan9} 建造<link=\"COTS\">簡易床</link>"
+msgstr "複製人會感激有個能睡覺的地方\n\n可以從<b>家具</b> {Hotkey/Plan9} 建造<link=\"COTS\">簡易床</link>"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDTOILET.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDTOILET.NAME"
@@ -43654,7 +43654,7 @@ msgstr "沒有建造<link=\"OUTHOUSE\">茅廁</link>"
 #. STRINGS.MISC.NOTIFICATIONS.NEEDTOILET.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDTOILET.TOOLTIP"
 msgid "My Duplicants have nowhere to relieve themselves\n\n<link=\"OUTHOUSE\">Outhouses</link> can be built from the <b>Plumbing Tab</b> {Hotkey/Plan5}"
-msgstr "複製人沒有地方上廁所\n\n可以建造 <b>供水</b> {Hotkey/Plan5} 中的<link=\"OUTHOUSE\">茅廁</link>"
+msgstr "複製人沒有地方上廁所\n\n可以建造<b>供水</b> {Hotkey/Plan5} 中的<link=\"OUTHOUSE\">茅廁</link>"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEW_AUTOMATION_WARNING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEW_AUTOMATION_WARNING.NAME"
@@ -43694,7 +43694,7 @@ msgstr "沒有<link=\"DOCTORSTATION\">加護病房</link>"
 #. STRINGS.MISC.NOTIFICATIONS.NO_MEDICAL_COTS.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NO_MEDICAL_COTS.TOOLTIP"
 msgid "There is nowhere for sick Duplicants receive medical care\n\n<link=\"DOCTORSTATION\">Sick Bays</link> can be built from the <b>Medicine Tab</b> {Hotkey/Plan8}"
-msgstr "沒有地方可以治療生病的複製人\n\n可以建造 <b>醫療</b> {Hotkey/Plan8} 中的<link=\"DOCTORSTATION\">加護病房</link>"
+msgstr "沒有地方可以治療生病的複製人\n\n可以建造<b>醫療</b> {Hotkey/Plan8} 中的<link=\"DOCTORSTATION\">加護病房</link>"
 
 #. STRINGS.MISC.NOTIFICATIONS.NO_OXYGEN_GENERATOR.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NO_OXYGEN_GENERATOR.NAME"
@@ -43704,7 +43704,7 @@ msgstr "未建造 <link=\"OXYGEN\">製氧機</link>"
 #. STRINGS.MISC.NOTIFICATIONS.NO_OXYGEN_GENERATOR.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NO_OXYGEN_GENERATOR.TOOLTIP"
 msgid "My colony is not producing any new <link=\"OXYGEN\">Oxygen</link>\n\n<link=\"MINERALDEOXIDIZER\">Oxygen Diffusers</link> can be built from the <b>Oxygen Tab</b> {Hotkey/Plan2}"
-msgstr "殖民地沒有製造新的<link=\"OXYGEN\">氧氣</link>\n\n可以建造 <b>氧氣</b> {Hotkey/Plan2} 中的<link=\"MINERALDEOXIDIZER\">氧氣擴散機</link>"
+msgstr "殖民地沒有製造新的<link=\"OXYGEN\">氧氣</link>\n\n可以建造<b>氧氣</b> {Hotkey/Plan2} 中的<link=\"MINERALDEOXIDIZER\">氧氣擴散機</link>"
 
 #. STRINGS.MISC.NOTIFICATIONS.NOALERTS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NOALERTS.NAME"
@@ -43769,7 +43769,7 @@ msgstr "管理電力的注意事項"
 #. STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.MESSAGEBODY"
 msgid "Duplicants will choose where to work based on the priority of the errands that I give them. I can open the <b>Priorities Screen</b> {Hotkey/ManagePriorities} to set their <style=\"KKeyword\">Duplicant Priorities</style>, and the <b>Priority Tool</b> {Hotkey/Prioritize} to fine tune <style=\"KKeyword\">Building Priority</style>. Many buildings will also let me change their Priority level when I select them."
-msgstr "複製人會基於所設定的工作優先度，選擇他們的工作。\n打開 <b>優先度面板</b> {Hotkey/ManagePriorities} 來設定<style=\"KKeyword\">複製人優先度</style>，\n接著使用 <b>優先度工具</b> {Hotkey/Prioritize} 來微調 <style=\"KKeyword\">建築優先度</style>。\n許多建築物在選取狀態時也可以改變優先度。"
+msgstr "複製人會基於所設定的工作優先度，選擇他們的工作。\n打開<b>優先度面板</b> {Hotkey/ManagePriorities} 來設定<style=\"KKeyword\">複製人優先度</style>，\n接著使用<b>優先度工具</b> {Hotkey/Prioritize} 來微調<style=\"KKeyword\">建築優先度</style>。\n許多建築物在選取狀態時也可以改變優先度。"
 
 #. STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.NAME"
@@ -43784,7 +43784,7 @@ msgstr "複製人優先度的注意事項"
 #. STRINGS.MISC.NOTIFICATIONS.RADIATION.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RADIATION.MESSAGEBODY"
 msgid "Objects such as <link=\"URANIUMORE\">Uranium Ore</link> and <link=\"BEE\">Beeta Hives</link> emit a <link=\"RADIOACTIVE\">Radioactive</link> energy that can be toxic to my Duplicants.\n\nI can use the <b>Radiation Overlay</b> {Hotkey/Overlay15} to check the scope of the Radiation field. Building thick walls around radiation emitters will dampen the field and protect my Duplicants from getting <link=\"RADIATIONSICKNESS\">Radiation Sickness</link> ."
-msgstr "<link=\"URANIUMORE\">鈾礦</link>與<link=\"BEE\">輻射蜂巢</link>等物品會釋放<link=\"RADIOACTIVE\">輻射</link>能量會使複製人中毒。\n\n使用 <b>輻射透射圖</b> {Hotkey/Overlay15} 查看輻射汙染區。\n在輻射汙染區周圍建造厚牆可以阻止擴散，並保護複製人免於<link=\"RADIATIONSICKNESS\">輻射中毒</link>。"
+msgstr "<link=\"URANIUMORE\">鈾礦</link>與<link=\"BEE\">輻射蜂巢</link>等物品會釋放<link=\"RADIOACTIVE\">輻射</link>能量會使複製人中毒。\n\n使用<b>輻射透射圖</b> {Hotkey/Overlay15} 查看輻射汙染區。\n在輻射汙染區周圍建造厚牆可以阻止擴散，並保護複製人免於<link=\"RADIATIONSICKNESS\">輻射中毒</link>。"
 
 #. STRINGS.MISC.NOTIFICATIONS.RADIATION.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RADIATION.NAME"
@@ -43829,7 +43829,7 @@ msgstr "研究完成"
 #. STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.TOOLTIP"
 msgid "{0} research complete!"
-msgstr "{0} 研究完成！"
+msgstr "{0}研究完成！"
 
 #. STRINGS.MISC.NOTIFICATIONS.RESETSKILL.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RESETSKILL.NAME"
@@ -43839,7 +43839,7 @@ msgstr "技能重置"
 #. STRINGS.MISC.NOTIFICATIONS.RESETSKILL.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RESETSKILL.TOOLTIP"
 msgid "These Duplicants have had their <style=\"KKeyword\">Skill Points</style> refunded:"
-msgstr "這些複製人重置了他們的 <style=\"KKeyword\">技能點數</style> ："
+msgstr "這些複製人重置了他們的<style=\"KKeyword\">技能點數</style> ："
 
 #. STRINGS.MISC.NOTIFICATIONS.RESOURCEMELTED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RESOURCEMELTED.NAME"
@@ -43859,12 +43859,12 @@ msgstr "{0}：{1}！"
 #. STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.TOOLTIP"
 msgid "Duplicants assigned to <style=\"KKeyword\">{0}</style> have started their <b>{1}</b> block.\n\n{2}\n\nOpen the <style=\"KKeyword\">Schedule Screen</style> {Hotkey/ManageSchedule} to change blocks or assignments"
-msgstr "複製人們指派到<style=\"KKeyword\">{0}</style>並已經開始了 {1} 格時間。\n\n{2}\n\n打開 <style=\"KKeyword\">時間表</style> {Hotkey/ManageSchedule} 可以修改時段或重新分配"
+msgstr "複製人們指派到<style=\"KKeyword\">{0}</style>並已經開始了 {1} 格時間。\n\n{2}\n\n打開<style=\"KKeyword\">時間表</style> {Hotkey/ManageSchedule} 可以修改時段或重新分配"
 
 #. STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.MESSAGEBODY"
 msgid "My Duplicants will only eat, sleep, work, or bathe during the times I allot for such activities.\n\nTo make the best use of their time, I can open the <b>Schedule Tab</b> {Hotkey/ManageSchedule} to adjust the colony's schedule and plan how they should utilize their day."
-msgstr "在安排好時間表的活動前，複製人將只會吃飯、睡覺、工作或洗澡。\n\n合理運用他們的時間，可以打開 <b>時間表面板</b> {Hotkey/ManageSchedule} 調整殖民地的日程與計劃他們一天的工作。"
+msgstr "在安排好時間表的活動前，複製人將只會吃飯、睡覺、工作或洗澡。\n\n合理運用他們的時間，可以打開<b>時間表面板</b> {Hotkey/ManageSchedule} 調整殖民地的日程與計劃他們一天的工作。"
 
 #. STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.NAME"
@@ -43899,7 +43899,7 @@ msgstr "{Duplicant}努力工作且可以學習新的技能"
 #. STRINGS.MISC.NOTIFICATIONS.SPACETRAVEL.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SPACETRAVEL.MESSAGEBODY"
 msgid "Building a rocket first requires constructing a <link=\"LAUNCHPAD\">Rocket Platform</link> and adding modules from the menu. All components of the Rocket Checklist will need to be complete before being capable of launching.\n\nA <link=\"CLUSTERTELESCOPE\">Telescope</link> needs to be built on the surface of a Planetoid in order to use the <style=\"KKeyword\">Starmap Screen</style> {Hotkey/ManageStarmap} to see and set course for new destinations."
-msgstr "建造火箭前需要先建造<link=\"LAUNCHPAD\">火箭平台</link>然後從選單中新增模組。\n火箭檢查清單中的全部項目都需要完成才能發射。\n\n<link=\"CLUSTERTELESCOPE\">望遠鏡</link>需要建造在小行星表面，才能使用 <style=\"KKeyword\">星圖</style> {Hotkey/ManageStarmap} 查看與設定目的地。"
+msgstr "建造火箭前需要先建造<link=\"LAUNCHPAD\">火箭平台</link>然後從選單中新增模組。\n火箭檢查清單中的全部項目都需要完成才能發射。\n\n<link=\"CLUSTERTELESCOPE\">望遠鏡</link>需要建造在小行星表面，才能使用<style=\"KKeyword\">星圖</style> {Hotkey/ManageStarmap} 查看與設定目的地。"
 
 #. STRINGS.MISC.NOTIFICATIONS.SPACETRAVEL.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SPACETRAVEL.NAME"
@@ -43974,7 +43974,7 @@ msgstr "使用太空衣的注意事項"
 #. STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.MESSAGEBODY"
 msgid "Duplicants always perform errands in order of highest to lowest priority. They will harvest <link=\"FOOD\">Food</link> before they build, for example, or always build new structures before they mine materials.\n\nI can open the <b>Priorities Screen</b> {Hotkey/ManagePriorities} to set which Errand Types Duplicants may or may not perform, or to specialize skilled Duplicants for particular Errand Types."
-msgstr "複製人總是按優先度由最高至最低的順序執行工作。\n例如，他們會在建造之前收成<link=\"FOOD\">食物</link>，或總是在挖掘之前建造新建築。\n\n打開 <b>優先度面板</b> {Hotkey/ManagePriorities} 設定複製人可執行的工作，或是叫擁有專業技能的複製人去做專門的工作。"
+msgstr "複製人總是按優先度由最高至最低的順序執行工作。\n例如，他們會在建造之前收成<link=\"FOOD\">食物</link>，或總是在挖掘之前建造新建築。\n\n打開<b>優先度面板</b> {Hotkey/ManagePriorities} 設定複製人可執行的工作，或是叫擁有專業技能的複製人去做專門的工作。"
 
 #. STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.NAME"
@@ -43989,7 +43989,7 @@ msgstr "管理複製人工作的注意事項"
 #. STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.MESSAGEBODY"
 msgid "Environments that are extremely <link=\"HEAT\">Hot</link> or <link=\"HEAT\">Cold</link> affect my Duplicants' internal body temperature and cause undue <link=\"STRESS\">Stress</link>.\n\nOpening the <b>Temperature Overlay</b> {Hotkey/Overlay3} and checking the <b>Thermal Tolerance</b> box allows me to view all areas where my Duplicants will feel discomfort and be unable to regulate their internal body temperature."
-msgstr "環境太<link=\"HEAT\">熱</link>或 <link=\"HEAT\">冷</link> 將影響複製人的體溫並導致<link=\"STRESS\">壓力</link>上升。\n\n打開 <b>溫度概覽</b> {Hotkey/Overlay3} 並檢查所有區域的<b>溫差</b>，\n可以查看所有使複製人感到不適並無法調節體溫的區域。"
+msgstr "環境太<link=\"HEAT\">熱</link>或 <link=\"HEAT\">冷</link>將影響複製人的體溫並導致<link=\"STRESS\">壓力</link>上升。\n\n打開<b>溫度概覽</b> {Hotkey/Overlay3} 並檢查所有區域的<b>溫差</b>，\n可以查看所有使複製人感到不適並無法調節體溫的區域。"
 
 #. STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.NAME"
@@ -44014,7 +44014,7 @@ msgstr "複製人所在的位置崩塌無法支撐他們："
 #. STRINGS.MISC.NOTIFICATIONS.TUTORIAL_OVERHEATING.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.TUTORIAL_OVERHEATING.MESSAGEBODY"
 msgid "When constructing buildings, I should always take note of their <link=\"HEAT\">Overheat Temperature</link> and plan their locations accordingly. Maintaining low ambient temperatures and good ventilation in the colony will also help keep building temperatures down.\n\nIf I allow buildings to exceed their Overheat Temperature they will begin to take damage, and if left unattended, they will break down and be unusable until repaired."
-msgstr "當建造建築物時，應該注意它們的<link=\"HEAT\">過熱溫度</link> 與建造地點。\n維持低環境溫度和良好的通風有助於建築散熱。\n\n如果讓建築物過熱會開始受損，\n而如果不加以修理，將會壞掉並停止運行，直到修理完成。"
+msgstr "當建造建築物時，應該注意它們的<link=\"HEAT\">過熱溫度</link>與建造地點。\n維持低環境溫度和良好的通風有助於建築散熱。\n\n如果讓建築物過熱會開始受損，\n而如果不加以修理，將會壞掉並停止運行，直到修理完成。"
 
 #. STRINGS.MISC.NOTIFICATIONS.TUTORIAL_OVERHEATING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.TUTORIAL_OVERHEATING.NAME"
@@ -44079,7 +44079,7 @@ msgstr "{dupe} is ready to warp from the Teleporter Transmitter"
 #. STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.MESSAGEBODY"
 msgid "I can use the <b>Dig Tool</b> {Hotkey/Dig} and the <b>Build Menu</b> in the lower left of the screen to begin planning my first construction tasks.\n\nOnce I've placed a few errands my Duplicants will automatically get to work, without me needing to direct them individually."
-msgstr "使用 <b>挖掘工具</b> {Hotkey/Dig} 與在畫面左下方的<b>建造選單</b>來安排第一項建造任務。\n\n一旦安排好了一些工作，複製人會自動的去完成工作，不需要個別控制他們。"
+msgstr "使用<b>挖掘工具</b> {Hotkey/Dig} 與在畫面左下方的<b>建造選單</b>來安排第一項建造任務。\n\n一旦安排好了一些工作，複製人會自動的去完成工作，不需要個別控制他們。"
 
 #. STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.NAME"
@@ -44139,7 +44139,7 @@ msgstr "掩埋的文物"
 #. STRINGS.MISC.STATUSITEMS.ARTIFACTENTOMBED.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.ARTIFACTENTOMBED.TOOLTIP"
 msgid "This artifact is trapped in an obscuring shell limiting its decor. A skilled artist can remove it at the <link=\"ARTIFACTANALYSISSTATION\">Artifact Analysis Station</link>"
-msgstr "這個文物被外殼模糊的裝飾所困。一位熟練的藝術家可以在 <link=\"ARTIFACTANALYSISSTATION\">文物分析站</link> 移除它"
+msgstr "這個文物被外殼模糊的裝飾所困。一位熟練的藝術家可以在<link=\"ARTIFACTANALYSISSTATION\">文物分析站</link>移除它"
 
 #. STRINGS.MISC.STATUSITEMS.ATTENTIONREQUIRED.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.ATTENTIONREQUIRED.NAME"
@@ -44229,7 +44229,7 @@ msgstr "{Category}"
 #. STRINGS.MISC.STATUSITEMS.ELEMENTALCATEGORY.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.ELEMENTALCATEGORY.TOOLTIP"
 msgid "The selected object belongs to the <b>{Category}</b> resource category"
-msgstr "這個物品的資源類別為 <b>{Category}</b>"
+msgstr "這個物品的資源類別為<b>{Category}</b>"
 
 #. STRINGS.MISC.STATUSITEMS.ELEMENTALDISEASE.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.ELEMENTALDISEASE.NAME"
@@ -44404,7 +44404,7 @@ msgstr "無等待收成"
 #. STRINGS.MISC.STATUSITEMS.NOTMARKEDFORHARVEST.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.NOTMARKEDFORHARVEST.TOOLTIP"
 msgid "Use the <b>Harvest Tool</b> {Hotkey/Harvest} to mark this plant for harvest"
-msgstr "使用 <b>收成工具</b> {Hotkey/Harvest} 標記採收這株植物"
+msgstr "使用<b>收成工具</b> {Hotkey/Harvest} 標記採收這株植物"
 
 #. STRINGS.MISC.STATUSITEMS.OPERATING.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.OPERATING.NAME"
@@ -54439,12 +54439,12 @@ msgstr "在他們完成目前的工作之後，「{Errand}」在 {Name} 的待�
 #. STRINGS.UI.DETAILTABS.BUILDING_CHORES.DUPE_TOOLTIP_FAILED
 msgctxt "STRINGS.UI.DETAILTABS.BUILDING_CHORES.DUPE_TOOLTIP_FAILED"
 msgid "{Name} cannot currently {Errand}\n\nReason:\n{FailedPrecondition}"
-msgstr "{Name} 不能執行目前 {Errand}\n\n原因：\n{FailedPrecondition}"
+msgstr "{Name} 目前不能執行{Errand}\n\n原因：\n{FailedPrecondition}"
 
 #. STRINGS.UI.DETAILTABS.BUILDING_CHORES.DUPE_TOOLTIP_SUCCEEDED
 msgctxt "STRINGS.UI.DETAILTABS.BUILDING_CHORES.DUPE_TOOLTIP_SUCCEEDED"
 msgid "{Description}\n\n{Errand}'s Type: {Groups}\n\n{Name}'s {BestGroup} Priority: {PersonalPriorityValue} ({PersonalPriority})\n{Building} Priority: {BuildingPriority}\nAll {BestGroup} Errands: {TypePriority}\n\nTotal Priority: {TotalPriority}"
-msgstr "{Description}\n\n{Errand} 的類別：{Groups}\n\n{Name} 的 {BestGroup} 優先度：{PersonalPriorityValue} ({PersonalPriority})\n{Building} 優先度：{BuildingPriority}\n全部 {BestGroup} 工作：{TypePriority}\n\n總優先度：{TotalPriority}"
+msgstr "{Description}\n\n{Errand}的類別：{Groups}\n\n{Name} 的{BestGroup}優先度：{PersonalPriorityValue} ({PersonalPriority})\n{Building}優先度：{BuildingPriority}\n全部{BestGroup}工作：{TypePriority}\n\n總優先度：{TotalPriority}"
 
 #. STRINGS.UI.DETAILTABS.BUILDING_CHORES.NAME
 msgctxt "STRINGS.UI.DETAILTABS.BUILDING_CHORES.NAME"
@@ -54624,7 +54624,7 @@ msgstr "    • <b>過度繁殖：{0}</b>"
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.OVERPOPULATED.TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.OVERPOPULATED.TOOLTIP"
 msgid "Too many germs are present in this area, resulting in rapid die-off until the population stabilizes\n\nA maximum of {0} can be on this {1} of material.\n({2} germs/ kg)"
-msgstr "這塊區域細菌數量過多，導致人口迅速死亡，直到人口穩定\n\n{1} 上的細菌最多容許 {0} 個。\n（{2} 細菌 / 公斤）"
+msgstr "這塊區域細菌數量過多，導致族群迅速死亡，直到族群數量穩定\n\n{1} 上的細菌最多容許 {0} 個。\n（{2} 細菌 / 公斤）"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.PRESSURE.DIE_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.PRESSURE.DIE_TOOLTIP"
@@ -60024,7 +60024,7 @@ msgstr "{Description}\n\n受影響的工作：{ChoreList}"
 #. STRINGS.UI.JOBSSCREEN.HEADER_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.HEADER_TOOLTIP"
 msgid "<size=16>{Job} Errand Type</size>\n\n{Details}\n\nDuplicants will first choose what <style=\"KKeyword\">Errand Type</style> to perform based on <style=\"KKeyword\">Duplicant Priorities</style>,\nthen they will choose individual tasks within that type using <style=\"KKeyword\">Building Priorities</style> set by the <link=\"PRIORITIES\">Priority Tool</link> {Hotkey/ManagePriorities}"
-msgstr "<size=16>{Job}工作類型</size>\n\n{Details}\n\n複製人會基於<style=\"KKeyword\">複製人優先度</style>，選擇要先做什麼<style=\"KKeyword\">工作</style>，\n接著才會執行那些使用 <link=\"PRIORITIES\">優先度工具</link> {Hotkey/ManagePriorities} 特別指定的個人工作"
+msgstr "<size=16>{Job}工作類型</size>\n\n{Details}\n\n複製人會基於<style=\"KKeyword\">複製人優先度</style>，選擇要先做什麼<style=\"KKeyword\">工作</style>，\n接著才會執行那些使用<link=\"PRIORITIES\">優先度工具</link> {Hotkey/ManagePriorities} 特別指定的個人工作"
 
 #. STRINGS.UI.JOBSSCREEN.INCREASE_PRIORITY_TUTORIAL
 msgctxt "STRINGS.UI.JOBSSCREEN.INCREASE_PRIORITY_TUTORIAL"
@@ -60044,7 +60044,7 @@ msgstr "為<b>新的複製人</b>提高<style=\"KKeyword\">所有工作</style>�
 #. STRINGS.UI.JOBSSCREEN.ITEM_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.ITEM_TOOLTIP"
 msgid "<style=\"KKeyword\">{Job}</style> Priority for {Name}:\n<b>{Priority} Priority ({PriorityValue})</b>"
-msgstr "{Name} 的<style=\"KKeyword\">{Job}</style>優先度：\n<b>{Priority} 優先度（{PriorityValue}）</b>"
+msgstr "{Name} 的<style=\"KKeyword\">{Job}</style>優先度：\n<b>{Priority}優先度（{PriorityValue}）</b>"
 
 #. STRINGS.UI.JOBSSCREEN.MINION_SKILL_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.MINION_SKILL_TOOLTIP"
@@ -62334,12 +62334,12 @@ msgstr "裝載機"
 #. STRINGS.UI.OVERLAYS.CONVEYOR.TOOLTIPS.INPUT
 msgctxt "STRINGS.UI.OVERLAYS.CONVEYOR.TOOLTIPS.INPUT"
 msgid "<b>Receptacle</b>\nReceives material from a <style=\"KKeyword\">Conveyor Rail</style> and stores it for Duplicant use"
-msgstr "<b>儲存箱</b>\n從 <style=\"KKeyword\">輸送帶軌道</style> 接收材料並儲存，以供應給複製人使用"
+msgstr "<b>儲存箱</b>\n從 <style=\"KKeyword\">輸送帶軌道</style>接收材料並儲存，以供應給複製人使用"
 
 #. STRINGS.UI.OVERLAYS.CONVEYOR.TOOLTIPS.OUTPUT
 msgctxt "STRINGS.UI.OVERLAYS.CONVEYOR.TOOLTIPS.OUTPUT"
 msgid "<b>Loader</b>\nLoads material onto a <style=\"KKeyword\">Conveyor Rail</style> for transport to Receptacles"
-msgstr "<b>裝載機</b>\n裝載材料到 <style=\"KKeyword\">輸送帶軌道</style> 上，並運送到輸送帶儲存箱"
+msgstr "<b>裝載機</b>\n裝載材料到<style=\"KKeyword\">輸送帶軌道</style> 上，並運送到輸送帶儲存箱"
 
 #. STRINGS.UI.OVERLAYS.CROP.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.CROP.BUTTON"
@@ -62369,7 +62369,7 @@ msgstr "耕種概覽"
 #. STRINGS.UI.OVERLAYS.CROP.TOOLTIPS.FULLY_GROWN
 msgctxt "STRINGS.UI.OVERLAYS.CROP.TOOLTIPS.FULLY_GROWN"
 msgid "<b>Fully Grown</b>\nThese plants have reached maturation\n\nSelect the <b>Harvest Tool</b> {Hotkey/Harvest} to batch harvest"
-msgstr "<b>完全成長</b>\n這些植物已經成熟\n\n選擇 <b>收成工具</b> {Hotkey/Harvest} 開始大量收成"
+msgstr "<b>完全成長</b>\n這些植物已經成熟\n\n選擇<b>收成工具</b> {Hotkey/Harvest} 開始大量收成"
 
 #. STRINGS.UI.OVERLAYS.CROP.TOOLTIPS.GROWING
 msgctxt "STRINGS.UI.OVERLAYS.CROP.TOOLTIPS.GROWING"
@@ -62469,12 +62469,12 @@ msgstr "裝飾概覽"
 #. STRINGS.UI.OVERLAYS.DECOR.TOOLTIPS.HIGHDECOR
 msgctxt "STRINGS.UI.OVERLAYS.DECOR.TOOLTIPS.HIGHDECOR"
 msgid "<b>Positive Decor</b>\nArea with sufficient <style=\"KKeyword\">Decor</style> values\n* Lighting and aesthetically pleasing buildings increase decor"
-msgstr "<b>正向裝飾</b>\n區域有充足的 <style=\"KKeyword\">裝飾</style>\n* 明亮和美觀令人愉快的建築會增加裝飾"
+msgstr "<b>正向裝飾</b>\n區域有充足的<style=\"KKeyword\">裝飾</style>\n* 明亮和美觀令人愉快的建築會增加裝飾"
 
 #. STRINGS.UI.OVERLAYS.DECOR.TOOLTIPS.LOWDECOR
 msgctxt "STRINGS.UI.OVERLAYS.DECOR.TOOLTIPS.LOWDECOR"
 msgid "<b>Negative Decor</b>\nArea with insufficient <style=\"KKeyword\">Decor</style> values\n* Resources on the floor are considered \"debris\" and will decrease decor"
-msgstr "<b>負向裝飾</b>\n<style=\"KKeyword\">裝飾</style> 不足的區域\n* 地板上的資源被認為是「雜物」，並且將會減少裝飾"
+msgstr "<b>負向裝飾</b>\n<style=\"KKeyword\">裝飾</style>不足的區域\n* 地板上的資源被認為是「雜物」，並且將會減少裝飾"
 
 #. STRINGS.UI.OVERLAYS.DECOR.TOTAL
 msgctxt "STRINGS.UI.OVERLAYS.DECOR.TOTAL"
@@ -62584,7 +62584,7 @@ msgstr "電力概覽"
 #. STRINGS.UI.OVERLAYS.ELECTRICAL.DIAGRAM_HEADER
 msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.DIAGRAM_HEADER"
 msgid "Energy from the <b>Left Outlet</b> is used by the <b>Right Outlet</b>"
-msgstr "能源從 <b>左邊的入口</b> 提供給 <b>右邊的出口</b> 使用"
+msgstr "能源從<b>左邊的入口</b>提供給<b>右邊的出口</b>使用"
 
 #. STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND_SWITCH
 msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND_SWITCH"
@@ -62704,7 +62704,7 @@ msgstr "<b>建築進氣口</b>"
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.DIAGRAM_BEFORE_ARROW
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.DIAGRAM_BEFORE_ARROW"
 msgid "Gas flows from <b>Output Pipe</b>"
-msgstr "氣體流向 <b>出氣口</b>"
+msgstr "氣體流向<b>出氣口</b>"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.DISCONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.DISCONNECTED"
@@ -62739,7 +62739,7 @@ msgstr "已連接<link=\"GASPIPING\">氣體管</link>"
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.CONSUMER
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.CONSUMER"
 msgid "<b>Output Pipe</b>\nOutputs send <style=\"KKeyword\">Gas</style> into <style=\"KKeyword\">Pipes</style>\n\nMust be on the same network as at least one <link=\"GASPIPING\">Intake</link>"
-msgstr "<b>排氣口</b>\n排氣口，輸出 <style=\"KKeyword\">氣體</style> 進入 <style=\"KKeyword\">管線</style>\n\n必須在同條個氣體管線上，並連接最少一個<link=\"GASPIPING\">進氣口</link>"
+msgstr "<b>排氣口</b>\n排氣口，輸出<style=\"KKeyword\">氣體</style>進入<style=\"KKeyword\">管線</style>\n\n必須在同條個氣體管線上，並連接最少一個<link=\"GASPIPING\">進氣口</link>"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.DISCONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.DISCONNECTED"
@@ -62749,7 +62749,7 @@ msgstr "未連接<link=\"GASPIPING\">氣體管</link>"
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.FILTERED
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.FILTERED"
 msgid "<b>Filtered Output Pipe</b>\nFiltered Outputs send filtered <style=\"KKeyword\">Gas</style> into <style=\"KKeyword\">Pipes</style>\n\nMust be on the same network as at least one <link=\"GASPIPING\">Intake</link>"
-msgstr "<b>過濾氣體排氣口</b>\n過濾氣體排氣口，運送被過濾的 <style=\"KKeyword\">氣體</style> 進入 <style=\"KKeyword\">管線</style>\n\n必須在同一條管線上，並連接最少一個<link=\"GASPIPING\">進氣口</link>"
+msgstr "<b>過濾氣體排氣口</b>\n過濾氣體排氣口，運送被過濾的<style=\"KKeyword\">氣體</style>進入<style=\"KKeyword\">管線</style>\n\n必須在同一條管線上，並連接最少一個<link=\"GASPIPING\">進氣口</link>"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.NETWORK
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.NETWORK"
@@ -62894,7 +62894,7 @@ msgstr "<b>未照明區域</b>\n在黑暗中工作對複製人沒有影響"
 #. STRINGS.UI.OVERLAYS.LIGHTING.TOOLTIPS.LITAREA
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.TOOLTIPS.LITAREA"
 msgid "<b>Lit Area</b>\nWorking in well-lit areas improves Duplicant <style=\"KKeyword\">Morale</style>"
-msgstr "<b>光線充足的區域</b>\n在這裡工作會大大提升複製人的 <style=\"KKeyword\">士氣</style>"
+msgstr "<b>光線充足的區域</b>\n在這裡工作會大大提升複製人的<style=\"KKeyword\">士氣</style>"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.TOOLTIPS.NAME
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.TOOLTIPS.NAME"
@@ -62954,12 +62954,12 @@ msgstr "建築進水口"
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONNECTED"
 msgid "Connected to a <link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
-msgstr "連接到 <link=\"LIQUIDCONDUIT\">液體管</link>"
+msgstr "連接到<link=\"LIQUIDCONDUIT\">液體管</link>"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONSUMER
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONSUMER"
 msgid "<b>Output Pipe</b>\nOutputs send liquid into pipes\n\nMust be on the same network as at least one <link=\"LIQUIDPIPING\">Intake</link>"
-msgstr "<b>出水口</b>\n輸出液體進入管線\n\n必須在同一條液體網路上，且連接最少一個 <link=\"LIQUIDPIPING\">進水口</link>"
+msgstr "<b>出水口</b>\n輸出液體進入管線\n\n必須在同一條液體網路上，且連接最少一個<link=\"LIQUIDPIPING\">進水口</link>"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.DISCONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.DISCONNECTED"
@@ -62969,7 +62969,7 @@ msgstr "未連接 <link=\"LIQUIDCONDUIT\">液體管</link>"
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.FILTERED
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.FILTERED"
 msgid "<b>Filtered Output Pipe</b>\nFiltered Outputs send filtered liquid into pipes\n\nMust be on the same network as at least one <link=\"LIQUIDPIPING\">Intake</link>"
-msgstr "<b>過濾液體出水口</b>\n輸出被過濾的液體進入管線\n\n必須在同一條液體網路上，並連接最少一個 <link=\"LIQUIDPIPING\">進水口</link>"
+msgstr "<b>過濾液體出水口</b>\n輸出被過濾的液體進入管線\n\n必須在同一條液體網路上，並連接最少一個<link=\"LIQUIDPIPING\">進水口</link>"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.NETWORK
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.NETWORK"
@@ -62979,7 +62979,7 @@ msgstr "液體網路 {0}"
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.PRODUCER
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.PRODUCER"
 msgid "<b>Building Intake</b>\nIntakes send liquid into buildings\n\nMust be on the same network as at least one <link=\"LIQUIDPIPING\">Output</link>"
-msgstr "<b>進水口</b>\n輸入液體進入建築物\n\n必須在同一條液體網路上，並連接最少一個 <link=\"LIQUIDPIPING\">出水口</link>"
+msgstr "<b>進水口</b>\n輸入液體進入建築物\n\n必須在同一條液體網路上，並連接最少一個<link=\"LIQUIDPIPING\">出水口</link>"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.BUTTON"
@@ -63039,7 +63039,7 @@ msgstr "排線輸出端"
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.CONTROL_INPUT
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.CONTROL_INPUT"
 msgid "<b>Control Port</b>\nControl the signal selection of a <link=\"LOGICGATEMULTIPLEXER\">Signal Selector</link> or <link=\"LOGICGATEDEMULTIPLEXER\">Signal Distributor</link>"
-msgstr "<b>控制端</b>\n用來控制 <link=\"LOGICGATEMULTIPLEXER\">訊號接收器</link> 或 <link=\"LOGICGATEDEMULTIPLEXER\">訊號發送器</link> 的訊號"
+msgstr "<b>控制端</b>\n用來控制<link=\"LOGICGATEMULTIPLEXER\">訊號接收器</link>或<link=\"LOGICGATEDEMULTIPLEXER\">訊號發送器</link>的訊號"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.DISCONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.DISCONNECTED"
@@ -63064,7 +63064,7 @@ msgstr "<b>輸出端</b>\n送出一個訊號到自動化系統"
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.RESET_UPDATE
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.RESET_UPDATE"
 msgid "<b>Reset Port</b>\nReset a <link=\"LOGICMEMORY\">Memory Toggle</link>'s internal Memory to <b><style=\"logic_off\">Red</style></b>"
-msgstr "<b>重設端口</b>\n重設 <link=\"LOGICMEMORY\">記憶體</link> 所儲存的記憶為<b><style=\"logic_off\">紅色訊號</style></b>"
+msgstr "<b>重設端口</b>\n重設<link=\"LOGICMEMORY\">記憶體</link>所儲存的記憶為<b><style=\"logic_off\">紅色訊號</style></b>"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.RIBBON_INPUT
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.RIBBON_INPUT"
@@ -63129,22 +63129,22 @@ msgstr "氧氣概覽"
 #. STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND1
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND1"
 msgid "<b>Very Breathable</b>\nHigh <style=\"KKeyword\">Oxygen</style> concentrations"
-msgstr "<b>適合呼吸</b>\n<style=\"KKeyword\">氧氣</style> 含量高"
+msgstr "<b>適合呼吸</b>\n<style=\"KKeyword\">氧氣</style>含量高"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND2
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND2"
 msgid "<b>Breathable</b>\nSufficient <style=\"KKeyword\">Oxygen</style> concentrations"
-msgstr "<b>可呼吸</b>\n<style=\"KKeyword\">氧氣</style> 含量充足"
+msgstr "<b>可呼吸</b>\n<style=\"KKeyword\">氧氣</style>含量充足"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND3
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND3"
 msgid "<b>Barely Breathable</b>\nLow <style=\"KKeyword\">Oxygen</style> concentrations"
-msgstr "<b>勉強可呼吸</b>\n<style=\"KKeyword\">氧氣</style> 含量極低或沒有"
+msgstr "<b>勉強可呼吸</b>\n<style=\"KKeyword\">氧氣</style>含量極低或沒有"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND4
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND4"
 msgid "<b>Unbreathable</b>\nExtremely low or absent <style=\"KKeyword\">Oxygen</style> concentrations\n\nDuplicants will suffocate if trapped in these areas"
-msgstr "<b>無法呼吸</b>\n<style=\"KKeyword\">氧氣</style> 含量極低或沒有\n\n如果受困在這些區域，複製人將會窒息"
+msgstr "<b>無法呼吸</b>\n<style=\"KKeyword\">氧氣</style>含量極低或沒有\n\n如果受困在這些區域，複製人將會窒息"
 
 #. STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND5
 msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.TOOLTIPS.LEGEND5"
@@ -63669,7 +63669,7 @@ msgstr "所需資源："
 #. STRINGS.UI.PRODUCTINFO_MISSINGRESOURCES_DESC
 msgctxt "STRINGS.UI.PRODUCTINFO_MISSINGRESOURCES_DESC"
 msgid "{0} has yet to be discovered"
-msgstr "尚未發現 {0}"
+msgstr "尚未發現{0}"
 
 #. STRINGS.UI.PRODUCTINFO_MISSINGRESOURCES_HOVER
 msgctxt "STRINGS.UI.PRODUCTINFO_MISSINGRESOURCES_HOVER"
@@ -63679,12 +63679,12 @@ msgstr "缺少資源"
 #. STRINGS.UI.PRODUCTINFO_MISSINGRESOURCES_TITLE
 msgctxt "STRINGS.UI.PRODUCTINFO_MISSINGRESOURCES_TITLE"
 msgid "Requires {0}: {1}"
-msgstr "需求 {0}：{1}"
+msgstr "需要{0}：{1}"
 
 #. STRINGS.UI.PRODUCTINFO_REQUIRESRESEARCHDESC
 msgctxt "STRINGS.UI.PRODUCTINFO_REQUIRESRESEARCHDESC"
 msgid "Requires {0} Research"
-msgstr "需要 {0} 研究"
+msgstr "需要{0}研究"
 
 #. STRINGS.UI.PRODUCTINFO_RESEARCHREQUIRED
 msgctxt "STRINGS.UI.PRODUCTINFO_RESEARCHREQUIRED"
@@ -63704,7 +63704,7 @@ msgstr "無法在火箭內部建造"
 #. STRINGS.UI.PRODUCTINFO_SELECTMATERIAL
 msgctxt "STRINGS.UI.PRODUCTINFO_SELECTMATERIAL"
 msgid "Select {0}:"
-msgstr "選擇 {0}："
+msgstr "選擇{0}："
 
 #. STRINGS.UI.PRODUCTINFO_UNIQUE_PER_WORLD
 msgctxt "STRINGS.UI.PRODUCTINFO_UNIQUE_PER_WORLD"
@@ -64524,12 +64524,12 @@ msgstr "工作"
 #. STRINGS.UI.ROLES_SCREEN.NO_JOB_STATION_WARNING
 msgctxt "STRINGS.UI.ROLES_SCREEN.NO_JOB_STATION_WARNING"
 msgid "Build a <style=\"KKeyword\">Printing Pod</style> to unlock this menu\n\nThe <style=\"KKeyword\">Printing Pod</style> can be found in the <b>Base Tab</b> {Hotkey/Plan1} of the Build Menu"
-msgstr "建造一個<style=\"KKeyword\">小型列印設備</style>以解鎖這個選單\n\n<style=\"KKeyword\">小型列印設備</style>可在建造選單的 <b>基地</b> {Hotkey/Plan1} 中找到"
+msgstr "建造一個<style=\"KKeyword\">小型列印設備</style>以解鎖這個選單\n\n<style=\"KKeyword\">小型列印設備</style>可在建造選單的<b>基地</b> {Hotkey/Plan1} 中找到"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.ADVANCED_RESEARCH.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.ADVANCED_RESEARCH.DESCRIPTION"
 msgid "<link=\"ADVANCEDRESEARCHCENTER\">Super Computer</link> Usage"
-msgstr "使用 <link=\"ADVANCEDRESEARCHCENTER\">超級電腦</link>"
+msgstr "使用<link=\"ADVANCEDRESEARCHCENTER\">超級電腦</link>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.ATTRIBUTE_EFFECT_FMT
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.ATTRIBUTE_EFFECT_FMT"
@@ -64584,12 +64584,12 @@ msgstr "挖掘<link=\"KATAIRITE\">深淵水晶</link>"
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_RADIOACTIVE_MATERIALS.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_RADIOACTIVE_MATERIALS.DESCRIPTION"
 msgid "<link=\"CORIUM\">Corium</link> Mining"
-msgstr "<link=\"CORIUM\">爐心熔融物</link> 挖掘"
+msgstr "<link=\"CORIUM\">爐心熔融物</link>挖掘"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_SUPER_SUPER_HARD.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_SUPER_SUPER_HARD.DESCRIPTION"
 msgid "<link=\"DIAMOND\">Diamond</link> and <link=\"OBSIDIAN\">Obsidian</link> Mining"
-msgstr "挖掘<link=\"DIAMOND\">鑽石</link> 與 <link=\"OBSIDIAN\">黑曜石</link>"
+msgstr "挖掘<link=\"DIAMOND\">鑽石</link>與<link=\"OBSIDIAN\">黑曜石</link>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_UNOBTANIUM.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_UNOBTANIUM.DESCRIPTION"
@@ -64714,7 +64714,7 @@ msgstr "使用<link=\"COSMICRESEARCHCENTER\">虛擬天文館</link>"
 #. STRINGS.UI.ROLES_SCREEN.PERKS.NO_PERKS
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.NO_PERKS"
 msgid "This job comes with no training"
-msgstr "這項工作不會獲得培訓"
+msgstr "這項工作不需要培訓"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.NUCLEAR_RESEARCH.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.NUCLEAR_RESEARCH.DESCRIPTION"
@@ -71504,7 +71504,7 @@ msgstr "複製人在<style=\"KKeyword\">生命值</style>沒有低於 <b>{0}%</b
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CHORE_GROUP_SEPARATOR
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CHORE_GROUP_SEPARATOR"
 msgid " or "
-msgstr " 或 "
+msgstr "或"
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CHORE_TARGET
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CHORE_TARGET"
