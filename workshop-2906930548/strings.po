@@ -25069,7 +25069,7 @@ msgstr "膀胱"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.BONUS_SEEDS
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.BONUS_SEEDS"
 msgid "{0} Seed Chance"
-msgstr "{0}種子獲得機率"
+msgstr "{0} 種子獲得機率"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.DESC"
@@ -26329,7 +26329,7 @@ msgstr "捕捉中"
 #. STRINGS.DUPLICANTS.CHORES.CAPTURE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.CAPTURE.TOOLTIP"
 msgid "Duplicants that possess the Critter Ranching Skill can wrangle most critters without traps"
-msgstr "學會畜牧技能的複製人，可以不用陷阱捕捉動物"
+msgstr "學會畜牧技能的複製人，不需要用陷阱就可以捕捉動物"
 
 #. STRINGS.DUPLICANTS.CHORES.CHECKPOINT.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.CHECKPOINT.NAME"
@@ -32354,12 +32354,12 @@ msgstr "<link=\"FARMING2\">農作物管理</link>"
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.APTITUDE_DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.APTITUDE_DESCRIPTION"
 msgid "This Duplicant will gain <b>{1}</b> <style=\"KKeyword\">Morale</style> when learning <style=\"KKeyword\">{0}</style> Skills"
-msgstr "當學會<style=\"KKeyword\">{0}</style>技能後，複製人會獲得 <b>{1}</b> <style=\"KKeyword\">士氣</style>"
+msgstr "當複製人學會<style=\"KKeyword\">{0}</style>技能後，會獲得 <b>{1}</b> <style=\"KKeyword\">士氣</style>"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.APTITUDE_DESCRIPTION_CHOREGROUP
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.APTITUDE_DESCRIPTION_CHOREGROUP"
 msgid "{2}\n\nThis Duplicant will gain <b>+{1}</b> <style=\"KKeyword\">Morale</style> when learning <style=\"KKeyword\">{0}</style> Skills"
-msgstr "{2}\n\n當複製人學會<style=\"KKeyword\">{0}</style>技能後，會 <b>+{1}</b> <style=\"KKeyword\">士氣</style>"
+msgstr "{2}\n\n當複製人學會<style=\"KKeyword\">{0}</style>技能後，會獲得 <b>+{1}</b> <style=\"KKeyword\">士氣</style>"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.SUITS
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.SUITS"
@@ -36059,7 +36059,7 @@ msgstr "初始<b>技能</b>等級 2"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS2.SHORT_DESC_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS2.SHORT_DESC_TOOLTIP"
 msgid "This Duplicant receives a free <style=\"KKeyword\">Skill</style> without the drawback of increased <style=\"KKeyword\">Morale Requirements</style>"
-msgstr "這個複製人獲得免費的<style=\"KKeyword\">技能</style>而不會增加 <style=\"KKeyword\">士氣需求</style>"
+msgstr "這個複製人獲得免費的<style=\"KKeyword\">技能</style>而不會增加<style=\"KKeyword\">士氣需求</style>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GREASEMONKEY.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GREASEMONKEY.DESC"
@@ -52354,12 +52354,12 @@ msgstr "影響重選按鈕會產生什麼類型的複製人"
 #. STRINGS.UI.CHARACTERCONTAINER_ATTRIBUTEMODIFIER_DECREASED
 msgctxt "STRINGS.UI.CHARACTERCONTAINER_ATTRIBUTEMODIFIER_DECREASED"
 msgid "Decreased <b>{0}</b>"
-msgstr "減少 <b>{0}</b>"
+msgstr "減少<b>{0}</b>"
 
 #. STRINGS.UI.CHARACTERCONTAINER_ATTRIBUTEMODIFIER_INCREASED
 msgctxt "STRINGS.UI.CHARACTERCONTAINER_ATTRIBUTEMODIFIER_INCREASED"
 msgid "Increased <b>{0}</b>"
-msgstr "增加 <b>{0}</b>"
+msgstr "增加<b>{0}</b>"
 
 #. STRINGS.UI.CHARACTERCONTAINER_CONGENITALTRAIT
 msgctxt "STRINGS.UI.CHARACTERCONTAINER_CONGENITALTRAIT"
@@ -55064,7 +55064,7 @@ msgstr "{0} 目前的工作 {1}"
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.JOBTRAINING_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.JOBTRAINING_TOOLTIP"
 msgid "{0} learned this <style=\"KKeyword\">Skill</style> while working as a {1}"
-msgstr "{0} 在 {1} 職位工作時學會了這個 <style=\"KKeyword\">技能</style>"
+msgstr "{0} 在 {1} 職位工作時學會了這個<style=\"KKeyword\">技能</style>"
 
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.MASTERED_SKILLS
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.MASTERED_SKILLS"
@@ -55074,7 +55074,7 @@ msgstr "<b><size=13>學會技能：</size></b>"
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.MASTERED_SKILLS_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.MASTERED_SKILLS_TOOLTIP"
 msgid "All <style=\"KKeyword\">Traits</style> and <style=\"KKeyword\">Morale Needs</style> become permanent once a Duplicant has learned a new <style=\"KKeyword\">Skill</style>\n\n<link=\"RESETSKILLSSTATION\">Skill Scrubber</link>s can be built from the <b>Stations Tab</b> {Hotkey/Plan10} to completely reset a Duplicant's learned <style=\"KKeyword\">Skills</style>, refunding all <style=\"KKeyword\">Skill Points</style>"
-msgstr "複製人學會新 <style=\"KKeyword\">技能</style> 後，其所有的 <style=\"KKeyword\">特質</style> 與 <style=\"KKeyword\">士氣需求</style> 會變成永久性的\n\n<b>研究</b> {Hotkey/Plan10} 中的 <link=\"RESETSKILLSSTATION\">技能重置機</link> 可以完整重置複製人已學過的 <style=\"KKeyword\">技能</style>，返回全部 <style=\"KKeyword\">技能點</style>"
+msgstr "複製人學會新<style=\"KKeyword\">技能</style>後，其所有的<style=\"KKeyword\">特質</style>與 <style=\"KKeyword\">士氣需求</style>會變成永久性的\n\n<b>研究</b> {Hotkey/Plan10} 中的<link=\"RESETSKILLSSTATION\">技能重置機</link>可以完整重置複製人已學過的<style=\"KKeyword\">技能</style>，返回全部<style=\"KKeyword\">技能點</style>"
 
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.NO_MASTERED_SKILLS.NAME
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.NO_MASTERED_SKILLS.NAME"
