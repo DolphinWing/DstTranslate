@@ -24729,7 +24729,7 @@ msgstr "太濕！"
 #. STRINGS.CREATURES.STATUSITEMS.SATURATED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.SATURATED.TOOLTIP"
 msgid "This critter likes <style=\"KKeyword\">Liquid</style>, but not that much!"
-msgstr "這隻小動物喜歡<style=\"KKeyword\">液體</style>，但不要太多！"
+msgstr "這株植物喜歡<style=\"KKeyword\">液體</style>，但不要太多！"
 
 #. STRINGS.CREATURES.STATUSITEMS.SCALDING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.SCALDING.NAME"
@@ -28924,7 +28924,7 @@ msgstr "無"
 #. STRINGS.DUPLICANTS.DISEASES.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.NOTIFICATION_TOOLTIP"
 msgid "{0} contracted {1} from: {2}"
-msgstr "{0}感染{1}來自：{2}"
+msgstr "{0} 因{1}導致{2}"
 
 #. STRINGS.DUPLICANTS.DISEASES.POLLENGERMS.DESC
 msgctxt "STRINGS.DUPLICANTS.DISEASES.POLLENGERMS.DESC"
