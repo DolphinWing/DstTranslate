@@ -891,26 +891,6 @@ msgstr ""
 "火箭范围：{Range}\n"
 "目的地距离：{Distance}"
 
-#. STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME
-msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME"
-msgid "Scan Quality: {Quality}"
-msgstr "扫描质量：{Quality}"
-
-#. STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.TOOLTIP
-msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.TOOLTIP"
-msgid ""
-"This scanner dish is currently scanning at <b>{Quality}</b> effectiveness\n"
-"\n"
-"Decreased scan quality may be due to:\n"
-"    • Interference from nearby industrial machinery\n"
-"    • Rock or tile obstructing the dish's line of sight on space"
-msgstr ""
-"这个扫描盘当前正在以<b>{Quality}</b>的效率进行扫描。\n"
-"\n"
-"扫描质量的降低可能是由于：\n"
-"    • 附近工业机械的干扰\n"
-"    • 岩石或砖块阻挡了扫描盘对天空的视野"
-
 #. STRINGS.BUILDING.STATUSITEMS.DETECTORSCANNING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORSCANNING.NAME"
 msgid "Scanning"
@@ -2769,15 +2749,19 @@ msgid ""
 "It will detect incoming objects <b>{WorstTime}</b> to <b>{BestTime}</b> "
 "before they arrive\n"
 "\n"
-"Build multiple <link=\"COMETDETECTOR\">Space Scanner</link>s and ensure "
-"they're each scanning effectively for the best detection results"
+"Build multiple <link=\"COMETDETECTOR\">Space Scanner</link>s to increase "
+"surface coverage and improve network quality\n"
+"\n"
+"    • Surface Coverage: <b>{Coverage}</b>"
 msgstr ""
 "扫描仪网络正在以<b>{TotalQuality}</b>的效率进行扫描\n"
 "\n"
 "它将在来袭物体到达<b>{WorstTime}</b>至<b>{BestTime}</b>前检测到它们\n"
 "\n"
 "建造多个<link=\"COMETDETECTOR\">太空扫描仪</link>并确保它们全部都在有效地扫描"
-"以获得最佳探测效果"
+"以获得最佳探测效果\n"
+"\n"
+"    • 地表覆盖率：<b>{Coverage}</b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEUTRONIUMUNMINABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEUTRONIUMUNMINABLE.NAME"
@@ -3629,8 +3613,8 @@ msgstr "无运送目的地"
 
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUN_NO_DESTINATION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUN_NO_DESTINATION.TOOLTIP"
-msgid "A delivery destination has not been set    • {0}"
-msgstr "未设置运送目的地    • {0}"
+msgid "A delivery destination has not been set"
+msgstr "未设置运送目的地"
 
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUN_PATH_NOT_CLEAR.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUN_PATH_NOT_CLEAR.NAME"
@@ -3641,13 +3625,11 @@ msgstr "发射路径受阻"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUN_PATH_NOT_CLEAR.TOOLTIP"
 msgid ""
 "There are obstructions in the launch trajectory of this <link=\"RAILGUN"
-"\">Interplanetary Launcher</link>:\n"
-"    • {0}\n"
+"\">Interplanetary Launcher</link>\n"
 "\n"
 "This launcher requires a clear path to launch payloads"
 msgstr ""
-"这个<link=\"RAILGUN\">星际发射器</link>的发射轨迹上存在障碍物：\n"
-"    • {0}\n"
+"这个<link=\"RAILGUN\">星际发射器</link>的发射轨迹上存在一些障碍物\n"
 "\n"
 "需要先清除发射器路径上的障碍物，才能发射载货"
 
@@ -3980,16 +3962,13 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_NONE.TOOLTIP"
 msgid ""
 "This building has no view of space\n"
 "\n"
-"Ensure an unblocked view of the sky is available to collect <b>Starmap</b> "
-"data\n"
-"    • Visibility: <b>{VISIBILITY}</b>\n"
-"    • Scan Radius: <b>{RADIUS}</b> cells"
+"To properly function, this building requires an unblocked view of space\n"
+"    • Efficiency: <b>{VISIBILITY}</b>"
 msgstr ""
 "这个建筑没有太空视野\n"
 "\n"
-"确保太空视野畅通无阻以便收集<b>星图</b>数据\n"
-"    • 可见度：<b>{VISIBILITY}</b>\n"
-"    • 扫描范围：<b>{RADIUS}</b>格"
+"为正常工作，需要确保这个建筑的太空视野畅通无阻\n"
+"    • 效率：<b>{VISIBILITY}</b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_REDUCED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_REDUCED.NAME"
@@ -3999,18 +3978,16 @@ msgstr "可见度受限"
 #. STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_REDUCED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_REDUCED.TOOLTIP"
 msgid ""
-"This building has an inadequate or obscured view of space\n"
+"This building has a partially obstructed view of space\n"
 "\n"
-"Ensure an unblocked view of the sky is available to collect <b>Starmap</b> "
-"data\n"
-"    • Visibility: <b>{VISIBILITY}</b>\n"
-"    • Scan Radius: <b>{RADIUS}</b> cells"
+"To operate at maximum speed, this building requires an unblocked view of "
+"space\n"
+"    • Efficiency: <b>{VISIBILITY}</b>"
 msgstr ""
-"这个建筑的太空视野不足或者受遮挡\n"
+"这个建筑部分太空视野受遮挡\n"
 "\n"
-"确保太空视野畅通无阻以便收集<b>星图</b>数据\n"
-"    • 可见度：<b>{VISIBILITY}</b>\n"
-"    • 扫描范围：<b>{RADIUS}</b>格"
+"为全速运行，需要确保这个建筑的太空视野畅通无阻\n"
+"    • 效率：<b>{VISIBILITY}</b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.NAME"
@@ -5982,6 +5959,26 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_K.NAME"
 msgid "<link=\"ARTK\">Sketchy Fungi</link>"
 msgstr "<link=\"ARTK\">《真菌素描》</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_L.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_L.DESC"
+msgid "The furry hat helped keep the artist's bandage on."
+msgstr "毛茸茸的帽子有助于将艺术家的绷带固定住。"
+
+#. STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_L.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_L.NAME"
+msgid "<link=\"ARTL\">Post-Ear Era</link>"
+msgstr "<link=\"ARTL\">《耳后时代》</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_M.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_M.DESC"
+msgid "She's not angry, just disappointed."
+msgstr "她没有生气，只是失望。"
+
+#. STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_M.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_M.NAME"
+msgid "<link=\"ARTM\">Maternal Gaze</link>"
+msgstr "<link=\"ARTM\">《母亲的凝视》</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.NAME"
 msgid "<link=\"CANVAS\">Blank Canvas</link>"
@@ -6113,6 +6110,26 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_I.NAME"
 msgid "<link=\"ARTTALLI\">Pei Phone</link>"
 msgstr "<link=\"ARTTALLI\">《裴聊电话》</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_J.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_J.DESC"
+msgid "A poster for a blockbuster film that was never made."
+msgstr "一部大片的海报，但从未拍摄过。"
+
+#. STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_J.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_J.NAME"
+msgid "<link=\"ARTTALLJ\">Duplicants of the Galaxy</link>"
+msgstr "<link=\"ARTTALLJ\">《银河复制队》</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_K.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_K.DESC"
+msgid "The glass and frame are hydrophobic, for easy cleaning."
+msgstr "这种玻璃和框架都是疏水的，易于清洁。"
+
+#. STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_K.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_K.NAME"
+msgid "<link=\"ARTTALLK\">Cubist Loo</link>"
+msgstr "<link=\"ARTTALLK\">立体主义厕所</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.CANVASTALL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.NAME"
 msgid "<link=\"CANVASTALL\">Portrait Canvas</link>"
@@ -6243,6 +6260,26 @@ msgstr "一次对众所周知的隧道工的情绪研究。"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_I.NAME"
 msgid "<link=\"ARTWIDEI\">Glorious Vole</link>"
 msgstr "<link=\"ARTWIDEI\">《光荣的田鼠》</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_J.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_J.DESC"
+msgid "As far as wave-themed art goes, it's great."
+msgstr "就目前的海浪主题艺术来说，这很不错。"
+
+#. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_J.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_J.NAME"
+msgid "<link=\"ARTWIDEJ\">The Swell Swell</link>"
+msgstr "<link=\"ARTWIDEJ\">《激流的急流》</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_K.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_K.DESC"
+msgid "The delight on the subjects' faces is contagious."
+msgstr "表达对象脸上的喜悦是有感染力的。"
+
+#. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_K.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_K.NAME"
+msgid "<link=\"ARTWIDEK\">Flight of the Slicksters</link>"
+msgstr "<link=\"ARTWIDEK\">《飞翔的浮油生物》</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.NAME"
@@ -7095,6 +7132,36 @@ msgstr "全天生成用于测试的电力。"
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.NAME"
 msgid "Dev Generator"
 msgstr "开发者发电机"
+
+#. STRINGS.BUILDINGS.PREFABS.DEVHEPSPAWNER.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.DEVHEPSPAWNER.DESC"
+msgid "Radbolts are necessary for producing Materials Science research."
+msgstr "辐射粒子对于材料科学研究是十分必要的。"
+
+#. STRINGS.BUILDINGS.PREFABS.DEVHEPSPAWNER.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.DEVHEPSPAWNER.EFFECT"
+msgid "Generates Radbolts."
+msgstr "生成辐射粒子。"
+
+#. STRINGS.BUILDINGS.PREFABS.DEVHEPSPAWNER.LOGIC_PORT
+msgctxt "STRINGS.BUILDINGS.PREFABS.DEVHEPSPAWNER.LOGIC_PORT"
+msgid "Do not emit Radbolts"
+msgstr "不发射辐射粒子"
+
+#. STRINGS.BUILDINGS.PREFABS.DEVHEPSPAWNER.LOGIC_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.DEVHEPSPAWNER.LOGIC_PORT_ACTIVE"
+msgid "<b><style=\"logic_on\">Green Signal</style></b>: Emit Radbolts"
+msgstr "<b><style=\"logic_on\">绿色信号</style></b>：发射辐射粒子"
+
+#. STRINGS.BUILDINGS.PREFABS.DEVHEPSPAWNER.LOGIC_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.DEVHEPSPAWNER.LOGIC_PORT_INACTIVE"
+msgid "<b><style=\"logic_off\">Red Signal</style></b>: Do not emit Radbolts"
+msgstr "<b><style=\"logic_off\">红色信号</style></b>：不发射辐射粒子"
+
+#. STRINGS.BUILDINGS.PREFABS.DEVHEPSPAWNER.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.DEVHEPSPAWNER.NAME"
+msgid "Dev Radbolt Generator"
+msgstr "开发者辐射粒子生成"
 
 #. STRINGS.BUILDINGS.PREFABS.DEVLIFESUPPORT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVLIFESUPPORT.DESC"
@@ -8064,6 +8131,16 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.PLAID.NAME"
 msgid "<link=\"EXTERIORWALL\">Aqua Plaid Print</link>"
 msgstr "<link=\"EXTERIORWALL\">蓝绿格纹壁纸</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.PLUNGER.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.PLUNGER.DESC"
+msgid "Unclogs one's creative impulses."
+msgstr "疏通一个人的创作冲动。"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.PLUNGER.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.PLUNGER.NAME"
+msgid "<link=\"EXTERIORWALL\">Plunger Print</link>"
+msgstr "<link=\"EXTERIORWALL\">搋子印花壁纸</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.RAIN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.RAIN.DESC"
 msgid "A precipitation-themed wallpaper."
@@ -8124,9 +8201,29 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.SUN.NAME"
 msgid "<link=\"EXTERIORWALL\">Sunshine Print</link>"
 msgstr "<link=\"EXTERIORWALL\">阳光印花壁纸</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.TOILETPAPER.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.TOILETPAPER.DESC"
+msgid "Softly undulating lines create an undeniable air of loo-xury."
+msgstr "柔和起伏的线条营造出一种不可否认的豪厕气息。"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.TOILETPAPER.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.TOILETPAPER.NAME"
+msgid "<link=\"EXTERIORWALL\">De-loo-xe</link>"
+msgstr "<link=\"EXTERIORWALL\">豪厕壁纸</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.TROPICAL.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.TROPICAL.DESC"
+msgid "The original scratch-and-sniff version was immediately recalled."
+msgstr "最初的芳香涂层版本当时立即就被驳回了。"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.TROPICAL.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.TROPICAL.NAME"
+msgid "<link=\"EXTERIORWALL\">Sporechid Print</link>"
+msgstr "<link=\"EXTERIORWALL\">孢子兰印花壁纸</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.WATERMELON.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.WATERMELON.DESC"
-msgid "Far more practical than gluing real fruit at a wall."
+msgid "Far more practical than gluing real fruit on a wall."
 msgstr "远比真正将水果粘在墙上实用得多。"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.WATERMELON.NAME
@@ -8284,11 +8381,11 @@ msgid ""
 "Automatically dispenses stored <link=\"CRITTERS\">Critter</link> food into "
 "the area below.\n"
 "\n"
-"Dispenses once per day."
+"Dispenses continuously as food is consumed."
 msgstr ""
 "自动将储存的<link=\"CRITTERS\">小动物</link>食物投入下方。\n"
 "\n"
-"每天投食一次。"
+"食物消耗后会持续投放。"
 
 #. STRINGS.BUILDINGS.PREFABS.FISHFEEDER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FISHFEEDER.NAME"
@@ -8476,6 +8573,56 @@ msgstr ""
 "提高<link=\"DECOR\">装饰度</link>，从而提升<link=\"MORALE\">士气</link>。\n"
 "\n"
 "必须垂吊在天花板上。"
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.FACADES.RETRO_BLUE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.FACADES.RETRO_BLUE.DESC"
+msgid "Suspended vessels really elevate a plant display."
+msgstr "悬挂的花盆确实提升了植物的展示。"
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.FACADES.RETRO_BLUE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.FACADES.RETRO_BLUE.NAME"
+msgid "<link=\"FLOWERVASEHANGING\">Dreamy Hanging Pot</link>"
+msgstr "<link=\"FLOWERVASEHANGING\">梦幻垂吊花盆</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.FACADES.RETRO_GREEN.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.FACADES.RETRO_GREEN.DESC"
+msgid "Suspended vessels really elevate a plant display."
+msgstr "悬挂的花盆确实提升了植物的展示。"
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.FACADES.RETRO_GREEN.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.FACADES.RETRO_GREEN.NAME"
+msgid "<link=\"FLOWERVASEHANGING\">Bright Hanging Pot</link>"
+msgstr "<link=\"FLOWERVASEHANGING\">明亮垂吊花盆</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.FACADES.RETRO_RED.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.FACADES.RETRO_RED.DESC"
+msgid "Suspended vessels really elevate a plant display."
+msgstr "悬挂的花盆确实提升了植物的展示。"
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.FACADES.RETRO_RED.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.FACADES.RETRO_RED.NAME"
+msgid "<link=\"FLOWERVASEHANGING\">Bold Hanging Pot</link>"
+msgstr "<link=\"FLOWERVASEHANGING\">醒目垂吊花盆</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.FACADES.RETRO_WHITE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.FACADES.RETRO_WHITE.DESC"
+msgid "Suspended vessels really elevate a plant display."
+msgstr "悬挂的花盆确实提升了植物的展示。"
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.FACADES.RETRO_WHITE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.FACADES.RETRO_WHITE.NAME"
+msgid "<link=\"FLOWERVASEHANGING\">Elegant Hanging Pot</link>"
+msgstr "<link=\"FLOWERVASEHANGING\">优雅垂吊花盆</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.FACADES.RETRO_YELLOW.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.FACADES.RETRO_YELLOW.DESC"
+msgid "Suspended vessels really elevate a plant display."
+msgstr "悬挂的花盆确实提升了植物的展示。"
+
+#. STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.FACADES.RETRO_YELLOW.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.FACADES.RETRO_YELLOW.NAME"
+msgid "<link=\"FLOWERVASEHANGING\">Sunny Hanging Pot</link>"
+msgstr "<link=\"FLOWERVASEHANGING\">阳光垂吊花盆</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGING.NAME"
@@ -10259,8 +10406,8 @@ msgstr "天才冰雕塑"
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.FACADES.ICESCULPTURE_AMAZING_1.DESC
 msgctxt ""
 "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.FACADES.ICESCULPTURE_AMAZING_1.DESC"
-msgid ""
-msgstr ""
+msgid "These incisors are the stuff of dental legend."
+msgstr "这些门牙是牙齿传说里的东西。"
 
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.FACADES.ICESCULPTURE_AMAZING_1.NAME
 msgctxt ""
@@ -10282,8 +10429,8 @@ msgstr "<link=\"ICESCULPTUREAMAZING2\">《冰冻的甲壳动物》</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.FACADES.ICESCULPTURE_CRAP.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.FACADES.ICESCULPTURE_CRAP.DESC"
-msgid ""
-msgstr ""
+msgid "It's structurally unsound, but otherwise not entirely terrible."
+msgstr "它在结构上不太合理，但其他方面并不糟糕。"
 
 #. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.FACADES.ICESCULPTURE_CRAP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.FACADES.ICESCULPTURE_CRAP.NAME"
@@ -11032,7 +11179,7 @@ msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> if the number of "
 "Germs in the pipe is within the selected range"
 msgstr ""
-"若管内气体病菌数量处于选定范围内，输出<b><style=\"logic_on\">绿色信号</"
+"若管内液体病菌数量处于选定范围内，输出<b><style=\"logic_on\">绿色信号</"
 "style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.LOGIC_PORT_INACTIVE
@@ -11166,7 +11313,7 @@ msgid ""
 "\"logic_off\">Red Signal</style></b> when pipe contents enter the chosen "
 "<link=\"HEAT\">Temperature</link> range."
 msgstr ""
-"当管内气体温度达到选定范围内时，输出<b><style=\"logic_on\">绿色信号</style></"
+"当管内液体温度达到选定范围内时，输出<b><style=\"logic_on\">绿色信号</style></"
 "b>或<b><style=\"logic_off\">红色信号</style></b>。"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.LOGIC_PORT
@@ -14124,6 +14271,24 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILEFABRICATOR.RECIPE_DESCRIPTION"
 msgid "Produces {0} from {1} and {2}."
 msgstr "由{1}和{2}生产{0}。"
 
+#. STRINGS.BUILDINGS.PREFABS.MISSILELAUNCHER.BODY.CONTAINER1
+msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILELAUNCHER.BODY.CONTAINER1"
+msgid ""
+"Fires <link=\"MISSILELAUNCHER\">Blastshot</link> shells at meteor showers to "
+"defend the colony from impact-related damage.\n"
+"\n"
+"Range: 16 tiles horizontally, 32 tiles vertically.\n"
+"\n"
+"Meteors that have been blown to smithereens leave behind no harvestable "
+"resources."
+msgstr ""
+"在流星雨期间发射<link=\"MISSILELAUNCHER\">爆破弹</link>以免受殖民地遭受撞击损"
+"坏。\n"
+"\n"
+"范围：水平16格，垂直32格。\n"
+"\n"
+"炸成碎片的流星不会留下可获得的资源。"
+
 #. STRINGS.BUILDINGS.PREFABS.MISSILELAUNCHER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILELAUNCHER.DESC"
 msgid ""
@@ -14139,8 +14304,8 @@ msgid ""
 "\n"
 "Range: 16 tiles horizontally, 32 tiles vertically."
 msgstr ""
-"在流星雨期间发射<link=\"MISSILELAUNCHER\">爆破弹</link>以使殖民地抵御撞击相关的"
-"损坏。\n"
+"在流星雨期间发射<link=\"MISSILELAUNCHER\">爆破弹</link>以免受殖民地遭受撞击损"
+"坏。\n"
 "\n"
 "范围：水平16格，垂直32格。"
 
@@ -29393,7 +29558,7 @@ msgctxt "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES.HATCH"
 msgid ""
 "Specimen attempted to snack on the buccal smear. Review data for more "
 "information."
-msgstr "样品试图在口腔涂片上小吃一顿。查看数据以获得更多信息。"
+msgstr "样品试图在口腔拭子上来上一口。查看数据以获得更多信息。"
 
 #. STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES.LIGHTBUG
 msgctxt ""
@@ -29562,7 +29727,7 @@ msgid ""
 "Atomic force microscopy of the bite pattern reveals traces of goethite, a "
 "mineral notable for its exceptional strength."
 msgstr ""
-"样品试图在口腔涂片上小吃一顿。样品可用，但设备可能有些损坏。\n"
+"样品试图在口腔拭子上来上一口。取样涂片可用，但设备可能有些损坏。\n"
 "\n"
 "原子力显微镜的咬痕上留有针铁矿，这是一种因特殊强度而闻名的矿物。"
 
@@ -34424,8 +34589,12 @@ msgstr "<link=\"FORESTFORAGEPLANTPLANTED\">六角根</link>"
 
 #. STRINGS.CREATURES.SPECIES.GASGRASS.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GASGRASS.DESC"
-msgid "Gas Grass."
-msgstr "释气草。"
+msgid ""
+"Gas Grass is an alien lifeform tentatively categorized as a \"plant,\" which "
+"makes up the entirety of the <link=\"MOO\">Gassy Moo's</link> diet."
+msgstr ""
+"释气草是一种暂时归类为“植物”的外星生命，其构成了<link=\"MOO\">释气海牛</link>"
+"的全部饮食。"
 
 #. STRINGS.CREATURES.SPECIES.GASGRASS.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.GASGRASS.DOMESTICATEDDESC"
@@ -38738,20 +38907,21 @@ msgstr "                    • {0}：{1}\n"
 
 #. STRINGS.CREATURES.STATUSITEMS.WRONGIRRIGATIONMAJOR.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGIRRIGATIONMAJOR.NAME"
-msgid "    • Irrigation"
-msgstr "    • 灌溉"
+msgid "    • Irrigation (Stored)"
+msgstr "    • 灌溉（储存）"
 
 #. STRINGS.CREATURES.STATUSITEMS.WRONGIRRIGATIONMAJOR.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGIRRIGATIONMAJOR.TOOLTIP"
 msgid ""
-"This farm is storing materials that are not suitable for this plant\n"
+"This farm is storing <style=\"KKeyword\">Liquids</style> that are not "
+"suitable for this plant\n"
 "\n"
 "<style=\"KKeyword\">Empty Storage</style> on this building to remove the "
-"incorrect materials"
+"unusable liquids"
 msgstr ""
-"这块农地储存了不适合这株植物的材料\n"
+"这块农地储存了不适合这株植物的<style=\"KKeyword\">液体</style>\n"
 "\n"
-"对这个建筑<style=\"KKeyword\">清空库存</style>，以清除错误的材料"
+"对这个建筑<style=\"KKeyword\">清空库存</style>，以清除无法使用的液体"
 
 #. STRINGS.DUPLICANTS.ARRIVALTIME
 msgctxt "STRINGS.DUPLICANTS.ARRIVALTIME"
@@ -40959,7 +41129,7 @@ msgstr "正在储存食物"
 #. STRINGS.DUPLICANTS.CHORES.FOODFETCH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.FOODFETCH.TOOLTIP"
 msgid "This Duplicant is moving edible resources into proper storage"
-msgstr "这名复制人正在将可食用资源移动到对应的库存中"
+msgstr "这名复制人正在将可食用资源移至对应的库存中"
 
 #. STRINGS.DUPLICANTS.CHORES.GENERATEPOWER.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.GENERATEPOWER.NAME"
@@ -41217,7 +41387,7 @@ msgstr "前往"
 #. STRINGS.DUPLICANTS.CHORES.MOVETO.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.MOVETO.STATUS"
 msgid "Moving to location"
-msgstr "正在移动至指定地点"
+msgstr "正在移至指定地点"
 
 #. STRINGS.DUPLICANTS.CHORES.MOVETO.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.MOVETO.TOOLTIP"
@@ -41811,7 +41981,7 @@ msgstr "正在前去迁移"
 #. STRINGS.DUPLICANTS.CHORES.RELOCATE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.RELOCATE.TOOLTIP"
 msgid "This Duplicant is moving a building to a new location"
-msgstr "这名复制人正在将建筑移动至新位置"
+msgstr "这名复制人正在将建筑移至新位置"
 
 #. STRINGS.DUPLICANTS.CHORES.REPAIR.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.REPAIR.NAME"
@@ -46748,7 +46918,7 @@ msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.BANHI.DESC"
 msgid ""
 "The \"cool loner\" vibes that radiate off a {0} never fail to make the "
 "colony swoon."
-msgstr "{0}身上散发出的“孤傲的独侠客”气息总会令殖民地心醉神迷。"
+msgstr "{0}身上散发出的“孤傲的独行客”气息总会令殖民地心醉神迷。"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.BANHI.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.BANHI.NAME"
@@ -49768,7 +49938,7 @@ msgstr "这名复制人正在利用休息时间出去玩"
 #. STRINGS.DUPLICANTS.STATUSITEMS.SPICING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SPICING.NAME"
 msgid "Spicing Food"
-msgstr "向食物加香料"
+msgstr "调味"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SPICING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SPICING.TOOLTIP"
@@ -51824,7 +51994,7 @@ msgstr "这名复制人更喜欢单独工作"
 #. STRINGS.DUPLICANTS.TRAITS.LONER.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.LONER.NAME"
 msgid "Loner"
-msgstr "独侠客"
+msgstr "独行客"
 
 #. STRINGS.DUPLICANTS.TRAITS.LONER.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.LONER.SHORT_DESC"
@@ -55395,15 +55565,392 @@ msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.WORN_NAME"
 msgid "<link=\"ATMOSUIT\">Worn Atmo Suit</link>"
 msgstr "<link=\"ATMOSUIT\">磨损的气压服</link>"
 
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.DESC"
+msgid "Default belt for atmo suits."
+msgstr "气压服的默认腰带。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.LIMONE.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.LIMONE.DESC"
+msgid "This lime-hued belt really pulls an atmo suit together."
+msgstr "这种酸橙色调的腰带确实能把太空服接在一起。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.LIMONE.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.LIMONE.NAME"
+msgid "Citrus Atmo Belt"
+msgstr "柑橘气压服腰带"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.PUFT.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.PUFT.DESC"
+msgid ""
+"If critters wore belts...\n"
+"Released for Klei Fest 2023."
+msgstr ""
+"如果小动物戴着腰带的话……\n"
+"为2023年科雷节发布。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.PUFT.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.PUFT.NAME"
+msgid "Puft Atmo Belt"
+msgstr "飞鱼气压服腰带"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.SPARKLE_BLUE.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.SPARKLE_BLUE.DESC"
+msgid "It's blue! It's shiny! It keeps atmo suit pants on!"
+msgstr "蓝色的！闪亮的！能把气压服裤子固定的！"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.SPARKLE_BLUE.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.SPARKLE_BLUE.NAME"
+msgid "Blue Glitter Atmo Belt"
+msgstr "蓝色亮片气压服腰带"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.SPARKLE_GREEN.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.SPARKLE_GREEN.DESC"
+msgid "It's green! It's shiny! It keeps atmo suit pants on!"
+msgstr "绿色的！闪亮的！能把气压服裤子固定的！"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.SPARKLE_GREEN.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.SPARKLE_GREEN.NAME"
+msgid "Green Glitter Atmo Belt"
+msgstr "绿色亮片气压服腰带"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.SPARKLE_LAVENDER.DESC
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.SPARKLE_LAVENDER.DESC"
+msgid "It's violet! It's shiny! It keeps atmo suit pants on!"
+msgstr "紫色的！闪亮的！能把气压服裤子固定的！"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.SPARKLE_LAVENDER.NAME
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.SPARKLE_LAVENDER.NAME"
+msgid "Violet Glitter Atmo Belt"
+msgstr "紫色亮片气压服腰带"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.SPARKLE_RED.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.SPARKLE_RED.DESC"
+msgid "It's red! It's shiny! It keeps atmo suit pants on!"
+msgstr "红色的！闪亮的！能把气压服裤子固定的！"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.SPARKLE_RED.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.SPARKLE_RED.NAME"
+msgid "Red Glitter Atmo Belt"
+msgstr "红色亮片气压服腰带"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.NAME"
+msgid "Default Atmo Belt"
+msgstr "默认气压服腰带"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.DESC"
+msgid "Default top and bottom of an atmo suit."
+msgstr "气压服的默认上身和下身。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.LIMONE.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.LIMONE.DESC"
+msgid "Perfect for summery, atmospheric excursions."
+msgstr "非常适合夏季在大气层旅行。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.LIMONE.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.LIMONE.NAME"
+msgid "Citrus Atmo Suit"
+msgstr "柑橘气压服"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.PUFT.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.PUFT.DESC"
+msgid ""
+"Warning: prolonged wear may result in feelings of Puft-up pride.\n"
+"Released for Klei Fest 2023."
+msgstr ""
+"警告：长时间穿戴可能会导致陷入飞鱼特有的骄傲中。\n"
+"为2023年科雷节发布。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.PUFT.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.PUFT.NAME"
+msgid "Puft Atmo Suit"
+msgstr "飞鱼气压服"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_BLUE.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_BLUE.DESC"
+msgid "Protects the wearer from hostile environments <i>and</i> drab fashion."
+msgstr "使穿戴者免受恶劣环境<b>和</b>单调时尚的影响。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_BLUE.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_BLUE.NAME"
+msgid "Blue Glitter Atmo Suit"
+msgstr "蓝色亮片气压服"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_GREEN.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_GREEN.DESC"
+msgid "Protects the wearer from hostile environments <i>and</i> drab fashion."
+msgstr "使穿戴者免受恶劣环境<b>和</b>单调时尚的影响。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_GREEN.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_GREEN.NAME"
+msgid "Green Glitter Atmo Suit"
+msgstr "绿色亮片气压服"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_LAVENDER.DESC
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_LAVENDER.DESC"
+msgid "Protects the wearer from hostile environments <i>and</i> drab fashion."
+msgstr "使穿戴者免受恶劣环境<b>和</b>单调时尚的影响。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_LAVENDER.NAME
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_LAVENDER.NAME"
+msgid "Violet Glitter Atmo Suit"
+msgstr "紫色亮片气压服"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_RED.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_RED.DESC"
+msgid "Protects the wearer from hostile environments <i>and</i> drab fashion."
+msgstr "使穿戴者免受恶劣环境<b>和</b>单调时尚的影响。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_RED.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_RED.NAME"
+msgid "Red Glitter Atmo Suit"
+msgstr "红色亮片气压服"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.NAME"
+msgid "Default Atmo Uniform"
+msgstr "默认气压服制服"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.DESC"
+msgid "Default atmo suit gloves."
+msgstr "默认气压服手套。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.LIMONE.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.LIMONE.DESC"
+msgid "Lime-inspired gloves brighten up hostile environments."
+msgstr "酸橙风格的手套，为恶劣环境带来希望。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.LIMONE.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.LIMONE.NAME"
+msgid "Citrus Atmo Gloves"
+msgstr "柑橘气压服手套"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.PUFT.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.PUFT.DESC"
+msgid ""
+"A little Puft-love for delicate extremities.\n"
+"Released for Klei Fest 2023."
+msgstr ""
+"一点点对飞鱼纤细四肢的爱。\n"
+"为2023年科雷节发布。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.PUFT.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.PUFT.NAME"
+msgid "Puft Atmo Gloves"
+msgstr "飞鱼气压服手套"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.SPARKLE_BLUE.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.SPARKLE_BLUE.DESC"
+msgid "Sparkly blue gloves for hostile environments."
+msgstr "闪闪发光的蓝色手套，适用于恶劣环境。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.SPARKLE_BLUE.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.SPARKLE_BLUE.NAME"
+msgid "Blue Glitter Atmo Gloves"
+msgstr "蓝色亮片气压服手套"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.SPARKLE_GREEN.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.SPARKLE_GREEN.DESC"
+msgid "Sparkly green gloves for hostile environments."
+msgstr "闪闪发光的绿色手套，适用于恶劣环境。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.SPARKLE_GREEN.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.SPARKLE_GREEN.NAME"
+msgid "Green Glitter Atmo Gloves"
+msgstr "绿色亮片气压服手套"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.SPARKLE_LAVENDER.DESC
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.SPARKLE_LAVENDER.DESC"
+msgid "Sparkly violet gloves for hostile environments."
+msgstr "闪闪发光的紫色手套，适用于恶劣环境。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.SPARKLE_LAVENDER.NAME
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.SPARKLE_LAVENDER.NAME"
+msgid "Violet Glitter Atmo Gloves"
+msgstr "紫色亮片气压服手套"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.SPARKLE_RED.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.SPARKLE_RED.DESC"
+msgid "Sparkly red gloves for hostile environments."
+msgstr "闪闪发光的红色手套，适用于恶劣环境。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.SPARKLE_RED.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.SPARKLE_RED.NAME"
+msgid "Red Glitter Atmo Gloves"
+msgstr "红色亮片气压服手套"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.NAME"
+msgid "Default Atmo Gloves"
+msgstr "默认气压服手套"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.DESC"
+msgid "Default helmet for atmo suits."
+msgstr "气压服的默认头盔。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.LIMONE.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.LIMONE.DESC"
+msgid "Fresh, fruity and full of breathable air."
+msgstr "清新、果香浓郁、充满了可呼吸的空气。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.LIMONE.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.LIMONE.NAME"
+msgid "Citrus Atmo Helmet"
+msgstr "柑橘气压服头盔"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.PUFT.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.PUFT.DESC"
+msgid ""
+"Convincing enough to fool most Pufts and even a few Duplicants.\n"
+"Released for Klei Fest 2023."
+msgstr ""
+"足以愚弄大多数喷浮飞鱼，甚至一些复制人也会相信。\n"
+"为2023年科雷节发布。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.PUFT.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.PUFT.NAME"
+msgid "Puft Atmo Helmet"
+msgstr "飞鱼气压服头盔"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.SPARKLE_BLUE.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.SPARKLE_BLUE.DESC"
+msgid "Protective gear at its sparkliest."
+msgstr "最闪亮的防护装备。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.SPARKLE_BLUE.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.SPARKLE_BLUE.NAME"
+msgid "Blue Glitter Atmo Helmet"
+msgstr "蓝色亮片气压服头盔"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.SPARKLE_GREEN.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.SPARKLE_GREEN.DESC"
+msgid "Protective gear at its sparkliest."
+msgstr "最闪亮的防护装备。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.SPARKLE_GREEN.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.SPARKLE_GREEN.NAME"
+msgid "Green Glitter Atmo Helmet"
+msgstr "绿色亮片气压服头盔"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.SPARKLE_PURPLE.DESC
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.SPARKLE_PURPLE.DESC"
+msgid "Protective gear at its sparkliest."
+msgstr "最闪亮的防护装备。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.SPARKLE_PURPLE.NAME
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.SPARKLE_PURPLE.NAME"
+msgid "Violet Glitter Atmo Helmet"
+msgstr "紫色亮片气压服头盔"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.SPARKLE_RED.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.SPARKLE_RED.DESC"
+msgid "Protective gear at its sparkliest."
+msgstr "最闪亮的防护装备。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.SPARKLE_RED.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.SPARKLE_RED.NAME"
+msgid "Red Glitter Atmo Helmet"
+msgstr "红色亮片气压服头盔"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.NAME"
+msgid "Default Atmo Helmet"
+msgstr "默认气压服头盔"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SET.PUFT.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SET.PUFT.DESC"
+msgid ""
+"Critter-forward protective gear for the intrepid explorer!\n"
+"Released for Klei Fest 2023."
+msgstr ""
+"为勇敢的探险家准备的小动物前锋防护装备！\n"
+"为2023年科雷节发布。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SET.PUFT.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SET.PUFT.NAME"
+msgid "Puft Atmo Suit"
+msgstr "飞鱼气压服"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SHOES.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SHOES.DESC"
+msgid "Default footwear for atmo suits."
+msgstr "气压服的默认鞋子。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SHOES.FACADES.LIMONE.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SHOES.FACADES.LIMONE.DESC"
+msgid "Cheery boots for stomping around in hostile environments."
+msgstr "用于在恶劣环境中跺脚的欢快靴子。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SHOES.FACADES.LIMONE.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SHOES.FACADES.LIMONE.NAME"
+msgid "Citrus Atmo Boots"
+msgstr "柑橘气压服靴子"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SHOES.FACADES.PUFT.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SHOES.FACADES.PUFT.DESC"
+msgid ""
+"These boots were made for puft-ing.\n"
+"Released for Klei Fest 2023."
+msgstr ""
+"这些靴子就是用来噗噗作响的。\n"
+"为2023年科雷节发布。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SHOES.FACADES.PUFT.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SHOES.FACADES.PUFT.NAME"
+msgid "Puft Atmo Boots"
+msgstr "飞鱼气压服靴子"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SHOES.FACADES.SPARKLE_BLACK.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SHOES.FACADES.SPARKLE_BLACK.DESC"
+msgid "A timeless color, with a little pizzazz."
+msgstr "永恒的颜色，带有一点活力。"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SHOES.FACADES.SPARKLE_BLACK.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SHOES.FACADES.SPARKLE_BLACK.NAME"
+msgid "Black Glitter Atmo Boots"
+msgstr "黑色亮片气压服靴子"
+
+#. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SHOES.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SHOES.NAME"
+msgid "Default Atmo Boots"
+msgstr "默认气压服靴子"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_ACCESORIES.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_ACCESORIES.DESC"
+msgid "<DESC>"
+msgstr "<DESC>"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_ACCESORIES.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_ACCESORIES.NAME"
+msgid "Default Accessory"
+msgstr "默认配饰"
+
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.DESC"
-msgid "Testing desc for bottoms skins"
-msgstr "下身皮肤的测试描述"
+msgid "The default bottoms."
+msgstr "默认下身。"
 
-#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.EFFECT
-msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.EFFECT"
-msgid "Testing effect for bottoms skins"
-msgstr "下身皮肤的测试效果"
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.ATHLETE.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.ATHLETE.DESC"
+msgid "Fast, furious fashion."
+msgstr "速度、激情的时尚。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.ATHLETE.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.ATHLETE.NAME"
+msgid "Racing Pants"
+msgstr "赛车裤子"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_BLACK.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_BLACK.DESC"
@@ -55419,7 +55966,7 @@ msgstr "黑色基础长裤"
 msgctxt ""
 "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_BLUE_MIDDLE.DESC"
 msgid "A clean pair of aqua-blue pants that go with everything."
-msgstr "一条整洁的水蓝长裤，可搭配一切。"
+msgstr "一条整洁的水蓝色长裤，可搭配一切。"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_BLUE_MIDDLE.NAME
 msgctxt ""
@@ -55437,6 +55984,18 @@ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_GREEN.NAME"
 msgid "Basic Green Pants"
 msgstr "绿色基础长裤"
 
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_LIGHTBROWN.DESC
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_LIGHTBROWN.DESC"
+msgid "Transition effortlessly from subterranean day to subterranean night."
+msgstr "可以毫不费力地从地下白天过渡到地下夜晚。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_LIGHTBROWN.NAME
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_LIGHTBROWN.NAME"
+msgid "Basic Khaki Pants"
+msgstr "土黄基础长裤"
+
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_ORANGE.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_ORANGE.DESC"
 msgid "A clean pair of orange pants that go with everything."
@@ -55451,7 +56010,7 @@ msgstr "橙色基础长裤"
 msgctxt ""
 "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_PINK_ORCHID.DESC"
 msgid "A clean pair of bubblegum-pink pants that go with everything."
-msgstr "一条整洁的淡粉长裤，可搭配一切。"
+msgstr "一条整洁的淡粉色长裤，可搭配一切。"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_PINK_ORCHID.NAME
 msgctxt ""
@@ -55479,6 +56038,18 @@ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_RED.NAME"
 msgid "Basic Red Pants"
 msgstr "红色基础长裤"
 
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_REDORANGE.DESC
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_REDORANGE.DESC"
+msgid "Like red pants, but slightly fancier-sounding."
+msgstr "虽然听起来有点花哨，但和红色裤子差不多。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_REDORANGE.NAME
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_REDORANGE.NAME"
+msgid "Basic Crimson Pants"
+msgstr "绯红基础长裤"
+
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_WHITE.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_WHITE.DESC"
 msgid "A clean pair of white pants that go with everything."
@@ -55498,6 +56069,16 @@ msgstr "一条整洁的黄色长裤，可搭配一切。"
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_YELLOW.NAME"
 msgid "Basic Yellow Pants"
 msgstr "黄色基础长裤"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.CIRCUIT_GREEN.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.CIRCUIT_GREEN.DESC"
+msgid "These legs are lit."
+msgstr "这些裤腿都是亮的。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.CIRCUIT_GREEN.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.CIRCUIT_GREEN.NAME"
+msgid "LED Pants"
+msgstr "发光裤子"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.SHORTS_BASIC_BLUE_COBALT.DESC
 msgctxt ""
@@ -55593,30 +56174,25 @@ msgctxt ""
 msgid "Yellowcake Shorts"
 msgstr "黄饼短裤"
 
-#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.GENERICNAME
-msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.GENERICNAME"
-msgid "Clothing"
-msgstr "服装"
-
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.NAME"
-msgid "<link=\"CLOTHINGBOTTOMS\">Bottoms</link>"
-msgstr "<link=\"CLOTHINGBOTTOMS\">下身</link>"
-
-#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.RECIPE_DESC
-msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.RECIPE_DESC"
-msgid "Testing recipe desc for bottoms skins"
-msgstr "下身皮肤的测试配方描述"
+msgid "Default Bottom"
+msgstr "默认下身"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.DESC"
-msgid "Testing desc for gloves skins"
-msgstr "手套皮肤的测试描述"
+msgid "The default gloves."
+msgstr "默认手套。"
 
-#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.EFFECT
-msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.EFFECT"
-msgid "Testing effect for gloves skins"
-msgstr "手套皮肤的测试效果"
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.ATHLETE.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.ATHLETE.DESC"
+msgid "Crafted for high-speed handshakes."
+msgstr "专为高速握手而设计。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.ATHLETE.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.ATHLETE.NAME"
+msgid "Racing Gloves"
+msgstr "赛车手套"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_BLACK.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_BLACK.DESC"
@@ -55632,13 +56208,35 @@ msgstr "黑色基础手套"
 msgctxt ""
 "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_BLUE_MIDDLE.DESC"
 msgid "A good, solid pair of aqua-blue gloves that go with everything."
-msgstr "一双结实的水蓝手套，可搭配一切。"
+msgstr "一双结实的水蓝色手套，可搭配一切。"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_BLUE_MIDDLE.NAME
 msgctxt ""
 "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_BLUE_MIDDLE.NAME"
 msgid "Basic Aqua Gloves"
 msgstr "水蓝基础手套"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_BLUEGREY.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_BLUEGREY.DESC"
+msgid "A tough name for soft gloves."
+msgstr "对于柔软手套来说是个强硬的名字。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_BLUEGREY.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_BLUEGREY.NAME"
+msgid "Basic Gunmetal Gloves"
+msgstr "炮铜基础手套"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_BROWN_KHAKI.DESC
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_BROWN_KHAKI.DESC"
+msgid "They don't show dirt."
+msgstr "这双手套不显脏。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_BROWN_KHAKI.NAME
+msgctxt ""
+"STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_BROWN_KHAKI.NAME"
+msgid "Basic Khaki Gloves"
+msgstr "土黄基础手套"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_GREEN.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_GREEN.DESC"
@@ -55664,7 +56262,7 @@ msgstr "橙色基础手套"
 msgctxt ""
 "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_PINK_ORCHID.DESC"
 msgid "A good, solid pair of bubblegum-pink gloves that go with everything."
-msgstr "一双结实的淡粉手套，可搭配一切。"
+msgstr "一双结实的淡粉色手套，可搭配一切。"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_PINK_ORCHID.NAME
 msgctxt ""
@@ -55711,6 +56309,16 @@ msgstr "一双结实的黄色手套，可搭配一切。"
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_YELLOW.NAME"
 msgid "Basic Yellow Gloves"
 msgstr "黄色基础手套"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CIRCUIT_GREEN.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CIRCUIT_GREEN.DESC"
+msgid "Great for gesticulating at parties."
+msgstr "非常适合在派对上做手势。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CIRCUIT_GREEN.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CIRCUIT_GREEN.NAME"
+msgid "LED Gloves"
+msgstr "发光手套"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_BLUEBERRY.DESC
 msgctxt ""
@@ -55886,30 +56494,25 @@ msgctxt ""
 msgid "Superfan Sports Gloves"
 msgstr "忠实粉丝运动手套"
 
-#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.GENERICNAME
-msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.GENERICNAME"
-msgid "Clothing"
-msgstr "服装"
-
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.NAME"
-msgid "<link=\"CLOTHINGGLOVES\">Gloves</link>"
-msgstr "<link=\"CLOTHINGGLOVES\">手套</link>"
+msgid "Default Gloves"
+msgstr "默认手套"
 
-#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.RECIPE_DESC
-msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.RECIPE_DESC"
-msgid "Testing recipe desc for gloves skins"
-msgstr "手套皮肤的测试配方描述"
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_HATS.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_HATS.DESC"
+msgid "<DESC>"
+msgstr "<DESC>"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_HATS.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_HATS.NAME"
+msgid "Default Headgear"
+msgstr "默认头饰"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.DESC"
-msgid "Testing desc for shoes skins"
-msgstr "鞋子皮肤的测试描述"
-
-#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.EFFECT
-msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.EFFECT"
-msgid "Testing effect for shoes skins"
-msgstr "鞋子皮肤的测试效果"
+msgid "The default style of footwear."
+msgstr "鞋子的默认风格。"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.BASIC_BLACK.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.BASIC_BLACK.DESC"
@@ -55925,13 +56528,23 @@ msgstr "黑色基础鞋子"
 msgctxt ""
 "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.BASIC_BLUE_MIDDLE.DESC"
 msgid "A fresh pair of aqua-blue shoes that go with everything."
-msgstr "一双清新的水蓝鞋子，可搭配一切。"
+msgstr "一双清新的水蓝色鞋子，可搭配一切。"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.BASIC_BLUE_MIDDLE.NAME
 msgctxt ""
 "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.BASIC_BLUE_MIDDLE.NAME"
 msgid "Basic Aqua Shoes"
 msgstr "水蓝基础鞋子"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.BASIC_BLUEGREY.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.BASIC_BLUEGREY.DESC"
+msgid "A fresh pair of pastel shoes that go with everything."
+msgstr "一双清新的炮铜色鞋子，可搭配一切。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.BASIC_BLUEGREY.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.BASIC_BLUEGREY.NAME"
+msgid "Basic Gunmetal Shoes"
+msgstr "炮铜基础鞋子"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.BASIC_GREEN.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.BASIC_GREEN.DESC"
@@ -55957,7 +56570,7 @@ msgstr "橙色基础鞋子"
 msgctxt ""
 "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.BASIC_PINK_ORCHID.DESC"
 msgid "A fresh pair of bubblegum-pink shoes that go with everything."
-msgstr "一双清新的淡粉鞋子，可搭配一切。"
+msgstr "一双清新的淡粉色鞋子，可搭配一切。"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.BASIC_PINK_ORCHID.NAME
 msgctxt ""
@@ -55984,6 +56597,16 @@ msgstr "一双清新的红色鞋子，可搭配一切。"
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.BASIC_RED.NAME"
 msgid "Basic Red Shoes"
 msgstr "红色基础鞋子"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.BASIC_TAN.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.BASIC_TAN.DESC"
+msgid "They're remarkably unremarkable."
+msgstr "这双鞋子出乎意料地没那么出乎意料。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.BASIC_TAN.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.BASIC_TAN.NAME"
+msgid "Basic Tan Shoes"
+msgstr "褐色基础鞋子"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.BASIC_WHITE.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.BASIC_WHITE.DESC"
@@ -56091,30 +56714,25 @@ msgctxt ""
 msgid "Superfan Gym Socks"
 msgstr "忠实粉丝运动袜"
 
-#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.GENERICNAME
-msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.GENERICNAME"
-msgid "Clothing"
-msgstr "服装"
-
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.NAME"
-msgid "<link=\"CLOTHINGSHOES\">Shoes</link>"
-msgstr "<link=\"CLOTHINGSHOES\">鞋子</link>"
-
-#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.RECIPE_DESC
-msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.RECIPE_DESC"
-msgid "Testing recipe desc for shoes skins"
-msgstr "鞋子皮肤的测试配方描述"
+msgid "Default Footwear"
+msgstr "默认鞋子"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.DESC"
-msgid "Testing desc for tops skins"
-msgstr "上身皮肤的测试描述"
+msgid "The default shirt."
+msgstr "默认衬衫。"
 
-#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.EFFECT
-msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.EFFECT"
-msgid "Testing effect for tops skins"
-msgstr "上身皮肤的测试效果"
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.ATHLETE.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.ATHLETE.DESC"
+msgid "The epitome of fast fashion."
+msgstr "快时尚的典范。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.ATHLETE.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.ATHLETE.NAME"
+msgid "Racing Jacket"
+msgstr "赛车夹克"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.BASIC_BLACK.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.BASIC_BLACK.DESC"
@@ -56130,7 +56748,7 @@ msgstr "黑色基础衬衫"
 msgctxt ""
 "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.BASIC_BLUE_MIDDLE.DESC"
 msgid "A nice aqua-blue shirt that goes with everything."
-msgstr "一件漂亮的水蓝衬衫，可搭配一切。"
+msgstr "一件漂亮的水蓝色衬衫，可搭配一切。"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.BASIC_BLUE_MIDDLE.NAME
 msgctxt ""
@@ -56162,7 +56780,7 @@ msgstr "橙色基础衬衫"
 msgctxt ""
 "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.BASIC_PINK_ORCHID.DESC"
 msgid "A nice bubblegum-pink shirt that goes with everything."
-msgstr "一件漂亮的淡粉衬衫，可搭配一切。"
+msgstr "一件漂亮的淡粉色衬衫，可搭配一切。"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.BASIC_PINK_ORCHID.NAME
 msgctxt ""
@@ -56209,6 +56827,16 @@ msgstr "一件漂亮的黄色衬衫，可搭配一切。"
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.BASIC_YELLOW.NAME"
 msgid "Basic Yellow Shirt"
 msgstr "黄色基础衬衫"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.CIRCUIT_GREEN.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.CIRCUIT_GREEN.DESC"
+msgid "For dancing in the dark."
+msgstr "用于在黑暗中跳舞。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.CIRCUIT_GREEN.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.CIRCUIT_GREEN.NAME"
+msgid "LED Jacket"
+msgstr "发光夹克"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.JELLYPUFFJACKET_BLUEBERRY.DESC
 msgctxt ""
@@ -56380,20 +57008,30 @@ msgctxt ""
 msgid "Superfan T-shirt"
 msgstr "忠实粉丝T恤"
 
-#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.GENERICNAME
-msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.GENERICNAME"
-msgid "Clothing"
-msgstr "服装"
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.TSHIRT_MAGENTA.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.TSHIRT_MAGENTA.DESC"
+msgid "It will never chafe against delicate inner-elbow skin."
+msgstr "永远不会磨到娇嫩的肘内侧皮肤。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.TSHIRT_MAGENTA.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.TSHIRT_MAGENTA.NAME"
+msgid "Classic Magenta Tee"
+msgstr "经典洋红T恤"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.TSHIRT_WHITE.DESC
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.TSHIRT_WHITE.DESC"
+msgid "It's practically begging for a big Bog Jelly stain down the front."
+msgstr "不往前面撒上点沼浆果冻污渍说不过去。"
+
+#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.TSHIRT_WHITE.NAME
+msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.FACADES.TSHIRT_WHITE.NAME"
+msgid "Classic White Tee"
+msgstr "经典白色T恤"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.NAME"
-msgid "<link=\"CLOTHINGTOPS\">Tops</link>"
-msgstr "<link=\"CLOTHINGTOPS\">上身</link>"
-
-#. STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.RECIPE_DESC
-msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.RECIPE_DESC"
-msgid "Testing recipe desc for tops skins"
-msgstr "上身皮肤的测试配方描述"
+msgid "Default Top"
+msgstr "默认上身"
 
 #. STRINGS.EQUIPMENT.PREFABS.COOL_VEST.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.COOL_VEST.DESC"
@@ -56635,7 +57273,7 @@ msgctxt ""
 "STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES."
 "BALLOON_BLUE_LONG_SPARKLES.NAME"
 msgid "<link=\"EQUIPPABLEBALLOON\">Wheezewort Glitter</link>"
-msgstr "<link=\"EQUIPPABLEBALLOON\">冰息萝卜闪光气球</link>"
+msgstr "<link=\"EQUIPPABLEBALLOON\">冰息萝卜亮片气球</link>"
 
 #. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.BALLOON_FIREENGINE_LONG_SPARKLES.DESC
 msgctxt ""
@@ -56649,7 +57287,7 @@ msgctxt ""
 "STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES."
 "BALLOON_FIREENGINE_LONG_SPARKLES.NAME"
 msgid "<link=\"EQUIPPABLEBALLOON\">Magma Glitter</link>"
-msgstr "<link=\"EQUIPPABLEBALLOON\">岩浆闪光气球</link>"
+msgstr "<link=\"EQUIPPABLEBALLOON\">岩浆亮片气球</link>"
 
 #. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.BALLOON_GREEN_LONG_SPARKLES.DESC
 msgctxt ""
@@ -56663,7 +57301,7 @@ msgctxt ""
 "STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES."
 "BALLOON_GREEN_LONG_SPARKLES.NAME"
 msgid "<link=\"EQUIPPABLEBALLOON\">Mush Bar Glitter</link>"
-msgstr "<link=\"EQUIPPABLEBALLOON\">软泥膏闪光气球</link>"
+msgstr "<link=\"EQUIPPABLEBALLOON\">软泥膏亮片气球</link>"
 
 #. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.BALLOON_PINK_LONG_SPARKLES.DESC
 msgctxt ""
@@ -56677,7 +57315,7 @@ msgctxt ""
 "STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES."
 "BALLOON_PINK_LONG_SPARKLES.NAME"
 msgid "<link=\"EQUIPPABLEBALLOON\">Petal Glitter</link>"
-msgstr "<link=\"EQUIPPABLEBALLOON\">花瓣闪光气球</link>"
+msgstr "<link=\"EQUIPPABLEBALLOON\">花瓣亮片气球</link>"
 
 #. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.BALLOON_PURPLE_LONG_SPARKLES.DESC
 msgctxt ""
@@ -56691,21 +57329,21 @@ msgctxt ""
 "STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES."
 "BALLOON_PURPLE_LONG_SPARKLES.NAME"
 msgid "<link=\"EQUIPPABLEBALLOON\">Dusky Glitter</link>"
-msgstr "<link=\"EQUIPPABLEBALLOON\">夜幕闪光气球</link>"
+msgstr "<link=\"EQUIPPABLEBALLOON\">夜幕亮片气球</link>"
 
 #. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.BALLOON_YELLOW_LONG_SPARKLES.DESC
 msgctxt ""
 "STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES."
 "BALLOON_YELLOW_LONG_SPARKLES.DESC"
 msgid "Sparkly balloons in an all-too-familiar hue."
-msgstr "一种有着熟悉色调的闪光气球。"
+msgstr "一种有着熟悉色调的亮片气球。"
 
 #. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.BALLOON_YELLOW_LONG_SPARKLES.NAME
 msgctxt ""
 "STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES."
 "BALLOON_YELLOW_LONG_SPARKLES.NAME"
 msgid "<link=\"EQUIPPABLEBALLOON\">Lavatory Glitter</link>"
-msgstr "<link=\"EQUIPPABLEBALLOON\">冲水马桶闪光气球</link>"
+msgstr "<link=\"EQUIPPABLEBALLOON\">冲水马桶亮片气球</link>"
 
 #. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.FACADES.CANDY_BLUEBERRY.DESC
 msgctxt ""
@@ -60439,8 +61077,8 @@ msgstr ""
 
 #. STRINGS.ITEMS.MISSILE_BASIC.NAME
 msgctxt "STRINGS.ITEMS.MISSILE_BASIC.NAME"
-msgid "Blastshot"
-msgstr "爆破弹"
+msgid "<link=\"MISSILELAUNCHER\">Blastshot</link>"
+msgstr "<link=\"MISSILELAUNCHER\">爆破弹</link>"
 
 #. STRINGS.ITEMS.PILLS.ADVANCEDCURE.DESC
 msgctxt "STRINGS.ITEMS.PILLS.ADVANCEDCURE.DESC"
@@ -61378,7 +62016,7 @@ msgid ""
 "\n"
 "1 DTU = 1055.06 J"
 msgstr ""
-"我的复制人使用<b>复<\\b>制人<b>制<\\b>度<b>热<\\b>量单位衡量热能。\n"
+"我的复制人使用复制人制式热量单位，或简称“复制热”，来衡量热能。\n"
 "\n"
 "1复制热 = 1055.06焦"
 
@@ -62694,6 +63332,21 @@ msgctxt "STRINGS.MISC.PLACERS.MOPPLACER.NAME"
 msgid "Mop"
 msgstr "擦拭"
 
+#. STRINGS.MISC.PLACERS.MOVEPICKUPABLEPLACER.NAME
+msgctxt "STRINGS.MISC.PLACERS.MOVEPICKUPABLEPLACER.NAME"
+msgid "Move Here"
+msgstr "移至这里"
+
+#. STRINGS.MISC.PLACERS.MOVEPICKUPABLEPLACER.PLACER_STATUS
+msgctxt "STRINGS.MISC.PLACERS.MOVEPICKUPABLEPLACER.PLACER_STATUS"
+msgid "Next Destination"
+msgstr "下一个目的地"
+
+#. STRINGS.MISC.PLACERS.MOVEPICKUPABLEPLACER.PLACER_STATUS_TOOLTIP
+msgctxt "STRINGS.MISC.PLACERS.MOVEPICKUPABLEPLACER.PLACER_STATUS_TOOLTIP"
+msgid "Click to see where this item will be moved to"
+msgstr "点击以查看这个物品将移至何处"
+
 #. STRINGS.MISC.POPFX.RESOURCE_EATEN
 msgctxt "STRINGS.MISC.POPFX.RESOURCE_EATEN"
 msgid "Resource Eaten"
@@ -62774,12 +63427,12 @@ msgstr "这个建筑正被清理"
 
 #. STRINGS.MISC.STATUSITEMS.CLUSTERMETEORREMAININGTRAVELTIME.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.CLUSTERMETEORREMAININGTRAVELTIME.NAME"
-msgid "Time before collision: {time}"
+msgid "Time to collision: {time}"
 msgstr "撞击前剩余时间：{time}"
 
 #. STRINGS.MISC.STATUSITEMS.CLUSTERMETEORREMAININGTRAVELTIME.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.CLUSTERMETEORREMAININGTRAVELTIME.TOOLTIP"
-msgid "The remaining time before this meteor reaches its destination"
+msgid "The time remaining before this meteor reaches its destination"
 msgstr "这群流星到达其目的地的剩余时间"
 
 #. STRINGS.MISC.STATUSITEMS.DURABILITY.NAME
@@ -62976,6 +63629,26 @@ msgctxt "STRINGS.MISC.STATUSITEMS.MARKEDFORDISINFECTION.TOOLTIP"
 msgid "Building will be disinfected once a Duplicant is available"
 msgstr "复制人有空就会来执行建筑消毒任务"
 
+#. STRINGS.MISC.STATUSITEMS.MARKEDFORMOVE.NAME
+msgctxt "STRINGS.MISC.STATUSITEMS.MARKEDFORMOVE.NAME"
+msgid "Pending Move"
+msgstr "等待移动"
+
+#. STRINGS.MISC.STATUSITEMS.MARKEDFORMOVE.TOOLTIP
+msgctxt "STRINGS.MISC.STATUSITEMS.MARKEDFORMOVE.TOOLTIP"
+msgid "Waiting for a Duplicant to move this object"
+msgstr "等待复制人移动这个物体"
+
+#. STRINGS.MISC.STATUSITEMS.MOVESTORAGEUNREACHABLE.NAME
+msgctxt "STRINGS.MISC.STATUSITEMS.MOVESTORAGEUNREACHABLE.NAME"
+msgid "Unreachable Move"
+msgstr "移动地点遥不可及"
+
+#. STRINGS.MISC.STATUSITEMS.MOVESTORAGEUNREACHABLE.TOOLTIP
+msgctxt "STRINGS.MISC.STATUSITEMS.MOVESTORAGEUNREACHABLE.TOOLTIP"
+msgid "Duplicants cannot reach this object to move it"
+msgstr "复制人无法取得这个物体以将其移动"
+
 #. STRINGS.MISC.STATUSITEMS.NOCLEARLOCATIONSAVAILABLE.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.NOCLEARLOCATIONSAVAILABLE.NAME"
 msgid "No Sweep Destination"
@@ -63113,7 +63786,7 @@ msgstr "无法到达"
 #. STRINGS.MISC.STATUSITEMS.PICKUPABLEUNREACHABLE.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.PICKUPABLEUNREACHABLE.TOOLTIP"
 msgid "Duplicants cannot reach this object"
-msgstr "复制人无法取得该物体"
+msgstr "复制人无法取得这个物体"
 
 #. STRINGS.MISC.STATUSITEMS.PRIORITIZED.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.PRIORITIZED.NAME"
@@ -67363,7 +68036,7 @@ msgstr "<link=\"ADVANCEDPOWERREGULATION\">高级电力调节</link>"
 #. STRINGS.RESEARCH.TECHS.ADVANCEDRESEARCH.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDRESEARCH.DESC"
 msgid "The tools my colony needs to conduct more advanced, in-depth research."
-msgstr "我的殖民地进深入研究的更先进技术时所需的工具。"
+msgstr "我的殖民地要进行更进一步的深入研究时所需的工具。"
 
 #. STRINGS.RESEARCH.TECHS.ADVANCEDRESEARCH.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDRESEARCH.NAME"
@@ -70070,102 +70743,102 @@ msgstr "安排休息时间会进一步提升进入娱乐室的复制人的士气
 
 #. STRINGS.STICKERNAMES.STICKER_A
 msgctxt "STRINGS.STICKERNAMES.STICKER_A"
-msgid "a"
-msgstr "a"
+msgid "Blossoms"
+msgstr "花朵"
 
 #. STRINGS.STICKERNAMES.STICKER_B
 msgctxt "STRINGS.STICKERNAMES.STICKER_B"
-msgid "b"
-msgstr "b"
+msgid "Love Bombs"
+msgstr "爱心炸弹"
 
 #. STRINGS.STICKERNAMES.STICKER_C
 msgctxt "STRINGS.STICKERNAMES.STICKER_C"
-msgid "c"
-msgstr "c"
+msgid "Good Feels"
+msgstr "良好的感觉"
 
 #. STRINGS.STICKERNAMES.STICKER_D
 msgctxt "STRINGS.STICKERNAMES.STICKER_D"
-msgid "d"
-msgstr "d"
+msgid "Adequate Job!"
+msgstr "干得好！"
 
 #. STRINGS.STICKERNAMES.STICKER_E
 msgctxt "STRINGS.STICKERNAMES.STICKER_E"
-msgid "e"
-msgstr "e"
+msgid "Stars"
+msgstr "星星"
 
 #. STRINGS.STICKERNAMES.STICKER_F
 msgctxt "STRINGS.STICKERNAMES.STICKER_F"
-msgid "f"
-msgstr "f"
+msgid "Red Balloons"
+msgstr "红气球"
 
 #. STRINGS.STICKERNAMES.STICKER_G
 msgctxt "STRINGS.STICKERNAMES.STICKER_G"
-msgid "g"
-msgstr "g"
+msgid "Bubblies"
+msgstr "气泡"
 
 #. STRINGS.STICKERNAMES.STICKER_H
 msgctxt "STRINGS.STICKERNAMES.STICKER_H"
-msgid "h"
-msgstr "h"
+msgid "Yolks"
+msgstr "蛋黄"
 
 #. STRINGS.STICKERNAMES.STICKER_MERMAID
 msgctxt "STRINGS.STICKERNAMES.STICKER_MERMAID"
-msgid "mermaid"
+msgid "Mermaids"
 msgstr "美人鱼"
 
 #. STRINGS.STICKERNAMES.STICKER_MUSHROOM
 msgctxt "STRINGS.STICKERNAMES.STICKER_MUSHROOM"
-msgid "mushroom"
-msgstr "蘑菇"
+msgid "Fungi"
+msgstr "真菌"
 
 #. STRINGS.STICKERNAMES.STICKER_PAPERPLANE
 msgctxt "STRINGS.STICKERNAMES.STICKER_PAPERPLANE"
-msgid "paperplane"
+msgid "Paper Planes"
 msgstr "纸飞机"
 
 #. STRINGS.STICKERNAMES.STICKER_PLANT
 msgctxt "STRINGS.STICKERNAMES.STICKER_PLANT"
-msgid "plant"
-msgstr "植物"
+msgid "Leafies"
+msgstr "绿叶"
 
 #. STRINGS.STICKERNAMES.STICKER_PLANTPOT
 msgctxt "STRINGS.STICKERNAMES.STICKER_PLANTPOT"
-msgid "plantpot"
-msgstr "花盆"
+msgid "Jumping Joyas"
+msgstr "雀跃的雀跃掌"
 
 #. STRINGS.STICKERNAMES.STICKER_ROCKET
 msgctxt "STRINGS.STICKERNAMES.STICKER_ROCKET"
-msgid "rocket"
+msgid "Rock-Its"
 msgstr "火箭"
 
 #. STRINGS.STICKERNAMES.STICKER_SPACEPET
 msgctxt "STRINGS.STICKERNAMES.STICKER_SPACEPET"
-msgid "spacepet"
-msgstr "太空宠物"
+msgid "Morb Bots"
+msgstr "疫病章鱼机器人"
 
 #. STRINGS.STICKERNAMES.STICKER_SPACEPET2
 msgctxt "STRINGS.STICKERNAMES.STICKER_SPACEPET2"
-msgid "spacepet2"
-msgstr "太空宠物2"
+msgid "Puft Bubbles"
+msgstr "喷浮飞鱼泡泡"
 
 #. STRINGS.STICKERNAMES.STICKER_SPACEPET3
 msgctxt "STRINGS.STICKERNAMES.STICKER_SPACEPET3"
-msgid "spacepet3"
-msgstr "太空宠物3"
+msgid "Pacu Bubbles"
+msgstr "帕库鱼泡泡"
 
 #. STRINGS.STICKERNAMES.STICKER_SPACEPET4
 msgctxt "STRINGS.STICKERNAMES.STICKER_SPACEPET4"
-msgid "spacepet4"
-msgstr "太空宠物4"
+msgid "Pip Bots"
+msgstr "树鼠机器人"
 
 #. STRINGS.STICKERNAMES.STICKER_SPACEPET5
 msgctxt "STRINGS.STICKERNAMES.STICKER_SPACEPET5"
-msgid "spacepet5"
-msgstr "太空宠物5"
+msgid "Slicksters"
+msgstr "浮油生物"
 
 #. STRINGS.STICKERNAMES.STICKER_UNICORN
 msgctxt "STRINGS.STICKERNAMES.STICKER_UNICORN"
-msgid "unicorn"
+msgid "Unicorns"
 msgstr "独角兽"
 
 #. STRINGS.SUBWORLDS.AQUATIC.DESC
@@ -74544,6 +75217,11 @@ msgstr ""
 "<b>{0}</b><b>生理上不能</b>食用\n"
 "<style=\"KKeyword\">{1}</style>"
 
+#. STRINGS.UI.CONSUMABLESSCREEN.FOOD_MORALE
+msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_MORALE"
+msgid "<style=\"KKeyword\">Morale</style>: {0}"
+msgstr "<style=\"KKeyword\">士气</style>：{0}"
+
 #. STRINGS.UI.CONSUMABLESSCREEN.FOOD_PERMISSION_OFF
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_PERMISSION_OFF"
 msgid "<b>{0}</b> is <b>not allowed</b> to eat <style=\"KKeyword\">{1}</style>"
@@ -74556,8 +75234,8 @@ msgstr "<b>{0}</b><b>允许</b>食用<style=\"KKeyword\">{1}</style>"
 
 #. STRINGS.UI.CONSUMABLESSCREEN.FOOD_QUALITY
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_QUALITY"
-msgid "<style=\"KKeyword\">Morale</style>: {0}"
-msgstr "<style=\"KKeyword\">士气</style>：{0}"
+msgid "<style=\"KKeyword\">Quality</style>: {0}"
+msgstr "<style=\"KKeyword\">质量</style>：{0}"
 
 #. STRINGS.UI.CONSUMABLESSCREEN.FOOD_QUALITY_VS_EXPECTATION
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_QUALITY_VS_EXPECTATION"
@@ -75343,7 +76021,7 @@ msgid ""
 msgstr ""
 "这片区域病菌量少，导致病菌快速死亡\n"
 "\n"
-"有不足{0}个病菌在这块{1}的材料上。\n"
+"这块{1}上有不足{0}。\n"
 "（{2}个病菌/千克）"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.ENVIRONMENT.DIE_TOOLTIP
@@ -75417,8 +76095,8 @@ msgid ""
 msgstr ""
 "这片区域病菌过多，因此在数量稳定之前，病菌会快速死亡\n"
 "\n"
-"最多有{0}个病菌能在这块{1}的材料上。\n"
-"（{2}病菌/千克）"
+"这块{1}上最多能有{0}个病菌。\n"
+"（{2}个病菌/千克）"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.PRESSURE.DIE_TOOLTIP
 msgctxt ""
@@ -76062,6 +76740,11 @@ msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_METEORSHOWERS"
 msgid "METEOR SHOWERS"
 msgstr "流星雨"
 
+#. STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_MOVABLE
+msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_MOVABLE"
+msgid "MOVING"
+msgstr "移动"
+
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_REQUIREMENTS
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_REQUIREMENTS"
 msgid "REQUIREMENTS"
@@ -76099,7 +76782,7 @@ msgstr "未检测到间歇泉"
 
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.NO_METEORSHOWERS
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.NO_METEORSHOWERS"
-msgid "No meteor showers expected"
+msgid "No meteor showers forecasted"
 msgstr "未预测到流星雨"
 
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.TOOLTIP
@@ -77182,7 +77865,7 @@ msgstr "分配的房间"
 #. STRINGS.UI.FACADE_SELECTION_PANEL.HEADER
 msgctxt "STRINGS.UI.FACADE_SELECTION_PANEL.HEADER"
 msgid "Select Blueprint"
-msgstr "选择蓝图"
+msgstr "选择一个蓝图"
 
 #. STRINGS.UI.FACADE_SELECTION_PANEL.STORE_BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.FACADE_SELECTION_PANEL.STORE_BUTTON_TOOLTIP"
@@ -77296,6 +77979,33 @@ msgctxt "STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.BLANK_DESC"
 msgid "Select an asteroid style..."
 msgstr "选择一种小行星风格……"
 
+#. STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.CLASSIC_DESC
+msgctxt "STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.CLASSIC_DESC"
+msgid ""
+"Scenarios similar to the <b>classic Oxygen Not Included</b> experience. "
+"Large starting asteroids with many resources.\n"
+"Less emphasis on space travel."
+msgstr ""
+"类似<b>经典《缺氧》</b>体验的场景。更大的初始小行星，有着许多资源。\n"
+"太空旅行的重要性更小。"
+
+#. STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.CLASSIC_TITLE
+msgctxt "STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.CLASSIC_TITLE"
+msgid "Classic"
+msgstr "经典"
+
+#. STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.EVENT_DESC
+msgctxt "STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.EVENT_DESC"
+msgid ""
+"Alternative gameplay experiences, including experimental scenarios designed "
+"for special events."
+msgstr "非传统的游戏体验，包括为特殊活动设计的实验性场景。"
+
+#. STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.EVENT_TITLE
+msgctxt "STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.EVENT_TITLE"
+msgid "The Lab"
+msgstr "实验室"
+
 #. STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.HEADER
 msgctxt "STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.HEADER"
 msgid "ASTEROID STYLE"
@@ -77318,18 +78028,13 @@ msgstr "眼冒金星！"
 
 #. STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.VANILLA_DESC
 msgctxt "STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.VANILLA_DESC"
-msgid ""
-"Scenarios similar to the <b>classic Oxygen Not Included</b> experience. "
-"Large starting asteroids with many resources.\n"
-"Less emphasis on space travel."
-msgstr ""
-"类似<b>经典《缺氧》</b>体验的场景。更大的初始小行星，有着许多资源。\n"
-"太空旅行的重要性更小。"
+msgid "Scenarios designed for classic gameplay."
+msgstr "为经典游戏设计的场景。"
 
 #. STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.VANILLA_TITLE
 msgctxt "STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.VANILLA_TITLE"
-msgid "Classic"
-msgstr "经典"
+msgid "Standard"
+msgstr "标准"
 
 #. STRINGS.UI.FRONTEND.COLONY_SAVE_OPTIONS_SCREEN.AUTOSAVE_FREQUENCY
 msgctxt "STRINGS.UI.FRONTEND.COLONY_SAVE_OPTIONS_SCREEN.AUTOSAVE_FREQUENCY"
@@ -77456,6 +78161,11 @@ msgstr ""
 "\n"
 "这将随机你的世界布局，其地理特质列出如下"
 
+#. STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.SHUFFLETOOLTIP_DISABLED
+msgctxt "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.SHUFFLETOOLTIP_DISABLED"
+msgid "This world's seed is predetermined. It cannot be changed"
+msgstr "这是世界的种子是预设的，无法更改"
+
 #. STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.SINGLE_TRAIT
 msgctxt "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.SINGLE_TRAIT"
 msgid "1 Trait"
@@ -77491,7 +78201,7 @@ msgctxt ""
 "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.TOO_MANY_TRAITS_WARNING_TOOLTIP"
 msgid ""
 "<color=#ffff00ff>Squeezing this many story traits into this asteroid may "
-"cause world gen to fail\n"
+"cause worldgen to fail\n"
 "\n"
 "Consider lowering the number of story traits or changing the selected "
 "asteroid</color>"
@@ -78033,7 +78743,7 @@ msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS."
 "INFREQUENT.NAME"
 msgid "Spring Showers"
-msgstr "春意阵雨"
+msgstr "绵绵细雨"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS.INFREQUENT.TOOLTIP
 msgctxt ""
@@ -78655,6 +79365,12 @@ msgctxt ""
 msgid "New worlds added by mods can be selected here"
 msgstr "通过模组添加的新星球可以在这里选择"
 
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.WORLDGEN_SEED.FIXEDSEED
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.WORLDGEN_SEED.FIXEDSEED"
+msgid "This is a predetermined seed, and cannot be changed"
+msgstr "这是一个预定的种子，无法更改"
+
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.WORLDGEN_SEED.NAME
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.WORLDGEN_SEED.NAME"
@@ -79026,9 +79742,9 @@ msgstr "正在加载……"
 #. STRINGS.UI.FRONTEND.LOADSCREEN.AUTOSAVEWARNING
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.AUTOSAVEWARNING"
 msgid ""
-"<color=#ff0000>Autosave: This file will get deleted as new autosaves are "
+"<color=#F44A47FF>Autosave: This file will get deleted as new autosaves are "
 "created</color>"
-msgstr "<color=#ff0000>自动存档：在新存档创造后，这类文件将会删除</color>"
+msgstr "<color=F44A47FF>自动存档：在新存档创造后，这类文件将会删除</color>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.BACKBUTTON
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.BACKBUTTON"
@@ -79227,9 +79943,9 @@ msgstr ""
 #. STRINGS.UI.FRONTEND.LOADSCREEN.CORRUPTEDSAVE
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CORRUPTEDSAVE"
 msgid ""
-"<b><color=#ff0000>Could not load file {0}. Its data may be corrupted.</"
+"<b><color=#F44A47FF>Could not load file {0}. Its data may be corrupted.</"
 "color></b>"
-msgstr "<b><color=#ff0000>无法加载文件{0}，其数据可能已损坏。</color></b>"
+msgstr "<b><color=#F44A47FF>无法加载文件{0}，其数据可能已损坏。</color></b>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.CYCLES_SURVIVED
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CYCLES_SURVIVED"
@@ -79257,6 +79973,11 @@ msgid ""
 "Loading this colony will require restarting the game with <i>Spaced Out!</i> "
 "content enabled"
 msgstr "加载这个殖民地需要重启游戏并启用<b>《眼冒金星！》</b>"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.LOAD_MORE_COLONIES_BUTTON
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.LOAD_MORE_COLONIES_BUTTON"
+msgid "Load more..."
+msgstr "加载更多……"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.LOCAL_SAVE
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.LOCAL_SAVE"
@@ -79420,19 +80141,19 @@ msgstr "本地存档"
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT_TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT_TOOLTIP"
 msgid ""
-"<color=#ff0000>This save was created in the <i>Spaced Out!</i> DLC. Activate "
-"the DLC to play it</color>"
+"<color=#F44A47FF>This save was created in the <i>Spaced Out!</i> DLC. "
+"Activate the DLC to play it</color>"
 msgstr ""
-"<color=#ff0000>这个存档于<b>《眼冒金星！》DLC</b>中创建，激活DLC才能游玩。</"
-"color>"
+"<color=#F44A47FF>这个存档于<b>《眼冒金星！》DLC</b>中创建，激活DLC才能游玩。"
+"</color>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_VANILLA_TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_VANILLA_TOOLTIP"
 msgid ""
-"<color=#ff0000>This save was created in the base game. Deactivate the "
+"<color=#F44A47FF>This save was created in the base game. Deactivate the "
 "<i>Spaced Out!</i> DLC to play it.</color>"
 msgstr ""
-"<color=#ff0000>这个存档于游戏本体中创建，禁用<b>《眼冒金星！》</b>DLC才能游"
+"<color=#F44A47FF>这个存档于游戏本体中创建，禁用<b>《眼冒金星！》</b>DLC才能游"
 "玩。</color>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO
@@ -79468,19 +80189,20 @@ msgstr "游戏本体存档"
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_MISSING_CONTENT
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_MISSING_CONTENT"
 msgid ""
-"<b><color=#ff0000>Could not load file {0}. File was saved with content that "
-"is not currently installed.</color></b>"
+"<b><color=#F44A47FF>Could not load file {0}. File was saved with content "
+"that is not currently installed.</color></b>"
 msgstr ""
-"<b><color=#ff0000>无法加载文件{0}，文件保存有当前未安装的内容。</color></b>"
+"<b><color=#F44A47FF>无法加载文件{0}。该文件保存有当前未安装的内容。</color></"
+"b>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_TOO_NEW
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_TOO_NEW"
 msgid ""
-"<b><color=#ff0000>Could not load file {0}. File is using build {1}, v{2}. "
+"<b><color=#F44A47FF>Could not load file {0}. File is using build {1}, v{2}. "
 "This build is {3}, v{4}.</color></b>"
 msgstr ""
-"<b><color=#ff0000>无法加载文件{0}。文件使用的版本是{1}，v{2}，目前版本为{3}，"
-"v{4}。</color></b>"
+"<b><color=#F44A47FF>无法加载文件{0}。该文件使用的版本是{1}，v{2}，目前版本为"
+"{3}，v{4}。</color></b>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVEDETAILS
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVEDETAILS"
@@ -79515,19 +80237,19 @@ msgstr "加载游戏"
 #. STRINGS.UI.FRONTEND.LOADSCREEN.UNSUPPORTED_SAVE_VERSION
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.UNSUPPORTED_SAVE_VERSION"
 msgid ""
-"<b><color=#ff0000>This save file is from a previous version of the game and "
-"is no longer supported.</color></b>"
+"<b><color=#F44A47FF>This save file is from a previous version of the game "
+"and is no longer supported.</color></b>"
 msgstr ""
-"<b><color=#ff0000>本存档文件来自之前的版本，现在已经不再支持。</color></b>"
+"<b><color=#F44A47FF>本存档文件来自之前的版本，现在已经不再支持。</color></b>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.UNSUPPORTED_VANILLA_TEMP
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.UNSUPPORTED_VANILLA_TEMP"
 msgid ""
-"<b><color=#ff0000>This save file is from the base version of the game and "
+"<b><color=#F44A47FF>This save file is from the base version of the game and "
 "currently cannot be loaded while <i>Spaced Out!</i> is installed.</color></b>"
 msgstr ""
-"<b><color=#ff0000>这个存档来自游戏本体，当前无法在<i>《眼冒金星！》</i>安装的"
-"情况下加载</color></b>"
+"<b><color=#F44A47FF>这个存档来自游戏本体，当前无法在<i>《眼冒金星！》</i>安装"
+"的情况下加载</color></b>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.VANILLA_CONTENT
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.VANILLA_CONTENT"
@@ -80401,8 +81123,8 @@ msgstr "Steam创意工坊"
 
 #. STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER
 msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
-msgid "WHATTA BLAST!"
-msgstr "百发齐放！"
+msgid "JUNE 2023 QOL"
+msgstr "2023年6月生活质量更新"
 
 #. STRINGS.UI.FRONTEND.MOTD.NEWS_BODY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.NEWS_BODY"
@@ -80422,18 +81144,20 @@ msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
 msgid ""
 "This update includes:\n"
 "\n"
-"•<indent=20px>New Meteor Blaster and Blastshot Maker buildings.</indent>\n"
-"•<indent=20px>New meteor showers in Spaced Out!</indent>\n"
-"•<indent=20px>Customizable meteor shower intensity.</indent>\n"
+"•<indent=20px>Significant changes to Space Scanner and telescopes.</indent>\n"
+"•<indent=20px>New category of cosmetic skins.</indent>\n"
+"•<indent=20px>New Move To tool for transporting objects.</indent>\n"
+"•<indent=20px>A strange new asteroid and Puft Atmo Suit skin for Klei Fest.</"
+"indent>\n"
 "•<indent=20px>Bug fixes and quality of life improvements.</indent>\n"
 "\n"
 "   Check out the full patch notes for more details!"
 msgstr ""
 "这次更新包括：\n"
 "\n"
-"•<indent=20px>新的流星爆破炮和爆破弹组装机建筑。</indent>\n"
-"•<indent=20px>眼冒金星中新的流星雨。</indent>\n"
-"•<indent=20px>可自定义的流星雨强度。</indent>\n"
+"•<indent=20px>对太空扫描仪和望远镜进行了重大变动。</indent>\n"
+"•<indent=20px>新的修饰性皮肤类型。</indent>\n"
+"•<indent=20px>新的移至工具，用于移动物体。</indent>\n"
 "•<indent=20px>漏洞修复与生活质量提升。</indent>\n"
 "\n"
 "   查看完整的更新公告以获取详情！"
@@ -80858,6 +81582,65 @@ msgstr ""
 msgctxt "STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.NEWAUTOMATIONWARNING_TITLE"
 msgid "AUTOMATION CHANGES"
 msgstr "自动化变更"
+
+#. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SPACESCANNERANDTELESCOPECHANGES_SPACESCANNERS
+msgctxt ""
+"STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS."
+"SPACESCANNERANDTELESCOPECHANGES_SPACESCANNERS"
+msgid ""
+"•<indent=20px>Automation is synced between all Space Scanners targeting the "
+"same object.</indent>\n"
+"•<indent=20px>Network quality based on the total percentage of sky covered.</"
+"indent>\n"
+"•<indent=20px>Industrial machinery no longer impacts network quality.</"
+"indent>"
+msgstr ""
+"•<indent=20px>以相同物体为目标的太空扫描仪会同步自动化信号。</indent>\n"
+"•<indent=20px>现在网络质量取决于总对空覆盖率。</indent>\n"
+"•<indent=20px>工业机械不再影响扫描质量。</indent>"
+
+#. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SPACESCANNERANDTELESCOPECHANGES_SUMMARY
+msgctxt ""
+"STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS."
+"SPACESCANNERANDTELESCOPECHANGES_SUMMARY"
+msgid ""
+"There have been significant changes to <b>Space Scanners</b> and "
+"<b>Telescopes</b> since this save file was created!\n"
+"\n"
+"Meteor showers have been disabled for 20 cycles to provide time to adapt."
+msgstr ""
+"在此存档创建后，<b>太空扫描仪</b>和<b>望远镜</b>有了重大变化！\n"
+"\n"
+"流星雨将禁用20周期以提供适应时间。"
+
+#. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SPACESCANNERANDTELESCOPECHANGES_TELESCOPES
+msgctxt ""
+"STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS."
+"SPACESCANNERANDTELESCOPECHANGES_TELESCOPES"
+msgid ""
+"•<indent=20px>Telescopes have a symmetrical scanning range.</indent>\n"
+"•<indent=20px>Obstructions block visibility from the blocked tile out toward "
+"the outer edge of scanning range.</indent>"
+msgstr ""
+"•<indent=20px>望远镜的扫描范围对称了。</indent>\n"
+"•<indent=20px>阻挡物会从所在格阻挡到扫描范围的最外边。</indent>"
+
+#. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SPACESCANNERANDTELESCOPECHANGES_TITLE
+msgctxt ""
+"STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SPACESCANNERANDTELESCOPECHANGES_TITLE"
+msgid "JUNE 2023 QoL UPDATE CHANGES"
+msgstr "2023年6月生活质量更新变更"
+
+#. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SPACESCANNERANDTELESCOPECHANGES_WARNING
+msgctxt ""
+"STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS."
+"SPACESCANNERANDTELESCOPECHANGES_WARNING"
+msgid ""
+"Please note these changes which may affect your existing colony:\n"
+"\n"
+msgstr ""
+"请注意，以下变更可能会影响你的现有殖民地：\n"
+"\n"
 
 #. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SUDDENMORALEHELPER
 msgctxt "STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SUDDENMORALEHELPER"
@@ -81288,7 +82071,7 @@ msgstr "随机"
 
 #. STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.RANDOM_BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.RANDOM_BUTTON_TOOLTIP"
-msgid "Randomize a new world gen seed"
+msgid "Randomize a new worldgen seed"
 msgstr "随机生成新的创世种子"
 
 #. STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.TITLE
@@ -81298,12 +82081,12 @@ msgstr "创世选项"
 
 #. STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.TOOLTIP"
-msgid "This will override the current world gen seed"
+msgid "This will override the current worldgen seed"
 msgstr "这将覆盖当前的创世种子"
 
 #. STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.USE_SEED
 msgctxt "STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.USE_SEED"
-msgid "Set World Gen Seed"
+msgid "Set Worldgen Seed"
 msgstr "设置创世种子"
 
 #. STRINGS.UI.FRONTEND.WORLDGENSCREEN.GENERATINGWORLD
@@ -81460,6 +82243,11 @@ msgstr "{Attribute}{Value}"
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.FOOD_EFFECTS"
 msgid "Effects:"
 msgstr "效果："
+
+#. STRINGS.UI.GAMEOBJECTEFFECTS.FOOD_MORALE
+msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.FOOD_MORALE"
+msgid "Morale: {0}"
+msgstr "士气：{0}"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.FOOD_QUALITY
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.FOOD_QUALITY"
@@ -81673,6 +82461,11 @@ msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.FOOD_EFFECTS"
 msgid "Duplicants will gain the following effects from eating this food: {0}"
 msgstr "复制人食用这种食物将会获得以下效果：{0}"
 
+#. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.FOOD_MORALE
+msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.FOOD_MORALE"
+msgid "Morale: {0}"
+msgstr "士气：{0}"
+
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.FOOD_QUALITY
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.FOOD_QUALITY"
 msgid "Quality: {0}"
@@ -81729,8 +82522,8 @@ msgstr "这株植物在重新种植后，需要<b>{0}</b>才会再次成熟"
 msgctxt ""
 "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS."
 "METEOR_SHOWER_SINGLE_METEOR_PERCENTAGE_TOOLTIP"
-msgid "Percentage of meteors that fall in a shower"
-msgstr "在流星雨中，落下流星的百分比"
+msgid "Distribution of meteor types in this shower"
+msgstr "这次流星雨中分布的流星类型"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.MUTANT_SEED_TOOLTIP
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.MUTANT_SEED_TOOLTIP"
@@ -82471,28 +83264,28 @@ msgstr "艺术品"
 
 #. STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_BELT
 msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_BELT"
-msgid "Atmo Suit Belt"
+msgid "Atmo Belts"
 msgstr "气压服腰带"
 
 #. STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_BODY
 msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_BODY"
-msgid "Atmo Suit Body"
-msgstr "气压服上身"
-
-#. STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_BOOTS
-msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_BOOTS"
-msgid "Atmo Suit Boots"
-msgstr "气压服靴子"
+msgid "Atmo Suits"
+msgstr "气压服"
 
 #. STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_GLOVES
 msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_GLOVES"
-msgid "Atmo Suit Gloves"
+msgid "Atmo Gloves"
 msgstr "气压服手套"
 
 #. STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_HELMET
 msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_HELMET"
-msgid "Atmo Suit Helmet"
+msgid "Atmo Helmets"
 msgstr "气压服头盔"
+
+#. STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_SHOES
+msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_SHOES"
+msgid "Atmo Boots"
+msgstr "气压服靴子"
 
 #. STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMOSUITS
 msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMOSUITS"
@@ -84282,6 +85075,16 @@ msgctxt "STRINGS.UI.OUTFIT_BROWSER_SCREEN.TOOLTIP_DELETE_OUTFIT_ERROR_READONLY"
 msgid "This outfit cannot be deleted"
 msgstr "这套服装不能删除"
 
+#. STRINGS.UI.OUTFIT_BROWSER_SCREEN.TOOLTIP_FILTER_BY_ATMO_SUITS
+msgctxt "STRINGS.UI.OUTFIT_BROWSER_SCREEN.TOOLTIP_FILTER_BY_ATMO_SUITS"
+msgid "View your Atmo Suit Outfits"
+msgstr "查看你的气压服服装"
+
+#. STRINGS.UI.OUTFIT_BROWSER_SCREEN.TOOLTIP_FILTER_BY_CLOTHING
+msgctxt "STRINGS.UI.OUTFIT_BROWSER_SCREEN.TOOLTIP_FILTER_BY_CLOTHING"
+msgid "View your Clothing Outfits"
+msgstr "查看你的衣服服装"
+
 #. STRINGS.UI.OUTFIT_BROWSER_SCREEN.TOOLTIP_PICK_OUTFIT_ERROR_LOCKED
 msgctxt "STRINGS.UI.OUTFIT_BROWSER_SCREEN.TOOLTIP_PICK_OUTFIT_ERROR_LOCKED"
 msgid ""
@@ -84306,63 +85109,13 @@ msgid ""
 "blueprints yet."
 msgstr "无法穿上这套服装，因为我的殖民地尚未拥有其中的全部蓝图。"
 
-#. STRINGS.UI.OUTFIT_DESCRIPTION.NO_ATMO_SUIT_BELT
-msgctxt "STRINGS.UI.OUTFIT_DESCRIPTION.NO_ATMO_SUIT_BELT"
-msgid "Default Belt"
-msgstr "默认腰带"
+#. STRINGS.UI.OUTFIT_DESCRIPTION.NO_JOY_RESPONSE_DESC
+msgctxt "STRINGS.UI.OUTFIT_DESCRIPTION.NO_JOY_RESPONSE_DESC"
+msgid "Default response to an overjoyed state."
+msgstr "喜悦状态的默认反应。"
 
-#. STRINGS.UI.OUTFIT_DESCRIPTION.NO_ATMO_SUIT_BODY
-msgctxt "STRINGS.UI.OUTFIT_DESCRIPTION.NO_ATMO_SUIT_BODY"
-msgid "Default Body"
-msgstr "默认上身"
-
-#. STRINGS.UI.OUTFIT_DESCRIPTION.NO_ATMO_SUIT_BOOTS
-msgctxt "STRINGS.UI.OUTFIT_DESCRIPTION.NO_ATMO_SUIT_BOOTS"
-msgid "Default Boots"
-msgstr "默认靴子"
-
-#. STRINGS.UI.OUTFIT_DESCRIPTION.NO_ATMO_SUIT_GLOVES
-msgctxt "STRINGS.UI.OUTFIT_DESCRIPTION.NO_ATMO_SUIT_GLOVES"
-msgid "Default Gloves"
-msgstr "默认手套"
-
-#. STRINGS.UI.OUTFIT_DESCRIPTION.NO_ATMO_SUIT_HELMET
-msgctxt "STRINGS.UI.OUTFIT_DESCRIPTION.NO_ATMO_SUIT_HELMET"
-msgid "Default Helmet"
-msgstr "默认头盔"
-
-#. STRINGS.UI.OUTFIT_DESCRIPTION.NO_DUPE_ACCESSORIES
-msgctxt "STRINGS.UI.OUTFIT_DESCRIPTION.NO_DUPE_ACCESSORIES"
-msgid "Default Accessory"
-msgstr "默认配饰"
-
-#. STRINGS.UI.OUTFIT_DESCRIPTION.NO_DUPE_BOTTOMS
-msgctxt "STRINGS.UI.OUTFIT_DESCRIPTION.NO_DUPE_BOTTOMS"
-msgid "Default Bottom"
-msgstr "默认下身"
-
-#. STRINGS.UI.OUTFIT_DESCRIPTION.NO_DUPE_GLOVES
-msgctxt "STRINGS.UI.OUTFIT_DESCRIPTION.NO_DUPE_GLOVES"
-msgid "Default Gloves"
-msgstr "默认手套"
-
-#. STRINGS.UI.OUTFIT_DESCRIPTION.NO_DUPE_HATS
-msgctxt "STRINGS.UI.OUTFIT_DESCRIPTION.NO_DUPE_HATS"
-msgid "Default Headgear"
-msgstr "默认头饰"
-
-#. STRINGS.UI.OUTFIT_DESCRIPTION.NO_DUPE_SHOES
-msgctxt "STRINGS.UI.OUTFIT_DESCRIPTION.NO_DUPE_SHOES"
-msgid "Default Footwear"
-msgstr "默认鞋子"
-
-#. STRINGS.UI.OUTFIT_DESCRIPTION.NO_DUPE_TOPS
-msgctxt "STRINGS.UI.OUTFIT_DESCRIPTION.NO_DUPE_TOPS"
-msgid "Default Top"
-msgstr "默认上身"
-
-#. STRINGS.UI.OUTFIT_DESCRIPTION.NO_JOY_RESPONSE
-msgctxt "STRINGS.UI.OUTFIT_DESCRIPTION.NO_JOY_RESPONSE"
+#. STRINGS.UI.OUTFIT_DESCRIPTION.NO_JOY_RESPONSE_NAME
+msgctxt "STRINGS.UI.OUTFIT_DESCRIPTION.NO_JOY_RESPONSE_NAME"
 msgid "Default Overjoyed Response"
 msgstr "默认喜悦反应"
 
@@ -84518,13 +85271,48 @@ msgstr "默认气压服"
 
 #. STRINGS.UI.OUTFIT_NAME.NONE_JOY_RESPONSE
 msgctxt "STRINGS.UI.OUTFIT_NAME.NONE_JOY_RESPONSE"
-msgid "Default Overjoyed Blueprint"
-msgstr "默认喜悦蓝图"
+msgid "Default Overjoyed Response"
+msgstr "默认喜悦反应"
 
 #. STRINGS.UI.OUTFIT_NAME.RESOLVE_CONFLICT
 msgctxt "STRINGS.UI.OUTFIT_NAME.RESOLVE_CONFLICT"
 msgid "{OutfitName} ({ConflictNumber})"
 msgstr "{OutfitName}（{ConflictNumber}）"
+
+#. STRINGS.UI.OUTFITS.ATHLETE.NAME
+msgctxt "STRINGS.UI.OUTFITS.ATHLETE.NAME"
+msgid "Racing Outfit"
+msgstr "赛车服装"
+
+#. STRINGS.UI.OUTFITS.ATMOSUIT_LIMONE.NAME
+msgctxt "STRINGS.UI.OUTFITS.ATMOSUIT_LIMONE.NAME"
+msgid "Citrus Atmo Outfit"
+msgstr "柑橘太空服服装"
+
+#. STRINGS.UI.OUTFITS.ATMOSUIT_PUFT.NAME
+msgctxt "STRINGS.UI.OUTFITS.ATMOSUIT_PUFT.NAME"
+msgid "Puft Atmo Outfit"
+msgstr "飞鱼气压服服装"
+
+#. STRINGS.UI.OUTFITS.ATMOSUIT_SPARKLE_BLUE.NAME
+msgctxt "STRINGS.UI.OUTFITS.ATMOSUIT_SPARKLE_BLUE.NAME"
+msgid "Blue Glitter Atmo Outfit"
+msgstr "蓝色亮片气压服服装"
+
+#. STRINGS.UI.OUTFITS.ATMOSUIT_SPARKLE_GREEN.NAME
+msgctxt "STRINGS.UI.OUTFITS.ATMOSUIT_SPARKLE_GREEN.NAME"
+msgid "Green Glitter Atmo Outfit"
+msgstr "绿色亮片气压服服装"
+
+#. STRINGS.UI.OUTFITS.ATMOSUIT_SPARKLE_LAVENDER.NAME
+msgctxt "STRINGS.UI.OUTFITS.ATMOSUIT_SPARKLE_LAVENDER.NAME"
+msgid "Violet Glitter Atmo Outfit"
+msgstr "紫色亮片气压服服装"
+
+#. STRINGS.UI.OUTFITS.ATMOSUIT_SPARKLE_RED.NAME
+msgctxt "STRINGS.UI.OUTFITS.ATMOSUIT_SPARKLE_RED.NAME"
+msgid "Red Glitter Atmo Outfit"
+msgstr "红色亮片气压服服装"
 
 #. STRINGS.UI.OUTFITS.BASIC_AQUA.NAME
 msgctxt "STRINGS.UI.OUTFITS.BASIC_AQUA.NAME"
@@ -84605,6 +85393,11 @@ msgstr "白色基础服装"
 msgctxt "STRINGS.UI.OUTFITS.BASIC_YELLOW.NAME"
 msgid "Basic Yellow Outfit"
 msgstr "黄色基础服装"
+
+#. STRINGS.UI.OUTFITS.CIRCUIT.NAME
+msgctxt "STRINGS.UI.OUTFITS.CIRCUIT.NAME"
+msgid "LED Party Outfit"
+msgstr "发光派对服装"
 
 #. STRINGS.UI.OUTFITS.JELLYPUFF_BLUEBERRY.NAME
 msgctxt "STRINGS.UI.OUTFITS.JELLYPUFF_BLUEBERRY.NAME"
@@ -89592,8 +90385,8 @@ msgstr "岩石小行星"
 msgctxt ""
 "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.BLEACHSTONE.DESCRIPTION"
 msgid ""
-"A shower of bleach stone meteors on a collision course with the asteroid's "
-"surface."
+"A shower of bleach stone meteors on a collision course with the surface of "
+"an asteroid."
 msgstr "一群漂白石流星，很可能与小行星地表相撞。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.BLEACHSTONE.NAME
@@ -89605,8 +90398,8 @@ msgstr "漂白石流星雨"
 msgctxt ""
 "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.COPPER.DESCRIPTION"
 msgid ""
-"A shower of metallic meteors on a collision course with the asteroid's "
-"surface."
+"A shower of metallic meteors on a collision course with the surface of an "
+"asteroid."
 msgstr "一群金属流星，很可能与小行星地表相撞。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.COPPER.NAME
@@ -89618,7 +90411,7 @@ msgstr "铜流星雨"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.GOLD.DESCRIPTION"
 msgid ""
 "A shower of shiny metallic space rocks on a collision course with the "
-"asteroid's surface."
+"surface of an asteroid."
 msgstr "一群闪亮的金属太空岩，很可能与小行星地表相撞。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.GOLD.NAME
@@ -89630,8 +90423,9 @@ msgstr "金流星雨"
 msgctxt ""
 "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.HEAVYDUST.DESCRIPTION"
 msgid ""
-"A dark cloud of heavy dust meteors heading towards the asteroid's surface."
-msgstr "一团乌黑的尘埃流星，正向小行星表面飞去。"
+"A dark cloud of heavy dust meteors heading towards the surface of an "
+"asteroid."
+msgstr "一团乌黑的尘埃流星，正向小行星地表飞去。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.HEAVYDUST.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.HEAVYDUST.NAME"
@@ -89641,8 +90435,8 @@ msgstr "密集尘埃流星雨"
 #. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.ICE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.ICE.DESCRIPTION"
 msgid ""
-"A hailstorm of icy space rocks on a collision course with the asteroid's "
-"surface."
+"A hailstorm of icy space rocks on a collision course with the surface of an "
+"asteroid."
 msgstr "一群覆冰太空岩，很可能与小行星地表相撞。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.ICE.NAME
@@ -89653,8 +90447,8 @@ msgstr "冰流星雨"
 #. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.IRON.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.IRON.DESCRIPTION"
 msgid ""
-"A shower of metallic space rocks on a collision course with the asteroid's "
-"surface."
+"A shower of metallic space rocks on a collision course with the surface of "
+"an asteroid."
 msgstr "一群金属太空岩，很可能与小行星地表相撞。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.IRON.NAME
@@ -89666,9 +90460,9 @@ msgstr "铁流星雨"
 msgctxt ""
 "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.LIGHTDUST.DESCRIPTION"
 msgid ""
-"A cloud-like shower of dust fluff meteors heading towards the asteroid's "
-"surface."
-msgstr "一团云状的浮尘流星，正向小行星地表飞去。"
+"A cloud-like shower of dust fluff meteors heading towards the surface of an "
+"asteroid."
+msgstr "一团云状的浮尘流星，正向小行星表面飞去。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.LIGHTDUST.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.LIGHTDUST.NAME"
@@ -89692,7 +90486,7 @@ msgctxt ""
 "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.OXYLITE.DESCRIPTION"
 msgid ""
 "A shower of rocky, oxygen-rich meteors on a collision course with the "
-"asteroid's surface."
+"surface of an asteroid."
 msgstr "一群氧气充足的岩石流星，很可能与小行星地表相撞。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.OXYLITE.NAME
@@ -89704,7 +90498,8 @@ msgstr "氧石流星雨"
 msgctxt ""
 "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.REGOLITH.DESCRIPTION"
 msgid ""
-"A shower of rocky meteors on a collision course with the asteroid's surface."
+"A shower of rocky meteors on a collision course with the surface of an "
+"asteroid."
 msgstr "一群岩石流星，很可能与小行星地表相撞。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.REGOLITH.NAME
@@ -89716,8 +90511,8 @@ msgstr "浮土流星雨"
 msgctxt ""
 "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.SLIME.DESCRIPTION"
 msgid ""
-"A shower of slimy, biodynamic meteors on a collision course with the "
-"asteroid's surface."
+"A shower of slimy, biodynamic meteors on a collision course with the surface "
+"of an asteroid."
 msgstr "一群粘糊糊的生物动力流星，很可能与小行星地表相撞。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.SLIME.NAME
@@ -89728,8 +90523,8 @@ msgstr "菌泥流星雨"
 #. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.SNOW.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.SNOW.DESCRIPTION"
 msgid ""
-"A shower of cold, cold meteors on a collision course with the asteroid's "
-"surface."
+"A shower of cold, cold meteors on a collision course with the surface of an "
+"asteroid."
 msgstr "一群非常非常冷的流星，很可能与小行星地表相撞。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.SNOW.NAME
@@ -89743,13 +90538,13 @@ msgctxt ""
 msgid ""
 "A cosmic anomaly is traveling through the galaxy.\n"
 "\n"
-"Its origins and purpose are currently unknown, though a <link=\"TELESCOPE"
-"\">Telescope</link> could change that."
+"Its origins and purpose are currently unknown, though a <link="
+"\"CLUSTERTELESCOPE\">Telescope</link> could change that."
 msgstr ""
 "一个宇宙异常物体，正在宇宙中穿梭。\n"
 "\n"
-"它的起源和目标尚不清楚，但通过<link=\"TELESCOPE\">望远镜</link>观察就能知道"
-"了。"
+"它的起源和目标尚不清楚，但通过<link=\"CLUSTERTELESCOPE\">望远镜</link>观察就"
+"能知道了。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.UNIDENTIFIED.NAME
 msgctxt ""
@@ -89761,8 +90556,8 @@ msgstr "不明物体"
 msgctxt ""
 "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.URANIUM.DESCRIPTION"
 msgid ""
-"A toxic shower of radioactive meteors on a collision course with the "
-"asteroid's surface."
+"A toxic shower of radioactive meteors on a collision course with the surface "
+"of an asteroid."
 msgstr "一群有毒的放射性流星，很可能与小行星地表相撞。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.URANIUM.NAME
@@ -90987,11 +91782,9 @@ msgstr ""
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.NONE"
 msgid ""
 "There are no Duplicants assigned to this rocket crew\n"
-"\n"
 "    • {0}/{1} Boarded"
 msgstr ""
-"一些分配为这艘火箭成员的复制人还没有登上火箭\n"
-"\n"
+"没有复制人分配为这艘火箭成员\n"
 "    • {0}/{1}已登上"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.READY
@@ -91009,11 +91802,9 @@ msgstr ""
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.WARNING"
 msgid ""
 "Some Duplicants assigned to this rocket crew have not yet boarded\n"
-"\n"
 "    • {0}/{1} Boarded"
 msgstr ""
 "一些分配为这艘火箭成员的复制人还没有登上火箭\n"
-"\n"
 "    • {0}/{1}已登上"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.WARNING
@@ -92350,7 +93141,7 @@ msgstr "可呼吸的气体"
 #. STRINGS.UI.TOOLS.FILTERLAYERS.BUILDABLE
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.BUILDABLE"
 msgid "Mineral"
-msgstr "矿石"
+msgstr "矿物"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.BUILDINGS
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.BUILDINGS"
@@ -92590,7 +93381,7 @@ msgstr "(ClickType/CLICK)"
 #. STRINGS.UI.TOOLS.MOVETOLOCATION.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.MOVETOLOCATION.TOOLNAME"
 msgid "Move Here"
-msgstr "移动至这里"
+msgstr "移至这里"
 
 #. STRINGS.UI.TOOLS.MOVETOLOCATION.UNREACHABLE
 msgctxt "STRINGS.UI.TOOLS.MOVETOLOCATION.UNREACHABLE"
@@ -96038,7 +96829,7 @@ msgstr "成员"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.REQUEST_CREW_TOOLTIP"
 msgid "Crew may not leave the module, non crew-must exit"
-msgstr "成员可能不会离开舱块，但非成员必须离开"
+msgstr "成员不能离开舱块，而非成员必须离开"
 
 #. STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.REQUIRE_SUIT_LABEL
 msgctxt "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.REQUIRE_SUIT_LABEL"
@@ -98525,7 +99316,7 @@ msgstr "移至"
 #. STRINGS.UI.USERMENUACTIONS.MOVETOLOCATION.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.MOVETOLOCATION.TOOLTIP"
 msgid "Move this Duplicant to a specific location"
-msgstr "将这名复制人移动至特定位置"
+msgstr "将这名复制人移至特定位置"
 
 #. STRINGS.UI.USERMENUACTIONS.OPENPOI.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.OPENPOI.NAME"
@@ -98546,6 +99337,26 @@ msgstr "搜寻可用材料"
 msgctxt "STRINGS.UI.USERMENUACTIONS.OPENPOI.TOOLTIP_OFF"
 msgid "Cancel this rummage order"
 msgstr "取消这条翻查命令"
+
+#. STRINGS.UI.USERMENUACTIONS.PICKUPABLEMOVE.NAME
+msgctxt "STRINGS.UI.USERMENUACTIONS.PICKUPABLEMOVE.NAME"
+msgid "Move To"
+msgstr "移至"
+
+#. STRINGS.UI.USERMENUACTIONS.PICKUPABLEMOVE.NAME_OFF
+msgctxt "STRINGS.UI.USERMENUACTIONS.PICKUPABLEMOVE.NAME_OFF"
+msgid "Cancel Move"
+msgstr "取消移动"
+
+#. STRINGS.UI.USERMENUACTIONS.PICKUPABLEMOVE.TOOLTIP
+msgctxt "STRINGS.UI.USERMENUACTIONS.PICKUPABLEMOVE.TOOLTIP"
+msgid "Move this object to a specific location"
+msgstr "将这个物体移至特定位置"
+
+#. STRINGS.UI.USERMENUACTIONS.PICKUPABLEMOVE.TOOLTIP_OFF
+msgctxt "STRINGS.UI.USERMENUACTIONS.PICKUPABLEMOVE.TOOLTIP_OFF"
+msgid "Cancel order to move this object"
+msgstr "取消移动这个物体的命令"
 
 #. STRINGS.UI.USERMENUACTIONS.QUARANTINE.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.QUARANTINE.NAME"
@@ -99098,7 +99909,7 @@ msgid ""
 "\n"
 "Costs no additional resources"
 msgstr ""
-"将这个建筑移动至新位置\n"
+"将这个建筑移至新位置\n"
 "\n"
 "不会消耗额外资源"
 
@@ -99542,6 +100353,19 @@ msgstr ""
 "困在了地表数英里之下。\n"
 "\n"
 "尽管条件不太理想，但这是我的使命，我要在这里建立一个殖民地并努力逃离这里。"
+
+#. STRINGS.UI.WELCOMEMESSAGEBODY_KF23
+msgctxt "STRINGS.UI.WELCOMEMESSAGEBODY_KF23"
+msgid ""
+"This asteroid is oddly tilted, as though a powerful external force once "
+"knocked it off its axis.\n"
+"\n"
+"I'll need to recalibrate my approach to colony-building in order to make the "
+"most of this unusual distribution of resources."
+msgstr ""
+"这颗小行星奇怪地倾斜了，好像曾有强大的外力将其撞离轴线。\n"
+"\n"
+"我需要重新调整我的殖民地建设方法，以充分利用这种不同寻常的资源分布。"
 
 #. STRINGS.UI.WELCOMEMESSAGEBODY_SPACEDOUT
 msgctxt "STRINGS.UI.WELCOMEMESSAGEBODY_SPACEDOUT"
@@ -100972,6 +101796,31 @@ msgctxt "STRINGS.WORLDS.SANDSTONE_FROZEN.NAME"
 msgid "Rime"
 msgstr "冰霜星体"
 
+#. STRINGS.WORLDS.STRANGE_ASTEROID_KF23.DESCRIPTION
+msgctxt "STRINGS.WORLDS.STRANGE_ASTEROID_KF23.DESCRIPTION"
+msgid ""
+"A tilted world, at once strange and...strangely familiar. Its singular "
+"terrain is consistent across all universes.\n"
+"\n"
+"This resistance to the fluidity of temporal shifts has the cosmos buzzing, "
+"as individual colonies compare notes on successes, failures and the bizarre "
+"redistribution of resources.\n"
+"\n"
+"<smallcaps>Released for Klei Fest 2023."
+msgstr ""
+"一颗倾斜的星球，既陌生……又有种奇怪的熟悉感。它奇异的地形在所有宇宙中都是一致"
+"的。\n"
+"\n"
+"这种对时间偏移流动性的抵抗使整个宇宙嗡嗡作响，产生了各个殖民地对于成功案例、"
+"失败案例和稀奇古怪的资源重新分配方案的对比记录。\n"
+"\n"
+"<smallcaps>为2023年科雷节发布。"
+
+#. STRINGS.WORLDS.STRANGE_ASTEROID_KF23.NAME
+msgctxt "STRINGS.WORLDS.STRANGE_ASTEROID_KF23.NAME"
+msgid "Skewed Asteroid"
+msgstr "歪斜小行星"
+
 #. STRINGS.WORLDS.STRANGERICHSANDSTONE.DESCRIPTION
 msgctxt "STRINGS.WORLDS.STRANGERICHSANDSTONE.DESCRIPTION"
 msgid ""
@@ -101485,46 +102334,308 @@ msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
 msgid "Water Asteroid"
 msgstr "水域小行星"
 
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILELAUNCHER.BODY.CONTAINER1"
+#~ msgctxt "STRINGS.UI.FACADE_SELECTION_PANEL.HEADER"
+#~ msgid "Select 'Print"
+#~ msgstr "选择蓝图"
+
+#~ msgctxt "STRINGS.UI.ITEM_DROP_SCREEN.PRINT_ITEM_BUTTON"
+#~ msgid "CLAIM"
+#~ msgstr "领取"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
+#~ msgid "WHATTA BLAST!"
+#~ msgstr "百发齐放！"
+
+#~ msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGIRRIGATIONMAJOR.TOOLTIP"
 #~ msgid ""
-#~ "Fires <link=\"MISSILELAUNCHER\">Blastshot</link> shells at meteor showers "
-#~ "to defend the colony from impact-related damage.\n"
+#~ "Growth will resume when the correct <style=\"KKeyword\">Liquid</style> is "
+#~ "used"
+#~ msgstr "当使用正确的<style=\"KKeyword\">液体</style>时会恢复生长"
+
+#~ msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGIRRIGATIONMAJOR.TOOLTIP"
+#~ msgid ""
+#~ "This farm is storing materials that are not suitable for this plant\n"
 #~ "\n"
-#~ "Range: 16 tiles horizontally, 32 tiles vertically.\n"
-#~ "\n"
-#~ "Meteors that have been blown to smithereens leave behind no harvestable "
-#~ "resources."
+#~ "<style=\"KKeyword\">Empty Storage</style> on this building to remove the "
+#~ "incorrect materials"
 #~ msgstr ""
-#~ "在流星雨期间发射<link=\"MISSILELAUNCHER\">爆破弹</link>以免受殖民地遭受撞"
-#~ "击损坏。\n"
+#~ "这块农地储存了不适合这株植物的材料\n"
 #~ "\n"
-#~ "范围：水平16格，垂直32格。\n"
+#~ "对这个建筑<style=\"KKeyword\">清空库存</style>，以清除错误的材料"
+
+#~ msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_BODY"
+#~ msgid "Atmo Uniform"
+#~ msgstr "气压服制服"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME"
+#~ msgid "Scan Quality: {Quality}"
+#~ msgstr "扫描质量：{Quality}"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.TOOLTIP"
+#~ msgid ""
+#~ "This scanner dish is currently scanning at <b>{Quality}</b> "
+#~ "effectiveness\n"
 #~ "\n"
-#~ "炸成碎片的流星不会留下可获得的资源。"
+#~ "Decreased scan quality may be due to:\n"
+#~ "    • Interference from nearby industrial machinery\n"
+#~ "    • Rock or tile obstructing the dish's line of sight on space"
+#~ msgstr ""
+#~ "这个扫描盘当前正在以<b>{Quality}</b>的效率进行扫描。\n"
+#~ "\n"
+#~ "扫描质量的降低可能是由于：\n"
+#~ "    • 附近工业机械的干扰\n"
+#~ "    • 岩石或砖块阻挡了扫描盘对天空的视野"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_NONE.TOOLTIP"
+#~ msgid ""
+#~ "This building has no view of space\n"
+#~ "\n"
+#~ "Ensure an unblocked view of the sky is available to collect <b>Starmap</"
+#~ "b> data\n"
+#~ "    • Visibility: <b>{VISIBILITY}</b>\n"
+#~ "    • Scan Radius: <b>{RADIUS}</b> cells"
+#~ msgstr ""
+#~ "这个建筑没有太空视野\n"
+#~ "\n"
+#~ "确保太空视野畅通无阻以便收集<b>星图</b>数据\n"
+#~ "    • 可见度：<b>{VISIBILITY}</b>\n"
+#~ "    • 扫描范围：<b>{RADIUS}</b>格"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_REDUCED.TOOLTIP"
+#~ msgid ""
+#~ "This building has an inadequate or obscured view of space\n"
+#~ "\n"
+#~ "Ensure an unblocked view of the sky is available to collect <b>Starmap</"
+#~ "b> data\n"
+#~ "    • Visibility: <b>{VISIBILITY}</b>\n"
+#~ "    • Scan Radius: <b>{RADIUS}</b> cells"
+#~ msgstr ""
+#~ "这个建筑的太空视野不足或者受遮挡\n"
+#~ "\n"
+#~ "确保太空视野畅通无阻以便收集<b>星图</b>数据\n"
+#~ "    • 可见度：<b>{VISIBILITY}</b>\n"
+#~ "    • 扫描范围：<b>{RADIUS}</b>格"
+
+#~ msgctxt "STRINGS.CREATURES.SPECIES.GASGRASS.DESC"
+#~ msgid "Gas Grass."
+#~ msgstr "释气草。"
+
+#~ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.DESC"
+#~ msgid "Testing desc for bottoms skins"
+#~ msgstr "下身皮肤的测试描述"
+
+#~ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.EFFECT"
+#~ msgid "Testing effect for bottoms skins"
+#~ msgstr "下身皮肤的测试效果"
+
+#~ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.GENERICNAME"
+#~ msgid "Clothing"
+#~ msgstr "服装"
+
+#~ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.NAME"
+#~ msgid "<link=\"CLOTHINGBOTTOMS\">Bottoms</link>"
+#~ msgstr "<link=\"CLOTHINGBOTTOMS\">下身</link>"
+
+#~ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.RECIPE_DESC"
+#~ msgid "Testing recipe desc for bottoms skins"
+#~ msgstr "下身皮肤的测试配方描述"
+
+#~ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.DESC"
+#~ msgid "Testing desc for gloves skins"
+#~ msgstr "手套皮肤的测试描述"
+
+#~ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.EFFECT"
+#~ msgid "Testing effect for gloves skins"
+#~ msgstr "手套皮肤的测试效果"
+
+#~ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.GENERICNAME"
+#~ msgid "Clothing"
+#~ msgstr "服装"
+
+#~ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.NAME"
+#~ msgid "<link=\"CLOTHINGGLOVES\">Gloves</link>"
+#~ msgstr "<link=\"CLOTHINGGLOVES\">手套</link>"
+
+#~ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.RECIPE_DESC"
+#~ msgid "Testing recipe desc for gloves skins"
+#~ msgstr "手套皮肤的测试配方描述"
+
+#~ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.DESC"
+#~ msgid "Testing desc for shoes skins"
+#~ msgstr "鞋子皮肤的测试描述"
+
+#~ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.EFFECT"
+#~ msgid "Testing effect for shoes skins"
+#~ msgstr "鞋子皮肤的测试效果"
+
+#~ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.GENERICNAME"
+#~ msgid "Clothing"
+#~ msgstr "服装"
+
+#~ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.NAME"
+#~ msgid "<link=\"CLOTHINGSHOES\">Shoes</link>"
+#~ msgstr "<link=\"CLOTHINGSHOES\">鞋子</link>"
+
+#~ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.RECIPE_DESC"
+#~ msgid "Testing recipe desc for shoes skins"
+#~ msgstr "鞋子皮肤的测试配方描述"
+
+#~ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.DESC"
+#~ msgid "Testing desc for tops skins"
+#~ msgstr "上身皮肤的测试描述"
+
+#~ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.EFFECT"
+#~ msgid "Testing effect for tops skins"
+#~ msgstr "上身皮肤的测试效果"
+
+#~ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.GENERICNAME"
+#~ msgid "Clothing"
+#~ msgstr "服装"
+
+#~ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.NAME"
+#~ msgid "<link=\"CLOTHINGTOPS\">Tops</link>"
+#~ msgstr "<link=\"CLOTHINGTOPS\">上身</link>"
+
+#~ msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_TOPS.RECIPE_DESC"
+#~ msgid "Testing recipe desc for tops skins"
+#~ msgstr "上身皮肤的测试配方描述"
+
+#~ msgctxt "STRINGS.STICKERNAMES.STICKER_A"
+#~ msgid "a"
+#~ msgstr "a"
+
+#~ msgctxt "STRINGS.STICKERNAMES.STICKER_B"
+#~ msgid "b"
+#~ msgstr "b"
+
+#~ msgctxt "STRINGS.STICKERNAMES.STICKER_C"
+#~ msgid "c"
+#~ msgstr "c"
+
+#~ msgctxt "STRINGS.STICKERNAMES.STICKER_D"
+#~ msgid "d"
+#~ msgstr "d"
+
+#~ msgctxt "STRINGS.STICKERNAMES.STICKER_E"
+#~ msgid "e"
+#~ msgstr "e"
+
+#~ msgctxt "STRINGS.STICKERNAMES.STICKER_F"
+#~ msgid "f"
+#~ msgstr "f"
+
+#~ msgctxt "STRINGS.STICKERNAMES.STICKER_G"
+#~ msgid "g"
+#~ msgstr "g"
+
+#~ msgctxt "STRINGS.STICKERNAMES.STICKER_H"
+#~ msgid "h"
+#~ msgstr "h"
+
+#~ msgctxt "STRINGS.STICKERNAMES.STICKER_MUSHROOM"
+#~ msgid "mushroom"
+#~ msgstr "蘑菇"
+
+#~ msgctxt "STRINGS.STICKERNAMES.STICKER_PLANT"
+#~ msgid "plant"
+#~ msgstr "植物"
+
+#~ msgctxt "STRINGS.STICKERNAMES.STICKER_PLANTPOT"
+#~ msgid "plantpot"
+#~ msgstr "花盆"
+
+#~ msgctxt "STRINGS.STICKERNAMES.STICKER_ROCKET"
+#~ msgid "rocket"
+#~ msgstr "火箭"
+
+#~ msgctxt "STRINGS.STICKERNAMES.STICKER_SPACEPET"
+#~ msgid "spacepet"
+#~ msgstr "太空宠物"
+
+#~ msgctxt "STRINGS.STICKERNAMES.STICKER_SPACEPET2"
+#~ msgid "spacepet2"
+#~ msgstr "太空宠物2"
+
+#~ msgctxt "STRINGS.STICKERNAMES.STICKER_SPACEPET3"
+#~ msgid "spacepet3"
+#~ msgstr "太空宠物3"
+
+#~ msgctxt "STRINGS.STICKERNAMES.STICKER_SPACEPET4"
+#~ msgid "spacepet4"
+#~ msgstr "太空宠物4"
+
+#~ msgctxt "STRINGS.STICKERNAMES.STICKER_SPACEPET5"
+#~ msgid "spacepet5"
+#~ msgstr "太空宠物5"
+
+#~ msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.ATMO_SUIT_BODY"
+#~ msgid "Atmo Suit Body"
+#~ msgstr "气压服上身"
+
+#~ msgctxt "STRINGS.UI.OUTFIT_DESCRIPTION.NO_ATMO_SUIT_BODY"
+#~ msgid "Default Body"
+#~ msgstr "默认上身"
+
+#~ msgctxt "STRINGS.UI.OUTFIT_DESCRIPTION.NO_DUPE_GLOVES"
+#~ msgid "Default Gloves"
+#~ msgstr "默认手套"
+
+#~ msgctxt "STRINGS.UI.OUTFIT_NAME.NONE_JOY_RESPONSE"
+#~ msgid "Default Overjoyed Blueprint"
+#~ msgstr "默认喜悦蓝图"
 
 #~ msgctxt "STRINGS.ITEMS.MISSILE_BASIC.NAME"
-#~ msgid "<link=\"MISSILELAUNCHER\">Blastshot</link>"
-#~ msgstr "<link=\"MISSILELAUNCHER\">爆破弹</link>"
+#~ msgid "Blastshot"
+#~ msgstr "爆破弹"
 
 #~ msgctxt ""
 #~ "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS."
 #~ "METEOR_SHOWER_SINGLE_METEOR_PERCENTAGE_TOOLTIP"
-#~ msgid "Distribution of meteor types in this shower"
-#~ msgstr "这次流星雨中分布的流星类型"
+#~ msgid "Percentage of meteors that fall in a shower"
+#~ msgstr "在流星雨中，落下流星的百分比"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.BLEACHSTONE."
+#~ "DESCRIPTION"
+#~ msgid ""
+#~ "A shower of bleach stone meteors on a collision course with the "
+#~ "asteroid's surface."
+#~ msgstr "一群漂白石流星，很可能与小行星地表相撞。"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.COPPER.DESCRIPTION"
+#~ msgid ""
+#~ "A shower of metallic meteors on a collision course with the asteroid's "
+#~ "surface."
+#~ msgstr "一群金属流星，很可能与小行星地表相撞。"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.GOLD.DESCRIPTION"
+#~ msgid ""
+#~ "A shower of shiny metallic space rocks on a collision course with the "
+#~ "asteroid's surface."
+#~ msgstr "一群闪亮的金属太空岩，很可能与小行星地表相撞。"
 
 #~ msgctxt ""
 #~ "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.ICE.DESCRIPTION"
 #~ msgid ""
-#~ "A hailstorm of icy space rocks on a collision course with the surface of "
-#~ "an asteroid."
+#~ "A hailstorm of icy space rocks on a collision course with the asteroid's "
+#~ "surface."
 #~ msgstr "一群覆冰太空岩，很可能与小行星地表相撞。"
 
 #~ msgctxt ""
 #~ "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.IRON.DESCRIPTION"
 #~ msgid ""
-#~ "A shower of metallic space rocks on a collision course with the surface "
-#~ "of an asteroid."
+#~ "A shower of metallic space rocks on a collision course with the "
+#~ "asteroid's surface."
 #~ msgstr "一群金属太空岩，很可能与小行星地表相撞。"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.REGOLITH.DESCRIPTION"
+#~ msgid ""
+#~ "A shower of rocky meteors on a collision course with the asteroid's "
+#~ "surface."
+#~ msgstr "一群岩石流星，很可能与小行星地表相撞。"
 
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSILELAUNCHER_NOSURFACESIGHT.NAME"
 #~ msgid "No surface sight"
@@ -101578,10 +102689,6 @@ msgstr "水域小行星"
 #~ msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST_AVAILABLE_POPUP.NAME"
 #~ msgid "Ancient Specimen Excavated"
 #~ msgstr "已发掘远古标本"
-
-#~ msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
-#~ msgid "FEB 2023 QOL"
-#~ msgstr "2023年2月生活质量更新"
 
 #~ msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORSHOWERS.SLIME.NAME"
 #~ msgid "Muck Meteor Shower"
@@ -101674,7 +102781,7 @@ msgstr "水域小行星"
 
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILEFABRICATOR.EFFECT"
 #~ msgid ""
-#~ "Produces <link=\"MISSILELAUNCHER\">Blastshot</link> from metals such as "
+#~ "Produces <link=\"MISSILEBASIC\">Blastshot</link> from metals such as "
 #~ "<link=\"IRON\">Iron</link>, <link=\"COBALT\">Cobalt</link>, <link=\"COPPER"
 #~ "\">Copper</link> or <link=\"ALUMINUMORE\">Aluminum</link> combined with "
 #~ "<link=\"PETROLEUM\">Petroleum</link>.\n"
@@ -101685,7 +102792,7 @@ msgstr "水域小行星"
 #~ msgstr ""
 #~ "使用金属，比如<link=\"IRON\">铁</link>、<link=\"COBALT\">钴</link>、<link="
 #~ "\"COPPER\">铜</link>或<link=\"ALUMINUMORE\">铝</link>，与<link=\"PETROLEUM"
-#~ "\">石油</link>组合以生产<link=\"MISSILELAUNCHER\">爆破弹</link>。\n"
+#~ "\">石油</link>组合以生产<link=\"MISSILEBASIC\">爆破弹</link>。\n"
 #~ "\n"
 #~ "输出<link=\"HEAT\">高温</link>。\n"
 #~ "\n"
