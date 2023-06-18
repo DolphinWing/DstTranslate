@@ -22454,7 +22454,7 @@ msgstr "一隻圓滾滾的<link=\"LIGHTBUGORANGE\">陽光發光蟲</link>寶寶�
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.BABY.NAME"
 msgid "<link=\"LIGHTBUGORANGE\">Sun Nymph</link>"
-msgstr "<link=\"LIGHTBUGORANGE\">陽光發光蟲蛋寶寶</link>"
+msgstr "<link=\"LIGHTBUGORANGE\">陽光發光蟲寶寶</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.DESC"
@@ -76154,7 +76154,7 @@ msgstr "森林行星"
 #. STRINGS.WORLDS.FORESTMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.FORESTMOONLET.DESCRIPTION"
 msgid "A small moon with a forest start.\n\n<smallcaps>Folia Asteroids have plenty of organic material but Duplicants will have to venture outside their starting biome quickly to find any metal.</smallcaps>"
-msgstr "有著森林起始地的小月球\n\n<smallcaps>森林小行星有大量的有機材料，但是複製人必須在起始地的戶外冒險以快速的找到任何金屬。</smallcaps>"
+msgstr "有著森林起始地的小衛星\n\n<smallcaps>森林小行星有大量的有機材料，但是複製人必須在起始地的戶外冒險以快速的找到任何金屬。</smallcaps>"
 
 #. STRINGS.WORLDS.FORESTMOONLET.NAME
 msgctxt "STRINGS.WORLDS.FORESTMOONLET.NAME"
@@ -76324,12 +76324,12 @@ msgstr "牛牛行星"
 #. STRINGS.WORLDS.MOON_BARREN.DESCRIPTION
 msgctxt "STRINGS.WORLDS.MOON_BARREN.DESCRIPTION"
 msgid "A smaller planetoid in orbit around a larger, resource rich world.\n\n<smallcaps>Barren Moons are rich in minerals, but Duplicants will need to branch out into space early to find the resources the colony needs to stay alive.</smallcaps>\n\n"
-msgstr "一個較小的行星，在軌道上繞行一個較大且資源豐富的世界。\n\n<smallcaps>荒無的月球礦物豐富，但複製人需要儘早進入太空才能找到維持殖民地所需要的資源。</smallcaps>\n\n"
+msgstr "一個較小的行星，在軌道上繞行一個較大且資源豐富的世界。\n\n<smallcaps>荒無的衛星礦物豐富，但複製人需要儘早進入太空才能找到維持殖民地所需要的資源。</smallcaps>\n\n"
 
 #. STRINGS.WORLDS.MOON_BARREN.NAME
 msgctxt "STRINGS.WORLDS.MOON_BARREN.NAME"
 msgid "Barren Moon"
-msgstr "荒蕪的月球"
+msgstr "荒蕪的衛星"
 
 #. STRINGS.WORLDS.NIOBIUMMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.NIOBIUMMOONLET.DESCRIPTION"
