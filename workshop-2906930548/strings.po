@@ -51234,7 +51234,7 @@ msgstr "水生"
 #. STRINGS.SUBWORLDS.AQUATIC.UTILITY
 msgctxt "STRINGS.SUBWORLDS.AQUATIC.UTILITY"
 msgid "Initially there is very little solid ground in this biome to establish a temporary base, but once a transportation network can be established to send the <link=\"WATER\">Water</link> of the Aquatic Biome to the rest of the colony, the other elements will be easier to reach.\n\n<link=\"SANDSTONE\">Sandstone</link>, <link=\"MAFICROCK\">Mafic Rock</link>, <link=\"SAND\">Sand</link> and <link=\"SEDIMENTARYROCK\">Sedimentary Rock</link> provide readily available construction materials for setting up elementary infrastructure. The presence of <link=\"OXYROCK\">Oxylite</link> provides invaluable <link=\"OXYGEN\">Oxygen</link> which, through careful planning, should be able to sustain any Duplicants working in the area for a limited amount of time."
-msgstr "此這個生態在最初時有個很小且結實的地方可以建立臨時的基地，不過一旦可以建立運輸系統，就可以將水生態系中的<link=\"WATER\">水</link>送到殖民地的其它地方，且其它元素也會更容易取得。\n\n<link=\"SANDSTONE\">沙岩</link>、<link=\"MAFICROCK\">基岩</link>,<link=\"SAND\">沙子</link>與<link=\"SEDIMENTARYROCK\">沉積岩</link>為建立基礎設施提供現成的材料。\n<link=\"OXYROCK\">氧氣石</link>提供無價的<link=\"OXYGEN\">氧氣</link>，通過仔細的計劃，應該能夠在有限的時間內維持在這個工作的任何複製人生存。"
+msgstr "此這個生態在最初時有個很小且結實的地方可以建立臨時的基地，不過一旦可以建立運輸系統，就可以將水生態系中的<link=\"WATER\">水</link>送到殖民地的其它地方，且其它元素也會更容易取得。\n\n<link=\"SANDSTONE\">沙岩</link>、<link=\"MAFICROCK\">基岩</link>,<link=\"SAND\">沙子</link>與<link=\"SEDIMENTARYROCK\">沉積岩</link>為建立基礎設施提供現成的材料。\n<link=\"OXYROCK\">氧氣石</link>提供無價的<link=\"OXYGEN\">氧氣</link>，藉由詳細的規劃，應該能夠在有限的時間內維持在這個工作的任何複製人生存。"
 
 #. STRINGS.SUBWORLDS.BARREN.DESC
 msgctxt "STRINGS.SUBWORLDS.BARREN.DESC"
@@ -51279,12 +51279,12 @@ msgstr "凍原"
 #. STRINGS.SUBWORLDS.FROZEN.UTILITY
 msgctxt "STRINGS.SUBWORLDS.FROZEN.UTILITY"
 msgid "Far from devoid of life, this biome contains some much needed plant life, ripe for cultivation. <link=\"COLDWHEAT\">Sleet Wheat</link> provides a nutrient rich ingredient for creating complex foods, though the plants do require sub-zero temperatures to thrive.\n\nFortunately <link=\"COLDBREATHER\">Wheezewort</link> can been planted on farms to lower surrounding temperatures.\n\nCrucially, small deposits of <link=\"WOLFRAMITE\">Wolframite</link> have been detected here. This is an extremely rare metal that should be preserved for <link=\"TUNGSTEN\">Tungsten</link>production.\n\nThough my Duplicants appear more than happy to work in the Tundra Biome for short periods of time, I will need to provide proper <link=\"EQUIPMENT\">equipment</link> for them to avoid adverse affects to their well-being if they are working here for longer periods."
-msgstr "這裡的生態系缺乏生命，但有些急需的植物且已成熟。\n<link=\"COLDWHEAT\">雪麥</link>提供豐富的營養可製作複雜的食物，儘管這種植物確實需要零下的溫度才能生長。\n\n幸好<link=\"COLDBREATHER\">冰樹</link>可以種植在農田來降低周圍的環境溫度。\n\n重要的是，在這裡探測到一些<link=\"WOLFRAMITE\">黑鎢礦</link> 的礦脈。\n這是一種非常稀有的金屬，應該保留用來生產<link=\"TUNGSTEN\">鎢</link>。\n\n雖然複製人似乎很高興能在冰原生態系中短時間的工作，但如果他們要在這裡長期工作，\n我需要為他們提供合適的<link=\"EQUIPMENT\">裝備</link>來避免對健康造成不好的影響。"
+msgstr "這裡的生態系非但不缺乏生命，還含有一些急需的、適合種植的植物生命。\n<link=\"COLDWHEAT\">雪麥</link>提供豐富的營養可製作複雜的食物，儘管這種植物確實需要零下的溫度才能生長。\n\n幸好<link=\"COLDBREATHER\">冰樹</link>可以種植在農田來降低周圍的環境溫度。\n\n重要的是，在這裡探測到一些<link=\"WOLFRAMITE\">黑鎢礦</link>的礦脈。\n這是一種非常稀有的金屬，應該保留用來生產<link=\"TUNGSTEN\">鎢</link>。\n\n雖然複製人似乎很高興能在冰原生態系中短時間的工作，但如果他們要在這裡長期工作，\n我需要為他們提供合適的<link=\"EQUIPMENT\">裝備</link>來避免對健康造成不好的影響。"
 
 #. STRINGS.SUBWORLDS.JUNGLE.DESC
 msgctxt "STRINGS.SUBWORLDS.JUNGLE.DESC"
 msgid "Initial investigations of the Jungle Biome reveal an ecosystem filled with unique flora but centered around <link=\"CHLORINE\">Chlorine</link> and <link=\"HYDROGEN\">Hydrogen</link> gas, toxic to Duplicants. When exploring here, it is worth setting up a good system."
-msgstr "對叢林生態系初步的調查顯示，這裡充滿了獨特的植物群但圍繞著<link=\"CHLORINE\">氯氣</link>和<link=\"HYDROGEN\">氫氣</link>，對複製人來說是有毒的。\n當要在這裡進行探索時，會需要好的裝備。"
+msgstr "對叢林生態系初步的調查顯示，這裡充滿了獨特的植物群但圍繞著<link=\"CHLORINE\">氯氣</link>和<link=\"HYDROGEN\">氫氣</link>，對複製人來說是有毒的。\n在這裡探索時，值得建立一個好的系統。"
 
 #. STRINGS.SUBWORLDS.JUNGLE.NAME
 msgctxt "STRINGS.SUBWORLDS.JUNGLE.NAME"
@@ -51294,12 +51294,12 @@ msgstr "叢林"
 #. STRINGS.SUBWORLDS.JUNGLE.UTILITY
 msgctxt "STRINGS.SUBWORLDS.JUNGLE.UTILITY"
 msgid "The <link=\"DRECKOSPECIES\">Drecko</link> is a relatively benign critter which can be domesticated to aid in textile and food production.\n\nThe <link=\"GLOMSPECIES\">Morb</link> only function is to produce <link=\"POLLUTEDOXYGEN\">Polluted Oxygen</link> which may be useful when establishing sustainable production loops with other critters.\n\n<link=\"SWAMPLILY\">Balm Lilies</link> would be useful to cultivate for the production of critical medical materials.\n\n<link=\"SPICEVINE\">Pincha Pepperplants</link> greatly improve the nutritional and gratification of a colony's food supply. Because of their unique relationship with gravity, the plants must be orientated upside-down for proper growing. This can be accomplished by using a <link=\"FARMTILE\">Farm Tile</link>.\n\nGiven the toxic gases I will have to build proper <link=\"BUILDCATEGORYHVAC\">Ventilation</link> system to both protect my Duplicants and provide the optimum environments for the native plants and critters."
-msgstr "<link=\"DRECKOSPECIES\">龍鱗蜥</link>是一種相對溫和的動物，可以馴服作為紡織材料與食物的來源。\n\n<link=\"GLOMSPECIES\">莫布</link>只會生產<link=\"POLLUTEDOXYGEN\">汙氧</link>與其它動物搭配建立一個可循環永續生產的環境時可能會很有用。\n\n<link=\"SWAMPLILY\">香水百合</link>栽種有助於生產關鍵藥材。\n\n<link=\"SPICEVINE\">胡椒藤</link>可大大改善殖民地食物補給的營養與滿足感。\n由於與重力獨特的關係，這株植物必須倒著種才能生長。\n可以使用<link=\"FARMTILE\">農耕磚</link>栽種。\n\n考慮到有毒氣體，我必須建造合適的<link=\"BUILDCATEGORYHVAC\">通風</link> 系統來保護複製人，並為原生植物與動物提供最佳的環境。"
+msgstr "<link=\"DRECKOSPECIES\">龍鱗蜥</link>是一種相對溫和的動物，可以馴服作為紡織材料與食物的來源。\n\n<link=\"GLOMSPECIES\">莫布</link>只會生產<link=\"POLLUTEDOXYGEN\">汙氧</link>與其它動物搭配建立一個可循環永續生產的環境時可能會很有用。\n\n<link=\"SWAMPLILY\">香水百合</link>栽種有助於生產關鍵藥材。\n\n<link=\"SPICEVINE\">胡椒藤</link>可大大改善殖民地食物補給的營養與滿足感。\n由於與重力獨特的關係，這株植物必須倒著種才能生長。\n可以使用<link=\"FARMTILE\">農耕磚</link>栽種。\n\n考慮到有毒氣體，我必須建造合適的<link=\"BUILDCATEGORYHVAC\">通風</link>系統來保護複製人，並為原生植物與動物提供最佳的環境。"
 
 #. STRINGS.SUBWORLDS.MAGMA.DESC
 msgctxt "STRINGS.SUBWORLDS.MAGMA.DESC"
 msgid "Temperatures in the Magma Biome can reach upwards of 1526 degrees, making it a reliable source of extreme heat that can be exploited for the purposes of producing <link=\"POWER\">Power</link> and fuel."
-msgstr "熔岩生態系高達 1526 度的高度，使它釋放高熱可用來生產<link=\"POWER\">電力</link>與燃料。"
+msgstr "熔岩生態系高達 1526 度的高度，使其成為可靠的極端熱源，可用於生產<link=\"POWER\">電力</link>與燃料。"
 
 #. STRINGS.SUBWORLDS.MAGMA.NAME
 msgctxt "STRINGS.SUBWORLDS.MAGMA.NAME"
@@ -51309,22 +51309,22 @@ msgstr "岩漿"
 #. STRINGS.SUBWORLDS.MAGMA.UTILITY
 msgctxt "STRINGS.SUBWORLDS.MAGMA.UTILITY"
 msgid "<link=\"MAGMA\">Magma</link> is source of extreme <link=\"HEAT\">Heat</link> which can be used to transform <link=\"WATER\">Water</link> in to <link=\"STEAM\">Steam</link> or <link=\"CRUDEOIL\">Crude Oil</link> into <link=\"PETROLEUM\">Petroleum</link>. In order to prevent the extreme temperatures of this biome invading other parts of my base, suitable insulation must be constructed using materials with high melting points like <link=\"CERAMIC\">Ceramic</link> or <link=\"OBSIDIAN\">Obsidian</link>.\n\nThough <link=\"EXOSUIT\">Exosuits</link> will provide some protection for my Duplicants, there is still a danger they will overheat if spending an extended amount of time in this Biome. I should ensure that suitable medical facilities have been constructed nearby to take care of any medical emergencies."
-msgstr "<link=\"MAGMA\">岩漿</link>是極高<link=\"HEAT\">熱量</link>的來源，可用來將<link=\"WATER\">水</link>變成<link=\"STEAM\">蒸氣</link>或<link=\"CRUDEOIL\">原油</link>變成<link=\"PETROLEUM\">石油</link>。為了防止這種生態系的高溫溫進入基地，必需使用高熔點的材料像是<link=\"CERAMIC\">陶瓷</link>或<link=\"OBSIDIAN\">黑曜石</link>作為合適的隔熱建材。\n\n儘管<link=\"EXOSUIT\">太空衣</link>能為複製人提供保護，但要在這種生態系待較長的時間，仍然有過熱的危險，應該確保有合適的醫療設施建在附近，可進行緊急醫療照顧。"
+msgstr "<link=\"MAGMA\">岩漿</link>是極高<link=\"HEAT\">熱量</link>的來源，可用來將<link=\"WATER\">水</link>變成<link=\"STEAM\">蒸氣</link>或<link=\"CRUDEOIL\">原油</link>變成<link=\"PETROLEUM\">石油</link>。為了防止這種生態系的高溫進入基地，必需使用高熔點的材料像是<link=\"CERAMIC\">陶瓷</link>或<link=\"OBSIDIAN\">黑曜石</link>作為合適的隔熱建材。\n\n儘管<link=\"EXOSUIT\">太空衣</link>能為複製人提供保護，但要在這種生態系待較長的時間，仍然有過熱的危險，應該確保有合適的醫療設施建在附近，可進行緊急醫療照顧。"
 
 #. STRINGS.SUBWORLDS.MARSH.DESC
 msgctxt "STRINGS.SUBWORLDS.MARSH.DESC"
 msgid "<link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> dominates the atmosphere of the Marsh Biome as it escapes from the <link=\"SLIMEMOLD\">Slime</link> this biome is known for."
-msgstr "沼澤生態系的訪客會感受到<link=\"CONTAMINATEDOXYGEN\">汙氧</link>溫柔對待的聲音，\n由這種生態系的<link=\"TOXICSAND\">汙土</link>釋放所形成而聞名。"
+msgstr "草澤生態系的訪客會感受到<link=\"CONTAMINATEDOXYGEN\">汙氧</link>溫柔對待的聲音，\n由這種生態系的<link=\"TOXICSAND\">汙土</link>釋放所形成而聞名。"
 
 #. STRINGS.SUBWORLDS.MARSH.NAME
 msgctxt "STRINGS.SUBWORLDS.MARSH.NAME"
 msgid "Marsh"
-msgstr "沼澤"
+msgstr "草澤"
 
 #. STRINGS.SUBWORLDS.MARSH.UTILITY
 msgctxt "STRINGS.SUBWORLDS.MARSH.UTILITY"
 msgid "Marsh Biomes contain large amounts of <link=\"SLIMEMOLD\">Slime</link> which can be converted into <link=\"ALGAE\">Algae</link> and provide a valuable resource for growing <link=\"MUSHROOMPLANT\">Dusk Caps</link> as well as feeding to <link=\"PACUSPECIES\">Pacus</link> for producing some higher tier <link=\"FOOD\">food</link>.\n\nBecause of the high degree of probability that this biome will infect my Duplicants with <link=\"SLIMELUNG\">Slimelung</link>, it may be prudent to limit access to this area to essential activities only until my Duplicants are able to set up suitable protection."
-msgstr "沼澤生態系含有大量的<link=\"SLIMEMOLD\">軟泥</link>可轉換成<link=\"ALGAE\">藻類</link>，並有寶貴的<link=\"MUSHROOMPLANT\">黃昏蘑菇</link>可餵食<link=\"PACUSPECIES\">帕庫</link>生產高級的<link=\"FOOD\">食物</link>。\n\n這種生態系的高溫會讓複製人感染<link=\"SLIMELUNG\">肺結核</link>，在能提供複製人適當的保護前應該限制進入這塊區域。"
+msgstr "草澤生態系含有大量的<link=\"SLIMEMOLD\">軟泥</link>可轉換成<link=\"ALGAE\">藻類</link>，並有寶貴的<link=\"MUSHROOMPLANT\">黃昏蘑菇</link>可餵食<link=\"PACUSPECIES\">帕庫</link>生產高級的<link=\"FOOD\">食物</link>。\n\n這種生態系有高機率會讓複製人感染<link=\"SLIMELUNG\">肺結核</link>，因此謹慎的做法是，在能提供我的複製人適當的保護前應該限制進入這塊區域。"
 
 #. STRINGS.SUBWORLDS.METALLIC.DESC
 msgctxt "STRINGS.SUBWORLDS.METALLIC.DESC"
@@ -51384,7 +51384,7 @@ msgstr "海洋"
 #. STRINGS.SUBWORLDS.OCEAN.UTILITY
 msgctxt "STRINGS.SUBWORLDS.OCEAN.UTILITY"
 msgid "<link=\"CRABSPECIES\">Pokeshell</link> molt is an excellent source of <link=\"LIME\">Lime</link> but much care must be taken with domesticating this species as it can get aggressive around its eggs.\n\nHarvesting <link=\"SEALETTUCE\">Waterweed</link> provides <link=\"LETTUCE\">Lettuce</link> for many higher-tier <link=\"FOOD\">foods</link>.\n\nAny water will need to be filtered through a <link=\"DESALINATOR\">Desalinator</link> to remove the <link=\"SALT\">Salt</link> from <link=\"WATER\">Water</link> in order to be useful for my Duplicants. Luckily <link=\"SALT\">Table Salt</link> can be produced using a <link=\"ROCKCRUSHER\">Rock Crusher</link> which, when combined with a <link=\"DININGTABLE\">Mess Table</link>, gives my Duplicants a Morale boost."
-msgstr "<link=\"CRABSPECIES\">拋殼蟹</link>殼是<link=\"LIME\">石灰</link>極佳的來源，但馴化這個物種必須格外小心，因為它們在蛋的附近會變得有侵略性。\n\n收成<link=\"SEALETTUCE\">水草</link>提供<link=\"LETTUCE\">生菜</link>用來製作許多高級的<link=\"FOOD\">食物</link>。\n\n任何<link=\"WATER\">水</link>都需要經過<link=\"DESALINATOR\">海水淡化機</link>去除<link=\"SALT\">鹽</link>才能供給複製人使用。\n幸運的是可以使用<link=\"ROCKCRUSHER\">碎石機</link>生產<link=\"SALT\">食鹽</link>，當與<link=\"DININGTABLE\">餐桌</link>結合使用，會給予複製人士加成。"
+msgstr "<link=\"CRABSPECIES\">拋殼蟹</link>殼是<link=\"LIME\">石灰</link>極佳的來源，但馴化這個物種必須格外小心，因為它們在蛋的附近會變得有侵略性。\n\n收成<link=\"SEALETTUCE\">水草</link>提供<link=\"LETTUCE\">生菜</link>用來製作許多高級的<link=\"FOOD\">食物</link>。\n\n任何<link=\"WATER\">水</link>都需要經過<link=\"DESALINATOR\">海水淡化機</link>去除<link=\"SALT\">鹽</link>才能供給複製人使用。\n幸運的是可以使用<link=\"ROCKCRUSHER\">碎石機</link>生產<link=\"SALT\">食鹽</link>，當與<link=\"DININGTABLE\">餐桌</link>結合使用，會給予複製人士氣加成。"
 
 #. STRINGS.SUBWORLDS.OIL.DESC
 msgctxt "STRINGS.SUBWORLDS.OIL.DESC"
@@ -51429,7 +51429,7 @@ msgstr "風化"
 #. STRINGS.SUBWORLDS.REGOLITH.UTILITY
 msgctxt "STRINGS.SUBWORLDS.REGOLITH.UTILITY"
 msgid "Lingering within the layers of Regolith are the pernicious <link=\"MOLESPECIES\">Shove Voles</link> which eat valuable resources and excrete them at half the original mass.\n\nFortunately these pests can be wrangled up and used as a good food source for my Duplicants. However, extra care must be taken to contain these critters in pens made from either double thick walls or from <link=\"REFINEDMETAL\">Refined Metal</link> since they are capable of burrowing through most other materials."
-msgstr "在風化層中出沒的<link=\"MOLESPECIES\">鑽地田鼠</link>是有害的，它們會吃掉有用的資源，並以原始質量一半的方式排出體外。\n\n幸好可以捕捉這些害蟲來作為複製人的食物來源。\n但是，必須格外小心的用兩倍厚的牆或<link=\"REFINEDMETAL\">精煉金屬</link>所製成的銅牆鐵壁關住它們，因為它們可以穿過大多許的材質。"
+msgstr "在風化層中出沒的<link=\"MOLESPECIES\">鑽地田鼠</link>是有害的，它們會吃掉有用的資源，並以原始質量一半的方式排出體外。\n\n幸好可以捕捉這些害蟲來作為複製人的食物來源。\n但是，必須格外小心的用兩倍厚的牆或<link=\"REFINEDMETAL\">精煉金屬</link>所製成的銅牆鐵壁關住它們，因為它們可以穿過大多數的材質。"
 
 #. STRINGS.SUBWORLDS.RUST.DESC
 msgctxt "STRINGS.SUBWORLDS.RUST.DESC"
@@ -51459,7 +51459,7 @@ msgstr "沙岩"
 #. STRINGS.SUBWORLDS.SANDSTONE.UTILITY
 msgctxt "STRINGS.SUBWORLDS.SANDSTONE.UTILITY"
 msgid "<link=\"OXYROCK\">Oxylite</link> and <link=\"BASICFORAGEPLANTPLANTED\">Buried Muckroot</link> are in sufficient supply to sustain your colony while you gather more resources.\n\n<link=\"DIRT\">Dirt</link>, <link=\"ALGAE\">Algae</link>, <link=\"COPPER\">Copper</link> and, of course, <link=\"SANDSTONE\">Sandstone</link> provide all the materials to get basic colony essentials built.\n\nRandom <link=\"LIGHTBUGSPECIES\">Shine Bugs</link> provide Morale boosts for my Duplicants but are not a reliable light source.\n\n<link=\"HATCHSPECIES\">Hatch</link> can be domesticated for food or <link=\"CARBON\">Coal</link>, which will be useful if using a <link=\"GENERATOR\">Coal Generator</link> for power.\n\nAll-in-all this biome is the perfect starting spot for my colony to establish a base full of essentials, from which they can then venture out and explore."
-msgstr "當你在收集更多資源時，<link=\"OXYROCK\">氧氣石</link>與<link=\"BASICFORAGEPLANTPLANTED\">塊根</link>足夠供應殖民地所需。\n\n<link=\"DIRT\">泥土</link>、<link=\"ALGAE\">藻類</link>、<link=\"COPPER\">銅礦</link>當然還有<link=\"SANDSTONE\">沙岩</link>提供建立基本的殖民地的所有材料。\n\n<link=\"LIGHTBUGSPECIES\">發光蟲</link>提供複製人士氣加成，但不是可靠的光源。\n\n<link=\"HATCHSPECIES\">哈奇</link>可以馴服作為食物，或生產<link=\"CARBON\">煤炭</link>用於 <link=\"GENERATOR\">燃煤發電機</link>發電。\n\n總之這種生態系是一個建立穩定殖民地的完全地點，然後他們可以外出探索。"
+msgstr "當你在收集更多資源時，<link=\"OXYROCK\">氧氣石</link>與<link=\"BASICFORAGEPLANTPLANTED\">塊根</link>足夠供應殖民地所需。\n\n<link=\"DIRT\">泥土</link>、<link=\"ALGAE\">藻類</link>、<link=\"COPPER\">銅礦</link>當然還有<link=\"SANDSTONE\">沙岩</link>提供建立基本的殖民地的所有材料。\n\n<link=\"LIGHTBUGSPECIES\">發光蟲</link>提供複製人士氣加成，但不是可靠的光源。\n\n<link=\"HATCHSPECIES\">哈奇</link>可以馴服作為食物，或生產<link=\"CARBON\">煤炭</link>用於<link=\"GENERATOR\">燃煤發電機</link>發電。\n\n總之這種生態系是一個建立穩定殖民地的完全地點，然後他們可以外出探索。"
 
 #. STRINGS.SUBWORLDS.SPACE.DESC
 msgctxt "STRINGS.SUBWORLDS.SPACE.DESC"
@@ -51474,7 +51474,7 @@ msgstr "太空"
 #. STRINGS.SUBWORLDS.SPACE.UTILITY
 msgctxt "STRINGS.SUBWORLDS.SPACE.UTILITY"
 msgid "Setting up <link=\"SOLARPANELS\">Solar Panels</link> on the surface will provide a source of renewable energy. However, much care must be taken to ensure <link=\"ELEMENTSLIQUID\">Liquids</link> or <link=\"ELEMENTSGAS\">Gases</link> are not sucked out into the <link=\"VACUUM\">Vacuum</link> of space. <link=\"MOLE\">Shove Voles</link> are native to this biome, and need to be wrangled or contained or they will infest the colony."
-msgstr "在小行星表面建造<link=\"SOLARPANELS\">太陽能板</link>可取得可再生的能源。無論如何，\n請小心確保<link=\"ELEMENTSLIQUID\">液體</link>或<link=\"ELEMENTSGAS\">氣體</link>不會被吸進太空的<link=\"VACUUM\">真空</link>環境中。\n<link=\"MOLE\">鑽地田鼠</link>是這種生態系的原生動物，並需要放牧或控制否則他們會侵擾殖民地。"
+msgstr "在小行星表面建造<link=\"SOLARPANELS\">太陽能板</link>可取得可再生的能源。無論如何，\n請小心確保<link=\"ELEMENTSLIQUID\">液體</link>或<link=\"ELEMENTSGAS\">氣體</link>不會被吸進太空的<link=\"VACUUM\">真空</link>環境中。\n<link=\"MOLE\">鑽地田鼠</link>是這種生態系的原生動物，需要加以控制或遏止，否則他們會侵擾殖民地。"
 
 #. STRINGS.SUBWORLDS.SWAMP.DESC
 msgctxt "STRINGS.SUBWORLDS.SWAMP.DESC"
@@ -51489,7 +51489,7 @@ msgstr "沼澤"
 #. STRINGS.SUBWORLDS.SWAMP.UTILITY
 msgctxt "STRINGS.SUBWORLDS.SWAMP.UTILITY"
 msgid "<link=\"SWAMPFORAGEPLANTPLANTED\">Swamp Chard</link> can provide adequate nutrients for my Duplicants while they establish farms, but it cannot be planted or propogated. <link=\"SWAMPHARVESTPLANT\">Bog Buckets</link>, however, provide a sweet source of nutrients that are fairly easy to farm using <link=\"DIRTYWATER\">Polluted Water</link> and require no extra light to grow.\n\nFortunately <link=\"DIRTYWATER\">Polluted Water</link> is abundant in this biome and will require a <link=\"WATERPURIFIER\">Water Sieve</link> to turn into something my Duplicants can drink. Additionally my Duplicants can use a <link=\"SLUDGEPRESS\">Sludge Press</link> to filter clean water from <link=\"MUD\">Mud</link> (NOTE: <link=\"TOXICMUD\">Polluted Mud</link>, however, does not make clean water).\n\nMeanwhile, rudimentary power can be gained from the energy producing <link=\"STATERPILLAR\">Plug Slugs</link> that inhabit this biome.\n\nShiny <link=\"COBALTITE\">Cobalt Ore</link> can be found here, providing a adequate source of metal.\n\nWhile much of this biome is dangerous for a new colony with some deliberate research and careful planning my Duplicants can not only survive but thrive here."
-msgstr "<link=\"SWAMPFORAGEPLANTPLANTED\">沼澤甜菜</link>可在複製人建立農場時提供營養，但不能種植或繁殖。\n<link=\"SWAMPHARVESTPLANT\">沼澤豬籠草</link> 提供甜蜜的營養來源，它使用<link=\"DIRTYWATER\">汙水</link>就可以很容易的種植，且不需額外的光照就可以生長。\n\n幸運的是這種生態系有豐富的<link=\"DIRTYWATER\">汙水</link>需要<link=\"LIQUIDFILTER\">淨水器</link>過濾才能供複製人飲用。\n另外可以使用<link=\"SLUDGEPRESS\">脫水機</link>從<link=\"MUD\">泥漿</link>濾出淨水（注意：<link=\"TOXICMUD\">汙泥漿</link>不能濾出淨水）。\n\n同時，可以從這種生態系中的<link=\"STATERPILLAR\">電氣蛞蝓</link>獲得基礎的電力。\n\n可以在此找到有光澤的<link=\"COBALTITE\">鈷礦</link>提供充足的金屬來源。\n\n僅管這種生態對新殖民而言有許多的危險，但只要經過仔細研究與精心計劃，複製人不只能在此生存還能發展。"
+msgstr "<link=\"SWAMPFORAGEPLANTPLANTED\">沼澤甜菜</link>可在複製人建立農場時提供營養，但不能種植或繁殖。\n<link=\"SWAMPHARVESTPLANT\">沼澤豬籠草</link>提供甜蜜的營養來源，它使用<link=\"DIRTYWATER\">汙水</link>就可以很容易的種植，且不需額外的光照就可以生長。\n\n幸運的是這種生態系有豐富的<link=\"DIRTYWATER\">汙水</link>需要<link=\"LIQUIDFILTER\">淨水器</link>過濾才能供複製人飲用。\n另外可以使用<link=\"SLUDGEPRESS\">脫水機</link>從<link=\"MUD\">泥漿</link>濾出淨水（注意：<link=\"TOXICMUD\">汙泥漿</link>不能濾出淨水）。\n\n同時，可以從這種生態系中的<link=\"STATERPILLAR\">電氣蛞蝓</link>獲得基礎的電力。\n\n可以在此找到有光澤的<link=\"COBALTITE\">鈷礦</link>提供充足的金屬來源。\n\n僅管這種生態對新殖民而言有許多的危險，但只要經過仔細研究與精心計劃，複製人不只能在此生存還能發展。"
 
 #. STRINGS.SUBWORLDS.WASTELAND.DESC
 msgctxt "STRINGS.SUBWORLDS.WASTELAND.DESC"
