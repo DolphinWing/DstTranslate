@@ -13244,7 +13244,7 @@ msgstr "<link=\"SPACEHEATER\">暖氣機</link>"
 #. STRINGS.BUILDINGS.PREFABS.SPECIALCARGOBAY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SPECIALCARGOBAY.DESC"
 msgid "Biological cargo bays allow Duplicants to retrieve alien plants and wildlife from space."
-msgstr "生物貨艙允許複製人帶回太空中的異星植物與動物。"
+msgstr "生物貨艙允許複製人帶回太空中的異星植物與野生動物。"
 
 #. STRINGS.BUILDINGS.PREFABS.SPECIALCARGOBAY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SPECIALCARGOBAY.EFFECT"
@@ -13259,12 +13259,12 @@ msgstr "<link=\"SPECIALCARGOBAY\">生物貨艙</link>"
 #. STRINGS.BUILDINGS.PREFABS.SPICEGRINDER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SPICEGRINDER.DESC"
 msgid "Crushed seeds and other edibles make excellent meal-enhancing additives."
-msgstr "將種子和其他可食用物品碾碎以致城牆化菜搖的優良添加劑。"
+msgstr "壓碎的種子和其他食物是極好的膳食強化添加劑。"
 
 #. STRINGS.BUILDINGS.PREFABS.SPICEGRINDER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SPICEGRINDER.EFFECT"
 msgid "Produces ingredients that add benefits to <link=\"FOOD\">foods</link> prepared at skilled cooking stations."
-msgstr "生產能夠加強由需要技能的烹飪台準備的<link=\"FOOD\">食物</link>的原料。"
+msgstr "生產的原料可為熟練烹飪站所準備的<link=\"FOOD\">食物</link>帶來更多好處。"
 
 #. STRINGS.BUILDINGS.PREFABS.SPICEGRINDER.INGREDIENTHEADER
 msgctxt "STRINGS.BUILDINGS.PREFABS.SPICEGRINDER.INGREDIENTHEADER"
@@ -43404,7 +43404,7 @@ msgstr "<link=\"MACHINERYSPICE\">機械師香料</link>"
 #. STRINGS.ITEMS.SPICES.PILOTING_SPICE.DESC
 msgctxt "STRINGS.ITEMS.SPICES.PILOTING_SPICE.DESC"
 msgid "Provides a boost to piloting abilities."
-msgstr "提升駕駛技能。"
+msgstr "提升火箭駕駛技能。"
 
 #. STRINGS.ITEMS.SPICES.PILOTING_SPICE.NAME
 msgctxt "STRINGS.ITEMS.SPICES.PILOTING_SPICE.NAME"
