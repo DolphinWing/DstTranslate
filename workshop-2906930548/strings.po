@@ -264,7 +264,7 @@ msgstr "<b>{0}</b> 剩餘燃料"
 #. STRINGS.BUILDING.STATUSITEMS.BURNER.HAS_FUEL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BURNER.HAS_FUEL.NAME"
 msgid "Fueled: {0}"
-msgstr "加燃料：{0}"
+msgstr "已加燃料：{0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.BURNER.HAS_FUEL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BURNER.HAS_FUEL.TOOLTIP"
@@ -314,7 +314,7 @@ msgstr "等待複製人改變控制狀態"
 #. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_CLOSED
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_CLOSED"
 msgid "Clearance: Not Permitted"
-msgstr "通關：禁止"
+msgstr "安全許可：禁止"
 
 #. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_DISCONNECTED
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_DISCONNECTED"
@@ -324,7 +324,7 @@ msgstr "未自動化"
 #. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_OPEN
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_OPEN"
 msgid "Clearance: Permitted"
-msgstr "通關：允許"
+msgstr "安全許可：允許"
 
 #. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_CLOSED
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_CLOSED"
@@ -349,7 +349,7 @@ msgstr "醫療設施位於醫院外面"
 #. STRINGS.BUILDING.STATUSITEMS.CLINICOUTSIDEHOSPITAL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLINICOUTSIDEHOSPITAL.TOOLTIP"
 msgid "Rebuild this medical equipment in a <style=\"KKeyword\">Hospital</style> to more effectively quarantine sick Duplicants"
-msgstr "在 <style=\"KKeyword\">醫院</style>重建這醫療設備，更有效地隔離生病的複製人"
+msgstr "在<style=\"KKeyword\">醫院</style>內重新建造這個醫療設備，可以更有效地隔離生病的複製人"
 
 #. STRINGS.BUILDING.STATUSITEMS.CLUSTERCOLONYLACKSREQUIREDSKILLPERK.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLUSTERCOLONYLACKSREQUIREDSKILLPERK.NAME"
@@ -594,7 +594,7 @@ msgstr "設置"
 #. STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.READY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.READY.TOOLTIP"
 msgid "This trap has been set and is ready to catch a <style=\"KKeyword\">Critter</style>"
-msgstr "這個陷阱已經架設完畢，等待<style=\"KKeyword\">小動物</style>上門"
+msgstr "這個陷阱已經準備就緒，等待<style=\"KKeyword\">小動物</style>光臨"
 
 #. STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.SPRUNG.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.SPRUNG.NAME"
@@ -639,7 +639,7 @@ msgstr "無物種資料"
 #. STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORPROGRESS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORPROGRESS.TOOLTIP"
 msgid "This building requires data from multiple <style=\"KKeyword\">Critter</style> species to unlock its genetic manipulator\n\nSpecies scanned:"
-msgstr "這個建築需要多種<style=\"KKeyword\">小動物</style>的資料來解鎖其基因操作器\n\n已掃描的物種："
+msgstr "這個建築需要多種<style=\"KKeyword\">小動物</style>的資料來解鎖基因操作的功能\n\n已掃描的物種："
 
 #. STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORWAITING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATUREMANIPULATORWAITING.NAME"
@@ -21324,7 +21324,7 @@ msgstr "新鮮度"
 #. STRINGS.CREATURES.ATTRIBUTES.ROTDELTA.TOOLTIP
 msgctxt "STRINGS.CREATURES.ATTRIBUTES.ROTDELTA.TOOLTIP"
 msgid "Food items become stale at fifty percent <style=\"KKeyword\">Freshness</style>, and rot at zero percent"
-msgstr "食物在<style=\"KKeyword\">新鮮度</style>降到50%時變質，在降到0%時腐爛"
+msgstr "食物在<style=\"KKeyword\">新鮮度</style>降到 50% 時變質，在降到 0% 時腐爛"
 
 #. STRINGS.CREATURES.ATTRIBUTES.SCALEGROWTHDELTA.NAME
 msgctxt "STRINGS.CREATURES.ATTRIBUTES.SCALEGROWTHDELTA.NAME"
@@ -21334,7 +21334,7 @@ msgstr "鱗片生長"
 #. STRINGS.CREATURES.ATTRIBUTES.SCALEGROWTHDELTA.TOOLTIP
 msgctxt "STRINGS.CREATURES.ATTRIBUTES.SCALEGROWTHDELTA.TOOLTIP"
 msgid "Determines how long this <style=\"KKeyword\">Critter's</style> scales will take to grow back."
-msgstr "決定 <style=\"KKeyword\">小動物</style> 的鱗片重長回來的所需時間。"
+msgstr "決定<style=\"KKeyword\">小動物</style>的鱗片重長回來的所需時間。"
 
 #. STRINGS.CREATURES.ATTRIBUTES.VIABILITYDELTA.DESC
 msgctxt "STRINGS.CREATURES.ATTRIBUTES.VIABILITYDELTA.DESC"
@@ -21859,7 +21859,7 @@ msgstr "這是一隻野生動物"
 #. STRINGS.CREATURES.PLANT_MUTATIONS.BLOOMS.DESCRIPTION
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BLOOMS.DESCRIPTION"
 msgid "Vestigial flowers increase the beauty of this plant. Don't inhale the pollen, though!"
-msgstr "盛開的花朵增加了這株植物的美感。但不要吸入花粉！"
+msgstr "退化的花朵增加了這種植物的美麗。但不要吸入花粉！"
 
 #. STRINGS.CREATURES.PLANT_MUTATIONS.BLOOMS.NAME
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BLOOMS.NAME"
@@ -21874,7 +21874,7 @@ msgstr "加成產星：+{Amount} {Crop}"
 #. STRINGS.CREATURES.PLANT_MUTATIONS.BONUSLICE.DESCRIPTION
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BONUSLICE.DESCRIPTION"
 msgid "Something about this mutation causes Meal Lice to pupate on this plant."
-msgstr "這株植物因為變種的導致生產可食用虱子。"
+msgstr "因為某些突變導致可食用虱子出現在這株植物上。"
 
 #. STRINGS.CREATURES.PLANT_MUTATIONS.BONUSLICE.NAME
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BONUSLICE.NAME"
@@ -21884,7 +21884,7 @@ msgstr "虱子"
 #. STRINGS.CREATURES.PLANT_MUTATIONS.EXTREMELYTIGHT.DESCRIPTION
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.EXTREMELYTIGHT.DESCRIPTION"
 msgid "Plants with this mutation are very difficult to keep alive, but produce a bounty."
-msgstr "這株植物變種很難保持存活，但產量很高。"
+msgstr "具有這種突變的植物很難存活，但卻能產生豐厚的回報。"
 
 #. STRINGS.CREATURES.PLANT_MUTATIONS.EXTREMELYTIGHT.NAME
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.EXTREMELYTIGHT.NAME"
@@ -21894,7 +21894,7 @@ msgstr "超特化"
 #. STRINGS.CREATURES.PLANT_MUTATIONS.HEAVYFRUIT.DESCRIPTION
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.HEAVYFRUIT.DESCRIPTION"
 msgid "Extra water in these plump mutant veggies causes them to fall right off the plant! There's no extra nutritional value, though..."
-msgstr "這株植物變種中多餘的水份，會存於果實中從這株植物身上掉落！雖然沒什麼營養，但是…"
+msgstr "這些豐滿的變種果實中多餘的水份會導致它們馬上從這株植物身上掉落！雖然沒什麼額外的營養價值…"
 
 #. STRINGS.CREATURES.PLANT_MUTATIONS.HEAVYFRUIT.NAME
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.HEAVYFRUIT.NAME"
@@ -21904,7 +21904,7 @@ msgstr "多汁水果"
 #. STRINGS.CREATURES.PLANT_MUTATIONS.LOADEDWITHFRUIT.DESCRIPTION
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.LOADEDWITHFRUIT.DESCRIPTION"
 msgid "This mutation produces lots of extra produce, though it also takes a long time to pick it all!"
-msgstr "這株植物變種產量大，儘管要花很多時間採收！"
+msgstr "這種突變種會生產大量額外的果實，儘管要花很多時間才能採收！"
 
 #. STRINGS.CREATURES.PLANT_MUTATIONS.LOADEDWITHFRUIT.NAME
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.LOADEDWITHFRUIT.NAME"
@@ -21914,7 +21914,7 @@ msgstr "豐收"
 #. STRINGS.CREATURES.PLANT_MUTATIONS.MODERATELYLOOSE.DESCRIPTION
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.MODERATELYLOOSE.DESCRIPTION"
 msgid "Plants with this mutation are easier to take care of, but don't yield as much produce."
-msgstr "這株植物變種容易照顧，但產量不多。"
+msgstr "具有這種突變的植物更容易照顧，但產量不高。"
 
 #. STRINGS.CREATURES.PLANT_MUTATIONS.MODERATELYLOOSE.NAME
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.MODERATELYLOOSE.NAME"
@@ -21924,7 +21924,7 @@ msgstr "易於生長"
 #. STRINGS.CREATURES.PLANT_MUTATIONS.MODERATELYTIGHT.DESCRIPTION
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.MODERATELYTIGHT.DESCRIPTION"
 msgid "Plants with this mutation are pickier about their conditions but yield more produce."
-msgstr "此變種植物對長成條件更加挑惕，但同時產量也更多。"
+msgstr "具有這種突變的植物對條件更加挑剔，但產量更高。"
 
 #. STRINGS.CREATURES.PLANT_MUTATIONS.MODERATELYTIGHT.NAME
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.MODERATELYTIGHT.NAME"
@@ -21944,7 +21944,7 @@ msgstr "{PlantName}（{MutationList}）"
 #. STRINGS.CREATURES.PLANT_MUTATIONS.ROTTENHEAPS.DESCRIPTION
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.ROTTENHEAPS.DESCRIPTION"
 msgid "Plants with this mutation grow extremely quickly, though the produce they make is sometimes questionable."
-msgstr "這株植物變種生長相當快速，儘管產物有時令人懷疑。"
+msgstr "帶有這種突變的植物生長得非常快，儘管它們生產的產品有時是有問題的。"
 
 #. STRINGS.CREATURES.PLANT_MUTATIONS.ROTTENHEAPS.NAME
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.ROTTENHEAPS.NAME"
@@ -21954,7 +21954,7 @@ msgstr "快速生長"
 #. STRINGS.CREATURES.PLANT_MUTATIONS.SLOWBURN.DESCRIPTION
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.SLOWBURN.DESCRIPTION"
 msgid "These plants grow almost as slow as their wild cousins, but also consume almost no fertilizer."
-msgstr "這株植物變種生長速度就像野生的一樣，但同時也幾乎不需肥料。"
+msgstr "這些植物的生長速度幾乎和它們的野生近親一樣慢，但幾乎不消耗肥料。"
 
 #. STRINGS.CREATURES.PLANT_MUTATIONS.SLOWBURN.NAME
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.SLOWBURN.NAME"
@@ -21964,7 +21964,7 @@ msgstr "野生"
 #. STRINGS.CREATURES.PLANT_MUTATIONS.SUNNYSPEED.DESCRIPTION
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.SUNNYSPEED.DESCRIPTION"
 msgid "This mutation provides the plant with sun-collecting leaves, allowing faster growth."
-msgstr "這株植物的葉子需要陽光，可以使其快速生長。"
+msgstr "這種突變為植物提供了收集陽光的葉子，從而可以更快地生長。"
 
 #. STRINGS.CREATURES.PLANT_MUTATIONS.SUNNYSPEED.NAME
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.SUNNYSPEED.NAME"
