@@ -3579,7 +3579,7 @@ msgstr "加速滑行預備"
 #. STRINGS.BUILDING.STATUSITEMS.TRANSITTUBEENTRANCEWAXREADY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TRANSITTUBEENTRANCEWAXREADY.TOOLTIP"
 msgid "This building is stocked with speed-boosting <link=\"MILKFAT\">Brackwax</link>\n\n{0} per use ({1} remaining)"
-msgstr ""
+msgstr "這個建築存有用於提速的<link=\"MILKFAT\">鹹乳蠟</link>\n\n每次使用 {0}（剩餘 {1}）"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_ACTIVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_ACTIVE.NAME"
@@ -14004,7 +14004,7 @@ msgstr "超導體是一種工業金屬合金，可使<link=\"HEAT\">熱傳遞</l
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.VISCOGEL_RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.VISCOGEL_RECIPE_DESCRIPTION"
 msgid "Visco-Gel is a <link=\"ELEMENTSLIQUID\">Liquid</link> polymer with high surface tension."
-msgstr "黏膠是一種高表面張力的<link=\"ELEMENTSLIQUID\">液體</link>聚合物。"
+msgstr "凝膠是一種高表面張力的<link=\"ELEMENTSLIQUID\">液體</link>聚合物。"
 
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.YELLOWCAKE_RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.YELLOWCAKE_RECIPE_DESCRIPTION"
@@ -21699,7 +21699,7 @@ msgstr "抱抱的"
 #. STRINGS.CREATURES.MODIFIERS.EGGHUG.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.EGGHUG.TOOLTIP"
 msgid "This egg was recently hugged by an affectionate critter\n\nIncreased <style=\"KKeyword\">Incubation Rate</style>"
-msgstr "這個蛋最近被一隻深情的小動物擁抱了\n\n提高<style=\"KKeyword\">孵化率</style>"
+msgstr "這個蛋最近被一隻深情的小動物擁抱了\n\n<style=\"KKeyword\">孵化率</style>提高"
 
 #. STRINGS.CREATURES.MODIFIERS.ELEMENT_GROWTH_RATE.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.ELEMENT_GROWTH_RATE.NAME"
@@ -21719,12 +21719,12 @@ msgstr "一旦全部的<style=\"KKeyword\">蛋</style>都孵化了，這個<styl
 #. STRINGS.CREATURES.MODIFIERS.GOTMILK.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.GOTMILK.NAME"
 msgid "Hydrated"
-msgstr "補水"
+msgstr "補充水分"
 
 #. STRINGS.CREATURES.MODIFIERS.GOTMILK.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.GOTMILK.TOOLTIP"
 msgid "This critter recently drank <style=\"KKeyword\">Brackene</style>\n\nIt doesn't mind overcrowding quite as much right now"
-msgstr "這隻小動物最近喝了<style=\"KKeyword\">鹹乳</style>\n\n現在它不介意過度擁擠了"
+msgstr "這隻小動物最近喝了<style=\"KKeyword\">鹹乳</style>\n\n現在牠不那麼介意過度擁擠了"
 
 #. STRINGS.CREATURES.MODIFIERS.HAPPY.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.HAPPY.NAME"
@@ -38519,7 +38519,7 @@ msgstr "<link=\"METHANE\">天然氣</link>"
 #. STRINGS.ELEMENTS.MILK.DESC
 msgctxt "STRINGS.ELEMENTS.MILK.DESC"
 msgid "Brackene is a sodium-rich <link=\"ELEMENTSLIQUID\">Liquid</link>.\n\nIt is useful in <link=\"RANCHING\">Ranching</link>."
-msgstr "Brackene是一種富含鈉的<link=\"ELEMENTSLIQUID\">液體</link>。\n\n它可用於<link=\"RANCHING\">養殖</link>。"
+msgstr "鹹乳是一種富含鈉的<link=\"ELEMENTSLIQUID\">液體</link>。\n\n它可用於<link=\"RANCHING\">畜牧</link>。"
 
 #. STRINGS.ELEMENTS.MILK.NAME
 msgctxt "STRINGS.ELEMENTS.MILK.NAME"
@@ -38539,7 +38539,7 @@ msgstr "<link=\"MILKFAT\">鹹乳蠟</link>"
 #. STRINGS.ELEMENTS.MILKICE.DESC
 msgctxt "STRINGS.ELEMENTS.MILKICE.DESC"
 msgid "Frozen Brackene is <link=\"MILK\">Brackene</link> frozen into a <link=\"ELEMENTSSOLID\">Solid</link> state."
-msgstr "凝凍鹹乳是一種凍結成<link=\"ELEMENTSSOLID\">固態</link>的<link=\"MILK\">鹹乳</link>。"
+msgstr "冰凍鹹乳是一種凍結成<link=\"ELEMENTSSOLID\">固體</link>狀態的<link=\"MILK\">鹹乳</link>。"
 
 #. STRINGS.ELEMENTS.MILKICE.NAME
 msgctxt "STRINGS.ELEMENTS.MILKICE.NAME"
@@ -39454,7 +39454,7 @@ msgstr "<link=\"VACUUM\">真空</link>"
 #. STRINGS.ELEMENTS.VISCOGEL.DESC
 msgctxt "STRINGS.ELEMENTS.VISCOGEL.DESC"
 msgid "Visco-Gel is a <link=\"ELEMENTSLIQUID\">Liquid</link> polymer with high surface tension, preventing typical liquid flow and allowing for unusual configurations."
-msgstr "凝膠是一種有高表面張力的<link=\"ELEMENTSLIQUID\">液體</link>聚合物，不像正常液體會流動且有特殊的結構。"
+msgstr "凝膠是一種有高表面張力的<link=\"ELEMENTSLIQUID\">液體</link>聚合物，可避免典型的液體流動並允許不尋常的配置。"
 
 #. STRINGS.ELEMENTS.VISCOGEL.NAME
 msgctxt "STRINGS.ELEMENTS.VISCOGEL.NAME"
