@@ -11035,7 +11035,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MISSILELAUNCHER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILELAUNCHER.DESC"
-msgid "Meteors that have been blown to smithereens leave behind no harvestable resources."
+msgid "Some meteors drop harvestable resources when they're blown to smithereens."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MISSILELAUNCHER.EFFECT

@@ -11033,8 +11033,8 @@ msgstr "在流星雨期間發射<link=\"MISSILELAUNCHER\">爆破彈</link>以免
 
 #. STRINGS.BUILDINGS.PREFABS.MISSILELAUNCHER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILELAUNCHER.DESC"
-msgid "Meteors that have been blown to smithereens leave behind no harvestable resources."
-msgstr "被炸成碎片的流星不會留下可獲得的資源。"
+msgid "Some meteors drop harvestable resources when they're blown to smithereens."
+msgstr "有些流星被炸成碎片時會掉落可收穫的資源。"
 
 #. STRINGS.BUILDINGS.PREFABS.MISSILELAUNCHER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILELAUNCHER.EFFECT"
@@ -47714,7 +47714,7 @@ msgstr "彈坑"
 #. STRINGS.NAMEGEN.COLONY.NOUN.CREW
 msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.CREW"
 msgid "Crew"
-msgstr "船員"
+msgstr "機組人員"
 
 #. STRINGS.NAMEGEN.COLONY.NOUN.DIMENSION
 msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.DIMENSION"
@@ -54304,7 +54304,7 @@ msgstr "著陸點"
 #. STRINGS.UI.CLUSTERMAP.OCCUPANTS
 msgctxt "STRINGS.UI.CLUSTERMAP.OCCUPANTS"
 msgid "CREW"
-msgstr "船員"
+msgstr "機組人員"
 
 #. STRINGS.UI.CLUSTERMAP.PLANETOID
 msgctxt "STRINGS.UI.CLUSTERMAP.PLANETOID"
@@ -56994,12 +56994,12 @@ msgstr "發射檢查清單"
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETBOARD
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETBOARD"
 msgid "Crew Manifest"
-msgstr "船員名單"
+msgstr "機組人員名單"
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETBOARD_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETBOARD_TOOLTIP"
 msgid "It is recommended that all boxes on the Crew Manifest checklist be ticked before launching"
-msgstr "建議在發射前檢查船員名單上所有項目"
+msgstr "建議在發射前檢查機組人員名單上所有項目"
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETFLIGHT
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETFLIGHT"
@@ -62444,17 +62444,17 @@ msgstr "雕塑"
 #. STRINGS.UI.KLEI_INVENTORY_SCREEN.SUBCATEGORIES.BUILDING_WALLPAPER_BASIC
 msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.SUBCATEGORIES.BUILDING_WALLPAPER_BASIC"
 msgid "Solid Wallpapers"
-msgstr "純色桌布"
+msgstr "純色壁紙"
 
 #. STRINGS.UI.KLEI_INVENTORY_SCREEN.SUBCATEGORIES.BUILDING_WALLPAPER_FANCY
 msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.SUBCATEGORIES.BUILDING_WALLPAPER_FANCY"
 msgid "Geometric Wallpapers"
-msgstr "幾何桌布"
+msgstr "幾何壁紙"
 
 #. STRINGS.UI.KLEI_INVENTORY_SCREEN.SUBCATEGORIES.BUILDING_WALLPAPER_PRINTS
 msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.SUBCATEGORIES.BUILDING_WALLPAPER_PRINTS"
 msgid "Patterned Wallpapers"
-msgstr "圖案桌布"
+msgstr "圖案壁紙"
 
 #. STRINGS.UI.KLEI_INVENTORY_SCREEN.SUBCATEGORIES.BUILDINGS_BED_COT
 msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.SUBCATEGORIES.BUILDINGS_BED_COT"
@@ -62634,7 +62634,7 @@ msgstr "除錯未釋出"
 #. STRINGS.UI.KLEI_INVENTORY_SCREEN.TOP_LEVEL_CATEGORIES.WALLPAPERS
 msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.TOP_LEVEL_CATEGORIES.WALLPAPERS"
 msgid "Wallpapers"
-msgstr "桌布"
+msgstr "壁紙"
 
 #. STRINGS.UI.LISTENTRYSTRING
 msgctxt "STRINGS.UI.LISTENTRYSTRING"
@@ -69659,17 +69659,17 @@ msgstr "施工警告"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.FAILURE"
 msgid "All crew boarded"
-msgstr "全部船員登機"
+msgstr "全部機組人員登機"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.READY"
 msgid "All crew boarded"
-msgstr "全部船員登機"
+msgstr "全部機組人員登機"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.FAILURE"
 msgid "No crew members have boarded this rocket\n\nDuplicants must be assigned to the rocket crew and have access to the module's hatch to board\n\n    • {0}/{1} Boarded"
-msgstr "沒有船員登上火箭\n\n必須指派複製人成為火箭的船員，並能訪問這個模組的艙門才能登機\n\n    • {0}／{1} 已登機"
+msgstr "沒有機組人員登上火箭\n\n必須指派複製人成為火箭的機組人員，並能訪問這個模組的艙門才能登機\n\n    • {0}／{1} 已登機"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.NONE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.NONE"
@@ -69679,7 +69679,7 @@ msgstr "沒有複製人被分配為這艘火箭成員\n    • {0}/{1} 已登機
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.READY"
 msgid "All Duplicants assigned to the rocket crew are boarded and ready for launch\n\n    • {0}/{1} Boarded"
-msgstr "所有複製人船員都已登機並準備好發射\n\n    • {0}／{1} 已登機"
+msgstr "所有複製人機組人員都已登機並準備好發射\n\n    • {0}／{1} 已登機"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.WARNING"
@@ -69689,7 +69689,7 @@ msgstr "一些分配為這艘火箭成員的複製人還沒有登上火箭\n    
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.WARNING"
 msgid "All crew boarded"
-msgstr "全部船員登機"
+msgstr "全部機組人員登機"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.FAILURE"
@@ -70029,32 +70029,32 @@ msgstr "未選擇目的地"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.FAILURE"
 msgid "Non-crew exited"
-msgstr "非船員撤出"
+msgstr "非機組人員撤出"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.READY"
 msgid "Non-crew exited"
-msgstr "非船員撤出"
+msgstr "非機組人員撤出"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.TOOLTIP.FAILURE"
 msgid "Non-crew Duplicants must exit the rocket before launch"
-msgstr "非船員必須在發射前離開火箭"
+msgstr "非機組人員必須在發射前離開火箭"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.TOOLTIP.READY"
 msgid "All non-crew Duplicants have disembarked"
-msgstr "非船員已全部離開"
+msgstr "非機組人員已全部離開"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.TOOLTIP.WARNING"
 msgid "Non-crew warning"
-msgstr "無船員警告"
+msgstr "無機組人員警告"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.WARNING"
 msgid "Non-crew exited"
-msgstr "非船員撤出"
+msgstr "非機組人員撤出"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ON_LAUNCHPAD.STATUS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ON_LAUNCHPAD.STATUS.FAILURE"
@@ -70099,7 +70099,7 @@ msgstr "駕駛登機"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PILOT_BOARDED.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PILOT_BOARDED.TOOLTIP.FAILURE"
 msgid "At least one crew member aboard the rocket must possess the <link=\"ROCKETPILOTING1\">Rocket Piloting</link> skill to launch\n\nQualified Duplicants must be assigned to the rocket crew, and have access to the module's hatch"
-msgstr "火箭上至少需有一名船員具備<link=\"ROCKETPILOTING1\">火箭駕駛</link>技能才能發射\n\n必須指派合格的複製人成為這枚火箭的船員，並且可訪問這個模組的艙門"
+msgstr "火箭上至少需有一名機組人員具備<link=\"ROCKETPILOTING1\">火箭駕駛</link>技能才能發射\n\n必須指派合格的複製人成為這枚火箭的機組人員，並且可訪問這個模組的艙門"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PILOT_BOARDED.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PILOT_BOARDED.TOOLTIP.READY"
@@ -72234,7 +72234,7 @@ msgstr "複製人分配"
 #. STRINGS.UI.UISIDESCREENS.ASSIGNMENTGROUPCONTROLLER.TOOLTIPS.ASSIGN
 msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNMENTGROUPCONTROLLER.TOOLTIPS.ASSIGN"
 msgid "<b>Add</b> this Duplicant to rocket crew"
-msgstr "<b>加入</b>這個複製人為火箭船員"
+msgstr "<b>加入</b>這個複製人為火箭機組人員"
 
 #. STRINGS.UI.UISIDESCREENS.ASSIGNMENTGROUPCONTROLLER.TOOLTIPS.DIFFERENT_WORLD
 msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNMENTGROUPCONTROLLER.TOOLTIPS.DIFFERENT_WORLD"
@@ -73504,7 +73504,7 @@ msgstr "5... 4... 3... 2... 1..."
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.STATUS.LOADING_CREW
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.STATUS.LOADING_CREW"
 msgid "Loading crew..."
-msgstr "等待船員…"
+msgstr "等待機組人員…"
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.STATUS.READY_FOR_LAUNCH
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.STATUS.READY_FOR_LAUNCH"
@@ -73524,7 +73524,7 @@ msgstr "升空！！"
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.STATUS.UNLOADING_PASSENGERS
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.STATUS.UNLOADING_PASSENGERS"
 msgid "Unloading non-crew..."
-msgstr "非船員正在撤出…"
+msgstr "非機組人員正在撤出…"
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.STATUS.WAITING_FOR_PILOT
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.STATUS.WAITING_FOR_PILOT"
@@ -73574,7 +73574,7 @@ msgstr "緩衝時間"
 #. STRINGS.UI.UISIDESCREENS.LOGIC_BUFFER_SIDE_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGIC_BUFFER_SIDE_SCREEN.TOOLTIP"
 msgid "Will continue to send a <b><style=\"logic_on\">Green Signal</style></b> for <b>{0} seconds</b> after receiving a <b><style=\"logic_off\">Red Signal</style></b>"
-msgstr "收到<b><style=\"logic_off\">紅色訊號</style></b>後，會繼續發出<b><style=\"logic_on\">綠色訊號</style></b><b>{0} 秒</b>"
+msgstr "收到<b><style=\"logic_off\">紅色訊號</style></b>後，還會繼續發出<b><style=\"logic_on\">綠色訊號</style></b> <b>{0} 秒</b>"
 
 #. STRINGS.UI.UISIDESCREENS.LOGIC_FILTER_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGIC_FILTER_SIDE_SCREEN.TITLE"
@@ -73584,7 +73584,7 @@ msgstr "過濾時間"
 #. STRINGS.UI.UISIDESCREENS.LOGIC_FILTER_SIDE_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGIC_FILTER_SIDE_SCREEN.TOOLTIP"
 msgid "Will only send a <b><style=\"logic_on\">Green Signal</style></b> if it receives <b><style=\"logic_on\">Green</style></b> for longer than <b>{0} seconds</b>"
-msgstr "如果收到<b><style=\"logic_on\">綠色訊號</style></b>的時間大於 <b>{0} 秒</b>，將只會發出<b><style=\"logic_on\">綠色訊號</style></b>"
+msgstr "只有在收到<b><style=\"logic_on\">綠色訊號</style></b>的時間大於 <b>{0} 秒</b>，才會發出<b><style=\"logic_on\">綠色訊號</style></b>"
 
 #. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.DESCRIPTION
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.DESCRIPTION"
@@ -73804,7 +73804,7 @@ msgstr "當<style=\"KKeyword\">電池</style>的總電量低於 <b>{0}%</b> 時�
 #. STRINGS.UI.UISIDESCREENS.MEDICALCOTSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.MEDICALCOTSIDESCREEN.TITLE"
 msgid "Severity Requirement"
-msgstr "重症要求"
+msgstr "嚴重性要求"
 
 #. STRINGS.UI.UISIDESCREENS.MEDICALCOTSIDESCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.MEDICALCOTSIDESCREEN.TOOLTIP"
@@ -73984,7 +73984,7 @@ msgstr "大型紀念碑"
 #. STRINGS.UI.UISIDESCREENS.NUCLEAR_REACTOR_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.NUCLEAR_REACTOR_SIDE_SCREEN.TITLE"
 msgid "Reaction Mass Target"
-msgstr "反應物質目標"
+msgstr "反應質量目標"
 
 #. STRINGS.UI.UISIDESCREENS.NUCLEAR_REACTOR_SIDE_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.NUCLEAR_REACTOR_SIDE_SCREEN.TOOLTIP"
@@ -74004,7 +74004,7 @@ msgstr "當壓力累積超過 <b>{0}%</b> 時，複製人必須為其釋放背�
 #. STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.ASSIGNED_TO_CREW
 msgctxt "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.ASSIGNED_TO_CREW"
 msgid "Assigned to crew"
-msgstr "分配為船員"
+msgstr "分配為機組人員"
 
 #. STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.AUTO_CREW
 msgctxt "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.AUTO_CREW"
@@ -74019,12 +74019,12 @@ msgstr "火箭準備發射前，所有的複製人都可以自由地進入或離
 #. STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.CHANGE_CREW_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.CHANGE_CREW_BUTTON"
 msgid "Change crew"
-msgstr "變更船員"
+msgstr "變更機組人員"
 
 #. STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.CHANGE_CREW_BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.CHANGE_CREW_BUTTON_TOOLTIP"
 msgid "Assign Duplicants to crew this rocket's missions"
-msgstr "分配一個複製人作為這枚火箭任務的船員"
+msgstr "分配一個複製人作為這枚火箭任務的機組人員"
 
 #. STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.RELEASE_CREW
 msgctxt "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.RELEASE_CREW"
@@ -74039,7 +74039,7 @@ msgstr "全部複製人可以自由的進入與離開這個模組"
 #. STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.REQUEST_CREW
 msgctxt "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.REQUEST_CREW"
 msgid "Crew"
-msgstr "船員"
+msgstr "機組人員"
 
 #. STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.REQUEST_CREW_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.REQUEST_CREW_TOOLTIP"
@@ -74219,7 +74219,7 @@ msgstr "這株 {Crop} 收成時會有 {DiseaseAmount} {Disease}。"
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.NUMBEROFHARVESTS
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.NUMBEROFHARVESTS"
 msgid "This plant can mature {0} times before the end of its life cycle"
-msgstr "植物可成熟 {0} 次，在它的生命周期結束之前"
+msgstr "在它的生命周期結束之前，植物可成熟 {0} 次"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.PLANTEFFECTS
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.PLANTEFFECTS"
@@ -74794,12 +74794,12 @@ msgstr "確認棄船"
 #. STRINGS.UI.UISIDESCREENS.SELFDESTRUCTSIDESCREEN.BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.SELFDESTRUCTSIDESCREEN.BUTTON_TOOLTIP"
 msgid "This rocket is equipped with an emergency escape system.\n\nThe rocket's self-destruct sequence can be triggered to destroy it and propel fragments of the ship towards the nearest planetoid.\n\nAny Duplicants on board will be safely delivered in escape pods."
-msgstr "這枚火箭配備了緊急逃生系統。\n\n可以觸發火箭的自爆裝置以摧毀它並將飛船的碎片推向最近的小行星。\n\n船上的任何複製人都將被安全地放進逃生艙中。"
+msgstr "這枚火箭配備了緊急逃生系統。\n\n可以觸發火箭的自爆裝置以摧毀它並將飛船的碎片推向最近的小行星。\n\n船上的任何複製人都將被安全地送進逃生艙中。"
 
 #. STRINGS.UI.UISIDESCREENS.SELFDESTRUCTSIDESCREEN.BUTTON_TOOLTIP_CONFIRM
 msgctxt "STRINGS.UI.UISIDESCREENS.SELFDESTRUCTSIDESCREEN.BUTTON_TOOLTIP_CONFIRM"
 msgid "<b>This will eject any passengers and destroy the rocket.<b>\n\nThe rocket's self-destruct sequence can be triggered to destroy it and propel fragments of the ship towards the nearest planetoid.\n\nAny Duplicants on board will be safely delivered in escape pods."
-msgstr "<b>這將彈出任何乘客並摧毀火箭。<b>\n\n可以觸發火箭的自爆裝置以摧毀它並將飛船的碎片推向最近的小行星。\n\n船上的任何複製人都將被安全地放進逃生艙中。"
+msgstr "<b>這將彈出任何乘客並摧毀火箭。<b>\n\n可以觸發火箭的自爆裝置以摧毀它並將飛船的碎片推向最近的小行星。\n\n船上的任何複製人都將被安全地送進逃生艙中。"
 
 #. STRINGS.UI.UISIDESCREENS.SELFDESTRUCTSIDESCREEN.MESSAGE_TEXT
 msgctxt "STRINGS.UI.UISIDESCREENS.SELFDESTRUCTSIDESCREEN.MESSAGE_TEXT"
@@ -75004,7 +75004,7 @@ msgstr "不，我需要更多時間來準備。"
 #. STRINGS.UI.UISIDESCREENS.TEMPORALTEARSIDESCREEN.CONFIRM_POPUP_CONFIRM
 msgctxt "STRINGS.UI.UISIDESCREENS.TEMPORALTEARSIDESCREEN.CONFIRM_POPUP_CONFIRM"
 msgid "Yes, I'm ready for a meteor shower."
-msgstr "是的，我已準備好流星雨了。"
+msgstr "是的，我已準備好面對流星雨了。"
 
 #. STRINGS.UI.UISIDESCREENS.TEMPORALTEARSIDESCREEN.CONFIRM_POPUP_MESSAGE
 msgctxt "STRINGS.UI.UISIDESCREENS.TEMPORALTEARSIDESCREEN.CONFIRM_POPUP_MESSAGE"
@@ -76309,7 +76309,7 @@ msgstr "這個電腦沒有重要的資料。"
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH5
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH5"
 msgid "Someone's left a solitaire game up. There's nothing else of interest on the computer.\n\nAlso, it looks as though they were about to lose."
-msgstr "有人留下了紙牌遊戲。這電腦沒有其他任何有趣的資料。\n\n而且，看起來它們即將失敗。"
+msgstr "有人留下了紙牌遊戲。這電腦沒有其他任何有趣的資料。\n\n而且，看起來他們即將輸了。"
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH6
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH6"
