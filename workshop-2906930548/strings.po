@@ -3259,7 +3259,7 @@ msgstr "可儲存：{0} / {1}"
 #. STRINGS.BUILDING.STATUSITEMS.STOREDCHARGE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.STOREDCHARGE.TOOLTIP"
 msgid "This building has <b>{0}</b> of stored <style=\"KKeyword\">Power</style>\n\nIt consumes <style=\"consumed\">{2}</style> per use"
-msgstr "這個建築物已儲存 <b>{0}</b> <style=\"KKeyword\">電力</style>\n\n每次使用消耗 <style=\"consumed\">{2}</style>"
+msgstr "這個建築物已儲存 <b>{0}</b>的<style=\"KKeyword\">電力</style>\n\n每次使用消耗 <style=\"consumed\">{2}</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.NAME"
@@ -3269,7 +3269,7 @@ msgstr "目前狀態：太空衣充氣中"
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.TOOLTIP"
 msgid "This <style=\"KKeyword\">Suit</style> is docked and refueling"
-msgstr "這件 <style=\"KKeyword\">太空衣/style> 已儲放並在填充中"
+msgstr "這件<style=\"KKeyword\">太空衣/style>已儲放並在充填中"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.FULLY_CHARGED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.FULLY_CHARGED.NAME"
@@ -14969,7 +14969,7 @@ msgstr "挖掘槍促銷"
 #. STRINGS.CODEX.A0_PROPFACILITYDISPLAY3.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A0_PROPFACILITYDISPLAY3.BODY.CONTAINER1"
 msgid "Tired of shutting down during seasonal heat waves? Looking to cut weather-related operating costs?\n\nLook no further: Gravitas's revolutionary Anti Entropy Thermo-Nullifier is the exciting, affordable new way to eliminate operational downtime.\n\nPowered by our proprietary renewable power sources, the AETN efficiently cools an entire office building without incurring any of the environmental surcharges associated with comparable systems.\n\nInitial setup includes hydrogen duct installation and discounted monthly maintenance visits from our elite team of specially trained contractors.\n\nNow available for pre-order!"
-msgstr "厭倦了週期性的過熱問題？希望降低與溫度相關的處理成本？\n\n不要再猶豫了：Gravitas 的革命性反熵除熱機是減少過熱停機時間又令人興奮的經濟實惠新方法。\n\nAETN 由我們專有的可再生能源提供動力，可有效地冷卻整個建築物，而不會產生任何附帶問題。\n\n初始設置包括氫氣管道安裝和我們經過專門培訓的承包商精英團隊所提供的每月維護服務。\n\n現在可以開始預訂了！"
+msgstr "厭倦了週期性的過熱問題？希望降低與溫度相關的處理成本？\n\n不要再猶豫了：引力科技的革命性反熵除熱機是減少過熱停機時間又令人興奮的經濟實惠新方法。\n\nAETN 由我們專有的可再生能源提供動力，可有效地冷卻整個建築物，而不會產生任何附帶問題。\n\n初始設置包括氫氣管道安裝和我們經過專門培訓的承包商精英團隊所提供的每月維護服務。\n\n現在可以開始預訂了！"
 
 #. STRINGS.CODEX.A0_PROPFACILITYDISPLAY3.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A0_PROPFACILITYDISPLAY3.BODY.CONTAINER2"
@@ -20794,7 +20794,7 @@ msgstr "從輻射蜂巢中取出鈾而沒有被蜇傷"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.HARVEST_HIVE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.HARVEST_HIVE"
 msgid "Uranium extracted from a Beeta hive without getting stung"
-msgstr "鈾已從輻射蜂巢中提取出來而沒有被螫傷"
+msgstr "已從輻射蜂巢中提取鈾出來而沒有被螫傷"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.HATCH_A_MORPH
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.HATCH_A_MORPH"
@@ -69629,17 +69629,17 @@ msgstr "這個<link=\"LAUNCHPAD\">火箭平台</link>仍然可以裝載或卸下
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.STATUS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.STATUS.FAILURE"
 msgid "No active construction"
-msgstr "未進行施工"
+msgstr "無進行中的工程"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.STATUS.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.STATUS.READY"
 msgid "No active construction"
-msgstr "未進行施工"
+msgstr "無進行中的工程"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.STATUS.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.STATUS.WARNING"
 msgid "No active construction"
-msgstr "未進行施工"
+msgstr "無進行中的工程"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.TOOLTIP.FAILURE"
@@ -69654,7 +69654,7 @@ msgstr "全部的模組都已建造完成"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.TOOLTIP.WARNING"
 msgid "Construction warning"
-msgstr "施工警告"
+msgstr "建造警告"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.FAILURE"
@@ -69669,22 +69669,22 @@ msgstr "全部機組人員登機"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.FAILURE"
 msgid "No crew members have boarded this rocket\n\nDuplicants must be assigned to the rocket crew and have access to the module's hatch to board\n\n    • {0}/{1} Boarded"
-msgstr "沒有機組人員登上火箭\n\n必須指派複製人成為火箭的機組人員，並能訪問這個模組的艙門才能登機\n\n    • {0}／{1} 已登機"
+msgstr "沒有機組人員登上火箭\n\n必須指派複製人成為火箭的機組人員，並能訪問這個模組的艙門才能登機\n\n    • {0} / {1} 已登機"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.NONE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.NONE"
 msgid "There are no Duplicants assigned to this rocket crew\n    • {0}/{1} Boarded"
-msgstr "沒有複製人被分配為這艘火箭成員\n    • {0}/{1} 已登機"
+msgstr "沒有複製人被分配為這艘火箭的機組人員\n    • {0} / {1} 已登機"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.READY"
 msgid "All Duplicants assigned to the rocket crew are boarded and ready for launch\n\n    • {0}/{1} Boarded"
-msgstr "所有複製人機組人員都已登機並準備好發射\n\n    • {0}／{1} 已登機"
+msgstr "所有被分配為這艘火箭機組人員的複製人都已登機並準備好發射\n\n    • {0} / {1} 已登機"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.WARNING"
 msgid "Some Duplicants assigned to this rocket crew have not yet boarded\n    • {0}/{1} Boarded"
-msgstr "一些分配為這艘火箭成員的複製人還沒有登上火箭\n    • {0}/{1} 已登機"
+msgstr "一些被分配為這艘火箭機組人員的複製人還沒有登上火箭\n    • {0} / {1} 已登機"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.WARNING"
@@ -73109,17 +73109,17 @@ msgstr "{0} 生產訂單"
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TOOLTIPS.RECIPEPRODUCT
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TOOLTIPS.RECIPEPRODUCT"
 msgid "This recipe produces {1} {0}"
-msgstr "這個配方生產 {1} {0}"
+msgstr "這個配方生產 {1}{0}"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TOOLTIPS.RECIPERQUIREMENT_INSUFFICIENT
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TOOLTIPS.RECIPERQUIREMENT_INSUFFICIENT"
 msgid "This recipe requires {1} {0}\nAvailable: {2}"
-msgstr "這個配方需要{1} {0}\n可用：{2}"
+msgstr "這個配方需要 {1}{0}\n可用：{2}"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TOOLTIPS.RECIPERQUIREMENT_SUFFICIENT
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TOOLTIPS.RECIPERQUIREMENT_SUFFICIENT"
 msgid "This recipe consumes {1} of an available {2} of {0}"
-msgstr "這個配方消耗 {1}，可用 {2} 的 {0}"
+msgstr "這個配方消耗{1}，可用 {2} 的 {0}"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.UNITS_AND_CALS
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.UNITS_AND_CALS"
