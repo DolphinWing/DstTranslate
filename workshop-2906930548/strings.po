@@ -359,7 +359,7 @@ msgstr "本地殖民地缺少{Skills}"
 #. STRINGS.BUILDING.STATUSITEMS.CLUSTERCOLONYLACKSREQUIREDSKILLPERK.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLUSTERCOLONYLACKSREQUIREDSKILLPERK.TOOLTIP"
 msgid "{Skills} Skill required to operate\n\nOpen the <b>Skills Panel</b> {Hotkey/ManageSkills} to teach {Skills} to a Duplicant, or bring a Duplicant with the skill from another Planetoid"
-msgstr "需要{Skills}技能才能操作\n\n開啟<b>技能面板</b> {Hotkey/ManageSkills} 教導{Skills}給一位複製人、或從其它星球帶來擁有這個技能的複製人"
+msgstr "需要 {Skills} 技能才能操作\n\n開啟<b>技能面板</b> {Hotkey/ManageSkills} 教導 {Skills} 給一位複製人、或從其它星球帶來擁有這個技能的複製人"
 
 #. STRINGS.BUILDING.STATUSITEMS.CLUSTERTELESCOPEALLWORKCOMPLETE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLUSTERTELESCOPEALLWORKCOMPLETE.NAME"
@@ -374,7 +374,7 @@ msgstr "<style=\"KKeyword\">天文望遠鏡</style>已分析了目前位置所�
 #. STRINGS.BUILDING.STATUSITEMS.COLLECTINGHEP.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COLLECTINGHEP.NAME"
 msgid "Collecting Radbolts ({x}/cycle)"
-msgstr "收集輻射（{x}／周期）"
+msgstr "收集輻射（{x} / 周期）"
 
 #. STRINGS.BUILDING.STATUSITEMS.COLLECTINGHEP.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COLLECTINGHEP.TOOLTIP"
@@ -389,7 +389,7 @@ msgstr "殖民地缺少{Skills}"
 #. STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.TOOLTIP"
 msgid "{Skills} Skill required to operate\n\nOpen the <b>Skills Panel</b> {Hotkey/ManageSkills} to teach {Skills} to a Duplicant"
-msgstr "需要{Skills}技能才能操作\n\n開啟<b>技能面板</b> {Hotkey/ManageSkills} 教導{Skills}給一位複製人"
+msgstr "需要 {Skills} 技能才能操作\n\n開啟<b>技能面板</b> {Hotkey/ManageSkills} 教導 {Skills} 給一位複製人"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME"
@@ -554,7 +554,7 @@ msgstr "等待佈置"
 #. STRINGS.BUILDING.STATUSITEMS.CREATURE_REUSABLE_TRAP.NEEDS_ARMING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATURE_REUSABLE_TRAP.NEEDS_ARMING.TOOLTIP"
 msgid "Waiting for a Duplicant to arm this trap\n\nOnly Duplicants with the <link=\"RANCHING1\">Critter Ranching I</link> skill can arm traps"
-msgstr "等待複製人來佈置這個陷阱\n\n只有具有<link=\"RANCHING1\">畜牧 I</link>技能的複製人才能設置陷阱捕捉小動物"
+msgstr "等待複製人來佈置這個陷阱\n\n只有具有<link=\"RANCHING1\">畜牧 I</link> 技能的複製人才能設置陷阱捕捉小動物"
 
 #. STRINGS.BUILDING.STATUSITEMS.CREATURE_REUSABLE_TRAP.READY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATURE_REUSABLE_TRAP.READY.NAME"
@@ -2024,7 +2024,7 @@ msgstr "任務控制台以為這艘火箭提供 {0} 的速度提升\n\n剩餘 {1
 #. STRINGS.BUILDING.STATUSITEMS.MODULEGENERATORNOTPOWERED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MODULEGENERATORNOTPOWERED.NAME"
 msgid "Thrust Generation: {ActiveWattage}/{MaxWattage}"
-msgstr "推進器動力：{ActiveWattage}／{MaxWattage}"
+msgstr "推進器動力：{ActiveWattage} / {MaxWattage}"
 
 #. STRINGS.BUILDING.STATUSITEMS.MODULEGENERATORNOTPOWERED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MODULEGENERATORNOTPOWERED.TOOLTIP"
@@ -2034,7 +2034,7 @@ msgstr "在太空旅行期間引擎會產生 <style=\"produced\">{MaxWattage}</s
 #. STRINGS.BUILDING.STATUSITEMS.MODULEGENERATORPOWERED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MODULEGENERATORPOWERED.NAME"
 msgid "Thrust Generation: {ActiveWattage}/{MaxWattage}"
-msgstr "推進器動力：{ActiveWattage}／{MaxWattage}"
+msgstr "推進器動力：{ActiveWattage} / {MaxWattage}"
 
 #. STRINGS.BUILDING.STATUSITEMS.MODULEGENERATORPOWERED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MODULEGENERATORPOWERED.TOOLTIP"
@@ -2604,7 +2604,7 @@ msgstr "    • {0}：{1}\n"
 #. STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.NAME"
 msgid "Heat Production: {0}/s"
-msgstr "產生熱：{0}／秒"
+msgstr "產生熱：{0} / 秒"
 
 #. STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.OPERATING
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.OPERATING"
@@ -5129,7 +5129,7 @@ msgstr "<link=\"CEILINGLIGHT\">吸頂燈</link>"
 #. STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.FACADES.FAUXPIPE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.FACADES.FAUXPIPE.DESC"
 msgid "The height of plumbing-inspired interior design."
-msgstr "受管道高度啓發的室內設計。"
+msgstr "受管道高度啟發的室內設計。"
 
 #. STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.FACADES.FAUXPIPE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.FACADES.FAUXPIPE.NAME"
@@ -5169,7 +5169,7 @@ msgstr "<link=\"CEILINGLIGHT\">波點吸頂燈</link>"
 #. STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CEILINGLIGHT.NAME"
 msgid "<link=\"CEILINGLIGHT\">Ceiling Light</link>"
-msgstr "<link=\"CEILINGLIGHT\">燈泡</link>"
+msgstr "<link=\"CEILINGLIGHT\">吸頂燈</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.DESC"
@@ -5184,7 +5184,7 @@ msgstr "當收到<b><style=\"logic_on\">綠色訊號</style></b>時，允許複�
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT"
 msgid "Duplicant Stop/Go"
-msgstr "複製人停下／通過"
+msgstr "複製人停下/通過"
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_ACTIVE"
@@ -5459,7 +5459,7 @@ msgstr "標記為清空"
 #. STRINGS.BUILDINGS.PREFABS.CONDUIT.STATUS_ITEM.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.CONDUIT.STATUS_ITEM.TOOLTIP"
 msgid "Awaiting a <link=\"PLUMBER\">Plumber</link> to clear this pipe"
-msgstr "等待 <link=\"PLUMBER\">水管工人</link> 清理水管"
+msgstr "等待<link=\"PLUMBER\">水管工人</link>清理水管"
 
 #. STRINGS.BUILDINGS.PREFABS.CONTACTCONDUCTIVEPIPEBRIDGE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CONTACTCONDUCTIVEPIPEBRIDGE.DESC"
@@ -5544,7 +5544,7 @@ msgstr "使用前需要佈置。"
 #. STRINGS.BUILDINGS.PREFABS.CREATUREAIRTRAP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREAIRTRAP.EFFECT"
 msgid "Attracts and captures airborne <link=\"CREATURES\">Critters</link>.\n\nOnly Duplicants with the <link=\"RANCHING1\">Critter Ranching I</link> skill can arm this trap. It's reusable!"
-msgstr "吸引並捕捉飛行<link=\"CREATURES\">小動物</link>。\n\n只有具有<link=\"RANCHING1\">畜牧 I</link>技能的複製人才能佈置這個陷阱。可重複使用！"
+msgstr "吸引並捕捉飛行<link=\"CREATURES\">小動物</link>。\n\n只有具有<link=\"RANCHING1\">畜牧 I</link> 技能的複製人才能佈置這個陷阱。可重複使用！"
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREAIRTRAP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREAIRTRAP.NAME"
@@ -5589,7 +5589,7 @@ msgstr "這是為陸地小動物設計的，但有時掙扎的魚也會誤入其
 #. STRINGS.BUILDINGS.PREFABS.CREATUREGROUNDTRAP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREGROUNDTRAP.EFFECT"
 msgid "Captures a living <link=\"CREATURES\">Critter</link> for transport.\n\nOnly Duplicants with the <link=\"RANCHING1\">Critter Ranching I</link> skill can arm this trap. It's reusable!"
-msgstr "活捉一隻<link=\"CREATURES\">小動物</link>以便運輸。\n\n只有具有<link=\"RANCHING1\">畜牧 I</link>技能的複製人才能佈置陷阱。可重複使用！"
+msgstr "捕捉一隻<link=\"CREATURES\">小動物</link>以便運輸。\n\n只有具有<link=\"RANCHING1\">畜牧 I</link> 技能的複製人才能佈置陷阱。可重複使用！"
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREGROUNDTRAP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREGROUNDTRAP.NAME"
@@ -5634,7 +5634,7 @@ msgstr "解凍朋友"
 #. STRINGS.BUILDINGS.PREFABS.CRYOTANK.DEFROSTBUTTONTOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.CRYOTANK.DEFROSTBUTTONTOOLTIP"
 msgid "A new pal is just an icebreaker away"
-msgstr "一位新朋友只是離破船很遠"
+msgstr "距離結識新朋友僅一步之遙"
 
 #. STRINGS.BUILDINGS.PREFABS.CRYOTANK.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CRYOTANK.DESC"
@@ -5794,7 +5794,7 @@ msgstr "產生所需的輻射讓你保持舒適。"
 #. STRINGS.BUILDINGS.PREFABS.DEVRADIATIONGENERATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVRADIATIONGENERATOR.NAME"
 msgid "Dev Radiation Emitter"
-msgstr "開發者輻射產生器"
+msgstr "開發者輻射發射器"
 
 #. STRINGS.BUILDINGS.PREFABS.DIAMONDPRESS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DIAMONDPRESS.DESC"
@@ -5949,7 +5949,7 @@ msgstr "在左邊"
 #. STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_OPEN
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_OPEN"
 msgid "Open/Close"
-msgstr "打開／關閉"
+msgstr "打開/關閉"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_OPEN_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.LOGIC_OPEN_ACTIVE"
@@ -6014,7 +6014,7 @@ msgstr "孵化器可以為幾種生物蛋維持理想的孵化條件。"
 #. STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.EFFECT"
 msgid "Incubates <link=\"CREATURES\">Critter</link> eggs until ready to hatch.\n\nAssigned Duplicants must possess the <link=\"RANCHING1\">Critter Ranching</link> skill."
-msgstr "孵化<link=\"CRITTERS\">小動物</link>蛋直到完全孵化。\n\n分配的複製人必需要有<link=\"RANCHING1\">畜牧 I</link>技能。"
+msgstr "孵化<link=\"CRITTERS\">小動物</link>蛋直到完全孵化。\n\n分配的複製人必需要有<link=\"RANCHING1\">畜牧 I</link> 技能。"
 
 #. STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.NAME"
@@ -6084,7 +6084,7 @@ msgstr "一種快速簡單的替代品，儘管原型不會令人失望。"
 #. STRINGS.BUILDINGS.PREFABS.EXOBASEHEADQUARTERS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXOBASEHEADQUARTERS.EFFECT"
 msgid "A portable bioprinter that produces new Duplicants or care packages containing resources.\n\nOnly one Printing Pod or Mini-Pod is permitted per Planetoid."
-msgstr "一個可攜式生物列印設備，可生產新的複製人或含有資源包裡。\n\n每個小行星只能有一小型列印設備。"
+msgstr "一個可攜式生物列印設備，可生產新的複製人或含有資源的補給包裹。\n\n每個小行星只能有一個小型列印設備。"
 
 #. STRINGS.BUILDINGS.PREFABS.EXOBASEHEADQUARTERS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXOBASEHEADQUARTERS.NAME"
@@ -6144,7 +6144,7 @@ msgstr "<link=\"EXTERIORWALL\">春綠牆板</link>"
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_GREY_CHARCOAL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_GREY_CHARCOAL.DESC"
 msgid "An elevated take on \"gray\"."
-msgstr "對“灰色”的高度理解。"
+msgstr "對「灰色」的高度理解。"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_GREY_CHARCOAL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.BASIC_GREY_CHARCOAL.NAME"
@@ -6674,7 +6674,7 @@ msgstr "<link=\"EXTERIORWALL\">豪廁板</link>"
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.TROPICAL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.TROPICAL.DESC"
 msgid "The original scratch-and-sniff version was immediately recalled."
-msgstr "最初的芳香塗層版本當時立即就被駁回了。"
+msgstr "最初的芳香塗層版本當時立即就被召回了。"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.TROPICAL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.TROPICAL.NAME"
@@ -6719,7 +6719,7 @@ msgstr "農業站只對同一房間內種植的作物有影響。"
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.EFFECT"
 msgid "Produces <link=\"FARMSTATIONTOOLS\">Micronutrient Fertilizer</link> to increase <link=\"PLANTS\">Plant</link> growth rates.\n\nAssigned Duplicants must possess the <link=\"FARMING2\">Crop Tending</link> trait.\n\nThis building is a necessary component of the Greenhouse room."
-msgstr "生產<link=\"FARMSTATIONTOOLS\">肥料包</link>增加<link=\"PLANTS\">植物</link>的生長速度。\n\n分配的複製人必須有<link=\"FARMING2\">耕作</link>特質。\n\n這個建築是打造溫室的要素之一。"
+msgstr "生產<link=\"FARMSTATIONTOOLS\">肥料包</link>增加<link=\"PLANTS\">植物</link>的生長速度。\n\n分配的複製人必須有<link=\"FARMING2\">耕作</link>技能。\n\n這個建築是打造溫室的要素之一。"
 
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.NAME"
@@ -6844,7 +6844,7 @@ msgstr "當一個物體或是複製人停放在它上面的時候，發出<b><st
 #. STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.LOGIC_PORT_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.LOGIC_PORT_DESC"
 msgid "<link=\"LOGIC\">Active</link>/<link=\"LOGIC\">Inactive</link>"
-msgstr "<link=\"LOGIC\">啟動</link>／<link=\"LOGIC\">未啟動</link>"
+msgstr "<link=\"LOGIC\">啟動</link>/<link=\"LOGIC\">未啟動</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.NAME"
@@ -7169,7 +7169,7 @@ msgstr "提供支架讓複製人可以訪問火箭模組。"
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.LOGIC_PORT"
 msgid "Extend/Retract"
-msgstr "伸出／收起"
+msgstr "伸出/收起"
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.LOGIC_PORT_ACTIVE"
@@ -7494,7 +7494,7 @@ msgstr "連接到<link=\"LOGIC\">自動化</link>系統，自動控制<link=\"EL
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.LOGIC_PORT"
 msgid "Open/Close"
-msgstr "打開／關閉"
+msgstr "打開/關閉"
 
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.LOGIC_PORT_ACTIVE"
@@ -7634,7 +7634,7 @@ msgstr "<link=\"GENERATOR\">燃煤發電機</link>"
 #. STRINGS.BUILDINGS.PREFABS.GENERATOR.OVERPRODUCTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERATOR.OVERPRODUCTION"
 msgid "{Generator} overproduction"
-msgstr "{Generator} 產能過剩"
+msgstr "{Generator}產能過剩"
 
 #. STRINGS.BUILDINGS.PREFABS.GENERICFABRICATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERICFABRICATOR.DESC"
@@ -7749,7 +7749,7 @@ msgstr "豪華餐點可以提升複製人的士氣，並避免他們壓力過大
 #. STRINGS.BUILDINGS.PREFABS.GOURMETCOOKINGSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GOURMETCOOKINGSTATION.EFFECT"
 msgid "Cooks a wide variety of quality <link=\"FOOD\">Foods</link>.\n\nDuplicants will not fabricate items unless recipes are queued."
-msgstr "可料理多種<link=\"FOOD\">食物</link>。\n\n沒有訂單，複製人將不會製作。"
+msgstr "可料理多種<link=\"FOOD\">食物</link>。\n\n佇列中沒有訂單，複製人將不會製作。"
 
 #. STRINGS.BUILDINGS.PREFABS.GOURMETCOOKINGSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GOURMETCOOKINGSTATION.NAME"
@@ -7824,7 +7824,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.GRAVITASLABLIGHT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVITASLABLIGHT.EFFECT"
 msgid "An overhead light therapy lamp designed to soothe the minds."
-msgstr "一盞用於舒緩頭腦的光療燈。"
+msgstr "一盞用於舒緩心靈的頭頂光療燈。"
 
 #. STRINGS.BUILDINGS.PREFABS.GRAVITASLABLIGHT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVITASLABLIGHT.NAME"
@@ -7999,7 +7999,7 @@ msgstr "<link=\"HEPENGINE\">輻射粒子連接板</link>"
 #. STRINGS.BUILDINGS.PREFABS.HEPENGINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HEPENGINE.DESC"
 msgid "Radbolt-fueled rockets support few modules, but travel exceptionally far."
-msgstr "輻射粒子燃料火箭只能加裝少量模組，但能飛行距離很遠。"
+msgstr "輻射粒子燃料火箭只能加裝少量模組，但能飛行很遠距離。"
 
 #. STRINGS.BUILDINGS.PREFABS.HEPENGINE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HEPENGINE.EFFECT"
@@ -8109,7 +8109,7 @@ msgstr "熱水按摩可以使複製人放鬆。"
 #. STRINGS.BUILDINGS.PREFABS.HOTTUB.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HOTTUB.EFFECT"
 msgid "Requires <link=\"LIQUIDPIPING\">Pipes</link> to and from tub and <link=\"POWER\">Power</link> to run the jets.\n\nWater must be a comfortable temperature and will cool rapidly.\n\nIncreases Duplicant <link=\"MORALE\">Morale</link>."
-msgstr "澡盆需要<link=\"LIQUIDPIPING\">水管</link>與<link=\"POWER\">電源</link>噴嘴才能運作。\n\n水溫必須在舒適的溫度，並會快速冷卻。\n\n提升複製人的<link=\"MORALE\">士氣</link>。"
+msgstr "需要<link=\"LIQUIDPIPING\">水管</link>與<link=\"POWER\">電源</link>才能運作。\n\n水溫必須在舒適的溫度，並會快速冷卻。\n\n提升複製人的<link=\"MORALE\">士氣</link>。"
 
 #. STRINGS.BUILDINGS.PREFABS.HOTTUB.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.HOTTUB.NAME"
@@ -8759,7 +8759,7 @@ msgstr "<link=\"LIQUIDCONDUITBRIDGE\">液體橋接管</link>"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.DESC"
 msgid "Germ sensors can help control automation behavior in the presence of germs."
-msgstr "液體管細菌感測器有助於控制細菌存在時的自化動化行為。"
+msgstr "液體管細菌感測器有助於控制細菌存在時的自動化行為。"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.EFFECT"
@@ -8819,7 +8819,7 @@ msgstr "<link=\"LIQUIDCONDUITELEMENTSENSOR\">液體管元素感測器</link>"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.DESC"
 msgid "Overflow valves can be used to prioritize which buildings should receive precious resources first."
-msgstr "液體溢流閥可用控制那些建築物應該優先取得資源。"
+msgstr "液體開關閥可用控制那些建築物應該優先取得珍貴的資源。"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.EFFECT"
@@ -8849,7 +8849,7 @@ msgstr "<link=\"LIQUIDCONDUITPREFERENTIALFLOW\">優先液體流向</link>"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.DESC"
 msgid "Radiant pipes pumping cold liquid can be run through hot areas to help cool them down."
-msgstr "導熱液體管可以運送冰冷的液體經過高溫區域，幫助它們降溫。"
+msgstr "導熱液體管可以運送冰冷的液體經過高溫區域來幫助它們降溫。"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.EFFECT"
@@ -9014,7 +9014,7 @@ msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：無"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.DESC"
 msgid "Automated piping saves power and time by removing the need for Duplicant input."
-msgstr "自動化的管線系統節省能源與減少需要被複製人管理的時間。"
+msgstr "自動化的管線系統節省能源以及需要被複製人手動處理的時間。"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.EFFECT"
@@ -9024,7 +9024,7 @@ msgstr "連接到<link=\"LOGIC\">自動化</link>系統，可自動切換<link=\
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.LOGIC_PORT"
 msgid "Open/Close"
-msgstr "打開／關閉"
+msgstr "打開/關閉"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.LOGIC_PORT_ACTIVE"
@@ -9429,7 +9429,7 @@ msgstr "這個邏輯閘同時收到兩個綠色訊號時，發出綠色訊號。
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEAND.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEAND.EFFECT"
 msgid "Outputs a <b><style=\"logic_on\">Green Signal</style></b> when both Input A <b>AND</b> Input B are receiving <b><style=\"logic_on\">Green</style></b>.\n\nOutputs a <b><style=\"logic_off\">Red Signal</style></b> when even one Input is receiving <b><style=\"logic_off\">Red</style></b>."
-msgstr "當輸入端 A <b>與</b> 輸入端 B <b> 都收到<b><style=\"logic_on\">綠色訊號</style></b>時，輸出端會發出<b><style=\"logic_on\">綠色訊號</style></b>。\n\n當有一個輸入端收到<b><style=\"logic_off\">紅色訊號</style></b>時，輸出端會發出<b><style=\"logic_off\">紅色訊號</style></b>。"
+msgstr "當輸入端 A <b>與</b>輸入端 B <b>都收到<b><style=\"logic_on\">綠色訊號</style></b>時，輸出端會發出<b><style=\"logic_on\">綠色訊號</style></b>。\n\n當有一個輸入端收到<b><style=\"logic_off\">紅色訊號</style></b>時，輸出端會發出<b><style=\"logic_off\">紅色訊號</style></b>。"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEAND.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEAND.NAME"
@@ -9609,7 +9609,7 @@ msgstr "如果收到一個或多個綠色訊號，這個邏輯閘會發出綠色
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEOR.EFFECT"
 msgid "Outputs a <b><style=\"logic_on\">Green Signal</style></b> if at least one of Input A <b>OR</b> Input B is receiving <b><style=\"logic_on\">Green</style></b>.\n\nOutputs a <b><style=\"logic_off\">Red Signal</style></b> when neither Input A or Input B are receiving <b><style=\"logic_on\">Green</style></b>."
-msgstr "如果輸入端 A <b>或</b> 輸入端 B，至少有一個收到<b><style=\"logic_on\">綠色訊號</style></b>時，發出<b><style=\"logic_on\">綠色訊號</style></b>。\n\n如果輸入端 A 與輸入端 B 兩個輸入端，都沒有收到<b><style=\"logic_on\">綠色訊號</style></b>，則發出<b><style=\"logic_off\">紅色訊號</style></b>。"
+msgstr "如果輸入端 A <b>或</b>輸入端 B，至少有一個收到<b><style=\"logic_on\">綠色訊號</style></b>時，發出<b><style=\"logic_on\">綠色訊號</style></b>。\n\n如果輸入端 A 與輸入端 B 兩個輸入端，都沒有收到<b><style=\"logic_on\">綠色訊號</style></b>，則發出<b><style=\"logic_off\">紅色訊號</style></b>。"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEOR.NAME"
@@ -9919,7 +9919,7 @@ msgstr "<link=\"LOGICPRESSURESENSORGAS\">氣壓感測器</link>"
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.DESC"
 msgid "A hydro sensor can tell a pump to refill its basin as soon as it contains too little liquid."
-msgstr "液體感測體在水池中的液體太少時，會啟動幫浦抽水填滿水池。"
+msgstr "液體感測器可以辨別在水池中的液體太少時，會啟動幫浦抽水填滿水池。"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.EFFECT"
@@ -10959,7 +10959,7 @@ msgstr "收穫來的這種液體基本上相當於小動物的蘇打水。"
 #. STRINGS.BUILDINGS.PREFABS.MILKINGSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MILKINGSTATION.EFFECT"
 msgid "Allows Duplicants with the <link=\"RANCHING2\">Critter Ranching II</link> skill to milk <link=\"MOO\">Gassy Moos</link> for <link=\"MILK\">Brackene</link>.\n\n<link=\"MILK\">Brackene</link> can be used to refill the <link=\"MILKFEEDER\">Critter Fountain</link>."
-msgstr "允許具有<link=\"RANCHING2\">畜牧II</link>技能的複製人為<link=\"MOO\">瓦斯牛</link>擠奶以獲取<link=\"MILK\">鹹乳</link>。\n\n<link=\"MILK\">鹹乳</link>可用於補充<link=\"MILKFEEDER\">小動物噴泉</link>。"
+msgstr "允許具有<link=\"RANCHING2\">畜牧 II</link> 技能的複製人為<link=\"MOO\">瓦斯牛</link>擠奶以獲取<link=\"MILK\">鹹乳</link>。\n\n<link=\"MILK\">鹹乳</link>可用於補充<link=\"MILKFEEDER\">小動物噴泉</link>。"
 
 #. STRINGS.BUILDINGS.PREFABS.MILKINGSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MILKINGSTATION.NAME"
@@ -11819,7 +11819,7 @@ msgstr "電力控制站一次只能分配一位複製人。"
 #. STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.EFFECT"
 msgid "Produces <link=\"POWERSTATIONTOOLS\">Microchip</link> to increase the <link=\"POWER\">Power</link> output of generators.\n\nAssigned Duplicants must possess the <link=\"TECHNICALS2\">Tune Up</link> trait.\n\nThis building is a necessary component of the Power Plant room."
-msgstr "生產<link=\"POWERSTATIONTOOLS\">微晶片</link>可增加發電機組的<link=\"POWER\">電力</link>產能。\n\n複製人必須有 <link=\"TECHNICALS2\">調整</link> 特質。\n\n這個建築是發電廠的組成要素之一。"
+msgstr "生產<link=\"POWERSTATIONTOOLS\">微晶片</link>可增加發電機組的<link=\"POWER\">電力</link>產能。\n\n複製人必須有<link=\"TECHNICALS2\">檢修</link>技能。\n\n這個建築是發電廠的組成要素之一。"
 
 #. STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.NAME"
@@ -11874,7 +11874,7 @@ msgstr "<link=\"PRESSUREDOOR\">機械氣密門</link>"
 #. STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHGAS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHGAS.DESC"
 msgid "An atmo switch shuts off power when the air pressure surrounding it surpasses the set threshold."
-msgstr "氣壓開關依據周圍的氣體壓力，按照設定的閾值調整電源開關。"
+msgstr "氣壓開關依據周圍的氣體壓力，按照設定的臨界值調整電源開關。"
 
 #. STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHGAS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHGAS.EFFECT"
@@ -11889,7 +11889,7 @@ msgstr "<link=\"PRESSURESWITCHGAS\">氣壓開關</link>"
 #. STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHLIQUID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHLIQUID.DESC"
 msgid "A hydro switch shuts off power when the liquid pressure surrounding it surpasses the set threshold."
-msgstr "液壓開關依據周圍的液體壓力，按照設定的閾值調整電源開關。"
+msgstr "液壓開關依據周圍的液體壓力，按照設定的臨界值調整電源開關。"
 
 #. STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHLIQUID.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHLIQUID.EFFECT"
@@ -12399,7 +12399,7 @@ msgstr "<link=\"RAILGUN\">行星軌道炮</link>"
 #. STRINGS.BUILDINGS.PREFABS.RAILGUN.SIDESCREEN_HEP_REQUIRED
 msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUN.SIDESCREEN_HEP_REQUIRED"
 msgid "Launch cost: {current} / {required} radbolts"
-msgstr "發射消耗：{current}／{required} 輻射粒子"
+msgstr "發射消耗：{current} / {required} 輻射粒子"
 
 #. STRINGS.BUILDINGS.PREFABS.RAILGUNPAYLOADOPENER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUNPAYLOADOPENER.DESC"
@@ -12424,7 +12424,7 @@ msgstr "幫動物美容使他們看起來乾淨，聞起來很香，感覺開心
 #. STRINGS.BUILDINGS.PREFABS.RANCHSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.RANCHSTATION.EFFECT"
 msgid "Allows the assigned <link=\"RANCHER\">Rancher</link> to care for <link=\"CREATURES\">Critters</link>.\n\nAssigned Duplicants must possess the <link=\"RANCHING1\">Critter Ranching</link> skill.\n\nThis building is a necessary component of the Stable room."
-msgstr "可以分配<link=\"RANCHER\">畜牧員</link>照顧<link=\"CRITTERS\">小動物</link>。\n\n分配的複製人必須備<link=\"RANCHING1\">畜牧 I</link>技能。\n\n這個建築物是牧場的組成要素之一。"
+msgstr "可以分配<link=\"RANCHER\">畜牧員</link>照顧<link=\"CRITTERS\">小動物</link>。\n\n分配的複製人必須備<link=\"RANCHING1\">畜牧 I</link> 技能。\n\n這個建築物是牧場的組成要素之一。"
 
 #. STRINGS.BUILDINGS.PREFABS.RANCHSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.RANCHSTATION.NAME"
@@ -12459,7 +12459,7 @@ msgstr "將<link=\"FOOD\">食物</link>儲存在理想<link=\"HEAT\">溫度</lin
 #. STRINGS.BUILDINGS.PREFABS.REFRIGERATOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.REFRIGERATOR.LOGIC_PORT"
 msgid "Full/Not Full"
-msgstr "已滿／未滿"
+msgstr "已滿/未滿"
 
 #. STRINGS.BUILDINGS.PREFABS.REFRIGERATOR.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.REFRIGERATOR.LOGIC_PORT_ACTIVE"
@@ -12579,7 +12579,7 @@ msgstr "<link=\"ROCKCRUSHER\">牙咬碎石機</link>"
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.LIME_FROM_LIMESTONE_RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.LIME_FROM_LIMESTONE_RECIPE_DESCRIPTION"
 msgid "Crushes {0} into {1} and a small amount of pure {2}"
-msgstr "粉碎{0}製成{1}與少量的純{2}"
+msgstr "將{0}粉碎成{1}與少量的純{2}"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.LIME_RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.LIME_RECIPE_DESCRIPTION"
@@ -12589,7 +12589,7 @@ msgstr "粉碎{1}製成{0}。"
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.METAL_RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.METAL_RECIPE_DESCRIPTION"
 msgid "Crushes {1} into <link=\"SAND\">Sand</link> and pure {0}."
-msgstr "粉碎{1}製成<link=\"SAND\">沙子</link>與純{0}。"
+msgstr "將{1}粉碎成<link=\"SAND\">沙子</link>與純{0}。"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.NAME"
@@ -12709,7 +12709,7 @@ msgstr "<link=\"ROCKETINTERIORGASINPUTPORT\">乘員艙氣體輸入口</link>"
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUT.DESC"
 msgid "Refreshing breezes, on-demand."
-msgstr "供應新鮮空氣。"
+msgstr "清爽的微風，隨點隨到。"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUT.EFFECT"
@@ -12739,7 +12739,7 @@ msgstr "<link=\"ROCKETINTERIORGASOUTPUTPORT\">乘員艙氣體輸出口</link>"
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUT.DESC"
 msgid "Begone, foul waters!"
-msgstr "去吧，汙水！"
+msgstr "去吧，骯髒的水！"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUT.EFFECT"
@@ -12829,7 +12829,7 @@ msgstr "<link=\"ROCKETINTERIORSOLIDINPUT\">輸送帶儲存箱配件</link>"
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORSOLIDOUTPUT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORSOLIDOUTPUT.DESC"
 msgid "For accessing your stored luggage mid-flight."
-msgstr "用於飛行中存放你的行李。"
+msgstr "用於飛行中取用你存放的行李。"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORSOLIDOUTPUT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORSOLIDOUTPUT.EFFECT"
@@ -13624,7 +13624,7 @@ msgstr "連接到<link=\"LOGIC\">自動化</link>系統，可以自動控制打�
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.LOGIC_PORT"
 msgid "Open/Close"
-msgstr "打開／關閉"
+msgstr "打開/關閉"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.LOGIC_PORT_ACTIVE"
@@ -13854,7 +13854,7 @@ msgstr "儲存你選擇的<link=\"ELEMENTSSOLID\">固體材料</link>。\n\n裝�
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.LOGIC_PORT"
 msgid "Full/Not Full"
-msgstr "已滿／未滿"
+msgstr "已滿/未滿"
 
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.LOGIC_PORT_ACTIVE"
@@ -14269,7 +14269,7 @@ msgstr "<link=\"TOURISTMODULE\">觀光模組</link>"
 #. STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.DESC"
 msgid "Duplicants will only exit a transit tube when a safe landing area is available beneath it."
-msgstr "當有一個可供著路的區域在它下面時，複製人將只會離開運輸管。"
+msgstr "只有當下方有安全著陸區域時，複製人才會離開運輸管道。"
 
 #. STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.EFFECT"
@@ -14284,7 +14284,7 @@ msgstr "<link=\"TRAVELTUBE\">運輸管</link>"
 #. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.DESC"
 msgid "Duplicants require access points to enter tubes, but not to exit them."
-msgstr "需要運輸站複製人才能進入管道，但離開時不需要。"
+msgstr "複製人需要運輸站才能進入管道，但離開時不需要。"
 
 #. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.EFFECT"
@@ -14349,7 +14349,7 @@ msgstr "將鈾礦轉換成液態鈾與濃縮鈾"
 #. STRINGS.BUILDINGS.PREFABS.VENDINGMACHINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.VENDINGMACHINE.DESC"
 msgid "A pristine <link=\"FIELDRATION\">Nutrient Bar</link> dispenser."
-msgstr "一個舊的 <link=\"FIELDRATION\">營養口糧</link> 自動販賣機。"
+msgstr "一個舊的<link=\"FIELDRATION\">營養口糧</link>自動販賣機。"
 
 #. STRINGS.BUILDINGS.PREFABS.VENDINGMACHINE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.VENDINGMACHINE.NAME"
@@ -14544,7 +14544,7 @@ msgstr "自動打包捕獲的魚類，以便運輸。"
 #. STRINGS.BUILDINGS.PREFABS.WATERTRAP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WATERTRAP.EFFECT"
 msgid "Attracts and traps swimming <link=\"PACU\">Pacu</link>.\n\nOnly Duplicants with the <link=\"RANCHING1\">Critter Ranching I</link> skill can arm this trap. It's reusable!"
-msgstr "吸引並捕捉游泳的<link=\"PACU\">帕庫</link>。\n\n只有具有<link=\"RANCHING1\">畜牧 I</link>技能的複製人才能佈置陷阱。可重複使用！"
+msgstr "吸引並捕捉游泳的<link=\"PACU\">帕庫</link>。\n\n只有具有<link=\"RANCHING1\">畜牧 I</link> 技能的複製人才能佈置陷阱。可重複使用！"
 
 #. STRINGS.BUILDINGS.PREFABS.WATERTRAP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WATERTRAP.NAME"
@@ -15134,7 +15134,7 @@ msgstr "今天我發現 Holland 博士在實驗室內徘徊且喃喃自語後，
 #. STRINGS.CODEX.A1A_B111.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A1A_B111.BODY.CONTAINER2"
 msgid "Well, that didn't work.\n\nBringing up the need for some office bonding activities with the Director only met with her usual stubborn insistence that we \"don't have time for any fun\".\n\nThis is ridiculous. Tomorrow I'm going to organize something fun for everyone and Jackie will just have to deal with it. She just needs to see the long term benefits of short term stress relief to fully understand the importance of this.\n------------------\n"
-msgstr "好吧，那樣做沒用。\n\n在提到我們需要一些辦公室聯誼活動的時候，主管總是固執地強調我們“沒那麼多時間玩”。\n\n這太荒謬了。明天我就要組織一些有意思的活動，每個人都參加，這樣 Jackie 也不得不同意了。她僅僅需要看到短期的壓力釋放能帶來的長期的好處，這樣她就能理解娛樂的重要性了。\n------------------\n"
+msgstr "好吧，那樣做沒用。\n\n在提到我們需要一些辦公室聯誼活動的時候，主管總是固執地強調我們「沒那麼多時間玩」。\n\n這太荒謬了。明天我就要組織一些有意思的活動，每個人都參加，這樣 Jackie 也不得不同意了。她僅僅需要看到短期的壓力釋放能帶來的長期的好處，這樣她就能理解娛樂的重要性了。\n------------------\n"
 
 #. STRINGS.CODEX.A1A_B111.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.A1A_B111.BODY.CONTAINER3"
@@ -16674,7 +16674,7 @@ msgstr "回覆：工程師候選人？"
 #. STRINGS.CODEX.C7_FIRSTCOLONY.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.C7_FIRSTCOLONY.BODY.CONTAINER1"
 msgid "The first experiments with establishing a colony off planet were an unmitigated disaster. Without outside help, our current Artificial Intelligence was completely incapable of making the kind of spontaneous decisions needed to deal with unforeseen circumstances. Additionally, the colony subjects lacked the forethought to even build themselves toilet facilities, even after soiling themselves repeatedly.\n\nWhile initial experiments in a lab setting were encouraging, our latest operation on non-Terra soil revealed some massive inadequacies to our system. If this idea is ever going to work, we will either need to drastically improve the AI directing the subjects, or improve the brains of our Duplicants to the point where they possess higher cognitive functions.\n\nGiven the disastrous complications that I could foresee arising if our Duplicants were made less supplicant, I'm leaning toward a push to improve our Artificial Intelligence.\n\nMeanwhile, we will have to send a clean-up crew to destroy all evidence of our little experiment beneath the Ceres' surface. We can't risk anyone discovering the remnants of our failed colony, even if that's unlikely to happen for another few decades at least.\n\n(Sometimes it boggles my mind how much further behind Gravitas the rest of the world is.)"
-msgstr "第一次在外星建立殖民地的實驗，是一場十足的災難。\n沒有外部的幫助，我們目前的 AI 完全無法應對那些不可預知的情況。\n此外，殖民地實驗體即使在反複的弄髒自己後，\n也缺少先為自己建造廁所的先見之明。\n\n雖然在實驗室的初步實驗令人鼓舞，\n但我們在非陸地的操作顯示了我們系統上的嚴重缺陷。\n如果這想法行得通，我們將會需要大規模改善指導受試者的 AI，\n或強化我們複製人的大腦，來提高他們的認知功能。\n\n如果我們的複製不那麼懇求，\n我可以預見會出現大量的併發症，\n我傾向於改善我們的 AI。\n\n同時，我們必須派出清理人員來摧毀我們在 Ceres 地表進行小實驗的證據。\n我們不能冒險，讓任何人發現殖民地失敗的遺跡，\n即使這種可能性與情況至少在接下來幾十年內不會發生。\n\n（有時候讓我難以置信，世界的其它地方離引力科技有多遠。）"
+msgstr "第一次在外星建立殖民地的實驗，是一場十足的災難。\n沒有外部的幫助，我們目前的人工智慧完全無法應對那些不可預知的情況。\n此外，殖民地實驗體即使在反複的弄髒自己後，\n也缺少先為自己建造廁所的先見之明。\n\n雖然在實驗室的初步實驗令人鼓舞，\n但我們在非陸地的操作顯示了我們系統上的嚴重缺陷。\n如果這想法行得通，我們將會需要大規模改善指導受試者的 AI，\n或強化我們複製人的大腦，來提高他們的認知功能。\n\n如果我們的複製不那麼懇求，\n我可以預見會出現大量的併發症，\n我傾向於改善我們的 AI。\n\n同時，我們必須派出清理人員來摧毀我們在 Ceres 地表進行小實驗的證據。\n我們不能冒險，讓任何人發現殖民地失敗的遺跡，\n即使這種可能性與情況至少在接下來幾十年內不會發生。\n\n（有時候讓我難以置信，世界的其它地方離引力科技有多遠。）"
 
 #. STRINGS.CODEX.C7_FIRSTCOLONY.SUBTITLE
 msgctxt "STRINGS.CODEX.C7_FIRSTCOLONY.SUBTITLE"
@@ -18039,7 +18039,7 @@ msgstr "雙向傳送"
 #. STRINGS.CODEX.MYLOG.BODY.TEMPORALOPENER.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.TEMPORALOPENER.BODY"
 msgid "In their interplanetary travels throughout this system, my Duplicants have discovered a Temporal Tear deep in space.\n\nCurrently it is too small to send a rocket and crew through, but further investigation reveals the presence of a strange artifact on a nearby world which could feasibly increase the size of the tear if a number of Printing Pods are erected in nearby worlds.\n\nHowever, I've determined that using the Temporal Bow to operate a Printing Pod was what propelled Gravitas down the disasterous path which eventually led to the destruction of our home planet. My calculations seem to indicate that the size of that planet may have been a contributing factor in its destruction, and in all probability opening the Temporal Tear in our current situation will not cause such a cataclysmic event. However, as with everything in science, we can never know all the outcomes of a situation until we perform an experiment.\n\nDare we tempt fate again?"
-msgstr "在他們穿越此星系的旅行期間，\n他們在太空的深處發現了一個時空裂縫。\n\n目前它太小了不能發射火箭與組員通過，\n但進入的調查顯示，在附近的世界中存在一種奇怪的文物，\n如果在附近的世界建立一定數量的列印設備，可以增加裂縫的大小。\n\n不管怎樣，\n我已經確定使用時間空來操作列印設備，\n是導致引力科技走向災難的道路，\n最終導致我們的家園星毀滅。\n\n我的計算顯示該行星的大小，\n可能是引發此次毀滅的因素之一，\n而我們在目前的情況下打開時空裂縫，\n不會造成這樣的災難性時事件。\n\n然而，就像科學中的一切一樣，\n在我們進行實驗之前，\n永遠不會知道一種情況所有的結果。\n\n敢再次試探命運嗎？"
+msgstr "在他們穿越此星系的旅行期間，\n他們在太空的深處發現了一個時空裂縫。\n\n目前它太小了不能發射火箭與組員通過，\n但進入的調查顯示，在附近的世界中存在一種奇怪的文物，\n如果在附近的世界建立一定數量的列印設備，可以增加裂縫的大小。\n\n不管怎樣，\n我已經確定使用時間空來操作列印設備，\n是導致引力科技走向災難的道路，\n最終導致我們的家園星毀滅。\n\n我的計算顯示該行星的大小，\n可能是引發此次毀滅的因素之一，\n而我們在目前的情況下打開時空裂縫，\n不會造成這樣的災難性時事件。\n\n然而，就像科學中的一切一樣，\n在我們進行實驗之前，\n永遠不會知道一種情況所有的結果。\n\n我們敢再次試探命運嗎？"
 
 #. STRINGS.CODEX.MYLOG.BODY.TEMPORALOPENER.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.TEMPORALOPENER.TITLE"
@@ -18254,7 +18254,7 @@ msgstr "Olivia：我們仔細檢查了觀測設備，電腦也即將暖好機了
 #. STRINGS.CODEX.PLANETARYECHOES.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.PLANETARYECHOES.BODY.CONTAINER2"
 msgid "Olivia: What on earth is this?\n\n[An open palm slams papers down on a desk.]\n\nOlivia: These readings show that hundreds of kilograms of Neutronium are building up in the machine every shift. When were you going to tell me?\n\nJackie: I'm handling it.\n\nOlivia: We don't have the luxury of taking shortcuts. Not when safety is on the line.\n\nJackie: I think I'm capable of overseeing my own safety.\n\nOlivia: I-I'm not just concerned about <i>your</i> safety! We don't understand the longterm implications of what we're developing here... the manipulations we conduct in this facility could have rippling effects throughout the world, maybe even the universe.\n\nJackie: Don't be such a fearmonger. It's not befitting of a scientist. Besides, I'll remind you this research has the potential to stop the fuel wars in their tracks and end the suffering of thousands. Every day we spend on trials here delays that.\n\nOlivia: It's dangerous.\n\nJackie: Your concern is noted.\n------------------\n"
-msgstr "Olivia：這到底是什麼？\n\n【將一疊文件攤在桌上。】\n\nOlivia：這些讀數顯示，機器每次運作都堆積了幾百磅的 0 號元素。你何時要告訴我？\n\nJackie：都在我的掌控之中。\n\nOlivia：我們沒有捷徑可走。在安全線的標準上沒有。\n\nJackie：我認為我能掌控自己的安全。\n\nOlivia：我…我不僅擔心 <I>你的</i> 安全！我們不了解在這的發展會造成什麼長期的影響…我們在此設施中進行的操作，產生的漣漪效應可能會影響全世界，甚至是宇宙。\n\nJackie：別這麼害怕。這不適合科學家。此外，我得提醒你，這將研究有可能停止燃料戰爭，結束數千人的痛苦。每天我們在此進行的實驗都會延緩這件事。\n\nOlivia：這有危險。\n\nJackie：我了解你的擔心。\n------------------\n"
+msgstr "Olivia：這到底是什麼？\n\n【將一疊文件攤在桌上。】\n\nOlivia：這些讀數顯示，機器每次運作都堆積了幾百公斤的 0 號元素。你何時要告訴我？\n\nJackie：都在我的掌控之中。\n\nOlivia：我們沒有捷徑可走。在安全線的標準上沒有。\n\nJackie：我認為我能掌控自己的安全。\n\nOlivia：我…我不僅擔心 <I>你的</i> 安全！我們不了解在這的發展會造成什麼長期的影響…我們在此設施中進行的操作，產生的漣漪效應可能會影響全世界，甚至是宇宙。\n\nJackie：別這麼害怕。這不適合科學家。此外，我得提醒你，這將研究有可能停止燃料戰爭，結束數千人的痛苦。每天我們在此進行的實驗都會延緩這件事。\n\nOlivia：這有危險。\n\nJackie：我了解你的擔心。\n------------------\n"
 
 #. STRINGS.CODEX.PLANETARYECHOES.BODY.TITLE1
 msgctxt "STRINGS.CODEX.PLANETARYECHOES.BODY.TITLE1"
@@ -18464,7 +18464,7 @@ msgstr "改善附近的裝飾"
 #. STRINGS.CODEX.QUESTS.CRITERIA.DECOR.TOOLTIP
 msgctxt "STRINGS.CODEX.QUESTS.CRITERIA.DECOR.TOOLTIP"
 msgid "Establish average <style=\"KKeyword\">Decor</style> of {0} or higher for the area surrounding this building\n\nAverage Decor: {1:0.##}"
-msgstr "為這個建築周圍區域建立 {0} 或更高的平均 <style=\"KKeyword\">裝飾</style>\n\n平均裝飾： {1:0.##}"
+msgstr "為這個建築周圍區域建立平均 {0} 以上的<style=\"KKeyword\">裝飾</style>\n\n平均裝飾： {1:0.##}"
 
 #. STRINGS.CODEX.QUESTS.CRITERIA.FOODQUALITY.NAME
 msgctxt "STRINGS.CODEX.QUESTS.CRITERIA.FOODQUALITY.NAME"
@@ -18479,7 +18479,7 @@ msgstr "無"
 #. STRINGS.CODEX.QUESTS.CRITERIA.FOODQUALITY.TOOLTIP
 msgctxt "STRINGS.CODEX.QUESTS.CRITERIA.FOODQUALITY.TOOLTIP"
 msgid "Deliver 3 unique <style=\"KKeyword\">Food</style> items. Quality must be {0} or higher\n\nFoods Delivered:\n{1}"
-msgstr "運送 3 個不同的 <style=\"KKeyword\">食物</style> 種類。品質必須是 {0} 或更高\n\n已運送的食物：\n{1}"
+msgstr "運送 3 個不同的<style=\"KKeyword\">食物</style>種類。品質必須是{0}或更高\n\n已運送的食物：\n{1}"
 
 #. STRINGS.CODEX.QUESTS.CRITERIA.LOSTICEFOSSIL.NAME
 msgctxt "STRINGS.CODEX.QUESTS.CRITERIA.LOSTICEFOSSIL.NAME"
@@ -18584,7 +18584,7 @@ msgstr "散落的碎片"
 #. STRINGS.CODEX.QUESTS.HIGHDECOR.COMPLETE
 msgctxt "STRINGS.CODEX.QUESTS.HIGHDECOR.COMPLETE"
 msgid "Success! All this excellent decor is really making the hermit feel at home.\n\nHe scrawled a thank-you note on the back of an old holiday card."
-msgstr "成功！ 所有這些出色的裝飾確實讓隱士有賓至如歸的感覺。\n\n他在一張舊節日賀卡的背面潦草地寫了一張感謝信。"
+msgstr "成功！所有這些出色的裝飾確實讓隱士有賓至如歸的感覺。\n\n他在一張舊節日賀卡的背面潦草地寫了一張感謝信。"
 
 #. STRINGS.CODEX.QUESTS.HIGHDECOR.NAME
 msgctxt "STRINGS.CODEX.QUESTS.HIGHDECOR.NAME"
@@ -18594,7 +18594,7 @@ msgstr "好鄰居"
 #. STRINGS.CODEX.QUESTS.KNOCKQUEST.COMPLETE
 msgctxt "STRINGS.CODEX.QUESTS.KNOCKQUEST.COMPLETE"
 msgid "Initial contact was a success! Our new neighbor seems friendly, though extremely shy.\n\nThey'll need a little more coaxing before they're ready to join my colony."
-msgstr "初步接觸成功！ 我們的新鄰居看起來很友善，但非常害羞。\n\n在他們準備好加入我的殖民地之前，他們需要多一點哄勸。"
+msgstr "初步接觸成功！我們的新鄰居看起來很友善，但非常害羞。\n\n在他們準備好加入我的殖民地之前，他們需要多一點哄勸。"
 
 #. STRINGS.CODEX.QUESTS.KNOCKQUEST.NAME
 msgctxt "STRINGS.CODEX.QUESTS.KNOCKQUEST.NAME"
@@ -19309,7 +19309,7 @@ msgstr "搜尋一種遠古小動物的化石碎片。"
 #. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DNADATA_ENTRY.TELEPORTFAILURE
 msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DNADATA_ENTRY.TELEPORTFAILURE"
 msgid "It appears that this creature's DNA was once used as a kind of genetic storage unit."
-msgstr "似乎這種生物的DNA曾用作一種基因儲存單元。"
+msgstr "似乎這種生物的 DNA 曾用作一種基因儲存單元。"
 
 #. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DNADATA_ENTRY_EXPANDED.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DNADATA_ENTRY_EXPANDED.BODY.CONTAINER1"
@@ -19849,12 +19849,12 @@ msgstr "故事特質：夢境合成器"
 #. STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.DESCRIPTION
 msgctxt "STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.DESCRIPTION"
 msgid "Power up a colossal relic from Gravitas's underground sleep lab.\n\nWhen Duplicants sleep, their minds are blissfully blank and dream-free. But under the right conditions, things could be...different."
-msgstr "為引力科技的地下睡眠實驗室內的巨大遺物供能。\n\n當複製人睡覺時，他們的頭腦裡是幸福的空白，並沒有作夢。但在適當的條件下，可能會……不一樣。"
+msgstr "為引力科技地下睡眠實驗室內的巨大遺跡供能。\n\n當複製人睡覺時，他們的頭腦裡是幸福的空白，並沒有作夢。但在適當的條件下，可能會…不一樣。"
 
 #. STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.DESCRIPTION_SHORT
 msgctxt "STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.DESCRIPTION_SHORT"
 msgid "Power up a colossal relic from Gravitas's underground sleep lab."
-msgstr "為引力科技的地下睡眠實驗室內的巨大遺物供能。"
+msgstr "為引力科技地下睡眠實驗室內的巨大遺跡供能。"
 
 #. STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.END_POPUP.BUTTON
 msgctxt "STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.END_POPUP.BUTTON"
@@ -20639,7 +20639,7 @@ msgstr "分析{0}變異"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ARM_PERFORMANCE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ARM_PERFORMANCE"
 msgid "Auto-Sweepers outperformed dupes for cycles: {0} / {1}"
-msgstr "本周自動手臂比複製人：{0}／{1}"
+msgstr "本周自動手臂比複製人：{0} / {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ARM_VS_DUPE_FETCHES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ARM_VS_DUPE_FETCHES"
@@ -20674,7 +20674,7 @@ msgstr "建造一個 {0}。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILT_N_ROOMS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILT_N_ROOMS"
 msgid "Built {0}: {1} / {2}"
-msgstr "建造 {0}：{1}／{2}"
+msgstr "建造 {0}：{1} / {2}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILT_ONE_BED_PER_DUPLICANT
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILT_ONE_BED_PER_DUPLICANT"
@@ -20694,22 +20694,22 @@ msgstr "建造在起始生態區外面"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CALORIE_SURPLUS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CALORIE_SURPLUS"
 msgid "Calorie surplus: {0} / {1}"
-msgstr "卡路里剩餘：{0}／{1}"
+msgstr "卡路里剩餘：{0} / {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CALORIES_FROM_MEAT
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CALORIES_FROM_MEAT"
 msgid "Calories from meat: {0} / {1}"
-msgstr "肉類卡路里：{0}／{1}"
+msgstr "肉類卡路里：{0} / {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CHORES_OF_TYPE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CHORES_OF_TYPE"
 msgid "{2} errands: {0} / {1}"
-msgstr "{2} 工作：{0}／{1}"
+msgstr "{2} 工作：{0} / {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CLOTHE_DUPES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CLOTHE_DUPES"
 msgid "Duplicants in clothing: {0} / {1}"
-msgstr "穿衣服的複製人：{0}／{1}"
+msgstr "穿衣服的複製人：{0} / {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.COLLECT_ARTIFACTS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.COLLECT_ARTIFACTS"
@@ -20744,7 +20744,7 @@ msgstr "治療一種疾病"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CYCLE_NUMBER
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CYCLE_NUMBER"
 msgid "Cycle: {0} / {1}"
-msgstr "周期：{0}／{1}"
+msgstr "周期：{0} / {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.DEFROST_DUPLICANT
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.DEFROST_DUPLICANT"
@@ -20764,12 +20764,12 @@ msgstr "透過建造並啟動傳送門，在 {goalBaseCount} 個小行星上建�
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXOSUIT_CYCLES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXOSUIT_CYCLES"
 msgid "All Dupes completed an Exosuit errand for cycles: {0} / {1}"
-msgstr "全部複製人都完成了太空衣工作：{0}／{1}"
+msgstr "全部複製人都完成了太空衣工作：{0} / {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXOSUIT_THIS_CYCLE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXOSUIT_THIS_CYCLE"
 msgid "Dupes who completed Exosuit errands this cycle: {0} / {1}"
-msgstr "本周期完成太空衣工作的複製人：{0}／{1}"
+msgstr "本周期完成太空衣工作的複製人：{0} / {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXPAND_TOOLTIP
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXPAND_TOOLTIP"
@@ -20784,7 +20784,7 @@ msgstr "周期：{0:0.##} / {1:0.##}"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.GENERATE_POWER
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.GENERATE_POWER"
 msgid "Energy generated: {0} / {1}"
-msgstr "能量生產：{0}／{1}"
+msgstr "能量生產：{0} / {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.GET_URANIUM_WITHOUT_STING
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.GET_URANIUM_WITHOUT_STING"
@@ -20869,7 +20869,7 @@ msgstr "生產落後：{0}：{1}"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.POPULATION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.POPULATION"
 msgid "Population: {0} / {1}"
-msgstr "人口：{0}／{1}"
+msgstr "人口：{0} / {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.PREPARED_SEPARATOR
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.PREPARED_SEPARATOR"
@@ -20884,17 +20884,17 @@ msgstr "輻射粒子行進了：{0:n} 公尺 / {1:n} 公尺"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.REMAINING_CYCLES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.REMAINING_CYCLES"
 msgid "Cycles remaining: {0} / {1}"
-msgstr "剩餘周期：{0}／{1}"
+msgstr "剩餘周期：{0} / {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.REVEALED
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.REVEALED"
 msgid "Revealed: {0:0.##}% / {1:0.##}%"
-msgstr "揭露：{0:0.##}% / {1:0.##}%"
+msgstr "已揭露：{0:0.##}% / {1:0.##}%"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.RUN_A_REACTOR
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.RUN_A_REACTOR"
 msgid "Reactor running for cycles: {0} / {1}"
-msgstr "反應爐持續運轉週期：{0}／{1}"
+msgstr "反應爐持續運轉週期：{0} / {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.SKILL_BRANCH
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.SKILL_BRANCH"
@@ -20919,7 +20919,7 @@ msgstr "馴服一隻{0}"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.TECH_RESEARCHED
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.TECH_RESEARCHED"
 msgid "Tech researched: {0} / {1}"
-msgstr "研究科技：{0}／{1}"
+msgstr "研究科技：{0} / {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.TELEPORT_DUPLICANT
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.TELEPORT_DUPLICANT"
@@ -20939,7 +20939,7 @@ msgstr "全部{0}升級為{1}"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.VENTED_MASS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.VENTED_MASS"
 msgid "Vented: {0} / {1}"
-msgstr "排放：{0}／{1}"
+msgstr "排放：{0} / {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SURVIVE_HUNDRED_CYCLES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SURVIVE_HUNDRED_CYCLES"
@@ -26369,7 +26369,7 @@ msgstr "複製人的<style=\"KKeyword\">士氣</style>必須高於他們的<styl
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.DESC_FORMAT
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.DESC_FORMAT"
 msgid "{0} / {1}"
-msgstr "{0} ／ {1}"
+msgstr "{0} / {1}"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.NAME"
@@ -28279,7 +28279,7 @@ msgstr "無太空衣檢查點"
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_TRAIT
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_TRAIT"
 msgid "Missing required trait"
-msgstr "缺少需要的特質"
+msgstr "缺少需要的特徵"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_URGE
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_URGE"
@@ -29729,7 +29729,7 @@ msgstr "無論複製人是否生病，都可以在{Station}接受治療\n\n他�
 #. STRINGS.DUPLICANTS.DISEASES.MEDICINE.DOCTOR_ADMINISTERED_CURE
 msgctxt "STRINGS.DUPLICANTS.DISEASES.MEDICINE.DOCTOR_ADMINISTERED_CURE"
 msgid "Doctor Administered: Sick Only"
-msgstr "醫生冶療：僅在生病時"
+msgstr "醫生治療：僅在生病時"
 
 #. STRINGS.DUPLICANTS.DISEASES.MEDICINE.DOCTOR_ADMINISTERED_CURE_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.MEDICINE.DOCTOR_ADMINISTERED_CURE_TOOLTIP"
@@ -29924,7 +29924,7 @@ msgstr "<link=\"SLIMESICKNESS\">肺結核</link>"
 #. STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.BEDREST
 msgctxt "STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.BEDREST"
 msgid "Sick Bay assignment will allow faster recovery\n"
-msgstr "分配加護病房會加快恢復速度\n"
+msgstr "分配到加護病房會加快恢復速度\n"
 
 #. STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.CURES
 msgctxt "STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.CURES"
@@ -29939,7 +29939,7 @@ msgstr "<b>{0} {1}</b>\n"
 #. STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.DOCTOR_REQUIRED
 msgctxt "STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.DOCTOR_REQUIRED"
 msgid "Sick Bay assignment required for recovery\n"
-msgstr "恢復需要分配加護病房\n"
+msgstr "需要分配到加護病房來接受照顧\n"
 
 #. STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.DOCTORED
 msgctxt "STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.DOCTORED"
@@ -33724,12 +33724,12 @@ msgstr "當複製人的<style=\"KKeyword\">生命值</style>降到零時，會�
 #. STRINGS.DUPLICANTS.STATS.RADIATIONBALANCE.CURRENT_EXPOSURE
 msgctxt "STRINGS.DUPLICANTS.STATS.RADIATIONBALANCE.CURRENT_EXPOSURE"
 msgid "Current Exposure: {0}/cycle"
-msgstr "目前暴露：{0}／周期"
+msgstr "目前暴露：{0} / 周期"
 
 #. STRINGS.DUPLICANTS.STATS.RADIATIONBALANCE.CURRENT_REJUVENATION
 msgctxt "STRINGS.DUPLICANTS.STATS.RADIATIONBALANCE.CURRENT_REJUVENATION"
 msgid "Current Rejuvenation: {0}/cycle"
-msgstr "目前恢復：{0}／周期"
+msgstr "目前恢復：{0} / 周期"
 
 #. STRINGS.DUPLICANTS.STATS.RADIATIONBALANCE.NAME
 msgctxt "STRINGS.DUPLICANTS.STATS.RADIATIONBALANCE.NAME"
@@ -34759,7 +34759,7 @@ msgstr "離開太空衣區域"
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.TOOLTIP"
 msgid "This Duplicant is leaving an area where a <style=\"KKeyword\">Suit</style> was required"
-msgstr "複製人離開了一個需要<style=\"KKeyword\">太空衣</style>區域"
+msgstr "複製人正在離開一個需要<style=\"KKeyword\">太空衣</style>區域"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOVINGTOSAFEAREA.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVINGTOSAFEAREA.NAME"
@@ -36914,7 +36914,7 @@ msgstr "這個複製人獲得免費的<style=\"KKeyword\">技能</style>而不�
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS2.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS2.DESC"
 msgid "Enables generator <style=\"KKeyword\">Tune-Up</style>, which will temporarily provide improved <style=\"KKeyword\">Power</style> output"
-msgstr "可以<style=\"KKeyword\">調整</style>發電機，使其短暫的提升<style=\"KKeyword\">發電</style>效率"
+msgstr "可以<style=\"KKeyword\">調整</style>發電機，使其短暫地提升<style=\"KKeyword\">發電</style>效率"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS2.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_TECHNICALS2.NAME"
@@ -42764,7 +42764,7 @@ msgstr "【除錯】在編輯器內切換選擇"
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEUI
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEUI"
 msgid "Debug Toggle UI"
-msgstr "【除錯】開啟／關閉介面"
+msgstr "【除錯】開啟/關閉介面"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTRIGGERERROR
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTRIGGERERROR"
@@ -45229,17 +45229,17 @@ msgstr "這個複製人正在從傷病中回復"
 #. STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.NAME"
 msgid "New trait"
-msgstr "新特質"
+msgstr "新特徵"
 
 #. STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.SUFFIX
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.SUFFIX"
 msgid " has developed <style=\"KKeyword\">{0}</style>"
-msgstr " 已發展 <style=\"KKeyword\">{0}</style>"
+msgstr " 已發展<style=\"KKeyword\">{0}</style>"
 
 #. STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.TOOLTIP"
 msgid "These Duplicants' injuries weren't set and healed improperly.\nThey developed <style=\"KKeyword\">Traits</style> as a result:"
-msgstr "這些複製人的傷口沒有妥善處理。\n結果他們發展出新的<style=\"KKeyword\">特質</style>："
+msgstr "這些複製人的傷口沒有妥善處理。\n結果他們發展出新的<style=\"KKeyword\">特徵</style>："
 
 #. STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HYGENE_NEEDED.NAME"
@@ -45474,12 +45474,12 @@ msgstr "發現{Plant}的變種。在<link=\"GENETICANALYSISSTATION\">植物分�
 #. STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.NAME"
 msgid "{0} has developed a trait"
-msgstr "{0}已發展了一個特質"
+msgstr "{0}已發展了一個特徵"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.TOOLTIP"
 msgid "{0} has developed the trait(s):\n    • {1}"
-msgstr "{0}已發展的特質：\n    • {1}"
+msgstr "{0}已發展的特徵：\n    • {1}"
 
 #. STRINGS.MISC.NOTIFICATIONS.NO_MEDICAL_COTS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NO_MEDICAL_COTS.NAME"
@@ -46264,7 +46264,7 @@ msgstr "等待捕捉"
 #. STRINGS.MISC.STATUSITEMS.ORDERCAPTURE.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.ORDERCAPTURE.TOOLTIP"
 msgid "Waiting for a Duplicant to capture this <style=\"KKeyword\">Critter</style>\n\nOnly Duplicants with the <link=\"RANCHING1\">Critter Ranching I</link> skill can catch critters without traps"
-msgstr "等待複製人捕捉這隻<style=\"KKeyword\">小動物</style>\n\n只有學會<link=\"RANCHING1\">畜牧 I</link>的複製人可以不用陷阱捕捉動物"
+msgstr "等待複製人捕捉這隻<style=\"KKeyword\">小動物</style>\n\n只有學會<link=\"RANCHING1\">畜牧 I</link> 的複製人可以不用陷阱捕捉動物"
 
 #. STRINGS.MISC.STATUSITEMS.OREMASS.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.OREMASS.NAME"
@@ -50474,7 +50474,7 @@ msgstr "<link=\"JETPACKS\">飛行衣</link>"
 #. STRINGS.RESEARCH.TECHS.JOBS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.JOBS.DESC"
 msgid "Exchange the skill points earned by Duplicants for new traits and abilities."
-msgstr "複製人可交換技能點來獲得新特質與技能。"
+msgstr "複製人可使用技能點來獲得新特徵與技能。"
 
 #. STRINGS.RESEARCH.TECHS.JOBS.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.JOBS.NAME"
@@ -53549,12 +53549,12 @@ msgstr "這個設施被配分給指定的複製人使用"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.BATTERYCAPACITY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.BATTERYCAPACITY"
 msgid "Can hold <b>{0}</b> of <style=\"KKeyword\">Power</style> when connected to a <style=\"KKeyword\">Generator</style>"
-msgstr "當連接到一台<style=\"KKeyword\">發電機</style>時，可以儲存<b>{0}</b>的<style=\"KKeyword\">電力</style>"
+msgstr "當連接到一台<style=\"KKeyword\">發電機</style>時，可以儲存 <b>{0}</b>的<style=\"KKeyword\">電力</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.BATTERYLEAK
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.BATTERYLEAK"
 msgid "<style=\"consumed\">{0}</style> of this battery's charge will be lost as <style=\"KKeyword\">Heat</style>"
-msgstr "這個電池流失的<style=\"consumed\">{0}</style>電量將轉為<style=\"KKeyword\">熱能</style>"
+msgstr "這個電池流失的 <style=\"consumed\">{0}</style>電量將轉為<style=\"KKeyword\">熱能</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_LURE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_LURE"
@@ -53569,7 +53569,7 @@ msgstr "這隻小動物可以使用<link=\"CREATURETRAP\">動物陷阱</link>捕
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_WRANGLE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_WRANGLE"
 msgid "This critter can be captured\n\nMark critters for capture using the <b>Wrangle Tool</b> {Hotkey/Capture}\n\nDuplicants must possess the <style=\"KKeyword\">Critter Ranching</style> skill in order to wrangle critters"
-msgstr "這隻小動物可以捕捉\n\n使用 <b>捕捉工具</b> {Hotkey/Capture} 標記動物來捕捉\n\n複製人必須學會<style=\"KKeyword\">畜牧</style>技能才能捕捉動物"
+msgstr "這隻小動物可以捕捉\n\n使用<b>捕捉工具</b> {Hotkey/Capture} 標記動物來捕捉\n\n複製人必須學會<style=\"KKeyword\">畜牧</style>技能才能捕捉動物"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.COOLANT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.COOLANT"
@@ -54204,7 +54204,7 @@ msgstr "增加<b>{0}</b>"
 #. STRINGS.UI.CHARACTERCONTAINER_CONGENITALTRAIT
 msgctxt "STRINGS.UI.CHARACTERCONTAINER_CONGENITALTRAIT"
 msgid "Genetic Trait: {0}"
-msgstr "遺傳特質：{0}"
+msgstr "基因特徵：{0}"
 
 #. STRINGS.UI.CHARACTERCONTAINER_EXPECTATIONS_TITLE
 msgctxt "STRINGS.UI.CHARACTERCONTAINER_EXPECTATIONS_TITLE"
@@ -54244,7 +54244,7 @@ msgstr "壓力反應：{0}"
 #. STRINGS.UI.CHARACTERCONTAINER_TRAITS_TITLE
 msgctxt "STRINGS.UI.CHARACTERCONTAINER_TRAITS_TITLE"
 msgid "TRAITS"
-msgstr "特質"
+msgstr "特徵"
 
 #. STRINGS.UI.CLEAR_COMPLETED
 msgctxt "STRINGS.UI.CLEAR_COMPLETED"
@@ -54394,7 +54394,7 @@ msgstr "這枚火箭的燃料艙有 {0} 燃料"
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_HEIGHT.NAME
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_HEIGHT.NAME"
 msgid "Height: {0}/{1}"
-msgstr "高度：{0}／{1}"
+msgstr "高度：{0} / {1}"
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_HEIGHT.NAME_MAX_SUPPORTED
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_HEIGHT.NAME_MAX_SUPPORTED"
@@ -56949,7 +56949,7 @@ msgstr "<b><size=13>學會技能：</size></b>"
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.MASTERED_SKILLS_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.MASTERED_SKILLS_TOOLTIP"
 msgid "All <style=\"KKeyword\">Traits</style> and <style=\"KKeyword\">Morale Needs</style> become permanent once a Duplicant has learned a new <style=\"KKeyword\">Skill</style>\n\n<link=\"RESETSKILLSSTATION\">Skill Scrubber</link>s can be built from the <b>Stations Tab</b> {Hotkey/Plan10} to completely reset a Duplicant's learned <style=\"KKeyword\">Skills</style>, refunding all <style=\"KKeyword\">Skill Points</style>"
-msgstr "複製人學會新<style=\"KKeyword\">技能</style>後，其所有的<style=\"KKeyword\">特質</style>與 <style=\"KKeyword\">士氣需求</style>會變成永久性的\n\n<b>研究</b> {Hotkey/Plan10} 中的<link=\"RESETSKILLSSTATION\">技能重置機</link>可以完整重置複製人已學過的<style=\"KKeyword\">技能</style>，返回全部<style=\"KKeyword\">技能點</style>"
+msgstr "複製人學會新<style=\"KKeyword\">技能</style>後，其所有的<style=\"KKeyword\">特徵</style>與 <style=\"KKeyword\">士氣需求</style>會變成永久性的\n\n<b>研究</b> {Hotkey/Plan10} 中的<link=\"RESETSKILLSSTATION\">技能重置機</link>可以完整重置複製人已學過的<style=\"KKeyword\">技能</style>，返回全部<style=\"KKeyword\">技能點</style>"
 
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.NO_MASTERED_SKILLS.NAME
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.NO_MASTERED_SKILLS.NAME"
@@ -58724,7 +58724,7 @@ msgstr "末日浩劫"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS.DOOMED.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS.DOOMED.TOOLTIP"
 msgid "An onslaught of apocalyptic hailstorms that feels almost personal"
-msgstr "一場世界末日般的“冰雹”襲擊，感覺就是針對你來的"
+msgstr "一場世界末日般的「冰雹」襲擊，感覺就是針對你來的"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS.INFREQUENT.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.METEORSHOWERS.LEVELS.INFREQUENT.NAME"
@@ -67874,17 +67874,17 @@ msgstr "{0} 的興趣是{1}，學習它會獲得<style=\"KKeyword\">士氣</styl
 #. STRINGS.UI.SKILLS_SCREEN.ASSIGNMENT_REQUIREMENTS.MASTERY.SKILL_GRANTED
 msgctxt "STRINGS.UI.SKILLS_SCREEN.ASSIGNMENT_REQUIREMENTS.MASTERY.SKILL_GRANTED"
 msgid "{0} has been granted {1} by a Trait, but does not have increased <style=\"KKeyword\">Morale Requirements</style> from learning it"
-msgstr "{0} 因特質而獲得{1}技能，且不會增加<style=\"KKeyword\">士氣需求</style>"
+msgstr "{0} 因特質而獲得 {1} 技能，且不會增加<style=\"KKeyword\">士氣需求</style>"
 
 #. STRINGS.UI.SKILLS_SCREEN.ASSIGNMENT_REQUIREMENTS.MASTERY.STRESS_WARNING_MESSAGE
 msgctxt "STRINGS.UI.SKILLS_SCREEN.ASSIGNMENT_REQUIREMENTS.MASTERY.STRESS_WARNING_MESSAGE"
 msgid "Learning {0} will put {1} into a <style=\"KKeyword\">Morale</style> deficit and cause unnecessary <style=\"KKeyword\">Stress</style>!"
-msgstr "學習{0}會增加 {1} <style=\"KKeyword\">士氣</style>需求，並導致不必要的<style=\"KKeyword\">壓力</style>！"
+msgstr "學習 {0} 會增加 {1} <style=\"KKeyword\">士氣</style>需求，並導致不必要的<style=\"KKeyword\">壓力</style>！"
 
 #. STRINGS.UI.SKILLS_SCREEN.ASSIGNMENT_REQUIREMENTS.SKILLGROUP_ENABLED.DESCRIPTION
 msgctxt "STRINGS.UI.SKILLS_SCREEN.ASSIGNMENT_REQUIREMENTS.SKILLGROUP_ENABLED.DESCRIPTION"
 msgid "Capable of performing <b>{0}</b> skills"
-msgstr "可執行<b>{0}</b>的技能"
+msgstr "可執行 <b>{0}</b> 的技能"
 
 #. STRINGS.UI.SKILLS_SCREEN.ASSIGNMENT_REQUIREMENTS.SKILLGROUP_ENABLED.NAME
 msgctxt "STRINGS.UI.SKILLS_SCREEN.ASSIGNMENT_REQUIREMENTS.SKILLGROUP_ENABLED.NAME"
@@ -72274,7 +72274,7 @@ msgstr "在建築物前生成一個複製人"
 #. STRINGS.UI.UISIDESCREENS.AUTOPLUMBERSIDESCREEN.BUTTONS.PIPES.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.AUTOPLUMBERSIDESCREEN.BUTTONS.PIPES.TOOLTIP"
 msgid "Add Dev Pumps and Pipes"
-msgstr "添加開發幫浦和管道"
+msgstr "添加開發者幫浦和管道"
 
 #. STRINGS.UI.UISIDESCREENS.AUTOPLUMBERSIDESCREEN.BUTTONS.POWER.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.AUTOPLUMBERSIDESCREEN.BUTTONS.POWER.TOOLTIP"
@@ -74344,7 +74344,7 @@ msgstr "以下"
 #. STRINGS.UI.UISIDESCREENS.RADIATIONSWITCHSIDESCREEN.CURRENT_TEMPERATURE
 msgctxt "STRINGS.UI.UISIDESCREENS.RADIATIONSWITCHSIDESCREEN.CURRENT_TEMPERATURE"
 msgid "Current Radiation:\n{0}/cycle"
-msgstr "目前輻射：\n{0}／周期"
+msgstr "目前輻射：\n{0} / 周期"
 
 #. STRINGS.UI.UISIDESCREENS.RADIATIONSWITCHSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.RADIATIONSWITCHSIDESCREEN.TITLE"
@@ -74559,7 +74559,7 @@ msgstr "    • 引擎功率：{0}（{1}）"
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.MODULESTATCHANGE.HEIGHT
 msgctxt "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.MODULESTATCHANGE.HEIGHT"
 msgid "    • Height: {0}/{2} ({1})"
-msgstr "    • 高度：{0}／{2}（{1}）"
+msgstr "    • 高度：{0} / {2}（{1}）"
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.MODULESTATCHANGE.HEIGHT_NOMAX
 msgctxt "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.MODULESTATCHANGE.HEIGHT_NOMAX"
