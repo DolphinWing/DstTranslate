@@ -18479,7 +18479,7 @@ msgstr "無"
 #. STRINGS.CODEX.QUESTS.CRITERIA.FOODQUALITY.TOOLTIP
 msgctxt "STRINGS.CODEX.QUESTS.CRITERIA.FOODQUALITY.TOOLTIP"
 msgid "Deliver 3 unique <style=\"KKeyword\">Food</style> items. Quality must be {0} or higher\n\nFoods Delivered:\n{1}"
-msgstr "運送 3 個不同的<style=\"KKeyword\">食物</style>種類。品質必須是{0}或更高\n\n已運送的食物：\n{1}"
+msgstr "運送 3 個不同的<style=\"KKeyword\">食物</style>種類。品質必須是{0}以上\n\n已運送的食物：\n{1}"
 
 #. STRINGS.CODEX.QUESTS.CRITERIA.LOSTICEFOSSIL.NAME
 msgctxt "STRINGS.CODEX.QUESTS.CRITERIA.LOSTICEFOSSIL.NAME"
@@ -20864,7 +20864,7 @@ msgstr "成就系統可解鎖。"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.POOP_PRODUCTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.POOP_PRODUCTION"
 msgid "Poop production: {0} / {1}"
-msgstr "生產落後：{0}：{1}"
+msgstr "生產落後：{0} / {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.POPULATION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.POPULATION"
@@ -20959,7 +20959,7 @@ msgstr "士氣制高點"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SURVIVE_IN_A_ROCKET_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SURVIVE_IN_A_ROCKET_DESCRIPTION"
 msgid "Have the Duplicants in one rocket survive in space for {0} cycles in a row with a morale of {1} or higher."
-msgstr "讓一艘火箭中的複製人在太空中連續生存 {0} 個週期，士氣保持為 {1} 或更高。"
+msgstr "讓一艘火箭中的複製人在太空中連續生存 {0} 個週期，士氣保持為 {1} 以上。"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SURVIVE_ONE_YEAR
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.SURVIVE_ONE_YEAR"
@@ -21219,7 +21219,7 @@ msgstr "列印 {0} 個複製人"
 #. STRINGS.COLONY_ACHIEVEMENTS.THRIVING.REQUIREMENTS.MINIMUM_DUPLICANTS_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.THRIVING.REQUIREMENTS.MINIMUM_DUPLICANTS_DESCRIPTION"
 msgid "The colony must have <b>{0}</b> or more living Duplicants"
-msgstr "殖民地必須有 <b>{0}</b> 個或更多活著的複製人"
+msgstr "殖民地必須有 <b>{0}</b> 個活著的複製人以上"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.THRIVING.REQUIREMENTS.MINIMUM_MORALE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.THRIVING.REQUIREMENTS.MINIMUM_MORALE"
@@ -21229,7 +21229,7 @@ msgstr "士氣維持在 {0}"
 #. STRINGS.COLONY_ACHIEVEMENTS.THRIVING.REQUIREMENTS.MINIMUM_MORALE_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.THRIVING.REQUIREMENTS.MINIMUM_MORALE_DESCRIPTION"
 msgid "All Duplicants must have <style=\"KKeyword\">Morale</style> of 16 or higher"
-msgstr "所有複製人的 <style=\"KKeyword\">士氣</style> 必須維持在 16 或更高"
+msgstr "所有複製人的 <style=\"KKeyword\">士氣</style> 必須維持在 16 以上"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.THRIVING.VIDEO_TEXT.FIRST
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.THRIVING.VIDEO_TEXT.FIRST"
@@ -32574,7 +32574,7 @@ msgstr "職業等級需求"
 #. STRINGS.DUPLICANTS.NEEDS.DECOR.EXPECTATION_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.NEEDS.DECOR.EXPECTATION_TOOLTIP"
 msgid "Most objects have <style=\"KKeyword\">Decor</style> values that alter Duplicants' opinions of their surroundings.\nThis Duplicant desires <style=\"KKeyword\">Decor</style> values of <b>{0}</b> or higher, and becomes <style=\"KKeyword\">Stressed</style> in areas with lower <style=\"KKeyword\">Decor</style>."
-msgstr "大部分的物品都有<style=\"KKeyword\">裝飾</style>值，會改變複製人對周圍環境的看法。\n\n這個複製人渴望<b>{0}</b>或更高的<style=\"KKeyword\">裝飾</style>值，如果處在較低<style=\"KKeyword\">裝飾</style>的區域會增加<style=\"KKeyword\">壓力</style>。"
+msgstr "大部分的物品都有<style=\"KKeyword\">裝飾</style>值，會改變複製人對周圍環境的看法。\n\n這個複製人渴望<b>{0}</b>以上的<style=\"KKeyword\">裝飾</style>值，如果處在較低<style=\"KKeyword\">裝飾</style>的區域會增加<style=\"KKeyword\">壓力</style>。"
 
 #. STRINGS.DUPLICANTS.NEEDS.DECOR.NAME
 msgctxt "STRINGS.DUPLICANTS.NEEDS.DECOR.NAME"
@@ -32654,7 +32654,7 @@ msgstr "職業等級要求"
 #. STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.EXPECTATION_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.EXPECTATION_TOOLTIP"
 msgid "Each Duplicant has a minimum quality of <style=\"KKeyword\">Food</style> they'll tolerate eating.\nThis Duplicant desires <b>Tier {0}<b> or better <style=\"KKeyword\">Food</style>, and becomes <style=\"KKeyword\">Stressed</style> when they eat meals of lower quality."
-msgstr "每個複製人最低可接受的<style=\"KKeyword\">食物</style>品質。\n這個複製人渴望<b>{0}級<b>或更好的<style=\"KKeyword\">食物</style>，如果吃較低品質的食物，<style=\"KKeyword\">壓力</style>會上升。"
+msgstr "每個複製人最低可接受的<style=\"KKeyword\">食物</style>品質。\n這個複製人渴望<b>{0}級<b>以上的<style=\"KKeyword\">食物</style>，如果吃較低品質的食物，<style=\"KKeyword\">壓力</style>會上升。"
 
 #. STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.FOODQUALITY
 msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.FOODQUALITY"
@@ -51634,7 +51634,7 @@ msgstr "最大尺寸：{0} 格"
 #. STRINGS.ROOMS.CRITERIA.MESS_STATION_MULTIPLE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.MESS_STATION_MULTIPLE.DESCRIPTION"
 msgid "Requires two or more Mess Tables"
-msgstr "需要兩張或更多的餐桌"
+msgstr "需要兩張以上的餐桌"
 
 #. STRINGS.ROOMS.CRITERIA.MESS_STATION_MULTIPLE.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.MESS_STATION_MULTIPLE.NAME"
@@ -51844,12 +51844,12 @@ msgstr "需要至少一隻野生動物"
 #. STRINGS.ROOMS.CRITERIA.WILDANIMAL.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.WILDANIMAL.NAME"
 msgid "Wildlife"
-msgstr "野生"
+msgstr "野生動物"
 
 #. STRINGS.ROOMS.CRITERIA.WILDANIMALS.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.WILDANIMALS.DESCRIPTION"
 msgid "Requires two or more wild critters"
-msgstr "需要兩隻或更多的野生動物"
+msgstr "需要兩隻以上的野生動物"
 
 #. STRINGS.ROOMS.CRITERIA.WILDANIMALS.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.WILDANIMALS.NAME"
@@ -51859,22 +51859,22 @@ msgstr "更多野生動物"
 #. STRINGS.ROOMS.CRITERIA.WILDPLANT.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.WILDPLANT.DESCRIPTION"
 msgid "Requires two or more wild plants"
-msgstr "需要兩個或更多的野生植物"
+msgstr "需要兩株以上的野生植物"
 
 #. STRINGS.ROOMS.CRITERIA.WILDPLANT.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.WILDPLANT.NAME"
 msgid "Two wild plants"
-msgstr "兩個野生植物"
+msgstr "兩株野生植物"
 
 #. STRINGS.ROOMS.CRITERIA.WILDPLANTS.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.WILDPLANTS.DESCRIPTION"
 msgid "Requires four or more wild plants"
-msgstr "需要四個或更多野生植物"
+msgstr "需要四株以上野生植物"
 
 #. STRINGS.ROOMS.CRITERIA.WILDPLANTS.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.WILDPLANTS.NAME"
 msgid "Four wild plants"
-msgstr "四個野生植物"
+msgstr "四株野生植物"
 
 #. STRINGS.ROOMS.DETAILS.ASSIGNED_TO.NAME
 msgctxt "STRINGS.ROOMS.DETAILS.ASSIGNED_TO.NAME"
@@ -76784,7 +76784,7 @@ msgstr "裝飾期望"
 #. STRINGS.UI.VITALSSCREEN.DECOR_EXPECTATIONS_TOOLTIP
 msgctxt "STRINGS.UI.VITALSSCREEN.DECOR_EXPECTATIONS_TOOLTIP"
 msgid "This Duplicant desires decor that is {0} or higher"
-msgstr "這個複製人渴望有{0}或更高的裝飾"
+msgstr "這個複製人渴望有{0}以上的裝飾"
 
 #. STRINGS.UI.VITALSSCREEN.EATEN_TODAY
 msgctxt "STRINGS.UI.VITALSSCREEN.EATEN_TODAY"
@@ -76809,7 +76809,7 @@ msgstr "食物的期望"
 #. STRINGS.UI.VITALSSCREEN.FOOD_EXPECTATIONS_TOOLTIP
 msgctxt "STRINGS.UI.VITALSSCREEN.FOOD_EXPECTATIONS_TOOLTIP"
 msgid "This Duplicant desires food that is {0} quality or better"
-msgstr "這個複製人渴望食物有 {0} 或更好的品質"
+msgstr "這個複製人渴望食物有{0}以上的品質"
 
 #. STRINGS.UI.VITALSSCREEN.HEALTH
 msgctxt "STRINGS.UI.VITALSSCREEN.HEALTH"
