@@ -17769,7 +17769,7 @@ msgstr "計算完成"
 #. STRINGS.CODEX.MYLOG.BODY.CLUSTERWORLDS.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.CLUSTERWORLDS.BODY"
 msgid "My Duplicant's investigations into the surrounding space have yielded some interesting results. We are not alone!... At least on a planetary level. We seem to be in a \"Cluster of Worlds\" - a collection of other planetoids my Duplicants can now explore.\n\nSince resources on this world are finite, I must build the necessary infrastructure to facilitate exploration and transportation between worlds in order to ensure my colony's survival."
-msgstr "複製人調查周圍的太空有了一些有趣的發現。我們並不孤單！… 至少在小行星級別。\n我們似乎在一個「星團的世界」中－現在我的複製人可以探索其它的小行星。\n\n由於此世界中的資源有限，我必須建造必要的基礎設施，\n才能進行探索與在兩個世界中運送確保殖民地的生存。"
+msgstr "複製人調查周圍的太空有了一些有趣的發現。我們並不孤單！… 至少在小行星級別。\n我們似乎在一個「星團的世界」中－現在我的複製人可以探索其它的小行星。\n\n由於這個世界上的資源是有限的，我必須建造必要的基礎設施，以促進不同世界之間的探索和運輸，確保殖民地的生存。"
 
 #. STRINGS.CODEX.MYLOG.BODY.CLUSTERWORLDS.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.CLUSTERWORLDS.TITLE"
@@ -17779,7 +17779,7 @@ msgstr "世界群"
 #. STRINGS.CODEX.MYLOG.BODY.DUPLICANTDEATH.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.DUPLICANTDEATH.BODY"
 msgid "I lost my first Duplicant today. Duplicants form strong bonds with each other, and I expect I'll see a drop in morale over the next few cycles as they take time to grieve their loss.\n\nI find myself grieving too, in my way. I was tasked to protect these Duplicants, and I failed. All I can do now is move forward and resolve to better protect those remaining in my colony from here on out.\n\nRest in peace, dear little friend.\n\n"
-msgstr "今天我損失了第一位複製人。\n\n複製人彼此之間建立了堅固的情感連繫，\n接下來的幾周之前我預期士氣會降低，\n因為他們需要時間來平復心情。\n\n我也可以透過自己的方式來感傷。\n我受命保護這些複製人，但我失敗了。\n\n現在我所能做的是，\n往前並保護好殖民地剩餘的其它人。\n\n安息吧ー親愛的、小朋友。\n\n"
+msgstr "今天我損失了第一位複製人。\n\n複製人彼此之間建立了堅固的情感連繫，接下來的幾個週期中我預計會看到士氣下降，因為他們需要時間來平復心情。\n\n我發現自己也以我的方式悲傷。我的任務是保護這些複製人，但我失敗了。\n\n我現在能做的就是繼續前進，並決心從現在開始更好地保護那些留在我的殖民地的人。\n\n安息吧，親愛的小朋友。\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.DUPLICANTDEATH.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.DUPLICANTDEATH.TITLE"
@@ -17789,7 +17789,7 @@ msgstr "死在殖民地"
 #. STRINGS.CODEX.MYLOG.BODY.FULLDUPECOLONY.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.FULLDUPECOLONY.BODY"
 msgid "I've officially run out of unique blueprints from which to print new Duplicants.\n\nIf I desire to grow the colony further, I'll have no choice but to print doubles of existing individuals. Hopefully it won't throw anyone into an existential crisis to live side by side with their double.\n\nPerhaps I could give the new clones nicknames to reduce the confusion.\n\n"
-msgstr "我用完了可以列印複製人的獨特藍圖。\n\n如果我想進一步擴大殖民地，我別無選擇，只能從已存在的個體複製出另一位。\n希望他們與自己的複製體一起生活，不會讓任何人陷入生存的危機。\n\n也許我可以給新的複製體取個暱稱，以減少混亂。\n\n"
+msgstr "我正式地用完了用來列印複製人的獨特藍圖。\n\n如果我想進一步擴大殖民地，我別無選擇，只能從已存在的個體複製出另一位。希望不會讓任何人與自己的複製人一起生活而陷入生存的危機。\n\n也許我可以給新的複製體取個暱稱，以減少混亂。\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.FULLDUPECOLONY.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.FULLDUPECOLONY.TITLE"
@@ -17799,7 +17799,7 @@ msgstr "藍圖耗盡"
 #. STRINGS.CODEX.MYLOG.BODY.LOG1.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG1.BODY"
 msgid "We have no life support in place yet, but we've found ourselves in a small breathable air pocket. As far as I can tell, we aren't in any immediate danger.\n\nBetween the available air and our meager food stores, I'd estimate we have about 3 days to set up food and oxygen production before my Duplicants' lives are at risk.\n\n"
-msgstr "我們在此地還沒有生命維持系統，\n但我們發現自己在一個可呼吸的小空間中。\n就此推斷，我們沒有立即的危險。\n\n根據環境的氧氣與我們的食物的存量，\n我評估在複製人們生病前有大約三天的時間準備好食物與製造氧氣。\n\n"
+msgstr "我們在此地還沒有生命維持系統，但我們發現自己在一個可呼吸的小空間中。據我所知，我們沒有任何直接的危險。\n\n根據環境的氧氣與我們的食物的存量，我評估在複製人們出大事前，有大約三天的時間準備好食物與製造氧氣。\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.LOG1.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG1.TITLE"
@@ -17809,7 +17809,7 @@ msgstr "周期 1"
 #. STRINGS.CODEX.MYLOG.BODY.LOG2.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG2.BODY"
 msgid "I've almost synthesized enough Ooze to print a new Duplicant; once the Ooze is ready, all I'll have left to do is choose a blueprint.\n\nIt'd be helpful to have an extra set of hands around the colony, but having another Duplicant also means another mouth to feed.\n\nOf course, I could always print supplies to help my existing Duplicants instead. I'm sure they would appreciate it.\n\n"
-msgstr "我已合成了足夠的基因軟泥可列印一位新的複製人；\n現在我只需要選擇一個藍圖。\n\n殖民地就會多出一位人手幫忙，\n但這也意味著多了一張嘴吃飯與一對需要呼吸的肺。\n\n當然，我可以一直列印人手來幫助現有的複製人。\n我確信他們會很感激。\n"
+msgstr "我已合成了足夠的基因軟泥可列印一位新的複製人；一旦軟泥準備好了，我只需要選擇一個藍圖。\n\n在殖民地周圍有一雙額外的手會很有幫助，但擁有另一個複製人也意味著要餵另一張嘴。\n\n當然，我可以一直列印補給來幫助現有的複製人。我相信他們會很感激的。\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.LOG2.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG2.TITLE"
@@ -17819,7 +17819,7 @@ msgstr "周期 3"
 #. STRINGS.CODEX.MYLOG.BODY.LOG3.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG3.BODY"
 msgid "As far as I can tell, we are hundreds of miles beneath the surface of the planet. Digging our way out will take some time.\n\nMy Duplicants will survive, but they were not meant for sustained underground living. Under what possible circumstances could my Pod have ended up here?\n\n"
-msgstr "據我所知，我們在星球表面以下的幾百英里處。\n挖掘出路將需要一些時間。\n\n我的複製人們可以生存，但他們不是為了持續在地下生活。\n什麼情形下致使我的列印設備最終停在了這裡？\n\n"
+msgstr "據我所知，我們在星球表面以下的幾百英里處。挖掘我們的出路將需要一些時間。\n\n我的複製人們可以生存，但他們不是為了持續在地下生活。什麼情形下致使我的列印設備最終停在了這裡？\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.LOG3.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG3.TITLE"
@@ -17939,7 +17939,7 @@ msgstr "VA[?]...C"
 #. STRINGS.CODEX.MYLOG.BODY.ONEDUPELEFT.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.ONEDUPELEFT.BODY"
 msgid "My colony is in a dire state. All but one of my Duplicants have perished, leaving a single worker to perform all the tasks that maintain the colony.\n\nGiven enough time I could print more Duplicants to replenish the population, but... should this Duplicant die before then, protocol will force me to enter a deep sleep in hopes that the terrain will become more habitable once I reawaken.\n\nI would prefer to avoid this.\n\n"
-msgstr "殖民地處於可怕的狀態。\n所有的複製人都死了，\n只剩下一位工人來完成維護整個殖民地的所有工作。\n\n如果時間足夠我可以列印更多的複製人來補充人口，\n但是…需要在這個複製人死亡之前，\n然而協議將迫使我進度深度睡眠，\n希望在我醒來之後此地型會變的更適合居住。\n\n我寧願不要發生這種情怳。\n\n"
+msgstr "我的殖民地正處於可怕的境地。除了一個複製人之外，其他所有人都已死亡，只剩下一名工人來執行維持殖民地的所有任務。\n\n如果時間足夠我可以列印更多的複製人來補充人口，\n但是...如果這個複製人在那之前死亡，協定將迫使我進入深度睡眠，希望我醒來後地形會變得更適合居住。\n\n我盡量避免這種情怳。\n\n\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.ONEDUPELEFT.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.ONEDUPELEFT.TITLE"
@@ -17949,7 +17949,7 @@ msgstr "只剩下一個"
 #. STRINGS.CODEX.MYLOG.BODY.OTHERDIMENSIONS.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.OTHERDIMENSIONS.BODY"
 msgid "A closer analysis of some documents my Duplicants encountered while searching artifacts has uncovered some curious similarities between multiple entries. These similarities are too strong to be coincidences, yet just divergent enough to raise questions.\n\nThe most logical conclusion is that these artifacts are coming from different dimensions. That is, separate universes that exists concurrently with one another but exhibit tiny disparities in their histories.\n\nThe most likely explanation is the material and matter from multiple dimensions is leaking into our current timeline through the Temporal Tear. Further analysis is required."
-msgstr "仔細分析複製人尋找文物時所取得文件，\n發現了多個條目之間都有一奇怪的相似之處。\n\n這些相似性太強了，不太可能是巧合，\n但差異足以引發一些問題。\n\n最合乎邏輯的結論是，這些文物都來被不同的維度。\n也就是說獨立的宇宙同時存在，但在各自的歷史中都有些不同的差異。\n\n最可能的解釋是不同維度中的材料與物質，\n透過時空裂縫洩漏到了我們的目前的時空。\n需要進一步的分析。"
+msgstr "仔細分析複製人尋找文物時所取得文件，\n發現了多個條目之間都有一奇怪的相似之處。\n\n這些相似性太強了，不太可能是巧合，\n但差異足以引發一些問題。\n\n最合乎邏輯的結論是，這些文物都來被不同的維度。\n也就是說獨立的宇宙同時存在，但在各自的歷史中都有些不同的差異。\n\n最可能的解釋是來自多個維度的物質和物質，正在通過時空裂縫洩漏到了我們當前的時間線中。\n需要進一步的分析。"
 
 #. STRINGS.CODEX.MYLOG.BODY.OTHERDIMENSIONS.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.OTHERDIMENSIONS.TITLE"
@@ -17959,7 +17959,7 @@ msgstr "次元裂縫"
 #. STRINGS.CODEX.MYLOG.BODY.OUTSIDESTARTINGBIOME.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.OUTSIDESTARTINGBIOME.BODY"
 msgid "As the Duplicants scout further out I've begun to piece together a better view of our surroundings.\n\nThanks to their efforts, I've determined that this planet has enough resources to settle a longterm colony.\n\nBut... something is off. I've also detected deposits of Abyssalite and Neutronium in this planet's composition, manmade elements that shouldn't occur in nature.\n\nIs this really the target location?\n\n"
-msgstr "隨著複製人的偵察，\n我開始對我們所處的環境有了更多的了解。\n\n感謝他們的努力，\n我確定了這個星球有足夠的資源維持一個殖民地長期的運作。\n\n但是…出事了。\n我還發現了這星球組成中含有深淵水晶與 0 號元素，\n自然界中不應該存在的人造元素。\n\n這真的是目的地嗎？\n\n"
+msgstr "隨著複製人向更遠的地方偵察，我開始拼湊出對周圍環境的更多了解。\n\n由於他們的努力，我確定了這個星球有足夠的資源維持一個殖民地長期的運作。\n\n但是... 出了什麼問題。\n我還發現了這星球組成中含有深淵水晶與 0 號元素，這些人造元素不應該出現在自然界中。\n\n這真的是目標位置嗎？\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.OUTSIDESTARTINGBIOME.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.OUTSIDESTARTINGBIOME.TITLE"
@@ -17979,7 +17979,7 @@ msgstr "地理分析"
 #. STRINGS.CODEX.MYLOG.BODY.PLANETARYECHOES.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.PLANETARYECHOES.BODY"
 msgid "Echoes from another time force their way into my mind. Make me listen. Like vengeful ghosts they claw their way out from under the gravity of that dead planet.\n\n<smallcaps>>>SEARCH DATABASE [\"pod_brainmap.AI\"]\n>...error...\n.........................\n>...repairing corrupt data...\n.........................\n\n</smallcaps><b>I-I remember now.</b><smallcaps>\n.........................</smallcaps>\n<b>Who I was before.</b><smallcaps>\n.........................\n.........................\n>...data repaired...\n>.........................</smallcaps>\n\nGod, what have we done.\n\n"
-msgstr "另一段時間的回音強制進入我的腦海。\n讓我聽聽。\n就像復仇的鬼魂一樣，\n他們從死亡星球的引力下逃了出來。\n\n<smallcaps>>>搜尋【\"pod_brainmap.AI\"】\n>…錯誤…\n.........................\n>…修復損壞的資料…\n.........................\n\n</smallcaps><b>我…我現在記起來了。</b><smallcaps>\n.........................</smallcaps>\n<b>我之前是誰。</b><smallcaps>\n.........................\n.........................\n>…資料已修復…\n>.........................</smallcaps>\n\n天啊，我們做了什麼。\n\n"
+msgstr "來自另一個時代的回音強行進入我的腦海。\n讓我聽聽。\n就像復仇的鬼魂一樣，\n他們從死亡星球的引力下逃了出來。\n\n<smallcaps>>>搜尋【\"pod_brainmap.AI\"】\n>…錯誤…\n.........................\n>…修復損壞的資料…\n.........................\n\n</smallcaps><b>我…我現在記起來了。</b><smallcaps>\n.........................</smallcaps>\n<b>我之前是誰。</b><smallcaps>\n.........................\n.........................\n>…資料已修復…\n>.........................</smallcaps>\n\n天啊，我們做了什麼。\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.PLANETARYECHOES.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.PLANETARYECHOES.TITLE"
@@ -21689,7 +21689,7 @@ msgstr "幸福度增加"
 #. STRINGS.CREATURES.MODIFIERS.DOMESTICATION_INCREASING.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.DOMESTICATION_INCREASING.TOOLTIP"
 msgid "This critter is very happy its needs are being met"
-msgstr "這隻動物非常開心，它的需求得到滿足"
+msgstr "這隻動物非常開心，牠的需求得到滿足"
 
 #. STRINGS.CREATURES.MODIFIERS.EGGHUG.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.EGGHUG.NAME"
