@@ -22739,7 +22739,7 @@ msgstr "<link=\"HATCH\">哈奇寶寶</link>"
 #. STRINGS.CREATURES.SPECIES.HATCH.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.DESC"
 msgid "Hatches excrete solid <link=\"CARBON\">Coal</link> as waste and may be uncovered by digging up Buried Objects."
-msgstr "哈奇會排洩<link=\"CARBON\">煤炭</link>作為廢棄物，可能在挖掘掩埋物時發現。"
+msgstr "哈奇會排洩<link=\"CARBON\">煤炭</link>作為廢棄物，可能在挖掘埋住的物體時發現。"
 
 #. STRINGS.CREATURES.SPECIES.HATCH.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.EGG_NAME"
@@ -23569,7 +23569,7 @@ msgstr "<link=\"SEALETTUCE\">水草</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.BASICFABRICMATERIALPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BASICFABRICMATERIALPLANT.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"BASICFABRICPLANT\">Thimble Reed</link>.\n\nDigging up Buried Objects may uncover a Thimble Reed Seed."
-msgstr "<link=\"BASICFABRICPLANT\">蘆葦</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘掩埋物可能會發現蘆葦種子。"
+msgstr "<link=\"BASICFABRICPLANT\">蘆葦</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可能會發現蘆葦種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.BASICFABRICMATERIALPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BASICFABRICMATERIALPLANT.NAME"
@@ -23579,7 +23579,7 @@ msgstr "<link=\"BASICFABRICPLANT\">蘆葦種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.BASICSINGLEHARVESTPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BASICSINGLEHARVESTPLANT.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"BASICSINGLEHARVESTPLANT\">Mealwood</link>.\n\nDigging up Buried Objects may uncover a Mealwood Seed."
-msgstr "<link=\"BASICSINGLEHARVESTPLANT\">虱子樹</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋掩埋物可能會發現虱子樹種子。"
+msgstr "<link=\"BASICSINGLEHARVESTPLANT\">虱子樹</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋埋住的物體可能會發現虱子樹種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.BASICSINGLEHARVESTPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BASICSINGLEHARVESTPLANT.NAME"
@@ -23589,7 +23589,7 @@ msgstr "<link=\"BASICSINGLEHARVESTPLANT\">虱子樹種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.BEAN_PLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BEAN_PLANT.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"BEANPLANT\">Nosh Sprout</link>.\n\nDigging up Buried Objects may uncover a Nosh Bean."
-msgstr "<link=\"BEANPLANT\">大豆樹</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘掩埋物可能會發現大豆。"
+msgstr "<link=\"BEANPLANT\">大豆樹</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可能會發現大豆。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.BEAN_PLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BEAN_PLANT.NAME"
@@ -23599,7 +23599,7 @@ msgstr "<link=\"BEANPLANT\">大豆</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.BULBPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BULBPLANT.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"BULBPLANT\">Buddy Bud</link>.\n\nDigging up Buried Objects may uncover a Buddy Bud Seed."
-msgstr "<link=\"BULBPLANT\">同心芽</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘掩埋物可能會發現同心芽種子。"
+msgstr "<link=\"BULBPLANT\">同心芽</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可能會發現同心芽種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.BULBPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.BULBPLANT.NAME"
@@ -23609,7 +23609,7 @@ msgstr "<link=\"BULBPLANT\">同心芽種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.CACTUSPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.CACTUSPLANT.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"CACTUSPLANT\">Jumping Joya</link>.\n\nDigging up Buried Objects may uncover a Joya Seed."
-msgstr "<link=\"CACTUSPLANT\">仙人掌</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘掩埋物可能會發現仙人掌種子。"
+msgstr "<link=\"CACTUSPLANT\">仙人掌</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可能會發現仙人掌種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.CACTUSPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.CACTUSPLANT.NAME"
@@ -23619,7 +23619,7 @@ msgstr "<link=\"CACTUSPLANT\">仙人掌種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.COLDBREATHER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.COLDBREATHER.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"COLDBREATHER\">Wheezewort</link>.\n\nDigging up Buried Objects may uncover a Wort Seed."
-msgstr "<link=\"COLDBREATHER\">冰樹</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘掩埋物可能會發現冰樹種子。"
+msgstr "<link=\"COLDBREATHER\">冰樹</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可能會發現冰樹種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.COLDBREATHER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.COLDBREATHER.NAME"
@@ -23639,7 +23639,7 @@ msgstr "<link=\"COLDWHEAT\">雪地小麥穀粒</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.CRITTERTRAPPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.CRITTERTRAPPLANT.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"CRITTERTRAPPLANT\">Saturn Critter Trap</link>.\n\nDigging up Buried Objects may uncover a Saturn Critter Trap Seed."
-msgstr "<link=\"CRITTERTRAPPLANT\">捕獸草</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘掩埋物可能會發現捕獸草。"
+msgstr "<link=\"CRITTERTRAPPLANT\">捕獸草</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可能會發現捕獸草種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.CRITTERTRAPPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.CRITTERTRAPPLANT.NAME"
@@ -23649,7 +23649,7 @@ msgstr "<link=\"CRITTERTRAPPLANT\">捕獸草種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.CYLINDRICA.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.CYLINDRICA.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"CYLINDRICA\">Bliss Burst</link>.\n\nDigging up Buried Objects may uncover a Bliss Burst Seed."
-msgstr "<link=\"CYLINDRICA\">天堂草</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘掩埋物可能會發現天堂草種子。"
+msgstr "<link=\"CYLINDRICA\">天堂草</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可能會發現天堂草種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.CYLINDRICA.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.CYLINDRICA.NAME"
@@ -23659,7 +23659,7 @@ msgstr "<link=\"CYLINDRICA\">天堂草種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.EVILFLOWER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.EVILFLOWER.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"EVILFLOWER\">Sporechid</link>.\n\nDigging up Buried Objects may uncover a <link=\"EVILFLOWER\">Sporechid Seed</link>."
-msgstr "<link=\"EVILFLOWER\">惡魔花</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘掩埋物可能會發現 <link=\"EVILFLOWER\">惡魔花種子</link>。"
+msgstr "<link=\"EVILFLOWER\">惡魔花</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可能會發現<link=\"EVILFLOWER\">惡魔花種子</link>。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.EVILFLOWER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.EVILFLOWER.NAME"
@@ -23669,7 +23669,7 @@ msgstr "<link=\"EVILFLOWER\">惡魔花種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.FILTERPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.FILTERPLANT.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"FILTERPLANT\">Hydrocactus</link>.\n\nDigging up Buried Objects may uncover a Hydrocactus Seed."
-msgstr "<link=\"FILTERPLANT\">水生仙人掌</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘掩埋物可能會發現水生仙人掌種子。"
+msgstr "<link=\"FILTERPLANT\">水生仙人掌</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可能會發現水生仙人掌種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.FILTERPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.FILTERPLANT.NAME"
@@ -23689,7 +23689,7 @@ msgstr "<link=\"GASGRASS\">瓦斯草種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.LEAFYPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.LEAFYPLANT.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"LEAFYPLANT\">Mirth Leaf</link>.\n\nDigging up Buried Objects may uncover a Mirth Leaf Seed."
-msgstr "<link=\"LEAFYPLANT\">合歡葉</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘掩埋物可能會發現合歡葉種子。"
+msgstr "<link=\"LEAFYPLANT\">合歡葉</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可能會發現合歡葉種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.LEAFYPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.LEAFYPLANT.NAME"
@@ -23699,7 +23699,7 @@ msgstr "<link=\"LEAFYPLANT\">合歡葉種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.MUSHROOMPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.MUSHROOMPLANT.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"MUSHROOMPLANT\">Dusk Cap</link>.\n\nDigging up Buried Objects may uncover a Fungal Spore."
-msgstr "<link=\"MUSHROOMPLANT\">黃昏蘑菇</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘掩埋物可發現真菌孢子。"
+msgstr "<link=\"MUSHROOMPLANT\">黃昏蘑菇</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可發現真菌孢子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.MUSHROOMPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.MUSHROOMPLANT.NAME"
@@ -23709,7 +23709,7 @@ msgstr "<link=\"MUSHROOMPLANT\">真菌孢子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.OILEATER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.OILEATER.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"INK BLOOM\">Plant</link>.\n\nDigging up Buried Objects may uncover an Ink Bloom Seed."
-msgstr "<link=\"INK BLOOM\">墨花</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘掩埋物可能會發現墨花種子。"
+msgstr "<link=\"INK BLOOM\">墨花</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可能會發現墨花種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.OILEATER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.OILEATER.NAME"
@@ -23729,7 +23729,7 @@ msgstr "<link=\"OXYFERN\">氧氣蕨種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.PRICKLEFLOWER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.PRICKLEFLOWER.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"PRICKLEFLOWER\">Bristle Blossom</link>.\n\nDigging up Buried Objects may uncover a Blossom Seed."
-msgstr "<link=\"PRICKLEFLOWER\">鬃花</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘掩埋物可能會發現鬃花種子。"
+msgstr "<link=\"PRICKLEFLOWER\">鬃花</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可能會發現鬃花種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.PRICKLEFLOWER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.PRICKLEFLOWER.NAME"
@@ -23739,7 +23739,7 @@ msgstr "<link=\"PRICKLEFLOWER\">鬃花種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.PRICKLEGRASS.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.PRICKLEGRASS.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"PRICKLEGRASS\">Bluff Briar</link>.\n\nDigging up Buried Objects may uncover a Briar Seed."
-msgstr "<link=\"PRICKLEGRASS\">荊棘</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘掩埋物可能會發現荊棘種子。"
+msgstr "<link=\"PRICKLEGRASS\">荊棘</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可能會發現荊棘種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.PRICKLEGRASS.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.PRICKLEGRASS.NAME"
@@ -23749,7 +23749,7 @@ msgstr "<link=\"PRICKLEGRASS\">荊棘種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.SALTPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SALTPLANT.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"SALTPLANT\">Dasha Saltvine</link>.\n\nDigging up Buried Objects may uncover a Dasha Saltvine Seed."
-msgstr "<link=\"SALTPLANT\">沙鹽藤</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘掩埋物可能會發現沙鹽藤種子。"
+msgstr "<link=\"SALTPLANT\">沙鹽藤</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可能會發現沙鹽藤種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.SALTPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SALTPLANT.NAME"
@@ -23759,7 +23759,7 @@ msgstr "<link=\"SALTPLANT\">沙鹽藤種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.SEALETTUCE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SEALETTUCE.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"SEALETTUCE\">Waterweed</link>.\n\nDigging up Buried Objects may uncover a Waterweed Seed."
-msgstr "<link=\"SEALETTUCE\">水草</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘掩埋物可能會發現水草種子。"
+msgstr "<link=\"SEALETTUCE\">水草</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可能會發現水草種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.SEALETTUCE.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SEALETTUCE.NAME"
@@ -23769,7 +23769,7 @@ msgstr "<link=\"SEALETTUCE\">水草種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.SPICE_VINE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SPICE_VINE.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"SPICEVINE\">Pincha Pepperplant</link>.\n\nDigging up Buried Objects may uncover a Pincha Pepper Seed."
-msgstr "<link=\"SPICEVINE\">胡椒藤</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘掩埋物可能會發現胡椒種子。"
+msgstr "<link=\"SPICEVINE\">胡椒藤</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可能會發現胡椒種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.SPICE_VINE.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SPICE_VINE.NAME"
@@ -23779,7 +23779,7 @@ msgstr "<link=\"SPICEVINE\">胡椒種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.SWAMPHARVESTPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SWAMPHARVESTPLANT.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"SWAMPHARVESTPLANT\">Bog Bucket</link>.\n\nDigging up Buried Objects may uncover a Bog Bucket Seed."
-msgstr "<link=\"SWAMPHARVESTPLANT\">沼澤豬籠草</link>的<link=\"PLANTS\">種子</link>。\n\n掘挖捚住的物體可以發現沼澤豬籠草種子。"
+msgstr "<link=\"SWAMPHARVESTPLANT\">沼澤豬籠草</link>的<link=\"PLANTS\">種子</link>。\n\n掘挖埋住的物體可以發現沼澤豬籠草種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.SWAMPHARVESTPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SWAMPHARVESTPLANT.NAME"
@@ -23789,7 +23789,7 @@ msgstr "<link=\"SWAMPHARVESTPLANT\">沼澤豬籠草種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.SWAMPLILY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SWAMPLILY.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"SWAMPLILY\">Balm Lily</link>.\n\nDigging up Buried Objects may uncover a Balm Lily Seed."
-msgstr "<link=\"SWAMPLILY\">香水百合</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘掩埋物可能會發現香水百合種子。"
+msgstr "<link=\"SWAMPLILY\">香水百合</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可能會發現香水百合種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.SWAMPLILY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SWAMPLILY.NAME"
@@ -23799,7 +23799,7 @@ msgstr "<link=\"SWAMPLILY\">香水百合種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.TOEPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.TOEPLANT.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"TOEPLANT\">Tranquil Toes</link>.\n\nDigging up Buried Objects may uncover a Tranquil Toe Seed."
-msgstr "<link=\"TOEPLANT\">寧靜的腳趾</link>的<link=\"PLANTS\">種子</link>。\n\n掘挖捚住的物體可以發現寧靜的腳趾種子。"
+msgstr "<link=\"TOEPLANT\">寧靜的腳趾</link>的<link=\"PLANTS\">種子</link>。\n\n掘挖埋住的物體可以發現寧靜的腳趾種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.TOEPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.TOEPLANT.NAME"
@@ -23809,7 +23809,7 @@ msgstr "<link=\"TOEPLANT\">寧靜的腳趾種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.WINECUPS.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WINECUPS.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"WINECUPS\">Mellow Mallow</link>.\n\nDigging up Buried Objects may uncover a Mallow Seed."
-msgstr "<link=\"WINECUPS\">錦葵</link>的<link=\"PLANTS\">種子</link>。\n\n掘挖捚住的物體可以發現錦葵種子。"
+msgstr "<link=\"WINECUPS\">錦葵</link>的<link=\"PLANTS\">種子</link>。\n\n掘挖埋住的物體可以發現錦葵種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.WINECUPS.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WINECUPS.NAME"
@@ -23819,7 +23819,7 @@ msgstr "<link=\"WINECUPS\">錦葵種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.WOOD_TREE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WOOD_TREE.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of an <link=\"FORESTTREE\">Arbor Tree</link>.\n\nDigging up Buried Objects may uncover an Arbor Acorn."
-msgstr "<link=\"FORESTTREE\">喬木</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘掩埋物可能會發現喬木橡實。"
+msgstr "<link=\"FORESTTREE\">喬木</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可能會發現喬木橡實。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.WOOD_TREE.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WOOD_TREE.NAME"
@@ -23829,7 +23829,7 @@ msgstr "<link=\"FORESTTREE\">喬木橡實</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.WORMPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WORMPLANT.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"WORMPLANT\">Spindly Grubfruit Plant</link>.\n\nDigging up Buried Objects may uncover a Grubfruit Seed."
-msgstr "<link=\"WORMPLANT\">燈籠草</link>的<link=\"PLANTS\">種子</link>。\n\n掘挖捚住的物體可以發現燈籠草種子。"
+msgstr "<link=\"WORMPLANT\">燈籠草</link>的<link=\"PLANTS\">種子</link>。\n\n掘挖埋住的物體可以發現燈籠草種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.WORMPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WORMPLANT.NAME"
@@ -33369,7 +33369,7 @@ msgstr "<link=\"MEDICINE2\">床邊看護</link>"
 #. STRINGS.DUPLICANTS.ROLES.MINER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.MINER.DESCRIPTION"
 msgid "Allows the excavation of the element <link=\"KATAIRITE\">Abyssalite</link>"
-msgstr "可挖掘 <link=\"KATAIRITE\">深淵水晶</link>"
+msgstr "可挖掘<link=\"KATAIRITE\">深淵水晶</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.MINER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.MINER.NAME"
