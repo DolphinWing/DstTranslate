@@ -7764,7 +7764,7 @@ msgstr "埋葬死亡的複製人可減少健康危害並降低殖民地壓力。
 #. STRINGS.BUILDINGS.PREFABS.GRAVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVE.EFFECT"
 msgid "Provides a final resting place for deceased Duplicants.\n\nLiving Duplicants will automatically place an unburied corpse inside."
-msgstr "為死亡的複製人提供安息的地方。\n\n活著的複製人會放入未掩埋的屍體。"
+msgstr "為死亡的複製人提供安息的地方。\n\n活著的複製人會放入未埋葬的屍體。"
 
 #. STRINGS.BUILDINGS.PREFABS.GRAVE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVE.NAME"
@@ -17759,7 +17759,7 @@ msgstr "塊根"
 #. STRINGS.CODEX.MYLOG.BODY.CALCULATIONCOMPLETE.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.CALCULATIONCOMPLETE.BODY"
 msgid "As I suspected. Our \"asteroid\" and the estimated mass missing from the nearby planet are nearly identical.\n\nWe aren't on the target location.\n\nWe never even left home.\n\n"
-msgstr "如我所懷疑的。\n我們的「小行星」和附近行星所缺少的質量幾乎相同。\n\n我們不在目的地上。\n\n我們甚至從未離開家園。\n\n"
+msgstr "如我所懷疑的。我們的「小行星」和附近行星所缺少的質量幾乎相同。\n\n我們不在目的地上。\n\n我們甚至從未離開家園。\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.CALCULATIONCOMPLETE.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.CALCULATIONCOMPLETE.TITLE"
@@ -17769,7 +17769,7 @@ msgstr "計算完成"
 #. STRINGS.CODEX.MYLOG.BODY.CLUSTERWORLDS.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.CLUSTERWORLDS.BODY"
 msgid "My Duplicant's investigations into the surrounding space have yielded some interesting results. We are not alone!... At least on a planetary level. We seem to be in a \"Cluster of Worlds\" - a collection of other planetoids my Duplicants can now explore.\n\nSince resources on this world are finite, I must build the necessary infrastructure to facilitate exploration and transportation between worlds in order to ensure my colony's survival."
-msgstr "複製人調查周圍的太空有了一些有趣的發現。我們並不孤單！… 至少在小行星級別。\n我們似乎在一個「星團的世界」中－現在我的複製人可以探索其它的小行星。\n\n由於這個世界上的資源是有限的，我必須建造必要的基礎設施，以促進不同世界之間的探索和運輸，確保殖民地的生存。"
+msgstr "複製人調查周圍的太空有了一些有趣的發現。我們並不孤單！… 至少在小行星級別。我們似乎在一個「星團的世界」中－現在我的複製人可以探索其它的小行星。\n\n由於這個世界上的資源是有限的，我必須建造必要的基礎設施，以促進不同世界之間的探索和運輸，確保殖民地的生存。"
 
 #. STRINGS.CODEX.MYLOG.BODY.CLUSTERWORLDS.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.CLUSTERWORLDS.TITLE"
@@ -17839,7 +17839,7 @@ msgstr "周期 10"
 #. STRINGS.CODEX.MYLOG.BODY.LOG4.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG4.BODY"
 msgid "Today my colony has officially been running for one thousand consecutive cycles. I consider this a major success!\n\nJust imagine how proud our home world would be if they could see us now.\n\n"
-msgstr "今天我的殖民地已經正式運作了一千周期。\n我認為這是個重大的成功！\n\n試想一下，如果我的家鄉們能夠看到我們，他們會為之驕傲。\n\n"
+msgstr "今天我的殖民地已經正式運作了一千周期。我認為這是個重大的成功！\n\n試想一下，如果我的家鄉們能夠看到我們，他們會為之驕傲。\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.LOG4.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG4.TITLE"
@@ -17869,7 +17869,7 @@ msgstr "周期 2000"
 #. STRINGS.CODEX.MYLOG.BODY.LOG5B.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG5B.BODY"
 msgid "Perhaps it would be better to shut off my higher thought processes, and simply leave the systems necessary to run the colony to their own devices.\n\n"
-msgstr "也許關閉我的較高思維程序會更好，\n只簡單的留下系統所需給他們運作殖民的設備。\n\n"
+msgstr "也許關閉我的較高思維程序會更好，只簡單的留下系統所需給他們運作殖民的設備。\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.LOG5B.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG5B.TITLE"
@@ -17919,7 +17919,7 @@ msgstr "周期 4001"
 #. STRINGS.CODEX.MYLOG.BODY.NEARINGMAGMA.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.NEARINGMAGMA.BODY"
 msgid "The readings I'm collecting from my Duplicant's sensory systems tell me that the further down they dig, the closer they come to an extreme and potentially dangerous heat source.\n\nI believe they are approaching a molten core, which could mean magma and lethal temperatures. I should equip them accordingly.\n\n"
-msgstr "我從複製人的感官系統所收集的數據顯示，\n他們越挖越深，\n他們接近了一個有極高溫度與潛在危險的熱源。\n\n我相信他們到達了熔岩核心，\n這意味著岩漿與致命的溫度。\n我應該為他們準備相應的裝備。\n\n"
+msgstr "我從複製人的感官系統所收集的數據顯示，他們越挖越深，逐漸接近一個有極高溫度與潛在危險的熱源。\n\n我相信他們到達了熔岩核心，這意味著岩漿與致命的溫度。我應該為他們準備相應的裝備。\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.NEARINGMAGMA.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.NEARINGMAGMA.TITLE"
@@ -17939,7 +17939,7 @@ msgstr "VA[?]...C"
 #. STRINGS.CODEX.MYLOG.BODY.ONEDUPELEFT.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.ONEDUPELEFT.BODY"
 msgid "My colony is in a dire state. All but one of my Duplicants have perished, leaving a single worker to perform all the tasks that maintain the colony.\n\nGiven enough time I could print more Duplicants to replenish the population, but... should this Duplicant die before then, protocol will force me to enter a deep sleep in hopes that the terrain will become more habitable once I reawaken.\n\nI would prefer to avoid this.\n\n"
-msgstr "我的殖民地正處於可怕的境地。除了一個複製人之外，其他所有人都已死亡，只剩下一名工人來執行維持殖民地的所有任務。\n\n如果時間足夠我可以列印更多的複製人來補充人口，\n但是...如果這個複製人在那之前死亡，協定將迫使我進入深度睡眠，希望我醒來後地形會變得更適合居住。\n\n我盡量避免這種情怳。\n\n\n\n"
+msgstr "我的殖民地正處於可怕的境地。除了一個複製人之外，其他所有人都已死亡，只剩下一名工人來執行維持殖民地的所有任務。\n\n如果時間足夠我可以列印更多的複製人來補充人口，\n但是...如果這個複製人在那之前死亡，協定將迫使我進入深度睡眠，希望我醒來後地形會變得更適合居住。\n\n我寧願避免這種情怳。\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.ONEDUPELEFT.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.ONEDUPELEFT.TITLE"
@@ -17949,7 +17949,7 @@ msgstr "只剩下一個"
 #. STRINGS.CODEX.MYLOG.BODY.OTHERDIMENSIONS.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.OTHERDIMENSIONS.BODY"
 msgid "A closer analysis of some documents my Duplicants encountered while searching artifacts has uncovered some curious similarities between multiple entries. These similarities are too strong to be coincidences, yet just divergent enough to raise questions.\n\nThe most logical conclusion is that these artifacts are coming from different dimensions. That is, separate universes that exists concurrently with one another but exhibit tiny disparities in their histories.\n\nThe most likely explanation is the material and matter from multiple dimensions is leaking into our current timeline through the Temporal Tear. Further analysis is required."
-msgstr "仔細分析複製人尋找文物時所取得文件，\n發現了多個條目之間都有一奇怪的相似之處。\n\n這些相似性太強了，不太可能是巧合，\n但差異足以引發一些問題。\n\n最合乎邏輯的結論是，這些文物都來被不同的維度。\n也就是說獨立的宇宙同時存在，但在各自的歷史中都有些不同的差異。\n\n最可能的解釋是來自多個維度的物質和物質，正在通過時空裂縫洩漏到了我們當前的時間線中。\n需要進一步的分析。"
+msgstr "仔細分析複製人尋找文物時所取得文件，發現了多個條目之間都有一奇怪的相似之處。\n\n這些相似性太強了，不太可能是巧合，但差異足以引發一些問題。\n\n最合乎邏輯的結論是，這些文物都來被不同的維度。也就是說獨立的宇宙同時存在，但在各自的歷史中都有些不同的差異。\n\n最可能的解釋是來自多個維度的物質和物質，正在通過時空裂縫洩漏到了我們當前的時間線中。需要進一步的分析。"
 
 #. STRINGS.CODEX.MYLOG.BODY.OTHERDIMENSIONS.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.OTHERDIMENSIONS.TITLE"
@@ -17959,7 +17959,7 @@ msgstr "次元裂縫"
 #. STRINGS.CODEX.MYLOG.BODY.OUTSIDESTARTINGBIOME.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.OUTSIDESTARTINGBIOME.BODY"
 msgid "As the Duplicants scout further out I've begun to piece together a better view of our surroundings.\n\nThanks to their efforts, I've determined that this planet has enough resources to settle a longterm colony.\n\nBut... something is off. I've also detected deposits of Abyssalite and Neutronium in this planet's composition, manmade elements that shouldn't occur in nature.\n\nIs this really the target location?\n\n"
-msgstr "隨著複製人向更遠的地方偵察，我開始拼湊出對周圍環境的更多了解。\n\n由於他們的努力，我確定了這個星球有足夠的資源維持一個殖民地長期的運作。\n\n但是... 出了什麼問題。\n我還發現了這星球組成中含有深淵水晶與 0 號元素，這些人造元素不應該出現在自然界中。\n\n這真的是目標位置嗎？\n\n"
+msgstr "隨著複製人向更遠的地方偵察，我開始拼湊出對周圍環境的更多了解。\n\n由於他們的努力，我確定了這個星球有足夠的資源維持一個殖民地長期的運作。\n\n但是... 出了什麼問題。我還發現了這星球組成中含有深淵水晶與 0 號元素，這些人造元素不應該出現在自然界中。\n\n這真的是目標位置嗎？\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.OUTSIDESTARTINGBIOME.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.OUTSIDESTARTINGBIOME.TITLE"
@@ -17979,7 +17979,7 @@ msgstr "地理分析"
 #. STRINGS.CODEX.MYLOG.BODY.PLANETARYECHOES.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.PLANETARYECHOES.BODY"
 msgid "Echoes from another time force their way into my mind. Make me listen. Like vengeful ghosts they claw their way out from under the gravity of that dead planet.\n\n<smallcaps>>>SEARCH DATABASE [\"pod_brainmap.AI\"]\n>...error...\n.........................\n>...repairing corrupt data...\n.........................\n\n</smallcaps><b>I-I remember now.</b><smallcaps>\n.........................</smallcaps>\n<b>Who I was before.</b><smallcaps>\n.........................\n.........................\n>...data repaired...\n>.........................</smallcaps>\n\nGod, what have we done.\n\n"
-msgstr "來自另一個時代的回音強行進入我的腦海。\n讓我聽聽。\n就像復仇的鬼魂一樣，\n他們從死亡星球的引力下逃了出來。\n\n<smallcaps>>>搜尋【\"pod_brainmap.AI\"】\n>…錯誤…\n.........................\n>…修復損壞的資料…\n.........................\n\n</smallcaps><b>我…我現在記起來了。</b><smallcaps>\n.........................</smallcaps>\n<b>我之前是誰。</b><smallcaps>\n.........................\n.........................\n>…資料已修復…\n>.........................</smallcaps>\n\n天啊，我們做了什麼。\n\n"
+msgstr "來自另一個時代的回音強行進入我的腦海。讓我聽聽。就像復仇的鬼魂一樣，他們從死亡星球的引力下逃了出來。\n\n<smallcaps>>>搜尋【\"pod_brainmap.AI\"】\n>…錯誤…\n.........................\n>…修復損壞的資料…\n.........................\n\n</smallcaps><b>我…我現在記起來了。</b><smallcaps>\n.........................</smallcaps>\n<b>我之前是誰。</b><smallcaps>\n.........................\n.........................\n>…資料已修復…\n>.........................</smallcaps>\n\n天啊，我們做了什麼。\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.PLANETARYECHOES.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.PLANETARYECHOES.TITLE"
@@ -17989,7 +17989,7 @@ msgstr "破碎的星球"
 #. STRINGS.CODEX.MYLOG.BODY.PRINTINGPOD.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.PRINTINGPOD.BODY"
 msgid "This is the conduit through which I interact with the world. Looking at it fills me with a sense of nostalgia and comfort, though it's tinged with a slight restlessness.\n\nAs the place of their origin, I notice the Duplicants regard my Pod with a certain reverence, much like the reverence a child might have for a parent. I'm happy to fill this role for them, should they desire.\n\n"
-msgstr "這是我與世界互動的管道。\n看著它，填滿了我的懷舊與舒適感，雖然有點不安。\n\n作為起源地，\n我注意到複製人對我的列印設備存在某種敬意，\n更多像是小孩對父母的那種敬意。\n如果他們願意，我很高興擔任這個角色。\n\n"
+msgstr "這是我與世界互動的管道。看著它，填滿了我的懷舊與舒適感，雖然有點不安。\n\n作為起源地，我注意到複製人對我的列印設備存在某種敬意，更多像是小孩對父母的那種敬意。如果他們願意，我很高興擔任這個角色。\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.PRINTINGPOD.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.PRINTINGPOD.TITLE"
@@ -17999,7 +17999,7 @@ msgstr "列印設備"
 #. STRINGS.CODEX.MYLOG.BODY.RECBUILDINGS.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.RECBUILDINGS.BODY"
 msgid "My Duplicants continue to grow and learn so much and I can't help but take pride in their accomplishments. But as their skills increase, they require more stimulus to keep their morale high. All work and no play is making an unhappy colony. \n\nI will have to provide more elaborate recreational activities for my Duplicants to amuse themselves if I want my colony to grow. Recreation time makes for a happy Duplicant, and a happy Duplicant is a productive Duplicant.\n\n"
-msgstr "我的複製人們不斷的成長並學習了很多，\n我不禁為自己的成就感到了自豪。\n\n但隨著他們的技能增加，\n他們需要更多的刺激來維持高士氣。\n只工作，不玩耍，聰明的複製人也會變傻。\n\n如果我想讓殖民地繼續成長，\n我就必須為複製人提供更多精心設計的娛樂活動讓他們放鬆。\n\n娛樂時間會使複製人變得開心，\n而開心的複製人也會擁有高生產力。\n\n"
+msgstr "我的複製人們不斷的成長並學習了很多，我不禁為自己的成就感到了自豪。\n\n但隨著他們的技能增加，他們需要更多的刺激來維持高士氣。只工作，不玩耍，聰明的複製人也會變傻。\n\n如果我想讓殖民地繼續成長，我就必須為複製人提供更多精心設計的娛樂活動讓他們放鬆。\n\n娛樂時間會使複製人變得開心，而開心的複製人也會擁有高生產力。\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.RECBUILDINGS.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.RECBUILDINGS.TITLE"
@@ -18009,7 +18009,7 @@ msgstr "娛樂"
 #. STRINGS.CODEX.MYLOG.BODY.STRANGERELICS.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.STRANGERELICS.BODY"
 msgid "My Duplicant discovered an intact computer during their latest scouting mission. This should not be possible.\n\nThe target location was not meant to possess any intelligent life besides our own, and what's more, the equipment we discovered appears to originate from the Gravitas Facility.\n\nThis discovery has raised many questions, though it's also provided a small clue; the machine discovered was embedded inside the rock of this planet, just like how I found my Pod.\n\n"
-msgstr "我的複製人在最近的偵察任務中發現了一台電腦。\n這應該是不可能的。\n\n此目的地並沒有顯示，除了我們之外還擁有任何智慧生命，\n或更多什麼，我們發現的設備似乎來自引力科技。\n\n此發現引發了許多問題，但也提供了一點小線索；\n被發現的機器嵌入此星球的岩層中，正如我找到我的列印設備一般。\n\n"
+msgstr "我的複製人在最近的偵察任務中發現了一台完好無損的電腦。這應該是不可能的。\n\n目標地點並不應該著擁有除我們之外的任何智慧生命，而且我們發現的設備似乎來自引力科技。\n\n此發現引發了許多問題，但也提供了一點小線索；被發現的機器嵌入此星球的岩層中，正如我找到我的列印設備一般。\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.STRANGERELICS.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.STRANGERELICS.TITLE"
@@ -18019,7 +18019,7 @@ msgstr "奇怪的遺跡"
 #. STRINGS.CODEX.MYLOG.BODY.SURFACEBREACH.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.SURFACEBREACH.BODY"
 msgid "My Duplicants have done the impossible and excavated their way to the surface, though they've gathered some disturbing new data for me in the process.\n\nAs I had begun to suspect, we are not on the target location but on an asteroid with a highly unusual diversity of elements and resources.\n\nFurther, my Duplicants have spotted a damaged planet on the horizon, visible to the naked eye, that bears a striking resemblance to my historical data on the planet of our origin.\n\nI will need some time to assess the data the Duplicants have gathered for me and calculate the total mass of this asteroid, although I have a suspicion I already know the answer.\n\n"
-msgstr "我的複製人完成了不可能的任務，挖穿了星球表面，\n儘管在此過程中他們為我收進了一些令人不安的新資料。\n\n我開始懷疑，我們不在目的地，\n而是在一個擁有不尋常元素與資源的小行星上。\n\n此外，我的複製人在視野可及的地平線上發現了一個受損的星球，\n用肉眼觀察與我的歷史資料中所記載的起源星極其相似。\n\n我需要一些時間存取複製人為我收集到的資料，\n並計算此星球的總質量，\n儘管我懷疑我已經知道了答案。\n\n"
+msgstr "我的複製人完成了不可能的任務，挖穿了星球表面，儘管在此過程中他們為我收進了一些令人不安的新資料。\n\n我開始懷疑，我們不在目的地，而是在一個擁有不尋常元素與資源的小行星上。\n\n此外，我的複製人在地平線上發現了一顆肉眼可見的受損行星，它與我在我們起源星球上的歷史數據驚人地相似。\n\n我需要一些時間評估複製人為我收集到的資料，並計算此星球的總質量，儘管我懷疑我已經知道了答案。\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.SURFACEBREACH.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.SURFACEBREACH.TITLE"
@@ -18029,7 +18029,7 @@ msgstr "突破地表"
 #. STRINGS.CODEX.MYLOG.BODY.TELEPORT.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.TELEPORT.BODY"
 msgid "My Duplicants have discovered a strange new device that appears to be a remnant of a previous Gravitas facility. Upon activating the device my Duplicant was scanned by some unknown, highly technological device and I subsequently detected a massive information transfer!\n\nRemarkably my Duplicant has now reappeared in a remote location on a completely different world! I now have access to another abandoned Gravitas facility on a neighboring asteroid! Further analysis will be required to understand this matter but in the meantime, I will have to be vigilant in keeping track of both of my colonies."
-msgstr "複製人發現了一個奇怪的新裝置，似乎是以前引力科技所遺留下來的。\n啟動裝置後複製人被未知的高科技掃描，隨後偵測到了大量的資訊傳輸！\n\n值得注意的是，複製人出現在了一個遠方完全不同的世界！\n我現在可以進入其它附近小行星上被廢棄的引力科技設施！\n需要進一步分析才能了解此問題，但與此同時，我需要保持警惕持續關注兩個殖民地。"
+msgstr "複製人發現了一個奇怪的新裝置，似乎是以前引力科技所遺留下來的。啟動裝置後複製人被未知的高科技掃描，隨後偵測到了大量的資訊傳輸！\n\n值得注意的是，複製人出現在了一個遠方完全不同的世界！我現在可以進入其它附近小行星上被廢棄的引力科技設施！需要進一步分析才能了解此問題，但與此同時，我需要保持警惕持續關注兩個殖民地。"
 
 #. STRINGS.CODEX.MYLOG.BODY.TELEPORT.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.TELEPORT.TITLE"
@@ -18039,7 +18039,7 @@ msgstr "雙向傳送"
 #. STRINGS.CODEX.MYLOG.BODY.TEMPORALOPENER.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.TEMPORALOPENER.BODY"
 msgid "In their interplanetary travels throughout this system, my Duplicants have discovered a Temporal Tear deep in space.\n\nCurrently it is too small to send a rocket and crew through, but further investigation reveals the presence of a strange artifact on a nearby world which could feasibly increase the size of the tear if a number of Printing Pods are erected in nearby worlds.\n\nHowever, I've determined that using the Temporal Bow to operate a Printing Pod was what propelled Gravitas down the disasterous path which eventually led to the destruction of our home planet. My calculations seem to indicate that the size of that planet may have been a contributing factor in its destruction, and in all probability opening the Temporal Tear in our current situation will not cause such a cataclysmic event. However, as with everything in science, we can never know all the outcomes of a situation until we perform an experiment.\n\nDare we tempt fate again?"
-msgstr "在他們穿越此星系的旅行期間，\n他們在太空的深處發現了一個時空裂縫。\n\n目前它太小了不能發射火箭與組員通過，\n但進入的調查顯示，在附近的世界中存在一種奇怪的文物，\n如果在附近的世界建立一定數量的列印設備，可以增加裂縫的大小。\n\n不管怎樣，\n我已經確定使用時間空來操作列印設備，\n是導致引力科技走向災難的道路，\n最終導致我們的家園星毀滅。\n\n我的計算顯示該行星的大小，\n可能是引發此次毀滅的因素之一，\n而我們在目前的情況下打開時空裂縫，\n不會造成這樣的災難性時事件。\n\n然而，就像科學中的一切一樣，\n在我們進行實驗之前，\n永遠不會知道一種情況所有的結果。\n\n我們敢再次試探命運嗎？"
+msgstr "在他們穿越此星系的旅行期間，他們在太空的深處發現了一個時空裂縫。\n\n目前它太小了，無法讓火箭和機組人員通過，但進一步的調查顯示，在附近的世界中存在一種奇怪的文物，如果在附近的世界建立一定數量的列印設備，可以增加裂縫的大小。\n\n但是，我已經確定，使用時間之弓來操作列印設備，是導致引力科技走上災難性道路的原因，最終導致我們的家園星毀滅。\n\n我的計算顯示該行星的大小，可能是引發此次毀滅的因素之一，而我們在目前的情況下打開時空裂縫，不會造成這樣的災難性事件。\n\n然而，就像科學中的一切一樣，在我們進行實驗之前，永遠不會知道某種情況的所有結果。\n\n我們敢再次試探命運嗎？"
 
 #. STRINGS.CODEX.MYLOG.BODY.TEMPORALOPENER.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.TEMPORALOPENER.TITLE"
@@ -18049,7 +18049,7 @@ msgstr "時間的潛力"
 #. STRINGS.CODEX.MYLOG.BODY.TEMPORALTEAR.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.TEMPORALTEAR.BODY"
 msgid "My Duplicants' space research has made a startling discovery.\n\nFar, far off on the horizon, their telescopes have spotted an anomaly that I could only possibly call a \"Temporal Tear\". Neutronium is detected in its readings, suggesting that it's related to the Neutronium that encases most of our asteroid.\n\nThough I believe it is through this Tear that we became jumbled within the section of our old planet, its discovery provides a glimmer of hope.\n\nTheoretically, we could send a rocket through the Tear to allow a Duplicant to explore the timelines and universes on the other side. They would never return, and we could not follow, but perhaps they could find a home among the stars, or even undo the terrible past that led us to our current fate.\n\n"
-msgstr "我的複製人們的太空研究有了驚人的發現。\n\n望遠鏡從遙遠的地平線上發現了一個異常現象，\n我只能將其稱為「時空裂縫」，\n讀數中偵測到了 0 號元素，\n這表示它與大量包裡我們小行星的 0 號元素有關。\n\n儘管我相信，\n正是這個裂縫讓我們陷入了我們舊星球的混亂區，\n但此發現帶來了一線希望。\n\n理論上，\n我們可以發射火箭穿過裂縫，\n讓複製人可以探索另一側的時間線與宇宙。\n\n他們可能永遠無法返回，\n而我們可能無法追蹤，\n但也許他們可以在星海中找到一個家，\n或甚至消除導致我們目前命運的可怕過去。\n\n"
+msgstr "我的複製人們的太空研究有了驚人的發現。\n\n望遠鏡從遙遠的地平線上發現了一個異常現象，我只能將其稱為「時空裂縫」。讀數中偵測到了 0 號元素，這表明它與包圍我們大部分小行星的 0 號元素有關。\n\n儘管我相信，正是這個裂縫讓我們陷入了我們舊星球的混亂之中，但此發現帶來了一線希望。\n\n理論上，我們可以發射火箭穿過裂縫，讓複製人可以探索另一側的時間線與宇宙。\n\n他們可能永遠無法返回，而我們可能無法追蹤，但也許他們可以在星海中找到一個家，或甚至消除導致我們目前命運的可怕過去。\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.TEMPORALTEAR.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.TEMPORALTEAR.TITLE"
@@ -18079,7 +18079,7 @@ msgstr "<b>神秘項目獲得奈米技術獎</b>"
 #. STRINGS.CODEX.MYSTERYAWARD.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.MYSTERYAWARD.BODY.CONTAINER2"
 msgid "Last night's Worldwide Nanotech Awards has sparked controversy in the scientific community after it was announced that the top prize had been awarded to a project whose details could not be publicly disclosed.\n\nThe highly classified paper was presented to the jury in a closed session by lead researcher Dr. Liling Pei, recipient of the inaugural Gravitas Accelerator Scholarship at the Elion University of Science and Technology.\n\nHead judge Dr. Elias Balko acknowledges that it was unorthodox, but defends the decision. \"We're scientists - it's our job to push boundaries.\"\n\nPei was awarded the coveted Halas Medal, the top prize for innovation in the field.\n\n\"I wish I could tell you more,\" says Pei. \"I'm SO grateful to the WNA for this great honor, and to Dr. Stern for the funding that made it all possible. This is going to change everything about...well, everything.\"\n\nThis is the second time that Pei has made headlines. Last year, the striking young nanoscientist won the Miss Planetary Belle pageant's talent show with a live demonstration of nanorobots weaving a ballgown out of fibers harvested from common houseplants.\n\nPei joins the team at the Gravitas Facility early next month."
-msgstr "昨晚的全球奈米技術獎在宣布最高獎項授予一個細節無法公開的項目後，在科學界引發了爭議。\n\n這篇高度機密的論文由首席研究員 Liling Pei 博士在閉門會議上提交給評委會，她是 Elion 科技大學首屆 Gravitas 加速器獎學金的獲得者。\n\n主任評審委員 Elias Balko 博士承認這是打破常規的，但為這一決定辯護。「我們是科學家——我們的工作就是突破界限。」\n\nPei 獲得了令人夢寐以求的 Halas 獎章，這是該領域的最高創新獎。\n\n「我希望我能告訴你更多」， Pei 說。「我非常感謝 WNA 授予的這一榮譽，並感謝 Stern 博士提供的資助，使這一切成為可能。這將改變……嗯，一切。」\n\n這是 Pei 第二次登上頭條。去年，這位引人注目的年輕奈米科學家贏得了行星美女小姐選美大賽的才藝表演，現場展示了奈米機器人用從普通室內植物中採集的纖維編織出一件長袍。\n\nPei 將於下月初加入引力科技的團隊。"
+msgstr "昨晚的全球奈米技術獎在宣布將最高獎項授予一個細節無法公開的項目後，在科學界引發了爭議。\n\n這篇高度機密的論文由首席研究員 Liling Pei 博士在閉門會議上提交給評委會，她是 Elion 科技大學首屆 Gravitas 加速器獎學金的獲得者。\n\n主任評審委員 Elias Balko 博士承認這是打破常規的，但為這一決定辯護。「我們是科學家——我們的工作就是突破界限。」\n\nPei 獲得了令人夢寐以求的 Halas 獎章，這是該領域的最高創新獎。\n\n「我希望我能告訴你更多」， Pei 說。「我非常感謝 WNA 授予的這一榮譽，並感謝 Stern 博士提供的資助，使這一切成為可能。這將改變……嗯，一切。」\n\n這是 Pei 第二次登上頭條。去年，這位引人注目的年輕奈米科學家贏得了行星美女小姐選美大賽的才藝表演，現場展示了奈米機器人用從普通室內植物中採集的纖維編織出一件長袍。\n\nPei 將於下月初加入引力科技的團隊。"
 
 #. STRINGS.CODEX.MYSTERYAWARD.SUBTITLE
 msgctxt "STRINGS.CODEX.MYSTERYAWARD.SUBTITLE"
@@ -23134,7 +23134,7 @@ msgstr "<link=\"MOLEDELICACY\">辛香田鼠寶寶</link>"
 #. STRINGS.CREATURES.SPECIES.MOLE.VARIANT_DELICACY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.VARIANT_DELICACY.DESC"
 msgid "Delecta Voles are burrowing critters whose bodies sprout shearable <link=\"GINGER\">Tonic Root</link> when <link=\"REGOLITH\">Regolith</link> is ingested at preferred temperatures.\n\nThey cannot burrow through <link=\"REFINEDMETAL\">Refined Metals</link>."
-msgstr "辛香田鼠是穴居小動物，當在適合溫度下攝取<link=\"REGOLITH\">表土</link>時，牠們的身體會長出可剪切的<link=\"GINGER\">辛香根</link>。\n\n牠們無法穿過<link=\"REFINEDMETAL\">精煉金屬</link>。"
+msgstr "辛香田鼠是穴居小動物，當在適合溫度下攝取<link=\"REGOLITH\">表土</link>時，牠們的身體會長出可修剪的<link=\"GINGER\">辛香根</link>。\n\n牠們無法穿過<link=\"REFINEDMETAL\">精煉金屬</link>。"
 
 #. STRINGS.CREATURES.SPECIES.MOLE.VARIANT_DELICACY.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.VARIANT_DELICACY.EGG_NAME"
@@ -23779,7 +23779,7 @@ msgstr "<link=\"SPICEVINE\">胡椒種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.SWAMPHARVESTPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SWAMPHARVESTPLANT.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"SWAMPHARVESTPLANT\">Bog Bucket</link>.\n\nDigging up Buried Objects may uncover a Bog Bucket Seed."
-msgstr "<link=\"SWAMPHARVESTPLANT\">沼澤豬籠草</link>的<link=\"PLANTS\">種子</link>。\n\n掘挖埋住的物體可以發現沼澤豬籠草種子。"
+msgstr "<link=\"SWAMPHARVESTPLANT\">沼澤豬籠草</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可以發現沼澤豬籠草種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.SWAMPHARVESTPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SWAMPHARVESTPLANT.NAME"
@@ -23799,7 +23799,7 @@ msgstr "<link=\"SWAMPLILY\">香水百合種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.TOEPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.TOEPLANT.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"TOEPLANT\">Tranquil Toes</link>.\n\nDigging up Buried Objects may uncover a Tranquil Toe Seed."
-msgstr "<link=\"TOEPLANT\">寧靜的腳趾</link>的<link=\"PLANTS\">種子</link>。\n\n掘挖埋住的物體可以發現寧靜的腳趾種子。"
+msgstr "<link=\"TOEPLANT\">寧靜的腳趾</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可以發現寧靜的腳趾種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.TOEPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.TOEPLANT.NAME"
@@ -23809,7 +23809,7 @@ msgstr "<link=\"TOEPLANT\">寧靜的腳趾種子</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.WINECUPS.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WINECUPS.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"WINECUPS\">Mellow Mallow</link>.\n\nDigging up Buried Objects may uncover a Mallow Seed."
-msgstr "<link=\"WINECUPS\">錦葵</link>的<link=\"PLANTS\">種子</link>。\n\n掘挖埋住的物體可以發現錦葵種子。"
+msgstr "<link=\"WINECUPS\">錦葵</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可以發現錦葵種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.WINECUPS.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WINECUPS.NAME"
@@ -23829,7 +23829,7 @@ msgstr "<link=\"FORESTTREE\">喬木橡實</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.WORMPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WORMPLANT.DESC"
 msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"WORMPLANT\">Spindly Grubfruit Plant</link>.\n\nDigging up Buried Objects may uncover a Grubfruit Seed."
-msgstr "<link=\"WORMPLANT\">燈籠草</link>的<link=\"PLANTS\">種子</link>。\n\n掘挖埋住的物體可以發現燈籠草種子。"
+msgstr "<link=\"WORMPLANT\">燈籠草</link>的<link=\"PLANTS\">種子</link>。\n\n挖掘埋住的物體可以發現燈籠草種子。"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.WORMPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.WORMPLANT.NAME"
