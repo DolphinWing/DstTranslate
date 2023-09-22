@@ -48,7 +48,7 @@ fun ConfigPane(
 ) {
     var visible by remember { mutableStateOf(false) }
     val githubRoot = if (configs.dstWorkshopDir.contains("DstTranslate")) {
-        configs.dstWorkshopDir.substring(0, configs.dstWorkshopDir.indexOf("DstTranslate"))
+        configs.dstWorkshopDir.substring(0, configs.dstWorkshopDir.indexOf("DstTranslate") + 12)
     } else ""
 
     Column {
@@ -61,7 +61,7 @@ fun ConfigPane(
                 onConfigChange?.invoke(
                     configs.copy(
                         dstWorkshopDir = "${file.absolutePath}${s}workshop-1993780385",
-                        dstAssetsDir = "${file.absolutePath}${s}android-app${s}app${s}src${s}main${s}assets",
+                        dstAssetsDir = "${file.absolutePath}${s}dst-assets",
                         stringMap = "${file.absolutePath}${s}desktop-app${s}resources${s}common${s}strings.xml",
                         oniWorkshopDir = "${file.absolutePath}${s}workshop-2906930548",
                         oniAssetsDir = "${file.absolutePath}${s}oni-assets",
