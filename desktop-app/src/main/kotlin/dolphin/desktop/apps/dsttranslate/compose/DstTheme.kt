@@ -45,9 +45,9 @@ object PreviewDefaults {
     // val samples = listOf(WordEntry.default(), dst, chs, cht)
 
     val model = PoDataModel(DesktopPoHelper().apply {
-        addEntry(WordEntry.default())
-        addEntry(dst)
-        addEntry(chs)
-        addEntry(cht)
+        addToTodoList(WordEntry.default())
+        addToTodoList(dst)
+        addToTodoList(chs)
+        addToTodoList(cht)
     })
 }

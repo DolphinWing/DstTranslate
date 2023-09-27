@@ -17,12 +17,12 @@ class PoDataModel(val helper: DesktopPoHelper) {
     val searchText = MutableStateFlow("")
     val searchList = MutableStateFlow(emptyList<WordEntry>())
     val suspectMap = MutableStateFlow(SuspectMap())
-    val appMode = MutableStateFlow(PoHelper.Mode.DST)
+    val appMode = MutableStateFlow(PoHelper.Mode.ONI)
 
     /**
      * Load Ini and Po files from disk
      */
-    suspend fun loadIniAndPo(mode: PoHelper.Mode = PoHelper.Mode.DST) = withContext(Dispatchers.IO) {
+    suspend fun loadIniAndPo(mode: PoHelper.Mode = PoHelper.Mode.ONI) = withContext(Dispatchers.IO) {
         appMode.emit(mode)
         helper.loadXml() // setup replacement at launch
         configs.emit(Configs(helper.ini))
@@ -73,6 +73,7 @@ class PoDataModel(val helper: DesktopPoHelper) {
         val list = ArrayList<Long>()
         val filtered = helper.buildChangeList()
         filtered.forEach { item -> list.add(item.changed) }
+        println("refreshDataSource: ${filtered.size}")
         filteredList.emit(filtered)
         changedList.emit(list)
     }

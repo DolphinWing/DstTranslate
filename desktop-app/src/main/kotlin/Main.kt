@@ -28,9 +28,11 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.unit.DpSize
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
+import androidx.compose.ui.window.rememberWindowState
 import dolphin.android.apps.dsttranslate.PoHelper
 import dolphin.android.apps.dsttranslate.WordEntry
 import dolphin.desktop.apps.dsttranslate.DesktopPoHelper
@@ -58,6 +60,7 @@ import java.awt.datatransfer.DataFlavor
 import java.awt.datatransfer.StringSelection
 import java.io.File
 import java.net.URL
+import kotlin.time.Duration.Companion.milliseconds
 
 enum class UiState {
     Main, Editor, Search, Analysis,
@@ -84,8 +87,9 @@ fun main(args: Array<String>) = application {
 //    println("homeDir = $homeDir")
 
     val model = PoDataModel(DesktopPoHelper(Ini(workingDir), debug = debug).apply { prepare() })
+    val windowState = rememberWindowState(size = DpSize(1024.dp, 768.dp))
 
-    Window(onCloseRequest = ::exitApplication, title = "DST Translate") {
+    Window(onCloseRequest = ::exitApplication, state = windowState, title = "DST Translate") {
         App(
             model,
             onCopyTo = ::copyToSystemClipboard,
@@ -93,6 +97,11 @@ fun main(args: Array<String>) = application {
             debug = debug,
             appVersion = version,
         )
+    }
+
+    LaunchedEffect(Unit) {
+        delay(500.milliseconds)
+        model.loadIniAndPo() // LaunchedEffect
     }
 }
 
@@ -187,7 +196,6 @@ fun App(
         }
 
         LaunchedEffect(Unit) {
-            model.loadIniAndPo() // LaunchedEffect
             model.suspectMap.collect { suspects ->
                 val list = ArrayList<SuspectData>()
                 suspects.forEach { (category, map) ->

@@ -184,7 +184,7 @@ abstract class PoHelper {
     /**
      * Loading status. True means the app is processing data.
      */
-    val loading = MutableStateFlow(false)
+    val loading = MutableStateFlow(true)
 
     /**
      * Load chs and cht translation file to app.
@@ -253,7 +253,20 @@ abstract class PoHelper {
                 str = sc2tc(entry.str).trim()
             }
             str = refactor(str, mode)
-            addEntry(WordEntry(entry.key, entry.text, entry.id, str, newly))
+            addToTodoList(WordEntry(entry.key, entry.text, entry.id, str, newly))
+        }
+        log("check revised map")
+        t.filter { entry -> !sourceMap.containsKey(entry.key) }.forEach { entry ->
+            var str = "" // translated text in old versions
+            if (originMap.containsKey(entry.key)) {
+                val str1 = originMap[entry.key]?.str ?: ""
+                if (str1.isNotEmpty()) str = str1.trim()
+            }
+            val newly = str.isEmpty()
+            str = if (str.isEmpty() && newly) entry.id else entry.str
+            str = refactor(str, mode)
+            log("key: ${entry.key()} ${str.isEmpty()} $str")
+            addToTodoList(WordEntry(entry.key, entry.text, entry.id, str, newly))
         }
         val stop4 = System.currentTimeMillis()
         log("new list size: ${wordList.size} (${stop4 - stop3} ms)")
@@ -271,7 +284,7 @@ abstract class PoHelper {
      *
      * @param entry new word
      */
-    fun addEntry(entry: WordEntry) {
+    fun addToTodoList(entry: WordEntry) {
         wordList.add(entry)
     }
 
@@ -347,8 +360,10 @@ abstract class PoHelper {
                 dst?.id != entry.id || // english text changed
                 dst.str != entry.str || // translation changed
                 entry.changed > 0 || // entry itself changed by editor
+                revisedMap[entry.key]?.id != dst.id || // english template changed
                 chs?.id != dst.id) // source english text changed
-                && entry.str.length > 2 && !entry.string().startsWith("only_used_by")
+                && entry.str.length > 2 // no translation
+                && !entry.string().startsWith("only_used_by")
     }
 
     /**
