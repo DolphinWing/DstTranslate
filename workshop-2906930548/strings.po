@@ -15804,7 +15804,7 @@ msgstr "農業筆記"
 #. STRINGS.CODEX.A2_B327.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A2_B327.BODY.CONTAINER1"
 msgid "I'm starting my new job at Gravitas today. I'm... well, I'm nervous.\n\nIt turns out they hired a bunch of new people - I guess they're expanding - and most of them are about my age, but I'm the only one that hasn't done my doctorate. They all call me \"Mister\" Kraus and it's the <i>worst</i>.\n\nI have no idea where I'll find the time to do my PhD while working a full time job.\n------------------\n"
-msgstr "我今天開始了在引力科技的新工作。\n我…很好，我很緊張。\n\n它們顧用一大堆新人－我猜它們正在擴張－多數和我年齡差不多，\n但我是唯一沒有完成博士學位的人。\n他們都叫我 Kraus「先生」，真的 <i>很壞</i>。\n\n在一個全職的工作上，我該怎麼找到時間完成我的博士學位。\n------------------\n"
+msgstr "我今天開始了在引力科技的新工作。我…很好，我很緊張。\n\n它們雇用一大堆新人－我猜它們正在擴張－多數和我年齡差不多，但我是唯一沒有完成博士學位的人。他們都叫我 Kraus「先生」，真的<i>很壞</i>。\n\n在一個全職的工作上，我該怎麼找到時間完成我的博士學位。\n------------------\n"
 
 #. STRINGS.CODEX.A2_B327.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A2_B327.BODY.CONTAINER2"
@@ -15899,7 +15899,7 @@ msgstr "熱力學定律"
 #. STRINGS.CODEX.A3_B556.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A3_B556.BODY.CONTAINER1"
 msgid "I've been so tired lately. I've probably spent the last 3 nights sleeping at my desk, and I've used the lab's safety shower to bathe twice already this month.\n\nWe're technically on schedule, but for some reason Director Stern has been breathing down my neck to get these new products ready for market.\n\nNormally I'd be mad about the added pressure on my work, but something in the Director's voice tells me that time is of the essence.\n------------------\n"
-msgstr "我最近好累。\n我大概在我的辦公桌前睡了三晚，\n這個月我用了實驗室的安全淋浴間洗了兩次澡。\n\n從技術上來說我們可如期上市，\n但出於某種原因 Stern 董士緊逼著我讓產品盡快推出市場。\n\n通常我會為工作上感到的壓力而抓狂，\n但經理的聲音告訴我時間是關鍵。\n------------------\n"
+msgstr "我最近好累。\n我大概在我的辦公桌前睡了三晚，\n這個月我用了實驗室的安全淋浴間洗了兩次澡。\n\n從技術上來說我們可如期上市，\n但出於某種原因 Stern 主任緊逼著我讓產品盡快推出市場。\n\n通常我會為工作上感到的壓力而抓狂，\n但經理的聲音告訴我時間是關鍵。\n------------------\n"
 
 #. STRINGS.CODEX.A3_B556.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A3_B556.BODY.CONTAINER2"
@@ -16559,7 +16559,7 @@ msgstr "Holland 博士的狗"
 #. STRINGS.CODEX.B1_SPACEFACILITYDISPLAY1.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B1_SPACEFACILITYDISPLAY1.BODY.CONTAINER1"
 msgid "Bring your office to the stars with Gravitas new corporate space stations.\n\nEnjoy a captivated workforce with over 600 square feet of office space in low earth orbit. Stunning views, a low gravity gym and a cafeteria serving the finest nutritional bars await your personnel.\n\nDaily to and from missions to your satellite office via our luxury space shuttles.\n\nRest assured our space stations and shuttles utilize only the extremely efficient, environmentally friendly Gravitas proprietary power sources.\n\nThe workplace revolution starts now!"
-msgstr "將你的辦公室搬到太空中的引力科技新型企業太空站。\n\n在低地球軌道上超過 600 平方英尺的辦公空間，享受迷人的勞動力。\n令人讚嘆的景色、低重力健身房與最好的能量棒在餐廳裡等著你的員工。\n\n透過我們的豪華太空船每日往返你的衛星辦公室。\n\n請放心，我們的太空站與太空船只使用非常高效，對環保的引力科技能源。\n\n職場革命從現在開始！"
+msgstr "將你的辦公室搬到太空中的引力科技新型企業太空站。\n\n在低地球軌道上超過 600 平方英尺的辦公空間，享受迷人的勞動力。\n令人讚嘆的景色、低重力健身房與最好的能量棒在餐廳裡等著你的員工。\n\n透過我們的豪華太空船每日往返你的衛星辦公室。\n\n請放心，我們的太空站與太空船只使用非常高效，最環保的引力科技能源。\n\n職場革命從現在開始！"
 
 #. STRINGS.CODEX.B1_SPACEFACILITYDISPLAY1.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.B1_SPACEFACILITYDISPLAY1.BODY.CONTAINER2"
@@ -16569,7 +16569,7 @@ msgstr "現在預訂第一個軌道辦公室。\n100% 退款保證（除了 10% 
 #. STRINGS.CODEX.B1_SPACEFACILITYDISPLAY1.SUBTITLE
 msgctxt "STRINGS.CODEX.B1_SPACEFACILITYDISPLAY1.SUBTITLE"
 msgid "PUBLIC RELEASE"
-msgstr "公開發佈"
+msgstr "公開發行"
 
 #. STRINGS.CODEX.B1_SPACEFACILITYDISPLAY1.TITLE
 msgctxt "STRINGS.CODEX.B1_SPACEFACILITYDISPLAY1.TITLE"
@@ -40774,7 +40774,7 @@ msgstr "一點點對帕夫纖細四肢的愛。\n為2023年科雷節釋出。"
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.PUFT.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.PUFT.NAME"
 msgid "Puft Atmo Gloves"
-msgstr "飛魚太空服手套"
+msgstr "帕夫太空服手套"
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.PURPLE.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.PURPLE.DESC"
