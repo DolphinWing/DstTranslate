@@ -14040,7 +14040,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITTEMPERATURESENSOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITTEMPERATURESENSOR.LOGIC_PORT"
-msgid "Internal item <link=\"HEAT\">Temperature</link>"
+msgid "Internal Item <link=\"HEAT\">Temperature</link>"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITTEMPERATURESENSOR.LOGIC_PORT_ACTIVE
@@ -17323,6 +17323,26 @@ msgctxt "STRINGS.CODEX.CLEANER.TITLE"
 msgid "Gulp Fish"
 msgstr ""
 
+#. STRINGS.CODEX.CREATURE_DESCRIPTORS.CONFINED
+msgctxt "STRINGS.CODEX.CREATURE_DESCRIPTORS.CONFINED"
+msgid "<link=\"CREATURES::GUIDE::MOOD\">Confined</link> when a room is smaller than <b>{0} cells</b>."
+msgstr ""
+
+#. STRINGS.CODEX.CREATURE_DESCRIPTORS.MAXAGE
+msgctxt "STRINGS.CODEX.CREATURE_DESCRIPTORS.MAXAGE"
+msgid "This critter's typical <link=\"CREATURES::GUIDE::FERTILITY\">Life Span</link> is <b>{0}</b>."
+msgstr ""
+
+#. STRINGS.CODEX.CREATURE_DESCRIPTORS.NON_LETHAL_RANGE
+msgctxt "STRINGS.CODEX.CREATURE_DESCRIPTORS.NON_LETHAL_RANGE"
+msgid "Livable range: <b>{0}</b> to <b>{1}</b>"
+msgstr ""
+
+#. STRINGS.CODEX.CREATURE_DESCRIPTORS.OVERCROWDING
+msgctxt "STRINGS.CODEX.CREATURE_DESCRIPTORS.OVERCROWDING"
+msgid "<link=\"CREATURES::GUIDE::MOOD\">Overcrowded</link> when a room has less than <b>{0} cells</b> of space for each critter."
+msgstr ""
+
 #. STRINGS.CODEX.CREATURE_DESCRIPTORS.TEMPERATURE.COMFORT_RANGE
 msgctxt "STRINGS.CODEX.CREATURE_DESCRIPTORS.TEMPERATURE.COMFORT_RANGE"
 msgid "Comfort range: <b>{0}</b> to <b>{1}</b>"
@@ -17868,6 +17888,11 @@ msgctxt "STRINGS.CODEX.EXPERIMENT52B.TITLE"
 msgid "Experiment 52B"
 msgstr ""
 
+#. STRINGS.CODEX.FORMAT_STRINGS.BUILDING_SIZE
+msgctxt "STRINGS.CODEX.FORMAT_STRINGS.BUILDING_SIZE"
+msgid "Building Size: {0} wide x {1} high"
+msgstr ""
+
 #. STRINGS.CODEX.FORMAT_STRINGS.CONSTRUCTION_TIME
 msgctxt "STRINGS.CODEX.FORMAT_STRINGS.CONSTRUCTION_TIME"
 msgid "Build Time: {0} seconds"
@@ -18086,6 +18111,16 @@ msgstr ""
 #. STRINGS.CODEX.HEADERS.CRITTERDROPS
 msgctxt "STRINGS.CODEX.HEADERS.CRITTERDROPS"
 msgid "Drops"
+msgstr ""
+
+#. STRINGS.CODEX.HEADERS.CRITTERMAXAGE
+msgctxt "STRINGS.CODEX.HEADERS.CRITTERMAXAGE"
+msgid "Life Span"
+msgstr ""
+
+#. STRINGS.CODEX.HEADERS.CRITTEROVERCROWDING
+msgctxt "STRINGS.CODEX.HEADERS.CRITTEROVERCROWDING"
+msgid "Space Required"
 msgstr ""
 
 #. STRINGS.CODEX.HEADERS.DIET
@@ -39220,7 +39255,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.LEAD.DESC
 msgctxt "STRINGS.ELEMENTS.LEAD.DESC"
-msgid "(Pb)Lead is a soft yet extremely dense <link=\"REFINEDMETAL\">Refined Metal</link>.\n\nIt has a low Overheat Temperature and is suitable for building <link=\"POWER\">Power</link> systems."
+msgid "(Pb) Lead is a soft yet extremely dense <link=\"REFINEDMETAL\">Refined Metal</link>.\n\nIt has a low Overheat Temperature and is suitable for building <link=\"POWER\">Power</link> systems."
 msgstr ""
 
 #. STRINGS.ELEMENTS.LEAD.NAME
@@ -39310,7 +39345,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.LIQUIDPROPANE.DESC
 msgctxt "STRINGS.ELEMENTS.LIQUIDPROPANE.DESC"
-msgid "(C<sub>3</sub>H<sub>8</sub>) Propane is an alkane.\n\nThis selection is in a<link=\"ELEMENTSLIQUID\">Liquid</link> state.\n\nIt is useful in <link=\"POWER\">Power</link> production."
+msgid "(C<sub>3</sub>H<sub>8</sub>) Propane is an alkane.\n\nThis selection is in a <link=\"ELEMENTSLIQUID\">Liquid</link> state.\n\nIt is useful in <link=\"POWER\">Power</link> production."
 msgstr ""
 
 #. STRINGS.ELEMENTS.LIQUIDPROPANE.NAME
@@ -58288,6 +58323,11 @@ msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_DESCRIPTION"
 msgid "INFORMATION"
 msgstr ""
 
+#. STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_EFFECTS
+msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_EFFECTS"
+msgid "EFFECTS"
+msgstr ""
+
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_ELEMENTS
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_ELEMENTS"
 msgid "RESOURCES"
@@ -61780,7 +61820,7 @@ msgstr ""
 
 #. STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER
 msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
-msgid "SONG OF THE MOO"
+msgid "OCTOBER 2023 QOL UPDATE"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.MOTD.NEWS_BODY
@@ -61795,7 +61835,7 @@ msgstr ""
 
 #. STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
-msgid "This update includes:\n\n•<indent=20px>Gassy Moos can be milked for a substance called Brackene.</indent>\n•<indent=20px>Several new Brackene related buildings.</indent>\n•<indent=20px>New Egg recipes and food tuning.</indent>\n•<indent=20px>A high temperature plastic called Plastium is craftable at the Molecular Forge.</indent>\n•<indent=20px>New cosmetic skins.</indent>\n•<indent=20px>Bug fixes and more.</indent>\n\n   Check out the full patch notes for more details!"
+msgid "This update includes:\n\n•<indent=20px>Critters can be moved with Move To tool.</indent>\n•<indent=20px>Blueprints in a colony's collection are recyclable.</indent>\n•<indent=20px>Added searchable element filter and other improvements to UI.</indent>\n•<indent=20px>Revised Industrial Machinery categorization for buildings.</indent>\n•<indent=20px>Bug fixes and more.</indent>\n\n   Check out the full patch notes for more details!"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT
@@ -63508,6 +63548,11 @@ msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.BARTERING.TOOLTIP_UNBUYABLE"
 msgid "This item is unprintable"
 msgstr ""
 
+#. STRINGS.UI.KLEI_INVENTORY_SCREEN.BARTERING.TOOLTIP_UNBUYABLE_BETA
+msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.BARTERING.TOOLTIP_UNBUYABLE_BETA"
+msgid "This item will be printable after the public testing period"
+msgstr ""
+
 #. STRINGS.UI.KLEI_INVENTORY_SCREEN.BARTERING.TOOLTIP_UNSELLABLE
 msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.BARTERING.TOOLTIP_UNSELLABLE"
 msgid "This item is non-recyclable"
@@ -63648,6 +63693,11 @@ msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.CATEGORIES.SWEEPYS"
 msgid "Sweepys"
 msgstr ""
 
+#. STRINGS.UI.KLEI_INVENTORY_SCREEN.CLEAR_SEARCH_BUTTON_TOOLTIP
+msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.CLEAR_SEARCH_BUTTON_TOOLTIP"
+msgid "Clear search"
+msgstr ""
+
 #. STRINGS.UI.KLEI_INVENTORY_SCREEN.CLOTHING_ITEM_FACADE_FOR
 msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.CLOTHING_ITEM_FACADE_FOR"
 msgid "This blueprint can be used in any outfit."
@@ -63711,6 +63761,11 @@ msgstr ""
 #. STRINGS.UI.KLEI_INVENTORY_SCREEN.OPEN_INVENTORY_BUTTON
 msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.OPEN_INVENTORY_BUTTON"
 msgid "Open Klei Inventory"
+msgstr ""
+
+#. STRINGS.UI.KLEI_INVENTORY_SCREEN.SEARCH_PLACEHOLDER
+msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.SEARCH_PLACEHOLDER"
+msgid "Search"
 msgstr ""
 
 #. STRINGS.UI.KLEI_INVENTORY_SCREEN.SUBCATEGORIES.ATMOSUIT_BELTS_BASIC
@@ -63946,6 +64001,21 @@ msgstr ""
 #. STRINGS.UI.KLEI_INVENTORY_SCREEN.SUBCATEGORIES.YAML
 msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.SUBCATEGORIES.YAML"
 msgid "YAML"
+msgstr ""
+
+#. STRINGS.UI.KLEI_INVENTORY_SCREEN.TOOLTIP_VIEW_ALL_ITEMS
+msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.TOOLTIP_VIEW_ALL_ITEMS"
+msgid "Filter: Showing all items\n\n(ClickType/Click) to toggle"
+msgstr ""
+
+#. STRINGS.UI.KLEI_INVENTORY_SCREEN.TOOLTIP_VIEW_DOUBLES_ONLY
+msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.TOOLTIP_VIEW_DOUBLES_ONLY"
+msgid "Filter: Showing multiples owned only\n\n(ClickType/Click) to toggle"
+msgstr ""
+
+#. STRINGS.UI.KLEI_INVENTORY_SCREEN.TOOLTIP_VIEW_OWNED_ONLY
+msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.TOOLTIP_VIEW_OWNED_ONLY"
+msgid "Filter: Showing owned items Only\n\n(ClickType/Click) to toggle"
 msgstr ""
 
 #. STRINGS.UI.KLEI_INVENTORY_SCREEN.TOP_LEVEL_CATEGORIES.ARTWORK
@@ -70385,7 +70455,7 @@ msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.GASGIANTCLOUD.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.GASGIANTCLOUD.DESC"
-msgid "The harvestable remains of a planet containing <link=\"HYDROGEN\">Hydrogen Gas</link> in <link=\"ELEMENTSGAS\">gas</link> form, and <link=\"SOLIDMETHANE\">Solid Methane</link> in <link=\"ELEMENTSSOLID\">solid</link> and <link=\"ELEMENTSLIQUID\">liquid</link> form.\n\nHarvesting resources requires a rocket equipped with a <link=\"NOSECONEHARVEST\">Drillcone</link>."
+msgid "The harvestable remains of a planet containing <link=\"HYDROGEN\">Hydrogen</link> in <link=\"ELEMENTSGAS\">gas</link> form, and <link=\"SOLIDMETHANE\">Methane</link> in <link=\"ELEMENTSSOLID\">solid</link> and <link=\"ELEMENTSLIQUID\">liquid</link> form.\n\nHarvesting resources requires a rocket equipped with a <link=\"NOSECONEHARVEST\">Drillcone</link>."
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.GASGIANTCLOUD.NAME
@@ -73520,12 +73590,12 @@ msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.ARTABLESELECTIONSIDESCREEN.BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.ARTABLESELECTIONSIDESCREEN.BUTTON"
-msgid "Repaint"
+msgid "Redecorate"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.ARTABLESELECTIONSIDESCREEN.BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.ARTABLESELECTIONSIDESCREEN.BUTTON_TOOLTIP"
-msgid "Clears current artwork\n\nCreates errand for a skilled Duplicant to paint selected style"
+msgid "Clears current artwork\n\nCreates errand for a skilled Duplicant to create selected style"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.ARTABLESELECTIONSIDESCREEN.CLEAR_BUTTON_TOOLTIP
@@ -74511,6 +74581,11 @@ msgstr ""
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TITLE"
 msgid "{0} Production Orders"
+msgstr ""
+
+#. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TOOLTIPS.RECIPE_WORKTIME
+msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TOOLTIPS.RECIPE_WORKTIME"
+msgid "The duration it will take to craft this recipe"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TOOLTIPS.RECIPEPRODUCT
@@ -76515,22 +76590,22 @@ msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.CONTENT_DISEASE
 msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.CONTENT_DISEASE"
-msgid "Contents Germs"
+msgid "Germ Count"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.CONTENT_TEMPERATURE
 msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.CONTENT_TEMPERATURE"
-msgid "Contents Temperature"
+msgid "Internal Temperature"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.CONTENT_TEMPERATURE_TOOLTIP_ABOVE
 msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.CONTENT_TEMPERATURE_TOOLTIP_ABOVE"
-msgid "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the contents <style=\"KKeyword\">Temperature</style> is above <b>{0}</b>"
+msgid "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the <style=\"KKeyword\">Temperature</style> of its contents is above <b>{0}</b>"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.CONTENT_TEMPERATURE_TOOLTIP_BELOW
 msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.CONTENT_TEMPERATURE_TOOLTIP_BELOW"
-msgid "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the contents <style=\"KKeyword\">Temperature</style> is below <b>{0}</b>"
+msgid "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the <style=\"KKeyword\">Temperature</style> of its contents is below <b>{0}</b>"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.CURRENT_VALUE

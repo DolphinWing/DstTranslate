@@ -1,4 +1,4 @@
-This is a project that includes my work for the games being developed by Klei Entertainment.
+This is a personal project that includes my mod work for the games by Klei Entertainment.
 
 ### Steam Workshop
 * DST [正體中文包](https://steamcommunity.com/sharedfiles/filedetails/?id=1993780385) <br />
@@ -34,5 +34,4 @@ Thanks those developer who have done brilliant work on these mods
 
 DstTranslator is a tool to convert translation document. For internal use only. I also use the tool to study Compose UI.
 
-* ![Desktop CI](https://github.com/DolphinWing/DSTTranslate/workflows/Desktop%20CI/badge.svg) [desktop-app](desktop-app) runs on Linux and Windows
-
+* [![Desktop CI](https://github.com/DolphinWing/DstTranslate/actions/workflows/desktop.yml/badge.svg)](https://github.com/DolphinWing/DstTranslate/actions/workflows/desktop.yml) [desktop-app](desktop-app) runs on Linux and Windows

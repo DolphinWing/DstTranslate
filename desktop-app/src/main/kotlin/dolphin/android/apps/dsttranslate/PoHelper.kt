@@ -332,9 +332,11 @@ abstract class PoHelper {
         if (mode == Mode.DST) {
             str = str.replace("...", replace3dot)
             str = if (str != "\"$replace6dot\"") str.replace(replace6dot, replace3dot) else str
-            replaceList.forEach { (o, n) ->
-                str = str.replace(o, n)
-            }
+        }
+        replaceList.forEach { (o, n) ->
+            str = str.replace(o, n)
+        }
+        if (mode == Mode.DST) {
             if (str.contains("\\\"")) {
                 var i = 0
                 val str1 = str.replace("\\\"", "%@%").replace("%@%".toRegex()) {

@@ -76,11 +76,15 @@
 		<item>噴浮飛魚|帕夫</item>
 		<item>浮油生物|小油怪</item>
 		<item>疫病章魚|莫布</item>
+		<item>鍬環田鼠|鑽地田鼠</item>
 		<item>浮土|表土</item>
 		<item>毛刺花|鬃花</item>
 		<item>錦醇菇|錦葵</item>
 		<item>冰息蘿蔔|冰樹</item>
 		<item>頂針蘆葦|蘆葦</item>
+		<item>複制人|複製人</item>
+		<item>氣壓服|太空服</item>
+		<item>閾值|門檻</item>
     </string-array>
     <string name="button_apply">Apply</string>
     <string name="button_refresh">Refresh</string>
