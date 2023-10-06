@@ -1,0 +1,3 @@
+title: 字型模組
+description: 模組會使用粉圓體取代遊戲字型，以解決缺少繁體字元的問題
+staticID: FontLoader
