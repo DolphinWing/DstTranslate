@@ -17330,7 +17330,7 @@ msgstr ""
 
 #. STRINGS.CODEX.CREATURE_DESCRIPTORS.MAXAGE
 msgctxt "STRINGS.CODEX.CREATURE_DESCRIPTORS.MAXAGE"
-msgid "This critter's typical <link=\"CREATURES::GUIDE::FERTILITY\">Life Span</link> is <b>{0}</b>."
+msgid "This critter's typical <link=\"CREATURES::GUIDE::FERTILITY\">Life Span</link> is <b>{0} cycles</b>."
 msgstr ""
 
 #. STRINGS.CODEX.CREATURE_DESCRIPTORS.NON_LETHAL_RANGE

@@ -17324,22 +17324,22 @@ msgstr "寒帶帕庫"
 #. STRINGS.CODEX.CREATURE_DESCRIPTORS.CONFINED
 msgctxt "STRINGS.CODEX.CREATURE_DESCRIPTORS.CONFINED"
 msgid "<link=\"CREATURES::GUIDE::MOOD\">Confined</link> when a room is smaller than <b>{0} cells</b>."
-msgstr "當房間小於<b>{0}格</b>時就會感到<link=\"CREATURES::GUIDE::MOOD\">封閉</link>。"
+msgstr "當房間小於<b> {0} 格</b>時就會感覺<link=\"CREATURES::GUIDE::MOOD\">受到限制</link>。"
 
 #. STRINGS.CODEX.CREATURE_DESCRIPTORS.MAXAGE
 msgctxt "STRINGS.CODEX.CREATURE_DESCRIPTORS.MAXAGE"
 msgid "This critter's typical <link=\"CREATURES::GUIDE::FERTILITY\">Life Span</link> is <b>{0} cycles</b>."
-msgstr "這種小動物一般的<link=\"CREATURES::GUIDE::FERTILITY\">壽命</link>為<b>{0}</b>"
+msgstr "這種小動物一般的<link=\"CREATURES::GUIDE::FERTILITY\">壽命</link>為<b> {0} 週期</b>。"
 
 #. STRINGS.CODEX.CREATURE_DESCRIPTORS.NON_LETHAL_RANGE
 msgctxt "STRINGS.CODEX.CREATURE_DESCRIPTORS.NON_LETHAL_RANGE"
 msgid "Livable range: <b>{0}</b> to <b>{1}</b>"
-msgstr "存活範圍：<b>{0}</b>至<b>{1}</b>"
+msgstr "存活範圍：<b>{0}</b> 至 <b>{1}</b>"
 
 #. STRINGS.CODEX.CREATURE_DESCRIPTORS.OVERCROWDING
 msgctxt "STRINGS.CODEX.CREATURE_DESCRIPTORS.OVERCROWDING"
 msgid "<link=\"CREATURES::GUIDE::MOOD\">Overcrowded</link> when a room has less than <b>{0} cells</b> of space for each critter."
-msgstr "當房間空間對每隻小動物平均少於<b>{0}格</b>時就會<link=\"CREATURES::GUIDE::MOOD\">過度擁擠</link>。"
+msgstr "當房間空間對每隻小動物平均少於<b> {0} 格</b>時就會<link=\"CREATURES::GUIDE::MOOD\">過度擁擠</link>。"
 
 #. STRINGS.CODEX.CREATURE_DESCRIPTORS.TEMPERATURE.COMFORT_RANGE
 msgctxt "STRINGS.CODEX.CREATURE_DESCRIPTORS.TEMPERATURE.COMFORT_RANGE"
@@ -17409,7 +17409,7 @@ msgstr "馴化"
 #. STRINGS.CODEX.CRITTERSTATUS.DOMESTICATION.WILD.CONTAINER1
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.DOMESTICATION.WILD.CONTAINER1"
 msgid "Wild critters do not require feeding by the colony's Critter Ranchers, thanks to their slower metabolism. They do, however, produce fewer materials than domesticated critters.\n\nApproaching a wild critter to trap or wrangle it is quite safe, provided that it is a non-hostile species. Attacking a critter will typically provoke a combat response."
-msgstr "野生小動物不需要殖民地的畜牧員餵食，這都歸因於其緩慢的代謝。然而，它們要比馴化的小動物產生更少的材料。\n\n只要是沒有敵意的小動物，接近它並用陷阱捕捉或直接捕捉都是安全的。攻擊小動物通常會引發戰鬥。"
+msgstr "野生小動物不需要殖民地的畜牧員餵食，這都歸因於其緩慢的代謝。然而，牠們要比馴化的小動物產生更少的材料。\n\n只要是沒有敵意的小動物，接近牠並用陷阱捕捉或直接捕捉都是安全的。攻擊小動物通常會引發戰鬥。"
 
 #. STRINGS.CODEX.CRITTERSTATUS.DOMESTICATION.WILD.SUBTITLE
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.DOMESTICATION.WILD.SUBTITLE"
@@ -17449,7 +17449,7 @@ msgstr "產蛋機率"
 #. STRINGS.CODEX.CRITTERSTATUS.FERTILITY.FERTILITYRATE.CONTAINER1
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.FERTILITY.FERTILITYRATE.CONTAINER1"
 msgid "Each time a critter completes their reproduction cycle (i.e. at 100 percent), it lays an egg and restarts its cycle.\n\nA critter's environment greatly impacts its base reproduction rate. When a critter is feeling cramped, it will wait until all eggs in the room have hatched or been removed before laying any of its own.\n\nCritters will also stop reproducing when they feel confined, which happens when their space is too small or they are stuck in a door or tile.\n\nMood and domestication also impact reproduction: happy critters reproduce more regularly, and happy tame critters reproduce the fastest."
-msgstr "小動物在完成其繁殖週期（即100%）時，會產下一顆蛋並重新開始這一週期。\n\n小動物的環境極大地影響其基礎繁殖速率。當小動物感到擁擠時，它會等房間中的所有蛋孵化或被移走後才會產下自己的蛋。\n\n如果空間過小或被卡在門或磚裡，小動物會感到封閉，也不會繁殖。\n\n心情和馴化也會影響繁殖：快樂的小動物會較快地繁殖，快樂而溫順的小動物則更快。"
+msgstr "小動物在完成其繁殖週期（即100%）時，會產下一顆蛋並重新開始這其週期。\n\n小動物的環境會對其基礎繁殖率產生很大影響。當小動物感到擁擠時，牠會等房間中的所有蛋孵化或被移走後才會產下自己的蛋。\n\n當小動物感到受到限制時，牠們也會停止繁殖，這種情況會發生在它們的空間太小或它們卡在門或磚中時。\n\n心情和馴化也會影響繁殖：快樂的小動物會更定期地繁殖，快樂而溫順的小動物繁殖最快。"
 
 #. STRINGS.CODEX.CRITTERSTATUS.FERTILITY.FERTILITYRATE.TITLE
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.FERTILITY.FERTILITYRATE.TITLE"
@@ -17459,7 +17459,7 @@ msgstr "繁殖速率"
 #. STRINGS.CODEX.CRITTERSTATUS.FERTILITY.INCUBATION.CONTAINER1
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.FERTILITY.INCUBATION.CONTAINER1"
 msgid "A critter's incubation time is one-fifth of their total lifetime: for example, if a critter's maximum age is 100 cycles, its egg will take 20 cycles to hatch.\n\nIncubation rates can be accelerated through tender intervention by a Critter Rancher. Lullabied eggs—that is, those that have been sung to—will incubate faster and hatch sooner than eggs that have not received such tender care. Being cuddled by a Cuddle Pip also accelerates the rate of incubation.\n\nEggs can be cuddled anywhere, but can only be lullabied when placed inside an Incubator. The effects of lullabies and cuddles are cumulative."
-msgstr "小動物的孵化時間是其總壽命的五分之一：比如，小動物的最大年齡為 100 週期，則該小動物的蛋需要 20 週期孵化。\n\n孵化速率可以透過小動物飼養員照料而加速。聽過搖籃曲的蛋會比未受照料的蛋更快孵化。被抱抱樹鼠擁抱也會加快孵化。\n\n蛋可以在任何地方被擁抱，但必須置於孵化器中才能對其歌唱。搖籃曲和擁抱的效果是可累加的。"
+msgstr "小動物的孵化時間是其總壽命的五分之一：比如，小動物的最大年齡為 100 週期，則該小動物的蛋需要 20 週期孵化。\n\n孵化速率可以透過畜牧員照料而加速。聽過搖籃曲的蛋會比未受照料的蛋更快孵化。被抱抱樹鼠擁抱也會加快孵化。\n\n蛋可以在任何地方被擁抱，但必須置於孵化器中才能對其歌唱。搖籃曲和擁抱的效果是可累加的。"
 
 #. STRINGS.CODEX.CRITTERSTATUS.FERTILITY.INCUBATION.TITLE
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.FERTILITY.INCUBATION.TITLE"
@@ -17494,7 +17494,7 @@ msgstr "小動物的代謝速率用於衡量其食慾與其排出材料的快慢
 #. STRINGS.CODEX.CRITTERSTATUS.METABOLISM.HUNGRY.CONTAINER1
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.METABOLISM.HUNGRY.CONTAINER1"
 msgid "Tame critters have significantly faster metabolism than wild ones, and get hungry sooner. This makes them more valuable in terms of resource production, as long as the colony is equipped to meet their dietary needs.\n\nCritters' stomachs vary in size, but they are capable of storing at least five cycles' worth of food. Their bellies begin to rumble when those internal caches drop below 90 percent. The critter will then seek out food, and will continue to eat until they feel completely full again.\n\nJuvenile critters have the slowest metabolism, although glum tame critters are a close second."
-msgstr "溫順小動物的代謝速率比野生小動物顯著更快，也會更快飢餓。這使得它們在資源生產方面更有價值，只需要殖民地滿足其飲食需求即可。\n\n小動物的胃容量大小不一，但都能儲存至少 5 週期的食物。當儲量低於 90% 時，它們就會尋找食物，直到吃飽為止。\n\n幼體小動物的代謝最慢，溫順但悶悶不樂的小動物其次。"
+msgstr "溫順小動物的代謝速率比野生小動物顯著更快，也會更快飢餓。這使得牠們在資源生產方面更有價值，只需要殖民地滿足其飲食需求即可。\n\n小動物的胃容量大小不一，但都能儲存至少 5 週期的食物。當儲量低於 90% 時，牠們就會尋找食物，直到吃飽為止。\n\n幼體小動物的代謝最慢，溫順但悶悶不樂的小動物其次。"
 
 #. STRINGS.CODEX.CRITTERSTATUS.METABOLISM.HUNGRY.TITLE
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.METABOLISM.HUNGRY.TITLE"
@@ -17504,12 +17504,12 @@ msgstr "飢餓"
 #. STRINGS.CODEX.CRITTERSTATUS.METABOLISM.STARVING.CONTAINER1_DLC1
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.METABOLISM.STARVING.CONTAINER1_DLC1"
 msgid "With the exception of Morbs and Beetas—which require zero calories to survive—tame critters will die after {0} cycles of consistent starvation. Wild critters do not starve to death."
-msgstr "除莫布和輻射蜂之外——它們不需要卡路里就能生存——溫順小動物持續飢餓 {0} 週期後會餓死。野生小動物不會餓死。"
+msgstr "除莫布和輻射蜂之外——牠們不需要卡路里就能生存——溫順小動物持續飢餓 {0} 週期後會餓死。野生小動物不會餓死。"
 
 #. STRINGS.CODEX.CRITTERSTATUS.METABOLISM.STARVING.CONTAINER1_VANILLA
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.METABOLISM.STARVING.CONTAINER1_VANILLA"
 msgid "With the exception of Morbs—which require zero calories to survive—tame critters will die after {0} cycles of consistent starvation. Wild critters do not starve to death."
-msgstr "除莫布之外——它不需要卡路里就能生存——溫順小動物持續飢餓 {0} 週期後會餓死。野生小動物不會餓死。"
+msgstr "除莫布之外——牠不需要卡路里就能生存——溫順小動物持續飢餓 {0} 週期後會餓死。野生小動物不會餓死。"
 
 #. STRINGS.CODEX.CRITTERSTATUS.METABOLISM.STARVING.TITLE
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.METABOLISM.STARVING.TITLE"
@@ -17524,7 +17524,7 @@ msgstr "代謝"
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.BODY.CONTAINER1"
 msgid "As with many living things, critters are susceptible to fluctuations in mood. While they are incapable of articulating their feelings verbally, these variations have observable effects on productivity and reproduction.\n\nFactors that influence a critter's mood include: grooming, wildness/tameness, habitat, overcrowding, confinement, and Brackene consumption."
-msgstr "與許多生物一樣，小動物也容易被心情波動影響。雖然它們無法直接表達自己的感受，但這些變化會對生產和繁殖有明顯影響。\n\n影響小動物心情的因素包括：飢餓、打扮、野生/溫順、生活環境、過度擁擠、封閉和鹹乳消耗。"
+msgstr "與許多生物一樣，小動物也容易被心情波動影響。雖然牠們無法直接表達自己的感受，但這些變化會對生產和繁殖有明顯影響。\n\n影響小動物心情的因素包括：飢餓、打扮、野生/溫順、生活環境、過度擁擠、封閉和鹹乳消耗。"
 
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.CONFINED.CONFINED_FERTILITY
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.CONFINED.CONFINED_FERTILITY"
@@ -17539,7 +17539,7 @@ msgstr "    • 幸福度"
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.CONFINED.CONTAINER1
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.CONFINED.CONTAINER1"
 msgid "Each species has its own space requirements. Critters who find themselves in a room that they consider too small will feel confined. They will feel the same way if they become stuck in a door or tile. Critters will not reproduce while they are in this state.\n\nShove Voles are the exception to this rule: their tunneling instincts make them quite comfortable in snug spaces, and they never feel confined."
-msgstr "每個物種都有其自己的空間需求。覺得自己處於過小房間中的小動物會感到封閉，卡在門或磚裡也是如此。在這種狀態下小動物不會繁殖。\n\n鑽地田鼠是例外：牠們挖掘隧道的本能使其在極小的空間裡也感到相當舒適，且不會感到狹窄。"
+msgstr "每個物種都有其自己的空間需求。覺得自己處於過小房間中的小動物會感覺受到限制，卡在門或磚裡也是如此。在這種狀態下小動物不會繁殖。\n\n鑽地田鼠是例外：牠們挖掘本能使其在狹窄的空間裡感到非常舒適，，且不會感覺受到限制。"
 
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.CONFINED.SUBTITLE
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.CONFINED.SUBTITLE"
@@ -17554,7 +17554,7 @@ msgstr "封閉"
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.CRAMPED.CONTAINER1
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.CRAMPED.CONTAINER1"
 msgid "If a critter is overcrowded—or will become overcrowded once all of the eggs in the room have hatched—they begin to feel cramped.\n\nThis causes the critter's reproductive system to pause temporarily. It will resume once all eggs have hatched or been removed from the room."
-msgstr "小動物如果過度擁擠，或一旦房間中所有的蛋孵化就會變得過度擁擠，則會感到狹窄。\n\n這會導致小動物的繁殖系統暫停。在房間中所有的蛋孵化或移走後會恢復。"
+msgstr "若小動物已經過度擁擠，或當房間中所有的蛋孵化變得過度擁擠，牠們就會感到狹窄。\n\n這會導致小動物的繁殖系統暫停。在房間中所有的蛋孵化或移走後會恢復。"
 
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.CRAMPED.CRAMPED_FERTILITY
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.CRAMPED.CRAMPED_FERTILITY"
@@ -17574,7 +17574,7 @@ msgstr "狹窄"
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.GLUM.CONTAINER1
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.GLUM.CONTAINER1"
 msgid "Critters can survive in subpar environments, but it takes a toll on their mood and impacts metabolism and productivity. When their happiness levels dip below zero, they become glum.\n\nWild critters are less sensitive to the effects of glumness than their tamed brethren, though they are still negatively affected by overcrowded or confined living conditions."
-msgstr "小動物可以在低於標準的環境中存活，但會對其心情造成影響，從而影響代謝和生產。當其幸福度降至0以下時，會變得悶悶不樂。\n\n野生小動物比溫順小動物更不容易悶悶不樂，但它們也會受過度擁擠和封閉的負面條件影響。"
+msgstr "小動物可以在低於標準的環境中存活，但會對其心情造成影響，從而影響代謝和生產。當其幸福度降至 0 以下時，會變得悶悶不樂。\n\n野生小動物比溫順小動物更不容易悶悶不樂，但它們也會受過度擁擠和受到限制的負面條件影響。"
 
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.GLUM.GLUMWILD_METABOLISM
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.GLUM.GLUMWILD_METABOLISM"
@@ -17594,7 +17594,7 @@ msgstr "悶悶不樂"
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.HAPPY.CONTAINER1
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.HAPPY.CONTAINER1"
 msgid "Happy, tame critters produce more usable materials and tend to lay eggs at a higher rate than glum or wild critters. Domesticated critters are less resilient than wild ones—they require more care from the colony in order to maintain a positive disposition.\n\nBabies have a higher baseline of natural joy, but produce neither resources nor eggs.\n\nDuplicants with the Critter Ranching skill have the expertise needed to domesticate and care for critters, and can also boost a critter's mood by bonding with them at a Grooming Station.\n\nCritters who drink at the Critter Fountain also enjoy a mood boost, despite the lack of nutrients available in the Brackene dispensed.\n\nBeing confined or overcrowded undermines a critter's happiness."
-msgstr "快樂而溫順的小動物產生的有用材料比悶悶不樂或野生小動物更多，產蛋速率更快。馴化的小動物適應力不如野生小動物——它們需要更多來自殖民地的關照才能保持積極的性情。\n\n幼體的幸福度基準更高，但不會產生資源或蛋。\n\n擁有畜牧技能的複製人具有馴化和照料小動物的專業知識，可以在畜牧站與小動物建立親密關係而提高小動物的心情。\n\n喝過小動物噴泉的小動物也會享受到心情加成，儘管鹹乳中缺乏有用的營養成分。\n\n封閉或過度擁擠會降低小動物的幸福度。"
+msgstr "快樂而溫順的小動物產生的有用材料比悶悶不樂或野生小動物更多，產蛋速率更快。馴化的小動物適應力不如野生小動物——牠們需要更多來自殖民地的關照才能保持積極的性情。\n\n幼體的幸福度基準更高，但不會產生資源或蛋。\n\n擁有畜牧技能的複製人具有馴化和照料小動物的專業知識，可以在畜牧站與小動物建立親密關係而提高小動物的心情。\n\n喝過小動物噴泉的小動物也會享受到心情加成，儘管鹹乳中缺乏有用的營養成分。\n\n封閉或過度擁擠會降低小動物的幸福度。"
 
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.HAPPY.HAPPY_METABOLISM
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.HAPPY.HAPPY_METABOLISM"
@@ -17614,12 +17614,12 @@ msgstr "快樂"
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.HOSTILE.CONTAINER1_DLC1
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.HOSTILE.CONTAINER1_DLC1"
 msgid "Most critters are non-hostile. They may attempt to defend themselves when attacked by Duplicants, though their natural passivity limits the damage caused in these instances.\n\nSome critters, however, have exceptionally strong self-preservation instincts and must be approached with extreme caution. Pokeshells, for example, are not naturally hostile but are fiercely protective of their young and will attack if a Duplicant or critter wanders too close to their eggs.\n\nThe Beeta, on the other hand, is both hostile and radioactive. While it cannot be tamed, it can be subdued through the use of CO2."
-msgstr "大多數小動物都是沒有敵意的。它們在被複製人攻擊時會嘗試保護自己，但其被動天性導致了其傷害不高。\n\n然而，有一些小動物有著異常強烈的自我保護本能，接近時必須格外小心。比如拋殼蟹，雖然天性沒有敵意，但保護其幼體的態度十分強硬，複製人或小動物如果過於靠近拋殼蟹的蛋就會被攻擊。\n\n另一方面，輻射蜂既有敵意又有放射性。雖然不能被馴化，但可以透過使用二氧化碳壓制。"
+msgstr "大多數小動物都是沒有敵意的。牠們在被複製人攻擊時會嘗試保護自己，但其被動天性導致了其傷害不高。\n\n然而，有一些小動物有著異常強烈的自我保護本能，接近時必須格外小心。比如拋殼蟹，雖然天性沒有敵意，但保護其幼體的態度十分強硬，複製人或小動物如果過於靠近拋殼蟹的蛋就會被攻擊。\n\n另一方面，輻射蜂既有敵意又有放射性。雖然不能被馴化，但可以透過使用二氧化碳壓制。"
 
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.HOSTILE.CONTAINER1_VANILLA
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.HOSTILE.CONTAINER1_VANILLA"
 msgid "Most critters are non-hostile. They may attempt to defend themselves when attacked by Duplicants, though their natural passivity limits the damage caused in these instances.\n\nSome critters, however, have exceptionally strong self-preservation instincts and must be approached with extreme caution.\n\nPokeshells, for example, are not naturally hostile but are fiercely protective of their young and will attack if a Duplicant or critter wanders too close to their eggs."
-msgstr "大多數小動物都是沒有敵意的。它們在被複製人攻擊時會嘗試保護自己，但其被動天性導致了其傷害不高。\n\n然而，有一些小動物有著異常強烈的自我保護本能，接近時必須格外小心。\n\n比如拋殼蟹，雖然天性沒有敵意，但保護其幼體的態度十分強硬，複製人或小動物如果過於靠近拋殼蟹的蛋就會被攻擊。"
+msgstr "大多數小動物都是沒有敵意的。牠們在被複製人攻擊時會嘗試保護自己，但其被動天性導致了其傷害不高。\n\n然而，有一些小動物有著異常強烈的自我保護本能，接近時必須格外小心。\n\n比如拋殼蟹，雖然天性沒有敵意，但保護其幼體的態度十分強硬，複製人或小動物如果過於靠近拋殼蟹的蛋就會被攻擊。"
 
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.HOSTILE.TITLE
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.HOSTILE.TITLE"
@@ -17629,7 +17629,7 @@ msgstr "敵意"
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.OVERCROWDED.CONTAINER1
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.OVERCROWDED.CONTAINER1"
 msgid "Overcrowding occurs when a critter is in a room that's appropriately sized for its needs but feels that there are too many other critters sharing the same space. Because each species has its own space requirements, this state can vary among occupants of the same room.\n\nThis emotional state intensifies in response to the number of excess critters: adding new critters to an already overcrowded room will undermine a critter's happiness even further."
-msgstr "當小動物的房間足夠大，但共享相同的小動物太多時就會過度擁擠。由於每個物種都有其自己的空間需求，因此這個狀態在同一房間的小動物身上可能會有所不同。\n\n這種狀態會隨著超出的小動物數量而加劇：在已經過度擁擠的房間再新增一隻新的小動物會進一步降低小動物的幸福度。"
+msgstr "當小動物處於一個適合其需求的房間裡，但覺得有太多其他小動物共享同一個空間時，就會發生過度擁擠。由於每個物種都有其自己的空間需求，因此這個狀態在同一房間的小動物身上可能會有所不同。\n\n這種狀態會隨著多餘的小動物數量而加劇：在已經過度擁擠的房間再新增一隻新的小動物會進一步削弱小動物的幸福度。"
 
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.OVERCROWDED.OVERCROWDED_HAPPY1
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.OVERCROWDED.OVERCROWDED_HAPPY1"
@@ -22684,7 +22684,7 @@ msgstr "鱗片重生速度"
 #. STRINGS.CREATURES.MODIFIERS.FUTURE_OVERCROWDED.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.FUTURE_OVERCROWDED.NAME"
 msgid "Cramped"
-msgstr "擁擠"
+msgstr "狹窄"
 
 #. STRINGS.CREATURES.MODIFIERS.FUTURE_OVERCROWDED.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.FUTURE_OVERCROWDED.TOOLTIP"
