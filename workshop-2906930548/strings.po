@@ -17724,7 +17724,7 @@ msgstr "裝飾"
 #. STRINGS.CODEX.DECORSYSTEM.HEADER_2
 msgctxt "STRINGS.CODEX.DECORSYSTEM.HEADER_2"
 msgid "Calculating Decor"
-msgstr "裝飾的計算"
+msgstr "裝飾計算中"
 
 #. STRINGS.CODEX.DECORSYSTEM.PARAGRAPH_1
 msgctxt "STRINGS.CODEX.DECORSYSTEM.PARAGRAPH_1"
@@ -17749,7 +17749,7 @@ msgstr "<smallcaps>圖為：「石化」帕夫變種</smallcaps>"
 #. STRINGS.CODEX.DENSE.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.DENSE.BODY.CONTAINER2"
 msgid "The Puft is an easy creature to raise for first time handlers given its wholly amiable disposition and suggestible nature.\n\nIt is unusually tolerant of human handling and will allow itself to be patted or scratched nearly anywhere on its fuzzy body, including, unnervingly, directly on any of its three eyeballs."
-msgstr "帕夫對初次接觸的人來說，是一種平易近人的動物。\n\n它非常容易接受人類輕拍或觸碰幾乎它們身上的任何地方，包括直接觸碰它們令人不安的三個眼睛。"
+msgstr "帕夫對初次接觸的人來說，是一種平易近人的動物。\n\n牠非常容易接受人類輕拍或觸碰幾乎牠們身上的任何地方，包括直接觸碰牠們令人不安的三個眼睛。"
 
 #. STRINGS.CODEX.DENSE.SUBTITLE
 msgctxt "STRINGS.CODEX.DENSE.SUBTITLE"
@@ -17764,7 +17764,7 @@ msgstr "氧氣帕夫"
 #. STRINGS.CODEX.DIVERGENT.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.DIVERGENT.BODY.CONTAINER1"
 msgid "'Divergent' is the name given to the two different genders of one species, the Sweetle and the Grubgrub, both of which are able to reproduce asexually and tend to Grubfruit Plants.\n\nWhen tending to the Grubfruit Plant, both gender variants of the Divergent display the exact same behaviors, however the Grubgrub possesses slightly more tiny facial hair which helps in pollinating the plants and stimulates faster growth."
-msgstr "【變異蟲】是一個物種兩種不同性別的名稱，甜素甲蟲與蟲果果蟲，兩者都能無性生殖與照顧燈籠草。\n\n當照顧燈籠草時兩個變種都展現出相同的行為，然而蟲果果蟲面部的毛髮更細一些，這有助於植物授粉並刺激更快的生長。"
+msgstr "「變異蟲」是一個物種名稱，其擁有兩種不同性別，甜素甲蟲與蟲果果蟲，兩者都能無性生殖與照顧燈籠草。\n\n當照顧燈籠草時兩個變種都展現出相同的行為，然而蟲果果蟲面部的毛髮更細一些，這有助於植物授粉並刺激更快的生長。"
 
 #. STRINGS.CODEX.DIVERGENT.SUBTITLE
 msgctxt "STRINGS.CODEX.DIVERGENT.SUBTITLE"
@@ -17779,7 +17779,7 @@ msgstr "變異蟲"
 #. STRINGS.CODEX.DRECKO.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.DRECKO.BODY.CONTAINER1"
 msgid "Dreckos are a reptilian species boasting billions of microscopic hairs on their feet, allowing them to stick to and climb most surfaces."
-msgstr "龍鱗蜥是一種爬行動物，腳上有數億個微小的絨毛，讓它們可以附著並攀爬在大多數的表面上。"
+msgstr "蜥類是種爬行動物，腳上有數億個微小的絨毛，讓牠們可以附著並攀爬在大多數的表面上。"
 
 #. STRINGS.CODEX.DRECKO.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.DRECKO.BODY.CONTAINER2"
@@ -17794,7 +17794,7 @@ msgstr "動物類"
 #. STRINGS.CODEX.DRECKO.SPECIES_TITLE
 msgctxt "STRINGS.CODEX.DRECKO.SPECIES_TITLE"
 msgid "Dreckos"
-msgstr "龍鱗蜥"
+msgstr "蜥類"
 
 #. STRINGS.CODEX.DRECKO.SUBTITLE
 msgctxt "STRINGS.CODEX.DRECKO.SUBTITLE"
@@ -17809,7 +17809,7 @@ msgstr "龍鱗蜥"
 #. STRINGS.CODEX.DUSKCAP.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.DUSKCAP.BODY.CONTAINER1"
 msgid "Like many species of mushroom, Dusk Caps thrive in dark areas otherwise ill-suited to the cultivation of plants.\n\nIn place of typical chlorophyll, the underside of a Dusk Cap is fitted with thousands of specialized gills, which it uses to draw in carbon dioxide and aid in its growth."
-msgstr "像許多其它種類的蘑菇一樣，黃昏蘑菇生長在黑暗區域，其它地方不適合種植。\n\n取代葉綠素，黃昏蘑菇的傘帽下有成千上萬個毛細孔，用來吸收二氧花碳幫助其生長。"
+msgstr "像許多其它種類的蘑菇一樣，黃昏蘑菇生長在黑暗區域，其它地方不適合種植。\n\n取代葉綠素，黃昏蘑菇的傘帽下有成千上萬個毛細孔，用來吸收二氧化碳幫助其生長。"
 
 #. STRINGS.CODEX.DUSKCAP.SUBTITLE
 msgctxt "STRINGS.CODEX.DUSKCAP.SUBTITLE"
@@ -17894,7 +17894,7 @@ msgstr "建築物尺寸: {0} 格寬 x {1} 格高"
 #. STRINGS.CODEX.FORMAT_STRINGS.CONSTRUCTION_TIME
 msgctxt "STRINGS.CODEX.FORMAT_STRINGS.CONSTRUCTION_TIME"
 msgid "Build Time: {0} seconds"
-msgstr "建造時間：{0}秒"
+msgstr "建造時間：{0} 秒"
 
 #. STRINGS.CODEX.FORMAT_STRINGS.MATERIAL_MASS
 msgctxt "STRINGS.CODEX.FORMAT_STRINGS.MATERIAL_MASS"
@@ -17904,12 +17904,12 @@ msgstr "{0}{1}"
 #. STRINGS.CODEX.FORMAT_STRINGS.TEMPERATURE_OVER
 msgctxt "STRINGS.CODEX.FORMAT_STRINGS.TEMPERATURE_OVER"
 msgid "Temperature over {0}"
-msgstr "溫度高於{0}"
+msgstr "溫度高於 {0}"
 
 #. STRINGS.CODEX.FORMAT_STRINGS.TEMPERATURE_UNDER
 msgctxt "STRINGS.CODEX.FORMAT_STRINGS.TEMPERATURE_UNDER"
 msgid "Temperature under {0}"
-msgstr "溫度低於{0}"
+msgstr "溫度低於 {0}"
 
 #. STRINGS.CODEX.FORMAT_STRINGS.TRANSITION_LABEL_TO_ONE_ELEMENT
 msgctxt "STRINGS.CODEX.FORMAT_STRINGS.TRANSITION_LABEL_TO_ONE_ELEMENT"
@@ -17944,12 +17944,12 @@ msgstr "瓦斯草"
 #. STRINGS.CODEX.GASSYMOO.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.GASSYMOO.BODY.CONTAINER1"
 msgid "Little is currently known of the Gassy Moo due to its alien nature and origin.\n\nIt is capable of surviving in zero gravity conditions and no atmosphere, and is dependent on a second alien species, <link=\"GASGRASS\">Gas Grass</link>, for its sustenance and survival."
-msgstr "瓦斯牛是罕為人知的外星天然原生種。\n\n它可以生存在零重力與零氣壓的環境中，並食用一種外星植物 <link=\"GASGRASS\">瓦斯草</link> 為生。"
+msgstr "瓦斯牛是罕為人知的外星天然原生種。\n\n牠可以生存在零重力與零氣壓的環境中，並食用一種名為<link=\"GASGRASS\">瓦斯草</link>的外星植物為生。"
 
 #. STRINGS.CODEX.GASSYMOO.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.GASSYMOO.BODY.CONTAINER2"
 msgid "The Moo has an even temperament and can be farmed for Natural Gas, though their method of reproduction has been as of yet undiscovered."
-msgstr "瓦斯牛的個性溫和會產生天然氣，雖然還沒發現繁殖它們的方法。"
+msgstr "瓦斯牛的個性溫和會產生天然氣，雖然還沒發現繁殖牠們的方法。"
 
 #. STRINGS.CODEX.GASSYMOO.SUBTITLE
 msgctxt "STRINGS.CODEX.GASSYMOO.SUBTITLE"
@@ -18029,7 +18029,7 @@ msgstr "塑膠龍鱗蜥"
 #. STRINGS.CODEX.GRUBFRUITPLANT.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.GRUBFRUITPLANT.BODY.CONTAINER1"
 msgid "The Grubfruit Plant exhibits a coevolutionary relationship with the Divergent species.\n\nThough capable of producing fruit without the help of the Divergent, the Spindly Grubfruit is a substandard version of the Grubfruit in both taste and caloric value.\n\nThe mechanism for how the Divergent inspires Grubfruit Plant growth is not entirely known but is thought to be somehow tied to the infrasonic 'songs' these insects lovingly purr to their plants."
-msgstr "燈籠草與變異蟲物種之間形成共同進化的關係。\n\n雖然能夠在沒有變異蟲幫助下也能生產果實，\n但劣質燈籠草果實在美味與熱量方面都輸給正常的燈籠草果實。\n\n變異蟲們如何刺激燈籠草成長的機制尚未完全清楚，\n但被認為以某種方式親切向植物發出一種次聲波的「歌聲」。"
+msgstr "燈籠草與變異蟲物種之間形成共同進化的關係。\n\n雖然能夠在沒有變異蟲幫助下也能生產果實，但劣質燈籠草果實在美味與熱量方面都輸給正常的燈籠草果實。\n\n變異蟲們如何刺激燈籠草成長的機制尚未完全清楚，但被認為以某種方式親切向植物發出一種次聲波的「歌聲」。"
 
 #. STRINGS.CODEX.GRUBFRUITPLANT.SUBTITLE
 msgctxt "STRINGS.CODEX.GRUBFRUITPLANT.SUBTITLE"
@@ -18054,7 +18054,7 @@ msgstr "動物類"
 #. STRINGS.CODEX.HATCH.SPECIES_TITLE
 msgctxt "STRINGS.CODEX.HATCH.SPECIES_TITLE"
 msgid "Hatches"
-msgstr "哈奇"
+msgstr "哈奇類"
 
 #. STRINGS.CODEX.HATCH.SUBTITLE
 msgctxt "STRINGS.CODEX.HATCH.SUBTITLE"
@@ -18144,7 +18144,7 @@ msgstr "額外狀態"
 #. STRINGS.CODEX.HEADERS.ELEMENTTRANSITIONSFROM
 msgctxt "STRINGS.CODEX.HEADERS.ELEMENTTRANSITIONSFROM"
 msgid "Transitions From"
-msgstr "轉換於"
+msgstr "轉換自"
 
 #. STRINGS.CODEX.HEADERS.ELEMENTTRANSITIONSTO
 msgctxt "STRINGS.CODEX.HEADERS.ELEMENTTRANSITIONSTO"
@@ -18284,12 +18284,12 @@ msgstr "失能與死亡"
 #. STRINGS.CODEX.HEALTH.PARAGRAPH_1
 msgctxt "STRINGS.CODEX.HEALTH.PARAGRAPH_1"
 msgid "Duplicants can be physically damaged by some rare circumstances, such as extreme <link=\"HEAT\">Heat</link> or aggressive <link=\"CREATURES\">Critters</link>. Damaged Duplicants will suffer greatly reduced athletic abilities, and are at risk of incapacitation if damaged too severely.\n\n"
-msgstr "在某些罕見的情況下，複製人會收到物理傷害，像是<link=\"HEAT\">熱</link>或侵略性強的<link=\"CREATURES\">動物</link>。\n受傷的複製人會大大降低行動能力，如果太嚴重則會失去行動能力。\n\n"
+msgstr "在某些罕見的情況下，複製人會受到物理傷害，像是<link=\"HEAT\">熱</link>或侵略性強的<link=\"CREATURES\">動物</link>。\n受傷的複製人會大大降低行動能力，如果太嚴重則會失去行動能力。\n\n"
 
 #. STRINGS.CODEX.HEALTH.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.HEALTH.PARAGRAPH_2"
 msgid "Incapacitated Duplicants cannot move or perform errands. They must be rescued by another Duplicant before their health drops to zero. If a Duplicant's health reaches zero they will die.\n\nHealth can be restored slowly over time and quickly through rest at the <link=\"MEDICALCOT\">Triage Cot</link>.\n\n Duplicants are generally more vulnerable to <link=\"DISEASE\">Disease</link> than physical damage.\n\n"
-msgstr "喪失行動能力的複製人無法移動或執行工作。\n在他們的生命值歸零之前必須被其它的複製人搶救。\n如果複製人的生命值歸零會死亡。\n\n生命值會隨著時間緩慢恢復，而在<link=\"MEDICALCOT\">醫療床</link>上會快速地恢復。\n\n與物理傷害相比，複製人更容易受到<link=\"DISEASE\">疾病</link>危害。\n\n"
+msgstr "喪失行動能力的複製人無法移動或執行工作。在他們的生命值歸零之前必須被其它的複製人搶救。如果複製人的生命值歸零會死亡。\n\n生命值會隨著時間緩慢恢復，而在<link=\"MEDICALCOT\">醫療床</link>上會快速地恢復。\n\n與物理傷害相比，複製人更容易受到<link=\"DISEASE\">疾病</link>危害。\n\n"
 
 #. STRINGS.CODEX.HEALTH.TITLE
 msgctxt "STRINGS.CODEX.HEALTH.TITLE"
@@ -18324,27 +18324,27 @@ msgstr "狀態變化"
 #. STRINGS.CODEX.HEAT.PARAGRAPH_1
 msgctxt "STRINGS.CODEX.HEAT.PARAGRAPH_1"
 msgid "Just about everything on the asteroid has a temperature. It's normal for temperature to rise and fall a bit, but extreme temperatures can cause all sorts of problems for a base. Buildings can stop functioning, crops can wilt, and things can even melt, boil, and freeze when they really ought not to.\n\n"
-msgstr "小行星上的所有東西都有溫度。\n溫度小幅的上升或下降是正常的，但極端溫度問題可能會為基地許多的問題。\n建築會停止運作、農作物會枯萎、有些東西甚至會融化與冰凍。\n\n"
+msgstr "小行星上的所有東西都有溫度。溫度小幅的上升或下降是正常的，但極端溫度問題可能會為基地許多的問題。建築物可能停止運轉，農作物可能枯萎，事物甚至可能在不應該發生的情況下融化、沸騰和結冰。\n\n"
 
 #. STRINGS.CODEX.HEAT.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.HEAT.PARAGRAPH_2"
 msgid "Most crops require their body temperatures to be within a certain range in order to grow. Values outside of this range are not fatal, but will pause growth. If a building's temperature exceeds its overheat temperature it will take damage and require repair.\nAt very extreme temperatures buildings may melt or boil away.\n\n"
-msgstr "多數的農作物它們的體溫需要在適當的範圍下才能生長。\n超出範圍不會致死，但會停止生長。\n如果建築的溫度過熱，它會受損並需要維修。\n在極高溫度下建築可能會融化或沸騰。\n\n"
+msgstr "多數的農作物它們的體溫需要在適當的範圍下才能生長。超出範圍不會致死，但會停止生長。如果建築的溫度過熱，它會受損並需要維修。在極高溫度下建築可能會融化或沸騰。\n\n"
 
 #. STRINGS.CODEX.HEAT.PARAGRAPH_3
 msgctxt "STRINGS.CODEX.HEAT.PARAGRAPH_3"
 msgid "Temperature increase when the thermal energy of a substance increases. The value of temperature is equal to the total Thermal Energy divided by the Specific Heat Capacity of the substance. Because Specific Heat Capacity varies between substances so significantly, it is often the case a substance can have a higher temperature than another despite a lower overall thermal energy. This quality makes Water require nearly four times the amount of thermal energy to increase in temperature compared to Oxygen.\n\n"
-msgstr "當一個物質的熱能增加溫度會跟著增加。\n溫度等於該物質的總熱量除以比熱。\n\n不同物質之間比熱的差異很大，\n通常情況下一個物質的溫度會高於另一個總熱量較低的物質。\n與氧氣相比，水需要近四倍的熱量才會增加溫度。\n\n"
+msgstr "當一個物質的熱能增加溫度會跟著增加。溫度等於該物質的總熱量除以比熱。\n\n不同物質之間比熱的差異很大，通常情況下一個物質的溫度會高於另一個總熱量較低的物質。與氧氣相比，水需要近四倍的熱量才會增加溫度。\n\n"
 
 #. STRINGS.CODEX.HEAT.PARAGRAPH_4
 msgctxt "STRINGS.CODEX.HEAT.PARAGRAPH_4"
 msgid "Thermal energy can be transferred between Buildings, Creatures, World tiles, and other world entities through Conduction. Conduction occurs when two things of different Temperatures are touching. The rate of the energy transfer is the product of the averaged Conductivity values and Temperature difference. Thermal energy will flow slowly between substances with low conductivity values (insulators), and quickly between substances with high conductivity (conductors).\n\n"
-msgstr "熱能可透過傳導在建築、生物、世界方塊與其它世界實體之間交換。\n當兩個不同溫度的東西接觸時會發生傳導。\n\n能量交換的速度取決於導熱係數的平均值。\n熱能在導熱係數低的物質間緩慢傳遞（絕緣體），\n而在導熱係數高的物質間快速傳遞（導體）。\n\n"
+msgstr "熱能可透過傳導在建築、生物、世界方塊與其它世界實體之間交換。當兩個不同溫度的東西接觸時會發生傳導。\n\n能量交換的速度取決於導熱係數的平均值。熱能在導熱係數低的物質間緩慢傳遞（絕緣體），而在導熱係數高的物質間快速傳遞（導體）。\n\n"
 
 #. STRINGS.CODEX.HEAT.PARAGRAPH_5
 msgctxt "STRINGS.CODEX.HEAT.PARAGRAPH_5"
 msgid "Water ice melts into liquid water when its temperature rises above its melting point. Liquid water boils into steam when its temperature rises above its boiling point. Similar transitions in state occur for most elements, but each element has its own threshold temperatures. Sometimes the transitions are not reversible - crude oil boiled into sour gas will not condense back to crude oil when cooled. Instead, the substance might condense into a totally different element with a different utility. \n\n"
-msgstr "冰的溫度超過熔點會融化變成水。\n水的溫度沸騰時會變成蒸氣。\n多數元素都會發生這種狀態變化，\n但每個元素所需的溫度都不同。\n\n有些時候這些變化是不可逆的－原油沸騰後會變成酸性氣體，冷卻後不會變回原油。\n反之，物質可能會因此濃縮成具有完全不同效用的元素。\n\n"
+msgstr "冰的溫度超過熔點會融化變成水。水的溫度沸騰時會變成蒸氣。多數元素都會發生這種狀態變化，但每個元素所需的溫度都不同。\n\n有些時候這些變化是不可逆的－原油沸騰後會變成酸性氣體，冷卻後不會變回原油。反之，物質可能會因此濃縮成具有完全不同效用的元素。\n\n"
 
 #. STRINGS.CODEX.HEAT.TITLE
 msgctxt "STRINGS.CODEX.HEAT.TITLE"
@@ -18384,7 +18384,7 @@ msgstr "水生仙人掌"
 #. STRINGS.CODEX.JOURNALISTREQUEST.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.JOURNALISTREQUEST.BODY.CONTAINER1"
 msgid "<indent=5%>Dear colleagues, friends and community members,\n\nAfter nine deeply fulfilling years as editor of The STEM Scoop, I am stepping down to spend more time with my family.\n\nPlease give a warm welcome to Dorian Hearst, who will be taking over editorial management duties effective immediately.</indent>"
-msgstr "<indent=5%>親愛的同事、朋友和社區成員，\n\n在擔任 STEM 獨家新聞的編輯九年之後，我將會離職以擁有更多的時間用於陪伴家人。\n\n請熱烈歡迎 Dorian Hearst，他將會接管編輯管理職責。</indent>"
+msgstr "<indent=5%>親愛的同事、朋友和社區成員，\n\n在擔任 STEM 獨家新聞的編輯九年之後，我將會離開現在的位置以擁有更多的時間用於陪伴家人。\n\n請熱烈歡迎 Dorian Hearst，他將會接管編輯管理職責。</indent>"
 
 #. STRINGS.CODEX.JOURNALISTREQUEST.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.JOURNALISTREQUEST.BODY.CONTAINER2"
@@ -19129,7 +19129,7 @@ msgstr "動物類"
 #. STRINGS.CODEX.PACU.SPECIES_TITLE
 msgctxt "STRINGS.CODEX.PACU.SPECIES_TITLE"
 msgid "Pacus"
-msgstr "帕庫"
+msgstr "帕庫類"
 
 #. STRINGS.CODEX.PACU.SUBTITLE
 msgctxt "STRINGS.CODEX.PACU.SUBTITLE"
@@ -19194,7 +19194,7 @@ msgstr "動物類"
 #. STRINGS.CODEX.PIP.SPECIES_TITLE
 msgctxt "STRINGS.CODEX.PIP.SPECIES_TITLE"
 msgid "Pips"
-msgstr "樹鼠"
+msgstr "樹鼠類"
 
 #. STRINGS.CODEX.PIP.SUBTITLE
 msgctxt "STRINGS.CODEX.PIP.SUBTITLE"
@@ -19294,7 +19294,7 @@ msgstr "動物類"
 #. STRINGS.CODEX.POKESHELL.SPECIES_TITLE
 msgctxt "STRINGS.CODEX.POKESHELL.SPECIES_TITLE"
 msgid "Pokeshells"
-msgstr "拋殼蟹"
+msgstr "蟹類"
 
 #. STRINGS.CODEX.POKESHELL.SUBTITLE
 msgctxt "STRINGS.CODEX.POKESHELL.SUBTITLE"
@@ -19419,7 +19419,7 @@ msgstr "動物類"
 #. STRINGS.CODEX.PUFT.SPECIES_TITLE
 msgctxt "STRINGS.CODEX.PUFT.SPECIES_TITLE"
 msgid "Pufts"
-msgstr "帕夫"
+msgstr "帕夫類"
 
 #. STRINGS.CODEX.PUFT.SUBTITLE
 msgctxt "STRINGS.CODEX.PUFT.SUBTITLE"
@@ -19804,7 +19804,7 @@ msgstr "動物類"
 #. STRINGS.CODEX.SHINEBUG.SPECIES_TITLE
 msgctxt "STRINGS.CODEX.SHINEBUG.SPECIES_TITLE"
 msgid "Shine Bugs"
-msgstr "發光蟲"
+msgstr "發光蟲類"
 
 #. STRINGS.CODEX.SHINEBUG.SUBTITLE
 msgctxt "STRINGS.CODEX.SHINEBUG.SUBTITLE"
@@ -19849,7 +19849,7 @@ msgstr "動物類"
 #. STRINGS.CODEX.SLICKSTER.SPECIES_TITLE
 msgctxt "STRINGS.CODEX.SLICKSTER.SPECIES_TITLE"
 msgid "Slicksters"
-msgstr "小油怪"
+msgstr "小油怪類"
 
 #. STRINGS.CODEX.SLICKSTER.SUBTITLE
 msgctxt "STRINGS.CODEX.SLICKSTER.SUBTITLE"
@@ -45099,7 +45099,7 @@ msgstr "<link=\"PICKLEDMEAL\">醃虱子</link>"
 #. STRINGS.ITEMS.FOOD.PICKLEDMEAL.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.PICKLEDMEAL.RECIPEDESC"
 msgid "<link=\"BASICPLANTFOOD\">Meal Lice</link> regrettably preserved in vinegar."
-msgstr "<link=\"BASICPLANTFOOD\">虱子</link> 保存在醋中。"
+msgstr "<link=\"BASICPLANTFOOD\">虱子</link>保存在醋中。"
 
 #. STRINGS.ITEMS.FOOD.PLANTMEAT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.PLANTMEAT.DESC"
