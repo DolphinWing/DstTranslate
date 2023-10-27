@@ -5699,7 +5699,7 @@ msgstr "<link=\"CREATUREDELIVERYPOINT\">動物放置點</link>"
 #. STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.DESC"
 msgid "Critters tend to stay close to their food source and wander less when given a feeder."
-msgstr "提供餵食器，動物會靠近它們的食物來源並減少到處漫遊。"
+msgstr "提供餵食器，動物會靠近牠們的食物來源並減少到處漫遊。"
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREFEEDER.EFFECT"
@@ -9629,7 +9629,7 @@ msgstr "計算蛋的數量"
 #. STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.DESC"
 msgid "Detecting critter populations can help adjust their automated feeding and care regimens."
-msgstr "偵測動物數量有助於自動調整它們的餵食器與照顧範圍。"
+msgstr "偵測動物數量有助於自動調整牠們的餵食器與照顧範圍。"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.EFFECT"
@@ -15804,7 +15804,7 @@ msgstr "農業筆記"
 #. STRINGS.CODEX.A2_B327.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A2_B327.BODY.CONTAINER1"
 msgid "I'm starting my new job at Gravitas today. I'm... well, I'm nervous.\n\nIt turns out they hired a bunch of new people - I guess they're expanding - and most of them are about my age, but I'm the only one that hasn't done my doctorate. They all call me \"Mister\" Kraus and it's the <i>worst</i>.\n\nI have no idea where I'll find the time to do my PhD while working a full time job.\n------------------\n"
-msgstr "我今天開始了在引力科技的新工作。我…很好，我很緊張。\n\n它們雇用一大堆新人－我猜它們正在擴張－多數和我年齡差不多，但我是唯一沒有完成博士學位的人。他們都叫我 Kraus「先生」，真的<i>很壞</i>。\n\n在一個全職的工作上，我該怎麼找到時間完成我的博士學位。\n------------------\n"
+msgstr "我今天開始了在引力科技的新工作。我…很好，我很緊張。\n\n他們雇用一大堆新人－我猜他們正在擴張－多數和我年齡差不多，但我是唯一沒有完成博士學位的人。他們都叫我 Kraus「先生」，真的<i>很壞</i>。\n\n在一個全職的工作上，我該怎麼找到時間完成我的博士學位。\n------------------\n"
 
 #. STRINGS.CODEX.A2_B327.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A2_B327.BODY.CONTAINER2"
@@ -16659,7 +16659,7 @@ msgstr "規格變更"
 #. STRINGS.CODEX.B3_MOVEDRABBITS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B3_MOVEDRABBITS.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subjects Identified: A001, B111]</smallcaps>\n\n[LOG BEGINS]\n\nBroussard: Director, do you know where my rabbits have been moved to? I asked around the bioengineering division but I was referred back to you.\n\nDirector: Hm? Oh, yes, they've been removed.\n\nBroussard: \"Removed\"?\n\nDirector: Discarded. I'm sorry, did you still need them? The reports showed your experiments with them were completed.\n\nBroussard: No, I-I... I'd collected all the data I needed, I just --\n\nDirector: -- Doctor. You weren't making pets out of test subjects, were you?\n\nBroussard: Don't be ridiculous, I --\n\nDirector: -- Good.They were horrible to look at anyway. All those red eyes looking at me.\n\nBroussard: In the future, please do not mess with my things. It... disturbs me.\n\nDirector: I will notify you beforehand next time, Doctor.\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：A001、B111】</smallcaps>\n\n【記錄開始】\n\nBroussard：經理，您知道我的小白鼠們被搬到那了嗎？我詢問了生物工程部，但是我被轉介給了您。\n\nDirector：恩？哦，是的，它們被清除了。\n\nBroussard：「清除」？\n\nDirector：丟棄了。我很抱歉，你還需要它們？報告顯示你對它們的實驗完成了。\n\nBroussard：不，我…我是收集了全部所需的資料，我只是──\n\nDirector：——博士。你不會拿實驗對象當作寵物，是嗎？\n\nBroussard：別笑了，我——\n\nDirector：——很好。不管怎樣它們看起來都很可怕。那些紅色眼睛望著我時。\n\nBroussard：未來，請不要亂動我的東西。這會…擾亂我。\n\nDirector：我下次會提先通知你的，博士。\n\n【記錄結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：A001、B111】</smallcaps>\n\n【記錄開始】\n\nBroussard：經理，您知道我的小白鼠們被搬到那了嗎？我詢問了生物工程部，但是我被轉介給了您。\n\nDirector：恩？哦，是的，牠們被清除了。\n\nBroussard：「清除」？\n\nDirector：丟棄了。我很抱歉，你還需要牠們？報告顯示你對牠們的實驗完成了。\n\nBroussard：不，我…我是收集了全部所需的資料，我只是──\n\nDirector：——博士。你不會拿實驗對象當作寵物，是嗎？\n\nBroussard：別笑了，我——\n\nDirector：——很好。不管怎樣牠們看起來都很可怕。那些紅色眼睛望著我時。\n\nBroussard：未來，請不要亂動我的東西。這會…擾亂我。\n\nDirector：我下次會提先通知你的，博士。\n\n【記錄結束】"
 
 #. STRINGS.CODEX.B3_MOVEDRABBITS.SUBTITLE
 msgctxt "STRINGS.CODEX.B3_MOVEDRABBITS.SUBTITLE"
@@ -16674,7 +16674,7 @@ msgstr "被移走的小白鼠"
 #. STRINGS.CODEX.B3_MOVEDRACCOONS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B3_MOVEDRACCOONS.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subjects Identified: A001, B111]</smallcaps>\n\n[LOG BEGINS]\n\nBroussard: Director, do you know where my raccoons have been moved to? I asked around the bioengineering division but I was referred back to you.\n\nDirector: Hm? Oh, yes, they've been removed.\n\nBroussard: \"Removed\"?\n\nDirector: Discarded. I'm sorry, did you still need them? The reports showed your experiments with them were completed.\n\nBroussard: No, I-I... I'd collected all the data I needed, I just --\n\nDirector: -- Doctor. You weren't making pets out of test subjects, were you?\n\nBroussard: Don't be ridiculous, I --\n\nDirector: -- Good.They were horrible to look at anyway. All that mangy fur.\n\nBroussard: In the future, please do not mess with my things. It... disturbs me.\n\nDirector: I will notify you beforehand next time, Doctor.\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：A001、B111】</smallcaps>\n\n【記錄開始】\n\nBroussard：經理，您知道我的小老鼠被搬到那了嗎？我詢問了生物工程部，但是我被轉介給了您。\n\nDirector：恩？哦，是的，它們被清除了。\n\nBroussard：「清除」？\n\nDirector：丟棄了。我很抱歉，你還需要它們？報告顯示你對它們的實驗完成了。\n\nBroussard：不，我…我是收集了全部所需的資料，我只是──\n\nDirector：——博士。你不會拿實驗對象當作寵物，是嗎？\n\nBroussard：別笑了，我——\n\nDirector：——很好。不管怎樣它們看起來都很可怕。那些臟兮兮的毛髮。\n\nBroussard：未來，請不要亂動我的東西。這會…擾亂我。\n\nDirector：我下會提先通知你的，博士。\n\n【記錄結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：A001、B111】</smallcaps>\n\n【記錄開始】\n\nBroussard：經理，您知道我的小老鼠被搬到那了嗎？我詢問了生物工程部，但是我被轉介給了您。\n\nDirector：恩？哦，是的，牠們被清除了。\n\nBroussard：「清除」？\n\nDirector：丟棄了。我很抱歉，你還需要牠們？報告顯示你對牠們的實驗完成了。\n\nBroussard：不，我…我是收集了全部所需的資料，我只是──\n\nDirector：——博士。你不會拿實驗對象當作寵物，是嗎？\n\nBroussard：別笑了，我——\n\nDirector：——很好。不管怎樣牠們看起來都很可怕。那些臟兮兮的毛髮。\n\nBroussard：未來，請不要亂動我的東西。這會…擾亂我。\n\nDirector：我下會提先通知你的，博士。\n\n【記錄結束】"
 
 #. STRINGS.CODEX.B3_MOVEDRACCOONS.SUBTITLE
 msgctxt "STRINGS.CODEX.B3_MOVEDRACCOONS.SUBTITLE"
@@ -16689,7 +16689,7 @@ msgstr "被移走的小白鼠"
 #. STRINGS.CODEX.B3_MOVEDRATS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B3_MOVEDRATS.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subjects Identified: A001, B111]</smallcaps>\n\n[LOG BEGINS]\n\nBroussard: Director, do you know where my rats have been moved to? I asked around the bioengineering division but I was referred back to you.\n\nDirector: Hm? Oh, yes, they've been removed.\n\nBroussard: \"Removed\"?\n\nDirector: Discarded. I'm sorry, did you still need them? The reports showed your experiments with them were completed.\n\nBroussard: No, I-I... I'd collected all the data I needed, I just --\n\nDirector: -- Doctor. You weren't making pets out of test subjects, were you?\n\nBroussard: Don't be ridiculous, I --\n\nDirector: -- Good.They were horrible to look at anyway. All those bumps.\n\nBroussard: In the future, please do not mess with my things. It... disturbs me.\n\nDirector: I will notify you beforehand next time, Doctor.\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：A001、B111】</smallcaps>\n\n【記錄開始】\n\nBroussard：經理，您知道我的小老鼠被搬到那了嗎？我詢問了生物工程部，但是我被轉介給了您。\n\nDirector：恩？哦，是的，它們被清除了。\n\nBroussard：「清除」？\n\nDirector：丟棄了。我很抱歉，你還需要它們？報告顯示你對它們的實驗完成了。\n\nBroussard：不，我…我是收集了所有的所需的資料，我只是──\n\nDirector：——博士。你不會拿實驗對象當作寵物，是嗎？\n\nBroussard：別笑了，我——\n\nDirector：——很好。不管怎樣它們看起來都很可怕。那些碰撞。\n\nBroussard：未來，請不要亂動我的東西。這會…擾亂我。\n\nDirector：我下會提先通知你的，博士。\n\n【記錄結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：A001、B111】</smallcaps>\n\n【記錄開始】\n\nBroussard：經理，您知道我的小老鼠被搬到那了嗎？我詢問了生物工程部，但是我被轉介給了您。\n\nDirector：恩？哦，是的，牠們被清除了。\n\nBroussard：「清除」？\n\nDirector：丟棄了。我很抱歉，你還需要牠們？報告顯示你對它們的實驗完成了。\n\nBroussard：不，我…我是收集了所有的所需的資料，我只是──\n\nDirector：——博士。你不會拿實驗對象當作寵物，是嗎？\n\nBroussard：別笑了，我——\n\nDirector：——很好。不管怎樣牠們看起來都很可怕。那些碰撞。\n\nBroussard：未來，請不要亂動我的東西。這會…擾亂我。\n\nDirector：我下會提先通知你的，博士。\n\n【記錄結束】"
 
 #. STRINGS.CODEX.B3_MOVEDRATS.SUBTITLE
 msgctxt "STRINGS.CODEX.B3_MOVEDRATS.SUBTITLE"
@@ -16809,7 +16809,7 @@ msgstr "重訪號碼"
 #. STRINGS.CODEX.B5_ANTS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B5_ANTS.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subjects Identified: A001, B556]</smallcaps>\n\n[LOG BEGINS]\n\nTechnician: <i>Atta cephalotes</i>. What sort of experiment are you doing with these?\n\nDirector: No experiment. I just find them interesting. Don't you?\n\nTech: Not really?\n\nDirector: You ought to. Very efficient. They perfected farming millions of years before humans.\n\n(sound of tapping on glass)\n\nDirector: An entire colony led by and in service to its queen. Each organism knows its role.\n\nTech: I have the results from the power tests, director.\n\nDirector: And?\n\nTech: Negative, ma'am.\n\nDirector: I see. You know, another admirable quality of ants occurs to me. They can pull twenty times their own weight.\n\nTech: I'm not sure I follow, ma'am.\n\nDirector: Are you pulling your weight, Doctor?\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：A001、B556】</smallcaps>\n\n【記錄開始】\n\n技師：<i>Atta cephalotes</i>。你正在做什麼實驗？\n\n經理：不是實驗。我只是發現它們很迷人。你覺得呢？\n\n技師：我不覺得？\n\n經理：你應該覺得。它們效率很高。在人類出現前幾百萬年就完善了農業。\n\n（敲打玻璃的聲音）\n\n經理：整個殖民地由蟻后所統治並為其服務。每隻螞蟻都知道它的角色\n\n技師：經理，能量測試有了結果。\n\n經理：然後？\n\n技師：不夠，女士。\n\n經理：我了解了。你知道，我發現了另一種很棒的螞蟻。它們可以抬起比它們本身重 20 倍的東西。\n\n技師：我不確定我知道，女士。\n\n經理：你能抬起和你體重一樣的東西嗎，博士？\n\n【記錄結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：A001、B556】</smallcaps>\n\n【記錄開始】\n\n技師：<i>Atta cephalotes</i>。你正在做什麼實驗？\n\n經理：不是實驗。我只是發現它們很迷人。你覺得呢？\n\n技師：我不覺得？\n\n經理：你應該覺得。牠們效率很高。在人類出現前幾百萬年就完善了農業。\n\n（敲打玻璃的聲音）\n\n經理：整個殖民地由蟻后所統治並為其服務。每隻螞蟻都知道牠的角色\n\n技師：經理，能量測試有了結果。\n\n經理：然後？\n\n技師：不夠，女士。\n\n經理：我了解了。你知道，我發現了另一種很棒的螞蟻。牠們可以抬起比牠們本身重 20 倍的東西。\n\n技師：我不確定我知道，女士。\n\n經理：你能抬起和你體重一樣的東西嗎，博士？\n\n【記錄結束】"
 
 #. STRINGS.CODEX.B5_ANTS.SUBTITLE
 msgctxt "STRINGS.CODEX.B5_ANTS.SUBTITLE"
@@ -16999,7 +16999,7 @@ msgstr "嗨~~~~~!"
 #. STRINGS.CODEX.B7_INSPACE.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B7_INSPACE.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subjects Identified: B835, B997]</smallcaps>\n\n[LOG BEGINS]\n\nDr.Ansari: Shhhh...\n\nDr. Bubare: What? What are we doing here?\n\nDr. Ansari: I'll show you, just keep your voice down.\n\nDr. Bubare: Are we even allowed to be here?\n\nDr. Ansari: No. Trust me it'll all be worth it once I can find it.\n\nDr. Bubare: Find what?\n\nDr. Ansari: That!\n\nDr. Bubare: ...Video feed from a rat cage? What's so great about -- Wait. Are they--?\n\nDr. Ansari: Floating!\n\nDr. Bubare: You mean they're in--?\n\nDr. Ansari: Space!\n\nDr. Bubare: Our thermal rats are in space?!?!\n\nDr. Ansari: Yep! There's Applecart and Cherrypie and little Bananabread. Look at them, they're so happy. We made ratstronauts!!\n\nDr. Bubare: HAPPY rat-stronauts.\n\nDr. Ansari: WE MADE HAPPY RATSTRONAUTS!!\n\nDr. Bubare: Shhhhhh...Someone's coming.\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：B835, B997】</smallcaps>\n\n【日誌開始】\n\nAnsari 博士：噓…\n\nBubare 博士：什麼？我們在這做什麼？\n\nAnsari 博士：我展示給你看，只要你小聲點。\n\nBubare 博士：這裡允許我們這樣做？\n\nAnsari 博士：不。相信我，一旦我找到它了一切都是值得的。\n\nBubare 博士：找到什麼？\n\nAnsari 博士：那個！\n\nBubare 博士：…老鼠籠的影片？有什麼了不起的…等等。它們…？\n\nAnsari 博士：漂浮！\n\nBubare 博士：你的意思是它們在…？\n\nAnsari 博士：太空！\n\nBubare 博士：我們的熱鼠在太空中？！？！\n\nAnsari 博士：是的！這裡有蘋果車，莓果派與小香蕉蛋糕。看看它們，它們很開心。我們創造了太空鼠！！\n\nBubare 博士：開心的太空鼠。\n\nAnsari 博士：我們創造了開心的太空鼠！！\n\nBubare 博士：噓…有人來了。\n\n【日誌結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：B835, B997】</smallcaps>\n\n【日誌開始】\n\nAnsari 博士：噓…\n\nBubare 博士：什麼？我們在這做什麼？\n\nAnsari 博士：我展示給你看，只要你小聲點。\n\nBubare 博士：這裡允許我們這樣做？\n\nAnsari 博士：不。相信我，一旦我找到它了一切都是值得的。\n\nBubare 博士：找到什麼？\n\nAnsari 博士：那個！\n\nBubare 博士：…老鼠籠的影片？有什麼了不起的…等等。牠們…？\n\nAnsari 博士：漂浮！\n\nBubare 博士：你的意思是牠們在…？\n\nAnsari 博士：太空！\n\nBubare 博士：我們的熱鼠在太空中？！？！\n\nAnsari 博士：是的！這裡有蘋果車，莓果派與小香蕉蛋糕。看看牠們，牠們很開心。我們創造了太空鼠！！\n\nBubare 博士：開心的太空鼠。\n\nAnsari 博士：我們創造了開心的太空鼠！！\n\nBubare 博士：噓…有人來了。\n\n【日誌結束】"
 
 #. STRINGS.CODEX.B7_INSPACE.SUBTITLE
 msgctxt "STRINGS.CODEX.B7_INSPACE.SUBTITLE"
@@ -17119,7 +17119,7 @@ msgstr "蘆葦纖維"
 #. STRINGS.CODEX.BEETA.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.BEETA.BODY.CONTAINER1"
 msgid "Beetas are insectoid creatures that enjoy a symbiotic relationship with the radioactive environment they thrive in.\n\nMuch like the honey bee gathers nectar and processes it to honey, the Beeta turns <link=\"URANIUMORE\">Uranium Ore</link> into <link=\"ENRICHEDURANIUM\">Enriched Uranium</link> through a complex process of isotope separation inside the Beeta Hive.\n\nWhen first observing the Beeta's enrichment process, many scientists note with surprise just how much more efficient the cooperative combination of insect and hive is when compared to even the most advanced industrial processes."
-msgstr "輻射蜂是一種類昆蟲生物，與它們賴以生存的放射性環境有著共生關係。\n\n就像蜜蜂採集花蜜並將其加工成蜂蜜一樣，輻射蜂通過輻射蜂巢內複雜的同位素分離過程，將<link=\"URANIUMORE\">鈾礦</link >轉化成<link=\"ENRICHEDURANIUM\">濃縮鈾</link>。\n\n當第一次觀察輻射蜂的濃縮過程時，許多科學家驚訝地注意到，即使與最先進的工業流程相比，昆蟲與蜂巢的結合工作效率也要高的多。"
+msgstr "輻射蜂是一種類昆蟲生物，與牠們賴以生存的放射性環境有著共生關係。\n\n就像蜜蜂採集花蜜並將其加工成蜂蜜一樣，輻射蜂通過輻射蜂巢內複雜的同位素分離過程，將<link=\"URANIUMORE\">鈾礦</link >轉化成<link=\"ENRICHEDURANIUM\">濃縮鈾</link>。\n\n當第一次觀察輻射蜂的濃縮過程時，許多科學家驚訝地注意到，即使與最先進的工業流程相比，昆蟲與蜂巢的結合工作效率也要高的多。"
 
 #. STRINGS.CODEX.BEETA.SUBTITLE
 msgctxt "STRINGS.CODEX.BEETA.SUBTITLE"
@@ -17449,7 +17449,7 @@ msgstr "產蛋機率"
 #. STRINGS.CODEX.CRITTERSTATUS.FERTILITY.FERTILITYRATE.CONTAINER1
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.FERTILITY.FERTILITYRATE.CONTAINER1"
 msgid "Each time a critter completes their reproduction cycle (i.e. at 100 percent), it lays an egg and restarts its cycle.\n\nA critter's environment greatly impacts its base reproduction rate. When a critter is feeling cramped, it will wait until all eggs in the room have hatched or been removed before laying any of its own.\n\nCritters will also stop reproducing when they feel confined, which happens when their space is too small or they are stuck in a door or tile.\n\nMood and domestication also impact reproduction: happy critters reproduce more regularly, and happy tame critters reproduce the fastest."
-msgstr "小動物在完成其繁殖週期（即100%）時，會產下一顆蛋並重新開始這其週期。\n\n小動物的環境會對其基礎繁殖率產生很大影響。當小動物感到擁擠時，牠會等房間中的所有蛋孵化或被移走後才會產下自己的蛋。\n\n當小動物感到受到限制時，牠們也會停止繁殖，這種情況會發生在它們的空間太小或它們卡在門或磚中時。\n\n心情和馴化也會影響繁殖：快樂的小動物會更定期地繁殖，快樂而溫順的小動物繁殖最快。"
+msgstr "小動物在完成其繁殖週期（即100%）時，會產下一顆蛋並重新開始這其週期。\n\n小動物的環境會對其基礎繁殖率產生很大影響。當小動物感到擁擠時，牠會等房間中的所有蛋孵化或被移走後才會產下自己的蛋。\n\n當小動物感覺受到限制時，牠們也會停止繁殖，這種情況會發生在牠們的空間太小或牠們卡在門或磚中時。\n\n心情和馴化也會影響繁殖：快樂的小動物會更定期地繁殖，快樂而溫順的小動物繁殖最快。"
 
 #. STRINGS.CODEX.CRITTERSTATUS.FERTILITY.FERTILITYRATE.TITLE
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.FERTILITY.FERTILITYRATE.TITLE"
@@ -17574,7 +17574,7 @@ msgstr "狹窄"
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.GLUM.CONTAINER1
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.GLUM.CONTAINER1"
 msgid "Critters can survive in subpar environments, but it takes a toll on their mood and impacts metabolism and productivity. When their happiness levels dip below zero, they become glum.\n\nWild critters are less sensitive to the effects of glumness than their tamed brethren, though they are still negatively affected by overcrowded or confined living conditions."
-msgstr "小動物可以在低於標準的環境中存活，但會對其心情造成影響，從而影響代謝和生產。當其幸福度降至 0 以下時，會變得悶悶不樂。\n\n野生小動物比溫順小動物更不容易悶悶不樂，但它們也會受過度擁擠和受到限制的負面條件影響。"
+msgstr "小動物可以在低於標準的環境中存活，但會對其心情造成影響，從而影響代謝和生產。當其幸福度降至 0 以下時，會變得悶悶不樂。\n\n野生小動物比溫順小動物更不容易悶悶不樂，但牠們也會受過度擁擠和受到限制的負面條件影響。"
 
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.GLUM.GLUMWILD_METABOLISM
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.GLUM.GLUMWILD_METABOLISM"
@@ -18509,7 +18509,7 @@ msgstr "木材"
 #. STRINGS.CODEX.MEALWOOD.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.MEALWOOD.BODY.CONTAINER1"
 msgid "Mealwood is an bramble-like plant that has a parasitic symbiotic relationship with the nutrient-rich Meal Lice that inhabit it.\n\nMealwood experience a rapid growth rate in its first stages, but once the Meal Lice become active they consume all the new fruiting spurs on the plant before they can fully mature.\n\nTheoretically the flowers of this plant are a beautiful color of fuchsia, however no Mealwood has ever reached the point of flowering without being overrun by the parasitic Meal Lice."
-msgstr "虱子樹是一種類似荊棘的植物，\n與其寄生在樹上營養豐富的食用虱子形成共生關係。\n\n虱子樹在第一階段會經歷快速生長，\n不過一旦食用虱子變的活躍，它們會\n在完全成熟前吃掉樹上所有的果實。\n\n理論上來說，\n此種植物的花朵是美麗的紫紅色，\n然後沒有虱子樹曾在沒有食用虱子\n寄生的情況下達到開花的程度。"
+msgstr "虱子樹是一種類似荊棘的植物，與其寄生在樹上營養豐富的食用虱子形成共生關係。\n\n虱子樹在第一階段會經歷快速生長，不過一旦食用虱子變的活躍，它們會在完全成熟前吃掉樹上所有的果實。\n\n理論上來說，此種植物的花朵是美麗的紫紅色，然後沒有虱子樹曾在沒有食用虱子寄生的情況下達到開花的程度。"
 
 #. STRINGS.CODEX.MEALWOOD.SUBTITLE
 msgctxt "STRINGS.CODEX.MEALWOOD.SUBTITLE"
@@ -18619,7 +18619,7 @@ msgstr "主題：遺失的筆記"
 #. STRINGS.CODEX.MOLE.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.MOLE.BODY.CONTAINER1"
 msgid "The Shove Vole is a unique creature that possesses two fully developed sets of lungs, allowing it to hold its breath during the long periods it spends underground."
-msgstr "鑽地田鼠是一種獨特的生物，它們有兩個完全發育好的肺，讓它可以長時間閉氣待在地底下。"
+msgstr "鑽地田鼠是一種獨特的生物，牠們有兩個完全發育好的肺，讓牠們可以長時間閉氣待在地底下。"
 
 #. STRINGS.CODEX.MOLE.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.MOLE.BODY.CONTAINER2"
@@ -18644,7 +18644,7 @@ msgstr "<smallcaps>圖為：「熔岩」小油怪變種</smallcaps>"
 #. STRINGS.CODEX.MOLTEN.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.MOLTEN.BODY.CONTAINER2"
 msgid "Slicksters are amicable creatures famous amongst breeders for their good personalities and smiley faces.\n\nSlicksters rarely if ever nip at human handlers, and are considered non-ideal house pets only for the oily mess they involuntarily leave behind wherever they go."
-msgstr "小油怪是友善的生物，因其溫和的個性與笑臉而出名。\n\n小油怪很稀有，曾經遭到人類捕殺，\n只因它們走過的地方都會留下油狀物質，而被認為不適合當作家庭寵物。"
+msgstr "小油怪是友善的生物，因其溫和的個性與笑臉而出名。\n\n小油怪很稀有，曾經遭到人類捕殺，\n只因牠們走過的地方都會留下油狀物質，而被認為不適合當作家庭寵物。"
 
 #. STRINGS.CODEX.MOLTEN.SUBTITLE
 msgctxt "STRINGS.CODEX.MOLTEN.SUBTITLE"
@@ -19119,7 +19119,7 @@ msgstr "氧氣蕨"
 #. STRINGS.CODEX.PACU.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.PACU.BODY.CONTAINER1"
 msgid "The Pacu fish is often interpreted as possessing a vacant stare due to its large and unblinking eyes, yet they are remarkably bright and friendly creatures."
-msgstr "由於大大的眼睛，帕庫魚常被認為是目光空洞的，但它們是非常明亮和友善的動物。"
+msgstr "由於大大的眼睛，帕庫魚常被認為是目光空洞的，但牠們是非常明亮和友善的動物。"
 
 #. STRINGS.CODEX.PACU.SPECIES_SUBTITLE
 msgctxt "STRINGS.CODEX.PACU.SPECIES_SUBTITLE"
@@ -19174,17 +19174,17 @@ msgstr "胡椒藤"
 #. STRINGS.CODEX.PIP.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.PIP.BODY.CONTAINER1"
 msgid "Pips are a member of the Rodentia order with a strong caching instinct that causes them to find and bury small objects, most often seeds."
-msgstr "樹鼠是囓齒類，並有強烈的儲物本能，\n所以它們會尋找並掩埋物品，通常是一些種子。"
+msgstr "樹鼠是囓齒類，並有強烈的儲物本能，\n所以牠們會尋找並掩埋物品，通常是一些種子。"
 
 #. STRINGS.CODEX.PIP.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.PIP.BODY.CONTAINER2"
 msgid "It is unknown whether their caching behavior is a compulsion or a form of entertainment, as the Pip relies primarily on bark and wood for its survival."
-msgstr "不清楚它們的儲物行為是必要的還是好玩的，\n因為樹鼠主要靠食用樹皮與木頭生存。"
+msgstr "不清楚牠們的儲物行為是必要的還是好玩的，\n因為樹鼠主要靠食用樹皮與木頭生存。"
 
 #. STRINGS.CODEX.PIP.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.PIP.BODY.CONTAINER3"
 msgid "Although the Pip lacks truly opposable thumbs, it nonetheless has highly dexterous paws that allow it to rummage through most tight to reach spaces in search of seeds and other treasures."
-msgstr "儘管樹鼠缺少姆指，\n但它靈活的爪子能挖穿大多數的地方來尋找種子或其它的珍品。"
+msgstr "儘管樹鼠缺少姆指，\n但牠靈活的爪子能挖穿大多數的地方來尋找種子或其它的珍品。"
 
 #. STRINGS.CODEX.PIP.SPECIES_SUBTITLE
 msgctxt "STRINGS.CODEX.PIP.SPECIES_SUBTITLE"
@@ -19254,7 +19254,7 @@ msgstr "星球回音"
 #. STRINGS.CODEX.PLUGSLUG.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.PLUGSLUG.BODY.CONTAINER1"
 msgid "Plug Slugs are fuzzy gastropoda that are able to cling to walls and ceilings thanks to an extreme triboelectric effect caused by friction between their fur and various surfaces.\n\nThis same phenomomen allows the Plug Slug to generate a significant amount of static electricity that can be converted into power.\n\nThe increased amount of static electricity a Plug Slug can generate when domesticated is due to the internal vibration, or contented 'humming', they demonstrate when all their needs are met."
-msgstr "電氣蛞蝓是一種毛茸茸的爬行動物，\n它們的毛髮與表面磨擦引起的極端靜電反應使它們吸附在牆壁與天花板上。\n同樣的現象讓電影蛞蝓產生大量的靜電可以轉化成電能。\n\n電氣蛞輸可產生靜電的增加量等於馴化後內部的震動或是滿足的【嗡嗡聲】，\n當它們滿足時就會表現出來。"
+msgstr "電氣蛞蝓是一種毛茸茸的爬行動物，牠們的毛髮與表面磨擦引起的極端靜電反應使牠們吸附在牆壁與天花板上。\n同樣的現象讓電影蛞蝓產生大量的靜電可以轉化成電能。\n\n電氣蛞輸可產生靜電的增加量等於馴化後內部的震動或是滿足的【嗡嗡聲】，當牠們滿足時就會表現出來。"
 
 #. STRINGS.CODEX.PLUGSLUG.SUBTITLE
 msgctxt "STRINGS.CODEX.PLUGSLUG.SUBTITLE"
@@ -19274,7 +19274,7 @@ msgstr "拋殼蟹是底棲的無脊椎動物，會吃其它生動的廢棄物與
 #. STRINGS.CODEX.POKESHELL.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.POKESHELL.BODY.CONTAINER2"
 msgid "They have formidably sized claws that fold safely into their shells for protection when not in use."
-msgstr "它們擁有大尺寸的爪隻，在不使用時會安全的縮進蟹穀內保護起來。"
+msgstr "牠們擁有大尺寸的爪隻，在不使用時會安全的縮進蟹穀內保護起來。"
 
 #. STRINGS.CODEX.POKESHELL.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.POKESHELL.BODY.CONTAINER3"
@@ -19359,7 +19359,7 @@ msgstr "<smallcaps>圖為：帕夫「王子」變種</smallcaps>"
 #. STRINGS.CODEX.PRINCE.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.PRINCE.BODY.CONTAINER2"
 msgid "A specialized air bladder in the Puft's chest cavity stores varying concentrations of gas, allowing it to control its buoyancy and float effortlessly through the air.\n\nCombined with extremely lightweight and elastic skin, the Puft is capable of maintaining flotation indefinitely with negligible energy expenditure. Its orientation and balance, meanwhile, are maintained by counterweighted formations of bone located in its otherwise useless legs."
-msgstr "帕夫體內特殊的氣囊，\n可以儲存高濃度的氣體，\n讓它們可以控制浮力並輕鬆的漂浮在空中。\n\n結合極輕盈和富有彈性的皮膚，\n帕夫可以無限的漂浮，\n而消耗的能量可以忽略不計。\n\n同時，它的方向和平衡是透過位於其無用腿中的平衡骨來維持的。"
+msgstr "帕夫體內特殊的氣囊，可以儲存高濃度的氣體，讓牠們可以控制浮力並輕鬆的漂浮在空中。\n\n結合極輕盈和富有彈性的皮膚，帕夫可以無限的漂浮，而消耗的能量可以忽略不計。\n\n同時，牠的方向和平衡是透過位於其無用腿中的平衡骨來維持的。"
 
 #. STRINGS.CODEX.PRINCE.SUBTITLE
 msgctxt "STRINGS.CODEX.PRINCE.SUBTITLE"
@@ -19389,17 +19389,17 @@ msgstr "優先度工具"
 #. STRINGS.CODEX.PRIORITY.PARAGRAPH_1
 msgctxt "STRINGS.CODEX.PRIORITY.PARAGRAPH_1"
 msgid "Duplicants prioritize their errands based on several factors. Some of these can be adjusted to affect errand choice, but some errands (such as seeking breathable <link=\"OXYGEN\">Oxygen</link>) are so important that they cannot be delayed. Errand priority can primarily be controlled by Errand Type prioritization, and then can be further fine-tuned by the <b>Priority Tool</b> {Hotkey/Prioritize}.\n\n"
-msgstr "複製人的工作優先度基於幾項因素。\n\n一些可調整的工作會影響執行順序，\n而另一些工作（像是尋找可呼吸的<link=\"OXYGEN\">氧氣</link>）是很重要的就不能延後。\n\n工作優先度主要由工作類別的優先度所控制，\n而它們可以在 <b>優先度工具</b> {Hotkey/Prioritize} 中調整。\n\n"
+msgstr "複製人的工作優先度基於幾項因素。\n\n一些可調整的工作會影響執行順序，而另一些工作（像是尋找可呼吸的<link=\"OXYGEN\">氧氣</link>）是很重要的就不能延後。\n\n工作優先度主要由工作類別的優先度所控制，而它們可以在<b>優先度工具</b> {Hotkey/Prioritize} 中調整。\n\n"
 
 #. STRINGS.CODEX.PRIORITY.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.PRIORITY.PARAGRAPH_2"
 msgid "Each errand a Duplicant can perform falls into an Errand Category. These categories can be prioritized on a per-Duplicant basis in the <b>Priorities Screen</b>. Entire errand categories can also be prohibited to a Duplicant if they are meant to never perform errands of that variety. A common configuration is to assign errand type priority based on Duplicant attributes.\n\nFor example, Duplicants who are good at Research could be made to prioritize the Researching errand type. Duplicants with poor Athletics could be made to deprioritize the Supplying and Storing errand types.\n\n"
-msgstr "複製人可執行的每一項工作，都有著工作類別。\n在 <b>優先度畫面</b> 可以排定每位複製人工作類別的優先順序。\n\n全部的工作類別都可以禁止複製人執行，\n如果他們永遠都不會執行那樣的工作。\n一般的設定是根據複製人的屬性來安排工作類的優先度。\n\n舉例，擅長研究的複製人可優先考慮研究類的工作。\n體能差的複製人可以考慮取消供應與儲存類的工作。\n\n"
+msgstr "複製人可執行的每一項工作，都有著工作類別。在<b>優先度畫面</b> 可以排定每位複製人工作類別的優先順序。\n\n全部的工作類別都可以禁止複製人執行，如果他們永遠都不會執行那樣的工作。一般的設定是根據複製人的屬性來安排工作類的優先度。\n\n舉例，擅長研究的複製人可優先考慮研究類的工作。體能差的複製人可以考慮取消供應與儲存類的工作。\n\n"
 
 #. STRINGS.CODEX.PRIORITY.PARAGRAPH_3
 msgctxt "STRINGS.CODEX.PRIORITY.PARAGRAPH_3"
 msgid "The priority of errands can often be modified using the <b>Priority tool</b> {Hotkey/Prioritize}. The values applied by this tool are always less influential than the Errand Type priorities described above. If two errands with equal Errand Type Priority are available to a Duplicant, they will choose the errand with a higher priority setting as applied by the tool.\n\n"
-msgstr "使用 <b>優先度</b> {Hotkey/Prioritize} 來經常調整工作的優先順序。\n此工具所設定的值會永遠低於工作類的優先度。\n\n如果複製人有兩件差事，工作類的優度一樣，\n他們會依此工具所設定的優先順序執行。\n\n"
+msgstr "使用<b>優先度</b> {Hotkey/Prioritize} 來經常調整工作的優先順序。此工具所設定的值會永遠低於工作類的優先度。\n\n如果複製人有兩件差事，工作類的優度一樣，他們會依此工具所設定的優先順序執行。\n\n"
 
 #. STRINGS.CODEX.PRIORITY.TITLE
 msgctxt "STRINGS.CODEX.PRIORITY.TITLE"
@@ -19409,7 +19409,7 @@ msgstr "<link=\"PRIORITY\">優先度</link>"
 #. STRINGS.CODEX.PUFT.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.PUFT.BODY.CONTAINER1"
 msgid "The Puft is a mellow creature whose limited brainpower is largely dedicated to sustaining its basic life processes."
-msgstr "帕夫是一種美味的動物，它有限的腦容量致力於維持基礎的生命進程。"
+msgstr "帕夫是一種美味的動物，牠有限的腦容量致力於維持基礎的生命進程。"
 
 #. STRINGS.CODEX.PUFT.SPECIES_SUBTITLE
 msgctxt "STRINGS.CODEX.PUFT.SPECIES_SUBTITLE"
@@ -19869,7 +19869,7 @@ msgstr "<smallcaps>圖為：「金屬」哈奇變種</smallcaps>"
 #. STRINGS.CODEX.SMOOTH.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.SMOOTH.BODY.CONTAINER2"
 msgid "The proper way to pet a Hatch is to touch any of its four feet to first make it aware of your presence, then either scratch the soft segmented underbelly or firmly pat the creature's thick chitinous back."
-msgstr "飼養哈奇寵物的正確方式是，\n先觸碰它們四隻腳的任一隻讓它知道你的存在，\n然後撫摸柔軟的腹部或是拍打有著堅硬角質層的後背。"
+msgstr "飼養哈奇寵物的正確方式是，先觸碰牠們四隻腳的任一隻讓它知道你的存在，然後撫摸柔軟的腹部或是拍打有著堅硬角質層的後背。"
 
 #. STRINGS.CODEX.SMOOTH.SUBTITLE
 msgctxt "STRINGS.CODEX.SMOOTH.SUBTITLE"
@@ -19934,7 +19934,7 @@ msgstr "<smallcaps>圖為：「長髮」帕夫變種</smallcaps>"
 #. STRINGS.CODEX.SQUEAKY.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.SQUEAKY.BODY.CONTAINER2"
 msgid "Pufts often have a collection of asymmetric teeth lining the ridge of their mouths, although this feature is entirely vestigial as Pufts do not consume solid food.\n\nInstead, a baleen-like mesh of keratin at the back of the Puft's throat works to filter out tiny organisms and food particles from the air.\n\nUnusable air is expelled back out the Puft's posterior trunk, along with waste material and any indigestible particles or pathogens which it then evacuates as solid biomass."
-msgstr "帕夫的嘴裡通常有整排不對稱的牙齒，\n雖然這是個退化的特徵，\n但它們也不吃固體食物。\n\n取而代之的是，\n帕夫嘴巴內有著角蛋白形成的網狀物可以過濾微生物與食物粒子。\n\n不可用的空氣從帕夫的身體後面排出，\n難以消化並含有病菌的固體排泄物也會一併排出。"
+msgstr "帕夫的嘴裡通常有整排不對稱的牙齒，雖然這是個退化的特徵，但牠們也不吃固體食物。\n\n取而代之的是，帕夫嘴巴內有著角蛋白形成的網狀物可以過濾微生物與食物粒子。\n\n不可用的空氣從帕夫的身體後面排出，難以消化並含有病菌的固體排泄物也會一併排出。"
 
 #. STRINGS.CODEX.SQUEAKY.SUBTITLE
 msgctxt "STRINGS.CODEX.SQUEAKY.SUBTITLE"
@@ -20229,7 +20229,7 @@ msgstr "查看資料"
 #. STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.WORKIVERSARY.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.WORKIVERSARY.BODY.CONTAINER1"
 msgid "Happy 3rd work-iversary, Ada!\n\nI drew this to fill the space left by the cabinet that your chompy critters tore off the wall last week. Hope it's big enough!\n\nI still can't believe they can digest solid steel—you really know how to breed 'em!\n\n- Liam"
-msgstr "第三次工作纪念日快樂，Ada！\n\n我畫這個是為了填補儲物櫃旁邊的空間，你那些貪吃的小動物上週把那片牆撕壞了。希望這夠大了！\n\n我仍然無法相信他們居然能消化鋼鐵——還是你知道怎麼繁殖它們！\n\n- Liam"
+msgstr "第三次工作纪念日快樂，Ada！\n\n我畫這個是為了填補儲物櫃旁邊的空間，你那些貪吃的小動物上週把那片牆撕壞了。希望這夠大了！\n\n我仍然無法相信牠們居然能消化鋼鐵——還是你知道怎麼繁殖牠們！\n\n- Liam"
 
 #. STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.WORKIVERSARY.SUBTITLE
 msgctxt "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.WORKIVERSARY.SUBTITLE"
@@ -20859,7 +20859,7 @@ msgstr "夢境合成器"
 #. STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.SEEDSOFEVOLUTION.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.SEEDSOFEVOLUTION.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subject Identified: B040]</smallcaps>\n\n[LOG BEGINS]\n\nThree days ago, we completed our first non-fatal Duplicant trial of Nikola's comprehensive synapse microanalysis and mirroring process. Five hours from now, Subject #901 will make history as our first human test subject.\n\nEven at the Vertex Institute, which is twice Gravitas's size, I could've spent half my career waiting for approval to advance to human trials for such an invasive process! But Director Stern is too invested in this work to let it stagnate.\n\nMy darling Bruce always said that when you're on the right path, the universe conspires to help you. He'd be so proud of the work we do here.\n\n[LOG ENDS]\n\n[LOG BEGINS]\n\nMy bio-printed multi-cerebral storage chambers (or \"mega minds\" as I've been calling them) are working! Just in time to save my job.\n\nThe Director's been getting increasingly impatient about our struggle to maintain the integrity of our growing datasets during extraction and processing. The other day, she held my report over a Bunsen burner until the flames reached her fingertips.\n\nI can only imagine how much stress she's under.\n\nThe whole world is counting on us.\n\n[LOG ENDS]\n\n[LOG BEGINS]\n\nOn a hunch, I added dream content analysis to the data and...wow. Oneirology may be scientifically \"fluffy\", but integrating subconscious narratives has produced a new type of brainmap - one with more latent potential for complex processing.\n\nIf these results are replicable, we might be on the verge of unlocking the secret to creating synthetic life forms with the capacity to evolve beyond blindly following commands.\n\nNikola says that's irrelevant for our purposes. Surely Director Stern would disagree.\n\n[LOG ENDS]\n\n[LOG BEGINS]\n\nNikola gave me a dataset to plug into the mega minds. He wouldn't say where it came from, but even if he had...nothing could have prepared me for what it contained.\n\nWhen he saw my face, he muttered something about how people should call me \"Tremors,\" not \"Nails\" and sent me on my lunch break.\n\nAll I could think about was those poor souls.\n\nDid they have souls?\n\n...do we?\n\n[LOG ENDS]\n\n[LOG BEGINS]\n\nIt's done. My adjustments to the memory transfer protocol are hardcoded into the machine.\n\nI finished just as Nikola stormed in.\n\nI may be too much of a coward to stand up for those unfortunate creatures, but with these new parameters in place...someday, they might be able to stand up for themselves.\n\n[LOG ENDS]\n------------------\n"
-msgstr "<smallcaps>[語音辨識系統初始化完成]\n[識別編號：B040]</smallcaps>\n\n[錄音開始]\n\n三天前，我們完成了我們的第一次非致命性複製人試驗，即 Nikola 主持的綜合突觸微觀分析和反射過程。從現在起五小時後，受測體 #901 將會成為我們的歷史上第一次人體測試項目。\n\n即使是在頂點研究所，那是一個比引力科技規模大一倍的地方，我也可以用我半個職業生涯等待批准，以推進類似這種手術過程的人體試驗！但 Stern 經理在此投入太多了，以至於項目進展始終沒停過。\n\n我親愛的 Bruce 總會說，當你走在正確的路上時，宇宙會幫助你的。他一定會為我們在此的工作感到自豪的。\n\n[錄音結束]\n\n[錄音開始]\n\n我的生物打印多腦儲存室（或者我一直將其稱為\"超級大腦\"）正在運行！剛好及時地拯救了我的工作。\n\n資料集在提取和處理過程中不斷擴大，對於我們艱難地維持其完整性的努力，經理感到越來越不耐煩了。前幾天，她把我的報告放在本生燈上，直到火焰燒到她的指尖。\n\n我只能想像她承受了多大的壓力。\n\n全世界都指望我們了。\n\n[錄音結束]\n\n[錄音開始]\n\n我憑直覺，將夢境內容分析加入到了資料中然後……哇。解夢學可能在科學上是\"膚淺\"的，但整合潛意識的敘述產生了一種新的腦譜圖——有復雜處理的潛能的腦譜圖。\n\n如果這些結果可複制，我們可能即將解開創造合成生物的祕密，它們能進化超出盲目服從命令的能力。\n\nNikola 說這與我們的目的無關。當然 Stern 經理肯定不會同意。\n\n[錄音結束]\n\n[錄音開始]\n\nNikola 給了我一個資料集用來插入超級大腦。他沒說，也不會說這是從哪來的，但即使他說了……也沒什麼能讓我準備好它裡面裝的東西。\n\n當他看到我的臉時，他嘀咕著，說人們都在叫我\"魔怪\"而不是\"尖釘\"，然後送我去午休了。\n\n但我所想的只有那些可憐的靈魂。\n\n它們有靈魂嗎？\n\n……我們呢？\n\n[錄音結束]\n\n[錄音開始]\n\n完成了。我對記憶傳遞協議的調整已整合到機器中了。\n\n我剛完成 Nikola 就衝了進來。\n\n可能我太懦弱了，不敢為這些不幸的生物挺身而出，但有了這些新的資料在這……總有一天，它們能捍衛自己。\n\n[錄音結束]\n------------------\n"
+msgstr "<smallcaps>[語音辨識系統初始化完成]\n[識別編號：B040]</smallcaps>\n\n[錄音開始]\n\n三天前，我們完成了我們的第一次非致命性複製人試驗，即 Nikola 主持的綜合突觸微觀分析和反射過程。從現在起五小時後，受測體 #901 將會成為我們的歷史上第一次人體測試項目。\n\n即使是在頂點研究所，那是一個比引力科技規模大一倍的地方，我也可以用我半個職業生涯等待批准，以推進類似這種手術過程的人體試驗！但 Stern 經理在此投入太多了，以至於項目進展始終沒停過。\n\n我親愛的 Bruce 總會說，當你走在正確的路上時，宇宙會幫助你的。他一定會為我們在此的工作感到自豪的。\n\n[錄音結束]\n\n[錄音開始]\n\n我的生物打印多腦儲存室（或者我一直將其稱為\"超級大腦\"）正在運行！剛好及時地拯救了我的工作。\n\n資料集在提取和處理過程中不斷擴大，對於我們艱難地維持其完整性的努力，經理感到越來越不耐煩了。前幾天，她把我的報告放在本生燈上，直到火焰燒到她的指尖。\n\n我只能想像她承受了多大的壓力。\n\n全世界都指望我們了。\n\n[錄音結束]\n\n[錄音開始]\n\n我憑直覺，將夢境內容分析加入到了資料中然後……哇。解夢學可能在科學上是\"膚淺\"的，但整合潛意識的敘述產生了一種新的腦譜圖——有復雜處理的潛能的腦譜圖。\n\n如果這些結果可複制，我們可能即將解開創造合成生物的祕密，它們能進化超出盲目服從命令的能力。\n\nNikola 說這與我們的目的無關。當然 Stern 經理肯定不會同意。\n\n[錄音結束]\n\n[錄音開始]\n\nNikola 給了我一個資料集用來插入超級大腦。他沒說，也不會說這是從哪來的，但即使他說了……也沒什麼能讓我準備好它裡面裝的東西。\n\n當他看到我的臉時，他嘀咕著，說人們都在叫我「魔怪」而不是「尖釘」，然後送我去午休了。\n\n但我所想的只有那些可憐的靈魂。\n\n它們有靈魂嗎？\n\n……我們呢？\n\n[錄音結束]\n\n[錄音開始]\n\n完成了。我對記憶傳遞協議的調整已整合到機器中了。\n\n我剛完成 Nikola 就衝了進來。\n\n可能我太懦弱了，不敢為這些不幸的生物挺身而出，但有了這些新的資料在這……總有一天，它們能捍衛自己。\n\n[錄音結束]\n------------------\n"
 
 #. STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.SEEDSOFEVOLUTION.SUBTITLE
 msgctxt "STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.SEEDSOFEVOLUTION.SUBTITLE"
@@ -25849,7 +25849,7 @@ msgstr "{OutputElement}以 <style=\"produced\">{OutputRate}</style> 的速度排
 #. STRINGS.CREATURES.STATUSITEMS.EXCITED_TO_BE_RANCHED.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXCITED_TO_BE_RANCHED.NAME"
 msgid "Freshly Groomed"
-msgstr "清新乾淨"
+msgstr "剛洗香香"
 
 #. STRINGS.CREATURES.STATUSITEMS.EXCITED_TO_BE_RANCHED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXCITED_TO_BE_RANCHED.TOOLTIP"
@@ -25894,7 +25894,7 @@ msgstr "排出廢物"
 #. STRINGS.CREATURES.STATUSITEMS.EXPELLING_LIQUID.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXPELLING_LIQUID.TOOLTIP"
 msgid "This critter is doing their \"business\""
-msgstr "這隻小動物正在「便便」"
+msgstr "這隻小動物正在忙著「自己的事」"
 
 #. STRINGS.CREATURES.STATUSITEMS.EXPELLING_SOLID.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXPELLING_SOLID.NAME"
@@ -25904,7 +25904,7 @@ msgstr "排出廢物"
 #. STRINGS.CREATURES.STATUSITEMS.EXPELLING_SOLID.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXPELLING_SOLID.TOOLTIP"
 msgid "This critter is doing their \"business\""
-msgstr "這隻小動物正在「便便」"
+msgstr "這隻小動物正在忙著「自己的事」"
 
 #. STRINGS.CREATURES.STATUSITEMS.EXTERNALTEMPERATURE.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXTERNALTEMPERATURE.NAME"
@@ -26069,7 +26069,7 @@ msgstr "消化中"
 #. STRINGS.CREATURES.STATUSITEMS.HIVE_DIGESTING.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HIVE_DIGESTING.TOOLTIP"
 msgid "Digesting yummy food!"
-msgstr "消耗美味的食物!"
+msgstr "消化美味的食物!"
 
 #. STRINGS.CREATURES.STATUSITEMS.HIVEHUNGRY.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HIVEHUNGRY.NAME"
@@ -34704,7 +34704,7 @@ msgstr "生命值"
 #. STRINGS.DUPLICANTS.STATS.HITPOINTS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATS.HITPOINTS.TOOLTIP"
 msgid "When Duplicants reach zero <style=\"KKeyword\">Health</style> they become incapacitated and require rescuing\n\nWhen critters reach zero <style=\"KKeyword\">Health</style>, they will die immediately"
-msgstr "當複製人的<style=\"KKeyword\">生命值</style>降到零時，會變成沒有行為能力並且需要治療\n\n當小動物的<style=\"KKeyword\">生命值</style>降到零時，它們會立即死亡"
+msgstr "當複製人的<style=\"KKeyword\">生命值</style>降到零時，會變成沒有行為能力並且需要治療\n\n當小動物的<style=\"KKeyword\">生命值</style>降到零時，牠們會立即死亡"
 
 #. STRINGS.DUPLICANTS.STATS.RADIATIONBALANCE.CURRENT_EXPOSURE
 msgctxt "STRINGS.DUPLICANTS.STATS.RADIATIONBALANCE.CURRENT_EXPOSURE"
@@ -41649,7 +41649,7 @@ msgstr "LED 手套"
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_BLACK.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_BLACK.DESC"
 msgid "It's easy to forget they're even on."
-msgstr "很容易就忘了它們打沒開啟。"
+msgstr "很容易就忘了它們甚至存在。"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_BLACK.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.CUFFLESS_BLACK.NAME"
@@ -46544,7 +46544,7 @@ msgstr "這些<link=\"LOGICWIRE\">訊號線</link>融化了，因為傳輸的訊
 #. STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.MESSAGEBODY"
 msgid "<link=\"DISEASE\">Germs</link> such as <link=\"FOODSICKNESS\">Food Poisoning</link> and <link=\"SLIMESICKNESS\">Slimelung</link> can cause <link=\"DISEASE\">Disease</link> in my Duplicants. I can use the <b>Germ Overlay</b> {Hotkey/Overlay9} to view all germ concentrations in my colony, and even detect the sources spawning them.\n\nBuilding Wash Basins from the <b>Medicine Tab</b> {Hotkey/Plan8} near colony toilets will tell my Duplicants they need to wash up."
-msgstr "<link=\"DISEASE\">細菌</link>像是<link=\"FOODSICKNESS\">腸病毒</link>與<link=\"SLIMESICKNESS\">肺結核</link>，會使複製人<link=\"DISEASE\">生病</link>。\n可以使用 <b>病菌概覽</b> {Hotkey/Overlay9} 查看殖民地中，所有細菌的密度與它們產生的來源。\n\n將 <b>醫療</b> {Hotkey/Plan8} 中的洗手盆蓋在殖民地的廁所中，這會讓我的複製人們知道需要洗手。"
+msgstr "<link=\"DISEASE\">細菌</link>像是<link=\"FOODSICKNESS\">腸病毒</link>與<link=\"SLIMESICKNESS\">肺結核</link>，會使複製人<link=\"DISEASE\">生病</link>。\n可以使用<b>病菌概覽</b> {Hotkey/Overlay9} 查看殖民地中，所有細菌的密度與它們產生的來源。\n\n將 <b>醫療</b> {Hotkey/Plan8} 中的洗手盆蓋在殖民地的廁所中，這會讓我的複製人們知道需要洗手。"
 
 #. STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.NAME"
@@ -53224,7 +53224,7 @@ msgstr "衝突的房間"
 #. STRINGS.ROOMS.TYPES.CREATUREPEN.DESCRIPTION
 msgctxt "STRINGS.ROOMS.TYPES.CREATUREPEN.DESCRIPTION"
 msgid "Critters don't mind it here, as long as things don't get too overcrowded.\n\nStabled critters can be tended at a Grooming Station to hasten their domestication and increase their production."
-msgstr "小動物不太在意待在這裡，只要不太擁擠即可。\n\n圈養的小動物可以在畜牧站被照料，以加速它們的馴化並增加它們的產量。"
+msgstr "小動物不太在意待在這裡，只要不太擁擠即可。\n\n圈養的小動物可以在畜牧站被照料，以加速牠們的馴化並增加牠們的產量。"
 
 #. STRINGS.ROOMS.TYPES.CREATUREPEN.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.CREATUREPEN.EFFECT"
@@ -53239,7 +53239,7 @@ msgstr "牧場"
 #. STRINGS.ROOMS.TYPES.CREATUREPEN.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.CREATUREPEN.TOOLTIP"
 msgid "Stabled critters can be tended at a Grooming Station to hasten their domestication and increase their production"
-msgstr "牧場內的動物可使用畜牧站增加它們的馴服度與產量"
+msgstr "牧場內的動物可使用畜牧站增加牠們的馴服度與產量"
 
 #. STRINGS.ROOMS.TYPES.FARM.DESCRIPTION
 msgctxt "STRINGS.ROOMS.TYPES.FARM.DESCRIPTION"
@@ -53844,7 +53844,7 @@ msgstr "海洋"
 #. STRINGS.SUBWORLDS.OCEAN.UTILITY
 msgctxt "STRINGS.SUBWORLDS.OCEAN.UTILITY"
 msgid "<link=\"CRABSPECIES\">Pokeshell</link> molt is an excellent source of <link=\"LIME\">Lime</link> but much care must be taken with domesticating this species as it can get aggressive around its eggs.\n\nHarvesting <link=\"SEALETTUCE\">Waterweed</link> provides <link=\"LETTUCE\">Lettuce</link> for many higher-tier <link=\"FOOD\">foods</link>.\n\nAny water will need to be filtered through a <link=\"DESALINATOR\">Desalinator</link> to remove the <link=\"SALT\">Salt</link> from <link=\"WATER\">Water</link> in order to be useful for my Duplicants. Luckily <link=\"SALT\">Table Salt</link> can be produced using a <link=\"ROCKCRUSHER\">Rock Crusher</link> which, when combined with a <link=\"DININGTABLE\">Mess Table</link>, gives my Duplicants a Morale boost."
-msgstr "<link=\"CRABSPECIES\">拋殼蟹</link>殼是<link=\"LIME\">石灰</link>極佳的來源，但馴化這個物種必須格外小心，因為它們在蛋的附近會變得有侵略性。\n\n收成<link=\"SEALETTUCE\">水草</link>提供<link=\"LETTUCE\">生菜</link>用來製作許多高級的<link=\"FOOD\">食物</link>。\n\n任何<link=\"WATER\">水</link>都需要經過<link=\"DESALINATOR\">海水淡化機</link>去除<link=\"SALT\">鹽</link>才能供給複製人使用。\n幸運的是可以使用<link=\"ROCKCRUSHER\">碎石機</link>生產<link=\"SALT\">食鹽</link>，當與<link=\"DININGTABLE\">餐桌</link>結合使用，會給予複製人士氣加成。"
+msgstr "<link=\"CRABSPECIES\">拋殼蟹</link>殼是<link=\"LIME\">石灰</link>極佳的來源，但馴化這個物種必須格外小心，因為牠們在蛋的附近會變得有侵略性。\n\n收成<link=\"SEALETTUCE\">水草</link>提供<link=\"LETTUCE\">生菜</link>用來製作許多高級的<link=\"FOOD\">食物</link>。\n\n任何<link=\"WATER\">水</link>都需要經過<link=\"DESALINATOR\">海水淡化機</link>去除<link=\"SALT\">鹽</link>才能供給複製人使用。\n幸運的是可以使用<link=\"ROCKCRUSHER\">碎石機</link>生產<link=\"SALT\">食鹽</link>，當與<link=\"DININGTABLE\">餐桌</link>結合使用，會給予複製人士氣加成。"
 
 #. STRINGS.SUBWORLDS.OIL.DESC
 msgctxt "STRINGS.SUBWORLDS.OIL.DESC"
@@ -53874,7 +53874,7 @@ msgstr "輻射"
 #. STRINGS.SUBWORLDS.RADIOACTIVE.UTILITY
 msgctxt "STRINGS.SUBWORLDS.RADIOACTIVE.UTILITY"
 msgid "<link=\"LEADSUIT\">Lead Suits</link> are imperative if my Duplicants are going to start exploring this biome as <link=\"RADIATIONSICKNESS\">Radioactive Contaminants</link> is a constant danger here.\n\n<link=\"BEE\">Beetas</link> pose a double threat as they are both highly radioactive and very aggressive. If they can be domesticated, however, <link=\"BEEHIVE\">Beeta Hives</link>, provide a great service turning <link=\"URANIUMORE\">Uranium Ore</link> into <link=\"ENRICHEDURANIUM\">Enriched Uranium</link>.\n\nWhile the Radioactive Biome, and the Beetas contained within it, should be avoided at all costs if my Duplicants do not have the correct protection, my colony will need to trek into this dangerous biome if we are going to build any higher tier nuclear technologies."
-msgstr "如果複製人要開始探索這種生態系，<link=\"LEADSUIT\">輻射防護衣</link>是必要的，<link=\"RADIATIONSICKNESS\">輻射汙染</link>一直是危險的。\n\n<link=\"BEE\">輻射蜂</link>有雙重的危脅，因為同時具有高輻射與攻擊性。如果你能馴化它們，可以提供將<link=\"URANIUMORE\">鈾礦</link>轉變成<link=\"ENRICHEDURANIUM\">濃縮鈾</link>的出色的服務。\n\n複製人在沒有足夠的防護的情況下，應該不惜一切代價避免進入含有輻射與輻射蜂的生態系，而殖民地要建造任何更高級的核能科技，將需要進入這種危險的生態系。"
+msgstr "如果複製人要開始探索這種生態系，<link=\"LEADSUIT\">輻射防護衣</link>是必要的，<link=\"RADIATIONSICKNESS\">輻射汙染</link>一直是危險的。\n\n<link=\"BEE\">輻射蜂</link>有雙重的危脅，因為同時具有高輻射與攻擊性。如果你能馴化牠們，可以提供將<link=\"URANIUMORE\">鈾礦</link>轉變成<link=\"ENRICHEDURANIUM\">濃縮鈾</link>的出色的服務。\n\n複製人在沒有足夠的防護的情況下，應該不惜一切代價避免進入含有輻射與輻射蜂的生態系，而殖民地要建造任何更高級的核能科技，將需要進入這種危險的生態系。"
 
 #. STRINGS.SUBWORLDS.REGOLITH.DESC
 msgctxt "STRINGS.SUBWORLDS.REGOLITH.DESC"
@@ -53889,7 +53889,7 @@ msgstr "風化"
 #. STRINGS.SUBWORLDS.REGOLITH.UTILITY
 msgctxt "STRINGS.SUBWORLDS.REGOLITH.UTILITY"
 msgid "Lingering within the layers of Regolith are the pernicious <link=\"MOLESPECIES\">Shove Voles</link> which eat valuable resources and excrete them at half the original mass.\n\nFortunately these pests can be wrangled up and used as a good food source for my Duplicants. However, extra care must be taken to contain these critters in pens made from either double thick walls or from <link=\"REFINEDMETAL\">Refined Metal</link> since they are capable of burrowing through most other materials."
-msgstr "在風化層中出沒的<link=\"MOLESPECIES\">鑽地田鼠</link>是有害的，它們會吃掉有用的資源，並以原始質量一半的方式排出體外。\n\n幸好可以捕捉這些害蟲來作為複製人的食物來源。\n但是，必須格外小心的用兩倍厚的牆或<link=\"REFINEDMETAL\">精煉金屬</link>所製成的銅牆鐵壁關住它們，因為它們可以穿過大多數的材質。"
+msgstr "在風化層中出沒的<link=\"MOLESPECIES\">鑽地田鼠</link>是有害的，牠們會吃掉有用的資源，並以原始質量一半的方式排出體外。\n\n幸好可以捕捉這些害蟲來作為複製人的食物來源。\n但是，必須格外小心的用兩倍厚的牆或<link=\"REFINEDMETAL\">精煉金屬</link>所製成的銅牆鐵壁關住牠們，因為牠們可以穿過大多數的材質。"
 
 #. STRINGS.SUBWORLDS.RUST.DESC
 msgctxt "STRINGS.SUBWORLDS.RUST.DESC"
@@ -53964,7 +53964,7 @@ msgstr "荒地"
 #. STRINGS.SUBWORLDS.WASTELAND.UTILITY
 msgctxt "STRINGS.SUBWORLDS.WASTELAND.UTILITY"
 msgid "The prevalance of <link=\"COPPER\">Copper</link>, <link=\"SANDSTONE\">Sandstone</link>, <link=\"IGNEOUSROCK\">Igneous Rock</link> and its <link=\"IRON\">Iron</link>-rich counterpart <link=\"MAFICROCK\">Mafic Rock</link>, make this a fruitful biome to explore for construction material. <link=\"SAND\">Sand</link> is also in abundance here which is useful as a filtering material.\n\nWhile the wildlife is not in abundance in the Wasteland Biome, the <link=\"DIVERGENTBEETLE\">Sweetle</link> and <link=\"DIVERGENTWORM\">Grubgrub</link> make interesting creatures to domesticate as they co-exist with the <link=\"WORMPLANT\">Grubfruit Plants</link> to produce a much higher quality food than the <link=\"WORMPLANT\">Spindly Grubfruit Plant</link> found in the wild. Additionally, the <link=\"SULFUR\">Sulfur</link> found here works both as food for the GrubGrubs and fertilizer for the Grubfruit Plants.\n\nThe abundance of <link=\"OXYGEN\">Oxygen</link> found in the Wasteland Biome makes for a low-risk area to send my Duplicants into to collect useful resources to continue with their construction projects."
-msgstr "大量的<link=\"COPPER\">銅</link>、<link=\"SANDSTONE\">沙岩</link>、<link=\"IGNEOUSROCK\">火成岩</link>與富含<link=\"IRON\">鐵</link>的<link=\"MAFICROCK\">基岩</link>，使這種生態系成為取得建築材料的良好地點。\n這裡也有豐富的<link=\"SAND\">沙子</link>可用來作為過濾介質。\n\n雖然荒地生態系的野生動植物並不豐富，但<link=\"DIVERGENTBEETLE\">甜素甲蟲</link>與<link=\"DIVERGENTWORM\">蟲果果蟲</link>是可馴化的有趣動物，它們與<link=\"WORMPLANT\">燈籠草</link>形成共生關係，將它們養在一起就能生產比野生<link=\"WORMPLANT\">劣質燈籠草</link>品質更好的食物。\n此外，這裡也能找到<link=\"SULFUR\">硫</link>，同時可作為蟲果果蟲的食物與燈籠肥料。\n\n荒地生態系有豐富的<link=\"OXYGEN\">氧氣</link>，所以對於我的複製人來說是風險較低的區域，我可以將我的複製人送去收集有用的資源並繼續完成建設計劃。"
+msgstr "大量的<link=\"COPPER\">銅</link>、<link=\"SANDSTONE\">沙岩</link>、<link=\"IGNEOUSROCK\">火成岩</link>與富含<link=\"IRON\">鐵</link>的<link=\"MAFICROCK\">基岩</link>，使這種生態系成為取得建築材料的良好地點。\n這裡也有豐富的<link=\"SAND\">沙子</link>可用來作為過濾介質。\n\n雖然荒地生態系的野生動植物並不豐富，但<link=\"DIVERGENTBEETLE\">甜素甲蟲</link>與<link=\"DIVERGENTWORM\">蟲果果蟲</link>是可馴化的有趣動物，牠們與<link=\"WORMPLANT\">燈籠草</link>形成共生關係，將牠們養在一起就能生產比野生<link=\"WORMPLANT\">劣質燈籠草</link>品質更好的食物。\n此外，這裡也能找到<link=\"SULFUR\">硫</link>，同時可作為蟲果果蟲的食物與燈籠肥料。\n\n荒地生態系有豐富的<link=\"OXYGEN\">氧氣</link>，所以對於我的複製人來說是風險較低的區域，我可以將我的複製人送去收集有用的資源並繼續完成建設計劃。"
 
 #. STRINGS.UI.ACTIONS
 msgctxt "STRINGS.UI.ACTIONS"
@@ -69454,7 +69454,7 @@ msgstr "稀有度 5"
 #. STRINGS.UI.SPACEARTIFACTS.BIOLUMINESCENTROCK.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.BIOLUMINESCENTROCK.ARTIFACT"
 msgid "The microscopic organisms within this rock are of a unique variety whose genetic code shows many tell-tale signs of being genetically engineered within a lab.\n\nFurther analysis reveals they share 99.999% of their genetic code with Shine Bugs."
-msgstr "這塊岩石上的微生物是獨特的，其遺傳密碼顯示有多許在實驗室內進行基因工程的跡象。\n\n進一步分析顯示它們與發光蟲共享了 99.999% 遺傳密碼。"
+msgstr "這塊岩石上的微生物是獨特的，其遺傳密碼顯示有多許在實驗室內進行基因工程的跡象。\n\n進一步分析顯示牠們與發光蟲共享了 99.999% 遺傳密碼。"
 
 #. STRINGS.UI.SPACEARTIFACTS.BIOLUMINESCENTROCK.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.BIOLUMINESCENTROCK.DESCRIPTION"
@@ -76099,7 +76099,7 @@ msgstr "已著陸"
 #. STRINGS.UI.UISIDESCREENS.ROCKETRESTRICTIONSIDESCREEN.GROUNDED_RESTRICTION_BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.ROCKETRESTRICTIONSIDESCREEN.GROUNDED_RESTRICTION_BUTTON_TOOLTIP"
 msgid "Buildings with their access restricted cannot be operated while grounded, though they can still be filled"
-msgstr "被限制的建築物在地面上不能運作，但它們仍然可以被填滿"
+msgstr "被限制的建築物在地面上不能運作，但它們仍然可以被裝填"
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETRESTRICTIONSIDESCREEN.NONE_RESTRICTION_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.ROCKETRESTRICTIONSIDESCREEN.NONE_RESTRICTION_BUTTON"

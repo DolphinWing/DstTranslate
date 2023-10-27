@@ -7,6 +7,8 @@ This is a personal project that includes my mod work for the games by Klei Enter
 ![Steam Favorites](https://img.shields.io/steam/favorites/2906930548?logo=steam) <br />
 [workshop-2906930548](workshop-2906930548) is an ONI language pack mod. 
 * ONI [字型模組 (Oct 2023 QoL)](https://steamcommunity.com/sharedfiles/filedetails/?id=3046440992) <br />
+![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3046440992?logo=steam) 
+![Steam Favorites](https://img.shields.io/steam/favorites/3046440992?logo=steam) <br />
 [workshop-3046440992](workshop-3046440992) is a quick fix update to [Font Loader for Traditional Chinese](https://steamcommunity.com/workshop/filedetails/?id=2119648603) after Oct 2023 QoL.
 * DST [正體中文包](https://steamcommunity.com/sharedfiles/filedetails/?id=1993780385) <br />
 ![GitHub package.json version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/DolphinWing/DSTTranslate?filename=workshop-1993780385%2Fpackage.json&logo=github) 
@@ -35,7 +37,10 @@ Thanks those developer who have done brilliant work on these mods
 
 ### Internal work
 
-DstTranslator is a tool to convert translation document. For internal use only. I also use the tool to study Compose UI and .NET/Harmony.
+DstTranslator is a tool to convert translation document. For internal use only. I also use the tool to study Compose UI.
 
 * [![Desktop CI](https://github.com/DolphinWing/DstTranslate/actions/workflows/desktop.yml/badge.svg)](https://github.com/DolphinWing/DstTranslate/actions/workflows/desktop.yml) [desktop-app](desktop-app) runs on Linux and Windows
+
+FontLoader is a .NET DLL project for loading font file to ONI.
+
 * [FontLoader](FontLoader) is the .NET project referenced from [古靈精怪的字型模組](https://github.com/dershiuan/ONI-Mods/tree/v2.0.4/FontLoader)
