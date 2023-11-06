@@ -118,7 +118,7 @@ class DesktopPoHelper(val ini: Ini = Ini(), private val debug: Boolean = false) 
 
     private fun findReplacementXml(): File {
         // load from ini
-        if (ini.isLinux && File(ini.dstStringMap).exists()) {
+        if (/*ini.isLinux &&*/ File(ini.dstStringMap).exists()) {
             return File(ini.dstStringMap)
         }
         val s = File.separator
