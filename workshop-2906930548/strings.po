@@ -324,7 +324,7 @@ msgstr "設定儲存：{TargetName}"
 #. STRINGS.BUILDING.STATUSITEMS.CHANGESTORAGETILETARGET.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CHANGESTORAGETILETARGET.TOOLTIP"
 msgid "Waiting for a Duplicant to reassign this storage to {TargetName}"
-msgstr ""
+msgstr "正在等待複製人將此儲存空間重新分配給{TargetName}"
 
 #. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_CLOSED
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_CLOSED"
@@ -2624,12 +2624,12 @@ msgstr "這個建築必須相鄰{headBuilding}或{linkBuilding}才能運作"
 #. STRINGS.BUILDING.STATUSITEMS.NOTSUBMERGED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTSUBMERGED.NAME"
 msgid "Building Not Submerged"
-msgstr ""
+msgstr "建築未淹沒"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTSUBMERGED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTSUBMERGED.TOOLTIP"
 msgid "Building cannot function unless submerged in liquid"
-msgstr "建築未被浸沒在液體中，無法運作"
+msgstr "建築未被淹沒在液體中，無法運作"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME"
@@ -4854,7 +4854,7 @@ msgstr "這只是有關合作的畫，真的。"
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_O.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_O.NAME"
 msgid "<link=\"ARTO\">Hands-On</link>"
-msgstr "<link=\"ARTO\">《親手實踐》</link>"
+msgstr "<link=\"ARTO\">親手實踐</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_P.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_P.DESC"
@@ -5769,12 +5769,12 @@ msgstr "<link=\"CREATURETRAP\">動物陷阱</link>"
 #. STRINGS.BUILDINGS.PREFABS.CRITTERCONDO.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CRITTERCONDO.DESC"
 msgid "It's nice to have nice things."
-msgstr ""
+msgstr "擁有美好的事物真是太好了。"
 
 #. STRINGS.BUILDINGS.PREFABS.CRITTERCONDO.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CRITTERCONDO.EFFECT"
 msgid "Provides a comfortable lounge area that boosts <link=\"CREATURES\">Critter</link> happiness."
-msgstr ""
+msgstr "提供舒適的休息區，提升<link=\"CREATURES\">小動物</link>的幸福感。"
 
 #. STRINGS.BUILDINGS.PREFABS.CRITTERCONDO.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CRITTERCONDO.NAME"
@@ -7454,12 +7454,12 @@ msgstr "<link=\"FLYINGCREATUREBAIT\">飛行動物引誘機</link>"
 #. STRINGS.BUILDINGS.PREFABS.FOODDEHYDRATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FOODDEHYDRATOR.DESC"
 msgid "Some of the eliminated liquid inevitably ends up on the floor."
-msgstr ""
+msgstr "一些排出的液體不可避免地會掉在地板上。"
 
 #. STRINGS.BUILDINGS.PREFABS.FOODDEHYDRATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FOODDEHYDRATOR.EFFECT"
 msgid "Uses low, even heat to eliminate moisture from eligible <link=\"FOOD\">Foods</link> and render them shelf-stable.\n\nDehydrated meals must be processed at the <link=\"FOODREHYDRATOR\">Rehydrator</link> before they can be eaten."
-msgstr ""
+msgstr "使用低而均勻的熱量消除符合條件的<link=\"FOOD\">食品</link>中的水分，使其具有穩定的保質期。\n\n脫水食品必須在<link=\"FOODREHYDRATOR\">進行加工食用前先補充水分</link>。"
 
 #. STRINGS.BUILDINGS.PREFABS.FOODDEHYDRATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FOODDEHYDRATOR.NAME"
@@ -7474,17 +7474,17 @@ msgstr "乾燥的{0}"
 #. STRINGS.BUILDINGS.PREFABS.FOODDEHYDRATOR.RESULT_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.FOODDEHYDRATOR.RESULT_DESCRIPTION"
 msgid "Dehydrated portions of {0} do not require refrigeration."
-msgstr ""
+msgstr "{0} 的脫水補給不需冷藏。"
 
 #. STRINGS.BUILDINGS.PREFABS.FOODREHYDRATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FOODREHYDRATOR.DESC"
 msgid "Rehydrated food is nutritious and only slightly less delicious."
-msgstr ""
+msgstr "重新補水的食物營養豐富，但美味程度稍差一些。"
 
 #. STRINGS.BUILDINGS.PREFABS.FOODREHYDRATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FOODREHYDRATOR.EFFECT"
 msgid "Restores moisture to convert shelf-stable packaged meals into edible <link=\"FOOD\">Food</link>."
-msgstr ""
+msgstr "恢復水分，將耐儲存的包裝食品轉化為可食用的<link=\"FOOD\">食品</link>。"
 
 #. STRINGS.BUILDINGS.PREFABS.FOODREHYDRATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FOODREHYDRATOR.NAME"
@@ -11659,12 +11659,12 @@ msgstr "允許火箭平臺建在更遠的地方。"
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTBRIDGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTBRIDGE.EFFECT"
 msgid "Automatically links when built to the side of a <link=\"LAUNCHPAD\">Rocket Platform</link> or any <link=\"MODULARLAUNCHPADPORTSOLID\">Rocket Port</link>."
-msgstr "自動地與相鄰的<link=\"LAUNCHPAD\">火箭平臺</link>或任何<link=\"MODULARLAUNCHPADPORTSOLID\">火箭端口</link>相連。"
+msgstr "自動地與相鄰的<link=\"LAUNCHPAD\">火箭平臺</link>或任何<link=\"MODULARLAUNCHPADPORTSOLID\">火箭貨港</link>相連。"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTBRIDGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTBRIDGE.NAME"
 msgid "<link=\"MODULARLAUNCHPADPORTBRIDGE\">Rocket Port Extension</link>"
-msgstr "<link=\"MODULARLAUNCHPADPORTSOLID\">火箭端口延伸橋</link>"
+msgstr "<link=\"MODULARLAUNCHPADPORTSOLID\">火箭貨港延伸橋</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.DESC"
@@ -12099,7 +12099,7 @@ msgstr "儲存 <link=\"LIQUIDOXYGEN\">液態氧</link> 作為火箭燃料。"
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUID.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUID.NAME"
 msgid "<link=\"OXIDIZERTANKLIQUID\">Liquid Oxidizer Tank</link>"
-msgstr "<link=\"LIQUIDOXIDIZERTANK\">液體氧化劑儲存艙</link>"
+msgstr "<link=\"OXIDIZERTANKLIQUID\">液體氧化劑儲存艙</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUIDCLUSTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUIDCLUSTER.DESC"
@@ -12114,7 +12114,7 @@ msgstr "儲存<link=\"LIQUIDOXYGEN\">液態氧</link>作為火箭燃料。\n\n�
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUIDCLUSTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUIDCLUSTER.NAME"
 msgid "<link=\"OXIDIZERTANKLIQUIDCLUSTER\">Liquid Oxidizer Tank</link>"
-msgstr "<link=\"LIQUIDOXIDIZERTANKCLUSTER\">液體氧化劑儲存艙</link>"
+msgstr "<link=\"OXIDIZERTANKLIQUIDCLUSTER\">液體氧化劑儲存艙</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.OXYGENMASKLOCKER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXYGENMASKLOCKER.DESC"
@@ -13244,7 +13244,7 @@ msgstr "<link=\"ROCKCRUSHER\">碎石機</link>"
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.FACADES.GEARS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.FACADES.GEARS.DESC"
 msgid "Uncrushed ore really grinds its gears."
-msgstr ""
+msgstr "未破碎的礦石確實會磨碎它的齒輪。"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.FACADES.GEARS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.FACADES.GEARS.NAME"
@@ -15349,7 +15349,7 @@ msgstr "在休息時間提供複製人一個社交場所。\n\n提升複製人�
 #. STRINGS.BUILDINGS.PREFABS.WATERCOOLER.FACADES.BALLOON.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WATERCOOLER.FACADES.BALLOON.DESC"
 msgid "There's a funny aftertaste."
-msgstr ""
+msgstr "有一種有趣的餘韻。"
 
 #. STRINGS.BUILDINGS.PREFABS.WATERCOOLER.FACADES.BALLOON.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WATERCOOLER.FACADES.BALLOON.NAME"
@@ -17724,22 +17724,22 @@ msgstr "繁殖速率"
 #. STRINGS.CODEX.CRITTERSTATUS.FERTILITY.FUTURE_OVERCROWDED.CONTAINER1
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.FERTILITY.FUTURE_OVERCROWDED.CONTAINER1"
 msgid "Crowded critters—or critters who know they'll start feeling crowded once all of the eggs in the room have hatched—will temporarily stop laying eggs. Their reproductive system will resume function once all eggs have hatched or been removed from the room."
-msgstr ""
+msgstr "感覺擁擠的小動物——或者那些知道一旦房間裡所有的蛋都孵化出來，就會開始感到擁擠的小動物——會暫時停止產卵。 一旦所有蛋孵化或從房間中移出，牠們的生殖系統就會恢復功能。"
 
 #. STRINGS.CODEX.CRITTERSTATUS.FERTILITY.FUTURE_OVERCROWDED.CRAMPED_FERTILITY
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.FERTILITY.FUTURE_OVERCROWDED.CRAMPED_FERTILITY"
 msgid "    • Reproduction"
-msgstr ""
+msgstr "    • 繁殖率"
 
 #. STRINGS.CODEX.CRITTERSTATUS.FERTILITY.FUTURE_OVERCROWDED.SUBTITLE
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.FERTILITY.FUTURE_OVERCROWDED.SUBTITLE"
 msgid "<b>Effects</b>"
-msgstr ""
+msgstr "<b>效果</b>"
 
 #. STRINGS.CODEX.CRITTERSTATUS.FERTILITY.FUTURE_OVERCROWDED.TITLE
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.FERTILITY.FUTURE_OVERCROWDED.TITLE"
 msgid "Cramped"
-msgstr ""
+msgstr "狹窄"
 
 #. STRINGS.CODEX.CRITTERSTATUS.FERTILITY.INCUBATION.CONTAINER1
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.FERTILITY.INCUBATION.CONTAINER1"
@@ -17894,37 +17894,37 @@ msgstr "敵意"
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.MISERABLE.CONTAINER1
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.MISERABLE.CONTAINER1"
 msgid "When too many unpleasant conditions add up, critters become utterly miserable. This level of unhappiness seriously undermines their ability to contribute to the colony. Miserable critters have lower metabolism and will not lay eggs."
-msgstr ""
+msgstr "當太多不愉快的情況加起來時，小動物就會變得非常痛苦。 這種程度的不滿嚴重削弱了牠們為殖民地做出貢獻的能力。 可憐的動物新陳代謝較低，不會產卵。"
 
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.MISERABLE.MISERABLEWILD_FERTILITY
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.MISERABLE.MISERABLEWILD_FERTILITY"
 msgid "    • Reproduction"
-msgstr ""
+msgstr "    • 繁殖率"
 
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.MISERABLE.MISERABLEWILD_METABOLISM
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.MISERABLE.MISERABLEWILD_METABOLISM"
 msgid "    • Critter Metabolism"
-msgstr ""
+msgstr "    • 小動物新陳代謝"
 
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.MISERABLE.SUBTITLE
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.MISERABLE.SUBTITLE"
 msgid "<b>Effects</b>"
-msgstr ""
+msgstr "<b>效果</b>"
 
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.MISERABLE.TITLE
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.MISERABLE.TITLE"
 msgid "Miserable"
-msgstr ""
+msgstr "悲慘"
 
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.NEUTRAL.CONTAINER1
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.NEUTRAL.CONTAINER1"
 msgid "When a critter has no reason to object to anything in its environment or diet, it will feel quite content with its lot in life. Satisfied critters have the default metabolism, fertility and life span expected of their species."
-msgstr ""
+msgstr "當小動物沒有理由反對其環境或飲食中的任何事物時，牠就會對自己的生活感到非常滿意。 滿意的生物具有其物種預期的預設新陳代謝、生育力和壽命。"
 
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.NEUTRAL.TITLE
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.NEUTRAL.TITLE"
 msgid "Satisfied"
-msgstr ""
+msgstr "滿足"
 
 #. STRINGS.CODEX.CRITTERSTATUS.MOOD.OVERCROWDED.CONTAINER1
 msgctxt "STRINGS.CODEX.CRITTERSTATUS.MOOD.OVERCROWDED.CONTAINER1"
@@ -20059,17 +20059,17 @@ msgstr ""
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.FLUSHTOILETTYPE.TITLE
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.FLUSHTOILETTYPE.TITLE"
 msgid "Flush Toilets"
-msgstr "抽水馬桶"
+msgstr "沖水馬桶"
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.INDUSTRIALMACHINERY.CONFLICTINGROOMS
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.INDUSTRIALMACHINERY.CONFLICTINGROOMS"
 msgid "    •  Private Bedroom\n    •  Luxury Barracks"
-msgstr ""
+msgstr "    •  私人臥室\n    •  高級臥室"
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.INDUSTRIALMACHINERY.DESCRIPTION
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.INDUSTRIALMACHINERY.DESCRIPTION"
 msgid "Buildings that generate power, manufacture equipment, refine resources, and provide other fundamental colony requirements."
-msgstr ""
+msgstr "發電、製造設備、精煉資源和提供其他基本殖民地需求的建築。"
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.INDUSTRIALMACHINERY.FLAVOUR
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.INDUSTRIALMACHINERY.FLAVOUR"
@@ -20079,7 +20079,7 @@ msgstr ""
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.INDUSTRIALMACHINERY.ROOMSREQUIRING
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.INDUSTRIALMACHINERY.ROOMSREQUIRING"
 msgid "    •  Private Bedroom\n    •  Luxury Barracks"
-msgstr ""
+msgstr "    •  私人臥室\n    •  高級臥室"
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.INDUSTRIALMACHINERY.TITLE
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.INDUSTRIALMACHINERY.TITLE"
@@ -20094,7 +20094,7 @@ msgstr "分類"
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RANCHSTATIONTYPE.DESCRIPTION
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RANCHSTATIONTYPE.DESCRIPTION"
 msgid "Buildings dedicated to critter husbandry."
-msgstr ""
+msgstr "專門用於動物飼養的建築物。"
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RANCHSTATIONTYPE.FLAVOUR
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RANCHSTATIONTYPE.FLAVOUR"
@@ -20104,7 +20104,7 @@ msgstr ""
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RANCHSTATIONTYPE.TITLE
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RANCHSTATIONTYPE.TITLE"
 msgid "Ranching Buildings"
-msgstr ""
+msgstr "畜牧建築"
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RECBUILDING.DESCRIPTION
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RECBUILDING.DESCRIPTION"
@@ -20144,12 +20144,12 @@ msgstr "此分類的建築："
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.SHARED.ROOMS_CONFLICT_LIST_TITLE
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.SHARED.ROOMS_CONFLICT_LIST_TITLE"
 msgid "Not permitted in:"
-msgstr ""
+msgstr "不允許在："
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.SHARED.ROOMS_REQUIRED_LIST_TITLE
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.SHARED.ROOMS_REQUIRED_LIST_TITLE"
 msgid "Required in:"
-msgstr ""
+msgstr "需要在："
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.TOILETTYPE.DESCRIPTION
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.TOILETTYPE.DESCRIPTION"
@@ -21439,7 +21439,7 @@ msgstr "遇見 P.E.G.G.Y."
 #. STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.POPUPS.REVEAL.DESCRIPTION
 msgctxt "STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.POPUPS.REVEAL.DESCRIPTION"
 msgid "Our restoration work is complete!\n\nA small plaque on this building's mechanical assembly tank reads: \"Pathogen-Fueled Extravehicular Geo-Exploratory Guidebot (Y).\"\n\nThe adjacent tank contains the floating shape of a half-formed organism. Its vivid coloring reminds me of the poisonous amphibians that were eradicated from our home planet's jungles.\n\nA tattered transcript print-out was recovered from the mess."
-msgstr ""
+msgstr "我們的修復工作已經完成！\n\n這棟建築的機械裝配罐上有一塊小牌匾，上面寫著：「病原體驅動的艙外地理探索引導機器人（Y）。」\n\n相鄰的罐子裡有一個漂浮著的半-形成的有機體。 它鮮豔的色彩讓我想起了從我們星球的叢林中被消滅的有毒兩棲動物。\n\n從混亂中找到了一份破爛的成績單複本。"
 
 #. STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.POPUPS.REVEAL.NAME
 msgctxt "STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.POPUPS.REVEAL.NAME"
@@ -21524,17 +21524,17 @@ msgstr "孵化孢體：{0}"
 #. STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.STATUSITEMS.GERM_COLLECTION_PROGRESS.TOOLTIP
 msgctxt "STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.STATUSITEMS.GERM_COLLECTION_PROGRESS.TOOLTIP"
 msgid "At 100% incubation, the Sporb begins to convert absorbed {GERM_NAME} into photosynthetic bacteria that can be used as biofuel\n\nIt is then ready to be assessed and transferred into a completed Biobot frame\n\nConsumption Rate: {0} [{GERM_NAME}]\n\nCurrent Total: {1} / {2} [{GERM_NAME}]"
-msgstr ""
+msgstr "在 100% 孵化時，孢體開始將吸收的{GERM_NAME}轉化為可用作生物燃料的光合細菌\n\n然後就可以對其進行評估並轉移到完整的生物機器人框架中\n\n消耗率： {0} [ {GERM_NAME}]\n\n目前總計：{1} / {2} [{GERM_NAME}]"
 
 #. STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.STATUSITEMS.NOGERMSCONSUMEDALERT.NAME
 msgctxt "STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.STATUSITEMS.NOGERMSCONSUMEDALERT.NAME"
 msgid "Insufficient Resources: {0}"
-msgstr ""
+msgstr "資源缺乏：{0}"
 
 #. STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.STATUSITEMS.NOGERMSCONSUMEDALERT.TOOLTIP
 msgctxt "STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.STATUSITEMS.NOGERMSCONSUMEDALERT.TOOLTIP"
 msgid "This building requires additional {0} in order to function\n\n{0} can be delivered via <link=\"GASCONDUIT\">Gas Pipe</link> "
-msgstr ""
+msgstr "此建築需要額外的{0}才能正常運作\n\n{0}可以透過<link=\"GASCONDUIT\">氣體管</link>輸送"
 
 #. STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.UI_SIDESCREENS.CANCEL_REVEAL_BTN
 msgctxt "STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.UI_SIDESCREENS.CANCEL_REVEAL_BTN"
@@ -23429,22 +23429,22 @@ msgstr "這隻小動物最近喝了<style=\"KKeyword\">鹹乳</style>\n\n現在�
 #. STRINGS.CREATURES.MODIFIERS.HAPPY_TAME.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.HAPPY_TAME.NAME"
 msgid "Mood: Happy"
-msgstr ""
+msgstr "心情：快樂"
 
 #. STRINGS.CREATURES.MODIFIERS.HAPPY_TAME.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.HAPPY_TAME.TOOLTIP"
 msgid "This critter's in high spirits because its needs are being exceeded\n\nIt will lay more eggs as a result"
-msgstr ""
+msgstr "這隻小動物興高彩烈，因為牠被大大的滿足了\n\n因此它會產下更多的蛋"
 
 #. STRINGS.CREATURES.MODIFIERS.HAPPY_WILD.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.HAPPY_WILD.NAME"
 msgid "Mood: Happy"
-msgstr ""
+msgstr "心情：快樂"
 
 #. STRINGS.CREATURES.MODIFIERS.HAPPY_WILD.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.HAPPY_WILD.TOOLTIP"
 msgid "This critter's in high spirits because its needs are being exceeded"
-msgstr ""
+msgstr "這隻小動物興高彩烈，因為牠被大大的滿足了"
 
 #. STRINGS.CREATURES.MODIFIERS.HUGGINGFRENZY.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.HUGGINGFRENZY.NAME"
@@ -36364,22 +36364,22 @@ msgstr "這個複製人無法到達任何等待中的工作任務"
 #. STRINGS.DUPLICANTS.STATUSITEMS.IDLEINROCKETS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.IDLEINROCKETS.NAME"
 msgid "Idle"
-msgstr ""
+msgstr "閒置"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.IDLEINROCKETS.NOTIFICATION_NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.IDLEINROCKETS.NOTIFICATION_NAME"
 msgid "Idle"
-msgstr ""
+msgstr "閒置"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.IDLEINROCKETS.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.IDLEINROCKETS.NOTIFICATION_TOOLTIP"
 msgid "These Duplicants cannot reach any pending <style=\"KKeyword\">Errands</style>:"
-msgstr ""
+msgstr "這些複製人無法到達任何待處理的<style=\"KKeyword\">工作</style>："
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.IDLEINROCKETS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.IDLEINROCKETS.TOOLTIP"
 msgid "This Duplicant cannot reach any pending errands"
-msgstr ""
+msgstr "這複製人無法到達任何待處理的工作"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.INCAPACITATED.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.INCAPACITATED.NAME"
@@ -42004,7 +42004,7 @@ msgstr "橘色基礎長褲"
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_ORANGE_SATSUMA.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_ORANGE_SATSUMA.DESC"
 msgid "They make the wearer feel truly seen."
-msgstr ""
+msgstr "它們讓佩戴者感覺自己被真實地看到了。"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_ORANGE_SATSUMA.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BASIC_ORANGE_SATSUMA.NAME"
@@ -42549,7 +42549,7 @@ msgstr "一雙結實的亮粉色手套，可搭配一切。"
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_PINKSALMON.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_PINKSALMON.NAME"
 msgid "Basic Coral Gloves"
-msgstr ""
+msgstr "基礎珊瑚手套"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_PURPLE.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_GLOVES.FACADES.BASIC_PURPLE.DESC"
@@ -43144,7 +43144,7 @@ msgstr "短波絲絨鞋子"
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.VELOUR_PINK.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.VELOUR_PINK.DESC"
 msgid "Finally, a pair of work-appropriate fuzzy shoes."
-msgstr ""
+msgstr "終於，一雙適合工作的毛絨鞋。"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.VELOUR_PINK.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_SHOES.FACADES.VELOUR_PINK.NAME"
@@ -45779,7 +45779,7 @@ msgstr "吃了補水的食物"
 #. STRINGS.ITEMS.DEHYDRATEDFOODPACKAGE.CONTENTS
 msgctxt "STRINGS.ITEMS.DEHYDRATEDFOODPACKAGE.CONTENTS"
 msgid "Dried {0}"
-msgstr ""
+msgstr "乾燥的 {0}"
 
 #. STRINGS.ITEMS.DEHYDRATEDFOODPACKAGE.DESC
 msgctxt "STRINGS.ITEMS.DEHYDRATEDFOODPACKAGE.DESC"
@@ -45859,12 +45859,12 @@ msgstr "<link=\"BEANPLANTSEED\">大豆</link>"
 #. STRINGS.ITEMS.FOOD.BERRYPIE.DEHYDRATED.DESC
 msgctxt "STRINGS.ITEMS.FOOD.BERRYPIE.DEHYDRATED.DESC"
 msgid "A dehydrated <link=\"BERRYPIE\">Mixed Berry Pie</link> ration. It must be rehydrated in order to be considered <link=\"FOOD\">Food</link>.\n\nDry rations have no expiry date."
-msgstr ""
+msgstr "脫水<link=\"BERRYPIE\">混合漿果派</link>補給。必須重新補水才能視為<link=\"FOOD\">食品</link>。\n\n乾糧沒有有效期限。"
 
 #. STRINGS.ITEMS.FOOD.BERRYPIE.DEHYDRATED.NAME
 msgctxt "STRINGS.ITEMS.FOOD.BERRYPIE.DEHYDRATED.NAME"
 msgid "Dried Berry Pie"
-msgstr ""
+msgstr "乾燥漿果派"
 
 #. STRINGS.ITEMS.FOOD.BERRYPIE.DESC
 msgctxt "STRINGS.ITEMS.FOOD.BERRYPIE.DESC"
@@ -45884,12 +45884,12 @@ msgstr "主要由<link=\"WORMSUPERFRUIT\">燈籠草果實</link>與<link=\"PRICK
 #. STRINGS.ITEMS.FOOD.BURGER.DEHYDRATED.DESC
 msgctxt "STRINGS.ITEMS.FOOD.BURGER.DEHYDRATED.DESC"
 msgid "A dehydrated <link=\"BURGER\">Frost Burger</link> ration. It must be rehydrated in order to be considered <link=\"FOOD\">Food</link>.\n\nDry rations have no expiry date."
-msgstr ""
+msgstr "脫水<link=\"BURGER\">雪麥漢堡</link>補給。必須重新補水才能視為<link=\"FOOD\">食品</link>。\n\n乾糧沒有有效期限。"
 
 #. STRINGS.ITEMS.FOOD.BURGER.DEHYDRATED.NAME
 msgctxt "STRINGS.ITEMS.FOOD.BURGER.DEHYDRATED.NAME"
 msgid "Dried Frost Burger"
-msgstr ""
+msgstr "乾燥雪麥堡"
 
 #. STRINGS.ITEMS.FOOD.BURGER.DESC
 msgctxt "STRINGS.ITEMS.FOOD.BURGER.DESC"
@@ -45984,12 +45984,12 @@ msgstr "被擊敗動物的熟肉。"
 #. STRINGS.ITEMS.FOOD.CURRY.DEHYDRATED.DESC
 msgctxt "STRINGS.ITEMS.FOOD.CURRY.DEHYDRATED.DESC"
 msgid "A dehydrated <link=\"CURRY\">Curried Beans</link> ration. It must be rehydrated in order to be considered <link=\"FOOD\">Food</link>.\n\nDry rations have no expiry date."
-msgstr ""
+msgstr "脫水<link=\"CURRY\">咖哩豆</link>補給。必須重新補水才能視為<link=\"FOOD\">食品</link>。\n\n乾糧沒有有效期限。"
 
 #. STRINGS.ITEMS.FOOD.CURRY.DEHYDRATED.NAME
 msgctxt "STRINGS.ITEMS.FOOD.CURRY.DEHYDRATED.NAME"
 msgid "Dried Curried Beans"
-msgstr ""
+msgstr "乾燥咖哩豆"
 
 #. STRINGS.ITEMS.FOOD.CURRY.DESC
 msgctxt "STRINGS.ITEMS.FOOD.CURRY.DESC"
@@ -46234,12 +46234,12 @@ msgstr "<link=\"MUSHROOM\">蘑菇</link>"
 #. STRINGS.ITEMS.FOOD.MUSHROOMWRAP.DEHYDRATED.DESC
 msgctxt "STRINGS.ITEMS.FOOD.MUSHROOMWRAP.DEHYDRATED.DESC"
 msgid "A dehydrated <link=\"MUSHROOMWRAP\">Mushroom Wrap</link> ration. It must be rehydrated in order to be considered <link=\"FOOD\">Food</link>.\n\nDry rations have no expiry date."
-msgstr ""
+msgstr "脫水<link=\"MUSHROOMWRAP\">蘑菇生菜包</link>補給。必須重新補水才能視為<link=\"FOOD\">食品</link>。\n\n乾糧沒有有效期限。"
 
 #. STRINGS.ITEMS.FOOD.MUSHROOMWRAP.DEHYDRATED.NAME
 msgctxt "STRINGS.ITEMS.FOOD.MUSHROOMWRAP.DEHYDRATED.NAME"
 msgid "Dried Mushroom Wrap"
-msgstr ""
+msgstr "乾燥蘑菇包"
 
 #. STRINGS.ITEMS.FOOD.MUSHROOMWRAP.DESC
 msgctxt "STRINGS.ITEMS.FOOD.MUSHROOMWRAP.DESC"
@@ -46369,12 +46369,12 @@ msgstr "<link=\"PUFT\">帕夫</link>產下的蛋。"
 #. STRINGS.ITEMS.FOOD.QUICHE.DEHYDRATED.DESC
 msgctxt "STRINGS.ITEMS.FOOD.QUICHE.DEHYDRATED.DESC"
 msgid "A dehydrated <link=\"QUICHE\">Mushroom Quiche</link> ration. It must be rehydrated in order to be considered <link=\"FOOD\">Food</link>.\n\nDry rations have no expiry date."
-msgstr ""
+msgstr "脫水<link=\"QUICHE\">蘑菇鹹派</link>補給。必須重新補水才能視為<link=\"FOOD\">食品</link>。\n\n乾糧沒有有效期限。"
 
 #. STRINGS.ITEMS.FOOD.QUICHE.DEHYDRATED.NAME
 msgctxt "STRINGS.ITEMS.FOOD.QUICHE.DEHYDRATED.NAME"
 msgid "Dried Mushroom Quiche"
-msgstr ""
+msgstr "乾燥蘑菇派"
 
 #. STRINGS.ITEMS.FOOD.QUICHE.DESC
 msgctxt "STRINGS.ITEMS.FOOD.QUICHE.DESC"
@@ -46419,12 +46419,12 @@ msgstr "<link=\"COMPOST\">腐壞物</link>"
 #. STRINGS.ITEMS.FOOD.SALSA.DEHYDRATED.DESC
 msgctxt "STRINGS.ITEMS.FOOD.SALSA.DEHYDRATED.DESC"
 msgid "A dehydrated <link=\"SALSA\">Stuffed Berry</link> ration. It must be rehydrated in order to be considered <link=\"FOOD\">Food</link>.\n\nDry rations have no expiry date."
-msgstr ""
+msgstr "脫水<link=\"SALSA\">鬃果塔</link>補給。必須重新補水才能視為<link=\"FOOD\">食品</link>。\n\n乾糧沒有有效期限。"
 
 #. STRINGS.ITEMS.FOOD.SALSA.DEHYDRATED.NAME
 msgctxt "STRINGS.ITEMS.FOOD.SALSA.DEHYDRATED.NAME"
 msgid "Dried Stuffed Berry"
-msgstr ""
+msgstr "乾燥鬃果塔"
 
 #. STRINGS.ITEMS.FOOD.SALSA.DESC
 msgctxt "STRINGS.ITEMS.FOOD.SALSA.DESC"
@@ -46454,12 +46454,12 @@ msgstr "<link=\"SHELLFISHMEAT\">水生蟹肉</link>"
 #. STRINGS.ITEMS.FOOD.SPICEBREAD.DEHYDRATED.DESC
 msgctxt "STRINGS.ITEMS.FOOD.SPICEBREAD.DEHYDRATED.DESC"
 msgid "A dehydrated <link=\"SPICEBREAD\">Pepper Bread</link> ration. It must be rehydrated in order to be considered <link=\"FOOD\">Food</link>.\n\nDry rations have no expiry date."
-msgstr ""
+msgstr "脫水<link=\"SPICEBREAD\">胡椒麵包</link>補給。必須重新補水才能視為<link=\"FOOD\">食品</link>。\n\n乾糧沒有有效期限。"
 
 #. STRINGS.ITEMS.FOOD.SPICEBREAD.DEHYDRATED.NAME
 msgctxt "STRINGS.ITEMS.FOOD.SPICEBREAD.DEHYDRATED.NAME"
 msgid "Dried Pepper Bread"
-msgstr ""
+msgstr "乾胡椒麵包"
 
 #. STRINGS.ITEMS.FOOD.SPICEBREAD.DESC
 msgctxt "STRINGS.ITEMS.FOOD.SPICEBREAD.DESC"
@@ -46489,12 +46489,12 @@ msgstr "<link=\"SPICENUT\">胡椒</link>"
 #. STRINGS.ITEMS.FOOD.SPICYTOFU.DEHYDRATED.DESC
 msgctxt "STRINGS.ITEMS.FOOD.SPICYTOFU.DEHYDRATED.DESC"
 msgid "A dehydrated <link=\"SPICYTOFU\">Spicy Tofu</link> ration. It must be rehydrated in order to be considered <link=\"FOOD\">Food</link>.\n\nDry rations have no expiry date."
-msgstr ""
+msgstr "脫水<link=\"SPICYTOFU\">麻婆豆腐</link>補給。必須重新補水才能視為<link=\"FOOD\">食品</link>。\n\n乾糧沒有有效期限。"
 
 #. STRINGS.ITEMS.FOOD.SPICYTOFU.DEHYDRATED.NAME
 msgctxt "STRINGS.ITEMS.FOOD.SPICYTOFU.DEHYDRATED.NAME"
 msgid "Dried Spicy Tofu"
-msgstr ""
+msgstr "乾麻婆豆腐"
 
 #. STRINGS.ITEMS.FOOD.SPICYTOFU.DESC
 msgctxt "STRINGS.ITEMS.FOOD.SPICYTOFU.DESC"
@@ -46514,12 +46514,12 @@ msgstr "<link=\"TOFU\">豆腐</link>佐以美味的<link=\"SPICENUT\">椒麻</li
 #. STRINGS.ITEMS.FOOD.SURFANDTURF.DEHYDRATED.DESC
 msgctxt "STRINGS.ITEMS.FOOD.SURFANDTURF.DEHYDRATED.DESC"
 msgid "A dehydrated <link=\"SURFANDTURF\">Surf'n'Turf</link> ration. It must be rehydrated in order to be considered <link=\"FOOD\">Food</link>.\n\nDry rations have no expiry date."
-msgstr ""
+msgstr "脫水<link=\"SURFANDTURF\">海陸大餐</link>補給。必須重新補水才能視為<link=\"FOOD\">食品</link>。\n\n乾糧沒有有效期限。"
 
 #. STRINGS.ITEMS.FOOD.SURFANDTURF.DEHYDRATED.NAME
 msgctxt "STRINGS.ITEMS.FOOD.SURFANDTURF.DEHYDRATED.NAME"
 msgid "Dried Surf'n'Turf"
-msgstr ""
+msgstr "乾燥海陸餐"
 
 #. STRINGS.ITEMS.FOOD.SURFANDTURF.DESC
 msgctxt "STRINGS.ITEMS.FOOD.SURFANDTURF.DESC"
@@ -48819,12 +48819,12 @@ msgstr "未挖掘的材料被磚塊阻擋"
 #. STRINGS.MISC.STATUSITEMS.REHYDRATEDFOOD.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.REHYDRATEDFOOD.NAME"
 msgid "Rehydrated food"
-msgstr ""
+msgstr "補水食物"
 
 #. STRINGS.MISC.STATUSITEMS.REHYDRATEDFOOD.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.REHYDRATEDFOOD.TOOLTIP"
 msgid "Not quite as good as fresh, causes a -1 to <link=\"MORALE\">Morale</link>"
-msgstr ""
+msgstr "不如新鮮的好，導致<link=\"MORALE\">士氣</link> -1"
 
 #. STRINGS.MISC.STATUSITEMS.SPACE.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.SPACE.NAME"
@@ -52539,12 +52539,12 @@ msgstr "<link=\"AIRFILTER\">功率放大器</link>"
 #. STRINGS.RESEARCH.TECHS.ANIMALCOMFORT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ANIMALCOMFORT.DESC"
 msgid "Strategies for maximizing critters' quality of life."
-msgstr ""
+msgstr "最大限度提高生物生活品質的策略。"
 
 #. STRINGS.RESEARCH.TECHS.ANIMALCOMFORT.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.ANIMALCOMFORT.NAME"
 msgid "<link=\"ANIMALCOMFORT\">Creature Comforts</link>"
-msgstr ""
+msgstr "<link=\"ANIMALCOMFORT\">生物享受</link>"
 
 #. STRINGS.RESEARCH.TECHS.ANIMALCONTROL.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ANIMALCONTROL.DESC"
@@ -53679,7 +53679,7 @@ msgstr "病原體驅動的引導機器人透過滿足以下三個核心效果，
 #. STRINGS.ROBOTS.MODELS.MORB.DESC
 msgctxt "STRINGS.ROBOTS.MODELS.MORB.DESC"
 msgid "A Pathogen-Fueled Extravehicular Geo-Exploratory Guidebot (model Y), aka \"P.E.G.G.Y.\"\n\nIt can be assigned basic building tasks and digging duties in hazardous environments."
-msgstr ""
+msgstr "病原體驅動的艙外地理探索引導機器人（Y 型），又稱為「P.E.G.G.Y」\n\n它可以在危險環境中執行基本的建築任務和挖掘任務。"
 
 #. STRINGS.ROBOTS.MODELS.MORB.NAME
 msgctxt "STRINGS.ROBOTS.MODELS.MORB.NAME"
@@ -54054,7 +54054,7 @@ msgstr "缺少 {0}"
 #. STRINGS.ROOMS.CRITERIA.DECORATION.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.DECORATION.NAME"
 msgid "Decor Item"
-msgstr ""
+msgstr "裝飾品"
 
 #. STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM.DESCRIPTION"
@@ -54099,12 +54099,12 @@ msgstr "農業站"
 #. STRINGS.ROOMS.CRITERIA.FLUSHTOILETTYPE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.FLUSHTOILETTYPE.DESCRIPTION"
 msgid "Requires one or more Lavatories"
-msgstr ""
+msgstr "需要至少一個沖水馬桶"
 
 #. STRINGS.ROOMS.CRITERIA.FLUSHTOILETTYPE.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.FLUSHTOILETTYPE.NAME"
 msgid "Flush Toilet"
-msgstr ""
+msgstr "高級廁所"
 
 #. STRINGS.ROOMS.CRITERIA.FOOD_BOX.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.FOOD_BOX.DESCRIPTION"
@@ -54144,12 +54144,12 @@ msgstr "<b>需要：</b>"
 #. STRINGS.ROOMS.CRITERIA.IN_CODE_ERROR
 msgctxt "STRINGS.ROOMS.CRITERIA.IN_CODE_ERROR"
 msgid "string Key not found: {0}"
-msgstr ""
+msgstr "字串鍵未發現：{0}"
 
 #. STRINGS.ROOMS.CRITERIA.INDUSTRIALMACHINERY.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.INDUSTRIALMACHINERY.NAME"
 msgid "Industrial Machinery"
-msgstr ""
+msgstr "工業建築"
 
 #. STRINGS.ROOMS.CRITERIA.IS_BACKWALLED.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.IS_BACKWALLED.DESCRIPTION"
@@ -54329,22 +54329,22 @@ msgstr "電力控制站"
 #. STRINGS.ROOMS.CRITERIA.RANCHSTATIONTYPE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.RANCHSTATIONTYPE.DESCRIPTION"
 msgid "Requires a single Grooming Station, Critter Condo, Critter Fountain, or Milking Station"
-msgstr ""
+msgstr "需要一個畜牧站、小動物套房、小動物噴泉或擠奶站"
 
 #. STRINGS.ROOMS.CRITERIA.RANCHSTATIONTYPE.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.RANCHSTATIONTYPE.NAME"
 msgid "Ranching building"
-msgstr ""
+msgstr "畜牧建築"
 
 #. STRINGS.ROOMS.CRITERIA.RECBUILDING.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.RECBUILDING.DESCRIPTION"
 msgid "Requires one or more recreational buildings"
-msgstr ""
+msgstr "需要至少一個娛樂建築"
 
 #. STRINGS.ROOMS.CRITERIA.RECBUILDING.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.RECBUILDING.NAME"
 msgid "Recreational building"
-msgstr ""
+msgstr "娛樂建築"
 
 #. STRINGS.ROOMS.CRITERIA.REFRIGERATOR.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.REFRIGERATOR.DESCRIPTION"
@@ -54379,12 +54379,12 @@ msgstr "兩個科學建築"
 #. STRINGS.ROOMS.CRITERIA.SCIENCEBUILDING.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.SCIENCEBUILDING.DESCRIPTION"
 msgid "Requires one or more science buildings"
-msgstr ""
+msgstr "需要至少一個科學建築"
 
 #. STRINGS.ROOMS.CRITERIA.SCIENCEBUILDING.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.SCIENCEBUILDING.NAME"
 msgid "Science building"
-msgstr ""
+msgstr "科學建築"
 
 #. STRINGS.ROOMS.CRITERIA.SPICE_STATION.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.SPICE_STATION.DESCRIPTION"
@@ -54399,22 +54399,22 @@ msgstr "香料研磨器"
 #. STRINGS.ROOMS.CRITERIA.TOILETTYPE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.TOILETTYPE.DESCRIPTION"
 msgid "Requires one or more Outhouses or Lavatories"
-msgstr ""
+msgstr "需要至少一個茅廁或沖水馬桶"
 
 #. STRINGS.ROOMS.CRITERIA.TOILETTYPE.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.TOILETTYPE.NAME"
 msgid "Toilet"
-msgstr ""
+msgstr "廁所"
 
 #. STRINGS.ROOMS.CRITERIA.WASHSTATION.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.WASHSTATION.DESCRIPTION"
 msgid "Requires one or more Wash Basins, Sinks, Hand Sanitizers, or Showers"
-msgstr ""
+msgstr "需要至少一個洗手台、洗手盆、手部消毒機或淋浴間"
 
 #. STRINGS.ROOMS.CRITERIA.WASHSTATION.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.WASHSTATION.NAME"
 msgid "Wash station"
-msgstr ""
+msgstr "清洗站"
 
 #. STRINGS.ROOMS.CRITERIA.WILDANIMAL.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.WILDANIMAL.DESCRIPTION"
@@ -55379,12 +55379,12 @@ msgstr "這個殖民地 {0} 周歲了"
 #. STRINGS.UI.ASTEROIDCLOCK.MILESTONE_DESCRIPTION
 msgctxt "STRINGS.UI.ASTEROIDCLOCK.MILESTONE_DESCRIPTION"
 msgid "This colony is about to hit Cycle {0}!"
-msgstr ""
+msgstr "這個殖民地即將要滿 {0} 周期！"
 
 #. STRINGS.UI.ASTEROIDCLOCK.MILESTONE_TITLE
 msgctxt "STRINGS.UI.ASTEROIDCLOCK.MILESTONE_TITLE"
 msgid "Approaching Milestone"
-msgstr ""
+msgstr "即將抵達里程碑"
 
 #. STRINGS.UI.ASTEROIDCLOCK.SCHEDULE_BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.ASTEROIDCLOCK.SCHEDULE_BUTTON_TOOLTIP"
@@ -55395,16 +55395,6 @@ msgstr "管理時間表"
 msgctxt "STRINGS.UI.ASTEROIDCLOCK.TIME_PLAYED"
 msgid "Time Played: {0} hours"
 msgstr "遊玩時間：{0} 小時"
-
-#. # not_used
-msgctxt #. STRINGS.UI.ATTRIBUTELEVEsgctxt "STRINGS.UI.ATTRIBUTELEVEL"
-msgid "Expertise: Level {0} {1}"
-msgstr "{0}存有的{2}少於 {1}"
-
-#. # not_used
-msgctxt #. STRINGS.UI.ATTRIBUTELEVEL_SHORsgctxt "STRINGS.UI.ATTRIBUTELEVEL_SHORT"
-msgid "Level {0} {1}"
-msgstr "{0}存有的{2}少於 {1}"
 
 #. STRINGS.UI.BASECOUNT
 msgctxt "STRINGS.UI.BASECOUNT"
@@ -55484,12 +55474,12 @@ msgstr "讓複製人們快樂，舒適和高效。{Hotkey}"
 #. STRINGS.UI.BUILDCATEGORIES.GRAVITAS.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.GRAVITAS.NAME"
 msgid "<link=\"GRAVITAS\">Gravitas</link>"
-msgstr ""
+msgstr "<link=\"GRAVITAS\">引力科技</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.GRAVITAS.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.GRAVITAS.TOOLTIP"
 msgid "Debug buildings. {Hotkey}"
-msgstr ""
+msgstr "除錯建築 {Hotkey}"
 
 #. STRINGS.UI.BUILDCATEGORIES.HEP.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.HEP.NAME"
@@ -55789,7 +55779,7 @@ msgstr "生產"
 #. STRINGS.UI.BUILDINGEFFECTS.FOOD_DEHYDRATOR_WATER_OUTPUT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.FOOD_DEHYDRATOR_WATER_OUTPUT"
 msgid "Wet Floor"
-msgstr ""
+msgstr "溼地板"
 
 #. STRINGS.UI.BUILDINGEFFECTS.GASCOOLING
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.GASCOOLING"
@@ -56299,7 +56289,7 @@ msgstr "成份：\n{0}"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.FOOD_DEHYDRATOR_WATER_OUTPUT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.FOOD_DEHYDRATOR_WATER_OUTPUT"
 msgid "This building dumps <link=\"WATER\">Water</link> on the floor while in use"
-msgstr ""
+msgstr "建築物在使用時將<link=\"WATER\">水</link>傾倒在地板上"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GASCOOLING
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GASCOOLING"
@@ -63579,32 +63569,32 @@ msgstr "士氣變化"
 #. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.U50_CHANGES_METER_VALVES
 msgctxt "STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.U50_CHANGES_METER_VALVES"
 msgid "•<indent=20px>Meter valves no longer continuously reset when receiving a green signal.</indent>"
-msgstr ""
+msgstr "•<indent=20px>接收到綠色訊號時儀表閥門不再持續重置。</indent>"
 
 #. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.U50_CHANGES_MOOD
 msgctxt "STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.U50_CHANGES_MOOD"
 msgid "•<indent=20px>Critter moods have been expanded to include miserable and satisfied states: Miserable stops reproduction. Satisfied gives full metabolism and default reproduction.</indent>"
-msgstr ""
+msgstr "•<indent=20px>小動物的情緒擴展到包括痛苦和滿足的狀態：痛苦會停止繁殖。滿足會提供充分的新陳代謝和基礎繁殖率。</indent>"
 
 #. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.U50_CHANGES_PACU
 msgctxt "STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.U50_CHANGES_PACU"
 msgid "•<indent=20px>Pacus have received a number of bug fixes and changes affecting their reproduction: Now correctly Confined when flopping or in less than 8 tiles of liquid. Easier to feed due to a rebalanced diet.</indent>"
-msgstr ""
+msgstr "•<indent=20px>帕庫已收到許多影響其繁殖的錯誤修復和更改：現在在翻倒時或在少於 8 塊液體中時正確反應受到限制的狀態。由於飲食重新平衡，餵食更容易。</indent>"
 
 #. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.U50_CHANGES_SUITCHECKPOINTS
 msgctxt "STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.U50_CHANGES_SUITCHECKPOINTS"
 msgid "•<indent=20px>Suit checkpoints now have an automation port to disable them so Duplicants can pass through. Some checkpoints may now be unintentionally connected to existing <link=\"LOGICWIRE\">Automation Wire</link>s."
-msgstr ""
+msgstr "•<indent=20px>太空服檢查點現在有一個自動化連接埠來停用它們，以便複製人可以通過。一些檢查點現在可能會無意中連接到現有的<link=\"LOGICWIRE\">自動化線路</link>。"
 
 #. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.U50_CHANGES_SUMMARY
 msgctxt "STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.U50_CHANGES_SUMMARY"
 msgid "There have been significant changes to critters since this save file was created! Please check on your ranches."
-msgstr ""
+msgstr "自從上次保存文件以來，小動物發生了重大變化！ 請檢查您的牧場。"
 
 #. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.U50_CHANGES_TITLE
 msgctxt "STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.U50_CHANGES_TITLE"
 msgid "IMPORTANT CHANGES"
-msgstr ""
+msgstr "重要變更"
 
 #. STRINGS.UI.FRONTEND.SCENARIOS_MENU.BUTTON_DONE
 msgctxt "STRINGS.UI.FRONTEND.SCENARIOS_MENU.BUTTON_DONE"
@@ -72664,32 +72654,32 @@ msgstr ""
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CARGO_BAY_FOR_NOSECONE_HARVEST.STATUS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CARGO_BAY_FOR_NOSECONE_HARVEST.STATUS.FAILURE"
 msgid "Drillcone Cargo Bay"
-msgstr ""
+msgstr "鑽頭貨艙"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CARGO_BAY_FOR_NOSECONE_HARVEST.STATUS.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CARGO_BAY_FOR_NOSECONE_HARVEST.STATUS.READY"
 msgid "Drillcone Cargo Bay"
-msgstr ""
+msgstr "鑽頭貨艙"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CARGO_BAY_FOR_NOSECONE_HARVEST.STATUS.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CARGO_BAY_FOR_NOSECONE_HARVEST.STATUS.WARNING"
 msgid "Drillcone Cargo Bay"
-msgstr ""
+msgstr "鑽頭貨艙"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CARGO_BAY_FOR_NOSECONE_HARVEST.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CARGO_BAY_FOR_NOSECONE_HARVEST.TOOLTIP.FAILURE"
 msgid "No cargo bay installed\n\nThis rocket has a <link=\"NOSECONEHARVEST\">Drillcone</link> installed but nowhere to store the materials"
-msgstr ""
+msgstr "未安裝貨艙\n\n此火箭安裝了<link=\"NOSECONE HARVEST\">鑽頭鼻錐</link>，但無處存放材料"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CARGO_BAY_FOR_NOSECONE_HARVEST.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CARGO_BAY_FOR_NOSECONE_HARVEST.TOOLTIP.READY"
 msgid "A suitable cargo bay has been installed"
-msgstr ""
+msgstr "一個合適的貨艙已經被安裝"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CARGO_BAY_FOR_NOSECONE_HARVEST.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CARGO_BAY_FOR_NOSECONE_HARVEST.TOOLTIP.WARNING"
 msgid "No cargo bay installed\n\nThis rocket has a <link=\"NOSECONEHARVEST\">Drillcone</link> installed but nowhere to store the materials"
-msgstr ""
+msgstr "未安裝貨艙\n\n此火箭安裝了<link=\"NOSECONE HARVEST\">鑽頭鼻錐</link>，但無處存放材料"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CONTROLSTATION.STATUS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CONTROLSTATION.STATUS.FAILURE"
@@ -79089,7 +79079,7 @@ msgstr "取消關閉"
 #. STRINGS.UI.USERMENUACTIONS.CLOSESTORAGE.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CLOSESTORAGE.TOOLTIP"
 msgid "Prevent this container from receiving resources for storage"
-msgstr ""
+msgstr "避免該容器接收資源進行儲存"
 
 #. STRINGS.UI.USERMENUACTIONS.CLOSESTORAGE.TOOLTIP_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.CLOSESTORAGE.TOOLTIP_OFF"
@@ -81584,7 +81574,7 @@ msgstr ""
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.BEDTYPE.TITLE
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.BEDTYPE.TITLE"
 msgid "Beds"
-msgstr "床"
+msgstr "多張床"
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.LIGHTSOURCE.DESCRIPTION
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.LIGHTSOURCE.DESCRIPTION"
