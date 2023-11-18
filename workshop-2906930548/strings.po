@@ -7459,7 +7459,7 @@ msgstr "一些排出的液體不可避免地會掉在地板上。"
 #. STRINGS.BUILDINGS.PREFABS.FOODDEHYDRATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FOODDEHYDRATOR.EFFECT"
 msgid "Uses low, even heat to eliminate moisture from eligible <link=\"FOOD\">Foods</link> and render them shelf-stable.\n\nDehydrated meals must be processed at the <link=\"FOODREHYDRATOR\">Rehydrator</link> before they can be eaten."
-msgstr "使用低而均勻的熱量消除符合條件的<link=\"FOOD\">食品</link>中的水分，使其具有穩定的保質期。\n\n脫水食品必須在<link=\"FOODREHYDRATOR\">進行加工食用前先補充水分</link>。"
+msgstr "使用低而均勻的熱量消除符合條件的<link=\"FOOD\">食品</link>中的水分，使其具有穩定的保質期。\n\n脫水食品必須在食用前使用<link=\"FOODREHYDRATOR\">食物補水器</link>進行處理。"
 
 #. STRINGS.BUILDINGS.PREFABS.FOODDEHYDRATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FOODDEHYDRATOR.NAME"
@@ -7474,7 +7474,7 @@ msgstr "乾燥的{0}"
 #. STRINGS.BUILDINGS.PREFABS.FOODDEHYDRATOR.RESULT_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.FOODDEHYDRATOR.RESULT_DESCRIPTION"
 msgid "Dehydrated portions of {0} do not require refrigeration."
-msgstr "{0} 的脫水補給不需冷藏。"
+msgstr "已經脫水的{0}不需冷藏。"
 
 #. STRINGS.BUILDINGS.PREFABS.FOODREHYDRATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FOODREHYDRATOR.DESC"
@@ -47224,7 +47224,7 @@ msgstr "關於抬頭顯示器的注意事項"
 #. STRINGS.MISC.NOTIFICATIONS.BEING_INFECTED.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.BEING_INFECTED.MESSAGEBODY"
 msgid "When Duplicants come into contact with various <link=\"DISEASE\">Germs</link>, they'll need to expend points of <link=\"IMMUNE SYSTEM\">Immunity</link> to resist them and remain healthy. If repeated exposes causes their Immunity to drop to 0%, they'll be unable to resist germs and will contract the next disease they encounter.\n\nDoors with Access Permissions can be built from the BASE TAB<color=#F44A47> <b>[1]</b></color> of the <link=\"MISC\">Build menu</link> to block Duplicants from entering biohazardous areas while they recover their spent immunity points."
-msgstr "複製人必須消耗<link=\"IMMUNE SYSTEM\">免疫力</link>對抗一些<link=\"DISEASE\">細菌</link>。\n如果他們的免疫力降到 0%，他們將無法對抗更多的細菌，並在下一次接觸疾病時會被感染。\n\n具有訪問權限的門，可以防止複製人在恢復免疫力時，進入有生物險害的區域，\n可以在<link=\"MISC\">建造選單</link>的基地<color=#F44A47><b>[1]</b></color>找到並建造。"
+msgstr "複製人必須消耗<link=\"IMMUNE SYSTEM\">免疫力</link>對抗一些<link=\"DISEASE\">細菌</link>。如果他們的免疫力降到 0%，他們將無法對抗更多的細菌，並在下一次接觸疾病時會被感染。\n\n具有訪問權限的門，可以防止複製人在恢復免疫力時，進入有生物險害的區域，可以在<link=\"MISC\">建造選單</link>的基地<color=#F44A47><b>[1]</b></color>找到並建造。"
 
 #. STRINGS.MISC.NOTIFICATIONS.BEING_INFECTED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.BEING_INFECTED.NAME"
@@ -47454,7 +47454,7 @@ msgstr "這些複製人因缺乏<link=\"OXYGEN\">氧氣</link>窒息而死："
 #. STRINGS.MISC.NOTIFICATIONS.DIGGING.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DIGGING.MESSAGEBODY"
 msgid "Everything a colony needs to get going is found in the ground. Instructing Duplicants to dig out areas means we can find food, mine resources to build infrastructure, and clear space for the colony to grow. I can access the Dig Tool with {Hotkey/Dig}, which allows me to select the area where I want my Duplicants to dig.\n\nDuplicants will need to gain the Superhard Digging skill to mine Abyssalite and the Superduperhard Digging skill to mine Diamond and Obsidian. Without the proper skills, these materials will be undiggable."
-msgstr "殖民地所需的一些都可以在地底中找到。\n命令複製人挖掘某個區域可以取得建設基礎設施的所需資源，\n找到食物與清出空間幫助殖民地發展。\n使用挖掘工具 {Hotkey/Dig} 規劃一個區域讓複製人開始挖掘。\n\n複製人需要學會挖掘超硬物技能才能開採深淵水晶，\n以及極硬物挖掘才能開採鑽石與黑曜石。"
+msgstr "殖民地所需的一些都可以在地底中找到。命令複製人挖掘某個區域可以取得建設基礎設施的所需資源，找到食物與清出空間幫助殖民地發展。使用挖掘工具 {Hotkey/Dig} 規劃一個區域讓複製人開始挖掘。\n\n複製人需要學會挖掘超硬物技能才能開採深淵水晶，以及極硬物挖掘才能開採鑽石與黑曜石。"
 
 #. STRINGS.MISC.NOTIFICATIONS.DIGGING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DIGGING.NAME"
@@ -47479,7 +47479,7 @@ msgstr "太神啦！\n\n複製人們挖穿了這個困住我們的岩石監獄�
 #. STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.MESSAGEBODY"
 msgid "The <link=\"FOOD\">Food</link> my Duplicants cook will only ever be as clean as the ingredients used to make it. Storing food in sterile or <link=\"REFRIGERATOR\">Refrigerated</link> environments will keep food free of <link=\"DISEASE\">Germs</link>, while carefully placed hygiene stations like <link=\"WASHBASIN\">Wash Basin</link> or <link=\"SHOWER\">Shower</link> will prevent the cooks from infecting the food by handling it.\n\nDangerously contaminated food can be sent to compost by (ClickType/clicking) the <b>Compost</b> button on the selected item."
-msgstr "複製人做出的<link=\"FOOD\">食物</link>將會和所使用的食材一樣乾淨。\n食物存放在無菌或<link=\"REFRIGERATOR\">冷藏</link>的環境中可保持<link=\"DISEASE\">無菌</link>，\n仔細的擺放衛生設施，像是<link=\"WASHBASIN\">洗手盆</link>或<link=\"SHOWER\">淋浴間</link>可避免廚師汙染食物。\n\n嚴重汙染的食物可以拿去堆肥，在選取物品後(ClickType/clicking)<b>堆肥</b>按鈕。"
+msgstr "複製人做出的<link=\"FOOD\">食物</link>將會和所使用的食材一樣乾淨。食物存放在無菌或<link=\"REFRIGERATOR\">冷藏</link>的環境中可保持<link=\"DISEASE\">無菌</link>，仔細的擺放衛生設施，像是<link=\"WASHBASIN\">洗手盆</link>或<link=\"SHOWER\">淋浴間</link>可避免廚師汙染食物。\n\n嚴重汙染的食物可以拿去堆肥，在選取物品後(ClickType/clicking)<b>堆肥</b>按鈕。"
 
 #. STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.NAME"
@@ -47554,7 +47554,7 @@ msgstr "這些工廠沒有生產佇列："
 #. STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.MESSAGEBODY"
 msgid "By building a <link=\"LIQUIDPUMPINGSTATION\">Pitcher Pump</link> from the <b>Plumbing Tab</b> {Hotkey/Plan5} over a pool of liquid, my Duplicants will be able to bottle it up and manually deliver it wherever it needs to go."
-msgstr "建造一個 <b>供水</b> {Hotkey/Plan5} 中的<link=\"LIQUIDPUMPINGSTATION\">手壓幫浦</link>在液體池上方，\n複製人會人工運送瓶裝液體到需要的地方。"
+msgstr "建造一個<b>供水</b> {Hotkey/Plan5} 中的<link=\"LIQUIDPUMPINGSTATION\">手壓幫浦</link>在液體池上方，複製人會人工運送瓶裝液體到需要的地方。"
 
 #. STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.NAME"
@@ -47729,7 +47729,7 @@ msgstr "複製人的期望增加了"
 #. STRINGS.MISC.NOTIFICATIONS.INCREASEDEXPECTATIONS.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INCREASEDEXPECTATIONS.TOOLTIP"
 msgid "Duplicants require better amenities over time.\nThese Duplicants have increased their expectations:"
-msgstr "隨著時間經過，複製人需要更好的環境。\n這些複製人已經提高了他們的期望："
+msgstr "隨著時間經過，複製人需要更好的環境。這些複製人已經提高了他們的期望："
 
 #. STRINGS.MISC.NOTIFICATIONS.INSUFFICIENTOXYGENLASTCYCLE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INSUFFICIENTOXYGENLASTCYCLE.NAME"
@@ -47744,7 +47744,7 @@ msgstr "殖民地的<link=\"OXYGEN\">氧氣</link>消耗量大於生產量，如
 #. STRINGS.MISC.NOTIFICATIONS.INSULATION.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INSULATION.MESSAGEBODY"
 msgid "The temperature of an environment can have positive or negative effects on the well-being of my Duplicants, as well as the plants and critters in my colony. Selecting {Hotkey/Overlay3} will open the Temperature Overlay where I can check for any hot or cold spots.\n\nI can use a Utility building like an Ice-E Fan or a Space Heater to make an area colder or warmer. However, I will have limited success changing the temperature of a room unless I build the area with insulating tiles to prevent cold or warm air from escaping."
-msgstr "環境溫度會對殖民地內的複製人、植物與動物產生正面或負面的影響。\n按下 {Hotkey/Overlay3} 打開溫度概覽可以查看冷熱的分佈情形。\n\n使用像是涼風扇或是暖氣機可以讓一個區域內的溫度變冷或變熱。\n但是，除非使用隔熱磚阻止冷（熱）空氣的散失，\n否則對改變房間內溫度的效果有限。"
+msgstr "環境溫度會對殖民地內的複製人、植物與動物產生正面或負面的影響。按下 {Hotkey/Overlay3} 打開溫度概覽可以查看冷熱的分佈情形。\n\n使用像是涼風扇或是暖氣機可以讓一個區域內的溫度變冷或變熱。但是，除非使用隔熱磚阻止冷（熱）空氣的散失，否則對改變房間內溫度的效果有限。"
 
 #. STRINGS.MISC.NOTIFICATIONS.INSULATION.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INSULATION.NAME"
@@ -47784,7 +47784,7 @@ msgstr "這些複製人的<style=\"KKeyword\">屬性</style>增加："
 #. STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.MESSAGEBODY"
 msgid "Duplicants have limited jumping and climbing abilities. They can only climb two tiles high and cannot fit into spaces shorter than two tiles, or cross gaps wider than one tile. I should keep this in mind while placing errands.\n\nTo check if an errand I've placed is accessible, I can select a Duplicant and (ClickType/click) <b>Show Navigation</b> to view all areas within their reach."
-msgstr "請牢記在心中，當要按排工作時，\n複製人只能爬兩格高或跨一格寬，\n而且活動空間不得少於兩格。\n\n如果要確認一項工作是否可以執行，\n請選擇一位複製人並(ClickType/click)<b>顯示路徑</b>來觀看他們能達到的所有區域。"
+msgstr "請牢記在心中，當要安排工作時，複製人只能爬兩格高或跨一格寬，而且活動空間不得少於兩格。\n\n如果要確認一項工作是否可以執行，請選擇一位複製人並(ClickType/click)<b>顯示路徑</b>來觀看他們能達到的所有區域。"
 
 #. STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.NAME"
@@ -47809,7 +47809,7 @@ msgstr "這些<link=\"LOGICWIRE\">訊號線</link>融化了，因為傳輸的訊
 #. STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.MESSAGEBODY"
 msgid "<link=\"DISEASE\">Germs</link> such as <link=\"FOODSICKNESS\">Food Poisoning</link> and <link=\"SLIMESICKNESS\">Slimelung</link> can cause <link=\"DISEASE\">Disease</link> in my Duplicants. I can use the <b>Germ Overlay</b> {Hotkey/Overlay9} to view all germ concentrations in my colony, and even detect the sources spawning them.\n\nBuilding Wash Basins from the <b>Medicine Tab</b> {Hotkey/Plan8} near colony toilets will tell my Duplicants they need to wash up."
-msgstr "<link=\"DISEASE\">細菌</link>像是<link=\"FOODSICKNESS\">腸病毒</link>與<link=\"SLIMESICKNESS\">肺結核</link>，會使複製人<link=\"DISEASE\">生病</link>。\n可以使用<b>病菌概覽</b> {Hotkey/Overlay9} 查看殖民地中，所有細菌的密度與它們產生的來源。\n\n將 <b>醫療</b> {Hotkey/Plan8} 中的洗手盆蓋在殖民地的廁所中，這會讓我的複製人們知道需要洗手。"
+msgstr "<link=\"DISEASE\">細菌</link>像是<link=\"FOODSICKNESS\">腸病毒</link>與<link=\"SLIMESICKNESS\">肺結核</link>，會使複製人<link=\"DISEASE\">生病</link>。可以使用<b>病菌概覽</b> {Hotkey/Overlay9} 查看殖民地中，所有細菌的密度與它們產生的來源。\n\n將<b>醫療</b> {Hotkey/Plan8} 中的洗手盆蓋在殖民地的廁所中，這會讓我的複製人們知道需要洗手。"
 
 #. STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.NAME"
@@ -47834,7 +47834,7 @@ msgstr "這些資源不足："
 #. STRINGS.MISC.NOTIFICATIONS.MOPPINGMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MOPPINGMESSAGE.MESSAGEBODY"
 msgid "<link=\"DIRTYWATER\">Polluted Water</link> slowly emits <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> which accelerates the spread of <link=\"DISEASE\">Disease</link>.\n\nDuplicants will also be <link=\"STRESS\">Stressed</link> by walking through Polluted Water, so I should have my Duplicants clean up spills by (ClickType/clicking) and dragging the <b>Mop Tool</b> {Hotkey/Mop}"
-msgstr "<link=\"DIRTYWATER\">汙水</link>會慢慢釋放<link=\"CONTAMINATEDOXYGEN\">汙氧</link>並加快<link=\"DISEASE\">疾病</link>的傳播速度。\n\n複製人接觸到汙水也會提高<link=\"STRESS\">壓力</link>，\n透過(ClickType/clicking)與使用 <b>擦拭工具</b> {Hotkey/Mop} 叫複製人清理乾淨"
+msgstr "<link=\"DIRTYWATER\">汙水</link>會慢慢釋放<link=\"CONTAMINATEDOXYGEN\">汙氧</link>並加快<link=\"DISEASE\">疾病</link>的傳播速度。\n\n複製人接觸到汙水也會提高<link=\"STRESS\">壓力</link>，透過(ClickType/clicking)與使用 <b>擦拭工具</b> {Hotkey/Mop} 叫複製人清理乾淨"
 
 #. STRINGS.MISC.NOTIFICATIONS.MOPPINGMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MOPPINGMESSAGE.NAME"
@@ -47849,7 +47849,7 @@ msgstr "掌握汙染的材料的注意事項"
 #. STRINGS.MISC.NOTIFICATIONS.MORALE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MORALE.MESSAGEBODY"
 msgid "Food, Rooms, Decor, and Recreation all have an effect on Duplicant Morale. Good experiences improve their Morale, while poor experiences lower it. When a Duplicant's Morale is below their Expectations, they will become Stressed.\n\nDuplicants' Expectations will get higher as they are given new Skills, and the colony will have to be improved to keep up their Morale. An overview of Morale and Stress can be viewed on the Vitals screen."
-msgstr "食物、房間、裝飾與休閒活動會影響複製人的士氣。\n好的生活品質體驗會提升他們的士氣，\n反之不好的生活品質體驗會降低他們的士氣。\n當士氣低於他們的期望時，複製人的壓力將會增加。\n\n食物、房間、裝飾與娛樂都會影響複製人的士氣。\n好的生活品質會提升他們的士氣，反之會降低。\n當複製人的士氣低於期望值時，壓力就會上升。\n\n複製人的士氣期望會隨著技能等級一起增加，\n所以必須改善殖民地的生活品質維持高士氣。\n在健康狀況面板可查看士氣與壓力的概況。"
+msgstr "食物、房間、裝飾與休閒活動會影響複製人的士氣。好的生活品質體驗會提升他們的士氣，反之不好的生活品質體驗會降低他們的士氣。當士氣低於他們的期望時，複製人的壓力將會增加。\n\n食物、房間、裝飾與娛樂都會影響複製人的士氣。好的生活品質會提升他們的士氣，反之會降低。當複製人的士氣低於期望值時，壓力就會上升。\n\n複製人的士氣期望會隨著技能等級一起增加，所以必須改善殖民地的生活品質維持高士氣。在健康狀況面板可查看士氣與壓力的概況。"
 
 #. STRINGS.MISC.NOTIFICATIONS.MORALE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MORALE.NAME"
@@ -47934,12 +47934,12 @@ msgstr "發現{Plant}的變種。在<link=\"GENETICANALYSISSTATION\">植物分�
 #. STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.NAME"
 msgid "{0} has developed a trait"
-msgstr "{0}已發展了一個特徵"
+msgstr "{0}已發展了一個特質"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.TOOLTIP"
 msgid "{0} has developed the trait(s):\n    • {1}"
-msgstr "{0}已發展的特徵：\n    • {1}"
+msgstr "{0}已發展的特質：\n    • {1}"
 
 #. STRINGS.MISC.NOTIFICATIONS.NO_MEDICAL_COTS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NO_MEDICAL_COTS.NAME"
@@ -47954,7 +47954,7 @@ msgstr "沒有地方可以治療生病的複製人\n\n可以建造<b>醫療</b> 
 #. STRINGS.MISC.NOTIFICATIONS.NO_OXYGEN_GENERATOR.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NO_OXYGEN_GENERATOR.NAME"
 msgid "No <link=\"OXYGEN\">Oxygen Generator</link> built"
-msgstr "未建造 <link=\"OXYGEN\">製氧機</link>"
+msgstr "未建造<link=\"OXYGEN\">製氧機</link>"
 
 #. STRINGS.MISC.NOTIFICATIONS.NO_OXYGEN_GENERATOR.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NO_OXYGEN_GENERATOR.TOOLTIP"
@@ -47994,7 +47994,7 @@ msgstr "阻塞的<style=\"KKeyword\">管線</style>使這些系統停止運作�
 #. STRINGS.MISC.NOTIFICATIONS.PLUMBING.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.PLUMBING.MESSAGEBODY"
 msgid "When connecting pipes for plumbing, it is useful to have the Plumbing Overlay {Hotkey/Overlay6} selected. Each building which requires plumbing must have their Building Intake connected to the Output Pipe from a source such as a Liquid Pump. Liquid Pumps must be submerged in liquid and attached to a power source to function.\n\nBuildings often output contaminated water which must flow out of the building through piping from the Output Pipe. The water can then be expelled through a Liquid Vent, or filtered through a Water Sieve for reuse.\n\nVentilation applies the same principles to gases. Select the Ventilation Overlay {Hotkey/Overlay7} to see how gases are being moved around the colony."
-msgstr "連接液體管道時，使用管道概覽 {Hotkey/Overlay6} 可以更容易規劃。\n每個需要供水的建築都需將它們的進水口連接到液體幫浦的出水口。\n液體幫浦必須放在水中並接上電源才能運作。\n\n建築通常會產生汙水，必須透過出水口排放。\n可透過排水口排出，或使用淨水器過濾後重復使用。通風管道的原理也是一樣的，使用通風 {Hotkey/Overlay7} 來顯示氣體管道狀態。"
+msgstr "連接液體管道時，使用管道概覽 {Hotkey/Overlay6} 可以更容易規劃。每個需要供水的建築都需將它們的進水口連接到液體幫浦的出水口。液體幫浦必須放在水中並接上電源才能運作。\n\n建築通常會產生汙水，必須透過出水口排放。可透過排水口排出，或使用淨水器過濾後重復使用。通風管道的原理也是一樣的，使用通風 {Hotkey/Overlay7} 來顯示氣體管道狀態。"
 
 #. STRINGS.MISC.NOTIFICATIONS.PLUMBING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.PLUMBING.NAME"
@@ -48009,7 +48009,7 @@ msgstr "建築與管線連結的注意事項"
 #. STRINGS.MISC.NOTIFICATIONS.POWER.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.POWER.MESSAGEBODY"
 msgid "Generators are considered \"Producers\" of Power, while the various buildings and machines in the colony are considered \"Consumers\". Each Consumer will pull a certain wattage from the power circuit it is connected to, which can be checked at any time by (ClickType/clicking) the building and going to the Energy Tab.\n\nI can use the Power Overlay {Hotkey/Overlay2} to quickly check the status of all my circuits. If the Consumers are taking more wattage than the Generators are creating, the Batteries will drain and there will be brownouts.\n\nAdditionally, if the Consumers are pulling more wattage through the Wires than the Wires can handle, they will overload and burn out. To correct both these situations, I will need to reorganize my Consumers onto separate circuits."
-msgstr "發電機視為電力的「生產者」，而殖民地內的各項建築與機器視為「消費者」。\n每個消耗者都會從所連接的電網中消耗一定的電量，可以隨時(ClickType/clicking)建築的能源分頁來查看。\n\n使用電力概覽 {Hotkey/Overlay2} 來檢查電力網的狀態。\n如果耗電設施所消耗的電量大於發電機的所生產的電量時，\n電池所儲存的電量會被耗盡。\n\n另外，如果耗電設施所使用的電量超過電線的承載量，電線會超載並燒毀。\n為了解決這兩種狀況，需要將耗電設施獨力成兩個電力系統。"
+msgstr "發電機視為電力的「生產者」，而殖民地內的各項建築與機器視為「消費者」。每個消耗者都會從所連接的電網中消耗一定的電量，可以隨時(ClickType/clicking)建築的能源分頁來查看。\n\n使用電力概覽 {Hotkey/Overlay2} 來檢查電力網的狀態。如果耗電設施所消耗的電量大於發電機的所生產的電量時，電池所儲存的電量會被耗盡。\n\n另外，如果耗電設施所使用的電量超過電線的承載量，電線會超載並燒毀。為了解決這兩種狀況，需要將耗電設施獨立成兩個電力系統。"
 
 #. STRINGS.MISC.NOTIFICATIONS.POWER.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.POWER.NAME"
@@ -48024,7 +48024,7 @@ msgstr "管理電力的注意事項"
 #. STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.MESSAGEBODY"
 msgid "Duplicants will choose where to work based on the priority of the errands that I give them. I can open the <b>Priorities Screen</b> {Hotkey/ManagePriorities} to set their <style=\"KKeyword\">Duplicant Priorities</style>, and the <b>Priority Tool</b> {Hotkey/Prioritize} to fine tune <style=\"KKeyword\">Building Priority</style>. Many buildings will also let me change their Priority level when I select them."
-msgstr "複製人會基於所設定的工作優先度，選擇他們的工作。\n打開<b>優先度面板</b> {Hotkey/ManagePriorities} 來設定<style=\"KKeyword\">複製人優先度</style>，\n接著使用<b>優先度工具</b> {Hotkey/Prioritize} 來微調<style=\"KKeyword\">建築優先度</style>。\n許多建築物在選取狀態時也可以改變優先度。"
+msgstr "複製人會基於所設定的工作優先度，選擇他們的工作。打開<b>優先度面板</b> {Hotkey/ManagePriorities} 來設定<style=\"KKeyword\">複製人優先度</style>，接著使用<b>優先度工具</b> {Hotkey/Prioritize} 來微調<style=\"KKeyword\">建築優先度</style>。許多建築物在選取狀態時也可以改變優先度。"
 
 #. STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.NAME"
@@ -48039,7 +48039,7 @@ msgstr "複製人優先度的注意事項"
 #. STRINGS.MISC.NOTIFICATIONS.RADIATION.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RADIATION.MESSAGEBODY"
 msgid "Objects such as <link=\"URANIUMORE\">Uranium Ore</link> and <link=\"BEE\">Beeta Hives</link> emit a <link=\"RADIOACTIVE\">Radioactive</link> energy that can be toxic to my Duplicants.\n\nI can use the <b>Radiation Overlay</b> {Hotkey/Overlay15} to check the scope of the Radiation field. Building thick walls around radiation emitters will dampen the field and protect my Duplicants from getting <link=\"RADIATIONSICKNESS\">Radiation Sickness</link> ."
-msgstr "<link=\"URANIUMORE\">鈾礦</link>與<link=\"BEE\">輻射蜂巢</link>等物品會釋放<link=\"RADIOACTIVE\">輻射</link>能量會使複製人中毒。\n\n使用<b>輻射透射圖</b> {Hotkey/Overlay15} 查看輻射汙染區。\n在輻射汙染區周圍建造厚牆可以阻止擴散，並保護複製人免於<link=\"RADIATIONSICKNESS\">輻射中毒</link>。"
+msgstr "<link=\"URANIUMORE\">鈾礦</link>與<link=\"BEE\">輻射蜂巢</link>等物品會釋放<link=\"RADIOACTIVE\">輻射</link>能量會使複製人中毒。\n\n使用<b>輻射透射圖</b> {Hotkey/Overlay15} 查看輻射汙染區。在輻射汙染區周圍建造厚牆可以阻止擴散，並保護複製人免於<link=\"RADIATIONSICKNESS\">輻射中毒</link>。"
 
 #. STRINGS.MISC.NOTIFICATIONS.RADIATION.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RADIATION.NAME"
@@ -48154,7 +48154,7 @@ msgstr "{Duplicant}努力工作且可以學習新的技能"
 #. STRINGS.MISC.NOTIFICATIONS.SPACETRAVEL.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SPACETRAVEL.MESSAGEBODY"
 msgid "Building a rocket first requires constructing a <link=\"LAUNCHPAD\">Rocket Platform</link> and adding modules from the menu. All components of the Rocket Checklist will need to be complete before being capable of launching.\n\nA <link=\"CLUSTERTELESCOPE\">Telescope</link> needs to be built on the surface of a Planetoid in order to use the <style=\"KKeyword\">Starmap Screen</style> {Hotkey/ManageStarmap} to see and set course for new destinations."
-msgstr "建造火箭前需要先建造<link=\"LAUNCHPAD\">火箭平台</link>然後從選單中新增模組。\n火箭檢查清單中的全部項目都需要完成才能發射。\n\n<link=\"CLUSTERTELESCOPE\">望遠鏡</link>需要建造在小行星表面，才能使用<style=\"KKeyword\">星圖</style> {Hotkey/ManageStarmap} 查看與設定目的地。"
+msgstr "建造火箭前需要先建造<link=\"LAUNCHPAD\">火箭平台</link>然後從選單中新增模組。火箭檢查清單中的全部項目都需要完成才能發射。\n\n<link=\"CLUSTERTELESCOPE\">望遠鏡</link>需要建造在小行星表面，才能使用<style=\"KKeyword\">星圖</style> {Hotkey/ManageStarmap} 查看與設定目的地。"
 
 #. STRINGS.MISC.NOTIFICATIONS.SPACETRAVEL.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SPACETRAVEL.NAME"
@@ -48169,7 +48169,7 @@ msgstr "太空旅行的注意事項"
 #. STRINGS.MISC.NOTIFICATIONS.STRESSMANAGEMENTMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.STRESSMANAGEMENTMESSAGE.MESSAGEBODY"
 msgid "At 100% <link=\"STRESS\">Stress</link>, a Duplicant will have a nervous breakdown and be unable to work.\n\nBreakdowns can manifest in different colony-threatening ways, such as the destruction of buildings or the binge eating of food.\n\nI can select a Duplicant and mouse over <link=\"STRESS\">Stress</link> in their STATUS TAB to view their individual <link=\"STRESS\">Stress Factors</link>, and hopefully minimize them before they become a problem."
-msgstr "當<link=\"STRESS\">壓力</link>到達 100% 時，複製人會崩潰並且無法工作。\n\n崩潰會在殖民地中以不同形式表現出來，像是建築物被拆或是瘋狂的吃食物。\n\n選擇一位複製人，在狀態面板中，將游標停在<link=\"STRESS\">壓力</link>上，\n可觀看他們個人的<link=\"STRESS\">壓力因素</link>，希望在它們成為問題前盡量的減少它們。"
+msgstr "當<link=\"STRESS\">壓力</link>到達 100% 時，複製人會崩潰並且無法工作。\n\n崩潰會在殖民地中以不同形式表現出來，像是建築物被拆或是瘋狂的吃食物。\n\n選擇一位複製人，在狀態面板中，將游標停在<link=\"STRESS\">壓力</link>上，n可觀看他們個人的<link=\"STRESS\">壓力因素</link>，希望在它們成為問題前盡量的減少它們。"
 
 #. STRINGS.MISC.NOTIFICATIONS.STRESSMANAGEMENTMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.STRESSMANAGEMENTMESSAGE.NAME"
@@ -48214,7 +48214,7 @@ msgstr "沒有太空存放櫃可用，有一件太空衣被丟在地上"
 #. STRINGS.MISC.NOTIFICATIONS.SUITS.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SUITS.MESSAGEBODY"
 msgid "<link=\"ATMOSUIT\">Atmo Suits</link> can be equipped to protect my Duplicants from environmental hazards like extreme <link=\"HEAT\">Heat</link>, airborne <link=\"DISEASE\">Germs</link>, or unbreathable <link=\"ELEMENTSGAS\">Gas</link>. In order to utilize these suits, I'll need to hook up an <link=\"SUITLOCKER\">Atmo Suit Dock</link> to an <link=\"SUITMARKER\">Atmo Suit Checkpoint</link> , then store one of the suits inside.\n\nDuplicants will equip a suit when they walk past the checkpoint in the chosen direction, and will unequip their suit when walking back the opposite way."
-msgstr "<link=\"ATMOSUIT\">太空衣</link>可保護複製人免於環境危害的影響，\n像是<link=\"HEAT\">高溫</link>、空氣傳播的<link=\"DISEASE\">細菌</link>與不能呼吸的<link=\"ELEMENTSGAS\">氣體</link>。\n\n為了使用太空衣，需要將它們存放在太空衣存放櫃，\n並且將存放櫃跟太空衣檢查點連結在一起。\n\n複製人在通過檢查點時會穿上太空衣，而在返回時會脫下太空衣。"
+msgstr "<link=\"ATMOSUIT\">太空衣</link>可保護複製人免於環境危害的影響，像是<link=\"HEAT\">高溫</link>、空氣傳播的<link=\"DISEASE\">細菌</link>與不能呼吸的<link=\"ELEMENTSGAS\">氣體</link>。\n\n為了使用太空衣，需要將它們存放在太空衣存放櫃，並且將存放櫃跟太空衣檢查點連結在一起。\n\n複製人在通過檢查點時會穿上太空衣，而在返回時會脫下太空衣。"
 
 #. STRINGS.MISC.NOTIFICATIONS.SUITS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SUITS.NAME"
@@ -48229,7 +48229,7 @@ msgstr "使用太空衣的注意事項"
 #. STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.MESSAGEBODY"
 msgid "Duplicants always perform errands in order of highest to lowest priority. They will harvest <link=\"FOOD\">Food</link> before they build, for example, or always build new structures before they mine materials.\n\nI can open the <b>Priorities Screen</b> {Hotkey/ManagePriorities} to set which Errand Types Duplicants may or may not perform, or to specialize skilled Duplicants for particular Errand Types."
-msgstr "複製人總是按優先度由最高至最低的順序執行工作。\n例如，他們會在建造之前收成<link=\"FOOD\">食物</link>，或總是在挖掘之前建造新建築。\n\n打開<b>優先度面板</b> {Hotkey/ManagePriorities} 設定複製人可執行的工作，或是叫擁有專業技能的複製人去做專門的工作。"
+msgstr "複製人總是按優先度由最高至最低的順序執行工作。例如，他們會在建造之前收成<link=\"FOOD\">食物</link>，或總是在挖掘之前建造新建築。\n\n打開<b>優先度面板</b> {Hotkey/ManagePriorities} 設定複製人可執行的工作，或是叫擁有專業技能的複製人去做專門的工作。"
 
 #. STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.TASKPRIORITIESMESSAGE.NAME"
@@ -48244,7 +48244,7 @@ msgstr "管理複製人工作的注意事項"
 #. STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.MESSAGEBODY"
 msgid "Environments that are extremely <link=\"HEAT\">Hot</link> or <link=\"HEAT\">Cold</link> affect my Duplicants' internal body temperature and cause undue <link=\"STRESS\">Stress</link>.\n\nOpening the <b>Temperature Overlay</b> {Hotkey/Overlay3} and checking the <b>Thermal Tolerance</b> box allows me to view all areas where my Duplicants will feel discomfort and be unable to regulate their internal body temperature."
-msgstr "環境太<link=\"HEAT\">熱</link>或 <link=\"HEAT\">冷</link>將影響複製人的體溫並導致<link=\"STRESS\">壓力</link>上升。\n\n打開<b>溫度概覽</b> {Hotkey/Overlay3} 並檢查所有區域的<b>溫差</b>，\n可以查看所有使複製人感到不適並無法調節體溫的區域。"
+msgstr "環境太<link=\"HEAT\">熱</link>或<link=\"HEAT\">冷</link>將影響複製人的體溫並導致<link=\"STRESS\">壓力</link>上升。\n\n打開<b>溫度概覽</b> {Hotkey/Overlay3} 並檢查所有區域的<b>溫差</b>，可以查看所有使複製人感到不適並無法調節體溫的區域。"
 
 #. STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.NAME"
@@ -48269,7 +48269,7 @@ msgstr "複製人所在的位置崩塌無法支撐他們："
 #. STRINGS.MISC.NOTIFICATIONS.TUTORIAL_OVERHEATING.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.TUTORIAL_OVERHEATING.MESSAGEBODY"
 msgid "When constructing buildings, I should always take note of their <link=\"HEAT\">Overheat Temperature</link> and plan their locations accordingly. Maintaining low ambient temperatures and good ventilation in the colony will also help keep building temperatures down.\n\nIf I allow buildings to exceed their Overheat Temperature they will begin to take damage, and if left unattended, they will break down and be unusable until repaired."
-msgstr "當建造建築物時，應該注意它們的<link=\"HEAT\">過熱溫度</link>與建造地點。\n維持低環境溫度和良好的通風有助於建築散熱。\n\n如果讓建築物過熱會開始受損，\n而如果不加以修理，將會壞掉並停止運行，直到修理完成。"
+msgstr "當建造建築物時，應該注意它們的<link=\"HEAT\">過熱溫度</link>與建造地點。維持低環境溫度和良好的通風有助於建築散熱。\n\n如果讓建築物過熱會開始受損，而如果不加以修理，將會壞掉並停止運行，直到修理完成。"
 
 #. STRINGS.MISC.NOTIFICATIONS.TUTORIAL_OVERHEATING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.TUTORIAL_OVERHEATING.NAME"
