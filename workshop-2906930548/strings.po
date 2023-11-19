@@ -54514,7 +54514,7 @@ msgstr "一個基本的公共睡眠區域，供新型殖民地使用。\n\n睡�
 #. STRINGS.ROOMS.TYPES.BARRACKS.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.BARRACKS.EFFECT"
 msgid "- Morale bonus"
-msgstr "－士氣加成"
+msgstr "- 士氣加成"
 
 #. STRINGS.ROOMS.TYPES.BARRACKS.NAME
 msgctxt "STRINGS.ROOMS.TYPES.BARRACKS.NAME"
@@ -54534,7 +54534,7 @@ msgstr "一個高檔的公共睡眠區，充滿了能大大提高睡眠質量的
 #. STRINGS.ROOMS.TYPES.BEDROOM.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.BEDROOM.EFFECT"
 msgid "- Morale bonus"
-msgstr "－士氣加成"
+msgstr "- 士氣加成"
 
 #. STRINGS.ROOMS.TYPES.BEDROOM.NAME
 msgctxt "STRINGS.ROOMS.TYPES.BEDROOM.NAME"
@@ -54559,7 +54559,7 @@ msgstr "小動物不太在意待在這裡，只要不太擁擠即可。\n\n圈�
 #. STRINGS.ROOMS.TYPES.CREATUREPEN.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.CREATUREPEN.EFFECT"
 msgid "- Critter taming and mood bonus"
-msgstr "－可使用畜牧站"
+msgstr "- 可使用畜牧站"
 
 #. STRINGS.ROOMS.TYPES.CREATUREPEN.NAME
 msgctxt "STRINGS.ROOMS.TYPES.CREATUREPEN.NAME"
@@ -54579,7 +54579,7 @@ msgstr "一個封閉的農業空間，最適合有作物照料技能的複製人
 #. STRINGS.ROOMS.TYPES.FARM.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.FARM.EFFECT"
 msgid "- Enables Farm Station use"
-msgstr "－可使用農業站"
+msgstr "- 可使用農業站"
 
 #. STRINGS.ROOMS.TYPES.FARM.NAME
 msgctxt "STRINGS.ROOMS.TYPES.FARM.NAME"
@@ -54599,7 +54599,7 @@ msgstr "一個良好的吃飯空間，既有絕佳的裝飾，又有極好的同
 #. STRINGS.ROOMS.TYPES.GREATHALL.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.GREATHALL.EFFECT"
 msgid "- Morale bonus"
-msgstr "－士氣加成"
+msgstr "- 士氣加成"
 
 #. STRINGS.ROOMS.TYPES.GREATHALL.NAME
 msgctxt "STRINGS.ROOMS.TYPES.GREATHALL.NAME"
@@ -54619,7 +54619,7 @@ msgstr "一個專用的醫療設施，能最大程度的縮短康復時間。\n\
 #. STRINGS.ROOMS.TYPES.HOSPITAL.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.HOSPITAL.EFFECT"
 msgid "- Quarantine sick Duplicants"
-msgstr "－隔離生病的複製人"
+msgstr "- 隔離生病的複製人"
 
 #. STRINGS.ROOMS.TYPES.HOSPITAL.NAME
 msgctxt "STRINGS.ROOMS.TYPES.HOSPITAL.NAME"
@@ -54679,7 +54679,7 @@ msgstr "比起在整個殖民地前面如廁，這是一大進步。\n\n在封�
 #. STRINGS.ROOMS.TYPES.LATRINE.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.LATRINE.EFFECT"
 msgid "- Morale bonus"
-msgstr "－士氣加成"
+msgstr "- 士氣加成"
 
 #. STRINGS.ROOMS.TYPES.LATRINE.NAME
 msgctxt "STRINGS.ROOMS.TYPES.LATRINE.NAME"
@@ -54699,7 +54699,7 @@ msgstr "聞起來像手肘的油漬。\n\n複製人在工作間工作可以保�
 #. STRINGS.ROOMS.TYPES.MACHINE_SHOP.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.MACHINE_SHOP.EFFECT"
 msgid "- Increased fabrication efficiency"
-msgstr "－增加生產效率"
+msgstr "- 增加生產效率"
 
 #. STRINGS.ROOMS.TYPES.MACHINE_SHOP.NAME
 msgctxt "STRINGS.ROOMS.TYPES.MACHINE_SHOP.NAME"
@@ -54719,7 +54719,7 @@ msgstr "一個有著十分放鬆分為的舒適空間，特別是裝飾精美的
 #. STRINGS.ROOMS.TYPES.MASSAGE_CLINIC.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.MASSAGE_CLINIC.EFFECT"
 msgid "- Massage stress relief bonus"
-msgstr "－按摩壓力釋放加成"
+msgstr "- 按摩壓力釋放加成"
 
 #. STRINGS.ROOMS.TYPES.MASSAGE_CLINIC.NAME
 msgctxt "STRINGS.ROOMS.TYPES.MASSAGE_CLINIC.NAME"
@@ -54739,7 +54739,7 @@ msgstr "一個簡單的用餐空間，很容易改進。\n\n在餐廳的餐桌�
 #. STRINGS.ROOMS.TYPES.MESSHALL.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.MESSHALL.EFFECT"
 msgid "- Morale bonus"
-msgstr "－士氣加成"
+msgstr "- 士氣加成"
 
 #. STRINGS.ROOMS.TYPES.MESSHALL.NAME
 msgctxt "STRINGS.ROOMS.TYPES.MESSHALL.NAME"
@@ -54759,7 +54759,7 @@ msgstr "更多的植物可以讓人走得更遠。\n\n自然保護區要比公�
 #. STRINGS.ROOMS.TYPES.NATURERESERVE.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.NATURERESERVE.EFFECT"
 msgid "- Morale bonus"
-msgstr "－士氣加成"
+msgstr "- 士氣加成"
 
 #. STRINGS.ROOMS.TYPES.NATURERESERVE.NAME
 msgctxt "STRINGS.ROOMS.TYPES.NATURERESERVE.NAME"
@@ -54779,7 +54779,7 @@ msgstr "一個封閉的空間，有很多潛力，但沒有專門的用途。"
 #. STRINGS.ROOMS.TYPES.NEUTRAL.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.NEUTRAL.EFFECT"
 msgid "- No effect"
-msgstr "－無效果"
+msgstr "- 無效果"
 
 #. STRINGS.ROOMS.TYPES.NEUTRAL.NAME
 msgctxt "STRINGS.ROOMS.TYPES.NEUTRAL.NAME"
@@ -54799,7 +54799,7 @@ msgstr "一點點的綠色通道也有很長的效果。\n\n每天經過自然�
 #. STRINGS.ROOMS.TYPES.PARK.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.PARK.EFFECT"
 msgid "- Morale bonus"
-msgstr "－士氣加成"
+msgstr "- 士氣加成"
 
 #. STRINGS.ROOMS.TYPES.PARK.NAME
 msgctxt "STRINGS.ROOMS.TYPES.PARK.NAME"
@@ -54819,7 +54819,7 @@ msgstr "一個個人衛生的庇護所。\n\n使用管道齊全的廁所會提�
 #. STRINGS.ROOMS.TYPES.PLUMBEDBATHROOM.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.PLUMBEDBATHROOM.EFFECT"
 msgid "- Morale bonus"
-msgstr "－士氣加成"
+msgstr "- 士氣加成"
 
 #. STRINGS.ROOMS.TYPES.PLUMBEDBATHROOM.NAME
 msgctxt "STRINGS.ROOMS.TYPES.PLUMBEDBATHROOM.NAME"
@@ -54839,7 +54839,7 @@ msgstr "複製人施展電氣工程技能的理想場所。\n\n建在發電廠�
 #. STRINGS.ROOMS.TYPES.POWER_PLANT.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.POWER_PLANT.EFFECT"
 msgid "- Enables Power Control Station use"
-msgstr "－可使用電力控制站"
+msgstr "- 可使用電力控制站"
 
 #. STRINGS.ROOMS.TYPES.POWER_PLANT.NAME
 msgctxt "STRINGS.ROOMS.TYPES.POWER_PLANT.NAME"
@@ -54859,7 +54859,7 @@ msgstr "終於，一個真正能讓人單獨思考的地方。\n\n複製人在�
 #. STRINGS.ROOMS.TYPES.PRIVATE_BATHROOM.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.PRIVATE_BATHROOM.EFFECT"
 msgid "- Stress relief bonus"
-msgstr "－壓力釋放加成"
+msgstr "- 壓力釋放加成"
 
 #. STRINGS.ROOMS.TYPES.PRIVATE_BATHROOM.NAME
 msgctxt "STRINGS.ROOMS.TYPES.PRIVATE_BATHROOM.NAME"
@@ -54879,7 +54879,7 @@ msgstr "一個舒適且沒有室友的休憩空間，疲憊的複製人可以在
 #. STRINGS.ROOMS.TYPES.PRIVATE_BEDROOM.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.PRIVATE_BEDROOM.EFFECT"
 msgid "- Morale bonus"
-msgstr "－士氣加成"
+msgstr "- 士氣加成"
 
 #. STRINGS.ROOMS.TYPES.PRIVATE_BEDROOM.NAME
 msgctxt "STRINGS.ROOMS.TYPES.PRIVATE_BEDROOM.NAME"
@@ -54899,7 +54899,7 @@ msgstr "複製人與其他休息的同伴交流，並沉浸在放鬆的地方。
 #. STRINGS.ROOMS.TYPES.REC_ROOM.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.EFFECT"
 msgid "- Morale bonus"
-msgstr "－士氣加成"
+msgstr "- 士氣加成"
 
 #. STRINGS.ROOMS.TYPES.REC_ROOM.NAME
 msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.NAME"
