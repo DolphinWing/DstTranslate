@@ -20364,7 +20364,7 @@ msgstr "金屬哈奇"
 #. STRINGS.CODEX.SO_LAUNCH_TRAILER.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.SO_LAUNCH_TRAILER.BODY.CONTAINER1"
 msgid "Spaced Out Trailer"
-msgstr "眼冒金星! 預告"
+msgstr "眼冒金星！預告"
 
 #. STRINGS.CODEX.SO_LAUNCH_TRAILER.SUBTITLE
 msgctxt "STRINGS.CODEX.SO_LAUNCH_TRAILER.SUBTITLE"
@@ -20374,7 +20374,7 @@ msgstr ""
 #. STRINGS.CODEX.SO_LAUNCH_TRAILER.TITLE
 msgctxt "STRINGS.CODEX.SO_LAUNCH_TRAILER.TITLE"
 msgid "Spaced Out Trailer"
-msgstr "眼冒金星! 預告"
+msgstr "眼冒金星！預告"
 
 #. STRINGS.CODEX.SPINDLYGRUBFRUITPLANT.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.SPINDLYGRUBFRUITPLANT.BODY.CONTAINER1"
@@ -21974,7 +21974,7 @@ msgstr "DLC1"
 #. STRINGS.COLONY_ACHIEVEMENTS.DLC.EXPANSION1
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.DLC.EXPANSION1"
 msgid "<style=\"KKeyword\">\n\n<i>Spaced Out!</i></style> DLC Achievement"
-msgstr "<style=\"KKeyword\">\n\n<i>眼冒金星!</i></style> 可下載內容成就"
+msgstr "<style=\"KKeyword\">\n\n<b>眼冒金星！</b></style> 可下載內容成就"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.FAILED_THIS_COLONY
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.FAILED_THIS_COLONY"
@@ -52289,7 +52289,7 @@ msgstr "此這個小行星上的複製人 {0}"
 #. STRINGS.RESEARCH.MESSAGING.DLC.EXPANSION1
 msgctxt "STRINGS.RESEARCH.MESSAGING.DLC.EXPANSION1"
 msgid "<style=\"KKeyword\">\n\n<i>Spaced Out!</i></style> DLC Content"
-msgstr "<style=\"KKeyword\">\n\n<i>眼冒金星!</i></style>可下載內容"
+msgstr "<style=\"KKeyword\">\n\n<b>眼冒金星！</b></style> 可下載內容"
 
 #. STRINGS.RESEARCH.MESSAGING.MISSING_RESEARCH_STATION
 msgctxt "STRINGS.RESEARCH.MESSAGING.MISSING_RESEARCH_STATION"
@@ -59809,7 +59809,7 @@ msgstr "本遊戲目前處於開發的初期階段，這意味著您可能會遇
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.BODY_NOLINKS
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.BODY_NOLINKS"
 msgid "This DLC is currently in active development, which means you're likely to encounter strange, amusing, and occasionally just downright frustrating bugs.\n\n During this time Spaced Out! will be receiving regular updates to fix bugs, add features, and introduce additional content.\n\n We've got lots of content old and new to add to this DLC before it's ready, and we're happy to have you along with us. Enjoy your time in deep space!\n\n - The Team at Klei"
-msgstr "本 DLC 目前正在開發階段，這意味著您可能會遇到奇怪的，有趣的，偶爾令人沮喪的錯誤。\n\n在 眼冒金星! 的開發期間，我們將會定期更新修復錯誤、加入新機制和新內容。\n\n在準備好之前，我們還有許多新與舊的內容會加入到此 DLC 中，並很高興有你與我們一起。\n\n在浩瀚的太空中享受你的時光！\n\n－Klei 團隊"
+msgstr "本 DLC 目前正在開發階段，這意味著您可能會遇到奇怪的，有趣的，偶爾令人沮喪的錯誤。\n\n在眼冒金星！的開發期間，我們將會定期更新修復錯誤、加入新機制和新內容。\n\n在準備好之前，我們還有許多新與舊的內容會加入到此 DLC 中，並很高興有你與我們一起。\n\n在浩瀚的太空中享受你的時光！\n\n－Klei 團隊"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.FORUMBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.FORUMBUTTON"
@@ -60004,12 +60004,12 @@ msgstr "全部"
 #. STRINGS.UI.DLC1.NAME
 msgctxt "STRINGS.UI.DLC1.NAME"
 msgid "Spaced Out!"
-msgstr "眼冒金星!"
+msgstr "眼冒金星！"
 
 #. STRINGS.UI.DLC1.NAME_ITAL
 msgctxt "STRINGS.UI.DLC1.NAME_ITAL"
 msgid "<i>Spaced Out!</i>"
-msgstr "<i>眼冒金星!</i>"
+msgstr "<b>眼冒金星！</b>"
 
 #. STRINGS.UI.DROPDOWN.NONE
 msgctxt "STRINGS.UI.DROPDOWN.NONE"
@@ -60809,12 +60809,12 @@ msgstr "小行星種類"
 #. STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.SPACEDOUT_DESC
 msgctxt "STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.SPACEDOUT_DESC"
 msgid "Scenarios designed for the <b>Spaced Out! DLC</b>.\nSmaller starting asteroids with resources distributed across the starmap. More emphasis on space travel."
-msgstr "設計給<b>眼冒金星! DLC</b>的場景。\n較小的小行星起始地，資源散佈在星圖上。\n更強調太空旅行。"
+msgstr "設計給<b>眼冒金星！ DLC</b>的場景。\n較小的小行星起始地，資源散佈在星圖上。\n更強調太空旅行。"
 
 #. STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.SPACEDOUT_TITLE
 msgctxt "STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.SPACEDOUT_TITLE"
 msgid "Spaced Out!"
-msgstr "眼冒金星!"
+msgstr "眼冒金星！"
 
 #. STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.VANILLA_DESC
 msgctxt "STRINGS.UI.FRONTEND.CLUSTERCATEGORYSELECTSCREEN.VANILLA_DESC"
@@ -61189,7 +61189,7 @@ msgstr "停用"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS.DISABLED.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS.DISABLED.TOOLTIP"
 msgid "Unchecked: <i>Spaced Out!</i> Content is turned off (Default)"
-msgstr "停用：關閉<i>眼冒金星!</i>內容（預設）"
+msgstr "停用：關閉<b>眼冒金星！</b>內容（預設）"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS.ENABLED.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS.ENABLED.NAME"
@@ -61199,17 +61199,17 @@ msgstr "啟用"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS.ENABLED.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.LEVELS.ENABLED.TOOLTIP"
 msgid "Checked: <i>Spaced Out!</i> Content is turned on"
-msgstr "啟用：開啟<i>眼冒金星!</i>內容"
+msgstr "啟用：開啟<b>眼冒金星！</b>內容"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.NAME"
 msgid "<i>Spaced Out!</i> Content Enabled"
-msgstr "<i>眼冒金星!</i>內容啟用"
+msgstr "<b>眼冒金星！</b>內容啟用"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.EXPANSION1ACTIVE.TOOLTIP"
 msgid "If checked, content from the <i>Spaced Out!</i> Expansion will be available"
-msgstr "如果勾選，<i>眼冒金星!</i> DLC 會啟用"
+msgstr "如果勾選，<b>眼冒金星！</b> DLC 會啟用"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.FASTWORKERSMODE.LEVELS.DISABLED.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.FASTWORKERSMODE.LEVELS.DISABLED.NAME"
@@ -62249,12 +62249,12 @@ msgstr "存活人數"
 #. STRINGS.UI.FRONTEND.LOADSCREEN.EXPANSION1_CONTENT
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.EXPANSION1_CONTENT"
 msgid "<i>Spaced Out!</i> Expansion FIXME"
-msgstr "<i>眼冒金星!</i> DLC FIXME"
+msgstr "<b>眼冒金星！</b> DLC FIXME"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.EXPANSION1_RESTART
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.EXPANSION1_RESTART"
 msgid "Loading this colony will require restarting the game with <i>Spaced Out!</i> content enabled"
-msgstr "<i>眼冒金星!</i>內容啟用，載入這個殖民地需要重啟遊戲"
+msgstr "<b>眼冒金星！</b>內容啟用，載入這個殖民地需要重啟遊戲"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.LOAD_MORE_COLONIES_BUTTON
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.LOAD_MORE_COLONIES_BUTTON"
@@ -62374,12 +62374,12 @@ msgstr "本機存檔"
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT_TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT_TOOLTIP"
 msgid "<color=#F44A47FF>This save was created in the <i>Spaced Out!</i> DLC. Activate the DLC to play it</color>"
-msgstr "<color=#F44A47FF>這個存檔於<b>《眼冒金星！》 DLC </b>中建立，啟用 DLC 才能遊玩。</color>"
+msgstr "<color=#F44A47FF>這個存檔於<b>眼冒金星！</b> DLC 中建立，啟用 DLC 才能遊玩。</color>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_VANILLA_TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_VANILLA_TOOLTIP"
 msgid "<color=#F44A47FF>This save was created in the base game. Deactivate the <i>Spaced Out!</i> DLC to play it.</color>"
-msgstr "<color=#F44A47FF>這個存檔於遊戲本體中建立，停用<b>《眼冒金星！》</b> DLC 才能遊玩。</color>"
+msgstr "<color=#F44A47FF>這個存檔於遊戲本體中建立，停用<b>眼冒金星！</b> DLC 才能遊玩。</color>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO"
@@ -62404,7 +62404,7 @@ msgstr "這裡可訪問你的存檔位置。"
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_IS_SPACED_OUT_TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_IS_SPACED_OUT_TOOLTIP"
 msgid "<i>Spaced Out!</i> DLC save"
-msgstr "<b>《眼冒金星！》</b>DLC存檔"
+msgstr "<b>眼冒金星！</b> DLC 存檔"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_IS_VANILLA_TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_IS_VANILLA_TOOLTIP"
@@ -62444,7 +62444,7 @@ msgstr "<b><color=#F44A47FF>本存檔檔案來自之前的版本，現在已經�
 #. STRINGS.UI.FRONTEND.LOADSCREEN.UNSUPPORTED_VANILLA_TEMP
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.UNSUPPORTED_VANILLA_TEMP"
 msgid "<b><color=#F44A47FF>This save file is from the base version of the game and currently cannot be loaded while <i>Spaced Out!</i> is installed.</color></b>"
-msgstr "<b><color=#F44A47FF>這個存檔來自遊戲本體，當前無法在<i>《眼冒金星！》</i>安裝的情況下載入</color></b>"
+msgstr "<b><color=#F44A47FF>這個存檔來自遊戲本體，當前無法在<b>眼冒金星！</b>安裝的情況下載入</color></b>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.VANILLA_CONTENT
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.VANILLA_CONTENT"
@@ -62454,7 +62454,7 @@ msgstr "基礎版 FIXME"
 #. STRINGS.UI.FRONTEND.LOADSCREEN.VANILLA_RESTART
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.VANILLA_RESTART"
 msgid "Loading this colony will require restarting the game with <i>Spaced Out!</i> content disabled"
-msgstr "<i>眼冒金星!</i>內容停用，載入這個殖民地需要重啟遊戲"
+msgstr "<b>眼冒金星！</b>內容停用，載入這個殖民地需要重啟遊戲"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.WORLD_NAME
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.WORLD_NAME"
@@ -62469,37 +62469,37 @@ msgstr "確定要離開遊戲？\n所有未儲存的進度將會遺失。"
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1"
 msgid "ACTIVATE DLC"
-msgstr "啟用眼冒金星!"
+msgstr "啟用眼冒金星！"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_DESC
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_DESC"
 msgid "The game will need to restart in order to activate <i>Spaced Out!</i>"
-msgstr "遊戲需要重啟以便下載並安裝<i>眼冒金星!</i>"
+msgstr "遊戲需要重啟以便下載並安裝<b>眼冒金星！</b>"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_RAIL_DESC
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_RAIL_DESC"
 msgid "<i>Spaced Out!</i> will be activated the next time you launch the game. The game will now close."
-msgstr "<i>眼冒金星!</i>將在您下次啟動遊戲時可用。遊戲現在將關閉。"
+msgstr "<b>眼冒金星！</b>將在您下次啟動遊戲時可用。遊戲現在將關閉。"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.AD_DLC1
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.AD_DLC1"
 msgid "Spaced Out! DLC"
-msgstr "眼冒金星!可下載內容"
+msgstr "眼冒金星！可下載內容"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1"
 msgid "DEACTIVATE DLC"
-msgstr "停用眼冒金星!"
+msgstr "停用眼冒金星！"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_DESC
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_DESC"
 msgid "The game will need to restart in order to activate the <i>Oxygen Not Included</i> base game."
-msgstr "遊戲需要重啟以便下載並安裝<i>缺氧</i>的基本版遊戲。"
+msgstr "遊戲需要重啟以便下載並安裝<b>缺氧</b>的基本版遊戲。"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_RAIL_DESC
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_RAIL_DESC"
 msgid "<i>Spaced Out!</i> will be deactivated the next time you launch the game. The game will now close."
-msgstr "<i>眼冒金星!</i>將在您下次啟動遊戲時停用。遊戲現在將關閉。"
+msgstr "<b>眼冒金星！</b>將在您下次啟動遊戲時停用。遊戲現在將關閉。"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.KLEIINVENTORY
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.KLEIINVENTORY"
@@ -62654,7 +62654,7 @@ msgstr "（…省略其它條目）"
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.ALL_MODS_DISABLED_EARLY_ACCESS.MESSAGE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.ALL_MODS_DISABLED_EARLY_ACCESS.MESSAGE"
 msgid "Mod support is temporarily suspended for the initial launch of <i>Spaced Out!</i> into Early Access:\n{0}"
-msgstr "在<i>眼冒金星!</i>的搶先體驗期間，將暫時地停止模組支援：\n{0}"
+msgstr "在<b>眼冒金星！</b>的搶先體驗期間，將暫時地停止模組支援：\n{0}"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.ALL_MODS_DISABLED_EARLY_ACCESS.TITLE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.ALL_MODS_DISABLED_EARLY_ACCESS.TITLE"
@@ -62884,7 +62884,7 @@ msgstr "崩潰的原因可能是啟用了模組"
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.ALL_MODS_DISABLED_EARLY_ACCESS
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.ALL_MODS_DISABLED_EARLY_ACCESS"
 msgid "Deactivated due to Early Access for <i>Spaced Out!</i>"
-msgstr "由於搶先體驗<i>眼冒金星!</i>而停用"
+msgstr "由於搶先體驗<b>眼冒金星！</b>而停用"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.AVAILABLE_CONTENT_CHANGED
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.AVAILABLE_CONTENT_CHANGED"
@@ -63429,7 +63429,7 @@ msgstr "將坐標分享給好友，讓他們可以遊玩相同的小行星！\n\
 #. STRINGS.UI.FRONTEND.RAILFORCEQUIT.DLC_NOT_PURCHASED
 msgctxt "STRINGS.UI.FRONTEND.RAILFORCEQUIT.DLC_NOT_PURCHASED"
 msgid "The <i>Spaced Out!</i> DLC has not yet been purchased in the WeGame store. Purchase <i>Spaced Out!</i> to support <i>Oxygen Not Included</i> and enjoy the new content!"
-msgstr "眼冒金星! DLC 尚未在 WeGame 商店中購買。購買<i>眼冒金星!</i>來支持<i>缺氧</i>與享受新內容！"
+msgstr "眼冒金星！ DLC 尚未在 WeGame 商店中購買。購買<b>眼冒金星！</b>來支持<b>缺氧</b>與享受新內容！"
 
 #. STRINGS.UI.FRONTEND.RAILFORCEQUIT.SAVE_EXIT
 msgctxt "STRINGS.UI.FRONTEND.RAILFORCEQUIT.SAVE_EXIT"
@@ -65124,7 +65124,7 @@ msgstr "項目"
 #. STRINGS.UI.KLEI_INVENTORY_SCREEN.ITEM_DLC_REQUIRED
 msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.ITEM_DLC_REQUIRED"
 msgid "This blueprint is designed for the <i>Spaced Out!</i> DLC."
-msgstr "這份藍圖專用於<b>《眼冒金星！》</b>DLC。"
+msgstr "這份藍圖專用於<b>《眼冒金星！》</b> DLC。"
 
 #. STRINGS.UI.KLEI_INVENTORY_SCREEN.ITEM_FACADE_FOR
 msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.ITEM_FACADE_FOR"
