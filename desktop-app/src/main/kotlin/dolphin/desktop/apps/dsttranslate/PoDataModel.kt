@@ -136,10 +136,22 @@ class PoDataModel(val helper: DesktopPoHelper) {
      * @param entry target word
      * @return new entry to editor
      */
-    fun requestEdit(entry: WordEntry): EditorSpec = EditorSpec(
-        entry,
-        dst = helper.dst(entry.key),
-        chs = helper.sc2tc(helper.chs(entry.key)?.str ?: ""),
-        cht = if (appMode.value == PoHelper.Mode.DST) helper.cht(entry.key)?.str else null,
-    )
+    fun requestEdit(entry: WordEntry): EditorSpec {
+        return if (appMode.value == PoHelper.Mode.DST) {
+            EditorSpec(
+                entry,
+                dst = helper.dst(entry.key),
+                chs = helper.sc2tc(helper.chs(entry.key)?.str ?: ""),
+                cht = helper.cht(entry.key)?.str,
+            )
+        } else { // ONI: update entry id to template one
+            val entry1 = entry.copy(id = helper.cht(entry.key)?.id ?: entry.id)
+            EditorSpec(
+                entry1,
+                dst = helper.dst(entry.key),
+                chs = helper.sc2tc(helper.chs(entry.key)?.str ?: ""),
+                cht = helper.cht(entry.key)?.id,
+            )
+        }
+    }
 }

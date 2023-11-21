@@ -24,6 +24,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import dolphin.android.apps.dsttranslate.PoHelper
 import dolphin.android.apps.dsttranslate.WordEntry
 import dolphin.desktop.apps.dsttranslate.PoDataModel
 
@@ -70,6 +71,7 @@ fun EntryListPane(
                 onItemClick = { item -> onEdit?.invoke(item) },
                 index = index,
                 changed = changedList.value[index],
+                mode = model.appMode.value,
             )
         }
     }
@@ -85,6 +87,7 @@ fun EntryView(
     onItemClick: ((WordEntry) -> Unit)? = null,
     index: Int = 0,
     changed: Long = 0L,
+    mode: PoHelper.Mode = PoHelper.Mode.DST,
 ) {
     // val entry by remember { mutableStateOf(origin) }
     val changedColor = if (changed > 0) Color.Gray else Color.LightGray
@@ -120,6 +123,12 @@ fun EntryView(
             Text(
                 // if (dst?.id == origin.id) dst.string() else dst?.origin() ?: origin.origin(),
                 cht.string(),
+                color = AppTheme.AppColor.purple,
+                fontSize = AppTheme.largerFontSize(),
+            )
+        } else if (mode == PoHelper.Mode.ONI) {
+            Text(
+                cht?.origin() ?: origin.origin(),
                 color = AppTheme.AppColor.purple,
                 fontSize = AppTheme.largerFontSize(),
             )

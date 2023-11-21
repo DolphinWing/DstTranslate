@@ -239,35 +239,48 @@ abstract class PoHelper {
 
         processStatus.emit("prepare word list")
         wordList.clear()
-        s.forEachIndexed { index, entry ->
-            var newly = false
-            var str = ""
-            if (originMap.containsKey(entry.key)) {
-                val str1 = originMap[entry.key]?.str ?: ""
-                if (str1.isNotEmpty()) str = str1.trim()
-            } else {
-                processStatus.emit("${entry.key} (${index + 1}/${s.size})")
+        if (mode == Mode.DST) {
+            s.forEachIndexed { index, entry ->
+                var newly = false
+                var str = ""
+                if (originMap.containsKey(entry.key)) {
+                    val str1 = originMap[entry.key]?.str ?: ""
+                    if (str1.isNotEmpty()) str = str1.trim()
+                } else {
+                    processStatus.emit("${entry.key} (${index + 1}/${s.size})")
+                }
+                if (str.isEmpty()) { // not in the translated po
+                    newly = true
+                    str = sc2tc(entry.str).trim()
+                }
+                str = refactor(str, mode)
+                addToTodoList(WordEntry(entry.key, entry.text, entry.id, str, newly))
             }
-            if (str.isEmpty()) { // not in the translated po
-                newly = true
-                str = sc2tc(entry.str).trim()
+        } else {
+            t.forEachIndexed { index, entry ->
+                var newly = false
+                var str = ""
+                if (originMap.containsKey(entry.key)) {
+                    val str1 = originMap[entry.key]?.str ?: ""
+                    if (str1.isNotEmpty()) str = str1.trim()
+                } else {
+                    processStatus.emit("${entry.key} (${index + 1}/${s.size})")
+                }
+                if (str.isEmpty()) { // not in the translated po
+                    newly = true
+                    if (sourceMap.containsKey(entry.key)) {
+                        str = sourceMap[entry.key]?.str ?: ""
+                    }
+                    if (str.isEmpty())
+                        str = entry.origin()
+                    str = sc2tc(str)
+                }
+                str = refactor(str, mode)
+                val id = revisedMap[entry.key]?.id ?: entry.id
+                addToTodoList(WordEntry(entry.key, entry.text, id, str, newly))
             }
-            str = refactor(str, mode)
-            addToTodoList(WordEntry(entry.key, entry.text, entry.id, str, newly))
         }
-        log("check revised map")
-        t.filter { entry -> !sourceMap.containsKey(entry.key) }.forEach { entry ->
-            var str = "" // translated text in old versions
-            if (originMap.containsKey(entry.key)) {
-                val str1 = originMap[entry.key]?.str ?: ""
-                if (str1.isNotEmpty()) str = str1.trim()
-            }
-            val newly = str.isEmpty()
-            str = if (str.isEmpty() && newly) entry.id else entry.str
-            str = refactor(str, mode)
-            log("key: ${entry.key()} ${str.isEmpty()} $str")
-            addToTodoList(WordEntry(entry.key, entry.text, entry.id, str, newly))
-        }
+
         val stop4 = System.currentTimeMillis()
         log("new list size: ${wordList.size} (${stop4 - stop3} ms)")
 
