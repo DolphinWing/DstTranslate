@@ -142,11 +142,12 @@ abstract class PoHelper {
             }
             writer.write(content, 0, content.length)
             list.forEach { entry ->
+                val str = if (entry.str.startsWith("\"") && entry.str.endsWith("\"")) entry.str else "\"${entry.str}\""
                 content = "\n"
                 content += "#. ${entry.key}\n"
                 content += "msgctxt ${entry.text}\n"
                 content += "msgid ${entry.id}\n"
-                content += "msgstr ${entry.str}\n"
+                content += "msgstr ${str}\n"
                 writer.write(content, 0, content.length)
             }
             writer.close()
