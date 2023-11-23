@@ -7367,7 +7367,7 @@ msgstr "<link=\"CREATURETRAP\">小动物陷阱</link>"
 #. STRINGS.BUILDINGS.PREFABS.CRITTERCONDO.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CRITTERCONDO.DESC"
 msgid "It's nice to have nice things."
-msgstr "拥有美好的东西真是真不错。"
+msgstr "拥有美好的东西真不错。"
 
 #. STRINGS.BUILDINGS.PREFABS.CRITTERCONDO.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CRITTERCONDO.EFFECT"
@@ -31321,6 +31321,12 @@ msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.ADVANCEDWASHSTATION.FLAVOUR"
 msgid ""
 msgstr ""
 
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.ADVANCEDWASHSTATION.ROOMSREQUIRING
+msgctxt ""
+"STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.ADVANCEDWASHSTATION.ROOMSREQUIRING"
+msgid "    • <link=\"PLUMBEDBATHROOM\">Washroom</link>"
+msgstr "    • <link=\"PLUMBEDBATHROOM\">卫生间</link>"
+
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.ADVANCEDWASHSTATION.TITLE
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.ADVANCEDWASHSTATION.TITLE"
 msgid "Plumbed Wash Stations"
@@ -31335,7 +31341,6 @@ msgstr ""
 "能够让复制人获得急需的休息的建筑。如果复制人没有分配床位，他们就会睡在地上。"
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.BEDTYPE.FLAVOUR
-#| msgid ""
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.BEDTYPE.FLAVOUR"
 msgid ""
 msgstr ""
@@ -31358,10 +31363,50 @@ msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.CLINIC.FLAVOUR"
 msgid ""
 msgstr ""
 
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.CLINIC.ROOMSREQUIRING
+msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.CLINIC.ROOMSREQUIRING"
+msgid "    • <link=\"HOSPITAL\">Hospital</link>"
+msgstr "    • <link=\"HOSPITAL\">医院</link>"
+
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.CLINIC.TITLE
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.CLINIC.TITLE"
 msgid "Medical Equipment"
 msgstr "医疗设备"
+
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.COOKTOP.DESCRIPTION
+msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.COOKTOP.DESCRIPTION"
+msgid "Buildings that transform individual ingredients into delicious meals."
+msgstr "将食材变为美味佳肴的建筑。"
+
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.COOKTOP.FLAVOUR
+#| msgid ""
+msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.COOKTOP.FLAVOUR"
+msgid ""
+msgstr ""
+
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.COOKTOP.TITLE
+msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.COOKTOP.TITLE"
+msgid "Cooking Stations"
+msgstr "烹饪站"
+
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.CREATURERELOCATOR.DESCRIPTION
+msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.CREATURERELOCATOR.DESCRIPTION"
+msgid ""
+"Buildings that facilitate the movement of <link=\"CREATURES\">Critters</"
+"link> from one location to another."
+msgstr ""
+"能很方便将<link=\"CREATURES\">小动物</link>从一个地方移动到另一个地方的建筑。"
+
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.CREATURERELOCATOR.FLAVOUR
+#| msgid ""
+msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.CREATURERELOCATOR.FLAVOUR"
+msgid ""
+msgstr ""
+
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.CREATURERELOCATOR.TITLE
+msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.CREATURERELOCATOR.TITLE"
+msgid "Critter Relocator"
+msgstr "小动物搬迁建筑"
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.DECORATION.DESCRIPTION
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.DECORATION.DESCRIPTION"
@@ -31397,6 +31442,34 @@ msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.FLUSHTOILETTYPE.TITLE"
 msgid "Flush Toilets"
 msgstr "抽水马桶"
 
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.INDUSTRIALMACHINERY.CONFLICTINGROOMS
+msgctxt ""
+"STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.INDUSTRIALMACHINERY.CONFLICTINGROOMS"
+msgid ""
+"    • <link=\"LATRINE\">Latrine</link>\n"
+"    • <link=\"PLUMBEDBATHROOM\">Washroom</link>\n"
+"    • <link=\"BARRACKS\">Barracks</link>\n"
+"    • <link=\"BEDROOM\">Luxury Barracks</link>\n"
+"    • <link=\"PRIVATE BEDROOM\">Private Bedroom</link>\n"
+"    • <link=\"MESSHALL\">Mess Hall</link>\n"
+"    • <link=\"GREATHALL\">Great Hall</link>\n"
+"    • <link=\"MASSAGECLINIC\">Massage Clinic</link>\n"
+"    • <link=\"HOSPITAL\">Hospital</link>\n"
+"    • <link=\"LABORATORY\">Laboratory</link>\n"
+"    • <link=\"RECROOM\">Recreation Room</link>"
+msgstr ""
+"    • <link=\"LATRINE\">公共厕所</link>\n"
+"    • <link=\"PLUMBEDBATHROOM\">卫生间</link>\n"
+"    • <link=\"BARRACKS\">宿舍</link>\n"
+"    • <link=\"BEDROOM\">豪华宿舍</link>\n"
+"    • <link=\"PRIVATE BEDROOM\">私人卧室</link>\n"
+"    • <link=\"MESSHALL\">食堂</link>\n"
+"    • <link=\"GREATHALL\">高档餐厅</link>\n"
+"    • <link=\"MASSAGECLINIC\">按摩诊所</link>\n"
+"    • <link=\"HOSPITAL\">医院</link>\n"
+"    • <link=\"LABORATORY\">实验室</link>\n"
+"    • <link=\"RECROOM\">娱乐室</link>"
+
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.INDUSTRIALMACHINERY.DESCRIPTION
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.INDUSTRIALMACHINERY.DESCRIPTION"
 msgid ""
@@ -31422,7 +31495,6 @@ msgid ""
 msgstr "能产生光的建筑，发光可能是其主要目的，也可能是附加的。"
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.LIGHTSOURCE.FLAVOUR
-#| msgid ""
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.LIGHTSOURCE.FLAVOUR"
 msgid ""
 msgstr ""
@@ -31435,7 +31507,7 @@ msgstr "光源"
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.NAME
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.NAME"
 msgid "Category"
-msgstr "分类"
+msgstr "类别"
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RANCHSTATIONTYPE.DESCRIPTION
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RANCHSTATIONTYPE.DESCRIPTION"
@@ -31464,10 +31536,35 @@ msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RECBUILDING.FLAVOUR"
 msgid ""
 msgstr ""
 
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RECBUILDING.ROOMSREQUIRING
+msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RECBUILDING.ROOMSREQUIRING"
+msgid ""
+"    • <link=\"GREATHALL\">Great Hall</link> \n"
+"    • <link=\"RECROOM\">Recreation Room</link>"
+msgstr ""
+"    • <link=\"GREATHALL\">高档餐厅</link> \n"
+"    • <link=\"RECROOM\">娱乐室</link>"
+
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RECBUILDING.TITLE
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RECBUILDING.TITLE"
 msgid "Recreational Buildings"
 msgstr "娱乐建筑"
+
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.ROCKETINTERIOR.DESCRIPTION
+msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.ROCKETINTERIOR.DESCRIPTION"
+msgid "Buildings that cannot be built anywhere other than inside a rocket."
+msgstr "需要建在火箭内部的建筑，不能建在火箭之外"
+
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.ROCKETINTERIOR.FLAVOUR
+#| msgid ""
+msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.ROCKETINTERIOR.FLAVOUR"
+msgid ""
+msgstr ""
+
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.ROCKETINTERIOR.TITLE
+msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.ROCKETINTERIOR.TITLE"
+msgid "Rocket Interior"
+msgstr "火箭内部"
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.SCIENCEBUILDING.DESCRIPTION
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.SCIENCEBUILDING.DESCRIPTION"
@@ -31489,7 +31586,7 @@ msgstr "科学建筑"
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.SHARED.BUILDINGS_LIST_TITLE
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.SHARED.BUILDINGS_LIST_TITLE"
 msgid "Buildings in this category:"
-msgstr "此分类的建筑："
+msgstr "此类别的建筑："
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.SHARED.ROOMS_CONFLICT_LIST_TITLE
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.SHARED.ROOMS_CONFLICT_LIST_TITLE"
@@ -31513,6 +31610,15 @@ msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.TOILETTYPE.FLAVOUR"
 msgid ""
 msgstr ""
 
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.TOILETTYPE.ROOMSREQUIRING
+msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.TOILETTYPE.ROOMSREQUIRING"
+msgid ""
+"    • <link=\"LATRINE\">Latrine</link>\n"
+"    • <link=\"HOSPITAL\">Hospital</link>"
+msgstr ""
+"    • <link=\"LATRINE\">公共厕所</link>\n"
+"    • <link=\"HOSPITAL\">医院</link>"
+
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.TOILETTYPE.TITLE
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.TOILETTYPE.TITLE"
 msgid "Toilets"
@@ -31531,6 +31637,11 @@ msgstr ""
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.WASHSTATION.FLAVOUR"
 msgid ""
 msgstr ""
+
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.WASHSTATION.ROOMSREQUIRING
+msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.WASHSTATION.ROOMSREQUIRING"
+msgid "    • <link=\"LATRINE\">Latrine</link>"
+msgstr "    • <link=\"LATRINE\">公共厕所</link>"
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.WASHSTATION.TITLE
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.WASHSTATION.TITLE"
@@ -32337,7 +32448,7 @@ msgstr ""
 "在检查过程中，它在循环执行以下模式：四次快速闪光，一次短暂停顿，两次闪光，然"
 "后是一次更长的停顿。\n"
 "\n"
-"其细胞含有变异的氧化荧光素变种，类似于分类在陆基生物发光的动物。"
+"其细胞含有变异的氧化荧光素变种，类似于类别为陆基生物发光的动物。"
 
 #. STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.SPECIES_ENTRIES_EXPANDED.MOLE
 msgctxt ""
@@ -42915,8 +43026,8 @@ msgstr "水下移动"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.METABOLISM.DESC"
 msgid ""
 "Affects the rate at which a critter burns <style=\"KKeyword\">Calories</"
-"style>."
-msgstr "影响小动物燃烧<style=\"KKeyword\">卡路里</style>的速率。"
+"style> and produces materials"
+msgstr "影响小动物燃烧<style=\"KKeyword\">卡路里</style>和生产材料的速率。"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.METABOLISM.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.METABOLISM.NAME"
@@ -67505,12 +67616,12 @@ msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDSLEEP.TOOLTIP"
 msgid ""
 "My Duplicants would appreciate a place to sleep\n"
 "\n"
-"<link=\"COTS\">Cots</link> can be built from the <b>Furniture Tab</b> "
-"{Hotkey/Plan9}"
+"<link=\"COT\">Cots</link> can be built from the <b>Furniture Tab</b> {Hotkey/"
+"Plan9}"
 msgstr ""
 "我的复制人希望有睡觉的地方\n"
 "\n"
-"可以在<b>家具栏</b> {Hotkey/Plan9} 建造<link=\"COTS\">床铺</link>"
+"可以在<b>家具栏</b> {Hotkey/Plan9} 建造<link=\"COT\">床铺</link>"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDTOILET.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDTOILET.NAME"
@@ -74707,8 +74818,8 @@ msgstr "必须有且只有一张床铺或舒适的床"
 
 #. STRINGS.ROOMS.CRITERIA.BED_SINGLE.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.BED_SINGLE.NAME"
-msgid "Single bed"
-msgstr "单个床位"
+msgid "Single <link=\"BUILDINGCATEGORYREQUIREMENTCLASSBEDTYPE\">beds</link>"
+msgstr "单个<link=\"BUILDINGCATEGORYREQUIREMENTCLASSBEDTYPE\">床位</link>"
 
 #. STRINGS.ROOMS.CRITERIA.BEDTYPE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.BEDTYPE.DESCRIPTION"
@@ -74717,8 +74828,8 @@ msgstr "需要至少两张床铺或舒适的床"
 
 #. STRINGS.ROOMS.CRITERIA.BEDTYPE.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.BEDTYPE.NAME"
-msgid "Beds"
-msgstr "床位"
+msgid "<link=\"BUILDCATEGORYREQUIREMENTCLASSBEDTYPE\">Beds</link>"
+msgstr "<link=\"BUILDCATEGORYREQUIREMENTCLASSBEDTYPE\">床位</link>"
 
 #. STRINGS.ROOMS.CRITERIA.BUILDING_DECOR_POSITIVE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.BUILDING_DECOR_POSITIVE.DESCRIPTION"
@@ -74727,8 +74838,8 @@ msgstr "需要至少一个能增加装饰度的建筑"
 
 #. STRINGS.ROOMS.CRITERIA.BUILDING_DECOR_POSITIVE.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.BUILDING_DECOR_POSITIVE.NAME"
-msgid "Positive decor"
-msgstr "正装饰度"
+msgid "Positive <link=\"BUILDCATEGORYREQUIREMENTCLASSDECORATION\">decor</link>"
+msgstr "正<link=\"BUILDCATEGORYREQUIREMENTCLASSDECORATION\">装饰度</link>"
 
 #. STRINGS.ROOMS.CRITERIA.CEILING_HEIGHT.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.CEILING_HEIGHT.DESCRIPTION"
@@ -74747,8 +74858,8 @@ msgstr "需要至少一个医务站或病诊站"
 
 #. STRINGS.ROOMS.CRITERIA.CLINIC.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.CLINIC.NAME"
-msgid "Medical equipment"
-msgstr "医疗设备"
+msgid "<link=\"BUILDCATEGORYREQUIREMENTCLASSCLINIC\">Medical equipment</link>"
+msgstr "<link=\"BUILDCATEGORYREQUIREMENTCLASSCLINIC\">医疗设备</link>"
 
 #. STRINGS.ROOMS.CRITERIA.COOKTOP.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.COOKTOP.DESCRIPTION"
@@ -74757,8 +74868,8 @@ msgstr "需要一个电动烤炉或燃气灶"
 
 #. STRINGS.ROOMS.CRITERIA.COOKTOP.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.COOKTOP.NAME"
-msgid "Electric Grill or Gas Range"
-msgstr "电动烤炉或燃气灶"
+msgid "<link=\"BUILDCATEGORYREQUIREMENTCLASSCOOKTOP\">Cooking station</link>"
+msgstr "<link=\"BUILDCATEGORYREQUIREMENTCLASSCOOKTOP\">烹饪台</link>"
 
 #. STRINGS.ROOMS.CRITERIA.CREATURE_FEEDER.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.CREATURE_FEEDER.DESCRIPTION"
@@ -74767,18 +74878,22 @@ msgstr "需要一个小动物喂食器"
 
 #. STRINGS.ROOMS.CRITERIA.CREATURE_FEEDER.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.CREATURE_FEEDER.NAME"
-msgid "Critter Feeder"
-msgstr "小动物喂食器"
+msgid "<link=\"CREATUREFEEDER\">Critter Feeder</link>"
+msgstr "<link=\"CREATUREFEEDER\">小动物喂食器</link>"
 
 #. STRINGS.ROOMS.CRITERIA.CREATURERELOCATOR.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.CREATURERELOCATOR.DESCRIPTION"
-msgid "Requires a single Critter Drop-Off"
-msgstr "需要一个小动物放生点"
+msgid "Requires a single Critter Drop-Off or Fish Release"
+msgstr "需要一个小动物放生点或鱼类放生点"
 
 #. STRINGS.ROOMS.CRITERIA.CREATURERELOCATOR.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.CREATURERELOCATOR.NAME"
-msgid "Critter Relocator"
-msgstr "小动物搬迁建筑"
+msgid ""
+"<link=\"BUILDCATEGORYREQUIREMENTCLASSCREATURERELOCATOR\">Critter relocator</"
+"link>"
+msgstr ""
+"<link=\"BUILDCATEGORYREQUIREMENTCLASSCREATURERELOCATOR\">小动物搬迁建筑</"
+"link>"
 
 #. STRINGS.ROOMS.CRITERIA.CRITERIA_FAILED.FAILED
 msgctxt "STRINGS.ROOMS.CRITERIA.CRITERIA_FAILED.FAILED"
@@ -74797,13 +74912,16 @@ msgstr "需要一件装饰性物品，装饰度至少为{0}"
 
 #. STRINGS.ROOMS.CRITERIA.DECOR20.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.DECOR20.NAME"
-msgid "Decor item: +{0} Decor"
-msgstr "装饰物：其装饰度至少为+{0}"
+msgid ""
+"<link=\"BUILDCATEGORYREQUIREMENTCLASSDECORATION\">Decor item</link>: +{0} "
+"Decor"
+msgstr ""
+"<link=\"BUILDCATEGORYREQUIREMENTCLASSDECORATION\">装饰物</link>：+{0}装饰度"
 
 #. STRINGS.ROOMS.CRITERIA.DECORATION.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.DECORATION.NAME"
-msgid "Decor Item"
-msgstr "装饰物"
+msgid "<link=\"BUILDCATEGORYREQUIREMENTCLASSDECORATION\">Decor Item</link>"
+msgstr "<link=\"BUILDCATEGORYREQUIREMENTCLASSDECORATION\">装饰物</link>"
 
 #. STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM.DESCRIPTION"
@@ -74812,18 +74930,19 @@ msgstr "需要至少{0}件装饰物"
 
 #. STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM.NAME"
-msgid "Decor item ({0})"
-msgstr "装饰物（{0}件）"
+msgid ""
+"<link=\"BUILDCATEGORYREQUIREMENTCLASSDECORATION\">Decor item</link> ({0})"
+msgstr "<link=\"BUILDCATEGORYREQUIREMENTCLASSDECORATION\">装饰物</link>（{0}）"
 
 #. STRINGS.ROOMS.CRITERIA.DESTRESSINGBUILDING.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.DESTRESSINGBUILDING.DESCRIPTION"
-msgid "Requires one or more De-Stressing Building"
+msgid "Requires one or more De-Stressing buildings"
 msgstr "需要至少一个减压建筑"
 
 #. STRINGS.ROOMS.CRITERIA.DESTRESSINGBUILDING.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.DESTRESSINGBUILDING.NAME"
-msgid "De-Stressing Building"
-msgstr "减压建筑"
+msgid "<link=\"MASSAGETABLE\">De-Stressing Building</link>"
+msgstr "<link=\"MASSAGETABLE\">减压建筑</link>"
 
 #. STRINGS.ROOMS.CRITERIA.FARMSTATIONTYPE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.FARMSTATIONTYPE.DESCRIPTION"
@@ -74832,8 +74951,8 @@ msgstr "需要一个农业站"
 
 #. STRINGS.ROOMS.CRITERIA.FARMSTATIONTYPE.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.FARMSTATIONTYPE.NAME"
-msgid "Farm Station"
-msgstr "农业站"
+msgid "<link=\"FARMSTATION\">Farm Station</link>"
+msgstr "<link=\"FARMSTATION\">农业站</link>"
 
 #. STRINGS.ROOMS.CRITERIA.FLUSHTOILETTYPE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.FLUSHTOILETTYPE.DESCRIPTION"
@@ -74862,8 +74981,9 @@ msgstr "需要至少一张床铺或舒适的床"
 
 #. STRINGS.ROOMS.CRITERIA.HAS_BED.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.HAS_BED.NAME"
-msgid "One or more beds"
-msgstr "至少一个床位"
+msgid ""
+"One or more <link=\"BUILDINGCATEGORYREQUIREMENTCLASSBEDTYPE\">beds</link>"
+msgstr "至少一个<link=\"BUILDINGCATEGORYREQUIREMENTCLASSBEDTYPE\">床位</link>"
 
 #. STRINGS.ROOMS.CRITERIA.HAS_LUXURY_BED.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.HAS_LUXURY_BED.DESCRIPTION"
@@ -74872,8 +74992,8 @@ msgstr "需要至少一张舒适的床"
 
 #. STRINGS.ROOMS.CRITERIA.HAS_LUXURY_BED.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.HAS_LUXURY_BED.NAME"
-msgid "One or more Comfy Beds"
-msgstr "至少一张舒适的床"
+msgid "One or more <link=\"LUXURYBED\">Comfy Beds</link>"
+msgstr "至少一个<link=\"LUXURYBED\">舒适的床</link>"
 
 #. STRINGS.ROOMS.CRITERIA.HEADER
 msgctxt "STRINGS.ROOMS.CRITERIA.HEADER"
@@ -74887,8 +75007,11 @@ msgstr "字符串关键字未找到：{0}"
 
 #. STRINGS.ROOMS.CRITERIA.INDUSTRIALMACHINERY.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.INDUSTRIALMACHINERY.NAME"
-msgid "Industrial Machinery"
-msgstr "工业机械"
+msgid ""
+"<link=\"BUILDCATEGORYREQUIREMENTCLASSINDUSTRIALMACHINERY\">Industrial "
+"machinery</link>"
+msgstr ""
+"<link=\"BUILDCATEGORYREQUIREMENTCLASSINDUSTRIALMACHINERY\">工业机械</link>"
 
 #. STRINGS.ROOMS.CRITERIA.IS_BACKWALLED.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.IS_BACKWALLED.DESCRIPTION"
@@ -74907,8 +75030,8 @@ msgstr "需要至少一个光源"
 
 #. STRINGS.ROOMS.CRITERIA.LIGHTSOURCE.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.LIGHTSOURCE.NAME"
-msgid "Light source"
-msgstr "光源"
+msgid "<link=\"BUILDCATEGORYREQUIREMENTCLASSLIGHTSOURCE\">Light source</link>"
+msgstr "<link=\"BUILDCATEGORYREQUIREMENTCLASSLIGHTSOURCE\">光源</link>"
 
 #. STRINGS.ROOMS.CRITERIA.LUXURYBEDTYPE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.LUXURYBEDTYPE.DESCRIPTION"
@@ -74917,8 +75040,8 @@ msgstr "必须有且只有一张舒适的床"
 
 #. STRINGS.ROOMS.CRITERIA.LUXURYBEDTYPE.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.LUXURYBEDTYPE.NAME"
-msgid "Single Comfy Bed"
-msgstr "单个舒适的床"
+msgid "Single <link=\"LUXURYBED\">Comfy Bed</link>"
+msgstr "单个<link=\"LUXURYBED\">舒适的床</link>"
 
 #. STRINGS.ROOMS.CRITERIA.MACHINESHOPTYPE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.MACHINESHOPTYPE.DESCRIPTION"
@@ -74937,8 +75060,8 @@ msgstr "需要至少一个按摩床"
 
 #. STRINGS.ROOMS.CRITERIA.MASSAGE_TABLE.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.MASSAGE_TABLE.NAME"
-msgid "Massage Table"
-msgstr "按摩床"
+msgid "<link=\"MASSAGETABLE\">Massage Table</link>"
+msgstr "<link=\"MASSAGETABLE\">按摩床</link>"
 
 #. STRINGS.ROOMS.CRITERIA.MAXIMUM_SIZE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.MAXIMUM_SIZE.DESCRIPTION"
@@ -74957,8 +75080,8 @@ msgstr "需要至少两个餐桌"
 
 #. STRINGS.ROOMS.CRITERIA.MESS_STATION_MULTIPLE.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.MESS_STATION_MULTIPLE.NAME"
-msgid "Mess Tables"
-msgstr "多个餐桌"
+msgid "<link=\"DININGTABLE\">Mess Tables</link>"
+msgstr "<link=\"DININGTABLE\">餐桌</link>"
 
 #. STRINGS.ROOMS.CRITERIA.MESSTABLE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.MESSTABLE.DESCRIPTION"
@@ -74967,8 +75090,8 @@ msgstr "需要一个餐桌"
 
 #. STRINGS.ROOMS.CRITERIA.MESSTABLE.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.MESSTABLE.NAME"
-msgid "Mess Table"
-msgstr "餐桌"
+msgid "<link=\"DININGTABLE\">Mess Table</link>"
+msgstr "<link=\"DININGTABLE\">餐桌</link>"
 
 #. STRINGS.ROOMS.CRITERIA.MINIMUM_SIZE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.MINIMUM_SIZE.DESCRIPTION"
@@ -74992,8 +75115,8 @@ msgstr "房间内不能含有床铺"
 
 #. STRINGS.ROOMS.CRITERIA.NO_COTS.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_COTS.NAME"
-msgid "No Cots"
-msgstr "无床铺"
+msgid "No <link=\"COT\">Cots</link>"
+msgstr "无<link=\"COT\">床铺</link>"
 
 #. STRINGS.ROOMS.CRITERIA.NO_INDUSTRIAL_MACHINERY.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_INDUSTRIAL_MACHINERY.DESCRIPTION"
@@ -75002,8 +75125,11 @@ msgstr "不能含有任何有工业机械标签的建筑"
 
 #. STRINGS.ROOMS.CRITERIA.NO_INDUSTRIAL_MACHINERY.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_INDUSTRIAL_MACHINERY.NAME"
-msgid "No industrial machinery"
-msgstr "无工业机械"
+msgid ""
+"No <link=\"BUILDCATEGORYREQUIREMENTCLASSINDUSTRIALMACHINERY\">industrial "
+"machinery</link>"
+msgstr ""
+"无<link=\"BUILDCATEGORYREQUIREMENTCLASSINDUSTRIALMACHINERY\">工业机械</link>"
 
 #. STRINGS.ROOMS.CRITERIA.NO_LUXURY_BEDS.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_LUXURY_BEDS.DESCRIPTION"
@@ -75012,8 +75138,8 @@ msgstr "房间内不能含有舒适的床"
 
 #. STRINGS.ROOMS.CRITERIA.NO_LUXURY_BEDS.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_LUXURY_BEDS.NAME"
-msgid "No Comfy Beds"
-msgstr "无舒适的床"
+msgid "No <link=\"LUXURYBED\">Comfy Beds</link>"
+msgstr "无<link=\"LUXURYBED\">舒适的床</link>"
 
 #. STRINGS.ROOMS.CRITERIA.NO_MESS_STATION.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_MESS_STATION.DESCRIPTION"
@@ -75022,8 +75148,8 @@ msgstr "不能含有餐桌"
 
 #. STRINGS.ROOMS.CRITERIA.NO_MESS_STATION.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_MESS_STATION.NAME"
-msgid "No Mess Table"
-msgstr "无餐桌"
+msgid "No <link=\"DININGTABLE\">Mess Table</link>"
+msgstr "无<link=\"DININGTABLE\">餐桌</link>"
 
 #. STRINGS.ROOMS.CRITERIA.NO_OUTHOUSES.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_OUTHOUSES.DESCRIPTION"
@@ -75032,8 +75158,8 @@ msgstr "不能含有基础的户外厕所"
 
 #. STRINGS.ROOMS.CRITERIA.NO_OUTHOUSES.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_OUTHOUSES.NAME"
-msgid "No Outhouses"
-msgstr "无户外厕所"
+msgid "No <link=\"OUTHOUSE\">Outhouses</link>"
+msgstr "无<link=\"OUTHOUSE\">户外厕所</link>"
 
 #. STRINGS.ROOMS.CRITERIA.NO_TYPE_CONFLICTS
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_TYPE_CONFLICTS"
@@ -75047,8 +75173,8 @@ msgstr "需要至少一个公园标识"
 
 #. STRINGS.ROOMS.CRITERIA.PARK.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.PARK.NAME"
-msgid "Park Sign"
-msgstr "公园标识"
+msgid "<link=\"PARKSIGN\">Park Sign</link>"
+msgstr "<link=\"PARKSIGN\">公园标识</link>"
 
 #. STRINGS.ROOMS.CRITERIA.POSSIBLE_TYPES_HEADER
 msgctxt "STRINGS.ROOMS.CRITERIA.POSSIBLE_TYPES_HEADER"
@@ -75062,20 +75188,23 @@ msgstr "需要一个电控站"
 
 #. STRINGS.ROOMS.CRITERIA.POWERSTATION.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.POWERSTATION.NAME"
-msgid "Power Control Station"
-msgstr "电控站"
+msgid "<link=\"POWERCONTROLSTATION\">Power Control Station</link>"
+msgstr "<link=\"POWERCONTROLSTATION\">电控站</link>"
 
 #. STRINGS.ROOMS.CRITERIA.RANCHSTATIONTYPE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.RANCHSTATIONTYPE.DESCRIPTION"
 msgid ""
-"Requires a single Grooming Station, Critter Condo, Critter Fountain, or "
-"Milking Station"
-msgstr "需要一个照料站、小动物公寓、小动物直饮器或挤奶站"
+"Requires a single Grooming Station, Critter Condo, Critter Fountain, "
+"Shearing Station or Milking Station"
+msgstr "需要一个照料站、小动物公寓、小动物直饮器、修剪站或挤奶站"
 
 #. STRINGS.ROOMS.CRITERIA.RANCHSTATIONTYPE.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.RANCHSTATIONTYPE.NAME"
-msgid "Ranching building"
-msgstr "养殖建筑"
+msgid ""
+"<link=\"BUILDCATEGORYREQUIREMENTCLASSRANCHSTATIONTYPE\">Ranching building</"
+"link>"
+msgstr ""
+"<link=\"BUILDCATEGORYREQUIREMENTCLASSRANCHSTATIONTYPE\">养殖建筑</link>"
 
 #. STRINGS.ROOMS.CRITERIA.RECBUILDING.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.RECBUILDING.DESCRIPTION"
@@ -75084,8 +75213,10 @@ msgstr "需要至少一个娱乐建筑"
 
 #. STRINGS.ROOMS.CRITERIA.RECBUILDING.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.RECBUILDING.NAME"
-msgid "Recreational building"
-msgstr "娱乐建筑"
+msgid ""
+"<link=\"BUILDCATEGORYREQUIREMENTCLASSRECBUILDING\">Recreational building</"
+"link>"
+msgstr "<link=\"BUILDCATEGORYREQUIREMENTCLASSRECBUILDING\">娱乐建筑</link>"
 
 #. STRINGS.ROOMS.CRITERIA.REFRIGERATOR.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.REFRIGERATOR.DESCRIPTION"
@@ -75094,8 +75225,8 @@ msgstr "需要一个冰箱"
 
 #. STRINGS.ROOMS.CRITERIA.REFRIGERATOR.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.REFRIGERATOR.NAME"
-msgid "Refrigerator"
-msgstr "冰箱"
+msgid "<link=\"REFRIGERATOR\">Refrigerator</link>"
+msgstr "<link=\"REFRIGERATOR\">冰箱</link>"
 
 #. STRINGS.ROOMS.CRITERIA.RESEARCH_STATION.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.RESEARCH_STATION.DESCRIPTION"
@@ -75109,13 +75240,14 @@ msgstr "研究站"
 
 #. STRINGS.ROOMS.CRITERIA.ROCKETINTERIOR.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.ROCKETINTERIOR.DESCRIPTION"
-msgid "Requires to be built inside a rocket"
-msgstr "需要建在火箭内部"
+msgid "Must be built inside a rocket"
+msgstr "必须建在火箭内部"
 
 #. STRINGS.ROOMS.CRITERIA.ROCKETINTERIOR.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.ROCKETINTERIOR.NAME"
-msgid "Rocket Interior"
-msgstr "火箭内部"
+msgid ""
+"<link=\"BUILDCATEGORYREQUIREMENTCLASSROCKETINTERIOR\">Rocket interior</link>"
+msgstr "<link=\"BUILDCATEGORYREQUIREMENTCLASSROCKETINTERIOR\">火箭内部</link>"
 
 #. STRINGS.ROOMS.CRITERIA.SCIENCE_BUILDINGS.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.SCIENCE_BUILDINGS.DESCRIPTION"
@@ -75124,8 +75256,10 @@ msgstr "需要至少两个科学建筑"
 
 #. STRINGS.ROOMS.CRITERIA.SCIENCE_BUILDINGS.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.SCIENCE_BUILDINGS.NAME"
-msgid "Two science buildings"
-msgstr "两个科学建筑"
+msgid ""
+"Two <link=\"BUILDCATEGORYREQUIREMENTCLASSSCIENCEBUILDING\">science "
+"buildings</link>"
+msgstr "<link=\"BUILDCATEGORYREQUIREMENTCLASSSCIENCEBUILDING\">科学建筑</link>"
 
 #. STRINGS.ROOMS.CRITERIA.SCIENCEBUILDING.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.SCIENCEBUILDING.DESCRIPTION"
@@ -75134,8 +75268,10 @@ msgstr "需要至少一个科学建筑"
 
 #. STRINGS.ROOMS.CRITERIA.SCIENCEBUILDING.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.SCIENCEBUILDING.NAME"
-msgid "Science building"
-msgstr "科学建筑"
+msgid ""
+"<link=\"BUILDCATEGORYREQUIREMENTCLASSSCIENCEBUILDING\">Science building</"
+"link>"
+msgstr "<link=\"BUILDCATEGORYREQUIREMENTCLASSSCIENCEBUILDING\">科学建筑</link>"
 
 #. STRINGS.ROOMS.CRITERIA.SPICESTATION.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.SPICESTATION.DESCRIPTION"
@@ -75144,8 +75280,8 @@ msgstr "需要一个香料研磨器"
 
 #. STRINGS.ROOMS.CRITERIA.SPICESTATION.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.SPICESTATION.NAME"
-msgid "Spice Grinder"
-msgstr "香料研磨器"
+msgid "<link=\"SPICEGRINDER\">Spice Grinder</link>"
+msgstr "<link=\"SPICEGRINDER\">香料研磨器</link>"
 
 #. STRINGS.ROOMS.CRITERIA.TOILETTYPE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.TOILETTYPE.DESCRIPTION"
@@ -108580,6 +108716,134 @@ msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
 msgid "Water Asteroid"
 msgstr "水域小行星"
 
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.BED_SINGLE.NAME"
+#~ msgid "Single bed"
+#~ msgstr "单个床位"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.BEDTYPE.NAME"
+#~ msgid "Beds"
+#~ msgstr "床位"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.BUILDING_DECOR_POSITIVE.NAME"
+#~ msgid "Positive decor"
+#~ msgstr "正装饰度"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.CLINIC.NAME"
+#~ msgid "Medical equipment"
+#~ msgstr "医疗设备"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.COOKTOP.NAME"
+#~ msgid "Electric Grill or Gas Range"
+#~ msgstr "电动烤炉或燃气灶"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.CREATURE_FEEDER.NAME"
+#~ msgid "Critter Feeder"
+#~ msgstr "小动物喂食器"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.DECOR20.NAME"
+#~ msgid "Decor item: +{0} Decor"
+#~ msgstr "装饰物：其装饰度至少为+{0}"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.DECORATION.NAME"
+#~ msgid "Decor Item"
+#~ msgstr "装饰物"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM.NAME"
+#~ msgid "Decor item ({0})"
+#~ msgstr "装饰物（{0}件）"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.DESTRESSINGBUILDING.NAME"
+#~ msgid "De-Stressing Building"
+#~ msgstr "减压建筑"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.FARMSTATIONTYPE.NAME"
+#~ msgid "Farm Station"
+#~ msgstr "农业站"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.HAS_BED.NAME"
+#~ msgid "One or more beds"
+#~ msgstr "至少一个床位"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.HAS_LUXURY_BED.NAME"
+#~ msgid "One or more Comfy Beds"
+#~ msgstr "至少一张舒适的床"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.INDUSTRIALMACHINERY.NAME"
+#~ msgid "Industrial Machinery"
+#~ msgstr "工业机械"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.LIGHTSOURCE.NAME"
+#~ msgid "Light source"
+#~ msgstr "光源"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.LUXURYBEDTYPE.NAME"
+#~ msgid "Single Comfy Bed"
+#~ msgstr "单个舒适的床"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.MASSAGE_TABLE.NAME"
+#~ msgid "Massage Table"
+#~ msgstr "按摩床"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.MESS_STATION_MULTIPLE.NAME"
+#~ msgid "Mess Tables"
+#~ msgstr "多个餐桌"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.MESSTABLE.NAME"
+#~ msgid "Mess Table"
+#~ msgstr "餐桌"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.NO_COTS.NAME"
+#~ msgid "No Cots"
+#~ msgstr "无床铺"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.NO_INDUSTRIAL_MACHINERY.NAME"
+#~ msgid "No industrial machinery"
+#~ msgstr "无工业机械"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.NO_LUXURY_BEDS.NAME"
+#~ msgid "No Comfy Beds"
+#~ msgstr "无舒适的床"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.NO_MESS_STATION.NAME"
+#~ msgid "No Mess Table"
+#~ msgstr "无餐桌"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.NO_OUTHOUSES.NAME"
+#~ msgid "No Outhouses"
+#~ msgstr "无户外厕所"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.PARK.NAME"
+#~ msgid "Park Sign"
+#~ msgstr "公园标识"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.POWERSTATION.NAME"
+#~ msgid "Power Control Station"
+#~ msgstr "电控站"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.RANCHSTATIONTYPE.NAME"
+#~ msgid "Ranching building"
+#~ msgstr "养殖建筑"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.RECBUILDING.NAME"
+#~ msgid "Recreational building"
+#~ msgstr "娱乐建筑"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.REFRIGERATOR.NAME"
+#~ msgid "Refrigerator"
+#~ msgstr "冰箱"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.SCIENCE_BUILDINGS.NAME"
+#~ msgid "Two science buildings"
+#~ msgstr "两个科学建筑"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.SCIENCEBUILDING.NAME"
+#~ msgid "Science building"
+#~ msgstr "科学建筑"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.SPICESTATION.NAME"
+#~ msgid "Spice Grinder"
+#~ msgstr "香料研磨器"
+
 #~ msgctxt "STRINGS.CODEX.HEADERS.BUILDINGTYPE"
 #~ msgid "Room Requirements Class"
 #~ msgstr "房间需求类型"
@@ -108926,10 +109190,6 @@ msgstr "水域小行星"
 #~ msgctxt "STRINGS.ROOMS.CRITERIA.RANCH_STATION.DESCRIPTION"
 #~ msgid "Requires a single Grooming Station"
 #~ msgstr "需要一个照料站"
-
-#~ msgctxt "STRINGS.ROOMS.CRITERIA.RANCH_STATION.NAME"
-#~ msgid "Grooming Station"
-#~ msgstr "照料站"
 
 #~ msgctxt "STRINGS.ROOMS.TYPES.CREATUREPEN.EFFECT"
 #~ msgid "- Enables Grooming Station use"

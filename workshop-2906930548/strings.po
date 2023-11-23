@@ -374,7 +374,7 @@ msgstr "本地殖民地缺少{Skills}"
 #. STRINGS.BUILDING.STATUSITEMS.CLUSTERCOLONYLACKSREQUIREDSKILLPERK.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLUSTERCOLONYLACKSREQUIREDSKILLPERK.TOOLTIP"
 msgid "{Skills} Skill required to operate\n\nOpen the <b>Skills Panel</b> {Hotkey/ManageSkills} to teach {Skills} to a Duplicant, or bring a Duplicant with the skill from another Planetoid"
-msgstr "需要 {Skills} 技能才能操作\n\n開啟<b>技能面板</b> {Hotkey/ManageSkills} 教導 {Skills} 給一位複製人、或從其它星球帶來擁有這個技能的複製人"
+msgstr "需要{Skills}技能才能操作\n\n開啟<b>技能面板</b> {Hotkey/ManageSkills} 教導{Skills}給一位複製人，或從其它星球帶來擁有這個技能的複製人"
 
 #. STRINGS.BUILDING.STATUSITEMS.CLUSTERTELESCOPEALLWORKCOMPLETE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLUSTERTELESCOPEALLWORKCOMPLETE.NAME"
@@ -404,17 +404,17 @@ msgstr "殖民地缺少{Skills}"
 #. STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.TOOLTIP"
 msgid "{Skills} Skill required to operate\n\nOpen the <b>Skills Panel</b> {Hotkey/ManageSkills} to teach {Skills} to a Duplicant"
-msgstr "需要 {Skills} 技能才能操作\n\n開啟<b>技能面板</b> {Hotkey/ManageSkills} 教導 {Skills} 給一位複製人"
+msgstr "需要{Skills}技能才能操作\n\n開啟<b>技能面板</b> {Hotkey/ManageSkills} 教導{Skills}給一位複製人"
 
-#. STRINGS.BUILDING.STATUSITEMS.COMPLEXFABRICATOR.ANALYZYINGn.NAME
-msgctxt "STRINGS.BUILDING.STATUSITEMS.COMPLEXFABRICATOR.ANALYZYINGn.NAME"
+#. STRINGS.BUILDING.STATUSITEMS.COMPLEXFABRICATOR.ANALYZING.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.COMPLEXFABRICATOR.ANALYZING.NAME"
 msgid "Analyzing {Item}"
 msgstr "正在分析{Item}"
 
-#. STRINGS.BUILDING.STATUSITEMS.COMPLEXFABRICATOR.ANALYZYINGn.TOOLTIP
-msgctxt "STRINGS.BUILDING.STATUSITEMS.COMPLEXFABRICATOR.ANALYZYINGn.TOOLTIP"
+#. STRINGS.BUILDING.STATUSITEMS.COMPLEXFABRICATOR.ANALYZING.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.COMPLEXFABRICATOR.ANALYZING.TOOLTIP"
 msgid "This building is currently analyzing a fascinating artifact"
-msgstr "這個建築正在分析一件迷人的工藝品"
+msgstr "這棟建築目前正在分析一件令人著迷的文物"
 
 #. STRINGS.BUILDING.STATUSITEMS.COMPLEXFABRICATOR.CLUSTERTELESCOPEMETEOR.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COMPLEXFABRICATOR.CLUSTERTELESCOPEMETEOR.NAME"
@@ -20021,6 +20021,11 @@ msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.ADVANCEDWASHSTATION.TITLE"
 msgid "Plumbed Wash Stations"
 msgstr "已接管的洗手站"
 
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.BEDTYPE.CONFLICTINGROOMS
+msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.BEDTYPE.CONFLICTINGROOMS"
+msgid "    • <link=\"BEDROOM\">Luxury Barracks</link> (No <link=\"BED\">Cots</link>)\n    • <link=\"PRIVATE BEDROOM\">Private Bedroom</link> (No <link=\"BED\">Cots</link>)"
+msgstr "    • <link=\"BEDROOM\">高級臥室</link> (無 <link=\"BED\">簡易床</link>)\n    • <link=\"PRIVATE BEDROOM\">私人臥室</link> (無 <link=\"BED\">簡易床</link>)"
+
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.BEDTYPE.DESCRIPTION
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.BEDTYPE.DESCRIPTION"
 msgid "Buildings that allow Duplicants to get much-needed rest. If a Duplicant is not assigned one, they will sleep on the floor."
@@ -20030,6 +20035,11 @@ msgstr "讓複製人得到充分必要休息的建築物。 如果複製人沒�
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.BEDTYPE.FLAVOUR"
 msgid ""
 msgstr ""
+
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.BEDTYPE.ROOMSREQUIRING
+msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.BEDTYPE.ROOMSREQUIRING"
+msgid "    • <link=\"BARRACKS\">Barracks</link>\n    • <link=\"BEDROOM\">Luxury Barracks</link> (one or more <link=\"LUXURYBED\">Comfy Beds</link>)\n    • <link=\"PRIVATE BEDROOM\">Private Bedroom</link> (single <link=\"LUXURYBED\">Comfy Bed</link>)"
+msgstr "    • <link=\"BARRACKS\">臥室</link>\n    • <link=\"BEDROOM\">高級臥室</link> (至少一張<link=\"LUXURYBED\">舒適床</link>)\n    • <link=\"PRIVATE BEDROOM\">私人臥室</link> (一張<link=\"LUXURYBED\">舒適床</link>)"
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.BEDTYPE.TITLE
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.BEDTYPE.TITLE"
@@ -20066,6 +20076,11 @@ msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.COOKTOP.FLAVOUR"
 msgid ""
 msgstr ""
 
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.COOKTOP.ROOMSREQUIRING
+msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.COOKTOP.ROOMSREQUIRING"
+msgid "    • <link=\"KITCHEN\">Kitchen</link>"
+msgstr "    • <link=\"KITCHEN\">廚房</link>"
+
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.COOKTOP.TITLE
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.COOKTOP.TITLE"
 msgid "Cooking Stations"
@@ -20096,6 +20111,11 @@ msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.DECORATION.FLAVOUR"
 msgid ""
 msgstr ""
 
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.DECORATION.ROOMSREQUIRING
+msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.DECORATION.ROOMSREQUIRING"
+msgid "    • <link=\"BEDROOM\">Luxury Barracks</link>\n    • <link=\"PRIVATE BEDROOM\">Private Bedroom</link>\n    • <link=\"GREATHALL\">Great Hall</link>\n    • <link=\"MASSAGECLINIC\">Massage Clinic</link>\n    • <link=\"RECROOM\">Recreation Room</link>"
+msgstr "    • <link=\"BEDROOM\">高級臥室</link>\n    • <link=\"PRIVATE BEDROOM\">私人臥室</link>\n    • <link=\"GREATHALL\">高級餐廳</link>\n    • <link=\"MASSAGECLINIC\">按摩間</link>\n    • <link=\"RECROOM\">娛樂室</link>"
+
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.DECORATION.TITLE
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.DECORATION.TITLE"
 msgid "Decor Items"
@@ -20110,6 +20130,11 @@ msgstr "給予複製人一個衛生而莊重的地方處理必要的「方便」
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.FLUSHTOILETTYPE.FLAVOUR"
 msgid ""
 msgstr ""
+
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.FLUSHTOILETTYPE.ROOMSREQUIRING
+msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.FLUSHTOILETTYPE.ROOMSREQUIRING"
+msgid "    • <link=\"PLUMBEDBATHROOM\">Washroom</link>"
+msgstr "    • <link=\"PLUMBEDBATHROOM\">浴室</link>"
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.FLUSHTOILETTYPE.TITLE
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.FLUSHTOILETTYPE.TITLE"
@@ -20146,6 +20171,11 @@ msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.LIGHTSOURCE.FLAVOUR"
 msgid ""
 msgstr ""
 
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.LIGHTSOURCE.ROOMSREQUIRING
+msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.LIGHTSOURCE.ROOMSREQUIRING"
+msgid "    • <link=\"LABORATORY\">Laboratory</link>"
+msgstr "    • <link=\"LABORATORY\">實驗室</link>"
+
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.LIGHTSOURCE.TITLE
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.LIGHTSOURCE.TITLE"
 msgid "Light Sources"
@@ -20165,6 +20195,11 @@ msgstr "專門用於動物飼養的建築物。"
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RANCHSTATIONTYPE.FLAVOUR"
 msgid ""
 msgstr ""
+
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RANCHSTATIONTYPE.ROOMSREQUIRING
+msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RANCHSTATIONTYPE.ROOMSREQUIRING"
+msgid "    • <link=\"CREATUREPEN\">Stable</link>"
+msgstr "    • <link=\"CREATUREPEN\">牧場</link>"
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RANCHSTATIONTYPE.TITLE
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RANCHSTATIONTYPE.TITLE"
@@ -20191,10 +20226,15 @@ msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RECBUILDING.TITLE"
 msgid "Recreational Buildings"
 msgstr "娛樂建築"
 
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.ROCKETINTERIOR.CONFLICTINGROOMS
+msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.ROCKETINTERIOR.CONFLICTINGROOMS"
+msgid "    •  Any room that is not inside a rocket."
+msgstr "    •  任何不在火箭內部的房間。"
+
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.ROCKETINTERIOR.DESCRIPTION
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.ROCKETINTERIOR.DESCRIPTION"
-msgid "Buildings that cannot be built anywhere other than inside a rocket."
-msgstr "除了火箭內部之外，無法在任何地方建造的建築物。"
+msgid "Buildings that must be built inside a rocket."
+msgstr "需要建在火箭內部的建築，不能建在火箭之外"
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.ROCKETINTERIOR.FLAVOUR
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.ROCKETINTERIOR.FLAVOUR"
@@ -20215,6 +20255,11 @@ msgstr "讓複製人瞭解周圍的世界，以及更遠之處的建築。"
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.SCIENCEBUILDING.FLAVOUR"
 msgid ""
 msgstr ""
+
+#. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.SCIENCEBUILDING.ROOMSREQUIRING
+msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.SCIENCEBUILDING.ROOMSREQUIRING"
+msgid "    • <link=\"LABORATORY\">Laboratory</link>"
+msgstr "    • <link=\"LABORATORY\">實驗室</link>"
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.SCIENCEBUILDING.TITLE
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.SCIENCEBUILDING.TITLE"
@@ -21450,6 +21495,11 @@ msgstr "已種植種子"
 msgctxt "STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.DESCRIPTION"
 msgid "Reboot an ambitious collaborative project spearheaded by Gravitas's bioengineering and robotics departments.\n\nIf correctly rebuilt, it could save Duplicant lives."
 msgstr "重新啟動由引力科技生物工程部和機器人部領頭的雄心勃勃的合作專案。\n\n如果重建得當，它就能拯救複製人的生命。"
+
+#. STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.DESCRIPTION_SHORT
+msgctxt "STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.DESCRIPTION_SHORT"
+msgid "Reboot an ambitious collaborative project spearheaded by Gravitas's bioengineering and robotics departments."
+msgstr "重啟由引力科技的生物工程和機器人部門所領導的雄心勃勃的合作項目。"
 
 #. STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.ENVELOPE.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.ENVELOPE.BODY.CONTAINER1"
@@ -47988,12 +48038,12 @@ msgstr "如果沒有新的<link=\"FOOD\">食物</link>來源，殖民地將耗�
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDSLEEP.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDSLEEP.NAME"
-msgid "No <link=\"COT\">Cots</link> built"
+msgid "No <link=\"BED\">Cots</link> built"
 msgstr "沒有建造<link=\"COT\">簡易床</link>"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDSLEEP.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDSLEEP.TOOLTIP"
-msgid "My Duplicants would appreciate a place to sleep\n\n<link=\"COT\">Cots</link> can be built from the <b>Furniture Tab</b> {Hotkey/Plan9}"
+msgid "My Duplicants would appreciate a place to sleep\n\n<link=\"BED\">Cots</link> can be built from the <b>Furniture Tab</b> {Hotkey/Plan9}"
 msgstr "我的複製人會感激有個能睡覺的地方\n\n可以從<b>家具</b> {Hotkey/Plan9} 建造<link=\"COTS\">簡易床</link>"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDTOILET.NAME
@@ -49430,6 +49480,11 @@ msgstr "氣體"
 msgctxt "STRINGS.MISC.TAGS.GENE_SHUFFLER"
 msgid "Neural Vacillator"
 msgstr "神經振盪器"
+
+#. STRINGS.MISC.TAGS.GLASS
+msgctxt "STRINGS.MISC.TAGS.GLASS"
+msgid "Glass"
+msgstr "玻璃"
 
 #. STRINGS.MISC.TAGS.HABITAT_MODULE
 msgctxt "STRINGS.MISC.TAGS.HABITAT_MODULE"
@@ -54348,7 +54403,7 @@ msgstr "房間不能有簡易床"
 
 #. STRINGS.ROOMS.CRITERIA.NO_COTS.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_COTS.NAME"
-msgid "No <link=\"COT\">Cots</link>"
+msgid "No <link=\"BED\">Cots</link>"
 msgstr "無<link=\"COT\">簡易床</link>"
 
 #. STRINGS.ROOMS.CRITERIA.NO_INDUSTRIAL_MACHINERY.DESCRIPTION
