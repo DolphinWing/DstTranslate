@@ -4219,7 +4219,7 @@ msgstr "超級電腦解鎖比研究站更高等級的科技。"
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT"
 msgid "Conducts <link=\"RESEARCH\">Advanced Research</link> to unlock new technologies.\n\nConsumes <link=\"WATER\">Water</link>.\n\nAssigned Duplicants must possess the <link=\"RESEARCHING1\">Advanced Research</link> skill."
-msgstr "<link=\"RESEARCH\">高級研究</link>可解鎖新科技。\n\n消耗<link=\"WATER\">水</link>。\n\n複製人必須具有<link=\"JUNIORRESEARCHER\">高級研究</link>技能。"
+msgstr "<link=\"RESEARCH\">進階研究</link>可解鎖新科技。\n\n消耗<link=\"WATER\">水</link>。\n\n複製人必須具有<link=\"JUNIORRESEARCHER\">進階研究</link>技能。"
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.NAME"
@@ -19949,7 +19949,7 @@ msgstr "一旦在殖民地的研究站的研究點數滿了，會完成所選擇
 #. STRINGS.CODEX.RESEARCH.PARAGRAPH_3
 msgctxt "STRINGS.CODEX.RESEARCH.PARAGRAPH_3"
 msgid "Advanced research tasks require special research stations to generate the proper kind of research points. These research stations often consume more advanced resources.\n\nUsing higher-level research stations also requires Duplicants to have learned higher level research <link=\"ROLES\">skills</link>.\n\nNovice Research is performed at the <link=\"RESEARCHCENTER\">Research Station</link>\nAdvanced Research is performed at the <link=\"ADVANCEDRESEARCHCENTER\">Super Computer</link>\nInterstellar Research is performed at the <link=\"COSMICRESEARCHCENTER\">Virtual Planetarium</link>\n\n"
-msgstr "高級研究任務需要特殊的研究站來產生相應的研究點數。這些研究站通常會消耗更多的高級資源。\n\n要使用較高級的研究站，同時也要求複製人必須學會較高等級的研究<link=\"ROLES\">技能</link>\n\n初級研究在<link=\"RESEARCHCENTER\">研究站</link>進行。\n高級研究在<link=\"ADVANCEDRESEARCHCENTER\">超級電腦</link>進行。\n星際研究在<link=\"COSMICRESEARCHCENTER\">虛擬天文館</link>進行。\n\n"
+msgstr "進階研究任務需要特殊的研究站來產生相應的研究點數。這些研究站通常會消耗更多的高級資源。\n\n要使用較高級的研究站，同時也要求複製人必須學會較高等級的研究<link=\"ROLES\">技能</link>\n\n初級研究在<link=\"RESEARCHCENTER\">研究站</link>進行。\n進階研究在<link=\"ADVANCEDRESEARCHCENTER\">超級電腦</link>進行。\n星際研究在<link=\"COSMICRESEARCHCENTER\">虛擬天文館</link>進行。\n\n"
 
 #. STRINGS.CODEX.RESEARCH.TITLE
 msgctxt "STRINGS.CODEX.RESEARCH.TITLE"
@@ -19984,7 +19984,7 @@ msgstr "一旦殖民地研究站的研究點數足夠了，所選擇的研究任
 #. STRINGS.CODEX.RESEARCHDLC1.PARAGRAPH_3
 msgctxt "STRINGS.CODEX.RESEARCHDLC1.PARAGRAPH_3"
 msgid "Advanced research tasks require special research stations to generate the proper kind of research points. These research stations often consume more advanced resources.\n\nUsing higher level research stations also requires Duplicants to have learned higher level research <link=\"ROLES\">skills</link>.\n\nNovice Research is performed at the <link=\"RESEARCHCENTER\">Research Station</link>\nAdvanced Research is performed at the <link=\"ADVANCEDRESEARCHCENTER\">Super Computer</link>\nInterstellar Research is performed at the <link=\"ORBITALRESEARCHCENTER\">Orbital Data Collection Lab</link>\nApplied Sciences Research is performed at the <link=\"NUCLEARRESEARCHCENTER\">Materials Study Terminal</link>\n\n"
-msgstr "高級研究任務需要特殊的研究站來產生相應的研究點數。這些研究站通常會消耗更多的高級資源。\n\n要使用較高級的研究站的同時，也要求複製人必須學會較高等級的研究<link=\"ROLES\">技能</link>\n\n初級研究在<link=\"RESEARCHCENTER\">研究站</link>進行。\n高級研究在<link=\"ADVANCEDRESEARCHCENTER\">超級電腦</link>進行。\n星際研究在<link=\"ORBITALRESEARCHCENTER\">軌道資料收集儀</link>進行。\n應用科學研究在<link=\"NUCLEARRESEARCHCENTER\">材料研究終端機</link>進行。\n\n"
+msgstr "進階研究任務需要特殊的研究站來產生相應的研究點數。這些研究站通常會消耗更多的高級資源。\n\n要使用較高級的研究站的同時，也要求複製人必須學會較高等級的研究<link=\"ROLES\">技能</link>\n\n初級研究在<link=\"RESEARCHCENTER\">研究站</link>進行。\n進階研究在<link=\"ADVANCEDRESEARCHCENTER\">超級電腦</link>進行。\n星際研究在<link=\"ORBITALRESEARCHCENTER\">軌道資料收集儀</link>進行。\n應用科學研究在<link=\"NUCLEARRESEARCHCENTER\">材料研究終端機</link>進行。\n\n"
 
 #. STRINGS.CODEX.RESEARCHDLC1.TITLE
 msgctxt "STRINGS.CODEX.RESEARCHDLC1.TITLE"
@@ -35219,7 +35219,7 @@ msgstr "複製人可使用<link=\"ADVANCEDRESEARCHCENTER\">超級電腦</link>�
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_RESEARCHER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_RESEARCHER.NAME"
 msgid "<link=\"RESEARCHING1\">Advanced Research</link>"
-msgstr "<link=\"RESEARCHING1\">高級研究</link>"
+msgstr "<link=\"RESEARCHING1\">進階研究</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.MACHINE_TECHNICIAN.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.MACHINE_TECHNICIAN.DESCRIPTION"
@@ -38734,7 +38734,7 @@ msgstr "複製人可使用<link=\"ADVANCEDRESEARCHCENTER\">超級電腦</link>�
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING1.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING1.NAME"
 msgid "Skilled: <link=\"RESEARCHING1\">Advanced Research</link>"
-msgstr "掌握技能：<link=\"RESEARCHING1\">高級研究</link>"
+msgstr "掌握技能：<link=\"RESEARCHING1\">進階研究</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING1.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING1.SHORT_DESC"
@@ -52499,12 +52499,12 @@ msgstr "<b>自動化概覽</b>"
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.BETA_RESEARCH_POINT.DESC
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.BETA_RESEARCH_POINT.DESC"
 msgid "Allows <style=\"KKeyword\">Advanced Research</style> points to be accumulated, unlocking higher technology tiers."
-msgstr "累積<style=\"KKeyword\">高級研究</style>點數，解鎖較高級的科技。"
+msgstr "累積<style=\"KKeyword\">進階研究</style>點數，解鎖較高級的科技。"
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.BETA_RESEARCH_POINT.NAME
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.BETA_RESEARCH_POINT.NAME"
 msgid "<style=\"KKeyword\">Advanced Research</style> Capability"
-msgstr "<style=\"KKeyword\">高級研究</style>點數"
+msgstr "<style=\"KKeyword\">進階研究</style>點數"
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.CONVEYOR_OVERLAY.DESC
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.CONVEYOR_OVERLAY.DESC"
@@ -52624,7 +52624,7 @@ msgstr "提供給需要大規模<link=\"POWER\">電力</link>管理的電路組�
 #. STRINGS.RESEARCH.TECHS.ADVANCEDPOWERREGULATION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDPOWERREGULATION.NAME"
 msgid "<link=\"ADVANCEDPOWERREGULATION\">Advanced Power Regulation</link>"
-msgstr "<link=\"ADVANCEDPOWERREGULATION\">高級電力規劃</link>"
+msgstr "<link=\"ADVANCEDPOWERREGULATION\">進階電力規劃</link>"
 
 #. STRINGS.RESEARCH.TECHS.ADVANCEDRESEARCH.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDRESEARCH.DESC"
@@ -52634,7 +52634,7 @@ msgstr "殖民地需要進行更先進與深入研究。"
 #. STRINGS.RESEARCH.TECHS.ADVANCEDRESEARCH.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDRESEARCH.NAME"
 msgid "<link=\"ADVANCEDRESEARCH\">Advanced Research</link>"
-msgstr "<link=\"ADVANCEDRESEARCH\">高級研究</link>"
+msgstr "<link=\"ADVANCEDRESEARCH\">進階研究</link>"
 
 #. STRINGS.RESEARCH.TECHS.ADVANCEDRESOURCEEXTRACTION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDRESOURCEEXTRACTION.DESC"
@@ -52644,7 +52644,7 @@ msgstr "從星空中帶回紀念品。"
 #. STRINGS.RESEARCH.TECHS.ADVANCEDRESOURCEEXTRACTION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDRESOURCEEXTRACTION.NAME"
 msgid "<link=\"ADVANCEDRESOURCEEXTRACTION\">Advanced Resource Extraction</link>"
-msgstr "<link=\"ADVANCEDRESOURCEEXTRACTION\">高級資源提取</link>"
+msgstr "<link=\"ADVANCEDRESOURCEEXTRACTION\">先進資源提取</link>"
 
 #. STRINGS.RESEARCH.TECHS.ADVANCEDSANITATION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDSANITATION.DESC"
@@ -52654,7 +52654,7 @@ msgstr "清理複製人的髒汙。"
 #. STRINGS.RESEARCH.TECHS.ADVANCEDSANITATION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDSANITATION.NAME"
 msgid "<link=\"ADVANCEDSANITATION\">Advanced Sanitation</link>"
-msgstr "<link=\"ADVANCEDSANITATION\">高級衛生</link>"
+msgstr "<link=\"ADVANCEDSANITATION\">進階衛生</link>"
 
 #. STRINGS.RESEARCH.TECHS.ADVANCEDSCANNERS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDSCANNERS.DESC"
@@ -52824,7 +52824,7 @@ msgstr "燃料驅動的發電機，發出原始但強大的<link=\"POWER\">電�
 #. STRINGS.RESEARCH.TECHS.COMBUSTION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.COMBUSTION.NAME"
 msgid "<link=\"COMBUSTION\">Internal Combustion</link>"
-msgstr "<link=\"COMBUSTION\">內燃</link>"
+msgstr "<link=\"COMBUSTION\">內燃機</link>"
 
 #. STRINGS.RESEARCH.TECHS.CRASHPLAN.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.CRASHPLAN.DESC"
@@ -52914,7 +52914,7 @@ msgstr "比以往任何時候都更深入地探索浩瀚的太空。"
 #. STRINGS.RESEARCH.TECHS.ENGINESII.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.ENGINESII.NAME"
 msgid "<link=\"ENGINESII\">Hydrocarbon Combustion</link>"
-msgstr "<link=\"ENGINESII\">氣體燃料引擎</link>"
+msgstr "<link=\"ENGINESII\">碳氫燃料引擎</link>"
 
 #. STRINGS.RESEARCH.TECHS.ENGINESIII.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ENGINESIII.DESC"
@@ -52974,7 +52974,7 @@ msgstr "料理多種美味、高品質的<link=\"FOOD\">食物</link>，提升�
 #. STRINGS.RESEARCH.TECHS.FINERDINING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.FINERDINING.NAME"
 msgid "<link=\"FINERDINING\">Gourmet Meal Preparation</link>"
-msgstr "<link=\"FINEDINING\">膳食準備</link>"
+msgstr "<link=\"FINEDINING\">美食準備</link>"
 
 #. STRINGS.RESEARCH.TECHS.FLOWREDIRECTION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.FLOWREDIRECTION.DESC"
@@ -53204,7 +53204,7 @@ msgstr "初級科技提供安裝<link=\"ELEMENTSLIQUID\">液體</link>設施。"
 #. STRINGS.RESEARCH.TECHS.LIQUIDPIPING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.LIQUIDPIPING.NAME"
 msgid "<link=\"LIQUIDPIPING\">Plumbing</link>"
-msgstr "<link=\"LIQUIDPIPING\">管線工程師</link>"
+msgstr "<link=\"LIQUIDPIPING\">管線工程</link>"
 
 #. STRINGS.RESEARCH.TECHS.LIQUIDTEMPERATURE.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.LIQUIDTEMPERATURE.DESC"
@@ -53464,7 +53464,7 @@ msgstr "使用高級藝術材料的新方式。"
 #. STRINGS.RESEARCH.TECHS.REFRACTIVEDECOR.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.REFRACTIVEDECOR.NAME"
 msgid "<link=\"REFRACTIVEDECOR\">High Culture</link>"
-msgstr "<link=\"REFRACTIVEDECOR\">高級雕刻</link>"
+msgstr "<link=\"REFRACTIVEDECOR\">高雅文化</link>"
 
 #. STRINGS.RESEARCH.TECHS.RENAISSANCEART.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.RENAISSANCEART.DESC"
@@ -53594,7 +53594,7 @@ msgstr "火箭引擎的甜蜜進步。"
 #. STRINGS.RESEARCH.TECHS.SPACECOMBUSTION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SPACECOMBUSTION.NAME"
 msgid "<link=\"SPACECOMBUSTION\">Advanced Combustion</link>"
-msgstr "<link=\"SPACECOMBUSTION\">高級燃燒</link>"
+msgstr "<link=\"SPACECOMBUSTION\">先進燃燒</link>"
 
 #. STRINGS.RESEARCH.TECHS.SPACEGAS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SPACEGAS.DESC"
@@ -53604,7 +53604,7 @@ msgstr "火箭<link=\"ELEMENTSGASSES\">氣體</link>引擎與運輸設備。"
 #. STRINGS.RESEARCH.TECHS.SPACEGAS.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SPACEGAS.NAME"
 msgid "<link=\"SPACEGAS\">Advanced Gas Flow</link>"
-msgstr "<link=\"SPACEGAS\">高級氣體流動</link>"
+msgstr "<link=\"SPACEGAS\">進階氣體流動</link>"
 
 #. STRINGS.RESEARCH.TECHS.SPACEPOWER.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SPACEPOWER.DESC"
@@ -53744,12 +53744,12 @@ msgstr "解鎖基礎科技。"
 #. STRINGS.RESEARCH.TYPES.BETA.DESC
 msgctxt "STRINGS.RESEARCH.TYPES.BETA.DESC"
 msgid "<link=\"RESEARCH\">Advanced Research</link> is required to unlock improved technologies.\nIt can be conducted at a <link=\"ADVANCEDRESEARCHCENTER\">Super Computer</link>."
-msgstr "<link=\"RESEARCH\">高級研究</link>是解鎖更先進的科技所需。\n它可在<link=\"ADVANCEDRESEARCHCENTER\">超級電腦</link>進行研究。"
+msgstr "<link=\"RESEARCH\">進階研究</link>是解鎖更先進的科技所需。\n它可在<link=\"ADVANCEDRESEARCHCENTER\">超級電腦</link>進行研究。"
 
 #. STRINGS.RESEARCH.TYPES.BETA.NAME
 msgctxt "STRINGS.RESEARCH.TYPES.BETA.NAME"
 msgid "Advanced Research"
-msgstr "高級研究"
+msgstr "進階研究"
 
 #. STRINGS.RESEARCH.TYPES.BETA.RECIPEDESC
 msgctxt "STRINGS.RESEARCH.TYPES.BETA.RECIPEDESC"
