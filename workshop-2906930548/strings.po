@@ -15799,7 +15799,7 @@ msgstr "初步計算"
 #. STRINGS.CODEX.A0_PROPFACILITYDISPLAY1.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A0_PROPFACILITYDISPLAY1.BODY.CONTAINER1"
 msgid "Introducing the latest in 3D printing technology:\nThe Gravitas Home Printing Pod\n\nWe are proud to announce that printing advancements developed here in the Gravitas Facility will soon bring new, bio-organic production capabilities to your old home printers.\n\nWhat does that mean for the average household?\n\nDinner frustrations are a thing of the past. Simply select any of the pod's 5398 pre-programmed recipes, and voila! Delicious pot roast ready in only .87 seconds.\n\nPrefer the patented family recipe? Program your own custom meal template for an instant taste of home, or go old school and create fresh, delicious ingredients and prepare your own home cooked meal.\n\nDinnertime has never been easier!"
-msgstr "介紹最新型的 3D 列印科技：\n引力科技家用列印設備\n\n我們自豪的宣佈，\n引力科技開發的列印技術將迎來全新的發展，\n讓你的舊家用列印設備可生產有機產品。\n\n這對普通家庭意味著什麼？\n\n料理的挫折已成為過去！\n只需簡單選擇設備中預先編寫好的 5398 種食譜，然後－看！\n準備好美味的火鍋只需要 .87 秒。\n\n喜歡自己做料理嗎？\n編寫您的客製食譜，或為你的家常菜列印新鮮食材。\n使用傳統方式料理。\n\n料理從未如此簡單！"
+msgstr "介紹最新型的 3D 列印科技：\n引力科技家用列印設備\n\n我們自豪的宣佈，引力科技開發的列印技術將迎來全新的發展，讓你的舊家用列印設備可生產有機產品。\n\n這對普通家庭意味著什麼？\n\n料理的挫折已成為過去！只需簡單選擇設備中預先編寫好的 5398 種食譜，然後－看！準備好美味的火鍋只需要 .87 秒。\n\n喜歡自己做料理嗎？編寫您的客製食譜，或為你的家常菜列印新鮮食材。使用傳統方式料理。\n\n料理從未如此簡單！"
 
 #. STRINGS.CODEX.A0_PROPFACILITYDISPLAY1.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A0_PROPFACILITYDISPLAY1.BODY.CONTAINER2"
@@ -15859,22 +15859,22 @@ msgstr "除熱機促銷"
 #. STRINGS.CODEX.A1_A046.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A1_A046.BODY.CONTAINER1"
 msgid "Gravitas has been growing pretty rapidly since our first product hit the market. I just got a look at some of the new hires - they're practically babies! Not quite what I was expecting, but then I've never had an opportunity to mentor someone before. Could be fun!\n------------------\n"
-msgstr "自從我們的第一款產品上市後，引力科技發展的相常快速。\n我剛剛看到了一些新員工－他們都還像是嬰兒一般！\n不完全符合我的期待，但我之前從未有機會指導人。\n也許會很有趣！\n------------------\n"
+msgstr "自從我們的第一款產品上市後，引力科技發展的相常快速。我剛剛看到了一些新員工－他們都還像是嬰兒一般！不完全符合我的期待，但我之前從未有機會指導人。也許會很有趣！\n------------------\n"
 
 #. STRINGS.CODEX.A1_A046.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A1_A046.BODY.CONTAINER2"
 msgid "Well, mentorship hasn't gone quite how I'd expected. Turns out the young hires don't need me to show them the ropes. Actually, since the facility's gotten rid of our swipe cards one of the nice young men had to show me how to operate the doors after I got stuck outside my own lab. Don't I feel silly.\n------------------\n"
-msgstr "好吧，指導並未如我所預期。\n事實證明，年輕的員工並不需要我向他們示範如何工作。\n\n其實，在公司的門禁卡故障時，而我又被擋在自己的實驗室外的時候，\n有一位年輕人向我示範了如果操作這扇門。\n不要覺得我愚蠢。\n------------------\n"
+msgstr "好吧，指導並未如我所預期。事實證明，年輕的員工並不需要我向他們示範如何工作。\n\n其實，在公司的門禁卡故障時，而我又被擋在自己的實驗室外的時候，有一位年輕人向我示範了如果操作這扇門。不要覺得我愚蠢。\n------------------\n"
 
 #. STRINGS.CODEX.A1_A046.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.A1_A046.BODY.CONTAINER3"
 msgid "Well, if that isn't just gravy, hm? One of the new hires will be acting as the team lead on my next project.\n\nWhen I first started it wasn't that uncommon to sample a whole rack of test tubes by hand. Now a machine can do hundreds of them in seconds. Who knows what this job will look like in another ten or twenty years. Will I still even be in it?\n------------------\n"
-msgstr "好吧，如果那不僅僅是偶發事件的話？\n其中一名新進員工將擔任我下一個項目的團隊負責人。\n\n當我第一次開始實驗時，經常用手取樣整個架子的試管。\n而現在一個機器在很短的時間內就可以處理幾百個。\n誰又能知道在十或二十年之後，這項工作會變的如何。\n我還會從事這項工作嗎？\n------------------\n"
+msgstr "好吧，如果那不僅僅是偶發事件的話？其中一名新進員工將擔任我下一個項目的團隊負責人。\n\n當我第一次開始實驗時，經常用手取樣整個架子的試管。而現在一個機器在很短的時間內就可以處理幾百個。誰又能知道在十或二十年之後，這項工作會變的如何。我還會從事這項工作嗎？\n------------------\n"
 
 #. STRINGS.CODEX.A1_A046.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.A1_A046.BODY.CONTAINER4"
 msgid "That nice young man who helped me with the door the other day, Mr. Kraus, has been an absolute angel. He's been kind enough to help me with this horrible e-mail system and even showed me how to digitize my research notes. I'm learning a lot. Turns out I wasn't the mentor, I'm the mentee! If that isn't a chuckle. At any rate, I feel like I have a better handle on things around here due to Mr. Kraus' help. Turns out you're never too old to learn something new!\n------------------\n"
-msgstr "那個在前幾天教我開門的年輕人，Kraus 先生，絕對是個天使。\n他還幫我處理這可怕的電子郵件系統，並教我如果將我的研究筆記數位化。\n我學到了很多。\n\n事實證明，我不是一位指導者，而是一位受指導者！\n這不是玩笑。\n\n無論如何，由於 Kraus 幫助，我能把周圍的事情處理的更好。\n事實證明，活到老學到老！\n------------------\n"
+msgstr "那個在前幾天教我開門的年輕人，Kraus 先生，絕對是個天使。他還幫我處理這可怕的電子郵件系統，並教我如果將我的研究筆記數位化。我學到了很多。\n\n事實證明，我不是一位指導者，而是一位受指導者！這不是玩笑。\n\n無論如何，由於 Kraus 幫助，我能把周圍的事情處理的更好。事實證明，活到老學到老！\n------------------\n"
 
 #. STRINGS.CODEX.A1_A046.SUBTITLE
 msgctxt "STRINGS.CODEX.A1_A046.SUBTITLE"
@@ -15934,7 +15934,7 @@ msgstr "初始化成功"
 #. STRINGS.CODEX.A1_MAILROOMETIQUETTE.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A1_MAILROOMETIQUETTE.BODY.CONTAINER1"
 msgid "<smallcaps><b>Reminder: Mailroom Etiquette</b>\nFrom: <b>Admin</b> <alpha=#AA><admin@gravitas.nova></color>\nTo: <b>All</b></smallcaps>\n------------------\n\n<indent=5%>Please do not have live bees delivered to the office mail room. Requests and orders for experimental test subjects may be processed through admin.\n\n<i>Please request all test subjects through admin.</i>\n\nThank-you.\n\n-Admin\nThe Gravitas Facility</indent>"
-msgstr "<smallcaps><b>提醒：郵務室禮儀</b>\n寄件者：<b>管理部</b> <alpha=#AA><admin@gravitas.nova></color>\n收件者：<b>全體</b></smallcaps>\n------------------\n\n<indent=5%>請不要將活輻射蜂送到辦公室的郵務室。\n請透過管理部申請並排定實驗測試項目。\n\n<I>請透過管理部申請所有的測試項目。</i>\n\n謝謝您。\n\n－管理部\n引力科技</indent>"
+msgstr "<smallcaps><b>提醒：郵務室禮儀</b>\n寄件者：<b>管理部</b> <alpha=#AA><admin@gravitas.nova></color>\n收件者：<b>全體</b></smallcaps>\n------------------\n\n<indent=5%>請不要將活輻射蜂送到辦公室的郵務室。請透過管理部申請並排定實驗測試項目。\n\n<I>請透過管理部申請所有的測試項目。</i>\n\n謝謝您。\n\n－管理部\n引力科技</indent>"
 
 #. STRINGS.CODEX.A1_MAILROOMETIQUETTE.SUBTITLE
 msgctxt "STRINGS.CODEX.A1_MAILROOMETIQUETTE.SUBTITLE"
@@ -15949,7 +15949,7 @@ msgstr "郵務室禮儀"
 #. STRINGS.CODEX.A1_RESEARCHGIANTARTICLE.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A1_RESEARCHGIANTARTICLE.BODY.CONTAINER2"
 msgid "<indent=5%>Please pay it no mind. If any of these journals reach out to you, deny comment.</indent>"
-msgstr "<indent=5%>\n請不要理會。\n如果這些期刊中的任何一個與您聯繫，\n請拒絕發表評論。\n</indent>"
+msgstr "<indent=5%>請不要理會。如果這些期刊中的任何一個與您聯繫，請拒絕發表評論。</indent>"
 
 #. STRINGS.CODEX.A1_RESEARCHGIANTARTICLE.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.A1_RESEARCHGIANTARTICLE.BODY.CONTAINER3"
@@ -15999,7 +15999,7 @@ msgstr "主旨：你看過這個了嗎？"
 #. STRINGS.CODEX.A1A_B111.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A1A_B111.BODY.CONTAINER1"
 msgid "I sent Dr. Holland home today after I found him wandering the lab mumbling to himself. He looked like he hadn't slept in days!\n\nI worry that everyone here is so afraid of disappointing ‘The Director' that they are pushing themselves to the breaking point. Next chance I get, I'm going to bring this up with Jackie.\n------------------\n"
-msgstr "今天我發現 Holland 博士在實驗室內徘徊且喃喃自語後，隨即就將他送回家了。\n他看起來好幾天沒睡了！\n\n我擔心這裡的每個人都害怕讓「經理」失望，而將自已推向了臨界點。\n有下次機會的話，我會和 Jackie 談談。\n------------------\n"
+msgstr "今天我發現 Holland 博士在實驗室內徘徊且喃喃自語後，隨即就將他送回家了。他看起來好幾天沒睡了！\n\n我擔心這裡的每個人都害怕讓「經理」失望，而將自已推向了臨界點。有下次機會的話，我會和 Jackie 談談。\n------------------\n"
 
 #. STRINGS.CODEX.A1A_B111.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A1A_B111.BODY.CONTAINER2"
@@ -16009,12 +16009,12 @@ msgstr "好吧，那樣做沒用。\n\n在提到我們需要一些辦公室聯�
 #. STRINGS.CODEX.A1A_B111.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.A1A_B111.BODY.CONTAINER3"
 msgid "I can't believe this! I organized a potluck lunch thinking it would be a nice break but Jackie discovered us as we were setting up and insisted that no one had time for \"fooling around\". Of course, everyone was too afraid to defy 'The Director' and went right back to work.\n\nAll the food was just thrown out. Someone had even brought homemade perogies! Seeing the break room garbage full of potato salad and chicken wings made me even more depressed than before. Those perogies looked so good.\n------------------\n"
-msgstr "我簡直無法相信！\n我安排了一個午餐聚會，幻想會是一次很好的休息，\n但我們還在準備時就被 Jackie 發現了，並強調說沒有人有時間「打混」。\n當然，所有人都不敢違抗「經理」，然後都回去工作了。\n\n所有的食物都被扔掉了。\n有些人甚至帶來了在家裡做的餃子！\n看到休息室裡堆滿了馬鈴薯沙拉和雞翅的垃圾，使我比以前更加沮喪。\n那些餃子看來很好吃。\n------------------\n"
+msgstr "我簡直無法相信！我安排了一個午餐聚會，幻想會是一次很好的休息，但我們還在準備時就被 Jackie 發現了，並強調說沒有人有時間「打混」。當然，所有人都不敢違抗「經理」，然後都回去工作了。\n\n所有的食物都被扔掉了。有些人甚至帶來了在家裡做的餃子！看到休息室裡堆滿了馬鈴薯沙拉和雞翅的垃圾，使我比以前更加沮喪。那些餃子看來很好吃。\n------------------\n"
 
 #. STRINGS.CODEX.A1A_B111.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.A1A_B111.BODY.CONTAINER4"
 msgid "I keep finding senseless mistakes from stressed-out lab workers. It's getting dangerous. I'm worried this colony we're building will be plagued with these kinds of problems if we don't prioritize mental health as much as physical health. What's the use of making all these plans for the future if we can't build a better world?\n\nMaybe there's some way I can sneak some prerequisite downtime activities into the Printing Pod without Jackie knowing.\n------------------\n"
-msgstr "我持續發現，在壓力大的室驗室裡的工作人員總是犯些無意義的錯誤。\n這越來越危險了。\n\n我擔心，如果我們不將精神問題放在身體健康的首要位置，\n我們所建立的殖民地也會被此類問題困擾。\n\n如果我們不能創造更美好的世界，\n那麼我們製定這些計劃又有什麼用？\n\n也許我可以在 Jackie 不知道的情況下，偷偷地加入一些必要的休息時間活動到列印艙中。\n------------------\n"
+msgstr "我持續發現，在壓力大的室驗室裡的工作人員總是犯些無意義的錯誤。這越來越危險了。\n\n我擔心，如果我們不將精神問題放在身體健康的首要位置，我們所建立的殖民地也會被此類問題困擾。\n\n如果我們不能創造更美好的世界，那麼我們製定這些計劃又有什麼用？\n\n也許我可以在 Jackie 不知道的情況下，偷偷地加入一些必要的休息時間活動到列印艙中。\n------------------\n"
 
 #. STRINGS.CODEX.A1A_B111.SUBTITLE
 msgctxt "STRINGS.CODEX.A1A_B111.SUBTITLE"
@@ -16079,17 +16079,17 @@ msgstr "我今天開始了在引力科技的新工作。我…很好，我很緊
 #. STRINGS.CODEX.A2_B327.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A2_B327.BODY.CONTAINER2"
 msgid "<i>I screwed up so much today.</i>\n\nAt one point I spaced on the formula for calculating the volume of a cone. They must have thought I was completely useless.\n\nThe only time I knew what I was doing was when I helped an older coworker figure out her dumb old email.\n\nPeople say education isn't so important as long as you've got the skills, but there's things my colleagues know that I just <i>don't</i>. They're not mean about it or anything, it's just so frustrating. I feel dumb when I talk to them!\n\nI bet they're gonna realize soon that I don't belong here, and then I'll be fired for sure. Man... I'm still paying off my student loans (WITH international fees), I <i>can't</i> lose this income.\n------------------\n"
-msgstr "<I>我今天搞砸了。</i>\n\n在計算圓錐體的公式上我多空了一點，他們一定認為我沒有用。\n\n我唯一知道我有用的時候，就是教會了一位年長的同事使用她的電子郵件。\n\n人們總是說，拿握了技能教育就不是那麼重要，\n但我的同事知道有些事我就是 <i>不知道</I>。\n\n他們不是故意的，只是令人沮喪。\n與他們交談時，我感覺很蠢！\n\n我敢打賭，他們很會就會意識到我不屬於這裡，然後我肯定會被開除。\n伙計…我還在償還就學貸款（國際學費），我 <i>不能</i> 失去這份收入。\n------------------\n"
+msgstr "<i>我今天搞砸了。</i>\n\n在計算圓錐體的公式上我多空了一點，他們一定認為我沒有用。\n\n我唯一知道我有用的時候，就是教會了一位年長的同事使用她的電子郵件。\n\n人們總是說，拿握了技能教育就不是那麼重要，但我的同事知道有些事我就是<i>不知道</i>。\n\n他們不是故意的，只是令人沮喪。與他們交談時，我感覺很蠢！\n\n我敢打賭，他們很會就會意識到我不屬於這裡，然後我肯定會被開除。伙計…我還在償還就學貸款（國際學費），我<i>不能</i>失去這份收入。\n------------------\n"
 
 #. STRINGS.CODEX.A2_B327.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.A2_B327.BODY.CONTAINER3"
 msgid "Dr. Sklodowska's been really nice and welcoming since I started working here. Sometimes she comes and sits with me in the cafeteria. The food she brings from home smells like old feet but she chats with me about what new research papers we're each reading and it's very kind.\n\nShe tells me the fact I got hired without a doctorate means I must be very smart, and management must see something in me.\n\nI'm not sure I believe her but it's nice to hear something that counters little voice in my head anyway.\n------------------\n"
-msgstr "自從我開始在此工作後，Sklodowska 博士一直非常友善與熱情。\n有時她會和我坐在自助餐廳。她從家裡帶來的食物聞起來不是很美味，\n但她會和我聊聊每次閱讀的新文件是什麼，感覺真不錯。\n\n她告訴我一個事實，我沒有博士學就被錄取，\n表示我必須很聰明，管理層肯定在我身上看到了什麼特質。\n\n我不確定我是否相信她，\n但很高興聽到一些反駁我腦中微小聲音的事情。\n------------------\n"
+msgstr "自從我開始在此工作後，Sklodowska 博士一直非常友善與熱情。有時她會和我坐在自助餐廳。她從家裡帶來的食物聞起來不是很美味，但她會和我聊聊每次閱讀的新文件是什麼，感覺真不錯。\n\n她告訴我一個事實，我沒有博士學就被錄取，表示我必須很聰明，管理層肯定在我身上看到了什麼特質。\n\n我不確定我是否相信她，但很高興聽到一些反駁我腦中微小聲音的事情。\n------------------\n"
 
 #. STRINGS.CODEX.A2_B327.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.A2_B327.BODY.CONTAINER4"
 msgid "It's been about a week and a half and I think I'm finally starting to settle in. I'm feeling a lot better about my position - some of the senior scientists have even started using my ideas in the lab.\n\nDr. Sklodowska might have been right, my anxiety was just growing pains. This is my first real job and I guess afraid to let myself believe I could really, actually do it, just in case it went wrong.\n\nI think I want to buy Dr. Sklowdoska a digital reader for her books and papers as a thank-you one day, if I ever pay off my student loans.\n\nONCE I pay off my student loans.\n------------------\n"
-msgstr "經過了一周半，我想我開始適應了。\n我對我所處的職業感覺好多了－一些高級科學家甚至開始在實驗室裡採用我的點子。\n\nSklodowska 博士或許是對的，我的焦慮只是成長的痛苦。\n這是我第一份真正的工作，我想我只是不敢讓自己相信我可以做到－真的做到避免出錯。\n\n我想如果有天，我還清了我的就學貸款，我想給 Sklowdoska 博士她的書和文件買一個數位閱讀器。\n\n一旦我還清了我的就學貸款。\n------------------\n"
+msgstr "經過了一周半，我想我開始適應了。我對我所處的職業感覺好多了－一些高級科學家甚至開始在實驗室裡採用我的點子。\n\nSklodowska 博士或許是對的，我的焦慮只是成長的痛苦。這是我第一份真正的工作，我想我只是不敢讓自己相信我可以做到－真的做到避免出錯。\n\n我想如果有天，我還清了我的就學貸款，我想給 Sklowdoska 博士她的書和文件買一個數位閱讀器。\n\n一旦我還清了我的就學貸款。\n------------------\n"
 
 #. STRINGS.CODEX.A2_B327.SUBTITLE
 msgctxt "STRINGS.CODEX.A2_B327.SUBTITLE"
@@ -16169,22 +16169,22 @@ msgstr "熱力學定律"
 #. STRINGS.CODEX.A3_B556.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A3_B556.BODY.CONTAINER1"
 msgid "I've been so tired lately. I've probably spent the last 3 nights sleeping at my desk, and I've used the lab's safety shower to bathe twice already this month.\n\nWe're technically on schedule, but for some reason Director Stern has been breathing down my neck to get these new products ready for market.\n\nNormally I'd be mad about the added pressure on my work, but something in the Director's voice tells me that time is of the essence.\n------------------\n"
-msgstr "我最近好累。\n我大概在我的辦公桌前睡了三晚，\n這個月我用了實驗室的安全淋浴間洗了兩次澡。\n\n從技術上來說我們可如期上市，\n但出於某種原因 Stern 主任緊逼著我讓產品盡快推出市場。\n\n通常我會為工作上感到的壓力而抓狂，\n但經理的聲音告訴我時間是關鍵。\n------------------\n"
+msgstr "我最近好累。我大概在我的辦公桌前睡了三晚，這個月我用了實驗室的安全淋浴間洗了兩次澡。\n\n從技術上來說我們可如期上市，但出於某種原因 Stern 經理緊逼著我讓產品盡快推出市場。\n\n通常我會為工作上感到的壓力而抓狂，\n但經理的聲音告訴我時間是關鍵。\n------------------\n"
 
 #. STRINGS.CODEX.A3_B556.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A3_B556.BODY.CONTAINER2"
 msgid "I keep finding myself staring at my computer screen, totally unable to remember what it was I was doing.\n\nI try to force myself to type up some notes or analyze my data but it's like my brain is paralyzed, I can't get anything done.\n\nI'll have to stay late to make up for all this time I've wasted staying late.\n------------------\n"
-msgstr "我一直發現自己盯著我的電腦螢幕，但完全不知道我做些什麼。\n\n我試圖強迫自己輸入一些筆記或是分析我的資料，\n但我的大腦像是癱瘓了，我無法做任何事情。\n\n我必須熬夜才能補上我所浪費掉的熬夜時間。\n------------------\n"
+msgstr "我一直發現自己盯著我的電腦螢幕，但完全不知道我做些什麼。\n\n我試圖強迫自己輸入一些筆記或是分析我的資料，但我的大腦像是癱瘓了，我無法做任何事情。\n\n我必須熬夜才能補上我所浪費掉的熬夜時間。\n------------------\n"
 
 #. STRINGS.CODEX.A3_B556.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.A3_B556.BODY.CONTAINER3"
 msgid "Dr. Broussard told me I looked half dead and sent me home today. I don't think she even has the authority to do that, but I did as I was told. She wasn't messing around if you know what I mean.\n\nI can probably get a head start on my paper from home today, anyway.\n\nI think I have an idea for a circuit configuration that will improve the battery life of all our technologies by a whole 2.3%.\n------------------\n"
-msgstr "Broussard 博士告訴我，我今天看上去半死不活的，就將我送回家了。\n我認為她無權這麼做，但正如我被告知的，我被送回家了。\n如果你知道我的意思，她就不會這樣亂搞了。\n\n不管怎樣，我今天可以在家中開始撰寫的我論文。\n\n我對電路配置有個想法，可以將我們所有科技的電池壽命整體提高 2.3%。\n------------------\n"
+msgstr "Broussard 博士告訴我，我今天看上去半死不活的，就將我送回家了。我認為她無權這麼做，但正如我被告知的，我被送回家了。如果你知道我的意思，她就不會這樣亂搞了。\n\n不管怎樣，我今天可以在家中開始撰寫的我論文。\n\n我對電路配置有個想法，可以將我們所有科技的電池壽命整體提高 2.3%。\n------------------\n"
 
 #. STRINGS.CODEX.A3_B556.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.A3_B556.BODY.CONTAINER4"
 msgid "I got home yesterday fully intending to work on my paper after Broussard sent me home, but the second I walked in the door I hit the pillow and didn't get back up. I slept for <i>12 straight hours</i>.\n\nI had no idea I needed that. When I got into the lab this morning I looked over my work from the past few weeks, and realized it's completely useless.\n\nIt'll take me hours to correct all the mistakes I made these past few months. Is this what I was killing myself for? I'm such a rube, I owe Broussard a huge thanks.\n\nI'll start keeping more regular hours from now on... Also, I was considering maybe getting a dog."
-msgstr "昨天 Broussard 將我送回家後，我打算撰寫我的論文，\n但當我第二次走進門時，我撞上了枕頭然後就起不來了。\n我昏睡了整整 <i>12 小時</I>。\n\n我不知道我需要睡那麼久。\n當我在今天早上走進實驗室時，\n我檢視了自己過去幾周的工作，\n發現完全沒有進度。\n\n我需要花幾個小時來糾正我過去幾個月的所有錯誤。\n這就是我要自殺的原因嗎？ \n我真爛，我要對 Broussard 深表謝意。\n\n從現在開始我要保持正常的工作時間…\n另外，我在考慮養一隻狗。"
+msgstr "昨天 Broussard 將我送回家後，我打算撰寫我的論文，但當我第二次走進門時，我撞上了枕頭然後就起不來了。我昏睡了<i>整整 12 小時</i>。\n\n我不知道我需要睡那麼久。當我在今天早上走進實驗室時，我檢視了自己過去幾周的工作，發現完全沒有進度。\n\n我需要花幾個小時來糾正我過去幾個月的所有錯誤。這就是我要自殺的原因嗎？我真爛，我要對 Broussard 深表謝意。\n\n從現在開始我要保持正常的工作時間…另外，我在考慮養一隻狗。"
 
 #. STRINGS.CODEX.A3_B556.SUBTITLE
 msgctxt "STRINGS.CODEX.A3_B556.SUBTITLE"
@@ -16204,7 +16204,7 @@ msgstr "<indent=5%>天阿～我今天發現 Devon 是那種會替食物拍照的
 #. STRINGS.CODEX.A3_DEVONSBLOG.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A3_DEVONSBLOG.BODY.CONTAINER2"
 msgid "<indent=5%>Oh cool, Devon's writing a new post for <i>Toast of the Town</i>? I'd love to tag along and \"see how the sausage is made\" so to speak, haha.\n\nI'll see you guys in a bit! :)</indent>"
-msgstr "<indent=5%>喔～酷，Devon 寫的新文章 <I>土司小鎮</I> ？我很喜歡並標記了「看看香腸是如何製作的」可以這麼說吧，哈哈。\n\n在一會就可以見到你們了！:)</indent>"
+msgstr "<indent=5%>喔～酷，Devon 寫的新文章 <i>土司小鎮</i> ？我很喜歡並標記了「看看香腸是如何製作的」可以這麼說吧，哈哈。\n\n在一會就可以見到你們了！:)</indent>"
 
 #. STRINGS.CODEX.A3_DEVONSBLOG.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.A3_DEVONSBLOG.BODY.CONTAINER3"
@@ -16309,7 +16309,7 @@ msgstr "新的安全協議"
 #. STRINGS.CODEX.A4_ATOMICONRECRUITMENT.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A4_ATOMICONRECRUITMENT.BODY.CONTAINER2"
 msgid "<indent=5%>Director,\n\nEverything went well. Broussard was reluctant at first, but she has little alternative given the nature of her work and the recent turn of events.\n\nShe can begin at your convenience.</indent>"
-msgstr "<indent=5%>經理，\n\n一切順利。\n起初 Broussard 不情願，但鑑於他的工作性質，他幾乎沒有其他選擇。\n\n他可以在您方便的時候開始。</indent>"
+msgstr "<indent=5%>經理，\n\n一切順利。起初 Broussard 不情願，但鑑於他的工作性質，他幾乎沒有其他選擇。\n\n他可以在您方便的時候開始。</indent>"
 
 #. STRINGS.CODEX.A4_ATOMICONRECRUITMENT.BODY.EMAILHEADER1
 msgctxt "STRINGS.CODEX.A4_ATOMICONRECRUITMENT.BODY.EMAILHEADER1"
@@ -16334,27 +16334,27 @@ msgstr "來自原子部門的結果"
 #. STRINGS.CODEX.A4_B835.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A4_B835.BODY.CONTAINER1"
 msgid "I started work at a new company called the \"Gravitas Facility\" today! I was nervous I wouldn't get the job at first because I was fresh out of school, and I was so so so pushy in the interview, but the Director apparently liked my thesis on the physiological thermal regulation of Arctic lizards. I'll be working with some brilliant geneticists, bioengineering organisms for space travel in harsh environments! It's like a dream come true. I get to work on exciting new research in a place where no one knows me!\n------------------\n"
-msgstr "我今天開始在一間叫作「引力科技」的公司上班！\n我最初擔心自己不會得到這份工作，\n因為我剛從學校畢業，所以我在面試時表現的很積極，\n但是經理顯然喜歡我關於北極蜥蜴的生理溫度調節的論文。\n\n我將與一些傑出的遺傳學家，生物工程所製造的生物們，\n一起在惡劣的環境中進行太空旅行！\n\n這就像夢想成真。\n我在一個沒有人認識我的地方展開激動人心的新研究！\n------------------\n"
+msgstr "我今天開始在一間叫作「引力科技」的公司上班！我最初擔心自己不會得到這份工作，因為我剛從學校畢業，所以我在面試時表現的很積極，但是經理顯然喜歡我關於北極蜥蜴的生理溫度調節的論文。\n\n我將與一些傑出的遺傳學家，生物工程所製造的生物們，一起在惡劣的環境中進行太空旅行！\n\n這就像夢想成真。我在一個沒有人認識我的地方展開激動人心的新研究！\n------------------\n"
 
 #. STRINGS.CODEX.A4_B835.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A4_B835.BODY.CONTAINER2"
 msgid "No no no no no! It can't be! BANHI ANSARI is here, working on space shuttle thrusters in the robotics lab! As soon as she saw me she called me \"Bubbles\" and told everyone about the time I accidentally inhaled a bunch of fungal spores during lab, blew a big snot bubble out my nose and then sneezed all over Professor Avery! Everyone's calling me \"Bubbles\" instead of \"Doctor\" at work now. Some of them don't even know it's a nickname, but I don't want to correct them and seem rude or anything. Ugh, I can't believe that story followed me here! BANHI RUINS EVERYTHING!\n------------------\n"
-msgstr "不～～～～！\nBANHI ANSARI 在這裡，在機器人實驗室研究太空船推進器！\n\n他一見到我，就叫我「泡泡」，\n並將我在實驗室裡意外吸入一堆真菌孢子的糗事告訴了大家，\n從鼻子裡吹出一個大鼻涕泡泡，然後在 Avery 教授身上打噴嚏！\n\n我不敢相信這個故事跟著我來到這裡！\nBANHI 破壞了一切！\n------------------\n"
+msgstr "不不不不不！ 不可能！BANHI ANSARI 在這裡，在機器人實驗室研究太空船推進器！她一見到我，就叫我「泡泡」，並將我在實驗室裡意外吸入一堆真菌孢子的糗事告訴了大家，從鼻子裡噴出了一個大鼻涕泡泡，然後打噴嚏到了 Avery 教授身上！現在工作中每個人都叫我「泡泡」而不是「醫生」。他們中的一些人甚至不知道這是一個暱稱，但我不想糾正他們，看起來很粗魯什麼的。 呃，我不敢相信這個故事跟著我來到這裡！BANHI 破壞了一切！\n------------------\n"
 
 #. STRINGS.CODEX.A4_B835.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.A4_B835.BODY.CONTAINER3"
 msgid "I've spent the last few days buried in my work, and I'm actually feeling a lot better. We finally perfected a gene manipulation that controls heat sensitivity in rats. Our test subjects barely even shiver in subzero temperatures now. We'll probably do a testrun tomorrow with Robotics to see how the rats fare in the prototype shuttles we're developing.\n------------------\n"
-msgstr "我將自己埋入工作幾天後，現在我感覺好多了。\n我們最後完美的控制的了小白鼠的熱感覺器官。\n我們的測試對象現在幾乎不會在零度以下感到寒冷。\n\n我們明天可能會和機器人部門一起做個測試，\n看看小白鼠們在我們開發的原型機中會表現如何。\n------------------\n"
+msgstr "我將自己埋入工作幾天後，現在我感覺好多了。我們最後完美的控制的了小白鼠的熱感覺器官。我們的測試對象現在幾乎不會在零度以下感到寒冷。\n\n我們明天可能會和機器人部門一起做個測試，看看小白鼠們在我們開發的原型機中會表現如何。\n------------------\n"
 
 #. STRINGS.CODEX.A4_B835.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.A4_B835.BODY.CONTAINER4"
 msgid "HAHAHAHAHA! Bioengineering and Robotics did the test run today and Banhi was securing the live cargo pods when one of the rats squeaked at her. She was so scared, she fell on her butt and TOOTED in front of EVERYONE! They're all calling her \"Pipsqueak\". \"Bubbles\" doesn't seem quite so bad now. Pipsqueak's been a really good sport about it though, she even laughed it off at the time. I think we might actually be friends now? It's weird.\n------------------\n"
-msgstr "哈～～～～！\n生物工程部與機器人部今天在做測試的時候，\n當時 Banhi 正在固定活體貨艙，其中有隻小白鼠對著他狂叫。\n\n他感到很害怕，當著大家的面坐在地上哭了起來！\n他們現在稱他為「膽小鬼」－而「泡泡」現在聽起來似乎沒那麼遭了。\n膽小鬼似乎是個不錯的玩笑，他當時聽了也哈哈大笑。\n\n我覺得現在我們真的成為了朋友？\n有點奇怪。\n------------------\n"
+msgstr "哈～～～～！生物工程部與機器人部今天在做測試的時候，當時 Banhi 正在固定活體貨艙，其中有隻小白鼠對著他狂叫。她感到很害怕，當著大家的面坐在地上哭了起來！他們現在稱他為「膽小鬼」－而「泡泡」現在聽起來似乎沒那麼遭了。膽小鬼似乎是個不錯的玩笑，她當時聽了也哈哈大笑。我覺得現在我們真的成為了朋友？\n有點奇怪。\n------------------\n"
 
 #. STRINGS.CODEX.A4_B835.BODY.CONTAINER5
 msgctxt "STRINGS.CODEX.A4_B835.BODY.CONTAINER5"
 msgid "I lied. Me and Banhi aren't friends - we're BEST FRIENDS. She even showed me how she does her hair. We're gonna book the wind tunnel after work and run experiments together on thermo-rat rockets! Haha!\n------------------\n"
-msgstr "我撒了謊。\n我和 Banhi 不是朋友－我們是最好的朋友。\n他甚至向我展示了他的髮型。\n下班之後我們要去預約一個風洞，並和他一起在熱鼠火箭上實驗！\n哈哈！\n------------------\n"
+msgstr "我撒了謊。我和 Banhi 不是朋友－我們是最好的朋友。她甚至向我展示了她的髮型。下班之後我們要去預約一個風洞，並和她一起在熱鼠火箭上實驗！哈哈！\n------------------\n"
 
 #. STRINGS.CODEX.A4_B835.SUBTITLE
 msgctxt "STRINGS.CODEX.A4_B835.SUBTITLE"
@@ -16389,7 +16389,7 @@ msgstr "實驗 7D\n安全碼：B111\n\n實驗體：#762，「Hibiscus-3」\n成�
 #. STRINGS.CODEX.A4_HIBISCUS3.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A4_HIBISCUS3.BODY.CONTAINER2"
 msgid "Hypothesis: Subjects cloned from Hibiscus will correctly operate a lever apparatus when introduced, demonstrating retention of original donor's conditioned memories.\n\nDonor subject #650, \"Hibiscus\", conditioned to pull a lever to the right for a reward (almonds). Conditioning took place over a period of two weeks.\n\nHibiscus quickly learned that pulling the lever to the left produced no results, and was reliably demonstrating the desired behavior by the end of the first week.\n\nTraining continued for one additional week to strengthen neural pathways and ensure the intended behavioral conditioning was committed to long term and muscle memory.\n\nCloning subject #762, \"Hibiscus-3\", was introduced to the lever apparatus to ascertain memory retention and recall.\n\nHibiscus-3 showed no signs of recognition and did not perform the desired behavior. Subject initially failed to interact with the apparatus on any level.\n\nOn second introduction, Hibiscus-3 pulled the lever to the left.\n\nConclusion: Printed subject retains no memory from donor."
-msgstr "假設：Hibiscus 的複製實驗體，在引入操作設備時可以正確的操作，證明他保有了捐贈者原來的訓練記憶。\n\n捐贈實驗體 #650，「Hibiscus」，條件是將控制桿向右拉以獲得獎勵（杏仁）。\n訓練花了超過兩周。\n\nHibiscus 很快的學會了將控制向左拉沒有事發生，並且在第一周結束時確實地證明了有期望行為。\n\n訓練持續了一周，為了強化神經傳導與確保預期行為與肌肉記憶長期有效。\n\n複製實驗體 #762，「Hibiscus-3」，從操作設備的控制桿可以了解記憶的保留與回想。\n\nHibiscus-3 沒有表現出任何記得的跡象，也沒有表現出期望行為。\n實驗體最初未能與任何等級的設備互動。\n\n在第二次引入時，Hibiscus-3 控制桿拉向左拉。\n\n結論：列印實驗體不會保留捐贈者的記憶。"
+msgstr "假設：Hibiscus 的複製實驗體，在引入操作設備時可以正確的操作，證明她保有了捐贈者原來的訓練記憶。\n\n捐贈實驗體 #650，「Hibiscus」，條件是將控制桿向右拉以獲得獎勵（杏仁）。訓練花了超過兩周。\n\nHibiscus 很快的學會了將控制向左拉沒有事發生，並且在第一周結束時確實地證明了有期望行為。\n\n訓練持續了一周，為了強化神經傳導與確保預期行為與肌肉記憶長期有效。\n\n複製實驗體 #762，「Hibiscus-3」，從操作設備的控制桿可以了解記憶的保留與回想。\n\nHibiscus-3 沒有表現出任何記得的跡象，也沒有表現出期望行為。實驗體最初未能與任何等級的設備互動。\n\n在第二次引入時，Hibiscus-3 控制桿拉向左拉。\n\n結論：列印實驗體不會保留捐贈者的記憶。"
 
 #. STRINGS.CODEX.A4_HIBISCUS3.SUBTITLE
 msgctxt "STRINGS.CODEX.A4_HIBISCUS3.SUBTITLE"
@@ -16404,7 +16404,7 @@ msgstr "實驗 7D"
 #. STRINGS.CODEX.A5_GENETICOOZE.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A5_GENETICOOZE.BODY.CONTAINER1"
 msgid "[LOG BEGINS]\n\nThe Printing Pod is primed by a synthesized bio-organic concoction the technicians have taken to calling \"Ooze\", a specialized mixture composed of water, carbon, and dozens upon dozens of the trace elements necessary for the creation of life.\n\nThe pod reconstitutes these elements into a living organism using the blueprints we feed it, before finally administering a shock of life.\n\nIt is like any other 3D printer. We just use different ink.\n\nDr. Broussard, signing off.\n\n[LOG ENDS]"
-msgstr "【日誌開始】\n\n此列印設備填充了一種綜合的生物有機合成物，技術人員稱它為「基因軟泥」，\n一種由水、炭、以及數十種創造生命所必需的微量元素組成的特殊混合物。\n\n此設備依使用的藍圖將這些元素重新組成一個生命體，最後給予生命的衝擊。\n\n它就像是任何其它的 3D 列印機。\n我們只是使用不同的墨水。\n\nBroussard 博士，簽字\"\n\n【日誌結束】"
+msgstr "【日誌開始】\n\n此列印設備填充了一種綜合的生物有機合成物，技術人員稱它為「基因軟泥」，一種由水、炭、以及數十種創造生命所必需的微量元素組成的特殊混合物。\n\n此設備依使用的藍圖將這些元素重新組成一個生命體，最後給予生命的衝擊。\n\n它就像是任何其它的 3D 列印機。我們只是使用不同的墨水。\n\nBroussard 博士，簽字\"\n\n【日誌結束】"
 
 #. STRINGS.CODEX.A5_GENETICOOZE.SUBTITLE
 msgctxt "STRINGS.CODEX.A5_GENETICOOZE.SUBTITLE"
@@ -16469,12 +16469,12 @@ msgstr "<indent=5%><I>哼，</i> 隨便你。</indent>"
 #. STRINGS.CODEX.A5_THEJANITOR.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.A5_THEJANITOR.BODY.CONTAINER3"
 msgid "<indent=5%>Aw, he's really nice if you get to know him though. Really dependable too. One time I busted a wheel off my office chair and he got me a new one in like, two minutes. I think he's just sweaty because he works so hard.</indent>"
-msgstr "<indent=5%>哦，如果你了解他，他真的很好。\n真的很可靠。\n\n有一次我的辦公椅掉了一個輪子，他很快的幫我修好了。\n\n我覺得那只是他的汗臭味，因為他工作相當認真。</indent>"
+msgstr "<indent=5%>哦，如果你了解他，他真的很好。真的很可靠。\n\n有一次我的辦公椅掉了一個輪子，他很快的幫我修好了。\n\n我覺得那只是他的汗臭味，因為他工作相當認真。</indent>"
 
 #. STRINGS.CODEX.A5_THEJANITOR.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.A5_THEJANITOR.BODY.CONTAINER4"
 msgid "<indent=5%>OMIGOSH have you seen our building's janitor? He totally smells and he has sweat stains under his armpits like EVERY time I see him. SO embarrassing.</indent>"
-msgstr "<indent=5%>OMIGOSH 你遇見過我們大樓的清潔工嗎？\n每次我遇到他都聞到他身上的體臭。\n令人難受。</indent>"
+msgstr "<indent=5%>OMIGOSH 你遇見過我們大樓的清潔工嗎？每次我遇到他都聞到他身上的體臭。令人難受。</indent>"
 
 #. STRINGS.CODEX.A5_THEJANITOR.BODY.EMAILHEADER1
 msgctxt "STRINGS.CODEX.A5_THEJANITOR.BODY.EMAILHEADER1"
@@ -16534,12 +16534,12 @@ msgstr "洗碗機器人"
 #. STRINGS.CODEX.A6_MEMORYIMPLANTATION.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A6_MEMORYIMPLANTATION.BODY.CONTAINER1"
 msgid "[LOG BEGINS]\n\nTraditionally, cloning produces a subject that is genetically identical to the donor but develops independently, producing a being that is, in its own way, unique.\n\nThe pod, conversely, attempts to print an exact atomic copy. Theoretically all neural pathways should be intact and identical to the original subject.\n\nIt's fascinating, given this, that memories are not already inherent in our subjects; however, no cloned subjects as of yet have shown any signs of recognition when introduced to familiar stimuli, such as the donor subject's enclosure.\n\nRefer to Experiment 7D.\n\nRefer to Experiment 7F."
-msgstr "【日誌開始】\n\n傳統上，複製實驗體在遺傳學上會與捐贈者完全一樣，\n但在獨立發展後，會以自己的方式產生一種獨立的存在。\n\n而這個設備，則反過來，企圖列印一個原子級的複製品。\n從理論上講，所有神經系統都應該是完整並與原實驗體相同。\n\n於此，令人著迷的是，在我們的實驗體身上沒有相關的記憶；\n不管用什麼方法，當引入熟悉的刺激物時，\n複製的實驗體沒有表現出認得的樣子，例如捐贈者的隨身物。\n\n參考實驗 7D。\n\n參考實驗 7F。"
+msgstr "【日誌開始】\n\n傳統上，複製實驗體在遺傳學上會與捐贈者完全一樣，但在獨立發展後，會以自己的方式產生一種獨立的存在。\n\n而這個設備，則反過來，企圖列印一個原子級的複製品。從理論上講，所有神經系統都應該是完整並與原實驗體相同。\n\n於此，令人著迷的是，在我們的實驗體身上沒有相關的記憶；不管用什麼方法，當引入熟悉的刺激物時，複製的實驗體沒有表現出認得的樣子，例如捐贈者的隨身物。\n\n參考實驗 7D。\n\n參考實驗 7F。"
 
 #. STRINGS.CODEX.A6_MEMORYIMPLANTATION.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A6_MEMORYIMPLANTATION.BODY.CONTAINER2"
 msgid "\nMemories <i>must</i> be embedded within the physical brainmaps of our subjects. The only question that remains is how to activate them. Hormones? Chemical supplements? Situational triggers?\n\nThe Director seems eager to move past this problem, and I am concerned at her willingness to bypass essential stages of the research development process.\n\nWe cannot move on to the fine polish of printing systems until the core processes have been perfected - which they have not.\n\nDr. Broussard, signing off.\n\n[LOG ENDS]"
-msgstr "\n記憶 <i>必須</i> 植入實驗體的大腦中。\n唯一的問題是要如何產生作用。\n激素？化學補充劑？情境觸發？\n\n經理似乎急於解決這個問題，\n我擔心他會跳過必要的研發階段。\n\n在核心流程得到完善之前，\n我們無法繼續對列印系統進行優化－而這些流程尚未完善。\n\nBroussard 博士，簽字。\n\n【日誌結束】"
+msgstr "\n記憶<b>必須</b>植入實驗體的大腦中。唯一的問題是要如何產生作用。激素？化學補充劑？情境觸發？\n\n經理似乎急於解決這個問題，我擔心他會跳過必要的研發階段。\n\n在核心流程得到完善之前，我們無法繼續對列印系統進行優化－而這些流程尚未完善。\n\nBroussard 博士，簽字。\n\n【日誌結束】"
 
 #. STRINGS.CODEX.A6_MEMORYIMPLANTATION.SUBTITLE
 msgctxt "STRINGS.CODEX.A6_MEMORYIMPLANTATION.SUBTITLE"
@@ -16554,7 +16554,7 @@ msgstr "記憶功能障礙日誌"
 #. STRINGS.CODEX.A6_NEWSECURITY2.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A6_NEWSECURITY2.BODY.CONTAINER2"
 msgid "<indent=5%>So, the facility is introducing this new security system that scans your hand to unlock the doors. My question is, what exactly are they scanning?\n\nThe folks in engineering say the door device doesn't look like a fingerprint scanner, but the duo working over in bioengineering won't comment at all.\n\nI can't say I like it.</indent>"
-msgstr "<indent=5%>因此，公司引進了新的安檢系統，當它們掃描了你的手後門會打開。\n我的問題是，他們到底掃描的是什麼？\n\n工程部的人說門上裝置看起來不像指紋掃描機，\n但在生物工程部的二人組對此不發表任何評論。\n\n我無法說出，我喜歡它。</indent>"
+msgstr "<indent=5%>因此，公司引進了新的安檢系統，當它們掃描了你的手後門會打開。我的問題是，他們到底掃描的是什麼？\n\n工程部的人說門上裝置看起來不像指紋掃描機，但在生物工程部的二人組對此不發表任何評論。\n\n我無法說出，我喜歡它。</indent>"
 
 #. STRINGS.CODEX.A6_NEWSECURITY2.BODY.EMAILHEADER1
 msgctxt "STRINGS.CODEX.A6_NEWSECURITY2.BODY.EMAILHEADER1"
@@ -16634,7 +16634,7 @@ msgstr "歡迎，新同事"
 #. STRINGS.CODEX.A8_CLEANUPTHEMESS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A8_CLEANUPTHEMESS.BODY.CONTAINER1"
 msgid "I cleaned up a few messes in my time, but ain't nothing like the mess I seen today in that bio lab. Green goop all over the floor, all over the walls. Murky tubes with what look like human shapes floating in them.\n\nThey think old Mr. Gunderson ain't got smarts enough to put two and two together, but I got eyes, don't I?\n\nAin't nobody ever pay attention to the janitor.\n\nBut the janitor pays attention to everybody.\n\n-Mr. Stinky Gunderson"
-msgstr "我在工作時間內清理一些髒汙，\n但這不像是我今天在生物實驗室看到的那種髒汙。\n地板與牆壁上到處都是綠色的黏液。\n模糊的管道裡有著看起來像是人型的東西漂浮著。\n\n他們認為 Gunderson 先生年紀大且不聰明才會將其兩兩安排為一組，\n但我有眼睛看，不是嗎？\n\n再一次，沒有任何人注意到清潔工。\n\n－Stinky Gunderson 先生"
+msgstr "我在工作時間內清理一些髒汙，但這不像是我今天在生物實驗室看到的那種髒汙。地板與牆壁上到處都是綠色的黏液。模糊的管道裡有著看起來像是人型的東西漂浮著。\n\n他們認為 Gunderson 先生年紀大且不聰明才會將其兩兩安排為一組，但我有眼睛看，不是嗎？\n\n再一次，沒有任何人注意到清潔工。\n\n－Stinky Gunderson 先生"
 
 #. STRINGS.CODEX.A8_CLEANUPTHEMESS.SUBTITLE
 msgctxt "STRINGS.CODEX.A8_CLEANUPTHEMESS.SUBTITLE"
@@ -16649,7 +16649,7 @@ msgstr "清潔髒汙"
 #. STRINGS.CODEX.A8_FIRSTSUCCESS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A8_FIRSTSUCCESS.BODY.CONTAINER1"
 msgid "We've successfully compressed and expanded small portions of time under .03 milliseconds. This proves that time is something that can be physically acted upon, suggesting that our vision is attainable.\n\nAn unintentional consequence of both the expansion and contraction of time is the creation of a \"vacuum\" in the space between the affected portion of time and the much more expansive unaffected portions.\n\nSo far, we are seeing that the unaffected time on either side of the manipulated portion will expand or contract to fill the vacuum, although we are unsure how far-reaching this consequence is or what effect it has on the laws of the natural universe. At the end of all compression and expansion experiments, alterations to time are undone and leave no lasting change."
-msgstr "我們成功在 .03 毫秒內壓縮和延長一小段時間。\n這證明了時間是可以物理作用的，\n暗示了我們的願景是可以實現的。\n\n延長與縮短時間的意外結果是，\n在太空中受影響時間的部分與大多未受影響的部分之間型成了一個 「真空」。\n\n到目前為止，\n我們已觀察到被操縱部的的兩端未受影響的部分會延長或是收縮以填滿真空，\n儘管我們不確定此結果的影響範圍或是對自然宇宙的法則造成了什麼影響。\n\n在所有的壓縮與延長實驗結束後，\n對時間的調整都將取消並不會造成持久的影響。"
+msgstr "我們成功在 .03 毫秒內壓縮和延長一小段時間。這證明了時間是可以物理作用的，暗示了我們的願景是可以實現的。\n\n延長與縮短時間的意外結果是，在太空中受影響時間的部分與大多未受影響的部分之間型成了一個「真空」。\n\n到目前為止，我們已觀察到被操縱部的的兩端未受影響的部分會延長或是收縮以填滿真空，儘管我們不確定此結果的影響範圍或是對自然宇宙的法則造成了什麼影響。\n\n在所有的壓縮與延長實驗結束後，對時間的調整都將取消並不會造成持久的影響。"
 
 #. STRINGS.CODEX.A8_FIRSTSUCCESS.SUBTITLE
 msgctxt "STRINGS.CODEX.A8_FIRSTSUCCESS.SUBTITLE"
@@ -16704,7 +16704,7 @@ msgstr "可能的應用"
 #. STRINGS.CODEX.A9_PIPEDREAM.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A9_PIPEDREAM.BODY.CONTAINER1"
 msgid "[LOG BEGINS]\n\nThe Director has suggested implanting artificial memories during print, but despite the great strides made in our research under her direction, such a thing can barely be considered more than a pipe dream.\n\nFor the moment we remain focused on eliminating the remaining glitches in the system, as well as developing effective education and training routines for printed subjects.\n\nSuggest: Omega-3 supplements and mentally stimulating enclosure apparatuses to accompany tutelage.\n\nDr. Broussard signing off.\n\n[LOG ENDS]"
-msgstr "【日誌開始】\n\n經理健議在列印期間植入人工記憶，\n儘管我們的研究在他的指導下取得了很大的進步，\n不會再被認為是一場白日夢。\n\n目前我們仍然專注於消除系統中剩餘的異常狀況，\n以及為列印出的實驗體開發有效的教育與訓練項目。\n\n建議：Omega 3 補充劑與附有保護裝置的精神刺激設備。\n\nBroussard 博士，簽字。\n\n【日誌結束】"
+msgstr "【日誌開始】\n\n經理健議在列印期間植入人工記憶，儘管我們的研究在他的指導下取得了很大的進步，不會再被認為是一場白日夢。\n\n目前我們仍然專注於消除系統中剩餘的異常狀況，以及為列印出的實驗體開發有效的教育與訓練項目。\n\n建議：Omega 3 補充劑與附有保護裝置的精神刺激設備。\n\nBroussard 博士，簽字。\n\n【日誌結束】"
 
 #. STRINGS.CODEX.A9_PIPEDREAM.SUBTITLE
 msgctxt "STRINGS.CODEX.A9_PIPEDREAM.SUBTITLE"
@@ -16759,17 +16759,17 @@ msgstr "自動化是一種在殖民地內利用各種感測器來控制並操作
 #. STRINGS.CODEX.AUTOMATION.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.AUTOMATION.PARAGRAPH_2"
 msgid "In addition to an <link=\"WIRE\">electrical wire</link>, most powered buildings can also have an <link=\"LOGICWIRE\">Automation Wire</link> connected to them. This wire can signal the building to turn on or off. If the other end of a <link=\"LOGICWIRE\">Automation Wire</link> is connected to a sensor, the building will turn on and off as the sensor outputs signals.\n\n"
-msgstr "除了<link=\"WIRE\">電線</link>外，多數的用電設施都可用<link=\"LOGICWIRE\">訊號線</link>連接。\n訊號線可以發出訊號控制建築的開或關。\n如果<link=\"LOGICWIRE\">訊號線</link>的另一端已連接到感測器，在感覺器發出訊號時，建築會打開或關閉。\n\n"
+msgstr "除了<link=\"WIRE\">電線</link>外，多數的用電設施都可用<link=\"LOGICWIRE\">訊號線</link>連接。訊號線可以發出訊號控制建築的開或關。如果<link=\"LOGICWIRE\">訊號線</link>的另一端已連接到感測器，在感覺器發出訊號時，建築會打開或關閉。\n\n"
 
 #. STRINGS.CODEX.AUTOMATION.PARAGRAPH_3
 msgctxt "STRINGS.CODEX.AUTOMATION.PARAGRAPH_3"
 msgid "There are two signals that an <link=\"LOGICWIRE\">Automation Wire</link> can send: Green and Red. The green signal will usually cause buildings to turn on, and the red signal will usually cause buildings to turn off. Sensors can often be configured to send their green signal only under certain conditions. A <link=\"LOGICTEMPERATURESENSOR\">Thermo Sensor</link> could be configured to only send a green signal if detecting temperatures greater than a chosen value.\n\n"
-msgstr "<link=\"LOGICWIRE\">訊號線</link>可以發出：綠色與紅色兩種訊號。\n綠色訊號通常會將建築物打開，而紅色訊號通常會將建築物關閉。\n感測器通常可以設定只在某些條件發出綠色訊號。\n像是<link=\"LOGICTEMPERATURESENSOR\">溫度感測器</link>可設定為只在偵測到溫度高於所設定的值時發出綠色訊號。\n\n"
+msgstr "<link=\"LOGICWIRE\">訊號線</link>可以發出：綠色與紅色兩種訊號。綠色訊號通常會將建築物打開，而紅色訊號通常會將建築物關閉。感測器通常可以設定只在某些條件發出綠色訊號。像是<link=\"LOGICTEMPERATURESENSOR\">溫度感測器</link>可設定為只在偵測到溫度高於所設定的值時發出綠色訊號。\n\n"
 
 #. STRINGS.CODEX.AUTOMATION.PARAGRAPH_4
 msgctxt "STRINGS.CODEX.AUTOMATION.PARAGRAPH_4"
 msgid "The signals of sensor wires can be combined using special buildings called \"Gates\" in order to create complex activation conditions.\nThe <link=\"LOGICGATEAND\">AND Gate</link> can have two automation wires connected to its input slots, and one connected to its output slots. It will send a \"Green\" signal to its output slot only if it is receiving a \"Green\" signal from both its input slots. This could be used to activate a building only when multiple sensors are detecting something.\n\n"
-msgstr "為了實現某些複雜的啟動條件，感測器的訊號線可以使用稱為「邏輯閘」的特殊建築結合在一起。\n<link=\"LOGICGATEAND\">及閘</link>可以連接兩條訊號輸入線，然後連接一條訊號輸出線。\n如果在兩個輸入訊號都是「綠色」的時候，它會輸出「綠色」訊號。\n這可以用於只有當多個感測器檢查到某些事物時才啟動建築。\n\n"
+msgstr "為了實現某些複雜的啟動條件，感測器的訊號線可以使用稱為「邏輯閘」的特殊建築結合在一起。<link=\"LOGICGATEAND\">及閘</link>可以連接兩條訊號輸入線，然後連接一條訊號輸出線。如果在兩個輸入訊號都是「綠色」的時候，它會輸出「綠色」訊號。這可以用於只有當多個感測器檢查到某些事物時才啟動建築。\n\n"
 
 #. STRINGS.CODEX.AUTOMATION.TITLE
 msgctxt "STRINGS.CODEX.AUTOMATION.TITLE"
@@ -16779,12 +16779,12 @@ msgstr "<link=\"LOGIC\">自動化</link>"
 #. STRINGS.CODEX.B1_HOLLANDSDOG.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B1_HOLLANDSDOG.BODY.CONTAINER1"
 msgid "<indent=5%>OMIGOD, every time I go into the break room now I get ambushed by Dr. Holland and he traps me in a 20 minute conversation about his new dog.\n\nLike, I GET it! Your puppy is cute! Why do you have like 400 different pictures of it on your phone, FROM THE SAME ANGLE?!\n\nSO annoying.</indent>"
-msgstr "<indent=5%>天阿，每當我進入休息室，都會被迫與 Holland 博士聊閼於他新養的狗的話題長達 20 分鐘。\n\n像是，我得到它！你的小狗很可愛！\n為什麼你的手機裡有 400 張不同的相片，來自相同的角度？！\n\n很煩人。</indent>"
+msgstr "<indent=5%>天阿，每當我進入休息室，都會被迫與 Holland 博士聊關於他新養的狗的話題長達 20 分鐘。\n\n像是，我得到它！你的小狗很可愛！\n為什麼你的手機裡有 400 張不同的相片，來自相同的角度？！\n\n很煩人。</indent>"
 
 #. STRINGS.CODEX.B1_HOLLANDSDOG.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.B1_HOLLANDSDOG.BODY.CONTAINER2"
 msgid "<indent=5%>Haha, I think it's nice, he really loves his dog. Oh! Did I show you the thing my cat did last night? She always falls asleep on my bed but this time she sprawled out on her back and her little tongue was poking out! So cute.\n\n<color=#F44A47>[BROKEN IMAGE]</color>\n<alpha=#AA>[121 MISSING ATTACHMENTS]</color></indent>"
-msgstr "<indent=5%>哈哈，我覺得那很好，他真的很喜歡他的狗。\n喔！我讓你看過我的貓做了什麼嗎？\n他總是睡在我的床上，但昨晚他睡到翻過來，\n並將他的小舌頭伸出來！\n好可愛。\n\n<color=#F44A47>>【損壞的圖片】</color>\n<alpha=#AA>【121 遺失檔案附件】</color></indent>"
+msgstr "<indent=5%>哈哈，我覺得那很好，他真的很喜歡他的狗。喔！我讓你看過我的貓做了什麼嗎？她總是睡在我的床上，但昨晚她睡到翻過來，並將她的小舌頭伸出來！好可愛。\n\n<color=#F44A47>>【損壞的圖片】</color>\n<alpha=#AA>【121 遺失檔案附件】</color></indent>"
 
 #. STRINGS.CODEX.B1_HOLLANDSDOG.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.B1_HOLLANDSDOG.BODY.CONTAINER3"
@@ -16829,7 +16829,7 @@ msgstr "Holland 博士的狗"
 #. STRINGS.CODEX.B1_SPACEFACILITYDISPLAY1.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B1_SPACEFACILITYDISPLAY1.BODY.CONTAINER1"
 msgid "Bring your office to the stars with Gravitas new corporate space stations.\n\nEnjoy a captivated workforce with over 600 square feet of office space in low earth orbit. Stunning views, a low gravity gym and a cafeteria serving the finest nutritional bars await your personnel.\n\nDaily to and from missions to your satellite office via our luxury space shuttles.\n\nRest assured our space stations and shuttles utilize only the extremely efficient, environmentally friendly Gravitas proprietary power sources.\n\nThe workplace revolution starts now!"
-msgstr "將你的辦公室搬到太空中的引力科技新型企業太空站。\n\n在低地球軌道上超過 600 平方英尺的辦公空間，享受迷人的勞動力。\n令人讚嘆的景色、低重力健身房與最好的能量棒在餐廳裡等著你的員工。\n\n透過我們的豪華太空船每日往返你的衛星辦公室。\n\n請放心，我們的太空站與太空船只使用非常高效，最環保的引力科技能源。\n\n職場革命從現在開始！"
+msgstr "將你的辦公室搬到太空中的引力科技新型企業太空站。\n\n在低地球軌道上超過 600 平方英尺的辦公空間，享受迷人的勞動力。令人讚嘆的景色、低重力健身房與最好的能量棒在餐廳裡等著你的員工。\n\n透過我們的豪華太空船每日往返你的衛星辦公室。\n\n請放心，我們的太空站與太空船只使用非常高效，最環保的引力科技能源。\n\n職場革命從現在開始！"
 
 #. STRINGS.CODEX.B1_SPACEFACILITYDISPLAY1.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.B1_SPACEFACILITYDISPLAY1.BODY.CONTAINER2"
@@ -16884,7 +16884,7 @@ msgstr "辦公室蛋糕"
 #. STRINGS.CODEX.B2_MEETTHEPILOT.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B2_MEETTHEPILOT.BODY.CONTAINER1"
 msgid "<indent=%5>From the time she was old enough to walk Captain Johannsen dreamed of reaching the sky. Growing up on an air force base she came to love the sound jet engines roaring overhead. At 16 she became the youngest pilot ever to fly a fighter jet, and at 22 she had already entered the space flight program.\n\nFour years later Gravitas nabbed her for an exclusive contract piloting our space shuttles. In her time at Gravitas, Captain Johannsen has logged over 1,000 hours space flight time shuttling and deploying satellites to Low Earth Orbits and has just been named the pilot of our inaugural civilian space tourist program, slated to begin in the next year.\n\nGravitas is excited to have Captain Johannsen in the pilot seat as we reach for the stars...and beyond!</indent>"
-msgstr "<indent=%5>從 Johannsen 隊長能走路就夢想著能飛上天空。\n有空軍基地長大的她，愛上了頭頂上轟鳴的戰鬥機引擎。\n\n16 歲時她成為了最年輕的戰鬥機駕使員，且 22 歲她已經進入太空飛行計劃。\n\n四年後引力科技和她簽訂一份獨家合約，負責駕駛我們的太空船。\nJohannsen 隊長在引力科技工作期間，太空飛行時數超過 1000 小時的，\n也將衛星部署到低地球軌道，且她剛剛被任命為我們預計明年計劃開始的\n首位民用太空旅行駕駛員，\n\n\n引力科技很高興讓 Johannsen 隊長成為駕駛員，帶我達到觸手可及的星空…甚至更遠！</indent>"
+msgstr "<indent=%5>從 Johannsen 隊長能走路就夢想著能飛上天空。有空軍基地長大的她，愛上了頭頂上轟鳴的戰鬥機引擎。\n\n16 歲時她成為了最年輕的戰鬥機駕使員，且 22 歲她已經進入太空飛行計劃。\n\n四年後引力科技和她簽訂一份獨家合約，負責駕駛我們的太空船。Johannsen 隊長在引力科技工作期間，太空飛行時數超過 1000 小時的，n也將衛星部署到低地球軌道，且她剛剛被任命為我們預計明年計劃開始的\n首位民用太空旅行駕駛員，\n\n\n引力科技很高興讓 Johannsen 隊長成為駕駛員，帶我達到觸手可及的星空…甚至更遠！</indent>"
 
 #. STRINGS.CODEX.B2_MEETTHEPILOT.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.B2_MEETTHEPILOT.BODY.CONTAINER2"
@@ -16909,7 +16909,7 @@ msgstr "Mae Johannsen 隊長"
 #. STRINGS.CODEX.B2_TEMPORALBOWUPDATE.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.B2_TEMPORALBOWUPDATE.BODY.CONTAINER2"
 msgid "Dr. Sklodowska, could I ask you to forward me the new spec changes to the Temporal Bow?\n\nThe Director completely ignored me when I asked for a project update this morning. She walked right past me in the hall - I didn't realize I was that far down on the food chain. :(\n\nMr. Kraus\nPhysics Department\nThe Gravitas Facility"
-msgstr "Sklodowska 博士，我可以請你將時光之弓新的規格變更轉發給我嗎。\n\n今天早上經理完全不理會我詢問一個新計劃的最新內容。\n在大廳時她從我身邊經過－我沒有意識到我離食物鏈有那麼遠。:(\n\nKraus 先生\n物理部門\n引力科技"
+msgstr "Sklodowska 博士，我可以請你將時光之弓新的規格變更轉發給我嗎。\n\n今天早上經理完全不理會我詢問一個新計劃的最新內容。在大廳時她從我身邊經過－我沒有意識到我離食物鏈有那麼遠。:(\n\nKraus 先生\n物理部門\n引力科技"
 
 #. STRINGS.CODEX.B2_TEMPORALBOWUPDATE.BODY.EMAILHEADER1
 msgctxt "STRINGS.CODEX.B2_TEMPORALBOWUPDATE.BODY.EMAILHEADER1"
@@ -16979,7 +16979,7 @@ msgstr "謝謝，博士。\n\nPS. 如果你點擊「回覆」而不是點擊新�
 #. STRINGS.CODEX.B3_RETEMPORALBOWUPDATE.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.B3_RETEMPORALBOWUPDATE.BODY.CONTAINER2"
 msgid "Try not to take it too personally, it's probably just stress.\n\nThe Facility started going through a major overhaul not long before you got here, so I imagine the Director is having quite a time getting it all sorted out.\n\nThings will calm down once all the new departments are settled.\n\nDr. Sklodowska\n<size=11>Physics Department\nThe Gravitas Facility</size>\n------------------\n"
-msgstr "不要把它太個人化，它可能只是壓力。\n\n在你來這裡之前，此設施才剛剛經過大整修，\n所以我想經理只是要花些時間來整理所有的東西。\n\n一旦所有的部門都安置完畢，所有的事情都會安穩下來。\n\nSklodowska 博士\n<size=11>物理部門\n引力科技</size>\n------------------\n"
+msgstr "不要把它太個人化，它可能只是壓力。\n\n在你來這裡之前，此設施才剛剛經過大整修，所以我想經理只是要花些時間來整理所有的東西。\n\n一旦所有的部門都安置完畢，所有的事情都會安穩下來。\n\nSklodowska 博士\n<size=11>物理部門\n引力科技</size>\n------------------\n"
 
 #. STRINGS.CODEX.B3_RETEMPORALBOWUPDATE.BODY.EMAILHEADER1
 msgctxt "STRINGS.CODEX.B3_RETEMPORALBOWUPDATE.BODY.EMAILHEADER1"
@@ -17094,7 +17094,7 @@ msgstr "螞蟻"
 #. STRINGS.CODEX.B50_MEMORYCHIP.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.B50_MEMORYCHIP.BODY.CONTAINER2"
 msgid "<indent=5%>Director,\n\nI had a thought about how to solve your Duplicant memory problem.\n\nRather than attempt to access the subject's old memories, what if we were to embed all necessary information for colony survival into the printing process itself?\n\nThe amount of data engineering can store has grown exponentially over the last year. We should take advantage of the technological development.</indent>"
-msgstr "<indent=5%>經理，\n\n我想過如何解決複製人的記憶問題。\n\n如果我們將殖民地生存的必要知識嵌入到列印過程中，\n而不是企圖存取實驗體的舊記憶？\n\n工程資料的可儲存容量，\n在去年有了突破性的成長。\n我們應該利用這項技術發展。</indent>"
+msgstr "<indent=5%>經理，\n\n我想過如何解決複製人的記憶問題。\n\n如果我們將殖民地生存的必要知識嵌入到列印過程中，而不是企圖存取實驗體的舊記憶？\n\n工程資料的可儲存容量，在去年有了突破性的成長。我們應該利用這項技術發展。</indent>"
 
 #. STRINGS.CODEX.B50_MEMORYCHIP.BODY.EMAILHEADER1
 msgctxt "STRINGS.CODEX.B50_MEMORYCHIP.BODY.EMAILHEADER1"
@@ -17119,7 +17119,7 @@ msgstr "複製人記憶的解決方案"
 #. STRINGS.CODEX.B51_ARTHISTORYREQUEST.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.B51_ARTHISTORYREQUEST.BODY.CONTAINER2"
 msgid "<indent=5%>Director,\n\nI have been thinking, and it occurs to me that our subjects will likely travel outside our range of radio contact when establishing new colonies.\n\nColonies travel into the cosmos as representatives of humanity, and I believe it is our duty to preserve the planet's non-scientific knowledge in addition to practical information.\n\nI would like to make a formal request that comprehensive arts and cultural histories make their way onto the microchip databases.</indent>"
-msgstr "<indent=10%>\n經理，\n\n我一直在想，我發現我們的受測者可能在某天跑出無線電聯絡範圍之外的地方建立新的殖民地。\n\n我相信在這種情況下，殖民船作人類的代表進入宇宙，我們有責任保存我們星球的非科學知識。\n\n我想提出正式請求將藝術與文化歷史存入他們的微晶片資料庫。\n</indent>"
+msgstr "<indent=10%>經理，\n\n我一直在想，我發現我們的受測者可能在某天跑出無線電聯絡範圍之外的地方建立新的殖民地。\n\n我相信在這種情況下，殖民船作人類的代表進入宇宙，我們有責任保存我們星球的非科學知識。\n\n我想提出正式請求將藝術與文化歷史存入他們的微晶片資料庫。\n</indent>"
 
 #. STRINGS.CODEX.B51_ARTHISTORYREQUEST.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.B51_ARTHISTORYREQUEST.BODY.CONTAINER3"
@@ -17164,27 +17164,27 @@ msgstr "請求植入資料庫"
 #. STRINGS.CODEX.B6_AICONTROL.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.B6_AICONTROL.BODY.CONTAINER2"
 msgid "<indent=5%>Director,\n\nEngineering has requested the brainmaps of all blueprint subjects for the development of a podlinked software and I am reluctant to oblige.\n\nI believe they are seeking a way to exert temporary control over implanted subjects, and I fear this avenue of research may be ethically unsound.</indent>"
-msgstr "<indent=5%>\n經理，\n工程部要求將所有藍圖受測者的腦圖，\n用於開發此設備的連接軟體，\n但是我不願意。\n\n我相信他們正在尋找一種方式，\n用於暫時控製被植入的受測者，\n我擔心這種研究是不道德的。\n</indent>"
+msgstr "<indent=5%>\n經理，\n\n工程部要求將所有藍圖受測者的腦圖，用於開發此設備的連接軟體，但是我不願意。\n\n我相信他們正在尋找一種方式，用於暫時控製被植入的受測者，我擔心這種研究是不道德的。\n</indent>"
 
 #. STRINGS.CODEX.B6_AICONTROL.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.B6_AICONTROL.BODY.CONTAINER3"
 msgid "<indent=5%>Doctor,\n\nI understand your concerns, but engineering's newest project was conceived under my supervision.\n\nPlease give them any materials they require to move forward with their research.</indent>"
-msgstr "<indent=5%>\n博士，\n\n我了解你的疑慮，\n但工程師的最新計劃是在我的監督下構思的。\n\n請提供給他們進行研究所需的任何材料。\n</indent>"
+msgstr "<indent=5%>\n博士，\n\n我了解你的疑慮，但工程師的最新計劃是在我的監督下構思的。\n\n請提供給他們進行研究所需的任何材料。</indent>"
 
 #. STRINGS.CODEX.B6_AICONTROL.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.B6_AICONTROL.BODY.CONTAINER4"
 msgid "<indent=5%>You can't be serious, Jacquelyn?</indent>"
-msgstr "<indent=5%>\n你不能太嚴肅，Jacquelyn？\n</indent>"
+msgstr "<indent=5%>你不能太嚴肅，Jacquelyn？</indent>"
 
 #. STRINGS.CODEX.B6_AICONTROL.BODY.CONTAINER5
 msgctxt "STRINGS.CODEX.B6_AICONTROL.BODY.CONTAINER5"
 msgid "<indent=5%>You signed off on cranial chip implantation. Why would this be where you draw the line?\n\nIt would be an invaluable safety measure and protect your printing subjects.</indent>"
-msgstr "<indent=5%>\n你簽署了腦晶片植入。\n為何如此，你的底線在那？\n\n它是非常保貴的安全措施，\n用來保護你列印的實驗體。\n</indent>"
+msgstr "<indent=5%>你簽署了腦晶片植入。為何如此，你的底線在那？\n\n它是非常保貴的安全措施，用來保護你列印的實驗體。</indent>"
 
 #. STRINGS.CODEX.B6_AICONTROL.BODY.CONTAINER6
 msgctxt "STRINGS.CODEX.B6_AICONTROL.BODY.CONTAINER6"
 msgid "<indent=5%>It just gives me a bad feeling.\n\nI can't stop you if you insist on going forward with this, but I'd ask that you remove me from the project.</indent>"
-msgstr "<indent=5%>\n我有一種不好的感覺。\n\n如果你執意要做，我無法阻止你，\n但我要求你將我從計劃踢除。\n</indent>"
+msgstr "<indent=5%>我有一種不好的感覺。\n\n如果你執意要做，我無法阻止你，但我要求你將我從計劃踢除。</indent>"
 
 #. STRINGS.CODEX.B6_AICONTROL.BODY.EMAILHEADER1
 msgctxt "STRINGS.CODEX.B6_AICONTROL.BODY.EMAILHEADER1"
@@ -17229,7 +17229,7 @@ msgstr "主旨：回覆：難以接受的請求"
 #. STRINGS.CODEX.B6_TIMEMUSINGS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B6_TIMEMUSINGS.BODY.CONTAINER1"
 msgid "When we discuss Time as a concrete aspect of the universe, not seconds on a clock or perceptions of the mind, it is important first of all to establish that we are talking about a unique dimension that layers into the three physical dimensions of space: length, width, depth.\n\nWe conceive of Real Time as a straight line, one dimensional, uncurved and stretching forward infinitely. This is referred to as the \"Arrow of Time\".\n\nLogically this Arrow can move only forward and can never be reversed, as such a reversal would break the natural laws of the universe. Effect would precede cause and universal entropy would be undone in a blatant violation of the Second Law.\n\nStill, one can't help but wonder; what if the Arrow's trajectory could be curved? What if it could be redirected, guided, or loosed? What if we could create Time's Bow?"
-msgstr "當我們討論時間作為宇宙的具體面向時，\n不是時鐘上的一秒或是心裡的感覺，\n首先，重要的是確定我們在討論一個獨特的維度，\n將空間分成三個物理層面：長度，寬度，深度。\n\n我們將真實的時間當作一條直線，\n一維、不會彎曲且無限延伸的直線。\n這被稱為「時光之箭」。\n\n邏輯上，這支箭只能往前移動並不能逆轉，\n因為這樣的逆轉會破壞宇宙的規律。\n\n在公然違反第二定律的情況下，\n影響會優先於起因並且宇宙的熵會消失。\n\n但是，人們還是不禁想問；\n如果箭的軌跡可以彎曲會怎麼樣？\n如果可以重新定向、引導或變寬會怎麼樣？\n如果我們可以創造時光之弓會怎麼樣？"
+msgstr "當我們討論時間作為宇宙的具體面向時，不是時鐘上的一秒或是心裡的感覺，首先，重要的是確定我們在討論一個獨特的維度，將空間分成三個物理層面：長度，寬度，深度。\n\n我們將真實的時間當作一條直線，一維、不會彎曲且無限延伸的直線。這被稱為「時光之箭」。\n\n邏輯上，這支箭只能往前移動並不能逆轉，\n因為這樣的逆轉會破壞宇宙的規律。\n\n在公然違反第二定律的情況下，影響會優先於起因並且宇宙的熵會消失。\n\n但是，人們還是不禁想問；如果箭的軌跡可以彎曲會怎麼樣？如果可以重新定向、引導或變寬會怎麼樣？如果我們可以創造時光之弓會怎麼樣？"
 
 #. STRINGS.CODEX.B6_TIMEMUSINGS.SUBTITLE
 msgctxt "STRINGS.CODEX.B6_TIMEMUSINGS.SUBTITLE"
@@ -17244,7 +17244,7 @@ msgstr "經理的筆記"
 #. STRINGS.CODEX.B7_FRIENDLYEMAIL.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B7_FRIENDLYEMAIL.BODY.CONTAINER1"
 msgid "<indent=5%>Omg, <i>hi</i> Nikola!\n\nHave you heard about the super weird thing that's been happening in the kitchen lately? Joshua's lunch has disappeared from the fridge like, every day for the past week!\n\nThere's a <i>ton</i> of cameras in that room too but all anyone can see is like this spiky blond hair behind the fridge door.\n\nSo <i>weird</i> right? ;)\n\nAnyway, totally unrelated, but our computer system's been having this <i>glitch</i> where datasets going back for like half a year get <i>totally</i> wiped for all employees with the initials \"N.T.\"\n\nIsn't it weird how specific that is? Don't worry though! I'm sure I'll have it fixed before it affects any of <i>your</i> work.\n\nByeee!</indent>"
-msgstr "<indent=5%>天啊，<i>嗨</i> Nikola！\n\n你聽說了最近在廚房裡發生了超奇怪的事情？\nJoshua 的午餐從冰箱裡消失了，過去一周的每一天！\n\n房間內有許多的 <i>攝影機</i> 但所有的人都可以看見冰箱後那像是釘子的金髮。\n\n<i>超奇怪的</i> 對吧？;)\n\n不管怎樣，完全沒有關係，\n但我們的電腦系統出現了一種 <i>故障</i>，\n所有字首帶有「N.T.」的員工，\n最近半年來的所有資料都被 <i>完全的</i> 刪除了。\n\n這是不是真的很奇怪？不過別擔心！\n我確定在影響到任何 <I>你的工作</i> 之前我會修好的。\n\n再見！</indent>"
+msgstr "<indent=5%>天啊，<i>嗨</i> Nikola！\n\n你聽說了最近在廚房裡發生了超奇怪的事情？Joshua 的午餐從冰箱裡消失了，過去一周的每一天！\n\n房間內有<i>許多的</i> 攝影機，但所有的人都可以看見冰箱後那像是釘子的金髮。\n\n<i>超奇怪的</i>，對吧？;)\n\n不管怎樣，完全沒有關係，但我們的電腦系統出現了一種<i>故障</i>，所有字首帶有「N.T.」的員工，最近半年來的所有資料都被<i>完全的</i>刪除了。\n\n這是不是真的很奇怪？不過別擔心！我確定在影響到任何<i>你的工作</i>之前我會修好的。\n\n再見！</indent>"
 
 #. STRINGS.CODEX.B7_FRIENDLYEMAIL.BODY.EMAILHEADER1
 msgctxt "STRINGS.CODEX.B7_FRIENDLYEMAIL.BODY.EMAILHEADER1"
@@ -17284,7 +17284,7 @@ msgstr "在太空中"
 #. STRINGS.CODEX.B7_TIMESARROWTHOUGHTS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B7_TIMESARROWTHOUGHTS.BODY.CONTAINER1"
 msgid "I've been unable to shake the notion of the Bow.\n\nThe thought of its mechanics are too intriguing, and I can only dream of the mark such a device would make upon the world -- imagine, a source of inexhaustible energy!\n\nSo many of humanity's problems could be solved with this one invention - domestic energy, environmental pollution, <i>the fuel wars</i>.\n\nI have to pursue this dream, no matter what."
-msgstr "我無法撼動弓的概念。\n\n這力學的思維太有趣了，\n我僅能夢想這設備會讓世界留下深刻的印象——想像一下，無窮無盡的能源！\n\n這項發明可以為人類決解許多問題－國內能源、環境汙染、<I>燃料戰爭</I>。\n\n我會一直追逐這個夢想，無論如何。"
+msgstr "我無法撼動弓的概念。\n\n這力學的思維太有趣了，我僅能夢想這設備會讓世界留下深刻的印象——想像一下，無窮無盡的能源！\n\n這項發明可以為人類決解許多問題－國內能源、環境汙染、<i>燃料戰爭</i>。\n\n我會一直追逐這個夢想，無論如何。"
 
 #. STRINGS.CODEX.B7_TIMESARROWTHOUGHTS.SUBTITLE
 msgctxt "STRINGS.CODEX.B7_TIMESARROWTHOUGHTS.SUBTITLE"
@@ -17304,7 +17304,7 @@ msgstr "<b>來自獨立實驗室令人難以置信的科技－將時間轉變成
 #. STRINGS.CODEX.B8_MAGAZINEARTICLE.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.B8_MAGAZINEARTICLE.BODY.CONTAINER2"
 msgid "Scientists from the recently founded Gravitas Facility have unveiled their first technology prototype, dubbed the \"Temporal Bow\". It is a device which manipulates the 4th dimension to generate infinite, clean and renewable energy.\n\nWhile it may sound like something from science fiction, facility founder Dr. Jacquelyn Stern confirms that it is very much real.\n\n\"It has already been demonstrated that Newton's Second Law of Motion can be violated by negative mass superfluids under the correct lab conditions,\" she says.\n\n\"If the Laws of Motion can be bent and altered, why not the Laws of Thermodynamics? That was the main intent behind this project.\"\n\nThe Temporal Bow works by rapidly vibrating sections of the 4th dimension to send small quantities of mass forward and backward in time, generating massive amounts of energy with virtually no waste.\n\n\"The fantastic thing about using the 4th dimension as fuel,\" says Stern, \"is that it is really, categorically infinite\".\n\nFor those eagerly awaiting the prospect of human time travel, don't get your hopes up just yet. The Facility says that although they have successfully transported matter through time, the technology was expressly developed for the purpose of energy generation and is ill-equipped for human transportation."
-msgstr "最近成立的「引力科技」的科學家們推出了第一個技術原型，\n他們稱之為「時光之弓」，\n一種操縱第四維度的設備可產生無限、乾淨與可再生的能源。\n\n聽起來有點像科幻小說裡有的東西，\n設施的創辦者 Jacquelyn Stern 博士，\n證實這非常的真實。\n\n她說：\n「已經證明了，在正確的實驗條件之下，負質量超流體會違反牛頓第二運動定律」。\n\n「如果運動定律可以彎曲和改變，那熱力學為什麼不行呢？這就是此計劃背後隱含的意義。」\n\n時光之弓的原理的是在第四維度內，\n透過快速震動在時光內使少量物質向前或向後移動，\n產生幾乎沒有浪費的大量能源。\n\nStern 說：「這就是使用第四維度作為燃料的神奇之處－真實，絕對無限」。\n\n對於那些等待渴望時光旅行的人，\n暫時不要抱任何期待。\n\n該設施說雖然他們成功的讓物質傳送了一段時間，\n不過這項技術是專為生產能源而開發的，\n在人類運輸方面的仍缺少相應裝備。"
+msgstr "最近成立的「引力科技」的科學家們推出了第一個技術原型，他們稱之為「時光之弓」，一種操縱第四維度的設備可產生無限、乾淨與可再生的能源。\n\n聽起來有點像科幻小說裡有的東西。設施的創辦者 Jacquelyn Stern 博士，證實這非常的真實。\n\n她說：\n「已經證明了，在正確的實驗條件之下，負質量超流體會違反牛頓第二運動定律」。\n\n「如果運動定律可以彎曲和改變，那熱力學為什麼不行呢？這就是此計劃背後隱含的意義。」\n\n時光之弓的原理的是在第四維度內，透過快速震動在時光內使少量物質向前或向後移動，產生幾乎沒有浪費的大量能源。\n\nStern 說：「這就是使用第四維度作為燃料的神奇之處－真實，絕對無限」。\n\n對於那些等待渴望時光旅行的人，暫時不要抱任何期待。\n\n該設施說雖然他們成功的讓物質傳送了一段時間，不過這項技術是專為生產能源而開發的，在人類運輸方面的仍缺少相應裝備。"
 
 #. STRINGS.CODEX.B8_MAGAZINEARTICLE.SUBTITLE
 msgctxt "STRINGS.CODEX.B8_MAGAZINEARTICLE.SUBTITLE"
@@ -17319,7 +17319,7 @@ msgstr "擬核文章"
 #. STRINGS.CODEX.B8_POLITEREQUEST.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B8_POLITEREQUEST.BODY.CONTAINER1"
 msgid "<indent=5%>To whoever is entering Director Stern's office to move objects on her desk one inch to the left, please desist as she finds it quite unnerving.</indent>"
-msgstr "<indent=5%>\n不論是誰進入 Stern 博士的辦公室，\n將他的科學博覽會獎杯向左移動一英寸，\n請停止這種行為，\n因為他覺得相當地不安。\n</indent>"
+msgstr "<indent=5%>不論是誰進入 Stern 博士的辦公室，將她的科學博覽會獎杯向左移動一英寸，請停止這種行為，因為她覺得相當地不安。\n</indent>"
 
 #. STRINGS.CODEX.B8_POLITEREQUEST.BODY.EMAILHEADER
 msgctxt "STRINGS.CODEX.B8_POLITEREQUEST.BODY.EMAILHEADER"
@@ -17344,7 +17344,7 @@ msgstr "禮貌的請求"
 #. STRINGS.CODEX.B9_TELEPORTATION.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B9_TELEPORTATION.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subject Identified: A001]</smallcaps>\n\n[LOG BEGINS]\n\nDr. Techna's newest notes on Duplicant memories have revealed some interesting discoveries. It seems memories </i>can</i> be transferred to the cloned subject but it requires the host to be subjected to a machine that performs extremely detailed microanalysis. This in-depth dissection of the subject would produce the results we need but at the expense of destroying the host.\n\nOf course this is not ideal for our current situation. The time and energy it took to recruit Gravitas' highly trained staff would be wasted if we were to extirpate these people for the sake of experimentation. But perhaps we can use our Duplicants as experimental subjects until we perfect the process and look into finding volunteers for the future in order to obtain an ideal specimen. I will have to discuss this with Dr. Techna but I'm sure he would be enthusiastic about such an opportunity to continue his work.\n\nI am also very interested in the commercial opportunities this presents. Off the top of my head I can think of applications in genetics, AI development, and teleportation technology. This could be a significant financial windfall for the company.\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音識別初始化】\n【實驗編號】：A001</smallcaps>\n\n【日誌開始】\n\nTechna 博士關於複製人記憶的最新記錄，\n揭露了一些有趣的發現。記憶似乎 </I>可以</i> 可移到複製體上，\n但需要將主體送入一台機器做非常細微的分析。\n對主體的深入剖析會產生我們需要的結果，但需要以破壞主體為代價。\n\n當然，這對於我們目前的狀況來說不是個好方案。\n如果我們為了實驗而淘汰這些人，那麼引力科技就浪費這些花了時間與精力培養的資深員工。\n 但也許我們可以將複製人當作實驗對像，直到我們完善流程，並找到自願者來完成這個目標。\n我必須和 Techna 博士討論，但我相信他他會能繼續工作而充滿熱情。\n\n我對這所能創造的商機很感興趣。\n我想到了遺傳學的應用、AI 開發與傳送技術。\n這對公司來說可能是個巨大意外收益。\n\n【日誌結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號】：A001</smallcaps>\n\n【日誌開始】\n\nTechna 博士關於複製人記憶的最新記錄，揭露了一些有趣的發現。記憶似乎<i>可以</i>可移到複製體上，但需要將主體送入一台機器做非常細微的分析。對主體的深入剖析會產生我們需要的結果，但需要以破壞主體為代價。\n\n當然，這對於我們目前的狀況來說不是個好方案。如果我們為了實驗而淘汰這些人，那麼引力科技就浪費這些花了時間與精力培養的資深員工。但也許我們可以將複製人當作實驗對象，直到我們完善流程，並找到自願者來完成這個目標。我必須和 Techna 博士討論，但我相信他會能繼續工作而充滿熱情。\n\n我對這所能創造的商機很感興趣。我想到了遺傳學的應用、AI 開發與傳送技術。這對公司來說可能是個巨大意外收益。\n\n【日誌結束】"
 
 #. STRINGS.CODEX.B9_TELEPORTATION.SUBTITLE
 msgctxt "STRINGS.CODEX.B9_TELEPORTATION.SUBTITLE"
@@ -17359,7 +17359,7 @@ msgstr "記憶突破"
 #. STRINGS.CODEX.BALMLILY.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.BALMLILY.BODY.CONTAINER1"
 msgid "The Balm Lily naturally contains high vitamin concentrations and produces acids similar in molecular makeup to acetylsalicylic acid (commonly known as aspirin).\n\nAs a result, the plant is ideal both for boosting immune systems and treating a variety of common maladies such as pain and fever."
-msgstr "香水百合天然含有高濃度的維他命，\n與生產在分子結構上與水楊酸相近的酸性物質（俗稱阿斯匹靈）。\n\n因此，這株植物是增強免疫系統與治療常見疾病（像是疼痛與發燒）的首選。"
+msgstr "香水百合天然含有高濃度的維他命，與生產在分子結構上與水楊酸相近的酸性物質（俗稱阿斯匹靈）。\n\n因此，這株植物是增強免疫系統與治療常見疾病（像是疼痛與發燒）的首選。"
 
 #. STRINGS.CODEX.BALMLILY.SUBTITLE
 msgctxt "STRINGS.CODEX.BALMLILY.SUBTITLE"
@@ -17374,7 +17374,7 @@ msgstr "香水百合"
 #. STRINGS.CODEX.BASIC_FABRIC.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.BASIC_FABRIC.BODY.CONTAINER1"
 msgid "A ball of raw cellulose harvested from a Thimble Reed.\n\nIt is used in the production of <link=\"EQUIPMENT\">Clothing</link> and textiles."
-msgstr "一團的粗纖維，用於生產 <link=\"EQUIPMENT\">服裝</link> 和紡織品的。"
+msgstr "一團的粗纖維，用於生產<link=\"EQUIPMENT\">服裝</link>和紡織品的。"
 
 #. STRINGS.CODEX.BASIC_FABRIC.SUBTITLE
 msgctxt "STRINGS.CODEX.BASIC_FABRIC.SUBTITLE"
@@ -17419,12 +17419,12 @@ msgstr "天堂草"
 #. STRINGS.CODEX.BLUFFBRIAR.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.BLUFFBRIAR.BODY.CONTAINER1"
 msgid "Bluff Briars have formed a symbiotic relationship with a closely related plant strain, the <link=\"PRICKLEFLOWER\">Bristle Blossom</link>.\n\nThey tend to thrive in areas where the Bristle Blossom is present, as the berry it produces emits a rare chemical while decaying that the Briar is capable of absorbing to supplement its own pheromone production."
-msgstr "荊棘與其相關品種 <link=\"PRICKLEFLOWER\">鬃花</link> 形成共生關係。\n\n它們常出現在鬃果繁植的區域，\n因為鬃花會散發一種化學物質，\n同時荊棘能吸收以補充它們的費洛蒙。"
+msgstr "荊棘與其相關品種<link=\"PRICKLEFLOWER\">鬃花</link>形成共生關係。\n\n它們常出現在鬃果繁植的區域，因為鬃花會散發一種化學物質，同時荊棘能吸收以補充它們的費洛蒙。"
 
 #. STRINGS.CODEX.BLUFFBRIAR.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.BLUFFBRIAR.BODY.CONTAINER2"
 msgid "Due to the Bluff Briar's unique pheromonal \"charm\" defense, animals are extremely unlikely to eat it in the wild.\n\nAs a result, the Briar's barbs have become ineffectual over time and are unlikely to cause injury, unlike the Bristle Blossom, which possesses barbs that are exceedingly sharp and require careful handling."
-msgstr "由於荊棘獨特的費洛蒙「迷惑」的保護，\n在野外動物極度不喜歡吃它。\n\n結果，隨著時間荊棘上的倒刺變的沒什麼殺傷力，\n不像鬃花它的倒刺非常鋒利需要小心處理。"
+msgstr "由於荊棘獨特的費洛蒙「迷惑」的保護，在野外動物極度不喜歡吃它。\n\n結果，隨著時間荊棘上的倒刺變的沒什麼殺傷力，不像鬃花它的倒刺非常鋒利需要小心處理。"
 
 #. STRINGS.CODEX.BLUFFBRIAR.SUBTITLE
 msgctxt "STRINGS.CODEX.BLUFFBRIAR.SUBTITLE"
@@ -17454,7 +17454,7 @@ msgstr "沼澤豬籠草"
 #. STRINGS.CODEX.BRISTLEBLOSSOM.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.BRISTLEBLOSSOM.BODY.CONTAINER1"
 msgid "The Bristle Blossom is frequently cultivated for its calorie dense and relatively fast growing Bristle Berries.\n\nConsumption of the berry requires special preparation due to the thick barbs surrounding the edible fruit.\n\nThe term \"Bristle Berry\" is, in fact, a misnomer, as it is not a \"berry\" by botanical definition but an aggregate fruit made up of many smaller fruitlets."
-msgstr "鬃花被經常種植，因為它的果食熱量高且生長速度快。\n\n食用鬃果需特殊的工具，因為它的表面有刺。\n\n「鬃果」一詞實際上是一種不正確叫法，\n因為它不是植物學定義的「漿果」，\n而是由許多小小果實組成的集合體果實。"
+msgstr "鬃花被經常種植，因為它的果食熱量高且生長速度快。\n\n食用鬃果需特殊的工具，因為它的表面有刺。\n\n「鬃果」一詞實際上是一種不正確叫法，\n因為它不是植物學定義的「漿果」，而是由許多小小果實組成的集合體果實。"
 
 #. STRINGS.CODEX.BRISTLEBLOSSOM.SUBTITLE
 msgctxt "STRINGS.CODEX.BRISTLEBLOSSOM.SUBTITLE"
@@ -17484,12 +17484,12 @@ msgstr "同心芽"
 #. STRINGS.CODEX.C01_EVIL.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.C01_EVIL.BODY.CONTAINER1"
 msgid "Clearly Nikola is evil. He has some kind of scheme going on that he's keeping secret from the rest of Gravitas and I haven't been able to crack what that is because it's offline and he's always at his computer. Whenever I ask him what he's up to he says I wouldn't understand. Pfft! We both went through the same particle physics classes, buddy. Just because you mash a keyboard and I adjust knobs does not mean I don't know what the Time Containment Field does.\n\nAnd then today I dropped a wrench and Nikola nearly jumped out of his skin! He spun around and screamed at me never to do that again. And then when I said, \"Geez, it's not the end of the world,\" he was like, \"Yeah, it's not like the world will blow up if I get this wrong\" really sarcastic-like.\n\nWhich technically is true. If the Time Containment Field were to break down, the Temporal Bow could theoretically blow up the world. But that's why there are safety systems in place. And safety systems on safety systems. And then safety systems on top of that. But then again he built all the safety systems, so if he wanted to...\n------------------\n"
-msgstr "顯然 Nikola 是邪惡的。\n他正在進行某種計劃，需要對引力設施的其它成員保密，\n我無法弄清楚是什麼，因為他總是在他的電腦旁，且他的電腦處於離線狀態。\n每當我問他在做什麼時，他都會說我聽不懂。嘖！\n我們都上過相同的粒子物理課，哥們。\n僅因為你組合了鍵盤而我調整旋鈕，並不意味著我不知道「時間限制」的作用。\n\n然後今天我丟了一個扳手，Nikola 嚇了一跳！\n他轉過身來並向我大叫，別再這樣做了。\n然後當我說：「天啊，這不是世界末日」時，\n他說：「是啊，就算我把這個弄錯了，世界似乎也不會因此崩潰了」 真是諷刺。\n\n但就技術上來說是對的。\n如果打破時間力場，時光之弓可能會毀了世界，\n這就是為什麼需要安全系統的原因。\n以及第二層的安全系統，\n最後是最上層安全系統。\n但所有的安全系統都是他建立的，因此如果他想…\n------------------\n"
+msgstr "顯然 Nikola 是邪惡的。他正在進行某種計劃，需要對引力設施的其它成員保密，我無法弄清楚是什麼，因為他總是在他的電腦旁，且他的電腦處於離線狀態。每當我問他在做什麼時，他都會說我聽不懂。嘖！我們都上過相同的粒子物理課，哥們。僅因為你組合了鍵盤而我調整旋鈕，並不意味著我不知道「時間限制」的作用。\n\n然後今天我丟了一個扳手，Nikola 嚇了一跳！他轉過身來並向我大叫，別再這樣做了。然後當我說：「天啊，這不是世界末日」時，他說：「是啊，就算我把這個弄錯了，世界似乎也不會因此崩潰了」 真是諷刺。\n\n但就技術上來說是對的。如果打破時間力場，時光之弓可能會毀了世界，這就是為什麼需要安全系統的原因。以及第二層的安全系統，最後是最上層安全系統。但所有的安全系統都是他建立的，因此如果他想…\n------------------\n"
 
 #. STRINGS.CODEX.C01_EVIL.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.C01_EVIL.BODY.CONTAINER2"
 msgid "I decided to get into work early today but when I got in Nikola was already there and it looked like he hadn't been home all weekend. He was pacing back and forth in the lab, monologuing but not like an evil villain. Like someone who hadn't slept in a week.\n\n\"Ruby,\" he said. \"You have to promise me that if anything goes wrong you'll turn on this machine. They're pushing it too far. The printing pods are pushing the...It's too much - TOO MUCH! Something's going to blow. I tried... I'm trying to save it. Not the Earth. There's no hope for the Earth, it's all going to...\" then he made this exploding sound. \"But the Universe. Time itself. It could all go, don't you see? This machine can contain it. Put a Temporal Containment Field around the Earth so time itself doesn't break down and...and...\"\n\nThen all of a sudden these security guys came in. New guys. People I haven't seen before. And they just took him away. Then they took me to a room and asked me all kinds of questions and I answered them, I guess. I don't remember much because the whole time I was thinking - What if I was wrong? What if he's not evil, but Gravitas is?\n\nWhat if I was wrong and what if he's right?\n------------------\n"
-msgstr "我決定今天早點上班，\n但當我到了時 Nikola 已經在那了，\n看上去他整個周末都沒回家。\n\n他在實驗室來回走動，\n自言自語，但不像是中邪。\n倒像是一整個星期都沒睡覺的人。\n\n「Ruby」，他說。\n「你必須答應我，如果出了甚麼問題，你就打開這台機器。\n他們推得太過極限了。\n列印設備已經極限…太多了－太多了！\n有甚麼東西就要炸開了。\n我試過了…我嘗試著拯救它。\n不是地球。\n地球早已經沒有希望，一切都將…」\n然後他吼了起來。\n「是宇宙。時間本身。\n一切都完了，你不明白嗎？\n這台機器可以制止它。\n它能在地球周圍放個時間力場，\n這樣時間本身就不會崩潰，然後…然後…」\n\n然後突然間保全人員都來了。\n一些新的傢伙。\n是我以前從沒見過的。\n接著他們將他帶走了\n然後他們會將我帶到一個房間，\n還問了我各種問題，我都回答了他們，大概吧。\n我記不清了，因為我一直在想－－如果我是錯的呢？\n如果他不是邪惡的，但引力科技是呢？\n\n如果我是錯的，而他是對的怎麼辦？\n------------------\n"
+msgstr "我決定今天早點上班，但當我到了時 Nikola 已經在那了，看上去他整個周末都沒回家。\n\n他在實驗室來回走動，自言自語，但不像是中邪。倒像是一整個星期都沒睡覺的人。\n\n「Ruby」，他說。「你必須答應我，如果出了甚麼問題，你就打開這台機器。他們推得太過極限了。列印設備已經極限…太多了－太多了！有甚麼東西就要炸開了。我試過了…我嘗試著拯救它。不是地球。地球早已經沒有希望，一切都將…」然後他吼了起來。「是宇宙。時間本身。一切都完了，你不明白嗎？這台機器可以制止它。它能在地球周圍放個時間力場，這樣時間本身就不會崩潰，然後…然後…」\n\n然後突然間保全人員都來了。一些新的傢伙。是我以前從沒見過的。接著他們將他帶走了。然後他們會將我帶到一個房間，還問了我各種問題，我都回答了他們，大概吧。我記不清了，因為我一直在想－－如果我是錯的呢？如果他不是邪惡的，但引力科技是呢？\n\n如果我是錯的，而他是對的怎麼辦？\n------------------\n"
 
 #. STRINGS.CODEX.C01_EVIL.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.C01_EVIL.BODY.CONTAINER3"
@@ -17539,7 +17539,7 @@ msgstr "回覆：工程師候選人？"
 #. STRINGS.CODEX.C7_FIRSTCOLONY.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.C7_FIRSTCOLONY.BODY.CONTAINER1"
 msgid "The first experiments with establishing a colony off planet were an unmitigated disaster. Without outside help, our current Artificial Intelligence was completely incapable of making the kind of spontaneous decisions needed to deal with unforeseen circumstances. Additionally, the colony subjects lacked the forethought to even build themselves toilet facilities, even after soiling themselves repeatedly.\n\nWhile initial experiments in a lab setting were encouraging, our latest operation on non-Terra soil revealed some massive inadequacies to our system. If this idea is ever going to work, we will either need to drastically improve the AI directing the subjects, or improve the brains of our Duplicants to the point where they possess higher cognitive functions.\n\nGiven the disastrous complications that I could foresee arising if our Duplicants were made less supplicant, I'm leaning toward a push to improve our Artificial Intelligence.\n\nMeanwhile, we will have to send a clean-up crew to destroy all evidence of our little experiment beneath the Ceres' surface. We can't risk anyone discovering the remnants of our failed colony, even if that's unlikely to happen for another few decades at least.\n\n(Sometimes it boggles my mind how much further behind Gravitas the rest of the world is.)"
-msgstr "第一次在外星建立殖民地的實驗，是一場十足的災難。\n沒有外部的幫助，我們目前的人工智慧完全無法應對那些不可預知的情況。\n此外，殖民地實驗體即使在反複的弄髒自己後，\n也缺少先為自己建造廁所的先見之明。\n\n雖然在實驗室的初步實驗令人鼓舞，\n但我們在非陸地的操作顯示了我們系統上的嚴重缺陷。\n如果這想法行得通，我們將會需要大規模改善指導受試者的 AI，\n或強化我們複製人的大腦，來提高他們的認知功能。\n\n如果我們的複製不那麼懇求，\n我可以預見會出現大量的併發症，\n我傾向於改善我們的 AI。\n\n同時，我們必須派出清理人員來摧毀我們在 Ceres 地表進行小實驗的證據。\n我們不能冒險，讓任何人發現殖民地失敗的遺跡，\n即使這種可能性與情況至少在接下來幾十年內不會發生。\n\n（有時候讓我難以置信，世界的其它地方離引力科技有多遠。）"
+msgstr "第一次在外星建立殖民地的實驗，是一場十足的災難。沒有外部的幫助，我們目前的人工智慧完全無法應對那些不可預知的情況。此外，殖民地實驗體即使在反複的弄髒自己後，也缺少先為自己建造廁所的先見之明。\n\n雖然在實驗室的初步實驗令人鼓舞，但我們在非陸地的操作顯示了我們系統上的嚴重缺陷。如果這想法行得通，我們將會需要大規模改善指導受試者的 AI，或強化我們複製人的大腦，來提高他們的認知功能。\n\n如果我們的複製不那麼懇求，我可以預見會出現大量的併發症，我傾向於改善我們的 AI。\n\n同時，我們必須派出清理人員來摧毀我們在 Ceres 地表進行小實驗的證據。我們不能冒險，讓任何人發現殖民地失敗的遺跡，即使這種可能性與情況至少在接下來幾十年內不會發生。\n\n（有時候讓我難以置信，世界的其它地方離引力科技有多遠。）"
 
 #. STRINGS.CODEX.C7_FIRSTCOLONY.SUBTITLE
 msgctxt "STRINGS.CODEX.C7_FIRSTCOLONY.SUBTITLE"
@@ -17554,7 +17554,7 @@ msgstr "經理的筆記"
 #. STRINGS.CODEX.C8_TIMESORDER.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.C8_TIMESORDER.BODY.CONTAINER1"
 msgid "We have been successfully using the Temporal Bow now for some time with no obvious consequences. I should be happy that this works so well, but several questions gnaw at my brain late at night.\n\nIf Time's Arrow is moving forward the Laws of Entropy declare that the universe should be moving from a state of order to one of chaos. If the Temporal Bow bends to a previous point in time to a point when things were more orderly, logic would dictate that we are making this point more chaotic by taking things from it. All known laws of the natural universe suggests that this should have affected our Present Day, but all evidence points to that not being true. It appears the theory that we cannot change our past was incorrect!\n\nThis suggests that Time is, in fact, not an arrow but several arrows, each pointing different directions. Fundamentally, this proves the existence of other timelines - different dimensions - some of which we can assume have also built their own Temporal Bow.\n\nThe promise of crossing this final dimensional threshold is too tempting. Imagine what things Gravitas has invented in another dimension!! I must find a way to tear open the fabric of spacetime and tap into the limitless human potential of a thousand alternate timelines."
-msgstr "我們已經使用時光之弓一段時間了，沒有明顯的後果。\n我應該高興這很有用，但在深夜有幾個問題在腦裡困擾著我。\n\n如果時光箭往前移動，熵的定律表明了宇宙應該會由有序狀態轉會混沌狀態。\n如果時光之弓扭曲到前一個時間點，一個事情更有序的時間點，\n邏輯上來講，從中取出的事物會使這個時間點更加的混亂。\n所有已知的自然宇宙定律都表明了會影響我們的今天，\n但所有證據的都表明了不是這樣。\n看來我們無法改變過去的理論是錯誤的！\n\n這表示時間實際上不是一支箭，是多個箭指向不同的方向。\n從根本上說，這證明了其它時間線的存在\n－不同的維度\n－我們可以假設他們也建立了自己的時光之弓。\n\n跨越這最終維度的保證太誘人了。\n想像一下引力科技在其它的維度發明了什麼！！\n我必須找到一種撕裂時空的方法，\n在上千條時間線中挖掘無限的人類潛力。"
+msgstr "我們已經使用時光之弓一段時間了，沒有明顯的後果。我應該高興這很有用，但在深夜有幾個問題在腦裡困擾著我。\n\n如果時光箭往前移動，熵的定律表明了宇宙應該會由有序狀態轉會混沌狀態。如果時光之弓扭曲到前一個時間點，一個事情更有序的時間點，邏輯上來講，從中取出的事物會使這個時間點更加的混亂。所有已知的自然宇宙定律都表明了會影響我們的今天，但所有證據的都表明了不是這樣。看來我們無法改變過去的理論是錯誤的！\n\n這表示時間實際上不是一支箭，是多個箭指向不同的方向。從根本上說，這證明了其它時間線的存在－不同的維度－我們可以假設他們也建立了自己的時光之弓。\n\n跨越這最終維度的保證太誘人了。想像一下引力科技在其它的維度發明了什麼！！我必須找到一種撕裂時空的方法，在上千條時間線中挖掘無限的人類潛力。"
 
 #. STRINGS.CODEX.C8_TIMESORDER.SUBTITLE
 msgctxt "STRINGS.CODEX.C8_TIMESORDER.SUBTITLE"
@@ -21504,7 +21504,7 @@ msgstr "重啟由引力科技的生物工程和機器人部門所領導的雄心
 #. STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.ENVELOPE.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.ENVELOPE.BODY.CONTAINER1"
 msgid "Dr. Seyed Ali,\n\nYou were right to be angry with me. I <i>am</i> the reason that the driverless workbot project was reassigned. Director Stern called me in to discuss your concerns regarding the Sporb mucin cross-contamination, and I...\n\nShe said the supplemental testing on model X posed a threat to the Ceres mission.\n\nAfter what happened to that poor lab tech, I should have said more, but...\n\nIt was already too late for him.\n\nIt may be too late for all of us.\n\nYou should know that the Director received a video call from someone at the Vertex Institute as I left... I lingered outside her door and heard her address them as the head of transnational security! The way they were talking about the biobot...\n\nIt's not safe to write more here. I'll wait for you at the rocket hangar after your shift tonight.\n\nI hope you'll come. I understand if you don't.\n\nI am so, so sorry.\n\n - Dr. Saruhashi"
-msgstr "Seyed Ali 博士，\n\n你生我的氣是對的。我<b>就是</b>無人駕駛機器人專案被重新分配的原因。Stern 主任把我叫了過去，討論了你關於孢體黏蛋白交叉汙染的擔憂，然後我…\n\n她說，X 型的補充測試對穀神星任務產生了威脅。\n\n在什麼發生在那個可憐的實驗室技術員身上之後，我應該再說點什麼的，但是……\n\n對他來說已經太晚了。\n\n可能對我們所有人來說都太晚了。\n\n你應該知道，我前腳剛離開，主任就收到了來自頂點研究所的某人發來的影片電話……我徘徊在她門外，聽到她稱呼他們為跨國安全負責人！當談論到生物機器人，他們的說話方式就像……\n\n在這裏再寫下去就不安全了。今晚下班後我在火箭機庫等你。\n\n我希望你能來。你不來我也能理解。\n\n我非常非常抱歉。\n\n-  Saruhashi 博士"
+msgstr "Seyed Ali 博士，\n\n你生我的氣是對的。我<b>就是</b>無人駕駛機器人專案被重新分配的原因。Stern 經理把我叫了過去，討論了你關於孢體黏蛋白交叉汙染的擔憂，然後我…\n\n她說，X 型的補充測試對穀神星任務產生了威脅。\n\n在什麼發生在那個可憐的實驗室技術員身上之後，我應該再說點什麼的，但是……\n\n對他來說已經太晚了。\n\n可能對我們所有人來說都太晚了。\n\n你應該知道，我前腳剛離開，經理就收到了來自頂點研究所的某人發來的影片電話……我徘徊在她門外，聽到她稱呼他們為跨國安全負責人！當談論到生物機器人，他們的說話方式就像……\n\n在這裏再寫下去就不安全了。今晚下班後我在火箭機庫等你。\n\n我希望你能來。你不來我也能理解。\n\n我非常非常抱歉。\n\n-  Saruhashi 博士"
 
 #. STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.ENVELOPE.TITLE
 msgctxt "STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.ENVELOPE.TITLE"
@@ -30974,7 +30974,7 @@ msgstr "使用廁所"
 #. STRINGS.DUPLICANTS.CHORES.USETOILET.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.USETOILET.STATUS"
 msgid "Going to use toilet"
-msgstr "要去使用廁所"
+msgstr "要去佔用廁所"
 
 #. STRINGS.DUPLICANTS.CHORES.USETOILET.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.USETOILET.TOOLTIP"
@@ -31149,7 +31149,7 @@ msgstr "死亡的"
 #. STRINGS.DUPLICANTS.DEATHS.HITBYHIGHENERGYPARTICLE.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DEATHS.HITBYHIGHENERGYPARTICLE.DESCRIPTION"
 msgid "{Target} was struck by a radioactive <style=\"KKeyword\">Radbolt</style> and perished."
-msgstr "{Target}被<style=\"KKeyword\">輻射粒子</style>擊中並消滅。"
+msgstr "{Target}被<style=\"KKeyword\">輻射粒子</style>擊中並死亡。"
 
 #. STRINGS.DUPLICANTS.DEATHS.HITBYHIGHENERGYPARTICLE.NAME
 msgctxt "STRINGS.DUPLICANTS.DEATHS.HITBYHIGHENERGYPARTICLE.NAME"
@@ -31169,7 +31169,7 @@ msgstr "熱死的"
 #. STRINGS.DUPLICANTS.DEATHS.RADIATION.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DEATHS.RADIATION.DESCRIPTION"
 msgid "{Target} perished from excessive radiation exposure."
-msgstr "{Target}因輻射劑量過高而消滅。"
+msgstr "{Target}因過度暴露於輻射而死亡。"
 
 #. STRINGS.DUPLICANTS.DEATHS.RADIATION.NAME
 msgctxt "STRINGS.DUPLICANTS.DEATHS.RADIATION.NAME"
@@ -31239,12 +31239,12 @@ msgstr "經由 {1} 修改 {0} "
 #. STRINGS.DUPLICANTS.DISEASES.COLDSICKNESS.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DISEASES.COLDSICKNESS.DESCRIPTION"
 msgid "This Duplicant's thought processes have been slowed to a crawl from extreme cold exposure"
-msgstr "這個複製人由於低溫，思維活動變得緩慢"
+msgstr "由於暴露在極冷的環境中，這個複製人的思維活動已經變得像爬行一樣緩慢"
 
 #. STRINGS.DUPLICANTS.DISEASES.COLDSICKNESS.DESCRIPTIVE_SYMPTOMS
 msgctxt "STRINGS.DUPLICANTS.DISEASES.COLDSICKNESS.DESCRIPTIVE_SYMPTOMS"
 msgid "Nonlethal. Duplicants experience extreme body heat loss causing chills and discomfort."
-msgstr "非致命性的。複製人感到體溫快速流失與不適。"
+msgstr "非致命性的。複製人經歷極度的體溫損失，導致發冷和不適。"
 
 #. STRINGS.DUPLICANTS.DISEASES.COLDSICKNESS.LEGEND_HOVERTEXT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.COLDSICKNESS.LEGEND_HOVERTEXT"
