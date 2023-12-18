@@ -5984,7 +5984,7 @@ msgstr "<link=\"DEVPUMPLIQUID\">開發者固體幫浦</link>"
 #. STRINGS.BUILDINGS.PREFABS.DEVRADIATIONGENERATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVRADIATIONGENERATOR.DESC"
 msgid "That's some <i>strong</i> coffee."
-msgstr "裡面裝著一些<i>濃縮</i>咖啡。"
+msgstr "裡面裝著一些<b>濃縮</b>咖啡。"
 
 #. STRINGS.BUILDINGS.PREFABS.DEVRADIATIONGENERATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVRADIATIONGENERATOR.EFFECT"
@@ -6834,7 +6834,7 @@ msgstr "<link=\"EXTERIORWALL\">雨滴印花</link>"
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.RAINBOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.RAINBOW.DESC"
 msgid "A wallpaper with <i>all</i> the colors."
-msgstr "擁有<i>所有</i>顏色的壁紙。"
+msgstr "擁有<b>所有</b>顏色的壁紙。"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.RAINBOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.RAINBOW.NAME"
@@ -10319,7 +10319,7 @@ msgstr "記憶體儲存設定端（S）收到的綠色訊號，直到重設端�
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.EFFECT"
 msgid "Contains an internal Memory, and will output whatever signal is stored in that Memory.\n\nSignals sent to the Inputs <i>only</i> affect the Memory, and do not pass through to the Output. \n\nSending a <b><style=\"logic_on\">Green Signal</style></b> to the Set Port (S) will set the memory to <b><style=\"logic_on\">Green</style></b>. \n\nSending a <b><style=\"logic_on\">Green Signal</style></b> to the Reset Port (R) will reset the memory back to <b><style=\"logic_off\">Red</style></b>."
-msgstr "含有一個記憶體，並會輸出儲存在記憶體中的訊號。輸入的訊號<i>只會</i>影響記憶體，並不會傳到輸出端。\n\n設定端（S）收到<b><style=\"logic_on\">綠色訊號</style></b>時，記憶體會儲存<b><style=\"logic_on\">綠色訊號</style></b>。\n\n重設端（R）收到<b><style=\"logic_on\">綠色訊號</style></b>時，記憶體會重設為<b><style=\"logic_off\">紅色訊號</style></b>。"
+msgstr "含有一個記憶體，並會輸出儲存在記憶體中的訊號。輸入的訊號<b>只會</b>影響記憶體，並不會傳到輸出端。\n\n設定端（S）收到<b><style=\"logic_on\">綠色訊號</style></b>時，記憶體會儲存<b><style=\"logic_on\">綠色訊號</style></b>。\n\n重設端（R）收到<b><style=\"logic_on\">綠色訊號</style></b>時，記憶體會重設為<b><style=\"logic_off\">紅色訊號</style></b>。"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.NAME"
@@ -13914,7 +13914,7 @@ msgstr "天才雕塑"
 #. STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.FACADES.SCULPTURE_1x2_AMAZING_1.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.FACADES.SCULPTURE_1x2_AMAZING_1.DESC"
 msgid "<i>Ceci n'est pas un entonnoir.</i>"
-msgstr "<i>非漏斗也。</i>"
+msgstr "<b>非漏斗也。</b>"
 
 #. STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.FACADES.SCULPTURE_1x2_AMAZING_1.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.FACADES.SCULPTURE_1x2_AMAZING_1.NAME"
@@ -15934,7 +15934,7 @@ msgstr "初始化成功"
 #. STRINGS.CODEX.A1_MAILROOMETIQUETTE.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A1_MAILROOMETIQUETTE.BODY.CONTAINER1"
 msgid "<smallcaps><b>Reminder: Mailroom Etiquette</b>\nFrom: <b>Admin</b> <alpha=#AA><admin@gravitas.nova></color>\nTo: <b>All</b></smallcaps>\n------------------\n\n<indent=5%>Please do not have live bees delivered to the office mail room. Requests and orders for experimental test subjects may be processed through admin.\n\n<i>Please request all test subjects through admin.</i>\n\nThank-you.\n\n-Admin\nThe Gravitas Facility</indent>"
-msgstr "<smallcaps><b>提醒：郵務室禮儀</b>\n寄件者：<b>管理部</b> <alpha=#AA><admin@gravitas.nova></color>\n收件者：<b>全體</b></smallcaps>\n------------------\n\n<indent=5%>請不要將活輻射蜂送到辦公室的郵務室。請透過管理部申請並排定實驗測試項目。\n\n<I>請透過管理部申請所有的測試項目。</i>\n\n謝謝您。\n\n－管理部\n引力科技</indent>"
+msgstr "<smallcaps><b>提醒：郵務室禮儀</b>\n寄件者：<b>管理部</b> <alpha=#AA><admin@gravitas.nova></color>\n收件者：<b>全體</b></smallcaps>\n------------------\n\n<indent=5%>請不要將活輻射蜂送到辦公室的郵務室。請透過管理部申請並排定實驗測試項目。\n\n<b>請透過管理部申請所有的測試項目。</b>\n\n謝謝您。\n\n－管理部\n引力科技</indent>"
 
 #. STRINGS.CODEX.A1_MAILROOMETIQUETTE.SUBTITLE
 msgctxt "STRINGS.CODEX.A1_MAILROOMETIQUETTE.SUBTITLE"
@@ -16074,12 +16074,12 @@ msgstr "農業筆記"
 #. STRINGS.CODEX.A2_B327.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A2_B327.BODY.CONTAINER1"
 msgid "I'm starting my new job at Gravitas today. I'm... well, I'm nervous.\n\nIt turns out they hired a bunch of new people - I guess they're expanding - and most of them are about my age, but I'm the only one that hasn't done my doctorate. They all call me \"Mister\" Kraus and it's the <i>worst</i>.\n\nI have no idea where I'll find the time to do my PhD while working a full time job.\n------------------\n"
-msgstr "我今天開始了在引力科技的新工作。我…很好，我很緊張。\n\n他們雇用一大堆新人－我猜他們正在擴張－多數和我年齡差不多，但我是唯一沒有完成博士學位的人。他們都叫我 Kraus「先生」，真的<i>很壞</i>。\n\n在一個全職的工作上，我該怎麼找到時間完成我的博士學位。\n------------------\n"
+msgstr "我今天開始了在引力科技的新工作。我…很好，我很緊張。\n\n他們雇用一大堆新人－我猜他們正在擴張－多數和我年齡差不多，但我是唯一沒有完成博士學位的人。他們都叫我 Kraus「先生」，真的<b>很壞</b>。\n\n在一個全職的工作上，我該怎麼找到時間完成我的博士學位。\n------------------\n"
 
 #. STRINGS.CODEX.A2_B327.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A2_B327.BODY.CONTAINER2"
 msgid "<i>I screwed up so much today.</i>\n\nAt one point I spaced on the formula for calculating the volume of a cone. They must have thought I was completely useless.\n\nThe only time I knew what I was doing was when I helped an older coworker figure out her dumb old email.\n\nPeople say education isn't so important as long as you've got the skills, but there's things my colleagues know that I just <i>don't</i>. They're not mean about it or anything, it's just so frustrating. I feel dumb when I talk to them!\n\nI bet they're gonna realize soon that I don't belong here, and then I'll be fired for sure. Man... I'm still paying off my student loans (WITH international fees), I <i>can't</i> lose this income.\n------------------\n"
-msgstr "<i>我今天搞砸了。</i>\n\n在計算圓錐體的公式上我多空了一點，他們一定認為我沒有用。\n\n我唯一知道我有用的時候，就是教會了一位年長的同事使用她的電子郵件。\n\n人們總是說，拿握了技能教育就不是那麼重要，但我的同事知道有些事我就是<i>不知道</i>。\n\n他們不是故意的，只是令人沮喪。與他們交談時，我感覺很蠢！\n\n我敢打賭，他們很會就會意識到我不屬於這裡，然後我肯定會被開除。伙計…我還在償還就學貸款（國際學費），我<i>不能</i>失去這份收入。\n------------------\n"
+msgstr "<b>我今天搞砸了。</b>\n\n在計算圓錐體的公式上我多空了一點，他們一定認為我沒有用。\n\n我唯一知道我有用的時候，就是教會了一位年長的同事使用她的電子郵件。\n\n人們總是說，拿握了技能教育就不是那麼重要，但我的同事知道有些事我就是<b>不知道</b>。\n\n他們不是故意的，只是令人沮喪。與他們交談時，我感覺很蠢！\n\n我敢打賭，他們很會就會意識到我不屬於這裡，然後我肯定會被開除。伙計…我還在償還就學貸款（國際學費），我<b>不能</b>失去這份收入。\n------------------\n"
 
 #. STRINGS.CODEX.A2_B327.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.A2_B327.BODY.CONTAINER3"
@@ -16119,7 +16119,7 @@ msgstr "沒人處理的培養皿"
 #. STRINGS.CODEX.A2_THERMODYNAMICLAWS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A2_THERMODYNAMICLAWS.BODY.CONTAINER1"
 msgid "<indent=5%><i>Hello</i> Mr. Kraus!\n\nI was just e-mailing you after our little chat today to pass along something you might like to read - I think you'll find it super useful in your research!\n\n</indent>"
-msgstr "<indent=5%><i>哈囉</i> Kraus 先生！\n\n在今天我們短暫的交流後，我剛剛用電子郵件寄了一些你會想讀的東西給你－我想你會發現對你的研究非常有幫助！\n\n</indent>"
+msgstr "<indent=5%><b>哈囉</b> Kraus 先生！\n\n在今天我們短暫的交流後，我剛剛用電子郵件寄了一些你會想讀的東西給你－我想你會發現對你的研究非常有幫助！\n\n</indent>"
 
 #. STRINGS.CODEX.A2_THERMODYNAMICLAWS.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A2_THERMODYNAMICLAWS.BODY.CONTAINER2"
@@ -16144,7 +16144,7 @@ msgstr "<indent=10%><b>第零定律</b></indent>\n<indent=15%>若兩個熱力學
 #. STRINGS.CODEX.A2_THERMODYNAMICLAWS.BODY.CONTAINER6
 msgctxt "STRINGS.CODEX.A2_THERMODYNAMICLAWS.BODY.CONTAINER6"
 msgid "<indent=5%>\nIf this is too complicated for you, you can come by to chat. I'd be <i>thrilled</i> to answer your questions. ;)</indent>"
-msgstr "<indent=5%>\n如果對你來說太複雜了，你可以來找我聊聊。我很<i>樂意</i>為你解答。;)</indent>"
+msgstr "<indent=5%>\n如果對你來說太複雜了，你可以來找我聊聊。我很<b>樂意</b>為你解答。;)</indent>"
 
 #. STRINGS.CODEX.A2_THERMODYNAMICLAWS.BODY.EMAILHEADER1
 msgctxt "STRINGS.CODEX.A2_THERMODYNAMICLAWS.BODY.EMAILHEADER1"
@@ -16184,7 +16184,7 @@ msgstr "Broussard 博士告訴我，我今天看上去半死不活的，就將�
 #. STRINGS.CODEX.A3_B556.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.A3_B556.BODY.CONTAINER4"
 msgid "I got home yesterday fully intending to work on my paper after Broussard sent me home, but the second I walked in the door I hit the pillow and didn't get back up. I slept for <i>12 straight hours</i>.\n\nI had no idea I needed that. When I got into the lab this morning I looked over my work from the past few weeks, and realized it's completely useless.\n\nIt'll take me hours to correct all the mistakes I made these past few months. Is this what I was killing myself for? I'm such a rube, I owe Broussard a huge thanks.\n\nI'll start keeping more regular hours from now on... Also, I was considering maybe getting a dog."
-msgstr "昨天 Broussard 將我送回家後，我打算撰寫我的論文，但當我第二次走進門時，我撞上了枕頭然後就起不來了。我昏睡了<i>整整 12 小時</i>。\n\n我不知道我需要睡那麼久。當我在今天早上走進實驗室時，我檢視了自己過去幾周的工作，發現完全沒有進度。\n\n我需要花幾個小時來糾正我過去幾個月的所有錯誤。這就是我要自殺的原因嗎？我真爛，我要對 Broussard 深表謝意。\n\n從現在開始我要保持正常的工作時間…另外，我在考慮養一隻狗。"
+msgstr "昨天 Broussard 將我送回家後，我打算撰寫我的論文，但當我第二次走進門時，我撞上了枕頭然後就起不來了。我昏睡了<b>整整 12 小時</b>。\n\n我不知道我需要睡那麼久。當我在今天早上走進實驗室時，我檢視了自己過去幾周的工作，發現完全沒有進度。\n\n我需要花幾個小時來糾正我過去幾個月的所有錯誤。這就是我要自殺的原因嗎？我真爛，我要對 Broussard 深表謝意。\n\n從現在開始我要保持正常的工作時間…另外，我在考慮養一隻狗。"
 
 #. STRINGS.CODEX.A3_B556.SUBTITLE
 msgctxt "STRINGS.CODEX.A3_B556.SUBTITLE"
@@ -16204,7 +16204,7 @@ msgstr "<indent=5%>天阿～我今天發現 Devon 是那種會替食物拍照的
 #. STRINGS.CODEX.A3_DEVONSBLOG.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A3_DEVONSBLOG.BODY.CONTAINER2"
 msgid "<indent=5%>Oh cool, Devon's writing a new post for <i>Toast of the Town</i>? I'd love to tag along and \"see how the sausage is made\" so to speak, haha.\n\nI'll see you guys in a bit! :)</indent>"
-msgstr "<indent=5%>喔～酷，Devon 寫的新文章 <i>土司小鎮</i> ？我很喜歡並標記了「看看香腸是如何製作的」可以這麼說吧，哈哈。\n\n在一會就可以見到你們了！:)</indent>"
+msgstr "<indent=5%>喔～酷，Devon 寫的新文章<b>土司小鎮</b> ？我很喜歡並標記了「看看香腸是如何製作的」可以這麼說吧，哈哈。\n\n在一會就可以見到你們了！:)</indent>"
 
 #. STRINGS.CODEX.A3_DEVONSBLOG.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.A3_DEVONSBLOG.BODY.CONTAINER3"
@@ -16464,7 +16464,7 @@ msgstr "葵花子"
 #. STRINGS.CODEX.A5_THEJANITOR.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A5_THEJANITOR.BODY.CONTAINER2"
 msgid "<indent=5%><i>Pfft,</i> whatever.</indent>"
-msgstr "<indent=5%><I>哼，</i> 隨便你。</indent>"
+msgstr "<indent=5%><b>哼，</b>隨便你。</indent>"
 
 #. STRINGS.CODEX.A5_THEJANITOR.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.A5_THEJANITOR.BODY.CONTAINER3"
@@ -16849,7 +16849,7 @@ msgstr "太空中的辦公空間！"
 #. STRINGS.CODEX.B10_AI.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B10_AI.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subject Identified: B111-1]</smallcaps>\n\n[LOG BEGINS]\n\nI made a horrible discovery today while reviewing work on the artificial intelligence programming. It seems Dr. Ali mixed up a file when uploading a program onto a rudimentary robot and discovered that the device displayed the characteristics of what he called \"a puppy that was lost in a teleportation experiment weeks ago\".\n\nThis is unbelievable! Jackie has been hiding the nature of the teleportation experiments from me. What's worse is I know from previous conversations that she knows I would never approve of pursuing this line of experimentation. The societal benefits of teleportation aside, you <i>cannot</i> kill a living being every time you want to send them to another room. The moral and ethical implications of this are horrendous.\n\nI know she has been keeping this information from me. When I searched through the Gravitas database I found nothing to do with these teleportation experiments. It was only because this reference showed up in Dr. Ali's AI paper that I was able to discover what has been happening.\n\nJackie has to be stopped.\n\nBut I know she is beyond reasonable discussion. I hope this is the only thing she is hiding from me, but I fear it is not.\n\n[LOG ENDS]\n\n[LOG BEGINS]\n\nDespite myself, I can't help thinking of the intriguing possiblities this presents for the AI development. It haunts me.\n\nI fear I may be sliding down a slippery slope, at the bottom of which Jackie is waiting for me with open arms.\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：B111-1】</smallcaps>\n\n【日誌開始】\n\n今天我在重新檢視人工智慧程式時有了一個可怕的發現。\n看來 Ali 博士將程式上傳到一個初級機器人時夾雜了一個檔案，\n然後發現該設備顯示的特徵為所它謂的「一隻小狗在上星期的傳送實驗中失蹤了」。\n\n無法置信！Jackie 向我隱瞞了傳送實驗的本質。\n更糟糕的是我從以前的談話得知，她知道我絕對不會同意這項實驗。\n除了傳送的社會益處外，你 <I>不能</i> 在每次你想將它們傳送到另一個房間時都殺死一個生物。\n這種道德與論理的意義是可怕的。\n\n我知道她一直對我保密此資訊。\n當我搜尋引力設施的資料庫時，我發現這些與傳送實驗無關。\n只因為僅在 Ali 博士的 AI 文件中顯示這個線索，我才能發現正在發生的事。\n\nJackie 必須停止。\n\n但我知道她已經無法合理討論了。\n我希望這是她對我隱瞞的唯一一件事，\n但我擔心並不是如此。\n\n【日誌結束】\n\n【日誌開始】\n\n僅管我自己不禁想到這對 AI 開發帶來的可能性。\n它困擾著我。\n\n我擔心滑坡效應，而 Jackie 正在底端張開雙臂等著我。\n\n【日誌結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：B111-1】</smallcaps>\n\n【日誌開始】\n\n今天我在重新檢視人工智慧程式時有了一個可怕的發現。\n看來 Ali 博士將程式上傳到一個初級機器人時夾雜了一個檔案，\n然後發現該設備顯示的特徵為所它謂的「一隻小狗在上星期的傳送實驗中失蹤了」。\n\n無法置信！Jackie 向我隱瞞了傳送實驗的本質。\n更糟糕的是我從以前的談話得知，她知道我絕對不會同意這項實驗。\n除了傳送的社會益處外，你 <b>不能</b>在每次你想將它們傳送到另一個房間時都殺死一個生物。\n這種道德與論理的意義是可怕的。\n\n我知道她一直對我保密此資訊。\n當我搜尋引力設施的資料庫時，我發現這些與傳送實驗無關。\n只因為僅在 Ali 博士的 AI 文件中顯示這個線索，我才能發現正在發生的事。\n\nJackie 必須停止。\n\n但我知道她已經無法合理討論了。\n我希望這是她對我隱瞞的唯一一件事，\n但我擔心並不是如此。\n\n【日誌結束】\n\n【日誌開始】\n\n僅管我自己不禁想到這對 AI 開發帶來的可能性。\n它困擾著我。\n\n我擔心滑坡效應，而 Jackie 正在底端張開雙臂等著我。\n\n【日誌結束】"
 
 #. STRINGS.CODEX.B10_AI.SUBTITLE
 msgctxt "STRINGS.CODEX.B10_AI.SUBTITLE"
@@ -16869,7 +16869,7 @@ msgstr "Joshua：嘿，Kraus 先生，我正在找爸爸斗內。想花點錢為
 #. STRINGS.CODEX.B2_ELLIESBIRTHDAY.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.B2_ELLIESBIRTHDAY.BODY.CONTAINER2"
 msgid "Ellie: Nice cake. I bet it wasn't easy to like, strong-arm everyone into buying it.\n\nJoshua: You know, if you were a little nicer to people they might want to spend more time with you.\n\nEllie: Pfft, please. Friends are about <i>quality</i>, not quantity, Josh.\n\nJoshua: Wow! Was that a roundabout compliment I just heard?\n\nEllie: What? Gross, ew. Stop that.\n\nJoshua: Oh, don't worry, I won't tell anyone. I'm not much of a gossip."
-msgstr "Ellie：不錯的蛋糕。我敢打賭，它不是容易讓人喜歡，臂力強的人才能買下它。\n\nJoshua：你知道的，如果你對別人更友善些，也許他們會花更多的時間陪妳。\n\nEllie：拜託。朋友是重 <I>質</i> 而不是量，Josh。\n\nJoshua：哇！我剛剛是不是隱晦聽到讚美？\n\nEllie：什麼？少噁心了。別那麼做。\n\nJoshua：哦，別擔心，我不會和任何人說的。我沒那麼八掛。"
+msgstr "Ellie：不錯的蛋糕。我敢打賭，它不是容易讓人喜歡，臂力強的人才能買下它。\n\nJoshua：你知道的，如果你對別人更友善些，也許他們會花更多的時間陪妳。\n\nEllie：拜託。朋友是重<b>質</b>而不是量，Josh。\n\nJoshua：哇！我剛剛是不是隱晦聽到讚美？\n\nEllie：什麼？少噁心了。別那麼做。\n\nJoshua：哦，別擔心，我不會和任何人說的。我沒那麼八掛。"
 
 #. STRINGS.CODEX.B2_ELLIESBIRTHDAY.SUBTITLE
 msgctxt "STRINGS.CODEX.B2_ELLIESBIRTHDAY.SUBTITLE"
@@ -17009,7 +17009,7 @@ msgstr "回覆：給 Otto（規格變更）"
 #. STRINGS.CODEX.B4_MYPENS.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.B4_MYPENS.BODY.CONTAINER2"
 msgid "<indent=5%>To whomever is stealing the glitter pens off of my desk:\n\n<i>CONSIDER THIS YOUR LAST WARNING!</i></indent>"
-msgstr "<indent=5%>給偷走我桌上名貴鋼筆的未知人士。\n\n<I>考慮清楚，這是對你最後的警告！</i></indent>"
+msgstr "<indent=5%>給偷走我桌上名貴鋼筆的未知人士。\n\n<b>考慮清楚，這是對你最後的警告！</b></indent>"
 
 #. STRINGS.CODEX.B4_MYPENS.BODY.EMAILHEADER1
 msgctxt "STRINGS.CODEX.B4_MYPENS.BODY.EMAILHEADER1"
@@ -17079,7 +17079,7 @@ msgstr "重訪號碼"
 #. STRINGS.CODEX.B5_ANTS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B5_ANTS.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subjects Identified: A001, B556]</smallcaps>\n\n[LOG BEGINS]\n\nTechnician: <i>Atta cephalotes</i>. What sort of experiment are you doing with these?\n\nDirector: No experiment. I just find them interesting. Don't you?\n\nTech: Not really?\n\nDirector: You ought to. Very efficient. They perfected farming millions of years before humans.\n\n(sound of tapping on glass)\n\nDirector: An entire colony led by and in service to its queen. Each organism knows its role.\n\nTech: I have the results from the power tests, director.\n\nDirector: And?\n\nTech: Negative, ma'am.\n\nDirector: I see. You know, another admirable quality of ants occurs to me. They can pull twenty times their own weight.\n\nTech: I'm not sure I follow, ma'am.\n\nDirector: Are you pulling your weight, Doctor?\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：A001、B556】</smallcaps>\n\n【記錄開始】\n\n技師：<i>Atta cephalotes</i>。你正在做什麼實驗？\n\n經理：不是實驗。我只是發現它們很迷人。你覺得呢？\n\n技師：我不覺得？\n\n經理：你應該覺得。牠們效率很高。在人類出現前幾百萬年就完善了農業。\n\n（敲打玻璃的聲音）\n\n經理：整個殖民地由蟻后所統治並為其服務。每隻螞蟻都知道牠的角色\n\n技師：經理，能量測試有了結果。\n\n經理：然後？\n\n技師：不夠，女士。\n\n經理：我了解了。你知道，我發現了另一種很棒的螞蟻。牠們可以抬起比牠們本身重 20 倍的東西。\n\n技師：我不確定我知道，女士。\n\n經理：你能抬起和你體重一樣的東西嗎，博士？\n\n【記錄結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號：A001、B556】</smallcaps>\n\n【記錄開始】\n\n技師：<b>Atta cephalotes</b>。你正在做什麼實驗？\n\n經理：不是實驗。我只是發現它們很迷人。你覺得呢？\n\n技師：我不覺得？\n\n經理：你應該覺得。牠們效率很高。在人類出現前幾百萬年就完善了農業。\n\n（敲打玻璃的聲音）\n\n經理：整個殖民地由蟻后所統治並為其服務。每隻螞蟻都知道牠的角色\n\n技師：經理，能量測試有了結果。\n\n經理：然後？\n\n技師：不夠，女士。\n\n經理：我了解了。你知道，我發現了另一種很棒的螞蟻。牠們可以抬起比牠們本身重 20 倍的東西。\n\n技師：我不確定我知道，女士。\n\n經理：你能抬起和你體重一樣的東西嗎，博士？\n\n【記錄結束】"
 
 #. STRINGS.CODEX.B5_ANTS.SUBTITLE
 msgctxt "STRINGS.CODEX.B5_ANTS.SUBTITLE"
@@ -17244,7 +17244,7 @@ msgstr "經理的筆記"
 #. STRINGS.CODEX.B7_FRIENDLYEMAIL.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B7_FRIENDLYEMAIL.BODY.CONTAINER1"
 msgid "<indent=5%>Omg, <i>hi</i> Nikola!\n\nHave you heard about the super weird thing that's been happening in the kitchen lately? Joshua's lunch has disappeared from the fridge like, every day for the past week!\n\nThere's a <i>ton</i> of cameras in that room too but all anyone can see is like this spiky blond hair behind the fridge door.\n\nSo <i>weird</i> right? ;)\n\nAnyway, totally unrelated, but our computer system's been having this <i>glitch</i> where datasets going back for like half a year get <i>totally</i> wiped for all employees with the initials \"N.T.\"\n\nIsn't it weird how specific that is? Don't worry though! I'm sure I'll have it fixed before it affects any of <i>your</i> work.\n\nByeee!</indent>"
-msgstr "<indent=5%>天啊，<i>嗨</i> Nikola！\n\n你聽說了最近在廚房裡發生了超奇怪的事情？Joshua 的午餐從冰箱裡消失了，過去一周的每一天！\n\n房間內有<i>許多的</i> 攝影機，但所有的人都可以看見冰箱後那像是釘子的金髮。\n\n<i>超奇怪的</i>，對吧？;)\n\n不管怎樣，完全沒有關係，但我們的電腦系統出現了一種<i>故障</i>，所有字首帶有「N.T.」的員工，最近半年來的所有資料都被<i>完全的</i>刪除了。\n\n這是不是真的很奇怪？不過別擔心！我確定在影響到任何<i>你的工作</i>之前我會修好的。\n\n再見！</indent>"
+msgstr "<indent=5%>天啊，<b>嗨</b> Nikola！\n\n你聽說了最近在廚房裡發生了超奇怪的事情？Joshua 的午餐從冰箱裡消失了，過去一周的每一天！\n\n房間內有<b>許多的</b>攝影機，但所有的人都可以看見冰箱後那像是釘子的金髮。\n\n<b>超奇怪的</b>，對吧？;)\n\n不管怎樣，完全沒有關係，但我們的電腦系統出現了一種<b>故障</b>，所有字首帶有「N.T.」的員工，最近半年來的所有資料都被<b>完全的</b>刪除了。\n\n這是不是真的很奇怪？不過別擔心！我確定在影響到任何<b>你的工作</b>之前我會修好的。\n\n再見！</indent>"
 
 #. STRINGS.CODEX.B7_FRIENDLYEMAIL.BODY.EMAILHEADER1
 msgctxt "STRINGS.CODEX.B7_FRIENDLYEMAIL.BODY.EMAILHEADER1"
@@ -17284,7 +17284,7 @@ msgstr "在太空中"
 #. STRINGS.CODEX.B7_TIMESARROWTHOUGHTS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B7_TIMESARROWTHOUGHTS.BODY.CONTAINER1"
 msgid "I've been unable to shake the notion of the Bow.\n\nThe thought of its mechanics are too intriguing, and I can only dream of the mark such a device would make upon the world -- imagine, a source of inexhaustible energy!\n\nSo many of humanity's problems could be solved with this one invention - domestic energy, environmental pollution, <i>the fuel wars</i>.\n\nI have to pursue this dream, no matter what."
-msgstr "我無法撼動弓的概念。\n\n這力學的思維太有趣了，我僅能夢想這設備會讓世界留下深刻的印象——想像一下，無窮無盡的能源！\n\n這項發明可以為人類決解許多問題－國內能源、環境汙染、<i>燃料戰爭</i>。\n\n我會一直追逐這個夢想，無論如何。"
+msgstr "我無法撼動弓的概念。\n\n這力學的思維太有趣了，我僅能夢想這設備會讓世界留下深刻的印象——想像一下，無窮無盡的能源！\n\n這項發明可以為人類決解許多問題－國內能源、環境汙染、<b>燃料戰爭</b>。\n\n無論如何，我會一直追逐這個夢想。"
 
 #. STRINGS.CODEX.B7_TIMESARROWTHOUGHTS.SUBTITLE
 msgctxt "STRINGS.CODEX.B7_TIMESARROWTHOUGHTS.SUBTITLE"
@@ -17344,7 +17344,7 @@ msgstr "禮貌的請求"
 #. STRINGS.CODEX.B9_TELEPORTATION.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B9_TELEPORTATION.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subject Identified: A001]</smallcaps>\n\n[LOG BEGINS]\n\nDr. Techna's newest notes on Duplicant memories have revealed some interesting discoveries. It seems memories </i>can</i> be transferred to the cloned subject but it requires the host to be subjected to a machine that performs extremely detailed microanalysis. This in-depth dissection of the subject would produce the results we need but at the expense of destroying the host.\n\nOf course this is not ideal for our current situation. The time and energy it took to recruit Gravitas' highly trained staff would be wasted if we were to extirpate these people for the sake of experimentation. But perhaps we can use our Duplicants as experimental subjects until we perfect the process and look into finding volunteers for the future in order to obtain an ideal specimen. I will have to discuss this with Dr. Techna but I'm sure he would be enthusiastic about such an opportunity to continue his work.\n\nI am also very interested in the commercial opportunities this presents. Off the top of my head I can think of applications in genetics, AI development, and teleportation technology. This could be a significant financial windfall for the company.\n\n[LOG ENDS]"
-msgstr "<smallcaps>【語音識別初始化】\n【實驗編號】：A001</smallcaps>\n\n【日誌開始】\n\nTechna 博士關於複製人記憶的最新記錄，揭露了一些有趣的發現。記憶似乎<i>可以</i>可移到複製體上，但需要將主體送入一台機器做非常細微的分析。對主體的深入剖析會產生我們需要的結果，但需要以破壞主體為代價。\n\n當然，這對於我們目前的狀況來說不是個好方案。如果我們為了實驗而淘汰這些人，那麼引力科技就浪費這些花了時間與精力培養的資深員工。但也許我們可以將複製人當作實驗對象，直到我們完善流程，並找到自願者來完成這個目標。我必須和 Techna 博士討論，但我相信他會能繼續工作而充滿熱情。\n\n我對這所能創造的商機很感興趣。我想到了遺傳學的應用、AI 開發與傳送技術。這對公司來說可能是個巨大意外收益。\n\n【日誌結束】"
+msgstr "<smallcaps>【語音識別初始化】\n【實驗編號】：A001</smallcaps>\n\n【日誌開始】\n\nTechna 博士關於複製人記憶的最新記錄，揭露了一些有趣的發現。記憶似乎<b>可以</b>可移到複製體上，但需要將主體送入一台機器做非常細微的分析。對主體的深入剖析會產生我們需要的結果，但需要以破壞主體為代價。\n\n當然，這對於我們目前的狀況來說不是個好方案。如果我們為了實驗而淘汰這些人，那麼引力科技就浪費這些花了時間與精力培養的資深員工。但也許我們可以將複製人當作實驗對象，直到我們完善流程，並找到自願者來完成這個目標。我必須和 Techna 博士討論，但我相信他會能繼續工作而充滿熱情。\n\n我對這所能創造的商機很感興趣。我想到了遺傳學的應用、AI 開發與傳送技術。這對公司來說可能是個巨大意外收益。\n\n【日誌結束】"
 
 #. STRINGS.CODEX.B9_TELEPORTATION.SUBTITLE
 msgctxt "STRINGS.CODEX.B9_TELEPORTATION.SUBTITLE"
@@ -19529,7 +19529,7 @@ msgstr "Olivia：我們仔細檢查了觀測設備，電腦也即將暖好機了
 #. STRINGS.CODEX.PLANETARYECHOES.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.PLANETARYECHOES.BODY.CONTAINER2"
 msgid "Olivia: What on earth is this?\n\n[An open palm slams papers down on a desk.]\n\nOlivia: These readings show that hundreds of kilograms of Neutronium are building up in the machine every shift. When were you going to tell me?\n\nJackie: I'm handling it.\n\nOlivia: We don't have the luxury of taking shortcuts. Not when safety is on the line.\n\nJackie: I think I'm capable of overseeing my own safety.\n\nOlivia: I-I'm not just concerned about <i>your</i> safety! We don't understand the longterm implications of what we're developing here... the manipulations we conduct in this facility could have rippling effects throughout the world, maybe even the universe.\n\nJackie: Don't be such a fearmonger. It's not befitting of a scientist. Besides, I'll remind you this research has the potential to stop the fuel wars in their tracks and end the suffering of thousands. Every day we spend on trials here delays that.\n\nOlivia: It's dangerous.\n\nJackie: Your concern is noted.\n------------------\n"
-msgstr "Olivia：這到底是什麼？\n\n【將一疊文件攤在桌上。】\n\nOlivia：這些讀數顯示，機器每次運作都堆積了幾百公斤的 0 號元素。你何時要告訴我？\n\nJackie：都在我的掌控之中。\n\nOlivia：我們沒有捷徑可走。在安全線的標準上沒有。\n\nJackie：我認為我能掌控自己的安全。\n\nOlivia：我…我不僅擔心 <I>你的</i> 安全！我們不了解在這的發展會造成什麼長期的影響…我們在此設施中進行的操作，產生的漣漪效應可能會影響全世界，甚至是宇宙。\n\nJackie：別這麼害怕。這不適合科學家。此外，我得提醒你，這將研究有可能停止燃料戰爭，結束數千人的痛苦。每天我們在此進行的實驗都會延緩這件事。\n\nOlivia：這有危險。\n\nJackie：我了解你的擔心。\n------------------\n"
+msgstr "Olivia：這到底是什麼？\n\n【將一疊文件攤在桌上。】\n\nOlivia：這些讀數顯示，機器每次運作都堆積了幾百公斤的 0 號元素。你何時要告訴我？\n\nJackie：都在我的掌控之中。\n\nOlivia：我們沒有捷徑可走。在安全線的標準上沒有。\n\nJackie：我認為我能掌控自己的安全。\n\nOlivia：我…我不僅擔心<b>你的</b>安全！我們不了解在這的發展會造成什麼長期的影響…我們在此設施中進行的操作，產生的漣漪效應可能會影響全世界，甚至是宇宙。\n\nJackie：別這麼害怕。這不適合科學家。此外，我得提醒你，這將研究有可能停止燃料戰爭，結束數千人的痛苦。每天我們在此進行的實驗都會延緩這件事。\n\nOlivia：這有危險。\n\nJackie：我了解你的擔心。\n------------------\n"
 
 #. STRINGS.CODEX.PLANETARYECHOES.BODY.TITLE1
 msgctxt "STRINGS.CODEX.PLANETARYECHOES.BODY.TITLE1"
@@ -21239,7 +21239,7 @@ msgstr "初遇"
 #. STRINGS.CODEX.STORY_TRAITS.LONELYMINION.BEGIN_POPUP.DESCRIPTION
 msgctxt "STRINGS.CODEX.STORY_TRAITS.LONELYMINION.BEGIN_POPUP.DESCRIPTION"
 msgid "An unfamiliar building has been discovered in my colony. There's movement inside but whoever the inhabitant is, they seem wary of us.\n\nIf we can convince them that we mean no harm, we could very well end up with a fresh recruit <i>and</i> a useful new building."
-msgstr "我在我的殖民地中發現了一個陌生的建築。裡面有動靜，但裡面的居住者似乎對我們保持警惕。\n\n如果我們能說服他我們沒有惡意，我們很可能最終可以招募到一名新成員 <i>以及</i> 獲得一個有用的新建築。"
+msgstr "我在我的殖民地中發現了一個陌生的建築。裡面有動靜，但裡面的居住者似乎對我們保持警惕。\n\n如果我們能說服他我們沒有惡意，我們很可能最終可以招募到一名新成員<b>以及</b>獲得一個有用的新建築。"
 
 #. STRINGS.CODEX.STORY_TRAITS.LONELYMINION.BEGIN_POPUP.NAME
 msgctxt "STRINGS.CODEX.STORY_TRAITS.LONELYMINION.BEGIN_POPUP.NAME"
@@ -21249,7 +21249,7 @@ msgstr "故事特質：神祕隱士"
 #. STRINGS.CODEX.STORY_TRAITS.LONELYMINION.CREEPYBASEMENTLAB.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.STORY_TRAITS.LONELYMINION.CREEPYBASEMENTLAB.BODY.CONTAINER1"
 msgid "<smallcaps>[Voice Recognition Initialized]\n[Subjects Identified: B577, B997, B083, A216]</smallcaps>\n\n[LOG BEGINS]\n\nA216: The Director said there were supposed to be three of you on this task force. Where's the geneticist?\n\nB083: In the bathroom-\n\nB997: He went home.\n\n[long pause]\n\nB997: It's the holidays. He has a family.\n\nA216: We all do. That's exactly why this project is so urgent.\n\nB997: It's not our fault this stuff sat in a subterranean ocean for a year, and took another year to get back to Earth! The microbe samples didn't fare well on the journey, and most of the mechanical components are completely corroded. There's not much to-\n\nB083: -we're analyzing it all and salvaging what we can, Jea- ...Dr. Saruhashi.\n\nA216: Good. And take down those ridiculous lights. This is a lab, not a retro \"shopping mall.\"\n\n[LOG ENDS]\n------------------\n[LOG BEGINS]\n\nB577: Thanks for getting all the debris packed up for disposal.\n\nB997: I thought you did that.\n\nB577: No, I-\n\nB083: Who took my sandwich?\n\nB997: Not this again.\n\nB577: Ren, did you load the shipping container?\n\nB083: Seriously, I haven't eaten in thirteen hours. This isn't funny.\n\nB997: It's a little funny.\n\nB577: Can we focus, please?\n\nB997: Nobody took your sandwich, Rock Doc.\n\nB083: Then why does my food keep going missing?\n\nB997: Maybe the lab ghost took it. Or maybe you just shouldn't leave it out overnight. Gunderson probably thought it was garbage.\n\nB083: He doesn't even clean down here!\n\nB997: Right. Because if he did, I wouldn't have to keep sweeping up the magnesium sulfate deposits that <i>someone</i> keeps tracking all over the floor between shifts.\n\nB083: It's not me!\n\nB577: Listen, I know we're all tired and things have been a little strange. But the sooner we get this sent up to the launchpad, the sooner it starts its trip to the sun and we can all get out of this creepy sub-sub-basement.\n\nB083: Fine.\n\nB997: Fine.\n\nB083: Fine!\n\n[LOG ENDS]\n------------------\n"
-msgstr "<smallcaps>[語音辨識系統初始化完成]\n[識別編號：B577，B997，B083，A216]</smallcaps>\n\n[錄音開始]\n\nA216：經理說你們工作組應該有三個人的。基因學家呢？\n\nB083：他去廁——\n\nB997：他回家了。\n\n[長時間的停頓]\n\nB997：今天是假期。他也有家庭。\n\nA216：我們都有。這就是為什麼這個項目如此急迫的確切原因。\n\nB997：這東西放深海裡一年，又花了一年才帶回到地球，這又不是我們的錯！微生物樣本在途中表現不佳，大多數機械零件完全被腐蝕。沒什麼好做——\n\nB083：——我們正在完全分析它，盡我們所能，吉……猿橋博士。\n\nA216：好。之後把這些可笑的小燈泡拿下來吧。這裡是實驗室，\n又不是復古的「購物中心」。\n\n[錄音結束]\n------------------\n[錄音開始]\n\nB577：多謝你把這些雜務打包處理。\n\nB997：我以為是你整理了。\n\nB577：不，我——\n\nB083：誰拿了我的三明治？\n\nB997：哎呀又來了。\n\nB577：Ren，你裝好運輸集貨箱了嗎？\n\nB083：說真的，我已經 13 個小時沒吃東西了。這不好笑。\n\nB997：有點好笑。\n\nB577：我們能不能專心一下？\n\nB997：沒人拿了你的三明治，Rock 博士。\n\nB083：那為什麼我的食物總是失蹤？\n\nB997：也许是給實驗室鬼給拿走了。或者你就不應該放過夜。\nGunderson可能以為是垃圾就收走了。\n\nB083：他不會到這下面打掃的！\n\nB997：對。因為如果是這樣，我就不用繼續清理<i>某人</i>在換班的時候留下的一路的硫酸鎂沉積物了。\n\nB083：那不是我幹的！\n\nB577：聽著，我知道我們都很累，而且事情有點怪。但我們愈快把它送到發射台上去，它就能越快開始前往太陽的旅程，我們也就可以離開這個陰森的地下三樓了。\n\nB083：好吧。\n\nB997：好的。\n\nB083：好吧！\n\n[錄音結束]\n------------------\n"
+msgstr "<smallcaps>[語音辨識系統初始化完成]\n[識別編號：B577，B997，B083，A216]</smallcaps>\n\n[錄音開始]\n\nA216：經理說你們工作組應該有三個人的。基因學家呢？\n\nB083：他去廁——\n\nB997：他回家了。\n\n[長時間的停頓]\n\nB997：今天是假期。他也有家庭。\n\nA216：我們都有。這就是為什麼這個項目如此急迫的確切原因。\n\nB997：這東西放深海裡一年，又花了一年才帶回到地球，這又不是我們的錯！微生物樣本在途中表現不佳，大多數機械零件完全被腐蝕。沒什麼好做——\n\nB083：——我們正在完全分析它，盡我們所能，吉……猿橋博士。\n\nA216：好。之後把這些可笑的小燈泡拿下來吧。這裡是實驗室，\n又不是復古的「購物中心」。\n\n[錄音結束]\n------------------\n[錄音開始]\n\nB577：多謝你把這些雜務打包處理。\n\nB997：我以為是你整理了。\n\nB577：不，我——\n\nB083：誰拿了我的三明治？\n\nB997：哎呀又來了。\n\nB577：Ren，你裝好運輸集貨箱了嗎？\n\nB083：說真的，我已經 13 個小時沒吃東西了。這不好笑。\n\nB997：有點好笑。\n\nB577：我們能不能專心一下？\n\nB997：沒人拿了你的三明治，Rock 博士。\n\nB083：那為什麼我的食物總是失蹤？\n\nB997：也许是給實驗室鬼給拿走了。或者你就不應該放過夜。\nGunderson可能以為是垃圾就收走了。\n\nB083：他不會到這下面打掃的！\n\nB997：對。因為如果是這樣，我就不用繼續清理<b>某人</b>在換班的時候留下一整路的硫酸鎂沉積物了。\n\nB083：那不是我幹的！\n\nB577：聽著，我知道我們都很累，而且事情有點怪。但我們愈快把它送到發射台上去，它就能越快開始前往太陽的旅程，我們也就可以離開這個陰森的地下三樓了。\n\nB083：好吧。\n\nB997：好的。\n\nB083：好吧！\n\n[錄音結束]\n------------------\n"
 
 #. STRINGS.CODEX.STORY_TRAITS.LONELYMINION.CREEPYBASEMENTLAB.SUBTITLE
 msgctxt "STRINGS.CODEX.STORY_TRAITS.LONELYMINION.CREEPYBASEMENTLAB.SUBTITLE"
@@ -22599,7 +22599,7 @@ msgstr "本周期完成太空衣工作的複製人：{0} / {1}"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXPAND_TOOLTIP
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXPAND_TOOLTIP"
 msgid "<i>(ClickType/Click) to view progress</i>"
-msgstr "<i>(ClickType/Click)查看進度</i>"
+msgstr "<b>(ClickType/Click)查看進度</b>"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.FRACTIONAL_CYCLE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.FRACTIONAL_CYCLE"
@@ -35989,7 +35989,7 @@ msgstr "接觸{Sickness}細菌"
 #. STRINGS.DUPLICANTS.STATUSITEMS.CONTACTWITHGERMS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.CONTACTWITHGERMS.TOOLTIP"
 msgid "This Duplicant has encountered {Sickness} Germs and is at risk of dangerous exposure if contact continues\n\n<i>(ClickType/Click) to jump to last contact location</i>"
-msgstr "這個複製人接觸到{Sickness}細菌，如果持續接觸會有危險\n\n<i>(ClickType/Click)跳至最後接觸的位置</i>"
+msgstr "這個複製人接觸到{Sickness}細菌，如果持續接觸會有危險\n\n<b>(ClickType/Click)跳至最後接觸的位置</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.COOKDELIVERSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.COOKDELIVERSTATUS.NAME"
@@ -36264,7 +36264,7 @@ msgstr "暴露"
 #. STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TOOLTIP"
 msgid "This Duplicant has been exposed to a concentration of {Sickness} Germs and is at risk of waking up sick on their next shift\n\nExposed {Source}\n\nRate of Contracting {Sickness}: {Chance}\n\nResistance Rating: {Total}\n    • Base {Sickness} Resistance: {Base}\n    • Germ Resistance: {Dupe}\n    • {Severity} Exposure: {ExposureLevelBonus}\n\n<i>(ClickType/Click) to jump to last exposure location</i>"
-msgstr "這個複製人暴露在{Sickness}細菌濃度高的地方，在下周會提高他們生病的風險\n\n暴露{Source}\n\n{Sickness} 感染機率：{Chance}\n\n抵抗力：{Total}\n    • 基礎 {Sickness} 抗性：{Base}\n    • 細菌抗性：{Dupe}\n    • {Severity} 暴露：{ExposureLevelBonus}\n\n<i>(ClickType/Click)跳到最後暴露的地點</i>"
+msgstr "這個複製人暴露在{Sickness}細菌濃度高的地方，在下周會提高他們生病的風險\n\n暴露{Source}\n\n{Sickness} 感染機率：{Chance}\n\n抵抗力：{Total}\n    • 基礎 {Sickness} 抗性：{Base}\n    • 細菌抗性：{Dupe}\n    • {Severity} 暴露：{ExposureLevelBonus}\n\n<b>(ClickType/Click)跳到最後暴露的地點</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.FABRICATEDELIVERSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FABRICATEDELIVERSTATUS.NAME"
@@ -40394,7 +40394,7 @@ msgstr "<style=\"KKeyword\">緩慢升溫</style>的材料需要大量的能量�
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.HIGH_THERMAL_CONDUCTIVITY
 msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.HIGH_THERMAL_CONDUCTIVITY"
 msgid "This material disperses <style=\"KKeyword\">Heat</style> because energy transfers quickly through materials with high <style=\"KKeyword\">Thermal Conductivity</style>\n\nBetween two objects, the rate of <style=\"KKeyword\">Heat</style> transfer will be determined by the object with the <i>lowest</i> <style=\"KKeyword\">Thermal Conductivity</style>\n\nThermal Conductivity: {1} W per degree K difference (Oxygen: 0.024 W)"
-msgstr "這種材料會分散<style=\"KKeyword\">熱量</style>，因為能量會在高<style=\"KKeyword\">導熱係數</style>的材質中快速傳遞\n\n在兩個物體之間，<style=\"KKeyword\">熱量</style>傳遞的速率，將由<style=\"KKeyword\">導熱係數</style><i>最低</i>的物體決定\n\n導熱係數：{1} 瓦 / 每度（氧氣：0.024 瓦）"
+msgstr "這種材料會分散<style=\"KKeyword\">熱量</style>，因為能量會在高<style=\"KKeyword\">導熱係數</style>的材質中快速傳遞\n\n在兩個物體之間，<style=\"KKeyword\">熱量</style>傳遞的速率，將由<style=\"KKeyword\">導熱係數</style><b>最低</b>的物體決定\n\n導熱係數：{1} 瓦 / 每度（氧氣：0.024 瓦）"
 
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.LOW_SPECIFIC_HEAT_CAPACITY
 msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.LOW_SPECIFIC_HEAT_CAPACITY"
@@ -40404,7 +40404,7 @@ msgstr "<style=\"KKeyword\">導熱</style>材料只需少量的能量來改變<s
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.LOW_THERMAL_CONDUCTIVITY
 msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.LOW_THERMAL_CONDUCTIVITY"
 msgid "This material retains <style=\"KKeyword\">Heat</style> because energy transfers slowly through materials with low <style=\"KKeyword\">Thermal Conductivity</style>\n\nBetween two objects, the rate of <style=\"KKeyword\">Heat</style> transfer will be determined by the object with the <i>lowest</i> <style=\"KKeyword\">Thermal Conductivity</style>\n\nThermal Conductivity: {1} W per degree K difference (Oxygen: 0.024 W)"
-msgstr "這種材料會保留<style=\"KKeyword\">熱量</style>，因為能量會在低<style=\"KKeyword\">導熱係數</style>的材質中緩慢傳遞\n\n在兩個物體之間，<style=\"KKeyword\">熱量</style>傳遞速率將由<style=\"KKeyword\">導熱係數</style><i>最低</i>的物體決定\n\n導熱係數：{1} 瓦 / 每度（氧氣：0.024 瓦）"
+msgstr "這種材料會保留<style=\"KKeyword\">熱量</style>，因為能量會在低<style=\"KKeyword\">導熱係數</style>的材質中緩慢傳遞\n\n在兩個物體之間，<style=\"KKeyword\">熱量</style>傳遞速率將由<style=\"KKeyword\">導熱係數</style><b>最低</b>的物體決定\n\n導熱係數：{1} 瓦 / 每度（氧氣：0.024 瓦）"
 
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.OVERHEATTEMPERATURE
 msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.OVERHEATTEMPERATURE"
@@ -41699,7 +41699,7 @@ msgstr "帕夫太空衣"
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_BLUE.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_BLUE.DESC"
 msgid "Protects the wearer from hostile environments <i>and</i> drab fashion."
-msgstr "使穿戴者免受惡劣環境<i>和</i>單調時尚的影響。"
+msgstr "使穿戴者免受惡劣環境<b>和</b>單調時尚的影響。"
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_BLUE.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_BLUE.NAME"
@@ -41709,7 +41709,7 @@ msgstr "藍色亮片太空衣"
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_GREEN.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_GREEN.DESC"
 msgid "Protects the wearer from hostile environments <i>and</i> drab fashion."
-msgstr "使穿戴者免受惡劣環境<i>和</i>單調時尚的影響。"
+msgstr "使穿戴者免受惡劣環境<b>和</b>單調時尚的影響。"
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_GREEN.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_GREEN.NAME"
@@ -41719,7 +41719,7 @@ msgstr "綠色亮片太空衣"
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_LAVENDER.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_LAVENDER.DESC"
 msgid "Protects the wearer from hostile environments <i>and</i> drab fashion."
-msgstr "使穿戴者免受惡劣環境<i>和</i>單調時尚的影響。"
+msgstr "使穿戴者免受惡劣環境<b>和</b>單調時尚的影響。"
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_LAVENDER.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_LAVENDER.NAME"
@@ -41729,7 +41729,7 @@ msgstr "紫色亮片太空衣"
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_RED.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_RED.DESC"
 msgid "Protects the wearer from hostile environments <i>and</i> drab fashion."
-msgstr "使穿戴者免受惡劣環境<i>和</i>單調時尚的影響。"
+msgstr "使穿戴者免受惡劣環境<b>和</b>單調時尚的影響。"
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_RED.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.SPARKLE_RED.NAME"
@@ -46964,7 +46964,7 @@ msgstr "只有學會<link=\"TECHNICALS2\">電氣工程</link>的複製人，能�
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.REFINED_SUGAR.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.REFINED_SUGAR.DESC"
 msgid "A seasoning that Duplicants can add to their <link=\"FOOD\">Food</link> to boost <link=\"MORALE\">Morale</link>.\n\nDuplicants will automatically use Refined Sugar while sitting at a <link=\"DININGTABLE\">Mess Table</link> during mealtime.\n\n<i>Only the finest grains are chosen.</i>"
-msgstr "一種調味料，複製人可加到他們的<link=\"FOOD\">食物</link>中，可提升<link=\"MORALE\">士氣</link>。\n\n複製人在<link=\"DININGTABLE\">餐桌</link>用餐時會使用精製糖。\n\n<I>精選最好的顆粒。</i>"
+msgstr "一種調味料，複製人可加到他們的<link=\"FOOD\">食物</link>中，可提升<link=\"MORALE\">士氣</link>。\n\n複製人在<link=\"DININGTABLE\">餐桌</link>用餐時會使用精製糖。\n\n<b>精選最好的顆粒。</b>"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.REFINED_SUGAR.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.REFINED_SUGAR.NAME"
@@ -46984,7 +46984,7 @@ msgstr "資料磁片"
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TABLE_SALT.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TABLE_SALT.DESC"
 msgid "A seasoning that Duplicants can add to their <link=\"FOOD\">Food</link> to boost <link=\"MORALE\">Morale</link>.\n\nDuplicants will automatically use Table Salt while sitting at a <link=\"DININGTABLE\">Mess Table</link> during mealtime.\n\n<i>Only the finest grains are chosen.</i>"
-msgstr "一種調味料，複製人可加到他們的<link=\"FOOD\">食物</link>中，可提升<link=\"MORALE\">士氣</link>。\n\n複製人在<link=\"DININGTABLE\">餐桌</link>用餐時會使用食鹽。\n\n<I>精選最好的顆粒。</i>"
+msgstr "一種調味料，複製人可加到他們的<link=\"FOOD\">食物</link>中，可提升<link=\"MORALE\">士氣</link>。\n\n複製人在<link=\"DININGTABLE\">餐桌</link>用餐時會使用食鹽。\n\n<b>精選最好的顆粒。</b>"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TABLE_SALT.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TABLE_SALT.NAME"
@@ -62639,7 +62639,7 @@ msgstr "啟用眼冒金星！"
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_DESC
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_DESC"
 msgid "The game will need to restart in order to activate <i>Spaced Out!</i>"
-msgstr "遊戲需要重啟以便下載並安裝<b>眼冒金星！</b>"
+msgstr "遊戲需要重啟來啟動<b>眼冒金星！</b>"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_RAIL_DESC
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_RAIL_DESC"
@@ -62659,7 +62659,7 @@ msgstr "停用眼冒金星！"
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_DESC
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_DESC"
 msgid "The game will need to restart in order to activate the <i>Oxygen Not Included</i> base game."
-msgstr "遊戲需要重啟以便下載並安裝<b>缺氧</b>的基本版遊戲。"
+msgstr "遊戲需要重啟來啟動<b>缺氧</b>的基本版遊戲。"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_RAIL_DESC
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_RAIL_DESC"
@@ -70859,7 +70859,7 @@ msgstr "{0}（已分配）"
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DROPDOWN_BLANK
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DROPDOWN_BLANK"
 msgid "<i>Move Duplicant...</i>"
-msgstr "<i>移動複製人…</i>"
+msgstr "<b>移動複製人…</b>"
 
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_EDITOR
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_EDITOR"
@@ -76644,7 +76644,7 @@ msgstr "取消發射"
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_REQUESTED_BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_REQUESTED_BUTTON_TOOLTIP"
 msgid "This rocket will take off as soon as a Duplicant takes the controls\n\n<b>(ClickType/Click) to cancel launch</b>"
-msgstr "這枚火箭準備好升空，只要複製人控制！\n\n<I>(ClickType/Click)取消發射。</i>"
+msgstr "這枚火箭準備好升空，只要複製人控制！\n\n<b>(ClickType/Click)取消發射。</b>"
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_WARNINGS_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_WARNINGS_BUTTON"
@@ -79989,7 +79989,7 @@ msgstr "基地名稱"
 #. STRINGS.UI.VANILLA.NAME_ITAL
 msgctxt "STRINGS.UI.VANILLA.NAME_ITAL"
 msgid "<i>base game</i>"
-msgstr "<I>基本版遊戲</i>"
+msgstr "<b>基本版遊戲</b>"
 
 #. STRINGS.UI.VICTORYSCREEN.DESCRIPTION
 msgctxt "STRINGS.UI.VICTORYSCREEN.DESCRIPTION"
@@ -81004,7 +81004,7 @@ msgstr "每次遇到此世界，其地理結構都相當穩定"
 #. STRINGS.WORLD_TRAITS.NO_TRAITS.NAME
 msgctxt "STRINGS.WORLD_TRAITS.NO_TRAITS.NAME"
 msgid "<i>This world is stable and has no unusual features.</i>"
-msgstr "<i>此世界很穩定且沒異常特色。</i>"
+msgstr "<b>此世界很穩定且沒異常特色。</b>"
 
 #. STRINGS.WORLD_TRAITS.NO_TRAITS.NAME_SHORTHAND
 msgctxt "STRINGS.WORLD_TRAITS.NO_TRAITS.NAME_SHORTHAND"
