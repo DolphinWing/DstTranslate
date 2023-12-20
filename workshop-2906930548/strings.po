@@ -1444,7 +1444,7 @@ msgstr "已地理調整（{0}/{1}）"
 #. STRINGS.BUILDING.STATUSITEMS.GEYSER_GEOTUNED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GEYSER_GEOTUNED.TOOLTIP"
 msgid "This geyser is being boosted by {0} out {1} of <style=\"KKeyword\">Geotuners</style>"
-msgstr "這個間歇泉已由{1}個<style=\"KKeyword\">地理調諧儀</style>中的 {0} 個加強了"
+msgstr "這個間歇泉已由 {1} 個<style=\"KKeyword\">地理調諧儀</style>中的 {0} 個加強了"
 
 #. STRINGS.BUILDING.STATUSITEMS.GRAVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GRAVE.NAME"
@@ -8174,7 +8174,7 @@ msgstr "目標間歇泉在噴發時會收到儲存的加強資料。"
 #. STRINGS.BUILDINGS.PREFABS.GEOTUNER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GEOTUNER.EFFECT"
 msgid "Increases the <link=\"HEAT\">Temperature</link> and output of an analyzed <link=\"GEYSERS\">Geyser</link>.\n\nMultiple Geotuners can be directed at a single <link=\"GEYSERS\">Geyser</link> anywhere on an asteroid."
-msgstr "提高已分析<link=\"GEYSERS\">間歇泉</link>的產出及其<link=\"HEAT\">溫度</link>。\n\n多個地理調協儀可以指向小行星上的同一個<link=\"GEYSERS\">間歇泉</link>。"
+msgstr "提高已分析<link=\"GEYSERS\">間歇泉</link>的產出及其<link=\"HEAT\">溫度</link>。\n\n多個地理調諧儀可以指向小行星上的同一個<link=\"GEYSERS\">間歇泉</link>。"
 
 #. STRINGS.BUILDINGS.PREFABS.GEOTUNER.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GEOTUNER.LOGIC_PORT"
@@ -8194,7 +8194,7 @@ msgstr "否則，輸出<b><style=\"logic_off\">紅色信號</style></b>"
 #. STRINGS.BUILDINGS.PREFABS.GEOTUNER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GEOTUNER.NAME"
 msgid "<link=\"GEOTUNER\">Geotuner</link>"
-msgstr "<link=\"GEOTUNER\">地理調協儀</link>"
+msgstr "<link=\"GEOTUNER\">地理調諧儀</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GLASSFORGE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSFORGE.DESC"
@@ -12474,7 +12474,7 @@ msgstr "這是一個變壓器，但更大一點。"
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.EFFECT"
 msgid "Limits <link=\"POWER\">Power</link> flowing through the Transformer to 4 kW.\n\nConnect <link=\"BATTERY\">Batteries</link> on the large side to act as a valve and prevent <link=\"WIRE\">Wires</link> from drawing more than 4 kW.\n\nCan be rotated before construction."
-msgstr "變壓器將<link=\"POWER\">電力</link>的輸出功率限制為 4 千瓦。\n\n將 <link=\"BATTERY\">電池</link> 接在插座大的那一側作為閥門並防止<link=\"WIRE\">電線</link>耗電量超過 4 千瓦。\n\n建造前可選轉。"
+msgstr "變壓器將<link=\"POWER\">電力</link>的輸出功率限制為 4 千瓦。\n\n將<link=\"BATTERY\">電池</link>接在插座大的那一側作為閥門並防止<link=\"WIRE\">電線</link>耗電量超過 4 千瓦。\n\n建造前可旋轉。"
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.NAME"
@@ -12489,7 +12489,7 @@ msgstr "限制電線的使用功率避免超載受損。"
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.EFFECT"
 msgid "Limits <link=\"POWER\">Power</link> flowing through the Transformer to 1000 W.\n\nConnect <link=\"BATTERY\">Batteries</link> on the large side to act as a valve and prevent <link=\"WIRE\">Wires</link> from drawing more than 1000 W.\n\nCan be rotated before construction."
-msgstr "變壓器將<link=\"POWER\">電力</link>的輸出功率限制為 1 千瓦。\n\n將 <link=\"BATTERY\">電池</link> 接在插座大的那一側作為閥門並防止<link=\"WIRE\">電線</link>耗電量超過 1 千瓦。\n\n建造前可選轉。"
+msgstr "變壓器將<link=\"POWER\">電力</link>的輸出功率限制為 1 千瓦。\n\n將<link=\"BATTERY\">電池</link>接在插座大的那一側作為閥門並防止<link=\"WIRE\">電線</link>耗電量超過 1 千瓦。\n\n建造前可旋轉。"
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.NAME"
@@ -13529,7 +13529,7 @@ msgstr "<link=\"ROCKETINTERIORPOWERPLUG\">電力插座配件</link>"
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORSOLIDINPUT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORSOLIDINPUT.DESC"
 msgid "Why organize your shelves when you can just shove everything in here?"
-msgstr "當你可以將全部的東西都堆在這裡，為什麼還需要整理貨架呢？"
+msgstr "當你可以將全部的東西都堆在這裡時，為什麼還需要整理貨架呢？"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORSOLIDINPUT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORSOLIDINPUT.EFFECT"
@@ -16169,7 +16169,7 @@ msgstr "熱力學定律"
 #. STRINGS.CODEX.A3_B556.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A3_B556.BODY.CONTAINER1"
 msgid "I've been so tired lately. I've probably spent the last 3 nights sleeping at my desk, and I've used the lab's safety shower to bathe twice already this month.\n\nWe're technically on schedule, but for some reason Director Stern has been breathing down my neck to get these new products ready for market.\n\nNormally I'd be mad about the added pressure on my work, but something in the Director's voice tells me that time is of the essence.\n------------------\n"
-msgstr "我最近好累。我大概在我的辦公桌前睡了三晚，這個月我用了實驗室的安全淋浴間洗了兩次澡。\n\n從技術上來說我們可如期上市，但出於某種原因 Stern 經理緊逼著我讓產品盡快推出市場。\n\n通常我會為工作上感到的壓力而抓狂，\n但經理的聲音告訴我時間是關鍵。\n------------------\n"
+msgstr "我最近好累。我大概在我的辦公桌前睡了三晚，這個月我用了實驗室的安全淋浴間洗了兩次澡。\n\n從技術上來說我們可如期上市，但出於某種原因 Stern 經理緊逼著我讓產品盡快推出市場。\n\n通常我會為工作上感到的壓力而抓狂，但經理的聲音告訴我時間是關鍵。\n------------------\n"
 
 #. STRINGS.CODEX.A3_B556.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A3_B556.BODY.CONTAINER2"
@@ -16704,7 +16704,7 @@ msgstr "可能的應用"
 #. STRINGS.CODEX.A9_PIPEDREAM.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A9_PIPEDREAM.BODY.CONTAINER1"
 msgid "[LOG BEGINS]\n\nThe Director has suggested implanting artificial memories during print, but despite the great strides made in our research under her direction, such a thing can barely be considered more than a pipe dream.\n\nFor the moment we remain focused on eliminating the remaining glitches in the system, as well as developing effective education and training routines for printed subjects.\n\nSuggest: Omega-3 supplements and mentally stimulating enclosure apparatuses to accompany tutelage.\n\nDr. Broussard signing off.\n\n[LOG ENDS]"
-msgstr "【日誌開始】\n\n經理健議在列印期間植入人工記憶，儘管我們的研究在他的指導下取得了很大的進步，不會再被認為是一場白日夢。\n\n目前我們仍然專注於消除系統中剩餘的異常狀況，以及為列印出的實驗體開發有效的教育與訓練項目。\n\n建議：Omega 3 補充劑與附有保護裝置的精神刺激設備。\n\nBroussard 博士，簽字。\n\n【日誌結束】"
+msgstr "【日誌開始】\n\n經理建議在列印期間植入人工記憶，儘管我們的研究在他的指導下取得了很大的進步，不會再被認為是一場白日夢。\n\n目前我們仍然專注於消除系統中剩餘的異常狀況，以及為列印出的實驗體開發有效的教育與訓練項目。\n\n建議：Omega 3 補充劑與附有保護裝置的精神刺激設備。\n\nBroussard 博士，簽字。\n\n【日誌結束】"
 
 #. STRINGS.CODEX.A9_PIPEDREAM.SUBTITLE
 msgctxt "STRINGS.CODEX.A9_PIPEDREAM.SUBTITLE"
@@ -17304,7 +17304,7 @@ msgstr "<b>來自獨立實驗室令人難以置信的科技－將時間轉變成
 #. STRINGS.CODEX.B8_MAGAZINEARTICLE.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.B8_MAGAZINEARTICLE.BODY.CONTAINER2"
 msgid "Scientists from the recently founded Gravitas Facility have unveiled their first technology prototype, dubbed the \"Temporal Bow\". It is a device which manipulates the 4th dimension to generate infinite, clean and renewable energy.\n\nWhile it may sound like something from science fiction, facility founder Dr. Jacquelyn Stern confirms that it is very much real.\n\n\"It has already been demonstrated that Newton's Second Law of Motion can be violated by negative mass superfluids under the correct lab conditions,\" she says.\n\n\"If the Laws of Motion can be bent and altered, why not the Laws of Thermodynamics? That was the main intent behind this project.\"\n\nThe Temporal Bow works by rapidly vibrating sections of the 4th dimension to send small quantities of mass forward and backward in time, generating massive amounts of energy with virtually no waste.\n\n\"The fantastic thing about using the 4th dimension as fuel,\" says Stern, \"is that it is really, categorically infinite\".\n\nFor those eagerly awaiting the prospect of human time travel, don't get your hopes up just yet. The Facility says that although they have successfully transported matter through time, the technology was expressly developed for the purpose of energy generation and is ill-equipped for human transportation."
-msgstr "最近成立的「引力科技」的科學家們推出了第一個技術原型，他們稱之為「時光之弓」，一種操縱第四維度的設備可產生無限、乾淨與可再生的能源。\n\n聽起來有點像科幻小說裡有的東西。設施的創辦者 Jacquelyn Stern 博士，證實這非常的真實。\n\n她說：\n「已經證明了，在正確的實驗條件之下，負質量超流體會違反牛頓第二運動定律」。\n\n「如果運動定律可以彎曲和改變，那熱力學為什麼不行呢？這就是此計劃背後隱含的意義。」\n\n時光之弓的原理的是在第四維度內，透過快速震動在時光內使少量物質向前或向後移動，產生幾乎沒有浪費的大量能源。\n\nStern 說：「這就是使用第四維度作為燃料的神奇之處－真實，絕對無限」。\n\n對於那些等待渴望時光旅行的人，暫時不要抱任何期待。\n\n該設施說雖然他們成功的讓物質傳送了一段時間，不過這項技術是專為生產能源而開發的，在人類運輸方面的仍缺少相應裝備。"
+msgstr "最近成立的「引力科技」的科學家們推出了第一個技術原型，他們稱之為「時光之弓」，一種操縱第四維度的設備可產生無限、乾淨與可再生的能源。\n\n聽起來有點像科幻小說裡有的東西。設施的創辦者 Jacquelyn Stern 博士，證實這非常的真實。\n\n她說：「已經證明了，在正確的實驗條件之下，負質量超流體會違反牛頓第二運動定律」。\n\n「如果運動定律可以彎曲和改變，那熱力學為什麼不行呢？這就是此計劃背後隱含的意義。」\n\n時光之弓的原理的是在第四維度內，透過快速震動在時光內使少量物質向前或向後移動，產生幾乎沒有浪費的大量能源。\n\nStern 說：「這就是使用第四維度作為燃料的神奇之處－真實，絕對無限」。\n\n對於那些等待渴望時光旅行的人，暫時不要抱任何期待。\n\n該設施說雖然他們成功的讓物質傳送了一段時間，不過這項技術是專為生產能源而開發的，在人類運輸方面的仍缺少相應裝備。"
 
 #. STRINGS.CODEX.B8_MAGAZINEARTICLE.SUBTITLE
 msgctxt "STRINGS.CODEX.B8_MAGAZINEARTICLE.SUBTITLE"
@@ -40949,7 +40949,7 @@ msgstr "<link=\"SLABS\">建造石板</link>"
 #. STRINGS.ELEMENTS.SLIMEMOLD.DESC
 msgctxt "STRINGS.ELEMENTS.SLIMEMOLD.DESC"
 msgid "Slime is a thick biomixture of algae, fungi, and mucopolysaccharides.\n\nIt can be distilled into <link=\"ALGAE\">Algae</link> and emits <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> once dug up."
-msgstr "軟泥是藻類，真菌和黏多糖類的有機混合物。\n\n它可以提煉<link=\"ALGAE\">藻類</link>，一旦挖開會釋放<link=\"CONTAMINATEDOXYGEN\">汙氧</link>。"
+msgstr "軟泥是藻類，真菌和黏多醣類的有機混合物。\n\n它可以提煉<link=\"ALGAE\">藻類</link>，一旦挖開會釋放<link=\"CONTAMINATEDOXYGEN\">汙氧</link>。"
 
 #. STRINGS.ELEMENTS.SLIMEMOLD.NAME
 msgctxt "STRINGS.ELEMENTS.SLIMEMOLD.NAME"
@@ -41559,7 +41559,7 @@ msgstr "柑橘太空衣腰帶"
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.PUFT.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.PUFT.DESC"
 msgid "If critters wore belts...\nReleased for Klei Fest 2023."
-msgstr "如果小動物戴著腰帶的話……\n為2023年科雷節釋出。"
+msgstr "如果小動物戴著腰帶的話……\n為 2023 年科雷節釋出。"
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.PUFT.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BELT.FACADES.PUFT.NAME"
@@ -41689,7 +41689,7 @@ msgstr "彩屑太空衣"
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.PUFT.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.PUFT.DESC"
 msgid "Warning: prolonged wear may result in feelings of Puft-up pride.\nReleased for Klei Fest 2023."
-msgstr "警告：長時間穿戴可能會導致陷入帕夫特有的驕傲中。\n為2023年科雷節釋出。"
+msgstr "警告：長時間穿戴可能會導致陷入帕夫特有的驕傲中。\n為 2023 年科雷節釋出。"
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.PUFT.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_BODY.FACADES.PUFT.NAME"
@@ -41779,7 +41779,7 @@ msgstr "柑橘太空衣手套"
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.PUFT.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.PUFT.DESC"
 msgid "A little Puft-love for delicate extremities.\nReleased for Klei Fest 2023."
-msgstr "一點點對帕夫纖細四肢的愛。\n為2023年科雷節釋出。"
+msgstr "一點點對帕夫纖細四肢的愛。\n為 2023 年科雷節釋出。"
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.PUFT.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_GLOVES.FACADES.PUFT.NAME"
@@ -41909,7 +41909,7 @@ msgstr "柑橘太空衣頭盔"
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.PUFT.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.PUFT.DESC"
 msgid "Convincing enough to fool most Pufts and even a few Duplicants.\nReleased for Klei Fest 2023."
-msgstr "足以愚弄大多數帕夫，甚至一些複製人也會相信。\n為2023年科雷節釋出。"
+msgstr "足以愚弄大多數帕夫，甚至一些複製人也會相信。\n為 2023 年科雷節釋出。"
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.PUFT.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_HELMET.FACADES.PUFT.NAME"
@@ -41984,7 +41984,7 @@ msgstr "預設太空衣頭盔"
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SET.PUFT.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SET.PUFT.DESC"
 msgid "Critter-forward protective gear for the intrepid explorer!\nReleased for Klei Fest 2023."
-msgstr "為勇敢的探險家準備的小動物前鋒防護裝備！\n為2023年科雷節釋出。"
+msgstr "為勇敢的探險家準備的小動物前鋒防護裝備！\n為 2023 年科雷節釋出。"
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SET.PUFT.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SET.PUFT.NAME"
@@ -42049,7 +42049,7 @@ msgstr "柑橘太空衣靴子"
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SHOES.FACADES.PUFT.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SHOES.FACADES.PUFT.DESC"
 msgid "These boots were made for puft-ing.\nReleased for Klei Fest 2023."
-msgstr "這些靴子就是用來噗噗作響的。\n為2023年科雷節釋出。"
+msgstr "這些靴子就是用來噗噗作響的。\n為 2023 年科雷節釋出。"
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SHOES.FACADES.PUFT.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT_SHOES.FACADES.PUFT.NAME"
@@ -52694,7 +52694,7 @@ msgstr "最大限度提高生物生活品質的策略。"
 #. STRINGS.RESEARCH.TECHS.ANIMALCOMFORT.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.ANIMALCOMFORT.NAME"
 msgid "<link=\"ANIMALCOMFORT\">Creature Comforts</link>"
-msgstr "<link=\"ANIMALCOMFORT\">生物享受</link>"
+msgstr "<link=\"ANIMALCOMFORT\">生物舒適</link>"
 
 #. STRINGS.RESEARCH.TECHS.ANIMALCONTROL.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ANIMALCONTROL.DESC"
@@ -54814,7 +54814,7 @@ msgstr "在廚房內使用香料研磨器能在電烤爐與瓦斯爐烹調的食
 #. STRINGS.ROOMS.TYPES.LABORATORY.DESCRIPTION
 msgctxt "STRINGS.ROOMS.TYPES.LABORATORY.DESCRIPTION"
 msgid "Where wild hypotheses meet rigorous scientific experimentation.\n\nScience stations built in a Laboratory function more efficiently.\n\nA Laboratory enables the use of the Geotuner and the Mission Control Station."
-msgstr "這是瘋狂的假設與嚴謹的科學實驗相碰撞的地方。\n\n在實驗室中的科學建築的使用效率更高。\n\n在實驗室終能使用地理調諧儀和任務控制台。"
+msgstr "這是瘋狂的假設與嚴謹的科學實驗相碰撞的地方。\n\n在實驗室中的科學建築的使用效率更高。\n\n在實驗室內能使用地理調諧儀和任務控制台。"
 
 #. STRINGS.ROOMS.TYPES.LABORATORY.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.LABORATORY.EFFECT"
@@ -70064,7 +70064,7 @@ msgstr "減輕<link=\"EXOSUIT\">太空衣</link>負面效果"
 #. STRINGS.UI.ROLES_SCREEN.PERKS.GEYSER_TUNING.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.GEYSER_TUNING.DESCRIPTION"
 msgid "<link=\"GEOTUNER\">Geotuner</link> Usage"
-msgstr "使用<link=\"GEOTUNER\">地理調協儀</link>"
+msgstr "使用<link=\"GEOTUNER\">地理調諧儀</link>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.INTERSTELLAR_RESEARCH.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.INTERSTELLAR_RESEARCH.DESCRIPTION"
@@ -76444,7 +76444,7 @@ msgstr "選取一個已分析的間歇泉來傳送放大資料。"
 #. STRINGS.UI.UISIDESCREENS.GEOTUNERSIDESCREEN.GEOTUNER_LIMIT_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.GEOTUNERSIDESCREEN.GEOTUNER_LIMIT_TOOLTIP"
 msgid "This geyser cannot be targeted by more <style=\"KKeyword\">Geotuners</style>"
-msgstr "這個間歇泉不能被更多的地理調諧器調整。"
+msgstr "這個間歇泉不能被更多的地理調諧儀調整。"
 
 #. STRINGS.UI.UISIDESCREENS.GEOTUNERSIDESCREEN.NOTHING
 msgctxt "STRINGS.UI.UISIDESCREENS.GEOTUNERSIDESCREEN.NOTHING"
@@ -76474,7 +76474,7 @@ msgstr "所需資源：{MATERIAL}"
 #. STRINGS.UI.UISIDESCREENS.GEOTUNERSIDESCREEN.STUDIED_TOOLTIP_NUMBER_HOVERED
 msgctxt "STRINGS.UI.UISIDESCREENS.GEOTUNERSIDESCREEN.STUDIED_TOOLTIP_NUMBER_HOVERED"
 msgid "This geyser is targeted by {0} Geotuners"
-msgstr "這個間歇泉已被 {0} 個地理調諧器調整"
+msgstr "這個間歇泉已被 {0} 個地理調諧儀調整"
 
 #. STRINGS.UI.UISIDESCREENS.GEOTUNERSIDESCREEN.STUDIED_TOOLTIP_POTENTIAL_OUTPUT
 msgctxt "STRINGS.UI.UISIDESCREENS.GEOTUNERSIDESCREEN.STUDIED_TOOLTIP_POTENTIAL_OUTPUT"
@@ -81364,7 +81364,7 @@ msgstr "低溫沙岩行星"
 #. STRINGS.WORLDS.STRANGE_ASTEROID_KF23.DESCRIPTION
 msgctxt "STRINGS.WORLDS.STRANGE_ASTEROID_KF23.DESCRIPTION"
 msgid "A tilted world, at once strange and...strangely familiar. Its singular terrain is consistent across all universes.\n\nThis resistance to the fluidity of temporal shifts has the cosmos buzzing, as individual colonies compare notes on successes, failures and the bizarre redistribution of resources.\n\n<smallcaps>Released for Klei Fest 2023."
-msgstr "一顆傾斜的星球，既陌生……又有種奇怪的熟悉感。它奇異的地形在所有宇宙中都是一致的。\n\n這種對時間偏移流動性的抵抗使整個宇宙嗡嗡作響，產生了各個殖民地對於成功案例、失敗案例和稀奇古怪的資源重新分配方案的對比記錄。\n\n<smallcaps>為2023年科雷節釋出。"
+msgstr "一顆傾斜的星球，既陌生……又有種奇怪的熟悉感。它奇異的地形在所有宇宙中都是一致的。\n\n這種對時間偏移流動性的抵抗使整個宇宙嗡嗡作響，產生了各個殖民地對於成功案例、失敗案例和稀奇古怪的資源重新分配方案的對比記錄。\n\n<smallcaps>為 2023 年科雷節釋出。"
 
 #. STRINGS.WORLDS.STRANGE_ASTEROID_KF23.NAME
 msgctxt "STRINGS.WORLDS.STRANGE_ASTEROID_KF23.NAME"
