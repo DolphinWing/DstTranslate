@@ -4819,7 +4819,7 @@ msgstr "<link=\"ARTJ\">Nikola狼吞虎嚥他的泥糕</link>"
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_K.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_K.DESC"
 msgid "The perfect painting for dark, dank spaces."
-msgstr "適合魚漆黑陰暗空間的完美畫作。"
+msgstr "適合漆黑陰暗空間的完美畫作。"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_K.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_K.NAME"
@@ -4924,7 +4924,7 @@ msgstr "即使是業餘藝術，對生活也是必不可少的。"
 #. STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_A.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_A.NAME"
 msgid "<link=\"ARTTALLA\">Ode to O2</link>"
-msgstr "<link=\"HEAT\">讚頌氧氣</link>"
+msgstr "<link=\"ARTTALLA\">讚頌氧氣</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_B.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_B.DESC"
@@ -4934,7 +4934,7 @@ msgstr "它無疑很生動。"
 #. STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_B.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_B.NAME"
 msgid "<link=\"ARTTALLB\">A Cool Wheeze</link>"
-msgstr "<link=\"CARBON\">冰息</link>"
+msgstr "<link=\"ARTTALLB\">冰息</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_C.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_C.DESC"
@@ -5004,7 +5004,7 @@ msgstr "當未來進行召喚時，複製人會回應。"
 #. STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_I.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_I.NAME"
 msgid "<link=\"ARTTALLI\">Pei Phone</link>"
-msgstr "<link=\"ARTTALLI\">在接電話的 Pei</link>"
+msgstr "<link=\"ARTTALLI\">Pei 電話中</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_J.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_J.DESC"
@@ -5044,7 +5044,7 @@ msgstr "沒人喜歡在等待靈感突現時被打擾。"
 #. STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_M.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_M.NAME"
 msgid "<link=\"ARTTALLM\">Do Not Disturb</link>"
-msgstr "<link=\"HEAT\">《請勿打擾》</link>"
+msgstr "<link=\"ARTTALLM\">請勿打擾</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_P.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_P.DESC"
@@ -46199,7 +46199,7 @@ msgstr "吃了補水的食物"
 #. STRINGS.ITEMS.DEHYDRATEDFOODPACKAGE.CONTENTS
 msgctxt "STRINGS.ITEMS.DEHYDRATEDFOODPACKAGE.CONTENTS"
 msgid "Dried {0}"
-msgstr "乾燥的 {0}"
+msgstr "乾燥的{0}"
 
 #. STRINGS.ITEMS.DEHYDRATEDFOODPACKAGE.DESC
 msgctxt "STRINGS.ITEMS.DEHYDRATEDFOODPACKAGE.DESC"
@@ -46374,7 +46374,7 @@ msgstr "蓬鬆的蛋捲。"
 #. STRINGS.ITEMS.FOOD.COOKEDFISH.DESC
 msgctxt "STRINGS.ITEMS.FOOD.COOKEDFISH.DESC"
 msgid "A cooked piece of freshly caught aquatic critter.\n\nUnsurprisingly, it tastes a bit fishy."
-msgstr "一塊新鮮的煮熟海鮮。\n\n不出所料，它嘗起來有點腥。"
+msgstr "一塊新鮮的煮熟海鮮。\n\n不出所料，它嘗起來有點魚腥味。"
 
 #. STRINGS.ITEMS.FOOD.COOKEDFISH.NAME
 msgctxt "STRINGS.ITEMS.FOOD.COOKEDFISH.NAME"
@@ -46464,7 +46464,7 @@ msgstr "<link=\"FINEART\">帕庫魚片</link>"
 #. STRINGS.ITEMS.FOOD.FOODSPLAT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.FOODSPLAT.DESC"
 msgid "Food smeared on the wall from a recent Food Fight"
-msgstr "最近發生食物大戰將食物丟到牆上"
+msgstr "最近的一場食物大戰中食物被塗在牆上"
 
 #. STRINGS.ITEMS.FOOD.FOODSPLAT.NAME
 msgctxt "STRINGS.ITEMS.FOOD.FOODSPLAT.NAME"
@@ -46569,7 +46569,7 @@ msgstr "<link=\"HATCH\">哈奇蛋</link>"
 #. STRINGS.ITEMS.FOOD.HATCHEGG.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.HATCHEGG.RECIPEDESC"
 msgid "An egg laid by a <link=\"HATCH\">Hatch</link>."
-msgstr "<link=\"HATCH\">哈奇</link> 產下的蛋。"
+msgstr "<link=\"HATCH\">哈奇</link>產下的蛋。"
 
 #. STRINGS.ITEMS.FOOD.LETTUCE.DESC
 msgctxt "STRINGS.ITEMS.FOOD.LETTUCE.DESC"
@@ -46689,7 +46689,7 @@ msgstr "<link=\"OILFLOATER\">小油怪蛋</link>"
 #. STRINGS.ITEMS.FOOD.OILFLOATEREGG.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.OILFLOATEREGG.RECIPEDESC"
 msgid "An egg laid by a <link=\"OILFLOATER\">Slickster</link>."
-msgstr "<link=\"OILFLOATER\">小油怪</link> 產下的蛋。"
+msgstr "<link=\"OILFLOATER\">小油怪</link>產下的蛋。"
 
 #. STRINGS.ITEMS.FOOD.PANCAKES.DESC
 msgctxt "STRINGS.ITEMS.FOOD.PANCAKES.DESC"
