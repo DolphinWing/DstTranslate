@@ -19106,6 +19106,11 @@ msgctxt "STRINGS.CODEX.MISSINGNOTES.TITLE2"
 msgid "SUBJECT: Missing notes"
 msgstr "主題：遺失的筆記"
 
+#. STRINGS.CODEX.MISSILELAUNCHER.TITLE
+msgctxt "STRINGS.CODEX.MISSILELAUNCHER.TITLE"
+msgid "<link=\"MISSILELAUNCHER\">Meteor Blaster</link>"
+msgstr "<link=\"MISSILELAUNCHER\">流星爆破炮</link>"
+
 #. STRINGS.CODEX.MOLE.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.MOLE.BODY.CONTAINER1"
 msgid "The Shove Vole is a unique creature that possesses two fully developed sets of lungs, allowing it to hold its breath during the long periods it spends underground."
@@ -20110,6 +20115,11 @@ msgstr "<link=\"NUCLEARREACTOR\">研究反應爐</link>需要<link=\"ENRICHEDURA
 msgctxt "STRINGS.CODEX.RADIATION.TITLE"
 msgid "<link=\"RADIATION\">Radiation</link>"
 msgstr "<link=\"RADIATION\">輻射</link>"
+
+#. STRINGS.CODEX.RAILGUN.TITLE
+msgctxt "STRINGS.CODEX.RAILGUN.TITLE"
+msgid "<link=\"RAILGUN\">Interplanetary Launcher</link>"
+msgstr "<link=\"RAILGUN\">行星軌道炮</link>"
 
 #. STRINGS.CODEX.RESEARCH.HEADER_1
 msgctxt "STRINGS.CODEX.RESEARCH.HEADER_1"
@@ -52884,12 +52894,12 @@ msgstr "<link=\"ADVANCEDFILTRATION\">過濾</link>"
 #. STRINGS.RESEARCH.TECHS.ADVANCEDNUCLEARRESEARCH.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDNUCLEARRESEARCH.DESC"
 msgid "Harness sub-atomic particles to study the properties of matter even more."
-msgstr "利用亞原子粒子來研究物質的特性。"
+msgstr "利用亞原子粒子來研究物質更多的特性。"
 
 #. STRINGS.RESEARCH.TECHS.ADVANCEDNUCLEARRESEARCH.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDNUCLEARRESEARCH.NAME"
 msgid "<link=\"ATOMIC\">More Materials Science Research</link>"
-msgstr "<link=\"ATOMIC\">材料科學研究</link>"
+msgstr "<link=\"ATOMIC\">進階材料科學研究</link>"
 
 #. STRINGS.RESEARCH.TECHS.ADVANCEDPOWERREGULATION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDPOWERREGULATION.DESC"
