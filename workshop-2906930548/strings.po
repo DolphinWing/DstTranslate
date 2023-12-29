@@ -11159,7 +11159,7 @@ msgstr "複製人只會改善與這工作站在同一房間內的建築物的效
 #. STRINGS.BUILDINGS.PREFABS.MACHINESHOP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MACHINESHOP.EFFECT"
 msgid "Allows the assigned <link=\"MACHINETECHNICIAN\">Engineer</link> to improve building production efficiency.\n\nThis building is a necessary component of the Machine Shop room."
-msgstr "允許分配的 <link=\"MACHINETECHNICIAN\">工程師</link> 增加建築物的生產效率。\n\n這個建築物是組成機械工廠的必要部分。"
+msgstr "允許分配的<link=\"MACHINETECHNICIAN\">工程師</link>增加建築物的生產效率。\n\n這個建築物是組成機械工廠的必要部分。"
 
 #. STRINGS.BUILDINGS.PREFABS.MACHINESHOP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MACHINESHOP.NAME"
@@ -12254,7 +12254,7 @@ msgstr "液態氧可以提高火箭燃料的推力。"
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUID.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUID.EFFECT"
 msgid "Stores <link=\"LIQUIDOXYGEN\">Liquid Oxygen</link> for burning rocket fuels."
-msgstr "儲存 <link=\"LIQUIDOXYGEN\">液態氧</link> 作為火箭燃料。"
+msgstr "儲存<link=\"LIQUIDOXYGEN\">液態氧</link>作為火箭燃料。"
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUID.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUID.NAME"
@@ -12494,7 +12494,7 @@ msgstr "<link=\"PLANTERBOX\">種植箱</link>"
 #. STRINGS.BUILDINGS.PREFABS.PLANTERBOX.FACADES.MEALWOOD.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PLANTERBOX.FACADES.MEALWOOD.DESC"
 msgid "Inspired by genetically modified nature."
-msgstr "靈感來基因改良的植物。"
+msgstr "靈感來自基因改造的植物。"
 
 #. STRINGS.BUILDINGS.PREFABS.PLANTERBOX.FACADES.MEALWOOD.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PLANTERBOX.FACADES.MEALWOOD.NAME"
@@ -12834,7 +12834,7 @@ msgstr "風景畫"
 #. STRINGS.BUILDINGS.PREFABS.PROPFACILITYSTATUE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYSTATUE.DESC"
 msgid "A large, modern sculpture that sits in the center of the lobby.\n\nIt's an artistic cross between an hourglass shape and a double helix."
-msgstr "一個大型，現代化的雕塑座落在這座大聽的中央。\n\n一個沙漏形狀與雙螺旋結合的藝術品。"
+msgstr "一個大型，現代化的雕塑座落在這座大廳的中央。\n\n一個沙漏形狀與雙螺旋結合的藝術品。"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPFACILITYSTATUE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYSTATUE.NAME"
@@ -13454,7 +13454,7 @@ msgstr "<link=\"ROCKCRUSHER\">平滑碎石機</link>"
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.FACADES.SPIKEBEDS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.FACADES.SPIKEBEDS.DESC"
 msgid "Mashes rocks into oblivion."
-msgstr "把岩石碾碎。"
+msgstr "將岩石粉碎成遺忘物。"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.FACADES.SPIKEBEDS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.FACADES.SPIKEBEDS.NAME"
@@ -13544,7 +13544,7 @@ msgstr "<link=\"ROCKETCONTROLSTATION\">火箭控制站</link>"
 #. STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPETILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPETILE.DESC"
 msgid "Keeps the space out."
-msgstr "隔出空間。"
+msgstr "將太空保持在外面。"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPETILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETENVELOPETILE.EFFECT"
@@ -13634,7 +13634,7 @@ msgstr "<link=\"ROCKETINTERIORGASOUTPUTPORT\">乘員艙氣體輸出口</link>"
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUT.DESC"
 msgid "Begone, foul waters!"
-msgstr "去吧，骯髒的水！"
+msgstr "去吧，汙穢的水！"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUT.EFFECT"
@@ -13754,7 +13754,7 @@ msgstr "<link=\"ROCKETPOD\">開拓者部署裝置</link>"
 #. STRINGS.BUILDINGS.PREFABS.ROCKETWALLTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETWALLTILE.DESC"
 msgid "Keeps the space out."
-msgstr "隔出空間。"
+msgstr "將太空保持在外面。"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETWALLTILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETWALLTILE.EFFECT"
@@ -13854,7 +13854,7 @@ msgstr "<link=\"SCOUTMODULE\">漫游者模組</link>"
 #. STRINGS.BUILDINGS.PREFABS.SCOUTROCKETPOD.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCOUTROCKETPOD.DESC"
 msgid "Good luck out there, boy!"
-msgstr "祝你好運，孩子！"
+msgstr "祝你在外頭好運，孩子！"
 
 #. STRINGS.BUILDINGS.PREFABS.SCOUTROCKETPOD.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCOUTROCKETPOD.EFFECT"
@@ -16394,7 +16394,7 @@ msgstr "<indent=5%>天阿～我今天發現 Devon 是那種會替食物拍照的
 #. STRINGS.CODEX.A3_DEVONSBLOG.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A3_DEVONSBLOG.BODY.CONTAINER2"
 msgid "<indent=5%>Oh cool, Devon's writing a new post for <i>Toast of the Town</i>? I'd love to tag along and \"see how the sausage is made\" so to speak, haha.\n\nI'll see you guys in a bit! :)</indent>"
-msgstr "<indent=5%>喔～酷，Devon 寫的新文章<b>土司小鎮</b> ？我很喜歡並標記了「看看香腸是如何製作的」可以這麼說吧，哈哈。\n\n在一會就可以見到你們了！:)</indent>"
+msgstr "<indent=5%>喔～酷，Devon 寫的新文章<b>土司小鎮</b>？我很喜歡並標記了「看看香腸是如何製作的」可以這麼說吧，哈哈。\n\n再一會就可以見到你們了！:)</indent>"
 
 #. STRINGS.CODEX.A3_DEVONSBLOG.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.A3_DEVONSBLOG.BODY.CONTAINER3"
@@ -16529,7 +16529,7 @@ msgstr "我今天開始在一間叫作「引力科技」的公司上班！我最
 #. STRINGS.CODEX.A4_B835.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A4_B835.BODY.CONTAINER2"
 msgid "No no no no no! It can't be! BANHI ANSARI is here, working on space shuttle thrusters in the robotics lab! As soon as she saw me she called me \"Bubbles\" and told everyone about the time I accidentally inhaled a bunch of fungal spores during lab, blew a big snot bubble out my nose and then sneezed all over Professor Avery! Everyone's calling me \"Bubbles\" instead of \"Doctor\" at work now. Some of them don't even know it's a nickname, but I don't want to correct them and seem rude or anything. Ugh, I can't believe that story followed me here! BANHI RUINS EVERYTHING!\n------------------\n"
-msgstr "不不不不不！ 不可能！BANHI ANSARI 在這裡，在機器人實驗室研究太空船推進器！她一見到我，就叫我「泡泡」，並將我在實驗室裡意外吸入一堆真菌孢子的糗事告訴了大家，從鼻子裡噴出了一個大鼻涕泡泡，然後打噴嚏到了 Avery 教授身上！現在工作中每個人都叫我「泡泡」而不是「醫生」。他們中的一些人甚至不知道這是一個暱稱，但我不想糾正他們，看起來很粗魯什麼的。 呃，我不敢相信這個故事跟著我來到這裡！BANHI 破壞了一切！\n------------------\n"
+msgstr "不不不不不！ 不可能！BANHI ANSARI 在這裡，在機器人實驗室研究太空船推進器！她一見到我就叫我「泡泡」，並將我在實驗室裡意外吸入一堆真菌孢子的糗事告訴了大家，從鼻子裡噴出了一個大鼻涕泡泡，然後打噴嚏到了 Avery 教授身上！現在工作中每個人都叫我「泡泡」而不是「博士」。他們中的一些人甚至不知道這是一個暱稱，但我不想糾正他們，看起來很粗魯什麼的。 呃，我不敢相信這個故事跟著我來到這裡！BANHI 破壞了一切！\n------------------\n"
 
 #. STRINGS.CODEX.A4_B835.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.A4_B835.BODY.CONTAINER3"
@@ -16539,7 +16539,7 @@ msgstr "我將自己埋入工作幾天後，現在我感覺好多了。我們最
 #. STRINGS.CODEX.A4_B835.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.A4_B835.BODY.CONTAINER4"
 msgid "HAHAHAHAHA! Bioengineering and Robotics did the test run today and Banhi was securing the live cargo pods when one of the rats squeaked at her. She was so scared, she fell on her butt and TOOTED in front of EVERYONE! They're all calling her \"Pipsqueak\". \"Bubbles\" doesn't seem quite so bad now. Pipsqueak's been a really good sport about it though, she even laughed it off at the time. I think we might actually be friends now? It's weird.\n------------------\n"
-msgstr "哈～～～～！生物工程部與機器人部今天在做測試的時候，當時 Banhi 正在固定活體貨艙，其中有隻小白鼠對著他狂叫。她感到很害怕，當著大家的面坐在地上哭了起來！他們現在稱他為「膽小鬼」－而「泡泡」現在聽起來似乎沒那麼遭了。膽小鬼似乎是個不錯的玩笑，她當時聽了也哈哈大笑。我覺得現在我們真的成為了朋友？\n有點奇怪。\n------------------\n"
+msgstr "哈～～～～！生物工程部與機器人部今天在做測試的時候，當時 Banhi 正在固定活體貨艙，其中有隻小白鼠對著他狂叫。她感到很害怕，當著大家的面坐在地上哭了起來！他們現在稱他為「膽小鬼」－而「泡泡」現在聽起來似乎沒那麼糟了。膽小鬼似乎是個不錯的玩笑，她當時聽了也哈哈大笑。我覺得現在我們真的成為了朋友？還真奇怪。\n------------------\n"
 
 #. STRINGS.CODEX.A4_B835.BODY.CONTAINER5
 msgctxt "STRINGS.CODEX.A4_B835.BODY.CONTAINER5"
@@ -16594,7 +16594,7 @@ msgstr "實驗 7D"
 #. STRINGS.CODEX.A5_GENETICOOZE.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A5_GENETICOOZE.BODY.CONTAINER1"
 msgid "[LOG BEGINS]\n\nThe Printing Pod is primed by a synthesized bio-organic concoction the technicians have taken to calling \"Ooze\", a specialized mixture composed of water, carbon, and dozens upon dozens of the trace elements necessary for the creation of life.\n\nThe pod reconstitutes these elements into a living organism using the blueprints we feed it, before finally administering a shock of life.\n\nIt is like any other 3D printer. We just use different ink.\n\nDr. Broussard, signing off.\n\n[LOG ENDS]"
-msgstr "【日誌開始】\n\n此列印設備填充了一種綜合的生物有機合成物，技術人員稱它為「基因軟泥」，一種由水、炭、以及數十種創造生命所必需的微量元素組成的特殊混合物。\n\n此設備依使用的藍圖將這些元素重新組成一個生命體，最後給予生命的衝擊。\n\n它就像是任何其它的 3D 列印機。我們只是使用不同的墨水。\n\nBroussard 博士，簽字\"\n\n【日誌結束】"
+msgstr "【日誌開始】\n\n此列印設備填充了一種綜合的生物有機合成物，技術人員稱它為「基因軟泥」，一種由水、碳、以及數十種創造生命所必需的微量元素組成的特殊混合物。\n\n此設備依使用的藍圖將這些元素重新組成一個生命體，最後給予生命的衝擊。\n\n它就像是任何其它的 3D 列印機。我們只是使用不同的墨水。\n\nBroussard 博士，簽字\"\n\n【日誌結束】"
 
 #. STRINGS.CODEX.A5_GENETICOOZE.SUBTITLE
 msgctxt "STRINGS.CODEX.A5_GENETICOOZE.SUBTITLE"
@@ -16699,12 +16699,12 @@ msgstr "回覆：我的天阿！這清潔工"
 #. STRINGS.CODEX.A5_THEJANITOR.TITLE2
 msgctxt "STRINGS.CODEX.A5_THEJANITOR.TITLE2"
 msgid "SUBJECT: Re: omg the janitor"
-msgstr "主指：回覆：我的天阿！這清潔工"
+msgstr "主旨：回覆：我的天阿！這清潔工"
 
 #. STRINGS.CODEX.A5_THEJANITOR.TITLE3
 msgctxt "STRINGS.CODEX.A5_THEJANITOR.TITLE3"
 msgid "SUBJECT: omg the janitor"
-msgstr "主指：我的天阿！這清潔工"
+msgstr "主旨：我的天阿！這清潔工"
 
 #. STRINGS.CODEX.A6_DISHBOT.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A6_DISHBOT.BODY.CONTAINER1"
@@ -16834,7 +16834,7 @@ msgstr "加密等級：無"
 #. STRINGS.CODEX.A8_CLEANUPTHEMESS.TITLE
 msgctxt "STRINGS.CODEX.A8_CLEANUPTHEMESS.TITLE"
 msgid "Cleaning Up The Mess"
-msgstr "清潔髒汙"
+msgstr "清理混亂"
 
 #. STRINGS.CODEX.A8_FIRSTSUCCESS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A8_FIRSTSUCCESS.BODY.CONTAINER1"
@@ -16854,7 +16854,7 @@ msgstr "振奮人心的結果"
 #. STRINGS.CODEX.A8_NEWSECURITY3.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A8_NEWSECURITY3.BODY.CONTAINER2"
 msgid "<indent=5%>I'm almost certain now that the Facility's stolen our genetic information.\n\nForty-odd employees would make for mighty convenient lab rats, and even if we discovered what Gravitas did, we wouldn't have a lot of legal options. We can't exactly go to the public given the nature of our work.\n\nI can't stop thinking about what sort of experiments they might be conducting on my DNA, but I have to keep my mouth shut.\n\nI can't risk losing my job.</indent>"
-msgstr "<indent=5%>我現在幾乎可以肯定公司竊取了我們的遺傳資訊。\n\n四十多名員工將很快成為實驗室的老鼠，\n即使我們發現了引力科技做了什麼，\n我們也沒有很多的法律選項。\n因為我們的工作性質無法完全公開。\n\n我不禁想到他們可能用我的基因進行什麼樣的實驗，但我必須閉上我的嘴。\n\n我不能冒險而失去工作。</indent>"
+msgstr "<indent=5%>我現在幾乎可以肯定公司竊取了我們的遺傳資訊。\n\n四十多名員工將很快成為實驗室的老鼠，即使我們發現了引力科技做了什麼，我們也沒有很多的法律選項。因為我們的工作性質無法完全公開。\n\n我不禁想到他們可能用我的基因進行什麼樣的實驗，但我必須閉上我的嘴。\n\n我不能冒險而失去工作。</indent>"
 
 #. STRINGS.CODEX.A8_NEWSECURITY3.BODY.EMAILHEADER1
 msgctxt "STRINGS.CODEX.A8_NEWSECURITY3.BODY.EMAILHEADER1"
@@ -16944,7 +16944,7 @@ msgstr "邏輯閘"
 #. STRINGS.CODEX.AUTOMATION.PARAGRAPH_1
 msgctxt "STRINGS.CODEX.AUTOMATION.PARAGRAPH_1"
 msgid "Automation is a tool for controlling the operation of buildings based on what sensors in the colony are detecting.\n\nA <link=\"CEILINGLIGHT\">Ceiling Light</link> could be configured to automatically turn on when a <link=\"DUPLICANTSENSOR\">Duplicant Motion Sensor</link> detects a Duplicant in the room.\n\nA <link=\"LIQUIDPUMP\">Liquid Pump</link> might activate only when a <link=\"LOGICELEMENTSENSORLIQUID\">Liquid Element Sensor</link> detects water.\n\nA <link=\"AIRCONDITIONER\">Thermo Regulator</link> might activate only when the <link=\"LOGICTEMPERATURESENSOR\">Thermo Sensor</link> detects too much heat.\n\n"
-msgstr "自動化是一種在殖民地內利用各種感測器來控制並操作建築的工具。\n\n當<link=\"DUPLICANTSENSOR\">複製人動作感測器</link>感測到複製人在房間內時，會自動打開<link=\"CEILINGLIGHT\">燈泡</link>。\n\n當<link=\"LOGICELEMENTSENSORLIQUID\">液體元素感測器</link>偵測到水時，會自動啟動<link=\"LIQUIDPUMP\">液體幫浦</link>。\n\n當<link=\"LOGICTEMPERATURESENSOR\">溫度感測器</link>偵測到太熱時，會自動啟動<link=\"AIRCONDITIONER\">冷氣機</link>。\n\n"
+msgstr "自動化是一種在殖民地內利用各種感測器來控制並操作建築的工具。\n\n當<link=\"DUPLICANTSENSOR\">複製人動作感測器</link>偵測到複製人在房間內時，會自動打開<link=\"CEILINGLIGHT\">燈泡</link>。\n\n當<link=\"LOGICELEMENTSENSORLIQUID\">液體元素感測器</link>偵測到水時，會自動啟動<link=\"LIQUIDPUMP\">液體幫浦</link>。\n\n當<link=\"LOGICTEMPERATURESENSOR\">溫度感測器</link>偵測到太熱時，會自動啟動<link=\"AIRCONDITIONER\">冷氣機</link>。\n\n"
 
 #. STRINGS.CODEX.AUTOMATION.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.AUTOMATION.PARAGRAPH_2"
@@ -17644,7 +17644,7 @@ msgstr "沼澤豬籠草"
 #. STRINGS.CODEX.BRISTLEBLOSSOM.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.BRISTLEBLOSSOM.BODY.CONTAINER1"
 msgid "The Bristle Blossom is frequently cultivated for its calorie dense and relatively fast growing Bristle Berries.\n\nConsumption of the berry requires special preparation due to the thick barbs surrounding the edible fruit.\n\nThe term \"Bristle Berry\" is, in fact, a misnomer, as it is not a \"berry\" by botanical definition but an aggregate fruit made up of many smaller fruitlets."
-msgstr "鬃花被經常種植，因為它的果食熱量高且生長速度快。\n\n食用鬃果需特殊的工具，因為它的表面有刺。\n\n「鬃果」一詞實際上是一種不正確叫法，\n因為它不是植物學定義的「漿果」，而是由許多小小果實組成的集合體果實。"
+msgstr "鬃花被經常種植，因為它的果食熱量高且生長速度快。\n\n食用鬃果需特殊的工具，因為它的表面有刺。\n\n「鬃果」一詞實際上是一種不正確叫法，因為它不是植物學定義的「漿果」，而是由許多小小果實組成的集合體果實。"
 
 #. STRINGS.CODEX.BRISTLEBLOSSOM.SUBTITLE
 msgctxt "STRINGS.CODEX.BRISTLEBLOSSOM.SUBTITLE"
@@ -17659,7 +17659,7 @@ msgstr "鬃花"
 #. STRINGS.CODEX.BUDDYBUD.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.BUDDYBUD.BODY.CONTAINER1"
 msgid "As a byproduct of photosynthesis, the Buddy Bud naturally secretes a compound that is chemically similar to the neuropeptide created in the human brain after receiving a hug."
-msgstr "作為光合作用的副產品，同心芽在擁抱後會自然分泌一種化學上類似於人類中產生的神經鈦化合物。"
+msgstr "作為光合作用的副產品，同心芽在擁抱後會自然分泌一種化學上類似於人類中產生的神經肽化合物。"
 
 #. STRINGS.CODEX.BUDDYBUD.SUBTITLE
 msgctxt "STRINGS.CODEX.BUDDYBUD.SUBTITLE"
@@ -18929,7 +18929,7 @@ msgstr "打電話給我"
 #. STRINGS.CODEX.JUMPINGJOYA.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.JUMPINGJOYA.BODY.CONTAINER1"
 msgid "The Jumping Joya is a decorative plant that brings a feeling of calmness and wellbeing to individuals in its vacinity.\n\nTheir rounded appendages and eccentrically shaped polyps are a favorite of interior designers looking to offset the rigid straight walls of an institutional setting.\n\nThe Jumping Joya's capacity to thrive in many environments and the ease in which they propagate make them the go-to house plant for the lazy gardener."
-msgstr "仙人掌是一種裝飾植物，帶給空虛的人們平靜與幸福的感覺。\n\n它們圓型的附屬物與肉葉是室內設計師的最愛，\n希望它們能抵消建築環境中直牆的剛硬感。\n\n仙人掌在多種環境與易於繁殖的特性，\n使它成為懶惰園丁首選的室內植物。"
+msgstr "仙人掌是一種裝飾植物，帶給空虛的人們平靜與幸福的感覺。\n\n它們圓型的附屬物與肉葉是室內設計師的最愛，希望它們能抵消建築環境中直牆的剛硬感。\n\n仙人掌在多種環境與易於繁殖的特性，使它成為懶惰園丁首選的室內植物。"
 
 #. STRINGS.CODEX.JUMPINGJOYA.SUBTITLE
 msgctxt "STRINGS.CODEX.JUMPINGJOYA.SUBTITLE"
@@ -19029,7 +19029,7 @@ msgstr "錦葵"
 #. STRINGS.CODEX.MIRTHLEAF.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.MIRTHLEAF.BODY.CONTAINER1"
 msgid "The Mirth Leaf is a broad-leafed house plant used for decorating living spaces.\n\nThe joyous bobbing of the wide green leaves provides hours of amusement for those desperate for entertainment.\n\nAlthough the Mirth Leaf can inspire laughter and joy, it is not cut out for a career in stand-up comedy."
-msgstr "合歡葉是一種用來裝飾室內生活空間的闊葉植物。\n\n寬闊的綠葉快樂的擺動著，為渴望快樂的人們提供了數小時的娛樂。\n\n雖然蘭化可以激發歡笑與快樂，但它不適合單口相聲的喜劇職業。"
+msgstr "合歡葉是一種用來裝飾室內生活空間的闊葉植物。\n\n寬闊的綠葉快樂的擺動著，為渴望快樂的人們提供了數小時的娛樂。\n\n雖然合歡葉可以激發歡笑與快樂，但它不適合單口相聲的喜劇職業。"
 
 #. STRINGS.CODEX.MIRTHLEAF.SUBTITLE
 msgctxt "STRINGS.CODEX.MIRTHLEAF.SUBTITLE"
@@ -19044,17 +19044,17 @@ msgstr "合歡葉"
 #. STRINGS.CODEX.MISSINGNOTES.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.MISSINGNOTES.BODY.CONTAINER1"
 msgid "<indent=5%>Hello Dr. Jones,\n\nHope you are well. Sorry to bother you- I believe that someone may have inappropriately accessed my computer.\n\nWhen I was logging in this morning, the \"last log-in\" pop-up indicated that my computer had been accessed at 2 a.m. My last actual log-in was 6 p.m. And some of my files have gone missing.\n\nThe privacy of my work is paramount. Would it be possible to have someone take a look, please?</indent>"
-msgstr "<indent=5%>Jones 博士，您好，\n\n希望你一切都好。很抱歉打擾您 - 我認為有人可能偷偷使用了我的電腦。\n\n當我今天早上登錄時，\"最後一次登錄\" 彈出視窗顯示我的電腦在凌晨 2 點被訪問。我最後一次實際登入是下午 6 點。我的一些文件遺失了。\n\n我工作內容的隱私是最重要的。請問可以請人檢查一下嗎？</indent>"
+msgstr "<indent=5%>Jones 博士，您好，\n\n希望你一切都好。很抱歉打擾您 - 我認為有人可能偷偷使用了我的電腦。\n\n當我今天早上登錄時，「最後一次登錄」彈出視窗顯示我的電腦在凌晨 2 點被訪問。我最後一次實際登入是下午 6 點。我的一些文件遺失了。\n\n我工作內容的隱私是最重要的。請問可以請人檢查一下嗎？</indent>"
 
 #. STRINGS.CODEX.MISSINGNOTES.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.MISSINGNOTES.BODY.CONTAINER2"
 msgid "<indent=5%>OMG Amari, you're so dramatic!! It's probably just a glitch from the system network upgrade. Nobody can even get into your office without going through the new hand scanners.\n\nPS: Everybody's work is super private, not just yours ;)</indent>"
-msgstr "<indent=5%>我的天啊 Amari，你太神經質了！！ 這可能只是系統網路升級的一個小故障。如果不通過新的手部掃描儀，任何人都無法進入你的辦公室。\n\nPS：每個人的工作都是超級隱私的，不僅僅是你的；）</indent>"
+msgstr "<indent=5%>我的天啊 Amari，你太神經質了！！ 這可能只是系統網路升級的一個小故障。如果不通過新的手部掃描儀，任何人都無法進入你的辦公室。\n\n附註：每個人的工作都是超級隱私的，不僅僅是你的；）</indent>"
 
 #. STRINGS.CODEX.MISSINGNOTES.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.MISSINGNOTES.BODY.CONTAINER3"
 msgid "<indent=5%>Dear Dr. Jones,\nI'm so sorry to bother you again...it's just that I'm absolutely certain that someone has been interfering with my files.\n\nI've noticed several discrepancies since last week's \"glitch.\" For example, responses to my recent employee survey on workplace satisfaction and safety were decrypted, and significant portions of my data and research notes have been erased. I'm even missing a few e-mails.\n\nIt's all quite alarming. Could you or Dr. Summers please investigate this when you have a moment?\n\nThank you so much,\n\n</indent>"
-msgstr "<indent=5%>親愛的 Jones 博士，\n很抱歉再次打擾您...只是我絕對確定有人一直在擾亂我的文件。\n\n自上週的「故障」以來，我注意到了一些差異。例如，我最近對工作場所滿意度和安全性的員工調查的回復被解密，我的大部分資料和研究筆記被刪除。我甚至錯過了一些電子郵件。\n\n這一切都非常令人擔憂。可以麻煩您或 Summers 博士在有時間的時候調查一下嗎？\n\n非常感謝，\n\n</indent>"
+msgstr "<indent=5%>親愛的 Jones 博士，\n很抱歉再次打擾您...只是我絕對確定有人一直在擾亂我的文件。\n\n自上週的「故障」以來，我注意到了一些差異。例如，我最近對工作場所滿意度和安全性的員工調查的回覆被解密，我的大部分資料和研究筆記被刪除。我甚至錯過了一些電子郵件。\n\n這一切都非常令人擔憂。可以麻煩您或 Summers 博士在有時間的時候調查一下嗎？\n\n非常感謝，\n\n</indent>"
 
 #. STRINGS.CODEX.MISSINGNOTES.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.MISSINGNOTES.BODY.CONTAINER4"
@@ -19324,7 +19324,7 @@ msgstr "周期 1500"
 #. STRINGS.CODEX.MYLOG.BODY.LOG5.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG5.BODY"
 msgid "I occasionally find myself contemplating just how long \"eternity\" really is. Oh dear.\n\n"
-msgstr "我偶爾會發現我自己正在思考「永恆」是多久。\n哦、親愛的。\n\n"
+msgstr "我偶爾會發現我自己正在思考「永恆」是多久。哦、親愛的。\n\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.LOG5.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG5.TITLE"
@@ -19884,7 +19884,7 @@ msgstr "複製人的工作優先度基於幾項因素。\n\n一些可調整的�
 #. STRINGS.CODEX.PRIORITY.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.PRIORITY.PARAGRAPH_2"
 msgid "Each errand a Duplicant can perform falls into an Errand Category. These categories can be prioritized on a per-Duplicant basis in the <b>Priorities Screen</b>. Entire errand categories can also be prohibited to a Duplicant if they are meant to never perform errands of that variety. A common configuration is to assign errand type priority based on Duplicant attributes.\n\nFor example, Duplicants who are good at Research could be made to prioritize the Researching errand type. Duplicants with poor Athletics could be made to deprioritize the Supplying and Storing errand types.\n\n"
-msgstr "複製人可執行的每一項工作，都有著工作類別。在<b>優先度畫面</b> 可以排定每位複製人工作類別的優先順序。\n\n全部的工作類別都可以禁止複製人執行，如果他們永遠都不會執行那樣的工作。一般的設定是根據複製人的屬性來安排工作類的優先度。\n\n舉例，擅長研究的複製人可優先考慮研究類的工作。體能差的複製人可以考慮取消供應與儲存類的工作。\n\n"
+msgstr "複製人可執行的每一項工作，都有著工作類別。在<b>優先度畫面</b>可以排定每位複製人工作類別的優先順序。\n\n全部的工作類別都可以禁止複製人執行，如果他們永遠都不會執行那樣的工作。一般的設定是根據複製人的屬性來安排工作類的優先度。\n\n舉例，擅長研究的複製人可優先考慮研究類的工作。體能差的複製人可以考慮取消供應與儲存類的工作。\n\n"
 
 #. STRINGS.CODEX.PRIORITY.PARAGRAPH_3
 msgctxt "STRINGS.CODEX.PRIORITY.PARAGRAPH_3"
@@ -21934,12 +21934,12 @@ msgstr "壓力反應"
 #. STRINGS.CODEX.STRESS.PARAGRAPH_1
 msgctxt "STRINGS.CODEX.STRESS.PARAGRAPH_1"
 msgid "A Duplicant's experiences in the colony affect their stress level. Stress increases when they have negative experiences or unmet expectations. Stress decreases with time if <link=\"MORALE\">Morale</link> is satisfied. Duplicant behavior starts to change for the worse when stress levels get too high.\n\n"
-msgstr "複製人在殖民地的經歷會影響他們的壓力等級。\n當他們有負面的經歷或未滿足期望時壓力會增加。\n\n<link=\"MORALE\">士氣</link>滿足時，壓力會隨著時間減少。\n當複製人的壓力太高時，行為會開始改變。\n\n"
+msgstr "複製人在殖民地的經歷會影響他們的壓力等級。當他們有負面的經歷或未滿足期望時壓力會增加。\n\n<link=\"MORALE\">士氣</link>滿足時，壓力會隨著時間減少。當複製人的壓力太高時，行為會開始改變。\n\n"
 
 #. STRINGS.CODEX.STRESS.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.STRESS.PARAGRAPH_2"
 msgid "If a Duplicant has very high stress values they will experience a Stress Response episode. Each Duplicant has a different Stress Behavior - but all stress responses are bad. After the stress behavior episode is done, the Duplicants stress will reset to a lower value. Though, if the factors causing the Duplicant's high stress are not corrected they are bound to have another stress response episode.\n\n"
-msgstr "如果複製人的壓力值非常高，\n他們會開始表現出壓力反應。\n\n每位複製人都有不同的壓力行為 - 但全部的壓力反應都是不好的。\n\n在壓力反應行為結束後，複製人的壓力會回到低點，\n如果導致壓力過高的因素仍未被解決，\n那麼將會經歷另一次的壓力反應。\n"
+msgstr "如果複製人的壓力值非常高，他們會開始表現出壓力反應。\n\n每位複製人都有不同的壓力行為 - 但全部的壓力反應都是不好的。\n\n在壓力反應行為結束後，複製人的壓力會回到低點，如果導致壓力過高的因素仍未被解決，那麼將會經歷另一次的壓力反應。\n"
 
 #. STRINGS.CODEX.STRESS.TITLE
 msgctxt "STRINGS.CODEX.STRESS.TITLE"
@@ -24084,7 +24084,7 @@ msgstr "<link=\"BASICFORAGEPLANTPLANTED\">埋住的塊根</link>"
 #. STRINGS.CREATURES.SPECIES.BASICSINGLEHARVESTPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.BASICSINGLEHARVESTPLANT.DESC"
 msgid "Mealwoods produce <link=\"BASICPLANTFOOD\">Meal Lice</link>, an oddly wriggly grain that can be harvested for <link=\"FOOD\">Food</link>."
-msgstr "虱子樹生產<link=\"BASICPLANTFOOD\">虱子</link>，一種奇怪會蠕動的縠粒，可被當作<link=\"FOOD\">食物</link>。"
+msgstr "虱子樹生產<link=\"BASICPLANTFOOD\">虱子</link>，一種奇怪會蠕動的穀粒，可被當作<link=\"FOOD\">食物</link>。"
 
 #. STRINGS.CREATURES.SPECIES.BASICSINGLEHARVESTPLANT.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.BASICSINGLEHARVESTPLANT.DOMESTICATEDDESC"
@@ -24474,7 +24474,7 @@ msgstr "<link=\"EVILFLOWER\">惡魔花</link>"
 #. STRINGS.CREATURES.SPECIES.EVILFLOWER.WILT_PENALTY
 msgctxt "STRINGS.CREATURES.SPECIES.EVILFLOWER.WILT_PENALTY"
 msgid "Wilt Penalty"
-msgstr "枯萎"
+msgstr "枯萎懲罰"
 
 #. STRINGS.CREATURES.SPECIES.FILTERPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.FILTERPLANT.DESC"
@@ -26149,7 +26149,7 @@ msgstr "<link=\"TOEPLANT\">寧靜的腳趾</link>"
 #. STRINGS.CREATURES.SPECIES.TOEPLANT.WILT_PENALTY
 msgctxt "STRINGS.CREATURES.SPECIES.TOEPLANT.WILT_PENALTY"
 msgid "Wilt Penalty"
-msgstr "枯萎"
+msgstr "枯萎懲罰"
 
 #. STRINGS.CREATURES.SPECIES.WINECUPS.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.WINECUPS.DESC"
@@ -26174,7 +26174,7 @@ msgstr "<link=\"WINECUPS\">錦葵</link>"
 #. STRINGS.CREATURES.SPECIES.WINECUPS.WILT_PENALTY
 msgctxt "STRINGS.CREATURES.SPECIES.WINECUPS.WILT_PENALTY"
 msgid "Wilt Penalty"
-msgstr "枯萎"
+msgstr "枯萎懲罰"
 
 #. STRINGS.CREATURES.SPECIES.WOOD_TREE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.WOOD_TREE.DESC"
