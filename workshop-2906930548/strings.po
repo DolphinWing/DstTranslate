@@ -19749,7 +19749,7 @@ msgstr "星球回音"
 #. STRINGS.CODEX.PLUGSLUG.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.PLUGSLUG.BODY.CONTAINER1"
 msgid "Plug Slugs are fuzzy gastropoda that are able to cling to walls and ceilings thanks to an extreme triboelectric effect caused by friction between their fur and various surfaces.\n\nThis same phenomomen allows the Plug Slug to generate a significant amount of static electricity that can be converted into power.\n\nThe increased amount of static electricity a Plug Slug can generate when domesticated is due to the internal vibration, or contented 'humming', they demonstrate when all their needs are met."
-msgstr "電氣蛞蝓是一種毛茸茸的爬行動物，牠們的毛髮與表面磨擦引起的極端靜電反應使牠們吸附在牆壁與天花板上。同樣的現象讓電影蛞蝓產生大量的靜電可以轉化成電能。\n\n電氣蛞輸可產生靜電的增加量等於馴化後內部的震動或是滿足的【嗡嗡聲】，當牠們滿足時就會表現出來。"
+msgstr "電氣蛞蝓是一種毛茸茸的爬行動物，牠們的毛髮與表面磨擦引起的極端靜電反應使牠們吸附在牆壁與天花板上。同樣的現象讓電氣蛞蝓產生大量的靜電可以轉化成電能。\n\n電氣蛞輸可產生靜電的增加量等於馴化後內部的震動或是滿足的「嗡嗡聲」，當牠們的需求被滿足時就會表現出來。"
 
 #. STRINGS.CODEX.PLUGSLUG.SUBTITLE
 msgctxt "STRINGS.CODEX.PLUGSLUG.SUBTITLE"
@@ -19769,17 +19769,17 @@ msgstr "拋殼蟹是底棲的無脊椎動物，會吃其它生動的廢棄物與
 #. STRINGS.CODEX.POKESHELL.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.POKESHELL.BODY.CONTAINER2"
 msgid "They have formidably sized claws that fold safely into their shells for protection when not in use."
-msgstr "牠們擁有大尺寸的爪隻，在不使用時會安全的縮進蟹穀內保護起來。"
+msgstr "牠們擁有大尺寸的爪隻，在不使用時會安全的縮進蟹殼內保護起來。"
 
 #. STRINGS.CODEX.POKESHELL.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.POKESHELL.BODY.CONTAINER3"
 msgid "As Pokeshells mature they must periodically shed portions of their exoskeletons to make room for new growth."
-msgstr "拋殼蟹成年時會定期的脫下外穀，以獲得更多成長空間。"
+msgstr "拋殼蟹成年時會定期的脫下外殼，以獲得更多成長空間。"
 
 #. STRINGS.CODEX.POKESHELL.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.POKESHELL.BODY.CONTAINER4"
 msgid "Although the most dramatic sheds occur early in a Pokeshell's adolescence, they will continue growing and shedding throughout their adult lives, until the day they eventually die."
-msgstr "雖然幼生期的變化最戲劇性，但在成年期會持續的脫穀，直到最終死亡的那天。"
+msgstr "雖然幼生期的變化最戲劇性，但在成年期會持續的脫殼，直到最終死亡的那天。"
 
 #. STRINGS.CODEX.POKESHELL.SPECIES_SUBTITLE
 msgctxt "STRINGS.CODEX.POKESHELL.SPECIES_SUBTITLE"
