@@ -12499,7 +12499,7 @@ msgstr "靈感來自基因改造的植物。"
 #. STRINGS.BUILDINGS.PREFABS.PLANTERBOX.FACADES.MEALWOOD.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PLANTERBOX.FACADES.MEALWOOD.NAME"
 msgid "<link=\"PLANTERBOX\">Mealy Teal Planter Box</link>"
-msgstr "<link=\"PLANTERBOX\">蝨木藍種植箱</link>"
+msgstr "<link=\"PLANTERBOX\">虱木藍種植箱</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.PLANTERBOX.FACADES.SALMON_PINK.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PLANTERBOX.FACADES.SALMON_PINK.DESC"
@@ -21279,7 +21279,7 @@ msgstr "檢視地點"
 #. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST_AVAILABLE_POPUP.DESCRIPTION
 msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST_AVAILABLE_POPUP.DESCRIPTION"
 msgid "Success! My Duplicants have safely excavated a set of strange, fossilized remains.\n\nIt appears that there are more of this giant critter's bones strewn around the asteroid. It's vital that we reassemble this skeleton for deeper analysis."
-msgstr "成功了！我的複製人已將安全地發掘出一組奇怪的化石殘骸。\n\n看起來這隻巨型動物還有更多的骨頭散落在小行星上。我們必須重新組裝骨架才能進行更深入的分析。"
+msgstr "成功了！我的複製人安全地挖掘出了一組奇怪的化石遺跡。\n\n看起來這隻巨型動物還有更多的骨頭散落在小行星上。我們必須重新組裝骨架才能進行更深入的分析。"
 
 #. STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST_AVAILABLE_POPUP.NAME
 msgctxt "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.QUEST_AVAILABLE_POPUP.NAME"
@@ -21664,7 +21664,7 @@ msgstr "挑戰完成"
 #. STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.END_POPUP.DESCRIPTION
 msgctxt "STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.END_POPUP.DESCRIPTION"
 msgid "Meeting the initial quota of dream content analysis has triggered a surge of electromagnetic activity that appears to be enhancing performance for Duplicants everywhere.\n\nIf my Duplicants can keep this building fuelled with Dream Journals, perhaps we will continue to reap this benefit.\n\nA small side compartment has also popped open, revealing an unfamiliar object.\n\nA keepsake, perhaps?"
-msgstr "最初的夢境內容分析的基本指標的完成引起了電磁活動的激增，這似乎增強了我任何位置的複製人能力。\n\n如果我的複製人能保持用夢境日誌為這個建築供能，可能我們就可以持續獲得這種好處。\n\n側面的一個不起眼的小隔層也突然打開了，裡面有一件陌生的物體。\n\n是一件紀念品，大概？"
+msgstr "完成初始預定容量的夢境內容分析引發了電磁活動的激增，這似乎提高了各地複製人的表現。\n\n如果我的複製人能保持用夢境日誌為這個建築供能，可能我們就可以持續獲得這種好處。\n\n側面的一個不起眼的小隔層也突然打開了，裡面有一件陌生的物體。\n\n是一件紀念品，大概？"
 
 #. STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.END_POPUP.NAME
 msgctxt "STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.END_POPUP.NAME"
@@ -23654,7 +23654,7 @@ msgstr "小寶寶！"
 #. STRINGS.CREATURES.MODIFIERS.BABY.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.BABY.TOOLTIP"
 msgid "This critter will grow into an adult as it ages and becomes wise to the ways of the world"
-msgstr "隨著年齡的增長，這隻小動物會長大成年，並且對世界的方式充滿明智"
+msgstr "隨著年齡的增長，這隻小動物會長大成年，並變得了解世界運作的方式"
 
 #. STRINGS.CREATURES.MODIFIERS.BASE_FERTILITY.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.BASE_FERTILITY.NAME"
@@ -71009,7 +71009,7 @@ msgstr "洗澡時間"
 #. STRINGS.UI.SCHEDULEGROUPS.HYGENE.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.HYGENE.NOTIFICATION_TOOLTIP"
 msgid "During <style=\"KKeyword\">Bathtime</style> shifts my Duplicants will take care of their hygienic needs, such as going to the bathroom, using the shower or washing their hands."
-msgstr "在 <style=\"KKeyword\">洗澡時間</style>，複製人會處理他們的衛生需求，例如上廁所、洗澡或洗手。"
+msgstr "在<style=\"KKeyword\">洗澡時間</style>，複製人會處理他們的衛生需求，例如上廁所、洗澡或洗手。"
 
 #. STRINGS.UI.SCHEDULEGROUPS.MISSINGBLOCKS
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.MISSINGBLOCKS"
@@ -71049,7 +71049,7 @@ msgstr "睡眠時間"
 #. STRINGS.UI.SCHEDULEGROUPS.SLEEP.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.SLEEP.NOTIFICATION_TOOLTIP"
 msgid "My Duplicants use <style=\"KKeyword\">Bedtime</style> shifts to rest up after a hard day's work."
-msgstr "複製人們在一天辛苦的工作之後利用 <style=\"KKeyword\">睡眠時間</style> 休息。"
+msgstr "複製人們在一天辛苦的工作之後利用<style=\"KKeyword\">睡眠時間</style>休息。"
 
 #. STRINGS.UI.SCHEDULEGROUPS.TOOLTIP_FORMAT
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.TOOLTIP_FORMAT"
@@ -71069,7 +71069,7 @@ msgstr "工作時間"
 #. STRINGS.UI.SCHEDULEGROUPS.WORKTIME.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.WORKTIME.NOTIFICATION_TOOLTIP"
 msgid "During <style=\"KKeyword\">Work</style> shifts my Duplicants must perform the errands I've placed for them throughout the colony."
-msgstr "在 <style=\"KKeyword\">工作時間</style>，複製人必須執行我為殖民地安排的工作。"
+msgstr "在<style=\"KKeyword\">工作時間</style>，複製人必須執行我為殖民地安排的工作。"
 
 #. STRINGS.UI.SCHEDULESCREEN.ADD_SCHEDULE
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ADD_SCHEDULE"
@@ -71124,12 +71124,12 @@ msgstr "休息時間士氣：{0}"
 #. STRINGS.UI.SCHEDULESCREEN.DUPLICANT_EARLYBIRD_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.DUPLICANT_EARLYBIRD_TOOLTIP"
 msgid "Early Bird\n• All <style=\"KKeyword\">Attributes</style> <b>+2</b> in the morning"
-msgstr "早起的鳥兒\n• 早上，所有<style=\"KKeyword\">屬性</style> <b>+2</b>"
+msgstr "早起的鳥兒\n• 在早上的時間，所有<style=\"KKeyword\">屬性</style> <b>+2</b>"
 
 #. STRINGS.UI.SCHEDULESCREEN.DUPLICANT_NIGHTOWL_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.DUPLICANT_NIGHTOWL_TOOLTIP"
 msgid "Night Owl\n• All <style=\"KKeyword\">Attributes</style> <b>+3</b> at night"
-msgstr "夜貓子\n• 晚上，所有<style=\"KKeyword\">屬性</style> <b>+3</b>"
+msgstr "夜貓子\n• 在夜晚時，所有<style=\"KKeyword\">屬性</style> <b>+3</b>"
 
 #. STRINGS.UI.SCHEDULESCREEN.PAINT_TOOLS
 msgctxt "STRINGS.UI.SCHEDULESCREEN.PAINT_TOOLS"
@@ -71404,7 +71404,7 @@ msgstr "這座製糕機上微量的可使用物，表示它是用來製作泥糕
 #. STRINGS.UI.SPACEARTIFACTS.BLENDER.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.BLENDER.DESCRIPTION"
 msgid "Equipment used to conduct experiments answering the age-old question, \"Could that blend\"?"
-msgstr "用來進行實驗的設備回答了這個古老的問題，\"能混合嗎\"？"
+msgstr "用於進行實驗的設備可以回答這個古老的問題，「能混合嗎」？"
 
 #. STRINGS.UI.SPACEARTIFACTS.BLENDER.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.BLENDER.NAME"
@@ -71414,7 +71414,7 @@ msgstr "攪拌機"
 #. STRINGS.UI.SPACEARTIFACTS.BRICKPHONE.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.BRICKPHONE.ARTIFACT"
 msgid "This cordless phone once held a direct line to an unknown location in which strange distant voices can be heard but not understood, nor interacted with.\n\nThough Gravitas spent a lot of money and years of study dedicated to discovering its secret, the mystery was never solved."
-msgstr "這台無線電話曾經連接到一個未知的地方，\n可以聽到遠方奇怪但無法理解的聲音，\n也無法與之互動。\n\n雖然引力科技花費大量金錢和多年研究致力於發現其祕密，\n但這個謎團從未解開。"
+msgstr "這台無線電話曾經連接到一個未知的地方，可以聽到遠方奇怪但無法理解的聲音，也無法與之互動。\n\n雖然引力科技花費大量金錢和多年研究致力於發現其祕密，但這個謎團從未解開。"
 
 #. STRINGS.UI.SPACEARTIFACTS.BRICKPHONE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.BRICKPHONE.DESCRIPTION"
@@ -71459,7 +71459,7 @@ msgstr "蛋型石雕"
 #. STRINGS.UI.SPACEARTIFACTS.GRUBSTATUE.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.GRUBSTATUE.ARTIFACT"
 msgid "It's very likely this statue was placed in a hidden, secluded place in the Gravitas laboratory since the creation of Grubgrubs was a closely held secret that the general public was not privy to.\n\nThis is a shame since the artistic quality of this statue is really quite accomplished."
-msgstr "這個雕像很可能是偷偷擺放的，\n這個蟲果果蟲作品被創作後在一般大眾不知道的情況下，\n被幽靜的放在了引力科技的大廳。\n\n這是一種恥辱，因為這座雕像的藝術品質確實相當有造詣。"
+msgstr "這個雕像很可能是偷偷擺放的，這個蟲果果蟲作品被創作後在一般大眾不知道的情況下，被幽靜的放在了引力科技的大廳。\n\n這是一種恥辱，因為這座雕像的藝術品質確實相當有造詣。"
 
 #. STRINGS.UI.SPACEARTIFACTS.GRUBSTATUE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.GRUBSTATUE.DESCRIPTION"
@@ -71489,7 +71489,7 @@ msgstr "原始化石"
 #. STRINGS.UI.SPACEARTIFACTS.HONEYJAR.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.HONEYJAR.ARTIFACT"
 msgid "Records from the Genetics and Biology Lab of the Gravitas facility show that several early iterations of a radioactive Bee would continue to produce honey and that this honey was once accidentally stored in the employee kitchen which resulted in several incidents of minor radiation poisoning when it was erroneously labled as a sweetener for tea.\n\nEmployees who used this product reported that it was the \"sweetest honey they'd ever tasted\" and expressed no regret at the mix-up."
-msgstr "引力科技的遺傳與生物實驗室的記錄顯示，\n輻射蜂在幾次早期的迭代時會持續的生產蜂蜜，\n並且這種蜂蜜被意外的存放在員工的廚房中，\n當它被錯誤的標記為茶飲所使用的甜味劑時，\n導致了幾起輕微的輻射中毒事件。\n\n使用了該產品的的員工回報說這是「他們嚐過最甜的蜂蜜」，\n並表示他們對這混淆不後悔。"
+msgstr "引力科技的遺傳與生物實驗室的記錄顯示，輻射蜂在幾次早期的迭代時會持續的生產蜂蜜，並且這種蜂蜜被意外的存放在員工的廚房中，當它被錯誤的標記為茶飲所使用的甜味劑時，導致了幾起輕微的輻射中毒事件。\n\n使用了該產品的的員工回報說這是「他們嚐過最甜的蜂蜜」，並表示他們對這混淆不後悔。"
 
 #. STRINGS.UI.SPACEARTIFACTS.HONEYJAR.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.HONEYJAR.DESCRIPTION"
@@ -71549,7 +71549,7 @@ msgstr "莫爾道玻隕石"
 #. STRINGS.UI.SPACEARTIFACTS.MOODRING.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MOODRING.ARTIFACT"
 msgid "A wholly unique ring not found anywhere outside of the Gravitas Laboratory.\n\nThough it can't be determined for sure who worked on this extraordinary curiousity it's worth noting that, for his Ph.D. thesis, Dr. Travaldo Farrington wrote a paper entitled \"Novelty Uses for Radiochromatic Dyes\"."
-msgstr "一個完全獨特的戒指，在引力科技實驗室以外任何地方都找不到。\n\n雖然無法確定是誰專注在此特殊的好奇心上，\n值得注意是，他的博士學位論文，\nTravaldo Jones 博士撰寫了一篇題為「放射性染料的新用途」的論文。"
+msgstr "一個完全獨特的戒指，在引力科技實驗室以外任何地方都找不到。\n\n雖然無法確定是誰專注在此特殊的好奇心上，值得注意是，Travaldo Jones 博士為了他的博士學位論文，撰寫了一篇題為「放射性染料的新用途」的論文。"
 
 #. STRINGS.UI.SPACEARTIFACTS.MOODRING.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MOODRING.DESCRIPTION"
@@ -71564,7 +71564,7 @@ msgstr "輻射情緒戒指"
 #. STRINGS.UI.SPACEARTIFACTS.MOONMOONMOON.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MOONMOONMOON.ARTIFACT"
 msgid "In contrast to most moons, this object's glowing properties do not come from reflecting an external source of light, but rather from an internal glow of mysterious origin.\n\nThe glow of this object also grants an extraordinary amount of Decor bonus to nearby Duplicants, almost as if it was designed that way."
-msgstr "與多數衛星相比，\n此物體的發光特性不是來自於反射外部光源，\n而是源自內部神祕的光源。\n\n此物體的光芒也會大量給予複製人裝飾加成，\n就好像是為此設計一樣。"
+msgstr "與多數衛星相比，此物體的發光特性不是來自於反射外部光源，而是源自內部神祕的光源。\n\n此物體的光芒也會大量給予複製人裝飾加成，就好像是為此設計一樣。"
 
 #. STRINGS.UI.SPACEARTIFACTS.MOONMOONMOON.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MOONMOONMOON.DESCRIPTION"
@@ -71579,7 +71579,7 @@ msgstr "月亮月亮月亮"
 #. STRINGS.UI.SPACEARTIFACTS.OBELISK.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.OBELISK.ARTIFACT"
 msgid "On close inspection this rectangle is actually a stone box built with a covert, almost seamless, lid, housing a tiny key.\n\nIt is still unclear what the key unlocks."
-msgstr "仔細觀察此矩形實際上是一個隱蔽方式建造的石盒，\n幾乎沒有縫細、蓋子、內部有個小鑰匙。\n\n仍不清楚鑰匙能打開什麼。"
+msgstr "仔細觀察此矩形實際上是一個隱蔽方式建造的石盒，幾乎沒有縫細、蓋子、內部有個小鑰匙。\n\n仍不清楚鑰匙能打開什麼。"
 
 #. STRINGS.UI.SPACEARTIFACTS.OBELISK.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.OBELISK.DESCRIPTION"
@@ -71594,7 +71594,7 @@ msgstr "小方尖碑"
 #. STRINGS.UI.SPACEARTIFACTS.OFFICEMUG.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.OFFICEMUG.ARTIFACT"
 msgid "An office mug with the Gravitas logo on it. Though their office mugs were all emblazoned with the same logo, Gravitas colored their mugs differently to distinguish between their various departments.\n\nThis one is from the AI department."
-msgstr "印著引力科技標誌的辦公室馬克杯。\n雖然他們的辦公室馬克杯都印著相同的誌標，\n但引力科技為他們的馬克杯塗上不同的顏色，\n來區別不同的部門。\n\n這個來自於 AI 部門。"
+msgstr "印著引力科技標誌的辦公室馬克杯。雖然他們的辦公室馬克杯都印著相同的誌標，但引力科技為他們的馬克杯塗上不同的顏色，來區別不同的部門。\n\n這個來自於 AI 部門。"
 
 #. STRINGS.UI.SPACEARTIFACTS.OFFICEMUG.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.OFFICEMUG.DESCRIPTION"
@@ -71624,7 +71624,7 @@ msgstr "老舊的 X 光機"
 #. STRINGS.UI.SPACEARTIFACTS.ORACLE.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ORACLE.ARTIFACT"
 msgid "All of the parts for this contraption are recycled from projects abandoned by the Robotics department.\n\nThe design is very close to one published in an amateur DIY magazine that once sat in the lobby of the 'Employees Only' area of Gravitas' facilities."
-msgstr "這個裝置的零件都是從被機器人部門廢棄專案所回收的。\n\n該設計非常接近一個發表在業餘 DIY 周刊上的設計，\n曾經放在引力科技「僅限員工」區域的大廳中。"
+msgstr "這個裝置的零件都是從被機器人部門廢棄專案所回收的。\n\n該設計非常接近一個發表在業餘 DIY 周刊上的設計，曾經放在引力科技「僅限員工」區域的大廳中。"
 
 #. STRINGS.UI.SPACEARTIFACTS.ORACLE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ORACLE.DESCRIPTION"
@@ -71654,7 +71654,7 @@ msgstr "淨水器"
 #. STRINGS.UI.SPACEARTIFACTS.PLASMALAMP.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.PLASMALAMP.ARTIFACT"
 msgid "The bottom of this lamp contains the words 'Property of the Atmospheric Sciences Department'.\n\nIt's worth noting that the Gravitas Atmospheric Sciences Department once simulated an experiment testing the feasibility of survival in an environment filled with noble gasses, similar to the ones contained within this device."
-msgstr "這盞燈的底部印著「大氣科學部門財產」字樣。\n\n值得注意的是，引力科技大氣科學部門曾作過一項實驗，\n測試在充滿惰性氣體環境中生存的可能性，\n類似於此裝置中裝著的那些。"
+msgstr "這盞燈的底部印著「大氣科學部門財產」字樣。\n\n值得注意的是，引力科技大氣科學部門曾作過一項實驗，測試在充滿惰性氣體環境中生存的可能性，類似於此裝置中裝著的那些。"
 
 #. STRINGS.UI.SPACEARTIFACTS.PLASMALAMP.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.PLASMALAMP.DESCRIPTION"
@@ -71669,7 +71669,7 @@ msgstr "等離子立燈"
 #. STRINGS.UI.SPACEARTIFACTS.RAINBOWEGGROCK.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.RAINBOWEGGROCK.ARTIFACT"
 msgid "The words \"Happy Father's Day, Dad. Love you!\" appear on the bottom of this rock, written in very neat handwriting. The words are surrounded by four hearts drawn in what appears to be a pink gel pen."
-msgstr "此石頭底部有著「父親節快樂，爸、愛你！」文字，非常工整的手寫筆跡。\n這此字被用粉紅色中性筆所畫的四個愛心所包圍著。"
+msgstr "此石頭底部有著「父親節快樂，爸、愛你！」文字，非常工整的手寫筆跡。這此字被用粉紅色中性筆所畫的四個愛心所包圍著。"
 
 #. STRINGS.UI.SPACEARTIFACTS.RAINBOWEGGROCK.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.RAINBOWEGGROCK.DESCRIPTION"
@@ -71684,7 +71684,7 @@ msgstr "彩蛋石雕"
 #. STRINGS.UI.SPACEARTIFACTS.REACTORMODEL.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.REACTORMODEL.ARTIFACT"
 msgid "Though this Nuclear Power Plant was never built, this model exists as an artifact to a time early in the life of Gravitas when it was researching all alternatives to solving the global energy problem.\n\nUltimately, the idea of building a Nuclear Power Plant was abandoned in favor of the \"much safer\" alternative of developing the Temporal Bow."
-msgstr "雖然這座核能發電廠從未完工，\n這模型是引力科技早期研究解決全球能源問題，\n所有替代方案的產物。\n\n最終，建造核能發電廠的計劃被終止，\n取而代之的是開發時光之弓這項「更安全」的替代方案。"
+msgstr "雖然這座核能發電廠從未完工，這模型是引力科技早期研究解決全球能源問題，所有替代方案的產物。\n\n最終，建造核能發電廠的計劃被終止，取而代之的是開發時光之弓這項「更安全」的替代方案。"
 
 #. STRINGS.UI.SPACEARTIFACTS.REACTORMODEL.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.REACTORMODEL.DESCRIPTION"
@@ -71714,7 +71714,7 @@ msgstr "機械手臂"
 #. STRINGS.UI.SPACEARTIFACTS.ROCKTORNADO.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ROCKTORNADO.ARTIFACT"
 msgid "Speculations about the origin of this rock include a paper written by one Harold P. Moreson, Ph.D. in which he theorized it could be a rare form of hollow geode which failed to form any crystals inside.\n\nThis paper appears in the Gravitas archives, and in all probability, was one of the factors in the hiring of Moreson into the Geology department of the company."
-msgstr "關於這塊石頭來源的推測包含了一篇由 Harold P. Moreson 所撰寫的論文，\n在他的推測中，這是一種罕見的空心晶洞，內部沒有型成任何晶體。\n\n這篇論文出現在引力科技的文件中，\n並很可能是聘請 Moreson 進入公司地質部門的因素之一。"
+msgstr "關於這塊石頭來源的推測包含了一篇由 Harold P. Moreson 所撰寫的論文，在他的推測中，這是一種罕見的空心晶洞，內部沒有型成任何晶體。\n\n這篇論文出現在引力科技的文件中，並很可能是聘請 Moreson 進入公司地質部門的因素之一。"
 
 #. STRINGS.UI.SPACEARTIFACTS.ROCKTORNADO.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ROCKTORNADO.DESCRIPTION"
@@ -71744,7 +71744,7 @@ msgstr "魔方"
 #. STRINGS.UI.SPACEARTIFACTS.SANDSTONE.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SANDSTONE.ARTIFACT"
 msgid "This sample of sandstone appears to have been processed by the Gravitas Mining Gun that was made available to the general public.\n\nNote: The Gravitas public Mining Gun model is different than ones used by Duplicants in its larger size, and extra precautionary features added in order to be compliant with national safety standards."
-msgstr "這個沙岩樣本被公開版本的引力設施採礦槍處理過。\n\n注意：引力科技公用採礦槍模組與複製人所使用的更大型號不同，\n它增加額外的預防功能以符合國家的安全標準。"
+msgstr "這個沙岩樣本被公開版本的引力設施採礦槍處理過。\n\n注意：引力科技公用採礦槍模組與複製人所使用的更大型號不同，它增加額外的預防功能以符合國家的安全標準。"
 
 #. STRINGS.UI.SPACEARTIFACTS.SANDSTONE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SANDSTONE.DESCRIPTION"
@@ -71759,7 +71759,7 @@ msgstr "沙岩"
 #. STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.ARTIFACT"
 msgid "Though it is often remarked that \"in space, no one can hear you scream\", Thomas Pesquet proved the same cannot be said for the smooth jazzy sounds of a saxophone.\n\nAlthough this instrument once belonged to the eminent French Astronaut its current bumped and bent shape suggests it has seen many adventures beyond that of just being used to perform an out-of-this-world saxophone solo."
-msgstr "雖然人們常說「在太空中，沒人能聽到你的尖叫」，\nThomas Pesquet 證明了薩克斯管流暢的爵士樂並非如此。\n\n儘管這件樂器曾經屬於一位傑出的法國太空人，\n但它現在凹凸不平的形狀讓人聯想到它經歷許多冒險，\n而不僅僅是用來表演超凡脫俗的薩克斯獨奏。"
+msgstr "雖然人們常說「在太空中，沒人能聽到你的尖叫」，Thomas Pesquet 證明了薩克斯管流暢的爵士樂並非如此。\n\n儘管這件樂器曾經屬於一位傑出的法國太空人，但它現在凹凸不平的形狀讓人聯想到它經歷許多冒險，而不僅僅是用來表演超凡脫俗的薩克斯獨奏。"
 
 #. STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.DESCRIPTION"
@@ -71789,7 +71789,7 @@ msgstr "護盾產生器"
 #. STRINGS.UI.SPACEARTIFACTS.SINK.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SINK.ARTIFACT"
 msgid "A small trace of encrusted soap on this sink strongly suggests it was installed in a personal bathroom, rather than a public one which would have used a soap dispenser.\n\nThe soap sliver is light blue and contains a manufactured blueberry fragrance."
-msgstr "這座水槽上鑲嵌的一點肥皂，\n強烈的顯示它是安裝在個人浴室中\n而不是使用洗手液的公共場所。\n\n肥皂是淡藍色且含有藍莓味。"
+msgstr "這座水槽上鑲嵌的一點肥皂，強烈的顯示它是安裝在個人浴室中，而不是使用洗手液的公共場所。\n\n肥皂是淡藍色且含有藍莓味。"
 
 #. STRINGS.UI.SPACEARTIFACTS.SINK.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SINK.DESCRIPTION"
@@ -71819,7 +71819,7 @@ msgstr "自成一體的太陽系"
 #. STRINGS.UI.SPACEARTIFACTS.STETHOSCOPE.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.STETHOSCOPE.ARTIFACT"
 msgid "The size and shape of this stethescope suggests it was not intended to be used by neither a human-sized nor a Duplicant-sized person but something half-way in between the two beings."
-msgstr "這個聽診的大小與形狀顯示它不適合人類大小的人使用，\n也不適合複製人大小的人使用，而是介於兩者之間的東西。"
+msgstr "這個聽筒的大小與形狀顯示它不適合人類大小的人使用，也不適合複製人大小的人使用，而是介於兩者之間的東西。"
 
 #. STRINGS.UI.SPACEARTIFACTS.STETHOSCOPE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.STETHOSCOPE.DESCRIPTION"
@@ -71834,7 +71834,7 @@ msgstr "聽筒"
 #. STRINGS.UI.SPACEARTIFACTS.TEAPOT.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.TEAPOT.ARTIFACT"
 msgid "The amount of Neutronium present in this teapot suggests that it has crossed the threshold of the spacetime continuum on countless occasions, floating through many multiple universes over a plethora of times and spaces.\n\nThough there are, theoretically, an infinite amount of outcomes to any one event over many multi-verses, the homogeneity of the still relatively young multiverse suggests that this is then not the only teapot which has crossed into multiple universes. Despite the infinite possible outcomes of infinite multiverses it appears one high probability constant is that there is, or once was, a teapot floating somewhere in space within every universe."
-msgstr "這個茶壺存在的 0 號元素數量表示它已經無數次跨越了時間連續體，\n漂浮在多個宇宙中橫跨了眾多的時間與空間。\n\n雖然從理論上講，任何一件事橫跨多個宇宙都有無數結果\n但仍然相對年輕的多元宇宙的同質性表明，\n這不是唯一一個跨越多個宇宙的茶壺。\n\n雖然多元宇宙有無數的可能性，\n但似乎有一個高概率的常數是、或曾經是，\n有個茶壺漂浮在每個宇宙的某個地方。"
+msgstr "這個茶壺存在的 0 號元素數量表示它已經無數次跨越了時間連續體，漂浮在多個宇宙中橫跨了眾多的時間與空間。\n\n雖然從理論上講，任何一件事橫跨多個宇宙都有無數結果。但仍然相對年輕的多元宇宙的同質性表明，這不是唯一一個跨越多個宇宙的茶壺。\n\n雖然多元宇宙有無數的可能性，但似乎有一個高概率的常數是、或曾經是，有個茶壺漂浮在每個宇宙的某個地方。"
 
 #. STRINGS.UI.SPACEARTIFACTS.TEAPOT.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.TEAPOT.DESCRIPTION"
@@ -75284,7 +75284,7 @@ msgstr "顯示工作的優先度 {Hotkey}"
 #. STRINGS.UI.TOOLTIPS.PRIORITIZEBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.PRIORITIZEBUTTON"
 msgid "Set Building Priority {Hotkey}\n\nDuplicant Priorities</style> {Hotkey/ManagePriorities} are calculated <i>before</i> the <style=\"KKeyword\">Building Priorities</style> set by this tool"
-msgstr "設定建築優先度 {Hotkey}\n\n<style=\"KKeyword\">複製人優先度</style> {Hotkey/ManagePriorities} <I>優先於</i><style=\"KKeyword\">建築物優先度</style>"
+msgstr "設定建築優先度 {Hotkey}\n\n<style=\"KKeyword\">複製人優先度</style> {Hotkey/ManagePriorities} <b>優先於</b><style=\"KKeyword\">建築物優先度</style>"
 
 #. STRINGS.UI.TOOLTIPS.PRIORITIZEMAINBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.PRIORITIZEMAINBUTTON"
@@ -76719,22 +76719,22 @@ msgstr "正在進行神經振盪。"
 #. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.NONE_DISCOVERED
 msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.NONE_DISCOVERED"
 msgid "No mutant seeds have been found."
-msgstr "未發現異變植物種子。"
+msgstr "未發現變異植物種子。"
 
 #. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_ALLOWED
 msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_ALLOWED"
 msgid "</i>Will analyze</i>"
-msgstr "</I>會分析</i>"
+msgstr "</i>會分析</i>"
 
 #. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_FORBIDDEN
 msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_FORBIDDEN"
 msgid "</i>Won't analyze</i>"
-msgstr "</I>不會分析</i>"
+msgstr "</i>不會分析</i>"
 
 #. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_NO_MUTANTS
 msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_NO_MUTANTS"
 msgid "</i>No mutants found</i>"
-msgstr "</I>未找到變異體</i>"
+msgstr "</i>未找到變異體</i>"
 
 #. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SELECT_SEEDS
 msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SELECT_SEEDS"
@@ -80479,7 +80479,7 @@ msgstr "疾病"
 #. STRINGS.UI.VITALSSCREEN.SICKNESS_REMAINING
 msgctxt "STRINGS.UI.VITALSSCREEN.SICKNESS_REMAINING"
 msgid "{0}\n({1})"
-msgstr "{0}（{1}）"
+msgstr "{0}\n（{1}）"
 
 #. STRINGS.UI.VITALSSCREEN.STRESS
 msgctxt "STRINGS.UI.VITALSSCREEN.STRESS"
@@ -80549,7 +80549,7 @@ msgstr "開始"
 #. STRINGS.UI.WELCOMEMESSAGEBODY
 msgctxt "STRINGS.UI.WELCOMEMESSAGEBODY"
 msgid "I've awoken at the target location, but colonization efforts have already hit a hitch. I was supposed to land on the planet's surface, but became trapped many miles underground instead.\n\nAlthough the conditions are not ideal, it's imperative that I establish a colony here and begin mounting efforts to escape."
-msgstr "我在目的地被喚醒，但建立殖民地的工作早已開始。\n我應該在星球表面登陸，但卻被困在地下幾英哩的地方。\n\n雖然這裡的條件不理想，但我必須立刻在此建立一個殖民地ー\n為了脫困而努力。"
+msgstr "我在目的地被喚醒，但建立殖民地的工作早已開始。我應該在星球表面登陸，但卻被困在地下幾英哩的地方。\n\n雖然這裡的條件不理想，但我必須立刻在此建立一個殖民地，為了脫困而努力。"
 
 #. STRINGS.UI.WELCOMEMESSAGEBODY_KF23
 msgctxt "STRINGS.UI.WELCOMEMESSAGEBODY_KF23"
@@ -80559,7 +80559,7 @@ msgstr "這顆小行星奇怪地傾斜了，好像曾有強大的外力將其撞
 #. STRINGS.UI.WELCOMEMESSAGEBODY_SPACEDOUT
 msgctxt "STRINGS.UI.WELCOMEMESSAGEBODY_SPACEDOUT"
 msgid "The asteroid we call home has collided with an anomalous planet, decimating our colony. Rebuilding it is of the utmost importance.\n\nI've detected a new cluster of material-rich planetoids in nearby space. If I can guide the Duplicants through the perils of space travel, we could build a colony even bigger and better than before."
-msgstr "我們稱之為家的小行星與一顆異常的星球相撞，摧毀了我們的殖民地。\n重建是我們最至關重要的任務。\n\n我探測到一群資源豐富的小行星在附近的太空。\n如果我能帶領複製人穿越這個危險的太空旅行，\n我們將可以建立一個比之前更大更好的殖民地。"
+msgstr "我們稱之為家的小行星與一顆異常的星球相撞，摧毀了我們的殖民地。重建是我們最至關重要的任務。\n\n我探測到一群資源豐富的小行星在附近的太空。如果我能帶領複製人穿越這個危險的太空旅行，我們將可以建立一個比之前更大更好的殖民地。"
 
 #. STRINGS.UI.WELCOMEMESSAGETITLE
 msgctxt "STRINGS.UI.WELCOMEMESSAGETITLE"
@@ -81364,7 +81364,7 @@ msgstr "火山活躍"
 #. STRINGS.WORLDS.BADLANDS.DESCRIPTION
 msgctxt "STRINGS.WORLDS.BADLANDS.DESCRIPTION"
 msgid "A barren location with an overabundance of mineral resources.\n\n<smallcaps>The rocky terrain of The Badlands poses no immediate threats, but sparse resource availability will make expansion and technological progress challenging.</smallcaps>\n\n"
-msgstr "一個荒蕪但有豐富礦物資源的地方。\n\n<smallcaps>岩石地型不會有立即的危險，\n但資源稀少對發展科技進程形成了挑戰。</smallcaps>\n\n"
+msgstr "一個荒蕪但有豐富礦物資源的地方。\n\n<smallcaps>岩石地型不會有立即的危險，但資源稀少對科技發展形成了挑戰。</smallcaps>\n\n"
 
 #. STRINGS.WORLDS.BADLANDS.NAME
 msgctxt "STRINGS.WORLDS.BADLANDS.NAME"
@@ -81384,7 +81384,7 @@ msgstr "大型空洞，開發人員用"
 #. STRINGS.WORLDS.FOREST_DEFAULT.DESCRIPTION
 msgctxt "STRINGS.WORLDS.FOREST_DEFAULT.DESCRIPTION"
 msgid "A location with a natural abundance of trees.\n\n<smallcaps>Colonizing Arboria will require careful planning right from the start. Because of its lack of metals, finding biological solutions to problems is a must.</smallcaps>\n\n"
-msgstr "一個天然樹木資源豐富的地方。\n\n<smallcaps>殖民喬木行星需要從一開始就仔細規劃。\n因為這裡缺少金屬，找到利用有機生物的決解方案是首要問題。</smallcaps>\n\n"
+msgstr "一個天然樹木資源豐富的地方。\n\n<smallcaps>殖民喬木行星需要從一開始就仔細規劃。因為這裡缺少金屬，找到利用有機生物的決解方案是首要問題。</smallcaps>\n\n"
 
 #. STRINGS.WORLDS.FOREST_DEFAULT.NAME
 msgctxt "STRINGS.WORLDS.FOREST_DEFAULT.NAME"
@@ -81394,7 +81394,7 @@ msgstr "喬木行星"
 #. STRINGS.WORLDS.FOREST_HOT.DESCRIPTION
 msgctxt "STRINGS.WORLDS.FOREST_HOT.DESCRIPTION"
 msgid "A location with oppressively hot temperatures.\n\n<smallcaps>Temperatures on Aridio are much higher than expected. While resources are abundant, maintaining food and infrastructure could be difficult as our colony warms.</smallcaps>\n\n"
-msgstr "一個高溫的地方。\n\n<smallcaps>這裡的環境溫度比預期的高。\n雖然資源豐富，可是隨著殖民地溫度升高，\n維持食物與基礎設施會變的困難。</smallcaps>\n\n"
+msgstr "一個高溫的地方。\n\n<smallcaps>這裡的環境溫度比預期的高。雖然資源豐富，可是隨著殖民地溫度升高，維持食物與基礎設施會變得困難。</smallcaps>\n\n"
 
 #. STRINGS.WORLDS.FOREST_HOT.NAME
 msgctxt "STRINGS.WORLDS.FOREST_HOT.NAME"
@@ -81404,7 +81404,7 @@ msgstr "熱帶森林行星"
 #. STRINGS.WORLDS.FOREST_LUSH.DESCRIPTION
 msgctxt "STRINGS.WORLDS.FOREST_LUSH.DESCRIPTION"
 msgid "A lush location rich in wildlife and life-sustaining resources.\n\n<smallcaps>Establishing a foothold on Verdante will be challenging due to reduced food and oxygen options. However, abundant biological and mineral resources should afford excellent long-term growth.</smallcaps>\n\n"
-msgstr "一個森林茂盛的地方，擁有豐富的野生動物與維持生命的資源。\n\n<smallcaps>由於食物與氧氣的選擇變少，在這裡生存會成為一種挑戰。\n不過豐富的生物與礦物資源，應該能支撐長期的成長。</smallcaps>\n\n"
+msgstr "一個森林茂盛的地方，擁有豐富的野生動物與維持生命的資源。\n\n<smallcaps>由於食物與氧氣的選擇變少，在這裡生存會成為一種挑戰。不過豐富的生物與礦物資源，應該能支撐長期的成長。</smallcaps>\n\n"
 
 #. STRINGS.WORLDS.FOREST_LUSH.NAME
 msgctxt "STRINGS.WORLDS.FOREST_LUSH.NAME"
@@ -81444,12 +81444,12 @@ msgstr "輻射森林小行星"
 #. STRINGS.WORLDS.MARSHYMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.MARSHYMOONLET.DESCRIPTION"
 msgid "A small location with an abundance of marshland.\n\n<smallcaps>While Marshy Asteroids offer an abundance of organic resources like Slime Mold and Algae, their air quality poses a significant disease risk for Duplicants.</smallcaps>"
-msgstr "一個充滿沼澤的小行星。\n\n<smallcaps>沼澤小行星擁有豐富的有機資源，像是軟泥與藻類，這裡的空氣品質對複製人有嚴重的疾病風險。</smallcaps>"
+msgstr "一個充滿草澤的小行星。\n\n<smallcaps>草澤小行星擁有豐富的有機資源，像是軟泥與藻類，這裡的空氣品質對複製人有嚴重的疾病風險。</smallcaps>"
 
 #. STRINGS.WORLDS.MARSHYMOONLET.NAME
 msgctxt "STRINGS.WORLDS.MARSHYMOONLET.NAME"
 msgid "Marshy Asteroid"
-msgstr "沼澤小行星"
+msgstr "草澤小行星"
 
 #. STRINGS.WORLDS.MEDIUMFORESTYRADIOACTIVEVANILLAWARPPLANET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.MEDIUMFORESTYRADIOACTIVEVANILLAWARPPLANET.DESCRIPTION"
@@ -81504,7 +81504,7 @@ msgstr "輻射類地小行星"
 #. STRINGS.WORLDS.MEDIUMSWAMPY.DESCRIPTION
 msgctxt "STRINGS.WORLDS.MEDIUMSWAMPY.DESCRIPTION"
 msgid "A large-ish, polluted swamp world.\n\n<smallcaps>Stinko Swamp Asteroids are full of swampy and marshy areas, but also contain a variety of other biomes diverse enough to keep a determined colony supplied with essentials.</smallcaps>"
-msgstr "一個大的受汙染的沼澤世界。\n\n<smallcaps>中型沼澤小行星是一個滿是沼澤的地方，\n但也有各種生態系可以確保殖民地的補給。</smallcaps>"
+msgstr "一個大的受汙染的沼澤世界。\n\n<smallcaps>中型沼澤小行星是一個滿是沼澤和草澤的地方，但也有各種生態系可以確保殖民地的補給。</smallcaps>"
 
 #. STRINGS.WORLDS.MEDIUMSWAMPY.NAME
 msgctxt "STRINGS.WORLDS.MEDIUMSWAMPY.NAME"
@@ -81514,17 +81514,17 @@ msgstr "中型沼澤小行星"
 #. STRINGS.WORLDS.METALHEAVYLANDINGSITE.DESCRIPTION
 msgctxt "STRINGS.WORLDS.METALHEAVYLANDINGSITE.DESCRIPTION"
 msgid "A marshy world with significant radiation.\n\n<smallcaps>Irradiated Marsh Asteroids have an abundance of metal for the taking if Duplicants can withstand the planetoid's radiation.</smallcaps>"
-msgstr "一個沼澤世界，有著大量的輻射。\n\n<smallcaps>輻射沼澤小行星，如果複製人能承受此小行星的輻射，就能取得所需的金屬。</smallcaps>"
+msgstr "一個草澤世界，有著大量的輻射。\n\n<smallcaps>輻射草澤小行星，如果複製人能承受此小行星的輻射，就能取得所需的金屬。</smallcaps>"
 
 #. STRINGS.WORLDS.METALHEAVYLANDINGSITE.NAME
 msgctxt "STRINGS.WORLDS.METALHEAVYLANDINGSITE.NAME"
 msgid "Irradiated Marsh Asteroid"
-msgstr "輻射沼澤小行星"
+msgstr "輻射草澤小行星"
 
 #. STRINGS.WORLDS.MINIBADLANDS.DESCRIPTION
 msgctxt "STRINGS.WORLDS.MINIBADLANDS.DESCRIPTION"
 msgid "A barren location with an overabundance of mineral resources and oil.\n\n<smallcaps>The rocky terrain of The Desolands poses no immediate threats, but the limited variety of resources will make expansion and technological progress challenging.</smallcaps>\n\n"
-msgstr "一個荒蕪但有豐富礦物與原油資源的地方。\n\n<smallcaps>岩石地型不會有立即的危險，\n但資源稀少對發展科技進程形成了挑戰。</smallcaps>\n\n"
+msgstr "一個荒蕪但有豐富礦物與原油資源的地方。\n\n<smallcaps>岩石地型不會有立即的危險，但資源稀少對科技發展形成了挑戰。</smallcaps>\n\n"
 
 #. STRINGS.WORLDS.MINIBADLANDS.NAME
 msgctxt "STRINGS.WORLDS.MINIBADLANDS.NAME"
@@ -81574,7 +81574,7 @@ msgstr "輻射海洋小行星"
 #. STRINGS.WORLDS.MOOMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.MOOMOONLET.DESCRIPTION"
 msgid "A small world with unique local lifeforms.\n\n<smallcaps>Moo Asteroids are the natural breeding ground of Gassy Moos due to their abundance of Gas Grass and Methane.</smallcaps>"
-msgstr "一個有獨特本地生命形式的小世界。\n\n<smallcaps>牛牛小行星是瓦斯牛的天然繁殖地，\n因為它們有大量的瓦斯草與天然氣。</smallcaps>"
+msgstr "一個有獨特本地生命形式的小世界。\n\n<smallcaps>牛牛小行星是瓦斯牛的天然繁殖地，因為它們有大量的瓦斯草與天然氣。</smallcaps>"
 
 #. STRINGS.WORLDS.MOOMOONLET.NAME
 msgctxt "STRINGS.WORLDS.MOOMOONLET.NAME"
@@ -81594,7 +81594,7 @@ msgstr "荒蕪的衛星"
 #. STRINGS.WORLDS.NIOBIUMMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.NIOBIUMMOONLET.DESCRIPTION"
 msgid "A small location with an abundance of solid Niobium.\n\n<smallcaps>Superconductive Asteroids offer rich veins of Niobium to Duplicants that can withstand its molten rivers of magma.</smallcaps>"
-msgstr "一個含有大量鈮礦的小地方。\n\n<smallcaps>超導小行星有豐富的鈮礦脈，複製人可以利用它來抵抗岩漿河流。</smallcaps>"
+msgstr "一個含有大量固體鈮礦的小地方。\n\n<smallcaps>超導小行星有豐富的鈮礦脈，複製人可以利用它來抵抗岩漿河流。</smallcaps>"
 
 #. STRINGS.WORLDS.NIOBIUMMOONLET.NAME
 msgctxt "STRINGS.WORLDS.NIOBIUMMOONLET.NAME"
@@ -81604,7 +81604,7 @@ msgstr "超導小行星"
 #. STRINGS.WORLDS.OASIS.DESCRIPTION
 msgctxt "STRINGS.WORLDS.OASIS.DESCRIPTION"
 msgid "A desolate location with a cache of life-sustaining water trapped beneath the surface.\n\n<smallcaps>A wide underground desert will pose temperature threats and strain the resources of a colony on Oasisse. However, surviving the challenge should present great industrial opportunities.</smallcaps>\n\n"
-msgstr "一個荒涼表面積存著對維持生命有益處的水。\n\n<smallcaps>這裡廣闊的地下沙漠會造成溫度威脅，且殖民地資源緊缺。\n然而面對生存的挑戰，其成功的機會在於大量工業化。</smallcaps>\n\n"
+msgstr "一個荒涼表面積存著對維持生命有益處的水。\n\n<smallcaps>這裡廣闊的地下沙漠會造成溫度威脅，且殖民地資源緊缺。然而面對生存的挑戰，其成功的機會在於大量工業化。</smallcaps>\n\n"
 
 #. STRINGS.WORLDS.OASIS.NAME
 msgctxt "STRINGS.WORLDS.OASIS.NAME"
@@ -81614,7 +81614,7 @@ msgstr "綠洲行星"
 #. STRINGS.WORLDS.OCEANIA.DESCRIPTION
 msgctxt "STRINGS.WORLDS.OCEANIA.DESCRIPTION"
 msgid "A location with vast quantities of undrinkable salt water.\n\n<smallcaps>Oceania is quite stable and resource rich, but the majority of the area is covered in a saltwater ocean. Careful expansion and resource usage should lead to a successful colony.</smallcaps>\n\n"
-msgstr "含有大量不可飲用的海水的地方。\n\n<smallcaps>這裡相當穩定並且資源豐富，但大部分地區都被海水覆蓋。\n仔細擴展與利用資源應該能成功建立殖民地。</smallcaps>\n\n"
+msgstr "含有大量不可飲用的海水的地方。\n\n<smallcaps>這裡相當穩定並且資源豐富，但大部分地區都被海水覆蓋。仔細擴展與利用資源應該能成功建立殖民地。</smallcaps>\n\n"
 
 #. STRINGS.WORLDS.OCEANIA.NAME
 msgctxt "STRINGS.WORLDS.OCEANIA.NAME"
@@ -81634,7 +81634,7 @@ msgstr "鐵鏽原油小行星"
 #. STRINGS.WORLDS.OILYMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.OILYMOONLET.DESCRIPTION"
 msgid "A small location with an abundance of fossil fuels.\n\n<smallcaps>Viscosia Asteroids are filled with valuable crude oil, natural gas, and ethanol deposits at the expense of other essential resources. Early expansion to other planetoids will be essential for survival.</smallcaps>"
-msgstr "一個化石燃料豐富的小地方。\n\n<smallcaps>原油小行星充滿了有價值的原油、天然氣與乙醇，以及其它必要資源。\n儘早開發其它的小行星是生存的要點。</smallcaps>"
+msgstr "一個化石燃料豐富的小地方。\n\n<smallcaps>原油小行星充滿了有價值的原油、天然氣與乙醇，以及其它必要資源。儘早開發其它的小行星是生存的要點。</smallcaps>"
 
 #. STRINGS.WORLDS.OILYMOONLET.NAME
 msgctxt "STRINGS.WORLDS.OILYMOONLET.NAME"
@@ -81654,7 +81654,7 @@ msgstr "風化小行星"
 #. STRINGS.WORLDS.SANDSTONE_DEFAULT.DESCRIPTION
 msgctxt "STRINGS.WORLDS.SANDSTONE_DEFAULT.DESCRIPTION"
 msgid "A promising location with a balanced variety of resources.\n\n<smallcaps>Terra meets all the requirements for Duplicant life and holds no surprises. It's an ideal location for a first attempt at establishing a colony.</smallcaps>\n\n"
-msgstr "一個資源分佈平均且充滿希望的地方。\n\n<smallcaps>地型環境適合複製人生存，沒有意外驚喜。\n這是一個建立首座殖民地的理想地點。</smallcaps>\n\n"
+msgstr "一個資源分佈平均且充滿希望的地方。\n\n<smallcaps>地型環境適合複製人生存，沒有意外驚喜。這是一個建立首座殖民地的理想地點。</smallcaps>\n\n"
 
 #. STRINGS.WORLDS.SANDSTONE_DEFAULT.NAME
 msgctxt "STRINGS.WORLDS.SANDSTONE_DEFAULT.NAME"
@@ -81664,7 +81664,7 @@ msgstr "沙岩行星"
 #. STRINGS.WORLDS.SANDSTONE_FROZEN.DESCRIPTION
 msgctxt "STRINGS.WORLDS.SANDSTONE_FROZEN.DESCRIPTION"
 msgid "A frigid location marked by inhospitably low temperatures throughout.\n\n<smallcaps>Rime's low temperatures will make finding water and establishing farms or ranches problematic. However, the wide spectrum of minerals and cool environment could lead to thriving industry.</smallcaps>\n\n"
-msgstr "一個寒冷的地方，整個世界都處於低溫。\n\n<smallcaps>寒冷的氣候讓尋找水源與建造農場或是牧場變得困難。\n不過豐富的礦產與低溫環境適合發展工業。</smallcaps>\n\n"
+msgstr "一個寒冷的地方，整個世界都處於低溫。\n\n<smallcaps>寒冷的氣候讓尋找水源與建造農場或是牧場變得困難。不過豐富的礦產與低溫環境適合發展工業。</smallcaps>\n\n"
 
 #. STRINGS.WORLDS.SANDSTONE_FROZEN.NAME
 msgctxt "STRINGS.WORLDS.SANDSTONE_FROZEN.NAME"
@@ -81694,7 +81694,7 @@ msgstr "岩石小行星"
 #. STRINGS.WORLDS.SULFURMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.SULFURMOONLET.DESCRIPTION"
 msgid "A smaller landmass with a distinct odor.\n\n<smallcaps>Brimstonia Asteroids contain an abundant supply of Sulfur.</smallcaps>"
-msgstr "充滿硫的小世界。\n\n<smallcaps>硫小行星含有豐富的硫。</smallcaps>"
+msgstr "具有明顯氣味的較小陸地。\n\n<smallcaps>硫小行星含有豐富的硫。</smallcaps>"
 
 #. STRINGS.WORLDS.SULFURMOONLET.NAME
 msgctxt "STRINGS.WORLDS.SULFURMOONLET.NAME"
@@ -81759,7 +81759,7 @@ msgstr "渺茫"
 #. STRINGS.WORLDS.SWAMPMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.SWAMPMOONLET.DESCRIPTION"
 msgid "A large, polluted swamp world.\n\n<smallcaps>Quagmiris Asteroids are a great mass of frozen slush and wasteland. With a short distance to the surface, inter-world travel can be achieved quickly.</smallcaps>"
-msgstr "一個巨大受汙染的沼澤世界。\n\n<smallcaps>沼澤小行星是一個有大量冰凍泥漿與荒地的地方。\n離地表距離較短，可在短時間內實現星際旅行。</smallcaps>"
+msgstr "一個巨大受汙染的沼澤世界。\n\n<smallcaps>沼澤小行星是一個有大量冰凍泥漿與荒地的地方。離地表距離較短，可在短時間內實現星際旅行。</smallcaps>"
 
 #. STRINGS.WORLDS.SWAMPMOONLET.NAME
 msgctxt "STRINGS.WORLDS.SWAMPMOONLET.NAME"
@@ -81779,7 +81779,7 @@ msgstr "輻射沼澤小行星"
 #. STRINGS.WORLDS.TERRAMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.TERRAMOONLET.DESCRIPTION"
 msgid "A balanced variety of resources on a smaller sandstone world.\n\n<smallcaps>Terrania Asteroids have everything needed to start a colony in a compact area. With a short distance to the surface, inter-world travel can be achieved quickly.</smallcaps>"
-msgstr "一個各種資源平衡的小型沙岩世界。\n\n<smallcaps>類地小行星有各種所需資源可將殖民地建立在一個小地方。\n離地表距離較短，可在短時間內實現星際旅行。</smallcaps>"
+msgstr "一個各種資源平衡的小型沙岩世界。\n\n<smallcaps>類地小行星有各種所需資源可將殖民地建立在一個小地方。離地表距離較短，可在短時間內實現星際旅行。</smallcaps>"
 
 #. STRINGS.WORLDS.TERRAMOONLET.NAME
 msgctxt "STRINGS.WORLDS.TERRAMOONLET.NAME"
@@ -81859,7 +81859,7 @@ msgstr "開發者用的小型的地表"
 #. STRINGS.WORLDS.TUNDRAMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.TUNDRAMOONLET.DESCRIPTION"
 msgid "A small frozen planetoid with sub-zero temperatures.\n\n<smallcaps>Duplicants that travel to Tundra Asteroids will need to wear protective gear due to its harsh environment.</smallcaps>"
-msgstr "零度以下的冰雪小行星。\n\n<smallcaps>因為惡劣的環境，複製人到 凍原小行星 旅行需要穿著防護設備。</smallcaps>"
+msgstr "零度以下的冰雪小行星。\n\n<smallcaps>因為惡劣的環境，複製人到凍原小行星旅行需要穿著防護設備。</smallcaps>"
 
 #. STRINGS.WORLDS.TUNDRAMOONLET.NAME
 msgctxt "STRINGS.WORLDS.TUNDRAMOONLET.NAME"
@@ -81879,7 +81879,7 @@ msgstr "開發者用的小小雙子行星"
 #. STRINGS.WORLDS.VANILLAARBORIA.DESCRIPTION
 msgctxt "STRINGS.WORLDS.VANILLAARBORIA.DESCRIPTION"
 msgid "A location with a natural abundance of trees.\n\n<smallcaps>Colonizing Arboria will require careful planning right from the start. Because of its lack of metals, finding biological solutions to problems is a must.</smallcaps>"
-msgstr "一個天然樹木資源豐富的地方。\n\n<smallcaps>殖民喬木行星需要從一開始就仔細規劃。\n因為這裡缺少金屬，找到利用有機生物的決解方案是首要問題。</smallcaps>"
+msgstr "一個天然樹木資源豐富的地方。\n\n<smallcaps>殖民喬木行星需要從一開始就仔細規劃。因為這裡缺少金屬，找到利用有機生物的決解方案是首要問題。</smallcaps>"
 
 #. STRINGS.WORLDS.VANILLAARBORIA.NAME
 msgctxt "STRINGS.WORLDS.VANILLAARBORIA.NAME"
@@ -81889,7 +81889,7 @@ msgstr "喬木小行星"
 #. STRINGS.WORLDS.VANILLAARIDIO.DESCRIPTION
 msgctxt "STRINGS.WORLDS.VANILLAARIDIO.DESCRIPTION"
 msgid "A location with oppressively hot temperatures.\n\n<smallcaps>Temperatures on Aridio are much higher than expected. While resources are abundant, maintaining food and infrastructure could be difficult as our colony warms.</smallcaps>"
-msgstr "一個高溫的地方。\n\n<smallcaps>這裡的環境溫度比預期的高。\n雖然資源豐富，可是隨著殖民地溫度升高，\n維持食物與基礎設施會變的困難。</smallcaps>"
+msgstr "一個高溫的地方。\n\n<smallcaps>這裡的環境溫度比預期的高。雖然資源豐富，可是隨著殖民地溫度升高，維持食物與基礎設施會變的困難。</smallcaps>"
 
 #. STRINGS.WORLDS.VANILLAARIDIO.NAME
 msgctxt "STRINGS.WORLDS.VANILLAARIDIO.NAME"
@@ -81899,7 +81899,7 @@ msgstr "熱帶小行星"
 #. STRINGS.WORLDS.VANILLABADLANDS.DESCRIPTION
 msgctxt "STRINGS.WORLDS.VANILLABADLANDS.DESCRIPTION"
 msgid "A barren location with an overabundance of mineral resources.\n\n<smallcaps>The rocky terrain of The Badlands poses no immediate threats, but sparse resource availability will make expansion and technological progress challenging.</smallcaps>"
-msgstr "一個荒蕪但有豐富礦物資源的地方。\n\n<smallcaps>岩石地型不會有立即的危險，\n但資源稀少對發展科技進程形成了挑戰。</smallcaps>"
+msgstr "一個荒蕪但有豐富礦物資源的地方。\n\n<smallcaps>岩石地型不會有立即的危險，但資源稀少對科技發展形成了挑戰。</smallcaps>"
 
 #. STRINGS.WORLDS.VANILLABADLANDS.NAME
 msgctxt "STRINGS.WORLDS.VANILLABADLANDS.NAME"
@@ -81909,7 +81909,7 @@ msgstr "荒地小行星"
 #. STRINGS.WORLDS.VANILLAFORESTDEFAULT.DESCRIPTION
 msgctxt "STRINGS.WORLDS.VANILLAFORESTDEFAULT.DESCRIPTION"
 msgid "A lush location rich in wildlife and life-sustaining resources.\n\n<smallcaps>Establishing a foothold on Verdante will be challenging due to reduced food and oxygen options. However, abundant biological and mineral resources should afford excellent long-term growth.</smallcaps>\n\n"
-msgstr "一個森林茂盛的地方，擁有豐富的野生動物與維持生命的資源。\n\n<smallcaps>由於食物與氧氣的選擇變少，在這裡生存會成為一種挑戰。\n不過豐富的生物與礦物資源，應該能支撐長期的成長。</smallcaps>\n\n"
+msgstr "一個森林茂盛的地方，擁有豐富的野生動物與維持生命的資源。\n\n<smallcaps>由於食物與氧氣的選擇變少，在這裡生存會成為一種挑戰。不過豐富的生物與礦物資源，應該能支撐長期的成長。</smallcaps>\n\n"
 
 #. STRINGS.WORLDS.VANILLAFORESTDEFAULT.NAME
 msgctxt "STRINGS.WORLDS.VANILLAFORESTDEFAULT.NAME"
@@ -81919,7 +81919,7 @@ msgstr "翠綠小行星"
 #. STRINGS.WORLDS.VANILLAOASIS.DESCRIPTION
 msgctxt "STRINGS.WORLDS.VANILLAOASIS.DESCRIPTION"
 msgid "A desolate location with a cache of life-sustaining water trapped beneath the surface.\n\n<smallcaps>A wide underground desert will pose temperature threats and strain the resources of a colony on Oasisse. However, surviving the challenge should present great industrial opportunities.</smallcaps>"
-msgstr "一個荒涼表面積存著對維持生命有益處的水。\n\n<smallcaps>這裡廣闊的地下沙漠會造成溫度威脅，且殖民地資源緊缺。\n然而面對生存的挑戰，其成功的機會在於大量工業化。</smallcaps>"
+msgstr "一個荒涼表面積存著對維持生命有益處的水。\n\n<smallcaps>這裡廣闊的地下沙漠會造成溫度威脅，且殖民地資源緊缺。然而面對生存的挑戰，其成功的機會在於大量工業化。</smallcaps>"
 
 #. STRINGS.WORLDS.VANILLAOASIS.NAME
 msgctxt "STRINGS.WORLDS.VANILLAOASIS.NAME"
@@ -81929,7 +81929,7 @@ msgstr "綠洲小行星"
 #. STRINGS.WORLDS.VANILLAOCEANIA.DESCRIPTION
 msgctxt "STRINGS.WORLDS.VANILLAOCEANIA.DESCRIPTION"
 msgid "A location with vast quantities of unpotable salt water.\n\n<smallcaps>Oceania is quite stable and resource rich, but the majority of the area is covered in a saltwater ocean. Careful expansion and resource usage should lead to a successful colony.</smallcaps>"
-msgstr "含有大量不可飲用的海水的地方。\n\n<smallcaps>這裡相當穩定並且資源豐富，但大部分地區都被海水覆蓋。\n仔細擴展與利用資源應該能成功建立殖民地。</smallcaps>"
+msgstr "含有大量不可飲用的海水的地方。\n\n<smallcaps>這裡相當穩定並且資源豐富，但大部分地區都被海水覆蓋。仔細擴展與利用資源應該能成功建立殖民地。</smallcaps>"
 
 #. STRINGS.WORLDS.VANILLAOCEANIA.NAME
 msgctxt "STRINGS.WORLDS.VANILLAOCEANIA.NAME"
@@ -81939,7 +81939,7 @@ msgstr "海洋小行星"
 #. STRINGS.WORLDS.VANILLASANDSTONEDEFAULT.DESCRIPTION
 msgctxt "STRINGS.WORLDS.VANILLASANDSTONEDEFAULT.DESCRIPTION"
 msgid "A promising location with a balanced variety of resources.\n\n<smallcaps>Terra meets all the requirements for Duplicant life and holds no surprises. It's an ideal location for a first attempt at establishing a colony.</smallcaps>\n\n"
-msgstr "一個資源分佈平均且充滿希望的地方。\n\n<smallcaps>地型環境適合複製人生存，沒有意外驚喜。\n這是一個建立首座殖民地的理想地點。</smallcaps>\n\n"
+msgstr "一個資源分佈平均且充滿希望的地方。\n\n<smallcaps>地型環境適合複製人生存，沒有意外驚喜。這是一個建立首座殖民地的理想地點。</smallcaps>\n\n"
 
 #. STRINGS.WORLDS.VANILLASANDSTONEDEFAULT.NAME
 msgctxt "STRINGS.WORLDS.VANILLASANDSTONEDEFAULT.NAME"
@@ -81949,7 +81949,7 @@ msgstr "類地小行星"
 #. STRINGS.WORLDS.VANILLASANDSTONEFROZEN.DESCRIPTION
 msgctxt "STRINGS.WORLDS.VANILLASANDSTONEFROZEN.DESCRIPTION"
 msgid "A frigid location marked by inhospitably low temperatures throughout.\n\n<smallcaps>Rime's low temperatures will make finding water and establishing farms or ranches problematic. However, the wide spectrum of minerals and cool environment could lead to thriving industry.</smallcaps>"
-msgstr "一個寒冷的地方，整個世界都處於低溫。\n\n<smallcaps>寒冷的氣候讓尋找水源與建造農場或是牧場變得困難。\n不過豐富的礦產與低溫環境適合發展工業。</smallcaps>"
+msgstr "一個寒冷的地方，整個世界都處於低溫。\n\n<smallcaps>寒冷的氣候讓尋找水源與建造農場或是牧場變得困難。不過豐富的礦產與低溫環境適合發展工業。</smallcaps>"
 
 #. STRINGS.WORLDS.VANILLASANDSTONEFROZEN.NAME
 msgctxt "STRINGS.WORLDS.VANILLASANDSTONEFROZEN.NAME"
@@ -81959,7 +81959,7 @@ msgstr "冰雪小行星"
 #. STRINGS.WORLDS.VANILLASWAMPDEFAULT.DESCRIPTION
 msgctxt "STRINGS.WORLDS.VANILLASWAMPDEFAULT.DESCRIPTION"
 msgid "A large, polluted swamp world.\n\n<smallcaps>Squelchy Asteroids are a great mass of frozen slush and wasteland. With a short distance to the surface, inter-world travel can be achieved quickly.</smallcaps>"
-msgstr "一個巨大受汙染的沼澤世界。\n\n<smallcaps>沼澤小行星是一個有大量冰凍泥漿與荒地的地方。\n離地表距離較短，可在短時間內實現星際旅行。</smallcaps>"
+msgstr "一個巨大受汙染的沼澤世界。\n\n<smallcaps>沼澤小行星是一個有大量冰凍泥漿與荒地的地方。離地表距離較短，可在短時間內實現星際旅行。</smallcaps>"
 
 #. STRINGS.WORLDS.VANILLASWAMPDEFAULT.NAME
 msgctxt "STRINGS.WORLDS.VANILLASWAMPDEFAULT.NAME"
@@ -81969,7 +81969,7 @@ msgstr "沼澤小行星"
 #. STRINGS.WORLDS.VANILLAVOLCANIC.DESCRIPTION
 msgctxt "STRINGS.WORLDS.VANILLAVOLCANIC.DESCRIPTION"
 msgid "A location rife with molten lava pockets and intense heat.\n\n<smallcaps>Volcanea would be perfect if it wasn't for the volcanoes. Digging carefully and managing the temperatures in our colony will be essential to success.</smallcaps>"
-msgstr "一個充滿岩漿與高溫的地方。\n\n<smallcaps>這裡如果沒有火山會很完美。\n小心挖掘與管理溫度，對殖民地來說是成功的關鍵。</smallcaps>"
+msgstr "一個充滿岩漿與高溫的地方。\n\n<smallcaps>這裡如果沒有火山會很完美。小心挖掘與管理溫度，對殖民地來說是成功的關鍵。</smallcaps>"
 
 #. STRINGS.WORLDS.VANILLAVOLCANIC.NAME
 msgctxt "STRINGS.WORLDS.VANILLAVOLCANIC.NAME"
@@ -81979,7 +81979,7 @@ msgstr "火山小行星"
 #. STRINGS.WORLDS.VOLCANIC.DESCRIPTION
 msgctxt "STRINGS.WORLDS.VOLCANIC.DESCRIPTION"
 msgid "A location rife with molten lava pockets and intense heat.\n\n<smallcaps>Volcanea would be perfect if it wasn't for the volcanoes. Digging carefully and managing the temperatures in our colony will be essential to success.</smallcaps>\n\n"
-msgstr "一個充滿火山口與高溫的地方。\n\n<smallcaps>這裡如果沒有火山會很完美。\n小心挖掘與管理溫度，對殖民地來說是成功的關鍵。</smallcaps>\n\n"
+msgstr "一個充滿火山口與高溫的地方。\n\n<smallcaps>這裡如果沒有火山會很完美。小心挖掘與管理溫度，對殖民地來說是成功的關鍵。</smallcaps>\n\n"
 
 #. STRINGS.WORLDS.VOLCANIC.NAME
 msgctxt "STRINGS.WORLDS.VOLCANIC.NAME"
@@ -81999,7 +81999,7 @@ msgstr "原油沼澤小行星"
 #. STRINGS.WORLDS.WATERMOONLET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.WATERMOONLET.DESCRIPTION"
 msgid "A small, water-submerged world.\n\n<smallcaps>Water Asteroids possess a variety of liquid resources and are a natural source of Graphite, but Duplicants should come prepared for a swim.</smallcaps>"
-msgstr "一個被水淹沒的小世界。\n<smallcaps>水行星擁有多種液體資源並且是石墨的天然來源，\n但複製人到這裡要有游泳的準備。</smallcaps>"
+msgstr "一個被水淹沒的小世界。\n\n<smallcaps>水行星擁有多種液體資源並且是石墨的天然來源，但複製人到這裡要有游泳的準備。</smallcaps>"
 
 #. STRINGS.WORLDS.WATERMOONLET.NAME
 msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
