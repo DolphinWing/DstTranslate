@@ -47429,7 +47429,7 @@ msgstr "醫療包"
 #. STRINGS.ITEMS.PILLS.INTERMEDIATECURE.RECIPEDESC
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATECURE.RECIPEDESC"
 msgid "A doctor-administered cure for moderate <link=\"DISEASE\">Diseases</link>. Medical Packs are very effective against <link=\"SLIMESICKNESS\">Slimelung</link>.\n\nMust be administered by a Duplicant with the <link=\"MEDICINE2\">Bedside Manner</link> Skill."
-msgstr "醫生施行治療緩解<link=\"DISEASE\">疾病</link>。醫療包用來治療<link=\"SLIMESICKNESS\">肺結核</link>非常有效。\n\n複製人必須有<link=\"MEDICINE2\">MEDICINE2</link>技能，才能進行治療。"
+msgstr "醫生施行治療緩解<link=\"DISEASE\">疾病</link>。醫療包用來治療<link=\"SLIMESICKNESS\">肺結核</link>非常有效。\n\n複製人必須有<link=\"MEDICINE2\">床邊看護</link>技能，才能進行治療。"
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATERADPILL.DESC
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATERADPILL.DESC"
