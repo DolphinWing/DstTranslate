@@ -46469,7 +46469,7 @@ msgstr "<link=\"PACU\">帕庫</link>的生魚片。好吃！"
 #. STRINGS.ITEMS.FOOD.FISHMEAT.NAME
 msgctxt "STRINGS.ITEMS.FOOD.FISHMEAT.NAME"
 msgid "<link=\"FISHMEAT\">Pacu Fillet</link>"
-msgstr "<link=\"FINEART\">帕庫魚片</link>"
+msgstr "<link=\"FISHMEAT\">帕庫魚片</link>"
 
 #. STRINGS.ITEMS.FOOD.FOODSPLAT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.FOODSPLAT.DESC"
