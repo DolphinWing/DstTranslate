@@ -333,16 +333,16 @@ local function fixPlayerAvatorFontSize()
 		if self.feet_image._text then
 			self.feet_image._text:SetSize(32 / fontRatio)
 		end
-		if self.base_image._text then
+		if self.base_image ~= nil and self.base_image._text then
 			self.base_image._text:SetSize(32 / fontRatio)
 		end
-		if self.head_equip_image._text then
+		if self.head_equip_image ~= nil and self.head_equip_image._text then
 			self.head_equip_image._text:SetSize(32 / fontRatio)
 		end
-		if self.hand_equip_image._text then
+		if self.hand_equip_image ~= nil and self.hand_equip_image._text then
 			self.hand_equip_image._text:SetSize(32 / fontRatio)
 		end
-		if self.body_equip_image._text then
+		if self.body_equip_image ~= nil and self.body_equip_image._text then
 			self.body_equip_image._text:SetSize(32 / fontRatio)
 		end
 		if self.feet_image._text then
