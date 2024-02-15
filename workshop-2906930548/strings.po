@@ -9604,7 +9604,7 @@ msgstr "<link=\"LIQUIDFUELTANKCLUSTER\">液體燃料艙</link>"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDHEATER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDHEATER.DESC"
 msgid "Tepidizers heat liquid which can kill waterborne germs."
-msgstr "熱水器可以加熱液體殺死水生的細菌。"
+msgstr "加溫器可以加熱液體殺死水生的細菌。"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDHEATER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDHEATER.EFFECT"
@@ -9614,7 +9614,7 @@ msgstr "加熱大量的<link=\"ELEMENTSLIQUID\">液體</link>。\n\n必須完全
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDHEATER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDHEATER.NAME"
 msgid "<link=\"LIQUIDHEATER\">Liquid Tepidizer</link>"
-msgstr "<link=\"LIQUIDHEATER\">熱水器</link>"
+msgstr "<link=\"LIQUIDHEATER\">液體加溫器</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.DESC"
@@ -47414,7 +47414,7 @@ msgstr "免疫力增強錠"
 #. STRINGS.ITEMS.PILLS.INTERMEDIATEBOOSTER.RECIPEDESC
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATEBOOSTER.RECIPEDESC"
 msgid "A supplement that significantly reduces the chance of contracting a <style=\"KKeyword\">Germ</style>-based <link=\"DISEASE\">Disease</link>.\n\nMust be taken daily."
-msgstr "一種補給品，可以減少感染<style=\"KKeyword\">細菌</style>類 <link=\"DISEASE\">疾病</link>的機率。\n\n必需每日服用。"
+msgstr "一種補給品，可以減少感染<style=\"KKeyword\">細菌</style>類<link=\"DISEASE\">疾病</link>的機率。\n\n必須每日服用。"
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATECURE.DESC
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATECURE.DESC"
@@ -79929,7 +79929,7 @@ msgstr "在我來到這裡之前，電腦中的資料已被清除。沒有任何
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH3
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH3"
 msgid "Some intact files are available on the computer, but nothing I haven't already discovered elsewhere. I find nothing else."
-msgstr "這電腦上有一些完整的檔案，我沒有在其它地方找到任何檔案。我什麼都沒有找到。"
+msgstr "這電腦上有一些完整的檔案，我沒有在其它地方找到任何檔案。我沒有發現其他東西。"
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH4
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH4"
@@ -79944,7 +79944,7 @@ msgstr "有人留下了紙牌遊戲。這電腦沒有其他任何有趣的資料
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH6
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH6"
 msgid "The background on this computer depicts two kittens hugging in a field of daisies. There is nothing else of import to be found."
-msgstr "電腦的桌布是兩隻小喵在雛菊花田中抱在一起。沒有發現任何重要的資料。"
+msgstr "電腦的桌布是兩隻小貓在雛菊花田中抱在一起。沒有發現任何重要的資料。"
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH7
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH7"
@@ -79954,7 +79954,7 @@ msgstr "這個使用將桌面上的捷徑按字母排列。沒有找到重要的
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH8
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH8"
 msgid "The background is a picture of a golden retriever in a science lab. It looks very confused. There is nothing else of import to be found."
-msgstr "電腦桌布是一張黃金獵犬在實驗室中的照片。它看起來很困惑。沒有找到重要的資料。"
+msgstr "電腦桌布是一張黃金獵犬在實驗室中的照片。牠看起來很困惑。沒有找到重要的資料。"
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH9
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH9"
@@ -80054,7 +80054,7 @@ msgstr "我搜索傳入消息的歷史記錄，找到了一條記錄。我將這
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_PROPGRAVITASCREATUREPOSTER
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_PROPGRAVITASCREATUREPOSTER"
 msgid "There's a handwritten note taped to the back of this poster. I add it to my database.\n\nNew Database Entry discovered."
-msgstr "這裡有一篇出版的舊雜誌文件 \"Nucleoid\" 藏在頂層的抽屜中。我將它加入我的資料庫。\n\n資料庫有新的記錄。"
+msgstr "這裡有一篇出版的舊雜誌文件「Nucleoid」藏在頂層的抽屜中。我將它加入我的資料庫。\n\n資料庫有新的記錄。"
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_SPACEPOI_FAIL.SEARCH1
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_SPACEPOI_FAIL.SEARCH1"
@@ -80104,7 +80104,7 @@ msgstr "此機器雖然經過多年毀損，但仍然有可回復的檔案。\n\
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_STERNSDESK
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_STERNSDESK"
 msgid "There's an old magazine article from a publication called the \"Nucleoid\" tucked in the top drawer. I add it to my database.\n\nNew Database Entry discovered."
-msgstr "這裡有一篇出版的舊雜誌文件 \"Nucleoid\" 藏在頂層的抽屜中。我將它加入我的資料庫。\n\n資料庫有新的記錄。"
+msgstr "這裡有一篇出版的舊雜誌文件「Nucleoid」藏在頂層的抽屜中。我將它加入我的資料庫。\n\n資料庫有新的記錄。"
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH1
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH1"
@@ -80124,12 +80124,12 @@ msgstr "我尋找廢棄機器中所遺留的有趣資料，並將我找到的資
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TELEPORTER_RECEIVER
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TELEPORTER_RECEIVER"
 msgid "Incongruously placed research notes are hidden within the operating instructions of this device. I add them to my database.\n\nNew Database Entry discovered."
-msgstr "研究筆記被藏在此設備的操作說明書中，找到了一條記錄。\n我將其存入資料庫。\n\n資料庫有新的記錄。"
+msgstr "研究筆記被藏在此設備的操作說明書中，找到了一條記錄。我將其存入資料庫。\n\n資料庫有新的記錄。"
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TELEPORTER_SENDER
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TELEPORTER_SENDER"
 msgid "While scanning the antiquated computer code of this machine I uncovered some research notes. I add them to my database.\n\nNew Database Entry discovered."
-msgstr "當掃描此機器老舊的電腦編碼時，我發現了一些研究筆記。\n我將其存入資料庫。\n\n資料庫有新的記錄。"
+msgstr "當掃描此機器老舊的電腦編碼時，我發現了一些研究筆記。我將其存入資料庫。\n\n資料庫有新的記錄。"
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.TOOLTIP"
@@ -80199,7 +80199,7 @@ msgstr "選擇研究"
 #. STRINGS.UI.USERMENUACTIONS.SELECTRESEARCH.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.SELECTRESEARCH.TOOLTIP"
 msgid "Choose a technology from the <b>Research Tree</b> {Hotkey/ManageResearch}"
-msgstr "從 <b>研究樹</b> {Hotkey/ManageResearch} 裡選一項科技"
+msgstr "從<b>研究樹</b> {Hotkey/ManageResearch} 裡選一項科技"
 
 #. STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ALWAYS.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ALWAYS.NAME"
@@ -80209,7 +80209,7 @@ msgstr "通關：總是"
 #. STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ALWAYS.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ALWAYS.TOOLTIP"
 msgid "Suited Duplicants may pass even if there is no room to store their suits\n\nWhen all available docks are full, Duplicants will unequip their suits and drop them on the floor"
-msgstr "即使沒有空間可以存放太空衣，穿著太空衣的複製人也可以通過\n\n當太空衣存放櫃全滿時，複製人會脫下他們的太空衣並放在地上"
+msgstr "即使沒有空間可以存放太空衣，穿著太空衣的複製人也可以通過\n\n當太空衣存放櫃全滿時，複製人會脫下他們的太空衣並丟在地上"
 
 #. STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ONLY_WHEN_ROOM_AVAILABLE.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ONLY_WHEN_ROOM_AVAILABLE.NAME"
@@ -80414,7 +80414,7 @@ msgstr "裝飾期望"
 #. STRINGS.UI.VITALSSCREEN.DECOR_EXPECTATIONS_TOOLTIP
 msgctxt "STRINGS.UI.VITALSSCREEN.DECOR_EXPECTATIONS_TOOLTIP"
 msgid "This Duplicant desires decor that is {0} or higher"
-msgstr "這個複製人渴望有{0}以上的裝飾"
+msgstr "這個複製人渴望有 {0} 以上的裝飾"
 
 #. STRINGS.UI.VITALSSCREEN.EATEN_TODAY
 msgctxt "STRINGS.UI.VITALSSCREEN.EATEN_TODAY"
@@ -80609,27 +80609,27 @@ msgstr "凝視虛空…"
 #. STRINGS.UI.WORLDGEN.BORDERS5
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS5"
 msgid "Avoiding awkward eye contact with the void..."
-msgstr "避免尷尬地望著虛空…"
+msgstr "避免與虛空有尷尬的眼神接觸…"
 
 #. STRINGS.UI.WORLDGEN.BORDERS6
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS6"
 msgid "Avoiding awkward eye contact with the void..."
-msgstr "避免尷尬地望著虛空…"
+msgstr "避免與虛空有尷尬的眼神接觸…"
 
 #. STRINGS.UI.WORLDGEN.BORDERS7
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS7"
 msgid "Avoiding awkward eye contact with the void..."
-msgstr "避免尷尬地望著虛空…"
+msgstr "避免與虛空有尷尬的眼神接觸…"
 
 #. STRINGS.UI.WORLDGEN.BORDERS8
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS8"
 msgid "Avoiding awkward eye contact with the void..."
-msgstr "避免尷尬地望著虛空…"
+msgstr "避免與虛空有尷尬的眼神接觸…"
 
 #. STRINGS.UI.WORLDGEN.BORDERS9
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS9"
 msgid "Avoiding awkward eye contact with the void..."
-msgstr "避免尷尬地望著虛空…"
+msgstr "避免與虛空有尷尬的眼神接觸…"
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE"
@@ -80689,7 +80689,7 @@ msgstr "選擇你的新星系的大小。"
 #. STRINGS.UI.WORLDGEN.CLEARINGLEVEL
 msgctxt "STRINGS.UI.WORLDGEN.CLEARINGLEVEL"
 msgid "Staring into the void..."
-msgstr "凝視著進入黑洞…"
+msgstr "凝視著虛空…"
 
 #. STRINGS.UI.WORLDGEN.COMPLETE
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETE"
@@ -80849,22 +80849,22 @@ msgstr "催化大爆炸…"
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM6
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM6"
 msgid "Approaching event horizon..."
-msgstr "接近黑洞邊界…"
+msgstr "接近事件視界…"
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM7
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM7"
 msgid "Approaching event horizon..."
-msgstr "接近黑洞邊界…"
+msgstr "接近事件視界…"
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM8
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM8"
 msgid "Approaching event horizon..."
-msgstr "接近黑洞邊界…"
+msgstr "接近事件視界…"
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM9
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM9"
 msgid "Approaching event horizon..."
-msgstr "接近黑洞邊界…"
+msgstr "接近事件視界…"
 
 #. STRINGS.UI.WORLDGEN.GENERATINGWORLD
 msgctxt "STRINGS.UI.WORLDGEN.GENERATINGWORLD"
@@ -81014,7 +81014,7 @@ msgstr "釋放野生動物…"
 #. STRINGS.UI.WORLDGEN.SETUPNOISE
 msgctxt "STRINGS.UI.WORLDGEN.SETUPNOISE"
 msgid "BANG!"
-msgstr "碰！"
+msgstr "蹦！"
 
 #. STRINGS.UI.WORLDGEN.USING_PLAYER_SEED
 msgctxt "STRINGS.UI.WORLDGEN.USING_PLAYER_SEED"
@@ -81024,12 +81024,12 @@ msgstr "使用指定的世界生成種子：{0}"
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT"
 msgid "Freezing ice formations..."
-msgstr "結冰的冰層…"
+msgstr "正在形成冰層…"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT1
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT1"
 msgid "Freezing ice formations..."
-msgstr "結冰的冰層…"
+msgstr "正在形成冰層…"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT10
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT10"
@@ -81039,27 +81039,27 @@ msgstr "噴灑沙子…"
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT2
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT2"
 msgid "Freezing ice formations..."
-msgstr "結冰的冰層…"
+msgstr "正在形成冰層…"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT3
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT3"
 msgid "Freezing ice formations..."
-msgstr "結冰的冰層…"
+msgstr "正在形成冰層…"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT4
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT4"
 msgid "Melting magma..."
-msgstr "熔岩漿…"
+msgstr "正在熔化岩漿…"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT5
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT5"
 msgid "Melting magma..."
-msgstr "熔岩漿…"
+msgstr "正在熔化岩漿…"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT6
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT6"
 msgid "Melting magma..."
-msgstr "熔岩漿…"
+msgstr "正在熔化岩漿…"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT7
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT7"
@@ -81339,7 +81339,7 @@ msgstr "此世界充滿了含有病毒的<link=\"SLIMEMOLD\">軟泥</link>"
 #. STRINGS.WORLD_TRAITS.SLIME_SPLATS.NAME
 msgctxt "STRINGS.WORLD_TRAITS.SLIME_SPLATS.NAME"
 msgid "Slime Molds"
-msgstr "沼澤遍佈"
+msgstr "軟泥遍佈"
 
 #. STRINGS.WORLD_TRAITS.SUBSURFACE_OCEAN.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.SUBSURFACE_OCEAN.DESCRIPTION"
