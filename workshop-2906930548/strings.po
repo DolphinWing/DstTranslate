@@ -58029,7 +58029,7 @@ msgstr "在火箭內部控制操作建築"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH"
 msgid "This critter can be sheared every <b>{Time}</b> to produce <b>{Amount}</b> of <style=\"KKeyword\">{Item}</style>"
-msgstr "這隻小動物每 <b>{Time}</b> 可剃毛，生產 <b>{Amount}</b> <style=\"KKeyword\">{Item}</style>"
+msgstr "這隻小動物每 <b>{Time}</b> 可修剪，生產 <b>{Amount}</b> <style=\"KKeyword\">{Item}</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_ATMO
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_ATMO"
@@ -58099,7 +58099,7 @@ msgstr "搜索結果"
 #. STRINGS.UI.BUILDMENU.SEARCH_TEXT_PLACEHOLDER
 msgctxt "STRINGS.UI.BUILDMENU.SEARCH_TEXT_PLACEHOLDER"
 msgid "Search all buildings..."
-msgstr "搜尋全部建築……"
+msgstr "搜尋全部建築…"
 
 #. STRINGS.UI.BUILDTOOL_CANT_ROTATE
 msgctxt "STRINGS.UI.BUILDTOOL_CANT_ROTATE"
@@ -58484,7 +58484,7 @@ msgstr "火箭速度： "
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.SPEED.TOOLTIP
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.SPEED.TOOLTIP"
 msgid "<b>Rocket Speed</b> is calculated by dividing <b>Engine Power</b> by <b>Burden</b>.\n\nRockets operating on autopilot will have a reduced speed.\n\nRocket speed can be further increased by the skill of the Duplicant flying the rocket."
-msgstr "<b>火箭速度</b>的計算方式為，<b>引擎功率</b>除以<b>載重</b>。\n火箭在自動駕駛時將降低速度。\n複製人的火箭技能可以進一步提高火箭速度。"
+msgstr "<b>火箭速度</b>的計算方式為，<b>引擎功率</b>除以<b>載重</b>。\n\n火箭在自動駕駛時將降低速度。\n\n複製人的火箭技能可以進一步提高火箭速度。"
 
 #. STRINGS.UI.CLUSTERMAP.SELECT_DESTINATION
 msgctxt "STRINGS.UI.CLUSTERMAP.SELECT_DESTINATION"
@@ -60033,8 +60033,8 @@ msgstr "無法報告錯誤。存檔檔案過大。請使用漏洞追蹤系統與
 
 #. STRINGS.UI.CRASHSCREEN.REPORTEDERROR_SUCCESS
 msgctxt "STRINGS.UI.CRASHSCREEN.REPORTEDERROR_SUCCESS"
-msgid "Reported Error"
-msgstr "已報告錯誤"
+msgid "Thank you for reporting this error."
+msgstr "感謝您報告此錯誤。"
 
 #. STRINGS.UI.CRASHSCREEN.REPORTING
 msgctxt "STRINGS.UI.CRASHSCREEN.REPORTING"
@@ -60049,17 +60049,17 @@ msgstr "儲存失敗：{0}"
 #. STRINGS.UI.CRASHSCREEN.THANKYOU
 msgctxt "STRINGS.UI.CRASHSCREEN.THANKYOU"
 msgid "Thank you!\n\nYou're making our game better, one crash at a time."
-msgstr "感謝您！\n\n您正讓我們的遊戲變的更好，每一次崩潰。"
+msgstr "感謝您！\n\n你正在讓我們的遊戲變得更好，一次一個崩潰。"
 
 #. STRINGS.UI.CRASHSCREEN.TITLE
 msgctxt "STRINGS.UI.CRASHSCREEN.TITLE"
 msgid "\"Whoops! We're sorry, but it seems your game has encountered an error. It's okay though - these errors are how we find and fix problems to make our game more fun for everyone. If you use the box below to submit a crash report to us, we can use this information to get the issue sorted out.\""
-msgstr "「哎呀！抱歉，您的遊戲似乎遇到錯誤。\n沒關係－這些發現的錯誤將幫助我們修復問題，使我們的遊戲更有趣。\n如果您使用下面的視窗將崩潰報表送出給我們，我們可以使用這些訊息來解決問題。」"
+msgstr "「哎呀！很抱歉，您的遊戲似乎遇到錯誤。不過沒關係 - 這些錯誤是我們發現和解決問題的方式，讓我們的遊戲對每個人來說都更有趣。如果您使用下面的方塊向我們提交崩潰報告，我們可以使用此資訊來解決問題。」"
 
 #. STRINGS.UI.CRASHSCREEN.TITLE_MODS
 msgctxt "STRINGS.UI.CRASHSCREEN.TITLE_MODS"
 msgid "\"Oops-a-daisy! We're sorry, but it seems your game has encountered an error. If you uncheck all of the mods below, we will be able to help the next time this happens. Any mods that could be related to this error have already been unchecked.\""
-msgstr "「沒事的！我們很報歉，您似乎遇到了錯誤。\n如果您取消以下所有的模組，在下次發生相同情況時我們會提供幫助。\n任何與此錯誤相關的模組都已取消。」"
+msgstr "「沒事的！我們很抱歉，您似乎遇到了錯誤。如果您取消選取以下所有模組，我們將能夠在下次發生這種情況時提供協助。任何可能與此錯誤相關的模組都已取消選取。」"
 
 #. STRINGS.UI.CRASHSCREEN.UPLOAD_FAILED
 msgctxt "STRINGS.UI.CRASHSCREEN.UPLOAD_FAILED"
@@ -60104,7 +60104,7 @@ msgstr "【除錯】工具啟動"
 #. STRINGS.UI.DEBUG_TOOLS.INVALID_LOCATION
 msgctxt "STRINGS.UI.DEBUG_TOOLS.INVALID_LOCATION"
 msgid "Invalid Location"
-msgstr "錯誤的地點"
+msgstr "無效的位置"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.ADD_FOW_MASK
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.ADD_FOW_MASK"

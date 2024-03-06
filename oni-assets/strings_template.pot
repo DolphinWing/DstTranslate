@@ -60395,7 +60395,7 @@ msgstr ""
 
 #. STRINGS.UI.CRASHSCREEN.REPORTEDERROR_SUCCESS
 msgctxt "STRINGS.UI.CRASHSCREEN.REPORTEDERROR_SUCCESS"
-msgid "Reported Error"
+msgid "Thank you for reporting this error."
 msgstr ""
 
 #. STRINGS.UI.CRASHSCREEN.REPORTING
