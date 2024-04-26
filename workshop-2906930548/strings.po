@@ -11284,7 +11284,7 @@ msgstr "<link=\"LOGICTIMEOFDAYSENSOR\">周期感測器</link>"
 #. STRINGS.BUILDINGS.PREFABS.LOGICTIMERSENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMERSENSOR.DESC"
 msgid "Timer sensors create automation schedules for very short or very long periods of time."
-msgstr "計時器感測器可建立時間很短或很長的自動化排程。"
+msgstr "計時感測器可建立時間很短或很長的自動化排程。"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTIMERSENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMERSENSOR.EFFECT"
@@ -11309,7 +11309,7 @@ msgstr "在所選定的紅色時間範圍內時，發出<b><style=\"logic_off\">
 #. STRINGS.BUILDINGS.PREFABS.LOGICTIMERSENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMERSENSOR.NAME"
 msgid "<link=\"LOGICTIMERSENSOR\">Timer Sensor</link>"
-msgstr "<link=\"LOGICTIMERSENSOR\">計時器感測器</link>"
+msgstr "<link=\"LOGICTIMERSENSOR\">計時感測器</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.DESC"
