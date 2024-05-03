@@ -56434,7 +56434,7 @@ msgstr "荒漠"
 #. STRINGS.SUBWORLDS.BARREN.UTILITY
 msgctxt "STRINGS.SUBWORLDS.BARREN.UTILITY"
 msgid "The layers of sedimentary rock are predominantly made up of <link=\"GRANITE\">Granite</link> deposits, although <link=\"OBSIDIAN\">Obsidian</link> and <link=\"IGNEOUSROCK\">Igneous Rock</link> are also present. This suggests a history of volcanic activity, though no volcanoes exist here currently.\n\nVeins of <link=\"IRON\">Iron Ore</link> deposits are evident from initial scans, as are deposits of <link=\"CARBON\">Coal</link>. Both are useful in setting up a colony's power infrastructure.\n\nThough it lacks the crucial resources necessary to sustain a colony, there is nothing inherently dangerous here to harm my Duplicants. It should be safe enough to explore."
-msgstr "沉積岩主要是由<link=\"GRANITE\">花崗岩</link>組成，同時有也些<link=\"OBSIDIAN\">黑曜石</link>與<link=\"IGNEOUSROCK\">火成岩</link>。雖然現在這裡沒有火山，但顯然有過火山火動的歷史。\n\n初步掃描顯示這裡有<link=\"IRON\">鐵礦</link>與<link=\"CARBON\">煤炭</link>礦脈。兩者都有助於建立殖民地的電力基礎設施。\n\n儘管缺乏維持殖民地所需的關鍵資源，但內部也沒有東西會危害複製人。它應該是安全可以探索。"
+msgstr "沉積岩主要是由<link=\"GRANITE\">花崗岩</link>組成，同時有也些<link=\"OBSIDIAN\">黑曜石</link>與<link=\"IGNEOUSROCK\">火成岩</link>。雖然現在這裡沒有火山，但顯然有過火山活動的歷史。\n\n初步掃描顯示這裡有<link=\"IRON\">鐵礦</link>與<link=\"CARBON\">煤炭</link>礦脈。兩者都有助於建立殖民地的電力基礎設施。\n\n儘管缺乏維持殖民地所需的關鍵資源，但內部也沒有東西會危害複製人。它應該是安全可以探索。"
 
 #. STRINGS.SUBWORLDS.FOREST.DESC
 msgctxt "STRINGS.SUBWORLDS.FOREST.DESC"
@@ -82154,7 +82154,7 @@ msgstr "探測到此世界有多個活<style=\"KKeyword\">火山</style>"
 #. STRINGS.WORLD_TRAITS.VOLCANOES.NAME
 msgctxt "STRINGS.WORLD_TRAITS.VOLCANOES.NAME"
 msgid "Volcanic Activity"
-msgstr "火山活躍"
+msgstr "火山活動"
 
 #. STRINGS.WORLDS.BADLANDS.DESCRIPTION
 msgctxt "STRINGS.WORLDS.BADLANDS.DESCRIPTION"
