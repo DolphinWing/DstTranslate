@@ -4919,12 +4919,12 @@ msgstr "<link=\"ARTQ\">不燃的畫</link>"
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_R.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_R.DESC"
 msgid "It combines two things that everyone loves: pips and lasers."
-msgstr "這結合了兩個大家都喜歡的東西：樹鼠和鐳射。"
+msgstr "這結合了兩個大家都喜歡的東西：樹鼠和雷射。"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_R.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_R.NAME"
 msgid "<link=\"ARTR\">Lazer Pipz</link>"
-msgstr "<link=\"ARTR\">鐳射樹鼠</link>"
+msgstr "<link=\"ARTR\">雷射樹鼠</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.NAME"
@@ -5044,7 +5044,7 @@ msgstr "當未來進行召喚時，複製人會回應。"
 #. STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_I.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_I.NAME"
 msgid "<link=\"ARTTALLI\">Pei Phone</link>"
-msgstr "<link=\"ARTTALLI\">Pei 電話中</link>"
+msgstr "<link=\"ARTTALLI\">電話中的 Pei</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_J.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_J.DESC"
@@ -5174,7 +5174,7 @@ msgstr "每一個齒都代表著科學的一個分支。"
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_E.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_E.NAME"
 msgid "<link=\"ARTWIDEE\">Behold, A Fork</link>"
-msgstr "<link=\"ARTWIDEE\">看，一把叉子</link>"
+msgstr "<link=\"ARTWIDEE\">看吶，一把叉子</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_F.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_F.DESC"
@@ -5229,12 +5229,12 @@ msgstr "<link=\"ARTWIDEJ\">激流的急流</link>"
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_K.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_K.DESC"
 msgid "The delight on the subjects' faces is contagious."
-msgstr "表達物件臉上的喜悅是有感染力的。"
+msgstr "拍攝對象臉上的喜悅是有感染力的。"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_K.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_K.NAME"
 msgid "<link=\"ARTWIDEK\">Flight of the Slicksters</link>"
-msgstr "<link=\"ARTWIDEK\">飛翔的小油怪</link>"
+msgstr "<link=\"ARTWIDEK\">飛翔的小滑頭</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_L.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_L.DESC"
@@ -5249,7 +5249,7 @@ msgstr "<link=\"ARTWIDEL\">發光夜</link>"
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_M.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_M.DESC"
 msgid "Things get a bit melty if they're forgotten in the sun."
-msgstr "要是把東西忘在太陽底下，他們就有點要融化了。"
+msgstr "要是把東西忘在太陽底下，它們就有點要融化了。"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_M.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_M.NAME"
