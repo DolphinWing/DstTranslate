@@ -1134,7 +1134,7 @@ msgstr "這個建築物接受變異種子"
 #. STRINGS.BUILDING.STATUSITEMS.FABRICATORACCEPTSMUTANTSEEDS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FABRICATORACCEPTSMUTANTSEEDS.TOOLTIP"
 msgid "This fabricator is allowed to use <style=\"KKeyword\">Mutant Seeds</style> as recipe ingredients"
-msgstr "這個建築物允許使用變異種子作為訂單材料"
+msgstr "這個建築物允許使用變異種子作為配方成分"
 
 #. STRINGS.BUILDING.STATUSITEMS.FABRICATOREMPTY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FABRICATOREMPTY.NAME"
@@ -1164,7 +1164,7 @@ msgstr "等待輻射粒子 ({CurrentHEP}/{HEPRequired})"
 #. STRINGS.BUILDING.STATUSITEMS.FABRICATORLACKSHEP.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FABRICATORLACKSHEP.TOOLTIP"
 msgid "A queued recipe requires more Radbolts than are currently stored.\n\nCurrently stored: {CurrentHEP}\nRequired for recipe: {HEPRequired}"
-msgstr "佇列中的訂單需要比現有庫存更多的輻射粒子\n\n目前存量：{CurrentHEP}\n訂單需要：{HEPRequired}"
+msgstr "佇列中的配方需要比現有庫存更多的輻射粒子\n\n目前存量：{CurrentHEP}\n配方需要：{HEPRequired}"
 
 #. STRINGS.BUILDING.STATUSITEMS.FISHFEEDERACCEPTSMUTANTSEEDS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FISHFEEDERACCEPTSMUTANTSEEDS.NAME"
@@ -6174,7 +6174,7 @@ msgstr "粉碎精製炭製成鑽石。"
 #. STRINGS.BUILDINGS.PREFABS.DIAMONDPRESS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DIAMONDPRESS.EFFECT"
 msgid "Uses <link=\"POWER\">Power</link> and <link=\"RADIATION\">Radbolts</link> to crush <link=\"REFINEDCARBON\">Refined Carbon</link> into <link=\"DIAMOND\">Diamond</link>.\n\nDuplicants will not fabricate items unless recipes are queued and <link=\"REFINEDCARBON\">Refined Carbon</link> has been discovered."
-msgstr "使用<link=\"POWER\">電力</link>與<link=\"HEP\">輻射粒子</link>粉碎<link=\"REFINEDCARBON\">精製炭</link>製成<link=\"DIAMOND\">鑽石</link>。\n\n複製人不會製作，除非佇列中有訂單且已經發現<link=\"REFINEDCARBON\">精製炭</link>。"
+msgstr "使用<link=\"POWER\">電力</link>與<link=\"HEP\">輻射粒子</link>粉碎<link=\"REFINEDCARBON\">精製炭</link>製成<link=\"DIAMOND\">鑽石</link>。\n\n複製人不會製作，除非已經發現<link=\"REFINEDCARBON\">精製炭</link>且佇列中有訂單。"
 
 #. STRINGS.BUILDINGS.PREFABS.DIAMONDPRESS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DIAMONDPRESS.NAME"
@@ -10514,7 +10514,7 @@ msgstr "訊號發送器可用於選擇應該接收自動化訊號的線路。"
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.EFFECT"
 msgid "Route a single Input signal out one of four possible Outputs, based on the selection made by the Control Inputs.\n\nSend a <b><style=\"logic_on\">Green Signal</style></b> or a <b><style=\"logic_off\">Red Signal</style></b> to the two Control Inputs to determine which Output is selected."
-msgstr "從輸入的控制訊號中，選出一個訊號將其接到四個可用的輸出端口之一。\n\n發送<b><style=\"logic_on\">綠色訊號</style></b>或<b><style=\"logic_off\">紅色訊號</style></b>到兩個控制輸入端以決定要輸出那個。"
+msgstr "從輸入的控制訊號中，選出一個訊號將其接到四個可用的輸出端口之一。\n\n發送<b><style=\"logic_on\">綠色訊號</style></b>或<b><style=\"logic_off\">紅色訊號</style></b>到兩個控制輸入端以決定要輸出哪個。"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.NAME"
@@ -10569,12 +10569,12 @@ msgstr "輸出端"
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.DESC"
 msgid "Signal Selectors can be used to select which automation signal is relevant to pass through to a given circuit"
-msgstr "訊號選擇器可用來選擇那個自動化訊號可通過指定的電路"
+msgstr "訊號選擇器可用來選擇哪個自動化訊號可通過指定的電路"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.EFFECT"
 msgid "Select which one of four Input signals should be sent out the Output, using Control Inputs.\n\nSend a <b><style=\"logic_on\">Green Signal</style></b> or a <b><style=\"logic_off\">Red Signal</style></b> to the two Control Inputs to determine which Input is selected."
-msgstr "從四個輸入訊號中，選擇一個應該從輸出端發出的訊號，用於控制輸入訊號。\n\n發出<b><style=\"logic_on\">綠色訊號</style></b>或<b><style=\"logic_off\">紅色訊號</style></b>到兩個控制輸入端，來決定選擇那個輸入訊號。"
+msgstr "從四個輸入訊號中，選擇一個應該從輸出端發出的訊號，用於控制輸入訊號。\n\n發出<b><style=\"logic_on\">綠色訊號</style></b>或<b><style=\"logic_off\">紅色訊號</style></b>到兩個控制輸入端，來決定選擇哪個輸入訊號。"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.NAME"
@@ -14514,7 +14514,7 @@ msgstr "<link=\"SINGLEPLAYERARCADE\">單人遊戲機台</link>"
 #. STRINGS.BUILDINGS.PREFABS.SLUDGEPRESS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SLUDGEPRESS.DESC"
 msgid "What Duplicant doesn't love playing with mud?"
-msgstr "那個複製人不喜歡玩泥巴呢？"
+msgstr "哪個複製人不喜歡玩泥巴呢？"
 
 #. STRINGS.BUILDINGS.PREFABS.SLUDGEPRESS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SLUDGEPRESS.EFFECT"
@@ -18154,7 +18154,7 @@ msgstr "一團的粗纖維，用於生產<link=\"EQUIPMENT\">服裝</link>和紡
 #. STRINGS.CODEX.BASIC_FABRIC.SUBTITLE
 msgctxt "STRINGS.CODEX.BASIC_FABRIC.SUBTITLE"
 msgid "Textile Ingredient"
-msgstr "訂單原料"
+msgstr "紡織品配方"
 
 #. STRINGS.CODEX.BASIC_FABRIC.TITLE
 msgctxt "STRINGS.CODEX.BASIC_FABRIC.TITLE"
@@ -19289,7 +19289,7 @@ msgstr "農作物"
 #. STRINGS.CODEX.HEADERS.RECIPE
 msgctxt "STRINGS.CODEX.HEADERS.RECIPE"
 msgid "Recipe Ingredients"
-msgstr "訂單原料"
+msgstr "配方成分"
 
 #. STRINGS.CODEX.HEADERS.ROLE_PERKS
 msgctxt "STRINGS.CODEX.HEADERS.ROLE_PERKS"
@@ -19329,7 +19329,7 @@ msgstr "升職會疊加現在工作訓練的屬性加成與特質。"
 #. STRINGS.CODEX.HEADERS.USED_IN_RECIPES
 msgctxt "STRINGS.CODEX.HEADERS.USED_IN_RECIPES"
 msgid "Ingredient In"
-msgstr "使用調味料"
+msgstr "成分用於"
 
 #. STRINGS.CODEX.HEADQUARTERS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.HEADQUARTERS.BODY.CONTAINER1"
@@ -45074,7 +45074,7 @@ msgstr "不要出汗！"
 #. STRINGS.EQUIPMENT.PREFABS.COOL_VEST.EFFECT
 msgctxt "STRINGS.EQUIPMENT.PREFABS.COOL_VEST.EFFECT"
 msgid "Protects the wearer from <style=\"heat\">Heat</style> by decreasing insulation."
-msgstr "減少隔熱，保護穿載者免受<style=\"heat\">熱</style>的影響。"
+msgstr "減少隔熱以加速熱交換，保護穿載者免受<style=\"heat\">熱</style>的影響。"
 
 #. STRINGS.EQUIPMENT.PREFABS.COOL_VEST.GENERICNAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.COOL_VEST.GENERICNAME"
@@ -45089,7 +45089,7 @@ msgstr "<link=\"COOLVEST\">涼爽背心</link>"
 #. STRINGS.EQUIPMENT.PREFABS.COOL_VEST.RECIPE_DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.COOL_VEST.RECIPE_DESC"
 msgid "Protects the wearer from <style=\"heat\">Heat</style> by decreasing insulation"
-msgstr "減少隔熱，在<style=\"heat\">熱</style>的環境中保護穿載者"
+msgstr "減少隔熱以加速熱交換，在<style=\"heat\">熱</style>的環境中保護穿載者"
 
 #. STRINGS.EQUIPMENT.PREFABS.CUSTOMCLOTHING.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CUSTOMCLOTHING.DESC"
@@ -45614,7 +45614,7 @@ msgstr "裝備"
 #. STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK_UNDERWATER.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK_UNDERWATER.NAME"
 msgid "Oxygen Rebreather"
-msgstr "氧氣呼吸器"
+msgstr "氧循環呼吸器"
 
 #. STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK_UNDERWATER.RECIPE_DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_TANK_UNDERWATER.RECIPE_DESC"
@@ -45684,7 +45684,7 @@ msgstr "幸福就是一個暖和的複製人。"
 #. STRINGS.EQUIPMENT.PREFABS.WARM_VEST.EFFECT
 msgctxt "STRINGS.EQUIPMENT.PREFABS.WARM_VEST.EFFECT"
 msgid "Protects the wearer from <style=\"heat\">Cold</style> by increasing insulation."
-msgstr "在<style=\"heat\">寒冷</style>的環境中保護穿載者。"
+msgstr "增加隔熱以減少熱交換，在<style=\"heat\">寒冷</style>的環境中保護穿載者。"
 
 #. STRINGS.EQUIPMENT.PREFABS.WARM_VEST.GENERICNAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.WARM_VEST.GENERICNAME"
@@ -45699,7 +45699,7 @@ msgstr "<link=\"WARMVEST\">溫暖毛衣</link>"
 #. STRINGS.EQUIPMENT.PREFABS.WARM_VEST.RECIPE_DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.WARM_VEST.RECIPE_DESC"
 msgid "Protects the wearer from <style=\"heat\">Cold</style> by increasing insulation"
-msgstr "在<style=\"heat\">寒冷</style>的環境中保護穿載者"
+msgstr "增加隔熱以減少熱交換，在<style=\"heat\">寒冷</style>的環境中保護穿載者"
 
 #. STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSALGAE.DESCRIPTION
 msgctxt "STRINGS.GAMEPLAY_EVENTS.BONUS.BONUSALGAE.DESCRIPTION"
@@ -48024,7 +48024,7 @@ msgstr "一種有薄膜耐嚼的膠狀立方體果實。"
 #. STRINGS.ITEMS.FOOD.SWAMPFRUIT.NAME
 msgctxt "STRINGS.ITEMS.FOOD.SWAMPFRUIT.NAME"
 msgid "<link=\"SWAMPFRUIT\">Bog Jelly</link>"
-msgstr "<link=\"SWAMPHARVESTABLEPLANT\">沼澤果凍</link>"
+msgstr "<link=\"SWAMPFRUIT\">沼澤果凍</link>"
 
 #. STRINGS.ITEMS.FOOD.TOFU.DESC
 msgctxt "STRINGS.ITEMS.FOOD.TOFU.DESC"
@@ -77179,7 +77179,7 @@ msgstr "這個建築物消耗變異種子"
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.ALLOW_MUTANT_SEED_INGREDIENTS_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.ALLOW_MUTANT_SEED_INGREDIENTS_TOOLTIP"
 msgid "Toggle whether Duplicants will deliver mutant seed species to this building as recipe ingredients."
-msgstr "如果啟用，複製人將會運送變異種子到這個建築作為訂單原料。"
+msgstr "如果啟用，複製人將會運送變異種子到這個建築作為配方成分。"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.CALS
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.CALS"
@@ -77369,7 +77369,7 @@ msgstr "{0} 生產訂單"
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TOOLTIPS.RECIPE_WORKTIME
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TOOLTIPS.RECIPE_WORKTIME"
 msgid "This recipe takes {0} to complete"
-msgstr "完成此份訂單需要 {0}"
+msgstr "完成此份配方需要 {0}"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TOOLTIPS.RECIPEPRODUCT
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TOOLTIPS.RECIPEPRODUCT"
