@@ -3899,12 +3899,12 @@ msgstr "這些材料都送達了才能修理這個建築"
 #. STRINGS.BUILDING.STATUSITEMS.WAITINGTOLAND.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WAITINGTOLAND.NAME"
 msgid "Waiting to land on {Destination}"
-msgstr "等待著陸於{Destination}"
+msgstr "等待著陸於 {Destination}"
 
 #. STRINGS.BUILDING.STATUSITEMS.WAITINGTOLAND.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WAITINGTOLAND.TOOLTIP"
 msgid "This rocket is waiting for an available Rcoket Platform on {Destination}"
-msgstr "這艘火箭正在等待{Destination}上可用的火箭平臺"
+msgstr "這艘火箭正在等待 {Destination} 上可用的火箭平臺"
 
 #. STRINGS.BUILDING.STATUSITEMS.WARPCONDUITPARTNERDISABLED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WARPCONDUITPARTNERDISABLED.NAME"
@@ -4629,7 +4629,7 @@ msgstr "<link=\"BED\">觀星者床鋪</link>"
 #. STRINGS.BUILDINGS.PREFABS.BED.FACADES.STAYCATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BED.FACADES.STAYCATION.DESC"
 msgid "Like a weekend away, except... not."
-msgstr "就像過週末一樣……儘管現在不是。"
+msgstr "就像過週末一樣…儘管現在不是。"
 
 #. STRINGS.BUILDINGS.PREFABS.BED.FACADES.STAYCATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BED.FACADES.STAYCATION.NAME"
@@ -4734,7 +4734,7 @@ msgstr "平凡畫作"
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.DESC"
 msgid "Once built, a Duplicant can paint a blank canvas to produce a decorative painting."
-msgstr "一幅空白畫布，複製人可以作畫，創造藝術作品。"
+msgstr "一旦建成，複製人就可以在空白畫布上繪製裝飾畫。"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.EFFECT"
@@ -4909,7 +4909,7 @@ msgstr "<link=\"ARTP\">傾倒靈魂</link>"
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_Q.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_Q.DESC"
 msgid "The only kind of gift that poorly behaved Duplicants can expect to receive."
-msgstr "這是行為不佳的複製人能收到的唯一禮物。"
+msgstr "這是行為不佳的複製人唯一能收到的禮物。"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_Q.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVAS.FACADES.ART_Q.NAME"
@@ -4944,7 +4944,7 @@ msgstr "平凡畫作"
 #. STRINGS.BUILDINGS.PREFABS.CANVASTALL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.DESC"
 msgid "Once built, a Duplicant can paint a blank canvas to produce a decorative painting."
-msgstr "一幅空白畫布，複製人可以作畫，創造藝術作品。"
+msgstr "一旦建成，複製人就可以在空白畫布上繪製裝飾畫。"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASTALL.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.EFFECT"
@@ -5069,7 +5069,7 @@ msgstr "<link=\"ARTTALLK\">立體主義廁所</link>"
 #. STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_L.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_L.DESC"
 msgid "Nearby, a companion animal waited for the object to be thrown."
-msgstr "就在附近，一隻動物夥伴正在等待扔出物體。"
+msgstr "就在附近，一隻動物夥伴正在等待物體被扔出。"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_L.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASTALL.FACADES.ART_TALL_L.NAME"
@@ -5114,7 +5114,7 @@ msgstr "平凡畫作"
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.DESC"
 msgid "Once built, a Duplicant can paint a blank canvas to produce a decorative painting."
-msgstr "一幅空白畫布，複製人可以作畫，創造藝術作品。"
+msgstr "一旦建成，複製人就可以在空白畫布上繪製裝飾畫。"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.EFFECT"
@@ -5129,7 +5129,7 @@ msgstr "傑作"
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_A.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_A.DESC"
 msgid "The effort is admirable, though the execution is not."
-msgstr "這種努力是值得欽佩的，儘管在繪製時並非如此。"
+msgstr "努力可嘉，但執行效果不佳。"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_A.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_A.NAME"
@@ -5149,7 +5149,7 @@ msgstr "<link=\"ARTWIDEB\">爆炸的起點</link>"
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_C.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_C.DESC"
 msgid "Food this good deserves to be immortalized."
-msgstr "這種好吃的食物值得永垂不朽。"
+msgstr "這麼棒的食物值得永垂不朽。"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_C.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_C.NAME"
@@ -5209,7 +5209,7 @@ msgstr "<link=\"ARTWIDEH\">美人 Meep</link>"
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_I.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_I.DESC"
 msgid "A moody study of the renowned tunneler."
-msgstr "一次對眾所皆知的隧道工的情緒研究。"
+msgstr "對著名隧道開拓者的情緒研究。"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_I.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.FACADES.ART_WIDE_I.NAME"
@@ -40304,7 +40304,7 @@ msgstr "(Cl) 氯是一種天然的<link=\"DISEASE\">殺菌</link>元素，處於
 #. STRINGS.ELEMENTS.CHLORINEGAS.NAME
 msgctxt "STRINGS.ELEMENTS.CHLORINEGAS.NAME"
 msgid "<link=\"CHLORINEGAS\">Chlorine Gas</link>"
-msgstr "<link=\"CHLORINEGAS\">氯氣</link>"
+msgstr "<link=\"CHLORINEGAS\">氯</link>"
 
 #. STRINGS.ELEMENTS.CLAY.DESC
 msgctxt "STRINGS.ELEMENTS.CLAY.DESC"
@@ -40649,7 +40649,7 @@ msgstr "(Au) 金是一種導電良好的<link=\"RAWMETAL\">金屬</link>被加�
 #. STRINGS.ELEMENTS.GOLDGAS.NAME
 msgctxt "STRINGS.ELEMENTS.GOLDGAS.NAME"
 msgid "<link=\"GOLDGAS\">Gold Gas</link>"
-msgstr "<link=\"GOLDGAS\">金氣</link>"
+msgstr "<link=\"GOLDGAS\">金</link>"
 
 #. STRINGS.ELEMENTS.GRANITE.DESC
 msgctxt "STRINGS.ELEMENTS.GRANITE.DESC"
@@ -40764,7 +40764,7 @@ msgstr "(H) 氫氣是宇宙中最常見且原子量輕的元素，處於<link=\"
 #. STRINGS.ELEMENTS.HYDROGEN.NAME
 msgctxt "STRINGS.ELEMENTS.HYDROGEN.NAME"
 msgid "<link=\"HYDROGEN\">Hydrogen Gas</link>"
-msgstr "<link=\"HYDROGEN\">氫氣</link>"
+msgstr "<link=\"HYDROGEN\">氫</link>"
 
 #. STRINGS.ELEMENTS.ICE.DESC
 msgctxt "STRINGS.ELEMENTS.ICE.DESC"
@@ -40909,7 +40909,7 @@ msgstr "<link=\"LIQUIDMETHANE\">甲烷</link>"
 #. STRINGS.ELEMENTS.LIQUIDOXYGEN.DESC
 msgctxt "STRINGS.ELEMENTS.LIQUIDOXYGEN.DESC"
 msgid "(O<sub>2</sub>) Oxygen is a breathable chemical.\n\nThis selection is in a <link=\"ELEMENTSLIQUID\">Liquid</link> state."
-msgstr "(O<sub>2</sub>) 氧氣一種可呼吸的化學元素。\n\n處於<link=\"ELEMENTSLIQUID\">液體</link>狀態。"
+msgstr "(O<sub>2</sub>) 氧一種可呼吸的化學元素。\n\n處於<link=\"ELEMENTSLIQUID\">液體</link>狀態。"
 
 #. STRINGS.ELEMENTS.LIQUIDOXYGEN.NAME
 msgctxt "STRINGS.ELEMENTS.LIQUIDOXYGEN.NAME"
@@ -41109,7 +41109,7 @@ msgstr "<link=\"MILKICE\">冰凍鹹乳</link>"
 #. STRINGS.ELEMENTS.MOLTENALUMINUM.DESC
 msgctxt "STRINGS.ELEMENTS.MOLTENALUMINUM.DESC"
 msgid "(Al) Molten Aluminum is a low density <link=\"REFINEDMETAL\">Metal</link> heated into a <link=\"ELEMENTSLIQUID\">Liquid</link> state."
-msgstr "(Al) 鋁是一種被加熱到<link=\"ELEMENTSLIQUID\">液體</link>狀態的低密度<link=\"REFINEDMETAL\">金屬</link>。"
+msgstr "(Al) 熔融鋁是一種被加熱到<link=\"ELEMENTSLIQUID\">液體</link>狀態的低密度<link=\"REFINEDMETAL\">金屬</link>。"
 
 #. STRINGS.ELEMENTS.MOLTENALUMINUM.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENALUMINUM.NAME"
@@ -41129,7 +41129,7 @@ msgstr "<link=\"MOLTENCARBON\">碳</link>"
 #. STRINGS.ELEMENTS.MOLTENCOBALT.DESC
 msgctxt "STRINGS.ELEMENTS.MOLTENCOBALT.DESC"
 msgid "(Co) Molten Cobalt is a <link=\"REFINEDMETAL\">Refined Metal</link> heated into a <link=\"ELEMENTSLIQUID\">Liquid</link> state."
-msgstr "(Co) 鈷是一種被加熱到<link=\"ELEMENTSLIQUID\">液體</link>狀態的<link=\"REFINEDMETAL\">精煉金屬</link>。"
+msgstr "(Co) 熔融鈷是一種被加熱到<link=\"ELEMENTSLIQUID\">液體</link>狀態的<link=\"REFINEDMETAL\">精煉金屬</link>。"
 
 #. STRINGS.ELEMENTS.MOLTENCOBALT.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENCOBALT.NAME"
@@ -41139,7 +41139,7 @@ msgstr "<link=\"MOLTENCOBALT\">鈷</link>"
 #. STRINGS.ELEMENTS.MOLTENCOPPER.DESC
 msgctxt "STRINGS.ELEMENTS.MOLTENCOPPER.DESC"
 msgid "(Cu) Molten Copper is a conductive <link=\"RAWMETAL\">Metal</link> heated into a <link=\"ELEMENTSLIQUID\">Liquid</link> state."
-msgstr "(Cu) 銅是一種被加熱到<link=\"ELEMENTSLIQUID\">液體</link>狀態的導電<link=\"RAWMETAL\">金屬</link>。"
+msgstr "(Cu) 熔融銅是一種被加熱到<link=\"ELEMENTSLIQUID\">液體</link>狀態的導電<link=\"RAWMETAL\">金屬</link>。"
 
 #. STRINGS.ELEMENTS.MOLTENCOPPER.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENCOPPER.NAME"
@@ -41169,7 +41169,7 @@ msgstr "<link=\"MOLTENGOLD\">金</link>"
 #. STRINGS.ELEMENTS.MOLTENIRON.DESC
 msgctxt "STRINGS.ELEMENTS.MOLTENIRON.DESC"
 msgid "(Fe) Molten Iron is a common industrial <link=\"RAWMETAL\">Metal</link> heated into a <link=\"ELEMENTSLIQUID\">Liquid</link> state."
-msgstr "(Fe) 鐵是一種常見的工業<link=\"RAWMETAL\">金屬</link>，被加熱到<link=\"ELEMENTSLIQUID\">液體</link>狀態。"
+msgstr "(Fe) 熔融鐵是一種常見的工業<link=\"RAWMETAL\">金屬</link>，被加熱到<link=\"ELEMENTSLIQUID\">液體</link>狀態。"
 
 #. STRINGS.ELEMENTS.MOLTENIRON.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENIRON.NAME"
@@ -41199,7 +41199,7 @@ msgstr "<link=\"MOLTENNIOBIUM\">鈮</link>"
 #. STRINGS.ELEMENTS.MOLTENSALT.DESC
 msgctxt "STRINGS.ELEMENTS.MOLTENSALT.DESC"
 msgid "(NaCl) Molten Salt is an edible chemical compound that has been heated into a <link=\"ELEMENTSLIQUID\">Liquid</link> state."
-msgstr "(NaCl) 鹽是一種可食用的化合物，遇熱變成<link=\"ELEMENTSLIQUID\">液體</link>狀態。"
+msgstr "(NaCl) 熔融鹽是一種可食用的化合物，遇熱變成<link=\"ELEMENTSLIQUID\">液體</link>狀態。"
 
 #. STRINGS.ELEMENTS.MOLTENSALT.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENSALT.NAME"
@@ -41209,7 +41209,7 @@ msgstr "<link=\"MOLTENSALT\">鹽</link>"
 #. STRINGS.ELEMENTS.MOLTENSTEEL.DESC
 msgctxt "STRINGS.ELEMENTS.MOLTENSTEEL.DESC"
 msgid "Molten Steel is a <link=\"RAWMETAL\">Metal</link> alloy of iron and carbon, heated into a hazardous <link=\"ELEMENTSLIQUID\">Liquid</link> state."
-msgstr "鋼是一種鐵和碳的<link=\"RAWMETAL\">金屬</link>合金，加熱變成危險的<link=\"ELEMENTSLIQUID\">液體</link>狀態。"
+msgstr "熔融鋼是一種鐵和碳的<link=\"RAWMETAL\">金屬</link>合金，加熱變成危險的<link=\"ELEMENTSLIQUID\">液體</link>狀態。"
 
 #. STRINGS.ELEMENTS.MOLTENSTEEL.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENSTEEL.NAME"
@@ -41239,7 +41239,7 @@ msgstr "<link=\"SYNGAS\">合成氣</link>"
 #. STRINGS.ELEMENTS.MOLTENTUNGSTEN.DESC
 msgctxt "STRINGS.ELEMENTS.MOLTENTUNGSTEN.DESC"
 msgid "(W) Molten Tungsten is a crystalline <link=\"RAWMETAL\">Metal</link> heated into a <link=\"ELEMENTSLIQUID\">Liquid</link> state."
-msgstr "(W) 鎢是一種結晶狀的<link=\"RAWMETAL\">金屬</link>，加熱變成<link=\"ELEMENTSLIQUID\">液體</link>狀態。"
+msgstr "(W) 熔融鎢是一種結晶狀的<link=\"RAWMETAL\">金屬</link>，加熱變成<link=\"ELEMENTSLIQUID\">液體</link>狀態。"
 
 #. STRINGS.ELEMENTS.MOLTENTUNGSTEN.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENTUNGSTEN.NAME"
@@ -41259,7 +41259,7 @@ msgstr "<link=\"MOLTENTUNGSTENDISELENIDE\">二硒化鎢</link>"
 #. STRINGS.ELEMENTS.MOLTENURANIUM.DESC
 msgctxt "STRINGS.ELEMENTS.MOLTENURANIUM.DESC"
 msgid "(U) Liquid Uranium is a highly <link=\"RADIATION\">Radioactive</link> substance, heated into a hazardous <link=\"ELEMENTSLIQUID\">Liquid</link> state.\n\nIt is a byproduct of <link=\"ENRICHEDURANIUM\">Enriched Uranium</link>."
-msgstr "(U) 鈾是一種高<link=\"RADIATION\">輻射</link>的物質，因高溫變成危險的<link=\"ELEMENTSLIQUID\">液體</link>狀態。\n\n它是生產<link=\"ENRICHEDURANIUM\">濃縮鈾</link>的副產品。"
+msgstr "(U) 液態鈾是一種高<link=\"RADIATION\">輻射</link>的物質，因高溫變成危險的<link=\"ELEMENTSLIQUID\">液體</link>狀態。\n\n它是生產<link=\"ENRICHEDURANIUM\">濃縮鈾</link>的副產品。"
 
 #. STRINGS.ELEMENTS.MOLTENURANIUM.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENURANIUM.NAME"
@@ -41329,12 +41329,12 @@ msgstr "<link=\"OBSIDIAN\">黑曜石</link>"
 #. STRINGS.ELEMENTS.OXYGEN.DESC
 msgctxt "STRINGS.ELEMENTS.OXYGEN.DESC"
 msgid "(O<sub>2</sub>) Oxygen is an atomically lightweight and breathable <link=\"ELEMENTSGAS\">Gas</link>, necessary for sustaining life.\n\nIt tends to rise above other gases."
-msgstr "(O<sub>2</sub>) 氧氣是一種原子量輕與可呼吸的<link=\"ELEMENTSGAS\">氣體</link>，是維持生命所必需。\n\n它通常比其它的氣體輕。"
+msgstr "(O<sub>2</sub>) 氧是一種原子量輕與可呼吸的<link=\"ELEMENTSGAS\">氣體</link>，是維持生命所必需。\n\n它通常比其它的氣體輕。"
 
 #. STRINGS.ELEMENTS.OXYGEN.NAME
 msgctxt "STRINGS.ELEMENTS.OXYGEN.NAME"
 msgid "<link=\"OXYGEN\">Oxygen</link>"
-msgstr "<link=\"OXYGEN\">氧氣</link>"
+msgstr "<link=\"OXYGEN\">氧</link>"
 
 #. STRINGS.ELEMENTS.OXYROCK.DESC
 msgctxt "STRINGS.ELEMENTS.OXYROCK.DESC"
@@ -78479,7 +78479,7 @@ msgstr "這株植物成熟後會落果並開始生長。"
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.BONUS_SEEDS
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.BONUS_SEEDS"
 msgid "This plant has a {0} chance to produce new seeds when harvested"
-msgstr "收成時這株植物，將有 {0} 機會，得到新的種子"
+msgstr "收成時這株植物，將有 {0} 機會得到新的種子"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.DISEASE_DROPPER_BURST
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.DISEASE_DROPPER_BURST"
@@ -78494,7 +78494,7 @@ msgstr "這株植物活著時會釋放 {DiseaseAmount} {Disease}"
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.DISEASE_ON_HARVEST
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.DISEASE_ON_HARVEST"
 msgid "The {Crop} produced by this plant will have {DiseaseAmount} {Disease} on it."
-msgstr "這株 {Crop} 收成時會有 {DiseaseAmount} {Disease}。"
+msgstr "這株{Crop}收成時會有 {DiseaseAmount} {Disease}。"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.NUMBEROFHARVESTS
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.NUMBEROFHARVESTS"
@@ -78519,7 +78519,7 @@ msgstr "基礎植物的最低生長條件"
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.YIELD
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.YIELD"
 msgid "<link=\"KCAL\">{2}</link> produced [<link=\"KCAL\">{1}</link> / unit]"
-msgstr "<link=\"KCAL\">{2}</link> 生產【<link=\"KCAL\">{1}</link> / 每單位】"
+msgstr "<link=\"KCAL\">{2}</link>生產【<link=\"KCAL\">{1}</link> / 每單位】"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.YIELD_NONFOOD
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.YIELD_NONFOOD"
