@@ -2,7 +2,7 @@
 ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/2906930548?logo=steam) 
 ![Steam Favorites](https://img.shields.io/steam/favorites/2906930548?logo=steam)
 
-[正體中文包](https://steamcommunity.com/sharedfiles/filedetails/?id=2906930548) by DolphinWing
+[正體中文](https://steamcommunity.com/sharedfiles/filedetails/?id=2906930548) by DolphinWing
 
 偷懶了很久，終於幫我的 Steam 上最長時數的遊戲，維護正體中文的翻譯模組，嘗試追上一直持續更新的 Klei。
 所有內容文字以 Klei 簡體中文文檔為參考，並以 [Oxygen Not Included Wiki](https://oxygennotincluded.fandom.com/wiki/Oxygen_Not_Included_Wiki) 
