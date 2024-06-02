@@ -979,7 +979,7 @@ msgstr "正以 <style=\"produced\">{FlowRate}</style> 的速度生產<link=\"CAR
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGELEMENT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGELEMENT.NAME"
 msgid "Emitting {ElementType}: {FlowRate}"
-msgstr "排出 {ElementType}：{FlowRate}"
+msgstr "排出{ElementType}：{FlowRate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGELEMENT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGELEMENT.TOOLTIP"
@@ -989,7 +989,7 @@ msgstr "正以 <style=\"produced\">{FlowRate}</style> 的速度生產{ElementTyp
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.NAME"
 msgid "Emitting {Element}: {FlowRate}"
-msgstr "排出 {Element}：{FlowRate}"
+msgstr "排出{Element}：{FlowRate}"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.TOOLTIP"
@@ -20664,7 +20664,7 @@ msgstr "當在運送像是<link=\"URANIUMORE\">鈾礦</link>等的輻射材料�
 #. STRINGS.CODEX.RADIATION.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.RADIATION.PARAGRAPH_2"
 msgid "Duplicants who are exposed to <link=\"RADIATIONSICKNESS\">Radioactive Contaminants</link> will need to wear protection or they risk coming down with <link=\"RADIATIONSICKNESS\">Radiation Sickness</link>.\n\nSome Duplicants will have more of a natural resistance to radiation, but prolonged exposure will still increase their chances of becoming sick.\n\nConsuming <link=\"BASICRADPILL\">Rad Pills</link> or seafood such as <link=\"COOKEDFISH\">Cooked Seafood</link> or <link=\"SEALETTUCE\">Waterweed</link> increases a Duplicant's radiation resistance, but will not cure a Duplicant's <link=\"RADIATIONSICKNESS\">Radiation Sickness</link> once they have become infected.\n\nOn the other hand, exposure to radiation will kill <link=\"FOODPOISONING\">Food Poisoning</link>, <link=\"SLIMELUNG\">Slimelung</link> and <link=\"ZOMBIESPORES\">Zombie Spores</link> on surfaces (including on Duplicants).\n\n"
-msgstr "複製人暴露在<link=\"RADIATIONSICKNESS\">輻射汙染</link>區時會需要穿防護衣，否則會有<link=\"RADIATIONSICKNESS\">輻射中毒</link>的危險。\n\n有些複製人天生有較強的輻射抗性，但長時間暴露在輻射汙染區仍然會增加輻射中毒的機率。\n\n補充<link=\"BASICRADPILL\">抗輻射藥</link>或食用海鮮(<link=\"COOKEDFISH\">烤魚</link>、<link=\"SEALETTUCE\">海藻</link>...等)可以增加複製人的輻射抗性，但不能治療已感染<link=\"RADIATIONSICKNESS\">輻射中毒</link>的複製人。\n\n另一方面暴露於輻射環境會殺死表面的<link=\"FOODPOISONING\">腸病毒</link>、<link=\"SLIMELUNG\">肺結核</link>與<link=\"ZOMBIESPORES\">殭屍孢子</link>（包括複製人）。\n\n"
+msgstr "複製人暴露在<link=\"RADIATIONSICKNESS\">輻射汙染</link>區時會需要穿防護衣，否則會有<link=\"RADIATIONSICKNESS\">輻射中毒</link>的危險。\n\n有些複製人天生有較強的輻射抗性，但長時間暴露在輻射汙染區仍然會增加輻射中毒的機率。\n\n補充<link=\"BASICRADPILL\">抗輻射藥</link>或食用海鮮(<link=\"COOKEDFISH\">熟海鮮</link>、<link=\"SEALETTUCE\">生菜</link>...等)可以增加複製人的輻射抗性，但不能治療已感染<link=\"RADIATIONSICKNESS\">輻射中毒</link>的複製人。\n\n另一方面暴露於輻射環境會殺死表面的<link=\"FOODPOISONING\">腸病毒</link>、<link=\"SLIMELUNG\">肺結核</link>與<link=\"ZOMBIESPORES\">殭屍孢子</link>（包括複製人）。\n\n"
 
 #. STRINGS.CODEX.RADIATION.PARAGRAPH_3
 msgctxt "STRINGS.CODEX.RADIATION.PARAGRAPH_3"
@@ -25979,7 +25979,7 @@ msgstr "<link=\"PUFTALPHA\">帕夫王子寶寶</link>"
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.DESC"
 msgid "The Puft Prince is a lazy critter that excretes little <link=\"SOLID\">Solid</link> lumps of whatever it has been breathing."
-msgstr "帕夫王子是個懶惰的小動物，每次呼吸會排出 <link=\"SOLID\">固體</link>。"
+msgstr "帕夫王子是個懶惰的小動物，每次呼吸會排出<link=\"SOLID\">固體</link>。"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.EGG_NAME"
@@ -47399,7 +47399,7 @@ msgstr "一塊新鮮的煮熟海鮮。\n\n不出所料，它嘗起來有點魚�
 #. STRINGS.ITEMS.FOOD.COOKEDFISH.NAME
 msgctxt "STRINGS.ITEMS.FOOD.COOKEDFISH.NAME"
 msgid "<link=\"COOKEDFISH\">Cooked Seafood</link>"
-msgstr "<link=\"COOKEDFISH\">烤魚</link>"
+msgstr "<link=\"COOKEDFISH\">熟海鮮</link>"
 
 #. STRINGS.ITEMS.FOOD.COOKEDFISH.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.COOKEDFISH.RECIPEDESC"
@@ -47964,7 +47964,7 @@ msgstr "乾燥海陸餐"
 #. STRINGS.ITEMS.FOOD.SURFANDTURF.DESC
 msgctxt "STRINGS.ITEMS.FOOD.SURFANDTURF.DESC"
 msgid "A bit of <link=\"MEAT\">Meat</link> from the land and <link=\"COOKEDFISH\">Cooked Seafood</link> from the sea.\n\nIt's hearty and satisfying."
-msgstr "一點來自陸地上的<link=\"MEAT\">肉</link>，與來自海洋的<link=\"COOKEDFISH\">烤魚</link>。\n\n豐盛和滿足。"
+msgstr "一點來自陸地上的<link=\"MEAT\">肉</link>，與來自海洋的<link=\"COOKEDFISH\">熟海鮮</link>。\n\n豐盛和滿足。"
 
 #. STRINGS.ITEMS.FOOD.SURFANDTURF.NAME
 msgctxt "STRINGS.ITEMS.FOOD.SURFANDTURF.NAME"
@@ -47974,7 +47974,7 @@ msgstr "<link=\"SURFANDTURF\">海陸大餐</link>"
 #. STRINGS.ITEMS.FOOD.SURFANDTURF.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.SURFANDTURF.RECIPEDESC"
 msgid "A bit of <link=\"MEAT\">Meat</link> from the land and <link=\"COOKEDFISH\">Cooked Seafood</link> from the sea."
-msgstr "一點<link=\"MEAT\">肉類</link>與<link=\"COOKEDFISH\">烤魚</link>。"
+msgstr "一點<link=\"MEAT\">肉類</link>與<link=\"COOKEDFISH\">熟海鮮</link>。"
 
 #. STRINGS.ITEMS.FOOD.SUSHI.DESC
 msgctxt "STRINGS.ITEMS.FOOD.SUSHI.DESC"
