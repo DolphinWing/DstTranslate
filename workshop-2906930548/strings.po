@@ -20694,7 +20694,7 @@ msgstr "研究類別"
 #. STRINGS.CODEX.RESEARCH.PARAGRAPH_1
 msgctxt "STRINGS.CODEX.RESEARCH.PARAGRAPH_1"
 msgid "Doing research unlocks new types of buildings for the colony. Duplicants can perform research at the <link=\"RESEARCHCENTER\">Research Station</link>.\n\n"
-msgstr "進行研究為殖民地解鎖新的建築。複製人可以在 <link=\"RESEARCHCENTER\">研究站</link> 進行研究\n\n"
+msgstr "進行研究為殖民地解鎖新的建築。複製人可以在<link=\"RESEARCHCENTER\">研究站</link>進行研究\n\n"
 
 #. STRINGS.CODEX.RESEARCH.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.RESEARCH.PARAGRAPH_2"
