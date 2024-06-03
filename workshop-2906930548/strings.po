@@ -8774,7 +8774,7 @@ msgstr "從{1}中提取純{0}。"
 #. STRINGS.BUILDINGS.PREFABS.GLASSTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSTILE.DESC"
 msgid "Window tiles provide a barrier against liquid and gas and are completely transparent."
-msgstr "玻璃磚可阻隔液體與氣體並且完全透明。"
+msgstr "玻璃磚可阻隔液體與氣體並且完全透光。"
 
 #. STRINGS.BUILDINGS.PREFABS.GLASSTILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSTILE.EFFECT"
@@ -14594,12 +14594,12 @@ msgstr "<link=\"SCULPTURE1X2AMAZING2\">平衡</link>"
 #. STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.FACADES.SCULPTURE_1x2_AMAZING_3.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.FACADES.SCULPTURE_1x2_AMAZING_3.DESC"
 msgid "It lacks transparency."
-msgstr "它缺乏透明度。"
+msgstr "它缺乏透光度。"
 
 #. STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.FACADES.SCULPTURE_1x2_AMAZING_3.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.FACADES.SCULPTURE_1x2_AMAZING_3.NAME"
 msgid "<link=\"SCULPTURE1X2AMAZING3\">Opaque Orb</link>"
-msgstr "<link=\"SCULPTURE1X2AMAZING3\">不透明的球體</link>"
+msgstr "<link=\"SCULPTURE1X2AMAZING3\">不透光的球體</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.FACADES.SCULPTURE_1x2_AMAZING_4.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.FACADES.SCULPTURE_1x2_AMAZING_4.DESC"
@@ -26779,7 +26779,7 @@ msgstr "灌溉"
 #. STRINGS.CREATURES.STATS.MATURITY.AMOUNT_DESC_FMT
 msgctxt "STRINGS.CREATURES.STATS.MATURITY.AMOUNT_DESC_FMT"
 msgid "{0}: {1}\nNext harvest in <b>{2}</b>"
-msgstr "{0}：{1}\n下一次收成 <b>{2}</b>"
+msgstr "{0}：{1}\n下一次收成再 <b>{2}</b>"
 
 #. STRINGS.CREATURES.STATS.MATURITY.GROWING
 msgctxt "STRINGS.CREATURES.STATS.MATURITY.GROWING"
@@ -40614,7 +40614,7 @@ msgstr "<link=\"FULLERENE\">富勒烯</link>"
 #. STRINGS.ELEMENTS.GLASS.DESC
 msgctxt "STRINGS.ELEMENTS.GLASS.DESC"
 msgid "Glass is a brittle, transparent substance formed from <link=\"SAND\">Sand</link> fired at high temperatures."
-msgstr "玻璃易碎、透明的物質，由<link=\"SAND\">沙子</link>加熱至高溫製成。"
+msgstr "玻璃易碎、透光的物質，由<link=\"SAND\">沙子</link>加熱至高溫製成。"
 
 #. STRINGS.ELEMENTS.GLASS.NAME
 msgctxt "STRINGS.ELEMENTS.GLASS.NAME"
@@ -51014,12 +51014,12 @@ msgstr "玩具"
 #. STRINGS.MISC.TAGS.TRANSPARENT
 msgctxt "STRINGS.MISC.TAGS.TRANSPARENT"
 msgid "Transparent"
-msgstr "透明"
+msgstr "透光材質"
 
 #. STRINGS.MISC.TAGS.TRANSPARENT_DESC
 msgctxt "STRINGS.MISC.TAGS.TRANSPARENT_DESC"
 msgid "Transparent materials allow <link=\"LIGHT\">Light</link> to pass through. Illumination boosts Duplicant productivity during working hours, but undermines sleep quality.\n\nTransparency is also important for buildings that require a clear line of sight in order to function correctly, such as the <link=\"COMETDETECTOR\">Space Scanner</link>."
-msgstr "透明材料能夠讓<link=\"LIGHT\">光</link>透過。照明可以提高複製人的工作效率，但會破壞睡眠質量。\n\n透明體也是需要清晰視野的建築能正確運作的重要材料，比如<link=\"COMETDETECTOR\">太空雷達</link>。"
+msgstr "透光材料能夠讓<link=\"LIGHT\">光</link>透過。照明可以提高複製人的工作效率，但會破壞睡眠品質。\n\n透光度對於需要清晰視野的建築能正確運作也是相當重要，比如<link=\"COMETDETECTOR\">太空雷達</link>。"
 
 #. STRINGS.MISC.TAGS.UNBREATHABLE
 msgctxt "STRINGS.MISC.TAGS.UNBREATHABLE"
@@ -54264,7 +54264,7 @@ msgstr "<link=\"GENERICSENSORS\">通用感測器</link>"
 #. STRINGS.RESEARCH.TECHS.GLASSFURNISHINGS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.GLASSFURNISHINGS.DESC"
 msgid "The decorative benefits of glass are both apparent and transparent."
-msgstr "玻璃的裝飾效果明顯，而且透明。"
+msgstr "玻璃的裝飾效果明顯，而且透光。"
 
 #. STRINGS.RESEARCH.TECHS.GLASSFURNISHINGS.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.GLASSFURNISHINGS.NAME"
@@ -57709,12 +57709,12 @@ msgstr "這個間歇泉每 <b>{1}</b>將噴發 <b>{0}</b>"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PRODUCTION
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PRODUCTION"
 msgid "While erupting, this geyser will produce <style=\"KKeyword\">{0}</style> at a rate of <style=\"produced\">{1}</style>, and at a <style=\"KKeyword\">Temperature</style> of <b>{2}</b>"
-msgstr "當噴發時，這個間歇泉將會以 <style=\"produced\">{1}</style> 的速率噴發 <style=\"KKeyword\">{0}</style>，且<style=\"KKeyword\">溫度</style>為 <b>{2}</b>"
+msgstr "當噴發時，這個間歇泉將會以 <style=\"produced\">{1}</style> 的速率噴發<style=\"KKeyword\">{0}</style>，且<style=\"KKeyword\">溫度</style>為 <b>{2}</b>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PRODUCTION_GEOTUNED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PRODUCTION_GEOTUNED"
 msgid "While erupting, this geyser will produce <style=\"KKeyword\">{0}</style> at a rate of <style=\"produced\">{1}</style>, and at a <style=\"KKeyword\">Temperature</style> of <b>{2}</b>"
-msgstr "噴發時，這個間歇泉會以 <style=\"produced\">{1}</style> 的速率輸出 <style=\"KKeyword\">温度</style>為 <b>{2}</b>的 <style=\"KKeyword\">{0}</style>"
+msgstr "噴發時，這個間歇泉會以 <style=\"produced\">{1}</style> 的速率輸出<style=\"KKeyword\">温度</style>為 <b>{2}</b>的 <style=\"KKeyword\">{0}</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PRODUCTION_GEOTUNED_COUNT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PRODUCTION_GEOTUNED_COUNT"
@@ -58014,7 +58014,7 @@ msgstr "必須取得植物<style=\"KKeyword\">種子</style>"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.RESEARCH_MATERIALS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.RESEARCH_MATERIALS"
 msgid "This research station consumes <style=\"consumed\">{1}</style> of <style=\"KKeyword\">{0}</style> for each <style=\"KKeyword\">Research Point</style> produced"
-msgstr "這個研究站每產生一<style=\"KKeyword\">研究點</style>需消耗 <style=\"consumed\">{1}</style> <style=\"KKeyword\">{0}</style>"
+msgstr "這個研究站每產生 1 <style=\"KKeyword\">研究點</style>需消耗 <style=\"consumed\">{1}</style><style=\"KKeyword\">{0}</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ROCKETRESTRICTION_BUILDINGS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ROCKETRESTRICTION_BUILDINGS"
@@ -58029,17 +58029,17 @@ msgstr "在火箭內部控制操作建築"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH"
 msgid "This critter can be sheared every <b>{Time}</b> to produce <b>{Amount}</b> of <style=\"KKeyword\">{Item}</style>"
-msgstr "這隻小動物每 <b>{Time}</b> 可修剪，生產 <b>{Amount}</b> <style=\"KKeyword\">{Item}</style>"
+msgstr "這隻小動物每 <b>{Time}</b>可修剪，生產 <b>{Amount}</b><style=\"KKeyword\">{Item}</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_ATMO
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_ATMO"
 msgid "This critter can be sheared every <b>{Time}</b> to produce <style=\"produced\">{Amount}</style> of <style=\"KKeyword\">{Item}</style>\n\nIt must be kept in <style=\"KKeyword\">{Atmosphere}</style>-rich environments to regrow sheared <style=\"KKeyword\">{Item}</style>"
-msgstr "這隻小動物每 <b>{Time}</b> 可修剪，產生 <style=\"produced\">{Amount}</style> <style=\"KKeyword\">{Item}</style>\n\n牠必須在 <style=\"KKeyword\">{Atmosphere}</style> 含量高的環境中，才會重新長回被剃掉的 <style=\"KKeyword\">{Item}</style>"
+msgstr "這隻小動物每 <b>{Time}</b>可修剪，產生 <style=\"produced\">{Amount}</style><style=\"KKeyword\">{Item}</style>\n\n牠必須在<style=\"KKeyword\">{Atmosphere}</style>含量高的環境中，才會重新長回被剃掉的<style=\"KKeyword\">{Item}</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_TEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_TEMP"
 msgid "This critter can be sheared every <b>{Time}</b> to produce <style=\"produced\">{Amount}</style> of <style=\"KKeyword\">{Item}</style>\n\nIt must eat food between {TempMin} - {TempMax} to regrow sheared <style=\"KKeyword\">{Item}</style>"
-msgstr "每 <b>{Time}</b>可給這隻小動物修剪以產生 <style=\"produced\">{Amount}</style> <style=\"KKeyword\">{Item}</style>\n\n牠必須吃處於 {TempMin}-{TempMax} 的食物才能重新生長剪掉的<style=\"KKeyword\">{Item}</style>"
+msgstr "每 <b>{Time}</b>可給這隻小動物修剪以產生 <style=\"produced\">{Amount}</style><style=\"KKeyword\">{Item}</style>\n\n牠必須吃處於 {TempMin}-{TempMax} 的食物才能重新生長剪掉的<style=\"KKeyword\">{Item}</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STORAGECAPACITY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STORAGECAPACITY"
@@ -58844,7 +58844,7 @@ msgstr "{1}（{0} 秒）"
 #. STRINGS.UI.CODEX.RECIPE_FABRICATOR_HEADER
 msgctxt "STRINGS.UI.CODEX.RECIPE_FABRICATOR_HEADER"
 msgid "Produced by"
-msgstr "製造"
+msgstr "產自"
 
 #. STRINGS.UI.CODEX.RECIPE_ITEM
 msgctxt "STRINGS.UI.CODEX.RECIPE_ITEM"
@@ -60704,12 +60704,12 @@ msgstr "{0}：{1}"
 #. STRINGS.UI.DETAILTABS.EGG_CHANCES.CHANCE_FORMAT_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.EGG_CHANCES.CHANCE_FORMAT_TOOLTIP"
 msgid "This critter has a {1} chance of laying {0}s.\n\nThis probability increases when the creature:\n{2}"
-msgstr "這隻小動物有 {1} 機率產下 {0}\n\n提高產蛋率，如果這隻小動物：\n{2}"
+msgstr "這隻小動物有 {1} 機率產下{0}\n\n提高產蛋率，如果這隻小動物：\n{2}"
 
 #. STRINGS.UI.DETAILTABS.EGG_CHANCES.CHANCE_FORMAT_TOOLTIP_NOMOD
 msgctxt "STRINGS.UI.DETAILTABS.EGG_CHANCES.CHANCE_FORMAT_TOOLTIP_NOMOD"
 msgid "This critter has a {1} chance of laying {0}s."
-msgstr "這隻小動物有 {1} 機率產下 {0}。"
+msgstr "這隻小動物有 {1} 機率產下{0}。"
 
 #. STRINGS.UI.DETAILTABS.EGG_CHANCES.CHANCE_MOD_FORMAT
 msgctxt "STRINGS.UI.DETAILTABS.EGG_CHANCES.CHANCE_MOD_FORMAT"
@@ -60899,7 +60899,7 @@ msgstr "觀看這名複製人的心理狀態"
 #. STRINGS.UI.DETAILTABS.PERSONALITY.EQUIPMENT.ASSIGNED_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.EQUIPMENT.ASSIGNED_TOOLTIP"
 msgid "{2} has been assigned a {0}\n\nEffects: {1}"
-msgstr "{2}已被分配了一個 {0}\n\n效果：{1}"
+msgstr "{2} 已被分配了一個{0}\n\n效果：{1}"
 
 #. STRINGS.UI.DETAILTABS.PERSONALITY.EQUIPMENT.GROUPNAME_OWNABLE
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.EQUIPMENT.GROUPNAME_OWNABLE"
@@ -70709,7 +70709,7 @@ msgstr "取消分配"
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.WILL_BE_UNASSIGNED
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.WILL_BE_UNASSIGNED"
 msgid "Note: Assigning {0} to {1} will <color=#F44A47FF>unassign</color> them from {2}"
-msgstr "提醒：分配 {0} 給 {1} 將從 {2} <color=#F44A47FF>取消分配</color>"
+msgstr "提醒：將 {0} 分配給 {1} ，從 {2} <color=#F44A47FF>取消分配</color>"
 
 #. STRINGS.UI.ROLES_SCREEN.AUTO_PRIORITIZE
 msgctxt "STRINGS.UI.ROLES_SCREEN.AUTO_PRIORITIZE"
