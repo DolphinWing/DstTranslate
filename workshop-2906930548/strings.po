@@ -4439,7 +4439,7 @@ msgstr "<link=\"AUTOMINER\">機械礦工</link>"
 #. STRINGS.BUILDINGS.PREFABS.BATTERY.CHARGE_LOSS
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.CHARGE_LOSS"
 msgid "{Battery} charge loss"
-msgstr "{Battery} 電量流失"
+msgstr "{Battery}電量流失"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.DESC"
@@ -7839,7 +7839,7 @@ msgstr "便於垂直地展示植物。"
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.DEFAULT_FLOWERVASEWALL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.DEFAULT_FLOWERVASEWALL.NAME"
 msgid "<link=\"FLOWERVASEWALL\">Wall Pot</link>"
-msgstr "<link=\"FLOWERVASEWALL\">牆壁花盆</link>"
+msgstr "<link=\"FLOWERVASEWALL\">壁掛花盆</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_BLUE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_BLUE.DESC"
@@ -7849,7 +7849,7 @@ msgstr "垂直的花園非常漂亮。"
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_BLUE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_BLUE.NAME"
 msgid "<link=\"FLOWERVASEWALL\">Dreamy Retro Wall Pot</link>"
-msgstr "<link=\"FLOWERVASEWALL\">夢幻復古牆壁花盆</link>"
+msgstr "<link=\"FLOWERVASEWALL\">夢幻復古壁掛花盆</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_GREEN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_GREEN.DESC"
@@ -7859,7 +7859,7 @@ msgstr "垂直的花園非常漂亮。"
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_GREEN.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_GREEN.NAME"
 msgid "<link=\"FLOWERVASEWALL\">Bright Retro Wall Pot</link>"
-msgstr "<link=\"FLOWERVASEWALL\">明亮復古牆壁花盆</link>"
+msgstr "<link=\"FLOWERVASEWALL\">明亮復古壁掛花盆</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_RED.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_RED.DESC"
@@ -7869,7 +7869,7 @@ msgstr "垂直的花園非常漂亮。"
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_RED.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_RED.NAME"
 msgid "<link=\"FLOWERVASEWALL\">Bold Retro Wall Pot</link>"
-msgstr "<link=\"FLOWERVASEWALL\">醒目復古牆壁花盆</link>"
+msgstr "<link=\"FLOWERVASEWALL\">醒目復古壁掛花盆</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_WHITE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_WHITE.DESC"
@@ -7879,7 +7879,7 @@ msgstr "垂直的花園非常漂亮。"
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_WHITE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_WHITE.NAME"
 msgid "<link=\"FLOWERVASEWALL\">Elegant Retro Wall Pot</link>"
-msgstr "<link=\"FLOWERVASEWALL\">優雅復古牆壁花盆</link>"
+msgstr "<link=\"FLOWERVASEWALL\">優雅復古壁掛花盆</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_YELLOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_YELLOW.DESC"
@@ -7889,7 +7889,7 @@ msgstr "垂直的花園非常漂亮。"
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_YELLOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.FACADES.RETRO_YELLOW.NAME"
 msgid "<link=\"FLOWERVASEWALL\">Sunny Retro Wall Pot</link>"
-msgstr "<link=\"FLOWERVASEWALL\">陽光復古牆壁花盆</link>"
+msgstr "<link=\"FLOWERVASEWALL\">陽光復古壁掛花盆</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.NAME"
@@ -8684,7 +8684,7 @@ msgstr "{Generator}產能過剩"
 #. STRINGS.BUILDINGS.PREFABS.GENERICFABRICATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERICFABRICATOR.DESC"
 msgid "Omniprinters are incapable of printing organic matter."
-msgstr "多工能列印機無法印製有機物質。"
+msgstr "多功能列印機無法印出有機物質。"
 
 #. STRINGS.BUILDINGS.PREFABS.GENERICFABRICATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERICFABRICATOR.EFFECT"
@@ -8699,7 +8699,7 @@ msgstr "<link=\"GENERICFABRICATOR\">多功能列印機</link>"
 #. STRINGS.BUILDINGS.PREFABS.GENESHUFFLER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENESHUFFLER.DESC"
 msgid "A massive synthetic brain, suspended in saline solution.\n\nThere is a chair attached to the device with room for one person."
-msgstr "巨大的合成腦懸浮在生理食鹽水溶液中。\n\n可容納一個人椅子連接到這個設備。"
+msgstr "巨大的合成腦懸浮在生理食鹽水溶液中。\n\n有張椅子連接到這個設備，可容納一個人。"
 
 #. STRINGS.BUILDINGS.PREFABS.GENESHUFFLER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENESHUFFLER.NAME"
@@ -55949,7 +55949,7 @@ msgstr "衝突的房間"
 #. STRINGS.ROOMS.TYPES.CREATUREPEN.DESCRIPTION
 msgctxt "STRINGS.ROOMS.TYPES.CREATUREPEN.DESCRIPTION"
 msgid "Critters don't mind it here, as long as things don't get too crowded.\n\nStabled critters can be tended to in order to improve their happiness, hasten their domestication and increase their production.\n\nEnables the use of Grooming Stations, Shearing Stations, Critter Condos, Critter Fountains and Milking Stations."
-msgstr "小動物不太在意待在這裡，只要不太擁擠即可。\n\n圈養的小動物可以在畜牧站被照料，以加速牠們的馴化並增加牠們的產量。"
+msgstr "小動物不介意待在這裡，只要不太擁擠即可。\n\n圈養的小動物可以在畜牧站被照料，以加速牠們的馴化並增加牠們的產量。"
 
 #. STRINGS.ROOMS.TYPES.CREATUREPEN.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.CREATUREPEN.EFFECT"
@@ -56109,7 +56109,7 @@ msgstr "在機械工廠工作的複製人，可以維護建築物並增加它們
 #. STRINGS.ROOMS.TYPES.MASSAGE_CLINIC.DESCRIPTION
 msgctxt "STRINGS.ROOMS.TYPES.MASSAGE_CLINIC.DESCRIPTION"
 msgid "A soothing space with a very relaxing ambience, especially when well-decorated.\n\nReceiving massages at a Massage Clinic will significantly improve Stress reduction."
-msgstr "一個有著十分放鬆分為的舒適空間，特別是裝飾精美的時候。\n\n在按摩診所接受按摩會大大緩解複製人的壓力。"
+msgstr "一個有著十分放鬆分為的舒適空間，特別是裝飾精美的時候。\n\n在按摩中心接受按摩會大大緩解複製人的壓力。"
 
 #. STRINGS.ROOMS.TYPES.MASSAGE_CLINIC.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.MASSAGE_CLINIC.EFFECT"
@@ -60374,7 +60374,7 @@ msgstr "\n • {0}"
 #. STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_TEMPERATURE
 msgctxt "STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_TEMPERATURE"
 msgid "{0} at {1}"
-msgstr "{0} 處於 {1}"
+msgstr "{0}處於 {1}"
 
 #. STRINGS.UI.DETAILTABS.DETAILS.GROUPNAME_CONTENTS
 msgctxt "STRINGS.UI.DETAILTABS.DETAILS.GROUPNAME_CONTENTS"
@@ -61789,12 +61789,12 @@ msgstr "<link=\"POWER\">電力</link>運用："
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NEGATIVE_TOOLTIP"
 msgid "{0} of <link=\"POWER\">Power</link> was consumed by {1} over the course of the day"
-msgstr "{1} 今天消耗了 {0} 的<link=\"POWER\">電力</link>"
+msgstr "{1}今天消耗了 {0}的<link=\"POWER\">電力</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.POSITIVE_TOOLTIP"
 msgid "{0} of <link=\"POWER\">Power</link> was created by {1} over the course of the day"
-msgstr "{1} 今天生產了 {0} 的<link=\"POWER\">電力</link>"
+msgstr "{1}今天生產了 {0}的<link=\"POWER\">電力</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NAME"
@@ -61804,7 +61804,7 @@ msgstr "<link=\"POWER\">電力</link>浪費："
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NEGATIVE_TOOLTIP"
 msgid "{0} of <link=\"POWER\">Power</link> was lost today due to battery runoff and overproduction in {1}"
-msgstr "今天電池流失與 {1} 生產過剩，浪費了 {0} 的<link=\"POWER\">電力</link>"
+msgstr "今天電池流失與{1}生產過剩，浪費了 {0}的<link=\"POWER\">電力</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.NAME"
@@ -74849,7 +74849,7 @@ msgstr "攻擊工具"
 #. STRINGS.UI.TOOLS.BUILD.NAME
 msgctxt "STRINGS.UI.TOOLS.BUILD.NAME"
 msgid "Build {0}"
-msgstr "建造 {0}"
+msgstr "建造{0}"
 
 #. STRINGS.UI.TOOLS.BUILD.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.BUILD.TOOLACTION"
