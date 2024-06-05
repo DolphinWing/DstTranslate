@@ -754,17 +754,17 @@ msgstr "儲存：{Stored} / {Capacity} 隻小動物"
 #. STRINGS.BUILDING.STATUSITEMS.CRITTERCAPACITY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CRITTERCAPACITY.TOOLTIP"
 msgid "This container is storing <b>{Stored} {StoredUnits}</b> of a maximum <b>{Capacity} {CapacityUnits}</b>"
-msgstr "這個容器儲存了<b>{Stored} {StoredUnits}</b>，最多能儲存<b>{Capacity} {CapacityUnits}</b>"
+msgstr "這個容器儲存了 <b>{Stored} {StoredUnits}</b>，最多能儲存 <b>{Capacity} {CapacityUnits}</b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.CRITTERCAPACITY.UNIT
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CRITTERCAPACITY.UNIT"
 msgid "Critter"
-msgstr "隻小動物"
+msgstr "小動物"
 
 #. STRINGS.BUILDING.STATUSITEMS.CRITTERCAPACITY.UNITS
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CRITTERCAPACITY.UNITS"
 msgid "Critters"
-msgstr "隻小動物"
+msgstr "小動物"
 
 #. STRINGS.BUILDING.STATUSITEMS.CURRENTDOORCONTROLSTATE.AUTO
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CURRENTDOORCONTROLSTATE.AUTO"
@@ -924,7 +924,7 @@ msgstr "使用{ElementTypes}：{FlowRate}"
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTERINPUT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTERINPUT.TOOLTIP"
 msgid "This building is using {ElementTypes} from storage at a rate of <style=\"consumed\">{FlowRate}</style>"
-msgstr "這個建築正以 <style=\"consumed\">{FlowRate}</style> 的速度使用儲存的{ElementTypes}"
+msgstr "這個建築正以 <style=\"consumed\">{FlowRate}</style>的速度使用儲存的{ElementTypes}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTEROUTPUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTEROUTPUT.NAME"
@@ -934,7 +934,7 @@ msgstr "排出{ElementTypes}：{FlowRate}"
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTEROUTPUT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONVERTEROUTPUT.TOOLTIP"
 msgid "This building is releasing {ElementTypes} at a rate of <style=\"produced\">{FlowRate}</style>"
-msgstr "這個建築正以 <style=\"produced\">{FlowRate}</style> 的速度排出{ElementTypes}"
+msgstr "這個建築正以 <style=\"produced\">{FlowRate}</style>的速度排出{ElementTypes}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTEMITTEROUTPUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTEMITTEROUTPUT.NAME"
@@ -944,7 +944,7 @@ msgstr "排出{ElementTypes}：{FlowRate}"
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTEMITTEROUTPUT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTEMITTEROUTPUT.TOOLTIP"
 msgid "This object is releasing {ElementTypes} at a rate of <style=\"produced\">{FlowRate}</style>"
-msgstr "這個目標正以 <style=\"produced\">{FlowRate}</style> 的速度排出{ElementTypes}"
+msgstr "這個目標正以 <style=\"produced\">{FlowRate}</style>的速度排出{ElementTypes}"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGBLOCKEDHIGHPRESSURE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGBLOCKEDHIGHPRESSURE.NAME"
@@ -974,7 +974,7 @@ msgstr "排出 CO<sub>2</sub>：{FlowRate}"
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGCO2.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGCO2.TOOLTIP"
 msgid "Producing <link=\"CARBONDIOXIDE\">Carbon Dioxide</link> at <style=\"produced\">{FlowRate}</style>"
-msgstr "正以 <style=\"produced\">{FlowRate}</style> 的速度生產<link=\"CARBONDIOXIDE\">二氧化碳</link>"
+msgstr "正以 <style=\"produced\">{FlowRate}</style>的速度生產<link=\"CARBONDIOXIDE\">二氧化碳</link>"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGELEMENT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGELEMENT.NAME"
@@ -984,7 +984,7 @@ msgstr "排出{ElementType}：{FlowRate}"
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGELEMENT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGELEMENT.TOOLTIP"
 msgid "Producing {ElementType} at <style=\"produced\">{FlowRate}</style>"
-msgstr "正以 <style=\"produced\">{FlowRate}</style> 的速度生產{ElementType}"
+msgstr "正以 <style=\"produced\">{FlowRate}</style>的速度生產{ElementType}"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.NAME"
@@ -994,7 +994,7 @@ msgstr "排出{Element}：{FlowRate}"
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGGASAVG.TOOLTIP"
 msgid "Producing {Element} at a rate of <style=\"produced\">{FlowRate}</style>"
-msgstr "正以 <style=\"produced\">{FlowRate}</style> 速度生產{Element}"
+msgstr "正以 <style=\"produced\">{FlowRate}</style>的速度生產{Element}"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGLIGHT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGLIGHT.NAME"
@@ -1014,7 +1014,7 @@ msgstr "釋放<link=\"OXYGEN\">氧氣</link>：{FlowRate}"
 #. STRINGS.BUILDING.STATUSITEMS.EMITTINGOXYGENAVG.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMITTINGOXYGENAVG.TOOLTIP"
 msgid "Producing <link=\"OXYGEN\">Oxygen</link> at a rate of <style=\"produced\">{FlowRate}</style>"
-msgstr "正以 <style=\"produced\">{FlowRate}</style> 的速度生產<link=\"OXYGEN\">氧氣</link>"
+msgstr "正以 <style=\"produced\">{FlowRate}</style>的速度生產<link=\"OXYGEN\">氧氣</link>"
 
 #. STRINGS.BUILDING.STATUSITEMS.EMPTYPUMPINGSTATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.EMPTYPUMPINGSTATION.NAME"
@@ -1224,7 +1224,7 @@ msgstr "{toilet}就緒"
 #. STRINGS.BUILDING.STATUSITEMS.FLUSHTOILET.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLUSHTOILET.TOOLTIP"
 msgid "This bathroom is ready to receive visitors"
-msgstr "這間廁所已準備好接客"
+msgstr "這間廁所已準備好迎接客人"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLUSHTOILETINUSE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLUSHTOILETINUSE.NAME"
@@ -3479,17 +3479,17 @@ msgstr "通關：總是允許"
 #. STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALANYTIME.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALANYTIME.TOOLTIP"
 msgid "Suited Duplicants may pass even if there is no room to store their <style=\"KKeyword\">Suits</style>\n\nWhen all available docks are full, Duplicants will unequip their <style=\"KKeyword\">Suits</style> and drop them on the floor"
-msgstr "即使沒有空間可以存放<style=\"KKeyword\">裝備</style>，穿著裝備的複製人也可以通過\n\n當存放櫃全滿時，複製人將會脫下他們的<style=\"KKeyword\">裝備</style> 並丟棄在地上"
+msgstr "即使沒有空間可以存放<style=\"KKeyword\">裝備</style>，穿著裝備的複製人也可以通過\n\n當存放櫃全滿時，複製人將會脫下他們的<style=\"KKeyword\">裝備</style>並丟棄在地上"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALONLYWHENROOMAVAILABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALONLYWHENROOMAVAILABLE.NAME"
 msgid "Clearance: Vacancy Only"
-msgstr "通關：有空間時"
+msgstr "通關：有空位時"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALONLYWHENROOMAVAILABLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALONLYWHENROOMAVAILABLE.TOOLTIP"
 msgid "Suited Duplicants may pass only if there is room in a <style=\"KKeyword\">Dock</style> to store their <style=\"KKeyword\">Suit</style>"
-msgstr "房間內有<style=\"KKeyword\">存放櫃</style>可存放<style=\"KKeyword\">裝備</style> 時，穿著裝備的複製人才能通過"
+msgstr "房間內有<style=\"KKeyword\">存放櫃</style>可存放<style=\"KKeyword\">裝備</style>時，穿著裝備的複製人才能通過"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUITMARKERWRONGSIDE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUITMARKERWRONGSIDE.NAME"
@@ -4374,7 +4374,7 @@ msgstr "探索過去的奧祕。"
 #. STRINGS.BUILDINGS.PREFABS.ARTIFACTANALYSISSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ARTIFACTANALYSISSTATION.EFFECT"
 msgid "Analyses and extracts <link=\"UNOBTANIUM\">Neutronium</link> from artifacts of interest."
-msgstr "分析與抽取文物的 <link=\"UNOBTANIUM\">0 號元素</link>。"
+msgstr "分析與抽取文物的<link=\"UNOBTANIUM\"> 0 號元素</link>。"
 
 #. STRINGS.BUILDINGS.PREFABS.ARTIFACTANALYSISSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ARTIFACTANALYSISSTATION.NAME"
@@ -11789,7 +11789,7 @@ msgstr "<link=\"MASSAGETABLE\">按摩床</link>"
 #. STRINGS.BUILDINGS.PREFABS.MASSIVEHEATSINK.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MASSIVEHEATSINK.EFFECT"
 msgid "A self-sustaining machine powered by what appears to be refined <link=\"UNOBTANIUM\">Neutronium</link>.\n\nAbsorbs and neutralizes <link=\"HEAT\">Heat</link> energy when provided with piped <link=\"HYDROGEN\">Hydrogen Gas</link>."
-msgstr "一種自我維持的機器，似乎是由精煉過的 <link=\"UNOBTANIUM\">0 號元素</link>提供能源。\n\n當透過管線供應<link=\"HYDROGEN\">氫氣</link>時，會吸收與中和<link=\"HEAT\">熱</link>量。"
+msgstr "一種自我維持的機器，似乎是由精煉過的<link=\"UNOBTANIUM\"> 0 號元素</link>提供能源。\n\n當透過管線供應<link=\"HYDROGEN\">氫氣</link>時，會吸收與中和<link=\"HEAT\">熱</link>量。"
 
 #. STRINGS.BUILDINGS.PREFABS.MASSIVEHEATSINK.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MASSIVEHEATSINK.NAME"
@@ -14294,7 +14294,7 @@ msgstr "<link=\"SAUNA\">蒸氣浴室</link>"
 #. STRINGS.BUILDINGS.PREFABS.SCANNERMODULE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCANNERMODULE.DESC"
 msgid "Allows Duplicants to boldly go where other Duplicants haven't been yet."
-msgstr "讓複製人大膽的前往其它複製人從未去過的地方。"
+msgstr "讓複製人大膽地前往其它複製人從未去過的地方。"
 
 #. STRINGS.BUILDINGS.PREFABS.SCANNERMODULE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCANNERMODULE.EFFECT"
@@ -20394,7 +20394,7 @@ msgstr "一些建築可以產生電力。複製人可以在<link=\"MANUALGENERAT
 #. STRINGS.CODEX.POWER.PARAGRAPH_3
 msgctxt "STRINGS.CODEX.POWER.PARAGRAPH_3"
 msgid "Power is measure in Joules when stored in a <link=\"BATTERY\">Battery</link>. Power produced and consumed by buildings is measured in Watts, which are equal to Joules (consumed or produced) per second.\n\nA Battery that stored 5000 Joules could power a building that consumed 240 Watts for about 20 seconds. A generator which produces 480 Watts could power two buildings which consume 240 Watts for as long as it was running.\n\n"
-msgstr "電力在<link=\"BATTERY\">電池</link>中的測量單位是焦耳。建築產生與消耗的測量單位是瓦，每秒單位與焦耳相等（消耗或產生）。\n\n一個電池可儲存 5000 焦耳的電力，供耗電量 240 瓦的建築運作約 20 秒。一台發電機可產生 480 瓦的電力，供兩個耗電量 240 瓦的建築長時間運作。\n\n"
+msgstr "電力在<link=\"BATTERY\">電池</link>中的測量單位是焦耳。建築產生與消耗的測量單位是瓦，每秒單位與焦耳相等（消耗或產生）。\n\n一個電池若儲存 5000 焦耳的電力，供耗電量 240 瓦的建築運作約 20 秒。一台發電機可產生 480 瓦的電力，供兩個耗電量 240 瓦的建築長時間運作。\n\n"
 
 #. STRINGS.CODEX.POWER.PARAGRAPH_4
 msgctxt "STRINGS.CODEX.POWER.PARAGRAPH_4"
@@ -26849,7 +26849,7 @@ msgstr "鱗片生長"
 #. STRINGS.CREATURES.STATS.SCALEGROWTH.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATS.SCALEGROWTH.TOOLTIP"
 msgid "The amount of time required for this critter to regrow its scales"
-msgstr "這隻小動物的毛髮重長回來的所需時間"
+msgstr "這隻小動物的毛髮重長回來所需時間"
 
 #. STRINGS.CREATURES.STATS.THERMALCONDUCTIVITYBARRIER.NAME
 msgctxt "STRINGS.CREATURES.STATS.THERMALCONDUCTIVITYBARRIER.NAME"
@@ -36224,7 +36224,7 @@ msgstr "卡路里"
 #. STRINGS.DUPLICANTS.STATS.CALORIES.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATS.CALORIES.TOOLTIP"
 msgid "This {1} can burn <b>{0}</b> before starving"
-msgstr "{1}在燃燒 {0}後會感到飢餓"
+msgstr "這{1}在燃燒 {0}後會感到飢餓"
 
 #. STRINGS.DUPLICANTS.STATS.DECOR.NAME
 msgctxt "STRINGS.DUPLICANTS.STATS.DECOR.NAME"
@@ -36334,12 +36334,12 @@ msgstr "複製人在<style=\"KKeyword\">壓力</style>達 100% 時，會表現�
 #. STRINGS.DUPLICANTS.STATS.SUBJECTS.CREATURE
 msgctxt "STRINGS.DUPLICANTS.STATS.SUBJECTS.CREATURE"
 msgid "critter"
-msgstr " 隻小動物"
+msgstr "小動物"
 
 #. STRINGS.DUPLICANTS.STATS.SUBJECTS.CREATURE_PLURAL
 msgctxt "STRINGS.DUPLICANTS.STATS.SUBJECTS.CREATURE_PLURAL"
 msgid "critters"
-msgstr " 隻小動物"
+msgstr "小動物"
 
 #. STRINGS.DUPLICANTS.STATS.SUBJECTS.CREATURE_POSSESSIVE
 msgctxt "STRINGS.DUPLICANTS.STATS.SUBJECTS.CREATURE_POSSESSIVE"
@@ -49719,7 +49719,7 @@ msgstr "複製人準備傳送"
 #. STRINGS.MISC.NOTIFICATIONS.WARP_PORTAL_DUPE_READY.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.WARP_PORTAL_DUPE_READY.TOOLTIP"
 msgid "{dupe} is ready to warp from the Teleporter Transmitter"
-msgstr "{dupe} is ready to warp from the Teleporter Transmitter"
+msgstr "{dupe} 已準備好從傳送器發射器被傳送"
 
 #. STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.MESSAGEBODY"
@@ -50244,7 +50244,7 @@ msgstr "休眠"
 #. STRINGS.MISC.STATUSITEMS.SPOUTDORMANT.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.SPOUTDORMANT.TOOLTIP"
 msgid "This geyser's geoactivity has halted\n\nIt won't erupt again for some time"
-msgstr "這個間歇泉的地質活動已經停止\n\n它會停止噴發一段時間"
+msgstr "這個間歇泉的地質活動已經停止\n\n一段時間內不會再噴發"
 
 #. STRINGS.MISC.STATUSITEMS.SPOUTEMITTING.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.SPOUTEMITTING.NAME"
@@ -57574,12 +57574,12 @@ msgstr "冷卻這個建築物的產品，需要使用 <b>{1}</b> <style=\"KKeywo
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DECORDECREASED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DECORDECREASED"
 msgid "Decreases <style=\"KKeyword\">Decor</style> values by <b><b>{0}</b></b> in a <b>{1}</b> tile radius"
-msgstr "在 <b>{1}</b> 格範圍內，減少 <b><b>{0}</b></b> <style=\"KKeyword\">裝飾</style>值"
+msgstr "在 <b>{1}</b> 格範圍內，<style=\"KKeyword\">裝飾</style>值 <b><b>{0}</b></b>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DECORPROVIDED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DECORPROVIDED"
 msgid "Improves <style=\"KKeyword\">Decor</style> values by <b><b>{0}</b></b> in a <b>{1}</b> tile radius"
-msgstr "在 <b>{1}</b> 格範圍內，增加 <b><b>{0}</b></b> <style=\"KKeyword\">裝飾</style>值"
+msgstr "在 <b>{1}</b> 格範圍內，<style=\"KKeyword\">裝飾</style>值 <b><b>{0}</b></b>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_CONSUMED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_CONSUMED"
@@ -57604,7 +57604,7 @@ msgstr "每次使用消耗 <style=\"consumed\">{0}</style>"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DISEASEEMITTEDPERUSE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DISEASEEMITTEDPERUSE"
 msgid "Produces <style=\"produced\">{1}</style> of <style=\"KKeyword\">{0}</style> per use"
-msgstr "每次使用生產<style=\"produced\">{1}</style>的<style=\"KKeyword\">{0}</style>"
+msgstr "每次使用生產 <style=\"produced\">{1}</style>的<style=\"KKeyword\">{0}</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DOCTORING
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DOCTORING"
@@ -57619,47 +57619,47 @@ msgstr "複製人在這種磚塊上行走的速度增加 <b>{0}</b>"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTCONSUMED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTCONSUMED"
 msgid "Consumes <style=\"consumed\">{1}</style> of <style=\"KKeyword\">{0}</style> when in use"
-msgstr "使用時消耗<style=\"consumed\">{1}</style>的<style=\"KKeyword\">{0}</style>"
+msgstr "使用時消耗 <style=\"consumed\">{1}</style> 的<style=\"KKeyword\">{0}</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTCONSUMEDPERUSE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTCONSUMEDPERUSE"
 msgid "Consumes <style=\"consumed\">{1}</style> of <style=\"KKeyword\">{0}</style> per use"
-msgstr "每次使用消耗<style=\"produced\">{1}</style>的<style=\"KKeyword\">{0}</style>"
+msgstr "每次使用消耗 <style=\"produced\">{1}</style> 的<style=\"KKeyword\">{0}</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_ENTITYTEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_ENTITYTEMP"
 msgid "Produces <style=\"produced\">{1}</style> of <style=\"KKeyword\">{0}</style> when in use\n\nIt will be the <style=\"KKeyword\">Temperature</style> of the building at the time of production"
-msgstr "使用時生產<style=\"produced\">{1}</style>的<style=\"KKeyword\">{0}</style>\n\n這是建築在生產時的<style=\"KKeyword\">溫度</style>"
+msgstr "使用時生產 <style=\"produced\">{1}</style>的<style=\"KKeyword\">{0}</style>\n\n這是建築在生產時的<style=\"KKeyword\">溫度</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_FIXEDTEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_FIXEDTEMP"
 msgid "Produces <style=\"produced\">{1}</style> of <style=\"KKeyword\">{0}</style> when in use\n\nIt will be produced at <b>{2}</b>."
-msgstr "使用時生產<style=\"produced\">{1}</style>的<style=\"KKeyword\">{0}</style>\n\n它會用<b>{2}</b>生產。"
+msgstr "使用時生產 <style=\"produced\">{1}</style>的<style=\"KKeyword\">{0}</style>\n\n它會用<b>{2}</b>生產。"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_INPUTTEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_INPUTTEMP"
 msgid "Produces <style=\"produced\">{1}</style> of <style=\"KKeyword\">{0}</style> when in use\n\nIt will be the combined <style=\"KKeyword\">Temperature</style> of the input materials."
-msgstr "使用時生產<style=\"produced\">{1}</style>的<style=\"KKeyword\">{0}</style>\n\n它會加上輸入材料的<style=\"KKeyword\">溫度</style>。"
+msgstr "使用時生產 <style=\"produced\">{1}</style>的<style=\"KKeyword\">{0}</style>\n\n它會加上輸入材料的<style=\"KKeyword\">溫度</style>。"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_MINORENTITYTEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_MINORENTITYTEMP"
 msgid "Produces <style=\"produced\">{1}</style> of <style=\"KKeyword\">{0}</style> when in use\n\nIt will be at least <b>{2}</b>, or hotter if the building is hotter."
-msgstr "使用時生產<style=\"produced\">{1}</style>的<style=\"KKeyword\">{0}</style>\n\n最小溫度為 <b>{2}</b>，如果建築變熱也會跟著升溫。"
+msgstr "使用時生產 <style=\"produced\">{1}</style>的<style=\"KKeyword\">{0}</style>\n\n最小溫度為 <b>{2}</b>，如果建築變熱也會跟著升溫。"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_MINTEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_MINTEMP"
 msgid "Produces <style=\"produced\">{1}</style> of <style=\"KKeyword\">{0}</style> when in use\n\nIt will be at least <b>{2}</b>, or hotter if the input materials are hotter."
-msgstr "使用時生產<style=\"produced\">{1}</style>的<style=\"KKeyword\">{0}</style>\n\n最小溫度為 <b>{2}</b>，如果輸入材料變熱也會跟著升溫。"
+msgstr "使用時生產 <style=\"produced\">{1}</style>的<style=\"KKeyword\">{0}</style>\n\n最小溫度為 <b>{2}</b>，如果輸入材料變熱也會跟著升溫。"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_TOILET
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTED_TOILET"
 msgid "Produces <style=\"produced\">{1}</style> of <style=\"KKeyword\">{0}</style> per use\n\nDuplicant waste is emitted at <b>{2}</b>."
-msgstr "每次使用生產<style=\"produced\">{1}</style>的<style=\"KKeyword\">{0}</style>\n\n複製人排泄時會釋放 <b>{2}</b>。"
+msgstr "每次使用生產 <style=\"produced\">{1}</style>的<style=\"KKeyword\">{0}</style>\n\n複製人排泄時會釋放 <b>{2}</b>。"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTEDPERUSE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ELEMENTEMITTEDPERUSE"
 msgid "Produces <style=\"produced\">{1}</style> of <style=\"KKeyword\">{0}</style> per use\n\nIt will be the <style=\"KKeyword\">Temperature</style> of the input materials."
-msgstr "每次使用生產<style=\"produced\">{1}</style>的<style=\"KKeyword\">{0}</style>\n\n它的溫度等於輸入材料的<style=\"KKeyword\">溫度</style>。"
+msgstr "每次使用生產 <style=\"produced\">{1}</style>的<style=\"KKeyword\">{0}</style>\n\n它的溫度等於輸入材料的<style=\"KKeyword\">溫度</style>。"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ENABLESDOMESTICGROWTH
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ENABLESDOMESTICGROWTH"
@@ -57669,12 +57669,12 @@ msgstr "加速<style=\"KKeyword\">植物</style>生長和成熟"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ENERGYCONSUMED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ENERGYCONSUMED"
 msgid "Draws <style=\"consumed\">{0}</style> from the <style=\"KKeyword\">Power Grid</style> it's connected to"
-msgstr "消耗<style=\"KKeyword\">電力系統</style>中<style=\"consumed\">{0}</style>的電力"
+msgstr "消耗<style=\"KKeyword\">電力系統</style>中 <style=\"consumed\">{0}</style>的電力"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ENERGYGENERATED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ENERGYGENERATED"
 msgid "Produces <style=\"produced\">{0}</style> for the <style=\"KKeyword\">Power Grid</style> it's connected to"
-msgstr "供應<style=\"produced\">{0}</style>的電力給<style=\"KKeyword\">電力系統</style>"
+msgstr "供應 <style=\"produced\">{0}</style>的電力給<style=\"KKeyword\">電力系統</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.FABRICATES
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.FABRICATES"
@@ -57754,17 +57754,17 @@ msgstr "研究員必須分析這個間歇泉以確定它的平均產出率"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_NEXT_ACTIVE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_NEXT_ACTIVE"
 msgid "This geyser will become active in <b>{0}</b>"
-msgstr "這個間歇泉將在 <b>{0}</b> 後噴發"
+msgstr "這個間歇泉將在 <b>{0}</b>後噴發"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_NEXT_DORMANT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_NEXT_DORMANT"
 msgid "This geyser will become dormant in <b>{0}</b>"
-msgstr "這個間歇泉在 <b>{0}</b> 後休眠"
+msgstr "這個間歇泉在 <b>{0}</b>後休眠"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_PERIOD
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_PERIOD"
 msgid "This geyser will be active for <b>{0}</b> out of every <b>{1}</b>\n\nIt will be dormant the rest of the time"
-msgstr "這個間歇泉每隔 <b>{1}</b> 將會噴發 <b>{0}</b>\n\n將在其它時間休眠"
+msgstr "這個間歇泉每隔 <b>{1}</b>將會噴發 <b>{0}</b>\n\n其它時間將會休眠"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_UNSTUDIED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_UNSTUDIED"
@@ -57784,7 +57784,7 @@ msgstr "當環境的<style=\"KKeyword\">溫度</style>在 <b>{0}</b> 之上時�
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED"
 msgid "Generates <style=\"produced\">{0}</style> per second\n\nSum <style=\"KKeyword\">Temperature</style> change is affected by the material attributes of the heated substance:\n    • mass\n    • specific heat capacity\n    • surface area\n    • insulation thickness\n    • thermal conductivity"
-msgstr "每秒產生<style=\"produced\">{0}</style>\n\n總<style=\"KKeyword\">溫度</style>受到加熱物質其材質屬性的影響：\n    • 質量\n    • 比熱\n    • 表面積\n    • 絕緣厚度\n    • 導熱係數"
+msgstr "每秒產生 <style=\"produced\">{0}</style>\n\n總<style=\"KKeyword\">溫度</style>受到加熱物質其材質屬性的影響：\n    • 質量\n    • 比熱\n    • 表面積\n    • 絕緣厚度\n    • 導熱係數"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_AIRCONDITIONER
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATGENERATED_AIRCONDITIONER"
@@ -57924,12 +57924,12 @@ msgstr "用<style=\"KKeyword\">氧氣</style>補充<style=\"KKeyword\">太空衣
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFINEMENT_ENERGY_HAS_COOLANT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFINEMENT_ENERGY_HAS_COOLANT"
 msgid "<style=\"produced\">{0}</style> of <style=\"KKeyword\">Heat</style> will be produced to cool off the fabricated item\n\nThis will raise the <style=\"KKeyword\">Temperature</style> of the contained <style=\"KKeyword\">{1}</style> by <b>{2}</b>, and heat the containing building"
-msgstr "冷卻加工品將會產生 <style=\"produced\">{0}</style> 的<style=\"KKeyword\">熱</style>\n\n<style=\"KKeyword\">{1}</style>的<style=\"KKeyword\">溫度</style>將會提高 <b>{2}</b>，並使建築物變熱"
+msgstr "冷卻加工品將會產生 <style=\"produced\">{0}</style>的<style=\"KKeyword\">熱</style>\n\n<style=\"KKeyword\">{1}</style>的<style=\"KKeyword\">溫度</style>將會提高 <b>{2}</b>，並使建築物變熱"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFINEMENT_ENERGY_NO_COOLANT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFINEMENT_ENERGY_NO_COOLANT"
 msgid "<style=\"produced\">{0}</style> of <style=\"KKeyword\">Heat</style> will be produced to cool off the fabricated item\n\nIf <style=\"KKeyword\">{1}</style> is used for coolant, its <style=\"KKeyword\">Temperature</style> will be raised by <b>{2}</b>, and will heat the containing building"
-msgstr "冷卻加工品將會產生 <style=\"produced\">{0}</style> 的<style=\"KKeyword\">熱</style>\n\n如果<style=\"KKeyword\">{1}</style>被當作冷卻劑，它的<style=\"KKeyword\">溫度</style>將會提高 <b>{2}</b>，並使建築物變熱"
+msgstr "冷卻加工品將會產生 <style=\"produced\">{0}</style>的<style=\"KKeyword\">熱</style>\n\n如果<style=\"KKeyword\">{1}</style>被當作冷卻劑，它的<style=\"KKeyword\">溫度</style>將會提高 <b>{2}</b>，並使建築物變熱"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REMOVEDEFFECT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REMOVEDEFFECT"
@@ -57994,7 +57994,7 @@ msgstr "必須由複製人操作這個設施"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESPOWER
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESPOWER"
 msgid "Must be connected to a power grid with at least <style=\"consumed\">{0}</style> of available <style=\"KKeyword\">Power</style>"
-msgstr "必須連接到電力系統，並最少有 <style=\"consumed\">{0}</style> 的可用<style=\"KKeyword\">電力</style>"
+msgstr "必須連接到電力系統，並最少有 <style=\"consumed\">{0}</style>的可用<style=\"KKeyword\">電力</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESPOWERGENERATOR
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESPOWERGENERATOR"
@@ -58029,7 +58029,7 @@ msgstr "在火箭內部控制操作建築"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH"
 msgid "This critter can be sheared every <b>{Time}</b> to produce <b>{Amount}</b> of <style=\"KKeyword\">{Item}</style>"
-msgstr "這隻小動物每 <b>{Time}</b>可修剪，生產 <b>{Amount}</b><style=\"KKeyword\">{Item}</style>"
+msgstr "這隻小動物每 <b>{Time}</b>可修剪，產生 <b>{Amount}</b><style=\"KKeyword\">{Item}</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_ATMO
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_ATMO"
@@ -58039,12 +58039,12 @@ msgstr "這隻小動物每 <b>{Time}</b>可修剪，產生 <style=\"produced\">{
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_TEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_TEMP"
 msgid "This critter can be sheared every <b>{Time}</b> to produce <style=\"produced\">{Amount}</style> of <style=\"KKeyword\">{Item}</style>\n\nIt must eat food between {TempMin} - {TempMax} to regrow sheared <style=\"KKeyword\">{Item}</style>"
-msgstr "每 <b>{Time}</b>可給這隻小動物修剪以產生 <style=\"produced\">{Amount}</style><style=\"KKeyword\">{Item}</style>\n\n牠必須吃處於 {TempMin}-{TempMax} 的食物才能重新生長剪掉的<style=\"KKeyword\">{Item}</style>"
+msgstr "這隻小動物每 <b>{Time}</b>可修剪，產生 <style=\"produced\">{Amount}</style><style=\"KKeyword\">{Item}</style>\n\n牠必須吃處於 {TempMin}-{TempMax} 的食物才能重新生長剪掉的<style=\"KKeyword\">{Item}</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STORAGECAPACITY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STORAGECAPACITY"
 msgid "Holds up to <b>{0}</b> of material"
-msgstr "儲存了<b>{0}</b>的材料"
+msgstr "儲存了 <b>{0}</b>的材料"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STRESSREDUCEDPERMINUTE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STRESSREDUCEDPERMINUTE"
@@ -58409,7 +58409,7 @@ msgstr "高： "
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_HEIGHT.TOOLTIP
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_HEIGHT.TOOLTIP"
 msgid "The {0} can support a total rocket height {1}"
-msgstr "{0} 可支撐 {1} 層高的火箭"
+msgstr "{0}可支撐 {1} 層高的火箭"
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_MODULES.NAME
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_MODULES.NAME"
@@ -58419,7 +58419,7 @@ msgstr "最大模組數： "
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_MODULES.TOOLTIP
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_MODULES.TOOLTIP"
 msgid "The {0} can support {1} rocket modules, plus itself"
-msgstr "{0} 最大可支撐 {1} 模組（包含自己）"
+msgstr "{0}最大可支撐 {1} 模組（包含自己）"
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.MODULE_STATS.NAME
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.MODULE_STATS.NAME"
@@ -61669,12 +61669,12 @@ msgstr "卡路里生產："
 #. STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.NEGATIVE_TOOLTIP"
 msgid "{0} of <link=\"FOOD\">Food</link> was consumed by {1} over the course of the day"
-msgstr "{1} 一天消耗 {0} 的<link=\"FOOD\">食物</link>"
+msgstr "{1} 一天消耗 {0}的<link=\"FOOD\">食物</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.POSITIVE_TOOLTIP"
 msgid "{0} of <link=\"FOOD\">Food</link> was produced by {1} over the course of the day"
-msgstr "{1} 一天生產 {0} 的<link=\"FOOD\">食物</link>"
+msgstr "{1} 一天生產 {0}的<link=\"FOOD\">食物</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NAME"
@@ -61694,17 +61694,17 @@ msgstr "{1} 被排定 {0} 項工作"
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NAME"
 msgid "<link=\"CONTAMINATEDOXYGEN\">Flatulence</link> Generation:"
-msgstr "<link=\"CONTAMINATEDOXYGEN\">放屁</link> 生產："
+msgstr "<link=\"CONTAMINATEDOXYGEN\">放屁</link>生產："
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP"
 msgid "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was consumed by {1} over the course of the day"
-msgstr "{1} 今天消耗了 {0}<link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
+msgstr "{1} 一天消耗了 {0}的<link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.POSITIVE_TOOLTIP"
 msgid "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was generated by {1} over the course of the day"
-msgstr "{1} 今天產生了 {0}<link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
+msgstr "{1} 一天產生了 {0}的<link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME"
@@ -61714,12 +61714,12 @@ msgstr "<link=\"CONTAMINATEDOXYGEN\">升華</link>："
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NEGATIVE_TOOLTIP"
 msgid "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was consumed by {1} over the course of the day"
-msgstr "{1} 今天消耗了 {0}<link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
+msgstr "{1} 一天消耗了 {0}的<link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.POSITIVE_TOOLTIP"
 msgid "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was generated by {1} over the course of the day"
-msgstr "{1} 今天產生了 {0}<link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
+msgstr "{1} 一天產生了 {0}的<link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NAME"
@@ -61729,12 +61729,12 @@ msgstr "<link=\"CONTAMINATEDOXYGEN\">廁所排放：</link>"
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NEGATIVE_TOOLTIP"
 msgid "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was consumed by {1} over the course of the day"
-msgstr "{1} 今天消耗了 {0}<link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
+msgstr "{1} 一天消耗了 {0}的<link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.POSITIVE_TOOLTIP"
 msgid "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was generated by {1} over the course of the day"
-msgstr "{1} 今天產生了 {0}<link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
+msgstr "{1} 一天產生了 {0}的<link=\"CONTAMINATEDOXYGEN\">汙氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DAY_TITLE
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DAY_TITLE"
@@ -61789,12 +61789,12 @@ msgstr "<link=\"POWER\">電力</link>運用："
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NEGATIVE_TOOLTIP"
 msgid "{0} of <link=\"POWER\">Power</link> was consumed by {1} over the course of the day"
-msgstr "{1}今天消耗了 {0}的<link=\"POWER\">電力</link>"
+msgstr "{1} 今天消耗了 {0}的<link=\"POWER\">電力</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.POSITIVE_TOOLTIP"
 msgid "{0} of <link=\"POWER\">Power</link> was created by {1} over the course of the day"
-msgstr "{1}今天生產了 {0}的<link=\"POWER\">電力</link>"
+msgstr "{1} 今天生產了 {0}的<link=\"POWER\">電力</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NAME"
@@ -61829,7 +61829,7 @@ msgstr "今天 {1} 總共獲得了 {0} 技能點"
 #. STRINGS.UI.ENDOFDAYREPORT.MY_COLONY
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.MY_COLONY"
 msgid "my colony"
-msgstr "殖民地"
+msgstr "我的殖民地"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NET
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NET"
@@ -61944,12 +61944,12 @@ msgstr "馴服動物："
 #. STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_DOMESTICATED_CRITTERS.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_DOMESTICATED_CRITTERS.NEGATIVE_TOOLTIP"
 msgid "{0} domestic critters live in {1}"
-msgstr "{1} 殖民地有 {0}"
+msgstr "{1} 有 {0} 隻馴服動物"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_DOMESTICATED_CRITTERS.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_DOMESTICATED_CRITTERS.POSITIVE_TOOLTIP"
 msgid "{0} domestic critters live in {1}"
-msgstr "{1} 殖民地有 {0}"
+msgstr "{1} 有 {0} 隻馴服動物"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NAME"
@@ -61959,12 +61959,12 @@ msgstr "野生動物："
 #. STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NEGATIVE_TOOLTIP"
 msgid "{0} wild critters live in {1}"
-msgstr "{1} 有 {0} 野生動物"
+msgstr "{1} 有 {0} 隻野生動物"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.POSITIVE_TOOLTIP"
 msgid "{0} wild critters live in {1}"
-msgstr "{1} 有 {0} 野生動物"
+msgstr "{1} 有 {0} 隻野生動物"
 
 #. STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NAME"
@@ -62014,12 +62014,12 @@ msgstr "火箭任務進行中："
 #. STRINGS.UI.ENDOFDAYREPORT.ROCKETS_IN_FLIGHT.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ROCKETS_IN_FLIGHT.NEGATIVE_TOOLTIP"
 msgid "{0} rockets are currently flying missions for {1}"
-msgstr "{0} 火箭正在進行飛行任務 {1}"
+msgstr "{1} 有 {0} 台火箭正在進行飛行任務"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ROCKETS_IN_FLIGHT.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ROCKETS_IN_FLIGHT.POSITIVE_TOOLTIP"
 msgid "{0} rockets are currently flying missions for {1}"
-msgstr "{0} 火箭正在進行飛行任務 {1}"
+msgstr "{1} 有 {0} 台火箭正在進行飛行任務"
 
 #. STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.NAME"
@@ -62299,7 +62299,7 @@ msgstr "返回"
 #. STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.COORDINATE
 msgctxt "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.COORDINATE"
 msgid "Coordinates:"
-msgstr "坐標："
+msgstr "座標："
 
 #. STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.CUSTOMIZE
 msgctxt "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.CUSTOMIZE"
@@ -62339,7 +62339,7 @@ msgstr "沒有特質"
 #. STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.SELECTED_CLUSTER_TRAITS_HEADER
 msgctxt "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.SELECTED_CLUSTER_TRAITS_HEADER"
 msgid "Target Details"
-msgstr "目的地詳細資訊"
+msgstr "目標詳細資訊"
 
 #. STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.SHUFFLE
 msgctxt "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.SHUFFLE"
@@ -64809,17 +64809,17 @@ msgstr "暫停"
 #. STRINGS.UI.FRONTEND.PAUSE_SCREEN.WORLD_SEED
 msgctxt "STRINGS.UI.FRONTEND.PAUSE_SCREEN.WORLD_SEED"
 msgid "Coordinates: {0}"
-msgstr "坐標：{0}"
+msgstr "座標：{0}"
 
 #. STRINGS.UI.FRONTEND.PAUSE_SCREEN.WORLD_SEED_COPY_TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.PAUSE_SCREEN.WORLD_SEED_COPY_TOOLTIP"
 msgid "Copy Coordinates to clipboard\n\nShare coordinates with a friend and they can start a colony on an identical asteroid!"
-msgstr "複製坐標到剪貼簿\n\n將坐標分享給好友，讓他們可以遊玩相同的小行星！"
+msgstr "複製座標到剪貼簿\n\n將座標分享給好友，讓他們可以遊玩相同的小行星！"
 
 #. STRINGS.UI.FRONTEND.PAUSE_SCREEN.WORLD_SEED_TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.PAUSE_SCREEN.WORLD_SEED_TOOLTIP"
 msgid "Share coordinates with a friend and they can start a colony on an identical asteroid!\n\n{0} - The asteroid\n\n{1} - The world seed\n\n{2} - Difficulty and Custom settings\n\n{3} - Story Trait settings"
-msgstr "將坐標分享給好友，讓他們可以遊玩相同的小行星！\n\n{0}－這個小行星\n\n{1}－這個世界種子\n\n{2}－難度與自訂設定\n\n{3} - 故事特質設定"
+msgstr "將座標分享給好友，讓他們可以遊玩相同的小行星！\n\n{0}－這個小行星\n\n{1}－這個世界種子\n\n{2}－難度與自訂設定\n\n{3} - 故事特質設定"
 
 #. STRINGS.UI.FRONTEND.RAILFORCEQUIT.DLC_NOT_PURCHASED
 msgctxt "STRINGS.UI.FRONTEND.RAILFORCEQUIT.DLC_NOT_PURCHASED"
@@ -65674,7 +65674,7 @@ msgstr "這株植物需要 <b>{1}</b> <style=\"KKeyword\">{0}</style>才能成�
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.IDEAL_PRESSURE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.IDEAL_PRESSURE"
 msgid "This plant requires <style=\"KKeyword\">Gas</style> pressures above <b>{0}</b> for basic growth"
-msgstr "這株植物需要 <b>{0}</b> 以上的<style=\"KKeyword\">氣壓</style>才能成長"
+msgstr "這株植物需要 <b>{0}</b>以上的<style=\"KKeyword\">氣壓</style>才能成長"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.IDEAL_TEMPERATURE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.IDEAL_TEMPERATURE"
@@ -65684,7 +65684,7 @@ msgstr "這株植物內部<style=\"KKeyword\">溫度</style>必須保持在 <b>{
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.INITIALGROWTHTIME
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.INITIALGROWTHTIME"
 msgid "This plant takes <b>{0}</b> to mature again once replanted"
-msgstr "這株植物重新種植後，需要 <b>{0}</b> 才能成熟"
+msgstr "這株植物重新種植後，需要 <b>{0}</b>才能成熟"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.METEOR_SHOWER_SINGLE_METEOR_PERCENTAGE_TOOLTIP
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.METEOR_SHOWER_SINGLE_METEOR_PERCENTAGE_TOOLTIP"
@@ -65704,7 +65704,7 @@ msgstr "由於基因的改變，這株植物將不會產出種子"
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REGROWTHTIME
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REGROWTHTIME"
 msgid "This plant takes <b>{0}</b> to mature again once harvested"
-msgstr "這株植物收成後，需要 <b>{0}</b> 才能成熟"
+msgstr "這株植物收成後，需要 <b>{0}</b>才能再成熟"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_ATMOSPHERE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_ATMOSPHERE"
@@ -65734,12 +65734,12 @@ msgstr "這株植物需要至少 {Lux} 的<style=\"KKeyword\">光源</style>"
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_NO_MIN_RADIATION
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_NO_MIN_RADIATION"
 msgid "This plant will stop growing if exposed to more than {MaxRads} of <link=\"RADIATION\">Radiation</link>"
-msgstr "如果這株植物暴露於<link=\"RADIATION\">輻射</link>高於 {MaxRads} 的環境會停止生長"
+msgstr "如果這株植物暴露於<link=\"RADIATION\">輻射</link>高於 {MaxRads}的環境會停止生長"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_PRESSURE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_PRESSURE"
 msgid "Ambient <style=\"KKeyword\">Gas</style> pressure must be at least <b>{0}</b> for basic growth"
-msgstr "環境<style=\"KKeyword\">氣壓</style>必須不少於 <b>{0}</b> 才能成長"
+msgstr "環境<style=\"KKeyword\">氣壓</style>必須不少於 <b>{0}</b>才能成長"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_RADIATION
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_RADIATION"
@@ -73489,7 +73489,7 @@ msgstr "望遠鏡目標"
 #. STRINGS.UI.SPACEDESTINATIONS.WORMHOLE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.WORMHOLE.DESCRIPTION"
 msgid "The source of our misfortune, though it may also be our shot at freedom. Traces of Neutronium are detectable in my readings."
-msgstr "我們不幸的根源，同時也是我們自由的機會。"
+msgstr "我們不幸的根源，同時也是我們自由的機會。在我的讀數中可以偵測到 0 號元素的痕跡。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.WORMHOLE.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.WORMHOLE.NAME"
@@ -73499,17 +73499,17 @@ msgstr "時空裂縫"
 #. STRINGS.UI.SPEED_FAST
 msgctxt "STRINGS.UI.SPEED_FAST"
 msgid "FAST"
-msgstr "快速"
+msgstr "3 倍"
 
 #. STRINGS.UI.SPEED_MEDIUM
 msgctxt "STRINGS.UI.SPEED_MEDIUM"
 msgid "MEDIUM"
-msgstr "中速"
+msgstr "2 倍"
 
 #. STRINGS.UI.SPEED_SLOW
 msgctxt "STRINGS.UI.SPEED_SLOW"
 msgid "SLOW"
-msgstr "慢速"
+msgstr "1 倍"
 
 #. STRINGS.UI.STARMAP.ANALYSIS_AMOUNT
 msgctxt "STRINGS.UI.STARMAP.ANALYSIS_AMOUNT"
@@ -73534,12 +73534,12 @@ msgstr "分析目標"
 #. STRINGS.UI.STARMAP.CAN_CARRY_ELEMENT
 msgctxt "STRINGS.UI.STARMAP.CAN_CARRY_ELEMENT"
 msgid "Gathered by: {1}"
-msgstr "採集於：{1}"
+msgstr "採集者：{1}"
 
 #. STRINGS.UI.STARMAP.CANT_CARRY_ELEMENT
 msgctxt "STRINGS.UI.STARMAP.CANT_CARRY_ELEMENT"
 msgid "{0} installation required to retrieve material"
-msgstr "取要安裝{0}才能採集材料"
+msgstr "需要安裝{0}才能採集材料"
 
 #. STRINGS.UI.STARMAP.CANT_LAUNCH_MISSION
 msgctxt "STRINGS.UI.STARMAP.CANT_LAUNCH_MISSION"
@@ -73609,7 +73609,7 @@ msgstr "目前質量"
 #. STRINGS.UI.STARMAP.CURRENT_MASS_TOOLTIP
 msgctxt "STRINGS.UI.STARMAP.CURRENT_MASS_TOOLTIP"
 msgid "Warning: Missions to this destination will not return a full cargo load to avoid depleting the destination for future explorations\n\nDestination: {0} Resources Available\nRocket Capacity: {1}"
-msgstr "警告：到此目的地進行任務，將無法裝滿貨艙，要避免耗盡，請在未來探索此目的地。\n\n目的地：{0} 資源可用。\n火箭容量：{1}"
+msgstr "警告：到此目的地進行任務將無法裝滿貨艙，避免耗盡目的地以保留未來探索。\n\n目的地：{0} 資源可用。\n火箭容量：{1}"
 
 #. STRINGS.UI.STARMAP.DEFAULT_NAME
 msgctxt "STRINGS.UI.STARMAP.DEFAULT_NAME"
@@ -73619,22 +73619,22 @@ msgstr "火箭"
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION.NOTSELECTED
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.NOTSELECTED"
 msgid "Destination set"
-msgstr "設定目的地"
+msgstr "目的地已設"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION.REACHABLE
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.REACHABLE"
 msgid "Destination set"
-msgstr "設定目的地"
+msgstr "目的地已設"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION.UNREACHABLE
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.UNREACHABLE"
 msgid "Destination set"
-msgstr "設定目的地"
+msgstr "目的地已設"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.NOTSELECTED
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.NOTSELECTED"
 msgid "Select the rocket's Command Module to set a destination"
-msgstr "選擇火箭的騎駛模組來設定一個目的地"
+msgstr "選擇火箭的指揮艙來設定一個目的地"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.REACHABLE
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.REACHABLE"
@@ -73644,7 +73644,7 @@ msgstr "目的地可到達，準備發射"
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.UNREACHABLE
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.UNREACHABLE"
 msgid "The selected destination is beyond rocket reach"
-msgstr "選擇的目的地火箭無法到達"
+msgstr "火箭無法到達選擇的目的地"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSTUDY.LOWERATMO
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSTUDY.LOWERATMO"
@@ -73704,7 +73704,7 @@ msgstr "燃料艙未滿"
 #. STRINGS.UI.STARMAP.EMPTYTANK.TOOLTIP
 msgctxt "STRINGS.UI.STARMAP.EMPTYTANK.TOOLTIP"
 msgid "Fuel tank must be filled before launch"
-msgstr "必須在發射前裝滿燃料箱"
+msgstr "必須在發射前裝滿燃料艙"
 
 #. STRINGS.UI.STARMAP.FULLOXIDIZERTANK.NAME
 msgctxt "STRINGS.UI.STARMAP.FULLOXIDIZERTANK.NAME"
@@ -73859,27 +73859,27 @@ msgstr "全部機組人員登機"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.FAILURE"
 msgid "Clear launch path"
-msgstr "清除發射路徑"
+msgstr "清空發射路徑"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.READY"
 msgid "Clear launch path"
-msgstr "清除發射路徑"
+msgstr "清空發射路徑"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.WARNING"
 msgid "Clear launch path"
-msgstr "清除發射路徑"
+msgstr "清空發射路徑"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.FAILURE"
 msgid "This rocket does not have a clear line of sight to space, preventing launch\n\nThe rocket's launch path can be cleared by excavating undug tiles and deconstructing any buildings above the rocket"
-msgstr "這枚火箭沒有清楚的太空視野，中斷發射\n\n清除這枚火箭發射路徑上方的格子與任何建築"
+msgstr "這枚火箭沒有清楚的太空視野，中斷發射\n\n清除這枚火箭發射路徑上方的磚塊與任何建築"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.READY"
 msgid "The rocket's launch path is clear for takeoff"
-msgstr "這枚火箭的發射路徑已清楚可以升空"
+msgstr "這枚火箭的發射路徑已淨空可以起飛"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CARGO_BAY_FOR_NOSECONE_HARVEST.STATUS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CARGO_BAY_FOR_NOSECONE_HARVEST.STATUS.FAILURE"
@@ -74094,7 +74094,7 @@ msgstr "著陸艙準備"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.TOOLTIP.FAILURE"
 msgid "Additional landers must be constructed to fulfill the lander requests of this rocket"
-msgstr "必須建造額外的起落架，以滿足這枚火箭的著陸需求"
+msgstr "必須建造額外的著陸艙，以滿足這枚火箭的著陸需求"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.TOOLTIP.READY"
@@ -74809,7 +74809,7 @@ msgstr "<b>{0}</b>"
 #. STRINGS.UI.TABLESCREENS.GOTO_DUPLICANT_BUTTON
 msgctxt "STRINGS.UI.TABLESCREENS.GOTO_DUPLICANT_BUTTON"
 msgid "Double-(ClickType/click) to go to <b>{0}</b>"
-msgstr "(ClickType/click)兩下前往<b>{0}</b>"
+msgstr "(ClickType/click)兩下前往 <b>{0}</b>"
 
 #. STRINGS.UI.TABLESCREENS.INFORMATION_NOT_AVAILABLE_TOOLTIP
 msgctxt "STRINGS.UI.TABLESCREENS.INFORMATION_NOT_AVAILABLE_TOOLTIP"
@@ -76114,17 +76114,17 @@ msgstr "(ClickType/Click)排序"
 #. STRINGS.UI.TOOLTIPS.SPEEDBUTTON_FAST
 msgctxt "STRINGS.UI.TOOLTIPS.SPEEDBUTTON_FAST"
 msgid "Fast speed {Hotkey}"
-msgstr "快速 {Hotkey}"
+msgstr "3 倍速 {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.SPEEDBUTTON_MEDIUM
 msgctxt "STRINGS.UI.TOOLTIPS.SPEEDBUTTON_MEDIUM"
 msgid "Medium speed {Hotkey}"
-msgstr "中速 {Hotkey}"
+msgstr "2 倍速 {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.SPEEDBUTTON_SLOW
 msgctxt "STRINGS.UI.TOOLTIPS.SPEEDBUTTON_SLOW"
 msgid "Slow speed {Hotkey}"
-msgstr "慢速 {Hotkey}"
+msgstr "1 倍速 {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.STATSPANEL
 msgctxt "STRINGS.UI.TOOLTIPS.STATSPANEL"
@@ -76164,7 +76164,7 @@ msgstr "取消暫停 {Hotkey}"
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_ATMOSPHERE
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_ATMOSPHERE"
 msgid "This plant is immersed in {element}"
-msgstr "這株植物處在{element}"
+msgstr "這株植物正處在{element}"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_DROWNING_FALSE
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_DROWNING_FALSE"
@@ -76179,7 +76179,7 @@ msgstr "這株植物未被淹沒"
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_FERTILIZER
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_FERTILIZER"
 msgid "<b>{mass}</b> of <style=\"KKeyword\">Fertilizer</style> is currently available"
-msgstr "目前有 <b>{mass}</b> 的<style=\"KKeyword\">肥料</style>可用"
+msgstr "目前有 <b>{mass}</b>的<style=\"KKeyword\">肥料</style>可用"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_ILLUMINATION_DARK
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_ILLUMINATION_DARK"
@@ -76194,7 +76194,7 @@ msgstr "這株植物正在發光"
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_IRRIGATION
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_IRRIGATION"
 msgid "<b>{mass}</b> of <style=\"KKeyword\">Liquid</style> is currently available"
-msgstr "目前有 <b>{mass}</b> <style=\"KKeyword\">液體</style>可用"
+msgstr "目前有 <b>{mass}</b>的<style=\"KKeyword\">液體</style>可用"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_PRESSURE
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_PRESSURE"
@@ -76204,22 +76204,22 @@ msgstr "目前的<style=\"KKeyword\">氣壓</style>是 <b>{pressure}</b>"
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RADIATION
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RADIATION"
 msgid "This plant is sitting in <b>{rads}</b> of ambient <style=\"KKeyword\">Radiation</style>. It needs at between {minRads} and {maxRads} to grow"
-msgstr "這株植物位於 <b>{rads}</b> 的<style=\"KKeyword\">輻射環境</style>中。\n需要在 {minRads} 與 {maxRads} 之間才能生長"
+msgstr "這株植物位於 <b>{rads}</b>的<style=\"KKeyword\">輻射環境</style>中。\n需要在 {minRads} 與 {maxRads} 之間才能生長"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RADIATION_NO_MIN
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RADIATION_NO_MIN"
 msgid "This plant is sitting in <b>{rads}</b> of ambient <style=\"KKeyword\">Radiation</style>. It needs less than {maxRads} to grow"
-msgstr "這株植物位於 <b>{rads}</b> 的<style=\"KKeyword\">輻射環境</style>中。\n需少於 {maxRads} 才能生長"
+msgstr "這株植物位於 <b>{rads}</b>的<style=\"KKeyword\">輻射環境</style>中。\n需少於 {maxRads} 才能生長"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RECEPTACLE_INOPERATIONAL
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RECEPTACLE_INOPERATIONAL"
 msgid "This plant is not housed in an operational farm plot"
-msgstr "這株植物未被種植在一個可操作的農田"
+msgstr "這株植物未被種植在一個可運作的農田"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RECEPTACLE_OPERATIONAL
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RECEPTACLE_OPERATIONAL"
 msgid "This plant is housed in an operational farm plot"
-msgstr "這株植物被種植在一個可操作的農田"
+msgstr "這株植物被種植在一個可運作的農田"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_SUBMERGED_FALSE
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_SUBMERGED_FALSE"
@@ -78519,7 +78519,7 @@ msgstr "基礎植物的最低生長條件"
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.YIELD
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.YIELD"
 msgid "<link=\"KCAL\">{2}</link> produced [<link=\"KCAL\">{1}</link> / unit]"
-msgstr "<link=\"KCAL\">{2}</link>生產【<link=\"KCAL\">{1}</link> / 每單位】"
+msgstr "生產 <link=\"KCAL\">{2}</link>【<link=\"KCAL\">{1}</link> / 單位】"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.YIELD_NONFOOD
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.YIELD_NONFOOD"
@@ -78669,17 +78669,17 @@ msgstr "軌道炮設定"
 #. STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO
 msgctxt "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO"
 msgid "{0} to {1}"
-msgstr "{0} 製成 {1}"
+msgstr "{0}製成{1}"
 
 #. STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO_COMPOSITE
 msgctxt "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO_COMPOSITE"
 msgid "{0} to {1} and {2}"
-msgstr "{0} 製成 {1} 與 {2}"
+msgstr "{0}製成{1}與{2}"
 
 #. STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO_COMPOSITE_INCLUDE_AMOUNTS
 msgctxt "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO_COMPOSITE_INCLUDE_AMOUNTS"
 msgid "{3} {0} to {4} {1} and {5} {2}"
-msgstr "{3} {0} 製成 {4} {1} 與 {5} {2}"
+msgstr "{3} {0}製成 {4} {1}與 {5} {2}"
 
 #. STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO_HEP
 msgctxt "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO_HEP"
@@ -78689,12 +78689,12 @@ msgstr "將 {0} 製成<link=\"RADIATION\">輻射</link>與 {1}"
 #. STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO_HEP_INCLUDE_AMOUNTS
 msgctxt "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO_HEP_INCLUDE_AMOUNTS"
 msgid "{2} {0} to {3} <link=\"RADIATION\">Radbolts</link> and {4} {1}"
-msgstr "將 {2} {0} 製成 {3}<link=\"RADIATION\">輻射粒子</link>與 {4} {1}"
+msgstr "將 {2} {0}製成 {3} <link=\"RADIATION\">輻射粒子</link>與 {4} {1}"
 
 #. STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO_INCLUDE_AMOUNTS
 msgctxt "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO_INCLUDE_AMOUNTS"
 msgid "{2} {0} to {3} {1}"
-msgstr "{2} {0} 製成 {3} {1}"
+msgstr "{2} {0}製成 {3} {1}"
 
 #. STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO_WITH_NEWLINES
 msgctxt "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO_WITH_NEWLINES"
