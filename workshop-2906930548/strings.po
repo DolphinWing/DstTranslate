@@ -6339,12 +6339,12 @@ msgstr "<link=\"DOOR\">透氣門</link>"
 #. STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_NOT_REQUIRED
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_NOT_REQUIRED"
 msgid "<link=\"ATMOSUIT\">Atmo Suit</link> not required {0}"
-msgstr "<link=\"ATMOSUIT\">太空衣</link>不需要 {0}"
+msgstr "<link=\"ATMOSUIT\">太空衣</link>不需要{0}"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_REQUIRED
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_REQUIRED"
 msgid "<link=\"ATMOSUIT\">Atmo Suit</link> required {0}"
-msgstr "<link=\"ATMOSUIT\">太空衣</link>需要 {0}"
+msgstr "<link=\"ATMOSUIT\">太空衣</link>需要{0}"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.RIGHT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.RIGHT"
@@ -6909,7 +6909,7 @@ msgstr "如果非要知道的話，這是無子的。"
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.GRAPES.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.GRAPES.NAME"
 msgid "<link=\"EXTERIORWALL\">Grape Escape</link>"
-msgstr "<link=\"EXTERIORWALL\">葡萄逍遙</link>"
+msgstr "<link=\"EXTERIORWALL\">葡萄大逃亡</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.KITCHEN_RETRO1.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.KITCHEN_RETRO1.DESC"
@@ -6954,12 +6954,12 @@ msgstr "<link=\"EXTERIORWALL\">泥糕印花</link>"
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.ORANGE_JUICE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.ORANGE_JUICE.DESC"
 msgid "If the liquids never hit the floor, is it really a spill?"
-msgstr "如果液體沒落到地面上，那還能叫溢位嗎？"
+msgstr "如果液體沒落到地面上，那還能叫溢出嗎？"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.ORANGE_JUICE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.ORANGE_JUICE.NAME"
 msgid "<link=\"EXTERIORWALL\">Infinite Spill</link>"
-msgstr "<link=\"EXTERIORWALL\">無限溢位</link>"
+msgstr "<link=\"EXTERIORWALL\">無限溢出</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.PAINT_BLOTS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.PAINT_BLOTS.DESC"
@@ -6969,7 +6969,7 @@ msgstr "這裡沒有錯誤，只有歡快的小汙漬。"
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.PAINT_BLOTS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.PAINT_BLOTS.NAME"
 msgid "<link=\"EXTERIORWALL\">Happy Accidents</link>"
-msgstr "<link=\"EXTERIORWALL\">快樂事故</link>"
+msgstr "<link=\"EXTERIORWALL\">快樂意外</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.PASTELBLUE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.FACADES.PASTELBLUE.DESC"
@@ -30779,7 +30779,7 @@ msgstr "目前工作"
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CURRENTLY_PEEING
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CURRENTLY_PEEING"
 msgid "Currently Peeing"
-msgstr "正在小便"
+msgstr "正在方便"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.DOCTOR_AVAILABLE
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.DOCTOR_AVAILABLE"
@@ -32309,7 +32309,7 @@ msgstr "無"
 #. STRINGS.DUPLICANTS.DISEASES.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.NOTIFICATION_TOOLTIP"
 msgid "{0} contracted {1} from: {2}"
-msgstr "{0} 因{1}導致{2}"
+msgstr "{0} 因{2}導致{1}"
 
 #. STRINGS.DUPLICANTS.DISEASES.POLLENGERMS.DESC
 msgctxt "STRINGS.DUPLICANTS.DISEASES.POLLENGERMS.DESC"
@@ -33849,7 +33849,7 @@ msgstr "這名複製人持續受傷感到有點不舒服"
 #. STRINGS.DUPLICANTS.MODIFIERS.LONER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.LONER.NAME"
 msgid "Alone"
-msgstr "孤單"
+msgstr "獨處"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.LONER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.LONER.TOOLTIP"
@@ -33894,12 +33894,12 @@ msgstr "接觸到刺激性的液體或氣體"
 #. STRINGS.DUPLICANTS.MODIFIERS.MAJORIRRITATION.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MAJORIRRITATION.NAME"
 msgid "Major Eye Irritation"
-msgstr "重度眼睛刺激"
+msgstr "眼睛極度不適"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MAJORIRRITATION.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MAJORIRRITATION.TOOLTIP"
 msgid "Woah, something really messed up this Duplicant's eyes!\n\nCaused by exposure to a harsh liquid or gas"
-msgstr "哇，複製人的眼睛受到了刺激！\n\n因暴露於嚴酷的液體與氣體環境導致"
+msgstr "哇，複製人的眼睛受到了刺激！\n\n因接觸到強烈的液體或氣體導致"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MANAGEDCOLONY.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MANAGEDCOLONY.NAME"
@@ -34219,7 +34219,7 @@ msgstr "耳膜炸裂"
 #. STRINGS.DUPLICANTS.MODIFIERS.POPPEDEARDRUMS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.POPPEDEARDRUMS.TOOLTIP"
 msgid "This Duplicant was exposed to an over-pressurized area that popped their eardrums"
-msgstr "這名複製人暴露在高壓區域，他的耳膜脹痛著"
+msgstr "這名複製人暴露在過壓環境，耳膜脹痛著"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.POSTDISEASERECOVERY.ADDITIONAL_EFFECTS
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.POSTDISEASERECOVERY.ADDITIONAL_EFFECTS"
@@ -34884,7 +34884,7 @@ msgstr "受迫"
 #. STRINGS.DUPLICANTS.MODIFIERS.THRIVER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.THRIVER.TOOLTIP"
 msgid "This Duplicant is <style=\"KKeyword\">Stressed</style> and has kicked into hyperdrive"
-msgstr "這些複製人<style=\"KKeyword\">壓力</style>很大，已進入\"超效率\"狀態"
+msgstr "這名複製人<style=\"KKeyword\">壓力</style>大到已經進入「超光速」狀態"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TIME_REMAINING
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TIME_REMAINING"
@@ -35994,7 +35994,7 @@ msgstr "<link=\"PYROTECHNICS\">火工技藝</link>"
 #. STRINGS.DUPLICANTS.ROLES.RANCHER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.RANCHER.DESCRIPTION"
 msgid "Allows a Duplicant to handle and care for <link=\"CREATURES\">Critters</link>"
-msgstr "允許複製人飼養 <link=\"CREATURES\">動物</link>"
+msgstr "允許複製人飼養<link=\"CREATURES\">小動物</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.RANCHER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.RANCHER.NAME"
@@ -36029,7 +36029,7 @@ msgstr "讓複製人可以拆除引力科技遺跡"
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_BUILDER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_BUILDER.NAME"
 msgid "<link=\"BUILDING3\">Demolition</link>"
-msgstr "<link=\"BUILDING3\">拆除遺跡</link>"
+msgstr "<link=\"BUILDING3\">拆毀遺跡</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_FARMER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_FARMER.DESCRIPTION"
@@ -36049,7 +36049,7 @@ msgstr "訓練複製人操作<link=\"ADVANCEDDOCTORSTATION\">回復倉</link>"
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_MEDIC.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_MEDIC.NAME"
 msgid "<link=\"MEDICINE3\">Advanced Medical Care</link>"
-msgstr "<link=\"MEDICINE3\">高級醫療照顧</link>"
+msgstr "<link=\"MEDICINE3\">進階醫療照顧</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.DESCRIPTION"
@@ -38994,7 +38994,7 @@ msgstr "讓複製人可以拆除引力科技遺跡"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.NAME"
 msgid "Skilled: <link=\"BUILDING3\">Demolition</link>"
-msgstr "掌握技能：<link=\"BUILDING3\">拆除遺跡</link>"
+msgstr "掌握技能：<link=\"BUILDING3\">拆毀遺跡</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.SHORT_DESC"
@@ -39214,7 +39214,7 @@ msgstr "訓練複製人操作<link=\"ADVANCEDDOCTORSTATION\">回復倉</link>"
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.NAME"
 msgid "Skilled: <link=\"MEDICINE3\">Advanced Medical Care</link>"
-msgstr "掌握技能：<link=\"MEDICINE3\">高級醫療照顧</link>"
+msgstr "掌握技能：<link=\"MEDICINE3\">進階醫療照顧</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MEDICINE3.SHORT_DESC"
@@ -39249,7 +39249,7 @@ msgstr "這名複製人獲得免費的<style=\"KKeyword\">技能</style>而不�
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING2.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING2.DESC"
 msgid "Allows the excavation of the element <link=\"KATAIRITE\">Abyssalite</link>"
-msgstr "可挖掘 <link=\"KATAIRITE\">深淵水晶</link>"
+msgstr "可挖掘<link=\"KATAIRITE\">深淵水晶</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING2.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING2.NAME"
@@ -39529,7 +39529,7 @@ msgstr "綠拇指"
 #. STRINGS.DUPLICANTS.TRAITS.HAPPYSINGER.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.HAPPYSINGER.DESC"
 msgid "This Duplicant belts out catchy tunes when they are <style=\"KKeyword\">Overjoyed</style>"
-msgstr "當他們<style=\"KKeyword\">欣喜若狂</style>時，這名複製人會高興的歌唱"
+msgstr "當他們<style=\"KKeyword\">欣喜若狂</style>時，這名複製人會高興地歌唱"
 
 #. STRINGS.DUPLICANTS.TRAITS.HAPPYSINGER.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.HAPPYSINGER.NAME"
@@ -39654,7 +39654,7 @@ msgstr "流星雨期間：全部<style=\"KKeyword\">屬性</style> <b>+3</b>"
 #. STRINGS.DUPLICANTS.TRAITS.MOLEHANDS.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.MOLEHANDS.DESC"
 msgid "They're great for tunneling, but finding good gloves is a nightmare"
-msgstr "這雙手對挖掘隧道有莫大幫助，但對手套來說是一場惡夢"
+msgstr "這雙手對挖掘隧道有莫大幫助，但找到合適的手套卻極度困難"
 
 #. STRINGS.DUPLICANTS.TRAITS.MOLEHANDS.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.MOLEHANDS.NAME"
@@ -39689,7 +39689,7 @@ msgstr "經常突然睡著"
 #. STRINGS.DUPLICANTS.TRAITS.NARCOLEPSY.SHORT_DESC_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NARCOLEPSY.SHORT_DESC_TOOLTIP"
 msgid "This Duplicant's work will be periodically interrupted by naps"
-msgstr "這名複製人的工作會被嗜睡症打斷"
+msgstr "這名複製人的工作會被不受控制的瞌睡打斷"
 
 #. STRINGS.DUPLICANTS.TRAITS.NEEDS.CLAUSTROPHOBIC.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NEEDS.CLAUSTROPHOBIC.DESC"
@@ -39704,7 +39704,7 @@ msgstr "幽閉恐懼症"
 #. STRINGS.DUPLICANTS.TRAITS.NEEDS.CLIMACOPHOBIC.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NEEDS.CLIMACOPHOBIC.DESC"
 msgid "Climbing ladders more than four tiles tall makes this Duplicant's stomach do flips"
-msgstr "爬超過四格梯子，會讓這名複製人的胃翻滾"
+msgstr "當這名複製人爬超過四格梯子時，會感到胃裡翻騰"
 
 #. STRINGS.DUPLICANTS.TRAITS.NEEDS.CLIMACOPHOBIC.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NEEDS.CLIMACOPHOBIC.NAME"
@@ -39714,7 +39714,7 @@ msgstr "懼高症"
 #. STRINGS.DUPLICANTS.TRAITS.NEEDS.FASHIONABLE.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NEEDS.FASHIONABLE.DESC"
 msgid "This Duplicant dies a bit inside when forced to wear unstylish clothing"
-msgstr "當這名複製人被迫穿著不合時宜的衣服時，他的內心死了"
+msgstr "當這名複製人被迫穿著不合時宜的衣服時，他感到極度沮喪"
 
 #. STRINGS.DUPLICANTS.TRAITS.NEEDS.FASHIONABLE.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NEEDS.FASHIONABLE.NAME"
@@ -39724,7 +39724,7 @@ msgstr "時尚達人"
 #. STRINGS.DUPLICANTS.TRAITS.NEEDS.PREFERSCOOLER.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NEEDS.PREFERSCOOLER.DESC"
 msgid "This Duplicant has some extra <style=\"KKeyword\">Insulation</style>, so the room <style=\"KKeyword\">Temperature</style> affects them a little less"
-msgstr "這名複製人有一些額外的<style=\"KKeyword\">絕緣</style>層，所以<style=\"KKeyword\">室溫</style>對他們的影響效小"
+msgstr "這名複製人有一些額外的<style=\"KKeyword\">隔熱</style>層，所以外部<style=\"KKeyword\">溫度</style>對他們的影響效小"
 
 #. STRINGS.DUPLICANTS.TRAITS.NEEDS.PREFERSCOOLER.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NEEDS.PREFERSCOOLER.NAME"
@@ -39734,7 +39734,7 @@ msgstr "圓滾滾"
 #. STRINGS.DUPLICANTS.TRAITS.NEEDS.PREFERSWARMER.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NEEDS.PREFERSWARMER.DESC"
 msgid "This Duplicant doesn't have much <style=\"KKeyword\">Insulation</style>, so they are more <style=\"KKeyword\">Temperature</style> sensitive than others"
-msgstr "這名複製人沒有太多的<style=\"KKeyword\">絕緣</style>層，所以比其他人對<style=\"KKeyword\">溫度</style>更敏感"
+msgstr "這名複製人沒有太多的<style=\"KKeyword\">隔熱</style>層，所以比其他人對<style=\"KKeyword\">溫度</style>更敏感"
 
 #. STRINGS.DUPLICANTS.TRAITS.NEEDS.PREFERSWARMER.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NEEDS.PREFERSWARMER.NAME"
@@ -39874,7 +39874,7 @@ msgstr "無法執行<b>{0}工作</b>"
 #. STRINGS.DUPLICANTS.TRAITS.REGENERATION.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.REGENERATION.DESC"
 msgid "This robust Duplicant is constantly regenerating health"
-msgstr "這個強韌的複製人具有持續的生命恢復能力"
+msgstr "這強壯的複製人擁有驚人的再生能力，能夠持續恢復生命值。"
 
 #. STRINGS.DUPLICANTS.TRAITS.REGENERATION.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.REGENERATION.NAME"
@@ -40079,7 +40079,7 @@ msgstr "身輕如燕"
 #. STRINGS.DUPLICANTS.TRAITS.UGLYCRIER.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.UGLYCRIER.DESC"
 msgid "If this Duplicant gets too <style=\"KKeyword\">Stressed</style> it won't be pretty"
-msgstr "如果這名複製人的<style=\"KKeyword\">壓力</style>過大會變醜"
+msgstr "如果這名複製人的<style=\"KKeyword\">壓力</style>太大，後果不堪設想。"
 
 #. STRINGS.DUPLICANTS.TRAITS.UGLYCRIER.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.UGLYCRIER.NAME"
@@ -41249,12 +41249,12 @@ msgstr "<link=\"MOLTENTUNGSTEN\">鎢</link>"
 #. STRINGS.ELEMENTS.MOLTENTUNGSTENDISELENIDE.DESC
 msgctxt "STRINGS.ELEMENTS.MOLTENTUNGSTENDISELENIDE.DESC"
 msgid "(WSe<sub>2</sub>) Tungsten Diselenide is an inorganic <link=\"RAWMETAL\">Metal</link> compound heated into a <link=\"ELEMENTSLIQUID\">Liquid</link> state."
-msgstr "(WSe<sub>2</sub>) 二硒化鎢是一種無機<link=\"RAWMETAL\">金屬</link>化合物，加熱變成<link=\"ELEMENTSLIQUID\">液體</link>狀態。"
+msgstr "(WSe<sub>2</sub>) 鎢二硒化物是一種無機<link=\"RAWMETAL\">金屬</link>化合物，加熱變成<link=\"ELEMENTSLIQUID\">液體</link>狀態。"
 
 #. STRINGS.ELEMENTS.MOLTENTUNGSTENDISELENIDE.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENTUNGSTENDISELENIDE.NAME"
 msgid "<link=\"MOLTENTUNGSTENDISELENIDE\">Tungsten Diselenide</link>"
-msgstr "<link=\"MOLTENTUNGSTENDISELENIDE\">二硒化鎢</link>"
+msgstr "<link=\"MOLTENTUNGSTENDISELENIDE\">鎢二硒化物</link>"
 
 #. STRINGS.ELEMENTS.MOLTENURANIUM.DESC
 msgctxt "STRINGS.ELEMENTS.MOLTENURANIUM.DESC"
@@ -41309,7 +41309,7 @@ msgstr "<link=\"NIOBIUMGAS\">鈮</link>"
 #. STRINGS.ELEMENTS.NUCLEARWASTE.DESC
 msgctxt "STRINGS.ELEMENTS.NUCLEARWASTE.DESC"
 msgid "Highly toxic liquid full of <link=\"RADIATION\">Radioactive Contaminants</link> which emit <link=\"RADIATION\">Radiation</link> that can be absorbed by <link=\"HIGHENERGYPARTICLESPAWNER\">Radbolt Generators</link>."
-msgstr "會釋放<link=\"RADIATION\">輻射汙染</link>的液體，<link=\"RADIATION\">輻射</link>可以使用<link=\"HIGHENERGYPARTICLESPAWNER\">輻射粒子產生器</link>收集並產生輻射粒子。"
+msgstr "高度有害且充滿<link=\"RADIATION\">輻射汙染</link>的液體，會釋放<link=\"RADIATION\">輻射</link>，可以使用<link=\"HIGHENERGYPARTICLESPAWNER\">輻射粒子產生器</link>收集並產生輻射粒子。"
 
 #. STRINGS.ELEMENTS.NUCLEARWASTE.NAME
 msgctxt "STRINGS.ELEMENTS.NUCLEARWASTE.NAME"
@@ -48349,7 +48349,7 @@ msgstr "血清"
 #. STRINGS.ITEMS.PILLS.ADVANCEDCURE.RECIPEDESC
 msgctxt "STRINGS.ITEMS.PILLS.ADVANCEDCURE.RECIPEDESC"
 msgid "An extremely powerful medication created to treat severe <link=\"DISEASE\">Diseases</link>. Serum Vial is very effective against <link=\"ZOMBIESPORES\">Zombie Spores</link>.\n\nMust be administered by a Duplicant with the <link=\"MEDICINE3\">Advanced Medical Care</link> Skill."
-msgstr "一種強效藥物，用來治療嚴重的<link=\"DISEASE\">疾病</link>。\n血清藥劑用來治療<link=\"ZOMBIESPORES\">殭屍病毒</link>非常有效。\n\n複製人必須有<link=\"MEDICINE3\">高級醫療照顧</link>技能才能製作。"
+msgstr "一種強效藥物，用來治療嚴重的<link=\"DISEASE\">疾病</link>。\n血清藥劑用來治療<link=\"ZOMBIESPORES\">殭屍病毒</link>非常有效。\n\n複製人必須有<link=\"MEDICINE3\">進階醫療照顧</link>技能才能製作。"
 
 #. STRINGS.ITEMS.PILLS.ANTIHISTAMINE.DESC
 msgctxt "STRINGS.ITEMS.PILLS.ANTIHISTAMINE.DESC"
@@ -80364,7 +80364,7 @@ msgstr "取消這個拆除命令"
 #. STRINGS.UI.USERMENUACTIONS.DEMOLISH.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.DEMOLISH.NAME"
 msgid "Demolish"
-msgstr "拆毀遺跡"
+msgstr "拆毀"
 
 #. STRINGS.UI.USERMENUACTIONS.DEMOLISH.NAME_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.DEMOLISH.NAME_OFF"
@@ -80379,7 +80379,7 @@ msgstr "拆毀這座遺跡"
 #. STRINGS.UI.USERMENUACTIONS.DEMOLISH.TOOLTIP_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.DEMOLISH.TOOLTIP_OFF"
 msgid "Cancel this demolition order"
-msgstr "取消拆毀遺跡命令"
+msgstr "取消拆毀命令"
 
 #. STRINGS.UI.USERMENUACTIONS.DIG.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.DIG.NAME"
