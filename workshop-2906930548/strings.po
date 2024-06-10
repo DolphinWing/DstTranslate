@@ -2724,7 +2724,7 @@ msgstr "從管線轉移"
 #. STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.TOOLTIP"
 msgid "This building is producing <b>{0}</b> per second\n\nSources:\n{1}"
-msgstr "這個建築正以每秒的速度，生產 <b>{0}</b>\n\n來源：\n{1}"
+msgstr "這個建築每秒產生 <b>{0}</b>\n\n來源：\n{1}"
 
 #. STRINGS.BUILDING.STATUSITEMS.OUTPUTPIPEFULL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OUTPUTPIPEFULL.NAME"
@@ -18329,7 +18329,7 @@ msgstr "經理的筆記"
 #. STRINGS.CODEX.C8_TIMESORDER.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.C8_TIMESORDER.BODY.CONTAINER1"
 msgid "We have been successfully using the Temporal Bow now for some time with no obvious consequences. I should be happy that this works so well, but several questions gnaw at my brain late at night.\n\nIf Time's Arrow is moving forward the Laws of Entropy declare that the universe should be moving from a state of order to one of chaos. If the Temporal Bow bends to a previous point in time to a point when things were more orderly, logic would dictate that we are making this point more chaotic by taking things from it. All known laws of the natural universe suggests that this should have affected our Present Day, but all evidence points to that not being true. It appears the theory that we cannot change our past was incorrect!\n\nThis suggests that Time is, in fact, not an arrow but several arrows, each pointing different directions. Fundamentally, this proves the existence of other timelines - different dimensions - some of which we can assume have also built their own Temporal Bow.\n\nThe promise of crossing this final dimensional threshold is too tempting. Imagine what things Gravitas has invented in another dimension!! I must find a way to tear open the fabric of spacetime and tap into the limitless human potential of a thousand alternate timelines."
-msgstr "我們已經使用時光之弓一段時間了，沒有明顯的後果。我應該高興這很有用，但在深夜有幾個問題在腦裡困擾著我。\n\n如果時光箭往前移動，熵的定律表明了宇宙應該會由有序狀態轉會混沌狀態。如果時光之弓扭曲到前一個時間點，一個事情更有序的時間點，邏輯上來講，從中取出的事物會使這個時間點更加的混亂。所有已知的自然宇宙定律都表明了會影響我們的今天，但所有證據的都表明了不是這樣。看來我們無法改變過去的理論是錯誤的！\n\n這表示時間實際上不是一支箭，是多個箭指向不同的方向。從根本上說，這證明了其它時間線的存在－不同的維度－我們可以假設他們也建立了自己的時光之弓。\n\n跨越這最終維度的保證太誘人了。想像一下引力科技在其它的維度發明了什麼！！我必須找到一種撕裂時空的方法，在上千條時間線中挖掘無限的人類潛力。"
+msgstr "我們已經使用時光之弓一段時間了，沒有明顯的後果。我應該高興這很有用，但在深夜有幾個問題在腦裡困擾著我。\n\n如果時光箭往前移動，熵的定律表明了宇宙應該會由有序狀態轉為混沌狀態。如果時光之弓扭曲到前一個時間點，一個事情更有序的時間點，邏輯上來講，從中取出的事物會使這個時間點更加的混亂。所有已知的自然宇宙定律都表明了會影響我們的今天，但所有證據的都表明了不是這樣。看來我們無法改變過去的理論是錯誤的！\n\n這表示時間實際上不是一支箭，是多個箭指向不同的方向。從根本上說，這證明了其它時間線的存在－不同的維度－我們可以假設他們也建立了自己的時光之弓。\n\n跨越這最終維度的保證太誘人了。想像一下引力科技在其它的維度發明了什麼！！我必須找到一種撕裂時空的方法，在上千條時間線中挖掘無限的人類潛力。"
 
 #. STRINGS.CODEX.C8_TIMESORDER.SUBTITLE
 msgctxt "STRINGS.CODEX.C8_TIMESORDER.SUBTITLE"
@@ -77944,7 +77944,7 @@ msgstr "位元 {0}"
 #. STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.RIBBON_READER_DESCRIPTION
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.RIBBON_READER_DESCRIPTION"
 msgid "Selected <b>Bit's Signal</b> will be read by the <b>Output Port</b>"
-msgstr "選定b>位元的訊號</b>會被<b>輸出端</b>讀取"
+msgstr "選定的<b>位元訊號</b>會被<b>輸出端</b>讀取"
 
 #. STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.RIBBON_READER_TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.RIBBON_READER_TITLE"
@@ -78004,7 +78004,7 @@ msgstr "頻道選擇"
 #. STRINGS.UI.UISIDESCREENS.LURE.ATTRACTS
 msgctxt "STRINGS.UI.UISIDESCREENS.LURE.ATTRACTS"
 msgid "Attract {1}s"
-msgstr "吸引 {1}"
+msgstr "吸引{1}"
 
 #. STRINGS.UI.UISIDESCREENS.LURE.AWAITINGDELIVERY
 msgctxt "STRINGS.UI.UISIDESCREENS.LURE.AWAITINGDELIVERY"
@@ -78384,7 +78384,7 @@ msgstr "種植"
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.DISEASE_DROPPER_BURST
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.DISEASE_DROPPER_BURST"
 msgid "{Disease} Burst: {DiseaseAmount}"
-msgstr "釋放 {Disease}：{DiseaseAmount}"
+msgstr "釋放{Disease}：{DiseaseAmount}"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.DISEASE_DROPPER_CONSTANT
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.DISEASE_DROPPER_CONSTANT"
@@ -78394,7 +78394,7 @@ msgstr "{Disease}：{DiseaseAmount}"
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.DISEASE_ON_HARVEST
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.DISEASE_ON_HARVEST"
 msgid "{Disease} on crop: {DiseaseAmount}"
-msgstr "作物 {Disease}：{DiseaseAmount}"
+msgstr "作物{Disease}：{DiseaseAmount}"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.ENTITYDEPOSITED
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.ENTITYDEPOSITED"
