@@ -6009,7 +6009,7 @@ msgstr "鹽可以精製成食鹽，用餐時間會有士氣加成。"
 #. STRINGS.BUILDINGS.PREFABS.DESALINATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DESALINATOR.EFFECT"
 msgid "Removes <link=\"SALT\">Salt</link> from <link=\"BRINE\">Brine</link> or <link=\"SALTWATER\">Salt Water</link>, producing <link=\"WATER\">Water</link>."
-msgstr "去除<link=\"BRINE\">鹽水</link>或<link=\"SALTWATER\">海水</link>中的<link=\"SALT\">鹽</link>，產生<link=\"WATER\">水</link>。"
+msgstr "去除<link=\"BRINE\">濃鹽水</link>或<link=\"SALTWATER\">鹽水</link>中的<link=\"SALT\">鹽</link>，產生<link=\"WATER\">水</link>。"
 
 #. STRINGS.BUILDINGS.PREFABS.DESALINATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DESALINATOR.NAME"
@@ -12099,12 +12099,12 @@ msgstr "<link=\"MICROBEMUSHER\">製糕機</link>"
 #. STRINGS.BUILDINGS.PREFABS.MILKFATSEPARATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MILKFATSEPARATOR.DESC"
 msgid "Duplicants can slather up with brackwax to increase their travel speed in transit tubes."
-msgstr "複製人可以塗上一層鹹乳蠟，以提高他們在運載管道中的前進速度。"
+msgstr "複製人可以抹上一層鹹乳蠟，以提高他們在運載管道中的前進速度。"
 
 #. STRINGS.BUILDINGS.PREFABS.MILKFATSEPARATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MILKFATSEPARATOR.EFFECT"
 msgid "Refines <link=\"MILK\">Brackene</link> into <link=\"BRINE\">Brine</link> and <link=\"MILKFAT\">Brackwax</link>, and emits <link=\"CARBONDIOXIDE\">Carbon Dioxide</link>."
-msgstr "將<link=\"MILK\">鹹乳</link>精煉為<link=\"BRINE\">鹽水</link>和<link=\"MILKFAT\">鹹乳蠟</link>，並釋放<link=\"CARBONDIOXIDE\">二氧化碳</link>。"
+msgstr "將<link=\"MILK\">鹹乳</link>精煉為<link=\"BRINE\">濃鹽水</link>和<link=\"MILKFAT\">鹹乳蠟</link>，並釋放<link=\"CARBONDIOXIDE\">二氧化碳</link>。"
 
 #. STRINGS.BUILDINGS.PREFABS.MILKFATSEPARATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MILKFATSEPARATOR.NAME"
@@ -12114,7 +12114,7 @@ msgstr "<link=\"MILKFATSEPARATOR\">鹹乳蠟收集器</link>"
 #. STRINGS.BUILDINGS.PREFABS.MILKFEEDER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MILKFEEDER.DESC"
 msgid "It's easier to tolerate overcrowding when you're all hopped up on brackene."
-msgstr "當所有人都搶著喝鹹乳時，就沒人在意擁擠了。"
+msgstr "當大家都搶著喝鹹乳時，過度擁擠也無所謂了。"
 
 #. STRINGS.BUILDINGS.PREFABS.MILKFEEDER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MILKFEEDER.EFFECT"
@@ -25159,12 +25159,12 @@ msgstr "<link=\"GEYSERGENERICOILDRIP\">石油裂縫</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.SALT_WATER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SALT_WATER.DESC"
 msgid "A highly pressurized geyser that periodically erupts with <link=\"SALTWATER\">Salt Water</link>."
-msgstr "定期噴發<link=\"SALTWATER\">海水</link>的高壓間歇泉。"
+msgstr "定期噴發<link=\"SALTWATER\">鹽水</link>的高壓間歇泉。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SALT_WATER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SALT_WATER.NAME"
 msgid "<link=\"GEYSERGENERICSALTWATER\">Salt Water Geyser</link>"
-msgstr "<link=\"GEYSERGENERICSALTWATER\">海水噴泉</link>"
+msgstr "<link=\"GEYSERGENERICSALTWATER\">鹽水噴泉</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLIMY_PO2.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLIMY_PO2.DESC"
@@ -25179,7 +25179,7 @@ msgstr "<link=\"GEYSERGENERICSLIMYPO2\">帶菌汙氧噴口</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_SALT_WATER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_SALT_WATER.DESC"
 msgid "A highly pressurized geyser that periodically erupts with freezing <link=\"BRINE\">Brine</link>."
-msgstr "定期噴發低溫<link=\"BRINE\">鹽水</link>的高壓間歇泉。"
+msgstr "定期噴發低溫<link=\"BRINE\">濃鹽水</link>的高壓間歇泉。"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_SALT_WATER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.SLUSH_SALT_WATER.NAME"
@@ -26069,7 +26069,7 @@ msgstr "<link=\"SAPTREE\">實驗體 52B</link>"
 #. STRINGS.CREATURES.SPECIES.SEALETTUCE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEALETTUCE.DESC"
 msgid "Waterweeds thrive in salty water and can be harvested for fresh, edible <link=\"LETTUCE\">Lettuce</link>."
-msgstr "水草生長在海水中，並可以採收新鮮可食用的<link=\"LETTUCE\">生菜</link>。"
+msgstr "水草生長在鹽水中，並可以採收新鮮可食用的<link=\"LETTUCE\">生菜</link>。"
 
 #. STRINGS.CREATURES.SPECIES.SEALETTUCE.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEALETTUCE.DOMESTICATEDDESC"
@@ -40199,12 +40199,12 @@ msgstr "<link=\"BRICK\">瓷磚</link>"
 #. STRINGS.ELEMENTS.BRINE.DESC
 msgctxt "STRINGS.ELEMENTS.BRINE.DESC"
 msgid "Brine is a natural, highly concentrated solution of <link=\"SALT\">Salt</link> dissolved in <link=\"WATER\">Water</link>.\n\nIt can be used in desalination processes, separating out usable salt."
-msgstr "鹽水是一種天然、高濃度的<link=\"SALT\">鹽</link>溶於<link=\"WATER\">水</link>中。\n\n可用於海水淡化過程，分離出可用的鹽。"
+msgstr "濃鹽水是一種天然、高濃度的<link=\"SALT\">鹽</link>溶於<link=\"WATER\">水</link>中。\n\n可用於鹽水淡化過程，分離出可用的鹽。"
 
 #. STRINGS.ELEMENTS.BRINE.NAME
 msgctxt "STRINGS.ELEMENTS.BRINE.NAME"
 msgid "<link=\"BRINE\">Brine</link>"
-msgstr "<link=\"BURNER\">鹽水</link>"
+msgstr "<link=\"BURNER\">濃鹽水</link>"
 
 #. STRINGS.ELEMENTS.BRINEICE.DESC
 msgctxt "STRINGS.ELEMENTS.BRINEICE.DESC"
@@ -41524,12 +41524,12 @@ msgstr "<link=\"SALTGAS\">鹽</link>"
 #. STRINGS.ELEMENTS.SALTWATER.DESC
 msgctxt "STRINGS.ELEMENTS.SALTWATER.DESC"
 msgid "Salt Water is a natural, lightly concentrated solution of <link=\"SALT\">Salt</link> dissolved in <link=\"WATER\">Water</link>.\n\nIt can be used in desalination processes, separating out usable salt."
-msgstr "海水是一種天然，低濃度的<link=\"SALT\">鹽</link>溶於<link=\"WATER\">水</link>中。\n\n可用於海水淡化過程，分離出可用的鹽。"
+msgstr "鹽水是一種天然，低濃度的<link=\"SALT\">鹽</link>溶於<link=\"WATER\">水</link>中。\n\n可用於鹽水淡化過程，分離出可用的鹽。"
 
 #. STRINGS.ELEMENTS.SALTWATER.NAME
 msgctxt "STRINGS.ELEMENTS.SALTWATER.NAME"
 msgid "<link=\"SALTWATER\">Salt Water</link>"
-msgstr "<link=\"SALTWATER\">海水</link>"
+msgstr "<link=\"SALTWATER\">鹽水</link>"
 
 #. STRINGS.ELEMENTS.SAND.DESC
 msgctxt "STRINGS.ELEMENTS.SAND.DESC"
@@ -50739,7 +50739,7 @@ msgstr "<link=\"ICEORE\">冰</link>"
 #. STRINGS.MISC.TAGS.ICEORE_DESC
 msgctxt "STRINGS.MISC.TAGS.ICEORE_DESC"
 msgid "Ice is a class of materials made up mostly (if not completely) of <link=\"WATER\">Water</link> in a frozen or partially frozen form.\n\nAs a material in a frigid solid or semi-solid state, these elements are very useful as a low-cost way to cool the environment around them.\n\nWhen heated, ice will melt into its original liquified form (ie.<link=\"BRINEICE\">Brine Ice</link> will liquify into <link=\"BRINE\">Brine</link>). Each ice element has a different freezing and melting point based upon its composition and state."
-msgstr "冰是一種材料，主要由（但不完全是）<link=\"WATER\">水</link>結冰或部分結冰形成。\n\n作為低溫固體或半固體的材料，這些元素作為低成本的方式來冰卻環境是很有用的。\n\n當加熱時，冰會融化為原始的液體形態。（例如：<link=\"BRINEICE\">鹽冰</link>會液化成<link=\"BRINE\">鹽水</link>）。\n每一種冰元素基於它們的組成與狀態都有不同的冰點與熔點。"
+msgstr "冰是一種材料，主要由（但不完全是）<link=\"WATER\">水</link>結冰或部分結冰形成。\n\n作為低溫固體或半固體的材料，這些元素作為低成本的方式來冰卻環境是很有用的。\n\n當加熱時，冰會融化為原始的液體形態。（例如：<link=\"BRINEICE\">鹽冰</link>會液化成<link=\"BRINE\">濃鹽水</link>）。\n每一種冰元素基於它們的組成與狀態都有不同的冰點與熔點。"
 
 #. STRINGS.MISC.TAGS.INDUSTRIALINGREDIENT
 msgctxt "STRINGS.MISC.TAGS.INDUSTRIALINGREDIENT"
@@ -73244,7 +73244,7 @@ msgstr "冰原小行星礦場"
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.INTERSTELLAROCEAN.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.INTERSTELLAROCEAN.DESC"
 msgid "An interplanetary body that consists of <link=\"SALTWATER\">Salt Water</link>, <link=\"BRINE\">Brine</link>, <link=\"SALT\">Salt</link> and <link=\"ICE\">Ice</link>.\n\nHarvesting resources requires a rocket equipped with a <link=\"NOSECONEHARVEST\">Drillcone</link>."
-msgstr "一個跨星際天體，由<link=\"SALTWATER\">海水</link>、<link=\"BRINE\">鹽水</link>、<link=\"SALT\">鹽</link>與<link=\"ICE\">冰</link>所組成。\n\n火箭需裝備<link=\"NOSECONEHARVEST\">鑽頭鼻錐</link>才能採集資源。"
+msgstr "一個跨星際天體，由<link=\"SALTWATER\">鹽水</link>、<link=\"BRINE\">濃鹽水</link>、<link=\"SALT\">鹽</link>與<link=\"ICE\">冰</link>所組成。\n\n火箭需裝備<link=\"NOSECONEHARVEST\">鑽頭鼻錐</link>才能採集資源。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.INTERSTELLAROCEAN.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.INTERSTELLAROCEAN.NAME"
@@ -73344,7 +73344,7 @@ msgstr "岩石小行星礦場"
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SALTYASTEROIDFIELD.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SALTYASTEROIDFIELD.DESC"
 msgid "A field of harvestable resources containing <link=\"SALTWATER\">Salt Water</link>,<link=\"BRINE\">Brine</link> and <link=\"CARBONDIOXIDE\">Carbon Dioxide</link>.\n\nHarvesting resources requires a rocket equipped with a <link=\"NOSECONEHARVEST\">Drillcone</link>."
-msgstr "一個可採集<link=\"SALTWATER\">海水</link>，<link=\"BRINE\">鹽水</link>與<link=\"CARBONDIOXIDE\">二氧化碳</link>的地方。\n\n火箭需要裝備<link=\"NOSECONEHARVEST\">鑽頭鼻錐</link>才能採集資源。"
+msgstr "一個可採集<link=\"SALTWATER\">鹽水</link>，<link=\"BRINE\">濃鹽水</link>與<link=\"CARBONDIOXIDE\">二氧化碳</link>的地方。\n\n火箭需要裝備<link=\"NOSECONEHARVEST\">鑽頭鼻錐</link>才能採集資源。"
 
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SALTYASTEROIDFIELD.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SALTYASTEROIDFIELD.NAME"
@@ -81979,7 +81979,7 @@ msgstr "冷凍的朋友"
 #. STRINGS.WORLD_TRAITS.FROZEN_CORE.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.FROZEN_CORE.DESCRIPTION"
 msgid "This world has a chilly core of solid <link=\"ICE\">Ice</link>"
-msgstr "這世界有著寒冷結實<link=\"ICE\">冰核</link>"
+msgstr "這世界有著寒冷結實的<link=\"ICE\">冰</link>核心"
 
 #. STRINGS.WORLD_TRAITS.FROZEN_CORE.NAME
 msgctxt "STRINGS.WORLD_TRAITS.FROZEN_CORE.NAME"
@@ -81989,7 +81989,7 @@ msgstr "冰核"
 #. STRINGS.WORLD_TRAITS.GEOACTIVE.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.GEOACTIVE.DESCRIPTION"
 msgid "This world has more <style=\"KKeyword\">Geysers</style> and <style=\"KKeyword\">Vents</style> than usual"
-msgstr "此世界的<style=\"KKeyword\">間歇泉</style>和<style=\"KKeyword\">火山</style>比一般世界多"
+msgstr "此世界的<style=\"KKeyword\">間歇泉</style>和<style=\"KKeyword\">噴口</style>比一般世界多"
 
 #. STRINGS.WORLD_TRAITS.GEOACTIVE.NAME
 msgctxt "STRINGS.WORLD_TRAITS.GEOACTIVE.NAME"
@@ -81999,7 +81999,7 @@ msgstr "地質活躍"
 #. STRINGS.WORLD_TRAITS.GEODES.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.GEODES.DESCRIPTION"
 msgid "Large geodes containing rare material caches are deposited across this world"
-msgstr "此小行星蘊藏了大量的稀有材料"
+msgstr "含有稀有材料的大型晶洞沉積在這個世界各地"
 
 #. STRINGS.WORLD_TRAITS.GEODES.NAME
 msgctxt "STRINGS.WORLD_TRAITS.GEODES.NAME"
@@ -82009,7 +82009,7 @@ msgstr "礦藏豐富"
 #. STRINGS.WORLD_TRAITS.GEODORMANT.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.GEODORMANT.DESCRIPTION"
 msgid "This world has fewer <style=\"KKeyword\">Geysers</style> and <style=\"KKeyword\">Vents</style> than usual"
-msgstr "此世界的<style=\"KKeyword\">間歇泉</style>和<style=\"KKeyword\">火山</style>比一般世界少"
+msgstr "此世界的<style=\"KKeyword\">間歇泉</style>和<style=\"KKeyword\">噴口</style>比一般世界少"
 
 #. STRINGS.WORLD_TRAITS.GEODORMANT.NAME
 msgctxt "STRINGS.WORLD_TRAITS.GEODORMANT.NAME"
@@ -82019,7 +82019,7 @@ msgstr "地質休眠"
 #. STRINGS.WORLD_TRAITS.GLACIERS_LARGE.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.GLACIERS_LARGE.DESCRIPTION"
 msgid "Huge chunks of primordial <link=\"ICE\">Ice</link> are scattered across this world"
-msgstr "此世界被大量的<link=\"ICE\">冰</link>所覆蓋"
+msgstr "大量的<link=\"ICE\">冰</link>散佈在這個世界中"
 
 #. STRINGS.WORLD_TRAITS.GLACIERS_LARGE.NAME
 msgctxt "STRINGS.WORLD_TRAITS.GLACIERS_LARGE.NAME"
@@ -82119,7 +82119,7 @@ msgstr "沒有異常特徵"
 #. STRINGS.WORLD_TRAITS.RADIOACTIVE_CRUST.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.RADIOACTIVE_CRUST.DESCRIPTION"
 msgid "Deposits of <link=\"URANIUMORE\">Uranium Ore</link> are found in this world's crust"
-msgstr "在這個星球中發現了<link=\"URANIUMORE\">鈾礦</link>的礦床"
+msgstr "在這個世界的地殼中發現了<link=\"URANIUMORE\">鈾礦</link>礦床"
 
 #. STRINGS.WORLD_TRAITS.RADIOACTIVE_CRUST.NAME
 msgctxt "STRINGS.WORLD_TRAITS.RADIOACTIVE_CRUST.NAME"
@@ -82129,7 +82129,7 @@ msgstr "放射性地殼"
 #. STRINGS.WORLD_TRAITS.SLIME_SPLATS.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.SLIME_SPLATS.DESCRIPTION"
 msgid "Sickly <link=\"SLIMEMOLD\">Slime</link> growths have crept all over this world"
-msgstr "此世界充滿了含有病毒的<link=\"SLIMEMOLD\">軟泥</link>"
+msgstr "含有病毒的<link=\"SLIMEMOLD\">軟泥</link>已經蔓延到世界各地"
 
 #. STRINGS.WORLD_TRAITS.SLIME_SPLATS.NAME
 msgctxt "STRINGS.WORLD_TRAITS.SLIME_SPLATS.NAME"
@@ -82139,7 +82139,7 @@ msgstr "軟泥遍佈"
 #. STRINGS.WORLD_TRAITS.SUBSURFACE_OCEAN.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.SUBSURFACE_OCEAN.DESCRIPTION"
 msgid "Below the crust of this world is a <link=\"SALTWATER\">Salt Water</link> sea"
-msgstr "此世界的地底下是<link=\"SALTWATER\">海水</link>"
+msgstr "在這個世界的地殼之下是<link=\"SALTWATER\">鹽水</link>海"
 
 #. STRINGS.WORLD_TRAITS.SUBSURFACE_OCEAN.NAME
 msgctxt "STRINGS.WORLD_TRAITS.SUBSURFACE_OCEAN.NAME"
@@ -82149,7 +82149,7 @@ msgstr "地下洋流"
 #. STRINGS.WORLD_TRAITS.VOLCANOES.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.VOLCANOES.DESCRIPTION"
 msgid "Several active <style=\"KKeyword\">Volcanoes</style> have been detected in this world"
-msgstr "探測到此世界有多個活<style=\"KKeyword\">火山</style>"
+msgstr "在這個世界上已偵測到多座活躍的<style=\"KKeyword\">火山</style>"
 
 #. STRINGS.WORLD_TRAITS.VOLCANOES.NAME
 msgctxt "STRINGS.WORLD_TRAITS.VOLCANOES.NAME"
@@ -82179,7 +82179,7 @@ msgstr "大型空洞，開發人員用"
 #. STRINGS.WORLDS.FOREST_DEFAULT.DESCRIPTION
 msgctxt "STRINGS.WORLDS.FOREST_DEFAULT.DESCRIPTION"
 msgid "A location with a natural abundance of trees.\n\n<smallcaps>Colonizing Arboria will require careful planning right from the start. Because of its lack of metals, finding biological solutions to problems is a must.</smallcaps>\n\n"
-msgstr "一個天然樹木資源豐富的地方。\n\n<smallcaps>殖民喬木行星需要從一開始就仔細規劃。因為這裡缺少金屬，找到利用有機生物的決解方案是首要問題。</smallcaps>\n\n"
+msgstr "一個天然樹木資源豐富的地方。\n\n<smallcaps>殖民喬木行星需要從一開始就仔細規劃。因為這裡缺少金屬，找到利用有機生物的解決方案是首要問題。</smallcaps>\n\n"
 
 #. STRINGS.WORLDS.FOREST_DEFAULT.NAME
 msgctxt "STRINGS.WORLDS.FOREST_DEFAULT.NAME"
@@ -82409,7 +82409,7 @@ msgstr "綠洲行星"
 #. STRINGS.WORLDS.OCEANIA.DESCRIPTION
 msgctxt "STRINGS.WORLDS.OCEANIA.DESCRIPTION"
 msgid "A location with vast quantities of undrinkable salt water.\n\n<smallcaps>Oceania is quite stable and resource rich, but the majority of the area is covered in a saltwater ocean. Careful expansion and resource usage should lead to a successful colony.</smallcaps>\n\n"
-msgstr "含有大量不可飲用的海水的地方。\n\n<smallcaps>這裡相當穩定並且資源豐富，但大部分地區都被海水覆蓋。仔細擴展與利用資源應該能成功建立殖民地。</smallcaps>\n\n"
+msgstr "含有大量不可飲用的鹽水的地方。\n\n<smallcaps>這裡相當穩定並且資源豐富，但大部分地區都被鹽水覆蓋。仔細擴展與利用資源應該能成功建立殖民地。</smallcaps>\n\n"
 
 #. STRINGS.WORLDS.OCEANIA.NAME
 msgctxt "STRINGS.WORLDS.OCEANIA.NAME"
@@ -82724,7 +82724,7 @@ msgstr "綠洲小行星"
 #. STRINGS.WORLDS.VANILLAOCEANIA.DESCRIPTION
 msgctxt "STRINGS.WORLDS.VANILLAOCEANIA.DESCRIPTION"
 msgid "A location with vast quantities of unpotable salt water.\n\n<smallcaps>Oceania is quite stable and resource rich, but the majority of the area is covered in a saltwater ocean. Careful expansion and resource usage should lead to a successful colony.</smallcaps>"
-msgstr "含有大量不可飲用的海水的地方。\n\n<smallcaps>這裡相當穩定並且資源豐富，但大部分地區都被海水覆蓋。仔細擴展與利用資源應該能成功建立殖民地。</smallcaps>"
+msgstr "含有大量不可飲用的鹽水的地方。\n\n<smallcaps>這裡相當穩定並且資源豐富，但大部分地區都被鹽水覆蓋。仔細擴展與利用資源應該能成功建立殖民地。</smallcaps>"
 
 #. STRINGS.WORLDS.VANILLAOCEANIA.NAME
 msgctxt "STRINGS.WORLDS.VANILLAOCEANIA.NAME"
