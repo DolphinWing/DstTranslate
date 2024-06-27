@@ -4,6 +4,11 @@
 
 [正體中文](https://steamcommunity.com/sharedfiles/filedetails/?id=2906930548) by DolphinWing
 
+相容於
+- 基礎遊戲
+- 眼冒金星!
+- 寒霜行星包
+
 偷懶了很久，終於幫我的 Steam 上最長時數的遊戲，維護正體中文的翻譯模組，嘗試追上一直持續更新的 Klei。
 所有內容文字以 Klei 簡體中文文檔為參考，並以 [Oxygen Not Included Wiki](https://oxygennotincluded.fandom.com/wiki/Oxygen_Not_Included_Wiki) 
 和 [缺氧 Wiki](https://oxygennotincluded.fandom.com/zh/wiki/) ，以及一些自己覺得適當的修改。
