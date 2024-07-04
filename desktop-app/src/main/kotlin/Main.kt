@@ -89,7 +89,7 @@ fun main(args: Array<String>) = application {
     val model = PoDataModel(DesktopPoHelper(Ini(workingDir), debug = debug).apply { prepare() })
     val windowState = rememberWindowState(size = DpSize(1024.dp, 768.dp))
 
-    Window(onCloseRequest = ::exitApplication, state = windowState, title = "DST Translate") {
+    Window(onCloseRequest = ::exitApplication, state = windowState, title = "ONI/DST PO Helper") {
         App(
             model,
             onCopyTo = ::copyToSystemClipboard,

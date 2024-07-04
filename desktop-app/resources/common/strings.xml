@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DST PO Helper</string>
+    <string name="app_name">ONI/DST PO Helper</string>
     <string name="replacement_3dot">…</string>
     <string name="replacement_left_bracket">「</string>
     <string name="replacement_right_bracket">」</string>
@@ -81,7 +81,6 @@
 		<item>毛刺花|鬃花</item>
 		<item>錦醇菇|錦葵</item>
 		<item>冰息蘿蔔|冰樹</item>
-		<item>頂針蘆葦|蘆葦</item>
 		<item>孢子蘭|惡魔花</item>
 		<item>複制人|複製人</item>
 		<item>氣壓服|太空衣</item>

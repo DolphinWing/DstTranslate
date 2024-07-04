@@ -135,10 +135,10 @@ abstract class PoHelper {
             writer = BufferedWriter(FileWriter(dst, StandardCharsets.UTF_8))
             var content = "\"Language: zh-tw\"\n\"POT Version: 2.0\"\n"
             if (mode == Mode.ONI) {
-                content += "Application: Oxygen Not Included"
-                content += "Last-Translator: DolphinWing"
-                content += "MIME-Version: 1.0"
-                content += "Content-Type: text/plain; charset=UTF-8"
+                content += "Application: Oxygen Not Included\n"
+                content += "Last-Translator: DolphinWing\n"
+                content += "MIME-Version: 1.0\n"
+                content += "Content-Type: text/plain; charset=UTF-8\n"
             }
             writer.write(content, 0, content.length)
             list.forEach { entry ->
