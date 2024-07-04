@@ -998,6 +998,16 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDHOTLIQUID.TOOLTIP"
 msgid "Incoming pipe contents cannot be cooled more than <b>{2}</b> below the surrounding environment\n\nEnvironment: {0}\nCurrent Pipe Contents: {1}"
 msgstr ""
 
+#. STRINGS.BUILDING.STATUSITEMS.COOLINGWATER.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGWATER.NAME"
+msgid "Cooling Water"
+msgstr ""
+
+#. STRINGS.BUILDING.STATUSITEMS.COOLINGWATER.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGWATER.TOOLTIP"
+msgid "This building is cooling <style=\"KKeyword\">Water</style> down to its freezing point"
+msgstr ""
+
 #. STRINGS.BUILDING.STATUSITEMS.CREATURE_REUSABLE_TRAP.NEEDS_ARMING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATURE_REUSABLE_TRAP.NEEDS_ARMING.NAME"
 msgid "Waiting to be Armed"
@@ -9705,7 +9715,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.HOTTUB.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HOTTUB.EFFECT"
-msgid "Requires <link=\"LIQUIDPIPING\">Pipes</link> to and from tub and <link=\"POWER\">Power</link> to run the jets.\n\nWater must be a comfortable temperature and will cool rapidly.\n\nIncreases Duplicant <link=\"MORALE\">Morale</link>."
+msgid "Requires <link=\"LIQUIDPIPING\">Pipes</link> to and from tub and <link=\"POWER\">Power</link> to run the jets.\n\nWater must be a comfortable temperature and will cool rapidly.\n\nIncreases Duplicant <link=\"MORALE\">Morale</link> and leaves them feeling deliciously warm."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.HOTTUB.NAME
@@ -9825,12 +9835,12 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ICEMACHINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICEMACHINE.DESC"
-msgid "Ice makers can be used as a small renewable source of ice."
+msgid "Ice makers can be used as a small renewable source of ice and snow."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ICEMACHINE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ICEMACHINE.EFFECT"
-msgid "Converts <link=\"WATER\">Water</link> into <link=\"ICE\">Ice</link>."
+msgid "Converts <link=\"WATER\">Water</link> into <link=\"ICE\">Ice</link> or <link=\"SNOW\">Snow</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ICEMACHINE.NAME
@@ -13398,6 +13408,21 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.OXYLITEREFINERY.NAME"
 msgid "<link=\"OXYLITEREFINERY\">Oxylite Refinery</link>"
 msgstr ""
 
+#. STRINGS.BUILDINGS.PREFABS.OXYSCONCE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.OXYSCONCE.DESC"
+msgid "Sconces prevent diffused oxygen from being wasted inside storage bins."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.OXYSCONCE.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.OXYSCONCE.EFFECT"
+msgid "Stores a small chunk of <link=\"OXYROCK\">Oxylite</link> which gradually releases <link=\"OXYGEN\">Oxygen</link> into the environment."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.OXYSCONCE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.OXYSCONCE.NAME"
+msgid "<link=\"OXYSCONCE\">Oxylite Sconce</link>"
+msgstr ""
+
 #. STRINGS.BUILDINGS.PREFABS.PARKSIGN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PARKSIGN.DESC"
 msgid "Passing through parks will increase Duplicant Morale."
@@ -14250,17 +14275,17 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASTOOLCRATE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASTOOLCRATE.DESC"
-msgid "A tool for toting tools around.\n\nIt's a little rusty."
+msgid "A packing crate intended for safety equipment.\n\nIt has been repurposed for tool storage."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASTOOLCRATE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASTOOLCRATE.NAME"
-msgid "Tool Tote"
+msgid "Tool Crate"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASTOOLSHELF.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASTOOLSHELF.DESC"
-msgid "A wall-mounted rack for storing and displaying useful tools just out of reach."
+msgid "A wall-mounted rack for storing and displaying useful tools at a not-so-useful height."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASTOOLSHELF.NAME
@@ -15130,7 +15155,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SAUNA.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SAUNA.EFFECT"
-msgid "Uses <link=\"STEAM\">Steam</link> to create a relaxing atmosphere.\n\nIncreases Duplicant <link=\"MORALE\">Morale</link>."
+msgid "Uses <link=\"STEAM\">Steam</link> to create a relaxing atmosphere.\n\nIncreases Duplicant <link=\"MORALE\">Morale</link> and provides a lingering sense of warmth."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SAUNA.NAME
@@ -17290,7 +17315,7 @@ msgstr ""
 
 #. STRINGS.CLUSTER_NAMES.CERES_SPACEDOUT_CLUSTER.NAME
 msgctxt "STRINGS.CLUSTER_NAMES.CERES_SPACEDOUT_CLUSTER.NAME"
-msgid "Ceres Cluster"
+msgid "Ceres Minor Cluster"
 msgstr ""
 
 #. STRINGS.CLUSTER_NAMES.DEFAULT.DESCRIPTION
@@ -20640,7 +20665,7 @@ msgstr ""
 
 #. STRINGS.CODEX.INVESTIGATIONS.DLC2_RADIOCLIP1.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.INVESTIGATIONS.DLC2_RADIOCLIP1.BODY.CONTAINER1"
-msgid "<smallcaps><b>[FILE FRAGMENTATION DETECTED]</b></smallcaps>\n\n...\n\n[Radio static.]\n\n...a tragic accident...flagship solar cell project...\n\n     ...training exercise...     ...two highly decorated pilots...countless ground crew...\n\n...Vertex Institute director expresses sorrow...  ...vows to carry on...not be in vain...\n\n       ...the research community is in mourning...\n\n...Gravitas Facility releases [unintelligible] statement...\n...deploring unsafe work conditions...    ...invites applications...all disciplines...\n\n             ...stay tuned for..."
+msgid "<smallcaps><b>[FILE FRAGMENTATION DETECTED]</b></smallcaps>\n\n...\n\n[Radio static.]\n\n...a tragic accident...flagship solar cell project...\n\n     ...training exercise...     ...two highly decorated pilots...countless ground crew...\n\n...Vertex Institute director expresses sorrow...  ...vows to carry on...not be in vain...\n\n       ...the research community is in mourning...\n\n...long-time competitor Gravitas Facility releases [unintelligible] statement...\n...deploring unsafe work conditions...    ...invites applications...all disciplines...\n\n             ...stay tuned for..."
 msgstr ""
 
 #. STRINGS.CODEX.INVESTIGATIONS.DLC2_RADIOCLIP1.BODY.CONTAINER2
@@ -20660,7 +20685,7 @@ msgstr ""
 
 #. STRINGS.CODEX.INVESTIGATIONS.DLC2_RADIOCLIP2.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.INVESTIGATIONS.DLC2_RADIOCLIP2.BODY.CONTAINER1"
-msgid "<smallcaps><b>[FILE FRAGMENTATION DETECTED]</b></smallcaps>\n\n...\n\n[Radio static.]\n\n...a tragic accident...  ...flagship smog dispersal system...\n\n    ...training exercise...\n\n...clear-air turbulence...    ...pilot in intensive care...\n\n...impossible to predict long-term impact...\n\n         ...public health order...\n\n  ...Vertex Institute projects suspended until investigations complete...\n\n...the research community is in shock...\n\n      ...Gravitas Facility releases [unintelligible] statement...\n\n...invites applications from affected workers...all disciplines...\n\n           ...stay tuned for..."
+msgid "<smallcaps><b>[FILE FRAGMENTATION DETECTED]</b></smallcaps>\n\n...\n\n[Radio static.]\n\n...a tragic accident...  ...flagship smog dispersal system...\n\n    ...training exercise...\n\n...clear-air turbulence...    ...pilot in intensive care...\n\n...impossible to predict long-term impact...\n\n         ...public health order...\n\n  ...Vertex Institute projects suspended until investigations complete...\n\n...the research community is in shock...\n\n      ...former rival Gravitas Facility releases [unintelligible] statement...\n\n...invites applications from affected workers...all disciplines...\n\n           ...stay tuned for..."
 msgstr ""
 
 #. STRINGS.CODEX.INVESTIGATIONS.DLC2_RADIOCLIP2.BODY.CONTAINER2
@@ -20680,7 +20705,7 @@ msgstr ""
 
 #. STRINGS.CODEX.INVESTIGATIONS.DLC2_RADIOCLIP3.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.INVESTIGATIONS.DLC2_RADIOCLIP3.BODY.CONTAINER1"
-msgid "<smallcaps><b>[FILE FRAGMENTATION DETECTED]</b></smallcaps>\n\n...\n\n[Radio static.]\n\n...a near-tragic accident turned into a historic victory...      \n\n...flagship artificial intelligence project...\n\n     ...clear-air turbulence...     ...record-breaking storm...\n\n...pilot lost consciousness...    ...automated system override...\n\n     ...safe and sound...      ...Vertex Institute director... expresses gratitude to...Colonel [unintelligible] on behalf of...\n\n      ...funding renewed at unspecified amount...\n\n...the research community is jubilant...     Gravitas Facility releases a statement...demanding response...claims of corporate espionage...\n\n      ...refuses to comment... \n\n...stay tuned for...\n\n"
+msgid "<smallcaps><b>[FILE FRAGMENTATION DETECTED]</b></smallcaps>\n\n...\n\n[Radio static.]\n\n...a near-tragic accident turned into a historic victory...      \n\n...flagship artificial intelligence project...\n\n     ...clear-air turbulence...     ...record-breaking storm...\n\n...pilot lost consciousness...    ...automated system override...\n\n     ...safe and sound...      ...Vertex Institute director... expresses gratitude to...Colonel [unintelligible] on behalf of...\n\n      ...funding renewed at unspecified amount...\n\n...the research community is jubilant...     competitor Gravitas Facility releases a statement...demanding response...claims of corporate espionage...\n\n      ...refuses to comment... \n\n...stay tuned for...\n\n"
 msgstr ""
 
 #. STRINGS.CODEX.INVESTIGATIONS.DLC2_RADIOCLIP3.BODY.CONTAINER2
@@ -22235,7 +22260,7 @@ msgstr ""
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RANCHSTATIONTYPE.DESCRIPTION
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RANCHSTATIONTYPE.DESCRIPTION"
-msgid "Buildings dedicated to critter husbandry."
+msgid "Buildings dedicated to <link=\"CREATURES\">Critter</link> husbandry."
 msgstr ""
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.RANCHSTATIONTYPE.FLAVOUR
@@ -22345,7 +22370,7 @@ msgstr ""
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.WARMINGSTATION.DESCRIPTION
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.WARMINGSTATION.DESCRIPTION"
-msgid "Buildings designed to help Duplicants counter the effects of cold environments and soggy feet."
+msgid "Buildings that Duplicants will visit when they are suffering the effects of cold environments."
 msgstr ""
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.WARMINGSTATION.FLAVOUR
@@ -22615,7 +22640,7 @@ msgstr ""
 
 #. STRINGS.CODEX.SPACETREE.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.SPACETREE.BODY.CONTAINER1"
-msgid "The Bonbon Gourd is a towering plant developed to thrive in below-freezing temperatures. It features multiple independently functioning stems that synthesize bright light to funnel nutrients into a hollow central core.\n\nOnce the plant is fully grown, the core secretes digestive enzymes that break down surplus nutrients and store them as thick, sweet fluid. This can be refined for the production of higher-tier foods, or used to sustain Spigot Seal ranches.\n\nBonbon Gourds are generally considered an eyesore, and would likely be eradicated if not for their delicious output."
+msgid "The Bonbon Tree is a towering plant developed to thrive in below-freezing temperatures. It features multiple independently functioning branches that synthesize bright light to funnel nutrients into a hollow central core.\n\nOnce the tree is fully grown, the core secretes digestive enzymes that break down surplus nutrients and store them as thick, sweet fluid. This can be refined into <link=\"SUCROSE\">Sucrose</link> for the production of higher-tier foods, or used as-is to sustain Spigot Seal ranches.\n\nBonbon Trees are generally considered an eyesore, and would likely be eradicated if not for their delicious output."
 msgstr ""
 
 #. STRINGS.CODEX.SPACETREE.SUBTITLE
@@ -22625,7 +22650,7 @@ msgstr ""
 
 #. STRINGS.CODEX.SPACETREE.TITLE
 msgctxt "STRINGS.CODEX.SPACETREE.TITLE"
-msgid "Bonbon Gourd"
+msgid "Bonbon Tree"
 msgstr ""
 
 #. STRINGS.CODEX.SPINDLYGRUBFRUITPLANT.BODY.CONTAINER1
@@ -24240,12 +24265,12 @@ msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.ACTIVATEGEOTHERMALPLANT.REQUIREMENT_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ACTIVATEGEOTHERMALPLANT.REQUIREMENT_DESCRIPTION"
-msgid "This achievement will be available upon release of <b>The Frosty Planet Pack</b> DLC"
+msgid "This achievement will be available upon full release of <b><i>The Frosty Planet Pack</i></b> DLC"
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.ACTIVATEGEOTHERMALPLANT.REQUIREMENT_TITLE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ACTIVATEGEOTHERMALPLANT.REQUIREMENT_TITLE"
-msgid ""
+msgid "Coming soon"
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.DESCRIPTION
@@ -24320,7 +24345,7 @@ msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.DLC_ACHIEVEMENT
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.DLC_ACHIEVEMENT"
-msgid "<i>{0}</i> DLC Achievement"
+msgid "<i>{0}</i> DLC Initiative"
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.FAILED_THIS_COLONY
@@ -27620,32 +27645,32 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PINKROCK.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PINKROCK.DESC"
-msgid "It's even brighter and more beautiful once it's been carved and displayed."
+msgid "Lumen quartz emits a soft glowing <link=\"LIGHT\">Light</link> that makes everything look and feel a little rosier.\n\nIt's even brighter and more beautiful once it's been carved."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PINKROCK.EFFECT
 msgctxt "STRINGS.CREATURES.SPECIES.PINKROCK.EFFECT"
-msgid "Lumen quartz emits a soft glowing <link=\"LIGHT\">Light</link> that makes everything look a little rosier.\n\nIt naturally boosts <link=\"DECOR\">Decor</link>."
+msgid ""
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PINKROCK.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PINKROCK.NAME"
-msgid "<link=\"PINKROCK\">Lumen Quartz</link>"
+msgid "Lumen Quartz"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PINKROCKCARVED.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PINKROCKCARVED.DESC"
-msgid "It's a very pretty rock."
+msgid "A Duplicant has carved this Lumen quartz in a way that really maximizes its <link=\"DECOR\">Decor</link> value and <link=\"LIGHT\">brightness</link>."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PINKROCKCARVED.EFFECT
 msgctxt "STRINGS.CREATURES.SPECIES.PINKROCKCARVED.EFFECT"
-msgid "A Duplicant has carved this <link=\"PINKROCK\">Lumen Quartz</link> in a way that really maximizes its <link=\"DECOR\">Decor</link> value and <link=\"LIGHT\">Light</link> production."
+msgid ""
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PINKROCKCARVED.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PINKROCKCARVED.NAME"
-msgid "<link=\"PINKROCK\">Carved Quartz</link>"
+msgid "Carved Lumen Quartz"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PRICKLEFLOWER.DESC
@@ -27835,7 +27860,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.SEAL.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEAL.DESC"
-msgid "Spigot Seals are charismatic creatures who produce <link=\"ETHANOL\">Ethanol</link>.\n\nThey enjoy sipping <link=\"SUGARWATER\">Nectar</link> straight from the <link=\"SPACETREE\">Bonbon Gourd</link>."
+msgid "Spigot Seals are charismatic creatures who produce <link=\"ETHANOL\">Ethanol</link>.\n\nThey enjoy sipping <link=\"SUGARWATER\">Nectar</link> straight from the <link=\"SPACETREE\">Bonbon Tree</link>."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.SEAL.EGG_NAME
@@ -28105,12 +28130,12 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.SPACETREE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SPACETREE.DESC"
-msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"SPACETREE\">Bonbon Gourd</link>.\n\nDigging up Buried Objects may uncover a Bonbon Gourd Seed."
+msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"SPACETREE\">Bonbon Tree</link>.\n\nDigging up Buried Objects may uncover a Bonbon Tree Seed."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.SPACETREE.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.SPACETREE.NAME"
-msgid "<link=\"SPACETREE\">Bonbon Gourd Seed</link>"
+msgid "<link=\"SPACETREE\">Bonbon Tree Seed</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.SPICE_VINE.DESC
@@ -28195,7 +28220,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.SPACETREE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SPACETREE.DESC"
-msgid "Bonbon Gourd branches synthesize <link=\"LIGHT\">Light</link> to produce <link=\"SUGARWATER\">Nectar</link>.\n\nBranches can be harvested for <link=\"WOOD\">Wood</link>.\n\nBonbon Gourds can shed most environmental debris, and rarely become entombed."
+msgid "Bonbon Tree branches synthesize <link=\"LIGHT\">Light</link> to produce <link=\"SUGARWATER\">Nectar</link>.\n\nBranches can be harvested for <link=\"WOOD\">Wood</link>.\n\nBonbon Trees can shed most environmental debris, and rarely become entombed."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.SPACETREE.DOMESTICATEDDESC
@@ -28205,7 +28230,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.SPACETREE.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SPACETREE.NAME"
-msgid "<link=\"SPACETREE\">Bonbon Gourd</link>"
+msgid "<link=\"SPACETREE\">Bonbon Tree</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.SPICE_VINE.DESC
@@ -30010,12 +30035,12 @@ msgstr ""
 
 #. STRINGS.CREATURES.STATUSITEMS.SCOLDING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.SCOLDING.NAME"
-msgid "Cold Scolding"
+msgid "Frostbite"
 msgstr ""
 
 #. STRINGS.CREATURES.STATUSITEMS.SCOLDING.NOTIFICATION_NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.SCOLDING.NOTIFICATION_NAME"
-msgid "Cold Scolding"
+msgid "Frostbite"
 msgstr ""
 
 #. STRINGS.CREATURES.STATUSITEMS.SCOLDING.NOTIFICATION_TOOLTIP
@@ -31080,12 +31105,12 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.SCOLDINGTHRESHOLD.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SCOLDINGTHRESHOLD.DESC"
-msgid "Determines the <style=\"KKeyword\">Temperature</style> at which a Duplicant will take cold damage."
+msgid "Determines the <style=\"KKeyword\">Temperature</style> at which a Duplicant will get frostbitten."
 msgstr ""
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.SCOLDINGTHRESHOLD.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SCOLDINGTHRESHOLD.NAME"
-msgid "Cold Scolding Threshold"
+msgid "Frostbite Threshold"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.SNEEZYNESS.DESC
@@ -36435,7 +36460,7 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.REFRESHINGTOUCH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.REFRESHINGTOUCH.TOOLTIP"
-msgid "This Duplicant recently visited a cooling station and is temporarily immune to heat-related <style=\"KKeyword\">Stress</style> and <style=\"KKeyword\">Athletics</style> damage"
+msgid "This Duplicant recently visited a cooling station and is totally unbothered by heat as a result"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.RESTFULSLEEP.NAME
@@ -37183,9 +37208,39 @@ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WARMTOUCH.NAME"
 msgid "Frost Resistant"
 msgstr ""
 
+#. STRINGS.DUPLICANTS.MODIFIERS.WARMTOUCH.PROVIDERS_NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WARMTOUCH.PROVIDERS_NAME"
+msgid "Frost Resistance"
+msgstr ""
+
+#. STRINGS.DUPLICANTS.MODIFIERS.WARMTOUCH.PROVIDERS_TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WARMTOUCH.PROVIDERS_TOOLTIP"
+msgid "Using this building provides temporary immunity to <style=\"KKeyword\">Chilly Surroundings</style> and <style=\"KKeyword\">Soggy Feet</style>"
+msgstr ""
+
 #. STRINGS.DUPLICANTS.MODIFIERS.WARMTOUCH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WARMTOUCH.TOOLTIP"
-msgid "This Duplicant recently visited a warming station and is temporarily immune to cold-related <style=\"KKeyword\">Stress</style> and <style=\"KKeyword\">Athletics</style> damage"
+msgid "This Duplicant recently visited a warming station, sauna, or hot tub\n\nThey are impervious to cold as a result"
+msgstr ""
+
+#. STRINGS.DUPLICANTS.MODIFIERS.WARMTOUCHFOOD.CAUSE
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WARMTOUCHFOOD.CAUSE"
+msgid "Obtained by eating a very spicy meal"
+msgstr ""
+
+#. STRINGS.DUPLICANTS.MODIFIERS.WARMTOUCHFOOD.DESCRIPTION
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WARMTOUCHFOOD.DESCRIPTION"
+msgid "Eating this provides temporary immunity to <style=\"KKeyword\">Chilly Surroundings</style> and <style=\"KKeyword\">Soggy Feet</style>"
+msgstr ""
+
+#. STRINGS.DUPLICANTS.MODIFIERS.WARMTOUCHFOOD.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WARMTOUCHFOOD.NAME"
+msgid "Frost Resistant: Spicy Diet"
+msgstr ""
+
+#. STRINGS.DUPLICANTS.MODIFIERS.WARMTOUCHFOOD.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WARMTOUCHFOOD.TOOLTIP"
+msgid "This Duplicant ate spicy food and feels so warm inside that they don't even notice the cold right now"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.WASATTACKED.NAME
@@ -38735,7 +38790,7 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.CARVING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.CARVING.TOOLTIP"
-msgid "This Duplicant is carving up a <b>{Target}</b>"
+msgid "This Duplicant is carving away at a <b>{Target}</b>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.CLEANING.NAME
@@ -39406,16 +39461,6 @@ msgstr ""
 #. STRINGS.DUPLICANTS.STATUSITEMS.LASHINGOUT.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.LASHINGOUT.TOOLTIP"
 msgid "This Duplicant is breaking buildings to relieve their <style=\"KKeyword\">Stress</style>"
-msgstr ""
-
-#. STRINGS.DUPLICANTS.STATUSITEMS.LEFTDESIRINGTOWARMUP.NAME
-msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.LEFTDESIRINGTOWARMUP.NAME"
-msgid "Desiring To Warm Up"
-msgstr ""
-
-#. STRINGS.DUPLICANTS.STATUSITEMS.LEFTDESIRINGTOWARMUP.TOOLTIP
-msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.LEFTDESIRINGTOWARMUP.TOOLTIP"
-msgid "This Duplicant was recently in a cold environment and although they are no longer cold, they were left with the desire to warm up. They will find a warming station whenever they don't find a better task to do"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.LIGHTWORKEFFICIENCYBONUS.NAME
@@ -53455,7 +53500,12 @@ msgstr ""
 
 #. STRINGS.MISC.TAGS.PLASTIFIABLELIQUID
 msgctxt "STRINGS.MISC.TAGS.PLASTIFIABLELIQUID"
-msgid "Pre-Plastic"
+msgid "<link=\"PLASTIFIABLELIQUID\">Plastic Monomer</link>"
+msgstr ""
+
+#. STRINGS.MISC.TAGS.PLASTIFIABLELIQUID_DESC
+msgctxt "STRINGS.MISC.TAGS.PLASTIFIABLELIQUID_DESC"
+msgid "Plastic monomers are organic compounds that can be processed into plastic polymers in order to produce <link=\"PLASTIC\">Plastics</link> that have useful applications as advanced building materials and <link=\"FOOD\">Food</link> preservation."
 msgstr ""
 
 #. STRINGS.MISC.TAGS.PLUMBABLE
@@ -58415,7 +58465,7 @@ msgstr ""
 
 #. STRINGS.ROOMS.CRITERIA.WARMINGSTATION.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.WARMINGSTATION.NAME"
-msgid "<link=\"BUILDCATEGORYREQUIREMENTCLASSWARMINGSTATION\">Warming Station</link>"
+msgid "<link=\"BUILDCATEGORYREQUIREMENTCLASSWARMINGSTATION\">Warming station</link>"
 msgstr ""
 
 #. STRINGS.ROOMS.CRITERIA.WASHSTATION.DESCRIPTION
@@ -59310,7 +59360,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.SUGARWOODS.DESC
 msgctxt "STRINGS.SUBWORLDS.SUGARWOODS.DESC"
-msgid "The <link=\"SNOW\">snow</link>-laden Nectar Biome is home to the massive <link=\"SPACETREE\">Bonbon Gourd</link>. This complex plant produces <link=\"SUGARWATER\">Nectar</link>, which can be refined into <link=\"SUCROSE\">Sucrose</link> and <link=\"STEAM\">Steam</link>."
+msgid "The <link=\"SNOW\">snow</link>-laden Nectar Biome is home to the massive <link=\"SPACETREE\">Bonbon Tree</link>. This complex plant produces <link=\"SUGARWATER\">Nectar</link>, which can be refined into <link=\"SUCROSE\">Sucrose</link> and <link=\"STEAM\">Steam</link>."
 msgstr ""
 
 #. STRINGS.SUBWORLDS.SUGARWOODS.NAME
@@ -61900,7 +61950,7 @@ msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FLOODEDDIAGNOSTIC.ALL_NAME
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOODEDDIAGNOSTIC.ALL_NAME"
-msgid "FLooded"
+msgid "Flooded"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FLOODEDDIAGNOSTIC.BUILDING_FLOODED
@@ -61910,7 +61960,7 @@ msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FLOODEDDIAGNOSTIC.CRITERIA.CHECKFLOODED
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOODEDDIAGNOSTIC.CRITERIA.CHECKFLOODED"
-msgid "Check flooded"
+msgid "Check Flooded"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FLOODEDDIAGNOSTIC.NORMAL
@@ -64230,7 +64280,7 @@ msgstr ""
 
 #. STRINGS.UI.DLC2.MIXING_TOOLTIP
 msgctxt "STRINGS.UI.DLC2.MIXING_TOOLTIP"
-msgid "<b>The Frosty Planet Pack</b> features frozen biomes and elements useful in thermal regulation"
+msgid "<b><i>The Frosty Planet Pack</i></b> features frozen biomes and elements useful in thermal regulation"
 msgstr ""
 
 #. STRINGS.UI.DLC2.NAME
@@ -65160,12 +65210,12 @@ msgstr ""
 
 #. STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.MIXING_TOOLTIP_ASTEROID_MIXING
 msgctxt "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.MIXING_TOOLTIP_ASTEROID_MIXING"
-msgid "Asteroid remixing modifies which asteroids appear on the starmap"
+msgid "Asteroid remixing modifies which asteroids appear on the starmap\n\nRemixed asteroids will retain key features of the outer asteroids that they replace"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.MIXING_TOOLTIP_BIOME_MIXING
 msgctxt "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.MIXING_TOOLTIP_BIOME_MIXING"
-msgid "Biome remixing modifies which biomes will be included across all asteroids"
+msgid "Biome remixing modifies which biomes will be included across multiple asteroids"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.MIXING_TOOLTIP_CANNOT_START
@@ -65176,6 +65226,11 @@ msgstr ""
 #. STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.MIXING_TOOLTIP_DLC_CONTENT
 msgctxt "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.MIXING_TOOLTIP_DLC_CONTENT"
 msgid "This content is from {0}"
+msgstr ""
+
+#. STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.MIXING_TOOLTIP_DLC_MIXING
+msgctxt "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.MIXING_TOOLTIP_DLC_MIXING"
+msgid "DLC content includes buildings,Care Packages, space POIs, critters, etc\n\nEnabling DLC content allows asteroid and biome remixes from that DLC to be customized in the sections below"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.MIXING_TOOLTIP_LOCKED_REQUIRE_DLC_NOT_ENABLED
@@ -65195,12 +65250,12 @@ msgstr ""
 
 #. STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.MIXING_TOOLTIP_TOO_MANY_GUARENTEED_ASTEROID_MIXINGS
 msgctxt "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.MIXING_TOOLTIP_TOO_MANY_GUARENTEED_ASTEROID_MIXINGS"
-msgid "Asteroid remixing modifies which asteroids appear on the starmap\n\nMaximum of {1} guaranteed asteroid remixes allowed\n\nTotal currently selected: {0}"
+msgid "Asteroid remixing modifies which asteroids appear on the starmap\n\nRemixed asteroids will retain key features of the outer asteroids that they replace\n\nMaximum of {1} guaranteed asteroid remixes allowed\n\nTotal currently selected: {0}"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.MIXING_TOOLTIP_TOO_MANY_GUARENTEED_BIOME_MIXINGS
 msgctxt "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.MIXING_TOOLTIP_TOO_MANY_GUARENTEED_BIOME_MIXINGS"
-msgid "Biome remixing modifies which biomes will be included across all asteroids\n\nMaximum of {1} guaranteed biome remixes allowed\n\nTotal currently selected: {0}"
+msgid "Biome remixing modifies which biomes will be included across multiple asteroids\n\nMaximum of {1} guaranteed biome remixes allowed\n\nTotal currently selected: {0}"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.MIXING_WARNING
@@ -65425,7 +65480,7 @@ msgstr ""
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.DLC_MIXING.LEVELS.ENABLED.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.DLC_MIXING.LEVELS.ENABLED.TOOLTIP"
-msgid "Content from this DLC is currently <b>enabled</b>\n\nThis includes Care Packages and space POIs"
+msgid "Content from this DLC is currently <b>enabled</b>\n\nThis includes Care Packages, buildings, and space POIs"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.DURABILITY.LEVELS.DEFAULT.NAME
@@ -66815,17 +66870,17 @@ msgstr ""
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.TOOLTIP_SAVE_INCOMPATABLE_DLC_CONFIGURATION
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.TOOLTIP_SAVE_INCOMPATABLE_DLC_CONFIGURATION"
-msgid "This save was created with a different DLC configuration. To play on this save please:"
+msgid "This save file was created with a different DLC configuration\n\nTo load this file:"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.TOOLTIP_SAVE_INCOMPATABLE_DLC_CONFIGURATION_ASK_TO_DISABLE
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.TOOLTIP_SAVE_INCOMPATABLE_DLC_CONFIGURATION_ASK_TO_DISABLE"
-msgid "    • Disable {0}"
+msgid "    • Deactivate {0}"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.TOOLTIP_SAVE_INCOMPATABLE_DLC_CONFIGURATION_ASK_TO_ENABLE
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.TOOLTIP_SAVE_INCOMPATABLE_DLC_CONFIGURATION_ASK_TO_ENABLE"
-msgid "    • Enable {0}"
+msgid "    • Activate {0}"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.TOOLTIP_SAVE_USES_DLC
@@ -76600,12 +76655,12 @@ msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.DLC2CERESFIELD.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.DLC2CERESFIELD.DESC"
-msgid "An asteroid field containing <link=\"CINNABAR\">Cinnabar</link>, <link=\"ICE\">Ice</link> and <link=\"MERCURY\">Mercury</link>.\n\nHarvesting resources requires a rocket equipped with a <link=\"NOSECONEHARVEST\">Drillcone</link>."
+msgid "The harvestable remains of a planet containing <link=\"CINNABAR\">Cinnabar</link>, <link=\"ICE\">Ice</link> and <link=\"MERCURY\">Mercury</link>.\n\nHarvesting resources requires a rocket equipped with a <link=\"NOSECONEHARVEST\">Drillcone</link>."
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.DLC2CERESFIELD.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.DLC2CERESFIELD.NAME"
-msgid "Ceres Debris Field"
+msgid "Frozen Cinnabar Asteroid Field"
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.DLC2CERESOREFIELD.DESC
@@ -76615,7 +76670,7 @@ msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.DLC2CERESOREFIELD.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.DLC2CERESOREFIELD.NAME"
-msgid "Ceres Ore Field"
+msgid "Frozen Mercury Asteroid Field"
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.FORESTYOREFIELD.DESC
@@ -82858,6 +82913,21 @@ msgctxt "STRINGS.UI.UISIDESCREENS.SINGLEITEMSELECTIONSIDESCREEN.TITLE"
 msgid "Element Filter"
 msgstr ""
 
+#. STRINGS.UI.UISIDESCREENS.SPACEHEATERSIDESCREEN.CURRENT_THRESHOLD
+msgctxt "STRINGS.UI.UISIDESCREENS.SPACEHEATERSIDESCREEN.CURRENT_THRESHOLD"
+msgid "Current Power Consumption: {0}"
+msgstr ""
+
+#. STRINGS.UI.UISIDESCREENS.SPACEHEATERSIDESCREEN.TITLE
+msgctxt "STRINGS.UI.UISIDESCREENS.SPACEHEATERSIDESCREEN.TITLE"
+msgid "Power Consumption"
+msgstr ""
+
+#. STRINGS.UI.UISIDESCREENS.SPACEHEATERSIDESCREEN.TOOLTIP
+msgctxt "STRINGS.UI.UISIDESCREENS.SPACEHEATERSIDESCREEN.TOOLTIP"
+msgid "Adjust power consumption to determine how much heat is produced\n\nCurrent heat production: <b>{0}</b>"
+msgstr ""
+
 #. STRINGS.UI.UISIDESCREENS.SPECIALCARGOBAYCLUSTER.AWAITINGDELIVERY
 msgctxt "STRINGS.UI.UISIDESCREENS.SPECIALCARGOBAYCLUSTER.AWAITINGDELIVERY"
 msgid "AWAITING DELIVERY: {0}"
@@ -83955,7 +84025,7 @@ msgstr ""
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELCARVE.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELCARVE.TOOLTIP"
-msgid "Cancel this carve order"
+msgid "Cancel order to carve this rock"
 msgstr ""
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELCLEANTOILET.NAME
@@ -84055,7 +84125,7 @@ msgstr ""
 
 #. STRINGS.UI.USERMENUACTIONS.CARVE.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CARVE.TOOLTIP"
-msgid "Carve this rock to release the lumens"
+msgid "Carve this rock to enhance its positive effects"
 msgstr ""
 
 #. STRINGS.UI.USERMENUACTIONS.CHANGE_ROOM.CANCEL_REQUEST
@@ -84653,6 +84723,11 @@ msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_DISPLAY"
 msgid "The display is still functional. I copy its message into my database.\n\nNew Database Entry discovered."
 msgstr ""
 
+#. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_DISPLAY_FAIL.SEARCH1
+msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_DISPLAY_FAIL.SEARCH1"
+msgid "The display is frozen. Whatever information it once contained is long gone."
+msgstr ""
+
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_ELLIESDESK
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_ELLIESDESK"
 msgid "All I find on the machine is a curt e-mail from a disgruntled employee.\n\nNew Database Entry discovered."
@@ -84930,7 +85005,7 @@ msgstr ""
 
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_BOTH.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_BOTH.NAME"
-msgid " Set Direction: Both"
+msgid "Set Direction: Both"
 msgstr ""
 
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_BOTH.TOOLTIP
@@ -86030,7 +86105,7 @@ msgstr ""
 
 #. STRINGS.WORLDGEN_MIXING.CERES.DESC
 msgctxt "STRINGS.WORLDGEN_MIXING.CERES.DESC"
-msgid "Enable care packages, space POIs, and buildings from <b>The Frosty Planet Pack</b>."
+msgid "Enable care packages, space POIs, and buildings from <b><i>The Frosty Planet Pack</b></i>."
 msgstr ""
 
 #. STRINGS.WORLDGEN_MIXING.CERES.NAME
@@ -86075,7 +86150,7 @@ msgstr ""
 
 #. STRINGS.WORLDS.CERESCLASSIC.NAME
 msgctxt "STRINGS.WORLDS.CERESCLASSIC.NAME"
-msgid "Ceres"
+msgid "Ceres Asteroid"
 msgstr ""
 
 #. STRINGS.WORLDS.CERESMIXING.DESCRIPTION
@@ -86095,7 +86170,7 @@ msgstr ""
 
 #. STRINGS.WORLDS.CERESSPACEDOUT.NAME
 msgctxt "STRINGS.WORLDS.CERESSPACEDOUT.NAME"
-msgid "Ceres"
+msgid "Ceres Minor"
 msgstr ""
 
 #. STRINGS.WORLDS.FOREST_DEFAULT.DESCRIPTION
