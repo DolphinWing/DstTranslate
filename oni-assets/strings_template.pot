@@ -98,6 +98,16 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_COTTAGE.NAME"
 msgid "<link=\"BED\">Quilt Cot</link>"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.PERMIT_BED_JORGE.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_JORGE.DESC"
+msgid "A safe place to sleep."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_BED_JORGE.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_JORGE.NAME"
+msgid "<link=\"BED\">Cot</link>"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_COOKINGSTATION_COTTAGE.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_COOKINGSTATION_COTTAGE.DESC"
 msgid "The smoky flavor is intentional."
@@ -135,7 +145,7 @@ msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_HEADQUARTERS_CERES.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_HEADQUARTERS_CERES.NAME"
-msgid "Frosty Printing Pod"
+msgid "<link=\"HEADQUARTERS\">Frosty Printing Pod</link>"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_ICESCULPTURE_AMAZING_IDLE_BAMMOTH.DESC
@@ -276,6 +286,16 @@ msgstr ""
 #. STRINGS.BLUEPRINTS.PERMIT_SCULPTURE_WOOD_OKAY_MID_ONE.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_SCULPTURE_WOOD_OKAY_MID_ONE.NAME"
 msgid "Wood Grain"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_SMARTSTORAGELOCKER_GRAVITAS.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_SMARTSTORAGELOCKER_GRAVITAS.DESC"
+msgid "Smart storage bins can automate resource organization based on type and mass."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_SMARTSTORAGELOCKER_GRAVITAS.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_SMARTSTORAGELOCKER_GRAVITAS.NAME"
+msgid "<link=\"STORAGELOCKERSMART\">Smart Storage Bin</link>"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_TOP_FLANNEL_BLACK.DESC
@@ -49835,7 +49855,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.DEEPFRIEDFISH.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.DEEPFRIEDFISH.RECIPEDESC"
-msgid "Delicately sliced <link=\"FISHMEAT\">Pacu Fillet</link> deep-fried in <link=\"TALLOW\">Tallow</link>."
+msgid "<link=\"FISHMEAT\">Pacu Fillet</link> lightly battered and deep-fried in <link=\"TALLOW\">Tallow</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.DEEPFRIEDMEAT.DESC
@@ -49865,7 +49885,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.DEEPFRIEDSHELLFISH.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.DEEPFRIEDSHELLFISH.RECIPEDESC"
-msgid "A tender chunk of <link=\"SHELLFISHMEAT\">Raw Shellfish</link> deep-fried in <link=\"TALLOW\">Tallow</link>."
+msgid "A tender chunk of battered <link=\"SHELLFISHMEAT\">Raw Shellfish</link> deep-fried in <link=\"TALLOW\">Tallow</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.DRECKOEGG.DESC
@@ -49965,7 +49985,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.FRIESCARROT.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.FRIESCARROT.RECIPEDESC"
-msgid "Sticks of <link=\"CARROT\">Plume Squash</link> deep-fried in <link=\"TALLOW\">Tallow</link>."
+msgid "Salty sticks of <link=\"CARROT\">Plume Squash</link> deep-fried in <link=\"TALLOW\">Tallow</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.FRUITCAKE.DESC
@@ -53505,7 +53525,7 @@ msgstr ""
 
 #. STRINGS.MISC.TAGS.PLASTIFIABLELIQUID_DESC
 msgctxt "STRINGS.MISC.TAGS.PLASTIFIABLELIQUID_DESC"
-msgid "Plastic monomers are organic compounds that can be processed into plastic polymers in order to produce <link=\"PLASTIC\">Plastics</link> that have useful applications as advanced building materials and <link=\"FOOD\">Food</link> preservation."
+msgid "Plastic monomers are organic compounds that can be processed into <link=\"PLASTIC\">Plastics</link> that have valuable applications as advanced building materials. Plastics derived from these monomers can also be used as packaging materials for <link=\"FOOD\">Food</link> preservation."
 msgstr ""
 
 #. STRINGS.MISC.TAGS.PLUMBABLE
