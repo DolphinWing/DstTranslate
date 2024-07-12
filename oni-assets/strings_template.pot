@@ -88,9 +88,114 @@ msgctxt "STRINGS.BLUEPRINTS.OUTFIT_TOP_FLANNEL_YELLOW.NAME"
 msgid "Flax Flannel Outfit"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_01.NAME
+msgctxt "STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_01.NAME"
+msgid "Slapshot Outfit"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_02.NAME
+msgctxt "STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_02.NAME"
+msgid "Blocker Outfit"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_03.NAME
+msgctxt "STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_03.NAME"
+msgid "High-Stick Outfit"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_04.NAME
+msgctxt "STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_04.NAME"
+msgid "Faceoff Outfit"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_05.NAME
+msgctxt "STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_05.NAME"
+msgid "MVP Outfit"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_07.NAME
+msgctxt "STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_07.NAME"
+msgid "Hat-Trick Outfit"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_08.NAME
+msgctxt "STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_08.NAME"
+msgid "Overtime Outfit"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_09.NAME
+msgctxt "STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_09.NAME"
+msgid "Penalty Box Outfit"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_10.NAME
+msgctxt "STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_10.NAME"
+msgid "Enforcer Outfit"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_11.NAME
+msgctxt "STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_11.NAME"
+msgid "Hoser Outfit"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_12.NAME
+msgctxt "STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_12.NAME"
+msgid "Rookie Outfit"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_80S.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_80S.DESC"
+msgid "Just big enough to hold a single lip balm whose lid keeps coming off."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_80S.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_80S.NAME"
+msgid "Fannypack Atmo Belt"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_80S.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_80S.DESC"
+msgid "A funky fresh pair of hand coverings."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_80S.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_80S.NAME"
+msgid "Radical Atmo Gloves"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_80S.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_80S.DESC"
+msgid "A choice lid keeps things copacetic out here in the cosmos."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_80S.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_80S.NAME"
+msgid "Radical Atmo Helmet"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_SHOES_80S.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_SHOES_80S.DESC"
+msgid "Can you do the Running Man in space? With these, maybe."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_SHOES_80S.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_SHOES_80S.NAME"
+msgid "Radical Atmo Boots"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_80S.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_80S.DESC"
+msgid "It's truly excellent, dude."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_80S.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_80S.NAME"
+msgid "Radical Atmo Suit"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_BED_COTTAGE.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_COTTAGE.DESC"
-msgid "Little scraps of textile waste make a cozy bedcover, when they're stapled together by hand."
+msgid "Little scraps of textile waste make a cozy bedcover when they're stapled together by hand."
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_BED_COTTAGE.NAME
@@ -100,32 +205,32 @@ msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_BED_JORGE.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_JORGE.DESC"
-msgid "A safe place to sleep."
+msgid "One person's junk is another person's bespoke bed."
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_BED_JORGE.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_JORGE.NAME"
-msgid "<link=\"BED\">Cot</link>"
+msgid "<link=\"BED\">DIY Cot</link>"
 msgstr ""
 
-#. STRINGS.BLUEPRINTS.PERMIT_COOKINGSTATION_COTTAGE.DESC
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_COOKINGSTATION_COTTAGE.DESC"
+#. STRINGS.BLUEPRINTS.PERMIT_COOKSTATION_COTTAGE.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_COOKSTATION_COTTAGE.DESC"
 msgid "The smoky flavor is intentional."
 msgstr ""
 
-#. STRINGS.BLUEPRINTS.PERMIT_COOKINGSTATION_COTTAGE.NAME
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_COOKINGSTATION_COTTAGE.NAME"
-msgid "<link=\"COOKINGSTATION\">Backcountry Grill</link>"
+#. STRINGS.BLUEPRINTS.PERMIT_COOKSTATION_COTTAGE.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_COOKSTATION_COTTAGE.NAME"
+msgid "<link=\"PERMITCOOKSTATIONCOTTAGE\">Backcountry Grill</link>"
 msgstr ""
 
-#. STRINGS.BLUEPRINTS.PERMIT_COOKINGSTATION_GOURMET_COTTAGE.DESC
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_COOKINGSTATION_GOURMET_COTTAGE.DESC"
+#. STRINGS.BLUEPRINTS.PERMIT_COOKSTATION_GOURMET_COTTAGE.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_COOKSTATION_GOURMET_COTTAGE.DESC"
 msgid "It makes quality meal recipes feel more...approachable."
 msgstr ""
 
-#. STRINGS.BLUEPRINTS.PERMIT_COOKINGSTATION_GOURMET_COTTAGE.NAME
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_COOKINGSTATION_GOURMET_COTTAGE.NAME"
-msgid "<link=\"GOURMETCOOKINGSTATION\">Rustic Oven</link>"
+#. STRINGS.BLUEPRINTS.PERMIT_COOKSTATION_GOURMET_COTTAGE.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_COOKSTATION_GOURMET_COTTAGE.NAME"
+msgid "<link=\"PERMITCOOKSTATIONGOURMETCOTTAGE\">Rustic Gas Range</link>"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_FLOORLAMP_COTTAGE.DESC
@@ -135,7 +240,117 @@ msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_FLOORLAMP_COTTAGE.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_FLOORLAMP_COTTAGE.NAME"
-msgid "<link=\"FLOORLAMP\">Quaint Lamp</link>"
+msgid "<link=\"FLOORLAMP\">Storytime Lamp</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_01.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_01.DESC"
+msgid "Slapshots are allowed, slapping is not."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_01.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_01.NAME"
+msgid "Slapshot Gloves"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_02.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_02.DESC"
+msgid "Designed to cause disappointment for opponents."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_02.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_02.NAME"
+msgid "Blocker Gloves"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_03.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_03.DESC"
+msgid "Hold your head high, and your hockey stick higher."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_03.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_03.NAME"
+msgid "High-Stick Gloves"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_04.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_04.DESC"
+msgid "When two scientists disagree, there is only one solution."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_04.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_04.NAME"
+msgid "Faceoff Gloves"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_05.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_05.DESC"
+msgid "Can only be worn by this season's Most Valuable Physicist."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_05.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_05.NAME"
+msgid "MVP Gloves"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_07.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_07.DESC"
+msgid "Marks the wearer as someone who once received three high-fives in a single day."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_07.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_07.NAME"
+msgid "Hat-Trick Gloves"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_08.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_08.DESC"
+msgid "Keeps your hands warm when things take longer than scheduled."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_08.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_08.NAME"
+msgid "Overtime Gloves"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_09.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_09.DESC"
+msgid "High contrast colors for effective gesturing through plexiglass."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_09.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_09.NAME"
+msgid "Penalty Box Gloves"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_10.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_10.DESC"
+msgid "They're not afraid to get a little dirty."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_10.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_10.NAME"
+msgid "Enforcer Gloves"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_11.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_11.DESC"
+msgid "Good game, bud."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_11.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_11.NAME"
+msgid "Hoser Gloves"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_12.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_12.DESC"
+msgid "They're a little green."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_12.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_HOCKEY_12.NAME"
+msgid "Rookie Gloves"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_HEADQUARTERS_CERES.DESC
@@ -178,13 +393,123 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_ICESCULPTURE_AMAZING_IDLE_WOOD_DEER.NAME"
 msgid "Glam Guardian"
 msgstr ""
 
-#. STRINGS.BLUEPRINTS.PERMIT_RANCHSTATION_COTTAGE.DESC
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_RANCHSTATION_COTTAGE.DESC"
-msgid "Some Ranchers believe that a woodsy aesthetic puts critters at ease."
+#. STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_BLACK_SMOG.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_BLACK_SMOG.DESC"
+msgid "Keeps fingers snuggled up next to each other, as nature intended."
 msgstr ""
 
-#. STRINGS.BLUEPRINTS.PERMIT_RANCHSTATION_COTTAGE.NAME
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_RANCHSTATION_COTTAGE.NAME"
+#. STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_BLACK_SMOG.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_BLACK_SMOG.NAME"
+msgid "Smog Mittens"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_BLUE_AZULENE.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_BLUE_AZULENE.DESC"
+msgid "Very useful for dusting off old reference books."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_BLUE_AZULENE.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_BLUE_AZULENE.NAME"
+msgid "Azulene Mittens"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_GREEN_ENZYME.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_GREEN_ENZYME.DESC"
+msgid "A bit fiddly for handling lab equipment."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_GREEN_ENZYME.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_GREEN_ENZYME.NAME"
+msgid "Enzyme Mittens"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_ORANGE_TECTONIC.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_ORANGE_TECTONIC.DESC"
+msgid "If you rub them on your hair, you get a little zap."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_ORANGE_TECTONIC.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_ORANGE_TECTONIC.NAME"
+msgid "Tectonic Mittens"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_PINK_COSMIC.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_PINK_COSMIC.DESC"
+msgid "Easy to find in the snow."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_PINK_COSMIC.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_PINK_COSMIC.NAME"
+msgid "Cosmic Mittens"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_PURPLE_ASTRAL.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_PURPLE_ASTRAL.DESC"
+msgid "They should really be attached to each other by a long string."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_PURPLE_ASTRAL.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_PURPLE_ASTRAL.NAME"
+msgid "Astral Mittens"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_WHITE.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_WHITE.DESC"
+msgid "What they lack in dexterity, they also lack in stain-resistance."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_WHITE.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_WHITE.NAME"
+msgid "White Mittens"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_YELLOWCAKE.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_YELLOWCAKE.DESC"
+msgid "They're great for stroking one's own face."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_YELLOWCAKE.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_YELLOWCAKE.NAME"
+msgid "Yellowcake Mittens"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_PAINTING_ART_CERES_A.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_PAINTING_ART_CERES_A.DESC"
+msgid "You cannot choose your family, but you can choose your friends."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_PAINTING_ART_CERES_A.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_PAINTING_ART_CERES_A.NAME"
+msgid "Lady With a Bammini"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_PAINTING_TALL_ART_CERES_A.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_PAINTING_TALL_ART_CERES_A.DESC"
+msgid "The tale of this catch grows more unbelievable with each telling."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_PAINTING_TALL_ART_CERES_A.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_PAINTING_TALL_ART_CERES_A.NAME"
+msgid "Catch of the Day"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_PAINTING_WIDE_ART_CERES_A.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_PAINTING_WIDE_ART_CERES_A.DESC"
+msgid "The scale implies that this critter and its friend were larger than most."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_PAINTING_WIDE_ART_CERES_A.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_PAINTING_WIDE_ART_CERES_A.NAME"
+msgid "Babe the Blue Flox"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_RANCHERSTATION_COTTAGE.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_RANCHERSTATION_COTTAGE.DESC"
+msgid "Some ranchers believe that a woodsy aesthetic puts critters at ease."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_RANCHERSTATION_COTTAGE.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_RANCHERSTATION_COTTAGE.NAME"
 msgid "<link=\"RANCHSTATION\">Rustic Grooming Station</link>"
 msgstr ""
 
@@ -290,12 +615,12 @@ msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_SMARTSTORAGELOCKER_GRAVITAS.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_SMARTSTORAGELOCKER_GRAVITAS.DESC"
-msgid "Smart storage bins can automate resource organization based on type and mass."
+msgid "Someone gave this smart storage bin a makeover."
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_SMARTSTORAGELOCKER_GRAVITAS.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_SMARTSTORAGELOCKER_GRAVITAS.NAME"
-msgid "<link=\"STORAGELOCKERSMART\">Smart Storage Bin</link>"
+msgid "<link=\"STORAGELOCKERSMART\">Smart-Looking Smart Storage</link>"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_TOP_FLANNEL_BLACK.DESC
@@ -350,7 +675,7 @@ msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_TOP_FLANNEL_PURPLE.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_FLANNEL_PURPLE.DESC"
-msgid "A series of perfectly aligned alternating squares implies a certain work ethic."
+msgid "Perfectly aligned alternating squares imply a certain work ethic."
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_TOP_FLANNEL_PURPLE.NAME
@@ -386,6 +711,156 @@ msgstr ""
 #. STRINGS.BLUEPRINTS.PERMIT_TOP_FLANNEL_YELLOW.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_FLANNEL_YELLOW.NAME"
 msgid "Flax Flannel Shirt"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_01.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_01.DESC"
+msgid "Not to be confused with a \"Snapshot\" jersey, which is made out of old photographs."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_01.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_01.NAME"
+msgid "Slapshot Jersey"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_02.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_02.DESC"
+msgid "Oh, was I in your way? Good."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_02.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_02.NAME"
+msgid "Blocker Jersey"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_03.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_03.DESC"
+msgid "Subtle padding in the neck and chest protects from retaliation."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_03.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_03.NAME"
+msgid "High-Stick Jersey"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_04.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_04.DESC"
+msgid "It makes other colony members see red."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_04.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_04.NAME"
+msgid "Faceoff Jersey"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_05.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_05.DESC"
+msgid "Often worn with the matching gloves to make sure <i>everyone</i> knows."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_05.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_05.NAME"
+msgid "MVP Jersey"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_07.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_07.DESC"
+msgid "Three hypotheses in one paper? Wow!"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_07.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_07.NAME"
+msgid "Hat-Trick Jersey"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_08.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_08.DESC"
+msgid "It's comfy enough to sleep in."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_08.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_08.NAME"
+msgid "Overtime Jersey"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_09.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_09.DESC"
+msgid "There's a troublemaker on every research team."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_09.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_09.NAME"
+msgid "Penalty Box Jersey"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_10.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_10.DESC"
+msgid "It's time to lay down the law. Newton's Law."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_10.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_10.NAME"
+msgid "Enforcer Jersey"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_11.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_11.DESC"
+msgid "You win some, you learn some."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_11.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_11.NAME"
+msgid "Hoser Jersey"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_12.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_12.DESC"
+msgid "Grants the wearer enthusiasm and beginner's luck."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_12.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_JERSEY_12.NAME"
+msgid "Rookie Jersey"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_FOREST.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_FOREST.DESC"
+msgid "Sustainable forest bathing."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_FOREST.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_FOREST.NAME"
+msgid "<link=\"EXTERIORWALL\">Forest</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_IGLOO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_IGLOO.DESC"
+msgid "Snow tile style that won't melt!"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_IGLOO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_IGLOO.NAME"
+msgid "<link=\"EXTERIORWALL\">Ice Panel</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_SOUTHWEST.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_SOUTHWEST.DESC"
+msgid "Southwest of <i>what</i>, Duplicants aren't sure. But they like it."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_SOUTHWEST.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_SOUTHWEST.NAME"
+msgid "<link=\"EXTERIORWALL\">Southwest</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_WOOD_PANEL.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_WOOD_PANEL.DESC"
+msgid "Even labs can be dressed up as log cabins!"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_WOOD_PANEL.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_WOOD_PANEL.NAME"
+msgid "<link=\"EXTERIORWALL\">Wood Panel</link>"
 msgstr ""
 
 #. STRINGS.BUILDING.DETAILS.USE_COUNT
@@ -2481,6 +2956,46 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.MELTINGDOWN.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MELTINGDOWN.TOOLTIP"
 msgid "This building is collapsing"
+msgstr ""
+
+#. STRINGS.BUILDING.STATUSITEMS.MERCURYLIGHT_CHARGED.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.MERCURYLIGHT_CHARGED.NAME"
+msgid "Fully Charged"
+msgstr ""
+
+#. STRINGS.BUILDING.STATUSITEMS.MERCURYLIGHT_CHARGED.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.MERCURYLIGHT_CHARGED.TOOLTIP"
+msgid "This building is functioning at maximum capacity"
+msgstr ""
+
+#. STRINGS.BUILDING.STATUSITEMS.MERCURYLIGHT_CHARGING.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.MERCURYLIGHT_CHARGING.NAME"
+msgid "Powering Up: {0}"
+msgstr ""
+
+#. STRINGS.BUILDING.STATUSITEMS.MERCURYLIGHT_CHARGING.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.MERCURYLIGHT_CHARGING.TOOLTIP"
+msgid "This building's <style=\"KKeyword\">Light</style> levels are gradually increasing\n\nIf its <style=\"KKeyword\">Liquid</style> and <style=\"KKeyword\">Power</style> requirements continue to be met, it will reach maximum brightness in {0}"
+msgstr ""
+
+#. STRINGS.BUILDING.STATUSITEMS.MERCURYLIGHT_DEPLEATED.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.MERCURYLIGHT_DEPLEATED.NAME"
+msgid "Powered Off"
+msgstr ""
+
+#. STRINGS.BUILDING.STATUSITEMS.MERCURYLIGHT_DEPLEATED.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.MERCURYLIGHT_DEPLEATED.TOOLTIP"
+msgid "This building is non-operational due to a lack of resources\n\nIt will begin to power up when its <style=\"KKeyword\">Liquid</style> and <style=\"KKeyword\">Power</style> are met"
+msgstr ""
+
+#. STRINGS.BUILDING.STATUSITEMS.MERCURYLIGHT_DEPLEATING.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.MERCURYLIGHT_DEPLEATING.NAME"
+msgid "Brightness: {0}"
+msgstr ""
+
+#. STRINGS.BUILDING.STATUSITEMS.MERCURYLIGHT_DEPLEATING.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.MERCURYLIGHT_DEPLEATING.TOOLTIP"
+msgid "This building's <style=\"KKeyword\">Light</style> output is decreasing because its <style=\"KKeyword\">Liquid</style> and <style=\"KKeyword\">Power</style> requirements are not being met\n\nIt will power off once its stores are depleted"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.MILKSEPARATORNEEDSEMPTYING.NAME
@@ -12483,6 +12998,21 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.MEGABRAINTANK.NAME"
 msgid "<link=\"MEGABRAINTANK\">Somnium Synthesizer</link>"
 msgstr ""
 
+#. STRINGS.BUILDINGS.PREFABS.MERCURYCEILINGLIGHT.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.MERCURYCEILINGLIGHT.DESC"
+msgid "Mercury ceiling lights take a while to reach full brightness, but once they do...zowie!"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.MERCURYCEILINGLIGHT.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.MERCURYCEILINGLIGHT.EFFECT"
+msgid "Uses <link=\"MERCURY\">Mercury</link> and <link=\"POWER\">Power</link> to produce <link=\"LIGHT\">Light</link>.\n\nLight reduces Duplicant stress and is required to grow certain plants."
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.MERCURYCEILINGLIGHT.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.MERCURYCEILINGLIGHT.NAME"
+msgid "<link=\"MERCURYCEILINGLIGHT\">Mercury Ceiling Light</link>"
+msgstr ""
+
 #. STRINGS.BUILDINGS.PREFABS.MESHTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MESHTILE.DESC"
 msgid "Mesh tile can be used to make Duplicant pathways in areas where liquid flows."
@@ -14850,7 +15380,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.METAL_RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.METAL_RECIPE_DESCRIPTION"
-msgid "Crushes {1} into <link=\"SAND\">Sand</link> and pure {0}."
+msgid "Crushes {1} into <link=\"SAND\">Sand</link> and pure {0}"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.NAME
@@ -14860,7 +15390,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.RECIPE_DESCRIPTION"
-msgid "Crushes {0} into {1}."
+msgid "Crushes {0} into {1}"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.RECIPE_DESCRIPTION_TWO_OUTPUT
@@ -20281,6 +20811,11 @@ msgstr ""
 #. STRINGS.CODEX.HEADERS.ELEMENTTRANSITIONSTO
 msgctxt "STRINGS.CODEX.HEADERS.ELEMENTTRANSITIONSTO"
 msgid "Transitions To"
+msgstr ""
+
+#. STRINGS.CODEX.HEADERS.EQUIPMENTEFFECTS
+msgctxt "STRINGS.CODEX.HEADERS.EQUIPMENTEFFECTS"
+msgid "Effects"
 msgstr ""
 
 #. STRINGS.CODEX.HEADERS.FABRICATIONS
@@ -27420,7 +27955,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.MOLE.VARIANT_DELICACY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.VARIANT_DELICACY.DESC"
-msgid "Delecta Voles are burrowing critters whose bodies sprout shearable <link=\"GINGER\">Tonic Root</link> when <link=\"REGOLITH\">Regolith</link> is ingested at preferred temperatures.\n\nThey cannot burrow through <link=\"REFINEDMETAL\">Refined Metals</link>."
+msgid "Delecta Voles are burrowing critters whose bodies sprout shearable <link=\"GINGERCONFIG\">Tonic Root</link> when <link=\"REGOLITH\">Regolith</link> is ingested at preferred temperatures.\n\nThey cannot burrow through <link=\"REFINEDMETAL\">Refined Metals</link>."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.MOLE.VARIANT_DELICACY.EGG_NAME
@@ -49830,7 +50365,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.CURRY.DESC
 msgctxt "STRINGS.ITEMS.FOOD.CURRY.DESC"
-msgid "Chewy <link=\"BEANPLANTSEED\">Nosh Beans</link> simmered with chunks of <link=\"GINGER\">Tonic Root</link>.\n\nIt's so spicy!"
+msgid "Chewy <link=\"BEANPLANTSEED\">Nosh Beans</link> simmered with chunks of <link=\"GINGERCONFIG\">Tonic Root</link>.\n\nIt's so spicy!"
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.CURRY.NAME
@@ -49840,7 +50375,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.CURRY.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.CURRY.RECIPEDESC"
-msgid "Chewy <link=\"BEANPLANTSEED\">Nosh Beans</link> simmered with chunks of <link=\"GINGER\">Tonic Root</link>."
+msgid "Chewy <link=\"BEANPLANTSEED\">Nosh Beans</link> simmered with chunks of <link=\"GINGERCONFIG\">Tonic Root</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.DEEPFRIEDFISH.DESC
@@ -49871,6 +50406,21 @@ msgstr ""
 #. STRINGS.ITEMS.FOOD.DEEPFRIEDMEAT.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.DEEPFRIEDMEAT.RECIPEDESC"
 msgid "A juicy slab of <link=\"MEAT\">Raw Meat</link> deep-fried in <link=\"TALLOW\">Tallow</link>."
+msgstr ""
+
+#. STRINGS.ITEMS.FOOD.DEEPFRIEDNOSH.DESC
+msgctxt "STRINGS.ITEMS.FOOD.DEEPFRIEDNOSH.DESC"
+msgid "Crunchy bean treats"
+msgstr ""
+
+#. STRINGS.ITEMS.FOOD.DEEPFRIEDNOSH.NAME
+msgctxt "STRINGS.ITEMS.FOOD.DEEPFRIEDNOSH.NAME"
+msgid "<link=\"DEEPFRIEDNOSH\">Nosh Snack</link>"
+msgstr ""
+
+#. STRINGS.ITEMS.FOOD.DEEPFRIEDNOSH.RECIPEDESC
+msgctxt "STRINGS.ITEMS.FOOD.DEEPFRIEDNOSH.RECIPEDESC"
+msgid "A crunchy pile of <link=\"BEANPLANT\">Nosh Beans</link> deep-fried in <link=\"TALLOW\">Tallow</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.DEEPFRIEDSHELLFISH.DESC
@@ -50815,7 +51365,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.INGREDIENTS.GINGER.NAME
 msgctxt "STRINGS.ITEMS.INGREDIENTS.GINGER.NAME"
-msgid "<link=\"GINGER\">Tonic Root</link>"
+msgid "<link=\"GINGERCONFIG\">Tonic Root</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.INGREDIENTS.SWAMPLILYFLOWER.DESC
@@ -59998,6 +60548,16 @@ msgctxt "STRINGS.UI.BUILDINGEFFECTS.IMPROVED_BUILDINGS_ITEM"
 msgid "{0}"
 msgstr ""
 
+#. STRINGS.UI.BUILDINGEFFECTS.IMPROVED_PLANTS
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.IMPROVED_PLANTS"
+msgid "Improved Plants"
+msgstr ""
+
+#. STRINGS.UI.BUILDINGEFFECTS.IMPROVED_PLANTS_ITEM
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.IMPROVED_PLANTS_ITEM"
+msgid "{0}"
+msgstr ""
+
 #. STRINGS.UI.BUILDINGEFFECTS.IN_ORBIT_REQUIRED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.IN_ORBIT_REQUIRED"
 msgid "Active In Space"
@@ -60545,6 +61105,16 @@ msgstr ""
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS_ITEM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS_ITEM"
+msgid "{0}"
+msgstr ""
+
+#. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_PLANTS
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_PLANTS"
+msgid "<style=\"KKeyword\">Tune Ups</style> will improve these plants:"
+msgstr ""
+
+#. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_PLANTS_ITEM
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_PLANTS_ITEM"
 msgid "{0}"
 msgstr ""
 
