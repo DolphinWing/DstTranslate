@@ -4248,7 +4248,7 @@ msgstr "<link=\"ADVANCEDRESEARCHCENTER\">超級電腦</link>"
 #. STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.DESC"
 msgid "Lures can relocate Pufts or Shine Bugs to specific locations in my colony."
-msgstr "誘餌可以將帕夫或發光蟲，吸引到基地內的指定地點。"
+msgstr "誘餌可以將帕夫或發光蟲，吸引到殖民地內的指定地點。"
 
 #. STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.EFFECT"
@@ -8358,7 +8358,7 @@ msgstr "除了選擇過濾的氣體，其它所有的氣體都會進入這個建
 #. STRINGS.BUILDINGS.PREFABS.GASFILTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.EFFECT"
 msgid "Sieves one <link=\"ELEMENTSGAS\">Gas</link> from the air, sending it into a dedicated <link=\"GASPIPING\">Pipe</link>."
-msgstr "從空氣中分離一種<link=\"ELEMENTSGAS\">氣體</link>，送進專用的 <link=\"GASPIPING\">管線</link> 中。"
+msgstr "從空氣中分離一種<link=\"ELEMENTSGAS\">氣體</link>，送進專用的<link=\"GASPIPING\">管線</link>中。"
 
 #. STRINGS.BUILDINGS.PREFABS.GASFILTER.ELEMENT_NOT_SPECIFIED
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.ELEMENT_NOT_SPECIFIED"
@@ -9488,7 +9488,7 @@ msgstr "<link=\"KEROSENEENGINE\">石油引擎</link>"
 #. STRINGS.BUILDINGS.PREFABS.KEROSENEENGINECLUSTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.KEROSENEENGINECLUSTER.DESC"
 msgid "More powerful rocket engines can propel heavier burdens."
-msgstr "更強大的火箭擎可以推動更重的負載。"
+msgstr "更強大的火箭引擎可以推動更重的負載。"
 
 #. STRINGS.BUILDINGS.PREFABS.KEROSENEENGINECLUSTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.KEROSENEENGINECLUSTER.EFFECT"
@@ -9518,7 +9518,7 @@ msgstr "<link=\"KEROSENEENGINECLUSTERSMALL\">小型石油引擎</link>"
 #. STRINGS.BUILDINGS.PREFABS.KILN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.KILN.DESC"
 msgid "Kilns can also be used to refine coal into pure carbon."
-msgstr "窯廠也可以用來將煤炭精製成純炭。"
+msgstr "窯廠也可以用來將煤炭精製成純碳。"
 
 #. STRINGS.BUILDINGS.PREFABS.KILN.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.KILN.EFFECT"
@@ -9593,7 +9593,7 @@ msgstr "著陸艙"
 #. STRINGS.BUILDINGS.PREFABS.LANDINGBEACON.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LANDINGBEACON.DESC"
 msgid "Microtarget where your <link=\"RAILGUNPAYLOAD\">Interplanetary Payload</link> lands on a Planetoid surface."
-msgstr "引導 <link=\"RAILGUNPAYLOAD\">星際貨箱</link> 降落在小行星表面。"
+msgstr "引導<link=\"RAILGUNPAYLOAD\">星際貨箱</link>降落在小行星表面。"
 
 #. STRINGS.BUILDINGS.PREFABS.LANDINGBEACON.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LANDINGBEACON.EFFECT"
@@ -9998,7 +9998,7 @@ msgstr "<link=\"LIQUIDHEATER\">液體加溫器</link>"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.DESC"
 msgid "Meter Valves let an exact amount of liquid pass through before shutting off."
-msgstr "計量閥在關閉前可以讓一定量的氣體通過。"
+msgstr "計量閥在關閉前可以讓一定量的液體通過。"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.EFFECT"
@@ -10763,7 +10763,7 @@ msgstr "接收來自太空的自動化訊號。"
 #. STRINGS.BUILDINGS.PREFABS.LOGICINTERASTEROIDRECEIVER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICINTERASTEROIDRECEIVER.EFFECT"
 msgid "Receives a <b><style=\"logic_on\">Green Signal</style></b> or a <b><style=\"logic_off\">Red Signal</style></b> from an <link=\"LOGICINTERASTEROIDSENDER\">Automation Broadcaster</link> over vast distances in space.\n\nBoth the Automation Receiver and the Automation Broadcaster must be exposed to space to function."
-msgstr "接收來自遠方太空 <link=\"LOGICINTERASTEROIDSENDER\">訊號廣播站</link> 所發出的<b><style=\"logic_on\">綠色訊號</style></b>或<b><style=\"logic_off\">紅色訊號</style></b>。\n\n訊號接收站與訊號廣播站必須暴露於太空中才能運作。"
+msgstr "接收來自遠方太空<link=\"LOGICINTERASTEROIDSENDER\">訊號廣播站</link>所發出的<b><style=\"logic_on\">綠色訊號</style></b>或<b><style=\"logic_off\">紅色訊號</style></b>。\n\n訊號接收站與訊號廣播站必須暴露於太空中才能運作。"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICINTERASTEROIDRECEIVER.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICINTERASTEROIDRECEIVER.LOGIC_PORT"
@@ -13008,7 +13008,7 @@ msgstr "<link=\"PLANTERBOX\">種植箱</link>"
 #. STRINGS.BUILDINGS.PREFABS.PLASTICTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PLASTICTILE.DESC"
 msgid "Plastic tile is mildly antiseptic and can help limit the spread of germs in a colony."
-msgstr "塑膠地磚具有輕微的抗菌力，可以限制細菌在基地內散布。"
+msgstr "塑膠地磚具有輕微的抗菌力，可以限制細菌在殖民地內散布。"
 
 #. STRINGS.BUILDINGS.PREFABS.PLASTICTILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.PLASTICTILE.EFFECT"
@@ -13963,12 +13963,12 @@ msgstr "將{0}粉碎成{1}與少量的純{2}"
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.LIME_RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.LIME_RECIPE_DESCRIPTION"
 msgid "Crushes {1} into {0}"
-msgstr "粉碎{1}製成{0}。"
+msgstr "粉碎{1}製成{0}"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.METAL_RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.METAL_RECIPE_DESCRIPTION"
 msgid "Crushes {1} into <link=\"SAND\">Sand</link> and pure {0}."
-msgstr "將{1}粉碎成<link=\"SAND\">沙子</link>與純{0}。"
+msgstr "將{1}粉碎成<link=\"SAND\">沙子</link>與純{0}"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.NAME"
@@ -13978,7 +13978,7 @@ msgstr "<link=\"ROCKCRUSHER\">碎石機</link>"
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.RECIPE_DESCRIPTION"
 msgid "Crushes {0} into {1}."
-msgstr "粉碎{0}製成{1}。"
+msgstr "粉碎{0}製成{1}"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETCOMMANDCONSOLE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETCOMMANDCONSOLE.DESC"
@@ -18813,7 +18813,7 @@ msgstr "低裝飾會增加複製人的<link=\"STRESS\">壓力</link>。值得慶
 #. STRINGS.CODEX.DECORSYSTEM.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.DECORSYSTEM.PARAGRAPH_2"
 msgid "Many things have an effect on the Decor value of a tile. A building's effect is expressed as a strength value and a radius. Often that effect is positive, but many buildings also lower the decor value of an area too. <link=\"PLANTS\">Plants</link>, <link=\"CREATURES\">Critters</link>, and <link=\"BUILDCATEGORYFURNITURE\">Furniture</link> often increase decor while industrial buildings and rot often decrease it. Duplicants experience the combined decor of all objects affecting a tile.\n\nThe <link=\"PRICKLEGRASS\">Bluff Briar</link> has a decor value of 25 and a radius of 4 tiles. \nThe <link=\"MICROBEMUSHER\">Microbe Musher</link> has a decor value of -15 and a radius of 3 tiles. \nThe result of placing a <link=\"MICROBEMUSHER\">Microbe Musher</link> next to a <link=\"PRICKLEGRASS\">Bluff Briar</link> would be a combined decor value of 10"
-msgstr "許多事物都會影響格子內的裝飾值。建築物的影響效果與範圍較為明顯。通常影響是正向的，但許多建築也會降低區域的裝飾值。<link=\"PLANTS\">植物</link>、<link=\"CREATURES\">動物</link>與<link=\"BUILDCATEGORYFURNITURE\">家具</link>通常會增加裝飾，而工業建築與腐壞物通常會減少裝飾。複製人的感受是格子內所有物件效果的加總。\n\n<link=\"PRICKLEGRASS\">荊棘</link>的裝飾值 25，範圍 4 格。\n<link=\"MICROBEMUSHER\">製糕機</link> 的裝飾值 -15，範圍 3 格。\n如果<link=\"MICROBEMUSHER\">製糕機</link>旁，擺放著<link=\"PRICKLEGRASS\">荊棘</link>，那麼最後的裝飾值總和為 10"
+msgstr "許多事物都會影響格子內的裝飾值。建築物的影響效果與範圍較為明顯。通常影響是正向的，但許多建築也會降低區域的裝飾值。<link=\"PLANTS\">植物</link>、<link=\"CREATURES\">動物</link>與<link=\"BUILDCATEGORYFURNITURE\">家具</link>通常會增加裝飾，而工業建築與腐壞物通常會減少裝飾。複製人的感受是格子內所有物件效果的加總。\n\n<link=\"PRICKLEGRASS\">誘人荊棘</link>的裝飾值 25，範圍 4 格。\n<link=\"MICROBEMUSHER\">製糕機</link> 的裝飾值 -15，範圍 3 格。\n如果<link=\"MICROBEMUSHER\">製糕機</link>旁，擺放著<link=\"PRICKLEGRASS\">誘人荊棘</link>，那麼最後的裝飾值總和為 10"
 
 #. STRINGS.CODEX.DECORSYSTEM.TITLE
 msgctxt "STRINGS.CODEX.DECORSYSTEM.TITLE"
@@ -20868,7 +20868,7 @@ msgstr "<link=\"FLUSHTOILETTYPE\">沖水廁所</link>"
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.INDUSTRIALMACHINERY.CONFLICTINGROOMS
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.INDUSTRIALMACHINERY.CONFLICTINGROOMS"
 msgid "    • <link=\"LATRINE\">Latrine</link>\n    • <link=\"PLUMBEDBATHROOM\">Washroom</link>\n    • <link=\"BARRACKS\">Barracks</link>\n    • <link=\"BEDROOM\">Luxury Barracks</link>\n    • <link=\"PRIVATE BEDROOM\">Private Bedroom</link>\n    • <link=\"MESSHALL\">Mess Hall</link>\n    • <link=\"GREATHALL\">Great Hall</link>\n    • <link=\"MASSAGECLINIC\">Massage Clinic</link>\n    • <link=\"HOSPITAL\">Hospital</link>\n    • <link=\"LABORATORY\">Laboratory</link>\n    • <link=\"RECROOM\">Recreation Room</link>"
-msgstr "    • <link=\"LATRINE\">廁所</link>\n • <link=\"PLUMBEDBATHROOM\">洗手間</link>\n • <link=\"BARRACKS\">臥室</link>\n • <link=\"BEDROOM\">高級臥室</link>\n • <link=\"PRIVATE BEDROOM\">私人臥室</link>\n • <link=\"MESSHALL\">餐廳< /link>\n • <link=\"GREATHALL\">高級餐廳</link>\n • <link=\"MASSAGECLINIC\">按摩間</link>\n • <link=\"HOSPITAL\ ">醫院</link>\n • <link=\"LABORATORY\">實驗室</link>\n • <link=\"RECROOM\">娛樂室</link>"
+msgstr "    • <link=\"LATRINE\">廁所</link>\n • <link=\"PLUMBEDBATHROOM\">洗手間</link>\n • <link=\"BARRACKS\">臥室</link>\n • <link=\"BEDROOM\">高級臥室</link>\n • <link=\"PRIVATE BEDROOM\">私人臥室</link>\n • <link=\"MESSHALL\">餐廳</link>\n • <link=\"GREATHALL\">高級餐廳</link>\n • <link=\"MASSAGECLINIC\">按摩間</link>\n • <link=\"HOSPITAL\ ">醫院</link>\n • <link=\"LABORATORY\">實驗室</link>\n • <link=\"RECROOM\">娛樂室</link>"
 
 #. STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.INDUSTRIALMACHINERY.DESCRIPTION
 msgctxt "STRINGS.CODEX.ROOM_REQUIREMENT_CLASS.INDUSTRIALMACHINERY.DESCRIPTION"
@@ -25652,8 +25652,8 @@ msgstr "<link=\"MOLEDELICACY\">辛香田鼠寶寶</link>"
 
 #. STRINGS.CREATURES.SPECIES.MOLE.VARIANT_DELICACY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.VARIANT_DELICACY.DESC"
-msgid "Delecta Voles are burrowing critters whose bodies sprout shearable <link=\"GINGER\">Tonic Root</link> when <link=\"REGOLITH\">Regolith</link> is ingested at preferred temperatures.\n\nThey cannot burrow through <link=\"REFINEDMETAL\">Refined Metals</link>."
-msgstr "辛香田鼠是穴居小動物，當在適合溫度下攝取<link=\"REGOLITH\">表土</link>時，牠們的身體會長出可修剪的<link=\"GINGER\">辛香根</link>。\n\n牠們無法穿過<link=\"REFINEDMETAL\">精煉金屬</link>。"
+msgid "Delecta Voles are burrowing critters whose bodies sprout shearable <link=\"GINGERCONFIG\">Tonic Root</link> when <link=\"REGOLITH\">Regolith</link> is ingested at preferred temperatures.\n\nThey cannot burrow through <link=\"REFINEDMETAL\">Refined Metals</link>."
+msgstr "辛香田鼠是穴居小動物，當在適合溫度下攝取<link=\"REGOLITH\">表土</link>時，牠們的身體會長出可修剪的<link=\"GINGERCONFIG\">辛香根</link>。\n\n牠們無法穿過<link=\"REFINEDMETAL\">精煉金屬</link>。"
 
 #. STRINGS.CREATURES.SPECIES.MOLE.VARIANT_DELICACY.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.VARIANT_DELICACY.EGG_NAME"
@@ -40638,12 +40638,12 @@ msgstr "<link=\"GOLD\">金</link>"
 #. STRINGS.ELEMENTS.GOLDAMALGAM.DESC
 msgctxt "STRINGS.ELEMENTS.GOLDAMALGAM.DESC"
 msgid "Gold Amalgam is a conductive amalgam of gold and mercury.\n\nIt is suitable for building <link=\"POWER\">Power</link> systems."
-msgstr "金汞合金是一種導電的金與汞的合金。\n\n它適合用來建造<link=\"POWER\">電力</link>系統。"
+msgstr "金汞齊是一種導電的金與汞的合金。\n\n它適合用來建造<link=\"POWER\">電力</link>系統。"
 
 #. STRINGS.ELEMENTS.GOLDAMALGAM.NAME
 msgctxt "STRINGS.ELEMENTS.GOLDAMALGAM.NAME"
 msgid "<link=\"GOLDAMALGAM\">Gold Amalgam</link>"
-msgstr "<link=\"GOLDAMALGAM\">金汞合金</link>"
+msgstr "<link=\"GOLDAMALGAM\">金汞齊</link>"
 
 #. STRINGS.ELEMENTS.GOLDGAS.DESC
 msgctxt "STRINGS.ELEMENTS.GOLDGAS.DESC"
@@ -46958,12 +46958,12 @@ msgstr "自動"
 #. STRINGS.INPUT_BINDINGS.ROOT.PLAN13
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.PLAN13"
 msgid "Shipping Build Menu"
-msgstr "基地"
+msgstr "運輸"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.PLAN14
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.PLAN14"
 msgid "Rocketry Build Menu"
-msgstr "基地"
+msgstr "火箭"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.PLAN15
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.PLAN15"
@@ -47437,8 +47437,8 @@ msgstr "乾燥咖哩豆"
 
 #. STRINGS.ITEMS.FOOD.CURRY.DESC
 msgctxt "STRINGS.ITEMS.FOOD.CURRY.DESC"
-msgid "Chewy <link=\"BEANPLANTSEED\">Nosh Beans</link> simmered with chunks of <link=\"GINGER\">Tonic Root</link>.\n\nIt's so spicy!"
-msgstr "可口的<link=\"BEANPLANTSEED\">大豆</link>與<link=\"GINGER\">辛香根</link>一起燉煮。\n\n真是太辣了！"
+msgid "Chewy <link=\"BEANPLANTSEED\">Nosh Beans</link> simmered with chunks of <link=\"GINGERCONFIG\">Tonic Root</link>.\n\nIt's so spicy!"
+msgstr "可口的<link=\"BEANPLANTSEED\">大豆</link>與<link=\"GINGERCONFIG\">辛香根</link>一起燉煮。\n\n真是太辣了！"
 
 #. STRINGS.ITEMS.FOOD.CURRY.NAME
 msgctxt "STRINGS.ITEMS.FOOD.CURRY.NAME"
@@ -47448,7 +47448,7 @@ msgstr "<link=\"CURRY\">咖哩豆</link>"
 #. STRINGS.ITEMS.FOOD.CURRY.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.CURRY.RECIPEDESC"
 msgid "Chewy <link=\"BEANPLANTSEED\">Nosh Beans</link> simmered with chunks of <link=\"GINGER\">Tonic Root</link>."
-msgstr "可口的<link=\"BEANPLANTSEED\">大豆</link>與<link=\"GINGER\">辛香根</link>一起燉煮。"
+msgstr "可口的<link=\"BEANPLANTSEED\">大豆</link>與<link=\"GINGERCONFIG\">辛香根</link>一起燉煮。"
 
 #. STRINGS.ITEMS.FOOD.DRECKOEGG.DESC
 msgctxt "STRINGS.ITEMS.FOOD.DRECKOEGG.DESC"
@@ -48317,8 +48317,8 @@ msgstr "一種有嚼勁、纖維狀的根莖，帶有火辣的口感。\n\n它�
 
 #. STRINGS.ITEMS.INGREDIENTS.GINGER.NAME
 msgctxt "STRINGS.ITEMS.INGREDIENTS.GINGER.NAME"
-msgid "<link=\"GINGER\">Tonic Root</link>"
-msgstr "<link=\"GINGER\">辛香根</link>"
+msgid "<link=\"GINGERCONFIG\">Tonic Root</link>"
+msgstr "<link=\"GINGERCONFIG\">辛香根</link>"
 
 #. STRINGS.ITEMS.INGREDIENTS.SWAMPLILYFLOWER.DESC
 msgctxt "STRINGS.ITEMS.INGREDIENTS.SWAMPLILYFLOWER.DESC"
@@ -48633,7 +48633,7 @@ msgstr "飛行路徑受阻"
 #. STRINGS.MISC.NOTIFICATIONS.BADROCKETPATH.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.BADROCKETPATH.TOOLTIP"
 msgid "A rocket's flight path has been interrupted by a new astronomical discovery.\nOpen the <style=\"KKeyword\">Starmap Screen</style> {Hotkey/ManageStarmap} to reassign rocket paths"
-msgstr "火箭的飛行路徑被新發現的小行星中斷。\n打開 <style=\"KKeyword\">星圖</style> {Hotkey/ManageStarmap} 重新指定火箭路徑"
+msgstr "火箭的飛行路徑被新發現的小行星中斷。\n打開<style=\"KKeyword\">星圖</style> {Hotkey/ManageStarmap} 重新指定火箭路徑"
 
 #. STRINGS.MISC.NOTIFICATIONS.BASICCONTROLS.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.BASICCONTROLS.MESSAGEBODY"
@@ -48698,7 +48698,7 @@ msgstr "電路超載"
 #. STRINGS.MISC.NOTIFICATIONS.CIRCUIT_OVERLOADED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.CIRCUIT_OVERLOADED.TOOLTIP"
 msgid "These <link=\"WIRE\">Wire</link>s melted due to excessive current demands on their circuits"
-msgstr "這些<link=\"WIRE\">電線</link>熔化了，因為電壓超過負載"
+msgstr "這些<link=\"WIRE\">電線</link>熔化了，因為電流超過負載"
 
 #. STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.MESSAGEBODY"
@@ -48908,7 +48908,7 @@ msgstr "警告－突破行星表面"
 #. STRINGS.MISC.NOTIFICATIONS.DISCOVERED_SPACE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DISCOVERED_SPACE.TOOLTIP"
 msgid "Amazing!\n\nMy Duplicants have managed to breach the surface of our rocky prison.\n\nI should be careful; the region is extremely inhospitable and I could easily lose resources to the vacuum of space."
-msgstr "太神啦！\n\n複製人們挖穿了這個困住我們的岩石監獄，突破到了地表。\n\n小心點；這裡一片荒涼並且資源很容易消失在太空中。"
+msgstr "太神啦！\n\n複製人們挖穿了這個困住我們的岩石監獄，突破到了地表。\n\n我應該小心；該地區極其荒涼，在太空的真空空間中我很容易失去資源。"
 
 #. STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DISEASE_COOKING.MESSAGEBODY"
@@ -50772,8 +50772,8 @@ msgstr "生命"
 
 #. STRINGS.MISC.TAGS.LIQUID
 msgctxt "STRINGS.MISC.TAGS.LIQUID"
-msgid "<link=\"LIQUID\">Liquid</link>"
-msgstr "<link=\"LIQUID\">液體</link>"
+msgid "<link=\"ELEMENTSLIQUID\">Liquid</link>"
+msgstr "<link=\"ELEMENTSLIQUID\">液體</link>"
 
 #. STRINGS.MISC.TAGS.LIQUIFIABLE
 msgctxt "STRINGS.MISC.TAGS.LIQUIFIABLE"
@@ -56528,7 +56528,7 @@ msgstr "金屬"
 #. STRINGS.SUBWORLDS.METALLIC.UTILITY
 msgctxt "STRINGS.SUBWORLDS.METALLIC.UTILITY"
 msgid "<link=\"GOLDAMALGAM\">Gold Amalgam</link>, <link=\"ALUMINUMORE\">Aluminum Ore</link> and <link=\"COBALTITE\">Cobalt Ore</link> are in abundant supply throughout this entire biome. Refining these metals with a <link=\"METALREFINERY\">Metal Refinery</link> will make them available for building advanced technologies.\n\nThough <link=\"CHLORINEGAS\">Chlorine Gas</link> and <link=\"HYDROGEN\">Hydrogen Gas</link> are the prevailing gasses in this biome, <link=\"OXYROCK\">Oxylite</link> exists in rock form and can provide <link=\"OXYGEN\">Oxygen</link> for Duplicants once they uncover it.\n\n<link=\"DIRT\">Dirt</link>, <link=\"CARBON\">Coal</link> and <link=\"IGNEOUSROCK\">Igneous Rock</link> round out the rest of this biome, making it a great deposit of resources for a budding industrialized colony."
-msgstr "<link=\"GOLDAMALGAM\">金汞合金</link>、<link=\"ALUMINUMORE\">鋁礦</link>與<link=\"COBALTITE\">鈷礦</link>在這種生態系中藏量豐富。用<link=\"METALREFINERY\">冶煉廠</link>精煉這些金屬，可將其用來打造高級科技。\n\n<link=\"CHLORINEGAS\">氯氣</link>與<link=\"HYDROGEN\">氫氣</link>是這種生態系的主要氣體，<link=\"OXYROCK\">氧石</link>存在於岩層中且一旦露出可以為複製人提供<link=\"OXYGEN\">氧氣</link>。\n\n這種生態系的其餘部分充滿了<link=\"DIRT\">泥土</link>、<link=\"CARBON\">煤炭</link>與<link=\"IGNEOUSROCK\">火成岩</link>，使其成為為新興工業化的殖民地的豐富資源儲備。"
+msgstr "<link=\"GOLDAMALGAM\">金汞齊</link>、<link=\"ALUMINUMORE\">鋁礦</link>與<link=\"COBALTITE\">鈷礦</link>在這種生態系中藏量豐富。用<link=\"METALREFINERY\">冶煉廠</link>精煉這些金屬，可將其用來打造高級科技。\n\n<link=\"CHLORINEGAS\">氯氣</link>與<link=\"HYDROGEN\">氫氣</link>是這種生態系的主要氣體，<link=\"OXYROCK\">氧石</link>存在於岩層中且一旦露出可以為複製人提供<link=\"OXYGEN\">氧氣</link>。\n\n這種生態系的其餘部分充滿了<link=\"DIRT\">泥土</link>、<link=\"CARBON\">煤炭</link>與<link=\"IGNEOUSROCK\">火成岩</link>，使其成為為新興工業化的殖民地的豐富資源儲備。"
 
 #. STRINGS.SUBWORLDS.MOO.DESC
 msgctxt "STRINGS.SUBWORLDS.MOO.DESC"
@@ -57263,7 +57263,7 @@ msgstr "<link=\"HEALTH\">生命值</link>每周：{0}"
 #. STRINGS.UI.BUILDINGEFFECTS.IMPROVED_BUILDINGS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.IMPROVED_BUILDINGS"
 msgid "Improved Buildings"
-msgstr "改善建築物"
+msgstr "改善的建築物"
 
 #. STRINGS.UI.BUILDINGEFFECTS.IMPROVED_BUILDINGS_ITEM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.IMPROVED_BUILDINGS_ITEM"
@@ -57803,7 +57803,7 @@ msgstr "產生的<style=\"KKeyword\">熱</style>根據所抽取<style=\"KKeyword
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS"
 msgid "<style=\"KKeyword\">Tune Ups</style> will improve these buildings:"
-msgstr "<style=\"KKeyword\">檢修</style>會優化這些建築物："
+msgstr "<style=\"KKeyword\">調整</style>會優化這些建築物："
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS_ITEM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS_ITEM"
@@ -58043,7 +58043,7 @@ msgstr "這隻小動物每 <b>{Time}</b>可修剪，產生 <style=\"produced\">{
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_TEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_TEMP"
 msgid "This critter can be sheared every <b>{Time}</b> to produce <style=\"produced\">{Amount}</style> of <style=\"KKeyword\">{Item}</style>\n\nIt must eat food between {TempMin} - {TempMax} to regrow sheared <style=\"KKeyword\">{Item}</style>"
-msgstr "這隻小動物每 <b>{Time}</b>可修剪，產生 <style=\"produced\">{Amount}</style><style=\"KKeyword\">{Item}</style>\n\n牠必須吃處於 {TempMin}-{TempMax} 的食物才能重新生長剪掉的<style=\"KKeyword\">{Item}</style>"
+msgstr "這隻小動物每 <b>{Time}</b>可修剪，產生 <style=\"produced\">{Amount}</style><style=\"KKeyword\">{Item}</style>\n\n牠必須吃處於 {TempMin}-{TempMax} 的食物才能重新長回被剃掉的<style=\"KKeyword\">{Item}</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STORAGECAPACITY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STORAGECAPACITY"
@@ -81067,8 +81067,8 @@ msgstr "剷起植物變成種子"
 
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_BOTH.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_BOTH.NAME"
-msgid " Set Direction: Both"
-msgstr " 指定方向：雙向"
+msgid "Set Direction: Both"
+msgstr "設定方向：雙向"
 
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_BOTH.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_BOTH.TOOLTIP"
