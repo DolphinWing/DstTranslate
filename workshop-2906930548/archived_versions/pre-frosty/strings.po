@@ -10933,12 +10933,12 @@ msgstr "斷電"
 #. STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT_ACTIVE"
 msgid "<b><style=\"logic_on\">Green Signal</style></b>: Allow <style=\"KKeyword\">Power</style> through connected circuits"
-msgstr "<b><style=\"logic_on\">綠色訊號</style></b>：<style=\"KKeyword\">通電</style>"
+msgstr "<b><style=\"logic_on\">綠色訊號</style></b>：允許<style=\"KKeyword\">電力</style>通過連接的電路"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.LOGIC_PORT_INACTIVE"
 msgid "<b><style=\"logic_off\">Red Signal</style></b>: Prevent <style=\"KKeyword\">Power</style> from flowing through connected circuits"
-msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：<style=\"KKeyword\">斷電</style>"
+msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：防止<style=\"KKeyword\">電力</style>流經連接的電路"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.NAME"
@@ -13853,7 +13853,7 @@ msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：解除裝備並清空
 #. STRINGS.BUILDINGS.PREFABS.REUSABLETRAP.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.REUSABLETRAP.LOGIC_PORT"
 msgid "Trap Occupied"
-msgstr "陷阱佔用"
+msgstr "陷阱被佔用"
 
 #. STRINGS.BUILDINGS.PREFABS.REUSABLETRAP.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.REUSABLETRAP.LOGIC_PORT_ACTIVE"
@@ -13873,7 +13873,7 @@ msgstr "碎石機可以將礦物材料加工成許多不同的資源。"
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.EFFECT"
 msgid "Inefficiently produces refined materials from raw resources.\n\nDuplicants will not fabricate items unless recipes are queued."
-msgstr "將材料低效率的生產成精煉材料。\n\n佇列中沒有訂單，複製人將不會製作。"
+msgstr "將材料低效率地生產成精煉材料。\n\n佇列中沒有訂單，複製人將不會製作。"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.FACADES.BALLOON.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.FACADES.BALLOON.DESC"
@@ -16023,7 +16023,7 @@ msgstr "<link=\"WASHSINK\">洗手台</link>"
 #. STRINGS.BUILDINGS.PREFABS.WASHSINK.FACADES.GREEN_MUSH.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WASHSINK.FACADES.GREEN_MUSH.DESC"
 msgid "Even the soap is mush-colored."
-msgstr "甚至肥皂都是泥糕色的。"
+msgstr "甚至連肥皂都是泥糕色的。"
 
 #. STRINGS.BUILDINGS.PREFABS.WASHSINK.FACADES.GREEN_MUSH.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WASHSINK.FACADES.GREEN_MUSH.NAME"
@@ -19398,7 +19398,7 @@ msgstr "狀態變化"
 #. STRINGS.CODEX.HEAT.PARAGRAPH_1
 msgctxt "STRINGS.CODEX.HEAT.PARAGRAPH_1"
 msgid "Just about everything on the asteroid has a temperature. It's normal for temperature to rise and fall a bit, but extreme temperatures can cause all sorts of problems for a base. Buildings can stop functioning, crops can wilt, and things can even melt, boil, and freeze when they really ought not to.\n\n"
-msgstr "小行星上的所有東西都有溫度。溫度小幅的上升或下降是正常的，但極端溫度問題可能會為基地許多的問題。建築物可能停止運轉，農作物可能枯萎，事物甚至可能在不應該發生的情況下融化、沸騰和結冰。\n\n"
+msgstr "小行星上的所有東西都有溫度。溫度小幅的上升或下降是正常的，但極端溫度問題可能會為基地造成許多的問題。建築物可能停止運轉，農作物可能枯萎，事物甚至可能在不應該發生的情況下融化、沸騰和結冰。\n\n"
 
 #. STRINGS.CODEX.HEAT.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.HEAT.PARAGRAPH_2"
@@ -23253,7 +23253,7 @@ msgstr "進入一個原油生態區"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ESTABLISH_COLONIES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.ESTABLISH_COLONIES"
 msgid "Establish colonies on {goalBaseCount} asteroids by building and activating Mini-Pods.\nColonies established: {baseCount} / {neededCount}."
-msgstr "在 {goalBaseCount} 個小行星上建造殖民地並啟動迷你傳送門。\n已建立殖民地：{baseCount} / {neededCount}."
+msgstr "在 {goalBaseCount} 個小行星上建造殖民地並啟動迷你傳送門。\n已建立殖民地：{baseCount} / {neededCount}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXOSUIT_CYCLES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXOSUIT_CYCLES"
@@ -23643,7 +23643,7 @@ msgstr "我們在這宇宙的家園消失了，取而代之的漂浮在星空中
 #. STRINGS.COLONY_ACHIEVEMENTS.STUDY_ARTIFACTS.VIDEO_TEXT.SECOND
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.STUDY_ARTIFACTS.VIDEO_TEXT.SECOND"
 msgid "I sent my Duplicant through the Temporal Tear carrying that hope on their shoulders... Perhaps one day they'll find a place to call home, and begin a thriving colony all their own."
-msgstr "我將肩負希望的複製人送進了時空的裂縫…期待有一天，他們會找到一個新家，並建立屬於他們的殖民地。"
+msgstr "我將肩負希望的複製人送進了時空的裂縫…\n\n期待有一天，他們會找到一個新家，並建立屬於他們的殖民地。"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.STUDY_ARTIFACTS.VIDEO_TEXT_DLC1.FIRST
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.STUDY_ARTIFACTS.VIDEO_TEXT_DLC1.FIRST"
@@ -40473,7 +40473,7 @@ msgstr "<link=\"DIAMOND\">鑽石</link>"
 #. STRINGS.ELEMENTS.DIRT.DESC
 msgctxt "STRINGS.ELEMENTS.DIRT.DESC"
 msgid "Dirt is a soft, nutrient-rich substance capable of supporting life.\n\nIt is necessary in some forms of <link=\"FOOD\">Food</link> production."
-msgstr "泥土是一種柔軟，營養豐富的可以維持生命的物質。\n\n在生產某些<link=\"FOOD\">食物</link>的形式中，是必要的材料。"
+msgstr "泥土是一種柔軟、營養豐富的物質，可以維持生命。\n\n在生產某些<link=\"FOOD\">食物</link>的形式中，是必要的材料。"
 
 #. STRINGS.ELEMENTS.DIRT.NAME
 msgctxt "STRINGS.ELEMENTS.DIRT.NAME"
@@ -40893,7 +40893,7 @@ msgstr "<link=\"LIQUIDHELIUM\">氦</link>"
 #. STRINGS.ELEMENTS.LIQUIDHYDROGEN.DESC
 msgctxt "STRINGS.ELEMENTS.LIQUIDHYDROGEN.DESC"
 msgid "(H) Hydrogen in its <link=\"ELEMENTSLIQUID\">Liquid</link> state.\n\nIt freezes most substances that come into contact with it."
-msgstr "(H) 氫是一種化學<link=\"ELEMENTSLIQUID\">液體</link>。\n\n它可以凍結與其接觸的大多數物質。"
+msgstr "(H) 氫處於它的<link=\"ELEMENTSLIQUID\">液體</link>狀態。\n\n它可以凍結與其接觸的大多數物質。"
 
 #. STRINGS.ELEMENTS.LIQUIDHYDROGEN.NAME
 msgctxt "STRINGS.ELEMENTS.LIQUIDHYDROGEN.NAME"
@@ -40963,7 +40963,7 @@ msgstr "<link=\"MAFICROCK\">基岩</link>"
 #. STRINGS.ELEMENTS.MAGMA.DESC
 msgctxt "STRINGS.ELEMENTS.MAGMA.DESC"
 msgid "Magma is a composite of <link=\"IGNEOUSROCK\">Igneous Rock</link> heated into a molten, <link=\"ELEMENTSLIQUID\">Liquid</link> state."
-msgstr "岩漿是一種<link=\"IGNEOUSROCK\">火成岩</link>合成物，加熱熔化成<link=\"ELEMENTSLIQUID\">液體</link>狀態。"
+msgstr "岩漿是一種<link=\"IGNEOUSROCK\">火成岩</link>複合物，加熱熔化成<link=\"ELEMENTSLIQUID\">液體</link>狀態。"
 
 #. STRINGS.ELEMENTS.MAGMA.NAME
 msgctxt "STRINGS.ELEMENTS.MAGMA.NAME"
@@ -42913,7 +42913,7 @@ msgstr "防撕裂面料使得爬過管道輕而易舉。"
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BELT_KHAKI_TAN.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.BELT_KHAKI_TAN.NAME"
 msgid "HVAC Khaki Pants"
-msgstr "暖通空調卡其布褲子"
+msgstr "暖通空調卡其長褲"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.CIRCUIT_GREEN.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.CIRCUIT_GREEN.DESC"
@@ -43068,7 +43068,7 @@ msgstr "管理員內褲"
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.GONCH_GRAPE.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.GONCH_GRAPE.DESC"
 msgid "Underwear that works hard, plays hard, and gives 110% to maximize the \"bottom\" line."
-msgstr "認真工作，痛快玩耍，付出110%的努力最大限度提高「底線」的內褲。"
+msgstr "認真工作，痛快玩耍，付出 110% 的努力最大限度提高「底線」的內褲。"
 
 #. STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.GONCH_GRAPE.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CLOTHING_BOTTOMS.FACADES.GONCH_GRAPE.NAME"
@@ -45917,8 +45917,8 @@ msgstr "{0} 事件已取消"
 
 #. STRINGS.GAMEPLAY_EVENTS.CHAIN_EVENT_TOOLTIP
 msgctxt "STRINGS.GAMEPLAY_EVENTS.CHAIN_EVENT_TOOLTIP"
-msgid "This event is a chain event."
-msgstr "這是一個連鎖事件。"
+msgid "This event is a chain event"
+msgstr "這是一個連鎖事件"
 
 #. STRINGS.GAMEPLAY_EVENTS.DEFAULT_OPTION_CONSIDER_NAME
 msgctxt "STRINGS.GAMEPLAY_EVENTS.DEFAULT_OPTION_CONSIDER_NAME"
@@ -46783,7 +46783,7 @@ msgstr "拆除建築"
 #. STRINGS.INPUT_BINDINGS.ROOT.CAMERAHOME
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.CAMERAHOME"
 msgid "Camera Home"
-msgstr "鏡頭回到基地"
+msgstr "鏡頭回家"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.CAPTURE
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.CAPTURE"
@@ -76193,7 +76193,7 @@ msgstr "這株植物正處於黑暗中"
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_ILLUMINATION_LIGHT
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_ILLUMINATION_LIGHT"
 msgid "This plant is currently lit"
-msgstr "這株植物正在發光"
+msgstr "這株植物目前已點亮"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_IRRIGATION
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_IRRIGATION"
