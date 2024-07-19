@@ -25140,7 +25140,7 @@ msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.ACTIVATEGEOTHERMALPLANT.STATUSITEMS.CONTROLLER.STORAGE_TEMPERATURE_TOOLTIP
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ACTIVATEGEOTHERMALPLANT.STATUSITEMS.CONTROLLER.STORAGE_TEMPERATURE_TOOLTIP"
-msgid "The average temperature of liquids stored in this building is {Temp}\n\nThe initial <style=\"KKeyword\">Temperature</style> of input liquid affects the materials emitted"
+msgid "The average <style=\"KKeyword\">Temperature</style> of <style=\"KKeyword\">Liquids</style> stored in this building is {Temp}\n\nThe initial input <style=\"KKeyword\">Temperature</style> determines the type of materials emitted"
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.ACTIVATEGEOTHERMALPLANT.STATUSITEMS.VENT.BLOCKED_NAME
@@ -67918,6 +67918,16 @@ msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.AD_DLC1"
 msgid "Spaced Out! DLC"
 msgstr ""
 
+#. STRINGS.UI.FRONTEND.MAINMENU.DLC.CONTENT_ACTIVE_TOOLTIP
+msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.CONTENT_ACTIVE_TOOLTIP"
+msgid "This DLC is enabled\nFind it in the destination selection screen when starting a new game, or in the Load Game screen for existing DLC-enabled saves"
+msgstr ""
+
+#. STRINGS.UI.FRONTEND.MAINMENU.DLC.CONTENT_INSTALLED_LABEL
+msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.CONTENT_INSTALLED_LABEL"
+msgid "Installed"
+msgstr ""
+
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1"
 msgid "DEACTIVATE DLC"
@@ -67935,7 +67945,7 @@ msgstr ""
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_TOOLTIP"
-msgid "Click to deactivate the <i>Spaced Out!</i> DLC"
+msgid "This DLC is enabled\nClick to deactivate the <i>Spaced Out!</i> DLC"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.MAINMENU.KLEIINVENTORY
@@ -68015,7 +68025,7 @@ msgstr ""
 
 #. STRINGS.UI.FRONTEND.MAINMENU.WISHLIST_AD
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.WISHLIST_AD"
-msgid "Wishlist now"
+msgid "Available now"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.METRIC_OPTIONS_SCREEN.HEADER_METRICS
@@ -68411,6 +68421,11 @@ msgstr ""
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.VERSION_UPDATE
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.VERSION_UPDATE"
 msgid "VERSION UPDATE"
+msgstr ""
+
+#. STRINGS.UI.FRONTEND.MODESELECTSCREEN.ACTIVE_CONTENT_HEADER
+msgctxt "STRINGS.UI.FRONTEND.MODESELECTSCREEN.ACTIVE_CONTENT_HEADER"
+msgid "ACTIVE CONTENT PACKS"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.MODESELECTSCREEN.BLANK_DESC
