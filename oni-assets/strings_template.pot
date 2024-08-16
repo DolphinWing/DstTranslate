@@ -9800,7 +9800,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.GEOTHERMALVENT.BLOCKED_DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GEOTHERMALVENT.BLOCKED_DESC"
-msgid "Blocked geo vents can be cleared using <link=\"ELEMENTSLIQUID\">liquids</link> that are hot enough to melt <link=\"LEAD\">Lead</link>."
+msgid "Blocked geo vents can be cleared by pumping in <link=\"ELEMENTSLIQUID\">liquids</link> that are hot enough to melt <link=\"LEAD\">Lead</link>."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.GEOTHERMALVENT.DESC
@@ -26040,7 +26040,7 @@ msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.WINCONDITION_ARTIFACTS_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.WINCONDITION_ARTIFACTS_DESCRIPTION"
-msgid "Uncover the past to secure your future by fullfilling the requirements of the Exploration Imperative."
+msgid "Uncover the past to secure your future by fulfilling the requirements of the Exploration Imperative."
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.WINCONDITION_GEOTHERMAL
@@ -26696,6 +26696,26 @@ msgstr ""
 #. STRINGS.CREATURES.MODIFIERS.CONFINED.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.CONFINED.TOOLTIP"
 msgid "This critter is trapped inside a door, tile, or confined space\n\nSounds uncomfortable!"
+msgstr ""
+
+#. STRINGS.CREATURES.MODIFIERS.CRITTER_TEMPERATURE_DEADLY.NAME
+msgctxt "STRINGS.CREATURES.MODIFIERS.CRITTER_TEMPERATURE_DEADLY.NAME"
+msgid "Deadly Temperature"
+msgstr ""
+
+#. STRINGS.CREATURES.MODIFIERS.CRITTER_TEMPERATURE_DEADLY.TOOLTIP
+msgctxt "STRINGS.CREATURES.MODIFIERS.CRITTER_TEMPERATURE_DEADLY.TOOLTIP"
+msgid ""
+msgstr ""
+
+#. STRINGS.CREATURES.MODIFIERS.CRITTER_TEMPERATURE_UNCOMFORTABLE.NAME
+msgctxt "STRINGS.CREATURES.MODIFIERS.CRITTER_TEMPERATURE_UNCOMFORTABLE.NAME"
+msgid "Uncomfortable Body Temperature"
+msgstr ""
+
+#. STRINGS.CREATURES.MODIFIERS.CRITTER_TEMPERATURE_UNCOMFORTABLE.TOOLTIP
+msgctxt "STRINGS.CREATURES.MODIFIERS.CRITTER_TEMPERATURE_UNCOMFORTABLE.TOOLTIP"
+msgid ""
 msgstr ""
 
 #. STRINGS.CREATURES.MODIFIERS.CRITTERCONDOINTERACTEFFECT.NAME
@@ -39780,7 +39800,7 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.COLD.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.COLD.TOOLTIP"
-msgid "This Duplicant cannot retain enough heat to stay warm and may be under-insulated for this area\n\nStress: <b>{StressModification}</b>\nStamina: <b>{StaminaModification}</b>\nAthletics: <b>{AthleticsModification}</b>\n\nCurrent Environmental Exchange: <b>{currentTransferWattage}</b>\n\nInsulation Thickness: {conductivityBarrier}"
+msgid "This Duplicant cannot retain enough heat to stay warm and may be under-insulated for this area\n\nThey will begin to recover shortly after they leave this area\n\nStress: <b>{StressModification}</b>\nStamina: <b>{StaminaModification}</b>\nAthletics: <b>{AthleticsModification}</b>\n\nCurrent Environmental Exchange: <b>{currentTransferWattage}</b>\n\nInsulation Thickness: {conductivityBarrier}"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.COMPOSTFLIPSTATUS.NAME
@@ -40305,7 +40325,7 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.HOT.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.HOT.TOOLTIP"
-msgid "This Duplicant cannot let off enough <style=\"KKeyword\">Heat</style> to stay cool and may be over-insulated for this area\n\nStress Modification: <b>{StressModification}</b>\nStamina: <b>{StaminaModification}</b>\nAthletics: <b>{AthleticsModification}</b>\n\nCurrent Environmental Exchange: <b>{currentTransferWattage}</b>\n\nInsulation Thickness: {conductivityBarrier}"
+msgid "This Duplicant cannot let off enough <style=\"KKeyword\">Heat</style> to stay cool and may be over-insulated for this area\n\nThey will begin to recover shortly after they leave this area\n\nStress Modification: <b>{StressModification}</b>\nStamina: <b>{StaminaModification}</b>\nAthletics: <b>{AthleticsModification}</b>\n\nCurrent Environmental Exchange: <b>{currentTransferWattage}</b>\n\nInsulation Thickness: {conductivityBarrier}"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.HUNGRY.NAME
@@ -67800,7 +67820,7 @@ msgstr ""
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.NEWEST_SAVE
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.NEWEST_SAVE"
-msgid "Newest Save"
+msgid "NEWEST"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.NO_FILE_SELECTED
@@ -73708,9 +73728,19 @@ msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.COOLING"
 msgid "Body Heat Loss"
 msgstr ""
 
+#. STRINGS.UI.OVERLAYS.HEATFLOW.COOLING_DUPE
+msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.COOLING_DUPE"
+msgid "Body Heat Loss {0}\n\nUncomfortably chilly surroundings"
+msgstr ""
+
 #. STRINGS.UI.OVERLAYS.HEATFLOW.HEATING
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.HEATING"
 msgid "Body Heat Retention"
+msgstr ""
+
+#. STRINGS.UI.OVERLAYS.HEATFLOW.HEATING_DUPE
+msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.HEATING_DUPE"
+msgid "Body Heat Loss {0}\n\nUncomfortably toasty surroundings"
 msgstr ""
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.HOVERTITLE
@@ -73728,14 +73758,19 @@ msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.NEUTRAL"
 msgid "Comfort Zone"
 msgstr ""
 
+#. STRINGS.UI.OVERLAYS.HEATFLOW.NEUTRAL_DUPE
+msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.NEUTRAL_DUPE"
+msgid "Comfort Zone {0}"
+msgstr ""
+
 #. STRINGS.UI.OVERLAYS.HEATFLOW.TOOLTIPS.COOLING
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.TOOLTIPS.COOLING"
-msgid "<b>Body Heat Loss</b>\nUncomfortably cold\n\nDuplicants lose more heat in these areas than they can absorb\n* Warm Coats help Duplicants retain body heat"
+msgid "<b>Body Heat Loss</b>\nUncomfortably cold\n\nDuplicants lose more heat in chilly surroundings than they can absorb\n    • Warm Coats help Duplicants retain body heat"
 msgstr ""
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.TOOLTIPS.HEATING
 msgctxt "STRINGS.UI.OVERLAYS.HEATFLOW.TOOLTIPS.HEATING"
-msgid "<b>Body Heat Retention</b>\nUncomfortably warm\n\nDuplicants absorb more heat in these areas than they can release"
+msgid "<b>Body Heat Retention</b>\nUncomfortably warm\n\nDuplicants absorb more heat in toasty surroundings than they can release"
 msgstr ""
 
 #. STRINGS.UI.OVERLAYS.HEATFLOW.TOOLTIPS.NEUTRAL
@@ -77546,6 +77581,11 @@ msgstr ""
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.LIGHTDUSTCOMET.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.LIGHTDUSTCOMET.NAME"
 msgid "Dust Fluff Meteor"
+msgstr ""
+
+#. STRINGS.UI.SPACEDESTINATIONS.COMETS.MINICOMET.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.MINICOMET.NAME"
+msgid "Debris Meteor"
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.NUCLEAR_WASTE.NAME
