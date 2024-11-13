@@ -42615,12 +42615,12 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SLIPPERING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLIPPERING.NAME"
-msgid "Slippering"
+msgid "Slipping"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SLIPPERING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLIPPERING.TOOLTIP"
-msgid "This Duplicant is falling due to walking over a slippery surface causing them a small stress increase"
+msgid "This Duplicant is losing their balance on a slippery surface\n\nIt's not fun"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SOCIALIZING.NAME
@@ -55440,7 +55440,7 @@ msgstr ""
 
 #. STRINGS.MISC.PLACERS.MOVEPICKUPABLEPLACER.NAME
 msgctxt "STRINGS.MISC.PLACERS.MOVEPICKUPABLEPLACER.NAME"
-msgid "Move Here"
+msgid "Relocate Here"
 msgstr ""
 
 #. STRINGS.MISC.PLACERS.MOVEPICKUPABLEPLACER.PLACER_STATUS
@@ -55450,7 +55450,7 @@ msgstr ""
 
 #. STRINGS.MISC.PLACERS.MOVEPICKUPABLEPLACER.PLACER_STATUS_TOOLTIP
 msgctxt "STRINGS.MISC.PLACERS.MOVEPICKUPABLEPLACER.PLACER_STATUS_TOOLTIP"
-msgid "Click to see where this item will be moved to"
+msgid "Click to see where this item will be relocated to"
 msgstr ""
 
 #. STRINGS.MISC.POPFX.EXTRA_POWERBANKS_BIONIC
@@ -83270,7 +83270,7 @@ msgstr ""
 
 #. STRINGS.UI.TOOLS.MOVETOLOCATION.NAME
 msgctxt "STRINGS.UI.TOOLS.MOVETOLOCATION.NAME"
-msgid "Move"
+msgid "Relocate"
 msgstr ""
 
 #. STRINGS.UI.TOOLS.MOVETOLOCATION.TOOLACTION
@@ -83280,7 +83280,7 @@ msgstr ""
 
 #. STRINGS.UI.TOOLS.MOVETOLOCATION.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.MOVETOLOCATION.TOOLNAME"
-msgid "Move Here"
+msgid "Relocate Tool"
 msgstr ""
 
 #. STRINGS.UI.TOOLS.MOVETOLOCATION.UNREACHABLE
