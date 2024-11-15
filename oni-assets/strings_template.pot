@@ -20725,7 +20725,7 @@ msgstr ""
 
 #. STRINGS.CODEX.DECORSYSTEM.PARAGRAPH_2
 msgctxt "STRINGS.CODEX.DECORSYSTEM.PARAGRAPH_2"
-msgid "Many things have an effect on the Decor value of a tile. A building's effect is expressed as a strength value and a radius. Often that effect is positive, but many buildings also lower the decor value of an area too. <link=\"PLANTS\">Plants</link>, <link=\"CREATURES\">Critters</link>, and <link=\"BUILDCATEGORYFURNITURE\">Furniture</link> often increase decor while industrial buildings and rot often decrease it. Duplicants experience the combined decor of all objects affecting a tile.\n\nThe <link=\"PRICKLEGRASS\">Bluff Briar</link> has a decor value of 25 and a radius of 4 tiles. \nThe <link=\"MICROBEMUSHER\">Microbe Musher</link> has a decor value of -15 and a radius of 3 tiles. \nThe result of placing a <link=\"MICROBEMUSHER\">Microbe Musher</link> next to a <link=\"PRICKLEGRASS\">Bluff Briar</link> would be a combined decor value of 10"
+msgid "Many things have an effect on the Decor value of a tile. A building's effect is expressed as a strength value and a radius. Often that effect is positive, but many buildings also lower the decor value of an area too. <link=\"PLANTS\">Plants</link>, <link=\"CREATURES\">Critters</link>, and <link=\"BUILDCATEGORYFURNITURE\">Furniture</link> often increase decor while industrial buildings, debris, and rot often decrease it. Duplicants experience the combined decor of all objects affecting a tile.\n\nThe <link=\"PRICKLEGRASS\">Bluff Briar</link> has a decor value of 25 and a radius of 4 tiles. \nThe <link=\"MICROBEMUSHER\">Microbe Musher</link> has a decor value of -15 and a radius of 3 tiles. \nThe result of placing a <link=\"MICROBEMUSHER\">Microbe Musher</link> next to a <link=\"PRICKLEGRASS\">Bluff Briar</link> would be a combined decor value of 10."
 msgstr ""
 
 #. STRINGS.CODEX.DECORSYSTEM.TITLE
@@ -27290,7 +27290,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.MODIFIERS.GOLDBELLYWELLFED.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.GOLDBELLYWELLFED.TOOLTIP"
-msgid "This critter's recent meal is boosting their crown growth"
+msgid "This critter's recent meal is boosting their crest growth"
 msgstr ""
 
 #. STRINGS.CREATURES.MODIFIERS.GOTMILK.NAME
@@ -27645,12 +27645,12 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.BEAN_PLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.BEAN_PLANT.DESC"
-msgid "Nosh Sprouts thrive in colder climates and produce edible <link=\"BEAN\">Nosh Beans</link>."
+msgid "Nosh Sprouts thrive in colder climates and produce edible <link=\"BEANPLANTSEED\">Nosh Beans</link>."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.BEAN_PLANT.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.BEAN_PLANT.DOMESTICATEDDESC"
-msgid "This plant produces <link=\"BEAN\">Nosh Beans</link>."
+msgid "This plant produces <link=\"BEANPLANTSEED\">Nosh Beans</link>."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.BEAN_PLANT.NAME
@@ -28525,7 +28525,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.ICEBELLY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.ICEBELLY.DESC"
-msgid "Bammoths are lumbering, nonhostile creatures that subsist on <link=\"CARROT\">Plume Squash</link>, <link=\"BEAN\">Nosh Beans</link> and <link=\"FRIESCARROT\">Squash Fries</link>.\n\nTheir thick overcoats can be shorn for <link=\"BASICFABRIC\">Reed Fiber</link>."
+msgid "Bammoths are lumbering, nonhostile creatures that subsist on <link=\"CARROT\">Plume Squash</link>, <link=\"BEANPLANTSEED\">Nosh Beans</link> and <link=\"FRIESCARROT\">Squash Fries</link>.\n\nTheir thick overcoats can be shorn for <link=\"BASICFABRIC\">Reed Fiber</link>."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.ICEBELLY.EGG_NAME
@@ -28550,7 +28550,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.ICEBELLY.VARIANT_GOLD.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.ICEBELLY.VARIANT_GOLD.DESC"
-msgid "Regal Bammoths are nonhostile creatures that subsist on <link=\"CARROT\">Plume Squash</link> and <link=\"BEAN\">Nosh Beans</link>.\n\nTheir ornate crests grow only when they are fed <link=\"FRIESCARROT\">Squash Fries</link>."
+msgid "Regal Bammoths are nonhostile creatures that subsist on <link=\"CARROT\">Plume Squash</link> and <link=\"BEANPLANTSEED\">Nosh Beans</link>.\n\nTheir ornate crests grow only when they are fed <link=\"FRIESCARROT\">Squash Fries</link>."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.ICEBELLY.VARIANT_GOLD.EGG_NAME
@@ -29180,7 +29180,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PRICKLEGRASS.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.PRICKLEGRASS.DOMESTICATEDDESC"
-msgid "This plant improves <link=\"DECOR\">Decor</link>."
+msgid "This plant improves ambient <link=\"DECOR\">Decor</link>."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PRICKLEGRASS.GROWTH_BONUS
@@ -30075,7 +30075,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.STATS.CRITTERTEMPERATURE.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATS.CRITTERTEMPERATURE.TOOLTIP"
-msgid "This critter's comfortable <style=\"KKeyword\">Body Temperature</style> range is between <b>{0}</b> and <b>{1}</b>\n\nThis critter will take damage below <b>{2}</b>\nThis critter will take damage above <b>{3}</b>"
+msgid "This critter's comfortable <style=\"KKeyword\">Body Temperature</style> range is between <b>{0}</b> and <b>{1}</b>\n\nIts livable <style=\"KKeyword\">External Temperature</style> range is between <b>{2}</b> and <b>{3}</b>"
 msgstr ""
 
 #. STRINGS.CREATURES.STATS.DOMESTICATION.NAME
@@ -52750,7 +52750,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.DEEPFRIEDNOSH.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.DEEPFRIEDNOSH.RECIPEDESC"
-msgid "A crunchy stack of <link=\"BEANPLANT\">Nosh Beans</link> deep-fried in <link=\"TALLOW\">Tallow</link>."
+msgid "A crunchy stack of <link=\"BEANPLANTSEED\">Nosh Beans</link> deep-fried in <link=\"TALLOW\">Tallow</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.DEEPFRIEDSHELLFISH.DESC
@@ -53400,7 +53400,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.TOFU.DESC
 msgctxt "STRINGS.ITEMS.FOOD.TOFU.DESC"
-msgid "A bland curd made from <link=\"BEAN\">Nosh Beans</link>.\n\nIt has an unusual but pleasant consistency."
+msgid "A bland curd made from <link=\"BEANPLANTSEED\">Nosh Beans</link>.\n\nIt has an unusual but pleasant consistency."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.TOFU.NAME
@@ -53410,7 +53410,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.TOFU.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.TOFU.RECIPEDESC"
-msgid "A bland curd made from <link=\"BEAN\">Nosh Beans</link>."
+msgid "A bland curd made from <link=\"BEANPLANTSEED\">Nosh Beans</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.WORMBASICFOOD.DESC
@@ -65596,6 +65596,11 @@ msgstr ""
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.CRITERIA.CHECKENOUGHBEDS
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.CRITERIA.CHECKENOUGHBEDS"
 msgid "Check enough beds"
+msgstr ""
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.CRITERIA.CHECKREACHABILITY
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.CRITERIA.CHECKREACHABILITY"
+msgid "Check beds are reachable"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.MISSING_ASSIGNMENT
