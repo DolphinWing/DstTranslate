@@ -20263,6 +20263,36 @@ msgctxt "STRINGS.CODEX.CLEANER.TITLE"
 msgid "Gulp Fish"
 msgstr ""
 
+#. STRINGS.CODEX.CRAB_SHELL.BABY_CRAB_SHELL.CONTAINER1
+msgctxt "STRINGS.CODEX.CRAB_SHELL.BABY_CRAB_SHELL.CONTAINER1"
+msgid "An adorable little exoskeleton discarded by a baby aquatic critter."
+msgstr ""
+
+#. STRINGS.CODEX.CRAB_SHELL.BABY_CRAB_SHELL.SUBTITLE
+msgctxt "STRINGS.CODEX.CRAB_SHELL.BABY_CRAB_SHELL.SUBTITLE"
+msgid "Critter Byproduct"
+msgstr ""
+
+#. STRINGS.CODEX.CRAB_SHELL.BABY_CRAB_SHELL.TITLE
+msgctxt "STRINGS.CODEX.CRAB_SHELL.BABY_CRAB_SHELL.TITLE"
+msgid "Small Pokeshell Molt"
+msgstr ""
+
+#. STRINGS.CODEX.CRAB_SHELL.CONTAINER1
+msgctxt "STRINGS.CODEX.CRAB_SHELL.CONTAINER1"
+msgid "An exoskeleton discarded by an aquatic critter."
+msgstr ""
+
+#. STRINGS.CODEX.CRAB_SHELL.SUBTITLE
+msgctxt "STRINGS.CODEX.CRAB_SHELL.SUBTITLE"
+msgid "Critter Byproduct"
+msgstr ""
+
+#. STRINGS.CODEX.CRAB_SHELL.TITLE
+msgctxt "STRINGS.CODEX.CRAB_SHELL.TITLE"
+msgid "Pokeshell Molt"
+msgstr ""
+
 #. STRINGS.CODEX.CREATURE_DESCRIPTORS.CONFINED
 msgctxt "STRINGS.CODEX.CREATURE_DESCRIPTORS.CONFINED"
 msgid "<link=\"CREATURES::GUIDE::MOOD\">Confined</link> when a room is smaller than <b>{0} cells</b>."
@@ -20836,6 +20866,21 @@ msgstr ""
 #. STRINGS.CODEX.DUSKCAP.TITLE
 msgctxt "STRINGS.CODEX.DUSKCAP.TITLE"
 msgid "Dusk Cap"
+msgstr ""
+
+#. STRINGS.CODEX.EGG_SHELL.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.EGG_SHELL.BODY.CONTAINER1"
+msgid "The shards left over from the protective walls of a baby critter's first home."
+msgstr ""
+
+#. STRINGS.CODEX.EGG_SHELL.SUBTITLE
+msgctxt "STRINGS.CODEX.EGG_SHELL.SUBTITLE"
+msgid "Critter Byproduct"
+msgstr ""
+
+#. STRINGS.CODEX.EGG_SHELL.TITLE
+msgctxt "STRINGS.CODEX.EGG_SHELL.TITLE"
+msgid "Egg Shell"
 msgstr ""
 
 #. STRINGS.CODEX.ELECTROBANK.BODY.CONTAINER1
@@ -25223,6 +25268,21 @@ msgctxt "STRINGS.CODEX.VARIANT_GAS.TITLE"
 msgid "Smog Slug"
 msgstr ""
 
+#. STRINGS.CODEX.VARIANT_GOLD.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.VARIANT_GOLD.BODY.CONTAINER1"
+msgid "Heavy was the head that wore this crest, until it was relieved of its burden by a helpful Duplicant."
+msgstr ""
+
+#. STRINGS.CODEX.VARIANT_GOLD.SUBTITLE
+msgctxt "STRINGS.CODEX.VARIANT_GOLD.SUBTITLE"
+msgid "Critter Byproduct"
+msgstr ""
+
+#. STRINGS.CODEX.VARIANT_GOLD.TITLE
+msgctxt "STRINGS.CODEX.VARIANT_GOLD.TITLE"
+msgid "Regal Bammoth Crest"
+msgstr ""
+
 #. STRINGS.CODEX.VARIANT_HUG.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.VARIANT_HUG.BODY.CONTAINER1"
 msgid "<smallcaps>Pictured: \"Cuddle\" Pip variant</smallcaps>"
@@ -25266,6 +25326,36 @@ msgstr ""
 #. STRINGS.CODEX.VARIANT_WOOD.TITLE
 msgctxt "STRINGS.CODEX.VARIANT_WOOD.TITLE"
 msgid "Oakshell"
+msgstr ""
+
+#. STRINGS.CODEX.VARIANT_WOOD_SHELL.BABY_VARIANT_WOOD_SHELL.CONTAINER1
+msgctxt "STRINGS.CODEX.VARIANT_WOOD_SHELL.BABY_VARIANT_WOOD_SHELL.CONTAINER1"
+msgid "A cute little splintery exoskeleton discarded by a baby aquatic critter."
+msgstr ""
+
+#. STRINGS.CODEX.VARIANT_WOOD_SHELL.BABY_VARIANT_WOOD_SHELL.SUBTITLE
+msgctxt "STRINGS.CODEX.VARIANT_WOOD_SHELL.BABY_VARIANT_WOOD_SHELL.SUBTITLE"
+msgid "Critter Byproduct"
+msgstr ""
+
+#. STRINGS.CODEX.VARIANT_WOOD_SHELL.BABY_VARIANT_WOOD_SHELL.TITLE
+msgctxt "STRINGS.CODEX.VARIANT_WOOD_SHELL.BABY_VARIANT_WOOD_SHELL.TITLE"
+msgid "Small Oakshell Molt"
+msgstr ""
+
+#. STRINGS.CODEX.VARIANT_WOOD_SHELL.CONTAINER1
+msgctxt "STRINGS.CODEX.VARIANT_WOOD_SHELL.CONTAINER1"
+msgid "A splintery exoskeleton discarded by an aquatic critter."
+msgstr ""
+
+#. STRINGS.CODEX.VARIANT_WOOD_SHELL.SUBTITLE
+msgctxt "STRINGS.CODEX.VARIANT_WOOD_SHELL.SUBTITLE"
+msgid "Critter Byproduct"
+msgstr ""
+
+#. STRINGS.CODEX.VARIANT_WOOD_SHELL.TITLE
+msgctxt "STRINGS.CODEX.VARIANT_WOOD_SHELL.TITLE"
+msgid "Oakshell Molt"
 msgstr ""
 
 #. STRINGS.CODEX.VITAL.BODY.CONTAINER1
@@ -30260,7 +30350,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.STATS.VIABILITY.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATS.VIABILITY.TOOLTIP"
-msgid "Eggs will lose <style=\"KKeyword\">Viability</style> over time when exposed to poor environmental conditions\n\nAt 0% <style=\"KKeyword\">Viability</style> a critter egg will crack and produce a <link=\"RAWEGG\">Raw Egg</link> and Egg Shell"
+msgid "Eggs will lose <style=\"KKeyword\">Viability</style> over time when exposed to poor environmental conditions\n\nAt 0% <style=\"KKeyword\">Viability</style> a critter egg will crack and produce a <link=\"RAWEGG\">Raw Egg</link> and <link=\"EGGSHELL\">Egg Shell</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.STATS.WILDNESS.NAME
@@ -53470,7 +53560,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.BABY_CRAB_SHELL.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.BABY_CRAB_SHELL.NAME"
-msgid "Small Pokeshell Molt"
+msgid "<link=\"CRABSHELL\">Small Pokeshell Molt</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.BABY_CRAB_SHELL.VARIANT_WOOD.DESC
@@ -53480,7 +53570,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.BABY_CRAB_SHELL.VARIANT_WOOD.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.BABY_CRAB_SHELL.VARIANT_WOOD.NAME"
-msgid "Small Oakshell Molt"
+msgid "<link=\"VARIANTWOODSHELL\">Small Oakshell Molt</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.BASIC_FABRIC.DESC
@@ -53500,7 +53590,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.CRAB_SHELL.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.CRAB_SHELL.NAME"
-msgid "Pokeshell Molt"
+msgid "<link=\"CRABSHELL\">Pokeshell Molt</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.CRAB_SHELL.VARIANT_WOOD.DESC
@@ -53510,7 +53600,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.CRAB_SHELL.VARIANT_WOOD.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.CRAB_SHELL.VARIANT_WOOD.NAME"
-msgid "Oakshell Molt"
+msgid "<link=\"VARIANTWOODSHELL\">Oakshell Molt</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.EGG_SHELL.DESC
@@ -53520,7 +53610,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.EGG_SHELL.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.EGG_SHELL.NAME"
-msgid "Egg Shell"
+msgid "<link=\"EGGSHELL\">Egg Shell</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK.DESC
@@ -53660,7 +53750,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.GOLD_BELLY_CROWN.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.GOLD_BELLY_CROWN.NAME"
-msgid "Regal Bammoth Crest"
+msgid "<link=\"GOLDBELLYCROWN\">Regal Bammoth Crest</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ICE_BELLY_POOP.DESC
@@ -53710,7 +53800,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ORBITAL_RESEARCH_DATABANK.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ORBITAL_RESEARCH_DATABANK.NAME"
-msgid "Data Bank"
+msgid "<link=\"ORBITALRESEARCHDATABANK\">Data Bank</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ORBITAL_RESEARCH_DATABANK.RECIPE_DESC
@@ -53770,7 +53860,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.RESEARCH_DATABANK.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.RESEARCH_DATABANK.NAME"
-msgid "Data Bank"
+msgid "<link=\"RESEARCHDATABANK\">Data Bank</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TABLE_SALT.DESC
