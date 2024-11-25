@@ -1,13 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net471</TargetFramework>
+    <TargetFramework>net48</TargetFramework>
     <Authors>dershiuan</Authors>
     <Copyright>Copyright@2020</Copyright>
-    <Description>ONI Font Loader</Description>
+    <Description>ONI Font Loader. rebuilt by DolphinWing.</Description>
     <AssemblyTitle>FontLoader</AssemblyTitle>
-    <AssemblyVersion>2020.07.22.0</AssemblyVersion>
-    <FileVersion>2020.07.22.0</FileVersion>
+    <AssemblyVersion>2024.11.25.0</AssemblyVersion>
+    <FileVersion>2024.11.25.0</FileVersion>
+    <Product>ONI FontLoader</Product>
+    <Version>2.0.6</Version>
   </PropertyGroup>
 
   <ItemGroup>

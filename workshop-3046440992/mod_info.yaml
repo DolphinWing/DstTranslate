@@ -1,4 +1,4 @@
-supportedContent: VANILLA_ID, EXPANSION1_ID
-minimumSupportedBuild: 573946
+supportedContent: ALL
+minimumSupportedBuild: 642443
 version: "2.0.5"
 APIVersion: 2
