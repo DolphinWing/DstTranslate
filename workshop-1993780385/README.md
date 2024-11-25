@@ -1,3 +1,6 @@
+> [!NOTE]
+> 已停止更新，請使用官方翻譯
+
 ![GitHub package.json version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/DolphinWing/DSTTranslate?filename=workshop-1993780385%2Fpackage.json&logo=github) 
 ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/1993780385?logo=steam) 
 ![Steam Favorites](https://img.shields.io/steam/favorites/1993780385?logo=steam)
@@ -10,7 +13,7 @@
 通常都會在遊戲更新之後一兩天內，會儘快跟上當前的遊戲的版本所新增的翻譯內容。
 主要是因為已經習慣某些翻譯內容，切換回官方中文之後感到不習慣，因而保持此 MOD 的繼續更新。
 
-內容文字以 Klei 簡體中文文檔為主，輔以 Klei 正體中文文檔，並參考 [Don't Starve 中文維基](https://dontstarve.fandom.com/zh/?variant=zh-hant) ，
+內容文字以 Klei 簡體中文文檔為主，輔以 Klei 正體中文文檔，並參考 [Don't Starve 中文維基](https://dontstarve.wiki.gg/wiki/Don%27t_Starve_Together) ，
 以及一些私心小修正。
 
 啟用「我想吃粉圓」的功能，會將原本遊戲字型換成「[jf open 粉圓字型](https://justfont.com/huninn/)」。
