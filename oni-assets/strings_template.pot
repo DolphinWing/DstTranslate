@@ -3405,7 +3405,7 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.INFLIGHTUNPILOTED.ROBO_PILOT_ONLY_TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INFLIGHTUNPILOTED.ROBO_PILOT_ONLY_TOOLTIP"
-msgid "<style=\"KKeyword\">Robo-Pilot</style> has run out of <style=\"KKeyword\">Data Banks</style>\n\nRocket is stranded"
+msgid "<style=\"KKeyword\">Robo-Pilot</style> has run out of <style=\"KKeyword\">Data Banks</style>\n\nThis rocket is stranded"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.INFLIGHTUNPILOTED.TOOLTIP
@@ -21775,7 +21775,7 @@ msgstr ""
 
 #. STRINGS.CODEX.ELECTROBANK.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.ELECTROBANK.BODY.CONTAINER1"
-msgid "Power Banks are portable <link=\"POWER\">Power</link> storage containers that can be used to supply electricity to mobile entities and isolated areas.\n\n<link=\"ELECTROBANK\">Organic Power Banks</link> made from flora and fauna-based ingredients are single-use, as are <link=\"ELECTROBANK\">Nuclear Power Banks</link>.\n\n<link=\"ELECTROBANK\">Eco Power Banks</link> are rechargeable and can be reused indefinitely unless they are exposed to water damage."
+msgid "Power Banks are portable <link=\"POWER\">Power</link> storage containers that can be used to supply electricity to mobile entities and isolated areas.\n\n<link=\"ELECTROBANK\">Metal Power Banks</link> made from Metal Ore are single-use, as are <link=\"ELECTROBANK\">Nuclear Power Banks</link>.\n\n<link=\"ELECTROBANK\">Eco Power Banks</link> are rechargeable and can be reused indefinitely unless they are exposed to water damage."
 msgstr ""
 
 #. STRINGS.CODEX.ELECTROBANK.SUBTITLE
@@ -35441,6 +35441,11 @@ msgstr ""
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CAN_PICKUP
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CAN_PICKUP"
 msgid "Cannot pickup"
+msgstr ""
+
+#. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CANPICKUPANYASSIGNEDUPGRADE
+msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CANPICKUPANYASSIGNEDUPGRADE"
+msgid "Cannot pickup any assigned upgrade"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CONTAINS_OXYGEN
@@ -66410,7 +66415,7 @@ msgstr ""
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.RANGE.ROBO_PILOTED_TOOLTIP
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.RANGE.ROBO_PILOTED_TOOLTIP"
-msgid "Rockets piloted by <style=\"KKeyword\">Robo-Pilot</style> can travel one tile per {0} <style=\"KKeyword\">Data Bank</style>\n<style=\"KKeyword\">Data Banks</style> remaining: {1}"
+msgid "\nRockets piloted by a <style=\"KKeyword\">Robo-Pilot</style> can travel one tile per {0} <style=\"KKeyword\">Data Banks</style>\n    • Data banks remaining: {1}"
 msgstr ""
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.RANGE.TOOLTIP
@@ -66420,7 +66425,7 @@ msgstr ""
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.SPEED.DEAD_ROBO_PILOT_ONLY_SPEED_TOOLTIP
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.SPEED.DEAD_ROBO_PILOT_ONLY_SPEED_TOOLTIP"
-msgid "<style=\"KKeyword\">Robo-Pilot</style> has no <style=\"KKeyword\">Data Banks</style>\n\nThis rocket is stranded"
+msgid "<style=\"KKeyword\">Robo-Pilot</style> has no <style=\"KKeyword\">Data Banks</style>. This rocket is stranded"
 msgstr ""
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.SPEED.DUPEPILOT_SPEED_TOOLTIP
@@ -83490,7 +83495,7 @@ msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ROBOT_PILOT_DATA_REQUIREMENTS.TOOLTIP.WARNING_NO_DATA_BANKS_HUMAN_PILOT
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ROBOT_PILOT_DATA_REQUIREMENTS.TOOLTIP.WARNING_NO_DATA_BANKS_HUMAN_PILOT"
-msgid "<style=\"KKeyword\">Robo-Pilot</style> requires <style=\"KKeyword\">Data Banks</style> to function\n\nThis rocket is currently operated by a Duplicant who possesses the <link=\"ROCKETPILOTING1\">Rocket Piloting</link> skill"
+msgid "<style=\"KKeyword\">Robo-Pilot</style> cannot function without <style=\"KKeyword\">Data Banks</style>\n\nThis rocket is currently being operated by a Duplicant who possesses the <link=\"ROCKETPILOTING1\">Rocket Piloting</link> skill"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ROBOT_PILOT_POWER_SOUCRE.STATUS.FAILURE
