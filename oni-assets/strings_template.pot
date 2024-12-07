@@ -165,7 +165,7 @@ msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_CIRCUIT.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_CIRCUIT.DESC"
-msgid "The buttons almost look like another set of bionic eyes. They're not."
+msgid "The belt itself is not bionic, but the Duplicant wearing it probably is."
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_CIRCUIT.NAME
@@ -311,6 +311,16 @@ msgstr ""
 #. STRINGS.BLUEPRINTS.PERMIT_COOKINGSTATION_GOURMET_COTTAGE.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_COOKINGSTATION_GOURMET_COTTAGE.NAME"
 msgid "<link=\"GOURMETCOOKINGSTATION\">Rustic Gas Range</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_CRAFTINGSTATION_CYBERPUNK.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_CRAFTINGSTATION_CYBERPUNK.DESC"
+msgid "Building a better tomorrow, today."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_CRAFTINGSTATION_CYBERPUNK.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_CRAFTINGSTATION_CYBERPUNK.NAME"
+msgid "Retro LED Crafting Table"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_DRESS_FUTURESPACE_BLUE.DESC
@@ -1093,6 +1103,16 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_BASE_A_BIONIC.NAME"
 msgid "Balmy Bionic Base"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_BASE_A_FROSTY.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_BASE_A_FROSTY.DESC"
+msgid "Looks and smells just like Bammoth \"business.\""
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_BASE_A_FROSTY.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_BASE_A_FROSTY.NAME"
+msgid "Patty Pose"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_BASE_B_BIONIC.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_BASE_B_BIONIC.DESC"
 msgid "Some Duplicants climb things just because they're there."
@@ -1101,6 +1121,16 @@ msgstr ""
 #. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_BASE_B_BIONIC.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_BASE_B_BIONIC.NAME"
 msgid "Mount Microchip"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_BASE_B_FROSTY.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_BASE_B_FROSTY.DESC"
+msgid "The plume curls upward to facilitate floor-sweeping."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_BASE_B_FROSTY.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_BASE_B_FROSTY.NAME"
+msgid "Squash Stand"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_BASE_C_BIONIC.DESC
@@ -1113,6 +1143,16 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_BASE_C_BIONIC.NAME"
 msgid "Gimme a Boost Base"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_BASE_C_FROSTY.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_BASE_C_FROSTY.DESC"
+msgid "It's radiant, though it emits no actual light."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_BASE_C_FROSTY.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_BASE_C_FROSTY.NAME"
+msgid "Lumen Landing"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_MID_A_BIONIC.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_MID_A_BIONIC.DESC"
 msgid "Featuring the fluttery palms of a delighted Bionic Duplicant."
@@ -1121,6 +1161,16 @@ msgstr ""
 #. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_MID_A_BIONIC.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_MID_A_BIONIC.NAME"
 msgid "Tickled Trunk"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_MID_A_FROSTY.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_MID_A_FROSTY.DESC"
+msgid "It's trying to get away from something."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_MID_A_FROSTY.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_MID_A_FROSTY.NAME"
+msgid "Recoiling"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_MID_B_BIONIC.DESC
@@ -1133,6 +1183,16 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_MID_B_BIONIC.NAME"
 msgid "Power Forward"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_MID_B_FROSTY.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_MID_B_FROSTY.DESC"
+msgid "Carved sherberries are just about as palatable as real ones."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_MID_B_FROSTY.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_MID_B_FROSTY.NAME"
+msgid "Berry Bounty Trunk"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_MID_C_BIONIC.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_MID_C_BIONIC.DESC"
 msgid "In this universe, ya get what ya take."
@@ -1141,6 +1201,16 @@ msgstr ""
 #. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_MID_C_BIONIC.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_MID_C_BIONIC.NAME"
 msgid "Hogger Trunk"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_MID_C_FROSTY.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_MID_C_FROSTY.DESC"
+msgid "Never, <i>ever</i> run while holding spigot seals."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_MID_C_FROSTY.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_MID_C_FROSTY.NAME"
+msgid "Seal Snuggles"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_A_BIONIC.DESC
@@ -1153,6 +1223,16 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_A_BIONIC.NAME"
 msgid "Steela Noggin"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_A_FROSTY.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_A_FROSTY.DESC"
+msgid "A giant Resting Ewwww Face topper."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_A_FROSTY.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_A_FROSTY.NAME"
+msgid "Liam Noggin"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_B_BIONIC.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_B_BIONIC.DESC"
 msgid "It's a special Ed-ition topper."
@@ -1163,6 +1243,16 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_B_BIONIC.NAME"
 msgid "Edwiredo Noggin"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_B_FROSTY.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_B_FROSTY.DESC"
+msgid "A cooler-than-cool topper."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_B_FROSTY.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_B_FROSTY.NAME"
+msgid "Freyja Noggin"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_C_BIONIC.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_C_BIONIC.DESC"
 msgid "The smug mug of a winner."
@@ -1171,6 +1261,16 @@ msgstr ""
 #. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_C_BIONIC.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_C_BIONIC.NAME"
 msgid "Ulti Noggin"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_C_FROSTY.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_C_FROSTY.DESC"
+msgid "Everyone loves Pei Day!"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_C_FROSTY.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_C_FROSTY.NAME"
+msgid "Pei Noggin"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_PAINTING_ART_CERES_A.DESC
@@ -1711,6 +1811,36 @@ msgstr ""
 #. STRINGS.BLUEPRINTS.PERMIT_UTILITIES_ELECTRIC_CONDUCT_SCALE_LIME.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_UTILITIES_ELECTRIC_CONDUCT_SCALE_LIME.NAME"
 msgid "<link=\"WIREREFINEDHIGHWATTAGE\">Leach Conductive Wire</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_UTILITYELECTRICBRIDGECONDUCTIVE_DIAMOND_ORCHID.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_UTILITYELECTRICBRIDGECONDUCTIVE_DIAMOND_ORCHID.DESC"
+msgid "Color-coded wire bridges make it easy to see how things are connected."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_UTILITYELECTRICBRIDGECONDUCTIVE_DIAMOND_ORCHID.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_UTILITYELECTRICBRIDGECONDUCTIVE_DIAMOND_ORCHID.NAME"
+msgid "Bubblegum Conductive Wire Bridge"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_UTILITYELECTRICBRIDGECONDUCTIVE_NET_PINK.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_UTILITYELECTRICBRIDGECONDUCTIVE_NET_PINK.DESC"
+msgid "Color-coded wire bridges make it easy to see how things are connected."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_UTILITYELECTRICBRIDGECONDUCTIVE_NET_PINK.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_UTILITYELECTRICBRIDGECONDUCTIVE_NET_PINK.NAME"
+msgid "Gamma Conductive Wire Bridge"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_UTILITYELECTRICBRIDGECONDUCTIVE_SCALE_LIME.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_UTILITYELECTRICBRIDGECONDUCTIVE_SCALE_LIME.DESC"
+msgid "Color-coded wire bridges make it easy to see how things are connected."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_UTILITYELECTRICBRIDGECONDUCTIVE_SCALE_LIME.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_UTILITYELECTRICBRIDGECONDUCTIVE_SCALE_LIME.NAME"
+msgid "Leach Conductive Wire Bridge"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_WALLS_ARCADE.DESC
@@ -18878,6 +19008,11 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.NAME"
 msgid "<link=\"SUPERMATERIALREFINERY\">Molecular Forge</link>"
 msgstr ""
 
+#. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.SELF_CHARGING_POWERBANK_RECIPE_DESCRIPTION
+msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.SELF_CHARGING_POWERBANK_RECIPE_DESCRIPTION"
+msgid ""
+msgstr ""
+
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.SUPERCOOLANT_RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.SUPERCOOLANT_RECIPE_DESCRIPTION"
 msgid "Super Coolant is an industrial-grade <link=\"FULLERENE\">Fullerene</link> coolant."
@@ -22515,7 +22650,7 @@ msgstr ""
 
 #. STRINGS.CODEX.ELECTROBANK.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.ELECTROBANK.BODY.CONTAINER1"
-msgid "Power Banks are portable <link=\"POWER\">Power</link> storage containers that can be used to supply electricity to mobile entities and isolated areas.\n\n<link=\"ELECTROBANK\">Metal Power Banks</link> made from Metal Ore are single-use, as are <link=\"ELECTROBANK\">Nuclear Power Banks</link>.\n\n<link=\"ELECTROBANK\">Eco Power Banks</link> are rechargeable and can be reused indefinitely unless they are exposed to water damage."
+msgid "Power Banks are portable <link=\"POWER\">Power</link> storage containers that can be used to supply electricity to mobile entities and isolated areas.\n\nSingle-use power banks are easier to produce, but rechargeable and self-charging models are more efficient in the long run.\n\nCautious handling is required, as liquid exposure (or expiration, for self-charging power banks) can lead to explosions."
 msgstr ""
 
 #. STRINGS.CODEX.ELECTROBANK.SUBTITLE
@@ -22948,6 +23083,16 @@ msgctxt "STRINGS.CODEX.HEADERS.ROLE_PERKS"
 msgid "Job Training"
 msgstr ""
 
+#. STRINGS.CODEX.HEADERS.ROLE_PERKS_BIONIC
+msgctxt "STRINGS.CODEX.HEADERS.ROLE_PERKS_BIONIC"
+msgid "Booster Installation"
+msgstr ""
+
+#. STRINGS.CODEX.HEADERS.ROLE_PERKS_BIONIC_DESC
+msgctxt "STRINGS.CODEX.HEADERS.ROLE_PERKS_BIONIC_DESC"
+msgid "Installing boosters instantly grants bionic Duplicants stat and <link=\"SKILLS\">Skill</link> upgrades."
+msgstr ""
+
 #. STRINGS.CODEX.HEADERS.ROLE_PERKS_DESC
 msgctxt "STRINGS.CODEX.HEADERS.ROLE_PERKS_DESC"
 msgid "Job Training automatically provides permanent traits and stat increases that are retained even when a Duplicant switches jobs."
@@ -22971,6 +23116,16 @@ msgstr ""
 #. STRINGS.CODEX.HEADERS.UNLOCK_ROLES
 msgctxt "STRINGS.CODEX.HEADERS.UNLOCK_ROLES"
 msgid "Promotion Opportunities"
+msgstr ""
+
+#. STRINGS.CODEX.HEADERS.UNLOCK_ROLES_BIONIC
+msgctxt "STRINGS.CODEX.HEADERS.UNLOCK_ROLES_BIONIC"
+msgid "System Optimizations"
+msgstr ""
+
+#. STRINGS.CODEX.HEADERS.UNLOCK_ROLES_BIONIC_DESC
+msgctxt "STRINGS.CODEX.HEADERS.UNLOCK_ROLES_BIONIC_DESC"
+msgid "Optimizations result from strategically combining and stacking installed bionic boosters."
 msgstr ""
 
 #. STRINGS.CODEX.HEADERS.UNLOCK_ROLES_DESC
@@ -23410,7 +23565,7 @@ msgstr ""
 
 #. STRINGS.CODEX.INVESTIGATIONS.DLC3_POTATOBATTERY.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.INVESTIGATIONS.DLC3_POTATOBATTERY.BODY.CONTAINER3"
-msgid "<smallcaps>[Log fragmentation detected]\n[Voice Recognition unavailable]</smallcaps>\n\n[LOG BEGINS]\n\n...word of our efforts has spread!\n\nThe bioengineers report that some of their creatures' eggs contain phosphorescent albumen that requires only basic processing in order to trigger chemical reactions that produce storable energy. It displays unprecedented biocompatibility with the prosthetics Dr. Gossmann has been developing.\n\nThe Director assigned us a half-dozen new graduates last week. They work the night shift—youth never sleeps! No one has met them yet, but their data is always neatly compiled for us to find in the morning.\n\n[LOG ENDS]\n------------------\n"
+msgid "<smallcaps>[Log fragmentation detected]\n[Voice Recognition unavailable]</smallcaps>\n\n[LOG BEGINS]\n\n...word of our efforts has spread!\n\nThe bioengineers report that some of their creatures' eggs contain phosphorescent albumen that requires only basic processing in order to trigger chemical reactions that produce storable energy. It displays unprecedented biocompatibility with the prosthetics Dr. Gossmann has been developing.\n\nThe Director assigned us a half-dozen new graduates last week. They work the night shift—this generation never sleeps!\n\nNo one has met them yet, but their data is always neatly compiled for us to find in the morning.\n\nThey seem determined to prioritize the use of metallic and radioactive components rather than plant or animal-based ones.\n\nYouthful idealism, perhaps?\n\nNevertheless, their findings <i>are</i> quite compelling.\n\nI admire their mettle.\n\n[LOG ENDS]\n------------------\n"
 msgstr ""
 
 #. STRINGS.CODEX.INVESTIGATIONS.DLC3_POTATOBATTERY.SUBTITLE
@@ -27638,6 +27793,16 @@ msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.CURED_DISEASE_DESCRIPTION
 msgid "Cure a sick Duplicant of disease."
 msgstr ""
 
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.DATA_DRIVEN
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.DATA_DRIVEN"
+msgid "Data Driven"
+msgstr ""
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.DATA_DRIVEN_DESCRIPTION
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.DATA_DRIVEN_DESCRIPTION"
+msgid "Produce a Data Bank using a Data Miner operating at maximum efficiency."
+msgstr ""
+
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.EAT_MEAT
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.EAT_MEAT"
 msgid "Carnivore"
@@ -27776,6 +27941,16 @@ msgstr ""
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.MINE_THE_GAP_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.MINE_THE_GAP_DESCRIPTION"
 msgid "Mine 1,000,000kg from space POIs."
+msgstr ""
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.MVB
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.MVB"
+msgid "Most Valuable Bionic"
+msgstr ""
+
+#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.MVB_DESCRIPTION
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.MVB_DESCRIPTION"
+msgid "Install {0} boosters in a single Bionic Duplicant."
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.NO_PLANTERBOX
@@ -42330,7 +42505,7 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.STATS.BIONICOXYGENTANK.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATS.BIONICOXYGENTANK.TOOLTIP"
-msgid "Bionic Duplicants have internal <style=\"KKeyword\">Oxygen</style> tanks that enable them to work in low breathability areas"
+msgid "Bionic Duplicants have internal <style=\"KKeyword\">Oxygen</style> tanks that enable them to work in low breathability areas\n\nThey will prioritize <style=\"KKeyword\">Oxygen</style> intake from equipped <style=\"KKeyword\">Exosuits</style> to conserve their internal tanks"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.STATS.BIONICOXYGENTANK.TOOLTIP_GERM_DETAIL
@@ -45213,6 +45388,46 @@ msgctxt "STRINGS.DUPLICANTS.TRAITS.BIONICBUG5.SHORT_DESC_TOOLTIP"
 msgid "Does not level up attributes while performing errands\n\nRequires boosters to improve skills"
 msgstr ""
 
+#. STRINGS.DUPLICANTS.TRAITS.BIONICBUG6.DESC
+msgctxt "STRINGS.DUPLICANTS.TRAITS.BIONICBUG6.DESC"
+msgid "This Duplicant's bionic systems were designed by someone who'd never seen a plant in real life"
+msgstr ""
+
+#. STRINGS.DUPLICANTS.TRAITS.BIONICBUG6.NAME
+msgctxt "STRINGS.DUPLICANTS.TRAITS.BIONICBUG6.NAME"
+msgid "Bionic Bug: Urbanite"
+msgstr ""
+
+#. STRINGS.DUPLICANTS.TRAITS.BIONICBUG6.SHORT_DESC
+msgctxt "STRINGS.DUPLICANTS.TRAITS.BIONICBUG6.SHORT_DESC"
+msgid "No passive attribute leveling"
+msgstr ""
+
+#. STRINGS.DUPLICANTS.TRAITS.BIONICBUG6.SHORT_DESC_TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.TRAITS.BIONICBUG6.SHORT_DESC_TOOLTIP"
+msgid "Does not level up attributes while performing errands\n\nRequires boosters to improve skills"
+msgstr ""
+
+#. STRINGS.DUPLICANTS.TRAITS.BIONICBUG7.DESC
+msgctxt "STRINGS.DUPLICANTS.TRAITS.BIONICBUG7.DESC"
+msgid "This Duplicant's bionic systems err on the side of erring"
+msgstr ""
+
+#. STRINGS.DUPLICANTS.TRAITS.BIONICBUG7.NAME
+msgctxt "STRINGS.DUPLICANTS.TRAITS.BIONICBUG7.NAME"
+msgid "Bionic Bug: Error Prone"
+msgstr ""
+
+#. STRINGS.DUPLICANTS.TRAITS.BIONICBUG7.SHORT_DESC
+msgctxt "STRINGS.DUPLICANTS.TRAITS.BIONICBUG7.SHORT_DESC"
+msgid "No passive attribute leveling"
+msgstr ""
+
+#. STRINGS.DUPLICANTS.TRAITS.BIONICBUG7.SHORT_DESC_TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.TRAITS.BIONICBUG7.SHORT_DESC_TOOLTIP"
+msgid "Does not level up attributes while performing errands\n\nRequires boosters to improve skills"
+msgstr ""
+
 #. STRINGS.DUPLICANTS.TRAITS.BOTANISTDOWN.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.BOTANISTDOWN.DESC"
 msgid "Never ask this Duplicant to watch your ferns when you go on vacation"
@@ -46905,7 +47120,7 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.STARTWITHBOOSTER_SUITS1.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.STARTWITHBOOSTER_SUITS1.DESC"
-msgid "Enables a Bionic Duplicant to maximize durability of equipped <link=\"SUITS\">Exosuits</link> and maintain their runspeed."
+msgid "Enables a Bionic Duplicant to maximize durability of equipped <link=\"EQUIPMENT\">Exosuits</link> and maintain their runspeed."
 msgstr ""
 
 #. STRINGS.DUPLICANTS.TRAITS.STARTWITHBOOSTER_SUITS1.NAME
@@ -54420,7 +54635,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.BIONIC_BOOSTERS.BOOSTER_SUITS1.DESC
 msgctxt "STRINGS.ITEMS.BIONIC_BOOSTERS.BOOSTER_SUITS1.DESC"
-msgid "Enables a Bionic Duplicant to maximize durability of equipped <link=\"SUITS\">Exosuits</link> and maintain their runspeed."
+msgid "Enables a Bionic Duplicant to maximize durability of equipped <link=\"EQUIPMENT\">Exosuits</link> and maintain their runspeed."
 msgstr ""
 
 #. STRINGS.ITEMS.BIONIC_BOOSTERS.BOOSTER_SUITS1.NAME
@@ -55540,22 +55755,12 @@ msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK.DESC"
-msgid "A rechargeable <link=\"ELECTROBANK\">Power Bank</link>.\n\nIt can power buildings via <link=\"LARGEELECTROBANKDISCHARGER\">Socket Stations</link> or <link=\"SMALLELECTROBANKDISCHARGER\">Wall Sockets</link>.\n\nDuplicants can produce new <link=\"ELECTROBANK\">Eco Power Banks</link> at the <link=\"ADVANCEDCRAFTINGTABLE\">Soldering Station</link>.\n\nMust be kept dry."
+msgid "A rechargeable <link=\"ELECTROBANK\">Power Bank</link>.\n\nIt can power buildings via <link=\"LARGEELECTROBANKDISCHARGER\">Large Dischargers</link> or <link=\"SMALLELECTROBANKDISCHARGER\">Compact Dischargers</link>.\n\nDuplicants can produce new <link=\"ELECTROBANK\">Eco Power Banks</link> at the <link=\"ADVANCEDCRAFTINGTABLE\">Soldering Station</link>.\n\nMust be kept dry."
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK.NAME"
 msgid "<link=\"ELECTROBANK\">Eco Power Bank</link>"
-msgstr ""
-
-#. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_CARROT.DESC
-msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_CARROT.DESC"
-msgid "A disposable organic <link=\"ELECTROBANK\">Power Bank</link> made with <link=\"CARROT\">Plume Squash</link>.\n\nIt can power buildings via <link=\"LARGEELECTROBANKDISCHARGER\">Socket Stations</link> or <link=\"SMALLELECTROBANKDISCHARGER\">Wall Sockets</link>.\n\nDuplicants can produce new <link=\"ELECTROBANK\">Squash Power Banks</link> at the <link=\"CRAFTINGTABLE\">Crafting Station</link>.\n\nMust be kept dry."
-msgstr ""
-
-#. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_CARROT.NAME
-msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_CARROT.NAME"
-msgid "<link=\"ELECTROBANK\">Squash Power Bank</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_EMPTY.DESC
@@ -55578,64 +55783,34 @@ msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_GARBAGE.NAME"
 msgid "<link=\"ELECTROBANK\">Power Bank Scrap</link>"
 msgstr ""
 
-#. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_LIGHTBUGEGG.DESC
-msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_LIGHTBUGEGG.DESC"
-msgid "A disposable organic <link=\"ELECTROBANK\">Power Bank</link> made with <link=\"LIGHTBUG\">Shine Nymph Egg</link>.\n\nIt can power buildings via <link=\"LARGEELECTROBANKDISCHARGER\">Socket Stations</link> or <link=\"SMALLELECTROBANKDISCHARGER\">Wall Sockets</link>.\n\nDuplicants can produce new <link=\"ELECTROBANK\">Shine Egg Power Banks</link> at the <link=\"CRAFTINGTABLE\">Crafting Station</link>.\n\nMust be kept dry."
-msgstr ""
-
-#. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_LIGHTBUGEGG.NAME
-msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_LIGHTBUGEGG.NAME"
-msgid "<link=\"ELECTROBANK\">Shine Egg Power Bank</link>"
-msgstr ""
-
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_METAL_ORE.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_METAL_ORE.DESC"
-msgid "A disposable <link=\"ELECTROBANK\">Power Bank</link> made with <link=\"METAL\">Metal Ore</link>.\n\nIt can power buildings via <link=\"LARGEELECTROBANKDISCHARGER\">Socket Stations</link> or <link=\"SMALLELECTROBANKDISCHARGER\">Wall Sockets</link>.\n\nDuplicants can produce new <link=\"ELECTROBANK\">Metal Power Banks</link> at the <link=\"CRAFTINGTABLE\">Crafting Station</link>.\n\nMust be kept dry."
+msgid "A disposable <link=\"ELECTROBANK\">Power Bank</link> made with <link=\"METAL\">Metal Ore</link>.\n\nIt can power buildings via <link=\"LARGEELECTROBANKDISCHARGER\">Large Dischargers</link> or <link=\"SMALLELECTROBANKDISCHARGER\">Compact Dischargers</link>.\n\nDuplicants can produce new <link=\"ELECTROBANK\">Metal Power Banks</link> at the <link=\"CRAFTINGTABLE\">Crafting Station</link>.\n\nMust be kept dry."
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_METAL_ORE.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_METAL_ORE.NAME"
-msgid "<link=\"ELECTROBANK\">Metal Power Bank</link>"
+msgid "<link=\"ELECTROBANKMETALORE\">Metal Power Bank</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_SELFCHARGING.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_SELFCHARGING.DESC"
-msgid "A Self Recharging <link=\"ELECTROBANK\">Power Bank</link>made from <link=\"ENRICHEDURANIUM\">Enriched Uranium</link>.\n\nIt can power buildings via <link=\"LARGEELECTROBANKDISCHARGER\">Socket Stations</link> or <link=\"SMALLELECTROBANKDISCHARGER\">Wall Sockets</link>."
+msgid "A self-charging <link=\"ELECTROBANK\">Power Bank</link> made with <link=\"ENRICHEDURANIUM\">Enriched Uranium</link>.\n\nIt can power buildings via <link=\"LARGEELECTROBANKDISCHARGER\">Large Dischargers</link> or <link=\"SMALLELECTROBANKDISCHARGER\">Compact Dischargers</link>.\n\nDuplicants can produce new <link=\"ELECTROBANKSELFCHARGING\">Dura Power Banks</link> at the <link=\"SUPERMATERIALREFINERY\">Molecular Forge</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_SELFCHARGING.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_SELFCHARGING.NAME"
-msgid "<link=\"ELECTROBANK\">Self Charging Powerbank</link>"
-msgstr ""
-
-#. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_STATERPILLAR.DESC
-msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_STATERPILLAR.DESC"
-msgid "A disposable organic <link=\"ELECTROBANK\">Power Bank</link> made with <link=\"STATERPILLAR\">Plug Slug Egg</link>.\n\nIt can power buildings via <link=\"LARGEELECTROBANKDISCHARGER\">Socket Stations</link> or <link=\"SMALLELECTROBANKDISCHARGER\">Wall Sockets</link>.\n\nDuplicants can produce new <link=\"ELECTROBANK\">Slug Egg Power Banks</link> at the <link=\"CRAFTINGTABLE\">Crafting Station</link>.\n\nMust be kept dry."
-msgstr ""
-
-#. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_STATERPILLAR.NAME
-msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_STATERPILLAR.NAME"
-msgid "<link=\"ELECTROBANK\">Slug Egg Power Bank</link>"
-msgstr ""
-
-#. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_SUCROSE.DESC
-msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_SUCROSE.DESC"
-msgid "A disposable organic <link=\"ELECTROBANK\">Power Bank</link> made with <link=\"SUCROSE\">Sucrose</link>.\n\nIt can power buildings via <link=\"LARGEELECTROBANKDISCHARGER\">Socket Stations</link> or <link=\"SMALLELECTROBANKDISCHARGER\">Wall Sockets</link>.\n\nDuplicants can produce new <link=\"ELECTROBANK\">Sucrose Power Banks</link> at the <link=\"CRAFTINGTABLE\">Crafting Station</link>.\n\nMust be kept dry."
-msgstr ""
-
-#. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_SUCROSE.NAME
-msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_SUCROSE.NAME"
-msgid "<link=\"ELECTROBANK\">Sucrose Power Bank</link>"
+msgid "<link=\"ELECTROBANKSELFCHARGING\">Dura Power Bank</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_URANIUM_ORE.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_URANIUM_ORE.DESC"
-msgid "A disposable <link=\"ELECTROBANK\">Power Bank</link> made with <link=\"URANIUMORE\">Uranium Ore</link>.\n\nIt can power buildings via <link=\"LARGEELECTROBANKDISCHARGER\">Socket Stations</link> or <link=\"SMALLELECTROBANKDISCHARGER\">Wall Sockets</link>.\n\nDuplicants can produce new <link=\"ELECTROBANK\">Nuclear Power Banks</link> at the <link=\"CRAFTINGTABLE\">Crafting Station</link>.\n\nMust be kept dry."
+msgid "A disposable <link=\"ELECTROBANK\">Power Bank</link> made with <link=\"URANIUMORE\">Uranium Ore</link>.\n\nIt can power buildings via <link=\"LARGEELECTROBANKDISCHARGER\">Large Dischargers</link> or <link=\"SMALLELECTROBANKDISCHARGER\">Compact Dischargers</link>.\n\nDuplicants can produce new <link=\"ELECTROBANK\">Nuclear Power Banks</link> at the <link=\"CRAFTINGTABLE\">Crafting Station</link>.\n\nMust be kept dry."
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_URANIUM_ORE.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_URANIUM_ORE.NAME"
-msgid "<link=\"ELECTROBANK\">Nuclear Power Bank</link>"
+msgid "<link=\"ELECTROBANKURANIUMORE\">Nuclear Power Bank</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FARM_STATION_TOOLS.DESC
@@ -56270,12 +56445,17 @@ msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.BIONICRESEARCHUNLOCK.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.BIONICRESEARCHUNLOCK.MESSAGEBODY"
-msgid "My new Bionic Duplicant came programmed with {0} technology. How crafty!"
+msgid "My new Bionic Duplicant has built-in programming that they've shared with the colony.\n\nNew buildings have become available:\n  • {0}"
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.BIONICRESEARCHUNLOCK.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.BIONICRESEARCHUNLOCK.NAME"
 msgid "Research Discovered"
+msgstr ""
+
+#. STRINGS.MISC.NOTIFICATIONS.BIONICRESEARCHUNLOCK.TOOLTIP
+msgctxt "STRINGS.MISC.NOTIFICATIONS.BIONICRESEARCHUNLOCK.TOOLTIP"
+msgid "{0} research discovered!"
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.BROKENMACHINE.NAME
@@ -57623,6 +57803,26 @@ msgctxt "STRINGS.MISC.STATUSITEMS.EDIBLE.TOOLTIP"
 msgid "Can provide <link=\"KCAL\">{0}</link> of energy to Duplicants"
 msgstr ""
 
+#. STRINGS.MISC.STATUSITEMS.ELECTROBANKLIFETIMEREMAINING.NAME
+msgctxt "STRINGS.MISC.STATUSITEMS.ELECTROBANKLIFETIMEREMAINING.NAME"
+msgid "Lifetime Remaining {0}"
+msgstr ""
+
+#. STRINGS.MISC.STATUSITEMS.ELECTROBANKLIFETIMEREMAINING.TOOLTIP
+msgctxt "STRINGS.MISC.STATUSITEMS.ELECTROBANKLIFETIMEREMAINING.TOOLTIP"
+msgid "This Power Bank can charge itself until its lifetime reaches zero. After that it will explode!"
+msgstr ""
+
+#. STRINGS.MISC.STATUSITEMS.ELECTROBANKSELFCHARGING.NAME
+msgctxt "STRINGS.MISC.STATUSITEMS.ELECTROBANKSELFCHARGING.NAME"
+msgid "Self Charging {0}"
+msgstr ""
+
+#. STRINGS.MISC.STATUSITEMS.ELECTROBANKSELFCHARGING.TOOLTIP
+msgctxt "STRINGS.MISC.STATUSITEMS.ELECTROBANKSELFCHARGING.TOOLTIP"
+msgid "This Power Bank is always slowly charging itself"
+msgstr ""
+
 #. STRINGS.MISC.STATUSITEMS.ELEMENTALCATEGORY.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.ELEMENTALCATEGORY.NAME"
 msgid "{Category}"
@@ -58806,6 +59006,16 @@ msgstr ""
 #. STRINGS.MISC.TAGS.RELAXATION_POINT
 msgctxt "STRINGS.MISC.TAGS.RELAXATION_POINT"
 msgid "Leisure Area"
+msgstr ""
+
+#. STRINGS.MISC.TAGS.REMOTEOPERABLE
+msgctxt "STRINGS.MISC.TAGS.REMOTEOPERABLE"
+msgid "<link=\"LUBRICATINGOIL\">Remote Operable</link>"
+msgstr ""
+
+#. STRINGS.MISC.TAGS.REMOTEOPERABLE_DESC
+msgctxt "STRINGS.MISC.TAGS.REMOTEOPERABLE_DESC"
+msgid "These buildings can be operated from a distance by a <link=\"REMOTEWORKTERMINAL\">Remote Controller</link> so long as they are built within range of a <link=\"REMOTEWORKERDOCK\">Remote Worker Dock</link>."
 msgstr ""
 
 #. STRINGS.MISC.TAGS.RESEARCH
@@ -61876,6 +62086,16 @@ msgstr ""
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.SCIENCEBOOSTER.NAME
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.SCIENCEBOOSTER.NAME"
 msgid "<style=\"KKeyword\">Researching Booster</style> Pattern"
+msgstr ""
+
+#. STRINGS.RESEARCH.OTHER_TECH_ITEMS.SELFCHARGINGELECTROBANK.DESC
+msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.SELFCHARGINGELECTROBANK.DESC"
+msgid "Enables fabrication of <style=\"KKeyword\">Dura Power Bank</style> at the <link=\"SUPERMATERIALREFINERY\">Molecular Forge</link>"
+msgstr ""
+
+#. STRINGS.RESEARCH.OTHER_TECH_ITEMS.SELFCHARGINGELECTROBANK.NAME
+msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.SELFCHARGINGELECTROBANK.NAME"
+msgid "<style=\"KKeyword\">Dura Power Bank</style> Pattern"
 msgstr ""
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.STRENGTHBOOSTER.DESC
@@ -67763,34 +67983,29 @@ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BIONICBATTERYDIAGNOSTIC.CRITERIA.CHECKPOW
 msgid "Check critical power level"
 msgstr ""
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.BIONICBATTERYDIAGNOSTIC.CRITERIA_BATTERIES.FAIL
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BIONICBATTERYDIAGNOSTIC.CRITERIA_BATTERIES.FAIL"
-msgid "    • Bionics have no batteries"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BIONICBATTERYDIAGNOSTIC.CRITERIA_BATTERIES.LOW_POWERBANKS
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BIONICBATTERYDIAGNOSTIC.CRITERIA_BATTERIES.LOW_POWERBANKS"
+msgid "The colony's <link=\"ELECTROBANK\">Power Bank</link> reserves are low:\n\n    • {0} are currently available\n    • {1} is being consumed per cycle"
+msgstr ""
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BIONICBATTERYDIAGNOSTIC.CRITERIA_BATTERIES.NO_POWERBANKS
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BIONICBATTERYDIAGNOSTIC.CRITERIA_BATTERIES.NO_POWERBANKS"
+msgid "    • Duplicants have no Power Banks"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BIONICBATTERYDIAGNOSTIC.CRITERIA_BATTERIES.PASS
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BIONICBATTERYDIAGNOSTIC.CRITERIA_BATTERIES.PASS"
-msgid "    • Bionics have batteries"
-msgstr ""
-
-#. STRINGS.UI.COLONY_DIAGNOSTICS.BIONICBATTERYDIAGNOSTIC.HUNGRY
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BIONICBATTERYDIAGNOSTIC.HUNGRY"
-msgid "    • One or more Duplicants in desparate need of power banks"
-msgstr ""
-
-#. STRINGS.UI.COLONY_DIAGNOSTICS.BIONICBATTERYDIAGNOSTIC.LOW_CALORIES
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BIONICBATTERYDIAGNOSTIC.LOW_CALORIES"
-msgid "    • Power-to-Duplicant ratio is low"
-msgstr ""
-
-#. STRINGS.UI.COLONY_DIAGNOSTICS.BIONICBATTERYDIAGNOSTIC.NO_FOOD
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BIONICBATTERYDIAGNOSTIC.NO_FOOD"
-msgid "    • Duplicants have no Power Banks"
-msgstr ""
-
-#. STRINGS.UI.COLONY_DIAGNOSTICS.BIONICBATTERYDIAGNOSTIC.NORMAL
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BIONICBATTERYDIAGNOSTIC.NORMAL"
 msgid "    • Power Bank supply is currently adequate"
+msgstr ""
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BIONICBATTERYDIAGNOSTIC.CRITERIA_POWERLEVEL.CRITICAL_MODE
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BIONICBATTERYDIAGNOSTIC.CRITERIA_POWERLEVEL.CRITICAL_MODE"
+msgid "    • One or more Duplicants in desperate need of power banks"
+msgstr ""
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BIONICBATTERYDIAGNOSTIC.CRITERIA_POWERLEVEL.POWERLESS
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BIONICBATTERYDIAGNOSTIC.CRITERIA_POWERLEVEL.POWERLESS"
+msgid "    • One or more Duplicants are incapacitated and in desperate need of power banks"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BIONICBATTERYDIAGNOSTIC.TOOLTIP_NAME
@@ -67803,6 +68018,11 @@ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.ALL_NAME"
 msgid "Breathability"
 msgstr ""
 
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.CRITERIA.CHECKLOWBIONICOXYGEN
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.CRITERIA.CHECKLOWBIONICOXYGEN"
+msgid "Check low Bionic Duplicant oxygen tanks"
+msgstr ""
+
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.CRITERIA.CHECKLOWBREATHABILITY
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.CRITERIA.CHECKLOWBREATHABILITY"
 msgid "Check low breathability"
@@ -67813,6 +68033,11 @@ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.CRITERIA.CHECKSUF
 msgid "Check suffocation"
 msgstr ""
 
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.NEAR_OR_EMPTY_BIONIC_TANKS
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.NEAR_OR_EMPTY_BIONIC_TANKS"
+msgid "    • Bionic oxygen tanks are critically low"
+msgstr ""
+
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.NORMAL"
 msgid "    • Oxygen levels are satisfactory"
@@ -67821,6 +68046,11 @@ msgstr ""
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.POOR
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.POOR"
 msgid "    • Oxygen is becoming scarce or low pressure"
+msgstr ""
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.POOR_BIONIC_TANKS
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.POOR_BIONIC_TANKS"
+msgid "    • Bionic oxygen tanks are low"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.SUFFOCATING
@@ -71408,26 +71638,6 @@ msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LE
 msgid "Default wattage"
 msgstr ""
 
-#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.DISABLED.ATTRIBUTE_MODIFIER_NAME
-msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.DISABLED.ATTRIBUTE_MODIFIER_NAME"
-msgid "Unplugged (Zero Wattage)"
-msgstr ""
-
-#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.DISABLED.NAME
-msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.DISABLED.NAME"
-msgid "Unplugged"
-msgstr ""
-
-#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.DISABLED.TOOLTIP
-msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.DISABLED.TOOLTIP"
-msgid "These Bionic Duplicants run on pure enthusiasm, and don't need to consume power at all"
-msgstr ""
-
-#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.EASY.ATTRIBUTE_MODIFIER_NAME
-msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.EASY.ATTRIBUTE_MODIFIER_NAME"
-msgid "Energy Efficient (Difficulty Down)"
-msgstr ""
-
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.EASY.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.EASY.NAME"
 msgid "Energy Efficient"
@@ -71435,12 +71645,7 @@ msgstr ""
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.EASY.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.EASY.TOOLTIP"
-msgid "These Duplicants have a decreased chance of ending up powerless"
-msgstr ""
-
-#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.HARD.ATTRIBUTE_MODIFIER_NAME
-msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.HARD.ATTRIBUTE_MODIFIER_NAME"
-msgid "Power Hungry (Difficulty Up)"
+msgid "These Duplicants consume less power than usual"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.HARD.NAME
@@ -71453,9 +71658,14 @@ msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LE
 msgid "These Duplicants have an increased appetite for power"
 msgstr ""
 
-#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.VERYHARD.ATTRIBUTE_MODIFIER_NAME
-msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.VERYHARD.ATTRIBUTE_MODIFIER_NAME"
-msgid "Energy Vampire (Highest Difficulty)"
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.VERYEASY.NAME
+msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.VERYEASY.NAME"
+msgid "Analog"
+msgstr ""
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.VERYEASY.TOOLTIP
+msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.VERYEASY.TOOLTIP"
+msgid "These Bionic Duplicants run on old-school enthusiasm, and barely consume power at all"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.VERYHARD.NAME
@@ -71465,7 +71675,7 @@ msgstr ""
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.VERYHARD.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.LEVELS.VERYHARD.TOOLTIP"
-msgid "These Bionic Duplicants always feel drained. They run out of power almost immediately"
+msgid "These Bionic Duplicants drain batteries like it's their only job"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.NAME
@@ -71475,7 +71685,7 @@ msgstr ""
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.BIONICPOWERUSE.TOOLTIP"
-msgid "Affects Bionic Duplicants' baseline power consumption"
+msgid "Adjusts Bionic Duplicants' baseline power consumption"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS.DEFAULT.NAME
@@ -80940,12 +81150,12 @@ msgstr ""
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.EXOSUIT_DURABILITY.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.EXOSUIT_DURABILITY.DESCRIPTION"
-msgid "Slows <link=\"EXOSUIT\">Exosuit</link> Durability Damage"
+msgid "Slows <link=\"EQUIPMENT\">Exosuit</link> Durability Damage"
 msgstr ""
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.EXOSUIT_EXPERTISE.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.EXOSUIT_EXPERTISE.DESCRIPTION"
-msgid "<link=\"EXOSUIT\">Exosuit</link> Penalty Reduction"
+msgid "<link=\"EQUIPMENT\">Exosuit</link> Penalty Reduction"
 msgstr ""
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.EXTRA_BIONIC_BATTERIES.DESCRIPTION
