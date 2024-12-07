@@ -372,14 +372,14 @@ abstract class PoHelper {
     fun buildChangeList(): List<WordEntry> = wordList.filter { entry ->
         val dst = dst(entry.key)
         val chs = chs(entry.key)
-        (entry.newly || // new entry
+        entry.changed > 0 || // entry itself changed by editor
+                ((entry.newly || // new entry
                 dst?.id != entry.id || // english text changed
                 dst.str != entry.str || // translation changed
-                entry.changed > 0 || // entry itself changed by editor
                 revisedMap[entry.key]?.id != dst.id || // english template changed
                 chs?.id != dst.id) // source english text changed
-                && entry.str.length > 2 // no translation
-                && !entry.string().startsWith("only_used_by")
+                && (entry.string().isEmpty() && entry.origin().isNotEmpty()) // no translation
+                && !entry.string().startsWith("only_used_by"))
     }
 
     /**
@@ -391,8 +391,8 @@ abstract class PoHelper {
     fun update(key: String, value: String) {
         wordList.find { entry -> entry.key == key }?.apply {
             str = value
-            // println("set new $key to $str")
             changed = System.currentTimeMillis() // set new change time
+            println("set new $key to $str at $changed")
         }
     }
 }

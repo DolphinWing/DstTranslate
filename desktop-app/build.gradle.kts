@@ -1,7 +1,7 @@
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-val releaseAppVersion = "2.0.7"
+val releaseAppVersion = "2.0.8"
 val releaseAppRevision = 1
 
 plugins {
