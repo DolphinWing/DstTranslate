@@ -5028,6 +5028,16 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.PLAYERCONTROLLEDTOGGLESIDESCREEN.TOOLTIP"
 msgid "This will be toggled when time is unpaused"
 msgstr ""
 
+#. STRINGS.BUILDING.STATUSITEMS.POWERBANKCHARGERINPROGRESS.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.POWERBANKCHARGERINPROGRESS.NAME"
+msgid "Recharging Powerbank at {0}"
+msgstr ""
+
+#. STRINGS.BUILDING.STATUSITEMS.POWERBANKCHARGERINPROGRESS.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.POWERBANKCHARGERINPROGRESS.TOOLTIP"
+msgid "<link=\"ELECTROBANKCHARGER\">Power Bank Charger</link> will drop the electrobank being charged whenever it reaches full charge."
+msgstr ""
+
 #. STRINGS.BUILDING.STATUSITEMS.POWERBUTTONOFF.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.POWERBUTTONOFF.NAME"
 msgid "Function Suspended"
@@ -19010,7 +19020,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.SELF_CHARGING_POWERBANK_RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.SELF_CHARGING_POWERBANK_RECIPE_DESCRIPTION"
-msgid ""
+msgid "Atomic Power Banks are portable, self-charging units used for isolated <link=\"POWER\">Power</link> grids."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.SUPERCOOLANT_RECIPE_DESCRIPTION
@@ -23090,7 +23100,7 @@ msgstr ""
 
 #. STRINGS.CODEX.HEADERS.ROLE_PERKS_BIONIC_DESC
 msgctxt "STRINGS.CODEX.HEADERS.ROLE_PERKS_BIONIC_DESC"
-msgid "Installing boosters instantly grants bionic Duplicants stat and <link=\"SKILLS\">Skill</link> upgrades."
+msgid "Installing boosters instantly grants bionic Duplicants stat and skill upgrades."
 msgstr ""
 
 #. STRINGS.CODEX.HEADERS.ROLE_PERKS_DESC
@@ -55775,7 +55785,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_GARBAGE.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_GARBAGE.DESC"
-msgid "A <link=\"ELECTROBANK\">Power Bank</link> that has reached the end of its life cycle.\n\nIt can be salvaged for <link=\"KATAIRITE\">Abyssalite</link> at the <link=\"ROCKCRUSHER\">Rock Crusher</link>."
+msgid "A <link=\"ELECTROBANK\">Power Bank</link> that has reached the end of its lifetime.\n\nIt can be salvaged for <link=\"KATAIRITE\">Abyssalite</link> at the <link=\"ROCKCRUSHER\">Rock Crusher</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_GARBAGE.NAME
@@ -55795,12 +55805,12 @@ msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_SELFCHARGING.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_SELFCHARGING.DESC"
-msgid "A self-charging <link=\"ELECTROBANK\">Power Bank</link> made with <link=\"ENRICHEDURANIUM\">Enriched Uranium</link>.\n\nIt can power buildings via <link=\"LARGEELECTROBANKDISCHARGER\">Large Dischargers</link> or <link=\"SMALLELECTROBANKDISCHARGER\">Compact Dischargers</link>.\n\nDuplicants can produce new <link=\"ELECTROBANKSELFCHARGING\">Dura Power Banks</link> at the <link=\"SUPERMATERIALREFINERY\">Molecular Forge</link>."
+msgid "A self-charging <link=\"ELECTROBANK\">Power Bank</link> made with <link=\"ENRICHEDURANIUM\">Enriched Uranium</link>.\n\nIt can power buildings via <link=\"LARGEELECTROBANKDISCHARGER\">Large Dischargers</link> or <link=\"SMALLELECTROBANKDISCHARGER\">Compact Dischargers</link>.\n\nDuplicants can produce new <link=\"ELECTROBANKSELFCHARGING\">Atomic Power Banks</link> at the <link=\"SUPERMATERIALREFINERY\">Molecular Forge</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_SELFCHARGING.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_SELFCHARGING.NAME"
-msgid "<link=\"ELECTROBANKSELFCHARGING\">Dura Power Bank</link>"
+msgid "<link=\"ELECTROBANKSELFCHARGING\">Atomic Power Bank</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_URANIUM_ORE.DESC
@@ -57805,22 +57815,22 @@ msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.ELECTROBANKLIFETIMEREMAINING.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.ELECTROBANKLIFETIMEREMAINING.NAME"
-msgid "Lifetime Remaining {0}"
+msgid "Lifetime Remaining: {0}"
 msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.ELECTROBANKLIFETIMEREMAINING.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.ELECTROBANKLIFETIMEREMAINING.TOOLTIP"
-msgid "This Power Bank can charge itself until its lifetime reaches zero. After that it will explode!"
+msgid "Self-charging will continue for {0}\n\nWhen lifetime reaches zero, this  <link=\"ELECTROBANK\">Power Bank</link> will explode"
 msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.ELECTROBANKSELFCHARGING.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.ELECTROBANKSELFCHARGING.NAME"
-msgid "Self Charging {0}"
+msgid "Self-Charging: {0}"
 msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.ELECTROBANKSELFCHARGING.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.ELECTROBANKSELFCHARGING.TOOLTIP"
-msgid "This Power Bank is always slowly charging itself"
+msgid "This <link=\"ELECTROBANK\">Power Bank</link> is always slowly charging itself"
 msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.ELEMENTALCATEGORY.NAME
@@ -59010,7 +59020,7 @@ msgstr ""
 
 #. STRINGS.MISC.TAGS.REMOTEOPERABLE
 msgctxt "STRINGS.MISC.TAGS.REMOTEOPERABLE"
-msgid "<link=\"LUBRICATINGOIL\">Remote Operable</link>"
+msgid "<link=\"REMOTEOPERABLE\">Remote Workable</link>"
 msgstr ""
 
 #. STRINGS.MISC.TAGS.REMOTEOPERABLE_DESC
@@ -62090,12 +62100,12 @@ msgstr ""
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.SELFCHARGINGELECTROBANK.DESC
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.SELFCHARGINGELECTROBANK.DESC"
-msgid "Enables fabrication of <style=\"KKeyword\">Dura Power Bank</style> at the <link=\"SUPERMATERIALREFINERY\">Molecular Forge</link>"
+msgid "Enables fabrication of <style=\"KKeyword\">Atomic Power Bank</style> at the <link=\"SUPERMATERIALREFINERY\">Molecular Forge</link>"
 msgstr ""
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.SELFCHARGINGELECTROBANK.NAME
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.SELFCHARGINGELECTROBANK.NAME"
-msgid "<style=\"KKeyword\">Dura Power Bank</style> Pattern"
+msgid "<style=\"KKeyword\">Atomic Power Bank</style> Pattern"
 msgstr ""
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.STRENGTHBOOSTER.DESC
@@ -76085,7 +76095,7 @@ msgstr ""
 
 #. STRINGS.UI.KLEI_INVENTORY_SCREEN.MONUMENT_PART_FACADE_FOR
 msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.MONUMENT_PART_FACADE_FOR"
-msgid "Monument part"
+msgid "This blueprint can be used in any Great Monument."
 msgstr ""
 
 #. STRINGS.UI.KLEI_INVENTORY_SCREEN.OPEN_INVENTORY_BUTTON
@@ -81160,7 +81170,7 @@ msgstr ""
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.EXTRA_BIONIC_BATTERIES.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.EXTRA_BIONIC_BATTERIES.DESCRIPTION"
-msgid "Extra Power Banks"
+msgid "Extra <link=\"ELECTROBANK\">Power Banks</link>"
 msgstr ""
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.GEYSER_TUNING.DESCRIPTION
@@ -81190,7 +81200,7 @@ msgstr ""
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.REDUCED_GUNK_PRODUCTION.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.REDUCED_GUNK_PRODUCTION.DESCRIPTION"
-msgid "10% Slower Gunk Buildup"
+msgid "10% Slower <link=\"LIQUIDGUNK\">Gunk</link> Buildup"
 msgstr ""
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.TITLE_BASICTRAINING
