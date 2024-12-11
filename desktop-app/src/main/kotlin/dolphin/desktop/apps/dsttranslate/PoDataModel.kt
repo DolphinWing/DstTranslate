@@ -71,7 +71,7 @@ class PoDataModel(val helper: DesktopPoHelper) {
 
     private suspend fun refreshDataSource() {
         val list = ArrayList<Long>()
-        val filtered = helper.buildChangeList()
+        val filtered = helper.buildChangeList(appMode.value)
         filtered.forEach { item -> list.add(item.changed) }
         println("refreshDataSource: ${filtered.size}")
         filteredList.emit(filtered)

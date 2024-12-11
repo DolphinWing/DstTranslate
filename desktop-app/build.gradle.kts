@@ -1,7 +1,7 @@
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-val releaseAppVersion = "2.0.8"
+val releaseAppVersion = "2.0.9"
 val releaseAppRevision = 1
 
 plugins {
@@ -25,7 +25,7 @@ dependencies {
     implementation(compose.uiTooling)
 
     // https://github.com/houbb/opencc4j
-    implementation("com.github.houbb:opencc4j:1.7.2")
+    implementation("com.github.houbb:opencc4j:1.8.1")
 }
 
 tasks.withType<KotlinCompile> {

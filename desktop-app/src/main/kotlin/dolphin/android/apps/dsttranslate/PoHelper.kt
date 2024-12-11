@@ -146,7 +146,10 @@ abstract class PoHelper {
                 content = "\n"
                 content += "#. ${entry.key}\n"
                 content += "msgctxt ${entry.text}\n"
-                content += "msgid ${entry.id}\n"
+                content += if (mode == Mode.ONI)
+                    "msgid ${revisedMap[entry.key]?.id ?: entry.id}\n"
+                else
+                    "msgid ${entry.id}\n"
                 content += "msgstr ${str}\n"
                 writer.write(content, 0, content.length)
             }
@@ -258,7 +261,10 @@ abstract class PoHelper {
                 addToTodoList(WordEntry(entry.key, entry.text, entry.id, str, newly))
             }
         } else {
-            t.forEachIndexed { index, entry ->
+            t.filter { entry ->
+                (entry.string().isEmpty() && entry.origin().isNotEmpty()) // no translation
+                        && !entry.string().startsWith("only_used_by") // from dst
+            }.forEachIndexed { index, entry ->
                 var newly = false
                 var str = ""
                 if (originMap.containsKey(entry.key)) {
@@ -277,7 +283,12 @@ abstract class PoHelper {
                     str = sc2tc(str)
                 }
                 str = refactor(str, mode)
-                val id = revisedMap[entry.key]?.id ?: entry.id
+                // make sure id changed will be shown
+                val id = originMap[entry.key]?.id ?: entry.id
+                if (id != entry.id) {
+                    log("update $id to ${entry.id}")
+                    newly = true
+                }
                 addToTodoList(WordEntry(entry.key, entry.text, id, str, newly))
             }
         }
@@ -369,17 +380,19 @@ abstract class PoHelper {
      *
      * @return word list with change items
      */
-    fun buildChangeList(): List<WordEntry> = wordList.filter { entry ->
+    fun buildChangeList(mode: Mode = Mode.ONI): List<WordEntry> = if (mode == Mode.DST) wordList.filter { entry ->
         val dst = dst(entry.key)
         val chs = chs(entry.key)
         entry.changed > 0 || // entry itself changed by editor
                 ((entry.newly || // new entry
-                dst?.id != entry.id || // english text changed
-                dst.str != entry.str || // translation changed
-                revisedMap[entry.key]?.id != dst.id || // english template changed
-                chs?.id != dst.id) // source english text changed
-                && (entry.string().isEmpty() && entry.origin().isNotEmpty()) // no translation
-                && !entry.string().startsWith("only_used_by"))
+                        dst?.id != entry.id || // english text changed
+                        dst.str != entry.str || // translation changed
+                        revisedMap[entry.key]?.id != dst.id || // english template changed
+                        chs?.id != dst.id) // source english text changed
+                        && (entry.string().isEmpty() && entry.origin().isNotEmpty()) // no translation
+                        && !entry.string().startsWith("only_used_by"))
+    } else wordList.filter { entry ->
+        entry.changed > 0 || entry.newly
     }
 
     /**
