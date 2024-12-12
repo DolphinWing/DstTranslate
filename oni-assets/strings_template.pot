@@ -54620,7 +54620,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.BIONIC_BOOSTERS.BOOSTER_RESEARCH1.NAME
 msgctxt "STRINGS.ITEMS.BIONIC_BOOSTERS.BOOSTER_RESEARCH1.NAME"
-msgid "<link=\"BOOSTERRESEARCH1\">Research Booster</link>"
+msgid "<link=\"BOOSTERRESEARCH1\">Researching Booster</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.BIONIC_BOOSTERS.BOOSTER_RESEARCH2.DESC
@@ -55805,7 +55805,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_SELFCHARGING.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_SELFCHARGING.DESC"
-msgid "A self-charging <link=\"ELECTROBANK\">Power Bank</link> made with <link=\"ENRICHEDURANIUM\">Enriched Uranium</link>.\n\nIt can power buildings via <link=\"LARGEELECTROBANKDISCHARGER\">Large Dischargers</link> or <link=\"SMALLELECTROBANKDISCHARGER\">Compact Dischargers</link>.\n\nDuplicants can produce new <link=\"ELECTROBANKSELFCHARGING\">Atomic Power Banks</link> at the <link=\"SUPERMATERIALREFINERY\">Molecular Forge</link>."
+msgid "A self-charging <link=\"ELECTROBANK\">Power Bank</link> made with <link=\"ENRICHEDURANIUM\">Enriched Uranium</link>.\n\nIt can power buildings via <link=\"LARGEELECTROBANKDISCHARGER\">Large Dischargers</link> or <link=\"SMALLELECTROBANKDISCHARGER\">Compact Dischargers</link>.\n\nIts low <link=\"POWER\">wattage</link> and high <link=\"RADIATION\">Radioactivity</link> make it unsuitable for Bionic Duplicant use."
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_SELFCHARGING.NAME
@@ -55815,12 +55815,12 @@ msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_URANIUM_ORE.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_URANIUM_ORE.DESC"
-msgid "A disposable <link=\"ELECTROBANK\">Power Bank</link> made with <link=\"URANIUMORE\">Uranium Ore</link>.\n\nIt can power buildings via <link=\"LARGEELECTROBANKDISCHARGER\">Large Dischargers</link> or <link=\"SMALLELECTROBANKDISCHARGER\">Compact Dischargers</link>.\n\nDuplicants can produce new <link=\"ELECTROBANK\">Nuclear Power Banks</link> at the <link=\"CRAFTINGTABLE\">Crafting Station</link>.\n\nMust be kept dry."
+msgid "A disposable <link=\"ELECTROBANK\">Power Bank</link> made with <link=\"URANIUMORE\">Uranium Ore</link>.\n\nIt can power buildings via <link=\"LARGEELECTROBANKDISCHARGER\">Large Dischargers</link> or <link=\"SMALLELECTROBANKDISCHARGER\">Compact Dischargers</link>.\n\nDuplicants can produce new <link=\"ELECTROBANK\">Uranium Ore Power Banks</link> at the <link=\"CRAFTINGTABLE\">Crafting Station</link>.\n\nMust be kept dry."
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_URANIUM_ORE.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ELECTROBANK_URANIUM_ORE.NAME"
-msgid "<link=\"ELECTROBANKURANIUMORE\">Nuclear Power Bank</link>"
+msgid "<link=\"ELECTROBANKURANIUMORE\">Uranium Ore Power Bank</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FARM_STATION_TOOLS.DESC
@@ -61940,12 +61940,12 @@ msgstr ""
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.DISPOSABLE_ELECTROBANK_URANIUM_ORE.DESC
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.DISPOSABLE_ELECTROBANK_URANIUM_ORE.DESC"
-msgid "Enables fabrication of <style=\"KKeyword\">Nuclear Power Banks</style> at the <link=\"CRAFTINGTABLE\">Crafting Station</link>"
+msgid "Enables fabrication of <style=\"KKeyword\">Uranium Ore Power Banks</style> at the <link=\"CRAFTINGTABLE\">Crafting Station</link>"
 msgstr ""
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.DISPOSABLE_ELECTROBANK_URANIUM_ORE.NAME
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.DISPOSABLE_ELECTROBANK_URANIUM_ORE.NAME"
-msgid "<style=\"KKeyword\">Nuclear Power Bank</style> Pattern"
+msgid "<style=\"KKeyword\">Uranium Ore Power Bank</style> Pattern"
 msgstr ""
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.ELECTROBANK.DESC
@@ -65000,7 +65000,7 @@ msgstr ""
 
 #. STRINGS.ROOMS.TYPES.POWER_PLANT.DESCRIPTION
 msgctxt "STRINGS.ROOMS.TYPES.POWER_PLANT.DESCRIPTION"
-msgid "The perfect place for Duplicants to flex their Electrical Engineering skills.\n\nHeavy-duty generators built within a Power Plant can be tuned up using microchips from power control stations to improve their <link=\"POWER\">Power</link> power production."
+msgid "The perfect place for Duplicants to flex their Electrical Engineering skills.\n\nHeavy-duty generators built within a Power Plant can be tuned up using microchips from power control stations to improve their <link=\"POWER\">Power</link> production."
 msgstr ""
 
 #. STRINGS.ROOMS.TYPES.POWER_PLANT.EFFECT
