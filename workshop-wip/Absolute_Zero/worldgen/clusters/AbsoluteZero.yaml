@@ -1,0 +1,14 @@
+name: RimeExtreme.WorldAdds.R_NAME
+description: RimeExtreme.WorldAdds.R_DESC
+coordinatePrefix: ABZ-TG
+
+clusterCategory: Vanilla
+difficulty: 6
+menuOrder: -1
+
+startWorldIndex: 0
+worldPlacements:
+- world: worlds/AbsoluteZero
+  allowedRings:
+    min: 0
+    max: 0
