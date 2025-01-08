@@ -1,0 +1,24 @@
+biomeNoise: expansion1::noise/Radioactive
+temperatureRange: Cool
+density:
+  min: 12
+  max: 17
+avoidRadius: 12
+doAvoidPoints: false
+dontRelaxChildren: true
+sampleBehaviour: PoissonDisk
+biomes:
+  - name: biomes/Radioil/Basic
+    weight: 1
+    tags:
+      - ColdWheat
+      - ToePlantSeed
+      - LightBug
+      - ColdBreather
+      - ColdBreatherSeed
+      - CritterTrapPlant
+features:
+  - type: expansion1::features/radioactive/BeeBubble
+tags:
+  - IgnoreCaveOverride
+zoneType: Radioactive
