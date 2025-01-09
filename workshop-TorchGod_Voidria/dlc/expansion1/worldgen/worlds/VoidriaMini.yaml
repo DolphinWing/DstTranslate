@@ -5,8 +5,8 @@ disableWorldTraits: true
 
 worldTraitScale: 1.00
 worldsize:
-  X: 240
-  Y: 380
+  X: 160
+  Y: 274
 layoutMethod: PowerTree # Note: We need to add weights to the items in the layer in order to use this.
 
 defaultsOverrides:
@@ -14,17 +14,8 @@ defaultsOverrides:
 
 # List all the subworld files to load
 subworldFiles:
-  - name: subworlds/forest/ForestStart
   - name: subworlds/forest/Forest
-#  - name: expansion1::subworlds/Voidria/Radioil
-#  - name: expansion1::subworlds/jungle/JungleGassy
-#  - name: expansion1::subworlds/wasteland/WastelandBeetleCool
-#  - name: expansion1::subworlds/swamp/SwampMini
-#  - name: expansion1::subworlds/barren/CoalyGraniteFrozen
-#  - name: expansion1::subworlds/marsh/med_HotMarshLandingSite
-#  - name: expansion1::subworlds/moon_barren/BarrenGranite
-#  - name: expansion1::subworlds/rust/med_RustFrozen
-#  - name: expansion1::subworlds/sandstone/SandstoneMini
+  - name: subworlds/forest/ForestStart
   - name: subworlds/space/Space
   - name: subworlds/space/Surface
     weight: 0.25
@@ -47,22 +38,6 @@ unknownCellsAllowedSubworlds:
     command: Replace
     subworldNames:
       - subworlds/forest/Forest
-#  - tagcommand: DistanceFromTag
-#    tag: AtStart
-#    minDistance: 1
-#    maxDistance: 1
-#    command: Replace
-#    subworldNames:
-#      - expansion1::subworlds/Voidria/Radioil
-#      - expansion1::subworlds/jungle/JungleGassy
-#      - expansion1::subworlds/swamp/SwampMini
-#      - expansion1::subworlds/wasteland/WastelandBeetleCool
-#      - expansion1::subworlds/barren/CoalyGraniteFrozen
-#      - expansion1::subworlds/marsh/med_HotMarshLandingSite
-#      - expansion1::subworlds/moon_barren/BarrenGranite
-#      - expansion1::subworlds/rust/med_RustFrozen
-#      - expansion1::subworlds/sandstone/SandstoneMini
-#      - subworlds/space/Space
   - tagcommand: DistanceFromTag
     tag: AtStart
     minDistance: 1
