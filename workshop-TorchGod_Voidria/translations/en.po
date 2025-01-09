@@ -1,0 +1,9 @@
+#. STRINGS.Voidria.Voidria.NAME
+msgctxt "STRINGS.Voidria.Voidria.NAME"
+msgid "Voidria"
+msgstr "Voidria"
+
+#. STRINGS.Voidria.Voidria.DESCRIPTION
+msgctxt "STRINGS.Voidria.Voidria.DESCRIPTION"
+msgid "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\nDuplicants MUST work to DEATH to make the colony thrive again."
+msgstr "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\nDuplicants MUST work to DEATH to make the colony thrive again."

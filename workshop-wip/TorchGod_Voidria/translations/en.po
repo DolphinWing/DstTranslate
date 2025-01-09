@@ -1,9 +1,0 @@
-#. STRINGS.WORLDS.VOIDRIA.NAME
-msgctxt "STRINGS.WORLDS.VOIDRIA.NAME"
-msgid "Voidria"
-msgstr "Voidria"
-
-#. STRINGS.WORLDS.VOIDRIA.DESCRIPTION
-msgctxt "STRINGS.WORLDS.VOIDRIA.DESCRIPTION"
-msgid "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\nDuplicants MUST work to DEATH to make the colony thrive again."
-msgstr "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\nDuplicants MUST work to DEATH to make the colony thrive again."

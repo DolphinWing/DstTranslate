@@ -1,0 +1,39 @@
+#. RimeExtreme.WorldConstants.CLUSTER_NAME
+msgctxt "RimeExtreme.WorldConstants.CLUSTER_NAME"
+msgid "Classic Extreme Rime"
+msgstr "Classic Extreme Rime"
+
+#. RimeExtreme.WorldConstants.CLUSTER_DESCRIPTION
+msgctxt "RimeExtreme.WorldConstants.CLUSTER_DESCRIPTION"
+msgid "0K challenge"
+msgstr "0K challenge"
+
+#. RimeExtreme.WorldConstants.WORLD_NAME
+msgctxt "RimeExtreme.WorldConstants.WORLD_NAME"
+msgid "Extreme Rime planet"
+msgstr "Extreme Rime planet"
+
+#. RimeExtreme.WorldConstants.WORLD_DESCRIPTION
+msgctxt "RimeExtreme.WorldConstants.WORLD_DESCRIPTION"
+msgid "0K challenge planet"
+msgstr "0K challenge planet"
+
+#. RimeExtreme.WorldConstants.CLUSTER_SO_NAME
+msgctxt "RimeExtreme.WorldConstants.CLUSTER_SO_NAME"
+msgid "Extreme Rime Cluster"
+msgstr "Extreme Rime Cluster"
+
+#. RimeExtreme.WorldConstants.CLUSTER_SO_DESCRIPTION
+msgctxt "RimeExtreme.WorldConstants.CLUSTER_SO_DESCRIPTION"
+msgid "0K challenge in Spaced Out!"
+msgstr "0K challenge in Spaced Out!"
+
+#. RimeExtreme.WorldConstants.WORLD_SO_NAME
+msgctxt "RimeExtreme.WorldConstants.WORLD_SO_NAME"
+msgid "Extreme Rime asteroid"
+msgstr "Extreme Rime asteroid"
+
+#. RimeExtreme.WorldConstants.WORLD_SO_DESCRIPTION
+msgctxt "RimeExtreme.WorldConstants.WORLD_SO_DESCRIPTION"
+msgid "0K challenge asteroid"
+msgstr "0K challenge asteroid"

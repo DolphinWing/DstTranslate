@@ -1,0 +1,39 @@
+#. RimeExtreme.WorldConstants.CLUSTER_NAME
+msgctxt "RimeExtreme.WorldConstants.CLUSTER_NAME"
+msgid "Classic Extreme Rime"
+msgstr "經典極限冰星"
+
+#. RimeExtreme.WorldConstants.CLUSTER_DESCRIPTION
+msgctxt "RimeExtreme.WorldConstants.CLUSTER_DESCRIPTION"
+msgid "0K challenge"
+msgstr "0K 大挑戰"
+
+#. RimeExtreme.WorldConstants.WORLD_NAME
+msgctxt "RimeExtreme.WorldConstants.WORLD_NAME"
+msgid "Extreme Rime planet"
+msgstr "經典極限冰星"
+
+#. RimeExtreme.WorldConstants.WORLD_DESCRIPTION
+msgctxt "RimeExtreme.WorldConstants.WORLD_DESCRIPTION"
+msgid "0K challenge planet"
+msgstr "0K 大挑戰行星"
+
+#. RimeExtreme.WorldConstants.CLUSTER_SO_NAME
+msgctxt "RimeExtreme.WorldConstants.CLUSTER_SO_NAME"
+msgid "Extreme Rime Cluster"
+msgstr "極限冰星星團"
+
+#. RimeExtreme.WorldConstants.CLUSTER_SO_DESCRIPTION
+msgctxt "RimeExtreme.WorldConstants.CLUSTER_SO_DESCRIPTION"
+msgid "0K challenge in Spaced Out!"
+msgstr "眼冒金星 0K 大挑戰"
+
+#. RimeExtreme.WorldConstants.WORLD_SO_NAME
+msgctxt "RimeExtreme.WorldConstants.WORLD_SO_NAME"
+msgid "Extreme Rime asteroid"
+msgstr "極限冰星小行星"
+
+#. RimeExtreme.WorldConstants.WORLD_SO_DESCRIPTION
+msgctxt "RimeExtreme.WorldConstants.WORLD_SO_DESCRIPTION"
+msgid "0K challenge asteroid"
+msgstr "0K 大挑戰小行星"

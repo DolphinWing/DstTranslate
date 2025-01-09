@@ -1,0 +1,9 @@
+#. Voidria.Voidria.NAME
+msgctxt "Voidria.Voidria.NAME"
+msgid "Voidria"
+msgstr "無多利亞"
+
+#. Voidria.Voidria.DESCRIPTION
+msgctxt "Voidria.Voidria.DESCRIPTION"
+msgid "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\nDuplicants MUST work to DEATH to make the colony thrive again."
+msgstr "無望的虛空。資源極度匱乏且有限。沒有間歇泉。\n\n複製人唯有至死方休才能讓殖民地重現生機。"

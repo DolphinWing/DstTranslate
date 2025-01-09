@@ -1,6 +1,6 @@
 using HarmonyLib;
 
-namespace Voidria
+namespace RimeExtreme
 {
     public class Patches
     {

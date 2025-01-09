@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Voidria by TorchGod531")]
+[assembly: AssemblyTitle("Oxygen Not Included 0K challenge by TorchGod531")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("DolphinWing")]
-[assembly: AssemblyProduct("Voidria")]
+[assembly: AssemblyProduct("Rime_Extreme_2")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -18,7 +18,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("2c44d9d1-9bb5-4e42-b129-8b0065c6ac13")]
+[assembly: Guid("22227cd2-1c6e-4faa-adf6-b3ac912728de")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34114.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rime_Extreme_2", "Rime_Extreme_2.csproj", "{22227CD2-1C6E-4FAA-ADF6-B3AC912728DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22227CD2-1C6E-4FAA-ADF6-B3AC912728DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22227CD2-1C6E-4FAA-ADF6-B3AC912728DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22227CD2-1C6E-4FAA-ADF6-B3AC912728DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22227CD2-1C6E-4FAA-ADF6-B3AC912728DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EE9959C-534F-44EF-B799-AB5749942500}
+	EndGlobalSection
+EndGlobal

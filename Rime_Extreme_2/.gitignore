@@ -1,0 +1,10 @@
+.vs
+obj
+bin
+
+# OxygenNotIncluded\OxygenNotIncluded_Data\Managed
+lib
+!lib/README.txt
+
+# NuGet
+packages
