@@ -115,7 +115,7 @@ worldTemplateRules:
   - names:
       - expansion1::poi/poi_temporal_tear_opener_lab
     listRule: GuaranteeAll
-    priority: 201
+    priority: 400
     allowExtremeTemperatureOverlap: true # This is acceptable
     allowedCellsFilter:
       - command: Replace
@@ -129,7 +129,7 @@ worldTemplateRules:
     listRule: GuaranteeOne
     times: 1
     allowDuplicates: false
-    priority: 200
+    priority: 300
     allowedCellsFilter:
     - command: Replace
       tagcommand: DistanceFromTag
