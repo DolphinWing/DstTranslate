@@ -1,7 +1,7 @@
-name: RimeExtreme.WorldConstants.WORLD_SO_NAME
-description: RimeExtreme.WorldConstants.WORLD_SO_DESCRIPTION
+name: NotZeroK.WorldConstants.WORLD_SO_NAME
+description: NotZeroK.WorldConstants.WORLD_SO_DESCRIPTION
 nameTables: [ TUNDRA ]
-asteroidIcon: asteroid_vanilla_sandstonefrozen_kanim
+asteroidIcon: Asteroid_icysandstone
 
 worldTraitScale: 0.9 # Adjust with worldSize. Traits are tuned to base game world sizes.
 worldsize:

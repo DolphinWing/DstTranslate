@@ -1,5 +1,5 @@
-name: RimeExtreme.WorldConstants.WORLD_NAME
-description: RimeExtreme.WorldConstants.WORLD_DESCRIPTION
+name: NotZeroK.WorldConstants.WORLD_NAME
+description: NotZeroK.WorldConstants.WORLD_DESCRIPTION
 nameTables: [ TUNDRA ]
 asteroidIcon: asteroid_vanilla_sandstonefrozen_kanim
 

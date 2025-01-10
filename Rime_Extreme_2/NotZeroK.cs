@@ -2,9 +2,9 @@
 using PeterHan.PLib.Core;
 using PeterHan.PLib.Database;
 
-namespace RimeExtreme
+namespace NotZeroK
 {
-    class RimeExtreme : KMod.UserMod2
+    class NotZeroK : KMod.UserMod2
     {
         public override void OnLoad(Harmony harmony)
         {

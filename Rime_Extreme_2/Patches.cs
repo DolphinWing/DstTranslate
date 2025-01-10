@@ -1,6 +1,6 @@
 using HarmonyLib;
 
-namespace RimeExtreme
+namespace NotZeroK
 {
     public class Patches
     {

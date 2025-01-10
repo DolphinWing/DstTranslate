@@ -58,7 +58,7 @@ poiPlacements:
     avoidClumping: true
     allowedRings:
       min: 2
-      max: 4
+      max: 6
   
   - pois:
       - HarvestableSpacePOI_RockyAsteroidField
@@ -71,7 +71,7 @@ poiPlacements:
     canSpawnDuplicates: true
     allowedRings:
       min: 4
-      max: 6
+      max: 8
       
   - pois:
       - HarvestableSpacePOI_CarbonAsteroidField
@@ -94,7 +94,7 @@ poiPlacements:
     canSpawnDuplicates: true
     allowedRings:
       min: 5
-      max: 8
+      max: 9
       
   # artifact POIs
   - pois:
@@ -105,7 +105,7 @@ poiPlacements:
     avoidClumping: true
     allowedRings:
       min: 2
-      max: 6
+      max: 8
       
   - pois:
       - ArtifactSpacePOI_RussellsTeapot

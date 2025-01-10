@@ -8,7 +8,7 @@
     <ProjectGuid>{22227CD2-1C6E-4FAA-ADF6-B3AC912728DE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RimeExtreme</RootNamespace>
+    <RootNamespace>NotZeroK</RootNamespace>
     <AssemblyName>Rime_Extreme_2</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -68,7 +68,7 @@
   <ItemGroup>
     <Compile Include="Patches.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RimeExtreme.cs" />
+    <Compile Include="NotZeroK.cs" />
     <Compile Include="WorldConstants.cs" />
   </ItemGroup>
   <ItemGroup>

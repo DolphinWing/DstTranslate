@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Oxygen Not Included 0K challenge by TorchGod531")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Not 0K, But Pretty Cool")]
+[assembly: AssemblyDescription("0K challenge by TorchGod531 and DolphinWing")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("DolphinWing")]
-[assembly: AssemblyProduct("Rime_Extreme_2")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("0K challenge by TorchGod531 and DolphinWing")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -30,5 +30,6 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("2025.1.9.0")]
-[assembly: AssemblyFileVersion("2025.1.9.0")]
+[assembly: AssemblyVersion("2025.1.10.0")]
+[assembly: AssemblyFileVersion("2025.1.10.0")]
+[assembly: AssemblyCopyright("")]

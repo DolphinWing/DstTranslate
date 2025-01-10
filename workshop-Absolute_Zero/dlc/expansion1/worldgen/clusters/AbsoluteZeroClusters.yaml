@@ -1,5 +1,5 @@
-name: RimeExtreme.WorldConstants.CLUSTER_SO_NAME
-description: RimeExtreme.WorldConstants.CLUSTER_SO_DESCRIPTION
+name: NotZeroK.WorldConstants.CLUSTER_SO_NAME
+description: NotZeroK.WorldConstants.CLUSTER_SO_DESCRIPTION
 requiredDlcIds: [EXPANSION1_ID]
 coordinatePrefix: ABZ-SO-TG
 clusterCategory: SpacedOutVanillaStyle

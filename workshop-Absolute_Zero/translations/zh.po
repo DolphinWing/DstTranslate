@@ -1,39 +1,79 @@
-#. RimeExtreme.WorldConstants.CLUSTER_NAME
-msgctxt "RimeExtreme.WorldConstants.CLUSTER_NAME"
+#. NotZeroK.WorldConstants.CLUSTER_NAME
+msgctxt "NotZeroK.WorldConstants.CLUSTER_NAME"
 msgid "Classic Extreme Rime"
 msgstr "經典極限冰星"
 
-#. RimeExtreme.WorldConstants.CLUSTER_DESCRIPTION
-msgctxt "RimeExtreme.WorldConstants.CLUSTER_DESCRIPTION"
+#. NotZeroK.WorldConstants.CLUSTER_DESCRIPTION
+msgctxt "NotZeroK.WorldConstants.CLUSTER_DESCRIPTION"
 msgid "0K challenge"
 msgstr "0K 大挑戰"
 
-#. RimeExtreme.WorldConstants.WORLD_NAME
-msgctxt "RimeExtreme.WorldConstants.WORLD_NAME"
+#. NotZeroK.WorldConstants.WORLD_NAME
+msgctxt "NotZeroK.WorldConstants.WORLD_NAME"
 msgid "Extreme Rime planet"
-msgstr "經典極限冰星"
+msgstr "極限冰星"
 
-#. RimeExtreme.WorldConstants.WORLD_DESCRIPTION
-msgctxt "RimeExtreme.WorldConstants.WORLD_DESCRIPTION"
-msgid "0K challenge planet"
-msgstr "0K 大挑戰行星"
+#. NotZeroK.WorldConstants.WORLD_DESCRIPTION
+msgctxt "NotZeroK.WorldConstants.WORLD_DESCRIPTION"
+msgid "Not 0K, But Pretty Cool"
+msgstr "不 0K，但冷酷"
 
-#. RimeExtreme.WorldConstants.CLUSTER_SO_NAME
-msgctxt "RimeExtreme.WorldConstants.CLUSTER_SO_NAME"
+#. NotZeroK.WorldConstants.CLUSTER_SO_NAME
+msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_NAME"
 msgid "Extreme Rime Cluster"
 msgstr "極限冰星星團"
 
-#. RimeExtreme.WorldConstants.CLUSTER_SO_DESCRIPTION
-msgctxt "RimeExtreme.WorldConstants.CLUSTER_SO_DESCRIPTION"
+#. NotZeroK.WorldConstants.CLUSTER_SO_DESCRIPTION
+msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_DESCRIPTION"
 msgid "0K challenge in Spaced Out!"
-msgstr "眼冒金星 0K 大挑戰"
+msgstr "眼冒金星 0K 大挑戰!"
 
-#. RimeExtreme.WorldConstants.WORLD_SO_NAME
-msgctxt "RimeExtreme.WorldConstants.WORLD_SO_NAME"
+#. NotZeroK.WorldConstants.WORLD_SO_NAME
+msgctxt "NotZeroK.WorldConstants.WORLD_SO_NAME"
 msgid "Extreme Rime asteroid"
-msgstr "極限冰星小行星"
+msgstr "極限冰小行星"
 
-#. RimeExtreme.WorldConstants.WORLD_SO_DESCRIPTION
-msgctxt "RimeExtreme.WorldConstants.WORLD_SO_DESCRIPTION"
-msgid "0K challenge asteroid"
-msgstr "0K 大挑戰小行星"
+#. NotZeroK.WorldConstants.WORLD_SO_DESCRIPTION
+msgctxt "NotZeroK.WorldConstants.WORLD_SO_DESCRIPTION"
+msgid "Not 0K, But Pretty Cool"
+msgstr "不 0K，但冷酷"
+
+#. NotZeroK.WorldConstants.CLUSTER_SO_MINI_NAME
+msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_MINI_NAME"
+msgid "Extreme Rime Mini Cluster"
+msgstr "極限冰星迷你星團"
+
+#. NotZeroK.WorldConstants.CLUSTER_SO_MINI_DESCRIPTION
+msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_MINI_DESCRIPTION"
+msgid "0K challenge in Spaced Out!"
+msgstr "眼冒金星 0K 大挑戰!"
+
+#. NotZeroK.WorldConstants.WORLD_SO_MINI_NAME
+msgctxt "NotZeroK.WorldConstants.WORLD_SO_MINI_NAME"
+msgid "Extreme Rime Mini planet"
+msgstr "迷你極限冰星"
+
+#. NotZeroK.WorldConstants.WORLD_SO_MINI_DESCRIPTION
+msgctxt "NotZeroK.WorldConstants.WORLD_SO_MINI_DESCRIPTION"
+msgid "Not 0K, But Pretty Cool"
+msgstr "不 0K，但冷酷"
+
+#. NotZeroK.WorldConstants.CLUSTER_SO_MOONLET_NAME
+msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_MOONLET_NAME"
+msgid "Extreme Rime Moonlet Cluster"
+msgstr "極限冰星衛星星團"
+
+#. NotZeroK.WorldConstants.CLUSTER_SO_MOONLET_DESCRIPTION
+msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_MOONLET_DESCRIPTION"
+msgid "0K challenge in Spaced Out!"
+msgstr "眼冒金星 0K 大挑戰!"
+
+#. NotZeroK.WorldConstants.WORLD_SO_MOONLET_NAME
+msgctxt "NotZeroK.WorldConstants.WORLD_SO_MOONLET_NAME"
+msgid "Extreme Rime Moonlet"
+msgstr "極限冰衛星"
+
+#. NotZeroK.WorldConstants.WORLD_SO_MOONLET_DESCRIPTION
+msgctxt "NotZeroK.WorldConstants.WORLD_SO_MOONLET_DESCRIPTION"
+msgid "Not 0K, But Pretty Cool"
+msgstr "不 0K，但冷酷"

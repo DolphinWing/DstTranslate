@@ -17,7 +17,7 @@
             InputAssemblies="@(InputAssemblies)"
             TargetKind="Dll"
 			TargetPlatformVersion="v4"
-            OutputFile="$(OutputPath)\Rime_Extreme.dll"
+            OutputFile="$(OutputPath)\Not0K.dll"
         />
     </Target>
     <!-- /ILRepack -->
