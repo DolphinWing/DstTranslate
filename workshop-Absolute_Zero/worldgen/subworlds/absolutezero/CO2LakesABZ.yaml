@@ -1,5 +1,5 @@
 biomeNoise: noise/subworldFrozen
-temperatureRange: ExtremelyCold
+temperatureRange: AbsoluteZero
 minChildCount: 4
 density:
   min: 10

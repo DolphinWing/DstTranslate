@@ -1,5 +1,5 @@
 biomeNoise: expansion1::noise/Radioactive
-temperatureRange: ExtremelyCold
+temperatureRange: AbsoluteZero
 density:
   min: 12
   max: 17

@@ -1,5 +1,5 @@
 biomeNoise: noise/Default
-temperatureRange: ExtremelyCold
+temperatureRange: AbsoluteZero
 minChildCount: 2
 pdWeight: 2
 density:

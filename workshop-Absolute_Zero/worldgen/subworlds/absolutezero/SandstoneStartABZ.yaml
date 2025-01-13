@@ -1,5 +1,5 @@
 biomeNoise: noise/SandstoneStart
-temperatureRange: Mild
+temperatureRange: SuperCold
 density:
   min: 10
   max: 20

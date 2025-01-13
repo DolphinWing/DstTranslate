@@ -1,5 +1,5 @@
 biomeNoise: noise/Sandstone
-temperatureRange: ExtremelyCold
+temperatureRange: AbsoluteZero
 density:
   min: 10
   max: 20

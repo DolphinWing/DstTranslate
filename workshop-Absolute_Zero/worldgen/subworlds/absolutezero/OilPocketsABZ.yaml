@@ -1,5 +1,5 @@
 biomeNoise: noise/OilPockets
-temperatureRange: ExtremelyCold
+temperatureRange: AbsoluteZero
 minChildCount: 2
 density:
   min: 35

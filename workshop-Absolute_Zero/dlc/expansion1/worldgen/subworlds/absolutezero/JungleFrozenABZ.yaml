@@ -1,5 +1,5 @@
 biomeNoise: noise/subworldJungle
-temperatureRange: ExtremelyCold
+temperatureRange: AbsoluteZero
 density:
   min: 10
   max: 15

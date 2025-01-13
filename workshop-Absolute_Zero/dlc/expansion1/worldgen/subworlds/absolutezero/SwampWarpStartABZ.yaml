@@ -1,5 +1,5 @@
 biomeNoise: expansion1::noise/Swamp
-temperatureRange: Mild
+temperatureRange: SuperCold
 density:
   min: 10
   max: 15

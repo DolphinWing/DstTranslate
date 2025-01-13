@@ -1,25 +1,10 @@
 # keys to remove from in-memory structure when this file is loaded
-remove: [ExtremelyCold,VeryVeryCold,VeryCold,Cold,Chilly,Cool,Mild] 
+remove: [] 
 # elements to add from in-memory structure when this file is loaded
 add:
-  ExtremelyCold:
-    min: 5.0 # -268.15 C
-    max: 10.0 # -263.15 C
-  VeryVeryCold:
-    min: 10.0   # -263.15 C
-    max: 15.0   # -258.15 C
-  VeryCold:
-    min: 15.0 # -258.15 C
-    max: 20.0 # -253.15 C
-  Cold:
-    min: 20.0 # -253.15 C
-    max: 30.0 # -243.15 C
-  Chilly:
-    min: 30.0 # -243.15 C
-    max: 40.0 # -233.15 C
-  Cool:
-    min: 40.0 # -233.15 C
-    max: 50.0 # -223.85 C
-  Mild:
-    min: 50.0 # -223.85 C
-    max: 100.0 # -173.85 C
+  AbsoluteZero:
+    min: 10.0
+    max: 15.0
+  SuperCold:
+    min: 16.0
+    max: 200.0

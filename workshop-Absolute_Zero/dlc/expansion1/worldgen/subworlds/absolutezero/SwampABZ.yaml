@@ -1,5 +1,5 @@
 biomeNoise: expansion1::noise/Swamp
-temperatureRange: ExtremelyCold
+temperatureRange: AbsoluteZero
 density:
   min: 10
   max: 15
