@@ -8,7 +8,7 @@ difficulty: 5
 disableStoryTraits: true
 
 startWorldIndex: 0
-numRings: 12
+numRings: 8
 worldPlacements:
 - world: expansion1::worlds/VoidriaSO
   buffer: 2
@@ -23,8 +23,8 @@ poiPlacements:
     numToSpawn: 1
     avoidClumping: false
     allowedRings:
-      min: 8
-      max: 11
+      min: 7
+      max: 7
       
   - pois: # spawn all of these
       - HarvestableSpacePOI_ForestyOreField # specific to a sandstone start asteroid!
@@ -58,7 +58,7 @@ poiPlacements:
     avoidClumping: true
     allowedRings:
       min: 2
-      max: 8
+      max: 7
   
   - pois:
       - HarvestableSpacePOI_RockyAsteroidField
@@ -71,7 +71,7 @@ poiPlacements:
     canSpawnDuplicates: true
     allowedRings:
       min: 2
-      max: 8
+      max: 7
       
   - pois:
       - HarvestableSpacePOI_CarbonAsteroidField
@@ -94,7 +94,7 @@ poiPlacements:
     canSpawnDuplicates: true
     allowedRings:
       min: 3
-      max: 9
+      max: 7
       
   # artifact POIs
   - pois:
@@ -105,15 +105,15 @@ poiPlacements:
     avoidClumping: true
     allowedRings:
       min: 2
-      max: 6
+      max: 7
       
   - pois:
       - ArtifactSpacePOI_RussellsTeapot
     numToSpawn: 1
     avoidClumping: true
     allowedRings:
-      min: 9
-      max: 11
+      min: 6
+      max: 7
       
   - pois:
       - ArtifactSpacePOI_GravitasSpaceStation2
@@ -125,4 +125,4 @@ poiPlacements:
     avoidClumping: true
     allowedRings:
       min: 4
-      max: 11
+      max: 7

@@ -3,33 +3,44 @@ description: Voidria.Voidria.DESCRIPTION
 asteroidIcon: asteroid_voidria
 disableWorldTraits: true
 
-worldTraitScale: 1.00
+worldTraitScale: 0.9
 worldsize:
   X: 240
   Y: 380
 layoutMethod: PowerTree # Note: We need to add weights to the items in the layer in order to use this.
 
 defaultsOverrides:
+  data:
+    OverworldAvoidRadius: 5
+    OverworldSampleBehaviour: PoissonDisk
+    OverworldDensityMin: 10
+    OverworldDensityMax: 10
+    DrawWorldBorder: true
+    DrawWorldBorderForce: false
+    WorldBorderThickness: 1
+    WorldBorderRange: 0
+#    OverworldMinNodes: 1
   startingWorldElements: [] # remove the algae check
 
 # List all the subworld files to load
 subworldFiles:
   - name: subworlds/forest/ForestStart
   - name: subworlds/forest/Forest
-#  - name: expansion1::subworlds/Voidria/Radioil
-#  - name: expansion1::subworlds/jungle/JungleGassy
-#  - name: expansion1::subworlds/wasteland/WastelandBeetleCool
-#  - name: expansion1::subworlds/swamp/SwampMini
-#  - name: expansion1::subworlds/barren/CoalyGraniteFrozen
-#  - name: expansion1::subworlds/marsh/med_HotMarshLandingSite
-#  - name: expansion1::subworlds/moon_barren/BarrenGranite
-#  - name: expansion1::subworlds/rust/med_RustFrozen
-#  - name: expansion1::subworlds/sandstone/SandstoneMini
+  - name: expansion1::subworlds/Voidria/Radioil
+    weight: 0.2
+  - name: expansion1::subworlds/jungle/JungleGassy
+  - name: expansion1::subworlds/wasteland/WastelandBeetleCool
+  - name: expansion1::subworlds/swamp/SwampMini
+  - name: expansion1::subworlds/barren/CoalyGraniteFrozen
+  - name: expansion1::subworlds/marsh/med_HotMarshLandingSite
+  - name: expansion1::subworlds/moon_barren/BarrenGranite
+  - name: expansion1::subworlds/rust/med_RustFrozen
+  - name: expansion1::subworlds/sandstone/SandstoneMini
   - name: subworlds/space/Space
   - name: subworlds/space/Surface
-    weight: 0.25
+    weight: 0.5
   - name: expansion1::subworlds/space/SpaceWithFrozenBorder
-    weight: 0.25
+    weight: 0.5
   - name: expansion1::subworlds/space/SpaceWithAbyssaliteBorder
     weight: 0.5
 
@@ -47,25 +58,36 @@ unknownCellsAllowedSubworlds:
     command: Replace
     subworldNames:
       - subworlds/forest/Forest
-#  - tagcommand: DistanceFromTag
-#    tag: AtStart
-#    minDistance: 1
-#    maxDistance: 1
-#    command: Replace
-#    subworldNames:
-#      - expansion1::subworlds/Voidria/Radioil
-#      - expansion1::subworlds/jungle/JungleGassy
-#      - expansion1::subworlds/swamp/SwampMini
-#      - expansion1::subworlds/wasteland/WastelandBeetleCool
-#      - expansion1::subworlds/barren/CoalyGraniteFrozen
-#      - expansion1::subworlds/marsh/med_HotMarshLandingSite
-#      - expansion1::subworlds/moon_barren/BarrenGranite
-#      - expansion1::subworlds/rust/med_RustFrozen
-#      - expansion1::subworlds/sandstone/SandstoneMini
-#      - subworlds/space/Space
+  # Ring 1
   - tagcommand: DistanceFromTag
     tag: AtStart
     minDistance: 1
+    maxDistance: 1
+    command: Replace
+    subworldNames:
+      - expansion1::subworlds/Voidria/Radioil
+      - expansion1::subworlds/jungle/JungleGassy
+      - expansion1::subworlds/swamp/SwampMini
+      - expansion1::subworlds/wasteland/WastelandBeetleCool
+      - expansion1::subworlds/barren/CoalyGraniteFrozen
+      - expansion1::subworlds/marsh/med_HotMarshLandingSite
+      - expansion1::subworlds/moon_barren/BarrenGranite
+      - expansion1::subworlds/rust/med_RustFrozen
+      - expansion1::subworlds/sandstone/SandstoneMini
+      - subworlds/space/Space
+  # Ring 2
+  - tagcommand: DistanceFromTag
+    tag: AtStart
+    minDistance: 2
+    maxDistance: 2
+    command: Replace
+    subworldNames:
+#      - expansion1::subworlds/Voidria/Radioil
+      - subworlds/space/Space
+  # Ring 3
+  - tagcommand: DistanceFromTag
+    tag: AtStart
+    minDistance: 3
     maxDistance: 999
     command: Replace
     subworldNames:
@@ -107,7 +129,7 @@ worldTemplateRules:
         tagcommand: DistanceFromTag
         tag: AtSurface
         minDistance: 1
-        maxDistance: 99
+        maxDistance: 4
       - command: ExceptWith
         tagcommand: AtTag
         tag: NoGravitasFeatures
@@ -190,8 +212,13 @@ worldTemplateRules:
       - command: Replace
         tagcommand: DistanceFromTag
         tag: AtStart
-        minDistance: 3
+        minDistance: 4
         maxDistance: 5
+      - command: ExceptWith # too close to core
+        tagcommand: DistanceFromTag
+        tag: AtDepths
+        minDistance: 0
+        maxDistance: 6
   # Crashed Satelite
   - names:
       - expansion1::poi/traits/crashed_satellite1
@@ -199,6 +226,7 @@ worldTemplateRules:
       - expansion1::poi/traits/crashed_satellite3
       - expansion1::poi/traits/crashed_satellite4
     listRule: GuaranteeOne
+    priority: 150
     useRelaxedFiltering: true
     allowExtremeTemperatureOverlap: true # should be fine near the surface
     allowedCellsFilter:
@@ -207,3 +235,156 @@ worldTemplateRules:
         tag: AtStart
         minDistance: 1
         maxDistance: 3
+      - command: ExceptWith # too close to core
+        tagcommand: DistanceFromTag
+        tag: AtDepths
+        minDistance: 0
+        maxDistance: 5
+  # --- Story Traits ---
+  # CritterManipulator
+  - names:
+      - storytraits/creature_manipulator
+    listRule: GuaranteeOne
+    priority: 200
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 3
+        maxDistance: 5
+  # MegaBrainTank
+  - names:
+      - storytraits/mega_brain_tank
+    listRule: GuaranteeOne
+    priority: 200
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 3
+        maxDistance: 5
+  # LonelyMinion
+  - names:
+      - storytraits/lonelyminion
+    listRule: GuaranteeOne
+    priority: 200
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 4
+        maxDistance: 6
+      - command: ExceptWith # too close to surface
+        tagcommand: DistanceFromTag
+        tag: AtSurface
+        minDistance: 0
+        maxDistance: 2
+      - command: ExceptWith # too close to core
+        tagcommand: DistanceFromTag
+        tag: AtDepths
+        minDistance: 0
+        maxDistance: 3
+  # MorbRoverMaker
+  - names:
+      - storytraits/morb_rover_maker
+    listRule: GuaranteeOne
+    priority: 400
+    useRelaxedFiltering: true
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 6
+        maxDistance: 99
+      - command: ExceptWith # too close to surface
+        tagcommand: DistanceFromTag
+        tag: AtSurface
+        minDistance: 0
+        maxDistance: 2
+      - command: ExceptWith # too close to core
+        tagcommand: DistanceFromTag
+        tag: AtDepths
+        minDistance: 0
+        maxDistance: 3
+  # MorbRoverMaker: extention 1 fallback
+  - names:
+      - storytraits/morb_rover_maker_ext1
+    listRule: GuaranteeOne
+    priority: 180
+    useRelaxedFiltering: true
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 8
+        maxDistance: 99
+      - command: ExceptWith # too close to surface
+        tagcommand: DistanceFromTag
+        tag: AtSurface
+        minDistance: 0
+        maxDistance: 2
+  # MorbRoverMaker: extention 2 fallback
+  - names:
+      - storytraits/morb_rover_maker_ext2
+    listRule: GuaranteeOne
+    priority: 180
+    useRelaxedFiltering: true
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 8
+        maxDistance: 99
+      - command: ExceptWith # too close to surface
+        tagcommand: DistanceFromTag
+        tag: AtSurface
+        minDistance: 0
+        maxDistance: 2
+  # FossilHunt
+  - names:
+      - storytraits/fossil_hunt_main
+    listRule: GuaranteeOne
+    priority: 400
+    useRelaxedFiltering: true
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 0
+        maxDistance: 2
+  # FossilHunt: Frozen biome Fallback
+  - names:
+      - storytraits/fossil_hunt_ice
+    listRule: GuaranteeOne
+    priority: 150
+    useRelaxedFiltering: true
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 1
+        maxDistance: 1
+  # FossilHunt: ROCK PIECE Fallback
+  - names:
+      - storytraits/fossil_hunt_rock
+    listRule: GuaranteeOne
+    priority: 150
+    useRelaxedFiltering: true
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 1
+        maxDistance: 1
+  # FossilHunt: RESIN PIECE Fallback
+  - names:
+      - storytraits/fossil_hunt_resin
+    listRule: GuaranteeOne
+    priority: 150
+    useRelaxedFiltering: true
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 1
+        maxDistance: 1
