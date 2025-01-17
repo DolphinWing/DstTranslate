@@ -16,6 +16,9 @@ This is a personal project that includes my mod work for the games by Klei Enter
 ![Steam Favorites](https://img.shields.io/steam/favorites/1993780385?logo=steam) <br />
 [workshop-1993780385](workshop-1993780385) is a DST client-side language pack mod. It also supports server-side language update.
 
+* [FontLoader](FontLoader) is the .NET project referenced from [古靈精怪的字型模組](https://github.com/dershiuan/ONI-Mods/tree/v2.0.4/FontLoader)
+* [Rime_Extreme_2](Rime_Extreme_2) and [TorchGod_Voidria](TorchGod_Voidria) are both for mod maps.
+
 ### Mod Reference
 
 Thanks those developer who have done brilliant work on these mods
@@ -28,6 +31,8 @@ Thanks those developer who have done brilliant work on these mods
 #### Oxygen Not Included
 * [Camel 繁體中文](https://steamcommunity.com/sharedfiles/filedetails/?id=2679329370)
 * 古靈精怪 [字型模組](https://steamcommunity.com/workshop/filedetails/?id=2119648603) & [GitHub](https://github.com/dershiuan/ONI-Mods/tree/v2.0.4/FontLoader)
+* TorchGod [Voidria](https://github.com/TorchGod531/Voidria)
+* DEPRECATED [Absolute Zero](https://steamcommunity.com/sharedfiles/filedetails/?id=1746056079)
 
 ### Other Reference
 * [图文教程 - 如何自建MOD](https://steamcommunity.com/sharedfiles/filedetails/?id=676286328) for Don't Starve Together
@@ -40,7 +45,3 @@ Thanks those developer who have done brilliant work on these mods
 DstTranslator is a tool to convert translation document. For internal use only. I also use the tool to study Compose UI.
 
 * [![Desktop CI](https://github.com/DolphinWing/DstTranslate/actions/workflows/desktop.yml/badge.svg)](https://github.com/DolphinWing/DstTranslate/actions/workflows/desktop.yml) [desktop-app](desktop-app) runs on Linux and Windows
-
-FontLoader is a .NET DLL project for loading font file to ONI.
-
-* [FontLoader](FontLoader) is the .NET project referenced from [古靈精怪的字型模組](https://github.com/dershiuan/ONI-Mods/tree/v2.0.4/FontLoader)

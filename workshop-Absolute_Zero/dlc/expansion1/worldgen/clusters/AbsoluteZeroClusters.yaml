@@ -14,7 +14,7 @@ worldPlacements:
   locationType: StartWorld
   allowedRings:
     min: 0
-    max: 0
+    max: 1
 - world: expansion1::worlds/MediumSwampyABZ # Rocket world
   buffer: 2
   locationType: InnerCluster
@@ -27,7 +27,7 @@ worldPlacements:
 - world: expansion1::worlds/TundraMoonlet # Fullerene renewable
   buffer: 4
   allowedRings:
-    min: 5
+    min: 4
     max: 5
   worldMixing:
     requiredTags:
@@ -152,7 +152,7 @@ worldPlacements:
 - world: expansion1::worlds/MooMoonlet
   buffer: 3
   allowedRings:
-    min: 6
+    min: 4
     max: 7
   worldMixing:
     requiredTags:
@@ -233,7 +233,7 @@ worldPlacements:
 - world: expansion1::worlds/MiniRegolithMoonlet
   buffer: 4
   allowedRings:
-    min: 5
+    min: 6
     max: 8
   worldMixing:
     requiredTags:
