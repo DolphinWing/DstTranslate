@@ -366,3 +366,23 @@ worldTemplateRules:
         tag: AtStart
         minDistance: 1
         maxDistance: 1
+  # Critter Caves
+  - names:
+    - critters/tg_bean_sleat
+    - critters/tg_bug_morb_toilet
+    - critters/tg_ce_lily_cave
+    - critters/tg_hatch_lice
+    - critters/tg_pacu_lake
+    - critters/tg_pip_tree
+    - critters/tg_pokeshell_pepper
+    - critters/tg_puft_love
+    - critters/tg_slime_sour
+    - expansion1::critters/tg_beeta_hive
+    - expansion1::critters/tg_divertgent
+    - expansion1::critters/tg_plug_slug
+    listRule: GuaranteeAll
+    priority: 120
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: NotAtTag
+        tag: NoGlobalFeatureSpawning
