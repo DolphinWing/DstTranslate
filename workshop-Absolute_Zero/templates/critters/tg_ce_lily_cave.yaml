@@ -33,12 +33,12 @@ cells:
   location_y: -5
 - element: Clay
   mass: 1000
-  temperature: 290.756317
+  temperature: 290.92981
   location_x: 2
   location_y: -5
 - element: Fossil
   mass: 500
-  temperature: 298.924316
+  temperature: 298.790466
   location_x: 3
   location_y: -5
 - element: Katairite
@@ -47,18 +47,18 @@ cells:
   location_x: -3
   location_y: -4
 - element: ChlorineGas
-  mass: 1.98660183
-  temperature: 307.9935
+  mass: 1.99374354
+  temperature: 307.950836
   location_x: -2
   location_y: -4
 - element: ChlorineGas
-  mass: 1.98806083
-  temperature: 307.970673
+  mass: 1.99135804
+  temperature: 307.779694
   location_x: -1
   location_y: -4
 - element: ChlorineGas
-  mass: 1.98895156
-  temperature: 307.821716
+  mass: 1.9883914
+  temperature: 307.86026
   location_y: -4
 - element: Katairite
   mass: 500
@@ -67,7 +67,7 @@ cells:
   location_y: -4
 - element: IronOre
   mass: 800
-  temperature: 300.149994
+  temperature: 299.875458
   location_x: 2
   location_y: -4
 - element: Vacuum
@@ -79,22 +79,22 @@ cells:
   location_x: -3
   location_y: -3
 - element: ChlorineGas
-  mass: 1.9866513
-  temperature: 308.028229
+  mass: 1.99320197
+  temperature: 307.613892
   location_x: -2
   location_y: -3
 - element: ChlorineGas
-  mass: 1.99469411
-  temperature: 307.676636
+  mass: 1.98918474
+  temperature: 305.354553
   location_x: -1
   location_y: -3
 - element: ChlorineGas
-  mass: 2.00170422
-  temperature: 305.295074
+  mass: 1.97604561
+  temperature: 301.938324
   location_y: -3
 - element: ChlorineGas
-  mass: 1.98853254
-  temperature: 307.334045
+  mass: 1.98592913
+  temperature: 307.790375
   location_x: 1
   location_y: -3
 - element: Katairite
@@ -102,7 +102,9 @@ cells:
   temperature: 303.149994
   location_x: 2
   location_y: -3
-- element: Vacuum
+- element: Carbon
+  mass: 600
+  temperature: 300.149994
   location_x: 3
   location_y: -3
 - element: BleachStone
@@ -121,17 +123,17 @@ cells:
   location_x: -1
   location_y: -2
 - element: ChlorineGas
-  mass: 1.99711275
-  temperature: 301.117035
+  mass: 1.98432541
+  temperature: 300.931549
   location_y: -2
 - element: ChlorineGas
-  mass: 2.0858984
-  temperature: 301.030182
+  mass: 2.11542511
+  temperature: 301.148743
   location_x: 1
   location_y: -2
 - element: ChlorineGas
-  mass: 1.98179328
-  temperature: 301.177185
+  mass: 1.73736203
+  temperature: 301.061188
   location_x: 2
   location_y: -2
 - element: Katairite
@@ -146,26 +148,26 @@ cells:
   location_y: -1
 - element: Water
   mass: 1000
-  temperature: 303.125946
+  temperature: 303.123047
   location_x: -2
   location_y: -1
 - element: Phosphorite
   mass: 2000
-  temperature: 300.383453
+  temperature: 300.158356
   location_x: -1
   location_y: -1
 - element: Fertilizer
   mass: 2000
-  temperature: 300.15036
+  temperature: 300.151703
   location_y: -1
 - element: IronOre
   mass: 2400
-  temperature: 300.170715
+  temperature: 300.173798
   location_x: 1
   location_y: -1
-- element: Oxygen
-  mass: 0.368578494
-  temperature: 300.57196
+- element: ChlorineGas
+  mass: 0.245033979
+  temperature: 301.060211
   location_x: 2
   location_y: -1
 - element: Katairite
@@ -178,23 +180,23 @@ cells:
   temperature: 303.149994
   location_x: -3
 - element: Oxygen
-  mass: 2.58734226
-  temperature: 300.651978
+  mass: 2.60942531
+  temperature: 300.650238
   location_x: -2
 - element: Oxygen
-  mass: 2.63967824
-  temperature: 300.658905
+  mass: 2.66264582
+  temperature: 300.636169
   location_x: -1
 - element: Oxygen
-  mass: 2.65906167
-  temperature: 300.556702
+  mass: 2.57716489
+  temperature: 300.509827
 - element: Oxygen
-  mass: 2.69062066
-  temperature: 300.582336
+  mass: 2.53930211
+  temperature: 300.581482
   location_x: 1
 - element: Oxygen
-  mass: 2.54563498
-  temperature: 300.57196
+  mass: 2.91529179
+  temperature: 300.598328
   location_x: 2
 - element: Katairite
   mass: 500
@@ -207,29 +209,31 @@ cells:
   location_y: 1
 - element: IgneousRock
   mass: 1840
-  temperature: 300.159821
+  temperature: 300.160065
   location_x: -2
   location_y: 1
 - element: Oxygen
-  mass: 2.42908144
-  temperature: 300.738251
+  mass: 3.09486866
+  temperature: 300.74588
   location_x: -1
   location_y: 1
 - element: Oxygen
-  mass: 2.43020487
-  temperature: 300.770782
+  mass: 2.77966666
+  temperature: 300.734283
   location_y: 1
 - element: Oxygen
-  mass: 2.35232878
-  temperature: 300.80304
+  mass: 2.53561163
+  temperature: 300.734741
   location_x: 1
   location_y: 1
 - element: Katairite
-  mass: 500
-  temperature: 303.149994
+  mass: 750
+  temperature: 303.150055
   location_x: 2
   location_y: 1
-- element: Vacuum
+- element: Dirt
+  mass: 1840
+  temperature: 290.149994
   location_x: 3
   location_y: 1
 - element: Katairite
@@ -238,27 +242,27 @@ cells:
   location_x: -3
   location_y: 2
 - element: Oxygen
-  mass: 0.251185149
-  temperature: 300.752106
+  mass: 0.286028624
+  temperature: 300.748077
   location_x: -2
   location_y: 2
-- element: Oxygen
-  mass: 0.348716646
-  temperature: 300.738068
+- element: Hydrogen
+  mass: 0.30091539
+  temperature: 301.487518
   location_x: -1
   location_y: 2
-- element: Oxygen
-  mass: 0.365739912
-  temperature: 300.770782
+- element: Hydrogen
+  mass: 0.255555958
+  temperature: 301.385986
   location_y: 2
-- element: Oxygen
-  mass: 0.331832111
-  temperature: 300.803528
+- element: Hydrogen
+  mass: 0.227725893
+  temperature: 301.707733
   location_x: 1
   location_y: 2
 - element: Katairite
   mass: 500
-  temperature: 303.150177
+  temperature: 303.149994
   location_x: 2
   location_y: 2
 - element: Vacuum
@@ -270,27 +274,27 @@ cells:
   location_x: -3
   location_y: 3
 - element: Hydrogen
-  mass: 2.05410075
-  temperature: 301.258972
+  mass: 2.34925628
+  temperature: 301.237183
   location_x: -2
   location_y: 3
 - element: Hydrogen
-  mass: 2.83593273
-  temperature: 301.251129
+  mass: 2.01786566
+  temperature: 301.487518
   location_x: -1
   location_y: 3
 - element: Hydrogen
-  mass: 2.0944922
-  temperature: 301.617401
+  mass: 1.77996624
+  temperature: 301.387787
   location_y: 3
 - element: Hydrogen
-  mass: 1.7612859
-  temperature: 301.835388
+  mass: 1.6307106
+  temperature: 301.700989
   location_x: 1
   location_y: 3
 - element: Hydrogen
-  mass: 1.75930345
-  temperature: 301.71344
+  mass: 1.849347
+  temperature: 300.60202
   location_x: 2
   location_y: 3
 - element: Katairite
@@ -305,26 +309,26 @@ cells:
   location_y: 4
 - element: IgneousRock
   mass: 1840
-  temperature: 300.302582
+  temperature: 300.305603
   location_x: -2
   location_y: 4
 - element: Hydrogen
-  mass: 1.94626987
-  temperature: 301.21521
+  mass: 2.00069547
+  temperature: 301.309113
   location_x: -1
   location_y: 4
 - element: Hydrogen
-  mass: 2.00514889
-  temperature: 301.371979
+  mass: 1.91219187
+  temperature: 301.193359
   location_y: 4
 - element: Hydrogen
-  mass: 1.76280904
-  temperature: 302.807312
+  mass: 1.85126996
+  temperature: 302.788361
   location_x: 1
   location_y: 4
 - element: Hydrogen
-  mass: 1.78065979
-  temperature: 302.099365
+  mass: 1.85247016
+  temperature: 301.803589
   location_x: 2
   location_y: 4
 - element: Katairite
@@ -371,9 +375,16 @@ pickupables:
   units: 1
   type: Pickupable
   rottable: {}
-- id: BasicForagePlant
-  location_x: -3
-  location_y: 1
+- id: ColdBreatherSeed
+  location_y: 5
+  element: Creature
+  temperature: 293
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: SwampLilySeed
+  location_x: -2
+  location_y: -2
   element: Creature
   temperature: 293
   units: 1
@@ -383,7 +394,15 @@ pickupables:
   location_x: -1
   location_y: -1
   element: Creature
-  temperature: 300.279999
+  temperature: 295.780853
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: SpiceVineSeed
+  location_x: 1
+  location_y: -5
+  element: Creature
+  temperature: 293
   units: 1
   type: Pickupable
   rottable: {}
@@ -391,7 +410,15 @@ pickupables:
   location_x: 1
   location_y: -3
   element: Creature
-  temperature: 308.148926
+  temperature: 308.148743
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: DreckoEgg
+  location_x: -3
+  location_y: 2
+  element: Creature
+  temperature: 293
   units: 1
   type: Pickupable
   rottable: {}
@@ -400,55 +427,48 @@ otherEntities:
   location_x: 1
   location_y: 4
   element: Creature
-  temperature: 311.502014
+  temperature: 310.680573
   units: 1
   type: Other
   amounts:
   - id: Maturity
-    value: 0.0126666408
+    value: 0.0140832998
   - id: Irrigation
   - id: Fertilization
   - id: AirPressure
-    value: 1.33123481
+    value: 1.15971076
   - id: Temperature
-    value: 311.64209
+    value: 310.758331
   - id: OldAge
 - id: BasicSingleHarvestPlant
   element: Creature
-  temperature: 296.055023
+  temperature: 296.332245
   units: 1
   type: Other
   amounts:
   - id: Maturity
-    value: 0.0126666408
+    value: 0.0140832998
   - id: Fertilization
   - id: AirPressure
-    value: 2.62713599
+    value: 1.79046643
   - id: Temperature
-    value: 296.024689
+    value: 296.261169
   - id: OldAge
 - id: SwampLily
   location_x: 1
   location_y: -3
   element: Creature
-  temperature: 326.597839
+  temperature: 326.407379
   units: 1
   type: Other
   amounts:
   - id: Maturity
-    value: 0.0126666408
+    value: 0.0140832998
   - id: AirPressure
-    value: 1.99761617
+    value: 1.48730898
   - id: Temperature
-    value: 326.617767
+    value: 326.450867
   - id: OldAge
-- id: BasicForagePlantPlanted
-  location_x: -3
-  location_y: 1
-  element: Creature
-  temperature: 293
-  units: 1
-  type: Other
 - id: BasicForagePlantPlanted
   location_x: -3
   location_y: 5
@@ -460,11 +480,11 @@ otherEntities:
   location_x: 2
   location_y: 3
   element: Creature
-  temperature: 300.449341
+  temperature: 294.006348
   units: 1
   type: Other
   amounts:
   - id: AirPressure
-    value: 1.83453321
+    value: 1.47076845
   - id: Temperature
-    value: 300.372528
+    value: 293.808441

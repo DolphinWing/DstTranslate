@@ -10,15 +10,19 @@ cells:
 - element: Vacuum
   location_x: -3
   location_y: -3
-- element: Vacuum
+- element: Dirt
+  mass: 1817.44995
+  temperature: 296.149994
   location_x: -2
   location_y: -3
-- element: Vacuum
+- element: Clay
+  mass: 1000
+  temperature: 290.149994
   location_x: -1
   location_y: -3
-- element: Carbon
-  mass: 600
-  temperature: 300.149994
+- element: Algae
+  mass: 240
+  temperature: 299.149994
   location_y: -3
 - element: Katairite
   mass: 500
@@ -30,17 +34,21 @@ cells:
   temperature: 300.149994
   location_x: 2
   location_y: -3
-- element: Vacuum
+- element: SedimentaryRock
+  mass: 1840
+  temperature: 300.149994
   location_x: 3
   location_y: -3
 - element: Vacuum
   location_x: 4
   location_y: -3
-- element: Vacuum
+- element: GoldAmalgam
+  mass: 800
+  temperature: 300.149994
   location_x: -3
   location_y: -2
-- element: Cuprite
-  mass: 800
+- element: DirtyWater
+  mass: 500
   temperature: 300.149994
   location_x: -2
   location_y: -2
@@ -60,7 +68,7 @@ cells:
   location_y: -2
 - element: Algae
   mass: 240
-  temperature: 299.152405
+  temperature: 299.153412
   location_x: 2
   location_y: -2
 - element: Katairite
@@ -73,7 +81,7 @@ cells:
   location_y: -2
 - element: Gold
   mass: 870
-  temperature: 300.149994
+  temperature: 300.141144
   location_x: -3
   location_y: -1
 - element: Katairite
@@ -83,12 +91,12 @@ cells:
   location_y: -1
 - element: OxyRock
   mass: 198.830002
-  temperature: 297.844971
+  temperature: 297.964996
   location_x: -1
   location_y: -1
 - element: Water
   mass: 1004.9903
-  temperature: 300.083832
+  temperature: 300.080933
   location_y: -1
 - element: Water
   mass: 1004.95581
@@ -105,7 +113,9 @@ cells:
   temperature: 300.149994
   location_x: 3
   location_y: -1
-- element: Vacuum
+- element: Carbon
+  mass: 600
+  temperature: 300.149994
   location_x: 4
   location_y: -1
 - element: Katairite
@@ -114,22 +124,22 @@ cells:
   location_x: -3
 - element: Water
   mass: 995.113464
-  temperature: 300.104492
+  temperature: 300.101013
   location_x: -2
 - element: Water
   mass: 995.079834
-  temperature: 300.077087
+  temperature: 300.073608
   location_x: -1
 - element: Water
   mass: 995.040466
-  temperature: 300.145508
+  temperature: 300.147247
 - element: Water
   mass: 995.002625
-  temperature: 300.150665
+  temperature: 300.150604
   location_x: 1
 - element: Water
   mass: 994.96521
-  temperature: 300.14917
+  temperature: 300.149078
   location_x: 2
 - element: Water
   mass: 994.939697
@@ -146,41 +156,41 @@ cells:
   location_y: 1
 - element: Dirt
   mass: 1817.44995
-  temperature: 296.239716
+  temperature: 296.246155
   location_x: -2
   location_y: 1
 - element: Oxygen
   mass: 1.66999996
-  temperature: 297.032288
+  temperature: 297.083282
   diseaseName: PollenGerms
-  diseaseCount: 39266
+  diseaseCount: 37188
   location_x: -1
-  location_y: 1
-- element: Oxygen
-  mass: 1.66999996
-  temperature: 297.547699
-  diseaseName: PollenGerms
-  diseaseCount: 3176
   location_y: 1
 - element: Oxygen
   mass: 1.66999996
   temperature: 297.553284
   diseaseName: PollenGerms
-  diseaseCount: 30379
+  diseaseCount: 28606
+  location_y: 1
+- element: Oxygen
+  mass: 1.66999996
+  temperature: 297.547699
+  diseaseName: PollenGerms
+  diseaseCount: 4773
   location_x: 1
   location_y: 1
 - element: Oxygen
   mass: 1.66999996
-  temperature: 297.331329
+  temperature: 297.528564
   diseaseName: PollenGerms
-  diseaseCount: 5457
+  diseaseCount: 5938
   location_x: 2
   location_y: 1
 - element: Oxygen
   mass: 1.66999996
   temperature: 297.540222
   diseaseName: PollenGerms
-  diseaseCount: 2878
+  diseaseCount: 3314
   location_x: 3
   location_y: 1
 - element: Katairite
@@ -195,23 +205,23 @@ cells:
   location_y: 2
 - element: Oxygen
   mass: 1.66999996
-  temperature: 296.692902
+  temperature: 297.154175
   diseaseName: PollenGerms
-  diseaseCount: 26078
+  diseaseCount: 6498
   location_x: -2
   location_y: 2
 - element: Oxygen
   mass: 1.66999996
-  temperature: 296.643829
+  temperature: 296.660248
   diseaseName: PollenGerms
-  diseaseCount: 29850
+  diseaseCount: 25173
   location_x: -1
   location_y: 2
 - element: Oxygen
   mass: 1.66999996
-  temperature: 297.507629
+  temperature: 296.557343
   diseaseName: PollenGerms
-  diseaseCount: 5220
+  diseaseCount: 28962
   location_y: 2
 - element: Katairite
   mass: 500
@@ -252,19 +262,19 @@ cells:
   location_y: 3
 - element: Sand
   mass: 1000
-  temperature: 308.149506
+  temperature: 308.135162
   location_x: 1
   location_y: 3
 - element: SlimeMold
   mass: 187.509995
-  temperature: 307.160675
+  temperature: 305.931396
   diseaseName: FoodPoisoning
-  diseaseCount: 177382
+  diseaseCount: 175832
   location_x: 2
   location_y: 3
 - element: SandStone
   mass: 1000
-  temperature: 300.149994
+  temperature: 300.222504
   location_x: 3
   location_y: 3
 - element: Vacuum
@@ -275,7 +285,7 @@ pickupables:
   location_x: -1
   location_y: -1
   element: Creature
-  temperature: 297.62558
+  temperature: 297.758362
   units: 1
   type: Pickupable
   rottable: {}
@@ -283,20 +293,20 @@ pickupables:
   location_x: 2
   location_y: -2
   element: Creature
-  temperature: 299.146332
+  temperature: 299.1474
   units: 1
   type: Pickupable
   rottable: {}
 - id: CylindricaSeed
   location_x: -3
   element: Creature
-  temperature: 293
+  temperature: 293.284119
   units: 1
   type: Pickupable
   rottable: {}
 - id: Pacu
   element: Creature
-  temperature: 303.017273
+  temperature: 303.007996
   units: 1
   type: Pickupable
   rottable: {}
@@ -329,27 +339,27 @@ otherEntities:
   location_x: 2
   location_y: -1
   element: Creature
-  temperature: 299.619446
+  temperature: 299.60321
   units: 1
   type: Other
   amounts:
   - id: Maturity
-    value: 0.0204999316
+    value: 0.0219165906
   - id: Irrigation
   - id: AirPressure
-    value: 667.141113
+    value: 340.754303
   - id: Temperature
-    value: 299.605255
+    value: 299.605774
   - id: OldAge
 - id: BulbPlant
   location_x: -2
   location_y: 2
   element: Creature
-  temperature: 293.815796
+  temperature: 293.891693
   units: 1
   type: Other
   amounts:
   - id: AirPressure
-    value: 1.66995585
+    value: 1.20099998
   - id: Temperature
-    value: 293.803741
+    value: 293.865997

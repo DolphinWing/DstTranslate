@@ -377,6 +377,9 @@ worldTemplateRules:
     - critters/tg_pokeshell_pepper
     - critters/tg_puft_love
     - critters/tg_slime_sour
+    - critters/tg_gassy_style
+    - critters/tg_mole_hole
+    - critters/tg_wheat_wort
     - expansion1::critters/tg_beeta_hive
     - expansion1::critters/tg_divertgent
     - expansion1::critters/tg_plug_slug
@@ -384,5 +387,20 @@ worldTemplateRules:
     priority: 120
     allowedCellsFilter:
       - command: Replace
-        tagcommand: NotAtTag
-        tag: NoGlobalFeatureSpawning
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 3
+        maxDistance: 99
+      - command: ExceptWith
+        tagcommand: AtTag
+        tag: NoGravitasFeatures
+      - command: ExceptWith
+        tagcommand: DistanceFromTag
+        tag: AtDepths
+        minDistance: 0
+        maxDistance: 3
+      - command: ExceptWith
+        tagcommand: DistanceFromTag
+        tag: AtSurface
+        minDistance: 0
+        maxDistance: 3

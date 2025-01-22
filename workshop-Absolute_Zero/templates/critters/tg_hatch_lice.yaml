@@ -7,6 +7,10 @@ info:
     Y: -2
   area: 48
 cells:
+- element: Oxygen
+  mass: 1.70760417
+  temperature: 300.913635
+  location_y: 1
 - element: Vacuum
   location_x: -3
   location_y: -2
@@ -49,31 +53,31 @@ cells:
   location_y: -1
 - element: SandStone
   mass: 1000
-  temperature: 301.241058
+  temperature: 301.304962
   location_x: -2
   location_y: -1
 - element: Sand
   mass: 1000
-  temperature: 302.804901
+  temperature: 302.775574
   location_x: -1
   location_y: -1
 - element: Brine
   mass: 1200
-  temperature: 302.924561
+  temperature: 302.900055
   location_y: -1
 - element: Brine
   mass: 1200
-  temperature: 303.068939
+  temperature: 303.061829
   location_x: 1
   location_y: -1
 - element: Dirt
   mass: 1816.93005
-  temperature: 296.344452
+  temperature: 296.364349
   location_x: 2
   location_y: -1
 - element: Water
   mass: 1000
-  temperature: 300.118774
+  temperature: 300.115082
   location_x: 3
   location_y: -1
 - element: Katairite
@@ -87,26 +91,26 @@ cells:
   location_x: -3
 - element: SandStone
   mass: 1000
-  temperature: 300.917664
+  temperature: 300.97525
   location_x: -2
 - element: Algae
   mass: 200
-  temperature: 301.860077
+  temperature: 301.956696
   location_x: -1
 - element: Oxygen
-  mass: 1.67999995
-  temperature: 301.056702
+  mass: 1.690382
+  temperature: 301.159363
 - element: Oxygen
-  mass: 1.67999995
-  temperature: 300.89566
+  mass: 1.7017405
+  temperature: 300.963959
   location_x: 1
 - element: Oxygen
-  mass: 1.67999995
-  temperature: 297.138855
+  mass: 1.72540843
+  temperature: 297.32251
   location_x: 2
 - element: Oxygen
-  mass: 1.67999995
-  temperature: 297.711761
+  mass: 1.74734986
+  temperature: 297.666931
   location_x: 3
 - element: Katairite
   mass: 500
@@ -118,32 +122,28 @@ cells:
   location_x: -3
   location_y: 1
 - element: Oxygen
-  mass: 1.67999995
-  temperature: 300.740875
+  mass: 1.68077481
+  temperature: 300.820435
   location_x: -2
   location_y: 1
 - element: Oxygen
-  mass: 1.67999995
-  temperature: 300.792206
+  mass: 1.68175066
+  temperature: 301.15332
   location_x: -1
   location_y: 1
 - element: Oxygen
-  mass: 1.67999995
-  temperature: 300.864258
-  location_y: 1
-- element: Oxygen
-  mass: 1.67999995
-  temperature: 300.015137
+  mass: 1.68847644
+  temperature: 298.269043
   location_x: 1
   location_y: 1
 - element: Oxygen
-  mass: 1.67999995
-  temperature: 300.615234
+  mass: 1.74943542
+  temperature: 299.864319
   location_x: 2
   location_y: 1
 - element: Oxygen
-  mass: 1.67999995
-  temperature: 297.84552
+  mass: 1.79999995
+  temperature: 300.385132
   location_x: 3
   location_y: 1
 - element: Katairite
@@ -157,32 +157,32 @@ cells:
   location_x: -3
   location_y: 2
 - element: Oxygen
-  mass: 1.67999995
-  temperature: 300.518311
+  mass: 1.6807549
+  temperature: 301.036102
   location_x: -2
   location_y: 2
 - element: Oxygen
-  mass: 1.67999995
-  temperature: 300.874268
+  mass: 1.68161976
+  temperature: 300.684479
   location_x: -1
   location_y: 2
 - element: Oxygen
-  mass: 1.67999995
-  temperature: 301.003845
+  mass: 1.6820693
+  temperature: 300.967896
   location_y: 2
 - element: Katairite
   mass: 500
   temperature: 300.149994
   location_x: 1
   location_y: 2
-- element: Katairite
-  mass: 500
-  temperature: 300.149994
+- element: Oxygen
+  mass: 1.79999995
+  temperature: 299.396912
   location_x: 2
   location_y: 2
-- element: Katairite
-  mass: 500
-  temperature: 300.149994
+- element: OxyRock
+  mass: 799.005127
+  temperature: 300.138336
   location_x: 3
   location_y: 2
 - element: Katairite
@@ -212,10 +212,14 @@ cells:
   temperature: 300.149994
   location_x: 1
   location_y: 3
-- element: Vacuum
+- element: Katairite
+  mass: 500
+  temperature: 300.149994
   location_x: 2
   location_y: 3
-- element: Vacuum
+- element: Katairite
+  mass: 500
+  temperature: 300.149994
   location_x: 3
   location_y: 3
 - element: Vacuum
@@ -226,11 +230,13 @@ buildings:
   location_x: -1
   location_y: -1
   element: Polypropylene
-  temperature: 302.777252
+  temperature: 302.756104
 pickupables:
-- id: BasicForagePlant
+- id: PrickleFlowerSeed
+  location_x: 3
+  location_y: 2
   element: Creature
-  temperature: 293
+  temperature: 295.109406
   units: 1
   type: Pickupable
   rottable: {}
@@ -238,15 +244,7 @@ pickupables:
   location_x: -2
   location_y: -1
   element: Creature
-  temperature: 301.108215
-  units: 1
-  type: Pickupable
-  rottable: {}
-- id: BasicSingleHarvestPlantSeed
-  location_x: 3
-  location_y: 2
-  element: Creature
-  temperature: 293
+  temperature: 301.189453
   units: 1
   type: Pickupable
   rottable: {}
@@ -254,14 +252,14 @@ pickupables:
   location_x: 2
   location_y: -1
   element: Creature
-  temperature: 298.014404
+  temperature: 298.005707
   units: 1
   type: Pickupable
   rottable: {}
 - id: HatchEgg
   location_x: -1
   element: Creature
-  temperature: 301.229523
+  temperature: 301.413544
   units: 1
   type: Pickupable
   rottable: {}
@@ -289,12 +287,19 @@ pickupables:
   units: 1
   type: Pickupable
   rottable: {}
+- id: BasicForagePlant
+  location_y: -1
+  element: Creature
+  temperature: 297.417725
+  units: 1
+  type: Pickupable
+  rottable: {}
 otherEntities:
 - id: PrickleFlower
   location_x: -2
   location_y: 1
   element: Creature
-  temperature: 294.254791
+  temperature: 294.685425
   units: 1
   type: Other
   amounts:
@@ -302,35 +307,35 @@ otherEntities:
     value: 0.000833333412
   - id: Irrigation
   - id: AirPressure
-    value: 1.67995536
+    value: 1.34692538
   - id: Temperature
-    value: 294.114899
+    value: 294.618652
   - id: OldAge
   - id: Illumination
 - id: BasicSingleHarvestPlant
   location_x: -1
   location_y: 1
   element: Creature
-  temperature: 295.875916
+  temperature: 296.243835
   units: 1
   type: Other
   amounts:
   - id: Maturity
-    value: 0.0116666462
+    value: 0.0130833052
   - id: Fertilization
   - id: AirPressure
-    value: 1.67995536
+    value: 1.3470695
   - id: Temperature
-    value: 295.818329
+    value: 296.205872
   - id: OldAge
 - id: PrickleGrass
   location_x: 2
   element: Creature
-  temperature: 293.952332
+  temperature: 294.045227
   units: 1
   type: Other
   amounts:
   - id: AirPressure
-    value: 1.67996871
+    value: 1.35435951
   - id: Temperature
-    value: 293.943481
+    value: 294.022675

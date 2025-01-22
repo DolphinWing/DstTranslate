@@ -10,68 +10,72 @@ cells:
 - element: Vacuum
   location_x: -3
   location_y: -2
-- element: Cobaltite
-  mass: 1250
-  temperature: 299.992889
+- element: SedimentaryRock
+  mass: 1840
+  temperature: 300.136566
   location_x: -2
   location_y: -2
 - element: Katairite
   mass: 500
-  temperature: 17.1945648
+  temperature: 17.1544113
   location_x: -1
   location_y: -2
 - element: Katairite
   mass: 500
-  temperature: 17.1585712
+  temperature: 17.1597672
   location_y: -2
 - element: Katairite
   mass: 500
-  temperature: 17.1586227
+  temperature: 17.1598186
   location_x: 1
   location_y: -2
 - element: Katairite
   mass: 500
-  temperature: 17.1672401
+  temperature: 17.1708908
   location_x: 2
   location_y: -2
-- element: Vacuum
+- element: Phosphorite
+  mass: 600
+  temperature: 300.093842
   location_x: 3
   location_y: -2
-- element: Vacuum
+- element: Fossil
+  mass: 500
+  temperature: 300.149994
   location_x: 4
   location_y: -2
 - element: Cobaltite
   mass: 1250
-  temperature: 299.992889
+  temperature: 299.967377
   location_x: -3
   location_y: -1
 - element: Katairite
   mass: 500
-  temperature: 17.2503567
+  temperature: 17.2645912
   location_x: -2
   location_y: -1
 - element: Cobaltite
   mass: 1250
-  temperature: 299.681091
+  temperature: 299.573517
   location_x: -1
   location_y: -1
 - element: Water
   mass: 499.984741
-  temperature: 300.13681
+  temperature: 300.134552
   location_y: -1
 - element: Water
   mass: 500.015259
-  temperature: 300.139893
+  temperature: 300.138245
   location_x: 1
   location_y: -1
 - element: ToxicMud
   mass: 1000
-  temperature: 300.066376
+  temperature: 300.046082
   location_x: 2
   location_y: -1
 - element: Katairite
   mass: 500
-  temperature: 17.2126141
+  temperature: 17.2226944
   location_x: 3
   location_y: -1
 - element: Vacuum
@@ -79,111 +83,111 @@ cells:
   location_y: -1
 - element: Katairite
   mass: 500
-  temperature: 17.2057896
+  temperature: 17.2138519
   location_x: -3
 - element: CarbonDioxide
-  mass: 1.77993417
-  temperature: 279.520874
+  mass: 0.797383189
+  temperature: 284.742004
   location_x: -2
 - element: CarbonDioxide
-  mass: 0.689362526
-  temperature: 292.506226
+  mass: 1.70353866
+  temperature: 290.588074
   location_x: -1
 - element: CarbonDioxide
-  mass: 0.610573649
-  temperature: 294.481873
+  mass: 0.648840725
+  temperature: 292.13855
 - element: CarbonDioxide
-  mass: 0.632262588
-  temperature: 298.396973
+  mass: 0.638481736
+  temperature: 298.404114
   location_x: 1
 - element: Mud
   mass: 1000
-  temperature: 299.546722
+  temperature: 299.413483
   location_x: 2
 - element: ContaminatedOxygen
-  mass: 0.94814682
-  temperature: 293.799927
+  mass: 1.15690374
+  temperature: 294.132141
   location_x: 3
 - element: Katairite
   mass: 500
-  temperature: 17.1953678
+  temperature: 17.2017975
   location_x: 4
 - element: Katairite
   mass: 500
-  temperature: 17.1888638
+  temperature: 17.1940594
   location_x: -3
   location_y: 1
-- element: ContaminatedOxygen
-  mass: 0.226817057
-  temperature: 258.301422
+- element: CarbonDioxide
+  mass: 0.106959134
+  temperature: 284.363434
   location_x: -2
   location_y: 1
 - element: ContaminatedOxygen
-  mass: 0.822601199
-  temperature: 263.885895
+  mass: 0.264590055
+  temperature: 257.434998
   location_x: -1
   location_y: 1
-- element: CarbonDioxide
-  mass: 0.0904497653
-  temperature: 293.880493
+- element: ContaminatedOxygen
+  mass: 0.138944194
+  temperature: 288.490723
   location_y: 1
-- element: CarbonDioxide
-  mass: 0.0926206261
-  temperature: 298.396973
+- element: ContaminatedOxygen
+  mass: 1.06903827
+  temperature: 286.872925
   location_x: 1
   location_y: 1
 - element: ContaminatedOxygen
-  mass: 0.917053461
-  temperature: 290.592499
+  mass: 1.16010201
+  temperature: 282.2146
   location_x: 2
   location_y: 1
 - element: ContaminatedOxygen
-  mass: 0.951785505
-  temperature: 288.515991
+  mass: 1.19038427
+  temperature: 287.32373
   location_x: 3
   location_y: 1
 - element: Katairite
   mass: 500
-  temperature: 17.1947269
+  temperature: 17.2009392
   location_x: 4
   location_y: 1
 - element: Katairite
   mass: 500
-  temperature: 17.192934
+  temperature: 17.1985168
   location_x: -3
   location_y: 2
 - element: ContaminatedOxygen
-  mass: 1.59493852
-  temperature: 258.31076
+  mass: 2.15837145
+  temperature: 256.755188
   location_x: -2
   location_y: 2
 - element: ContaminatedOxygen
-  mass: 2.14745283
-  temperature: 261.017365
+  mass: 1.77567148
+  temperature: 257.434998
   location_x: -1
   location_y: 2
 - element: ContaminatedOxygen
-  mass: 1.1778084
-  temperature: 259.551208
+  mass: 1.65690911
+  temperature: 267.030762
   location_y: 2
 - element: ContaminatedOxygen
-  mass: 1.6615752
-  temperature: 267.036255
+  mass: 1.29853749
+  temperature: 271.712036
   location_x: 1
   location_y: 2
 - element: ContaminatedOxygen
-  mass: 0.945505321
-  temperature: 258.238159
+  mass: 1.24368727
+  temperature: 268.167267
   location_x: 2
   location_y: 2
 - element: ContaminatedOxygen
-  mass: 0.989206672
-  temperature: 253.031052
+  mass: 1.23754013
+  temperature: 266.151459
   location_x: 3
   location_y: 2
 - element: Katairite
   mass: 500
-  temperature: 17.1917706
+  temperature: 17.1543541
   location_x: 4
   location_y: 2
 - element: Vacuum
@@ -191,42 +195,49 @@ cells:
   location_y: 3
 - element: Katairite
   mass: 500
-  temperature: 17.192934
+  temperature: 17.1541061
   location_x: -2
   location_y: 3
 - element: Katairite
   mass: 500
-  temperature: 17.193388
+  temperature: 17.1990013
   location_x: -1
   location_y: 3
 - element: Katairite
   mass: 500
-  temperature: 17.1937866
+  temperature: 17.1996231
   location_y: 3
 - element: Katairite
   mass: 500
-  temperature: 17.1936684
+  temperature: 17.199604
   location_x: 1
   location_y: 3
 - element: Katairite
   mass: 500
-  temperature: 17.1928654
+  temperature: 17.1987076
   location_x: 2
   location_y: 3
 - element: Katairite
   mass: 500
-  temperature: 17.1917706
+  temperature: 17.1975613
   location_x: 3
   location_y: 3
 - element: Vacuum
   location_x: 4
   location_y: 3
 pickupables:
-- id: SwampHarvestPlantSeed
-  location_x: 4
-  location_y: 2
+- id: MushroomSeed
+  location_x: -1
   element: Creature
-  temperature: 293
+  temperature: 293.171326
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: SwampHarvestPlantSeed
+  location_x: -1
+  location_y: -1
+  element: Creature
+  temperature: 295.569824
   units: 1
   type: Pickupable
   rottable: {}
@@ -234,12 +245,12 @@ pickupables:
   location_x: 2
   location_y: 1
   element: Creature
-  temperature: 298.141388
+  temperature: 298.139648
   units: 1
   type: Pickupable
   rottable: {}
 - id: StaterpillarEgg
-  location_x: -2
+  location_x: -1
   location_y: 3
   element: Creature
   temperature: 293
@@ -247,10 +258,10 @@ pickupables:
   type: Pickupable
   rottable: {}
 - id: SwampForagePlant
-  location_x: -1
-  location_y: -2
+  location_x: 2
+  location_y: -1
   element: Creature
-  temperature: 293
+  temperature: 295.080383
   units: 1
   type: Pickupable
   rottable: {}
@@ -259,22 +270,33 @@ otherEntities:
   location_x: 2
   location_y: 1
   element: Creature
-  temperature: 294.302673
+  temperature: 294.267273
   units: 1
   type: Other
   amounts:
   - id: Maturity
-    value: 0.0113333147
+    value: 0.0127499737
   - id: Irrigation
   - id: AirPressure
-    value: 0.924817443
+    value: 1.13843238
   - id: Temperature
-    value: 294.27475
+    value: 294.281799
   - id: OldAge
   - id: Illumination
 - id: SwampForagePlantPlanted
   location_x: 3
   element: Creature
-  temperature: 292.996765
+  temperature: 292.996796
   units: 1
   type: Other
+- id: WineCups
+  location_x: -2
+  element: Creature
+  temperature: 292.810181
+  units: 1
+  type: Other
+  amounts:
+  - id: AirPressure
+    value: 1.06892622
+  - id: Temperature
+    value: 292.873108

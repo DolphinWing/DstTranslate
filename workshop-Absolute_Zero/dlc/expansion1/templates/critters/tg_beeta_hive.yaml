@@ -9,26 +9,26 @@ info:
 cells:
 - element: UraniumOre
   mass: 200
-  temperature: 300.149994
+  temperature: 299.701385
   location_x: -1
   location_y: -2
 - element: Katairite
   mass: 1000
-  temperature: 233.149994
+  temperature: 233.161209
   location_y: -2
 - element: Katairite
   mass: 1000
-  temperature: 233.149994
+  temperature: 233.161209
   location_x: 1
   location_y: -2
 - element: UraniumOre
   mass: 200
-  temperature: 300.149994
+  temperature: 299.701385
   location_x: 2
   location_y: -2
 - element: Katairite
   mass: 1000
-  temperature: 233.149994
+  temperature: 233.161209
   location_x: -1
   location_y: -1
 - element: Vacuum
@@ -38,7 +38,7 @@ cells:
   location_y: -1
 - element: Katairite
   mass: 1000
-  temperature: 233.149994
+  temperature: 233.161209
   location_x: 2
   location_y: -1
 - element: Katairite
@@ -54,7 +54,7 @@ cells:
   location_x: 2
 - element: Katairite
   mass: 1000
-  temperature: 233.149994
+  temperature: 233.161209
   location_x: -1
   location_y: 1
 - element: Vacuum
@@ -64,28 +64,44 @@ cells:
   location_y: 1
 - element: Katairite
   mass: 1000
-  temperature: 233.149994
+  temperature: 233.161209
   location_x: 2
   location_y: 1
-- element: UraniumOre
-  mass: 200
-  temperature: 300.149994
+- element: BleachStone
+  mass: 50
+  temperature: 238.149994
   location_x: -1
   location_y: 2
 - element: Katairite
   mass: 1000
-  temperature: 233.149994
+  temperature: 233.161209
   location_y: 2
 - element: Katairite
   mass: 1000
-  temperature: 233.149994
+  temperature: 233.161209
   location_x: 1
   location_y: 2
-- element: UraniumOre
-  mass: 200
-  temperature: 300.149994
+- element: Sulfur
+  mass: 500
+  temperature: 243.149994
   location_x: 2
   location_y: 2
+pickupables:
+- id: CritterTrapPlantSeed
+  location_x: 2
+  location_y: -2
+  element: Creature
+  temperature: 293
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: ToePlantSeed
+  location_y: -1
+  element: Creature
+  temperature: 293
+  units: 1
+  type: Pickupable
+  rottable: {}
 otherEntities:
 - id: BeeHive
   location_y: -1
@@ -95,7 +111,7 @@ otherEntities:
   type: Other
   amounts:
   - id: Calories
-    value: 40466000
+    value: 40346000
   - id: HitPoints
     value: 25
   - id: Temperature

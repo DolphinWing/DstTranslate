@@ -39,10 +39,12 @@ cells:
   location_y: -3
 - element: Sucrose
   mass: 500
-  temperature: 290.149994
+  temperature: 290.171051
   location_x: 3
   location_y: -3
-- element: Vacuum
+- element: SandStone
+  mass: 1000
+  temperature: 300.133514
   location_x: 4
   location_y: -3
 - element: Vacuum
@@ -58,26 +60,26 @@ cells:
   location_y: -2
 - element: Water
   mass: 800
-  temperature: 300.144196
+  temperature: 300.14325
   location_x: -2
   location_y: -2
 - element: Water
   mass: 800
-  temperature: 300.146973
+  temperature: 300.14624
   location_x: -1
   location_y: -2
 - element: Cuprite
   mass: 800
-  temperature: 300.003326
+  temperature: 299.98703
   location_y: -2
 - element: Sand
   mass: 2000
-  temperature: 300.07428
+  temperature: 300.062103
   location_x: 1
   location_y: -2
 - element: Sucrose
   mass: 500
-  temperature: 290.350677
+  temperature: 290.382874
   location_x: 2
   location_y: -2
 - element: Katairite
@@ -105,36 +107,36 @@ cells:
   location_y: -1
 - element: Oxygen
   mass: 1.79999995
-  temperature: 297.407806
+  temperature: 292.018707
   location_x: -2
   location_y: -1
 - element: Oxygen
   mass: 1.79999995
-  temperature: 292.582123
+  temperature: 297.283813
   location_x: -1
   location_y: -1
 - element: Oxygen
   mass: 1.79999995
-  temperature: 298.29776
+  temperature: 299.171722
   location_y: -1
 - element: Sand
   mass: 2000
-  temperature: 299.962372
+  temperature: 299.934265
   location_x: 1
   location_y: -1
 - element: Sulfur
   mass: 500
-  temperature: 291.015472
+  temperature: 291.148315
   location_x: 2
   location_y: -1
 - element: Oxygen
   mass: 1.79999995
-  temperature: 292.008179
+  temperature: 292.106903
   location_x: 3
   location_y: -1
 - element: Oxygen
   mass: 1.79999995
-  temperature: 291.955017
+  temperature: 292.756622
   location_x: 4
   location_y: -1
 - element: Katairite
@@ -150,30 +152,30 @@ cells:
   location_x: -3
 - element: Sulfur
   mass: 500
-  temperature: 290.92865
+  temperature: 291.012756
   location_x: -2
 - element: Oxygen
   mass: 1.79999995
-  temperature: 291.890839
+  temperature: 293.897003
   location_x: -1
 - element: Oxygen
   mass: 1.79999995
-  temperature: 299.016724
+  temperature: 291.932587
 - element: Oxygen
   mass: 1.79999995
-  temperature: 294.417755
+  temperature: 299.068665
   location_x: 1
 - element: Oxygen
   mass: 1.79999995
-  temperature: 297.709167
+  temperature: 292.160614
   location_x: 2
 - element: Oxygen
   mass: 1.79999995
-  temperature: 293.412842
+  temperature: 292.761749
   location_x: 3
 - element: Oxygen
   mass: 1.79999995
-  temperature: 292.163849
+  temperature: 292.21344
   location_x: 4
 - element: Katairite
   mass: 500
@@ -191,31 +193,31 @@ cells:
   location_y: 1
 - element: Oxygen
   mass: 1.79999995
-  temperature: 291.755157
+  temperature: 296.123047
   location_x: -2
   location_y: 1
 - element: Oxygen
   mass: 1.79999995
-  temperature: 292.603302
+  temperature: 291.899689
   location_x: -1
   location_y: 1
 - element: Oxygen
   mass: 1.79999995
-  temperature: 297.954956
+  temperature: 293.38913
   location_y: 1
 - element: Oxygen
   mass: 1.79999995
-  temperature: 298.172516
+  temperature: 298.071655
   location_x: 1
   location_y: 1
 - element: Oxygen
   mass: 1.79999995
-  temperature: 294.944214
+  temperature: 297.869904
   location_x: 2
   location_y: 1
 - element: Oxygen
   mass: 1.79999995
-  temperature: 298.296875
+  temperature: 295.057281
   location_x: 3
   location_y: 1
 - element: Katairite
@@ -228,11 +230,13 @@ cells:
   temperature: 300.149994
   location_x: 5
   location_y: 1
-- element: Vacuum
+- element: MaficRock
+  mass: 1840
+  temperature: 300.149994
   location_x: -4
   location_y: 2
-- element: SandStone
-  mass: 1000
+- element: IgneousRock
+  mass: 1840
   temperature: 300.149994
   location_x: -3
   location_y: 2
@@ -243,21 +247,21 @@ cells:
   location_y: 2
 - element: Oxygen
   mass: 1.79999995
-  temperature: 299.412415
+  temperature: 299.284973
   location_x: -1
   location_y: 2
 - element: Oxygen
   mass: 1.79999995
-  temperature: 299.141602
+  temperature: 298.866241
   location_y: 2
 - element: Oxygen
   mass: 1.79999995
-  temperature: 299.687317
+  temperature: 299.610046
   location_x: 1
   location_y: 2
 - element: Oxygen
   mass: 1.79999995
-  temperature: 299.165924
+  temperature: 299.098358
   location_x: 2
   location_y: 2
 - element: Katairite
@@ -273,14 +277,16 @@ cells:
 - element: Vacuum
   location_x: 5
   location_y: 2
-- element: Vacuum
+- element: Obsidian
+  mass: 1000
+  temperature: 300.149994
   location_x: -4
   location_y: 3
 - element: Vacuum
   location_x: -3
   location_y: 3
-- element: SandStone
-  mass: 1000
+- element: IgneousRock
+  mass: 1840
   temperature: 300.149994
   location_x: -2
   location_y: 3
@@ -315,11 +321,19 @@ cells:
   location_x: 5
   location_y: 3
 pickupables:
+- id: ColdBreatherSeed
+  location_x: 2
+  location_y: 3
+  element: Creature
+  temperature: 293
+  units: 1
+  type: Pickupable
+  rottable: {}
 - id: DivergentBeetle
   location_x: 3
   location_y: -1
   element: Creature
-  temperature: 298.141693
+  temperature: 298.138275
   units: 1
   type: Pickupable
   rottable: {}
@@ -331,62 +345,46 @@ pickupables:
   units: 1
   type: Pickupable
   rottable: {}
-- id: ColdBreatherSeed
-  location_x: 2
-  location_y: 3
-  element: Creature
-  temperature: 293
-  units: 1
-  type: Pickupable
-  rottable: {}
-- id: WormPlantSeed
-  location_x: 4
-  location_y: -1
-  element: Creature
-  temperature: 292.881042
-  units: 1
-  type: Pickupable
-  rottable: {}
 otherEntities:
 - id: SuperWormPlant
   location_y: -1
   element: Creature
-  temperature: 304.648315
+  temperature: 304.323547
   units: 1
   type: Other
   amounts:
   - id: Maturity
-    value: 0.00966665708
+    value: 0.0110833161
   - id: Fertilization
   - id: AirPressure
-    value: 1.79978096
+    value: 1.24000001
   - id: Temperature
-    value: 304.706543
+    value: 304.418396
   - id: OldAge
 - id: WormPlant
   location_x: 2
   element: Creature
-  temperature: 303.970032
+  temperature: 303.540314
   units: 1
   type: Other
   amounts:
   - id: Maturity
-    value: 0.00966665708
+    value: 0.0110833161
   - id: Fertilization
   - id: AirPressure
-    value: 1.79978096
+    value: 1.24000001
   - id: Temperature
-    value: 304.03418
+    value: 303.685974
   - id: OldAge
 - id: Cylindrica
   location_x: -2
   location_y: 1
   element: Creature
-  temperature: 296.816101
+  temperature: 296.636047
   units: 1
   type: Other
   amounts:
   - id: AirPressure
-    value: 1.79978096
+    value: 1.40799999
   - id: Temperature
-    value: 296.86618
+    value: 296.659302
