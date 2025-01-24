@@ -79,7 +79,7 @@ subworldFiles:
     minCount: 4
   - name: expansion1::subworlds/absolutezero/FrozenCoreABZ
   - name: expansion1::subworlds/absolutezero/JungleFrozenABZ
-  - name: expansion1::subworlds/frozen/FrozenMedium
+  - name: expansion1::subworlds/absolutezero/FrozenMediumABZ
   - name: subworlds/absolutezero/FrozenABZ
   - name: subworlds/absolutezero/FrozenSolidABZ
     minCount: 3
@@ -108,7 +108,6 @@ unknownCellsAllowedSubworlds:
     subworldNames:
       - expansion1::subworlds/absolutezero/WastelandBeetleCoolABZ
       - expansion1::subworlds/absolutezero/SwampABZ
-      - expansion1::subworlds/absolutezero/JungleFrozenABZ
       - (Mixing1)
       - (Mixing2)
   # Ring-2
@@ -120,7 +119,7 @@ unknownCellsAllowedSubworlds:
     subworldNames:
       - subworlds/absolutezero/FrozenABZ
       - expansion1::subworlds/absolutezero/WastelandBeetleCoolABZ
-      - expansion1::subworlds/frozen/FrozenMedium
+      - expansion1::subworlds/absolutezero/FrozenMediumABZ
       - expansion1::subworlds/absolutezero/JungleFrozenABZ
       - (Mixing1)
       - (Mixing2)
@@ -133,7 +132,7 @@ unknownCellsAllowedSubworlds:
     subworldNames:
       - subworlds/absolutezero/FrozenABZ
       - subworlds/absolutezero/ABZMarshSlush
-      - expansion1::subworlds/frozen/FrozenMedium
+      - expansion1::subworlds/absolutezero/FrozenMediumABZ
       - expansion1::subworlds/absolutezero/JungleFrozenABZ
       - (Mixing1)
       - (Mixing2)
@@ -346,3 +345,29 @@ worldTemplateRules:
       tag: AtSurface
       minDistance: 0
       maxDistance: 2
+  # Critter Caves
+  - names:
+    - critters/tg_wheat_wort
+    - expansion1::critters/tg_divertgent
+    - expansion1::critters/tg_plug_slug
+    listRule: GuaranteeAll
+    priority: 120
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 2
+        maxDistance: 99
+      - command: ExceptWith
+        tagcommand: AtTag
+        tag: NoGravitasFeatures
+      - command: ExceptWith
+        tagcommand: DistanceFromTag
+        tag: AtDepths
+        minDistance: 0
+        maxDistance: 1
+      - command: ExceptWith
+        tagcommand: DistanceFromTag
+        tag: AtSurface
+        minDistance: 0
+        maxDistance: 1

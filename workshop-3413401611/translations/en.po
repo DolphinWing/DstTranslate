@@ -15,8 +15,8 @@ msgstr "Extreme Rime planet"
 
 #. NotZeroK.WorldConstants.WORLD_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.WORLD_DESCRIPTION"
-msgid "Not 0K, But Pretty Cool"
-msgstr "Not 0K, But Pretty Cool"
+msgid "Not 0K, But Pretty Cool Place"
+msgstr "Not 0K, But Pretty Cool Place"
 
 #. NotZeroK.WorldConstants.CLUSTER_SO_NAME
 msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_NAME"
@@ -35,8 +35,8 @@ msgstr "Extreme Rime asteroid"
 
 #. NotZeroK.WorldConstants.WORLD_SO_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.WORLD_SO_DESCRIPTION"
-msgid "Not 0K, But Pretty Cool"
-msgstr "Not 0K, But Pretty Cool"
+msgid "Not 0K, But Pretty Cool Place"
+msgstr "Not 0K, But Pretty Cool Place"
 
 #. NotZeroK.WorldConstants.CLUSTER_SO_MINI_NAME
 msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_MINI_NAME"
@@ -55,8 +55,8 @@ msgstr "Extreme Rime Mini planet"
 
 #. NotZeroK.WorldConstants.WORLD_SO_MINI_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.WORLD_SO_MINI_DESCRIPTION"
-msgid "Not 0K, But Pretty Cool"
-msgstr "Not 0K, But Pretty Cool"
+msgid "Not 0K, But Pretty Cool Place"
+msgstr "Not 0K, But Pretty Cool Place"
 
 #. NotZeroK.WorldConstants.CLUSTER_SO_MOONLET_NAME
 msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_MOONLET_NAME"
@@ -75,5 +75,5 @@ msgstr "Extreme Rime Moonlet"
 
 #. NotZeroK.WorldConstants.WORLD_SO_MOONLET_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.WORLD_SO_MOONLET_DESCRIPTION"
-msgid "Not 0K, But Pretty Cool"
-msgstr "Not 0K, But Pretty Cool"
+msgid "Not 0K, But Pretty Cool Place"
+msgstr "Not 0K, But Pretty Cool Place"

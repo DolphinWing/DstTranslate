@@ -15,8 +15,8 @@ msgstr "極限冰星"
 
 #. NotZeroK.WorldConstants.WORLD_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.WORLD_DESCRIPTION"
-msgid "Not 0K, But Pretty Cool"
-msgstr "不 0K，但冷酷"
+msgid "Not 0K, But Pretty Cool Place"
+msgstr "不 0K，但冷酷地"
 
 #. NotZeroK.WorldConstants.CLUSTER_SO_NAME
 msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_NAME"
@@ -35,8 +35,8 @@ msgstr "極限冰小行星"
 
 #. NotZeroK.WorldConstants.WORLD_SO_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.WORLD_SO_DESCRIPTION"
-msgid "Not 0K, But Pretty Cool"
-msgstr "不 0K，但冷酷"
+msgid "Not 0K, But Pretty Cool Place"
+msgstr "不 0K，但冷酷地"
 
 #. NotZeroK.WorldConstants.CLUSTER_SO_MINI_NAME
 msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_MINI_NAME"
@@ -55,8 +55,8 @@ msgstr "迷你極限冰星"
 
 #. NotZeroK.WorldConstants.WORLD_SO_MINI_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.WORLD_SO_MINI_DESCRIPTION"
-msgid "Not 0K, But Pretty Cool"
-msgstr "不 0K，但冷酷"
+msgid "Not 0K, But Pretty Cool Place"
+msgstr "不 0K，但冷酷地"
 
 #. NotZeroK.WorldConstants.CLUSTER_SO_MOONLET_NAME
 msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_MOONLET_NAME"
@@ -75,5 +75,5 @@ msgstr "極限冰衛星"
 
 #. NotZeroK.WorldConstants.WORLD_SO_MOONLET_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.WORLD_SO_MOONLET_DESCRIPTION"
-msgid "Not 0K, But Pretty Cool"
-msgstr "不 0K，但冷酷"
+msgid "Not 0K, But Pretty Cool Place"
+msgstr "不 0K，但冷酷地"
