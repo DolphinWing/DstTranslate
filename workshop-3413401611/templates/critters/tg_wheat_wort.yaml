@@ -37,16 +37,16 @@ cells:
   location_y: -2
 - element: Katairite
   mass: 500
-  temperature: 248.15007
+  temperature: 248.150162
   location_x: -1
   location_y: -2
 - element: DirtyIce
   mass: 500
-  temperature: 230.18924
+  temperature: 230.234543
   location_y: -2
 - element: BrineIce
   mass: 1000
-  temperature: 232.153885
+  temperature: 232.166748
   location_x: 1
   location_y: -2
 - element: Ice
@@ -61,26 +61,26 @@ cells:
   location_y: -2
 - element: Katairite
   mass: 500
-  temperature: 248.15007
+  temperature: 248.150162
   location_x: -2
   location_y: -1
 - element: CarbonDioxide
-  mass: 2.20000005
-  temperature: 277.235718
+  mass: 2.11527848
+  temperature: 251.00061
   location_x: -1
   location_y: -1
 - element: CarbonDioxide
-  mass: 2.1500001
-  temperature: 249.405609
+  mass: 2.00074959
+  temperature: 234.206421
   location_y: -1
 - element: Ice
   mass: 1000
-  temperature: 232.200287
+  temperature: 232.242065
   location_x: 1
   location_y: -1
 - element: Ice
   mass: 1000
-  temperature: 232.177139
+  temperature: 232.209076
   location_x: 2
   location_y: -1
 - element: Katairite
@@ -94,18 +94,18 @@ cells:
   location_x: -2
 - element: Granite
   mass: 1840
-  temperature: 248.206436
+  temperature: 248.272491
   location_x: -1
 - element: CarbonDioxide
-  mass: 2.20000005
-  temperature: 277.366302
+  mass: 2.27703762
+  temperature: 249.836472
 - element: CarbonDioxide
-  mass: 2.20000005
-  temperature: 270.363129
+  mass: 2.23215389
+  temperature: 236.432892
   location_x: 1
 - element: CarbonDioxide
-  mass: 2.20000005
-  temperature: 270.303741
+  mass: 2.20918703
+  temperature: 236.262741
   location_x: 2
 - element: Katairite
   mass: 500
@@ -118,55 +118,55 @@ cells:
   location_y: 1
 - element: Snow
   mass: 10
-  temperature: 246.755798
+  temperature: 251.12944
   location_x: -1
   location_y: 1
 - element: CarbonDioxide
-  mass: 2.20000005
-  temperature: 277.712555
+  mass: 2.23314214
+  temperature: 253.129883
   location_y: 1
 - element: CarbonDioxide
-  mass: 2.20000005
-  temperature: 275.460144
+  mass: 2.2171011
+  temperature: 254.396973
   location_x: 1
   location_y: 1
 - element: CarbonDioxide
-  mass: 2.20000005
-  temperature: 299.98407
+  mass: 2.20652771
+  temperature: 265.446075
   location_x: 2
   location_y: 1
 - element: Katairite
   mass: 500
-  temperature: 248.150085
+  temperature: 248.150269
   location_x: 3
   location_y: 1
 - element: Katairite
   mass: 500
-  temperature: 248.15007
+  temperature: 248.150177
   location_x: -2
   location_y: 2
 - element: CarbonDioxide
-  mass: 2.20000005
-  temperature: 275.316223
+  mass: 2.20090127
+  temperature: 253.40712
   location_x: -1
   location_y: 2
 - element: CarbonDioxide
-  mass: 2.20000005
-  temperature: 277.716309
+  mass: 2.20585275
+  temperature: 254.385071
   location_y: 2
 - element: Wolframite
   mass: 600
-  temperature: 250.227539
+  temperature: 252.883377
   location_x: 1
   location_y: 2
 - element: CarbonDioxide
-  mass: 2.20000005
-  temperature: 277.582001
+  mass: 2.20116568
+  temperature: 260.639099
   location_x: 2
   location_y: 2
 - element: Katairite
   mass: 500
-  temperature: 248.15007
+  temperature: 248.150269
   location_x: 3
   location_y: 2
 - element: SandStone
@@ -176,26 +176,26 @@ cells:
   location_y: 3
 - element: Katairite
   mass: 500
-  temperature: 248.150162
+  temperature: 248.150635
   location_x: -1
   location_y: 3
 - element: CarbonDioxide
-  mass: 2.20000005
-  temperature: 299.912598
+  mass: 2.20083332
+  temperature: 298.192627
   location_y: 3
 - element: CarbonDioxide
-  mass: 2.20000005
-  temperature: 277.581909
+  mass: 2.20007181
+  temperature: 254.954147
   location_x: 1
   location_y: 3
 - element: Katairite
   mass: 500
-  temperature: 248.150146
+  temperature: 248.150467
   location_x: 2
   location_y: 3
 - element: Sand
   mass: 1000
-  temperature: 248.146988
+  temperature: 248.135574
   location_x: 3
   location_y: 3
 - element: Vacuum
@@ -208,11 +208,11 @@ cells:
   location_y: 4
 - element: Katairite
   mass: 500
-  temperature: 248.150085
+  temperature: 248.150452
   location_y: 4
 - element: Katairite
   mass: 500
-  temperature: 248.15007
+  temperature: 248.150192
   location_x: 1
   location_y: 4
 - element: Vacuum
@@ -220,19 +220,10 @@ cells:
   location_y: 4
 - element: Snow
   mass: 10
-  temperature: 242.271576
+  temperature: 242.733215
   location_x: 3
   location_y: 4
 pickupables:
-- id: BeanPlantSeed
-  location_x: 1
-  location_y: -2
-  element: Creature
-  temperature: 288.864166
-  units: 1
-  type: Pickupable
-  rottable:
-    rotAmount: 4800
 - id: ColdBreatherSeed
   location_x: 2
   location_y: 3
@@ -241,48 +232,62 @@ pickupables:
   units: 1
   type: Pickupable
   rottable: {}
+- id: BeanPlantSeed
+  location_x: 1
+  location_y: -2
+  element: Creature
+  temperature: 274.958069
+  units: 1
+  type: Pickupable
+  rottable:
+    rotAmount: 4800
 elementalOres:
 - id: CarbonDioxide
   location_y: -1
   element: CarbonDioxide
-  temperature: 248.694412
-  units: 0.0500000007
+  temperature: 237.446732
+  units: 0.099999994
   type: Ore
 otherEntities:
 - id: ColdWheat
   location_x: 1
   element: Creature
-  temperature: 254.946503
+  temperature: 254.521957
   units: 1
   type: Other
   amounts:
   - id: Maturity
-    value: 0.000166666679
+    value: 0.000750000065
   - id: Fertilization
   - id: Irrigation
   - id: AirPressure
+    value: 1.36135006
   - id: Temperature
+    value: 254.860321
   - id: OldAge
 - id: ColdWheat
   location_x: 2
   element: Creature
-  temperature: 254.946411
+  temperature: 254.521149
   units: 1
   type: Other
   amounts:
   - id: Maturity
-    value: 0.000166666679
+    value: 0.000750000065
   - id: Fertilization
   - id: Irrigation
   - id: AirPressure
+    value: 1.36000001
   - id: Temperature
+    value: 254.860168
   - id: OldAge
 - id: ColdBreather
   location_y: -1
   element: Creature
-  temperature: 292.991699
+  temperature: 292.954834
   units: 1
   type: Other
   amounts:
   - id: Fertilization
   - id: Temperature
+    value: 292.978027
