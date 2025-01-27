@@ -415,5 +415,5 @@ worldTemplateRules:
       - command: Replace
         tagcommand: DistanceFromTag
         tag: AtStart
-        minDistance: 1
+        minDistance: 0
         maxDistance: 1
