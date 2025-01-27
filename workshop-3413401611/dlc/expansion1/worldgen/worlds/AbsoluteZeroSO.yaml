@@ -56,6 +56,8 @@ subworldMixingRules:
 
 # List all the zone files to load
 subworldFiles:
+  - name: subworlds/sandstone/SandstoneStartCold
+  - name: subworlds/sandstone/SandstoneFrozen
   - name: subworlds/absolutezero/ABZMarshSlush
   - name: subworlds/absolutezero/BarrenGraniteABZ
   - name: subworlds/absolutezero/CO2LakesABZ
@@ -91,15 +93,16 @@ subworldFiles:
   - name: expansion1::subworlds/absolutezero/SwampABZ
   - name: expansion1::subworlds/absolutezero/WastelandBeetleCoolABZ
 
-startSubworldName: subworlds/absolutezero/SandstoneStartABZ
-startingBaseTemplate: bases/ABZBase
+startSubworldName: subworlds/sandstone/SandstoneStartCold
+#startingBaseTemplate: bases/ABZBase
+startingBaseTemplate: bases/sandstoneBase
 
 # When we are converting unknown cells, this will give us the options, processed in this order, the effects are cumlative
 unknownCellsAllowedSubworlds: 
   - tagcommand: Default
     command: Replace
     subworldNames:
-      - subworlds/absolutezero/SandstoneStartABZ
+      - subworlds/sandstone/SandstoneFrozen
   # Ring-1
   - tagcommand: DistanceFromTag
     tag: AtStart
@@ -402,3 +405,15 @@ worldTemplateRules:
         tag: AtSurface
         minDistance: 0
         maxDistance: 3
+  # Survival Zones
+  - names:
+    - bases/tg_abz_gift_base
+    - expansion1::bases/tg_abz_gift_base_so
+    listRule: GuaranteeOne
+    priority: 450
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 1
+        maxDistance: 1

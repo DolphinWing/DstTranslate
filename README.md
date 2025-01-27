@@ -10,6 +10,10 @@ This is a personal project that includes my mod work for the games by Klei Enter
 ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3046440992?logo=steam) 
 ![Steam Favorites](https://img.shields.io/steam/favorites/3046440992?logo=steam) <br />
 [workshop-3046440992](workshop-3046440992) is a quick fix update to [Font Loader for Traditional Chinese](https://steamcommunity.com/workshop/filedetails/?id=2119648603) after Oct 2023 QoL.
+* ONI [不 0K，但冷酷地](https://steamcommunity.com/sharedfiles/filedetails/?id=3413401611) <br />
+![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3413401611?logo=steam) 
+![Steam Favorites](https://img.shields.io/steam/favorites/3413401611?logo=steam) <br />
+[workshop-3413401611](workshop-3413401611) is a map mod for 0K challenge.
 * DST [正體中文包](https://steamcommunity.com/sharedfiles/filedetails/?id=1993780385) <br />
 ![GitHub package.json version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/DolphinWing/DSTTranslate?filename=workshop-1993780385%2Fpackage.json&logo=github) 
 ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/1993780385?logo=steam) 
