@@ -1,0 +1,19 @@
+#. DolphinWing.ONI.NiobiumMoonletStart.Constants.CLUSTER_NAME
+msgctxt "DolphinWing.ONI.NiobiumMoonletStart.Constants.CLUSTER_NAME"
+msgid "Moonlet Cluster - Superconductive"
+msgstr "Moonlet Cluster - Superconductive"
+
+#. DolphinWing.ONI.NiobiumMoonletStart.Constants.CLUSTER_DESCRIPTION
+msgctxt "DolphinWing.ONI.NiobiumMoonletStart.Constants.CLUSTER_DESCRIPTION"
+msgid "A cluster of visitable planetoids with a Superconductive starting world."
+msgstr "A cluster of visitable planetoids with a Superconductive starting world."
+
+#. STRINGS.CLUSTER_NAMES.NIOBIUMMOONLETSTART.NAME
+msgctxt "STRINGS.CLUSTER_NAMES.NIOBIUMMOONLETSTART.NAME"
+msgid "Moonlet Cluster - Superconductive"
+msgstr "Moonlet Cluster - Superconductive"
+
+#. STRINGS.CLUSTER_NAMES.NIOBIUMMOONLETSTART.DESCRIPTION
+msgctxt "STRINGS.CLUSTER_NAMES.NIOBIUMMOONLETSTART.DESCRIPTION"
+msgid "A cluster of visitable planetoids with a Superconductive starting world."
+msgstr "A cluster of visitable planetoids with a Superconductive starting world."
