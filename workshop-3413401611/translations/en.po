@@ -1,7 +1,7 @@
 #. NotZeroK.WorldConstants.CLUSTER_NAME
 msgctxt "NotZeroK.WorldConstants.CLUSTER_NAME"
 msgid "Extreme Rime Classic"
-msgstr "Extreme Rime Classic"
+msgstr "Not 0K Classic"
 
 #. NotZeroK.WorldConstants.CLUSTER_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.CLUSTER_DESCRIPTION"
@@ -11,7 +11,7 @@ msgstr "0K challenge"
 #. NotZeroK.WorldConstants.WORLD_NAME
 msgctxt "NotZeroK.WorldConstants.WORLD_NAME"
 msgid "Extreme Rime planet"
-msgstr "Extreme Rime planet"
+msgstr "Not 0K planet"
 
 #. NotZeroK.WorldConstants.WORLD_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.WORLD_DESCRIPTION"
@@ -21,7 +21,7 @@ msgstr "Not 0K, But Pretty Cool Place"
 #. NotZeroK.WorldConstants.CLUSTER_SO_NAME
 msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_NAME"
 msgid "Extreme Rime Cluster"
-msgstr "Extreme Rime Cluster"
+msgstr "Not 0K Cluster"
 
 #. NotZeroK.WorldConstants.CLUSTER_SO_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_DESCRIPTION"
@@ -31,7 +31,7 @@ msgstr "0K challenge in Spaced Out!"
 #. NotZeroK.WorldConstants.WORLD_SO_NAME
 msgctxt "NotZeroK.WorldConstants.WORLD_SO_NAME"
 msgid "Extreme Rime asteroid"
-msgstr "Extreme Rime asteroid"
+msgstr "Not 0K asteroid"
 
 #. NotZeroK.WorldConstants.WORLD_SO_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.WORLD_SO_DESCRIPTION"
@@ -41,7 +41,7 @@ msgstr "Not 0K, But Pretty Cool Place"
 #. NotZeroK.WorldConstants.CLUSTER_SO_MINI_NAME
 msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_MINI_NAME"
 msgid "Extreme Rime Mini Cluster"
-msgstr "Extreme Rime Mini Cluster"
+msgstr "Not 0K Mini Cluster"
 
 #. NotZeroK.WorldConstants.CLUSTER_SO_MINI_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_MINI_DESCRIPTION"
@@ -51,7 +51,7 @@ msgstr "0K challenge in Spaced Out!"
 #. NotZeroK.WorldConstants.WORLD_SO_MINI_NAME
 msgctxt "NotZeroK.WorldConstants.WORLD_SO_MINI_NAME"
 msgid "Extreme Rime Mini planet"
-msgstr "Extreme Rime Mini planet"
+msgstr "Not 0K Mini planet"
 
 #. NotZeroK.WorldConstants.WORLD_SO_MINI_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.WORLD_SO_MINI_DESCRIPTION"
@@ -61,7 +61,7 @@ msgstr "Not 0K, But Pretty Cool Place"
 #. NotZeroK.WorldConstants.CLUSTER_SO_MOONLET_NAME
 msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_MOONLET_NAME"
 msgid "Extreme Rime Moonlet Cluster"
-msgstr "Extreme Rime Moonlet Cluster"
+msgstr "Not 0K Moonlet Cluster"
 
 #. NotZeroK.WorldConstants.CLUSTER_SO_MOONLET_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_MOONLET_DESCRIPTION"
@@ -71,7 +71,7 @@ msgstr "0K challenge in Spaced Out!"
 #. NotZeroK.WorldConstants.WORLD_SO_MOONLET_NAME
 msgctxt "NotZeroK.WorldConstants.WORLD_SO_MOONLET_NAME"
 msgid "Extreme Rime Moonlet"
-msgstr "Extreme Rime Moonlet"
+msgstr "Not 0K Moonlet"
 
 #. NotZeroK.WorldConstants.WORLD_SO_MOONLET_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.WORLD_SO_MOONLET_DESCRIPTION"

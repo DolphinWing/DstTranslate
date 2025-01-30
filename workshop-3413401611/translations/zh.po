@@ -1,7 +1,7 @@
 #. NotZeroK.WorldConstants.CLUSTER_NAME
 msgctxt "NotZeroK.WorldConstants.CLUSTER_NAME"
 msgid "Classic Extreme Rime"
-msgstr "經典極限冰星"
+msgstr "經典不 0K 星"
 
 #. NotZeroK.WorldConstants.CLUSTER_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.CLUSTER_DESCRIPTION"
@@ -11,7 +11,7 @@ msgstr "0K 大挑戰"
 #. NotZeroK.WorldConstants.WORLD_NAME
 msgctxt "NotZeroK.WorldConstants.WORLD_NAME"
 msgid "Extreme Rime planet"
-msgstr "極限冰星"
+msgstr "不 0K 星"
 
 #. NotZeroK.WorldConstants.WORLD_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.WORLD_DESCRIPTION"
@@ -21,7 +21,7 @@ msgstr "不 0K，但冷酷地"
 #. NotZeroK.WorldConstants.CLUSTER_SO_NAME
 msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_NAME"
 msgid "Extreme Rime Cluster"
-msgstr "極限冰星星團"
+msgstr "不 0K 星星團"
 
 #. NotZeroK.WorldConstants.CLUSTER_SO_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_DESCRIPTION"
@@ -31,7 +31,7 @@ msgstr "眼冒金星 0K 大挑戰!"
 #. NotZeroK.WorldConstants.WORLD_SO_NAME
 msgctxt "NotZeroK.WorldConstants.WORLD_SO_NAME"
 msgid "Extreme Rime asteroid"
-msgstr "極限冰小行星"
+msgstr "不 0K 小行星"
 
 #. NotZeroK.WorldConstants.WORLD_SO_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.WORLD_SO_DESCRIPTION"
@@ -41,7 +41,7 @@ msgstr "不 0K，但冷酷地"
 #. NotZeroK.WorldConstants.CLUSTER_SO_MINI_NAME
 msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_MINI_NAME"
 msgid "Extreme Rime Mini Cluster"
-msgstr "極限冰星迷你星團"
+msgstr "不 0K 星迷你星團"
 
 #. NotZeroK.WorldConstants.CLUSTER_SO_MINI_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_MINI_DESCRIPTION"
@@ -51,7 +51,7 @@ msgstr "眼冒金星 0K 大挑戰!"
 #. NotZeroK.WorldConstants.WORLD_SO_MINI_NAME
 msgctxt "NotZeroK.WorldConstants.WORLD_SO_MINI_NAME"
 msgid "Extreme Rime Mini planet"
-msgstr "迷你極限冰星"
+msgstr "迷你不 0K 星"
 
 #. NotZeroK.WorldConstants.WORLD_SO_MINI_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.WORLD_SO_MINI_DESCRIPTION"
@@ -61,7 +61,7 @@ msgstr "不 0K，但冷酷地"
 #. NotZeroK.WorldConstants.CLUSTER_SO_MOONLET_NAME
 msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_MOONLET_NAME"
 msgid "Extreme Rime Moonlet Cluster"
-msgstr "極限冰星衛星星團"
+msgstr "不 0K 星衛星星團"
 
 #. NotZeroK.WorldConstants.CLUSTER_SO_MOONLET_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.CLUSTER_SO_MOONLET_DESCRIPTION"
@@ -71,7 +71,7 @@ msgstr "眼冒金星 0K 大挑戰!"
 #. NotZeroK.WorldConstants.WORLD_SO_MOONLET_NAME
 msgctxt "NotZeroK.WorldConstants.WORLD_SO_MOONLET_NAME"
 msgid "Extreme Rime Moonlet"
-msgstr "極限冰衛星"
+msgstr "不 0K 衛星"
 
 #. NotZeroK.WorldConstants.WORLD_SO_MOONLET_DESCRIPTION
 msgctxt "NotZeroK.WorldConstants.WORLD_SO_MOONLET_DESCRIPTION"

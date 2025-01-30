@@ -79,7 +79,7 @@ subworldFiles:
     minCount: 1
   - name: subworlds/absolutezero/SandstoneMiniWaterABZ
     minCount: 1
-  - name: subworlds/absolutezero/SandstoneStartABZ
+#  - name: subworlds/absolutezero/SandstoneStartABZ
   - name: subworlds/absolutezero/SpaceABZ
   - name: subworlds/absolutezero/SurfaceABZ
   - name: expansion1::subworlds/absolutezero/FrozenCoreABZ
