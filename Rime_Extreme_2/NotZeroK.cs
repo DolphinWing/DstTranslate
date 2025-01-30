@@ -2,6 +2,7 @@
 using PeterHan.PLib.Core;
 using PeterHan.PLib.Database;
 using ProcGen;
+using ProcGenGame;
 using System;
 using System.Collections.Generic;
 
@@ -18,14 +19,20 @@ namespace NotZeroK
             temperatureReverseTable.Add(id, (object)hash);
         }
 
+        /// <summary>
+        /// The enum value used for 100K subworlds.
+        /// </summary>
+        public const Temperature.Range TG_AbsoluteZero = (Temperature.Range)18;
+        public const Temperature.Range TG_SuperCold = (Temperature.Range)19;
+
         public override void OnLoad(Harmony harmony)
         {
             base.OnLoad(harmony);
             PUtil.InitLibrary();
             new PLocalization().Register();
 
-            AddHashToTable((Temperature.Range)18, "AbsoluteZero");
-            AddHashToTable((Temperature.Range)19, "SuperCold");
+            AddHashToTable(TG_AbsoluteZero, "AbsoluteZero");
+            AddHashToTable(TG_SuperCold, "SuperCold");
         }
 
         [HarmonyPatch(typeof(Enum), "ToString", new Type[] { })]
@@ -43,5 +50,27 @@ namespace NotZeroK
                 !enumType.Equals(typeof(Temperature.Range)) || 
                 !temperatureReverseTable.TryGetValue(value, out __result);
         }
+
+        ///// <summary>
+        ///// Applied to TerrainCell to "fix" the temperature range of Volcanoes, Magma Channels,
+        ///// Buried Oil, Subsurface Ocean, and Irregular Oil to 100 K.
+        ///// </summary>
+        //[HarmonyPatch(typeof(TerrainCell), "GetTemperatureRange", typeof(WorldGen))]
+        //public static class TerrainCell_GetTemperatureRange_Patch
+        //{
+        //    /// <summary>
+        //    /// Applied after GetTemperatureRange runs.
+        //    /// </summary>
+        //    internal static void Postfix(WorldGen worldGen, ref Temperature.Range __result)
+        //    {
+        //        var world = worldGen.Settings?.world;
+        //        var temp = __result;
+        //        if (world != null && world.name.StartsWith("NotZeroK.WorldConstants.") && 
+        //            temp > Temperature.Range.VeryCold && temp <= Temperature.Range.ExtremelyHot)
+        //        {
+        //            __result = TG_AbsoluteZero; // Override temp
+        //        }
+        //    }
+        //}
     }
 }

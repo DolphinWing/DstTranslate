@@ -22,11 +22,11 @@ This is a personal project that includes my mod work for the games by Klei Enter
 [workshop-1993780385](workshop-1993780385) is a DST client-side language pack mod. It also supports server-side language update.
 
 * [FontLoader](FontLoader) is the .NET project referenced from [古靈精怪的字型模組](https://github.com/dershiuan/ONI-Mods/tree/v2.0.4/FontLoader)
-* [Rime_Extreme_2](Rime_Extreme_2) and [TorchGod_Voidria](TorchGod_Voidria) are both for mod maps.
+* [Niobium_Start](Niobium_Start), [Rime_Extreme_2](Rime_Extreme_2) and [TorchGod_Voidria](TorchGod_Voidria) are for modded maps.
 
 ### Mod Reference
 
-Thanks those developer who have done brilliant work on these mods
+Thanks those developers who have done brilliant work on these mods
 
 #### Don't Starve Together
 * [漢化增強Chinese++](https://steamcommunity.com/sharedfiles/filedetails/?id=1418746242)
@@ -38,12 +38,14 @@ Thanks those developer who have done brilliant work on these mods
 * 古靈精怪 [字型模組](https://steamcommunity.com/workshop/filedetails/?id=2119648603) & [GitHub](https://github.com/dershiuan/ONI-Mods/tree/v2.0.4/FontLoader)
 * TorchGod [Voidria](https://github.com/TorchGod531/Voidria)
 * DEPRECATED [Absolute Zero](https://steamcommunity.com/sharedfiles/filedetails/?id=1746056079)
+* Peter Han [100K Challenge](https://steamcommunity.com/sharedfiles/filedetails/?id=2228381429) & [GitHub](https://github.com/peterhaneve/ONIMods/tree/main/Challenge100K)
 
 ### Other Reference
 * [图文教程 - 如何自建MOD](https://steamcommunity.com/sharedfiles/filedetails/?id=676286328) for Don't Starve Together
 * [BmFont 製作字體檔](https://cwa1022.pixnet.net/blog/post/15527479)
 * [Creating/Using Translation Files](https://forums.kleientertainment.com/forums/topic/74765-creatingusing-translation-files-updated-august-22nd-2017/) for Oxygen Not Included
 * [Cairath's Unofficial Modding Guide](https://github.com/Cairath/Oxygen-Not-Included-Modding/wiki)
+* [PLib](https://github.com/peterhaneve/ONIMods/tree/main/PLib) is Peter's library for making mods.
 
 ### Internal work
 
