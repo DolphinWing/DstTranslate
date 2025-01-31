@@ -15,6 +15,11 @@ This is a personal project that includes my mod work for the games by Klei Enter
 ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3413401611?logo=steam) 
 ![Steam Favorites](https://img.shields.io/steam/favorites/3413401611?logo=steam) <br />
 [workshop-3413401611](workshop-3413401611) is a map mod for 0K challenge.
+* ONI [Moonlet Cluster - Superconductive](https://steamcommunity.com/sharedfiles/filedetails/?id=3418019940)<br />
+![GitHub package.json version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/DolphinWing/DSTTranslate?filename=workshop-3418019940%2Fpackage.json&logo=github) 
+![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3418019940?logo=steam) 
+![Steam Favorites](https://img.shields.io/steam/favorites/3418019940?logo=steam) <br />
+[workshop-3418019940](workshop-3418019940) is a map mod for Superconductive starting world.
 * DST [正體中文包](https://steamcommunity.com/sharedfiles/filedetails/?id=1993780385) <br />
 ![GitHub package.json version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/DolphinWing/DSTTranslate?filename=workshop-1993780385%2Fpackage.json&logo=github) 
 ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/1993780385?logo=steam) 
