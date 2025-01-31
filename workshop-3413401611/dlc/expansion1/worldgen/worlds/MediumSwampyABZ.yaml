@@ -1,5 +1,5 @@
-name: STRINGS.WORLDS.MEDIUMSWAMPY.NAME
-description: STRINGS.WORLDS.MEDIUMSWAMPY.DESCRIPTION
+name: NotZeroK.WorldConstants.WORLD_SO_WARP_NAME
+description: NotZeroK.WorldConstants.WORLD_SO_WARP_NAME
 nameTables: [ SWAMP ]
 asteroidIcon: frozen_swamp_asteroid_kanim
 
