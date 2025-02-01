@@ -1,3 +1,13 @@
+#. NotZeroK.WorldConstants.ENABLE_HARD_MODE
+msgctxt "NotZeroK.WorldConstants.ENABLE_HARD_MODE"
+msgid "Hard Mode"
+msgstr "困難模式"
+
+#. NotZeroK.WorldConstants.ENABLE_HARD_MODE_DESC
+msgctxt "NotZeroK.WorldConstants.ENABLE_HARD_MODE_DESC"
+msgid "You will feel SUPER COLD around the printing pod."
+msgstr "您將會在列印設備周圍感覺「超級冷」。"
+
 #. NotZeroK.WorldConstants.CLUSTER_NAME
 msgctxt "NotZeroK.WorldConstants.CLUSTER_NAME"
 msgid "Not 0K Classic"

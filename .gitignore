@@ -14,10 +14,13 @@ workshop-678340265/
 
 # local properties
 .user.config
+# PLib.Options
+workshop-*/config.json
 
 # desktop-app tmp files
 desktop-app/dst_cht.po*
 desktop-app/configs.ini
 
+# os temp files
 Thumbs.*
 .DS_Store*

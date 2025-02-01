@@ -2,6 +2,9 @@
 {
     class WorldConstants
     {
+        public static LocString ENABLE_HARD_MODE = (LocString)"Hard Mode";
+        public static LocString ENABLE_HARD_MODE_DESC = (LocString)"You will feel SUPER COLD around the printing pod.";
+
         public static LocString CLUSTER_NAME = (LocString)"Not 0K Classic";
         public static LocString CLUSTER_DESCRIPTION = (LocString)"0K challenge";
 

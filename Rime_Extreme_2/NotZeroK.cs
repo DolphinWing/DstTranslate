@@ -2,6 +2,7 @@
 using Klei.CustomSettings;
 using PeterHan.PLib.Core;
 using PeterHan.PLib.Database;
+using PeterHan.PLib.Options;
 using ProcGen;
 using ProcGenGame;
 using System;
@@ -22,18 +23,17 @@ namespace NotZeroK
             temperatureReverseTable.Add(id, (object)hash);
         }
 
-        /// <summary>
-        /// The enum value used for 100K subworlds.
-        /// </summary>
-        public const Temperature.Range TG_AbsoluteZero = (Temperature.Range)30;
-        public const Temperature.Range TG_SuperCold = (Temperature.Range)29;
+        public const Temperature.Range TG_AbsoluteZero = (Temperature.Range)30; // not to clash with other mods
+        public const Temperature.Range TG_SuperCold = (Temperature.Range)29; // not to clash with other mods
 
         public override void OnLoad(Harmony harmony)
         {
             base.OnLoad(harmony);
             PUtil.InitLibrary();
             new PLocalization().Register();
+            new POptions().RegisterOptions(this, typeof(NotZeroOptions));
 
+            // refs: Baator
             AddHashToTable(TG_AbsoluteZero, "AbsoluteZero");
             AddHashToTable(TG_SuperCold, "SuperCold");
         }
@@ -53,6 +53,58 @@ namespace NotZeroK
                 !enumType.Equals(typeof(Temperature.Range)) || 
                 !temperatureReverseTable.TryGetValue(value, out __result);
         }
+
+#if ENABLE_INSTANT_MODE
+        /// <summary>
+        /// Retrieves the "minimum" temperature of an element on stock worlds. However, on
+        /// 100 K, returns 1 K to disable the check.
+        /// </summary>
+        /// <param name="element">The element to look up.</param>
+        /// <param name="worldGen">The currently generating world.</param>
+        /// <returns>The minimum temperature to be used for world gen.</returns>
+        private static float GetMinTemperature(Element element, WorldGen worldGen)
+        {
+            var world = worldGen?.Settings?.world;
+            return (world != null && world.name.StartsWith("NotZeroK.WorldConstants")) ? 1.0f : element.lowTemp;
+        }
+
+        // refs: https://github.com/peterhaneve/ONIMods/blob/main/Challenge100K/Challenge100K.cs
+        /// <summary>
+        /// Applied to TerrainCell to allow elements to be spawned in at lower than their
+        /// normal transition temperature (and thus instantly freeze).
+        /// </summary>
+        [HarmonyPatch(typeof(TerrainCell), "ApplyBackground")]
+        public static class TerrainCell_ApplyBackground_Patch
+        {
+            internal static IEnumerable<CodeInstruction> Transpiler(
+                    IEnumerable<CodeInstruction> method)
+            {
+                var options = POptions.ReadSettings<NotZeroOptions>();
+                bool instantMode = false;
+                if (options != null && options.InstantMode)
+                {
+                    instantMode = true;
+                    PUtil.LogDebug("Enable instant mode.");
+                }
+
+                var target = typeof(Element).GetFieldSafe(nameof(Element.lowTemp), false);
+                var replacement = typeof(NotZeroK).GetMethodSafe(nameof(
+                    GetMinTemperature), true, typeof(Element), typeof(WorldGen));
+                foreach (var instruction in method)
+                    if (instantMode && // only enable this from options
+                        instruction.opcode == OpCodes.Ldfld && 
+                        target != null && target == (FieldInfo)instruction.operand)
+                    {
+                        // With the Element on the stack, push the WorldGen (first arg)
+                        yield return new CodeInstruction(OpCodes.Ldarg_1);
+                        // Replacement for "Element.lowTemp"
+                        yield return new CodeInstruction(OpCodes.Call, replacement);
+                    }
+                    else
+                        yield return instruction;
+            }
+        }
+#endif // ENABLE_INSTANT_MODE
 
         // refs: https://github.com/peterhaneve/ONIMods/blob/main/Challenge100K/Challenge100K.cs
         /// <summary>
@@ -91,9 +143,15 @@ namespace NotZeroK
                 {
                     if (worldGen.isStartingWorld && temp == Temperature.Range.Mild) {
                         // ignore it because we don't want dupes die too quickly
+                        var options = POptions.ReadSettings<NotZeroOptions>();
+                        if (options != null && options.HardMode)
+                        {
+                            PUtil.LogDebug("Enable hard mode.");
+                            __result = TG_SuperCold; // Override temp
+                        }
                     } else
                     {
-                        Debug.Log("Not0K override " + temp);
+                        PUtil.LogDebug("override Temperature.Range." + temp);
                         __result = TG_AbsoluteZero; // Override temp
                     }
                 }
