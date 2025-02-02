@@ -1,0 +1,12 @@
+TerrainBiomeLookupTable:
+  # keys to remove from in-memory structure when this file is loaded
+  remove: [] 
+  # elements to add from in-memory structure when this file is loaded
+  add:
+    Ice:
+    - content: Ice
+      bandSize: 0.98
+      overrides:
+        massOverride: 1200
+    - content: Vacuum
+      bandSize: 0.02

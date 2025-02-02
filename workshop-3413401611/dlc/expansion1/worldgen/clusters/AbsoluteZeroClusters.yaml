@@ -165,6 +165,7 @@ worldPlacements:
     additionalSubworldFiles:
       - name: expansion1::subworlds/moo/MooCaverns
         minCount: 2
+      - name: expansion1::subworlds/absolutezero/MooCoreABZ
     additionalUnknownCellFilters:
       - tagcommand: DistanceFromTag # surface
         tag: AtSurface
@@ -174,6 +175,14 @@ worldPlacements:
         sortOrder: 1000 # apply last so world traits and subworld mixing do not override it
         subworldNames:
           - expansion1::subworlds/moo/MooCaverns
+      - tagcommand: DistanceFromTag
+        tag: AtDepths
+        minDistance: 0
+        maxDistance: 0
+        command: Replace
+        sortOrder: 1000 # apply last so world traits and subworld mixing do not override it
+        subworldNames:
+          - expansion1::subworlds/absolutezero/MooCoreABZ
     additionalSeasons:
       - GassyMooteorShowers
     additionalWorldTemplateRules:
@@ -191,7 +200,7 @@ worldPlacements:
             tagcommand: AtTag
             tag: NoMixingTemplateSpawning    
 # -----------------------------------------------------------------------------------------
-- world: expansion1::worlds/WaterMoonlet # Fullerene
+- world: expansion1::worlds/WaterMoonletABZ # Fullerene
   buffer: 4
   allowedRings:
     min: 5
@@ -203,7 +212,7 @@ worldPlacements:
     forbiddenTags:
       - AboveCoreSubworldReserved
     additionalSubworldFiles:
-      - name: expansion1::subworlds/aquatic/GraphiteCaves
+      - name: expansion1::subworlds/absolutezero/GraphiteCavesABZ
         minCount: 2
     additionalUnknownCellFilters:
       # Replace above core
@@ -214,7 +223,7 @@ worldPlacements:
         command: Replace
         sortOrder: 1000 # apply last so world traits and subworld mixing do not override it
         subworldNames:
-          - expansion1::subworlds/aquatic/GraphiteCaves
+          - expansion1::subworlds/absolutezero/GraphiteCavesABZ
     additionalWorldTemplateRules:
       # artifacts
       - names:
