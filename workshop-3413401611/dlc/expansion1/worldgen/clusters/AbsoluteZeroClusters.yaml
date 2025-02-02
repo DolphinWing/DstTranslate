@@ -165,7 +165,6 @@ worldPlacements:
     additionalSubworldFiles:
       - name: expansion1::subworlds/moo/MooCaverns
         minCount: 2
-      - name: expansion1::subworlds/absolutezero/MooCoreABZ
     additionalUnknownCellFilters:
       - tagcommand: DistanceFromTag # surface
         tag: AtSurface
@@ -175,14 +174,6 @@ worldPlacements:
         sortOrder: 1000 # apply last so world traits and subworld mixing do not override it
         subworldNames:
           - expansion1::subworlds/moo/MooCaverns
-      - tagcommand: DistanceFromTag
-        tag: AtDepths
-        minDistance: 0
-        maxDistance: 0
-        command: Replace
-        sortOrder: 1000 # apply last so world traits and subworld mixing do not override it
-        subworldNames:
-          - expansion1::subworlds/absolutezero/MooCoreABZ
     additionalSeasons:
       - GassyMooteorShowers
     additionalWorldTemplateRules:

@@ -139,15 +139,17 @@ namespace NotZeroK
                 if (world == null) return; // unknown world
 
                 var temp = __result;
-                if (temp > Temperature.Range.ExtremelyCold && temp <= Temperature.Range.ExtremelyHot)
+                if (temp >= Temperature.Range.ExtremelyCold && temp <= Temperature.Range.ExtremelyHot)
                 {
-                    if (worldGen.isStartingWorld && temp == Temperature.Range.Mild) {
-                        // ignore it because we don't want dupes die too quickly
+                    if (worldGen.isStartingWorld) {
                         var options = POptions.ReadSettings<NotZeroOptions>();
-                        if (options != null && options.HardMode)
+                        bool hard = options != null && options.HardMode;
+                        if (temp == Temperature.Range.Mild) { // starting biome keeps dupes survival
+                            __result = hard ? TG_SuperCold : Temperature.Range.VeryCold; // Override temp
+                        }
+                        else
                         {
-                            PUtil.LogDebug("Enable hard mode.");
-                            __result = TG_SuperCold; // Override temp
+                            __result = hard ? TG_SuperCold : temp; // Override temp
                         }
                     } else
                     {

@@ -7,7 +7,8 @@ worldTraitScale: 0.9 # Adjust with worldSize. Traits are tuned to base game worl
 worldsize:
   X: 240
   Y: 380
-layoutMethod: PowerTree
+layoutMethod: PowerTree # Note: We need to add weights to the items in the layer
+#                                in order to use this.
 
 fixedTraits:
   - sunlightLow
@@ -16,6 +17,15 @@ fixedTraits:
 #seasons:
 #  - ClassicStyleStartMeteorShowers
 #  - VanillaSandstoneFrozenMeteorShowers # unused
+
+startSubworldName: subworlds/sandstone/SandstoneStartCold
+startingBaseTemplate: bases/sandstoneBase
+startingBasePositionHorizontal:
+  min: 0.4
+  max: 0.5
+startingBasePositionVertical:
+  min: 0.45
+  max: 0.55
 
 worldTraitRules:
   - min: 0
@@ -37,7 +47,7 @@ worldTraitRules:
 subworldMixingRules:
  - name: (Mixing1)
    minCount: 2
-   maxCount: 4  
+   maxCount: 4
  - name: (Mixing2)
    minCount: 2
    maxCount: 4
@@ -54,7 +64,7 @@ subworldMixingRules:
    minCount: 2
    maxCount: 4
 
-# List all the zone files to load
+# List all the subworld files to load
 subworldFiles:
   - name: subworlds/sandstone/SandstoneStartCold
   - name: subworlds/sandstone/SandstoneFrozen
@@ -93,17 +103,12 @@ subworldFiles:
   - name: expansion1::subworlds/absolutezero/SwampABZ
   - name: expansion1::subworlds/absolutezero/WastelandBeetleCoolABZ
 
-startSubworldName: subworlds/sandstone/SandstoneStartCold
-#startingBaseTemplate: bases/ABZBase
-startingBaseTemplate: bases/sandstoneBase
-
-# When we are converting unknown cells, this will give us the options, processed in this order, the effects are cumlative
+# Specify where subworlds can spawn. These rules are processed in order and their effects are cumulative.
 unknownCellsAllowedSubworlds: 
   - tagcommand: Default
     command: Replace
     subworldNames:
       - subworlds/sandstone/SandstoneFrozen
-  # Ring-1
   - tagcommand: DistanceFromTag
     tag: AtStart
     minDistance: 1
@@ -113,7 +118,7 @@ unknownCellsAllowedSubworlds:
       - subworlds/absolutezero/SandstoneMiniMetalABZ
       - subworlds/absolutezero/SandstoneMiniWaterABZ
       - subworlds/absolutezero/SandstoneMiniAlgaeABZ
-  # Ring-2
+  # Ring-1
   - tagcommand: DistanceFromTag
     tag: AtStart
     minDistance: 2
@@ -126,7 +131,7 @@ unknownCellsAllowedSubworlds:
       - subworlds/absolutezero/FrozenABZ
       - subworlds/absolutezero/RustABZ
       - expansion1::subworlds/absolutezero/JungleFrozenABZ
-  # Ring-3
+  # Ring-2
   - tagcommand: DistanceFromTag
     tag: AtStart
     minDistance: 3
@@ -141,7 +146,7 @@ unknownCellsAllowedSubworlds:
       - expansion1::subworlds/absolutezero/JungleFrozenABZ
       - expansion1::subworlds/absolutezero/SwampABZ
       - expansion1::subworlds/absolutezero/WastelandBeetleCoolABZ
-  # Ring-4
+  # Ring-3
   - tagcommand: DistanceFromTag
     tag: AtStart
     minDistance: 4
@@ -164,7 +169,7 @@ unknownCellsAllowedSubworlds:
       - (Mixing4)
       - (Mixing5)
       - (Mixing6)
-  # Ring-5
+  # Ring-4
   - tagcommand: DistanceFromTag
     tag: AtStart
     minDistance: 5
