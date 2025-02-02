@@ -10,12 +10,12 @@ This is a personal project that includes my mod work for the games by Klei Enter
 ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3046440992?logo=steam) 
 ![Steam Favorites](https://img.shields.io/steam/favorites/3046440992?logo=steam) <br />
 [workshop-3046440992](workshop-3046440992) is a quick fix update to [Font Loader for Traditional Chinese](https://steamcommunity.com/workshop/filedetails/?id=2119648603) after Oct 2023 QoL.
-* ONI [不 0K，但冷酷地](https://steamcommunity.com/sharedfiles/filedetails/?id=3413401611) (Not 0K, But Pretty Cool Place)<br />
+* ONI [Not 0K, But Pretty Cool Place](https://steamcommunity.com/sharedfiles/filedetails/?id=3413401611) (不 0K，但冷酷地)<br />
 ![GitHub package.json version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/DolphinWing/DSTTranslate?filename=workshop-3413401611%2Fpackage.json&logo=github) 
 ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3413401611?logo=steam) 
 ![Steam Favorites](https://img.shields.io/steam/favorites/3413401611?logo=steam) <br />
 [workshop-3413401611](workshop-3413401611) is a map mod for 0K challenge.
-* ONI [Moonlet Cluster - Superconductive](https://steamcommunity.com/sharedfiles/filedetails/?id=3418019940)<br />
+* ONI [Moonlet Cluster - Superconductive](https://steamcommunity.com/sharedfiles/filedetails/?id=3418019940) (衛星星團－超導星)<br />
 ![GitHub package.json version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/DolphinWing/DSTTranslate?filename=workshop-3418019940%2Fpackage.json&logo=github) 
 ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3418019940?logo=steam) 
 ![Steam Favorites](https://img.shields.io/steam/favorites/3418019940?logo=steam) <br />

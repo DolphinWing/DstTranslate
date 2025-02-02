@@ -40,6 +40,8 @@ subworldMixingRules:
 
 # List all the zone files to load
 subworldFiles:
+  - name: subworlds/sandstone/SandstoneStartCold
+  - name: subworlds/sandstone/SandstoneFrozen
   - name: subworlds/absolutezero/ABZMarshSlush
   - name: subworlds/absolutezero/BarrenGraniteABZ
   - name: subworlds/absolutezero/CO2LakesABZ
@@ -56,12 +58,13 @@ subworldFiles:
   - name: subworlds/absolutezero/SandstoneMiniAlgaeABZ
   - name: subworlds/absolutezero/SandstoneMiniMetalABZ
   - name: subworlds/absolutezero/SandstoneMiniWaterABZ
-  - name: subworlds/absolutezero/SandstoneStartABZ
+#  - name: subworlds/absolutezero/SandstoneStartABZ
   - name: subworlds/absolutezero/SpaceABZ
   - name: subworlds/absolutezero/SurfaceABZ
 
-startSubworldName: subworlds/absolutezero/SandstoneStartABZ
-startingBaseTemplate: bases/ABZBase
+startSubworldName: subworlds/sandstone/SandstoneStartCold
+#startingBaseTemplate: bases/ABZBase
+startingBaseTemplate: bases/sandstoneBase
 
 #seasons:
 #  - MeteorShowers
@@ -71,7 +74,7 @@ unknownCellsAllowedSubworlds:
   - tagcommand: Default
     command: Replace
     subworldNames:
-      - subworlds/absolutezero/SandstoneStartABZ
+      - subworlds/sandstone/SandstoneFrozen
   # Ring-1
   - tagcommand: DistanceFromTag
     tag: AtStart
@@ -118,6 +121,12 @@ unknownCellsAllowedSubworlds:
       - subworlds/absolutezero/OceanABZ
       - subworlds/absolutezero/FrozenABZ
       - subworlds/absolutezero/RustABZ
+      - (Mixing1)
+      - (Mixing2)
+      - (Mixing3)
+      - (Mixing4)
+      - (Mixing5)
+      - (Mixing6)
   # Ring-5
   - tagcommand: DistanceFromTag
     tag: AtStart
@@ -131,6 +140,12 @@ unknownCellsAllowedSubworlds:
       - subworlds/absolutezero/OceanABZ
       - subworlds/absolutezero/BarrenGraniteABZ
       - subworlds/absolutezero/CO2LakesABZ
+      - subworlds/absolutezero/JungleABZ
+      - subworlds/absolutezero/OceanSlushABZ
+      - subworlds/absolutezero/SandstoneABZ
+      - subworlds/absolutezero/FrozenABZ
+      - subworlds/absolutezero/FrozenSolidABZ
+      - subworlds/absolutezero/RustABZ
       - (Mixing1)
       - (Mixing2)
       - (Mixing3)
@@ -184,7 +199,7 @@ worldTemplateRules:
       - command: Replace
         zoneTypes: [ToxicJungle]
   - names:
-      - poi/jungle/geyser_methane
+#      - poi/jungle/geyser_methane
       - poi/jungle/geyser_chlorine
     listRule: TryOne
     priority: 100
@@ -297,3 +312,14 @@ worldTemplateRules:
         tag: AtSurface
         minDistance: 0
         maxDistance: 3
+  # Survival Zones
+  - names:
+    - bases/ABZShelter
+    listRule: GuaranteeOne
+    priority: 450
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 0
+        maxDistance: 1

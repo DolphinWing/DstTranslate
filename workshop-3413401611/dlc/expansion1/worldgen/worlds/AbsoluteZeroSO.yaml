@@ -393,7 +393,7 @@ worldTemplateRules:
         maxDistance: 3
   # Survival Zones
   - names:
-    - expansion1::bases/ABZShelter
+    - expansion1::bases/ABZShelterSO
     listRule: GuaranteeOne
     priority: 450
     allowedCellsFilter:
