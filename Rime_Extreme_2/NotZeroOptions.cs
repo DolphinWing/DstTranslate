@@ -13,16 +13,28 @@ namespace NotZeroK
         public bool InstantMode { get; set; }
 #endif // ENABLE_INSTANT_MODE
 
-        [Option("NotZeroK.WorldConstants.ENABLE_HARD_MODE", "NotZeroK.WorldConstants.ENABLE_HARD_MODE_DESC")]
+        [Option("NotZeroK.WorldConstants.MAP_MODE", "NotZeroK.WorldConstants.MAP_MODE_DESC")]
         [JsonProperty]
-        public bool HardMode { get; set; }
+        public MapMode Mode { get; set; }
 
         public NotZeroOptions()
         {
 #if ENABLE_INSTANT_MODE
             InstantMode = false; // TerrainCell_ApplyBackground_Patch
 #endif // ENABLE_INSTANT_MODE
-            HardMode = false; // TerrainCell_GetTemperatureRange_Patch
+            Mode = MapMode.Balanced; // TerrainCell_GetTemperatureRange_Patch
+        }
+
+        public enum MapMode
+        {
+            [Option("NotZeroK.WorldConstants.MAP_MODE_BALANCED", "NotZeroK.WorldConstants.MAP_MODE_BALANCED_DESC")]
+            Balanced,
+
+            [Option("NotZeroK.WorldConstants.MAP_MODE_EASY", "NotZeroK.WorldConstants.MAP_MODE_EASY_DESC")]
+            Easy,
+
+            [Option("NotZeroK.WorldConstants.MAP_MODE_CRAZY", "NotZeroK.WorldConstants.MAP_MODE_CRAZY_DESC")]
+            Crazy
         }
     }
 }

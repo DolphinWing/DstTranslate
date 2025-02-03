@@ -120,6 +120,26 @@ namespace NotZeroK
                 return false;
             }
 
+            private static Temperature.Range GetStartingBiomeTemperature(Temperature.Range temp)
+            {
+                var options = POptions.ReadSettings<NotZeroOptions>();
+                NotZeroOptions.MapMode mode = options != null ? options.Mode : NotZeroOptions.MapMode.Balanced;
+                if (temp == Temperature.Range.Mild)
+                {
+                    // starting biome keeps dupes survival
+                    switch (mode)
+                    {
+                        case NotZeroOptions.MapMode.Crazy:
+                            return TG_SuperCold;
+                        case NotZeroOptions.MapMode.Easy:
+                            return temp;
+                        default:
+                            return Temperature.Range.VeryCold;
+                    }
+                }
+                return mode == NotZeroOptions.MapMode.Crazy ? TG_SuperCold : temp; // Override temp
+            }
+
             /// <summary>
             /// Applied after GetTemperatureRange runs.
             /// </summary>
@@ -141,17 +161,11 @@ namespace NotZeroK
                 var temp = __result;
                 if (temp >= Temperature.Range.ExtremelyCold && temp <= Temperature.Range.ExtremelyHot)
                 {
-                    if (worldGen.isStartingWorld) {
-                        var options = POptions.ReadSettings<NotZeroOptions>();
-                        bool hard = options != null && options.HardMode;
-                        if (temp == Temperature.Range.Mild) { // starting biome keeps dupes survival
-                            __result = hard ? TG_SuperCold : Temperature.Range.VeryCold; // Override temp
-                        }
-                        else
-                        {
-                            __result = hard ? TG_SuperCold : temp; // Override temp
-                        }
-                    } else
+                    if (worldGen.isStartingWorld || world.name.StartsWith("NotZeroK.WorldConstants."))
+                    {
+                        __result = GetStartingBiomeTemperature(temp);
+                    }
+                    else
                     {
                         PUtil.LogDebug("override Temperature.Range." + temp);
                         __result = TG_AbsoluteZero; // Override temp

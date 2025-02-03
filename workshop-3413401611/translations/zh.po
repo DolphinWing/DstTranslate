@@ -1,12 +1,42 @@
-#. NotZeroK.WorldConstants.ENABLE_HARD_MODE
-msgctxt "NotZeroK.WorldConstants.ENABLE_HARD_MODE"
-msgid "Hard Mode"
-msgstr "困難模式"
+#. NotZeroK.WorldConstants.MAP_MODE
+msgctxt "NotZeroK.WorldConstants.MAP_MODE"
+msgid "Mode"
+msgstr "模式"
 
-#. NotZeroK.WorldConstants.ENABLE_HARD_MODE_DESC
-msgctxt "NotZeroK.WorldConstants.ENABLE_HARD_MODE_DESC"
-msgid "You will feel SUPER COLD around the printing pod."
-msgstr "您將會在列印設備周圍感覺「超級冷」。"
+#. NotZeroK.WorldConstants.MAP_MODE_DESC
+msgctxt "NotZeroK.WorldConstants.MAP_MODE_DESC"
+msgid "The worldgen temperature around the Printing Pod."
+msgstr "世界成形時，列印設備周圍的溫度。"
+
+#. NotZeroK.WorldConstants.MAP_MODE_BALANCED
+msgctxt "NotZeroK.WorldConstants.MAP_MODE_BALANCED"
+msgid "Frigid Challenge"
+msgstr "極地挑戰"
+
+#. NotZeroK.WorldConstants.MAP_MODE_BALANCED_DESC
+msgctxt "NotZeroK.WorldConstants.MAP_MODE_BALANCED_DESC"
+msgid "Snow-covered, this is the Duplicants' proving ground."
+msgstr "冰雪覆蓋，這裡是複製人的試煉之地。"
+
+#. NotZeroK.WorldConstants.MAP_MODE_EASY
+msgctxt "NotZeroK.WorldConstants.MAP_MODE_EASY"
+msgid "Comfort Zone"
+msgstr "舒適圈"
+
+#. NotZeroK.WorldConstants.MAP_MODE_EASY_DESC
+msgctxt "NotZeroK.WorldConstants.MAP_MODE_EASY_DESC"
+msgid "Just like Rime. This is the Duplicants' haven."
+msgstr "就像在低溫砂岩一般，這裡是複製人的溫暖港灣。"
+
+#. NotZeroK.WorldConstants.MAP_MODE_CRAZY
+msgctxt "NotZeroK.WorldConstants.MAP_MODE_CRAZY"
+msgid "Freezing Limit"
+msgstr "冰點極限"
+
+#. NotZeroK.WorldConstants.MAP_MODE_CRAZY_DESC
+msgctxt "NotZeroK.WorldConstants.MAP_MODE_CRAZY_DESC"
+msgid "Everything frozen, this is the Duplicants' ultimate test."
+msgstr "萬物凍結，這裡是複製人的終極考驗。"
 
 #. NotZeroK.WorldConstants.CLUSTER_NAME
 msgctxt "NotZeroK.WorldConstants.CLUSTER_NAME"

@@ -1,12 +1,42 @@
-#. NotZeroK.WorldConstants.ENABLE_HARD_MODE
-msgctxt "NotZeroK.WorldConstants.ENABLE_HARD_MODE"
-msgid "Hard Mode"
-msgstr "Hard Mode"
+#. NotZeroK.WorldConstants.MAP_MODE
+msgctxt "NotZeroK.WorldConstants.MAP_MODE"
+msgid "Mode"
+msgstr "Mode"
 
-#. NotZeroK.WorldConstants.ENABLE_HARD_MODE_DESC
-msgctxt "NotZeroK.WorldConstants.ENABLE_HARD_MODE_DESC"
-msgid "You will feel SUPER COLD around the printing pod."
-msgstr "You will feel SUPER COLD around the printing pod."
+#. NotZeroK.WorldConstants.MAP_MODE_DESC
+msgctxt "NotZeroK.WorldConstants.MAP_MODE_DESC"
+msgid "The worldgen temperature around the Printing Pod."
+msgstr "The worldgen temperature around the Printing Pod."
+
+#. NotZeroK.WorldConstants.MAP_MODE_BALANCED
+msgctxt "NotZeroK.WorldConstants.MAP_MODE_BALANCED"
+msgid "Frigid Challenge"
+msgstr "Frigid Challenge"
+
+#. NotZeroK.WorldConstants.MAP_MODE_BALANCED_DESC
+msgctxt "NotZeroK.WorldConstants.MAP_MODE_BALANCED_DESC"
+msgid "Snow-covered, this is the Duplicants' proving ground."
+msgstr "Snow-covered, this is the Duplicants' proving ground."
+
+#. NotZeroK.WorldConstants.MAP_MODE_EASY
+msgctxt "NotZeroK.WorldConstants.MAP_MODE_EASY"
+msgid "Comfort Zone"
+msgstr "Comfort Zone"
+
+#. NotZeroK.WorldConstants.MAP_MODE_EASY_DESC
+msgctxt "NotZeroK.WorldConstants.MAP_MODE_EASY_DESC"
+msgid "Just like Rime, this is the Duplicants' haven."
+msgstr "Just like Rime, this is the Duplicants' haven."
+
+#. NotZeroK.WorldConstants.MAP_MODE_CRAZY
+msgctxt "NotZeroK.WorldConstants.MAP_MODE_CRAZY"
+msgid "Freezing Limit"
+msgstr "Freezing Limit"
+
+#. NotZeroK.WorldConstants.MAP_MODE_CRAZY_DESC
+msgctxt "NotZeroK.WorldConstants.MAP_MODE_CRAZY_DESC"
+msgid "Everything frozen, this is the Duplicants' ultimate test."
+msgstr "Everything frozen, this is the Duplicants' ultimate test."
 
 #. NotZeroK.WorldConstants.CLUSTER_NAME
 msgctxt "NotZeroK.WorldConstants.CLUSTER_NAME"

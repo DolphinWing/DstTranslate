@@ -2,8 +2,17 @@
 {
     class WorldConstants
     {
-        public static LocString ENABLE_HARD_MODE = (LocString)"Hard Mode";
-        public static LocString ENABLE_HARD_MODE_DESC = (LocString)"You will feel SUPER COLD around the printing pod.";
+        public static LocString MAP_MODE = (LocString)"Mode";
+        public static LocString MAP_MODE_DESC = (LocString)"The worldgen temperature around the Printing Pod.";
+
+        public static LocString MAP_MODE_BALANCED = (LocString)"Frigid Challenge";
+        public static LocString MAP_MODE_BALANCED_DESC = (LocString)"Snow-covered, this is the Duplicants' proving ground.";
+
+        public static LocString MAP_MODE_EASY = (LocString)"Comfort Zone";
+        public static LocString MAP_MODE_EASY_DESC = (LocString)"Just like Rime, this is the Duplicants' haven.";
+
+        public static LocString MAP_MODE_CRAZY = (LocString)"Freezing Limit";
+        public static LocString MAP_MODE_CRAZY_DESC = (LocString)"Everything frozen, this is the Duplicants' ultimate test.";
 
         public static LocString CLUSTER_NAME = (LocString)"Not 0K Classic";
         public static LocString CLUSTER_DESCRIPTION = (LocString)"0K challenge";

@@ -72,6 +72,7 @@ subworldFiles:
   - name: subworlds/absolutezero/SpaceABZ
   - name: expansion1::subworlds/space/SpaceWithSandyBorder    
   - name: expansion1::subworlds/absolutezero/SwampABZ
+  - name: expansion1::subworlds/absolutezero/SwampMildABZ
   - name: expansion1::subworlds/absolutezero/SwampWarpStartABZ
   - name: subworlds/absolutezero/ABZMarshSlush
     minCount: 3
@@ -98,7 +99,7 @@ unknownCellsAllowedSubworlds:
     maxDistance: 1
     command: Replace
     subworldNames:
-      - expansion1::subworlds/absolutezero/SwampABZ
+      - expansion1::subworlds/absolutezero/SwampMildABZ
   # Ring-1
   - tagcommand: DistanceFromTag
     tag: AtStart
