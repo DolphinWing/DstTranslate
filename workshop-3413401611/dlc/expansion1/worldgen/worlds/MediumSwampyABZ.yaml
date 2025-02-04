@@ -51,11 +51,12 @@ subworldMixingRules:
    maxCount: 3
 
 fixedTraits:
-  - sunlightMedLow
+  - sunlightVeryVeryLow
   - cosmicRadiationVeryLow
 
 seasons:
-  - ClassicStyleWarpMeteorShowers
+#  - ClassicStyleWarpMeteorShowers
+  - MiniBadlandsMeteorShowers # Snow and Ice
   - MediumSwampyMeteorShowers # unused
 
 startSubworldName: expansion1::subworlds/absolutezero/SwampWarpStartABZ

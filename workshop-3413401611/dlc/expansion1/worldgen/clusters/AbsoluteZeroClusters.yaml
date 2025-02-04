@@ -230,7 +230,7 @@ worldPlacements:
             tagcommand: AtTag
             tag: NoMixingTemplateSpawning      
 # -----------------------------------------------------------------------------------------
-- world: expansion1::worlds/MiniRegolithMoonlet
+- world: expansion1::worlds/MiniRegolithMoonletABZ
   buffer: 4
   allowedRings:
     min: 6

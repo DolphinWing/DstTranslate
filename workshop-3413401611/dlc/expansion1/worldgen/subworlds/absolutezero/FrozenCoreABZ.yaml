@@ -8,7 +8,7 @@ avoidRadius: 20.0
 sampleBehaviour: PoissonDisk
 borderOverride: ice
 biomes:
-  - name: expansion1::biomes/Frozen/Core
+  - name: biomes/AbsoluteZero/Core
     weight: 1
 tags:
   - IgnoreCaveOverride

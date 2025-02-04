@@ -11,12 +11,13 @@ layoutMethod: PowerTree # Note: We need to add weights to the items in the layer
 #                                in order to use this.
 
 fixedTraits:
-  - sunlightLow
+  - sunlightVeryVeryLow
   - cosmicRadiationVeryLow
 
-#seasons:
+seasons:
 #  - ClassicStyleStartMeteorShowers
-#  - VanillaSandstoneFrozenMeteorShowers # unused
+  - MiniBadlandsMeteorShowers # Snow and Ice
+  - VanillaSandstoneFrozenMeteorShowers # unused
 
 startSubworldName: subworlds/sandstone/SandstoneStartCold
 startingBaseTemplate: bases/sandstoneBase

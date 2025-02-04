@@ -10,3 +10,34 @@ TerrainBiomeLookupTable:
         massOverride: 1200
     - content: Vacuum
       bandSize: 0.02
+    Core:
+    - content: SolidOxygen
+      bandSize: 0.1
+      overrides:
+        massOverride: 4.0
+    - content: Ice
+      bandSize: 0.5
+    - content: SolidHydrogen
+      bandSize: 0.1
+      overrides:
+        massOverride: 8
+    - content: Snow
+      bandSize: 0.1
+      overrides:
+        massOverride: 4.0
+    - content: Ice
+      bandSize: 0.5
+      overrides:
+        massOverride: 8
+    - content: BrineIce
+      bandSize: 0.5
+    - content: OxyRock
+      bandSize: 0.05
+      overrides:
+        massOverride: 50.0
+    - content: SolidCarbonDioxide
+      bandSize: 0.1
+      overrides:
+        massOverride: 8
+    - content: BrineIce
+      bandSize: 0.5

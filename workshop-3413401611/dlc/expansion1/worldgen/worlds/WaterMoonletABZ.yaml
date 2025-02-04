@@ -56,7 +56,7 @@ subworldFiles:
   - name: expansion1::subworlds/absolutezero/OpenIceABZ
   
 fixedTraits:
-  - sunlightHigh
+  - sunlightVeryLow
   - cosmicRadiationMedLow
 
 seasons:
