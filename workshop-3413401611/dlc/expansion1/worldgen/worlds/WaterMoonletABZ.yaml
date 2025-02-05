@@ -135,7 +135,7 @@ worldTemplateRules:
     - expansion1::poi/aquatic/large_geode
     - expansion1::poi/aquatic/large_coal_geode
     listRule: TryOne
-    someCount: 2
+    someCount: 1
     priority: 40 # place before others
     allowedCellsFilter:
       - command: Replace

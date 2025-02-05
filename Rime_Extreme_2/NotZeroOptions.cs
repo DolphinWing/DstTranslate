@@ -7,22 +7,23 @@ namespace NotZeroK
     [ModInfo("https://github.com/DolphinWing/DstTranslate/tree/master/workshop-3413401611")]
     class NotZeroOptions
     {
+        [Option("NotZeroK.WorldConstants.MAP_MODE", "NotZeroK.WorldConstants.MAP_MODE_DESC")]
+        [JsonProperty]
+        public MapMode Mode { get; set; }
+
 #if ENABLE_INSTANT_MODE
         [Option("Instant Mode", "You will run out of time!")]
         [JsonProperty]
         public bool InstantMode { get; set; }
 #endif // ENABLE_INSTANT_MODE
 
-        [Option("NotZeroK.WorldConstants.MAP_MODE", "NotZeroK.WorldConstants.MAP_MODE_DESC")]
-        [JsonProperty]
-        public MapMode Mode { get; set; }
-
         public NotZeroOptions()
         {
-#if ENABLE_INSTANT_MODE
-            InstantMode = false; // TerrainCell_ApplyBackground_Patch
-#endif // ENABLE_INSTANT_MODE
             Mode = MapMode.Balanced; // TerrainCell_GetTemperatureRange_Patch
+
+#if ENABLE_INSTANT_MODE
+            InstantMode = true; // TerrainCell_ApplyBackground_Patch
+#endif // ENABLE_INSTANT_MODE
         }
 
         public enum MapMode

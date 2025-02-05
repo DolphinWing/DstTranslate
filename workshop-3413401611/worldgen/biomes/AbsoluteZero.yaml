@@ -41,3 +41,18 @@ TerrainBiomeLookupTable:
         massOverride: 8
     - content: BrineIce
       bandSize: 0.5
+    IceBed:
+    - content: BrineIce
+      bandSize: 0.3
+      overrides:
+        massOverride: 2000
+    - content: Obsidian
+      bandSize: 0.5
+    - content: Ice
+      bandSize: 0.5
+      overrides:
+        massOverride: 2000
+    - content: Obsidian
+      bandSize: 0.2
+    - content: Unobtanium
+      bandSize: 0.2

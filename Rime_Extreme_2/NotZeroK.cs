@@ -23,6 +23,29 @@ namespace NotZeroK
             temperatureReverseTable.Add(id, (object)hash);
         }
 
+        public static bool IsMe()
+        {
+            SettingLevel current = CustomGameSettings.Instance.GetCurrentQualitySetting((SettingConfig)CustomGameSettingConfigs.ClusterLayout);
+            if (current == null) return false; // unknown cluster
+
+            ClusterLayout clusterData = SettingsCache.clusterLayouts.GetClusterData(current.id);
+            //Debug.Log("Not0K " + clusterData.GetCoordinatePrefix());
+            string prefix = clusterData.GetCoordinatePrefix();
+            return IsAbzModded(prefix); // we only cares about ABZ
+        }
+
+        private static bool IsAbzModded(string prefix)
+        {
+            if (prefix.StartsWith("ABZ-TG")) return true; // base game and spaced out classic style
+            if (prefix.StartsWith("M-ABZ-TG")) return true; // spaced out style
+            return false;
+        }
+
+        public static bool IsMyWorld(ProcGen.World world)
+        {
+            return world != null && world.name.StartsWith("NotZeroK.WorldConstants");
+        }
+
         public const Temperature.Range TG_AbsoluteZero = (Temperature.Range)30; // not to clash with other mods
         public const Temperature.Range TG_SuperCold = (Temperature.Range)29; // not to clash with other mods
 
@@ -54,7 +77,6 @@ namespace NotZeroK
                 !temperatureReverseTable.TryGetValue(value, out __result);
         }
 
-#if ENABLE_INSTANT_MODE
         /// <summary>
         /// Retrieves the "minimum" temperature of an element on stock worlds. However, on
         /// 100 K, returns 1 K to disable the check.
@@ -65,7 +87,7 @@ namespace NotZeroK
         private static float GetMinTemperature(Element element, WorldGen worldGen)
         {
             var world = worldGen?.Settings?.world;
-            return (world != null && world.name.StartsWith("NotZeroK.WorldConstants")) ? 1.0f : element.lowTemp;
+            return NotZeroK.IsMyWorld(world) ? 1.0f : element.lowTemp;
         }
 
         // refs: https://github.com/peterhaneve/ONIMods/blob/main/Challenge100K/Challenge100K.cs
@@ -79,20 +101,11 @@ namespace NotZeroK
             internal static IEnumerable<CodeInstruction> Transpiler(
                     IEnumerable<CodeInstruction> method)
             {
-                var options = POptions.ReadSettings<NotZeroOptions>();
-                bool instantMode = false;
-                if (options != null && options.InstantMode)
-                {
-                    instantMode = true;
-                    PUtil.LogDebug("Enable instant mode.");
-                }
-
                 var target = typeof(Element).GetFieldSafe(nameof(Element.lowTemp), false);
                 var replacement = typeof(NotZeroK).GetMethodSafe(nameof(
                     GetMinTemperature), true, typeof(Element), typeof(WorldGen));
                 foreach (var instruction in method)
-                    if (instantMode && // only enable this from options
-                        instruction.opcode == OpCodes.Ldfld && 
+                    if (instruction.opcode == OpCodes.Ldfld && 
                         target != null && target == (FieldInfo)instruction.operand)
                     {
                         // With the Element on the stack, push the WorldGen (first arg)
@@ -104,7 +117,6 @@ namespace NotZeroK
                         yield return instruction;
             }
         }
-#endif // ENABLE_INSTANT_MODE
 
         // refs: https://github.com/peterhaneve/ONIMods/blob/main/Challenge100K/Challenge100K.cs
         /// <summary>
@@ -113,13 +125,6 @@ namespace NotZeroK
         [HarmonyPatch(typeof(TerrainCell), "GetTemperatureRange", typeof(WorldGen))]
         public static class TerrainCell_GetTemperatureRange_Patch
         {
-            private static bool IsAbzModded(string prefix)
-            {
-                if (prefix.StartsWith("ABZ-TG")) return true;
-                if (prefix.StartsWith("M-ABZ-TG")) return true;
-                return false;
-            }
-
             private static Temperature.Range GetStartingBiomeTemperature(Temperature.Range temp)
             {
                 var options = POptions.ReadSettings<NotZeroOptions>();
@@ -147,27 +152,21 @@ namespace NotZeroK
             {
                 if (worldGen.Settings == null) return; // no need to check it
 
-                SettingLevel current = CustomGameSettings.Instance.GetCurrentQualitySetting((SettingConfig)CustomGameSettingConfigs.ClusterLayout);
-                if (current == null) return; // unknown cluster
-
-                ClusterLayout clusterData = SettingsCache.clusterLayouts.GetClusterData(current.id);
-                //Debug.Log("Not0K " + clusterData.GetCoordinatePrefix());
-                string prefix = clusterData.GetCoordinatePrefix();
-                if (IsAbzModded(prefix) == false) return; // we only cares about ABZ
+                if (NotZeroK.IsMe() == false) return; // we only cares about ABZ
 
                 var world = worldGen.Settings?.world;
                 if (world == null) return; // unknown world
 
-                var temp = __result;
+                var temp = __result; // override all temperatures
                 if (temp >= Temperature.Range.ExtremelyCold && temp <= Temperature.Range.ExtremelyHot)
                 {
-                    if (worldGen.isStartingWorld || world.name.StartsWith("NotZeroK.WorldConstants."))
+                    if (worldGen.isStartingWorld || NotZeroK.IsMyWorld(world))
                     {
                         __result = GetStartingBiomeTemperature(temp);
                     }
                     else
                     {
-                        PUtil.LogDebug("override Temperature.Range." + temp);
+                        //PUtil.LogDebug("override Temperature.Range." + temp);
                         __result = TG_AbsoluteZero; // Override temp
                     }
                 }
