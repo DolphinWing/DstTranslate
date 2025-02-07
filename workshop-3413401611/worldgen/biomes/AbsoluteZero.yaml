@@ -3,13 +3,11 @@ TerrainBiomeLookupTable:
   remove: [] 
   # elements to add from in-memory structure when this file is loaded
   add:
-    Ice:
+    OpenIce:
     - content: Ice
-      bandSize: 0.98
+      bandSize: 1000
       overrides:
         massOverride: 1200
-    - content: Vacuum
-      bandSize: 0.02
     Core:
     - content: SolidOxygen
       bandSize: 0.1

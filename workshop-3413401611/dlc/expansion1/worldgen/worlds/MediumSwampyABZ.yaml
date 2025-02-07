@@ -198,6 +198,7 @@ worldTemplateRules:
   # Marsh
   - names:
       - poi/hotmarsh/geyser_methane
+      - poi/jungle/geyser_chlorine
     listRule: TryOne
     priority: 40
     allowedCellsFilter:

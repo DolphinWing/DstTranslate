@@ -9,7 +9,7 @@ borderOverride: hardToDig
 borderOverridePriority: 10 # must be guaranteed
 sampleBehaviour: PoissonDisk
 biomes:
-  - name: biomes/Magma/CooledMagmaBed
+  - name: expansion1::biomes/AbsoluteZero/SuperSuperHardBed
     weight: 1
 tags:
   - IgnoreCaveOverride

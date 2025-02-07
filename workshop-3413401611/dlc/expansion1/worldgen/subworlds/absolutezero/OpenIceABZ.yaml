@@ -11,7 +11,7 @@ borderSizeOverride:
  min: 2.5
  max: 3.5
 biomes:
-  - name: biomes/AbsoluteZero/Ice
+  - name: biomes/AbsoluteZero/OpenIce
     weight: 1
 tags:
   - IgnoreCaveOverride
