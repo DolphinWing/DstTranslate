@@ -163,6 +163,7 @@ worldTemplateRules:
     - geysers/molten_iron
     listRule: GuaranteeOne
     times: 1
+    ruleId: tg_geyser_molten_iron
     allowDuplicates: false
     priority: 50
     allowedCellsFilter:
@@ -183,6 +184,7 @@ worldTemplateRules:
     - poi/oil/small_oilpockets_geyser_h
     listRule: GuaranteeOne
     times: 1
+    ruleId: tg_oil_pockets
     allowDuplicates: false # be more flexible due to high temperature borders
     priority: 100
     allowedCellsFilter:
@@ -221,9 +223,9 @@ worldTemplateRules:
         maxDistance: 6
   # Crashed Satelite
   - names:
-      - expansion1::poi/traits/crashed_satellite1
-      - expansion1::poi/traits/crashed_satellite2
-      - expansion1::poi/traits/crashed_satellite3
+      #- expansion1::poi/traits/crashed_satellite1
+      #- expansion1::poi/traits/crashed_satellite2
+      #- expansion1::poi/traits/crashed_satellite3
       - expansion1::poi/traits/crashed_satellite4
     listRule: GuaranteeOne
     priority: 150
@@ -245,6 +247,7 @@ worldTemplateRules:
   - names:
       - storytraits/creature_manipulator
     listRule: GuaranteeOne
+    ruleId: tg_Story_CritterManipulator
     priority: 200
     allowedCellsFilter:
       - command: Replace
@@ -256,6 +259,7 @@ worldTemplateRules:
   - names:
       - storytraits/mega_brain_tank
     listRule: GuaranteeOne
+    ruleId: tg_Story_MegaBrainTank
     priority: 200
     allowedCellsFilter:
       - command: Replace
@@ -267,6 +271,7 @@ worldTemplateRules:
   - names:
       - storytraits/lonelyminion
     listRule: GuaranteeOne
+    ruleId: tg_Story_LonelyMinion
     priority: 200
     allowedCellsFilter:
       - command: Replace
@@ -288,6 +293,7 @@ worldTemplateRules:
   - names:
       - storytraits/morb_rover_maker
     listRule: GuaranteeOne
+    ruleId: tg_Story_MorbRoverMaker
     priority: 400
     useRelaxedFiltering: true
     allowedCellsFilter:
@@ -310,6 +316,7 @@ worldTemplateRules:
   - names:
       - storytraits/morb_rover_maker_ext1
     listRule: GuaranteeOne
+    ruleId: tg_Story_MorbRoverMaker
     priority: 180
     useRelaxedFiltering: true
     allowedCellsFilter:
@@ -327,6 +334,7 @@ worldTemplateRules:
   - names:
       - storytraits/morb_rover_maker_ext2
     listRule: GuaranteeOne
+    ruleId: tg_Story_MorbRoverMaker
     priority: 180
     useRelaxedFiltering: true
     allowedCellsFilter:
@@ -344,6 +352,7 @@ worldTemplateRules:
   - names:
       - storytraits/fossil_hunt_main
     listRule: GuaranteeOne
+    ruleId: tg_Story_FossilHunt
     priority: 400
     useRelaxedFiltering: true
     allowedCellsFilter:
@@ -356,6 +365,7 @@ worldTemplateRules:
   - names:
       - storytraits/fossil_hunt_ice
     listRule: GuaranteeOne
+    ruleId: tg_Story_FossilHunt
     priority: 150
     useRelaxedFiltering: true
     allowedCellsFilter:
@@ -363,11 +373,12 @@ worldTemplateRules:
         tagcommand: DistanceFromTag
         tag: AtStart
         minDistance: 1
-        maxDistance: 1
+        maxDistance: 2
   # FossilHunt: ROCK PIECE Fallback
   - names:
       - storytraits/fossil_hunt_rock
     listRule: GuaranteeOne
+    ruleId: tg_Story_FossilHunt
     priority: 150
     useRelaxedFiltering: true
     allowedCellsFilter:
@@ -375,11 +386,12 @@ worldTemplateRules:
         tagcommand: DistanceFromTag
         tag: AtStart
         minDistance: 1
-        maxDistance: 1
+        maxDistance: 2
   # FossilHunt: RESIN PIECE Fallback
   - names:
       - storytraits/fossil_hunt_resin
     listRule: GuaranteeOne
+    ruleId: tg_Story_FossilHunt
     priority: 150
     useRelaxedFiltering: true
     allowedCellsFilter:
@@ -387,4 +399,29 @@ worldTemplateRules:
         tagcommand: DistanceFromTag
         tag: AtStart
         minDistance: 1
+        maxDistance: 2
+
+  # --- Critter Caves ---
+  # Critter Caves
+  - names:
+    - critters/tg_gassy_style
+    listRule: GuaranteeAll
+    priority: 120
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 0
+        maxDistance: 2
+  # Gifts from devs
+  - names:
+    - bases/tg_gifted_base
+    - expansion1::bases/tg_gifted_base_so
+    listRule: GuaranteeOne
+    priority: 450
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 0
         maxDistance: 1
