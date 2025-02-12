@@ -14,6 +14,12 @@
         public static LocString MAP_MODE_CRAZY = (LocString)"Freezing Limit";
         public static LocString MAP_MODE_CRAZY_DESC = (LocString)"Everything frozen, this is the Duplicants' ultimate test.";
 
+        public static LocString SHELTER = (LocString)"Shelter Cave";
+        public static LocString SHELTER_DESC = (LocString)"A small refuge space to avoid freezing to death.";
+
+        public static LocString CRITTER = (LocString)"Critter Cave";
+        public static LocString CRITTER_DESC = (LocString)"A small refuge space for critters and plants.";
+
         public static LocString CLUSTER_NAME = (LocString)"Not 0K Classic";
         public static LocString CLUSTER_DESCRIPTION = (LocString)"0K challenge";
 

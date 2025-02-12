@@ -340,6 +340,7 @@ worldTemplateRules:
     - expansion1::critters/tg_divertgent
     - expansion1::critters/tg_plug_slug
     listRule: GuaranteeAll
+    ruleId: abz_critters
     priority: 120
     allowedCellsFilter:
       - command: Replace

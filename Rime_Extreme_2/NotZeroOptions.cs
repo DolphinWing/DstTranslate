@@ -17,9 +17,19 @@ namespace NotZeroK
         public bool InstantMode { get; set; }
 #endif // ENABLE_INSTANT_MODE
 
+        [Option("NotZeroK.WorldConstants.SHELTER", "NotZeroK.WorldConstants.SHELTER_DESC")]
+        [JsonProperty]
+        public bool Shelter { get; set; }
+
+        [Option("NotZeroK.WorldConstants.CRITTER", "NotZeroK.WorldConstants.CRITTER_DESC")]
+        [JsonProperty]
+        public bool Critter { get; set; }
+
         public NotZeroOptions()
         {
             Mode = MapMode.Balanced; // TerrainCell_GetTemperatureRange_Patch
+            Shelter = true; // MutatedWorldData_Constructor_Patch
+            Critter = true; // MutatedWorldData_Constructor_Patch
 
 #if ENABLE_INSTANT_MODE
             InstantMode = true; // TerrainCell_ApplyBackground_Patch

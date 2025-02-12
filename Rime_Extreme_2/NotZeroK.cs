@@ -14,15 +14,6 @@ namespace NotZeroK
 {
     class NotZeroK : KMod.UserMod2
     {
-        private static Dictionary<Temperature.Range, string> temperatureTable = new Dictionary<Temperature.Range, string>();
-        private static Dictionary<string, object> temperatureReverseTable = new Dictionary<string, object>();
-
-        private static void AddHashToTable(Temperature.Range hash, string id)
-        {
-            temperatureTable.Add(hash, id);
-            temperatureReverseTable.Add(id, (object)hash);
-        }
-
         public static bool IsMe()
         {
             SettingLevel current = CustomGameSettings.Instance.GetCurrentQualitySetting((SettingConfig)CustomGameSettingConfigs.ClusterLayout);
@@ -64,17 +55,27 @@ namespace NotZeroK
         [HarmonyPatch(typeof(Enum), "ToString", new Type[] { })]
         public static class Temperatures_ToString_Patch
         {
-            public static bool Prefix(ref Enum __instance, ref string __result) => 
-                !(__instance is Temperature.Range) || 
+            internal static Dictionary<Temperature.Range, string> temperatureTable = new Dictionary<Temperature.Range, string>();
+
+            public static bool Prefix(ref Enum __instance, ref string __result) =>
+                !(__instance is Temperature.Range) ||
                 !temperatureTable.TryGetValue((Temperature.Range)__instance, out __result);
         }
 
         [HarmonyPatch(typeof(Enum), "Parse", new Type[] { typeof(Type), typeof(string), typeof(bool) })]
         public static class Temperatures_Parse_Patch
         {
-            public static bool Prefix(Type enumType, string value, ref object __result) => 
-                !enumType.Equals(typeof(Temperature.Range)) || 
+            internal static Dictionary<string, object> temperatureReverseTable = new Dictionary<string, object>();
+
+            public static bool Prefix(Type enumType, string value, ref object __result) =>
+                !enumType.Equals(typeof(Temperature.Range)) ||
                 !temperatureReverseTable.TryGetValue(value, out __result);
+        }
+
+        private static void AddHashToTable(Temperature.Range hash, string id)
+        {
+            Temperatures_ToString_Patch.temperatureTable.Add(hash, id);
+            Temperatures_Parse_Patch.temperatureReverseTable.Add(id, (object)hash);
         }
 
         /// <summary>
@@ -105,7 +106,7 @@ namespace NotZeroK
                 var replacement = typeof(NotZeroK).GetMethodSafe(nameof(
                     GetMinTemperature), true, typeof(Element), typeof(WorldGen));
                 foreach (var instruction in method)
-                    if (instruction.opcode == OpCodes.Ldfld && 
+                    if (instruction.opcode == OpCodes.Ldfld &&
                         target != null && target == (FieldInfo)instruction.operand)
                     {
                         // With the Element on the stack, push the WorldGen (first arg)
@@ -170,6 +171,57 @@ namespace NotZeroK
                         __result = TG_AbsoluteZero; // Override temp
                     }
                 }
+            }
+        }
+
+        /// <summary>
+        /// Applied to MutatedWorldData() to manipulate POIs.
+        /// </summary>
+        [HarmonyPatch(typeof(MutatedWorldData), MethodType.Constructor, typeof(ProcGen.World),
+            typeof(List<WorldTrait>), typeof(List<WorldTrait>))]
+        public static class MutatedWorldData_Constructor_Patch
+        {
+            internal static void Postfix(MutatedWorldData __instance)
+            {
+                var options = POptions.ReadSettings<NotZeroOptions>();
+                if (options == null) return; // no need to change anything
+
+                var world = __instance.world;
+                if (NotZeroK.IsMyWorld(world) == false) return; // don't bother
+
+                    var dlcMixing = CustomGameSettings.Instance.GetCurrentDlcMixingIds();
+                var frosty = dlcMixing.Contains(DlcManager.DLC2_ID);
+                PUtil.LogDebug("DLC mixing: " + frosty);
+
+                var removing = new List<ProcGen.World.TemplateSpawnRules>();
+                if (world.worldTemplateRules != null)
+                    foreach (var rule in world.worldTemplateRules)
+                    {
+                        if (rule.ruleId?.StartsWith("abz_shelter") == true)
+                        {
+                            PUtil.LogDebug("... checking " + rule.ruleId);
+                            if (options.Shelter == false) removing.Add(rule);
+                        }
+                        if (rule.ruleId?.StartsWith("abz_critter") == true)
+                        {
+                            PUtil.LogDebug("... checking " + rule.ruleId);
+                            if (options.Critter == false)
+                                removing.Add(rule);
+                            else if (frosty)
+                            {
+                                rule.names.Add("dlc2::critters/tg_bammoth");
+                                rule.names.Add("dlc2::critters/tg_flox");
+                                rule.names.Add("dlc2::critters/tg_sugar_bug_seagul");
+                                PUtil.LogDebug("... add frosty caves");
+                            }
+                        }
+                    }
+
+                if (removing.Count > 0) // remove them from list
+                    foreach (var rule in removing)
+                    {
+                        world.worldTemplateRules?.Remove(rule);
+                    }
             }
         }
     }

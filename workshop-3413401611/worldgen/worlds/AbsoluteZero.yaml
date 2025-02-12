@@ -292,6 +292,7 @@ worldTemplateRules:
     - critters/tg_mole_hole
     - critters/tg_wheat_wort
     listRule: GuaranteeAll
+    ruleId: abz_critters
     priority: 120
     allowedCellsFilter:
       - command: Replace
@@ -316,6 +317,7 @@ worldTemplateRules:
   - names:
     - bases/ABZShelter
     listRule: GuaranteeOne
+    ruleId: abz_shelter
     priority: 450
     allowedCellsFilter:
       - command: Replace

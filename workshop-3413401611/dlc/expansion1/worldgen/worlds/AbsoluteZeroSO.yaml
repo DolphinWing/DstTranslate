@@ -377,6 +377,7 @@ worldTemplateRules:
     - critters/tg_mole_hole
     - expansion1::critters/tg_beeta_hive
     listRule: GuaranteeAll
+    ruleId: abz_critters
     priority: 120
     allowedCellsFilter:
       - command: Replace
@@ -401,6 +402,7 @@ worldTemplateRules:
   - names:
     - expansion1::bases/ABZShelterSO
     listRule: GuaranteeOne
+    ruleId: abz_shelter
     priority: 450
     allowedCellsFilter:
       - command: Replace

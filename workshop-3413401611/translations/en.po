@@ -38,6 +38,26 @@ msgctxt "NotZeroK.WorldConstants.MAP_MODE_CRAZY_DESC"
 msgid "Everything frozen, this is the Duplicants' ultimate test."
 msgstr "Everything frozen, this is the Duplicants' ultimate test."
 
+#. NotZeroK.WorldConstants.SHELTER
+msgctxt "NotZeroK.WorldConstants.SHELTER"
+msgid "Shelter Cave"
+msgstr "Shelter Cave"
+
+#. NotZeroK.WorldConstants.SHELTER_DESC
+msgctxt "NotZeroK.WorldConstants.SHELTER_DESC"
+msgid "A small refuge space to avoid freezing to death."
+msgstr "A small refuge space to avoid freezing to death."
+
+#. NotZeroK.WorldConstants.CRITTER
+msgctxt "NotZeroK.WorldConstants.CRITTER"
+msgid "Critter Cave"
+msgstr "Critter Cave"
+
+#. NotZeroK.WorldConstants.CRITTER_DESC
+msgctxt "NotZeroK.WorldConstants.CRITTER_DESC"
+msgid "A small refuge space for critters and plants."
+msgstr "A small refuge space for critters and plants."
+
 #. NotZeroK.WorldConstants.CLUSTER_NAME
 msgctxt "NotZeroK.WorldConstants.CLUSTER_NAME"
 msgid "Not 0K Classic"
