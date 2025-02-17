@@ -1,6 +1,6 @@
 name: Voidria.Voidria.NAME
 description: Voidria.Voidria.DESCRIPTION
-asteroidIcon: asteroid_voidria
+asteroidIcon: asteroid_voidria_kanim
 disableWorldTraits: true
 
 worldTraitScale: 0.9
@@ -406,6 +406,7 @@ worldTemplateRules:
   - names:
     - critters/tg_gassy_style
     listRule: GuaranteeAll
+    ruleId: tg_Critter_Moo
     priority: 120
     allowedCellsFilter:
       - command: Replace

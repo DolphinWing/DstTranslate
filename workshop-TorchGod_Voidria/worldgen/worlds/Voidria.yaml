@@ -1,6 +1,6 @@
 name: Voidria.Voidria.NAME
 description: Voidria.Voidria.DESCRIPTION
-asteroidIcon: asteroid_voidria
+asteroidIcon: asteroid_voidria_kanim
 disableWorldTraits: true
 
 worldTraitScale: 1 # Adjust with worldSize. Traits are tuned to base game world sizes.
