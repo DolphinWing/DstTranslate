@@ -35,6 +35,21 @@ namespace Voidria
                 var options = POptions.ReadSettings<VoidriaOptions>();
                 if (options == null) return; // no need to change anything
 
+                var world = __instance.world;
+                if (world.name != "Voidria.Voidria.NAME") return; // no need to check further
+                PUtil.LogDebug("Checking for " + world.name);
+
+                var spaced = DlcManager.IsContentSubscribed(DlcManager.EXPANSION1_ID);
+                var frosty = DlcManager.IsContentSubscribed(DlcManager.DLC2_ID);
+                var bionic = DlcManager.IsContentSubscribed(DlcManager.DLC3_ID);
+                PUtil.LogDebug("DLC own: " + spaced + ", " + frosty + ", " + bionic);
+
+                var dlcMixing = CustomGameSettings.Instance.GetCurrentDlcMixingIds();
+                frosty = dlcMixing.Contains(DlcManager.DLC2_ID);
+                bionic = dlcMixing.Contains(DlcManager.DLC3_ID);
+                PUtil.LogDebug("DLC mixing: " + spaced + ", " + frosty + ", " + bionic);
+
+#if ENABLE_STORY_TRAIT_OPTIONS
                 var stories = new Dictionary<string, bool>
                 {
                     { "CritterManipulator", options.StoryCritterManipulator },
@@ -43,61 +58,74 @@ namespace Voidria
                     { "MorbRoverMaker", options.StoryMorbRoverMaker },
                     { "FossilHunt", options.StoryFossilHunt }
                 };
-
-                var world = __instance.world;
-                if (world.name == "Voidria.Voidria.NAME")
+#else
+                var stories = CustomGameSettings.Instance.GetCurrentStories();
+                foreach (var story in stories)
                 {
-                    var rules = world.worldTemplateRules;
-                    if (rules != null)
+                    PUtil.LogDebug("story: " + story);
+                }
+#endif // ENABLE_STORY_TRAIT_OPTIONS
+
+                var rules = world.worldTemplateRules;
+                if (rules != null)
+                {
+                    List<ProcGen.World.TemplateSpawnRules> removed = new List<ProcGen.World.TemplateSpawnRules>();
+                    foreach (var rule in rules)
                     {
-                        List<ProcGen.World.TemplateSpawnRules> removed = new List<ProcGen.World.TemplateSpawnRules>();
-                        foreach (var rule in rules)
-                        {
 #if DEBUG
-                            PUtil.LogDebug("==>" + rule.ruleId);
-                            var names = rule.names;
-                            foreach (var n in names)
-                            {
-                                PUtil.LogDebug("  " + n);
-                            }
+                        PUtil.LogDebug("==>" + rule.ruleId);
+                        var names = rule.names;
+                        foreach (var n in names)
+                        {
+                            PUtil.LogDebug("  " + n);
+                        }
 #endif
 
-                            if (!options.EnableIronVolcano && rule.names.Contains("geysers/molten_iron"))
-                            {
-                                removed.Add(rule); //world.worldTemplateRules?.Remove(rule);
-                                PUtil.LogDebug("... remove iron volcano");
-                            }
-                            if (!options.EnableOilReservoir && rule.names.Contains("poi/oil/small_oilpockets_geyser_a"))
-                            {
-                                removed.Add(rule); //world.worldTemplateRules?.Remove(rule);
-                                PUtil.LogDebug("... remove oil pocket geyser");
-                            }
-
-#if ENABLE_STORY_TRAITS
-                            if (rule.ruleId?.StartsWith("tg_Story_") == true)
-                            {
-                                var ruleId = rule.ruleId.Substring(9);
-                                if (stories[ruleId] == false)
-                                {
-                                    removed.Add(rule);
-                                    PUtil.LogDebug("... remove " + ruleId);
-                                }
-                            }
-#else
-                            if (rule.ruleId != null && rule.ruleId.StartsWith("tg_Story_"))
-                            {
-                                removed.Add(rule);
-                                PUtil.LogDebug("... remove " + rule.ruleId.Substring(9));
-                            }
-#endif // ENABLE_STORY_TRAITS
+                        if (!options.EnableIronVolcano && rule.names.Contains("geysers/molten_iron"))
+                        {
+                            removed.Add(rule); //world.worldTemplateRules?.Remove(rule);
+                            PUtil.LogDebug("... remove iron volcano");
+                        }
+                        if (!options.EnableOilReservoir && rule.names.Contains("poi/oil/small_oilpockets_geyser_a"))
+                        {
+                            removed.Add(rule); //world.worldTemplateRules?.Remove(rule);
+                            PUtil.LogDebug("... remove oil pocket geyser");
                         }
 
-                        if (removed.Count > 0) // remove them from list
-                            foreach (var rule in removed)
+#if ENABLE_STORY_TRAIT_OPTIONS
+                        if (rule.ruleId?.StartsWith("tg_Story_") == true)
+                        {
+                            var ruleId = rule.ruleId.Substring(9);
+                            if (stories.ContainsKey(ruleId) == false || stories[ruleId] == false)
                             {
-                                world.worldTemplateRules?.Remove(rule);
+                                removed.Add(rule); // remove it since disabled or not existed
+                                PUtil.LogDebug("... remove " + ruleId);
                             }
+                        }
+#else
+                        if (rule.ruleId?.StartsWith("tg_Story_") == true)
+                        {
+                            var ruleId = rule.ruleId.Substring(9);
+                            if (stories.Contains(ruleId) == false)
+                            {
+                                removed.Add(rule);
+                                PUtil.LogDebug("... remove " + ruleId);
+                            }
+                        }
+#endif // ENABLE_STORY_TRAIT_OPTIONS
+
+                        if (frosty == false && rule.ruleId?.StartsWith("tg_Critter_Frosty") == true)
+                        {
+                            removed.Add(rule);
+                            PUtil.LogDebug("... remove Frosty Planet Pack critters and plants POI");
+                        }
                     }
+
+                    if (removed.Count > 0) // remove them from list
+                        foreach (var rule in removed)
+                        {
+                            world.worldTemplateRules?.Remove(rule);
+                        }
                 }
             }
         }

@@ -21,7 +21,7 @@ namespace Voidria
         [JsonProperty]
         public bool EnableOilReservoir { get; set; }
 
-#if ENABLE_STORY_TRAITS
+#if ENABLE_STORY_TRAIT_OPTIONS
         [Option("STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.NAME", "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.DESCRIPTION", "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.STORY_TRAITS_HEADER")]
         [JsonProperty]
         public bool StoryCritterManipulator { get; set; }
@@ -42,20 +42,20 @@ namespace Voidria
         [Option("STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.NAME", "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DESCRIPTION", "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.STORY_TRAITS_HEADER")]
         [JsonProperty]
         public bool StoryFossilHunt { get; set; }
-#endif // ENABLE_STORY_TRAITS
+#endif // ENABLE_STORY_TRAIT_OPTIONS
 
         public VoidriaOptions()
         {
             EnableIronVolcano = true;
             EnableOilReservoir = true;
 
-#if ENABLE_STORY_TRAITS
-            StoryCritterManipulator = true;
-            StoryMegaBrainTank = true;
-            StoryLonelyMinion = true;
-            StoryMorbRoverMaker = true;
-            StoryFossilHunt = true;
-#endif // ENABLE_STORY_TRAITS
+#if ENABLE_STORY_TRAIT_OPTIONS
+            StoryCritterManipulator = false;
+            StoryMegaBrainTank = false;
+            StoryLonelyMinion = false;
+            StoryMorbRoverMaker = false;
+            StoryFossilHunt = false;
+#endif // ENABLE_STORY_TRAIT_OPTIONS
         }
     }
 }
