@@ -11,11 +11,19 @@ startWorldIndex: 0
 numRings: 8
 worldPlacements:
 - world: expansion1::worlds/VoidriaSO
-  buffer: 2
+  buffer: 1
   locationType: StartWorld
   allowedRings:
     min: 0
     max: 0
+- world: expansion1::worlds/TinyWrapSurface
+  allowedRings:
+    min: 6
+    max: 7
+- world: expansion1::worlds/TinyLandingZone
+  allowedRings:
+    min: 5
+    max: 6
     
 poiPlacements:
   - pois:

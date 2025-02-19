@@ -5,11 +5,8 @@ info:
   min:
     X: -4
     Y: -3
-  area: 63
+  area: 62
 cells:
-- element: Vacuum
-  location_x: -4
-  location_y: -3
 - element: Katairite
   mass: 500
   temperature: 230.149994
@@ -254,6 +251,41 @@ cells:
   temperature: 230.149994
   location_x: 4
   location_y: 3
+buildings:
+- id: ExteriorWall
+  location_x: -3
+  location_y: -2
+  element: WoodLog
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -2
+  location_y: -2
+  element: WoodLog
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -1
+  location_y: -2
+  element: WoodLog
+  temperature: 293.149994
+- id: ExteriorWall
+  location_y: -2
+  element: WoodLog
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: 1
+  location_y: -2
+  element: WoodLog
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: 2
+  location_y: -2
+  element: WoodLog
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: 3
+  location_y: -2
+  element: WoodLog
+  temperature: 293.149994
 pickupables:
 - id: IceBelly
   location_y: 1

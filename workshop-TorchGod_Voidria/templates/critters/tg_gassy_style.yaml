@@ -5,11 +5,8 @@ info:
   min:
     X: -6
     Y: -2
-  area: 78
+  area: 72
 cells:
-- element: Vacuum
-  location_x: -6
-  location_y: -2
 - element: Wolframite
   mass: 600
   temperature: 213.149994
@@ -17,22 +14,22 @@ cells:
   location_y: -2
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.149872
   location_x: -4
   location_y: -2
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.149948
   location_x: -3
   location_y: -2
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.149872
   location_x: -2
   location_y: -2
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.149902
   location_x: -1
   location_y: -2
 - element: Katairite
@@ -41,22 +38,22 @@ cells:
   location_y: -2
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.149933
   location_x: 1
   location_y: -2
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.149948
   location_x: 2
   location_y: -2
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.15004
   location_x: 3
   location_y: -2
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.149948
   location_x: 4
   location_y: -2
 - element: Katairite
@@ -64,64 +61,58 @@ cells:
   temperature: 213.149994
   location_x: 5
   location_y: -2
-- element: Vacuum
-  location_x: 6
-  location_y: -2
-- element: Vacuum
-  location_x: -6
-  location_y: -1
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.14978
   location_x: -5
   location_y: -1
-- element: Methane
-  mass: 1
-  temperature: 193.149994
+- element: Chlorine
+  mass: 44.8300018
+  temperature: 190.149994
   location_x: -4
   location_y: -1
 - element: SolidChlorine
-  mass: 600
-  temperature: 150.149994
+  mass: 585
+  temperature: 150.424683
   location_x: -3
   location_y: -1
-- element: Methane
-  mass: 1
-  temperature: 193.149994
+- element: Chlorine
+  mass: 44.8300018
+  temperature: 190.149994
   location_x: -2
   location_y: -1
-- element: Methane
-  mass: 1
-  temperature: 193.149994
+- element: Chlorine
+  mass: 44.8300018
+  temperature: 190.149994
   location_x: -1
   location_y: -1
 - element: BleachStone
   mass: 80
-  temperature: 213.149994
+  temperature: 210.685883
   location_y: -1
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 0.940200031
+  temperature: 204.246582
   location_x: 1
   location_y: -1
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 0.940200031
+  temperature: 215.62117
   location_x: 2
   location_y: -1
 - element: Ice
   mass: 1000
-  temperature: 232.149994
+  temperature: 232.088806
   location_x: 3
   location_y: -1
 - element: SolidCarbonDioxide
   mass: 600
-  temperature: 192.149994
+  temperature: 192.284088
   location_x: 4
   location_y: -1
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.149948
   location_x: 5
   location_y: -1
 - element: Katairite
@@ -131,50 +122,46 @@ cells:
   location_y: -1
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.149902
   location_x: -6
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 3.62800026
+  temperature: 185.537399
   location_x: -5
-- element: Methane
-  mass: 1
-  temperature: 193.149994
+- element: Vacuum
   location_x: -4
-- element: Methane
-  mass: 1
-  temperature: 193.149994
+- element: Vacuum
   location_x: -3
-- element: Methane
-  mass: 1
-  temperature: 193.149994
+- element: Chlorine
+  mass: 44.8300018
+  temperature: 190.149994
   location_x: -2
 - element: BleachStone
   mass: 80
-  temperature: 213.149994
+  temperature: 209.394485
   location_x: -1
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 0.951600075
+  temperature: 207.037537
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 0.942600131
+  temperature: 193.386856
   location_x: 1
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 0.940200031
+  temperature: 204.197815
   location_x: 2
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 0.940000057
+  temperature: 229.720276
   location_x: 3
 - element: Snow
   mass: 10
-  temperature: 242.149994
+  temperature: 235.375778
   location_x: 4
 - element: Snow
   mass: 10
-  temperature: 242.149994
+  temperature: 239.231476
   location_x: 5
 - element: Katairite
   mass: 500
@@ -187,61 +174,61 @@ cells:
   location_y: 1
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.149811
   location_x: -5
   location_y: 1
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 1.13200009
+  temperature: 191.455231
   location_x: -4
   location_y: 1
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 0.940000057
+  temperature: 192.996094
   location_x: -3
   location_y: 1
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 3.82000017
+  temperature: 188.497635
   location_x: -2
   location_y: 1
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 0.940200031
+  temperature: 197.711838
   location_x: -1
   location_y: 1
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 0.942600131
+  temperature: 193.358734
   location_y: 1
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 0.942000031
+  temperature: 209.536102
   location_x: 1
   location_y: 1
 - element: BleachStone
   mass: 80
-  temperature: 213.149994
+  temperature: 211.085251
   location_x: 2
   location_y: 1
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 0.940000057
+  temperature: 212.779953
   location_x: 3
   location_y: 1
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 0.940000057
+  temperature: 204.198853
   location_x: 4
   location_y: 1
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 0.940000057
+  temperature: 220.656036
   location_x: 5
   location_y: 1
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.149948
   location_x: 6
   location_y: 1
 - element: Sand
@@ -251,56 +238,56 @@ cells:
   location_y: 2
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.149902
   location_x: -5
   location_y: 2
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 0.940000057
+  temperature: 193.314911
   location_x: -4
   location_y: 2
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 0.940000057
+  temperature: 193.260422
   location_x: -3
   location_y: 2
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 0.940000057
+  temperature: 201.508347
   location_x: -2
   location_y: 2
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 0.940200031
+  temperature: 193.320923
   location_x: -1
   location_y: 2
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 0.940200031
+  temperature: 204.201324
   location_y: 2
 - element: BleachStone
   mass: 80
-  temperature: 213.149994
+  temperature: 211.646255
   location_x: 1
   location_y: 2
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 0.940000057
+  temperature: 209.666412
   location_x: 2
   location_y: 2
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 0.940000057
+  temperature: 205.30809
   location_x: 3
   location_y: 2
 - element: Methane
-  mass: 1
-  temperature: 193.149994
+  mass: 0.940000057
+  temperature: 193.427322
   location_x: 4
   location_y: 2
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.149872
   location_x: 5
   location_y: 2
 - element: Obsidian
@@ -308,9 +295,6 @@ cells:
   temperature: 213.149994
   location_x: 6
   location_y: 2
-- element: Vacuum
-  location_x: -6
-  location_y: 3
 - element: Granite
   mass: 1840
   temperature: 213.149994
@@ -318,27 +302,27 @@ cells:
   location_y: 3
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.149902
   location_x: -4
   location_y: 3
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.149902
   location_x: -3
   location_y: 3
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.149918
   location_x: -2
   location_y: 3
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.149902
   location_x: -1
   location_y: 3
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.149933
   location_y: 3
 - element: Katairite
   mass: 500
@@ -347,25 +331,178 @@ cells:
   location_y: 3
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.149933
   location_x: 2
   location_y: 3
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.149918
   location_x: 3
   location_y: 3
 - element: Katairite
   mass: 500
-  temperature: 213.149994
+  temperature: 213.149918
   location_x: 4
   location_y: 3
-- element: Vacuum
+buildings:
+- id: ExteriorWall
+  location_x: -1
+  location_y: -1
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -2
+  location_y: -1
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_y: -1
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: 1
+  location_y: -1
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: 2
+  location_y: -1
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: 2
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: 1
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: 3
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: 3
+  location_y: 1
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: 2
+  location_y: 1
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: 1
+  location_y: 1
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_y: 1
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -1
+  location_y: 1
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -2
+  location_y: 1
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -3
+  location_y: 1
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -4
+  location_y: 1
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -4
+  location_y: 2
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -3
+  location_y: 2
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -2
+  location_y: 2
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -1
+  location_y: 2
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_y: 2
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: 1
+  location_y: 2
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: 2
+  location_y: 2
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -5
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -4
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -3
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -2
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -4
+  location_y: -1
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -3
+  location_y: -1
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: 3
+  location_y: 2
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: 4
+  location_y: 2
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: 4
+  location_y: 1
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
   location_x: 5
-  location_y: 3
-- element: Vacuum
-  location_x: 6
-  location_y: 3
+  location_y: 1
+  element: Granite
+  temperature: 293.149994
 pickupables:
 - id: Moo
   location_x: -3

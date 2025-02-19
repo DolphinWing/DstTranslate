@@ -44,6 +44,13 @@ namespace Voidria
         public bool StoryFossilHunt { get; set; }
 #endif // ENABLE_STORY_TRAIT_OPTIONS
 
+        public static LocString CrittersCaveTitle = (LocString)"Critter Caves";
+        public static LocString CrittersCaveTooltip = (LocString)"Enable critter shalters";
+
+        [Option("Voidria.VoidriaOptions.CrittersCaveTitle", "Voidria.VoidriaOptions.CrittersCaveTooltip", "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_GEYSERS")]
+        [JsonProperty]
+        public bool EnableCritters { get; set; }
+
         public VoidriaOptions()
         {
             EnableIronVolcano = true;
@@ -56,6 +63,8 @@ namespace Voidria
             StoryMorbRoverMaker = false;
             StoryFossilHunt = false;
 #endif // ENABLE_STORY_TRAIT_OPTIONS
+
+            EnableCritters = true;
         }
     }
 }

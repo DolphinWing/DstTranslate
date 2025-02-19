@@ -1,0 +1,57 @@
+name: Voidria.Voidria.LAND_NAME
+description: Voidria.Voidria.LAND_DESC
+disableWorldTraits: true
+asteroidIcon: asteroid_unknown_kanim
+
+worldTraitScale: 1 # Adjust with worldSize. Traits are tuned to base game world sizes.
+worldsize:
+  X: 32
+  Y: 32
+layoutMethod: PowerTree
+
+defaultsOverrides:
+  data:
+    OverworldAvoidRadius: 5
+    OverworldSampleBehaviour: PoissonDisk
+    OverworldDensityMin: 10
+    OverworldDensityMax: 10
+    DrawWorldBorder: true
+    DrawWorldBorderForce: false
+    WorldBorderThickness: 1
+    WorldBorderRange: 0
+#    OverworldMinNodes: 1
+  startingWorldElements: [] # remove the algae check
+
+worldTraitRules: [] # Disable world traits
+
+# List all the subworld files to load
+subworldFiles:
+  - name: subworlds/space/Space
+  - name: expansion1::subworlds/sandstone/Sandstone
+  - name: expansion1::subworlds/niobium/NiobiumPatch
+    minCount: 1
+    maxCount: 3
+    overridePower: 1.25
+
+unknownCellsAllowedSubworlds: 
+  - tagcommand: Default
+    command: Replace
+    subworldNames:
+      -  expansion1::subworlds/sandstone/Sandstone
+  - tagcommand: DistanceFromTag
+    tag: AtSurface
+    minDistance: 0
+    maxDistance: 1
+    command: Replace
+    subworldNames:
+      - subworlds/space/Space
+  - tagcommand: DistanceFromTag
+    tag: AtDepths
+    minDistance: 0
+    maxDistance: 0
+    command: Replace
+    subworldNames:
+      - expansion1::subworlds/sandstone/Sandstone
+      - expansion1::subworlds/niobium/NiobiumPatch
+
+#worldTemplateRules:

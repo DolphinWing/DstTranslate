@@ -12,6 +12,12 @@ namespace Voidria
         public static LocString NAME = (LocString)"Voidria";
         public static LocString DESCRIPTION = (LocString)"Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\nDuplicants MUST work to DEATH to make the colony thrive again.";
 
+        public static LocString WRAP_NAME = (LocString)"Wrapper";
+        public static LocString WRAP_DESC = (LocString)"A tiny rock to jump with.";
+
+        public static LocString LAND_NAME = (LocString)"Landing Zone";
+        public static LocString LAND_DESC = (LocString)"A tiny rock to land your rocket.";
+
         public override void OnLoad(Harmony harmony)
         {
             base.OnLoad(harmony);
@@ -118,6 +124,12 @@ namespace Voidria
                         {
                             removed.Add(rule);
                             PUtil.LogDebug("... remove Frosty Planet Pack critters and plants POI");
+                        }
+
+                        if (!options.EnableCritters && rule.ruleId?.StartsWith("tg_Critter_") == true)
+                        {
+                            removed.Add(rule);
+                            PUtil.LogDebug("... remove " + rule.ruleId);
                         }
                     }
 

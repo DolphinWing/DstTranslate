@@ -26,16 +26,6 @@ defaultsOverrides:
 subworldFiles:
   - name: subworlds/forest/ForestStart
   - name: subworlds/forest/Forest
-  - name: expansion1::subworlds/Voidria/Radioil
-    weight: 0.2
-  - name: expansion1::subworlds/jungle/JungleGassy
-  - name: expansion1::subworlds/wasteland/WastelandBeetleCool
-  - name: expansion1::subworlds/swamp/SwampMini
-  - name: expansion1::subworlds/barren/CoalyGraniteFrozen
-  - name: expansion1::subworlds/marsh/med_HotMarshLandingSite
-  - name: expansion1::subworlds/moon_barren/BarrenGranite
-  - name: expansion1::subworlds/rust/med_RustFrozen
-  - name: expansion1::subworlds/sandstone/SandstoneMini
   - name: subworlds/space/Space
   - name: subworlds/space/Surface
     weight: 0.5
@@ -49,7 +39,7 @@ startingBaseTemplate: bases/forestBase
 
 seasons:
   - ClassicStyleWarpMeteorShowers
-  - GassyMooteorShowers
+#  - GassyMooteorShowers
   - RegolithMoonMeteorShowers
 
 # Specify where subworlds can spawn. These rules are processed in order and their effects are cumulative.
@@ -62,32 +52,6 @@ unknownCellsAllowedSubworlds:
   - tagcommand: DistanceFromTag
     tag: AtStart
     minDistance: 1
-    maxDistance: 1
-    command: Replace
-    subworldNames:
-      - expansion1::subworlds/Voidria/Radioil
-      - expansion1::subworlds/jungle/JungleGassy
-      - expansion1::subworlds/swamp/SwampMini
-      - expansion1::subworlds/wasteland/WastelandBeetleCool
-      - expansion1::subworlds/barren/CoalyGraniteFrozen
-      - expansion1::subworlds/marsh/med_HotMarshLandingSite
-      - expansion1::subworlds/moon_barren/BarrenGranite
-      - expansion1::subworlds/rust/med_RustFrozen
-      - expansion1::subworlds/sandstone/SandstoneMini
-      - subworlds/space/Space
-  # Ring 2
-  - tagcommand: DistanceFromTag
-    tag: AtStart
-    minDistance: 2
-    maxDistance: 2
-    command: Replace
-    subworldNames:
-#      - expansion1::subworlds/Voidria/Radioil
-      - subworlds/space/Space
-  # Ring 3
-  - tagcommand: DistanceFromTag
-    tag: AtStart
-    minDistance: 3
     maxDistance: 999
     command: Replace
     subworldNames:
@@ -120,6 +84,18 @@ unknownCellsAllowedSubworlds:
 
 worldTemplateRules:
   # Gravitas
+  - names:
+    - expansion1::poi/warp/sender
+    - expansion1::poi/warp/receiver
+    - expansion1::poi/warp/teleporter_no_oil
+    listRule: GuaranteeAll
+    priority: 90
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 3
+        maxDistance: 5
   - names:
       - expansion1::poi/genericGravitas/poi_genetics_lab
     listRule: GuaranteeAll
@@ -243,11 +219,11 @@ worldTemplateRules:
         minDistance: 0
         maxDistance: 5
   # --- Story Traits ---
-  # CritterManipulator
+  # CreatureManipulator
   - names:
       - storytraits/creature_manipulator
     listRule: GuaranteeOne
-    ruleId: tg_Story_CritterManipulator
+    ruleId: tg_Story_CreatureManipulator
     priority: 200
     allowedCellsFilter:
       - command: Replace
@@ -402,7 +378,7 @@ worldTemplateRules:
         maxDistance: 2
 
   # --- Critter Caves ---
-  # Critter Caves
+  # Critter Vanilla
   - names:
     - critters/tg_gassy_style
     listRule: GuaranteeAll
@@ -414,11 +390,76 @@ worldTemplateRules:
         tag: AtStart
         minDistance: 0
         maxDistance: 2
+  - names:
+    - critters/tg_bean_sleat
+    - critters/tg_bug_morb_toilet
+    - critters/tg_ce_lily_cave
+    - critters/tg_hatch_lice
+    - critters/tg_pacu_lake
+    - critters/tg_pip_tree
+    - critters/tg_pokeshell_pepper
+    - critters/tg_puft_love
+    - critters/tg_slime_sour
+    - critters/tg_mole_hole
+    - critters/tg_wheat_wort
+    listRule: GuaranteeAll
+    ruleId: tg_Critter_Vanilla
+    priority: 120
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 2
+        maxDistance: 99
+      - command: ExceptWith # too close to surface
+        tagcommand: DistanceFromTag
+        tag: AtSurface
+        minDistance: 0
+        maxDistance: 3
+  # Critter Spaced Out!
+  - names:
+    - expansion1::critters/tg_beeta_hive
+    - expansion1::critters/tg_divertgent
+    - expansion1::critters/tg_plug_slug
+    listRule: GuaranteeAll
+    ruleId: tg_Critter_SpacedOut
+    priority: 120
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 2
+        maxDistance: 99
+      - command: ExceptWith # too close to surface
+        tagcommand: DistanceFromTag
+        tag: AtSurface
+        minDistance: 0
+        maxDistance: 3
+  # Critter Frosty Planet
+  - names:
+    - dlc2::critters/tg_bammoth
+    - dlc2::critters/tg_flox
+    - dlc2::critters/tg_sugar_bug_seagul
+    listRule: GuaranteeAll
+    ruleId: tg_Critter_Frosty
+    priority: 120
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 2
+        maxDistance: 99
+      - command: ExceptWith # too close to surface
+        tagcommand: DistanceFromTag
+        tag: AtSurface
+        minDistance: 0
+        maxDistance: 3
   # Gifts from devs
   - names:
     - bases/tg_gifted_base
     - expansion1::bases/tg_gifted_base_so
     listRule: GuaranteeOne
+    ruleId: tg_gift
     priority: 450
     allowedCellsFilter:
       - command: Replace
