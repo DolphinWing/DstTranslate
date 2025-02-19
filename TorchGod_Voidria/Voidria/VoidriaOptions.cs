@@ -7,11 +7,21 @@ namespace Voidria
     [ModInfo("https://github.com/DolphinWing/DstTranslate/tree/master/workshop-3413401611")]
     class VoidriaOptions
     {
+        public static LocString GiftedAreaTitle = (LocString)"Treasure Room";
+        public static LocString GiftedAreaTooltip = (LocString)"Enable treasure room";
+
         public static LocString IronVolcanoTitle = (LocString)"Iron Volcano";
         public static LocString IronVolcanoTooltip = (LocString)"Enable iron volcano";
  
         public static LocString OilReservoirTitle = (LocString)"Oil Reservoir";
         public static LocString OilReservoirTooltip = (LocString)"Enable oil reservoir";
+
+        public static LocString CrittersCaveTitle = (LocString)"Critter Shalter";
+        public static LocString CrittersCaveTooltip = (LocString)"Enable critter shalters";
+
+        [Option("Voidria.VoidriaOptions.GiftedAreaTitle", "Voidria.VoidriaOptions.GiftedAreaTooltip", "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_WORLDTRAITS")]
+        [JsonProperty]
+        public bool EnableGift { get; set; }
 
         [Option("Voidria.VoidriaOptions.IronVolcanoTitle", "Voidria.VoidriaOptions.IronVolcanoTooltip", "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_GEYSERS")]
         [JsonProperty]
@@ -21,49 +31,15 @@ namespace Voidria
         [JsonProperty]
         public bool EnableOilReservoir { get; set; }
 
-#if ENABLE_STORY_TRAIT_OPTIONS
-        [Option("STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.NAME", "STRINGS.CODEX.STORY_TRAITS.CRITTER_MANIPULATOR.DESCRIPTION", "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.STORY_TRAITS_HEADER")]
-        [JsonProperty]
-        public bool StoryCritterManipulator { get; set; }
-
-        [Option("STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.NAME", "STRINGS.CODEX.STORY_TRAITS.MEGA_BRAIN_TANK.DESCRIPTION", "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.STORY_TRAITS_HEADER")]
-        [JsonProperty]
-        public bool StoryMegaBrainTank { get; set; }
-
-
-        [Option("STRINGS.CODEX.STORY_TRAITS.LONELYMINION.NAME", "STRINGS.CODEX.STORY_TRAITS.LONELYMINION.DESCRIPTION", "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.STORY_TRAITS_HEADER")]
-        [JsonProperty]
-        public bool StoryLonelyMinion { get; set; }
-
-        [Option("STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.NAME", "STRINGS.CODEX.STORY_TRAITS.MORB_ROVER_MAKER.DESCRIPTION", "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.STORY_TRAITS_HEADER")]
-        [JsonProperty]
-        public bool StoryMorbRoverMaker { get; set; }
-
-        [Option("STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.NAME", "STRINGS.CODEX.STORY_TRAITS.FOSSILHUNT.DESCRIPTION", "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.STORY_TRAITS_HEADER")]
-        [JsonProperty]
-        public bool StoryFossilHunt { get; set; }
-#endif // ENABLE_STORY_TRAIT_OPTIONS
-
-        public static LocString CrittersCaveTitle = (LocString)"Critter Caves";
-        public static LocString CrittersCaveTooltip = (LocString)"Enable critter shalters";
-
-        [Option("Voidria.VoidriaOptions.CrittersCaveTitle", "Voidria.VoidriaOptions.CrittersCaveTooltip", "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_GEYSERS")]
+        [Option("Voidria.VoidriaOptions.CrittersCaveTitle", "Voidria.VoidriaOptions.CrittersCaveTooltip", "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_LIFE")]
         [JsonProperty]
         public bool EnableCritters { get; set; }
 
         public VoidriaOptions()
         {
+            EnableGift = true;
             EnableIronVolcano = true;
             EnableOilReservoir = true;
-
-#if ENABLE_STORY_TRAIT_OPTIONS
-            StoryCritterManipulator = false;
-            StoryMegaBrainTank = false;
-            StoryLonelyMinion = false;
-            StoryMorbRoverMaker = false;
-            StoryFossilHunt = false;
-#endif // ENABLE_STORY_TRAIT_OPTIONS
-
             EnableCritters = true;
         }
     }

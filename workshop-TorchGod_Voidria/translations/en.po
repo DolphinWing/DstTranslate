@@ -1,9 +1,69 @@
-#. STRINGS.Voidria.Voidria.NAME
-msgctxt "STRINGS.Voidria.Voidria.NAME"
+#. Voidria.Voidria.NAME
+msgctxt "Voidria.Voidria.NAME"
 msgid "Voidria"
 msgstr "Voidria"
 
-#. STRINGS.Voidria.Voidria.DESCRIPTION
-msgctxt "STRINGS.Voidria.Voidria.DESCRIPTION"
+#. Voidria.Voidria.DESCRIPTION
+msgctxt "Voidria.Voidria.DESCRIPTION"
 msgid "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\nDuplicants MUST work to DEATH to make the colony thrive again."
 msgstr "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\nDuplicants MUST work to DEATH to make the colony thrive again."
+
+#. Voidria.Voidria.WRAP_NAME
+msgctxt "Voidria.Voidria.WRAP_NAME"
+msgid "Rocker"
+msgstr "Rocker"
+
+#. Voidria.Voidria.WRAP_DESC
+msgctxt "Voidria.Voidria.WRAP_DESC"
+msgid "A tiny rock needs one small step."
+msgstr "A tiny rock needs one small step."
+
+#. Voidria.Voidria.LAND_NAME
+msgctxt "Voidria.Voidria.LAND_NAME"
+msgid "Landing Zone"
+msgstr "Landing Zone"
+
+#. Voidria.Voidria.LAND_DESC
+msgctxt "Voidria.Voidria.LAND_DESC"
+msgid "A tiny rock to land your little rocket."
+msgstr "A tiny rock to land your little rocket."
+
+#. Voidria.Voidria.GiftedAreaTitle
+msgctxt "Voidria.Voidria.GiftedAreaTitle"
+msgid "Treasure Room"
+msgstr "Treasure Room"
+
+#. Voidria.Voidria.GiftedAreaTooltip
+msgctxt "Voidria.Voidria.GiftedAreaTooltip"
+msgid "Enable treasure room"
+msgstr "Enable treasure room"
+
+#. Voidria.Voidria.IronVolcanoTitle
+msgctxt "Voidria.Voidria.IronVolcanoTitle"
+msgid "Iron Volcano"
+msgstr "Iron Volcano"
+
+#. Voidria.Voidria.IronVolcanoTooltip
+msgctxt "Voidria.Voidria.IronVolcanoTooltip"
+msgid "Enable iron volcano"
+msgstr "Enable iron volcano"
+
+#. Voidria.Voidria.OilReservoirTitle
+msgctxt "Voidria.Voidria.OilReservoirTitle"
+msgid "Oil Reservoir"
+msgstr "Oil Reservoir"
+
+#. Voidria.Voidria.OilReservoirTooltip
+msgctxt "Voidria.Voidria.OilReservoirTooltip"
+msgid "Enable oil reservoir"
+msgstr "Enable oil reservoir"
+
+#. Voidria.Voidria.CrittersCaveTitle
+msgctxt "Voidria.Voidria.CrittersCaveTitle"
+msgid "Critter Shalter"
+msgstr "Critter Shalter"
+
+#. Voidria.Voidria.CrittersCaveTooltip
+msgctxt "Voidria.Voidria.CrittersCaveTooltip"
+msgid "Enable critter shalters"
+msgstr "Enable critter shalters"

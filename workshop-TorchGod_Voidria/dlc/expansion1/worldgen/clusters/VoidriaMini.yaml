@@ -11,11 +11,19 @@ startWorldIndex: 0
 numRings: 8
 worldPlacements:
 - world: expansion1::worlds/VoidriaMini
-  buffer: 2
+  buffer: 1
   locationType: StartWorld
   allowedRings:
     min: 0
     max: 0
+- world: expansion1::worlds/TinyWrapSurface
+  allowedRings:
+    min: 6
+    max: 7
+- world: expansion1::worlds/TinyLandingZone
+  allowedRings:
+    min: 5
+    max: 6
     
 poiPlacements:
   - pois:
@@ -37,7 +45,7 @@ poiPlacements:
       - HarvestableSpacePOI_OrganicMassField
     numToSpawn: 1
     allowedRings:
-      min: 2
+      min: 1
       max: 4
       
   - pois: # spawn all of these
@@ -48,14 +56,14 @@ poiPlacements:
       - HarvestableSpacePOI_FrozenOreField
     numToSpawn: 5
     allowedRings:
-      min: 2
+      min: 1
       max: 4
   
   - pois:  # spawn all of these
       - HarvestableSpacePOI_RadioactiveGasCloud
       - HarvestableSpacePOI_RadioactiveAsteroidField
     numToSpawn: 2
-    avoidClumping: true
+    avoidClumping: false
     allowedRings:
       min: 2
       max: 6
@@ -70,7 +78,7 @@ poiPlacements:
     numToSpawn: 5
     canSpawnDuplicates: true
     allowedRings:
-      min: 4
+      min: 2
       max: 7
       
   - pois:
@@ -90,10 +98,10 @@ poiPlacements:
       - HarvestableSpacePOI_FrozenOreField
       - HarvestableSpacePOI_RadioactiveGasCloud
       - HarvestableSpacePOI_RadioactiveAsteroidField
-    numToSpawn: 10
+    numToSpawn: 8
     canSpawnDuplicates: true
     allowedRings:
-      min: 5
+      min: 3
       max: 7
       
   # artifact POIs
@@ -110,9 +118,9 @@ poiPlacements:
   - pois:
       - ArtifactSpacePOI_RussellsTeapot
     numToSpawn: 1
-    avoidClumping: true
+    avoidClumping: false
     allowedRings:
-      min: 7
+      min: 6
       max: 7
       
   - pois:
@@ -122,7 +130,7 @@ poiPlacements:
       - ArtifactSpacePOI_GravitasSpaceStation7
       - ArtifactSpacePOI_GravitasSpaceStation8
     numToSpawn: 4
-    avoidClumping: true
+    avoidClumping: false
     allowedRings:
       min: 4
       max: 7

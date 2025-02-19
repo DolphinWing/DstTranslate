@@ -1,4 +1,5 @@
 ﻿using HarmonyLib;
+using Klei.CustomSettings;
 using PeterHan.PLib.Core;
 using PeterHan.PLib.Database;
 using PeterHan.PLib.Options;
@@ -12,11 +13,11 @@ namespace Voidria
         public static LocString NAME = (LocString)"Voidria";
         public static LocString DESCRIPTION = (LocString)"Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\nDuplicants MUST work to DEATH to make the colony thrive again.";
 
-        public static LocString WRAP_NAME = (LocString)"Wrapper";
-        public static LocString WRAP_DESC = (LocString)"A tiny rock to jump with.";
+        public static LocString WRAP_NAME = (LocString)"Rocker";
+        public static LocString WRAP_DESC = (LocString)"A tiny rock needs one small step.";
 
         public static LocString LAND_NAME = (LocString)"Landing Zone";
-        public static LocString LAND_DESC = (LocString)"A tiny rock to land your rocket.";
+        public static LocString LAND_DESC = (LocString)"A tiny rock to land your little rocket.";
 
         public override void OnLoad(Harmony harmony)
         {
@@ -25,6 +26,15 @@ namespace Voidria
             new PLocalization().Register();
             new POptions().RegisterOptions(this, typeof(VoidriaOptions));
         }
+
+        //[HarmonyPatch(typeof(ColonyDestinationSelectScreen), "OnSpawn")]
+        //public static class ColonyDestinationSelectScreen_OnSpawn_Patch
+        //{
+        //    public static void Prefix()
+        //    {
+        //        PUtil.LogDebug("ColonyDestinationSelectScreen_OnSpawn_Patch Prefix");
+        //    }
+        //}
 
         /// <summary>
         /// Applied to MutatedWorldData() to remove all geysers on hard mode on 100 K.
@@ -42,7 +52,7 @@ namespace Voidria
                 if (options == null) return; // no need to change anything
 
                 var world = __instance.world;
-                if (world.name != "Voidria.Voidria.NAME") return; // no need to check further
+                if (world.name.StartsWith("Voidria.Voidria.") == false) return; // no need to check further
                 PUtil.LogDebug("Checking for " + world.name);
 
                 var spaced = DlcManager.IsContentSubscribed(DlcManager.EXPANSION1_ID);
@@ -55,22 +65,14 @@ namespace Voidria
                 bionic = dlcMixing.Contains(DlcManager.DLC3_ID);
                 PUtil.LogDebug("DLC mixing: " + spaced + ", " + frosty + ", " + bionic);
 
-#if ENABLE_STORY_TRAIT_OPTIONS
-                var stories = new Dictionary<string, bool>
-                {
-                    { "CritterManipulator", options.StoryCritterManipulator },
-                    { "MegaBrainTank", options.StoryMegaBrainTank },
-                    { "LonelyMinion", options.StoryLonelyMinion },
-                    { "MorbRoverMaker", options.StoryMorbRoverMaker },
-                    { "FossilHunt", options.StoryFossilHunt }
-                };
-#else
                 var stories = CustomGameSettings.Instance.GetCurrentStories();
                 foreach (var story in stories)
                 {
                     PUtil.LogDebug("story: " + story);
                 }
-#endif // ENABLE_STORY_TRAIT_OPTIONS
+
+//                var teleporter = CustomGameSettings.Instance.GetCurrentQualitySetting(CustomGameSettingConfigs.Teleporters);
+//                PUtil.LogDebug("teleporter: " + teleporter.coordinate_value);
 
                 var rules = world.worldTemplateRules;
                 if (rules != null)
@@ -98,17 +100,6 @@ namespace Voidria
                             PUtil.LogDebug("... remove oil pocket geyser");
                         }
 
-#if ENABLE_STORY_TRAIT_OPTIONS
-                        if (rule.ruleId?.StartsWith("tg_Story_") == true)
-                        {
-                            var ruleId = rule.ruleId.Substring(9);
-                            if (stories.ContainsKey(ruleId) == false || stories[ruleId] == false)
-                            {
-                                removed.Add(rule); // remove it since disabled or not existed
-                                PUtil.LogDebug("... remove " + ruleId);
-                            }
-                        }
-#else
                         if (rule.ruleId?.StartsWith("tg_Story_") == true)
                         {
                             var ruleId = rule.ruleId.Substring(9);
@@ -118,15 +109,24 @@ namespace Voidria
                                 PUtil.LogDebug("... remove " + ruleId);
                             }
                         }
-#endif // ENABLE_STORY_TRAIT_OPTIONS
 
-                        if (frosty == false && rule.ruleId?.StartsWith("tg_Critter_Frosty") == true)
+                        if (rule.ruleId?.StartsWith("tg_Critter_") == true)
                         {
-                            removed.Add(rule);
-                            PUtil.LogDebug("... remove Frosty Planet Pack critters and plants POI");
+                            if (options.EnableCritters == false)
+                            {
+                                removed.Add(rule);
+                                PUtil.LogDebug("... remove " + rule.ruleId);
+                            }
+                            else if (rule.ruleId?.StartsWith("tg_Critter_Vanilla") == true && frosty) 
+                            {
+                                PUtil.LogDebug("... add frosty critters");
+                                rule.names.Add("dlc2::critters/tg_bammoth");
+                                rule.names.Add("dlc2::critters/tg_flox");
+                                rule.names.Add("dlc2::critters/tg_sugar_bug_seagul");
+                            }
                         }
 
-                        if (!options.EnableCritters && rule.ruleId?.StartsWith("tg_Critter_") == true)
+                        if (!options.EnableGift && rule.ruleId?.StartsWith("tg_gift") == true)
                         {
                             removed.Add(rule);
                             PUtil.LogDebug("... remove " + rule.ruleId);

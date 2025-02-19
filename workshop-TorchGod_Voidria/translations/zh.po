@@ -7,3 +7,63 @@ msgstr "無多利亞"
 msgctxt "Voidria.Voidria.DESCRIPTION"
 msgid "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\nDuplicants MUST work to DEATH to make the colony thrive again."
 msgstr "無望的虛空。資源極度匱乏且有限。沒有間歇泉。\n\n複製人唯有至死方休才能讓殖民地重現生機。"
+
+#. Voidria.Voidria.WRAP_NAME
+msgctxt "Voidria.Voidria.WRAP_NAME"
+msgid "Rocker"
+msgstr "小石頭"
+
+#. Voidria.Voidria.WRAP_DESC
+msgctxt "Voidria.Voidria.WRAP_DESC"
+msgid "A tiny rock needs one small step."
+msgstr "這是必要的一小步。"
+
+#. Voidria.Voidria.LAND_NAME
+msgctxt "Voidria.Voidria.LAND_NAME"
+msgid "Landing Zone"
+msgstr "降落區"
+
+#. Voidria.Voidria.LAND_DESC
+msgctxt "Voidria.Voidria.LAND_DESC"
+msgid "A tiny rock to land your little rocket."
+msgstr "可以降落你的小火箭。"
+
+#. Voidria.Voidria.GiftedAreaTitle
+msgctxt "Voidria.Voidria.GiftedAreaTitle"
+msgid "Treasure Room"
+msgstr "祕寶區"
+
+#. Voidria.Voidria.GiftedAreaTooltip
+msgctxt "Voidria.Voidria.GiftedAreaTooltip"
+msgid "Enable treasure room"
+msgstr "啟用寶藏"
+
+#. Voidria.Voidria.IronVolcanoTitle
+msgctxt "Voidria.Voidria.IronVolcanoTitle"
+msgid "Iron Volcano"
+msgstr "鐵火山"
+
+#. Voidria.Voidria.IronVolcanoTooltip
+msgctxt "Voidria.Voidria.IronVolcanoTooltip"
+msgid "Enable iron volcano"
+msgstr "啟用鐵火山"
+
+#. Voidria.Voidria.OilReservoirTitle
+msgctxt "Voidria.Voidria.OilReservoirTitle"
+msgid "Oil Reservoir"
+msgstr "油田"
+
+#. Voidria.Voidria.OilReservoirTooltip
+msgctxt "Voidria.Voidria.OilReservoirTooltip"
+msgid "Enable oil reservoir"
+msgstr "啟用油田"
+
+#. Voidria.Voidria.CrittersCaveTitle
+msgctxt "Voidria.Voidria.CrittersCaveTitle"
+msgid "Critter Shalter"
+msgstr "小動物避難所"
+
+#. Voidria.Voidria.CrittersCaveTooltip
+msgctxt "Voidria.Voidria.CrittersCaveTooltip"
+msgid "Enable critter shalters"
+msgstr "啟用小動物避難所"

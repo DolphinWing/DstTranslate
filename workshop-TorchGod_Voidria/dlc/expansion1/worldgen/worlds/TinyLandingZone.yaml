@@ -5,8 +5,8 @@ asteroidIcon: asteroid_unknown_kanim
 
 worldTraitScale: 1 # Adjust with worldSize. Traits are tuned to base game world sizes.
 worldsize:
-  X: 32
-  Y: 32
+  X: 40
+  Y: 40
 layoutMethod: PowerTree
 
 defaultsOverrides:
@@ -41,7 +41,7 @@ unknownCellsAllowedSubworlds:
   - tagcommand: DistanceFromTag
     tag: AtSurface
     minDistance: 0
-    maxDistance: 1
+    maxDistance: 2
     command: Replace
     subworldNames:
       - subworlds/space/Space

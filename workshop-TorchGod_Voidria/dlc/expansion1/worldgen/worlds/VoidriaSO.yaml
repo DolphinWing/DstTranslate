@@ -435,25 +435,6 @@ worldTemplateRules:
         tag: AtSurface
         minDistance: 0
         maxDistance: 3
-  # Critter Frosty Planet
-  - names:
-    - dlc2::critters/tg_bammoth
-    - dlc2::critters/tg_flox
-    - dlc2::critters/tg_sugar_bug_seagul
-    listRule: GuaranteeAll
-    ruleId: tg_Critter_Frosty
-    priority: 120
-    allowedCellsFilter:
-      - command: Replace
-        tagcommand: DistanceFromTag
-        tag: AtStart
-        minDistance: 2
-        maxDistance: 99
-      - command: ExceptWith # too close to surface
-        tagcommand: DistanceFromTag
-        tag: AtSurface
-        minDistance: 0
-        maxDistance: 3
   # Gifts from devs
   - names:
     - bases/tg_gifted_base
