@@ -18,7 +18,7 @@ worldPlacements:
     max: 0
 - world: expansion1::worlds/TinyWrapSurface
   allowedRings:
-    min: 6
+    min: 4
     max: 7
 - world: expansion1::worlds/TinyLandingZone
   allowedRings:
@@ -46,7 +46,7 @@ poiPlacements:
     numToSpawn: 1
     allowedRings:
       min: 1
-      max: 4
+      max: 3
       
   - pois: # spawn all of these
       - HarvestableSpacePOI_GildedAsteroidField
@@ -65,7 +65,7 @@ poiPlacements:
     numToSpawn: 2
     avoidClumping: false
     allowedRings:
-      min: 1
+      min: 2
       max: 5
   
   - pois:
@@ -78,7 +78,7 @@ poiPlacements:
     numToSpawn: 8
     canSpawnDuplicates: true
     allowedRings:
-      min: 1
+      min: 2
       max: 6
       
   - pois:
@@ -98,7 +98,7 @@ poiPlacements:
       - HarvestableSpacePOI_FrozenOreField
       - HarvestableSpacePOI_RadioactiveGasCloud
       - HarvestableSpacePOI_RadioactiveAsteroidField
-    numToSpawn: 8
+    numToSpawn: 10
     canSpawnDuplicates: true
     allowedRings:
       min: 3

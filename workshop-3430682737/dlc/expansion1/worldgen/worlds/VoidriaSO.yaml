@@ -24,7 +24,7 @@ defaultsOverrides:
 
 # List all the subworld files to load
 subworldFiles:
-  - name: subworlds/forest/ForestStart
+  - name: subworlds/Voidria/voa_ForestStart
   - name: subworlds/forest/Forest
   - name: subworlds/space/Space
   - name: subworlds/space/Surface
@@ -34,12 +34,11 @@ subworldFiles:
   - name: expansion1::subworlds/space/SpaceWithAbyssaliteBorder
     weight: 0.5
 
-startSubworldName: subworlds/forest/ForestStart
+startSubworldName: subworlds/Voidria/voa_ForestStart
 startingBaseTemplate: bases/forestBase
 
 seasons:
-  - ClassicStyleWarpMeteorShowers
-#  - GassyMooteorShowers
+  - ClassicStyleStartMeteorShowers
   - RegolithMoonMeteorShowers
 
 # Specify where subworlds can spawn. These rules are processed in order and their effects are cumulative.
@@ -380,23 +379,27 @@ worldTemplateRules:
   # --- Critter Caves ---
   # Critter Vanilla
   - names:
-    - critters/tg_gassy_style
+    - critters/tg_hatch_lice
+    - critters/tg_pip_tree
     listRule: GuaranteeAll
-    ruleId: tg_Critter_Moo
+    ruleId: tg_Critter_Basic
     priority: 120
     allowedCellsFilter:
       - command: Replace
         tagcommand: DistanceFromTag
         tag: AtStart
-        minDistance: 0
+        minDistance: 1
         maxDistance: 2
+      - command: ExceptWith # too close to surface
+        tagcommand: DistanceFromTag
+        tag: AtSurface
+        minDistance: 0
+        maxDistance: 3
   - names:
     - critters/tg_bean_sleat
     - critters/tg_bug_morb_toilet
     - critters/tg_ce_lily_cave
-    - critters/tg_hatch_lice
     - critters/tg_pacu_lake
-    - critters/tg_pip_tree
     - critters/tg_pokeshell_pepper
     - critters/tg_puft_love
     - critters/tg_slime_sour

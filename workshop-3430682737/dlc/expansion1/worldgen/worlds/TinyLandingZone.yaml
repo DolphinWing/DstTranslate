@@ -24,20 +24,23 @@ defaultsOverrides:
 
 worldTraitRules: [] # Disable world traits
 
+seasons:
+  - GassyMooteorShowers
+
 # List all the subworld files to load
 subworldFiles:
   - name: subworlds/space/Space
-  - name: expansion1::subworlds/sandstone/Sandstone
-  - name: expansion1::subworlds/niobium/NiobiumPatch
+  - name: expansion1::subworlds/Voidria/GraphiteCaves
     minCount: 1
-    maxCount: 3
-    overridePower: 1.25
+  - name: expansion1::subworlds/Voidria/NiobiumPatch
+    minCount: 1
+    maxCount: 2
 
 unknownCellsAllowedSubworlds: 
   - tagcommand: Default
     command: Replace
     subworldNames:
-      -  expansion1::subworlds/sandstone/Sandstone
+      -  expansion1::subworlds/Voidria/GraphiteCaves
   - tagcommand: DistanceFromTag
     tag: AtSurface
     minDistance: 0
@@ -51,7 +54,19 @@ unknownCellsAllowedSubworlds:
     maxDistance: 0
     command: Replace
     subworldNames:
-      - expansion1::subworlds/sandstone/Sandstone
-      - expansion1::subworlds/niobium/NiobiumPatch
+      - expansion1::subworlds/Voidria/GraphiteCaves
+      - expansion1::subworlds/Voidria/NiobiumPatch
 
-#worldTemplateRules:
+worldTemplateRules:
+  - names:
+      - expansion1::bases/voa_landing_1
+      - expansion1::bases/voa_landing_2
+    listRule: GuaranteeAll
+    allowExtremeTemperatureOverlap: true
+    priority: 99
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtDepths
+        minDistance: 0
+        maxDistance: 0

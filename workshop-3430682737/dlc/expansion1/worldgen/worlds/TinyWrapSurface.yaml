@@ -6,7 +6,7 @@ asteroidIcon: asteroid_unknown_kanim
 worldTraitScale: 1 # Adjust with worldSize. Traits are tuned to base game world sizes.
 worldsize:
   X: 64
-  Y: 56
+  Y: 64
 layoutMethod: PowerTree
 
 defaultsOverrides:
@@ -24,8 +24,8 @@ defaultsOverrides:
 
 worldTraitRules: [] # Disable world traits
 
-startSubworldName: expansion1::subworlds/sandstone/SandstoneStart
-startingBaseTemplate: expansion1::bases/warpworldSandstoneBase
+startSubworldName: expansion1::subworlds/swamp/SwampStart
+startingBaseTemplate: expansion1::bases/voa_warpworldBase
 startingBasePositionHorizontal:
   min: 0.45
   max: 0.55
@@ -39,8 +39,8 @@ subworldFiles:
   - name: subworlds/space/SpaceNoBorder
   - name: subworlds/barren/BarrenGranite
     minCount: 1
-  - name: expansion1::subworlds/sandstone/Sandstone
-  - name: expansion1::subworlds/sandstone/SandstoneStart
+#  - name: expansion1::subworlds/sandstone/Sandstone
+  - name: expansion1::subworlds/swamp/SwampStart
 
 unknownCellsAllowedSubworlds: 
   - tagcommand: Default
@@ -77,4 +77,4 @@ worldTemplateRules:
         minDistance: 1
         maxDistance: 99
       - command: IntersectWith
-        zoneTypes: [ Sandstone, Space ]
+        zoneTypes: [ Sandstone, Space, Swamp ]
