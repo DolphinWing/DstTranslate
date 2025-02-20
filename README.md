@@ -14,12 +14,17 @@ This is a personal project that includes my mod work for the games by Klei Enter
 ![GitHub package.json version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/DolphinWing/DSTTranslate?filename=workshop-3413401611%2Fpackage.json&logo=github) 
 ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3413401611?logo=steam) 
 ![Steam Favorites](https://img.shields.io/steam/favorites/3413401611?logo=steam) <br />
-[workshop-3413401611](workshop-3413401611) is a map mod for 0K challenge.
+[workshop-3413401611](workshop-3413401611) is a map mod for 0K challenge feat. with @TorchGod531.
 * ONI [Moonlet Cluster - Superconductive](https://steamcommunity.com/sharedfiles/filedetails/?id=3418019940) (衛星星團－超導星)<br />
 ![GitHub package.json version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/DolphinWing/DSTTranslate?filename=workshop-3418019940%2Fpackage.json&logo=github) 
 ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3418019940?logo=steam) 
 ![Steam Favorites](https://img.shields.io/steam/favorites/3418019940?logo=steam) <br />
 [workshop-3418019940](workshop-3418019940) is a map mod for Superconductive starting world.
+* ONI [Voidria](https://steamcommunity.com/sharedfiles/filedetails/?id=3430682737) (無多利亞)<br />
+![GitHub package.json version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/DolphinWing/DSTTranslate?filename=workshop-3430682737%2Fpackage.json&logo=github) 
+![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3430682737?logo=steam) 
+![Steam Favorites](https://img.shields.io/steam/favorites/3430682737?logo=steam) <br />
+[workshop-3430682737](workshop-3430682737) is a map mod for Voidria clusters feat. with @TorchGod531.
 * DST [正體中文包](https://steamcommunity.com/sharedfiles/filedetails/?id=1993780385) <br />
 ![GitHub package.json version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/DolphinWing/DSTTranslate?filename=workshop-1993780385%2Fpackage.json&logo=github) 
 ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/1993780385?logo=steam) 
