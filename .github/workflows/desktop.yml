@@ -4,8 +4,8 @@ on:
   push:
     branches: [ master ]
     paths:
-    - 'desktop-app/**'
-    - '!desktop-app/resources/**'
+    - 'tools/desktop-app/**'
+    - '!tools/desktop-app/resources/**'
 
 jobs:
   build:
@@ -14,7 +14,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: desktop-app
+        working-directory: tools/desktop-app
 
     steps:
     - uses: actions/checkout@v2
