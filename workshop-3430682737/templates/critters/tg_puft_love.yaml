@@ -9,12 +9,12 @@ info:
 cells:
 - element: IgneousRock
   mass: 1840
-  temperature: 304.141663
+  temperature: 304.012817
   location_x: -5
   location_y: -2
 - element: AluminumOre
   mass: 500
-  temperature: 300.183624
+  temperature: 300.704041
   location_x: -4
   location_y: -2
 - element: Katairite
@@ -57,32 +57,32 @@ cells:
   location_x: -3
   location_y: -1
 - element: Water
-  mass: 942.5
-  temperature: 300.149994
+  mass: 1000.0
+  temperature: 300.135437
   location_x: -2
   location_y: -1
 - element: Water
-  mass: 962.5
-  temperature: 300.149994
+  mass: 1000.0
+  temperature: 300.128296
   location_x: -1
   location_y: -1
 - element: Water
-  mass: 965
-  temperature: 300.149994
+  mass: 999.987305
+  temperature: 300.128296
   location_y: -1
 - element: Obsidian
   mass: 1000
-  temperature: 243.151642
+  temperature: 243.179657
   location_x: -7
 - element: Katairite
   mass: 500
-  temperature: 303.149902
+  temperature: 303.148346
   location_x: -6
 - element: SlimeMold
   mass: 187.509995
-  temperature: 305.933563
+  temperature: 304.612854
   diseaseName: FoodPoisoning
-  diseaseCount: 174791
+  diseaseCount: 158093
   location_x: -5
 - element: CarbonDioxide
   mass: 0.104844958
@@ -94,18 +94,18 @@ cells:
   location_x: -3
 - element: RefinedCarbon
   mass: 200
-  temperature: 300.110291
+  temperature: 299.438263
   location_x: -2
 - element: Water
-  mass: 317.473633
-  temperature: 300.149994
+  mass: 600.0
+  temperature: 300.128296
   location_x: -1
 - element: Water
-  mass: 330.627197
-  temperature: 300.149994
+  mass: 600.0
+  temperature: 300.128296
 - element: Katairite
   mass: 500
-  temperature: 303.149902
+  temperature: 303.148346
   location_x: -7
   location_y: 1
 - element: SlimeMold
@@ -142,7 +142,7 @@ cells:
   location_y: 1
 - element: Fertilizer
   mass: 200
-  temperature: 300.148773
+  temperature: 300.148468
   location_y: 1
 - element: Katairite
   mass: 500
@@ -229,7 +229,7 @@ cells:
   location_y: 4
 - element: Katairite
   mass: 500
-  temperature: 303.147644
+  temperature: 303.147614
   location_x: -5
   location_y: 4
 - element: Katairite
@@ -259,12 +259,12 @@ cells:
   location_y: -2
 - element: GoldAmalgam
   mass: 4000
-  temperature: 300.142212
+  temperature: 300.014465
   location_x: 3
   location_y: -2
 - element: Granite
   mass: 1840
-  temperature: 297.153198
+  temperature: 297.206055
   location_x: 4
   location_y: -2
 - element: Katairite
@@ -279,7 +279,7 @@ cells:
   location_y: -2
 - element: MaficRock
   mass: 1840
-  temperature: 300.149994
+  temperature: 299.872498
   location_x: 1
   location_y: -1
 - element: Katairite
@@ -303,8 +303,8 @@ cells:
   location_x: 5
   location_y: -1
 - element: DirtyWater
-  mass: 967.072021
-  temperature: 300.149994
+  mass: 1000
+  temperature: 300.135712
   location_x: 6
   location_y: -1
 - element: Katairite
@@ -318,55 +318,55 @@ cells:
   location_x: 8
   location_y: -1
 - element: Water
-  mass: 341.89917
-  temperature: 300.149994
+  mass: 600.0
+  temperature: 300.107483
   location_x: 1
 - element: IronOre
   mass: 800
-  temperature: 300.149994
+  temperature: 299.395508
   location_x: 2
 - element: DirtyWater
-  mass: 938.409912
-  temperature: 300.149994
+  mass: 904.119507
+  temperature: 300.135437
   location_x: 3
 - element: DirtyWater
-  mass: 938.373962
-  temperature: 300.149994
+  mass: 904.075317
+  temperature: 300.135437
   location_x: 4
 - element: DirtyWater
-  mass: 936.866516
-  temperature: 300.149994
+  mass: 904.003662
+  temperature: 300.135437
   location_x: 5
 - element: DirtyWater
-  mass: 922.452393
-  temperature: 300.149994
+  mass: 903.931946
+  temperature: 300.135712
   location_x: 6
 - element: DirtyWater
-  mass: 936.825195
-  temperature: 300.149994
+  mass: 903.887634
+  temperature: 300.135406
   location_x: 7
 - element: Katairite
   mass: 500
   temperature: 303.149994
   location_x: 8
 - element: CarbonDioxide
-  mass: 2.18999958
-  temperature: 300.149994
+  mass: 2.17000008
+  temperature: 299.225372
   location_x: 1
   location_y: 1
 - element: CarbonDioxide
-  mass: 2.19000006
-  temperature: 300.149994
+  mass: 2.1699996
+  temperature: 299.225372
   location_x: 2
   location_y: 1
 - element: CarbonDioxide
-  mass: 2.19000006
-  temperature: 300.149994
+  mass: 2.17000008
+  temperature: 299.225372
   location_x: 3
   location_y: 1
 - element: CarbonDioxide
-  mass: 2.19000053
-  temperature: 300.149994
+  mass: 2.17000055
+  temperature: 299.225372
   location_x: 4
   location_y: 1
 - element: BleachStone
@@ -375,13 +375,13 @@ cells:
   location_x: 5
   location_y: 1
 - element: CarbonDioxide
-  mass: 2.94000006
-  temperature: 300.283295
+  mass: 2.92000008
+  temperature: 299.580902
   location_x: 6
   location_y: 1
 - element: CarbonDioxide
-  mass: 2.94000006
-  temperature: 300.408264
+  mass: 2.92000008
+  temperature: 299.534454
   location_x: 7
   location_y: 1
 - element: Katairite
@@ -415,13 +415,13 @@ cells:
   location_x: 5
   location_y: 2
 - element: CarbonDioxide
-  mass: 2.94000006
-  temperature: 300.683197
+  mass: 2.92000008
+  temperature: 299.698029
   location_x: 6
   location_y: 2
 - element: CarbonDioxide
-  mass: 2.94000006
-  temperature: 300.558228
+  mass: 2.92000008
+  temperature: 299.676819
   location_x: 7
   location_y: 2
 - element: Katairite
@@ -453,99 +453,206 @@ buildings:
 - id: ExteriorWall
   location_x: -1
   element: Obsidian
-  temperature: 293.149994
+  temperature: 300.128296
 - id: ExteriorWall
   element: Obsidian
-  temperature: 293.149994
+  temperature: 300.128296
 - id: ExteriorWall
   location_x: 1
   element: Obsidian
-  temperature: 293.149994
+  temperature: 300.107483
 - id: ExteriorWall
   location_x: -2
   location_y: -1
   element: Obsidian
-  temperature: 293.149994
+  temperature: 300.135559
 - id: ExteriorWall
   location_x: -1
   location_y: -1
   element: Obsidian
-  temperature: 293.149994
+  temperature: 300.128418
 - id: ExteriorWall
   location_y: -1
   element: Obsidian
-  temperature: 293.149994
+  temperature: 300.128418
 - id: ExteriorWall
   location_x: 3
   element: Obsidian
-  temperature: 293.149994
+  temperature: 300.135437
 - id: ExteriorWall
   location_x: 4
   element: Obsidian
-  temperature: 293.149994
+  temperature: 300.135437
 - id: ExteriorWall
   location_x: 5
   element: Obsidian
-  temperature: 293.149994
+  temperature: 300.135437
 - id: ExteriorWall
   location_x: 6
   element: Obsidian
-  temperature: 293.149994
+  temperature: 300.135712
 - id: ExteriorWall
   location_x: 7
   element: Obsidian
-  temperature: 293.149994
+  temperature: 300.135406
 - id: ExteriorWall
   location_x: 6
   location_y: -1
   element: Obsidian
-  temperature: 293.149994
+  temperature: 300.135834
 - id: ExteriorWall
   location_x: 1
   location_y: 1
   element: Obsidian
-  temperature: 293.149994
+  temperature: 293.555603
 - id: ExteriorWall
   location_x: 2
   location_y: 1
   element: Obsidian
-  temperature: 293.149994
+  temperature: 293.555603
 - id: ExteriorWall
   location_x: 3
   location_y: 1
   element: Obsidian
-  temperature: 293.149994
+  temperature: 293.555603
 - id: ExteriorWall
   location_x: 4
   location_y: 1
   element: Obsidian
-  temperature: 293.149994
+  temperature: 293.555603
 - id: ExteriorWall
   location_x: 6
   location_y: 2
   element: Obsidian
-  temperature: 293.149994
+  temperature: 293.73114
 - id: ExteriorWall
   location_x: 6
   location_y: 1
   element: Obsidian
-  temperature: 293.149994
+  temperature: 293.714203
 - id: ExteriorWall
   location_x: 7
   location_y: 1
   element: Obsidian
-  temperature: 293.149994
+  temperature: 293.712585
 - id: ExteriorWall
   location_x: 7
   location_y: 2
   element: Obsidian
+  temperature: 293.722687
+- id: ExteriorWall
+  location_x: 1
+  location_y: -1
+  element: WoodLog
+  temperature: 295.370056
+- id: ExteriorWall
+  location_x: -2
+  element: WoodLog
+  temperature: 298.234589
+- id: ExteriorWall
+  location_x: -3
+  element: WoodLog
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -4
+  element: WoodLog
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -5
+  element: WoodLog
+  temperature: 294.01239
+- id: ExteriorWall
+  location_x: 2
+  element: WoodLog
+  temperature: 299.041626
+- id: ExteriorWall
+  location_x: -1
+  location_y: 1
+  element: WoodLog
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -2
+  location_y: 1
+  element: WoodLog
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -3
+  location_y: 1
+  element: WoodLog
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -4
+  location_y: 1
+  element: WoodLog
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -5
+  location_y: 1
+  element: WoodLog
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -6
+  location_y: 2
+  element: WoodLog
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -5
+  location_y: 2
+  element: WoodLog
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -4
+  location_y: 2
+  element: WoodLog
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -3
+  location_y: 2
+  element: WoodLog
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -2
+  location_y: 2
+  element: WoodLog
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -1
+  location_y: 2
+  element: WoodLog
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -5
+  location_y: 3
+  element: WoodLog
+  temperature: 293.149994
+- id: ExteriorWall
+  location_y: 1
+  element: WoodLog
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: 5
+  location_y: 1
+  element: WoodLog
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -6
+  location_y: 1
+  element: WoodLog
   temperature: 293.149994
 pickupables:
+- id: PuftEgg
+  location_x: 2
+  location_y: -1
+  element: Creature
+  temperature: 293
+  units: 1
+  type: Pickupable
+  rottable: {}
 - id: Puft
   location_x: 7
-  location_y: 1
+  location_y: 2
   element: Creature
-  temperature: 308.130463
+  temperature: 308.124237
   units: 1
   type: Pickupable
   rottable: {}
@@ -553,7 +660,7 @@ pickupables:
   location_x: -2
   location_y: 1
   element: Creature
-  temperature: 295.763062
+  temperature: 296.298004
   units: 1
   type: Pickupable
   rottable: {}
@@ -569,7 +676,7 @@ pickupables:
   location_x: -4
   location_y: 4
   element: Creature
-  temperature: 293
+  temperature: 293.57251
   units: 1
   type: Pickupable
   rottable: {}
@@ -588,14 +695,6 @@ pickupables:
   units: 1
   type: Pickupable
   rottable: {}
-- id: PuftEgg
-  location_x: 2
-  location_y: -1
-  element: Creature
-  temperature: 293
-  units: 1
-  type: Pickupable
-  rottable: {}
 otherEntities:
 - id: MushroomPlant
   location_x: -4
@@ -605,12 +704,12 @@ otherEntities:
   type: Other
   amounts:
   - id: Maturity
-    value: 0.0130833052
+    value: 0.0158332903
   - id: Fertilization
   - id: AirPressure
-    value: 0.572086573
+    value: 0.040434476
   - id: Temperature
-    value: 293.760773
+    value: 293.42572
   - id: OldAge
   - id: Illumination
 - id: SaltPlant
@@ -622,10 +721,20 @@ otherEntities:
   type: Other
   amounts:
   - id: Maturity
-    value: 0.00466666697
+    value: 0.00824999809
   - id: Fertilization
   - id: AirPressure
-    value: 0.48999998
+    value: 0.0403535999
   - id: Temperature
-    value: 261.598572
+    value: 258.95636
   - id: OldAge
+- id: BulbPlant
+  location_x: 2
+  location_y: 1
+  element: Creature
+  temperature: 293
+  units: 1
+  type: Other
+  amounts:
+  - id: AirPressure
+  - id: Temperature

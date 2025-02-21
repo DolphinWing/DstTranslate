@@ -11,4 +11,4 @@ biomes:
     weight: 1
 tags:
   - IgnoreCaveOverride
-zoneType: OilField
+zoneType: Space

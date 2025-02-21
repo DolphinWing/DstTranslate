@@ -10,16 +10,26 @@ worldsize:
 layoutMethod: PowerTree # Note: We need to add weights to the items in the layer in order to use this.
 
 defaultsOverrides:
+  data:
+    OverworldAvoidRadius: 5
+    OverworldSampleBehaviour: PoissonDisk
+    OverworldDensityMin: 10
+    OverworldDensityMax: 10
+    DrawWorldBorder: true
+    DrawWorldBorderForce: false
+    WorldBorderThickness: 1
+    WorldBorderRange: 0
+#    OverworldMinNodes: 1
   startingWorldElements: [] # remove the algae check
 
 # List all the subworld files to load
 subworldFiles:
-  - name: subworlds/forest/ForestStart
+  - name: subworlds/Voidria/voa_ForestStart
   - name: subworlds/forest/Forest
   - name: subworlds/space/Space
   - name: subworlds/space/Surface
 
-startSubworldName: subworlds/forest/ForestStart
+startSubworldName: subworlds/Voidria/voa_ForestStart
 startingBaseTemplate: bases/forestBase
 
 seasons:
@@ -124,7 +134,6 @@ worldTemplateRules:
         tag: AtDepths
         minDistance: 0
         maxDistance: 6
-
   # --- Story Traits ---
   # CreatureManipulator
   - names:
@@ -295,15 +304,30 @@ worldTemplateRules:
       - command: Replace
         tagcommand: DistanceFromTag
         tag: AtStart
-        minDistance: 0
+        minDistance: 1
+        maxDistance: 4
+  - names:
+    - critters/tg_hatch_lice
+    - critters/tg_pip_tree
+    listRule: GuaranteeAll
+    ruleId: tg_Critter_Basic
+    priority: 120
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 1
         maxDistance: 2
+      - command: ExceptWith # too close to surface
+        tagcommand: DistanceFromTag
+        tag: AtSurface
+        minDistance: 0
+        maxDistance: 3
   - names:
     - critters/tg_bean_sleat
     - critters/tg_bug_morb_toilet
     - critters/tg_ce_lily_cave
-    - critters/tg_hatch_lice
     - critters/tg_pacu_lake
-    - critters/tg_pip_tree
     - critters/tg_pokeshell_pepper
     - critters/tg_puft_love
     - critters/tg_slime_sour
@@ -326,7 +350,6 @@ worldTemplateRules:
   # Gifts from devs
   - names:
     - bases/tg_gifted_base
-    - expansion1::bases/tg_gifted_base_so
     listRule: GuaranteeOne
     ruleId: tg_gift
     priority: 450

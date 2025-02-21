@@ -37,9 +37,7 @@ startingBasePositionVertical:
 subworldFiles:
   - name: subworlds/space/Space
   - name: subworlds/space/SpaceNoBorder
-  - name: subworlds/barren/BarrenGranite
-    minCount: 1
-#  - name: expansion1::subworlds/sandstone/Sandstone
+  - name: expansion1::subworlds/Voidria/voa_RustFrozen
   - name: expansion1::subworlds/swamp/SwampStart
 
 unknownCellsAllowedSubworlds: 
@@ -61,7 +59,7 @@ unknownCellsAllowedSubworlds:
     maxDistance: 1
     command: Replace
     subworldNames:
-      - subworlds/barren/BarrenGranite
+      - expansion1::subworlds/Voidria/voa_RustFrozen
 
 worldTemplateRules:
   # Gravitas

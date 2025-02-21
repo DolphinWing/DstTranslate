@@ -122,11 +122,11 @@ buildings:
   location_y: -2
   element: SandStone
   temperature: 303.206207
-- id: ExteriorWall
+- id: PropGravitasWall
   location_y: 2
   element: SandStone
   temperature: 293.149994
-- id: ExteriorWall
+- id: PropGravitasWall
   location_y: 1
   element: SandStone
   temperature: 293.149994
@@ -134,19 +134,9 @@ buildings:
   location_y: 1
   element: SandStone
   temperature: 293.149994
-- id: ExteriorWall
+- id: PropGravitasWall
   location_x: -1
   location_y: 2
-  element: SandStone
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: -1
-  location_y: 1
-  element: SandStone
-  temperature: 293.149994
-- id: GravitasPedestal
-  location_x: -1
-  location_y: 1
   element: SandStone
   temperature: 293.149994
 otherEntities:

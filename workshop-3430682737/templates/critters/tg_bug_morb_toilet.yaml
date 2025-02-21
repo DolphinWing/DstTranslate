@@ -301,7 +301,6 @@ cells:
 - element: Vacuum
   location_x: 1
   location_y: 2
-  preventFoWReveal: true
 - element: Oxygen
   mass: 0.0058850348
   temperature: 294.492432
@@ -423,11 +422,6 @@ buildings:
   temperature: 293.149994
   other_values:
   - id: joulesAvailable
-- id: ItemPedestal
-  location_x: -6
-  location_y: 1
-  element: Granite
-  temperature: 293.149994
 - id: ExteriorWall
   location_x: 4
   location_y: -1

@@ -24,7 +24,7 @@ defaultsOverrides:
 
 # List all the subworld files to load
 subworldFiles:
-  - name: subworlds/forest/ForestStart
+  - name: expansion1::subworlds/forest/med_ForestStart
   - name: subworlds/forest/Forest
   - name: subworlds/space/Space
   - name: subworlds/space/Surface
@@ -34,7 +34,7 @@ subworldFiles:
   - name: expansion1::subworlds/space/SpaceWithAbyssaliteBorder
     weight: 0.5
 
-startSubworldName: subworlds/forest/ForestStart
+startSubworldName: expansion1::subworlds/forest/med_ForestStart
 startingBaseTemplate: bases/forestBase
 
 seasons:

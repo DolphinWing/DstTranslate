@@ -526,7 +526,7 @@ cells:
   location_y: -1
   preventFoWReveal: true
 - element: OxyRock
-  mass: 194.815903
+  mass: 800
   temperature: 225.811127
   location_x: 5
   location_y: -1

@@ -298,7 +298,7 @@ cells:
   location_x: -10
   location_y: -1
 - element: Oxygen
-  mass: 1.54343581E-07
+  mass: 0.897280812
   temperature: 294.09906
   location_x: -9
   location_y: -1
