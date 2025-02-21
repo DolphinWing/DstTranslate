@@ -39,22 +39,29 @@ poiPlacements:
     numToSpawn: 1
     allowedRings:
       min: 1
-      max: 3
+      max: 2
       
   - pois: # spawn all of these
       - HarvestableSpacePOI_OrganicMassField
     numToSpawn: 1
     allowedRings:
       min: 1
-      max: 4
-      
+      max: 2
+
+  - pois: # spawn all of these
+      - HarvestableSpacePOI_MetallicAsteroidField
+    numToSpawn: 1
+    allowedRings:
+      min: 2
+      max: 3
+
   - pois: # spawn all of these
       - HarvestableSpacePOI_GildedAsteroidField
       - HarvestableSpacePOI_GlimmeringAsteroidField
       - HarvestableSpacePOI_HeliumCloud
       - HarvestableSpacePOI_OilyAsteroidField
       - HarvestableSpacePOI_FrozenOreField
-    numToSpawn: 5
+    numToSpawn: 4
     allowedRings:
       min: 1
       max: 4
@@ -66,7 +73,7 @@ poiPlacements:
     avoidClumping: false
     allowedRings:
       min: 2
-      max: 6
+      max: 5
   
   - pois:
       - HarvestableSpacePOI_RockyAsteroidField
@@ -79,7 +86,7 @@ poiPlacements:
     canSpawnDuplicates: true
     allowedRings:
       min: 2
-      max: 7
+      max: 6
       
   - pois:
       - HarvestableSpacePOI_CarbonAsteroidField
@@ -110,7 +117,7 @@ poiPlacements:
       - ArtifactSpacePOI_GravitasSpaceStation4
       - ArtifactSpacePOI_GravitasSpaceStation6
     numToSpawn: 1
-    avoidClumping: true
+    avoidClumping: false
     allowedRings:
       min: 2
       max: 7
