@@ -16,7 +16,7 @@ worldPlacements:
   allowedRings:
     min: 0
     max: 0
-- world: expansion1::worlds/TinyWrapSurface
+- world: expansion1::worlds/TinyWarpSurface
   allowedRings:
     min: 6
     max: 7

@@ -8,13 +8,13 @@ msgctxt "Voidria.Voidria.DESCRIPTION"
 msgid "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\nDuplicants MUST work to DEATH to make the colony thrive again."
 msgstr "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\nDuplicants MUST work to DEATH to make the colony thrive again."
 
-#. Voidria.Voidria.WRAP_NAME
-msgctxt "Voidria.Voidria.WRAP_NAME"
+#. Voidria.Voidria.WARP_NAME
+msgctxt "Voidria.Voidria.WARP_NAME"
 msgid "Rocker"
 msgstr "Rocker"
 
-#. Voidria.Voidria.WRAP_DESC
-msgctxt "Voidria.Voidria.WRAP_DESC"
+#. Voidria.Voidria.WARP_DESC
+msgctxt "Voidria.Voidria.WARP_DESC"
 msgid "A tiny rock needs one small step."
 msgstr "A tiny rock needs one small step."
 

@@ -12,8 +12,8 @@ namespace Voidria
         public static LocString NAME = (LocString)"Voidria";
         public static LocString DESCRIPTION = (LocString)"Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\nDuplicants MUST work to DEATH to make the colony thrive again.";
 
-        public static LocString WRAP_NAME = (LocString)"Rocker";
-        public static LocString WRAP_DESC = (LocString)"A tiny rock needs one small step.";
+        public static LocString WARP_NAME = (LocString)"Rocker";
+        public static LocString WARP_DESC = (LocString)"A tiny rock needs one small step.";
 
         public static LocString LAND_NAME = (LocString)"Landing Zone";
         public static LocString LAND_DESC = (LocString)"A tiny rock to land your little rocket.";
@@ -31,8 +31,8 @@ namespace Voidria
             Strings.Add("STRINGS.SUBWORLDS.VOIDRIA.DESC", DESCRIPTION);
             Strings.Add("STRINGS.WORLDS.TINYLANDINGZONE.NAME", LAND_NAME);
             Strings.Add("STRINGS.WORLDS.TINYLANDINGZONE.DESCRIPTION", LAND_DESC);
-            Strings.Add("STRINGS.WORLDS.TINYWRAPSURFACE.NAME", WRAP_NAME);
-            Strings.Add("STRINGS.WORLDS.TINYWRAPSURFACE.DESCRIPTION", WRAP_DESC);
+            Strings.Add("STRINGS.WORLDS.TINYWARPSURFACE.NAME", WARP_NAME);
+            Strings.Add("STRINGS.WORLDS.TINYWARAPSURFACE.DESCRIPTION", WARP_DESC);
             Strings.Add("STRINGS.WORLDS.VOIDRIA.NAME", NAME);
             Strings.Add("STRINGS.WORLDS.VOIDRIA.DESCRIPTION", DESCRIPTION);
             Strings.Add("STRINGS.WORLDS.VOIDRIASO.NAME", NAME);
