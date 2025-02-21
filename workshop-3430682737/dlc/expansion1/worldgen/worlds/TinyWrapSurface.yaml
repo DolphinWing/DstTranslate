@@ -5,8 +5,8 @@ asteroidIcon: asteroid_unknown_kanim
 
 worldTraitScale: 1 # Adjust with worldSize. Traits are tuned to base game world sizes.
 worldsize:
-  X: 64
-  Y: 64
+  X: 56
+  Y: 56
 layoutMethod: PowerTree
 
 defaultsOverrides:
@@ -75,4 +75,4 @@ worldTemplateRules:
         minDistance: 1
         maxDistance: 99
       - command: IntersectWith
-        zoneTypes: [ Sandstone, Space, Swamp ]
+        zoneTypes: [ Sandstone, Space, Swamp, OilField, Rust ]

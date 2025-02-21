@@ -443,7 +443,7 @@ worldTemplateRules:
     - bases/tg_gifted_base
     - expansion1::bases/tg_gifted_base_so
     listRule: GuaranteeOne
-    ruleId: tg_gift
+    ruleId: tg_gift_base
     priority: 450
     allowedCellsFilter:
       - command: Replace
@@ -451,3 +451,17 @@ worldTemplateRules:
         tag: AtStart
         minDistance: 0
         maxDistance: 1
+  # Uranium Geode
+  - names:
+    - expansion1::poi/radioactive/uranium_geode1
+    listRule: GuaranteeAll
+    ruleId: tg_gift_basic
+    useRelaxedFiltering: true
+    allowExtremeTemperatureOverlap: true # has Abyssalite border
+    priority: 200
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 1
+        maxDistance: 2

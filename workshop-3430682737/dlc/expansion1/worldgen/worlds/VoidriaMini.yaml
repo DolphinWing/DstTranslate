@@ -24,7 +24,7 @@ defaultsOverrides:
 
 # List all the subworld files to load
 subworldFiles:
-  - name: expansion1::subworlds/forest/med_ForestStart
+  - name: subworlds/Voidria/voa_ForestStart
   - name: subworlds/forest/Forest
   - name: subworlds/space/Space
   - name: subworlds/space/Surface
@@ -34,7 +34,7 @@ subworldFiles:
   - name: expansion1::subworlds/space/SpaceWithAbyssaliteBorder
     weight: 0.5
 
-startSubworldName: expansion1::subworlds/forest/med_ForestStart
+startSubworldName: subworlds/Voidria/voa_ForestStart
 startingBaseTemplate: bases/forestBase
 
 seasons:
@@ -443,7 +443,7 @@ worldTemplateRules:
     - bases/tg_gifted_base
     - expansion1::bases/tg_gifted_base_so
     listRule: GuaranteeOne
-    ruleId: tg_gift
+    ruleId: tg_gift_base
     priority: 450
     allowedCellsFilter:
       - command: Replace
@@ -451,3 +451,17 @@ worldTemplateRules:
         tag: AtStart
         minDistance: 0
         maxDistance: 1
+  # Uranium Geode
+  - names:
+    - expansion1::poi/radioactive/uranium_geode1
+    listRule: GuaranteeAll
+    ruleId: tg_gift_basic
+    useRelaxedFiltering: true
+    allowExtremeTemperatureOverlap: true # has Abyssalite border
+    priority: 200
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 1
+        maxDistance: 2

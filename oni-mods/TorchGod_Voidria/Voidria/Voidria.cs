@@ -1,5 +1,4 @@
 ﻿using HarmonyLib;
-using Klei.CustomSettings;
 using PeterHan.PLib.Core;
 using PeterHan.PLib.Database;
 using PeterHan.PLib.Options;
@@ -25,6 +24,21 @@ namespace Voidria
             PUtil.InitLibrary();
             new PLocalization().Register();
             new POptions().RegisterOptions(this, typeof(VoidriaOptions));
+
+            Strings.Add("STRINGS.CLUSTER_NAMES.VOIDRIA.NAME", NAME);
+            Strings.Add("STRINGS.CLUSTER_NAMES.VOIDRIA.DESCRIPTION", DESCRIPTION);
+            Strings.Add("STRINGS.SUBWORLDS.VOIDRIA.NAME", NAME);
+            Strings.Add("STRINGS.SUBWORLDS.VOIDRIA.DESC", DESCRIPTION);
+            Strings.Add("STRINGS.WORLDS.TINYLANDINGZONE.NAME", LAND_NAME);
+            Strings.Add("STRINGS.WORLDS.TINYLANDINGZONE.DESCRIPTION", LAND_DESC);
+            Strings.Add("STRINGS.WORLDS.TINYWRAPSURFACE.NAME", WRAP_NAME);
+            Strings.Add("STRINGS.WORLDS.TINYWRAPSURFACE.DESCRIPTION", WRAP_DESC);
+            Strings.Add("STRINGS.WORLDS.VOIDRIA.NAME", NAME);
+            Strings.Add("STRINGS.WORLDS.VOIDRIA.DESCRIPTION", DESCRIPTION);
+            Strings.Add("STRINGS.WORLDS.VOIDRIASO.NAME", NAME);
+            Strings.Add("STRINGS.WORLDS.VOIDRIASO.DESCRIPTION", DESCRIPTION);
+            Strings.Add("STRINGS.WORLDS.VOIDRIAMINI.NAME", NAME);
+            Strings.Add("STRINGS.WORLDS.VOIDRIAMINI.DESCRIPTION", DESCRIPTION);
         }
 
         //[HarmonyPatch(typeof(ColonyDestinationSelectScreen), "OnSpawn")]
@@ -58,22 +72,25 @@ namespace Voidria
                 var spaced = DlcManager.IsContentSubscribed(DlcManager.EXPANSION1_ID);
                 var frosty = DlcManager.IsContentSubscribed(DlcManager.DLC2_ID);
                 var bionic = DlcManager.IsContentSubscribed(DlcManager.DLC3_ID);
-                PUtil.LogDebug("DLC own: " + spaced + ", " + frosty + ", " + bionic);
+                //PUtil.LogDebug("DLC own: " + spaced + ", " + frosty + ", " + bionic);
 
                 var dlcMixing = CustomGameSettings.Instance.GetCurrentDlcMixingIds();
                 frosty = dlcMixing.Contains(DlcManager.DLC2_ID);
                 bionic = dlcMixing.Contains(DlcManager.DLC3_ID);
-                PUtil.LogDebug("DLC mixing: " + spaced + ", " + frosty + ", " + bionic);
+                //PUtil.LogDebug("DLC mixing: " + spaced + ", " + frosty + ", " + bionic);
 
                 var stories = CustomGameSettings.Instance.GetCurrentStories();
+#if DEBUG
                 foreach (var story in stories)
                 {
                     PUtil.LogDebug("story: " + story);
                 }
+#endif
 
-//                var teleporter = CustomGameSettings.Instance.GetCurrentQualitySetting(CustomGameSettingConfigs.Teleporters);
-//                PUtil.LogDebug("teleporter: " + teleporter.coordinate_value);
-
+#if DEBUG
+                var teleporter = CustomGameSettings.Instance.GetCurrentQualitySetting(CustomGameSettingConfigs.Teleporters);
+                PUtil.LogDebug("teleporter: " + teleporter.coordinate_value);
+#endif
                 var rules = world.worldTemplateRules;
                 if (rules != null)
                 {
@@ -126,10 +143,18 @@ namespace Voidria
                             }
                         }
 
-                        if (!options.EnableGift && rule.ruleId?.StartsWith("tg_gift") == true)
+                        if (rule.ruleId?.StartsWith("tg_gift") == true)
                         {
-                            removed.Add(rule);
-                            PUtil.LogDebug("... remove " + rule.ruleId);
+                            if (options.EnableGift == false)
+                            {
+                                removed.Add(rule);
+                                PUtil.LogDebug("... remove " + rule.ruleId);
+                            }
+                            else if(rule.ruleId?.StartsWith("tg_gift_basic") == true && frosty)
+                            {
+                                rule.names.Add("dlc2::bases/tg_wood_pile");
+                                PUtil.LogDebug("... add Frosty Wood pile");
+                            }
                         }
                     }
 
