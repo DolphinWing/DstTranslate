@@ -62,22 +62,22 @@ namespace Voidria
             /// </summary>
             internal static void Postfix(MutatedWorldData __instance)
             {
-                var options = POptions.ReadSettings<VoidriaOptions>();
-                if (options == null) return; // no need to change anything
-
                 var world = __instance.world;
                 if (world.name.StartsWith("Voidria.Voidria.") == false) return; // no need to check further
                 PUtil.LogDebug("Checking for " + world.name);
 
+                var options = POptions.ReadSettings<VoidriaOptions>();
+                //if (options == null) return; // no need to change anything
+
                 var spaced = DlcManager.IsContentSubscribed(DlcManager.EXPANSION1_ID);
                 var frosty = DlcManager.IsContentSubscribed(DlcManager.DLC2_ID);
                 var bionic = DlcManager.IsContentSubscribed(DlcManager.DLC3_ID);
-                //PUtil.LogDebug("DLC own: " + spaced + ", " + frosty + ", " + bionic);
+                PUtil.LogDebug("DLC own: " + spaced + ", " + frosty + ", " + bionic);
 
                 var dlcMixing = CustomGameSettings.Instance.GetCurrentDlcMixingIds();
                 frosty = dlcMixing.Contains(DlcManager.DLC2_ID);
                 bionic = dlcMixing.Contains(DlcManager.DLC3_ID);
-                //PUtil.LogDebug("DLC mixing: " + spaced + ", " + frosty + ", " + bionic);
+                PUtil.LogDebug("DLC mixing: " + spaced + ", " + frosty + ", " + bionic);
 
                 var stories = CustomGameSettings.Instance.GetCurrentStories();
 #if DEBUG
@@ -106,15 +106,21 @@ namespace Voidria
                         }
 #endif
 
-                        if (!options.EnableIronVolcano && rule.names.Contains("geysers/molten_iron"))
+                        if (rule.names.Contains("geysers/molten_iron"))
                         {
-                            removed.Add(rule); //world.worldTemplateRules?.Remove(rule);
-                            PUtil.LogDebug("... remove iron volcano");
+                            if (options != null && options?.EnableIronVolcano == false)
+                            {
+                                removed.Add(rule); //world.worldTemplateRules?.Remove(rule);
+                                PUtil.LogDebug("... remove iron volcano");
+                            }
                         }
-                        if (!options.EnableOilReservoir && rule.names.Contains("poi/oil/small_oilpockets_geyser_a"))
+                        if (rule.names.Contains("poi/oil/small_oilpockets_geyser_a"))
                         {
-                            removed.Add(rule); //world.worldTemplateRules?.Remove(rule);
-                            PUtil.LogDebug("... remove oil pocket geyser");
+                            if (options != null && options?.EnableOilReservoir == false)
+                            {
+                                removed.Add(rule); //world.worldTemplateRules?.Remove(rule);
+                                PUtil.LogDebug("... remove oil pocket geyser");
+                            }
                         }
 
                         if (rule.ruleId?.StartsWith("tg_Story_") == true)
@@ -129,7 +135,7 @@ namespace Voidria
 
                         if (rule.ruleId?.StartsWith("tg_Critter_") == true)
                         {
-                            if (options.EnableCritters == false)
+                            if (options != null && options.EnableCritters == false)
                             {
                                 removed.Add(rule);
                                 PUtil.LogDebug("... remove " + rule.ruleId);
@@ -145,7 +151,7 @@ namespace Voidria
 
                         if (rule.ruleId?.StartsWith("tg_gift") == true)
                         {
-                            if (options.EnableGift == false)
+                            if (options != null && options.EnableGift == false)
                             {
                                 removed.Add(rule);
                                 PUtil.LogDebug("... remove " + rule.ruleId);
