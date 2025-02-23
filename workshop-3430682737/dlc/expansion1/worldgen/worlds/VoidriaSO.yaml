@@ -388,7 +388,7 @@ worldTemplateRules:
       - command: Replace
         tagcommand: DistanceFromTag
         tag: AtStart
-        minDistance: 1
+        minDistance: 0
         maxDistance: 2
       - command: ExceptWith # too close to surface
         tagcommand: DistanceFromTag
@@ -440,9 +440,8 @@ worldTemplateRules:
         maxDistance: 3
   # Gifts from devs
   - names:
-    - bases/tg_gifted_base
     - expansion1::bases/tg_gifted_base_so
-    listRule: GuaranteeOne
+    listRule: GuaranteeAll
     ruleId: tg_gift_base
     priority: 450
     allowedCellsFilter:
@@ -454,7 +453,7 @@ worldTemplateRules:
   # Uranium Geode
   - names:
     - expansion1::poi/radioactive/uranium_geode1
-    listRule: GuaranteeAll
+    listRule: GuaranteeOne
     ruleId: tg_gift_basic
     useRelaxedFiltering: true
     allowExtremeTemperatureOverlap: true # has Abyssalite border

@@ -316,7 +316,7 @@ worldTemplateRules:
       - command: Replace
         tagcommand: DistanceFromTag
         tag: AtStart
-        minDistance: 1
+        minDistance: 0
         maxDistance: 2
       - command: ExceptWith # too close to surface
         tagcommand: DistanceFromTag
@@ -350,8 +350,8 @@ worldTemplateRules:
   # Gifts from devs
   - names:
     - bases/tg_gifted_base
-    listRule: GuaranteeOne
-    ruleId: tg_gift
+    listRule: GuaranteeAll
+    ruleId: tg_gift_base
     priority: 450
     allowedCellsFilter:
       - command: Replace

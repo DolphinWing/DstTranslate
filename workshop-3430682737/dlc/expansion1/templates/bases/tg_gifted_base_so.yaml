@@ -9,285 +9,198 @@ info:
 cells:
 - element: SandStone
   mass: 100
-  temperature: 293.285461
-  location_x: -8
-  location_y: -5
-- element: SandStone
-  mass: 100
-  temperature: 293.94751
-  location_x: -7
-  location_y: -5
-- element: SandStone
-  mass: 100
-  temperature: 294.004913
-  location_x: -6
-  location_y: -5
-- element: SandStone
-  mass: 100
-  temperature: 293.98288
-  location_x: -5
-  location_y: -5
-- element: SandStone
-  mass: 100
-  temperature: 293.943695
-  location_x: -4
-  location_y: -5
-- element: SandStone
-  mass: 100
-  temperature: 293.316223
-  location_x: -3
-  location_y: -5
-- element: SandStone
-  mass: 100
-  temperature: 293.273499
-  location_x: -2
-  location_y: -5
-- element: SandStone
-  mass: 100
-  temperature: 293.292175
-  location_x: -1
-  location_y: -5
-- element: SandStone
-  mass: 100
-  temperature: 293.921021
-  location_y: -5
-- element: SandStone
-  mass: 100
-  temperature: 293.9758
-  location_x: 1
-  location_y: -5
-- element: SandStone
-  mass: 100
-  temperature: 293.304169
-  location_x: 2
-  location_y: -5
-- element: SandStone
-  mass: 100
-  temperature: 293.97049
-  location_x: 3
-  location_y: -5
-- element: SandStone
-  mass: 100
-  temperature: 294.262695
-  location_x: 4
-  location_y: -5
-- element: SandStone
-  mass: 100
-  temperature: 294.345154
-  location_x: 5
-  location_y: -5
-- element: SandStone
-  mass: 100
-  temperature: 294.310913
-  location_x: 6
-  location_y: -5
-- element: SandStone
-  mass: 100
-  temperature: 293.3909
-  location_x: 7
-  location_y: -5
-- element: SandStone
-  mass: 100
-  temperature: 293.658051
-  location_x: 8
-  location_y: -5
-- element: SandStone
-  mass: 100
-  temperature: 290.395538
+  temperature: 293.138947
   location_x: -9
   location_y: -4
 - element: SandStone
   mass: 100
-  temperature: 293.838013
+  temperature: 283.128601
   location_x: -8
   location_y: -4
-- element: Sand
-  mass: 1000
-  temperature: 299.978607
+- element: Water
+  mass: 1200
+  temperature: 300
   location_x: -7
   location_y: -4
   preventFoWReveal: true
 - element: Water
-  mass: 998.123718
-  temperature: 299.936707
+  mass: 989.517883
+  temperature: 299.718628
   location_x: -6
   location_y: -4
   preventFoWReveal: true
 - element: Water
-  mass: 998.123779
-  temperature: 299.937988
+  mass: 990.734985
+  temperature: 299.730743
   location_x: -5
   location_y: -4
   preventFoWReveal: true
 - element: Water
-  mass: 998.122314
-  temperature: 299.940399
+  mass: 975.515625
+  temperature: 299.750153
   location_x: -4
   location_y: -4
   preventFoWReveal: true
 - element: Water
-  mass: 998.123535
-  temperature: 299.965057
+  mass: 993.015991
+  temperature: 299.731323
   location_x: -3
   location_y: -4
   preventFoWReveal: true
 - element: Water
-  mass: 998.123657
-  temperature: 299.945831
+  mass: 999.159058
+  temperature: 299.743103
   location_x: -2
   location_y: -4
   preventFoWReveal: true
 - element: Water
-  mass: 998.123047
-  temperature: 299.972992
+  mass: 1001.67072
+  temperature: 299.780457
   location_x: -1
   location_y: -4
   preventFoWReveal: true
 - element: Water
-  mass: 998.123657
-  temperature: 299.948029
+  mass: 1002.36072
+  temperature: 299.956635
   location_y: -4
   preventFoWReveal: true
 - element: Water
-  mass: 998.123413
-  temperature: 299.947052
+  mass: 1002.75952
+  temperature: 299.951965
   location_x: 1
   location_y: -4
   preventFoWReveal: true
 - element: Water
-  mass: 998.122925
-  temperature: 299.956726
+  mass: 1003.06604
+  temperature: 299.936218
   location_x: 2
   location_y: -4
   preventFoWReveal: true
 - element: Water
-  mass: 998.122314
-  temperature: 299.928558
+  mass: 1003.64526
+  temperature: 299.920837
   location_x: 3
   location_y: -4
   preventFoWReveal: true
 - element: ToxicMud
   mass: 2000
-  temperature: 299.994965
+  temperature: 299.84845
   location_x: 4
   location_y: -4
   preventFoWReveal: true
 - element: ToxicMud
   mass: 2000
-  temperature: 299.995056
+  temperature: 299.864655
   location_x: 5
   location_y: -4
   preventFoWReveal: true
 - element: ToxicMud
   mass: 2000
-  temperature: 299.994995
+  temperature: 299.849182
   location_x: 6
   location_y: -4
   preventFoWReveal: true
 - element: ToxicMud
   mass: 2000
-  temperature: 299.988403
+  temperature: 299.697998
   location_x: 7
   location_y: -4
   preventFoWReveal: true
 - element: SandStone
   mass: 100
-  temperature: 293.454865
+  temperature: 294.191528
   location_x: 8
   location_y: -4
 - element: SandStone
   mass: 100
-  temperature: 293.59317
+  temperature: 293.658325
   location_x: 9
   location_y: -4
-- element: Vacuum
-  location_x: -10
-  location_y: -3
 - element: SandStone
   mass: 100
-  temperature: 281.041931
+  temperature: 293.486542
   location_x: -9
   location_y: -3
 - element: Sand
   mass: 1000
-  temperature: 299.956543
+  temperature: 298.820099
   location_x: -8
   location_y: -3
   preventFoWReveal: true
 - element: Water
-  mass: 994.988159
-  temperature: 299.871521
+  mass: 924.920288
+  temperature: 300.012085
   location_x: -7
   location_y: -3
   preventFoWReveal: true
 - element: Water
-  mass: 993.111816
-  temperature: 299.970398
+  mass: 946.483887
+  temperature: 300.012329
   location_x: -6
   location_y: -3
   preventFoWReveal: true
 - element: Water
-  mass: 992.175842
-  temperature: 299.984222
+  mass: 962.545898
+  temperature: 300.007202
   location_x: -5
   location_y: -3
   preventFoWReveal: true
 - element: Water
-  mass: 992.171875
-  temperature: 299.986908
+  mass: 972.528259
+  temperature: 300.026184
   location_x: -4
   location_y: -3
   preventFoWReveal: true
 - element: Water
-  mass: 992.175171
-  temperature: 299.98941
+  mass: 987.078613
+  temperature: 300.013763
   location_x: -3
   location_y: -3
   preventFoWReveal: true
 - element: Water
-  mass: 992.175598
-  temperature: 299.989624
+  mass: 992.542053
+  temperature: 300.01239
   location_x: -2
   location_y: -3
   preventFoWReveal: true
 - element: Water
-  mass: 992.173828
-  temperature: 299.990906
+  mass: 994.911987
+  temperature: 300.007965
   location_x: -1
   location_y: -3
   preventFoWReveal: true
 - element: Water
-  mass: 992.175476
-  temperature: 299.996521
+  mass: 995.442383
+  temperature: 300.003784
   location_y: -3
   preventFoWReveal: true
 - element: Water
-  mass: 992.174866
-  temperature: 299.987244
+  mass: 995.651917
+  temperature: 299.990814
   location_x: 1
   location_y: -3
   preventFoWReveal: true
 - element: Water
-  mass: 992.173584
-  temperature: 299.959747
+  mass: 995.813843
+  temperature: 299.964386
   location_x: 2
   location_y: -3
   preventFoWReveal: true
 - element: Water
-  mass: 993.268188
-  temperature: 299.931
+  mass: 996.564941
+  temperature: 299.945831
   location_x: 3
   location_y: -3
   preventFoWReveal: true
 - element: Water
-  mass: 995.145874
-  temperature: 299.946442
+  mass: 998.337463
+  temperature: 299.962585
   location_x: 4
   location_y: -3
   preventFoWReveal: true
 - element: Mud
   mass: 2000
-  temperature: 300
+  temperature: 299.980591
   location_x: 5
   location_y: -3
   preventFoWReveal: true
@@ -304,346 +217,338 @@ cells:
   location_y: -3
   preventFoWReveal: true
 - element: DirtyWater
-  mass: 996.559387
-  temperature: 299.995789
+  mass: 999.37439
+  temperature: 299.934021
   location_x: 8
   location_y: -3
   preventFoWReveal: true
 - element: SandStone
   mass: 100
-  temperature: 293.351532
+  temperature: 293.963318
   location_x: 9
   location_y: -3
 - element: SandStone
   mass: 100
-  temperature: 293.832123
+  temperature: 294.103882
   location_x: 10
   location_y: -3
-- element: Vacuum
-  location_x: -10
-  location_y: -2
 - element: SandStone
   mass: 100
-  temperature: 245.572968
+  temperature: 293.467651
   location_x: -9
   location_y: -2
 - element: Water
-  mass: 972.504517
-  temperature: 299.980957
+  mass: 551.865173
+  temperature: 300.132263
   location_x: -8
   location_y: -2
   preventFoWReveal: true
 - element: Water
-  mass: 964.035034
-  temperature: 299.995544
+  mass: 390.155975
+  temperature: 300.093292
   location_x: -7
   location_y: -2
   preventFoWReveal: true
 - element: Water
-  mass: 959.658813
-  temperature: 299.999573
+  mass: 469.52002
+  temperature: 300.148071
   location_x: -6
   location_y: -2
   preventFoWReveal: true
 - element: Water
-  mass: 959.659119
-  temperature: 299.999695
+  mass: 610.871216
+  temperature: 300.148285
   location_x: -5
   location_y: -2
   preventFoWReveal: true
 - element: Water
-  mass: 959.650635
-  temperature: 299.999695
+  mass: 715.823792
+  temperature: 300.148499
   location_x: -4
   location_y: -2
   preventFoWReveal: true
 - element: Water
-  mass: 959.657837
-  temperature: 299.999847
+  mass: 782.617859
+  temperature: 300.148468
   location_x: -3
   location_y: -2
   preventFoWReveal: true
 - element: Water
-  mass: 959.658752
-  temperature: 299.999237
+  mass: 828.246948
+  temperature: 300.145782
   location_x: -2
   location_y: -2
   preventFoWReveal: true
 - element: Water
-  mass: 959.654785
-  temperature: 299.999542
+  mass: 863.150024
+  temperature: 300.147156
   location_x: -1
   location_y: -2
   preventFoWReveal: true
 - element: Water
-  mass: 959.658325
-  temperature: 300
+  mass: 890.992126
+  temperature: 300.149658
   location_y: -2
   preventFoWReveal: true
 - element: Water
-  mass: 959.657166
-  temperature: 299.999847
+  mass: 912.615906
+  temperature: 300.148987
   location_x: 1
   location_y: -2
   preventFoWReveal: true
 - element: Water
-  mass: 959.654297
-  temperature: 299.998291
+  mass: 929.032532
+  temperature: 300.141388
   location_x: 2
   location_y: -2
   preventFoWReveal: true
 - element: Water
-  mass: 960.12262
-  temperature: 299.995331
+  mass: 941.497437
+  temperature: 300.133118
   location_x: 3
   location_y: -2
   preventFoWReveal: true
 - element: Water
-  mass: 963.27301
-  temperature: 299.998718
+  mass: 949.414917
+  temperature: 300.144226
   location_x: 4
   location_y: -2
   preventFoWReveal: true
 - element: Mud
   mass: 2000
-  temperature: 299.922974
+  temperature: 297.907867
   location_x: 5
   location_y: -2
   preventFoWReveal: true
 - element: Mud
   mass: 2000
-  temperature: 299.980957
+  temperature: 299.443146
   location_x: 6
   location_y: -2
   preventFoWReveal: true
 - element: DirtyWater
-  mass: 976.233154
-  temperature: 300
+  mass: 1200
+  temperature: 300.149994
   location_x: 7
   location_y: -2
   preventFoWReveal: true
 - element: DirtyWater
-  mass: 970.974182
-  temperature: 299.999969
+  mass: 1200
+  temperature: 300.149994
   location_x: 8
   location_y: -2
   preventFoWReveal: true
 - element: DirtyWater
-  mass: 976.233154
-  temperature: 299.996246
+  mass: 1200
+  temperature: 300
   location_x: 9
   location_y: -2
   preventFoWReveal: true
 - element: Cuprite
   mass: 100
-  temperature: 296.131012
+  temperature: 296.075592
   location_x: 10
   location_y: -2
-- element: Vacuum
-  location_x: -10
-  location_y: -1
 - element: Katairite
   mass: 200
-  temperature: 299.998901
+  temperature: 299.986816
   location_x: -9
   location_y: -1
   preventFoWReveal: true
 - element: Oxygen
-  mass: 0.860000014
-  temperature: 283.134705
+  mass: 0.800000072
+  temperature: 285.466522
   location_x: -8
   location_y: -1
   preventFoWReveal: true
 - element: Algae
   mass: 1000
-  temperature: 283.616272
+  temperature: 286.540466
   location_x: -7
   location_y: -1
   preventFoWReveal: true
 - element: Oxygen
-  mass: 0.892322958
-  temperature: 286.973724
+  mass: 0.539460838
+  temperature: 288.513031
   location_x: -6
   location_y: -1
   preventFoWReveal: true
 - element: Oxygen
-  mass: 0.89232254
-  temperature: 290.173523
+  mass: 0.537020504
+  temperature: 290.440643
   location_x: -5
   location_y: -1
   preventFoWReveal: true
 - element: Oxygen
-  mass: 0.892321527
-  temperature: 290.441193
+  mass: 0.531814456
+  temperature: 291.054443
   location_x: -4
   location_y: -1
   preventFoWReveal: true
 - element: Oxygen
-  mass: 0.892320752
-  temperature: 294.33432
+  mass: 0.528802335
+  temperature: 294.332184
   location_x: -3
   location_y: -1
   preventFoWReveal: true
 - element: IronOre
   mass: 1000
-  temperature: 298.111603
+  temperature: 297.558594
   location_x: -2
   location_y: -1
   preventFoWReveal: true
 - element: IronOre
   mass: 1000
-  temperature: 298.69751
+  temperature: 298.348541
   location_x: -1
   location_y: -1
   preventFoWReveal: true
 - element: SandStone
   mass: 8000
-  temperature: 299.831512
+  temperature: 299.754028
   location_y: -1
   preventFoWReveal: true
 - element: Oxygen
-  mass: 0.860000014
-  temperature: 294.389801
+  mass: 0.800000072
+  temperature: 294.148682
   location_x: 1
   location_y: -1
   preventFoWReveal: true
 - element: GoldAmalgam
   mass: 1000
-  temperature: 293.552155
+  temperature: 292.440887
   location_x: 2
   location_y: -1
   preventFoWReveal: true
 - element: GoldAmalgam
   mass: 1000
-  temperature: 282.563995
+  temperature: 284.209473
   location_x: 3
   location_y: -1
   preventFoWReveal: true
 - element: Oxygen
   mass: 1.79999995
-  temperature: 264.020294
+  temperature: 268.402496
   location_x: 4
   location_y: -1
   preventFoWReveal: true
 - element: OxyRock
-  mass: 800
-  temperature: 225.811127
+  mass: 799.760132
+  temperature: 238.138779
   location_x: 5
   location_y: -1
   preventFoWReveal: true
 - element: Oxygen
   mass: 1.79999995
-  temperature: 276.993042
+  temperature: 279.977875
   location_x: 6
   location_y: -1
   preventFoWReveal: true
 - element: Dirt
   mass: 8000
-  temperature: 299.651855
+  temperature: 299.542297
   location_x: 7
   location_y: -1
   preventFoWReveal: true
-- element: CarbonDioxide
-  mass: 0.967216074
-  temperature: 296.601563
+- element: ContaminatedOxygen
+  mass: 1.79999995
+  temperature: 297.149994
   location_x: 8
   location_y: -1
   preventFoWReveal: true
 - element: CarbonDioxide
-  mass: 0.91278404
-  temperature: 294.960968
+  mass: 2
+  temperature: 300
   location_x: 9
   location_y: -1
   preventFoWReveal: true
 - element: Cuprite
   mass: 100
-  temperature: 296.079895
+  temperature: 295.959198
   location_x: 10
   location_y: -1
-- element: Vacuum
-  location_x: -10
 - element: SandStone
   mass: 100
-  temperature: 269.186829
+  temperature: 270.869568
   location_x: -9
 - element: SandStone
   mass: 100
-  temperature: 288.14859
+  temperature: 286.761627
   location_x: -8
 - element: SandStone
   mass: 100
-  temperature: 291.491364
+  temperature: 290.623016
   location_x: -7
 - element: SandStone
   mass: 100
-  temperature: 292.626526
+  temperature: 292.275635
   location_x: -6
 - element: SandStone
   mass: 100
-  temperature: 292.982971
+  temperature: 292.85907
   location_x: -5
 - element: SandStone
   mass: 100
-  temperature: 292.942505
+  temperature: 292.88562
   location_x: -4
 - element: Obsidian
   mass: 100
-  temperature: 293.677917
+  temperature: 293.734161
   location_x: -3
 - element: SandStone
   mass: 100
-  temperature: 293.991058
+  temperature: 294.500977
   location_x: -2
 - element: SandStone
   mass: 100
-  temperature: 293.755585
+  temperature: 294.439148
   location_x: -1
 - element: SandStone
   mass: 100
-  temperature: 294.084259
+  temperature: 294.684967
 - element: SandStone
   mass: 100
-  temperature: 293.229462
+  temperature: 293.372559
   location_x: 1
 - element: SandStone
   mass: 100
-  temperature: 292.937347
+  temperature: 292.62674
   location_x: 2
 - element: SandStone
   mass: 100
-  temperature: 290.802216
+  temperature: 289.763458
   location_x: 3
 - element: SandStone
   mass: 100
-  temperature: 285.871063
+  temperature: 284.222748
   location_x: 4
 - element: SandStone
   mass: 100
-  temperature: 284.320953
+  temperature: 278.475433
   location_x: 5
 - element: SandStone
   mass: 100
-  temperature: 286.663818
+  temperature: 285.861877
   location_x: 6
 - element: SandStone
   mass: 100
-  temperature: 292.386566
+  temperature: 292.382172
   location_x: 7
 - element: SandStone
   mass: 100
-  temperature: 293.186401
+  temperature: 292.437866
   location_x: 8
 - element: SandStone
   mass: 100
-  temperature: 293.711731
+  temperature: 293.475342
   location_x: 9
 - element: SandStone
   mass: 100
-  temperature: 293.916138
+  temperature: 294.56311
   location_x: 10
 - element: Cuprite
   mass: 100
-  temperature: 261.341736
+  temperature: 273.208618
   location_x: -9
   location_y: 1
 - element: Vacuum
@@ -695,22 +600,22 @@ cells:
   location_y: 1
 - element: SandStone
   mass: 100
-  temperature: 293.226196
+  temperature: 293.921814
   location_x: 8
   location_y: 1
 - element: Cobaltite
   mass: 2000
-  temperature: 299.967804
+  temperature: 299.220154
   location_x: 9
   location_y: 1
 - element: IgneousRock
   mass: 2000
-  temperature: 299.992584
+  temperature: 299.879761
   location_x: 10
   location_y: 1
 - element: Cuprite
   mass: 100
-  temperature: 262.018555
+  temperature: 274.74118
   location_x: -9
   location_y: 2
 - element: Vacuum
@@ -765,7 +670,7 @@ cells:
   location_y: 2
 - element: Sand
   mass: 2000
-  temperature: 300
+  temperature: 299.992493
   location_x: 9
   location_y: 2
 - element: IgneousRock
@@ -775,7 +680,7 @@ cells:
   location_y: 2
 - element: SandStone
   mass: 100
-  temperature: 291.111389
+  temperature: 288.872528
   location_x: -9
   location_y: 3
 - element: Vacuum
@@ -798,7 +703,7 @@ cells:
   location_y: 3
 - element: SandStone
   mass: 100
-  temperature: 293.687012
+  temperature: 293.790588
   location_x: -2
   location_y: 3
 - element: Vacuum
@@ -832,12 +737,12 @@ cells:
   location_y: 3
 - element: Sand
   mass: 2000
-  temperature: 300
+  temperature: 299.992493
   location_x: 9
   location_y: 3
 - element: SandStone
   mass: 100
-  temperature: 293.902527
+  temperature: 293.147766
   location_x: -9
   location_y: 4
 - element: Vacuum
@@ -860,7 +765,7 @@ cells:
   location_y: 4
 - element: SandStone
   mass: 100
-  temperature: 294.612488
+  temperature: 294.790344
   location_x: -2
   location_y: 4
 - element: Vacuum
@@ -891,7 +796,7 @@ cells:
   location_y: 4
 - element: SandStone
   mass: 100
-  temperature: 293.161896
+  temperature: 293.163147
   location_x: 8
   location_y: 4
 - element: Vacuum
@@ -899,56 +804,56 @@ cells:
   location_y: 4
 - element: SandStone
   mass: 100
-  temperature: 293.101074
+  temperature: 293.093628
   location_x: -9
   location_y: 5
 - element: SandStone
   mass: 100
-  temperature: 293.161713
+  temperature: 293.488007
   location_x: -8
   location_y: 5
 - element: Obsidian
   mass: 100
-  temperature: 298.16095
+  temperature: 296.735809
   location_x: -7
   location_y: 5
 - element: Obsidian
   mass: 100
-  temperature: 298.974762
+  temperature: 298.304474
   location_x: -6
   location_y: 5
 - element: Obsidian
   mass: 100
-  temperature: 299.812531
+  temperature: 299.32724
   location_x: -5
   location_y: 5
 - element: Obsidian
   mass: 100
-  temperature: 298.802063
+  temperature: 298.331726
   location_x: -4
   location_y: 5
 - element: Obsidian
   mass: 100
-  temperature: 297.661255
+  temperature: 297.176758
   location_x: -3
   location_y: 5
 - element: Obsidian
   mass: 100
-  temperature: 296.620911
+  temperature: 296.174408
   location_x: -2
   location_y: 5
 - element: Obsidian
   mass: 100
-  temperature: 297.791168
+  temperature: 297.186737
   location_x: -1
   location_y: 5
 - element: Obsidian
   mass: 100
-  temperature: 298.142822
+  temperature: 296.277191
   location_y: 5
 - element: SandStone
   mass: 100
-  temperature: 293.168304
+  temperature: 293.458832
   location_x: 1
   location_y: 5
 - element: Vacuum
@@ -971,7 +876,7 @@ cells:
   location_y: 5
 - element: SandStone
   mass: 100
-  temperature: 293.278198
+  temperature: 293.332947
   location_x: 8
   location_y: 5
 - element: Vacuum
@@ -979,7 +884,7 @@ cells:
   location_y: 5
 - element: SandStone
   mass: 100
-  temperature: 293.10434
+  temperature: 293.121338
   location_x: 1
   location_y: 6
 - element: SandStone
@@ -1009,307 +914,567 @@ cells:
   location_y: 6
 - element: SandStone
   mass: 100
-  temperature: 293.124908
+  temperature: 293.228973
   location_x: 7
   location_y: 6
 - element: SandStone
   mass: 100
-  temperature: 294.045288
+  temperature: 294.246735
   location_x: 8
   location_y: 6
 - element: MaficRock
   mass: 2000
-  temperature: 299.974518
+  temperature: 299.553619
   location_x: 9
   location_y: 6
+- element: SandStone
+  mass: 100
+  temperature: 16.4912281
+  location_x: -8
+  location_y: -5
+- element: SandStone
+  mass: 100
+  temperature: 10.6074057
+  location_x: -7
+  location_y: -5
+- element: SandStone
+  mass: 100
+  temperature: 9.78646374
+  location_x: -6
+  location_y: -5
+- element: SandStone
+  mass: 100
+  temperature: 9.43984413
+  location_x: -5
+  location_y: -5
+- element: SandStone
+  mass: 100
+  temperature: 9.37909603
+  location_x: -4
+  location_y: -5
+- element: SandStone
+  mass: 100
+  temperature: 9.58355904
+  location_x: -3
+  location_y: -5
+- element: SandStone
+  mass: 100
+  temperature: 10.3028431
+  location_x: -2
+  location_y: -5
+- element: SandStone
+  mass: 100
+  temperature: 20.6506252
+  location_x: -1
+  location_y: -5
+- element: SandStone
+  mass: 100
+  temperature: 283.421234
+  location_y: -5
+- element: SandStone
+  mass: 100
+  temperature: 293.426575
+  location_x: 1
+  location_y: -5
+- element: SandStone
+  mass: 100
+  temperature: 293.617706
+  location_x: 2
+  location_y: -5
+- element: SandStone
+  mass: 100
+  temperature: 293.633148
+  location_x: 3
+  location_y: -5
+- element: SandStone
+  mass: 100
+  temperature: 293.896179
+  location_x: 4
+  location_y: -5
+- element: SandStone
+  mass: 100
+  temperature: 294.807709
+  location_x: 5
+  location_y: -5
+- element: SandStone
+  mass: 100
+  temperature: 293.9198
+  location_x: 6
+  location_y: -5
+- element: SandStone
+  mass: 100
+  temperature: 293.950073
+  location_x: 7
+  location_y: -5
+- element: SandStone
+  mass: 100
+  temperature: 293.709534
+  location_x: 8
+  location_y: -5
+- element: Vacuum
+  location_x: -10
+  location_y: -3
+- element: Vacuum
+  location_x: -10
+  location_y: -2
+- element: Vacuum
+  location_x: -10
+  location_y: -1
+- element: Vacuum
+  location_x: -10
 buildings:
+- id: WireRefined
+  location_x: -1
+  location_y: 5
+  element: Copper
+  temperature: 297.186768
+- id: ExteriorWall
+  location_y: 2
+  element: Granite
+  temperature: 293.156403
+- id: WireRefined
+  location_x: -2
+  location_y: 5
+  element: Copper
+  temperature: 296.182922
+- id: WireRefined
+  location_y: 5
+  element: Copper
+  temperature: 296.305389
+- id: WireRefined
+  location_x: -6
+  location_y: 5
+  element: Copper
+  temperature: 298.314789
+- id: WireRefined
+  location_x: -4
+  location_y: 5
+  element: Copper
+  temperature: 298.33905
+- id: ExteriorWall
+  location_x: 5
+  location_y: -1
+  element: Obsidian
+  temperature: 238.138779
+- id: Refrigerator
+  location_y: 1
+  element: SandStone
+  temperature: 293.183533
+  storage:
+  - id: ForestForagePlant
+    element: Creature
+    units: 20
+    temperature: 294.914734
+    rottable: {}
+- id: LogicTimeOfDaySensor
+  location_x: -1
+  location_y: 4
+  element: Copper
+  temperature: 293.829437
+- id: ExteriorWall
+  location_x: -3
+  location_y: -2
+  element: Obsidian
+  temperature: 300.148987
+- id: ExteriorWall
+  location_y: -1
+  element: Obsidian
+  temperature: 299.754791
+- id: ExteriorWall
+  location_x: 2
+  location_y: -1
+  element: Obsidian
+  temperature: 292.457825
+- id: ExteriorWall
+  location_x: 7
+  location_y: -1
+  element: Obsidian
+  temperature: 299.544647
+- id: ExteriorWall
+  location_x: 3
+  location_y: -1
+  element: Obsidian
+  temperature: 284.209473
+- id: ExteriorWall
+  location_x: -4
+  location_y: -3
+  element: Obsidian
+  temperature: 300.026184
+- id: WireRefined
+  location_x: -2
+  location_y: 4
+  element: Copper
+  temperature: 294.783508
+- id: ExteriorWall
+  location_x: -9
+  location_y: -1
+  element: Obsidian
+  temperature: 293.362854
+- id: ExteriorWall
+  location_x: -2
+  location_y: -1
+  element: Obsidian
+  temperature: 297.559662
+- id: ExteriorWall
+  location_x: -1
+  location_y: -1
+  element: Obsidian
+  temperature: 298.349304
+- id: WireRefined
+  location_x: -7
+  location_y: 5
+  element: Copper
+  temperature: 296.755341
+- id: WireRefined
+  location_x: -3
+  location_y: 5
+  element: Copper
+  temperature: 297.211945
+- id: WireRefined
+  location_x: -5
+  location_y: 5
+  element: Copper
+  temperature: 299.33136
+- id: WireRefined
+  location_x: -3
+  element: Copper
+  temperature: 293.737854
+- id: LogicWire
+  location_x: -2
+  location_y: 1
+  element: Copper
+  temperature: 293.774139
+- id: ExteriorWall
+  location_x: -4
+  location_y: -2
+  element: Obsidian
+  temperature: 300.148987
+- id: ExteriorWall
+  location_x: -7
+  location_y: -1
+  element: Obsidian
+  temperature: 286.540466
+- id: WireRefined
+  location_x: -2
+  location_y: 3
+  element: Copper
+  temperature: 293.790894
+- id: LogicWire
+  location_x: -1
+  location_y: 4
+  element: Copper
+  temperature: 295.015015
+  connections: 4
+- id: LogicWire
+  location_x: -3
+  location_y: 4
+  element: Copper
+  temperature: 293.279419
+- id: LogicWire
+  location_x: -1
+  location_y: 5
+  element: Copper
+  temperature: 297.186737
+  connections: 9
+- id: LogicWire
+  location_x: -2
+  location_y: 2
+  element: Copper
+  temperature: 293.900543
+- id: LogicWire
+  location_x: -2
+  location_y: 4
+  element: Copper
+  temperature: 294.783417
+- id: LogicWire
+  location_x: -2
+  location_y: 3
+  element: Copper
+  temperature: 293.790588
 - id: TilePOI
   location_x: -2
   location_y: 3
   element: SandStone
-  temperature: 293.686523
+  temperature: 293.773865
 - id: TilePOI
   location_x: 8
   location_y: 4
   element: SandStone
-  temperature: 293.161774
+  temperature: 293.162842
 - id: TilePOI
   location_x: 8
   location_y: 6
   element: SandStone
-  temperature: 293.995026
+  temperature: 294.150024
 - id: TilePOI
   location_x: -3
   element: Obsidian
-  temperature: 293.648651
+  temperature: 293.72052
 - id: TilePOI
   location_x: -6
   location_y: 5
   element: Obsidian
-  temperature: 298.97467
+  temperature: 298.479065
 - id: TilePOI
   location_x: -7
   location_y: 5
   element: Obsidian
-  temperature: 298.40567
+  temperature: 297.053314
 - id: TilePOI
   location_x: -3
   location_y: 5
   element: Obsidian
-  temperature: 297.723358
+  temperature: 297.332306
 - id: TilePOI
   location_x: -4
   location_y: 5
   element: Obsidian
-  temperature: 298.848389
+  temperature: 298.454315
 - id: TilePOI
   location_x: -5
   location_y: 5
   element: Obsidian
-  temperature: 299.814911
+  temperature: 299.442963
 - id: TilePOI
   location_y: 5
   element: Obsidian
-  temperature: 298.389038
+  temperature: 296.702362
 - id: TilePOI
   location_x: -1
   location_y: 5
   element: Obsidian
-  temperature: 297.840759
+  temperature: 297.3078
 - id: TilePOI
   location_x: -2
   location_y: 5
   element: Obsidian
-  temperature: 296.643188
+  temperature: 296.221527
 - id: TilePOI
   location_x: 8
   location_y: 5
   element: SandStone
-  temperature: 293.277527
+  temperature: 293.330933
 - id: TilePOI
   location_x: -2
   location_y: 4
   element: SandStone
-  temperature: 294.569092
+  temperature: 294.693695
 - id: TilePOI
   location_x: -9
   location_y: 4
   element: SandStone
-  temperature: 293.938324
-- id: TilePOI
-  location_x: -9
-  location_y: -2
-  element: SandStone
-  temperature: 244.690125
+  temperature: 293.283844
 - id: TilePOI
   location_x: -9
   location_y: -3
   element: SandStone
-  temperature: 281.237885
+  temperature: 293.328705
 - id: TilePOI
   location_x: -9
   location_y: -4
   element: SandStone
-  temperature: 290.489624
+  temperature: 293.299286
 - id: TilePOI
   location_x: -8
   location_y: -4
   element: SandStone
-  temperature: 293.737061
-- id: TilePOI
-  location_x: -8
-  location_y: -5
-  element: SandStone
-  temperature: 293.285034
-- id: TilePOI
-  location_x: -6
-  location_y: -5
-  element: SandStone
-  temperature: 293.966461
+  temperature: 291.807281
 - id: TilePOI
   location_x: -7
   location_y: -5
   element: SandStone
-  temperature: 293.875031
+  temperature: 5.85146809
+- id: TilePOI
+  location_x: -8
+  location_y: -5
+  element: SandStone
+  temperature: 6.28159952
 - id: TilePOI
   location_x: -5
   location_y: -5
   element: SandStone
-  temperature: 293.944336
+  temperature: 4.75778151
+- id: TilePOI
+  location_x: -6
+  location_y: -5
+  element: SandStone
+  temperature: 5.11111832
 - id: TilePOI
   location_x: -4
   location_y: -5
   element: SandStone
-  temperature: 293.904083
+  temperature: 4.696208
 - id: TilePOI
+  location_x: -3
   location_y: -5
   element: SandStone
-  temperature: 293.881195
+  temperature: 4.90485239
 - id: TilePOI
   location_x: 1
   location_y: -5
   element: SandStone
-  temperature: 293.936371
+  temperature: 293.479828
 - id: TilePOI
-  location_x: 3
+  location_x: 2
   location_y: -5
   element: SandStone
-  temperature: 293.931122
-- id: TilePOI
-  location_x: 5
-  location_y: -5
-  element: SandStone
-  temperature: 294.277496
-- id: TilePOI
-  location_x: 6
-  location_y: -5
-  element: SandStone
-  temperature: 294.242798
+  temperature: 293.517609
 - id: TilePOI
   location_x: 4
   location_y: -5
   element: SandStone
-  temperature: 294.193878
+  temperature: 293.721069
+- id: TilePOI
+  location_x: 5
+  location_y: -5
+  element: SandStone
+  temperature: 294.659027
+- id: ExteriorWall
+  location_x: -3
+  location_y: -3
+  element: Obsidian
+  temperature: 300.013763
+- id: TilePOI
+  location_x: 6
+  location_y: -5
+  element: SandStone
+  temperature: 293.745361
 - id: TilePOI
   location_x: 8
   location_y: -5
   element: SandStone
-  temperature: 293.658356
+  temperature: 293.709076
 - id: TilePOI
   location_x: 9
   location_y: -4
   element: SandStone
-  temperature: 293.593475
+  temperature: 293.65802
 - id: TilePOI
   location_x: 10
   location_y: -3
   element: SandStone
-  temperature: 293.790192
+  temperature: 294.015228
 - id: TilePOI
   location_x: 10
   element: SandStone
-  temperature: 293.80188
-- id: TilePOI
-  location_x: 9
-  element: SandStone
-  temperature: 293.595764
+  temperature: 294.362213
 - id: TilePOI
   location_x: 7
   element: SandStone
-  temperature: 292.381409
+  temperature: 292.399017
 - id: TilePOI
   location_x: 8
   location_y: 1
   element: SandStone
-  temperature: 293.110901
+  temperature: 293.718994
 - id: TilePOI
   location_x: 6
   element: SandStone
-  temperature: 286.715759
+  temperature: 286.038879
 - id: TilePOI
   location_x: 4
   element: SandStone
-  temperature: 286.056396
+  temperature: 284.662018
 - id: TilePOI
   location_x: 3
   element: SandStone
-  temperature: 290.942841
+  temperature: 290.0177
 - id: TilePOI
   element: SandStone
-  temperature: 294.002136
+  temperature: 294.559784
 - id: TilePOI
   location_x: -2
   element: SandStone
-  temperature: 293.920593
+  temperature: 294.376312
 - id: TilePOI
   location_x: -4
   element: SandStone
-  temperature: 292.95459
+  temperature: 292.892273
 - id: TilePOI
   location_x: -6
   element: SandStone
-  temperature: 292.670776
+  temperature: 292.35733
 - id: TilePOI
   location_x: -7
   element: SandStone
-  temperature: 291.61792
+  temperature: 290.81665
 - id: TilePOI
   location_x: -9
   element: SandStone
-  temperature: 269.052124
+  temperature: 270.16568
 - id: TilePOI
   location_x: -9
   location_y: 3
   element: SandStone
-  temperature: 291.613098
+  temperature: 289.363434
 - id: TilePOI
   location_x: -8
   element: SandStone
-  temperature: 288.425812
+  temperature: 287.230316
 - id: TilePOI
   location_x: -5
   element: SandStone
-  temperature: 292.997345
+  temperature: 292.880981
 - id: TilePOI
   location_x: -1
   element: SandStone
-  temperature: 293.671204
+  temperature: 294.280273
 - id: TilePOI
   location_x: 1
   element: SandStone
-  temperature: 293.21936
+  temperature: 293.318329
 - id: TilePOI
   location_x: 5
   element: SandStone
-  temperature: 285.303253
-- id: TilePOI
-  location_x: 8
-  element: SandStone
-  temperature: 293.167969
+  temperature: 279.69873
+- id: ExteriorWall
+  location_x: 9
+  location_y: -2
+  element: Obsidian
+  temperature: 300
 - id: TilePOI
   location_x: 2
   element: SandStone
-  temperature: 292.966797
-- id: TilePOI
-  location_x: -3
-  location_y: -5
-  element: SandStone
-  temperature: 293.272369
+  temperature: 292.7229
 - id: TilePOI
   location_x: -2
   location_y: -5
   element: SandStone
-  temperature: 293.229553
+  temperature: 5.46785116
 - id: TilePOI
   location_x: -1
   location_y: -5
   element: SandStone
-  temperature: 293.24823
+  temperature: 6.58314991
 - id: TilePOI
-  location_x: 2
   location_y: -5
   element: SandStone
-  temperature: 293.260284
+  temperature: 292.732391
+- id: TilePOI
+  location_x: 3
+  location_y: -5
+  element: SandStone
+  temperature: 293.533813
 - id: TilePOI
   location_x: 7
   location_y: -5
   element: SandStone
-  temperature: 293.311646
+  temperature: 293.781036
 - id: TilePOI
   location_x: 8
   location_y: -4
   element: SandStone
-  temperature: 293.333588
+  temperature: 293.936829
 - id: TilePOI
   location_x: 9
   location_y: -3
   element: SandStone
-  temperature: 293.265411
+  temperature: 293.774231
 - id: TilePOI
   location_x: 7
   location_y: 6
   element: SandStone
-  temperature: 293.124908
+  temperature: 293.214691
 - id: TilePOI
   location_x: 6
   location_y: 6
@@ -1339,164 +1504,167 @@ buildings:
   location_x: 1
   location_y: 6
   element: SandStone
-  temperature: 293.10434
+  temperature: 293.121796
 - id: TilePOI
   location_x: 1
   location_y: 5
   element: SandStone
-  temperature: 293.106476
+  temperature: 293.369843
 - id: TilePOI
   location_x: -9
   location_y: 5
   element: SandStone
-  temperature: 293.101074
+  temperature: 293.09375
 - id: TilePOI
   location_x: -8
   location_y: 5
   element: SandStone
-  temperature: 293.099518
+  temperature: 293.387421
 - id: POIDoorInternal
   location_x: -2
   location_y: 1
   element: Cuprite
-  temperature: 293.15094
-- id: ExteriorWall
-  location_x: -8
-  location_y: 4
-  element: Granite
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: -8
-  location_y: 3
-  element: Granite
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: -8
-  location_y: 2
-  element: Granite
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: -8
-  location_y: 1
-  element: Granite
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 5
-  location_y: 5
-  element: Granite
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 3
-  location_y: 5
-  element: Granite
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: -7
-  location_y: 3
-  element: Granite
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: -7
-  location_y: 2
-  element: Granite
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: -7
-  location_y: 4
-  element: Granite
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 4
-  location_y: 5
-  element: Granite
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 6
-  location_y: 5
-  element: Granite
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: -1
-  location_y: 4
-  element: Granite
-  temperature: 293.150208
-- id: ExteriorWall
-  location_y: 4
-  element: Granite
-  temperature: 293.15033
-- id: ExteriorWall
-  location_x: 1
-  location_y: 4
-  element: Granite
-  temperature: 293.150452
-- id: ExteriorWall
-  location_x: 1
-  location_y: 3
-  element: Granite
-  temperature: 293.151428
-- id: ExteriorWall
-  location_x: 2
-  location_y: 3
-  element: Granite
-  temperature: 293.151428
-- id: ExteriorWall
-  location_x: 2
-  location_y: 2
-  element: Granite
-  temperature: 293.152832
-- id: ExteriorWall
-  location_x: 3
-  location_y: 2
-  element: Granite
   temperature: 293.152435
 - id: ExteriorWall
+  location_x: -8
+  location_y: 4
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -8
+  location_y: 3
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -8
+  location_y: 2
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -8
+  location_y: 1
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: 5
+  location_y: 5
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: 3
+  location_y: 5
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -7
+  location_y: 3
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -7
+  location_y: 2
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -7
+  location_y: 4
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: 4
+  location_y: 5
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: 6
+  location_y: 5
+  element: Granite
+  temperature: 293.149994
+- id: ExteriorWall
+  location_x: -1
+  location_y: 4
+  element: Granite
+  temperature: 293.154633
+- id: ExteriorWall
+  location_y: 4
+  element: Granite
+  temperature: 293.155121
+- id: ExteriorWall
+  location_x: 1
+  location_y: 4
+  element: Granite
+  temperature: 293.152679
+- id: ExteriorWall
+  location_x: 1
+  location_y: 3
+  element: Granite
+  temperature: 293.155792
+- id: ExteriorWall
+  location_x: 2
+  location_y: 3
+  element: Granite
+  temperature: 293.154694
+- id: ExteriorWall
+  location_x: 2
+  location_y: 2
+  element: Granite
+  temperature: 293.156433
+- id: ExteriorWall
+  location_x: 3
+  location_y: 2
+  element: Granite
+  temperature: 293.153778
+- id: ExteriorWall
   location_x: 3
   location_y: 1
   element: Granite
-  temperature: 293.154236
+  temperature: 293.068115
 - id: ExteriorWall
   location_x: 4
   location_y: 1
   element: Granite
-  temperature: 293.152252
+  temperature: 293.005951
 - id: ExteriorWall
   location_x: 2
   location_y: 1
   element: Granite
-  temperature: 293.155029
-- id: ExteriorWall
-  location_x: 1
-  location_y: 1
-  element: Granite
-  temperature: 293.155029
+  temperature: 293.15686
+- id: LogicGateAND
+  location_x: -3
+  location_y: 5
+  element: Copper
+  temperature: 296.10379
+  rotationOrientation: R90
 - id: ExteriorWall
   location_x: -1
   location_y: 1
   element: Granite
-  temperature: 293.152069
+  temperature: 293.154663
 - id: ExteriorWall
   location_x: -1
   location_y: 2
   element: Granite
-  temperature: 293.151367
+  temperature: 293.154633
 - id: ExteriorWall
   location_x: -1
   location_y: 3
   element: Granite
-  temperature: 293.150665
+  temperature: 293.153931
 - id: ExteriorWall
   location_y: 3
   element: Granite
-  temperature: 293.151093
-- id: ExteriorWall
-  location_y: 2
-  element: Granite
-  temperature: 293.152069
-- id: ExteriorWall
-  location_x: 1
-  location_y: 2
-  element: Granite
-  temperature: 293.152649
+  temperature: 293.155273
+- id: LogicDuplicantSensor
+  location_x: -6
+  location_y: 4
+  element: Copper
+  temperature: 293.149994
+  rotationOrientation: R180
+- id: MineralDeoxidizer
+  location_x: -3
+  location_y: 1
+  element: Cuprite
+  temperature: 293.150421
 - id: ExteriorWall
   location_x: -3
   location_y: 4
@@ -1561,17 +1729,12 @@ buildings:
   location_x: 4
   location_y: 3
   element: SandStone
-  temperature: 293.150146
-- id: ExteriorWall
-  location_x: 9
-  location_y: -2
-  element: Obsidian
-  temperature: 299.999084
+  temperature: 293.150391
 - id: ExteriorWall
   location_x: 8
   location_y: -2
   element: Obsidian
-  temperature: 300
+  temperature: 299.998077
 - id: ExteriorWall
   location_x: 7
   location_y: -2
@@ -1581,17 +1744,17 @@ buildings:
   location_x: 6
   location_y: -2
   element: Obsidian
-  temperature: 299.989319
+  temperature: 299.455414
 - id: ExteriorWall
   location_x: 5
   location_y: -2
   element: Obsidian
-  temperature: 299.956757
+  temperature: 297.949371
 - id: ExteriorWall
   location_x: 5
   location_y: -3
   element: Obsidian
-  temperature: 300
+  temperature: 299.981628
 - id: ExteriorWall
   location_x: 6
   location_y: -3
@@ -1606,266 +1769,237 @@ buildings:
   location_x: 8
   location_y: -3
   element: Obsidian
-  temperature: 299.998932
+  temperature: 299.939484
 - id: ExteriorWall
   location_x: 6
   location_y: -4
   element: Obsidian
-  temperature: 299.997192
+  temperature: 299.852722
 - id: ExteriorWall
   location_x: 7
   location_y: -4
   element: Obsidian
-  temperature: 299.9935
+  temperature: 299.704742
 - id: ExteriorWall
   location_x: 5
   location_y: -4
   element: Obsidian
-  temperature: 299.997223
+  temperature: 299.867706
 - id: ExteriorWall
   location_x: 4
   location_y: -4
   element: Obsidian
-  temperature: 299.997192
+  temperature: 299.852051
 - id: ExteriorWall
   location_x: 3
   location_y: -4
   element: Obsidian
-  temperature: 299.932739
+  temperature: 299.924042
 - id: ExteriorWall
   location_x: 2
   location_y: -4
   element: Obsidian
-  temperature: 299.95993
+  temperature: 299.939636
 - id: ExteriorWall
   location_x: 2
   location_y: -3
   element: Obsidian
-  temperature: 299.960724
+  temperature: 299.964386
 - id: ExteriorWall
   location_x: 3
   location_y: -3
   element: Obsidian
-  temperature: 299.932861
+  temperature: 299.945831
 - id: ExteriorWall
   location_x: 4
   location_y: -3
   element: Obsidian
-  temperature: 299.947388
+  temperature: 299.962585
 - id: ExteriorWall
   location_x: 4
   location_y: -2
   element: Obsidian
-  temperature: 299.999664
+  temperature: 300.146729
 - id: ExteriorWall
   location_x: 3
   location_y: -2
   element: Obsidian
-  temperature: 299.998749
+  temperature: 300.140442
 - id: ExteriorWall
   location_x: 1
   location_y: -4
   element: Obsidian
-  temperature: 299.949402
+  temperature: 299.955261
 - id: ExteriorWall
   location_y: -4
   element: Obsidian
-  temperature: 299.950531
+  temperature: 299.962982
 - id: ExteriorWall
   location_y: -3
   element: Obsidian
-  temperature: 299.996552
+  temperature: 300.003784
 - id: ExteriorWall
   location_x: 1
   location_y: -3
   element: Obsidian
-  temperature: 299.987518
+  temperature: 299.990814
 - id: ExteriorWall
   location_x: 2
   location_y: -2
   element: Obsidian
-  temperature: 299.999542
+  temperature: 300.145081
 - id: ExteriorWall
   location_x: -1
   location_y: -3
   element: Obsidian
-  temperature: 299.99115
+  temperature: 300.007965
 - id: ExteriorWall
   location_x: -2
   location_y: -3
   element: Obsidian
-  temperature: 299.990143
-- id: ExteriorWall
-  location_x: -3
-  location_y: -3
-  element: Obsidian
-  temperature: 299.989441
+  temperature: 300.01239
 - id: ExteriorWall
   location_x: -2
   location_y: -4
   element: Obsidian
-  temperature: 299.948792
+  temperature: 299.847137
 - id: ExteriorWall
   location_x: -1
   location_y: -4
   element: Obsidian
-  temperature: 299.976166
-- id: ExteriorWall
-  location_x: -3
-  location_y: -4
-  element: Obsidian
-  temperature: 299.96814
-- id: ExteriorWall
-  location_x: -4
-  location_y: -4
-  element: Obsidian
-  temperature: 299.942932
+  temperature: 299.871552
 - id: ExteriorWall
   location_x: -5
   location_y: -4
   element: Obsidian
-  temperature: 299.940399
+  temperature: 299.836121
 - id: ExteriorWall
   location_x: -6
   location_y: -4
   element: Obsidian
-  temperature: 299.93924
-- id: ExteriorWall
-  location_x: -7
-  location_y: -4
-  element: Obsidian
-  temperature: 299.987976
+  temperature: 299.817322
 - id: ExteriorWall
   location_x: -7
   location_y: -3
   element: Obsidian
-  temperature: 299.877136
+  temperature: 300.012085
 - id: ExteriorWall
   location_x: -8
   location_y: -3
   element: Obsidian
-  temperature: 299.975616
+  temperature: 298.840424
 - id: ExteriorWall
   location_x: -8
   location_y: -2
   element: Obsidian
-  temperature: 299.994934
+  temperature: 300.139832
 - id: ExteriorWall
   location_x: -7
   location_y: -2
   element: Obsidian
-  temperature: 299.99884
+  temperature: 300.093292
 - id: ExteriorWall
   location_x: -6
   location_y: -2
   element: Obsidian
-  temperature: 299.999908
+  temperature: 300.148834
 - id: ExteriorWall
   location_x: -5
   location_y: -2
   element: Obsidian
-  temperature: 299.999939
-- id: ExteriorWall
-  location_x: -4
-  location_y: -2
-  element: Obsidian
-  temperature: 299.999939
-- id: ExteriorWall
-  location_x: -3
-  location_y: -2
-  element: Obsidian
-  temperature: 299.999969
+  temperature: 300.148987
+- id: LogicWire
+  location_x: -2
+  location_y: 5
+  element: Copper
+  temperature: 296.174408
+  connections: 2
 - id: ExteriorWall
   location_x: -2
   location_y: -2
   element: Obsidian
-  temperature: 299.999786
+  temperature: 300.147522
 - id: ExteriorWall
   location_x: -1
   location_y: -2
   element: Obsidian
-  temperature: 299.999878
+  temperature: 300.148346
 - id: ExteriorWall
   location_y: -2
   element: Obsidian
-  temperature: 300
+  temperature: 300.14978
 - id: ExteriorWall
   location_x: 1
   location_y: -2
   element: Obsidian
-  temperature: 299.999969
-- id: ExteriorWall
-  location_x: -4
-  location_y: -3
-  element: Obsidian
-  temperature: 299.98703
+  temperature: 300.149384
 - id: ExteriorWall
   location_x: -5
   location_y: -3
   element: Obsidian
-  temperature: 299.984436
+  temperature: 300.007202
 - id: ExteriorWall
   location_x: -6
   location_y: -3
   element: Obsidian
-  temperature: 299.972015
+  temperature: 300.012329
 - id: ExteriorWall
   location_x: -8
   location_y: -1
   element: Obsidian
-  temperature: 58.1589966
+  temperature: 75.923439
 - id: ExteriorWall
   location_x: -6
   location_y: -1
   element: Obsidian
-  temperature: 72.9460144
+  temperature: 89.2279663
 - id: ExteriorWall
   location_x: -5
   location_y: -1
   element: Obsidian
-  temperature: 72.9103546
+  temperature: 88.9353943
 - id: ExteriorWall
   location_x: -4
   location_y: -1
   element: Obsidian
-  temperature: 73.018013
+  temperature: 88.4781952
 - id: ExteriorWall
   location_x: -3
   location_y: -1
   element: Obsidian
-  temperature: 74.192543
+  temperature: 89.4476852
 - id: ExteriorWall
   location_x: 1
   location_y: -1
   element: Obsidian
-  temperature: 73.8919067
+  temperature: 91.2008286
 - id: ExteriorWall
   location_x: 4
   location_y: -1
   element: Obsidian
-  temperature: 88.985878
+  temperature: 118.0205
 - id: ExteriorWall
   location_x: 6
   location_y: -1
   element: Obsidian
-  temperature: 94.7091446
+  temperature: 124.845917
 - id: ExteriorWall
   location_x: 8
   location_y: -1
   element: Obsidian
-  temperature: 299.967621
+  temperature: 299.042694
 - id: POIBunkerExteriorDoor
   location_x: -9
   location_y: 1
   element: Cuprite
-  temperature: 261.341736
+  temperature: 273.208618
   other_values:
   - id: sealedDoorDirection
 - id: POIBunkerExteriorDoor
   location_x: 10
   location_y: -2
   element: Cuprite
-  temperature: 296.131012
+  temperature: 296.075592
   other_values:
   - id: sealedDoorDirection
     value: 1
@@ -1873,188 +2007,126 @@ buildings:
   location_x: -6
   location_y: 4
   element: Copper
-  temperature: 293.149994
+  temperature: 293.150116
   connections: 4
 - id: LogicWire
   location_x: -6
   location_y: 5
   element: Copper
-  temperature: 298.974731
+  temperature: 298.304474
   connections: 10
 - id: LogicWire
   location_x: -5
   location_y: 5
   element: Copper
-  temperature: 299.812531
+  temperature: 299.32724
   connections: 3
 - id: LogicWire
   location_x: -4
   location_y: 5
   element: Copper
-  temperature: 298.800842
+  temperature: 298.331726
   connections: 3
 - id: LogicWire
   location_x: -3
   location_y: 5
   element: Copper
-  temperature: 297.690582
+  temperature: 297.176758
   connections: 1
-- id: LogicWire
-  location_x: -2
-  location_y: 5
-  element: Copper
-  temperature: 296.626312
-  connections: 2
-- id: LogicWire
-  location_x: -2
-  location_y: 4
-  element: Copper
-  temperature: 294.60376
-- id: LogicWire
-  location_x: -2
-  location_y: 3
-  element: Copper
-  temperature: 293.687012
-- id: LogicWire
-  location_x: -1
-  location_y: 4
-  element: Copper
-  temperature: 293.150024
-  connections: 4
-- id: LogicWire
-  location_x: -1
-  location_y: 5
-  element: Copper
-  temperature: 297.789886
-  connections: 9
-- id: LogicWire
+- id: ExteriorWall
   location_x: -3
-  location_y: 4
-  element: Copper
-  temperature: 293.149994
-- id: LogicWire
-  location_x: -2
-  location_y: 2
-  element: Copper
-  temperature: 293.149994
-- id: LogicWire
-  location_x: -2
-  location_y: 1
-  element: Copper
-  temperature: 293.149994
-- id: WireRefined
-  location_x: -3
-  element: Copper
-  temperature: 293.677917
-- id: WireRefined
+  location_y: -4
+  element: Obsidian
+  temperature: 299.837677
+- id: TilePOI
+  location_x: -9
+  location_y: -2
+  element: SandStone
+  temperature: 293.360992
+- id: TilePOI
+  location_x: 8
+  element: SandStone
+  temperature: 292.399292
+- id: TilePOI
+  location_x: 9
+  element: SandStone
+  temperature: 293.361176
+- id: ExteriorWall
+  location_x: 9
+  location_y: -1
+  element: Obsidian
+  temperature: 300
+- id: ExteriorWall
   location_x: -7
-  location_y: 5
-  element: Copper
-  temperature: 298.201569
-- id: WireRefined
-  location_x: -6
-  location_y: 5
-  element: Copper
-  temperature: 298.974854
-- id: WireRefined
-  location_x: -3
-  location_y: 5
-  element: Copper
-  temperature: 297.70224
-- id: WireRefined
-  location_x: -5
-  location_y: 5
-  element: Copper
-  temperature: 299.812531
-- id: WireRefined
-  location_x: -4
-  location_y: 5
-  element: Copper
-  temperature: 298.809326
-- id: WireRefined
-  location_y: 5
-  element: Copper
-  temperature: 298.183228
-- id: WireRefined
-  location_x: -2
-  location_y: 5
-  element: Copper
-  temperature: 296.630402
-- id: WireRefined
-  location_x: -1
-  location_y: 5
-  element: Copper
-  temperature: 297.798737
-- id: WireRefined
-  location_x: -2
-  location_y: 4
-  element: Copper
-  temperature: 294.603241
-- id: WireRefined
-  location_x: -2
-  location_y: 3
-  element: Copper
-  temperature: 293.687012
-- id: LogicTimeOfDaySensor
-  location_x: -1
-  location_y: 4
-  element: Copper
-  temperature: 293.149994
-- id: MineralDeoxidizer
-  location_x: -3
-  location_y: 1
-  element: Cuprite
-  temperature: 293.149994
-- id: LogicDuplicantSensor
-  location_x: -6
-  location_y: 4
-  element: Copper
-  temperature: 293.149994
-  rotationOrientation: R180
-- id: LogicGateAND
-  location_x: -3
-  location_y: 5
-  element: Copper
-  temperature: 296.37207
-  rotationOrientation: R90
+  location_y: -4
+  element: Obsidian
+  temperature: 300
 otherEntities:
-- id: PropTable
-  location_x: 3
-  location_y: 1
+- id: VendingMachine
+  location_x: -4
+  location_y: -4
   element: Unobtanium
   temperature: 294.149994
   units: 1
   type: Other
-- id: PropDesk
-  location_x: -5
-  location_y: 1
-  element: Steel
+- id: PropLadder
+  location_x: -10
+  location_y: -3
+  element: Polypropylene
   temperature: 294.149994
   units: 1
   type: Other
-- id: PropLight
+- id: PropLadder
+  location_x: -10
+  location_y: -2
+  element: Polypropylene
+  temperature: 294.149994
+  units: 1
+  type: Other
+- id: PropLadder
+  location_x: -10
+  location_y: -1
+  element: Polypropylene
+  temperature: 294.149994
+  units: 1
+  type: Other
+- id: PropLadder
+  location_x: -10
+  element: Polypropylene
+  temperature: 294.149994
+  units: 1
+  type: Other
+- id: PropLadder
+  location_x: 9
+  location_y: 2
+  element: Polypropylene
+  temperature: 294.154755
+  units: 1
+  type: Other
+- id: PropLadder
+  location_x: 9
+  location_y: 3
+  element: Polypropylene
+  temperature: 294.154755
+  units: 1
+  type: Other
+- id: PropLadder
+  location_x: 9
   location_y: 4
-  element: Steel
+  element: Polypropylene
   temperature: 294.149994
   units: 1
   type: Other
-- id: PropLight
-  location_x: -7
-  location_y: 4
-  element: Steel
+- id: PropLadder
+  location_x: 9
+  location_y: 5
+  element: Polypropylene
   temperature: 294.149994
   units: 1
   type: Other
-- id: SetLocker
-  location_x: 6
-  location_y: 1
-  element: Unobtanium
-  temperature: 294.149994
-  units: 1
-  type: Other
-- id: SetLocker
-  location_x: 7
-  location_y: 1
+- id: VendingMachine
+  location_x: 5
+  location_y: -4
   element: Unobtanium
   temperature: 294.149994
   units: 1
@@ -2066,65 +2138,44 @@ otherEntities:
   temperature: 294.149994
   units: 1
   type: Other
-- id: VendingMachine
-  location_x: 5
-  location_y: -4
+- id: SetLocker
+  location_x: 7
+  location_y: 1
   element: Unobtanium
   temperature: 294.149994
   units: 1
   type: Other
-- id: PropLadder
-  location_x: 9
-  location_y: 5
-  element: Polypropylene
+- id: SetLocker
+  location_x: 6
+  location_y: 1
+  element: Unobtanium
   temperature: 294.149994
   units: 1
   type: Other
-- id: PropLadder
-  location_x: 9
+- id: PropLight
+  location_x: -7
   location_y: 4
-  element: Polypropylene
+  element: Steel
   temperature: 294.149994
   units: 1
   type: Other
-- id: PropLadder
-  location_x: 9
-  location_y: 3
-  element: Polypropylene
+- id: PropLight
+  location_y: 4
+  element: Steel
   temperature: 294.149994
   units: 1
   type: Other
-- id: PropLadder
-  location_x: 9
-  location_y: 2
-  element: Polypropylene
-  temperature: 294.149994
+- id: PropDesk
+  location_x: -5
+  location_y: 1
+  element: Steel
+  temperature: 294.144318
   units: 1
   type: Other
-- id: PropLadder
-  location_x: -10
-  element: Polypropylene
-  temperature: 294.149994
-  units: 1
-  type: Other
-- id: PropLadder
-  location_x: -10
-  location_y: -1
-  element: Polypropylene
-  temperature: 294.149994
-  units: 1
-  type: Other
-- id: PropLadder
-  location_x: -10
-  location_y: -2
-  element: Polypropylene
-  temperature: 294.149994
-  units: 1
-  type: Other
-- id: PropLadder
-  location_x: -10
-  location_y: -3
-  element: Polypropylene
+- id: PropTable
+  location_x: 3
+  location_y: 1
+  element: Unobtanium
   temperature: 294.149994
   units: 1
   type: Other
