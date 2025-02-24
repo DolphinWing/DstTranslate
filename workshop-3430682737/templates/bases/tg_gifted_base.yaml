@@ -2140,10 +2140,10 @@ buildings:
   element: SandStone
   temperature: 293.183533
   storage:
-  - id: ForestForagePlant
+  - id: FieldRation
     element: Creature
-    units: 20
-    temperature: 294.914825
+    units: 60
+    temperature: 295
     rottable: {}
 otherEntities:
 - id: VendingMachine

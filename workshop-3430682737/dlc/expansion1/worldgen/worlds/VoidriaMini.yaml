@@ -35,7 +35,7 @@ subworldFiles:
     weight: 0.5
 
 startSubworldName: subworlds/Voidria/voa_ForestStart
-startingBaseTemplate: bases/forestBase
+startingBaseTemplate: bases/voa_forestBase
 
 seasons:
   - SpacedOutStyleRocketMeteorShowers
@@ -119,6 +119,19 @@ worldTemplateRules:
       - command: Replace
         tagcommand: DistanceFromTag
         tag: AtSurface
+        minDistance: 2
+        maxDistance: 2
+  - names:
+      - expansion1::bases/voa_minipod_1
+      - expansion1::bases/voa_minipod_2
+    listRule: GuaranteeAll
+    ruleId: temporalTear_minipods
+    priority: 400
+    allowExtremeTemperatureOverlap: true # This is acceptable
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtDepths
         minDistance: 2
         maxDistance: 2
   # Exp. 52B

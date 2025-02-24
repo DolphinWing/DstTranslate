@@ -24,6 +24,13 @@ defaultsOverrides:
 
 worldTraitRules: [] # Disable world traits
 
+seasons:
+  - NoDamagingMeteorShowers
+
+fixedTraits:
+  - sunlightVeryVeryLow
+  - cosmicRadiationMed
+
 startSubworldName: expansion1::subworlds/swamp/SwampStart
 startingBaseTemplate: expansion1::bases/voa_warpworldBase
 startingBasePositionHorizontal:
@@ -76,6 +83,11 @@ worldTemplateRules:
         maxDistance: 99
       - command: IntersectWith
         zoneTypes: [ Sandstone, Space, Swamp, OilField, Rust ]
+      - command: ExceptWith # too close to core
+        tagcommand: DistanceFromTag
+        tag: AtDepths
+        minDistance: 0
+        maxDistance: 0
   # geodes
   - names:
     - expansion1::bases/Voa_Geode

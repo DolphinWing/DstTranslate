@@ -30,7 +30,7 @@ subworldFiles:
   - name: subworlds/space/Surface
 
 startSubworldName: subworlds/Voidria/voa_ForestStart
-startingBaseTemplate: bases/forestBase
+startingBaseTemplate: bases/voa_forestBase
 
 seasons:
   - MeteorShowers

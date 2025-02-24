@@ -27,6 +27,10 @@ worldTraitRules: [] # Disable world traits
 seasons:
   - GassyMooteorShowers
 
+fixedTraits:
+  - sunlightVeryVeryVeryHigh
+  - cosmicRadiationHigh
+
 # List all the subworld files to load
 subworldFiles:
   - name: subworlds/space/Space

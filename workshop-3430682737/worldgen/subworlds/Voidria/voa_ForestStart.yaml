@@ -35,6 +35,7 @@ biomes:
       - LeafyPlant        
       - LeafyPlantSeed
       - Squirrel          
+      - ForestForagePlant
   - name: biomes/Forest/Metal
     weight: 2
     tags:
