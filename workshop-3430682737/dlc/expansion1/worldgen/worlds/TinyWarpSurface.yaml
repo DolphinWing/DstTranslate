@@ -88,3 +88,8 @@ worldTemplateRules:
         tag: AtStart
         minDistance: 1
         maxDistance: 99
+      - command: ExceptWith # too close to surface
+        tagcommand: DistanceFromTag
+        tag: AtSurface
+        minDistance: 0
+        maxDistance: 0

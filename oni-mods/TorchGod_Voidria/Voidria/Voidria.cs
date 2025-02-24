@@ -1,9 +1,12 @@
 ﻿using HarmonyLib;
+using Klei.CustomSettings;
 using PeterHan.PLib.Core;
 using PeterHan.PLib.Database;
 using PeterHan.PLib.Options;
 using ProcGen;
+using ProcGenGame;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Voidria
 {
@@ -41,14 +44,15 @@ namespace Voidria
             Strings.Add("STRINGS.WORLDS.VOIDRIAMINI.DESCRIPTION", DESCRIPTION);
         }
 
-        //[HarmonyPatch(typeof(ColonyDestinationSelectScreen), "OnSpawn")]
-        //public static class ColonyDestinationSelectScreen_OnSpawn_Patch
-        //{
-        //    public static void Prefix()
-        //    {
-        //        PUtil.LogDebug("ColonyDestinationSelectScreen_OnSpawn_Patch Prefix");
-        //    }
-        //}
+        public static bool IsVoaCluster()
+        {
+            SettingLevel current = CustomGameSettings.Instance.GetCurrentQualitySetting((SettingConfig)CustomGameSettingConfigs.ClusterLayout);
+            if (current == null) return false; // unknown cluster
+
+            ClusterLayout clusterData = SettingsCache.clusterLayouts.GetClusterData(current.id);
+            string prefix = clusterData.GetCoordinatePrefix();
+            return prefix.StartsWith("VOA-TG-"); // B: base game. C: Spaced Out classic. M: Spaced Out style.
+        }
 
         /// <summary>
         /// Applied to MutatedWorldData() to remove all geysers on hard mode on 100 K.
@@ -64,20 +68,20 @@ namespace Voidria
             {
                 var world = __instance.world;
                 if (world.name.StartsWith("Voidria.Voidria.") == false) return; // no need to check further
-                PUtil.LogDebug("Checking for " + world.name);
+                //PUtil.LogDebug("Checking for " + world.name);
 
-                var options = POptions.ReadSettings<VoidriaOptions>();
+                var options = VoidriaOptions.GetInstance();
                 //if (options == null) return; // no need to change anything
 
                 var spaced = DlcManager.IsContentSubscribed(DlcManager.EXPANSION1_ID);
                 var frosty = DlcManager.IsContentSubscribed(DlcManager.DLC2_ID);
                 var bionic = DlcManager.IsContentSubscribed(DlcManager.DLC3_ID);
-                PUtil.LogDebug("DLC own: " + spaced + ", " + frosty + ", " + bionic);
+                //PUtil.LogDebug("DLC own: " + spaced + ", " + frosty + ", " + bionic);
 
                 var dlcMixing = CustomGameSettings.Instance.GetCurrentDlcMixingIds();
                 frosty = dlcMixing.Contains(DlcManager.DLC2_ID);
                 bionic = dlcMixing.Contains(DlcManager.DLC3_ID);
-                PUtil.LogDebug("DLC mixing: " + spaced + ", " + frosty + ", " + bionic);
+                //PUtil.LogDebug("DLC mixing: " + spaced + ", " + frosty + ", " + bionic);
 
                 var stories = CustomGameSettings.Instance.GetCurrentStories();
 #if DEBUG
@@ -116,7 +120,7 @@ namespace Voidria
                         }
                         if (rule.names.Contains("poi/oil/small_oilpockets_geyser_a"))
                         {
-                            if (options != null && options?.EnableOilReservoir == false)
+                            if (options.EnableOilReservoir == false)
                             {
                                 removed.Add(rule); //world.worldTemplateRules?.Remove(rule);
                                 PUtil.LogDebug("... remove oil pocket geyser");
@@ -135,12 +139,12 @@ namespace Voidria
 
                         if (rule.ruleId?.StartsWith("tg_Critter_") == true)
                         {
-                            if (options != null && options.EnableCritters == false)
+                            if (options.EnableCritters == false)
                             {
                                 removed.Add(rule);
                                 PUtil.LogDebug("... remove " + rule.ruleId);
                             }
-                            else if (rule.ruleId?.StartsWith("tg_Critter_Vanilla") == true && frosty) 
+                            else if (frosty && rule.ruleId?.StartsWith("tg_Critter_Vanilla") == true) 
                             {
                                 PUtil.LogDebug("... add frosty critters");
                                 rule.names.Add("dlc2::critters/tg_bammoth");
@@ -151,15 +155,24 @@ namespace Voidria
 
                         if (rule.ruleId?.StartsWith("tg_gift") == true)
                         {
-                            if (options != null && options.EnableGift == false)
+                            if (options.EnableGift == false)
                             {
                                 removed.Add(rule);
                                 PUtil.LogDebug("... remove " + rule.ruleId);
                             }
-                            else if(rule.ruleId?.StartsWith("tg_gift_basic") == true && frosty)
+                            else if (frosty && rule.ruleId?.StartsWith("tg_gift_base") == true)
                             {
                                 rule.names.Add("dlc2::bases/tg_wood_pile");
                                 PUtil.LogDebug("... add Frosty Wood pile");
+                            }
+                        }
+
+                        if (rule.ruleId?.StartsWith("temporalTear") == true)
+                        {
+                            if (options.EnableTearOpener == false)
+                            {
+                                removed.Add(rule);
+                                PUtil.LogDebug("... remove " + rule.ruleId);
                             }
                         }
                     }
@@ -169,6 +182,34 @@ namespace Voidria
                         {
                             world.worldTemplateRules?.Remove(rule);
                         }
+                }
+            }
+        }
+
+        [HarmonyPatch(typeof(ColonyDestinationSelectScreen), "OnSpawn")]
+        public static class ColonyDestinationSelectScreen_OnSpawn_Patch
+        {
+            public static void Prefix()
+            {
+                //PUtil.LogDebug("ColonyDestinationSelectScreen_OnSpawn_Patch.Prefix");
+            }
+        }
+
+        [HarmonyPatch(typeof(ClusterPOIManager), "RegisterTemporalTear")]
+        public static class ClusterPOIManager_RegisterTemporalTear_Patch
+        {
+            public static void Postfix(TemporalTear temporalTear, ClusterPOIManager __instance)
+            {
+                //PUtil.LogDebug("ClusterPOIManager_RegisterTemporalTear_Patch.Postfix");
+
+                if (IsVoaCluster() == false) return; // don't care about other clusters
+
+                var options = VoidriaOptions.GetInstance();
+                if (options.EnableTearOpener) return; // player will do by themselves
+                if (temporalTear.IsOpen() == false)
+                {
+                    temporalTear.Open();
+                    PUtil.LogDebug("Open Temporal Tear");
                 }
             }
         }

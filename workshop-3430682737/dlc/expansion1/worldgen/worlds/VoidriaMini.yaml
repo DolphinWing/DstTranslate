@@ -112,6 +112,7 @@ worldTemplateRules:
   - names:
       - expansion1::poi/poi_temporal_tear_opener_lab
     listRule: GuaranteeAll
+    ruleId: temporalTear_opener
     priority: 400
     allowExtremeTemperatureOverlap: true # This is acceptable
     allowedCellsFilter:
@@ -378,6 +379,17 @@ worldTemplateRules:
 
   # --- Critter Caves ---
   # Critter Vanilla
+  - names:
+    - critters/tg_gassy_style
+    listRule: GuaranteeAll
+    ruleId: tg_Critter_Moo
+    priority: 120
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 1
+        maxDistance: 3
   - names:
     - critters/tg_hatch_lice
     - critters/tg_pip_tree

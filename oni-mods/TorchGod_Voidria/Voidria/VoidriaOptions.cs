@@ -10,6 +10,9 @@ namespace Voidria
         public static LocString GiftedAreaTitle = (LocString)"Treasure Room";
         public static LocString GiftedAreaTooltip = (LocString)"Enable treasure room";
 
+        public static LocString TearOpenerTitle = (LocString)"Temporal Tear Opener";
+        public static LocString TearOpenerTooltip = (LocString)"Open Temporal Tear by mysel";
+
         public static LocString IronVolcanoTitle = (LocString)"Iron Volcano";
         public static LocString IronVolcanoTooltip = (LocString)"Enable iron volcano";
  
@@ -22,6 +25,10 @@ namespace Voidria
         [Option("Voidria.VoidriaOptions.GiftedAreaTitle", "Voidria.VoidriaOptions.GiftedAreaTooltip", "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_WORLDTRAITS")]
         [JsonProperty]
         public bool EnableGift { get; set; }
+
+        [Option("Voidria.VoidriaOptions.TearOpenerTitle", "Voidria.VoidriaOptions.TearOpenerTooltip", "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_WORLDTRAITS")]
+        [JsonProperty]
+        public bool EnableTearOpener { get; set; }
 
         [Option("Voidria.VoidriaOptions.IronVolcanoTitle", "Voidria.VoidriaOptions.IronVolcanoTooltip", "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_GEYSERS")]
         [JsonProperty]
@@ -41,6 +48,13 @@ namespace Voidria
             EnableIronVolcano = true;
             EnableOilReservoir = true;
             EnableCritters = true;
+            EnableTearOpener = false;
+        }
+
+        internal static VoidriaOptions GetInstance()
+        {
+            var options = POptions.ReadSettings<VoidriaOptions>();
+            return options ?? new VoidriaOptions();
         }
     }
 }

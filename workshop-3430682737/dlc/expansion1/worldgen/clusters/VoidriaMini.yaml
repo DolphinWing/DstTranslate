@@ -1,7 +1,7 @@
 name: Voidria.Voidria.NAME
 description: Voidria.Voidria.DESCRIPTION
 requiredDlcIds: [EXPANSION1_ID]
-coordinatePrefix: VOI-TG-M
+coordinatePrefix: VOA-TG-M
 menuOrder: -1
 clusterCategory: SpacedOutStyle
 difficulty: 5

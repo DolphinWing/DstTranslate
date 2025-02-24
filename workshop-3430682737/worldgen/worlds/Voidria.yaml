@@ -305,7 +305,7 @@ worldTemplateRules:
         tagcommand: DistanceFromTag
         tag: AtStart
         minDistance: 1
-        maxDistance: 4
+        maxDistance: 3
   - names:
     - critters/tg_hatch_lice
     - critters/tg_pip_tree
