@@ -2142,7 +2142,7 @@ buildings:
   storage:
   - id: FieldRation
     element: Creature
-    units: 60
+    units: 50
     temperature: 295
     rottable: {}
 otherEntities:

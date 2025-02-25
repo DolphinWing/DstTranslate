@@ -13,7 +13,7 @@ namespace Voidria
     class Voidria : KMod.UserMod2
     {
         public static LocString NAME = (LocString)"Voidria";
-        public static LocString DESCRIPTION = (LocString)"Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\nDuplicants MUST work to DEATH to make the colony thrive again.";
+        public static LocString DESCRIPTION = (LocString)"Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\n<smallcaps>Duplicants MUST work to DEATH to make the colony thrive again.</smallcaps>";
 
         public static LocString WARP_NAME = (LocString)"Rocker";
         public static LocString WARP_DESC = (LocString)"A tiny rock needs one small step.";

@@ -5,8 +5,8 @@ msgstr "無多利亞"
 
 #. Voidria.Voidria.DESCRIPTION
 msgctxt "Voidria.Voidria.DESCRIPTION"
-msgid "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\nDuplicants MUST work to DEATH to make the colony thrive again."
-msgstr "無望的虛空。資源極度匱乏且有限。沒有間歇泉。\n\n複製人唯有至死方休才能讓殖民地重現生機。"
+msgid "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\n<smallcaps>Duplicants MUST work to DEATH to make the colony thrive again.</smallcaps>"
+msgstr "無望的虛空。資源極度匱乏且有限。沒有間歇泉。\n\n<smallcaps>複製人唯有至死方休才能讓殖民地重現生機。</smallcaps>"
 
 #. Voidria.Voidria.WARP_NAME
 msgctxt "Voidria.Voidria.WARP_NAME"
@@ -28,42 +28,52 @@ msgctxt "Voidria.Voidria.LAND_DESC"
 msgid "A tiny rock to land your little rocket."
 msgstr "可以降落你的小火箭。"
 
-#. Voidria.Voidria.GiftedAreaTitle
-msgctxt "Voidria.Voidria.GiftedAreaTitle"
+#. Voidria.VoidriaOptions.GiftedAreaTitle
+msgctxt "Voidria.VoidriaOptions.GiftedAreaTitle"
 msgid "Treasure Room"
 msgstr "祕寶區"
 
-#. Voidria.Voidria.GiftedAreaTooltip
-msgctxt "Voidria.Voidria.GiftedAreaTooltip"
-msgid "Enable treasure room"
-msgstr "啟用寶藏"
+#. Voidria.VoidriaOptions.GiftedAreaTooltip
+msgctxt "Voidria.VoidriaOptions.GiftedAreaTooltip"
+msgid "Discover gifts from the developer"
+msgstr "接受開發者的禮物"
 
-#. Voidria.Voidria.IronVolcanoTitle
-msgctxt "Voidria.Voidria.IronVolcanoTitle"
+#. Voidria.VoidriaOptions.TearOpenerTitle
+msgctxt "Voidria.VoidriaOptions.TearOpenerTitle"
+msgid "Temporal Tear Opener"
+msgstr "時空裂縫開啟器"
+
+#. Voidria.VoidriaOptions.GiftedAreaTooltip
+msgctxt "Voidria.VoidriaOptions.GiftedAreaTooltip"
+msgid "I will decide when to open Temporal Tear"
+msgstr "我自己決定何時打開時空裂縫"
+
+#. Voidria.VoidriaOptions.IronVolcanoTitle
+msgctxt "Voidria.VoidriaOptions.IronVolcanoTitle"
 msgid "Iron Volcano"
 msgstr "鐵火山"
 
-#. Voidria.Voidria.IronVolcanoTooltip
-msgctxt "Voidria.Voidria.IronVolcanoTooltip"
-msgid "Enable iron volcano"
-msgstr "啟用鐵火山"
+#. Voidria.VoidriaOptions.IronVolcanoTooltip
+msgctxt "Voidria.VoidriaOptions.IronVolcanoTooltip"
+msgid "With so much iron makes life easier"
+msgstr "有這麼多鐵會讓生活變得容易"
 
-#. Voidria.Voidria.OilReservoirTitle
-msgctxt "Voidria.Voidria.OilReservoirTitle"
+#. Voidria.VoidriaOptions.OilReservoirTitle
+msgctxt "Voidria.VoidriaOptions.OilReservoirTitle"
 msgid "Oil Reservoir"
 msgstr "油田"
 
-#. Voidria.Voidria.OilReservoirTooltip
-msgctxt "Voidria.Voidria.OilReservoirTooltip"
-msgid "Enable oil reservoir"
-msgstr "啟用油田"
+#. Voidria.VoidriaOptions.OilReservoirTooltip
+msgctxt "Voidria.VoidriaOptions.OilReservoirTooltip"
+msgid "Water In, Crude Oil Out. Easy Livin'"
+msgstr "水進去，原油出來。大家發大財"
 
-#. Voidria.Voidria.CrittersCaveTitle
-msgctxt "Voidria.Voidria.CrittersCaveTitle"
+#. Voidria.VoidriaOptions.CrittersCaveTitle
+msgctxt "Voidria.VoidriaOptions.CrittersCaveTitle"
 msgid "Critter Shalter"
 msgstr "小動物避難所"
 
-#. Voidria.Voidria.CrittersCaveTooltip
-msgctxt "Voidria.Voidria.CrittersCaveTooltip"
-msgid "Enable critter shalters"
-msgstr "啟用小動物避難所"
+#. Voidria.VoidriaOptions.CrittersCaveTooltip
+msgctxt "Voidria.VoidriaOptions.CrittersCaveTooltip"
+msgid "Let critters have their own pleasure"
+msgstr "讓小動物享受牠們的生活"

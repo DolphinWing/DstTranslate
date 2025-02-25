@@ -5,8 +5,8 @@ msgstr "Voidria"
 
 #. Voidria.Voidria.DESCRIPTION
 msgctxt "Voidria.Voidria.DESCRIPTION"
-msgid "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\nDuplicants MUST work to DEATH to make the colony thrive again."
-msgstr "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\nDuplicants MUST work to DEATH to make the colony thrive again."
+msgid "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\n<smallcaps>Duplicants MUST work to DEATH to make the colony thrive again.</smallcaps>"
+msgstr "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\n<smallcaps>Duplicants MUST work to DEATH to make the colony thrive again.</smallcaps>"
 
 #. Voidria.Voidria.WARP_NAME
 msgctxt "Voidria.Voidria.WARP_NAME"
@@ -28,42 +28,52 @@ msgctxt "Voidria.Voidria.LAND_DESC"
 msgid "A tiny rock to land your little rocket."
 msgstr "A tiny rock to land your little rocket."
 
-#. Voidria.Voidria.GiftedAreaTitle
-msgctxt "Voidria.Voidria.GiftedAreaTitle"
+#. Voidria.VoidriaOptions.GiftedAreaTitle
+msgctxt "Voidria.VoidriaOptions.GiftedAreaTitle"
 msgid "Treasure Room"
 msgstr "Treasure Room"
 
-#. Voidria.Voidria.GiftedAreaTooltip
-msgctxt "Voidria.Voidria.GiftedAreaTooltip"
-msgid "Enable treasure room"
-msgstr "Enable treasure room"
+#. Voidria.VoidriaOptions.GiftedAreaTooltip
+msgctxt "Voidria.VoidriaOptions.GiftedAreaTooltip"
+msgid "Discover gifts from the developer"
+msgstr "Discover gifts from the developer"
 
-#. Voidria.Voidria.IronVolcanoTitle
-msgctxt "Voidria.Voidria.IronVolcanoTitle"
+#. Voidria.VoidriaOptions.TearOpenerTitle
+msgctxt "Voidria.VoidriaOptions.TearOpenerTitle"
+msgid "Temporal Tear Opener"
+msgstr "Temporal Tear Opener"
+
+#. Voidria.VoidriaOptions.TearOpenerTooltip
+msgctxt "Voidria.VoidriaOptions.TearOpenerTooltip"
+msgid "I will decide when to open Temporal Tear"
+msgstr "I will decide when to open Temporal Tear"
+
+#. Voidria.VoidriaOptions.IronVolcanoTitle
+msgctxt "Voidria.VoidriaOptions.IronVolcanoTitle"
 msgid "Iron Volcano"
 msgstr "Iron Volcano"
 
-#. Voidria.Voidria.IronVolcanoTooltip
-msgctxt "Voidria.Voidria.IronVolcanoTooltip"
-msgid "Enable iron volcano"
-msgstr "Enable iron volcano"
+#. Voidria.VoidriaOptions.IronVolcanoTooltip
+msgctxt "Voidria.VoidriaOptions.IronVolcanoTooltip"
+msgid "With so much iron makes life easier"
+msgstr "With so much iron makes life easier"
 
-#. Voidria.Voidria.OilReservoirTitle
-msgctxt "Voidria.Voidria.OilReservoirTitle"
+#. Voidria.VoidriaOptions.OilReservoirTitle
+msgctxt "Voidria.VoidriaOptions.OilReservoirTitle"
 msgid "Oil Reservoir"
 msgstr "Oil Reservoir"
 
-#. Voidria.Voidria.OilReservoirTooltip
-msgctxt "Voidria.Voidria.OilReservoirTooltip"
-msgid "Enable oil reservoir"
-msgstr "Enable oil reservoir"
+#. Voidria.VoidriaOptions.OilReservoirTooltip
+msgctxt "Voidria.VoidriaOptions.OilReservoirTooltip"
+msgid "Water In, Crude Oil Out. Easy Livin'"
+msgstr "Water In, Crude Oil Out. Easy Livin'"
 
-#. Voidria.Voidria.CrittersCaveTitle
-msgctxt "Voidria.Voidria.CrittersCaveTitle"
+#. Voidria.VoidriaOptions.CrittersCaveTitle
+msgctxt "Voidria.VoidriaOptions.CrittersCaveTitle"
 msgid "Critter Shalter"
 msgstr "Critter Shalter"
 
-#. Voidria.Voidria.CrittersCaveTooltip
-msgctxt "Voidria.Voidria.CrittersCaveTooltip"
-msgid "Enable critter shalters"
-msgstr "Enable critter shalters"
+#. Voidria.VoidriaOptions.CrittersCaveTooltip
+msgctxt "Voidria.VoidriaOptions.CrittersCaveTooltip"
+msgid "Let critters have their own pleasure"
+msgstr "Let critters have their own pleasure"
