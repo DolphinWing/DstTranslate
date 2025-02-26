@@ -39,7 +39,7 @@ startingBaseTemplate: bases/voa_forestBase
 
 seasons:
   - ClassicStyleStartMeteorShowers
-  - RegolithMoonMeteorShowers
+#  - RegolithMoonMeteorShowers
 
 # Specify where subworlds can spawn. These rules are processed in order and their effects are cumulative.
 unknownCellsAllowedSubworlds: 

@@ -8,6 +8,11 @@ msgctxt "Voidria.Voidria.DESCRIPTION"
 msgid "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\n<smallcaps>Duplicants MUST work to DEATH to make the colony thrive again.</smallcaps>"
 msgstr "無望的虛空。資源極度匱乏且有限。沒有間歇泉。\n\n<smallcaps>複製人唯有至死方休才能讓殖民地重現生機。</smallcaps>"
 
+#. Voidria.Voidria.BIOME_DESC
+msgctxt "Voidria.Voidria.BIOME_DESC"
+msgid "Seriously, I feel like in space."
+msgstr "認真說，總覺得跟太空沒什麼不同。"
+
 #. Voidria.Voidria.WARP_NAME
 msgctxt "Voidria.Voidria.WARP_NAME"
 msgid "Rocker"

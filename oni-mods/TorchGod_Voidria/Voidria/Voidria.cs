@@ -3,6 +3,8 @@ using Klei.CustomSettings;
 using PeterHan.PLib.Core;
 using PeterHan.PLib.Database;
 using PeterHan.PLib.Options;
+using PeterHan.PLib.PatchManager;
+using PeterHan.PLib.UI;
 using ProcGen;
 using ProcGenGame;
 using System.Collections.Generic;
@@ -14,6 +16,7 @@ namespace Voidria
     {
         public static LocString NAME = (LocString)"Voidria";
         public static LocString DESCRIPTION = (LocString)"Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\n<smallcaps>Duplicants MUST work to DEATH to make the colony thrive again.</smallcaps>";
+        public static LocString BIOME_DESC = (LocString)"Seriously, I feel like in space.";
 
         public static LocString WARP_NAME = (LocString)"Rocker";
         public static LocString WARP_DESC = (LocString)"A tiny rock needs one small step.";
@@ -27,11 +30,19 @@ namespace Voidria
             PUtil.InitLibrary();
             new PLocalization().Register();
             new POptions().RegisterOptions(this, typeof(VoidriaOptions));
+            new PPatchManager(harmony).RegisterPatchClass(typeof(Voidria));
+        }
 
+        /// <summary>
+		/// Registers the strings used in this mod.
+		/// </summary>
+		[PLibMethod(RunAt.AfterDbInit)]
+        internal static void InitStrings()
+        {
             Strings.Add("STRINGS.CLUSTER_NAMES.VOIDRIA.NAME", NAME);
             Strings.Add("STRINGS.CLUSTER_NAMES.VOIDRIA.DESCRIPTION", DESCRIPTION);
             Strings.Add("STRINGS.SUBWORLDS.VOIDRIA.NAME", NAME);
-            Strings.Add("STRINGS.SUBWORLDS.VOIDRIA.DESC", DESCRIPTION);
+            Strings.Add("STRINGS.SUBWORLDS.VOIDRIA.DESC", BIOME_DESC);
             Strings.Add("STRINGS.WORLDS.TINYLANDINGZONE.NAME", LAND_NAME);
             Strings.Add("STRINGS.WORLDS.TINYLANDINGZONE.DESCRIPTION", LAND_DESC);
             Strings.Add("STRINGS.WORLDS.TINYWARPSURFACE.NAME", WARP_NAME);
@@ -42,6 +53,12 @@ namespace Voidria
             Strings.Add("STRINGS.WORLDS.VOIDRIASO.DESCRIPTION", DESCRIPTION);
             Strings.Add("STRINGS.WORLDS.VOIDRIAMINI.NAME", NAME);
             Strings.Add("STRINGS.WORLDS.VOIDRIAMINI.DESCRIPTION", DESCRIPTION);
+
+            var sprite = Assets.GetSprite("biomeIconSpace");
+            if (sprite != null)
+            {
+                Assets.Sprites.Add("biomeIconVoidria", sprite);
+            }
         }
 
         public static bool IsVoaCluster()

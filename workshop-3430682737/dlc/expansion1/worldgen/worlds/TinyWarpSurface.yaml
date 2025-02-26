@@ -25,7 +25,8 @@ defaultsOverrides:
 worldTraitRules: [] # Disable world traits
 
 seasons:
-  - NoDamagingMeteorShowers
+  - MiniMetallicSwampyMeteorShowers
+#  - NoDamagingMeteorShowers
 
 fixedTraits:
   - sunlightVeryVeryLow

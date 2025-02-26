@@ -8,6 +8,11 @@ msgctxt "Voidria.Voidria.DESCRIPTION"
 msgid "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\n<smallcaps>Duplicants MUST work to DEATH to make the colony thrive again.</smallcaps>"
 msgstr "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\n<smallcaps>Duplicants MUST work to DEATH to make the colony thrive again.</smallcaps>"
 
+#. Voidria.Voidria.BIOME_DESC
+msgctxt "Voidria.Voidria.BIOME_DESC"
+msgid "Seriously, I feel like in space."
+msgstr "Seriously, it feel like in space."
+
 #. Voidria.Voidria.WARP_NAME
 msgctxt "Voidria.Voidria.WARP_NAME"
 msgid "Rocker"
