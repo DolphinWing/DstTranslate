@@ -6,8 +6,8 @@
     <Copyright>Copyright@2020</Copyright>
     <Description>ONI Font Loader. rebuilt by DolphinWing.</Description>
     <AssemblyTitle>FontLoader</AssemblyTitle>
-    <AssemblyVersion>2024.11.25.0</AssemblyVersion>
-    <FileVersion>2024.11.25.0</FileVersion>
+    <AssemblyVersion>2025.03.05.0</AssemblyVersion>
+    <FileVersion>2025.03.05.0</FileVersion>
     <Product>ONI FontLoader</Product>
     <Version>2.0.6</Version>
   </PropertyGroup>
