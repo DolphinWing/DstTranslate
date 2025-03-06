@@ -1,4 +1,5 @@
-requiredDlcIds: EXPANSION1_ID
+requiredDlcIds:
+ - EXPANSION1_ID
 minimumSupportedBuild: 646405
 APIVersion: 2
 version: "2025.130.1"
