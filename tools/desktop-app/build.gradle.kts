@@ -1,21 +1,23 @@
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+import java.text.SimpleDateFormat
+import java.util.Date
 
-val releaseAppVersion = "2.0.9"
-val releaseAppRevision = 1
+val releaseAppVersion = "3.0.0"
+val releaseAppRevision = SimpleDateFormat("yy.M.d").format(Date()) ?: "0"
 
 plugins {
-    kotlin("jvm") version "1.7.20"
-    id("org.jetbrains.compose") version "1.2.2"
+    kotlin("jvm")
+    id("org.jetbrains.compose")
+    id("org.jetbrains.kotlin.plugin.compose")
 }
 
 group = "dolphin.desktop.apps"
 version = "1.0"
 
 repositories {
-    google()
     mavenCentral()
     maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
+    google()
 }
 
 dependencies {
@@ -28,10 +30,6 @@ dependencies {
     implementation("com.github.houbb:opencc4j:1.8.1")
 }
 
-tasks.withType<KotlinCompile> {
-    kotlinOptions.jvmTarget = "11"
-}
-
 compose.desktop {
     application {
         mainClass = "MainKt"
@@ -39,10 +37,10 @@ compose.desktop {
         nativeDistributions {
             targetFormats(TargetFormat.Msi, TargetFormat.Deb)
 
-            packageName = "DstTranslator"
+            packageName = "OniTranslator"
             packageVersion = releaseAppVersion
             version = releaseAppVersion
-            description = "ONI/DST PO Translate Helper"
+            description = "ONI PO Translate Helper"
             vendor = "DolphinWing"
 
             appResourcesRootDir.set(project.layout.projectDirectory.dir("resources"))
@@ -53,6 +51,8 @@ compose.desktop {
                 msiPackageVersion = releaseAppVersion
                 // exePackageVersion = releaseAppVersion
                 upgradeUuid = "f33ea1be-e738-43e0-9918-9360b0620fc0"
+                // https://slack-chats.kotlinlang.org/t/26915548/i-m-trying-to-set-the-icon-for-a-desktop-application-in-kotl
+                iconFile.set(File("src/main/resources/nisbet_ponder.ico"))
             }
 
             linux {

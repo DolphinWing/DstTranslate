@@ -28,6 +28,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.painter.BitmapPainter
+import androidx.compose.ui.res.loadImageBitmap
+import androidx.compose.ui.res.useResource
 import androidx.compose.ui.unit.DpSize
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Window
@@ -89,7 +92,12 @@ fun main(args: Array<String>) = application {
     val model = PoDataModel(DesktopPoHelper(Ini(workingDir), debug = debug).apply { prepare() })
     val windowState = rememberWindowState(size = DpSize(1024.dp, 768.dp))
 
-    Window(onCloseRequest = ::exitApplication, state = windowState, title = "ONI/DST PO Helper") {
+    Window(
+        onCloseRequest = ::exitApplication,
+        state = windowState,
+        title = "ONI/DST PO Helper",
+        icon = BitmapPainter(useResource("nisbet_ponder.png", ::loadImageBitmap)),
+    ) {
         App(
             model,
             onCopyTo = ::copyToSystemClipboard,
@@ -127,7 +135,7 @@ fun App(
 
         var toasted by remember { mutableStateOf("") }
         var cached by remember { mutableStateOf(false) }
-        var selectedTab by remember { mutableStateOf(0) }
+        var selectedTab by remember { mutableStateOf(1) } // default to Translation tab
         val loading = model.helper.loading.collectAsState()
 
         // toast

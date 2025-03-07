@@ -25,9 +25,9 @@ import androidx.compose.ui.unit.dp
 import dolphin.android.apps.dsttranslate.WordEntry
 
 private val textMap = listOf(
-    Pair("chs", AppTheme.AppColor.blue),
-    Pair("cht", AppTheme.AppColor.purple),
-    Pair("dst", AppTheme.AppColor.orange),
+    Pair("old-text", AppTheme.AppColor.blue),
+    Pair("now-text", AppTheme.AppColor.purple),
+    Pair("old", AppTheme.AppColor.orange),
     Pair("now", AppTheme.AppColor.green),
 )
 

@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.requiredWidth
+import androidx.compose.foundation.layout.size
 import androidx.compose.material.Button
 import androidx.compose.material.ButtonDefaults
 import androidx.compose.material.Icon
@@ -18,6 +19,8 @@ import androidx.compose.material.TextField
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.ContentPaste
 import androidx.compose.material.icons.rounded.CopyAll
+import androidx.compose.material.icons.rounded.Link
+import androidx.compose.material.icons.rounded.TextFields
 import androidx.compose.material.icons.rounded.Visibility
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -30,6 +33,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.window.Dialog
 import dolphin.android.apps.dsttranslate.PoHelper
 import dolphin.android.apps.dsttranslate.WordEntry
 import dolphin.android.apps.dsttranslate.WordEntry.Companion.dropQuote
@@ -60,6 +64,7 @@ fun EditorPane(
     var dstVisible by remember { mutableStateOf(true) }
     var chsVisible by remember { mutableStateOf(true) }
     var chtVisible by remember { mutableStateOf(true) }
+    var linkSelector by remember { mutableStateOf(false) }
 
     Column(
         modifier = modifier
@@ -170,6 +175,27 @@ fun EditorPane(
         }
 
         if (nowVisible) {
+            // use regex to find link content
+            // sample: <link=\"DATABANK\">Data Banks</link>
+            val regex = Regex("<link=([^>]+)>([^<]+)</link>")
+            val links = regex.findAll(data.target.origin())
+//            if (links.count() == 0) {
+//                println("No link found")
+//            } else {
+//                links.forEach {
+//                    println("${it.groupValues[1]}: ${it.groupValues[2]}")
+//                }
+//            }
+
+            if (linkSelector) {
+                Dialog(onDismissRequest = { linkSelector = false }) {
+                    AlertRegexLinkSelector(links, onSelected = {
+                        onCopyToClipboard?.invoke(it)
+                        linkSelector = false
+                    })
+                }
+            }
+
             Row {
                 TextButton(
                     onClick = { onTranslate?.invoke(data.target.origin()) },
@@ -186,6 +212,9 @@ fun EditorPane(
                 }
                 IconButton(onClick = { onCopyToClipboard?.invoke(data.target.origin()) }) {
                     Icon(Icons.Rounded.CopyAll, contentDescription = null)
+                }
+                IconButton(onClick = { linkSelector = true }, enabled = links.count() > 0) {
+                    Icon(Icons.Rounded.TextFields, contentDescription = null)
                 }
             }
             Button(
@@ -267,6 +296,37 @@ private fun PreviewEditorPaneWithCht() {
                 chs = "simplified",
                 cht = "traditional",
             )
+        )
+    }
+}
+
+@Composable
+private fun AlertRegexLinkSelector(links: Sequence<MatchResult>, onSelected: (String) -> Unit) {
+    Column(modifier = Modifier.background(Color.White).padding(16.dp)) {
+        links.forEach {
+            val link = it.groupValues[1].substring(2, it.groupValues[1].length - 2)
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                TextButton(onClick = { onSelected(link) }) {
+                    Text(link)
+                }
+                IconButton(onClick = { onSelected("<link=\\\"${link}\\\"></link>") }) {
+                    Icon(Icons.Rounded.Link, contentDescription = null)
+                }
+            }
+        }
+    }
+}
+
+@Composable
+@Preview
+private fun PreviewAlertRegexLinkSelector() {
+    val regex = Regex("<link=([^>]+)>([^<]+)</link>")
+    val links = regex.findAll("The Moo Biome is the natural habitat of the charismatic <link=\\\"MOO\\\">Gassy Moo</link>, a great source of <link=\\\"METHANE\\\">Natural Gas</link>.")
+
+    DstTranslatorTheme {
+        AlertRegexLinkSelector(
+            links,
+            onSelected = { println(it) }
         )
     }
 }

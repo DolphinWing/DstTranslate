@@ -43,7 +43,7 @@ data class Configs(
 fun ConfigPane(
     configs: Configs,
     onConfigChange: ((configs: Configs) -> Unit)? = null,
-    mode: PoHelper.Mode = PoHelper.Mode.DST,
+    mode: PoHelper.Mode = PoHelper.Mode.ONI,
     onModeChange: ((mode: PoHelper.Mode) -> Unit)? = null,
 ) {
     var visible by remember { mutableStateOf(false) }
