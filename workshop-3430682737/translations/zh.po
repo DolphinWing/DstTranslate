@@ -13,6 +13,11 @@ msgctxt "Voidria.Voidria.BIOME_DESC"
 msgid "Seriously, I feel like in space."
 msgstr "認真說，總覺得跟太空沒什麼不同。"
 
+#. Voidria.Voidria.BIOME_DESC
+msgctxt "Voidria.Voidria.BIOME_DESC"
+msgid "Much much care must be taken to ensure <link=\"ELEMENTSLIQUID\">Liquids</link> or <link=\"ELEMENTSGAS\">Gases</link> are not sucked out into the <link=\"VACUUM\">Vacuum</link> of space."
+msgstr "需要更多額外關注以確保<link=\"ELEMENTSLIQUID\">液體</link>或<link=\"ELEMENTSGAS\">氣體</link>不會被吸進太空的<link=\"VACUUM\">真空</link>環境中。"
+
 #. Voidria.Voidria.WARP_NAME
 msgctxt "Voidria.Voidria.WARP_NAME"
 msgid "Rocker"

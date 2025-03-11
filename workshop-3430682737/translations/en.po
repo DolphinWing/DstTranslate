@@ -13,6 +13,11 @@ msgctxt "Voidria.Voidria.BIOME_DESC"
 msgid "Seriously, I feel like in space."
 msgstr "Seriously, it feel like in space."
 
+#. Voidria.Voidria.UTILITY_DESC
+msgctxt "Voidria.Voidria.UTILITY_DESC"
+msgid "Much much care must be taken to ensure <link=\"ELEMENTSLIQUID\">Liquids</link> or <link=\"ELEMENTSGAS\">Gases</link> are not sucked out into the <link=\"VACUUM\">Vacuum</link> of space."
+msgstr "Much much care must be taken to ensure <link=\"ELEMENTSLIQUID\">Liquids</link> or <link=\"ELEMENTSGAS\">Gases</link> are not sucked out into the <link=\"VACUUM\">Vacuum</link> of space."
+
 #. Voidria.Voidria.WARP_NAME
 msgctxt "Voidria.Voidria.WARP_NAME"
 msgid "Rocker"

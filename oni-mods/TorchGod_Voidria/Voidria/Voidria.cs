@@ -4,11 +4,8 @@ using PeterHan.PLib.Core;
 using PeterHan.PLib.Database;
 using PeterHan.PLib.Options;
 using PeterHan.PLib.PatchManager;
-using PeterHan.PLib.UI;
 using ProcGen;
-using ProcGenGame;
 using System.Collections.Generic;
-using System.IO;
 
 namespace Voidria
 {
@@ -17,6 +14,7 @@ namespace Voidria
         public static LocString NAME = (LocString)"Voidria";
         public static LocString DESCRIPTION = (LocString)"Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\n<smallcaps>Duplicants MUST work to DEATH to make the colony thrive again.</smallcaps>";
         public static LocString BIOME_DESC = (LocString)"Seriously, I feel like in space.";
+        public static LocString UTILITY_DESC = (LocString)"Much much care must be taken to ensure <link=\"ELEMENTSLIQUID\">Liquids</link> or <link=\"ELEMENTSGAS\">Gases</link> are not sucked out into the <link=\"VACUUM\">Vacuum</link> of space.";
 
         public static LocString WARP_NAME = (LocString)"Rocker";
         public static LocString WARP_DESC = (LocString)"A tiny rock needs one small step.";
@@ -43,6 +41,7 @@ namespace Voidria
             Strings.Add("STRINGS.CLUSTER_NAMES.VOIDRIA.DESCRIPTION", DESCRIPTION);
             Strings.Add("STRINGS.SUBWORLDS.VOIDRIA.NAME", NAME);
             Strings.Add("STRINGS.SUBWORLDS.VOIDRIA.DESC", BIOME_DESC);
+            Strings.Add("STRINGS.SUBWORLDS.VOIDRIA.UTILITY", UTILITY_DESC);
             Strings.Add("STRINGS.WORLDS.TINYLANDINGZONE.NAME", LAND_NAME);
             Strings.Add("STRINGS.WORLDS.TINYLANDINGZONE.DESCRIPTION", LAND_DESC);
             Strings.Add("STRINGS.WORLDS.TINYWARPSURFACE.NAME", WARP_NAME);
