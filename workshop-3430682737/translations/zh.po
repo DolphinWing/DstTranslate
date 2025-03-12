@@ -3,6 +3,11 @@ msgctxt "Voidria.Voidria.NAME"
 msgid "Voidria"
 msgstr "無多利亞"
 
+#. Voidria.Voidria.MOD_DESC
+msgctxt "Voidria.Voidria.MOD_DESC"
+msgid "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED."
+msgstr "無望的虛空。資源極度匱乏且有限。沒有間歇泉。"
+
 #. Voidria.Voidria.DESCRIPTION
 msgctxt "Voidria.Voidria.DESCRIPTION"
 msgid "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\n<smallcaps>Duplicants MUST work to DEATH to make the colony thrive again.</smallcaps>"
@@ -13,8 +18,8 @@ msgctxt "Voidria.Voidria.BIOME_DESC"
 msgid "Seriously, I feel like in space."
 msgstr "認真說，總覺得跟太空沒什麼不同。"
 
-#. Voidria.Voidria.BIOME_DESC
-msgctxt "Voidria.Voidria.BIOME_DESC"
+#. Voidria.Voidria.UTILITY_DESC
+msgctxt "Voidria.Voidria.UTILITY_DESC"
 msgid "Much much care must be taken to ensure <link=\"ELEMENTSLIQUID\">Liquids</link> or <link=\"ELEMENTSGAS\">Gases</link> are not sucked out into the <link=\"VACUUM\">Vacuum</link> of space."
 msgstr "需要更多額外關注以確保<link=\"ELEMENTSLIQUID\">液體</link>或<link=\"ELEMENTSGAS\">氣體</link>不會被吸進太空的<link=\"VACUUM\">真空</link>環境中。"
 

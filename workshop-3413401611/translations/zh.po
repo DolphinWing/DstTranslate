@@ -1,3 +1,13 @@
+#. NotZeroK.WorldConstants.MOD_NAME
+msgctxt "NotZeroK.WorldConstants.MOD_NAME"
+msgid "Not 0k, But Pretty Cool Place"
+msgstr "Not 0k, But Pretty Cool Place"
+
+#. NotZeroK.WorldConstants.MOD_DESC
+msgctxt "NotZeroK.WorldConstants.MOD_DESC"
+msgid "0K Not Included"
+msgstr "0K Not Included"
+
 #. NotZeroK.WorldConstants.MAP_MODE
 msgctxt "NotZeroK.WorldConstants.MAP_MODE"
 msgid "Mode"

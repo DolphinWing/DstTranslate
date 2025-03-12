@@ -3,6 +3,11 @@ msgctxt "Voidria.Voidria.NAME"
 msgid "Voidria"
 msgstr "Voidria"
 
+#. Voidria.Voidria.MOD_DESC
+msgctxt "Voidria.Voidria.MOD_DESC"
+msgid "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED."
+msgstr "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED."
+
 #. Voidria.Voidria.DESCRIPTION
 msgctxt "Voidria.Voidria.DESCRIPTION"
 msgid "Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\n<smallcaps>Duplicants MUST work to DEATH to make the colony thrive again.</smallcaps>"
