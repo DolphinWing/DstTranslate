@@ -65248,29 +65248,14 @@ msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.TOOLTIP"
 msgid "Scheduled Downtime will further improve Morale for Duplicants visiting a Recreation Room"
 msgstr ""
 
-#. STRINGS.SEARCH_TERMS.AIR
-msgctxt "STRINGS.SEARCH_TERMS.AIR"
-msgid "Air"
-msgstr ""
-
-#. STRINGS.SEARCH_TERMS.ANIMAL
-msgctxt "STRINGS.SEARCH_TERMS.ANIMAL"
-msgid "Animal"
-msgstr ""
-
-#. STRINGS.SEARCH_TERMS.ART
-msgctxt "STRINGS.SEARCH_TERMS.ART"
-msgid "Art"
-msgstr ""
-
 #. STRINGS.SEARCH_TERMS.ARTWORK
 msgctxt "STRINGS.SEARCH_TERMS.ARTWORK"
-msgid "Artwork"
+msgid "Artwork, Art, Painting"
 msgstr ""
 
 #. STRINGS.SEARCH_TERMS.AUTOMATION
 msgctxt "STRINGS.SEARCH_TERMS.AUTOMATION"
-msgid "Automation"
+msgid "Automation, Logic"
 msgstr ""
 
 #. STRINGS.SEARCH_TERMS.BATTERY
@@ -65280,7 +65265,7 @@ msgstr ""
 
 #. STRINGS.SEARCH_TERMS.BED
 msgctxt "STRINGS.SEARCH_TERMS.BED"
-msgid "Bed"
+msgid "Bed, Cot"
 msgstr ""
 
 #. STRINGS.SEARCH_TERMS.BIONIC
@@ -65288,34 +65273,14 @@ msgctxt "STRINGS.SEARCH_TERMS.BIONIC"
 msgid "Bionic"
 msgstr ""
 
-#. STRINGS.SEARCH_TERMS.CARBONDIOXIDE
-msgctxt "STRINGS.SEARCH_TERMS.CARBONDIOXIDE"
-msgid "Carbon Dioxide"
-msgstr ""
-
 #. STRINGS.SEARCH_TERMS.CO2
 msgctxt "STRINGS.SEARCH_TERMS.CO2"
-msgid "CO2"
-msgstr ""
-
-#. STRINGS.SEARCH_TERMS.COOKING
-msgctxt "STRINGS.SEARCH_TERMS.COOKING"
-msgid "Cooking"
-msgstr ""
-
-#. STRINGS.SEARCH_TERMS.COT
-msgctxt "STRINGS.SEARCH_TERMS.COT"
-msgid "Cot"
-msgstr ""
-
-#. STRINGS.SEARCH_TERMS.CREATURE
-msgctxt "STRINGS.SEARCH_TERMS.CREATURE"
-msgid "Creature"
+msgid "CO2, Carbon Dioxide"
 msgstr ""
 
 #. STRINGS.SEARCH_TERMS.CRITTER
 msgctxt "STRINGS.SEARCH_TERMS.CRITTER"
-msgid "Critter"
+msgid "Critter, Creature, Animal, Pet"
 msgstr ""
 
 #. STRINGS.SEARCH_TERMS.FARM
@@ -65330,32 +65295,17 @@ msgstr ""
 
 #. STRINGS.SEARCH_TERMS.FOOD
 msgctxt "STRINGS.SEARCH_TERMS.FOOD"
-msgid "Food"
+msgid "Food, Cooking"
 msgstr ""
 
 #. STRINGS.SEARCH_TERMS.FRIDGE
 msgctxt "STRINGS.SEARCH_TERMS.FRIDGE"
-msgid "Fridge"
+msgid "Fridge, Refrigerator"
 msgstr ""
 
 #. STRINGS.SEARCH_TERMS.GLASS
 msgctxt "STRINGS.SEARCH_TERMS.GLASS"
 msgid "Glass"
-msgstr ""
-
-#. STRINGS.SEARCH_TERMS.H2O
-msgctxt "STRINGS.SEARCH_TERMS.H2O"
-msgid "H2O"
-msgstr ""
-
-#. STRINGS.SEARCH_TERMS.LAVATORY
-msgctxt "STRINGS.SEARCH_TERMS.LAVATORY"
-msgid "Lavatory"
-msgstr ""
-
-#. STRINGS.SEARCH_TERMS.LOGIC
-msgctxt "STRINGS.SEARCH_TERMS.LOGIC"
-msgid "Logic"
 msgstr ""
 
 #. STRINGS.SEARCH_TERMS.LUMBER
@@ -65385,17 +65335,7 @@ msgstr ""
 
 #. STRINGS.SEARCH_TERMS.OXYGEN
 msgctxt "STRINGS.SEARCH_TERMS.OXYGEN"
-msgid "Oxygen"
-msgstr ""
-
-#. STRINGS.SEARCH_TERMS.PAINTING
-msgctxt "STRINGS.SEARCH_TERMS.PAINTING"
-msgid "Painting"
-msgstr ""
-
-#. STRINGS.SEARCH_TERMS.PET
-msgctxt "STRINGS.SEARCH_TERMS.PET"
-msgid "Pet"
+msgid "Oxygen, Air"
 msgstr ""
 
 #. STRINGS.SEARCH_TERMS.POWER
@@ -65408,14 +65348,9 @@ msgctxt "STRINGS.SEARCH_TERMS.RANCHING"
 msgid "Ranching"
 msgstr ""
 
-#. STRINGS.SEARCH_TERMS.REFRIGERATOR
-msgctxt "STRINGS.SEARCH_TERMS.REFRIGERATOR"
-msgid "Refrigerator"
-msgstr ""
-
 #. STRINGS.SEARCH_TERMS.RESEARCH
 msgctxt "STRINGS.SEARCH_TERMS.RESEARCH"
-msgid "Research"
+msgid "Research, Science"
 msgstr ""
 
 #. STRINGS.SEARCH_TERMS.ROBOT
@@ -65426,11 +65361,6 @@ msgstr ""
 #. STRINGS.SEARCH_TERMS.ROCKET
 msgctxt "STRINGS.SEARCH_TERMS.ROCKET"
 msgid "Rocket"
-msgstr ""
-
-#. STRINGS.SEARCH_TERMS.SCIENCE
-msgctxt "STRINGS.SEARCH_TERMS.SCIENCE"
-msgid "Science"
 msgstr ""
 
 #. STRINGS.SEARCH_TERMS.SINK
@@ -65453,6 +65383,11 @@ msgctxt "STRINGS.SEARCH_TERMS.STORAGE"
 msgid "Storage"
 msgstr ""
 
+#. STRINGS.SEARCH_TERMS.SUPPRESSED
+msgctxt "STRINGS.SEARCH_TERMS.SUPPRESSED"
+msgid "the, but, for"
+msgstr ""
+
 #. STRINGS.SEARCH_TERMS.TILE
 msgctxt "STRINGS.SEARCH_TERMS.TILE"
 msgid "Tile"
@@ -65460,7 +65395,7 @@ msgstr ""
 
 #. STRINGS.SEARCH_TERMS.TOILET
 msgctxt "STRINGS.SEARCH_TERMS.TOILET"
-msgid "Toilet"
+msgid "Toilet, Lavatory"
 msgstr ""
 
 #. STRINGS.SEARCH_TERMS.TRANSPORT
@@ -65470,7 +65405,7 @@ msgstr ""
 
 #. STRINGS.SEARCH_TERMS.WATER
 msgctxt "STRINGS.SEARCH_TERMS.WATER"
-msgid "Water"
+msgid "Water, H2O"
 msgstr ""
 
 #. STRINGS.SEARCH_TERMS.WIRE
