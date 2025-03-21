@@ -13,7 +13,7 @@ namespace DolphinWing.ONI.NiobiumMoonletStart
             //Debug.Log("NiobiumMoonletStart OnLoad");
             PUtil.InitLibrary();
             new PLocalization().Register();
-            //new PPatchManager(harmony).RegisterPatchClass(typeof(NiobiumMoonletStart));
+            new PPatchManager(harmony).RegisterPatchClass(typeof(NiobiumMoonletStart));
         }
 
         /// <summary>
@@ -25,6 +25,8 @@ namespace DolphinWing.ONI.NiobiumMoonletStart
             Debug.Log("NiobiumMoonletStart InitStrings");
             Strings.Add("STRINGS.CLUSTER_NAMES.NIOBIUMMOONLETSTART.NAME", Constants.CLUSTER_NAME);
             Strings.Add("STRINGS.CLUSTER_NAMES.NIOBIUMMOONLETSTART.DESCRIPTION", Constants.CLUSTER_DESCRIPTION);
+            Strings.Add("Moonlet Cluster - Superconductive worldgen", Constants.CLUSTER_NAME);
+            Strings.Add("A cluster of visitable planetoids with a Superconductive starting world.", Constants.CLUSTER_DESCRIPTION);
         }
     }
 }

@@ -3,6 +3,7 @@ using Klei.CustomSettings;
 using PeterHan.PLib.Core;
 using PeterHan.PLib.Database;
 using PeterHan.PLib.Options;
+using PeterHan.PLib.PatchManager;
 using ProcGen;
 using ProcGenGame;
 using System;
@@ -46,10 +47,21 @@ namespace NotZeroK
             PUtil.InitLibrary();
             new PLocalization().Register();
             new POptions().RegisterOptions(this, typeof(NotZeroOptions));
+            new PPatchManager(harmony).RegisterPatchClass(typeof(NotZeroK));
 
             // refs: Baator
             AddHashToTable(TG_AbsoluteZero, "AbsoluteZero");
             AddHashToTable(TG_SuperCold, "SuperCold");
+        }
+
+        /// <summary>
+		/// Registers the strings used in this mod.
+		/// </summary>
+		[PLibMethod(RunAt.AfterDbInit)]
+        internal static void InitStrings()
+        {
+            Strings.Add("Not 0k, But Pretty Cool Place worldgen", WorldConstants.MOD_NAME);
+            Strings.Add("Pretty Cool. But 0K Not Included", WorldConstants.MOD_DESC);
         }
 
         [HarmonyPatch(typeof(Enum), "ToString", new Type[] { })]
@@ -189,7 +201,7 @@ namespace NotZeroK
                 var world = __instance.world;
                 if (NotZeroK.IsMyWorld(world) == false) return; // don't bother
 
-                    var dlcMixing = CustomGameSettings.Instance.GetCurrentDlcMixingIds();
+                var dlcMixing = CustomGameSettings.Instance.GetCurrentDlcMixingIds();
                 var frosty = dlcMixing.Contains(DlcManager.DLC2_ID);
                 PUtil.LogDebug("DLC mixing: " + frosty);
 

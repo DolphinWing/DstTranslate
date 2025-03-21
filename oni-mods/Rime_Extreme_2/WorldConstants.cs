@@ -2,6 +2,9 @@
 {
     class WorldConstants
     {
+        public static LocString MOD_NAME = (LocString)"Not 0k, But Pretty Cool Place";
+        public static LocString MOD_DESC = (LocString)"Pretty Cool. But 0K Not Included";
+
         public static LocString MAP_MODE = (LocString)"Mode";
         public static LocString MAP_MODE_DESC = (LocString)"The worldgen temperature around the Printing Pod.";
 

@@ -12,6 +12,7 @@ namespace Voidria
     class Voidria : KMod.UserMod2
     {
         public static LocString NAME = (LocString)"Voidria";
+        public static LocString MOD_DESC = (LocString)"Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.";
         public static LocString DESCRIPTION = (LocString)"Hopeless void. Resources scarced and limited. GEYSERS NOT INCLUDED.\n\n<smallcaps>Duplicants MUST work to DEATH to make the colony thrive again.</smallcaps>";
         public static LocString BIOME_DESC = (LocString)"Seriously, I feel like in space.";
         public static LocString UTILITY_DESC = (LocString)"Much much care must be taken to ensure <link=\"ELEMENTSLIQUID\">Liquids</link> or <link=\"ELEMENTSGAS\">Gases</link> are not sucked out into the <link=\"VACUUM\">Vacuum</link> of space.";
@@ -37,6 +38,8 @@ namespace Voidria
 		[PLibMethod(RunAt.AfterDbInit)]
         internal static void InitStrings()
         {
+            Strings.Add("Voidria worldgen", NAME);
+            Strings.Add("Hopeless void. Resources scarced and limited.", MOD_DESC);
             Strings.Add("STRINGS.CLUSTER_NAMES.VOIDRIA.NAME", NAME);
             Strings.Add("STRINGS.CLUSTER_NAMES.VOIDRIA.DESCRIPTION", DESCRIPTION);
             Strings.Add("STRINGS.SUBWORLDS.VOIDRIA.NAME", NAME);
