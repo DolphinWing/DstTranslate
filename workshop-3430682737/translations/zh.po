@@ -58,8 +58,8 @@ msgctxt "Voidria.VoidriaOptions.TearOpenerTitle"
 msgid "Temporal Tear Opener"
 msgstr "時空裂縫開啟器"
 
-#. Voidria.VoidriaOptions.GiftedAreaTooltip
-msgctxt "Voidria.VoidriaOptions.GiftedAreaTooltip"
+#. Voidria.VoidriaOptions.TearOpenerTooltip
+msgctxt "Voidria.VoidriaOptions.TearOpenerTooltip"
 msgid "I will decide when to open Temporal Tear"
 msgstr "我自己決定何時打開時空裂縫"
 
