@@ -1055,7 +1055,7 @@ buildings:
   location_x: 5
   location_y: -1
   element: Obsidian
-  temperature: 238.138779
+  temperature: 298.138779
 - id: Refrigerator
   location_y: 1
   element: SandStone
@@ -1947,42 +1947,42 @@ buildings:
   location_x: -8
   location_y: -1
   element: Obsidian
-  temperature: 75.923439
+  temperature: 300
 - id: ExteriorWall
   location_x: -6
   location_y: -1
   element: Obsidian
-  temperature: 89.2279663
+  temperature: 300
 - id: ExteriorWall
   location_x: -5
   location_y: -1
   element: Obsidian
-  temperature: 88.9353943
+  temperature: 300
 - id: ExteriorWall
   location_x: -4
   location_y: -1
   element: Obsidian
-  temperature: 88.4781952
+  temperature: 300
 - id: ExteriorWall
   location_x: -3
   location_y: -1
   element: Obsidian
-  temperature: 89.4476852
+  temperature: 300
 - id: ExteriorWall
   location_x: 1
   location_y: -1
   element: Obsidian
-  temperature: 91.2008286
+  temperature: 300
 - id: ExteriorWall
   location_x: 4
   location_y: -1
   element: Obsidian
-  temperature: 118.0205
+  temperature: 300
 - id: ExteriorWall
   location_x: 6
   location_y: -1
   element: Obsidian
-  temperature: 124.845917
+  temperature: 300
 - id: ExteriorWall
   location_x: 8
   location_y: -1
