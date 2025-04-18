@@ -38,7 +38,8 @@ startSubworldName: subworlds/Voidria/voa_ForestStart
 startingBaseTemplate: bases/voa_forestBase
 
 seasons:
-  - SpacedOutStyleStartMeteorShowers
+  - ClassicStyleStartMeteorShowers
+#  - SpacedOutStyleStartMeteorShowers
 #  - RegolithMoonMeteorShowers
 
 # Specify where subworlds can spawn. These rules are processed in order and their effects are cumulative.
