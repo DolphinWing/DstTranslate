@@ -33,21 +33,21 @@ cells:
   location_y: -3
 - element: Sand
   mass: 1000
-  temperature: 301.754456
+  temperature: 301.73056
   location_x: -1
   location_y: -3
 - element: SaltWater
-  mass: 1039.98718
-  temperature: 322.819122
+  mass: 1019.98718
+  temperature: 322.787384
   location_y: -3
 - element: SaltWater
-  mass: 1039.96265
-  temperature: 323.114471
+  mass: 1019.96265
+  temperature: 323.085724
   location_x: 1
   location_y: -3
 - element: SaltWater
-  mass: 1039.93896
-  temperature: 323.083099
+  mass: 1019.93896
+  temperature: 323.054321
   location_x: 2
   location_y: -3
 - element: Katairite
@@ -61,22 +61,22 @@ cells:
   location_x: -2
   location_y: -2
 - element: CarbonDioxide
-  mass: 0.0658918321
-  temperature: 313.298218
+  mass: 0.159537092
+  temperature: 310.370911
   location_x: -1
   location_y: -2
 - element: CarbonDioxide
-  mass: 0.403466731
-  temperature: 313.78421
+  mass: 0.63788569
+  temperature: 314.088562
   location_y: -2
 - element: CarbonDioxide
-  mass: 1.01590133
-  temperature: 313.630127
+  mass: 1.00156689
+  temperature: 312.788635
   location_x: 1
   location_y: -2
 - element: CarbonDioxide
-  mass: 1.09420359
-  temperature: 311.942291
+  mass: 0.797818065
+  temperature: 312.560516
   location_x: 2
   location_y: -2
 - element: Katairite
@@ -90,27 +90,27 @@ cells:
   location_x: -2
   location_y: -1
 - element: CarbonDioxide
-  mass: 0.258057743
-  temperature: 313.927124
+  mass: 0.210982785
+  temperature: 314.613403
   location_x: -1
   location_y: -1
-- element: CarbonDioxide
-  mass: 0.0373448879
-  temperature: 313.812256
+- element: Hydrogen
+  mass: 0.199050516
+  temperature: 312.475647
   location_y: -1
 - element: CarbonDioxide
-  mass: 0.141795084
-  temperature: 313.630127
+  mass: 0.632209718
+  temperature: 306.173645
   location_x: 1
   location_y: -1
-- element: CarbonDioxide
-  mass: 0.583338737
-  temperature: 308.093933
+- element: Hydrogen
+  mass: 0.176548526
+  temperature: 303.458679
   location_x: 2
   location_y: -1
 - element: Katairite
   mass: 500
-  temperature: 323.143524
+  temperature: 323.143494
   location_x: 3
   location_y: -1
 - element: Katairite
@@ -119,50 +119,50 @@ cells:
   location_x: -2
 - element: BleachStone
   mass: 50
-  temperature: 315.487305
+  temperature: 315.546143
   location_x: -1
 - element: Hydrogen
-  mass: 1.30426216
-  temperature: 313.393829
+  mass: 1.35281122
+  temperature: 312.49704
 - element: Hydrogen
-  mass: 1.67445755
-  temperature: 305.224518
+  mass: 1.24416661
+  temperature: 303.582916
   location_x: 1
 - element: AluminumOre
   mass: 500
-  temperature: 302.60199
+  temperature: 302.620361
   location_x: 2
 - element: Katairite
   mass: 500
-  temperature: 323.144379
+  temperature: 323.144287
   location_x: 3
 - element: Katairite
   mass: 500
-  temperature: 323.149628
+  temperature: 323.149597
   location_x: -2
   location_y: 1
 - element: Hydrogen
-  mass: 1.37964952
-  temperature: 319.091614
+  mass: 1.36053634
+  temperature: 317.876648
   location_x: -1
   location_y: 1
 - element: Hydrogen
-  mass: 1.36556709
-  temperature: 319.673462
+  mass: 1.3927623
+  temperature: 317.993408
   location_y: 1
 - element: Hydrogen
-  mass: 1.38837099
-  temperature: 305.754395
+  mass: 1.36413324
+  temperature: 305.382355
   location_x: 1
   location_y: 1
 - element: Hydrogen
-  mass: 1.36095846
-  temperature: 303.642731
+  mass: 1.34864378
+  temperature: 303.115723
   location_x: 2
   location_y: 1
 - element: Katairite
   mass: 500
-  temperature: 323.139252
+  temperature: 323.139069
   location_x: 3
   location_y: 1
 - element: Katairite
@@ -172,26 +172,26 @@ cells:
   location_y: 2
 - element: Salt
   mass: 1500
-  temperature: 322.735931
+  temperature: 322.726318
   location_x: -1
   location_y: 2
 - element: Salt
   mass: 1500
-  temperature: 320.790436
+  temperature: 320.766998
   location_y: 2
 - element: Hydrogen
-  mass: 1.36236405
-  temperature: 312.256683
+  mass: 1.34904861
+  temperature: 311.339355
   location_x: 1
   location_y: 2
 - element: Hydrogen
-  mass: 1.35724461
-  temperature: 310.96521
+  mass: 1.34450984
+  temperature: 309.498749
   location_x: 2
   location_y: 2
 - element: Katairite
   mass: 500
-  temperature: 323.141968
+  temperature: 323.141876
   location_x: 3
   location_y: 2
 - element: SedimentaryRock
@@ -210,17 +210,17 @@ cells:
   location_y: 3
 - element: Fossil
   mass: 500
-  temperature: 304.111572
+  temperature: 304.155762
   location_x: 1
   location_y: 3
 - element: Hydrogen
-  mass: 1.35821795
-  temperature: 305.053406
+  mass: 1.33876419
+  temperature: 304.40741
   location_x: 2
   location_y: 3
 - element: Katairite
   mass: 500
-  temperature: 323.138855
+  temperature: 323.138672
   location_x: 3
   location_y: 3
 - element: SedimentaryRock
@@ -244,7 +244,7 @@ cells:
   location_y: 4
 - element: Katairite
   mass: 500
-  temperature: 323.138855
+  temperature: 323.138672
   location_x: 2
   location_y: 4
 buildings:
@@ -252,93 +252,98 @@ buildings:
   location_x: 2
   location_y: 3
   element: SedimentaryRock
-  temperature: 293.149994
+  temperature: 293.77652
 - id: ExteriorWall
   location_x: 2
   location_y: 2
   element: SedimentaryRock
-  temperature: 293.149994
+  temperature: 294.071869
 - id: ExteriorWall
   location_x: 2
   location_y: 1
   element: SedimentaryRock
-  temperature: 293.149994
+  temperature: 293.70813
 - id: ExteriorWall
   location_x: 1
   location_y: 1
   element: SedimentaryRock
-  temperature: 293.149994
+  temperature: 293.842682
 - id: ExteriorWall
   location_x: 1
   location_y: 2
   element: SedimentaryRock
-  temperature: 293.149994
+  temperature: 294.166595
 - id: ExteriorWall
   location_x: -1
   location_y: 1
   element: SedimentaryRock
-  temperature: 293.149994
+  temperature: 294.543488
 - id: ExteriorWall
   location_y: 1
   element: SedimentaryRock
-  temperature: 293.149994
+  temperature: 294.577515
 - id: ExteriorWall
   element: SedimentaryRock
-  temperature: 293.149994
+  temperature: 294.315857
 - id: ExteriorWall
   location_x: 1
   element: SedimentaryRock
-  temperature: 293.149994
+  temperature: 293.733612
 - id: ExteriorWall
   location_x: -1
   location_y: -1
   element: SedimentaryRock
-  temperature: 293.149994
+  temperature: 293.155457
 - id: ExteriorWall
   location_y: -1
   element: SedimentaryRock
-  temperature: 293.149994
+  temperature: 293.23114
 - id: ExteriorWall
   location_x: 1
   location_y: -1
   element: SedimentaryRock
-  temperature: 293.149994
+  temperature: 293.189697
 - id: ExteriorWall
   location_x: 2
   location_y: -1
   element: SedimentaryRock
-  temperature: 293.149994
+  temperature: 293.160736
 - id: ExteriorWall
   location_x: 2
   location_y: -2
   element: SedimentaryRock
-  temperature: 293.149994
+  temperature: 293.170349
 - id: ExteriorWall
   location_x: 1
   location_y: -2
   element: SedimentaryRock
-  temperature: 293.149994
+  temperature: 293.172699
 - id: ExteriorWall
   location_y: -2
   element: SedimentaryRock
-  temperature: 293.149994
+  temperature: 293.164795
 - id: ExteriorWall
   location_y: -3
   element: SedimentaryRock
-  temperature: 293.149994
+  temperature: 322.788361
 - id: ExteriorWall
   location_x: 1
   location_y: -3
   element: SedimentaryRock
-  temperature: 293.149994
+  temperature: 323.085754
 - id: ExteriorWall
   location_x: 2
   location_y: -3
   element: SedimentaryRock
-  temperature: 293.149994
+  temperature: 323.054382
 - id: ExteriorWall
   location_x: -1
   location_y: -3
+  element: SedimentaryRock
+  temperature: 301.73056
+- id: ExteriorWall
+  location_x: -1
+  location_y: -2
   element: SedimentaryRock
   temperature: 293.149994
 pickupables:
