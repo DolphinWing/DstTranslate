@@ -189,7 +189,7 @@ buildings:
   location_x: 2
   location_y: -1
   element: Granite
-  temperature: 1
+  temperature: 273
 - id: TilePOI
   location_x: 2
   location_y: -2
@@ -296,72 +296,72 @@ buildings:
 - id: PropGravitasLabWindowHorizontal
   location_y: 1
   element: Glass
-  temperature: 1
+  temperature: 273
 - id: PropGravitasWall
   location_x: -2
   location_y: 2
   element: Granite
-  temperature: 1
+  temperature: 273
 - id: PropGravitasWall
   location_x: -2
   element: Granite
-  temperature: 1
+  temperature: 273
 - id: PropGravitasWall
   location_x: -2
   location_y: -1
   element: Granite
-  temperature: 1
+  temperature: 273
 - id: PropGravitasWall
   location_x: -2
   location_y: 1
   element: Granite
-  temperature: 1
+  temperature: 273
 - id: PropGravitasWall
   location_x: 2
   element: Granite
-  temperature: 1
+  temperature: 273
 - id: PropGravitasWall
   location_x: 2
   location_y: 2
   element: Granite
-  temperature: 1
+  temperature: 273
 - id: PropGravitasWall
   location_x: 2
   location_y: 1
   element: Granite
-  temperature: 1
+  temperature: 273
 - id: PropGravitasWall
   location_y: -1
   element: Granite
-  temperature: 1
+  temperature: 273
 - id: PropGravitasWall
   location_y: -2
   element: Granite
-  temperature: 1
+  temperature: 273
 - id: PropGravitasWall
   location_x: -1
   location_y: -1
   element: Granite
-  temperature: 1
+  temperature: 273
 - id: PropGravitasWall
   location_x: -1
   location_y: -2
   element: Granite
-  temperature: 1
+  temperature: 273
 - id: PropGravitasWall
   location_x: 1
   location_y: -1
   element: Granite
-  temperature: 1
+  temperature: 273
 - id: PropGravitasWall
   location_x: 1
   location_y: -2
   element: Granite
-  temperature: 1
+  temperature: 273
 - id: WoodStorage
   location_y: -1
   element: WoodLog
-  temperature: 1
+  temperature: 273
   storage:
   - id: WoodLog
     element: WoodLog
@@ -373,6 +373,6 @@ otherEntities:
 - id: PropLight
   location_y: 2
   element: Steel
-  temperature: 1
+  temperature: 273
   units: 1
   type: Other

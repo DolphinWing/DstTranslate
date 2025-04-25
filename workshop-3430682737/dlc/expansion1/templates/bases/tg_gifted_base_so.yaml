@@ -415,13 +415,13 @@ cells:
   location_y: -1
   preventFoWReveal: true
 - element: GoldAmalgam
-  mass: 1000
+  mass: 2000
   temperature: 292.425995
   location_x: 2
   location_y: -1
   preventFoWReveal: true
 - element: GoldAmalgam
-  mass: 1000
+  mass: 2000
   temperature: 284.24585
   location_x: 3
   location_y: -1
