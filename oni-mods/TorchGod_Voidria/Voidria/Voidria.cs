@@ -224,6 +224,11 @@ namespace Voidria
                 if (IsVoaCluster() == false) return; // don't care about other clusters
 
                 var options = VoidriaOptions.GetInstance();
+                if (options.SaveCritters)
+                {
+                    PUtil.LogDebug("Spawn all to save all backwalls devs need.");
+                    SaveGame.Instance.worldGenSpawner.SpawnEverything();
+                }
                 if (options.EnableTearOpener) return; // player will do by themselves
                 if (temporalTear.IsOpen() == false)
                 {

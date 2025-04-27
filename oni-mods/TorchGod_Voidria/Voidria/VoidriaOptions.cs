@@ -22,6 +22,9 @@ namespace Voidria
         public static LocString CrittersCaveTitle = (LocString)"Critter Shalter";
         public static LocString CrittersCaveTooltip = (LocString)"Let critters have their own pleasure";
 
+        public static LocString SaveCrittersTitle = (LocString)"Save Critters";
+        public static LocString SaveCrittersTooltip = (LocString)"Let critters live like they should be";
+
         [Option("Voidria.VoidriaOptions.GiftedAreaTitle", "Voidria.VoidriaOptions.GiftedAreaTooltip", "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_WORLDTRAITS")]
         [JsonProperty]
         public bool EnableGift { get; set; }
@@ -42,12 +45,17 @@ namespace Voidria
         [JsonProperty]
         public bool EnableCritters { get; set; }
 
+        [Option("Voidria.VoidriaOptions.SaveCrittersTitle", "Voidria.VoidriaOptions.SaveCrittersTooltip", "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_LIFE")]
+        [JsonProperty]
+        public bool SaveCritters { get; set; }
+
         public VoidriaOptions()
         {
             EnableGift = true;
             EnableIronVolcano = false;
             EnableOilReservoir = true;
             EnableCritters = true;
+            SaveCritters = true;
             EnableTearOpener = false;
         }
 
