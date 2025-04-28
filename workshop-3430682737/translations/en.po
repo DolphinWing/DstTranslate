@@ -92,3 +92,13 @@ msgstr "Critter Shalter"
 msgctxt "Voidria.VoidriaOptions.CrittersCaveTooltip"
 msgid "Let critters have their own pleasure"
 msgstr "Let critters have their own pleasure"
+
+#. Voidria.VoidriaOptions.SaveCrittersTitle
+msgctxt "Voidria.VoidriaOptions.SaveCrittersTitle"
+msgid "Save Critters"
+msgstr "Save Critters"
+
+#. Voidria.VoidriaOptions.SaveCrittersTooltip
+msgctxt "Voidria.VoidriaOptions.SaveCrittersTooltip"
+msgid "Let critters live like they should be"
+msgstr "Let critters live like they should be"

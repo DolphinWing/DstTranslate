@@ -179,10 +179,18 @@ namespace Voidria
                                 removed.Add(rule);
                                 PUtil.LogDebug("... remove " + rule.ruleId);
                             }
-                            else if (frosty && rule.ruleId?.StartsWith("tg_gift_base") == true)
+                            else if (rule.ruleId?.StartsWith("tg_gift_base") == true)
                             {
-                                rule.names.Add("dlc2::bases/tg_wood_pile");
-                                PUtil.LogDebug("... add Frosty Wood pile");
+                                if (frosty)
+                                {
+                                    rule.names.Add("dlc2::bases/tg_wood_pile");
+                                    PUtil.LogDebug("... add Frosty Wood pile");
+                                }
+                                else
+                                {
+                                    rule.names.Add("dlc2::bases/tg_granite");
+                                    PUtil.LogDebug("... add Granite for buildings");
+                                }
                             }
                         }
 

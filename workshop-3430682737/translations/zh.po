@@ -92,3 +92,13 @@ msgstr "小動物避難所"
 msgctxt "Voidria.VoidriaOptions.CrittersCaveTooltip"
 msgid "Let critters have their own pleasure"
 msgstr "讓小動物享受牠們的生活"
+
+#. Voidria.VoidriaOptions.SaveCrittersTitle
+msgctxt "Voidria.VoidriaOptions.SaveCrittersTitle"
+msgid "Save Critters"
+msgstr "拯救小動物"
+
+#. Voidria.VoidriaOptions.SaveCrittersTooltip
+msgctxt "Voidria.VoidriaOptions.SaveCrittersTooltip"
+msgid "Let critters live like they should be"
+msgstr "讓小動物的環境符合牠們所需"

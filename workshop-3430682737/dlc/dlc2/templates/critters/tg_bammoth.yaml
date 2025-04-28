@@ -38,12 +38,12 @@ cells:
   location_y: -3
 - element: Katairite
   mass: 500
-  temperature: 230.149994
+  temperature: 230.150024
   location_x: 3
   location_y: -3
 - element: IronOre
   mass: 1800
-  temperature: 253.149994
+  temperature: 253.149872
   location_x: 4
   location_y: -3
 - element: Katairite
@@ -52,42 +52,42 @@ cells:
   location_x: -4
   location_y: -2
 - element: Ethanol
-  mass: 921.875
-  temperature: 233.149994
+  mass: 827.148438
+  temperature: 233.159943
   location_x: -3
   location_y: -2
 - element: Ethanol
-  mass: 703.125
-  temperature: 233.149994
+  mass: 720.703125
+  temperature: 233.161713
   location_x: -2
   location_y: -2
 - element: Ethanol
-  mass: 500
-  temperature: 233.149994
+  mass: 654.785156
+  temperature: 233.163361
   location_x: -1
   location_y: -2
 - element: Ethanol
-  mass: 703.125
-  temperature: 233.149994
+  mass: 727.050781
+  temperature: 233.161652
   location_y: -2
 - element: Ethanol
-  mass: 929.6875
-  temperature: 233.149994
+  mass: 866.210938
+  temperature: 233.159576
   location_x: 1
   location_y: -2
 - element: Ethanol
-  mass: 992.1875
-  temperature: 233.149994
+  mass: 960.9375
+  temperature: 233.158691
   location_x: 2
   location_y: -2
 - element: Ethanol
-  mass: 1000
-  temperature: 233.149994
+  mass: 993.164063
+  temperature: 233.158447
   location_x: 3
   location_y: -2
 - element: Katairite
   mass: 500
-  temperature: 230.149994
+  temperature: 230.150024
   location_x: 4
   location_y: -2
 - element: Katairite
@@ -161,7 +161,9 @@ cells:
 - element: Vacuum
   location_x: -1
   location_y: 1
-- element: Vacuum
+- element: Ethanol
+  mass: 3
+  temperature: 250
   location_y: 1
 - element: Vacuum
   location_x: 1
@@ -256,36 +258,44 @@ buildings:
   location_x: -3
   location_y: -2
   element: WoodLog
-  temperature: 293.149994
+  temperature: 292.699432
 - id: ExteriorWall
   location_x: -2
   location_y: -2
   element: WoodLog
-  temperature: 293.149994
+  temperature: 292.699432
 - id: ExteriorWall
   location_x: -1
   location_y: -2
   element: WoodLog
-  temperature: 293.149994
+  temperature: 292.699432
 - id: ExteriorWall
   location_y: -2
   element: WoodLog
-  temperature: 293.149994
+  temperature: 292.699432
 - id: ExteriorWall
   location_x: 1
   location_y: -2
   element: WoodLog
-  temperature: 293.149994
+  temperature: 292.699432
 - id: ExteriorWall
   location_x: 2
   location_y: -2
   element: WoodLog
-  temperature: 293.149994
+  temperature: 292.699432
 - id: ExteriorWall
   location_x: 3
   location_y: -2
   element: WoodLog
+  temperature: 292.699432
+- id: ThermalBlock
+  location_y: -1
+  element: Cinnabar
   temperature: 293.149994
+- id: ExteriorWall
+  location_y: 1
+  element: WoodLog
+  temperature: 250
 pickupables:
 - id: IceBelly
   location_y: 1
