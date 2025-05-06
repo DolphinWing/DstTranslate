@@ -210,6 +210,62 @@ namespace Voidria
                             world.worldTemplateRules?.Remove(rule);
                         }
                 }
+
+                var cells = world.unknownCellsAllowedSubworlds;
+                if (cells != null)
+                {
+                    List<ProcGen.World.AllowedCellsFilter> removed = new List<ProcGen.World.AllowedCellsFilter>();
+                    foreach (var unknownCell in cells)
+                    {
+#if DEBUG
+                        PUtil.LogDebug("==>" + unknownCell.tag + " " + unknownCell.tagcommand);
+                        var names = unknownCell.subworldNames;
+                        foreach (var n in names)
+                        {
+                            PUtil.LogDebug("  " + n);
+                        }
+#endif
+                        // Ring 1
+                        if (unknownCell.tagcommand == ProcGen.World.AllowedCellsFilter.TagCommand.DistanceFromTag && 
+                            unknownCell.tag == "AtStart" && 
+                            unknownCell.minDistance == 1 && unknownCell.maxDistance == 999)
+                        {
+                            if (options.EnableBackground) 
+                            {
+                                unknownCell.subworldNames.Remove("subworlds/space/Space");
+                            }
+                            else
+                            {
+                                unknownCell.subworldNames.Remove("subworlds/Voidria/voa_SpaceWithBg");
+                            }
+                        }
+                        // Core
+                        if (unknownCell.tagcommand == ProcGen.World.AllowedCellsFilter.TagCommand.DistanceFromTag &&
+                            unknownCell.tag == "AtDepths" && 
+                            unknownCell.minDistance == 0 && unknownCell.maxDistance == 0)
+                        {
+                            if (options.EnableBackground)
+                            {
+                                unknownCell.subworldNames.Remove("subworlds/space/Space"); 
+                            }
+                            else
+                            {
+                                unknownCell.subworldNames.Remove("subworlds/Voidria/voa_SpaceWithBg");
+                            }
+                        }
+                        // Surface
+                        if (unknownCell.tagcommand == ProcGen.World.AllowedCellsFilter.TagCommand.DistanceFromTag &&
+                            unknownCell.tag == "AtSurface" &&
+                            unknownCell.minDistance == 1 && unknownCell.maxDistance == 1)
+                        {
+                            if (options.EnableBackground)
+                            {
+                                unknownCell.subworldNames.Clear();
+                                unknownCell.subworldNames.Add("subworlds/space/SpaceNoBorder"); 
+                            }
+                        }
+                    }
+                }
             }
         }
 

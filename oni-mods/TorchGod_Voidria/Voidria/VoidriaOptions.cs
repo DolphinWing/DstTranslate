@@ -13,6 +13,9 @@ namespace Voidria
         public static LocString TearOpenerTitle = (LocString)"Temporal Tear Opener";
         public static LocString TearOpenerTooltip = (LocString)"I will decide when to open Temporal Tear";
 
+        public static LocString BackgroundTitle = (LocString)"Voidria's Back";
+        public static LocString BackgroundTooltip = (LocString)"Choose between space exposure or happy background";
+
         public static LocString IronVolcanoTitle = (LocString)"Iron Volcano";
         public static LocString IronVolcanoTooltip = (LocString)"With so much iron makes life easier";
  
@@ -32,6 +35,10 @@ namespace Voidria
         [Option("Voidria.VoidriaOptions.TearOpenerTitle", "Voidria.VoidriaOptions.TearOpenerTooltip", "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_WORLDTRAITS")]
         [JsonProperty]
         public bool EnableTearOpener { get; set; }
+
+        [Option("Voidria.VoidriaOptions.BackgroundTitle", "Voidria.VoidriaOptions.BackgroundTooltip", "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_WORLDTRAITS")]
+        [JsonProperty]
+        public bool EnableBackground { get; set; }
 
         [Option("Voidria.VoidriaOptions.IronVolcanoTitle", "Voidria.VoidriaOptions.IronVolcanoTooltip", "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_GEYSERS")]
         [JsonProperty]
@@ -57,6 +64,7 @@ namespace Voidria
             EnableCritters = true;
             SaveCritters = true;
             EnableTearOpener = false;
+            EnableBackground = false;
         }
 
         internal static VoidriaOptions GetInstance()

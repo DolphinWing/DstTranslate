@@ -63,6 +63,16 @@ msgctxt "Voidria.VoidriaOptions.TearOpenerTooltip"
 msgid "I will decide when to open Temporal Tear"
 msgstr "I will decide when to open Temporal Tear"
 
+#. Voidria.VoidriaOptions.BackgroundTitle
+msgctxt "Voidria.VoidriaOptions.BackgroundTitle"
+msgid "Voidria's Back"
+msgstr "Voidria's Back"
+
+#. Voidria.VoidriaOptions.BackgroundTooltip
+msgctxt "Voidria.VoidriaOptions.BackgroundTooltip"
+msgid "Choose between space exposure or happy background"
+msgstr "Choose between space exposure or happy background"
+
 #. Voidria.VoidriaOptions.IronVolcanoTitle
 msgctxt "Voidria.VoidriaOptions.IronVolcanoTitle"
 msgid "Iron Volcano"

@@ -25,9 +25,10 @@ defaultsOverrides:
 # List all the subworld files to load
 subworldFiles:
   - name: subworlds/Voidria/voa_ForestStart
+  - name: subworlds/Voidria/voa_SpaceWithBg
   - name: subworlds/forest/Forest
   - name: subworlds/space/Space
-  - name: subworlds/space/Surface
+  - name: subworlds/space/SpaceNoBorder
 
 startSubworldName: subworlds/Voidria/voa_ForestStart
 startingBaseTemplate: bases/voa_forestBase
@@ -49,6 +50,7 @@ unknownCellsAllowedSubworlds:
     command: Replace
     subworldNames:
       - subworlds/space/Space
+      - subworlds/Voidria/voa_SpaceWithBg
   # Core
   - tagcommand: DistanceFromTag
     tag: AtDepths
@@ -57,6 +59,7 @@ unknownCellsAllowedSubworlds:
     command: Replace
     subworldNames:
       - subworlds/space/Space
+      - subworlds/Voidria/voa_SpaceWithBg
   # Space
   - tagcommand: AtTag
     tag: AtSurface
@@ -71,7 +74,7 @@ unknownCellsAllowedSubworlds:
     command: Replace
     subworldNames:
       - subworlds/space/Space
-      - subworlds/space/Surface
+      - subworlds/space/SpaceNoBorder
 
 worldTemplateRules:
   # Curated geysers

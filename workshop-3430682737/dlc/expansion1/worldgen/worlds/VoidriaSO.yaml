@@ -25,9 +25,10 @@ defaultsOverrides:
 # List all the subworld files to load
 subworldFiles:
   - name: subworlds/Voidria/voa_ForestStart
+  - name: subworlds/Voidria/voa_SpaceWithBg
   - name: subworlds/forest/Forest
   - name: subworlds/space/Space
-  - name: subworlds/space/Surface
+  - name: subworlds/space/SpaceNoBorder
     weight: 0.5
   - name: expansion1::subworlds/space/SpaceWithFrozenBorder
     weight: 0.5
@@ -55,6 +56,7 @@ unknownCellsAllowedSubworlds:
     command: Replace
     subworldNames:
       - subworlds/space/Space
+      - subworlds/Voidria/voa_SpaceWithBg
   # Core
   - tagcommand: DistanceFromTag
     tag: AtDepths
@@ -63,6 +65,7 @@ unknownCellsAllowedSubworlds:
     command: Replace
     subworldNames:
       - subworlds/space/Space
+      - subworlds/Voidria/voa_SpaceWithBg
   # Space
   - tagcommand: AtTag
     tag: AtSurface
@@ -77,7 +80,7 @@ unknownCellsAllowedSubworlds:
     command: Replace
     subworldNames:
       - subworlds/space/Space
-      - subworlds/space/Surface
+      - subworlds/space/SpaceNoBorder
       - expansion1::subworlds/space/SpaceWithFrozenBorder
       - expansion1::subworlds/space/SpaceWithAbyssaliteBorder
 
