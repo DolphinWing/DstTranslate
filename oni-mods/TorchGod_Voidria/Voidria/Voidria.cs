@@ -288,7 +288,7 @@ namespace Voidria
                 if (IsVoaCluster() == false) return; // don't care about other clusters
 
                 var options = VoidriaOptions.GetInstance();
-                if (options.SaveCritters)
+                if (!options.EnableBackground && options.SaveCritters)
                 {
                     PUtil.LogDebug("Spawn all to save all backwalls devs need.");
                     SaveGame.Instance.worldGenSpawner.SpawnEverything();
