@@ -350,7 +350,7 @@ cells:
   location_x: 10
   location_y: -2
 - element: Katairite
-  mass: 200
+  mass: 2000
   temperature: 299.978058
   location_x: -9
   location_y: -1
@@ -362,7 +362,7 @@ cells:
   location_y: -1
   preventFoWReveal: true
 - element: Algae
-  mass: 1000
+  mass: 4000
   temperature: 287.271698
   location_x: -7
   location_y: -1
@@ -415,31 +415,31 @@ cells:
   location_y: -1
   preventFoWReveal: true
 - element: GoldAmalgam
-  mass: 1000
+  mass: 2000
   temperature: 292.009338
   location_x: 2
   location_y: -1
   preventFoWReveal: true
 - element: GoldAmalgam
-  mass: 1000
+  mass: 2000
   temperature: 284.141205
   location_x: 3
   location_y: -1
   preventFoWReveal: true
 - element: Oxygen
-  mass: 1.79999995
+  mass: 2.0
   temperature: 269.296326
   location_x: 4
   location_y: -1
   preventFoWReveal: true
 - element: OxyRock
-  mass: 799.920044
+  mass: 1600
   temperature: 243.925949
   location_x: 5
   location_y: -1
   preventFoWReveal: true
 - element: Oxygen
-  mass: 1.79999995
+  mass: 2.0
   temperature: 281.037628
   location_x: 6
   location_y: -1
@@ -1007,7 +1007,7 @@ cells:
   location_x: 8
   location_y: 6
 - element: MaficRock
-  mass: 2000
+  mass: 8000
   temperature: 299.331146
   location_x: 9
   location_y: 6

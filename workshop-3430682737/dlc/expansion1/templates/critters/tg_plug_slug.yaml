@@ -14,21 +14,21 @@ cells:
   location_y: -2
 - element: Katairite
   mass: 500
-  temperature: 17.1553154
+  temperature: 300.1553154
   location_x: -1
   location_y: -2
 - element: Katairite
   mass: 500
-  temperature: 17.1599503
+  temperature: 300.1599503
   location_y: -2
 - element: Katairite
   mass: 500
-  temperature: 17.1600018
+  temperature: 300.1600018
   location_x: 1
   location_y: -2
 - element: Katairite
   mass: 500
-  temperature: 17.1716461
+  temperature: 300.1716461
   location_x: 2
   location_y: -2
 - element: Phosphorite
@@ -48,7 +48,7 @@ cells:
   location_y: -1
 - element: Katairite
   mass: 500
-  temperature: 17.2667866
+  temperature: 300.2667866
   location_x: -2
   location_y: -1
 - element: Cobaltite
@@ -72,12 +72,12 @@ cells:
   location_y: -1
 - element: Katairite
   mass: 500
-  temperature: 17.2244682
+  temperature: 300.2244682
   location_x: 3
   location_y: -1
 - element: Katairite
   mass: 500
-  temperature: 17.2151432
+  temperature: 300.2151432
   location_x: -3
 - element: CarbonDioxide
   mass: 1.17006838
@@ -104,11 +104,11 @@ cells:
   location_x: 3
 - element: Katairite
   mass: 500
-  temperature: 17.202816
+  temperature: 300.202816
   location_x: 4
 - element: Katairite
   mass: 500
-  temperature: 17.1948624
+  temperature: 300.1948624
   location_x: -3
   location_y: 1
 - element: ContaminatedOxygen
@@ -142,12 +142,12 @@ cells:
   location_y: 1
 - element: Katairite
   mass: 500
-  temperature: 17.2019272
+  temperature: 300.2019272
   location_x: 4
   location_y: 1
 - element: Katairite
   mass: 500
-  temperature: 17.1993961
+  temperature: 300.1993961
   location_x: -3
   location_y: 2
 - element: ContaminatedOxygen
@@ -181,36 +181,36 @@ cells:
   location_y: 2
 - element: Katairite
   mass: 500
-  temperature: 17.1552715
+  temperature: 300.1552715
   location_x: 4
   location_y: 2
 - element: Katairite
   mass: 500
-  temperature: 17.1549854
+  temperature: 300.1549854
   location_x: -2
   location_y: 3
 - element: Katairite
   mass: 500
-  temperature: 17.1998825
+  temperature: 300.1998825
   location_x: -1
   location_y: 3
 - element: Katairite
   mass: 500
-  temperature: 17.2005424
+  temperature: 300.2005424
   location_y: 3
 - element: Katairite
   mass: 500
-  temperature: 17.2005367
+  temperature: 300.2005367
   location_x: 1
   location_y: 3
 - element: Katairite
   mass: 500
-  temperature: 17.1996212
+  temperature: 300.1996212
   location_x: 2
   location_y: 3
 - element: Katairite
   mass: 500
-  temperature: 17.1984787
+  temperature: 300.1984787
   location_x: 3
   location_y: 3
 buildings:

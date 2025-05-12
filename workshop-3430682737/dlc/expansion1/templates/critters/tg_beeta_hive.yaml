@@ -9,25 +9,25 @@ info:
 cells:
 - element: UraniumOre
   mass: 200
-  temperature: 299.701385
+  temperature: 233.701385
   location_x: -1
   location_y: -2
 - element: Katairite
-  mass: 1000
+  mass: 2000
   temperature: 233.161209
   location_y: -2
 - element: Katairite
-  mass: 1000
+  mass: 2000
   temperature: 233.161209
   location_x: 1
   location_y: -2
 - element: UraniumOre
   mass: 200
-  temperature: 299.701385
+  temperature: 233.701385
   location_x: 2
   location_y: -2
 - element: Katairite
-  mass: 1000
+  mass: 2000
   temperature: 233.161209
   location_x: -1
   location_y: -1
@@ -37,23 +37,23 @@ cells:
   location_x: 1
   location_y: -1
 - element: Katairite
-  mass: 1000
+  mass: 2000
   temperature: 233.161209
   location_x: 2
   location_y: -1
 - element: Katairite
-  mass: 1000
+  mass: 2000
   temperature: 233.149994
   location_x: -1
 - element: Vacuum
 - element: Vacuum
   location_x: 1
 - element: Katairite
-  mass: 1000
+  mass: 2000
   temperature: 233.149994
   location_x: 2
 - element: Katairite
-  mass: 1000
+  mass: 2000
   temperature: 233.161209
   location_x: -1
   location_y: 1
@@ -63,26 +63,26 @@ cells:
   location_x: 1
   location_y: 1
 - element: Katairite
-  mass: 1000
+  mass: 2000
   temperature: 233.161209
   location_x: 2
   location_y: 1
 - element: BleachStone
-  mass: 50
+  mass: 200
   temperature: 238.149994
   location_x: -1
   location_y: 2
 - element: Katairite
-  mass: 1000
+  mass: 2000
   temperature: 233.161209
   location_y: 2
 - element: Katairite
-  mass: 1000
+  mass: 2000
   temperature: 233.161209
   location_x: 1
   location_y: 2
 - element: Sulfur
-  mass: 500
+  mass: 1000
   temperature: 243.149994
   location_x: 2
   location_y: 2
