@@ -8,21 +8,21 @@ info:
   area: 21
 cells:
 - element: Diamond
-  mass: 200
+  mass: 2000
   temperature: 473.149994
   location_x: -1
   location_y: -2
 - element: Diamond
-  mass: 200
+  mass: 2000
   temperature: 473.149994
   location_y: -2
 - element: Diamond
-  mass: 200
+  mass: 2000
   temperature: 473.149994
   location_x: 1
   location_y: -2
 - element: Diamond
-  mass: 200
+  mass: 2000
   temperature: 473.149994
   location_x: -2
   location_y: -1
@@ -35,12 +35,12 @@ cells:
   location_x: 1
   location_y: -1
 - element: Diamond
-  mass: 200
+  mass: 2000
   temperature: 473.149994
   location_x: 2
   location_y: -1
 - element: Diamond
-  mass: 200
+  mass: 2000
   temperature: 473.149994
   location_x: -2
 - element: Vacuum
@@ -49,11 +49,11 @@ cells:
 - element: Vacuum
   location_x: 1
 - element: Diamond
-  mass: 200
+  mass: 2000
   temperature: 473.149994
   location_x: 2
 - element: Diamond
-  mass: 200
+  mass: 2000
   temperature: 473.149994
   location_x: -2
   location_y: 1
@@ -66,26 +66,26 @@ cells:
   location_x: 1
   location_y: 1
 - element: Diamond
-  mass: 200
+  mass: 2000
   temperature: 473.149994
   location_x: 2
   location_y: 1
 - element: Diamond
-  mass: 200
+  mass: 2000
   temperature: 473.149994
   location_x: -1
   location_y: 2
 - element: Diamond
-  mass: 200
+  mass: 2000
   temperature: 473.149994
   location_y: 2
 - element: Diamond
-  mass: 200
+  mass: 2000
   temperature: 473.149994
   location_x: 1
   location_y: 2
 buildings:
 - id: ExobaseHeadquarters
   location_y: -1
-  element: SandStone
+  element: Obsidian
   temperature: 74.3046036

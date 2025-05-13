@@ -302,7 +302,7 @@ worldTemplateRules:
     - critters/tg_gassy_style
     listRule: GuaranteeAll
     ruleId: tg_Critter_Moo
-    priority: 120
+    priority: 150
     allowedCellsFilter:
       - command: Replace
         tagcommand: DistanceFromTag
@@ -314,13 +314,29 @@ worldTemplateRules:
     - critters/tg_pip_tree
     listRule: GuaranteeAll
     ruleId: tg_Critter_Basic
-    priority: 120
+    priority: 140
     allowedCellsFilter:
       - command: Replace
         tagcommand: DistanceFromTag
         tag: AtStart
         minDistance: 0
         maxDistance: 2
+      - command: ExceptWith # too close to surface
+        tagcommand: DistanceFromTag
+        tag: AtSurface
+        minDistance: 0
+        maxDistance: 3
+  - names:
+    - critters/tg_mole_hole
+    listRule: GuaranteeAll
+    ruleId: tg_Critter_Meat
+    priority: 130
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtStart
+        minDistance: 3
+        maxDistance: 5
       - command: ExceptWith # too close to surface
         tagcommand: DistanceFromTag
         tag: AtSurface
@@ -334,7 +350,6 @@ worldTemplateRules:
     - critters/tg_pokeshell_pepper
     - critters/tg_puft_love
     - critters/tg_slime_sour
-    - critters/tg_mole_hole
     - critters/tg_wheat_wort
     listRule: GuaranteeAll
     ruleId: tg_Critter_Vanilla

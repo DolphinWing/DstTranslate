@@ -163,12 +163,16 @@ namespace Voidria
                                 removed.Add(rule);
                                 PUtil.LogDebug("... remove " + rule.ruleId);
                             }
-                            else if (frosty && rule.ruleId?.StartsWith("tg_Critter_Vanilla") == true) 
+                            else if (frosty && rule.ruleId?.StartsWith("tg_Critter_Vanilla") == true)
                             {
                                 PUtil.LogDebug("... add frosty critters");
-                                rule.names.Add("dlc2::critters/tg_bammoth");
                                 rule.names.Add("dlc2::critters/tg_flox");
                                 rule.names.Add("dlc2::critters/tg_sugar_bug_seagul");
+                            }
+                            else if (frosty && rule.ruleId?.StartsWith("tg_Critter_Meat") == true)
+                            {
+                                // make mole and bammoth closer to the start
+                                rule.names.Add("dlc2::critters/tg_bammoth");
                             }
                         }
 
