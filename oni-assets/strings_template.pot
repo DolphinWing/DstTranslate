@@ -4295,12 +4295,12 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.MISSILELAUNCHER_LONGRANGECOOLDOWN.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSILELAUNCHER_LONGRANGECOOLDOWN.NAME"
-msgid "Long Range cooldown"
+msgid "Reloading"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.MISSILELAUNCHER_LONGRANGECOOLDOWN.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSILELAUNCHER_LONGRANGECOOLDOWN.TOOLTIP"
-msgid "Long Range cooldown tooltip"
+msgid "This building recently fired an <style=\"KKeyword\">Intracosmic Blastshot</style> and needs a moment to reload"
 msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.MISSILELAUNCHER_NOSURFACESIGHT.NAME
@@ -14920,7 +14920,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MILKPRESS.RESIN_FROM_AMBER_RECIPE_DESCRIPTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.MILKPRESS.RESIN_FROM_AMBER_RECIPE_DESCRIPTION"
-msgid "Converts {0} into {1} and {2} creating a residue of {3} in the process"
+msgid "Converts {0} into {1}, {2}, and a small amount of {3}"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MILKPRESS.VINEFRUIT_JAM_RECIPE_DESCRIPTION
@@ -14995,12 +14995,12 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MISSILESETLOCKER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILESETLOCKER.DESC"
-msgid "A locker containing an Intracosmic Blastshot."
+msgid "A locker that once belonged to an explosives engineer.\n\nThere's an <link=\"LONGRANGEMISSILE\">Intracosmic Blastshot</link> in it."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MISSILESETLOCKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILESETLOCKER.NAME"
-msgid "Intracosmic Blastshot Locker"
+msgid "Explosives Locker"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MISSIONCONTROL.DESC
@@ -49845,7 +49845,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.IRIDIUM.DESC
 msgctxt "STRINGS.ELEMENTS.IRIDIUM.DESC"
-msgid "(Ir) Iridium is a firm and highly conductive <link=\"METAL\">Metal</link>."
+msgid "(Ir) Iridium is a firm and highly conductive <link=\"METAL\">Metal</link> that can withstand extreme  <link=\"HEAT\">Heat</link>."
 msgstr ""
 
 #. STRINGS.ELEMENTS.IRIDIUM.NAME
@@ -49855,7 +49855,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.IRIDIUMGAS.DESC
 msgctxt "STRINGS.ELEMENTS.IRIDIUMGAS.DESC"
-msgid "(Ir) Iridium Gas is a firm and highly conductive <link=\"METAL\">Metal</link>."
+msgid "(Ir) Iridium Gas is a highly conductive <link=\"METAL\">Metal</link> heated into a  <link=\"ELEMENTSGAS\">Gas</link> state."
 msgstr ""
 
 #. STRINGS.ELEMENTS.IRIDIUMGAS.NAME
@@ -50255,7 +50255,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.MOLTENIRIDIUM.DESC
 msgctxt "STRINGS.ELEMENTS.MOLTENIRIDIUM.DESC"
-msgid "(Ir) Molten Iridium is a firm and highly conductive <link=\"METAL\">Metal</link>."
+msgid "(Ir) Molten Iridium is a highly conductive <link=\"METAL\">Metal</link> heated to a <link=\"ELEMENTSLIQUID\">Liquid</link>  state."
 msgstr ""
 
 #. STRINGS.ELEMENTS.MOLTENIRIDIUM.NAME
@@ -56800,7 +56800,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.BUTTERFLYPLANTSEED.DESC
 msgctxt "STRINGS.ITEMS.FOOD.BUTTERFLYPLANTSEED.DESC"
-msgid "An inedible <link=\"PLANTS\">Fruit</link> of a <link=\"BUTTERFLYPLANT\">Mimika Bud</link> plant.\n\nIt can be sown to cultivate more plants, or processed into <link=\"FOOD\">Food</link>.\n\nDigging up Buried Objects may uncover a Mimillet Seed."
+msgid "An inedible seed from a <link=\"BUTTERFLYPLANT\">Mimika Bud</link>.\n\nIt can be sown to cultivate more plants, or processed into <link=\"FOOD\">Food</link>.\n\nDigging up Buried Objects may uncover a Mimillet Seed."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.BUTTERFLYPLANTSEED.NAME
@@ -56810,7 +56810,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.BUTTERFLYPLANTSEED.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.BUTTERFLYPLANTSEED.RECIPEDESC"
-msgid "A <link=\"BUTTERFLYPLANT\">Mimillet</link>."
+msgid "An inedible <link=\"BUTTERFLYPLANT\">Mimillet</link> seed."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.CARROT.DESC
@@ -57000,7 +57000,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.DINOSAURMEAT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.DINOSAURMEAT.DESC"
-msgid "Uncooked meat from a very dead critter.\n\nIt's inedible until cooked in the <link=\"SMOKER\">Smoker</link>"
+msgid "Uncooked meat from a very dead critter.\n\nIt's inedible until cooked in the <link=\"SMOKER\">Smoker</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.DINOSAURMEAT.NAME
@@ -59170,7 +59170,7 @@ msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.INCOMINGPREHISTORICASTEROIDNOTIFICATION.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INCOMINGPREHISTORICASTEROIDNOTIFICATION.TOOLTIP"
-msgid "Incoming Asteroid: <b><color=#ff1111>DEMOLIOR</color></b>\n• Estimated Threat Level: {0}\n• Time until impact: {1}\n\nFiring <link=\"MISSILELAUNCHER\">Intracosmic Blastshots</link> at <b><color=#ff1111>Demolior</color></b> before collision may reduce or eliminate impact-related damage"
+msgid "Incoming Asteroid: <b><color=#ff1111>DEMOLIOR</color></b>\n• Health: {0}\n• Time until impact: {1}\n\nCollision damage can be avoided by destroying <b><color=#ff1111>DEMOLIOR</color></b> with <link=\"LONGRANGEMISSILE\">Intracosmic Blastshot</link> before it makes contact"
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.INCREASEDEXPECTATIONS.NAME
@@ -60200,22 +60200,22 @@ msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.LARGEIMPACTORHEALTH.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.LARGEIMPACTORHEALTH.NAME"
-msgid "Large Impactor Health {0} / {1}"
+msgid "Health: {0} / {1}"
 msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.LARGEIMPACTORHEALTH.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.LARGEIMPACTORHEALTH.TOOLTIP"
-msgid "gotta blast em"
+msgid "Collision damage can be avoided by destroying this impactor asteroid with <link=\"LONGRANGEMISSILE\">Intracosmic Blastshot</link> before it makes contact"
 msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.LARGEIMPACTORSTATUS.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.LARGEIMPACTORSTATUS.NAME"
-msgid "Large Impactor Incoming ETA {0}"
+msgid "Time until collision: {0}"
 msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.LARGEIMPACTORSTATUS.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.LARGEIMPACTORSTATUS.TOOLTIP"
-msgid "eta {0} until the impactor impacts impacting impactful impact upon the world"
+msgid "This impactor asteroid will reach its target in {0}"
 msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.LONGRANGEMISSILETTI.NAME
@@ -60225,7 +60225,7 @@ msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.LONGRANGEMISSILETTI.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.LONGRANGEMISSILETTI.TOOLTIP"
-msgid "{1} time to intercept {0} upon whence it will count to 3, 3 will be the number of the count, 4 will not be counted, neither 2 except in progressing to 3, 5 is right out...."
+msgid "This projectile will reach its destination in {1}"
 msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.MARKEDFORCOMPOST.NAME
@@ -61125,7 +61125,7 @@ msgstr ""
 
 #. STRINGS.MISC.TAGS.MESSSTATION
 msgctxt "STRINGS.MISC.TAGS.MESSSTATION"
-msgid "Dining Table"
+msgid "Dining Tables"
 msgstr ""
 
 #. STRINGS.MISC.TAGS.METAL
@@ -67660,7 +67660,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.AQUATIC.NAME
 msgctxt "STRINGS.SUBWORLDS.AQUATIC.NAME"
-msgid "Aquatic"
+msgid "Aquatic Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.AQUATIC.UTILITY
@@ -67675,7 +67675,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.BARREN.NAME
 msgctxt "STRINGS.SUBWORLDS.BARREN.NAME"
-msgid "Barren"
+msgid "Barren Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.BARREN.UTILITY
@@ -67690,7 +67690,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.CARROTQUARRY.NAME
 msgctxt "STRINGS.SUBWORLDS.CARROTQUARRY.NAME"
-msgid "Cool Pool"
+msgid "Cool Pool Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.CARROTQUARRY.UTILITY
@@ -67705,7 +67705,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.FOREST.NAME
 msgctxt "STRINGS.SUBWORLDS.FOREST.NAME"
-msgid "Forest"
+msgid "Forest Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.FOREST.UTILITY
@@ -67720,7 +67720,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.FROZEN.NAME
 msgctxt "STRINGS.SUBWORLDS.FROZEN.NAME"
-msgid "Tundra"
+msgid "Tundra Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.FROZEN.UTILITY
@@ -67735,7 +67735,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.GARDEN.NAME
 msgctxt "STRINGS.SUBWORLDS.GARDEN.NAME"
-msgid "Garden"
+msgid "Garden Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.GARDEN.UTILITY
@@ -67750,7 +67750,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.ICECAVES.NAME
 msgctxt "STRINGS.SUBWORLDS.ICECAVES.NAME"
-msgid "Ice Cave"
+msgid "Ice Cave Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.ICECAVES.UTILITY
@@ -67765,7 +67765,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.JUNGLE.NAME
 msgctxt "STRINGS.SUBWORLDS.JUNGLE.NAME"
-msgid "Jungle"
+msgid "Jungle Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.JUNGLE.UTILITY
@@ -67780,7 +67780,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.MAGMA.NAME
 msgctxt "STRINGS.SUBWORLDS.MAGMA.NAME"
-msgid "Magma"
+msgid "Magma Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.MAGMA.UTILITY
@@ -67795,7 +67795,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.MARSH.NAME
 msgctxt "STRINGS.SUBWORLDS.MARSH.NAME"
-msgid "Marsh"
+msgid "Marsh Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.MARSH.UTILITY
@@ -67810,7 +67810,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.METALLIC.NAME
 msgctxt "STRINGS.SUBWORLDS.METALLIC.NAME"
-msgid "Metallic"
+msgid "Metallic Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.METALLIC.UTILITY
@@ -67825,7 +67825,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.MOO.NAME
 msgctxt "STRINGS.SUBWORLDS.MOO.NAME"
-msgid "Moo"
+msgid "Moo Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.MOO.UTILITY
@@ -67840,7 +67840,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.NIOBIUM.NAME
 msgctxt "STRINGS.SUBWORLDS.NIOBIUM.NAME"
-msgid "Niobium"
+msgid "Niobium Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.NIOBIUM.UTILITY
@@ -67855,7 +67855,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.OCEAN.NAME
 msgctxt "STRINGS.SUBWORLDS.OCEAN.NAME"
-msgid "Ocean"
+msgid "Ocean Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.OCEAN.UTILITY
@@ -67870,7 +67870,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.OIL.NAME
 msgctxt "STRINGS.SUBWORLDS.OIL.NAME"
-msgid "Oily"
+msgid "Oily Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.OIL.UTILITY
@@ -67885,7 +67885,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.RADIOACTIVE.NAME
 msgctxt "STRINGS.SUBWORLDS.RADIOACTIVE.NAME"
-msgid "Radioactive"
+msgid "Radioactive Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.RADIOACTIVE.UTILITY
@@ -67900,7 +67900,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.RAPTOR.NAME
 msgctxt "STRINGS.SUBWORLDS.RAPTOR.NAME"
-msgid "Feather"
+msgid "Feather Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.RAPTOR.UTILITY
@@ -67915,7 +67915,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.REGOLITH.NAME
 msgctxt "STRINGS.SUBWORLDS.REGOLITH.NAME"
-msgid "Regolith"
+msgid "Regolith Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.REGOLITH.UTILITY
@@ -67930,7 +67930,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.RUST.NAME
 msgctxt "STRINGS.SUBWORLDS.RUST.NAME"
-msgid "Rust"
+msgid "Rust Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.RUST.UTILITY
@@ -67960,7 +67960,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.SPACE.NAME
 msgctxt "STRINGS.SUBWORLDS.SPACE.NAME"
-msgid "Space"
+msgid "Space Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.SPACE.UTILITY
@@ -67975,7 +67975,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.SUGARWOODS.NAME
 msgctxt "STRINGS.SUBWORLDS.SUGARWOODS.NAME"
-msgid "Nectar"
+msgid "Nectar Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.SUGARWOODS.UTILITY
@@ -67990,7 +67990,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.SWAMP.NAME
 msgctxt "STRINGS.SUBWORLDS.SWAMP.NAME"
-msgid "Swampy"
+msgid "Swampy Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.SWAMP.UTILITY
@@ -68005,7 +68005,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.WASTELAND.NAME
 msgctxt "STRINGS.SUBWORLDS.WASTELAND.NAME"
-msgid "Wasteland"
+msgid "Wasteland Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.WASTELAND.UTILITY
@@ -68020,7 +68020,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.WETLANDS.NAME
 msgctxt "STRINGS.SUBWORLDS.WETLANDS.NAME"
-msgid "Wetlands"
+msgid "Wetlands Biome"
 msgstr ""
 
 #. STRINGS.SUBWORLDS.WETLANDS.UTILITY
@@ -70075,7 +70075,7 @@ msgstr ""
 
 #. STRINGS.UI.CLUSTERMAP.TOOLTIP_INVALID_METEOR_TARGET
 msgctxt "STRINGS.UI.CLUSTERMAP.TOOLTIP_INVALID_METEOR_TARGET"
-msgid "This destination does not have an impactor asteroid to blast"
+msgid "This destination does not have an impactor asteroid to target"
 msgstr ""
 
 #. STRINGS.UI.CLUSTERMAP.TOOLTIP_PATH_LENGTH
@@ -72001,6 +72001,11 @@ msgstr ""
 #. STRINGS.UI.DETAILTABS.CONFIGURATION.TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.CONFIGURATION.TOOLTIP"
 msgid "<b>Config</b>\nView and change filters, recipes, production orders and more"
+msgstr ""
+
+#. STRINGS.UI.DETAILTABS.CONFIGURATION.TOOLTIP_DUPLICANT
+msgctxt "STRINGS.UI.DETAILTABS.CONFIGURATION.TOOLTIP_DUPLICANT"
+msgid "<b>Config</b>\nView and change assigned equipment and amenities"
 msgstr ""
 
 #. STRINGS.UI.DETAILTABS.COSMETICS.NAME
@@ -90995,7 +91000,7 @@ msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.UNDISCOVERED_INGREDIENTS_IN_CATEGORY
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.UNDISCOVERED_INGREDIENTS_IN_CATEGORY"
-msgid "Some ingredient options in this category have not been discovered yet:\n\n{0}"
+msgid "Some ingredient options have not been discovered yet:\n\n{0}"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.UNDISCOVERED_RECIPES
@@ -91810,12 +91815,12 @@ msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.MISSILESELECTIONSIDESCREEN.VANILLALARGEIMPACTOR.HEALTH_BAR_TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.MISSILESELECTIONSIDESCREEN.VANILLALARGEIMPACTOR.HEALTH_BAR_TITLE"
-msgid "Threat Level"
+msgid "Health"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.MISSILESELECTIONSIDESCREEN.VANILLALARGEIMPACTOR.HEALTH_BAR_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.MISSILESELECTIONSIDESCREEN.VANILLALARGEIMPACTOR.HEALTH_BAR_TOOLTIP"
-msgid "Threat Level {0} / {1}"
+msgid "Demolior impactor asteroid health: {0} / {1}"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.MISSILESELECTIONSIDESCREEN.VANILLALARGEIMPACTOR.TIME_UNTIL_COLLISION_TITLE
@@ -91825,7 +91830,7 @@ msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.MISSILESELECTIONSIDESCREEN.VANILLALARGEIMPACTOR.TIME_UNTIL_COLLISION_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.MISSILESELECTIONSIDESCREEN.VANILLALARGEIMPACTOR.TIME_UNTIL_COLLISION_TOOLTIP"
-msgid "Cycles Until Impact: {0}"
+msgid "Cycles remaining until impact: {0}"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.DESCRIPTION
@@ -95350,7 +95355,7 @@ msgstr ""
 
 #. STRINGS.UI.WELCOMEMESSAGEBODY_DLC4_PREHISTORIC
 msgctxt "STRINGS.UI.WELCOMEMESSAGEBODY_DLC4_PREHISTORIC"
-msgid "My collision monitoring system has detected a threat from above: an impactor asteroid hurtling directly at this planet. There's no telling what will be left of my colony once it reaches its target.\n\nIf we mount a surface defense system in time, perhaps we can destroy it before it destroys us."
+msgid "My collision monitoring system has detected an imminent threat to our survival: a huge impactor asteroid is hurtling directly at this planet.\n\nWe must make our way to the surface and mount a defense system in time to destroy the incoming asteroid before it destroys us."
 msgstr ""
 
 #. STRINGS.UI.WELCOMEMESSAGEBODY_KF23
@@ -96290,7 +96295,7 @@ msgstr ""
 
 #. STRINGS.WORLDS.IDEALLANDINGSITE.DESCRIPTION
 msgctxt "STRINGS.WORLDS.IDEALLANDINGSITE.DESCRIPTION"
-msgid "A mid-sized sandstone and forest world with significant radiation.\n\n<smallcaps>Irradiated Forest Asteroids have an abundance of metal for the taking if Duplicants can withstand the planetoid's radiation.</smallcaps>"
+msgid "A sandstone and forest world with significant radiation.\n\n<smallcaps>Irradiated Forest Asteroids have an abundance of metal for the taking if Duplicants can withstand the planetoid's radiation.</smallcaps>"
 msgstr ""
 
 #. STRINGS.WORLDS.IDEALLANDINGSITE.NAME
@@ -96310,7 +96315,7 @@ msgstr ""
 
 #. STRINGS.WORLDS.MEDIUMFORESTYRADIOACTIVEVANILLAWARPPLANET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.MEDIUMFORESTYRADIOACTIVEVANILLAWARPPLANET.DESCRIPTION"
-msgid "A large-ish forested asteroid with a frozen radioactive core.\n\n<smallcaps>While Radioactive Forest Asteroid are largely foresty, they also contain a great deal of rust and ocean.</smallcaps>"
+msgid "A large-ish forested asteroid with a frozen radioactive core.\n\n<smallcaps>While Radioactive Forest Asteroid are largely foresty, they also contain a great deal of rust.</smallcaps>"
 msgstr ""
 
 #. STRINGS.WORLDS.MEDIUMFORESTYRADIOACTIVEVANILLAWARPPLANET.NAME
@@ -96350,7 +96355,7 @@ msgstr ""
 
 #. STRINGS.WORLDS.MEDIUMSANDYSWAMP.DESCRIPTION
 msgctxt "STRINGS.WORLDS.MEDIUMSANDYSWAMP.DESCRIPTION"
-msgid "A mid-sized terra world with a radioactive core.\n\n<smallcaps>The Radioactive Terrabog Asteroid is fairly dry and sandy, but does contain swampy areas with a partially frozen surface.</smallcaps>"
+msgid "A large-ish terra world with a radioactive core.\n\n<smallcaps>The Radioactive Terrabog Asteroid is fairly dry and sandy, but does contain swampy areas with a partially frozen surface.</smallcaps>"
 msgstr ""
 
 #. STRINGS.WORLDS.MEDIUMSANDYSWAMP.NAME
@@ -96510,7 +96515,7 @@ msgstr ""
 
 #. STRINGS.WORLDS.OILRICHWARPTARGET.DESCRIPTION
 msgctxt "STRINGS.WORLDS.OILRICHWARPTARGET.DESCRIPTION"
-msgid "A rusty mid-sized world with an oily core.\n\n<smallcaps>Duplicants must sift through a great deal of rust and ocean to reach the prize of this planetoid's oil.</smallcaps>"
+msgid "A rusty world with an oily core.\n\n<smallcaps>Duplicants must sift through a great deal of rust and ocean to reach the prize of this planetoid's oil.</smallcaps>"
 msgstr ""
 
 #. STRINGS.WORLDS.OILRICHWARPTARGET.NAME
@@ -96915,7 +96920,7 @@ msgstr ""
 
 #. STRINGS.WORLDS.WARPOILYSANDYSWAMP.DESCRIPTION
 msgctxt "STRINGS.WORLDS.WARPOILYSANDYSWAMP.DESCRIPTION"
-msgid "A partially frozen world with an oily core.\n\n<smallcaps>While Oily Swamp Asteroids are largely swampy, they also contain a great deal of wasteland.</smallcaps>"
+msgid "A mildly frozen world with an oily core.\n\n<smallcaps>While Oily Sandy Swamp Asteroids are largely swampy, they also contain a great deal of wasteland.</smallcaps>"
 msgstr ""
 
 #. STRINGS.WORLDS.WARPOILYSANDYSWAMP.NAME
