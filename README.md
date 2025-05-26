@@ -6,7 +6,7 @@ This is a personal project that includes my mod work for the games by Klei Enter
 ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/2906930548?logo=steam) 
 ![Steam Favorites](https://img.shields.io/steam/favorites/2906930548?logo=steam) <br />
 [workshop-2906930548](workshop-2906930548) is an ONI language pack mod. 
-* ONI [字型模組 (Oct 2023 QoL)](https://steamcommunity.com/sharedfiles/filedetails/?id=3046440992) <br />
+* ONI [字型模組。新](https://steamcommunity.com/sharedfiles/filedetails/?id=3046440992) <br />
 ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3046440992?logo=steam) 
 ![Steam Favorites](https://img.shields.io/steam/favorites/3046440992?logo=steam) <br />
 [workshop-3046440992](workshop-3046440992) is a quick fix update to [Font Loader for Traditional Chinese](https://steamcommunity.com/workshop/filedetails/?id=2119648603) after Oct 2023 QoL.
@@ -47,6 +47,8 @@ Thanks those developers who have done brilliant work on these mods
 * Peter Han [100K Challenge](https://steamcommunity.com/sharedfiles/filedetails/?id=2228381429) & [GitHub](https://github.com/peterhaneve/ONIMods/tree/main/Challenge100K)
 * Pholith [EmptyWorlds](https://discord.com/channels/1017205657339957251/1017205658396938322)
 * Kelth' [MiniBase : Spaced Out Edition !](https://steamcommunity.com/sharedfiles/filedetails/?id=2973000407)
+* qbane [Made a font loader mod available on Linux and macOS](https://www.reddit.com/r/Oxygennotincluded/comments/orijbl/made_a_font_loader_mod_available_on_linux_and/) Reddit Post and [GitHub](https://github.com/qbane/ONI-Mods)
+* miZyind [正體中文字體用語翻譯包](https://steamcommunity.com/sharedfiles/filedetails/?id=2070840646) 的 [討論版](https://steamcommunity.com/workshop/filedetails/discussion/2070840646/3044978964803635873)
 
 #### Don't Starve Together
 

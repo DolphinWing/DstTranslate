@@ -4,6 +4,8 @@
 
 [正體中文](https://steamcommunity.com/sharedfiles/filedetails/?id=2906930548) by DolphinWing
 
+請搭配「[字型模組。新](https://steamcommunity.com/sharedfiles/filedetails/?id=3046440992」使用。
+
 > [!NOTE]
 > 由於 Steam 的工作坊更新在缺氧上面一直怪怪的。如果你一直沒辦法更新到最新版本，或許可以嘗試以下方法：
 > 1. 取消訂閱 MOD。
@@ -16,6 +18,8 @@
 - 基礎遊戲
 - 眼冒金星!
 - 寒霜行星包
+- 仿生加速包
+- 史前行星包
 
 這裡是正體中文的翻譯模組，在作者還在努力此遊戲時，會嘗試追上一直持續更新的 Klei。
 所有內容文字以 Klei 簡體中文文檔為參考，並以 [Oxygen Not Included Wiki](https://oxygennotincluded.wiki.gg/wiki/Oxygen_Not_Included_Wiki) 
@@ -25,8 +29,8 @@
 包括 [Camel 繁體中文](https://steamcommunity.com/sharedfiles/filedetails/?id=2679329370) 
 及古靈精怪[繁體中文語言包](https://steamcommunity.com/sharedfiles/filedetails/?id=929305589) ，讓我可以借用他們以往的努力，再加上自己的潤色而成。
 
-如果有缺字(就是文字顯示不出來，或是顯示成白框)的問題，可以安裝 [字型模組 (Oct 2023 QoL)](https://steamcommunity.com/sharedfiles/filedetails/?id=3046440992)。
-因為原本遊戲內的內建字型只能顯示簡體中文。當沒有對應的正體中文字可以顯示的時候，就會無法正確顯示字。
+請記得需要一併安裝「[字型模組。新](https://steamcommunity.com/sharedfiles/filedetails/?id=3046440992)」才能正確顯示所有文字。
+因為原本遊戲內的內建字型只能顯示簡體中文。當沒有對應的正體中文字可以顯示的時候，就會使用簡體字型顯示或變成白豆腐。
 該模組會載入「[粉圓體](https://justfont.com/huninn/)」 作為遊戲中的預設字體，這樣便能正確顯示正體中文字。
 如果安裝之後還是無法解決，請再回報給我。
 
