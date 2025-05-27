@@ -2,15 +2,31 @@
 
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
-    <Authors>dershiuan</Authors>
+    <Authors>DolphinWing</Authors>
     <Copyright>Copyright@2020</Copyright>
     <Description>ONI Font Loader. rebuilt by DolphinWing.</Description>
     <AssemblyTitle>FontLoader</AssemblyTitle>
-    <AssemblyVersion>2025.03.05.0</AssemblyVersion>
-    <FileVersion>2025.03.05.0</FileVersion>
+    <AssemblyVersion>2025.05.25.0</AssemblyVersion>
+    <FileVersion>2025.03.25.0</FileVersion>
     <Product>ONI FontLoader</Product>
-    <Version>2.0.6</Version>
+    <Version>2.1.0</Version>
+    <Company />
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Assets\**" />
+    <EmbeddedResource Remove="Assets\**" />
+    <None Remove="Assets\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="PLib" Version="4.17.1" />
+  </ItemGroup>
 
   <ItemGroup>
     <Reference Include="0Harmony">

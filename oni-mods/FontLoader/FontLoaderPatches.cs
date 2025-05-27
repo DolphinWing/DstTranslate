@@ -13,10 +13,11 @@ namespace FontLoader
         public static string rootPath;
         private static FontConfig fc;
         private static TMP_FontAsset font;
-        
+
         public override void OnLoad(Harmony harmony)
         {
             harmony.PatchAll();
+
             rootPath = mod.file_source.GetRoot();
             ConfigManager.Instance.configPath = mod.file_source.GetRoot();
             fc = ConfigManager.Instance.LoadConfigFile();
@@ -24,7 +25,13 @@ namespace FontLoader
 
             if (font == null) {
                 Debug.LogWarning($"[{ns}] Load font asset fail.");
-                return;
+                // try default font again
+                fc = ConfigManager.Instance.LoadDefault();
+                font = FontUtil.LoadFontAsset(fc);
+                if (font == null) {
+                    Debug.LogWarning($"[{ns}] Load default font asset fail.");
+                    return;
+                }
             }
         }
 
@@ -51,20 +58,5 @@ namespace FontLoader
                 }
             }
         }
-
-        //[HarmonyPatch(typeof(Db))]
-        //[HarmonyPatch("Initialize")]
-        //public class Db_Initialize_Patch
-        //{
-        //    public static void Prefix()
-        //    {
-        //        Debug.Log("[FontLoader] I execute before Db.Initialize!");
-        //    }
-
-        //    public static void Postfix()
-        //    {
-        //        Debug.Log("[FontLoader] I execute after Db.Initialize!");
-        //    }
-        //}
     }
 }

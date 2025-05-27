@@ -58,10 +58,14 @@ namespace FontLoader.Config
             {
                 Debug.Log($"[{ns}] Load config failure...Excption: {e.Message}");
                 Debug.Log($"[{ns}] Use default config.");
-                fc = new FontConfig("font", "zh", true, 1);
+                fc = LoadDefault();
             }
             return fc;
         }
-    }
 
+        public FontConfig LoadDefault()
+        {
+            return new FontConfig("font", "zh", true, 1);
+        }
+    }
 }
