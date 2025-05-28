@@ -4,7 +4,7 @@
 
 [正體中文](https://steamcommunity.com/sharedfiles/filedetails/?id=2906930548) by DolphinWing
 
-請搭配「[字型模組。新](https://steamcommunity.com/sharedfiles/filedetails/?id=3046440992」使用。
+請搭配「[字型模組。新](https://steamcommunity.com/sharedfiles/filedetails/?id=3046440992)」使用。
 
 > [!NOTE]
 > 由於 Steam 的工作坊更新在缺氧上面一直怪怪的。如果你一直沒辦法更新到最新版本，或許可以嘗試以下方法：

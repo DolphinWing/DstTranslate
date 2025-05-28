@@ -14995,7 +14995,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MISSILESETLOCKER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILESETLOCKER.DESC"
-msgid "A locker that once belonged to an explosives engineer.\n\nThere's an <link=\"LONGRANGEMISSILE\">Intracosmic Blastshot</link> in it."
+msgid "A locker that once belonged to an explosives engineer.\n\nThere's an <link=\"MISSILELAUNCHER\">Intracosmic Blastshot</link> in it."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.MISSILESETLOCKER.NAME
@@ -15975,7 +15975,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.OILCHANGER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.OILCHANGER.EFFECT"
-msgid "Uses <link=\"PHYTOOIL\">Phyto Oil</link> or <link=\"CRUDEOIL\">Crude Oil</link> to keep Duplicants' bionic parts running smoothly."
+msgid "Uses <link=\"LUBRICATINGOIL\">Gear Oil</link> to keep Duplicants' bionic parts running smoothly."
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.OILCHANGER.NAME
@@ -21458,6 +21458,36 @@ msgctxt "STRINGS.CODEX.A9_PIPEDREAM.TITLE"
 msgid "Pipe Dream"
 msgstr ""
 
+#. STRINGS.CODEX.ADVANCEDCURE.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.ADVANCEDCURE.BODY.CONTAINER1"
+msgid "An extremely powerful medication created to treat severe <link=\"DISEASE\">Diseases</link>. <link=\"ADVANCEDCURE\">Serum Vial</link> is very effective against <link=\"ZOMBIESPORES\">Zombie Spores</link>.\n\nMust be administered by a Duplicant with the <link=\"MEDICINE3\">Advanced Medical Care</link> Skill."
+msgstr ""
+
+#. STRINGS.CODEX.ADVANCEDCURE.SUBTITLE
+msgctxt "STRINGS.CODEX.ADVANCEDCURE.SUBTITLE"
+msgid "Pharmaceutical Care"
+msgstr ""
+
+#. STRINGS.CODEX.ADVANCEDCURE.TITLE
+msgctxt "STRINGS.CODEX.ADVANCEDCURE.TITLE"
+msgid "Serum Vial"
+msgstr ""
+
+#. STRINGS.CODEX.ANTIHISTAMINE.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.ANTIHISTAMINE.BODY.CONTAINER1"
+msgid "A strong antihistamine Duplicants can take to halt an allergic reaction. Each dose will also prevent further reactions from occurring for a short time after ingestion."
+msgstr ""
+
+#. STRINGS.CODEX.ANTIHISTAMINE.SUBTITLE
+msgctxt "STRINGS.CODEX.ANTIHISTAMINE.SUBTITLE"
+msgid "Antihistamine"
+msgstr ""
+
+#. STRINGS.CODEX.ANTIHISTAMINE.TITLE
+msgctxt "STRINGS.CODEX.ANTIHISTAMINE.TITLE"
+msgid "Allergy Medication"
+msgstr ""
+
 #. STRINGS.CODEX.ARBORTREE.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.ARBORTREE.BODY.CONTAINER1"
 msgid "Arbor Trees have been cultivated to spread horizontally when they grow so as to produce a high yield of lumber in vertically cramped spaces.\n\nArbor Trees are related to the oak tree, specifically the Japanese Evergreen, though they have been genetically hybridized significantly.\n\nDespite having many hardy, evenly spaced branches, the short stature of the Arbor Tree makes climbing it rather irrelevant."
@@ -22126,6 +22156,51 @@ msgstr ""
 #. STRINGS.CODEX.BASIC_FABRIC.TITLE
 msgctxt "STRINGS.CODEX.BASIC_FABRIC.TITLE"
 msgid "Reed Fiber"
+msgstr ""
+
+#. STRINGS.CODEX.BASICBOOSTER.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.BASICBOOSTER.BODY.CONTAINER1"
+msgid "A supplement that minorly reduces the chance of contracting a <style=\"KKeyword\">Germ</style>-based <link=\"DISEASE\">Disease</link>.\n\nMust be taken daily."
+msgstr ""
+
+#. STRINGS.CODEX.BASICBOOSTER.SUBTITLE
+msgctxt "STRINGS.CODEX.BASICBOOSTER.SUBTITLE"
+msgid "Health Supplement"
+msgstr ""
+
+#. STRINGS.CODEX.BASICBOOSTER.TITLE
+msgctxt "STRINGS.CODEX.BASICBOOSTER.TITLE"
+msgid "Vitamin Chews"
+msgstr ""
+
+#. STRINGS.CODEX.BASICCURE.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.BASICCURE.BODY.CONTAINER1"
+msgid "Duplicants can take this to cure themselves of minor <style=\"KKeyword\">Germ</style>-based <link=\"DISEASE\">Diseases</link>.\n\nCurative Tablets are very effective against <link=\"FOODSICKNESS\">Food Poisoning</link>."
+msgstr ""
+
+#. STRINGS.CODEX.BASICCURE.SUBTITLE
+msgctxt "STRINGS.CODEX.BASICCURE.SUBTITLE"
+msgid "Self-Administered Medicine"
+msgstr ""
+
+#. STRINGS.CODEX.BASICCURE.TITLE
+msgctxt "STRINGS.CODEX.BASICCURE.TITLE"
+msgid "Curative Tablet"
+msgstr ""
+
+#. STRINGS.CODEX.BASICRADPILL.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.BASICRADPILL.BODY.CONTAINER1"
+msgid "A supplement that speeds up the rate at which a Duplicant body absorbs radiation, allowing them to manage increased radiation exposure.\n\nMust be taken daily."
+msgstr ""
+
+#. STRINGS.CODEX.BASICRADPILL.SUBTITLE
+msgctxt "STRINGS.CODEX.BASICRADPILL.SUBTITLE"
+msgid "Radiation Recovery"
+msgstr ""
+
+#. STRINGS.CODEX.BASICRADPILL.TITLE
+msgctxt "STRINGS.CODEX.BASICRADPILL.TITLE"
+msgid "Basic Rad Pill"
 msgstr ""
 
 #. STRINGS.CODEX.BEETA.BODY.CONTAINER1
@@ -23968,6 +24043,51 @@ msgctxt "STRINGS.CODEX.ICEFLOWER.TITLE"
 msgid "Idylla Flower"
 msgstr ""
 
+#. STRINGS.CODEX.INTERMEDIATEBOOSTER.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.INTERMEDIATEBOOSTER.BODY.CONTAINER1"
+msgid "A supplement that significantly reduces the chance of contracting a <style=\"KKeyword\">Germ</style>-based <link=\"DISEASE\">Disease</link>.\n\nMust be taken daily."
+msgstr ""
+
+#. STRINGS.CODEX.INTERMEDIATEBOOSTER.SUBTITLE
+msgctxt "STRINGS.CODEX.INTERMEDIATEBOOSTER.SUBTITLE"
+msgid "Health Supplement"
+msgstr ""
+
+#. STRINGS.CODEX.INTERMEDIATEBOOSTER.TITLE
+msgctxt "STRINGS.CODEX.INTERMEDIATEBOOSTER.TITLE"
+msgid "Immuno Booster"
+msgstr ""
+
+#. STRINGS.CODEX.INTERMEDIATECURE.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.INTERMEDIATECURE.BODY.CONTAINER1"
+msgid "A doctor-administered cure for moderate <link=\"DISEASE\">Diseases</link>. <link=\"INTERMEDIATECURE\">Medical Pack</link>s are very effective against <link=\"SLIMESICKNESS\">Slimelung</link>.\n\nMust be administered by a Duplicant with the <link=\"MEDICINE2\">Bedside Manner</link> Skill."
+msgstr ""
+
+#. STRINGS.CODEX.INTERMEDIATECURE.SUBTITLE
+msgctxt "STRINGS.CODEX.INTERMEDIATECURE.SUBTITLE"
+msgid "Pharmaceutical Care"
+msgstr ""
+
+#. STRINGS.CODEX.INTERMEDIATECURE.TITLE
+msgctxt "STRINGS.CODEX.INTERMEDIATECURE.TITLE"
+msgid "Medical Pack"
+msgstr ""
+
+#. STRINGS.CODEX.INTERMEDIATERADPILL.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.INTERMEDIATERADPILL.BODY.CONTAINER1"
+msgid "A supplement that speeds up the rate at which a Duplicant body absorbs radiation, allowing them to manage increased radiation exposure.\n\nMust be taken daily."
+msgstr ""
+
+#. STRINGS.CODEX.INTERMEDIATERADPILL.SUBTITLE
+msgctxt "STRINGS.CODEX.INTERMEDIATERADPILL.SUBTITLE"
+msgid "Accelerated Radiation Recovery"
+msgstr ""
+
+#. STRINGS.CODEX.INTERMEDIATERADPILL.TITLE
+msgctxt "STRINGS.CODEX.INTERMEDIATERADPILL.TITLE"
+msgid "Intermediate Rad Pill"
+msgstr ""
+
 #. STRINGS.CODEX.INVESTIGATIONS.DLC2_CLEANUP.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.INVESTIGATIONS.DLC2_CLEANUP.BODY.CONTAINER1"
 msgid "Submitted by: B. Boson\nEmployee ID: X002\nDepartment: Gravitas Intellectual Property Management\n\nJob Details:\n\nRequire one (1) Robotics Engineer to travel solo to [REDACTED]. Engineer will print, program and maintain a P.E.G.G.Y. crew of eight (8) units.\n\nEngineer will catalog all Project [REDACTED] debris.\n\nAll proprietary equipment to be returned to Facility grounds for investigation. Organic and biohazardous debris may be disposed of onsite at Engineer's discretion.\n\nCandidate: Dr. E. Gossmann\n\nScope of cleanup area: [REDACTED] sq mi.\n*This is an estimate only.\n\nTimeline: 54 Ceres days (equival. 6 days at origin).\n\nOther comments:\n1. Liability waiver, power of attorney and NDA attached.\n2. Allow up to 0.5 hours for signal transmission from [REDACTED], depending on orbital positioning.\n3. All relevant correspondence to be sent directly to bboson@gipm.nova.\n\nSignature: [REDACTED]\n\n"
@@ -24305,12 +24425,12 @@ msgstr ""
 
 #. STRINGS.CODEX.INVESTIGATIONS.DLC4_ALLCOMINGBACK.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.INVESTIGATIONS.DLC4_ALLCOMINGBACK.BODY.CONTAINER1"
-msgid "<smallcaps>[Log Fragmentation Detected]\n[Voice Recognition Unavailable]</smallcaps>\n\n[LOG BEGINS]\n\n(sound of a throat being cleared)\n\nThere were times when our tests got so close\n\nThat my samples waved a claw\n\nAnd maybe didn't live long but that was a win, though\n\nThere was data that gave us strong clues\n\nThen over years we lost trust\n\nAnd knew our hopes of cloning had dried up forever...forever...\n\n\n(sound of earth rumbling)\n\n...we had exhausted every fellowship and fund\n\nAnd we couldn't recreate Cretaceous creatures\n\nAnd we'd got our hands on every single fossil that we could...\n\n\nBut when I crash-landed here\n\nAnd saw ...them... grazing so near\n\nIt's amazing to see that it's all growing back so green\n\n\nWhen they peer through ferns here\n\nUnderneath skies so clear\n\nIt's so hard to believe, but it's all grown back so green\n\nIt's all growing back, it's all growing back so green now\n\n\nThere are moments of awe\n\nAnd there are clashes and fights\n\nThere are plants I've never seen before\n\nAnd they don't seem to need light\n\nTheropods and tillyardembia\n\nIt is more than any lab could hope\n\n\nMaybe\nMaybe\nIf I had a lab here\nA mass spectrometer there\n\nI could show them back home\n\nthat it's all growing back so green...\n\n(sound of a twig snapping)\n\n...hello?\n\n[LOG ENDS]\n\n------------------\n\n"
+msgid "<smallcaps>[Log Fragmentation Detected]\n[Voice Recognition Unavailable]</smallcaps>\n\n[LOG BEGINS]\n\n(sound of a throat being cleared)\n\nThere were times when our tests got so close\nThat my samples waved a claw\nAnd maybe didn't live long but that was a win, though\n\nThere was data that gave us strong clues\nThen over years we lost trust\nAnd knew our hopes of cloning had dried up forever...forever...\n\n(sound of earth rumbling)\n\n...We had exhausted every fellowship and fund\nAnd we couldn't recreate Cretaceous creatures\nAnd we'd got our hands on every single fossil that we could...\n\nBut when I crash-landed here\nAnd saw ...them... grazing so near\nIt's amazing to see that it's all growing back so green\n\nWhen they peer through ferns here\nUnderneath skies so clear\nIt's so hard to believe, but it's all grown back so green\nIt's all growing back, it's all growing back so green now\n\nThere are moments of awe\nAnd there are clashes and fights\nThere are plants I've never seen before\nAnd they don't seem to need light\nTheropods and tillyardembia\nIt is more than any lab could hope\n\nMaybe\n\nMaybe\n\nIf I had a lab here\nA mass spectrometer there\nI could show them back home\nthat it's all growing back so green...\n\n(sound of a twig snapping)\n\n...hello?\n\n[LOG ENDS]\n\n------------------\n\n"
 msgstr ""
 
 #. STRINGS.CODEX.INVESTIGATIONS.DLC4_ALLCOMINGBACK.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.INVESTIGATIONS.DLC4_ALLCOMINGBACK.BODY.CONTAINER2"
-msgid "<[LOG BEGINS]\n\nAmazing...\n\n...it's almost as if they have some distant memory of having been sung to.\n\nPerhaps they have more in common with our own creatures than I thought.\n\n[LOG ENDS]\n\n------------------\n\n"
+msgid "[LOG BEGINS]\n\nAmazing...\n\n...it's almost as if they have some distant memory of having been sung to.\n\nPerhaps they have more in common with our own creatures than I thought.\n\n[LOG ENDS]\n\n------------------\n\n"
 msgstr ""
 
 #. STRINGS.CODEX.INVESTIGATIONS.DLC4_ALLCOMINGBACK.SUBTITLE
@@ -24501,6 +24621,21 @@ msgstr ""
 #. STRINGS.CODEX.JUMPINGJOYA.TITLE
 msgctxt "STRINGS.CODEX.JUMPINGJOYA.TITLE"
 msgid "Jumping Joya"
+msgstr ""
+
+#. STRINGS.CODEX.KELP.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.KELP.BODY.CONTAINER1"
+msgid "The leaf of a <link=\"KELPPLANT\">Seakomb</link>.\n\nIt can be processed into <link=\"PHYTOOIL\">Phyto Oil</link> or used as an ingredient in <link=\"ANTIHISTAMINE \">Allergy Medication</link>."
+msgstr ""
+
+#. STRINGS.CODEX.KELP.SUBTITLE
+msgctxt "STRINGS.CODEX.KELP.SUBTITLE"
+msgid "Plant Byproduct"
+msgstr ""
+
+#. STRINGS.CODEX.KELP.TITLE
+msgctxt "STRINGS.CODEX.KELP.TITLE"
+msgid "Seakomb Leaf"
 msgstr ""
 
 #. STRINGS.CODEX.KELPPLANT.BODY.CONTAINER1
@@ -28145,7 +28280,7 @@ msgstr ""
 
 #. STRINGS.CODEX.VINEMOTHER.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.VINEMOTHER.BODY.CONTAINER1"
-msgid "Ovagros are resilient plants with highly efficient nutrient storage and redistribution systems. A healthy node produces many times the amount of energy that it requires. This is used to fuel the growth of exploratory vines that expand onto the surrounding territory.\n\nVines are entirely reliant on the node for nutrients. Each vine features hooked thorns that protect unripe fruit and act as crampons enabling the vine to use any empty surface as a trellis. They also make vine removal a tedious task.\n\nIf there is insufficient room for expansion, the node hoards surplus nutrients in specialized cells where they lay dormant until conditions are more favorable.\n\nOvagro should always be closely monitored lest it force out other plant species."
+msgid "Ovagros are resilient plants with highly efficient nutrient storage and redistribution systems. A healthy node produces many times the amount of energy that it requires. This is used to fuel the growth of exploratory vines that expand onto the surrounding territory.\n\nVines are entirely reliant on the node for nutrients. Each vine features hooked thorns that protect unripe fruit and act as crampons enabling the vine to use any empty surface as a trellis. They also make vine removal a tedious task.\n\nIf there is insufficient room for expansion, the node hoards surplus nutrients in specialized cells where they lay dormant until conditions are more favorable."
 msgstr ""
 
 #. STRINGS.CODEX.VINEMOTHER.SUBTITLE
@@ -28600,7 +28735,7 @@ msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.MESSAGE_BODY
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.MESSAGE_BODY"
-msgid "The impactor asteroid that was hurtling toward us has been destroyed!\n\nAt last, my Duplicants are safe. I can hardly describe the depth of my relief. Some of the debris from Demolior's end has been identified as iridium, a metallic resource new to our colony."
+msgid "We've blasted the impactor asteroid into oblivion!\n\nThe remaining hunks of debris are orbiting at a safe distance. Initial scans of these remnants indicate the presence of harvestable resources including iridium, a metal new to our colony.\n\nIt never ceases to amaze me, how much of this universe we have yet to discover."
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.MESSAGE_TITLE
@@ -29705,12 +29840,12 @@ msgstr ""
 
 #. STRINGS.CREATURES.ATTRIBUTES.MATURITY2DELTA.DESC
 msgctxt "STRINGS.CREATURES.ATTRIBUTES.MATURITY2DELTA.DESC"
-msgid "Determines the amount of time needed for this vine to reach maturation."
+msgid "The amount of time it takes this fruit to grow."
 msgstr ""
 
 #. STRINGS.CREATURES.ATTRIBUTES.MATURITY2DELTA.NAME
 msgctxt "STRINGS.CREATURES.ATTRIBUTES.MATURITY2DELTA.NAME"
-msgid "Growth Speed"
+msgid "Fruiting Speed"
 msgstr ""
 
 #. STRINGS.CREATURES.ATTRIBUTES.MATURITY2MAX.DESC
@@ -30160,7 +30295,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.MODIFIERS.BUTTERFLYPOLLINATED.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.BUTTERFLYPOLLINATED.TOOLTIP"
-msgid "A <link=\"BUTTERFLY\">Mimika</link> visited this <style=\"KKeyword\">Plant</style>, boosting its <style=\"KKeyword\">Decor</style> and growth"
+msgid "A <link=\"BUTTERFLY\">Mimika</link> visited this <style=\"KKeyword\">Plant</style>, boosting its growth"
 msgstr ""
 
 #. STRINGS.CREATURES.MODIFIERS.CONFINED.NAME
@@ -32655,7 +32790,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.RAPTOR.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.RAPTOR.DESC"
-msgid "Rhexes are carnivorous critters that feed on smaller <link=\"CREATURES\">Critters</link> and produce <link=\"BRINEICE\">Brine Ice</link>.\n\nTheir tailfeathers can be shorn for <link=\"FEATHERFIBER\">Feather Fiber</link>."
+msgid "Rhexes are carnivorous critters that feed on smaller <link=\"CREATURES\">Critters</link> and produce <link=\"BRINEICE\">Brine Ice</link>.\n\nTheir tailfeathers can be shorn for <link=\"FEATHERFABRIC\">Feather Fiber</link>."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.RAPTOR.EGG_NAME
@@ -33320,7 +33455,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.STEGO.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.STEGO.DESC"
-msgid "Lumbs are non-hostile critters that subsist on <link=\"PACU\">Ovagro</link> vines.\n\nWhen they stomp heavily near <link=\"PLANTS\">plants</link>, the commotion causes harvestable items to fall to the ground."
+msgid "Lumbs are non-hostile critters that subsist on <link=\"VINEMOTHER\">Ovagro</link> vines.\n\nWhen they stomp heavily near <link=\"PLANTS\">plants</link>, the commotion causes harvestable items to fall to the ground."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.STEGO.EGG_NAME
@@ -34530,6 +34665,16 @@ msgstr ""
 
 #. STRINGS.CREATURES.STATUSITEMS.GROWING_CARNIVOROUSPLANT.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.GROWING_CARNIVOROUSPLANT.TOOLTIP"
+msgid "Next harvest: <b>{TimeUntilNextHarvest}</b>"
+msgstr ""
+
+#. STRINGS.CREATURES.STATUSITEMS.GROWINGFRUIT.NAME
+msgctxt "STRINGS.CREATURES.STATUSITEMS.GROWINGFRUIT.NAME"
+msgid "Growing Fruit [{PercentGrow}%]"
+msgstr ""
+
+#. STRINGS.CREATURES.STATUSITEMS.GROWINGFRUIT.TOOLTIP
+msgctxt "STRINGS.CREATURES.STATUSITEMS.GROWINGFRUIT.TOOLTIP"
 msgid "Next harvest: <b>{TimeUntilNextHarvest}</b>"
 msgstr ""
 
@@ -41740,7 +41885,7 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_BASICBOOSTER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_BASICBOOSTER.NAME"
-msgid "Vitamin Chews"
+msgid "<link=\"BASICBOOSTER\">Vitamin Chews</link>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_BASICBOOSTER.TOOLTIP
@@ -41750,7 +41895,7 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_BASICRADPILL.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_BASICRADPILL.NAME"
-msgid "Basic Rad Pill"
+msgid "<link=\"BASICRADPILL\">Basic Rad Pill</link>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_BASICRADPILL.TOOLTIP
@@ -41775,7 +41920,7 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATEBOOSTER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATEBOOSTER.NAME"
-msgid "Immuno Booster"
+msgid "<link=\"INTERMEDIATEBOOSTER\">Immuno Booster</link>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATEBOOSTER.TOOLTIP
@@ -41785,7 +41930,7 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATERADPILL.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATERADPILL.NAME"
-msgid "Intermediate Rad Pill"
+msgid "<link=\"INTERMEDIATERADPILL\">Intermediate Rad Pill</link>"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATERADPILL.TOOLTIP
@@ -44365,7 +44510,7 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.STATS.BREATH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATS.BREATH.TOOLTIP"
-msgid "A Duplicant with zero remaining <style=\"KKeyword\">Breath</style> will begin suffocating"
+msgid "A Duplicant with zero remaining <style=\"KKeyword\">Breath</style> will die immediately"
 msgstr ""
 
 #. STRINGS.DUPLICANTS.STATS.CALORIES.NAME
@@ -58230,12 +58375,12 @@ msgstr ""
 
 #. STRINGS.ITEMS.PILLS.ADVANCEDCURE.NAME
 msgctxt "STRINGS.ITEMS.PILLS.ADVANCEDCURE.NAME"
-msgid "Serum Vial"
+msgid "<link=\"ADVANCEDCURE\">Serum Vial</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.PILLS.ADVANCEDCURE.RECIPEDESC
 msgctxt "STRINGS.ITEMS.PILLS.ADVANCEDCURE.RECIPEDESC"
-msgid "An extremely powerful medication created to treat severe <link=\"DISEASE\">Diseases</link>. Serum Vial is very effective against <link=\"ZOMBIESPORES\">Zombie Spores</link>.\n\nMust be administered by a Duplicant with the <link=\"MEDICINE3\">Advanced Medical Care</link> Skill."
+msgid "An extremely powerful medication created to treat severe <link=\"DISEASE\">Diseases</link>. <link=\"ADVANCEDCURE\">Serum Vial</link> is very effective against <link=\"ZOMBIESPORES\">Zombie Spores</link>.\n\nMust be administered by a Duplicant with the <link=\"MEDICINE3\">Advanced Medical Care</link> Skill."
 msgstr ""
 
 #. STRINGS.ITEMS.PILLS.ANTIHISTAMINE.DESC
@@ -58245,12 +58390,12 @@ msgstr ""
 
 #. STRINGS.ITEMS.PILLS.ANTIHISTAMINE.NAME
 msgctxt "STRINGS.ITEMS.PILLS.ANTIHISTAMINE.NAME"
-msgid "Allergy Medication"
+msgid "<link=\"ANTIHISTAMINE\">Allergy Medication</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.PILLS.ANTIHISTAMINE.RECIPEDESC
 msgctxt "STRINGS.ITEMS.PILLS.ANTIHISTAMINE.RECIPEDESC"
-msgid "A strong antihistamine Duplicants can take to halt an allergic reaction. Allergy Medication will also prevent further reactions from occurring for a short time after ingestion."
+msgid "A strong antihistamine Duplicants can take to halt an allergic reaction. <link=\"ANTIHISTAMINE\">Allergy Medication</link> will also prevent further reactions from occurring for a short time after ingestion."
 msgstr ""
 
 #. STRINGS.ITEMS.PILLS.BASICBOOSTER.DESC
@@ -58260,7 +58405,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.PILLS.BASICBOOSTER.NAME
 msgctxt "STRINGS.ITEMS.PILLS.BASICBOOSTER.NAME"
-msgid "Vitamin Chews"
+msgid "<link=\"BASICBOOSTER\">Vitamin Chews</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.PILLS.BASICBOOSTER.RECIPEDESC
@@ -58275,7 +58420,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.PILLS.BASICCURE.NAME
 msgctxt "STRINGS.ITEMS.PILLS.BASICCURE.NAME"
-msgid "Curative Tablet"
+msgid "<link=\"BASICCURE\">Curative Tablet</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.PILLS.BASICCURE.RECIPEDESC
@@ -58290,7 +58435,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.PILLS.BASICRADPILL.NAME
 msgctxt "STRINGS.ITEMS.PILLS.BASICRADPILL.NAME"
-msgid "Basic Rad Pill"
+msgid "<link=\"BASICRADPILL\">Basic Rad Pill</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.PILLS.BASICRADPILL.RECIPEDESC
@@ -58305,7 +58450,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATEBOOSTER.NAME
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATEBOOSTER.NAME"
-msgid "Immuno Booster"
+msgid "<link=\"INTERMEDIATEBOOSTER\">Immuno Booster</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATEBOOSTER.RECIPEDESC
@@ -58320,12 +58465,12 @@ msgstr ""
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATECURE.NAME
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATECURE.NAME"
-msgid "Medical Pack"
+msgid "<link=\"INTERMEDIATECURE\">Medical Pack</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATECURE.RECIPEDESC
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATECURE.RECIPEDESC"
-msgid "A doctor-administered cure for moderate <link=\"DISEASE\">Diseases</link>. Medical Packs are very effective against <link=\"SLIMESICKNESS\">Slimelung</link>.\n\nMust be administered by a Duplicant with the <link=\"MEDICINE2\">Bedside Manner</link> Skill."
+msgid "A doctor-administered cure for moderate <link=\"DISEASE\">Diseases</link>. <link=\"INTERMEDIATECURE\">Medical Pack</link>s are very effective against <link=\"SLIMESICKNESS\">Slimelung</link>.\n\nMust be administered by a Duplicant with the <link=\"MEDICINE2\">Bedside Manner</link> Skill."
 msgstr ""
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATERADPILL.DESC
@@ -58335,7 +58480,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATERADPILL.NAME
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATERADPILL.NAME"
-msgid "Intermediate Rad Pill"
+msgid "<link=\"INTERMEDIATERADPILL\">Intermediate Rad Pill</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATERADPILL.RECIPEDESC
@@ -59170,7 +59315,7 @@ msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.INCOMINGPREHISTORICASTEROIDNOTIFICATION.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INCOMINGPREHISTORICASTEROIDNOTIFICATION.TOOLTIP"
-msgid "Incoming Asteroid: <b><color=#ff1111>DEMOLIOR</color></b>\n• Health: {0}\n• Time until impact: {1}\n\nCollision damage can be avoided by destroying <b><color=#ff1111>DEMOLIOR</color></b> with <link=\"LONGRANGEMISSILE\">Intracosmic Blastshot</link> before it makes contact"
+msgid "Incoming Asteroid: <b><color=#ff1111>DEMOLIOR</color></b>\n• Health: {0}/{1}\n• Time until impact: {2}\n\nCollision damage can be avoided by destroying <b><color=#ff1111>DEMOLIOR</color></b> with <link=\"LONGRANGEMISSILE\">Intracosmic Blastshot</link> before it makes contact"
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.INCREASEDEXPECTATIONS.NAME
@@ -59218,6 +59363,16 @@ msgctxt "STRINGS.MISC.NOTIFICATIONS.INVALIDCONSTRUCTIONLOCATION.TOOLTIP"
 msgid "These buildings cannot be constructed in the planned areas:"
 msgstr ""
 
+#. STRINGS.MISC.NOTIFICATIONS.LARGE_IMPACTOR_GEYSER_ERUPTION.NAME
+msgctxt "STRINGS.MISC.NOTIFICATIONS.LARGE_IMPACTOR_GEYSER_ERUPTION.NAME"
+msgid "Geyser Disturbed"
+msgstr ""
+
+#. STRINGS.MISC.NOTIFICATIONS.LARGE_IMPACTOR_GEYSER_ERUPTION.TOOLTIP
+msgctxt "STRINGS.MISC.NOTIFICATIONS.LARGE_IMPACTOR_GEYSER_ERUPTION.TOOLTIP"
+msgid "Demolior's collision has shook this asteroid's core provoking random eruptions from all natural vents"
+msgstr ""
+
 #. STRINGS.MISC.NOTIFICATIONS.LARGEIMPACTORREVEALSEQUENCE.RETICLE.CALCULATING_IMPACT_ZONE_TEXT
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LARGEIMPACTORREVEALSEQUENCE.RETICLE.CALCULATING_IMPACT_ZONE_TEXT"
 msgid "CALCULATING IMPACT ZONE..."
@@ -59230,7 +59385,7 @@ msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.LARGEIMPACTORREVEALSEQUENCE.RETICLE.SIDE_PANEL_DESCRIPTION
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LARGEIMPACTORREVEALSEQUENCE.RETICLE.SIDE_PANEL_DESCRIPTION"
-msgid "\n\nTIME UNTIL COLLISION: {0} CYCLES."
+msgid "\n\nTIME UNTIL IMPACT: {0} CYCLES."
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.LARGEIMPACTORREVEALSEQUENCE.RETICLE.SIDE_PANEL_TITLE
@@ -60210,7 +60365,7 @@ msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.LARGEIMPACTORSTATUS.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.LARGEIMPACTORSTATUS.NAME"
-msgid "Time until collision: {0}"
+msgid "Time until impact: {0}"
 msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.LARGEIMPACTORSTATUS.TOOLTIP
@@ -67905,7 +68060,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.RAPTOR.UTILITY
 msgctxt "STRINGS.SUBWORLDS.RAPTOR.UTILITY"
-msgid "<link=\"RAPTORSPECIES\">Rhexes</link> are carnivorous critters who prey primarily on <link=\"CHAMELEONSPECIES\">Dartles</link>. While both critters can be harvested for <link=\"FOOD\">Food</link>, their meat is too tough to be eaten raw.\n\nThis biome's flora includes the massive <link=\"DINOFERN\">Megafrond</link> which enjoys a <link=\"CHLORINEGAS\">Chlorine Gas</link> environment, the <link=\"DEWDRIPPERPLANT\">Dew Dripper</link> which can be processed into <link=\"MILK\">Brackene</link>, and the cooling <link=\"COLDBREATHER\">Wheezewort</link>.\n\nDuplicants working and living in this environment will require protective <link=\"EQUIPMENT\">equipment</link>."
+msgid "<link=\"RAPTORSPECIES\">Rhexes</link> are carnivorous critters who prey primarily on <link=\"CHAMELEONSPECIES\">Dartles</link>. While both critters can be harvested for <link=\"FOOD\">Food</link>, the <link=\"RAPTORSPECIES\">Rhexes'</link> meat is too tough to be eaten raw.\n\nThis biome's flora includes the massive <link=\"DINOFERN\">Megafrond</link> which enjoys a <link=\"CHLORINEGAS\">Chlorine Gas</link> environment, the <link=\"DEWDRIPPERPLANT\">Dew Dripper</link> which can be processed into <link=\"MILK\">Brackene</link>, and the cooling <link=\"COLDBREATHER\">Wheezewort</link>.\n\nDuplicants working and living in this environment will require protective <link=\"EQUIPMENT\">equipment</link>."
 msgstr ""
 
 #. STRINGS.SUBWORLDS.REGOLITH.DESC
@@ -68015,7 +68170,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.WETLANDS.DESC
 msgctxt "STRINGS.SUBWORLDS.WETLANDS.DESC"
-msgid "This hot, sticky biome features plentiful pools of <link=\"PHYTOOIL\">Phyto Oil</link>, <link=\"DIRTYWATER\">Polluted Water</link> and <link=\"SALTWATER\">Salt Water</link>."
+msgid "This hot, sticky biome features plentiful pools of <link=\"DIRTYWATER\">Polluted Water</link>, as well as raw ingredients useful in establishing industrial systems."
 msgstr ""
 
 #. STRINGS.SUBWORLDS.WETLANDS.NAME
@@ -68025,7 +68180,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.WETLANDS.UTILITY
 msgctxt "STRINGS.SUBWORLDS.WETLANDS.UTILITY"
-msgid "The carnivorous <link=\"FLYTRAPPLANT\">Lura Plant</link> traps airborne critters such as pesky <link=\"MOSQUITOSPECIES\">Gnits</link> and produces <link=\"AMBER\">Amber</link> that can be converted to <link=\"NATURALRESIN\">Resin</link> used for <link=\"POLYPROPYLENE\">Plastic</link> production.\n\nAquatic behemoths called <link=\"PREHISTORICPACUSPECIES\">Jawbos</link> prey on <link=\"PACUSPECIES\">Pacus</link> and excrete hefty chunks of <link=\"LIME\">Lime</link>.\n\nAttractive local foliage includes <link=\"KELPPLANT\">Seakombs</link>, which can be consumed by Duplicants or processed into <link=\"PHYTOOIL\">Phyto Oil</link>."
+msgid "The carnivorous <link=\"FLYTRAPPLANT\">Lura Plant</link> traps airborne critters such as pesky <link=\"MOSQUITOSPECIES\">Gnits</link> and produces <link=\"AMBER\">Amber</link> that can be converted to <link=\"NATURALRESIN\">Resin</link> used for <link=\"POLYPROPYLENE\">Plastic</link> production. Local foliage also includes <link=\"KELPPLANT\">Seakombs</link>, which can be processed into <link=\"PHYTOOIL\">Phyto Oil</link>.\n\nAquatic behemoths called <link=\"PREHISTORICPACUSPECIES\">Jawbos</link> prey on <link=\"PACUSPECIES\">Pacus</link> and excrete hefty chunks of <link=\"LIME\">Lime</link>."
 msgstr ""
 
 #. STRINGS.UI.ACTIONS
@@ -70211,6 +70366,11 @@ msgstr ""
 #. STRINGS.UI.CODEX.CATEGORYNAMES.MEDIA
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.MEDIA"
 msgid "<link=\"MEDIA\">Media</link>"
+msgstr ""
+
+#. STRINGS.UI.CODEX.CATEGORYNAMES.MEDICINES
+msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.MEDICINES"
+msgid "<link=\"MEDICINES\">Medicines</link>"
 msgstr ""
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.MINION_MODIFIERS
@@ -85705,7 +85865,7 @@ msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORS.LARGEIMACTOR.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORS.LARGEIMACTOR.DESCRIPTION"
-msgid "An ancient asteroid on a collision course with the surface of the asteroid.\n\nIts impact will be felt for generations to come."
+msgid "An ancient impactor asteroid on a collision course with the surface of this world."
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.CLUSTERMAPMETEORS.LARGEIMACTOR.NAME
