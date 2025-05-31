@@ -8280,7 +8280,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.CREATUREGROUNDTRAP.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CREATUREGROUNDTRAP.NAME"
-msgid "<link=\"CREATURETRAP\">Critter Trap</link>"
+msgid "<link=\"CREATUREGROUNDTRAP\">Critter Trap</link>"
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.CREATURETRAP.DESC
@@ -23463,6 +23463,21 @@ msgctxt "STRINGS.CODEX.FORMAT_STRINGS.TRANSITION_LABEL_TO_TWO_ELEMENTS"
 msgid "{0} to {1} and {2}"
 msgstr ""
 
+#. STRINGS.CODEX.GARDENDECORPLANT.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.GARDENDECORPLANT.BODY.CONTAINER1"
+msgid "Ring Rosebushes are decorative plants with circular blooms and bottom leaves reminiscent of cheery polka dots. A single prominent stamen protrudes from each flower, like a pin stuck into a map to mark a favorite destination."
+msgstr ""
+
+#. STRINGS.CODEX.GARDENDECORPLANT.SUBTITLE
+msgctxt "STRINGS.CODEX.GARDENDECORPLANT.SUBTITLE"
+msgid "Decor Plant"
+msgstr ""
+
+#. STRINGS.CODEX.GARDENDECORPLANT.TITLE
+msgctxt "STRINGS.CODEX.GARDENDECORPLANT.TITLE"
+msgid "Ring Rosebush"
+msgstr ""
+
 #. STRINGS.CODEX.GARDENFOODPLANT.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.GARDENFOODPLANT.BODY.CONTAINER1"
 msgid "The Sweatcorn Stalk is one of the oldest living members of the Zea genus.\n\nThis robust monopodial plant features eye-catching vegetable cobs prized for their color and intense sweetness.\n\nFarmers gift the best of their harvest to their most valued neighbors. Some etymologists theorize that the term \"corny\" was coined to describe the heartfelt sentiments expressed in the accompanying card."
@@ -23691,6 +23706,11 @@ msgstr ""
 #. STRINGS.CODEX.HEADERS.CONTENTLOCKED_SUBTITLE
 msgctxt "STRINGS.CODEX.HEADERS.CONTENTLOCKED_SUBTITLE"
 msgid "More research or exploration is required"
+msgstr ""
+
+#. STRINGS.CODEX.HEADERS.CRITTER_EXTRA_DIET_PRODUCTION
+msgctxt "STRINGS.CODEX.HEADERS.CRITTER_EXTRA_DIET_PRODUCTION"
+msgid "Additional Production"
 msgstr ""
 
 #. STRINGS.CODEX.HEADERS.CRITTERDROPS
@@ -24553,6 +24573,26 @@ msgctxt "STRINGS.CODEX.INVESTIGATIONS.DLC4_SEEPAGE.TITLE"
 msgid "Ground Seepage"
 msgstr ""
 
+#. STRINGS.CODEX.INVESTIGATIONS.DLC4_SURFACEPOI.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.INVESTIGATIONS.DLC4_SURFACEPOI.BODY.CONTAINER1"
+msgid "The Gravitas Facility has pledged to reduce the number of injuries caused by defunct spacecraft falling to Earth.\n\nThis announcement comes less than a month after historic class action lawsuits left two of the aerospace industry's biggest players reeling.\n\n\"For decades, this community has relied on objects landing in uninhabited areas or being incinerated by the Earth's atmosphere upon reentry,\" said Dr. Jacquelyn Stern, director of the facility. \"That's neither sustainable nor guaranteed.\"\n\nThe uncontrolled reentry of space debris accounts for almost a quarter of all accidental injuries around the world. That number is steadily rising as broadband satellite megaconstellations continue to expand.\n\n\"We're developing a way to break up large, at-risk space objects in the thermosphere so that our team can safely deorbit the remaining fragments.\" Dr. Stern explained.\n\nWhen asked about critiques that Gravitas might use this opportunity to obtain proprietary technology or undertake unauthorized satellite placement, Dr. Stern scoffed. \"Our only agenda is the protection and advancement of the human species.\"\n\nA live-streamed press conference is scheduled for the end of this week."
+msgstr ""
+
+#. STRINGS.CODEX.INVESTIGATIONS.DLC4_SURFACEPOI.BODY.TITLE2
+msgctxt "STRINGS.CODEX.INVESTIGATIONS.DLC4_SURFACEPOI.BODY.TITLE2"
+msgid "<b>Gravitas Vows Space Junk Solution</b>"
+msgstr ""
+
+#. STRINGS.CODEX.INVESTIGATIONS.DLC4_SURFACEPOI.SUBTITLE
+msgctxt "STRINGS.CODEX.INVESTIGATIONS.DLC4_SURFACEPOI.SUBTITLE"
+msgid "ENCRYPTION LEVEL: NONE"
+msgstr ""
+
+#. STRINGS.CODEX.INVESTIGATIONS.DLC4_SURFACEPOI.TITLE
+msgctxt "STRINGS.CODEX.INVESTIGATIONS.DLC4_SURFACEPOI.TITLE"
+msgid "Environmental Pledge"
+msgstr ""
+
 #. STRINGS.CODEX.JOURNALISTREQUEST.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.JOURNALISTREQUEST.BODY.CONTAINER1"
 msgid "<indent=5%>Dear colleagues, friends and community members,\n\nAfter nine deeply fulfilling years as editor of The STEM Scoop, I am stepping down to spend more time with my family.\n\nPlease give a warm welcome to Dorian Hearst, who will be taking over editorial management duties effective immediately.</indent>"
@@ -24610,7 +24650,7 @@ msgstr ""
 
 #. STRINGS.CODEX.JUMPINGJOYA.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.JUMPINGJOYA.BODY.CONTAINER1"
-msgid "The Jumping Joya is a decorative plant that brings a feeling of calmness and wellbeing to individuals in its vacinity.\n\nTheir rounded appendages and eccentrically shaped polyps are a favorite of interior designers looking to offset the rigid straight walls of an institutional setting.\n\nThe Jumping Joya's capacity to thrive in many environments and the ease in which they propagate make them the go-to house plant for the lazy gardener."
+msgid "The Jumping Joya is a decorative plant that brings a feeling of calmness and wellbeing to individuals in its vicinity.\n\nTheir rounded appendages and eccentrically shaped polyps are a favorite of interior designers looking to offset the rigid straight walls of an institutional setting.\n\nThe Jumping Joya's capacity to thrive in many environments and the ease in which they propagate make them the go-to house plant for the lazy gardener."
 msgstr ""
 
 #. STRINGS.CODEX.JUMPINGJOYA.SUBTITLE
@@ -28280,7 +28320,7 @@ msgstr ""
 
 #. STRINGS.CODEX.VINEMOTHER.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.VINEMOTHER.BODY.CONTAINER1"
-msgid "Ovagros are resilient plants with highly efficient nutrient storage and redistribution systems. A healthy node produces many times the amount of energy that it requires. This is used to fuel the growth of exploratory vines that expand onto the surrounding territory.\n\nVines are entirely reliant on the node for nutrients. Each vine features hooked thorns that protect unripe fruit and act as crampons enabling the vine to use any empty surface as a trellis. They also make vine removal a tedious task.\n\nIf there is insufficient room for expansion, the node hoards surplus nutrients in specialized cells where they lay dormant until conditions are more favorable."
+msgid "Ovagros are resilient plants with highly efficient nutrient storage and redistribution systems. A healthy node produces many times the amount of energy that it requires. This is used to fuel the growth of exploratory vines that expand onto the surrounding territory.\n\nVines are entirely reliant on the node for nutrients. Each vine features hooked thorns that protect unripe fruit and act as crampons enabling the vine to use any empty surface as a trellis. They also make vine removal a tedious task."
 msgstr ""
 
 #. STRINGS.CODEX.VINEMOTHER.SUBTITLE
@@ -30520,7 +30560,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.MODIFIERS.HUNT_FAILED.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.HUNT_FAILED.TOOLTIP"
-msgid "This critter failed to catch a prey critter\n\nIt will fare better with elderly targets"
+msgid "This critter failed to catch a prey critter\n\nIt will fare better with elderly or  <style=\"KKeyword\">Tame</style> targets"
 msgstr ""
 
 #. STRINGS.CREATURES.MODIFIERS.ICEBELLYWELLFED.NAME
@@ -31425,7 +31465,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.GARDENDECORPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GARDENDECORPLANT.DESC"
-msgid "Ring Rosebushes are <link=\"DECOR\">Decorative</link> <link=\"PLANTS\">Plants</link> that add a touch of elegance wherever they are planted."
+msgid "Ring Rosebushes are <link=\"DECOR\">Decorative</link> <link=\"PLANTS\">Plants</link> that add a touch of whimsy wherever they are planted."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.GARDENDECORPLANT.DOMESTICATEDDESC
@@ -33040,7 +33080,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.GARDENDECORPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.GARDENDECORPLANT.DESC"
-msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"GARDENDECORPLANT\">Ring Rosebush</link>.\n\nDigging up Buried Objects may uncover a Ring Rosebush Seed."
+msgid "The <link=\"PLANTS\">Seed</link> of a <link=\"GARDENDECORPLANT\">Ring Rosebush</link>.\n\nDigging up Buried Objects may uncover a Rosebush Seed."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.GARDENDECORPLANT.NAME
@@ -49335,7 +49375,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.BLEACHSTONE.DESC
 msgctxt "STRINGS.ELEMENTS.BLEACHSTONE.DESC"
-msgid "Bleach stone is an unstable compound that emits unbreathable <link=\"CHLORINEGAS\">Chlorine Gas</link>.\n\nIt is useful in <link=\"HYGIENE\">Hygienic</link> processes."
+msgid "Bleach stone is an unstable compound that emits unbreathable <link=\"CHLORINEGAS\">Chlorine Gas</link>.\n\nIt is often used in <link=\"HANDSANITIZER\">Hygienic</link> processes."
 msgstr ""
 
 #. STRINGS.ELEMENTS.BLEACHSTONE.NAME
@@ -57570,7 +57610,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.PREHISTORICPACUFILLET.DESC
 msgctxt "STRINGS.ITEMS.FOOD.PREHISTORICPACUFILLET.DESC"
-msgid "An uncooked fillet from a very dead <link=\"PREHISTORICPACU\">Jawbo</link>. It's edible, but only just barely."
+msgid "An uncooked fillet from a very dead <link=\"PREHISTORICPACU\">Jawbo</link>. It has a silky texture."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.PREHISTORICPACUFILLET.NAME
@@ -59365,12 +59405,12 @@ msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.LARGE_IMPACTOR_GEYSER_ERUPTION.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LARGE_IMPACTOR_GEYSER_ERUPTION.NAME"
-msgid "Geyser Disturbed"
+msgid "Geyser triggered"
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.LARGE_IMPACTOR_GEYSER_ERUPTION.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LARGE_IMPACTOR_GEYSER_ERUPTION.TOOLTIP"
-msgid "Demolior's collision has shook this asteroid's core provoking random eruptions from all natural vents"
+msgid "Demolior's impact has triggered the eruption of a natural vent on this world"
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.LARGEIMPACTORREVEALSEQUENCE.RETICLE.CALCULATING_IMPACT_ZONE_TEXT
@@ -59645,7 +59685,7 @@ msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.POIRESEARCHUNLOCKCOMPLETE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.POIRESEARCHUNLOCKCOMPLETE.NAME"
-msgid "Research Discovered"
+msgid "Portal Unlocked!"
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.POIRESEARCHUNLOCKCOMPLETE.TOOLTIP
@@ -59660,7 +59700,7 @@ msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.POIRESEARCHUNLOCKCOMPLETE_NOLORE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.POIRESEARCHUNLOCKCOMPLETE_NOLORE.NAME"
-msgid "Research Discovered"
+msgid "Portal Unlocked!"
 msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.POIRESEARCHUNLOCKCOMPLETE_NOLORE.TOOLTIP
@@ -60895,7 +60935,7 @@ msgstr ""
 
 #. STRINGS.MISC.TAGS.BUILDINGFIBER
 msgctxt "STRINGS.MISC.TAGS.BUILDINGFIBER"
-msgid "<link=\"BUILDINGFIBER\">Fiber</link>"
+msgid "<link=\"BUILDINGFIBER\">Fibers</link>"
 msgstr ""
 
 #. STRINGS.MISC.TAGS.BUILDINGFIBER_DESC
@@ -61505,7 +61545,17 @@ msgstr ""
 
 #. STRINGS.MISC.TAGS.SUBLIMATING
 msgctxt "STRINGS.MISC.TAGS.SUBLIMATING"
-msgid "Sublimators"
+msgid "<link=\"SUBLIMATES\">Sublimators</link>"
+msgstr ""
+
+#. STRINGS.MISC.TAGS.SUBLIMATING_DESC
+msgctxt "STRINGS.MISC.TAGS.SUBLIMATING_DESC"
+msgid "Sublimators are a class of <link=\"ELEMENTSSOLID\">Solid</link> elements that passively convert to a <link=\"ELEMENTSGAS\">Gaseous</link> state. When off-gassing is complete, no trace of the original solid remains.\n\nThis passive conversion persists when the element is left in storage."
+msgstr ""
+
+#. STRINGS.MISC.TAGS.SUBLIMATING_SUBHEADER
+msgctxt "STRINGS.MISC.TAGS.SUBLIMATING_SUBHEADER"
+msgid "Off-Gassing Elements"
 msgstr ""
 
 #. STRINGS.MISC.TAGS.SUIT
@@ -68508,14 +68558,19 @@ msgctxt "STRINGS.UI.BUILDINGEFFECTS.BATTERYLEAK"
 msgid "<link=\"POWER\">Power</link> leak: {0}"
 msgstr ""
 
-#. STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_LURE
-msgctxt "STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_LURE"
-msgid "Capture Method: Lures"
+#. STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_FISH_TRAP
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_FISH_TRAP"
+msgid "Capture Method: Fish Trap"
 msgstr ""
 
-#. STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_TRAP
-msgctxt "STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_TRAP"
-msgid "Capture Method: Traps"
+#. STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_FLYING_TRAP
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_FLYING_TRAP"
+msgid "Capture Method: Airborne Critter Trap"
+msgstr ""
+
+#. STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_LAND_TRAP
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_LAND_TRAP"
+msgid "Capture Method: Critter Trap"
 msgstr ""
 
 #. STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_WRANGLE
@@ -68536,6 +68591,11 @@ msgstr ""
 #. STRINGS.UI.BUILDINGEFFECTS.DECORPROVIDED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.DECORPROVIDED"
 msgid "<link=\"DECOR\">Decor</link>: {1} (Radius: {2} tiles)"
+msgstr ""
+
+#. STRINGS.UI.BUILDINGEFFECTS.DIET_ADDITIONAL_PRODUCED
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.DIET_ADDITIONAL_PRODUCED"
+msgid "Additional Excretion: {Items}"
 msgstr ""
 
 #. STRINGS.UI.BUILDINGEFFECTS.DIET_CONSUMED
@@ -69078,14 +69138,19 @@ msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.BUILDINGROOMREQUIREMENTCLASS"
 msgid "This category of building may be required or prohibited in certain <style=\"KKeyword\">Rooms</style>"
 msgstr ""
 
-#. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_LURE
-msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_LURE"
-msgid "This critter can be moved using an <link=\"AIRBORNECREATURELURE\">Airborne Critter Lure</link>"
+#. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_FISH_TRAP
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_FISH_TRAP"
+msgid "This critter can be captured and moved using a <link=\"FISHTRAP\">Fish Trap</link>"
+msgstr ""
+
+#. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_FLYING_TRAP
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_FLYING_TRAP"
+msgid "This critter can be captured and moved using an <link=\"FLYINGCREATUREBAIT\">Airborne Critter Trap</link>"
 msgstr ""
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_TRAP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_TRAP"
-msgid "This critter can be captured using a <link=\"CREATURETRAP\">Critter Trap</link>"
+msgid "This critter can be captured and moved using a <link=\"CREATURETRAP\">Critter Trap</link>"
 msgstr ""
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.CAPTURE_METHOD_WRANGLE
@@ -69106,6 +69171,11 @@ msgstr ""
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DECORPROVIDED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DECORPROVIDED"
 msgid "Improves <style=\"KKeyword\">Decor</style> values by <b><b>{0}</b></b> in a <b>{1}</b> tile radius"
+msgstr ""
+
+#. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_ADDITIONAL_PRODUCED
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_ADDITIONAL_PRODUCED"
+msgid "This critter will produces extra {Items} after eating."
 msgstr ""
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_CONSUMED
@@ -70326,6 +70396,11 @@ msgstr ""
 #. STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTSSOLID
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTSSOLID"
 msgid "<link=\"ELEMENTSSOLID\">Solids</link>"
+msgstr ""
+
+#. STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTTYPE
+msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTTYPE"
+msgid "<link=\"ELEMENTSTYPE\">Element Properties</link>"
 msgstr ""
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.EMAILS
@@ -86303,6 +86378,16 @@ msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.DLC4IMPACTORDEBRISFIELD3.N
 msgid "Molten Demolior Debris"
 msgstr ""
 
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.DLC4PREHISTORICMIXINGFIELD.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.DLC4PREHISTORICMIXINGFIELD.DESC"
+msgid "An asteroid field containing <link=\"NICKELORE\">Nickel Ore</link>, <link=\"PEAT\">Peat</link>, <link=\"AMBER\">Amber</link> and <link=\"SHALE\">Shale</link>.\n\nHarvesting resources requires a rocket equipped with a <link=\"NOSECONEHARVEST\">Drillcone</link>."
+msgstr ""
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.DLC4PREHISTORICMIXINGFIELD.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.DLC4PREHISTORICMIXINGFIELD.NAME"
+msgid "Conductive Ore Field"
+msgstr ""
+
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.DLC4PREHISTORICOREFIELD.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.DLC4PREHISTORICOREFIELD.DESC"
 msgid "The harvestable remains of a planet containing <link=\"NICKELORE\">Nickel Ore</link>, <link=\"PEAT\">Peat</link>, <link=\"AMBER\">Amber</link> and <link=\"SHALE\">Shale</link>.\n\nHarvesting resources requires a rocket equipped with a <link=\"NOSECONEHARVEST\">Drillcone</link>."
@@ -94660,12 +94745,12 @@ msgstr ""
 
 #. STRINGS.UI.USERMENUACTIONS.OPEN_TECHUNLOCKS.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.OPEN_TECHUNLOCKS.NAME"
-msgid "Unlock Research"
+msgid "Unlock Portal"
 msgstr ""
 
 #. STRINGS.UI.USERMENUACTIONS.OPEN_TECHUNLOCKS.NAME_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.OPEN_TECHUNLOCKS.NAME_OFF"
-msgid "Cancel Unlock Research"
+msgid "Cancel Unlock Portal"
 msgstr ""
 
 #. STRINGS.UI.USERMENUACTIONS.OPEN_TECHUNLOCKS.TOOLTIP
@@ -94680,7 +94765,7 @@ msgstr ""
 
 #. STRINGS.UI.USERMENUACTIONS.OPEN_TECHUNLOCKS.TOOLTIP_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.OPEN_TECHUNLOCKS.TOOLTIP_OFF"
-msgid "Cancel this research access order"
+msgid "Cancel this portal access order"
 msgstr ""
 
 #. STRINGS.UI.USERMENUACTIONS.OPENPOI.ALREADY_RUMMAGED
