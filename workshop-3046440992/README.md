@@ -7,7 +7,7 @@
 
 此為古靈精怪的 [字型模組](https://steamcommunity.com/sharedfiles/filedetails/?id=2119648603) 改良版，本包的原始碼請參考 [GitHub](https://github.com/DolphinWing/DstTranslate/tree/master/workshop-3046440992)
 
-手動更換字型檔的步驟
+#### 手動更換字型檔的步驟
 - 安裝 Unity 2018.4.x 和 TextMesh Pro 1.2.3，並匯出字型素材。
   - 參考 qbane 寫的 [README](https://github.com/qbane/ONI-Mods)。
 - 將字型素材放到 Steam 模組的資料夾。(以 Windows 系統為例：我的文件/Klei/OxygenNotIncluded/mods/Steam/3046440992。)
@@ -16,7 +16,7 @@
 - 修改 [config.json](config.json) 裡面 filename 指定的檔案。
 - 重新打開遊戲。如果有載入指定的字型就會看到，否則會載入模組內預設的版本。
 
-參考資料：
+#### 參考資料：
 * 古靈精怪 [字型模組](https://steamcommunity.com/workshop/filedetails/?id=2119648603) & [GitHub](https://github.com/dershiuan/ONI-Mods/tree/v2.0.4/FontLoader)
 * qbane Reddit Post [Made a font loader mod available on Linux and macOS](https://www.reddit.com/r/Oxygennotincluded/comments/orijbl/made_a_font_loader_mod_available_on_linux_and/) and [GitHub](https://github.com/qbane/ONI-Mods)
 * miZyind [正體中文字體用語翻譯包](https://steamcommunity.com/sharedfiles/filedetails/?id=2070840646) 的 [討論版](https://steamcommunity.com/workshop/filedetails/discussion/2070840646/3044978964803635873)
