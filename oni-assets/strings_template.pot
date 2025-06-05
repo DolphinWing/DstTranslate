@@ -53,6 +53,11 @@ msgctxt "STRINGS.BLUEPRINTS.OUTFIT_SCOUT.NAME"
 msgid "Explorer Outfit"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.OUTFIT_SUSPENDERS.NAME
+msgctxt "STRINGS.BLUEPRINTS.OUTFIT_SUSPENDERS.NAME"
+msgid "Suspenders/Ribbed Rust Sweater Outfit"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.OUTFIT_TOP_FLANNEL_BLACK.NAME
 msgctxt "STRINGS.BLUEPRINTS.OUTFIT_TOP_FLANNEL_BLACK.NAME"
 msgid "Monochrome Flannel Outfit"
@@ -153,6 +158,11 @@ msgctxt "STRINGS.BLUEPRINTS.OUTFIT_TOP_HOCKEY_12.NAME"
 msgid "Rookie Outfit"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.OUTFIT_WADER.NAME
+msgctxt "STRINGS.BLUEPRINTS.OUTFIT_WADER.NAME"
+msgid "Wader Outfit"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_3TONE_PURPLE.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_3TONE_PURPLE.DESC"
 msgid "Complementary colors garner countless compliments."
@@ -173,6 +183,16 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_80S.NAME"
 msgid "Fannypack Atmo Belt"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_CHAMELEO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_CHAMELEO.DESC"
+msgid "An atmo belt inspired by the most unbothered critter on the planetoid."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_CHAMELEO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_CHAMELEO.NAME"
+msgid "Dartle Atmo Belt"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_CIRCUIT.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_CIRCUIT.DESC"
 msgid "The belt itself is not bionic, but the Duplicant wearing it probably is."
@@ -181,6 +201,36 @@ msgstr ""
 #. STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_CIRCUIT.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_CIRCUIT.NAME"
 msgid "Bionic Atmo Belt"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_PACULACANTH.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_PACULACANTH.DESC"
+msgid "An atmo belt inspired by an aquatic behemoth."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_PACULACANTH.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_PACULACANTH.NAME"
+msgid "Jawbo Atmo Belt"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_RAPTOR.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_RAPTOR.DESC"
+msgid "An atmo belt inspired by the mighty apex predator."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_RAPTOR.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_RAPTOR.NAME"
+msgid "Rhex Atmo Belt"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_STEGO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_STEGO.DESC"
+msgid "An atmo belt inspired by the blissfully blank herbivore."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_STEGO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_BELT_STEGO.NAME"
+msgid "Lumb Atmo Belt"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_80S.DESC
@@ -203,6 +253,26 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_BIOCIRCUIT.NAME"
 msgid "Bionic Atmo Gloves"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_CHAMELEO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_CHAMELEO.DESC"
+msgid "The added fingertip seams are a sensory nightmare for some."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_CHAMELEO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_CHAMELEO.NAME"
+msgid "Dartle Atmo Gloves"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_PACULACANTH.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_PACULACANTH.DESC"
+msgid "Now with webbed fingers!"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_PACULACANTH.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_PACULACANTH.NAME"
+msgid "Jawbo Atmo Gloves"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_PLUM.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_PLUM.DESC"
 msgid "Purpley-reddish gloves for hostile environments."
@@ -211,6 +281,26 @@ msgstr ""
 #. STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_PLUM.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_PLUM.NAME"
 msgid "Plum Atmo Gloves"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_RAPTOR.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_RAPTOR.DESC"
+msgid "Wiggling the fingers makes the feathers rustle."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_RAPTOR.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_RAPTOR.NAME"
+msgid "Rhex Atmo Gloves"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_STEGO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_STEGO.DESC"
+msgid "These gloves are the epitome of \"heavy-handed\"."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_STEGO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_GLOVES_STEGO.NAME"
+msgid "Lumb Atmo Gloves"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_80S.DESC
@@ -233,6 +323,16 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_BIOCIRCUIT.NAME"
 msgid "Bionic Atmo Helmet"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_CHAMELEO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_CHAMELEO.DESC"
+msgid "Pranksters often spear small items on one of the horns and see how long it takes the wearer to notice."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_CHAMELEO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_CHAMELEO.NAME"
+msgid "Dartle Atmo Helmet"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_GAUDYSWEATER_PURPLE.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_GAUDYSWEATER_PURPLE.DESC"
 msgid "Makes facial features appear farther away."
@@ -241,6 +341,36 @@ msgstr ""
 #. STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_GAUDYSWEATER_PURPLE.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_GAUDYSWEATER_PURPLE.NAME"
 msgid "Deepset Atmo Helmet"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_PACULACANTH.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_PACULACANTH.DESC"
+msgid "The official helmet of the hangry space explorer."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_PACULACANTH.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_PACULACANTH.NAME"
+msgid "Jawbo Atmo Helmet"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_RAPTOR.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_RAPTOR.DESC"
+msgid "Warning: do not headbutt colleagues while wearing this helmet."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_RAPTOR.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_RAPTOR.NAME"
+msgid "Rhex Atmo Helmet"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_STEGO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_STEGO.DESC"
+msgid "Listen, it's not about looking smart. Or being smart. Or...what was the question?"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_STEGO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_HELMET_STEGO.NAME"
+msgid "Lumb Atmo Helmet"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_ATMO_SHOES_80S.DESC
@@ -263,6 +393,46 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_SHOES_BIOCIRCUIT.NAME"
 msgid "Bionic Atmo Boots"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_SHOES_CHAMELEO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_SHOES_CHAMELEO.DESC"
+msgid "For meandering safely through hostile environments."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_SHOES_CHAMELEO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_SHOES_CHAMELEO.NAME"
+msgid "Dartle Atmo Boots"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_SHOES_PACULACANTH.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_SHOES_PACULACANTH.DESC"
+msgid "They're always a bit damp. But they work!"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_SHOES_PACULACANTH.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_SHOES_PACULACANTH.NAME"
+msgid "Jawbo Atmo Boots"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_SHOES_RAPTOR.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_SHOES_RAPTOR.DESC"
+msgid "The official protective footwear of the apex predator."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_SHOES_RAPTOR.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_SHOES_RAPTOR.NAME"
+msgid "Rhex Atmo Boots"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_SHOES_STEGO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_SHOES_STEGO.DESC"
+msgid "Weighted boots built to clomp through extreme environments."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMO_SHOES_STEGO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMO_SHOES_STEGO.NAME"
+msgid "Lumb Atmo Boots"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_80S.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_80S.DESC"
 msgid "It's truly excellent, dude."
@@ -283,6 +453,46 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_BASIC_PURPLE_WILDBERRY.NAME"
 msgid "Crisp Violet Atmo Suit"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_CHAMELEO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_CHAMELEO.DESC"
+msgid "Slow and steady wins the (space) race, right?"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_CHAMELEO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_CHAMELEO.NAME"
+msgid "Dartle Atmo Suit"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_PACULACANTH.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_PACULACANTH.DESC"
+msgid "It makes the wearer feel like a <i>very</i> big fish in a small pond."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_PACULACANTH.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_PACULACANTH.NAME"
+msgid "Jawbo Atmo Suit"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_RAPTOR.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_RAPTOR.DESC"
+msgid "Each feather was painstakingly secured to the suit fabric by hand."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_RAPTOR.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_RAPTOR.NAME"
+msgid "Rhex Atmo Suit"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_STEGO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_STEGO.DESC"
+msgid "The tail attachment has a tendency to knock things over."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_STEGO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_STEGO.NAME"
+msgid "Lumb Atmo Suit"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_BED_COTTAGE.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_COTTAGE.DESC"
 msgid "Little scraps of textile waste make a cozy bedcover when they're stapled together by hand."
@@ -301,6 +511,46 @@ msgstr ""
 #. STRINGS.BLUEPRINTS.PERMIT_BED_JORGE.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_JORGE.NAME"
 msgid "<link=\"BED\">DIY Cot</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_BED_MIMICA.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_MIMICA.DESC"
+msgid "A good night's rest can be truly transformative."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_BED_MIMICA.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_MIMICA.NAME"
+msgid "<link=\"BED\">Mimika Cot</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_BED_PACULACANTH.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_PACULACANTH.DESC"
+msgid "The distant echoes of a polluted water pond lull the mind to sleep."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_BED_PACULACANTH.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_PACULACANTH.NAME"
+msgid "<link=\"BED\">Jawbo Cot</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_BED_RAPTOR.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_RAPTOR.DESC"
+msgid "Sink into this feather bed and dream of being at the top of the food chain."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_BED_RAPTOR.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_RAPTOR.NAME"
+msgid "<link=\"BED\">Rhex Cot</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_BED_ROCK.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_ROCK.DESC"
+msgid "Who ordered the extra-extra-extra-firm mattress?"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_BED_ROCK.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_ROCK.NAME"
+msgid "<link=\"BED\">Stone Cot</link>"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_COOKINGSTATION_COTTAGE.DESC
@@ -373,6 +623,76 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_FLOORLAMP_COTTAGE.NAME"
 msgid "<link=\"FLOORLAMP\">Storytime Lamp</link>"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE.DESC"
+msgid "permit_fossilsculpture description"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE.NAME"
+msgid "permit_fossilsculpture name"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_HANGING.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_HANGING.DESC"
+msgid "permit_fossilsculpture_hanging description"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_HANGING.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_HANGING.NAME"
+msgid "permit_fossilsculpture_hanging name"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_IDLE_JAWBO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_IDLE_JAWBO.DESC"
+msgid "It is safe to say that no critter ever mocked the Jawbo for having four eyes."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_IDLE_JAWBO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_IDLE_JAWBO.NAME"
+msgid "The Dangler"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_IDLE_RHEX.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_IDLE_RHEX.DESC"
+msgid "This display model's open jaw makes it an unsuitable shape for after-hours bowling."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_IDLE_RHEX.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_IDLE_RHEX.NAME"
+msgid "Roar O'Saurus"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_IDLE_SHELLONOIDIS.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_IDLE_SHELLONOIDIS.DESC"
+msgid "It's unclear whether this sculpture is based on a long-extinct creature, or a very vivid dream."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_IDLE_SHELLONOIDIS.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_IDLE_SHELLONOIDIS.NAME"
+msgid "Uncanny Carapace"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_IDLE_STEGO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_IDLE_STEGO.DESC"
+msgid "Some Duplicants like to crawl into this Lumb sculpture and run a spoon over the ribs like a musical instrument."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_IDLE_STEGO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_IDLE_STEGO.NAME"
+msgid "Pointy Plates"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GENERATORMANUAL_ROCK.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GENERATORMANUAL_ROCK.DESC"
+msgid "It gets off to a rocky start, but it works so well that there's no point reinventing it."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GENERATORMANUAL_ROCK.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GENERATORMANUAL_ROCK.NAME"
+msgid "<link=\"MANUALGENERATOR\">Rustic Manual Generator</link>"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_GLOVES_BASIC_BLUE_WHEEZEWORT.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_BASIC_BLUE_WHEEZEWORT.DESC"
 msgid "A good, solid pair of blue gloves that go with everything."
@@ -393,14 +713,24 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_BASIC_BROWN.NAME"
 msgid "Basic Frass Gloves"
 msgstr ""
 
-#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_BASIC_MOSS.DESC
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_BASIC_MOSS.DESC"
-msgid "A good, solid pair of greenish-brown gloves that go with everything."
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_BASIC_GRIME.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_BASIC_GRIME.DESC"
+msgid "A good, solid pair of brown gloves that go with everything."
 msgstr ""
 
-#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_BASIC_MOSS.NAME
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_BASIC_MOSS.NAME"
-msgid "Basic Spleenwort Gloves"
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_BASIC_GRIME.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_BASIC_GRIME.NAME"
+msgid "Basic Grime Gloves"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_CUFFLESS_SHINY_ALGAE.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_CUFFLESS_SHINY_ALGAE.DESC"
+msgid "For the Duplicant who thinks \"Geiger counter\" is the academic term for counting on one's fingers."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GLOVES_CUFFLESS_SHINY_ALGAE.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GLOVES_CUFFLESS_SHINY_ALGAE.NAME"
+msgid "Geiger Glovelets"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_GLOVES_FUTURESPACE_BLUE.DESC
@@ -1063,6 +1393,26 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_LOGIC_XOR_LIGHTCOBALT.NAME"
 msgid "<link=\"LOGICGATEXOR\">Cobalt XOR Gate</link>"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.PERMIT_MASSEUR_PREHISTORIC.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MASSEUR_PREHISTORIC.DESC"
+msgid "Reflexology for the whole body!"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MASSEUR_PREHISTORIC.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MASSEUR_PREHISTORIC.NAME"
+msgid "<link=\"MASSAGETABLE\">Foot Massage Table</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MILKPRESS_STEGO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MILKPRESS_STEGO.DESC"
+msgid "Perhaps this was the Lumb's true calling?"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MILKPRESS_STEGO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MILKPRESS_STEGO.NAME"
+msgid "<link=\"MILKPRESS\">Prehistoric Plant Pulverizer</link>"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_BLACK_SMOG.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_BLACK_SMOG.DESC"
 msgid "Keeps fingers snuggled up next to each other, as nature intended."
@@ -1373,6 +1723,26 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_PANTS_SNAPJACKET_BRINE.NAME"
 msgid "Tear-Away Pants"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.PERMIT_PANTS_SUSPENDERS_FRASS.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_PANTS_SUSPENDERS_FRASS.DESC"
+msgid "The suspenders are made from reconstituted wood pulp. They're not stretchy."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_PANTS_SUSPENDERS_FRASS.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_PANTS_SUSPENDERS_FRASS.NAME"
+msgid "Arbor Hugger Pants"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_PANTS_WADER_ALGAE.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_PANTS_WADER_ALGAE.DESC"
+msgid "Hydrophobic high-waisted pants that also double as protective dinnerwear for messy eaters."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_PANTS_WADER_ALGAE.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_PANTS_WADER_ALGAE.NAME"
+msgid "Fishing Waders"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_PEDESTAL_ARCADE.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_PEDESTAL_ARCADE.DESC"
 msgid "It's playful, though it can't actually <i>be</i> played."
@@ -1423,6 +1793,36 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_PJ_BIOCIRCUIT_WILDBERRY.NAME"
 msgid "Bionic Jammies"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.PERMIT_PJ_DINO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_PJ_DINO.DESC"
+msgid "Pajamas for the sleepy paleontology buffs in the colony."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_PJ_DINO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_PJ_DINO.NAME"
+msgid "Jurassic Jammies"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_PJ_DINO2.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_PJ_DINO2.DESC"
+msgid "permit_pj_dino2 description"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_PJ_DINO2.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_PJ_DINO2.NAME"
+msgid "permit_pj_dino2 name"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_PJ_DINO3.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_PJ_DINO3.DESC"
+msgid "permit_pj_dino3 description"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_PJ_DINO3.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_PJ_DINO3.NAME"
+msgid "permit_pj_dino3 name"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_RANCHERSTATION_COTTAGE.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_RANCHERSTATION_COTTAGE.DESC"
 msgid "Some ranchers believe that a woodsy aesthetic puts critters at ease."
@@ -1431,6 +1831,16 @@ msgstr ""
 #. STRINGS.BLUEPRINTS.PERMIT_RANCHERSTATION_COTTAGE.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_RANCHERSTATION_COTTAGE.NAME"
 msgid "<link=\"RANCHSTATION\">Rustic Grooming Station</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_RANCHERSTATION_DINO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_RANCHERSTATION_DINO.DESC"
+msgid "These hardy plants survive on the small amounts of drool produced by happy critters during grooming sessions."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_RANCHERSTATION_DINO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_RANCHERSTATION_DINO.NAME"
+msgid "<link=\"RANCHSTATION\">Overgrown Grooming Station</link>"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_RESEARCH_CENTER_CYBERPUNK.DESC
@@ -1451,46 +1861,6 @@ msgstr ""
 #. STRINGS.BLUEPRINTS.PERMIT_RESEARCH_CENTER2_CYBERPUNK.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_RESEARCH_CENTER2_CYBERPUNK.NAME"
 msgid "<link=\"ADVANCEDRESEARCHCENTER\">Retro LED Super Computer</link>"
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_SCULPTURE_FOSSIL_CEILING_JAWBO.DESC
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_SCULPTURE_FOSSIL_CEILING_JAWBO.DESC"
-msgid "It is safe to say that no critter ever mocked the Jawbo for having four eyes."
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_SCULPTURE_FOSSIL_CEILING_JAWBO.NAME
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_SCULPTURE_FOSSIL_CEILING_JAWBO.NAME"
-msgid "The Dangler"
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_SCULPTURE_FOSSIL_CEILING_SHELLONOIDIS.DESC
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_SCULPTURE_FOSSIL_CEILING_SHELLONOIDIS.DESC"
-msgid "It's unclear whether this sculpture is based on a long-extinct creature, or a very vivid dream."
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_SCULPTURE_FOSSIL_CEILING_SHELLONOIDIS.NAME
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_SCULPTURE_FOSSIL_CEILING_SHELLONOIDIS.NAME"
-msgid "Uncanny Carapace"
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_SCULPTURE_FOSSIL_RHEX.DESC
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_SCULPTURE_FOSSIL_RHEX.DESC"
-msgid "This display model's open jaw makes it an unsuitable shape for after-hours bowling."
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_SCULPTURE_FOSSIL_RHEX.NAME
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_SCULPTURE_FOSSIL_RHEX.NAME"
-msgid "Roar O'Saurus"
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_SCULPTURE_FOSSIL_STEGO.DESC
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_SCULPTURE_FOSSIL_STEGO.DESC"
-msgid "Some Duplicants like to crawl into this Lumb sculpture and run a spoon over the ribs like a musical instrument."
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_SCULPTURE_FOSSIL_STEGO.NAME
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_SCULPTURE_FOSSIL_STEGO.NAME"
-msgid "Pointy Plates"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_SCULPTURE_WOOD_AMAZING_ACTION_GULP.DESC
@@ -1601,6 +1971,16 @@ msgstr ""
 #. STRINGS.BLUEPRINTS.PERMIT_SHOES_BASIC_BLUE_WHEEZY.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_SHOES_BASIC_BLUE_WHEEZY.NAME"
 msgid "Basic Wheezy Shoes"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_SHOES_BASIC_FRASS.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_SHOES_BASIC_FRASS.DESC"
+msgid "A fresh pair of brown shoes that go with everything."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_SHOES_BASIC_FRASS.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_SHOES_BASIC_FRASS.NAME"
+msgid "Basic Frass Shoes"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_SHOES_FUTURESPACE_BLUE.DESC
@@ -1903,6 +2283,26 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_SPACETOP_WHITE.NAME"
 msgid "Space Expo Shirt"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_SWEATER_RIBBED_RUST.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_SWEATER_RIBBED_RUST.DESC"
+msgid "The ribbed knit gets snagged on the tree trunk every single time."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_SWEATER_RIBBED_RUST.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_SWEATER_RIBBED_RUST.NAME"
+msgid "Arbor Hugger Sweater"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_SWEATER_WADER_LTBLUE.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_SWEATER_WADER_LTBLUE.DESC"
+msgid "It doesn't retain heat, but it shows fish that they're dealing with a pro."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_TOP_SWEATER_WADER_LTBLUE.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_SWEATER_WADER_LTBLUE.NAME"
+msgid "Woolly Fishing Sweater"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_TOP_VEST_PUFFER_ORANGE.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_TOP_VEST_PUFFER_ORANGE.DESC"
 msgid "Keeps the core warm, lets the pits breathe."
@@ -1983,6 +2383,16 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_ARCADE.NAME"
 msgid "<link=\"EXTERIORWALL\">Arcade</link>"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_CHAMELEO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CHAMELEO.DESC"
+msgid "The only known image of an adult Dartle with both eyes wide open. So awake!"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_CHAMELEO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CHAMELEO.NAME"
+msgid "<link=\"EXTERIORWALL\">Pixel Dartle</link>"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_WALLS_CIRCUIT_BOGEY.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CIRCUIT_BOGEY.DESC"
 msgid "Physicists say it changed color the moment it was observed."
@@ -2013,6 +2423,56 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CIRCUIT_PUNK.NAME"
 msgid "<link=\"EXTERIORWALL\">Phage Circuit</link>"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_CHAMELEO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_CHAMELEO.DESC"
+msgid "It watches over us like an unimpressed authority figure."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_CHAMELEO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_CHAMELEO.NAME"
+msgid "<link=\"EXTERIORWALL\">Impassive Dartle</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_MIMIKA.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_MIMIKA.DESC"
+msgid "A close-up of the strange plant's rich foliage."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_MIMIKA.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_MIMIKA.NAME"
+msgid "<link=\"EXTERIORWALL\">Mimika Swirl</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_PACULACANTH.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_PACULACANTH.DESC"
+msgid "The introvert's wallpaper of choice for any rooms in which unwanted guests may linger."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_PACULACANTH.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_PACULACANTH.NAME"
+msgid "<link=\"EXTERIORWALL\">Jawbo Glare</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_RAPTOR.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_RAPTOR.DESC"
+msgid "The only drawback is that everyone keeps trying to hang their coats on the horns."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_RAPTOR.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_RAPTOR.NAME"
+msgid "<link=\"EXTERIORWALL\">Rhex Horn</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_STEGO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_STEGO.DESC"
+msgid "A close-up of the look a Lumb gets when it suddenly has a thought. Thankfully, it doesn't happen often."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_STEGO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_STEGO.NAME"
+msgid "<link=\"EXTERIORWALL\">Lumb Panic</link>"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_WALLS_FOREST.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_FOREST.DESC"
 msgid "Sustainable forest bathing."
@@ -2021,6 +2481,46 @@ msgstr ""
 #. STRINGS.BLUEPRINTS.PERMIT_WALLS_FOREST.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_FOREST.NAME"
 msgid "<link=\"EXTERIORWALL\">Forest</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_FOSSIL_CHAMELEO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_FOSSIL_CHAMELEO.DESC"
+msgid "Viewers remark upon this carving's age, but the real wonder is that its top-heavy subject matter didn't fall on its face more often."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_FOSSIL_CHAMELEO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_FOSSIL_CHAMELEO.NAME"
+msgid "<link=\"EXTERIORWALL\">Dartle Carving</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_FOSSIL_PACULACANTH.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_FOSSIL_PACULACANTH.DESC"
+msgid "A visual retelling of the terrifying creature that once ate an entire fish farm population without even calling dibs."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_FOSSIL_PACULACANTH.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_FOSSIL_PACULACANTH.NAME"
+msgid "<link=\"EXTERIORWALL\">Jawbo Carving</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_FOSSIL_RAPTOR.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_FOSSIL_RAPTOR.DESC"
+msgid "The omission of a prey animal in the creature's jaws is an intentional dig at its famously subpar hunting skills."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_FOSSIL_RAPTOR.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_FOSSIL_RAPTOR.NAME"
+msgid "<link=\"EXTERIORWALL\">Rhex Carving</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_FOSSIL_STEGO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_FOSSIL_STEGO.DESC"
+msgid "This carving was originally found at the site of one of the most renowned farms on the planetoid."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_FOSSIL_STEGO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_FOSSIL_STEGO.NAME"
+msgid "<link=\"EXTERIORWALL\">Lumb Carving</link>"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_WALLS_IGLOO.DESC
@@ -2033,6 +2533,46 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_IGLOO.NAME"
 msgid "<link=\"EXTERIORWALL\">Ice Panel</link>"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_PACULACANTH.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_PACULACANTH.DESC"
+msgid "It's just so dang cute without its rows and rows of jagged teeth."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_PACULACANTH.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_PACULACANTH.NAME"
+msgid "<link=\"EXTERIORWALL\">Pixel Jawbo</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_PREHISTORICCRITTERS.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_PREHISTORICCRITTERS.DESC"
+msgid "A carefully detailed depiction of all prehistoric critters great and small."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_PREHISTORICCRITTERS.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_PREHISTORICCRITTERS.NAME"
+msgid "<link=\"EXTERIORWALL\">Outlined Figures</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_RAPTOR.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_RAPTOR.DESC"
+msgid "Never before has this huge predator looked so much like an escapee from a petting zoo."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_RAPTOR.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_RAPTOR.NAME"
+msgid "<link=\"EXTERIORWALL\">Pixel Rhex</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_SILHOUETTE_PREHISTORICCRITTERS.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_SILHOUETTE_PREHISTORICCRITTERS.DESC"
+msgid "A subtle nod to all prehistoric critters great and small."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_SILHOUETTE_PREHISTORICCRITTERS.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_SILHOUETTE_PREHISTORICCRITTERS.NAME"
+msgid "<link=\"EXTERIORWALL\">Shadowy Figures</link>"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_WALLS_SOUTHWEST.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_SOUTHWEST.DESC"
 msgid "Southwest of <i>what</i>, Duplicants aren't sure. But they like it."
@@ -2041,6 +2581,16 @@ msgstr ""
 #. STRINGS.BLUEPRINTS.PERMIT_WALLS_SOUTHWEST.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_SOUTHWEST.NAME"
 msgid "<link=\"EXTERIORWALL\">Southwest</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_STEGO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_STEGO.DESC"
+msgid "Instead of having blank walls, consider blank-stare walls!"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_WALLS_STEGO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_STEGO.NAME"
+msgid "<link=\"EXTERIORWALL\">Pixel Lumb</link>"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_WALLS_WOOD_PANEL.DESC
@@ -20355,12 +20905,12 @@ msgstr ""
 
 #. STRINGS.CLUSTER_NAMES.PREHISTORIC_BASE_CLUSTER.DESCRIPTION
 msgctxt "STRINGS.CLUSTER_NAMES.PREHISTORIC_BASE_CLUSTER.DESCRIPTION"
-msgid "A cluster of visitable planetoids with an Garden starting world."
+msgid "An endangered location with abundant food resources.\n\n<smallcaps>Relica's biodiversity makes reliable food production more attainable for new colonies. Construction materials and fuels are also ample. Surface defence must be prioritized to minimize damage from an incoming impactor asteroid.</smallcaps>"
 msgstr ""
 
 #. STRINGS.CLUSTER_NAMES.PREHISTORIC_BASE_CLUSTER.NAME
 msgctxt "STRINGS.CLUSTER_NAMES.PREHISTORIC_BASE_CLUSTER.NAME"
-msgid "Relica Cluster"
+msgid "Relica"
 msgstr ""
 
 #. STRINGS.CLUSTER_NAMES.PREHISTORIC_CLASSIC_CLUSTER.DESCRIPTION
@@ -28788,9 +29338,44 @@ msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.NAME"
 msgid "Blast Line of Defense"
 msgstr ""
 
+#. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.POPUP.DESCRIPTION
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.POPUP.DESCRIPTION"
+msgid "My Duplicants have successfully annihilated Demolior!\n\nWe can now prepare for the gathering of whatever precious resources it has left behind, space is the limit!...\n\nOne of our duplicants have wished upon the asteroid, little did they know only stars grant wishes, asteroids, well, a keepsake at most..."
+msgstr ""
+
+#. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.POPUP.NAME
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.POPUP.NAME"
+msgid "Completed: Blast Line of Defense"
+msgstr ""
+
 #. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.REQUIREMENT_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.REQUIREMENT_DESCRIPTION"
-msgid "Blast Demolior asteroid (0/1000)"
+msgid "Blast Demolior asteroid {0}/{1}"
+msgstr ""
+
+#. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.REQUIREMENT_NAME
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.REQUIREMENT_NAME"
+msgid "Blast Demolior asteroid"
+msgstr ""
+
+#. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_SURVIVED.DESCRIPTION
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_SURVIVED.DESCRIPTION"
+msgid ""
+msgstr ""
+
+#. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_SURVIVED.NAME
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_SURVIVED.NAME"
+msgid "Not as hot as I"
+msgstr ""
+
+#. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_SURVIVED.REQUIREMENT_DESCRIPTION
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_SURVIVED.REQUIREMENT_DESCRIPTION"
+msgid "Survive {1} cycles after Demolior lands ({0}/{1})"
+msgstr ""
+
+#. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_SURVIVED.REQUIREMENT_NAME
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_SURVIVED.REQUIREMENT_NAME"
+msgid "Survive {0} cycles after Demolior impacts"
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.DESCRIPTION
@@ -29661,6 +30246,11 @@ msgstr ""
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.WINCONDITION_STAY_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.WINCONDITION_STAY_DESCRIPTION"
 msgid "Establish your permanent home by fulfilling the requirements of the Colonize Imperative."
+msgstr ""
+
+#. STRINGS.COLONY_ACHIEVEMENTS.NO_DUPES_HAVE_DIED.REQUIREMENT_NAME
+msgctxt "STRINGS.COLONY_ACHIEVEMENTS.NO_DUPES_HAVE_DIED.REQUIREMENT_NAME"
+msgid "Have never let a duplicant die"
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.NOT_ACHIEVED_EVER
@@ -32655,7 +33245,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PREHISTORICPACU.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PREHISTORICPACU.DESC"
-msgid "Jawbos are carnivorous aquatic critters that feed on <link=\"PACU\">Pacus</link>.\n\nThey pose no danger to Duplicants."
+msgid "Jawbos are carnivorous aquatic critters that feed on <link=\"PACU\">Pacus</link> and produce <link=\"RUST\">Rust</link>.\n\nThey pose no danger to Duplicants."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PREHISTORICPACU.EGG_NAME
@@ -51300,7 +51890,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.TALLOW.DESC
 msgctxt "STRINGS.ELEMENTS.TALLOW.DESC"
-msgid "A chunk of uncooked grease from a deceased <link=\"SEAL\">Spigot Seal</link>."
+msgid "A chunk of raw grease that can be used in <link=\"FOOD\">Food</link> production or industrial processes."
 msgstr ""
 
 #. STRINGS.ELEMENTS.TALLOW.NAME
@@ -57335,7 +57925,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.GARDENFOODPLANTFOOD.DESC
 msgctxt "STRINGS.ITEMS.FOOD.GARDENFOODPLANTFOOD.DESC"
-msgid "The sugary fruit of a <link=\"GARDENFOODPLANT\">Sweatcorn Stalk</link>\n\nSweatcorn is more calorie-dense than <link=\"GARDENFORAGEPLANT\">Snactus Fruit</link>."
+msgid "The sugary fruit of a <link=\"GARDENFOODPLANT\">Sweatcorn Stalk</link>\n\nSweatcorn is more calorie-dense than <link=\"GARDENFORAGEPLANT\">Snac Fruit</link>."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.GARDENFOODPLANTFOOD.NAME
@@ -58615,7 +59205,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.TALLOWLUBRICATIONSTICK.RECIPEDESC
 msgctxt "STRINGS.ITEMS.TALLOWLUBRICATIONSTICK.RECIPEDESC"
-msgid "A self-administered mechanical lubricant for Duplicants with bionic parts."
+msgid "An advanced self-administered mechanical lubricant for Duplicants with bionic parts."
 msgstr ""
 
 #. STRINGS.ITEMS.TALLOWLUBRICATIONSTICK.SUBHEADER
@@ -64633,6 +65223,16 @@ msgctxt "STRINGS.RESEARCH.TECHS.ACOUSTICS.NAME"
 msgid "<link=\"ACOUSTICS\">Sound Amplifiers</link>"
 msgstr ""
 
+#. STRINGS.RESEARCH.TECHS.ADVANCEDDISTILLATION.DESC
+msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDDISTILLATION.DESC"
+msgid "Specialized production of <link=\"ELEMENTSLIQUID\">Liquid</link> compounds."
+msgstr ""
+
+#. STRINGS.RESEARCH.TECHS.ADVANCEDDISTILLATION.NAME
+msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDDISTILLATION.NAME"
+msgid "<link=\"ADVANCEDDISTILLATION\">Emulsification</link>"
+msgstr ""
+
 #. STRINGS.RESEARCH.TECHS.ADVANCEDFILTRATION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDFILTRATION.DESC"
 msgid "Basic technologies for filtering <link=\"ELEMENTSLIQUID\">Liquids</link> and <link=\"ELEMENTSGAS\">Gases</link>."
@@ -70398,9 +70998,9 @@ msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTSSOLID"
 msgid "<link=\"ELEMENTSSOLID\">Solids</link>"
 msgstr ""
 
-#. STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTTYPE
-msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTTYPE"
-msgid "<link=\"ELEMENTSTYPE\">Element Properties</link>"
+#. STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTTYPES
+msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.ELEMENTTYPES"
+msgid "<link=\"ELEMENTTYPES\">Element Properties</link>"
 msgstr ""
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.EMAILS
@@ -74670,7 +75270,7 @@ msgstr ""
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.DEMOLIORDIFFICULTY.LEVELS.OFF.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.DEMOLIORDIFFICULTY.LEVELS.OFF.TOOLTIP"
-msgid "Demolior does not exist and the achievement cannot be earned"
+msgid "Demolior does not exist in this universe and the achievement cannot be earned"
 msgstr ""
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.DEMOLIORDIFFICULTY.LEVELS.VERYEASY.NAME
@@ -86658,14 +87258,34 @@ msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.DLC4PREHISTORICDEMOLIORSPACEDESTIN
 msgid "Demolior Debris"
 msgstr ""
 
+#. STRINGS.UI.SPACEDESTINATIONS.PLANETS.DLC4PREHISTORICDEMOLIORSPACEDESTINATION2.DESCRIPTION
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.DLC4PREHISTORICDEMOLIORSPACEDESTINATION2.DESCRIPTION"
+msgid "The remains of Demolior, containing a renewable source of Isosap."
+msgstr ""
+
+#. STRINGS.UI.SPACEDESTINATIONS.PLANETS.DLC4PREHISTORICDEMOLIORSPACEDESTINATION2.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.DLC4PREHISTORICDEMOLIORSPACEDESTINATION2.NAME"
+msgid "Liquid Demolior Debris"
+msgstr ""
+
+#. STRINGS.UI.SPACEDESTINATIONS.PLANETS.DLC4PREHISTORICDEMOLIORSPACEDESTINATION3.DESCRIPTION
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.DLC4PREHISTORICDEMOLIORSPACEDESTINATION3.DESCRIPTION"
+msgid "The remains of Demolior, containing a renewable source of iridium."
+msgstr ""
+
+#. STRINGS.UI.SPACEDESTINATIONS.PLANETS.DLC4PREHISTORICDEMOLIORSPACEDESTINATION3.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.DLC4PREHISTORICDEMOLIORSPACEDESTINATION3.NAME"
+msgid "Molten Demolior Debris"
+msgstr ""
+
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.DLC4PREHISTORICSPACEDESTINATION.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.DLC4PREHISTORICSPACEDESTINATION.DESCRIPTION"
-msgid "A prehistoric world with peat and nickel ore deposits."
+msgid "A destination with extractable resources from another era."
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.DLC4PREHISTORICSPACEDESTINATION.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.DLC4PREHISTORICSPACEDESTINATION.NAME"
-msgid "Relica"
+msgid "Prehistoric Ore Field"
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.FORESTPLANET.DESCRIPTION

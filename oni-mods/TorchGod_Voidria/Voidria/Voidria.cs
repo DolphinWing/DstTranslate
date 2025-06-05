@@ -185,7 +185,6 @@ namespace Voidria
                                     rule.names.Add("dlc4::critters/pp_jawbo_pool");
                                     rule.names.Add("dlc4::critters/pp_rhex_dartle");
                                     rule.names.Add("dlc4::critters/pp_mos_lure");
-                                    rule.names.Add("dlc4::critters/pp_fly_lumb_ovagro");
                                 }
                             }
                             else if (rule.ruleId?.StartsWith("tg_Critter_Meat") == true)
