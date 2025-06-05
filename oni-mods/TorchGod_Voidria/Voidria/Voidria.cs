@@ -95,11 +95,13 @@ namespace Voidria
                 var spaced = DlcManager.IsContentSubscribed(DlcManager.EXPANSION1_ID);
                 var frosty = DlcManager.IsContentSubscribed(DlcManager.DLC2_ID);
                 var bionic = DlcManager.IsContentSubscribed(DlcManager.DLC3_ID);
+                var history = DlcManager.IsContentSubscribed(DlcManager.DLC4_ID);
                 //PUtil.LogDebug("DLC own: " + spaced + ", " + frosty + ", " + bionic);
 
                 var dlcMixing = CustomGameSettings.Instance.GetCurrentDlcMixingIds();
                 frosty = dlcMixing.Contains(DlcManager.DLC2_ID);
                 bionic = dlcMixing.Contains(DlcManager.DLC3_ID);
+                history = dlcMixing.Contains(DlcManager.DLC4_ID);
                 //PUtil.LogDebug("DLC mixing: " + spaced + ", " + frosty + ", " + bionic);
 
                 var stories = CustomGameSettings.Instance.GetCurrentStories();
@@ -163,16 +165,41 @@ namespace Voidria
                                 removed.Add(rule);
                                 PUtil.LogDebug("... remove " + rule.ruleId);
                             }
-                            else if (frosty && rule.ruleId?.StartsWith("tg_Critter_Vanilla") == true)
+                            else if (rule.ruleId?.StartsWith("tg_Critter_Vanilla") == true)
                             {
-                                PUtil.LogDebug("... add frosty critters");
-                                rule.names.Add("dlc2::critters/tg_flox");
-                                rule.names.Add("dlc2::critters/tg_sugar_bug_seagul");
+                                if (frosty)
+                                {
+                                    PUtil.LogDebug("... add frosty critters");
+                                    rule.names.Add("dlc2::critters/tg_flox");
+                                    rule.names.Add("dlc2::critters/tg_sugar_bug_seagul");
+                                }
+                                if (bionic)
+                                {
+                                    PUtil.LogDebug("... add bionic bases");
+                                    rule.names.Add("dlc3::base/bb_remote_dock");
+                                    rule.names.Add("dlc3::base/bb_remote_worker");
+                                }
+                                if (history)
+                                {
+                                    PUtil.LogDebug("... add prehistory critters");
+                                    rule.names.Add("dlc4::critters/pp_jawbo_pool");
+                                    rule.names.Add("dlc4::critters/pp_rhex_dartle");
+                                    rule.names.Add("dlc4::critters/pp_mos_lure");
+                                    rule.names.Add("dlc4::critters/pp_fly_lumb_ovagro");
+                                }
                             }
-                            else if (frosty && rule.ruleId?.StartsWith("tg_Critter_Meat") == true)
+                            else if (rule.ruleId?.StartsWith("tg_Critter_Meat") == true)
                             {
-                                // make mole and bammoth closer to the start
-                                rule.names.Add("dlc2::critters/tg_bammoth");
+                                if (frosty)
+                                {
+                                    // make mole and bammoth closer to the start
+                                    rule.names.Add("dlc2::critters/tg_bammoth");
+                                }
+                                if (history)
+                                {
+                                    // make lumb and butterfly closer to the start
+                                    rule.names.Add("dlc4::critters/pp_fly_lumb_ovagro");
+                                }
                             }
                         }
 

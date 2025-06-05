@@ -196,14 +196,19 @@ namespace NotZeroK
             internal static void Postfix(MutatedWorldData __instance)
             {
                 var options = POptions.ReadSettings<NotZeroOptions>();
-                if (options == null) return; // no need to change anything
+                if (options == null)
+                {
+                    //return; // no need to change anything
+                    options = new NotZeroOptions();
+                }
 
                 var world = __instance.world;
                 if (NotZeroK.IsMyWorld(world) == false) return; // don't bother
 
                 var dlcMixing = CustomGameSettings.Instance.GetCurrentDlcMixingIds();
                 var frosty = dlcMixing.Contains(DlcManager.DLC2_ID);
-                PUtil.LogDebug("DLC mixing: " + frosty);
+                var history = dlcMixing.Contains(DlcManager.DLC4_ID);
+                PUtil.LogDebug("DLC mixing: 2=" + frosty + ", 4=" + history);
 
                 var removing = new List<ProcGen.World.TemplateSpawnRules>();
                 if (world.worldTemplateRules != null)
@@ -219,12 +224,23 @@ namespace NotZeroK
                             PUtil.LogDebug("... checking " + rule.ruleId);
                             if (options.Critter == false)
                                 removing.Add(rule);
-                            else if (frosty)
+                            else
                             {
-                                rule.names.Add("dlc2::critters/tg_bammoth");
-                                rule.names.Add("dlc2::critters/tg_flox");
-                                rule.names.Add("dlc2::critters/tg_sugar_bug_seagul");
-                                PUtil.LogDebug("... add frosty caves");
+                                if (frosty)
+                                {
+                                    rule.names.Add("dlc2::critters/tg_bammoth");
+                                    rule.names.Add("dlc2::critters/tg_flox");
+                                    rule.names.Add("dlc2::critters/tg_sugar_bug_seagul");
+                                    PUtil.LogDebug("... add frosty caves");
+                                }
+
+                                if (history)
+                                {
+                                    rule.names.Add("dlc4::critters/pp_jawbo_pool");
+                                    rule.names.Add("dlc4::critters/pp_rhex_dartle");
+                                    rule.names.Add("dlc4::critters/pp_mos_lure");
+                                    rule.names.Add("dlc4::critters/pp_fly_lumb_ovagro");
+                                }
                             }
                         }
                     }
