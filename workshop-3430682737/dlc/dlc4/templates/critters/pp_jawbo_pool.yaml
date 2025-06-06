@@ -9,7 +9,7 @@ info:
 cells:
 - element: GoldAmalgam
   mass: 783.739136
-  temperature: 302.502045
+  temperature: 302.472626
   location_x: -4
   location_y: -3
 - element: Katairite
@@ -61,9 +61,9 @@ cells:
   temperature: 300.149994
   location_x: 6
   location_y: -3
-- element: IgneousRock
-  mass: 1822.71997
-  temperature: 302.149994
+- element: Shale
+  mass: 1840
+  temperature: 300.149994
   location_x: -5
   location_y: -2
 - element: Katairite
@@ -73,51 +73,51 @@ cells:
   location_y: -2
 - element: Obsidian
   mass: 1006.29999
-  temperature: 301.149994
+  temperature: 300.054565
   location_x: -3
   location_y: -2
 - element: Sand
   mass: 983.347961
-  temperature: 301.819122
+  temperature: 301.681396
   location_x: -2
   location_y: -2
 - element: Sand
   mass: 983.683167
-  temperature: 301.724731
+  temperature: 301.354919
   location_x: -1
   location_y: -2
 - element: IgneousRock
   mass: 1822.71997
-  temperature: 302.149994
+  temperature: 301.956543
   location_y: -2
 - element: GoldAmalgam
   mass: 789.440002
-  temperature: 302.149994
+  temperature: 300.33313
   location_x: 1
   location_y: -2
 - element: ToxicSand
   mass: 977.799988
-  temperature: 302.149994
+  temperature: 301.683289
   location_x: 2
   location_y: -2
 - element: DirtyWater
   mass: 1030.2395
-  temperature: 301.21698
+  temperature: 301.201904
   location_x: 3
   location_y: -2
 - element: DirtyWater
   mass: 1030.24133
-  temperature: 301.326813
+  temperature: 301.311981
   location_x: 4
   location_y: -2
 - element: DirtyWater
   mass: 1030.24072
-  temperature: 301.376617
+  temperature: 301.361206
   location_x: 5
   location_y: -2
 - element: Dirt
   mass: 1842.58643
-  temperature: 301.443512
+  temperature: 301.430328
   location_x: 6
   location_y: -2
 - element: Katairite
@@ -137,51 +137,51 @@ cells:
   location_y: -1
 - element: DirtyWater
   mass: 1020.04346
-  temperature: 301.503021
+  temperature: 301.482056
   location_x: -3
   location_y: -1
 - element: DirtyWater
   mass: 1020.04303
-  temperature: 301.344177
+  temperature: 301.325806
   location_x: -2
   location_y: -1
 - element: DirtyWater
   mass: 1020.05157
-  temperature: 301.231445
+  temperature: 301.216034
   location_x: -1
   location_y: -1
 - element: DirtyWater
   mass: 1020.06195
-  temperature: 301.145081
+  temperature: 301.12851
   location_y: -1
 - element: DirtyWater
   mass: 1020.04309
-  temperature: 301.072388
+  temperature: 301.056854
   location_x: 1
   location_y: -1
 - element: DirtyWater
   mass: 1020.0484
-  temperature: 301.004944
+  temperature: 300.990295
   location_x: 2
   location_y: -1
 - element: DirtyWater
   mass: 1020.05511
-  temperature: 301.217041
+  temperature: 301.201904
   location_x: 3
   location_y: -1
 - element: DirtyWater
   mass: 1020.05444
-  temperature: 301.326843
+  temperature: 301.311859
   location_x: 4
   location_y: -1
 - element: DirtyWater
   mass: 1020.05408
-  temperature: 301.376648
+  temperature: 301.361206
   location_x: 5
   location_y: -1
 - element: DirtyWater
   mass: 1020.05859
-  temperature: 301.196564
+  temperature: 301.17688
   location_x: 6
   location_y: -1
 - element: Katairite
@@ -195,46 +195,46 @@ cells:
   location_x: -5
 - element: DirtyWater
   mass: 1009.97485
-  temperature: 301.584167
+  temperature: 301.563171
   location_x: -4
 - element: DirtyWater
   mass: 1009.9635
-  temperature: 301.502808
+  temperature: 301.483521
   location_x: -3
 - element: DirtyWater
   mass: 1009.96313
-  temperature: 301.343719
+  temperature: 301.325623
   location_x: -2
 - element: DirtyWater
   mass: 1009.96643
-  temperature: 301.231293
+  temperature: 301.216034
   location_x: -1
 - element: DirtyWater
   mass: 1009.97498
-  temperature: 301.14505
+  temperature: 301.12851
 - element: DirtyWater
   mass: 1009.96313
-  temperature: 301.07254
+  temperature: 301.057526
   location_x: 1
 - element: DirtyWater
   mass: 1009.96436
-  temperature: 301.06897
+  temperature: 301.053955
   location_x: 2
 - element: DirtyWater
   mass: 1009.97058
-  temperature: 301.218811
+  temperature: 301.205994
   location_x: 3
 - element: DirtyWater
   mass: 1009.96948
-  temperature: 301.327423
+  temperature: 301.313141
   location_x: 4
 - element: DirtyWater
   mass: 1009.96924
-  temperature: 301.38504
+  temperature: 301.369629
   location_x: 5
 - element: DirtyWater
   mass: 1009.97278
-  temperature: 301.195953
+  temperature: 301.176758
   location_x: 6
 - element: Katairite
   mass: 500
@@ -247,56 +247,56 @@ cells:
   location_y: 1
 - element: DirtyWater
   mass: 999.987488
-  temperature: 301.584137
+  temperature: 301.563171
   location_x: -4
   location_y: 1
 - element: DirtyWater
   mass: 999.981812
-  temperature: 301.502808
+  temperature: 301.483521
   location_x: -3
   location_y: 1
 - element: DirtyWater
   mass: 999.981689
-  temperature: 301.343506
+  temperature: 301.325623
   location_x: -2
   location_y: 1
 - element: DirtyWater
   mass: 999.983337
-  temperature: 301.231293
+  temperature: 301.216034
   location_x: -1
   location_y: 1
 - element: DirtyWater
   mass: 999.987549
-  temperature: 301.14505
+  temperature: 301.128387
   location_y: 1
 - element: DirtyWater
   mass: 999.981689
-  temperature: 301.07254
+  temperature: 301.057526
   location_x: 1
   location_y: 1
 - element: DirtyWater
   mass: 999.9823
-  temperature: 301.157532
+  temperature: 301.142212
   location_x: 2
   location_y: 1
 - element: DirtyWater
   mass: 999.985352
-  temperature: 301.235107
+  temperature: 301.21991
   location_x: 3
   location_y: 1
 - element: DirtyWater
   mass: 999.984863
-  temperature: 301.339935
+  temperature: 301.32431
   location_x: 4
   location_y: 1
 - element: DirtyWater
   mass: 999.98468
-  temperature: 301.420258
+  temperature: 301.404541
   location_x: 5
   location_y: 1
 - element: DirtyWater
   mass: 999.98645
-  temperature: 301.195129
+  temperature: 301.176697
   location_x: 6
   location_y: 1
 - element: Katairite
@@ -310,57 +310,57 @@ cells:
   location_x: -5
   location_y: 2
 - element: DirtyWater
-  mass: 297.067627
-  temperature: 301.584137
+  mass: 277.210938
+  temperature: 301.563171
   location_x: -4
   location_y: 2
 - element: DirtyWater
-  mass: 297.104797
-  temperature: 301.501678
+  mass: 276.400177
+  temperature: 301.488434
   location_x: -3
   location_y: 2
 - element: DirtyWater
-  mass: 297.141541
-  temperature: 301.343506
+  mass: 274.92041
+  temperature: 301.344086
   location_x: -2
   location_y: 2
 - element: DirtyWater
-  mass: 292.545898
-  temperature: 301.230713
+  mass: 273.020844
+  temperature: 301.237854
   location_x: -1
   location_y: 2
 - element: DirtyWater
-  mass: 269.352844
-  temperature: 301.146057
+  mass: 270.99823
+  temperature: 301.14978
   location_y: 2
 - element: DirtyWater
-  mass: 227.582626
-  temperature: 301.146179
+  mass: 269.128296
+  temperature: 301.093567
   location_x: 1
   location_y: 2
 - element: DirtyWater
-  mass: 204.389618
-  temperature: 301.249237
+  mass: 267.607819
+  temperature: 301.177979
   location_x: 2
   location_y: 2
 - element: DirtyWater
-  mass: 227.648468
-  temperature: 301.363159
+  mass: 266.522705
+  temperature: 301.299438
   location_x: 3
   location_y: 2
 - element: DirtyWater
-  mass: 269.49118
-  temperature: 301.437531
+  mass: 265.851196
+  temperature: 301.390991
   location_x: 4
   location_y: 2
 - element: DirtyWater
-  mass: 292.749115
-  temperature: 301.514801
+  mass: 265.499115
+  temperature: 301.427429
   location_x: 5
   location_y: 2
 - element: DirtyWater
-  mass: 297.443604
-  temperature: 301.195129
+  mass: 265.357544
+  temperature: 301.176697
   location_x: 6
   location_y: 2
 - element: Katairite
@@ -429,284 +429,317 @@ cells:
   location_y: 3
 buildings:
 - id: ExteriorWall
+  location_x: -2
+  element: Obsidian
+  temperature: 301.325653
+- id: ExteriorWall
+  location_x: -1
+  location_y: -1
+  element: Obsidian
+  temperature: 301.216125
+- id: ExteriorWall
+  location_x: -2
+  location_y: 2
+  element: Obsidian
+  temperature: 301.344086
+- id: ExteriorWall
+  location_x: -1
+  location_y: 1
+  element: Obsidian
+  temperature: 301.216034
+- id: ExteriorWall
+  location_x: 1
+  location_y: -1
+  element: Obsidian
+  temperature: 301.056976
+- id: ExteriorWall
+  location_x: 4
+  location_y: -2
+  element: Obsidian
+  temperature: 301.311981
+- id: ExteriorWall
+  location_x: 3
+  location_y: -2
+  element: Obsidian
+  temperature: 301.201965
+- id: ExteriorWall
+  location_x: 5
+  location_y: -2
+  element: Obsidian
+  temperature: 301.361298
+- id: ExteriorWall
+  location_x: 2
+  location_y: -2
+  element: Fossil
+  temperature: 301.685577
+- id: ExteriorWall
+  location_x: 1
+  location_y: -2
+  element: Fossil
+  temperature: 300.33313
+- id: ExteriorWall
+  location_y: -2
+  element: Fossil
+  temperature: 301.957123
+- id: ExteriorWall
+  location_x: -1
+  location_y: -2
+  element: Fossil
+  temperature: 301.354919
+- id: ExteriorWall
+  location_x: -2
+  location_y: -2
+  element: Fossil
+  temperature: 301.681396
+- id: ExteriorWall
+  location_x: -3
+  location_y: -2
+  element: Fossil
+  temperature: 300.054565
+- id: ExteriorWall
+  location_x: 1
+  element: SedimentaryRock
+  temperature: 301.057526
+- id: ExteriorWall
+  location_y: 1
+  element: SedimentaryRock
+  temperature: 301.128387
+- id: ExteriorWall
+  element: SedimentaryRock
+  temperature: 301.128448
+- id: ExteriorWall
+  location_x: -3
+  location_y: 1
+  element: SedimentaryRock
+  temperature: 301.483521
+- id: ExteriorWall
+  location_y: 2
+  element: SedimentaryRock
+  temperature: 301.14978
+- id: ExteriorWall
+  location_x: 2
+  location_y: 2
+  element: SedimentaryRock
+  temperature: 301.179016
+- id: ExteriorWall
+  location_x: 5
+  location_y: 2
+  element: SedimentaryRock
+  temperature: 301.428284
+- id: ExteriorWall
+  location_x: 6
+  location_y: 2
+  element: SedimentaryRock
+  temperature: 301.176514
+- id: ExteriorWall
+  location_x: 6
+  location_y: 1
+  element: SedimentaryRock
+  temperature: 301.176849
+- id: ExteriorWall
+  location_x: 6
+  element: SedimentaryRock
+  temperature: 301.176971
+- id: ExteriorWall
+  location_x: 6
+  location_y: -1
+  element: SedimentaryRock
+  temperature: 301.177002
+- id: ExteriorWall
+  location_x: 5
+  location_y: -1
+  element: SedimentaryRock
+  temperature: 301.361206
+- id: ExteriorWall
+  location_x: 1
+  location_y: 2
+  element: Obsidian
+  temperature: 301.093567
+- id: ExteriorWall
+  location_x: 1
+  location_y: 1
+  element: Obsidian
+  temperature: 301.057526
+- id: ExteriorWall
+  location_x: 2
+  location_y: 1
+  element: Obsidian
+  temperature: 301.142212
+- id: ExteriorWall
+  location_x: 3
+  location_y: 1
+  element: Obsidian
+  temperature: 301.21991
+- id: ExteriorWall
+  location_x: 4
+  location_y: 1
+  element: Obsidian
+  temperature: 301.32431
+- id: ExteriorWall
+  location_x: 4
+  location_y: 2
+  element: Obsidian
+  temperature: 301.391205
+- id: ExteriorWall
+  location_x: 3
+  location_y: 2
+  element: Obsidian
+  temperature: 301.302399
+- id: ExteriorWall
+  location_x: 5
+  location_y: 1
+  element: Obsidian
+  temperature: 301.404541
+- id: ExteriorWall
+  location_x: 5
+  element: Obsidian
+  temperature: 301.369629
+- id: ExteriorWall
+  location_x: 4
+  element: Obsidian
+  temperature: 301.313141
+- id: ExteriorWall
+  location_x: 4
+  location_y: -1
+  element: Obsidian
+  temperature: 301.311859
+- id: ExteriorWall
+  location_x: 3
+  location_y: -1
+  element: Obsidian
+  temperature: 301.201904
+- id: ExteriorWall
+  location_x: 3
+  element: Obsidian
+  temperature: 301.205994
+- id: ExteriorWall
+  location_x: 2
+  element: Obsidian
+  temperature: 301.053955
+- id: ExteriorWall
+  location_x: 2
+  location_y: -1
+  element: Obsidian
+  temperature: 300.990295
+- id: ExteriorWall
+  location_y: -1
+  element: Obsidian
+  temperature: 301.128601
+- id: ExteriorWall
+  location_x: -1
+  element: Obsidian
+  temperature: 301.216064
+- id: ExteriorWall
+  location_x: -2
+  location_y: 1
+  element: Obsidian
+  temperature: 301.325623
+- id: ExteriorWall
+  location_x: -3
+  location_y: 2
+  element: Obsidian
+  temperature: 301.488434
+- id: ExteriorWall
   location_x: -4
   location_y: 2
   element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: -3
-  location_y: 1
-  element: SedimentaryRock
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: -2
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: -1
-  location_y: -1
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: -2
-  location_y: 2
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: -1
-  location_y: 1
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  element: SedimentaryRock
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 1
-  location_y: -1
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 4
-  location_y: -2
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 3
-  location_y: -2
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 5
-  location_y: -2
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 2
-  location_y: -2
-  element: Fossil
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 1
-  location_y: -2
-  element: Fossil
-  temperature: 293.149994
-- id: ExteriorWall
-  location_y: -2
-  element: Fossil
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: -1
-  location_y: -2
-  element: Fossil
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: -2
-  location_y: -2
-  element: Fossil
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: -3
-  location_y: -2
-  element: Fossil
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 1
-  element: SedimentaryRock
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 1
-  location_y: 1
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_y: 1
-  element: SedimentaryRock
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: -2
-  location_y: 1
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: -2
-  location_y: -1
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: -3
-  location_y: -1
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: -3
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: -4
-  element: Obsidian
-  temperature: 293.149994
+  temperature: 301.563171
 - id: ExteriorWall
   location_x: -4
   location_y: 1
   element: Obsidian
-  temperature: 293.149994
+  temperature: 301.563293
+- id: ExteriorWall
+  location_x: -4
+  element: Obsidian
+  temperature: 301.563293
 - id: ExteriorWall
   location_x: -3
-  location_y: 2
   element: Obsidian
-  temperature: 293.149994
+  temperature: 301.483643
 - id: ExteriorWall
-  location_y: 2
-  element: SedimentaryRock
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 2
-  location_y: 2
-  element: SedimentaryRock
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 4
-  location_y: 2
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 5
-  location_y: 2
-  element: SedimentaryRock
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 6
-  location_y: 2
-  element: SedimentaryRock
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 6
-  location_y: 1
-  element: SedimentaryRock
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 6
-  element: SedimentaryRock
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 6
-  location_y: -1
-  element: SedimentaryRock
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 5
-  location_y: -1
-  element: SedimentaryRock
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 5
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 4
-  location_y: 1
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 1
-  location_y: 2
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 2
-  location_y: 1
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 3
-  location_y: 1
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 3
-  location_y: 2
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 5
-  location_y: 1
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 4
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 4
+  location_x: -2
   location_y: -1
   element: Obsidian
-  temperature: 293.149994
+  temperature: 301.325806
 - id: ExteriorWall
-  location_x: 3
+  location_x: -3
   location_y: -1
   element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 3
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 2
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_x: 2
-  location_y: -1
-  element: Obsidian
-  temperature: 293.149994
-- id: ExteriorWall
-  location_y: -1
-  element: Obsidian
-  temperature: 293.149994
+  temperature: 301.482391
 - id: ExteriorWall
   location_x: -1
-  element: Obsidian
+  location_y: 2
+  element: MaficRock
   temperature: 293.149994
 pickupables:
-- id: PrehistoricPacu
-  location_x: -3
-  location_y: -1
+- id: MushroomSeed
+  location_x: -2
+  location_y: -3
   element: Creature
-  temperature: 303.149994
+  temperature: 293
   units: 1
   type: Pickupable
   rottable: {}
 - id: Pacu
   location_y: -1
   element: Creature
-  temperature: 303.149994
+  temperature: 303.135895
   units: 1
   type: Pickupable
   rottable: {}
 - id: Pacu
   location_x: 3
+  location_y: 1
   element: Creature
-  temperature: 303.149994
+  temperature: 303.135956
   units: 1
   type: Pickupable
   rottable: {}
 - id: Pacu
+  location_x: 4
+  location_y: -2
+  element: Creature
+  temperature: 303.136475
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: Pacu
+  location_x: -2
+  location_y: -1
+  element: Creature
+  temperature: 303.136353
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: PacuEgg
   location_x: 6
+  location_y: 3
   element: Creature
-  temperature: 303.149994
+  temperature: 293
   units: 1
   type: Pickupable
   rottable: {}
-- id: Pacu
+- id: PacuEgg
+  location_x: 6
+  location_y: -2
   element: Creature
-  temperature: 303.149994
+  temperature: 295.555786
   units: 1
   type: Pickupable
   rottable: {}
 - id: PrehistoricPacu
-  location_x: 4
+  location_x: 3
   element: Creature
-  temperature: 303.149994
+  temperature: 303.136719
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: PrehistoricPacu
+  location_x: -3
+  location_y: -1
+  element: Creature
+  temperature: 303.141022
   units: 1
   type: Pickupable
   rottable: {}
@@ -714,28 +747,12 @@ pickupables:
   location_x: 2
   location_y: -2
   element: Creature
-  temperature: 293
+  temperature: 295.658752
   units: 1
   type: Pickupable
   rottable: {}
 - id: PrehistoricPacuEgg
   location_y: 3
-  element: Creature
-  temperature: 293
-  units: 1
-  type: Pickupable
-  rottable: {}
-- id: PacuEgg
-  location_x: 6
-  location_y: 3
-  element: Creature
-  temperature: 293
-  units: 1
-  type: Pickupable
-  rottable: {}
-- id: PacuEgg
-  location_x: 6
-  location_y: -2
   element: Creature
   temperature: 293
   units: 1
@@ -753,13 +770,21 @@ pickupables:
   location_x: -4
   location_y: -2
   element: Creature
+  temperature: 293.81839
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: GardenForagePlant
+  location_x: -2
+  location_y: -2
+  element: Creature
   temperature: 293
   units: 1
   type: Pickupable
   rottable: {}
-- id: MushroomSeed
-  location_x: -2
-  location_y: -3
+- id: FlyTrapPlantSeed
+  location_x: 7
+  location_y: -1
   element: Creature
   temperature: 293
   units: 1
@@ -767,51 +792,57 @@ pickupables:
   rottable: {}
 otherEntities:
 - id: KelpPlant
-  location_x: 6
-  location_y: 2
-  element: Creature
-  temperature: 297.149994
-  units: 1
-  type: Other
-  amounts:
-  - id: Maturity
-    value: 4.49663734
-  - id: Fertilization
-  - id: AirPressure
-  - id: Temperature
-  - id: OldAge
-- id: KelpPlant
   location_x: -1
   location_y: 2
   element: Creature
-  temperature: 297.149994
+  temperature: 298.356262
   units: 1
   type: Other
   amounts:
   - id: Maturity
-    value: 3.81468344
+    value: 3.81818819
   - id: Fertilization
   - id: AirPressure
+    value: 600.047241
   - id: Temperature
+    value: 298.257874
   - id: OldAge
 - id: KelpPlant
   location_x: 3
   location_y: 2
   element: Creature
-  temperature: 297.149994
+  temperature: 298.373718
   units: 1
   type: Other
   amounts:
   - id: Maturity
-    value: 1.5157876
+    value: 1.51928735
   - id: Fertilization
   - id: AirPressure
+    value: 595.272461
   - id: Temperature
+    value: 298.275848
+  - id: OldAge
+- id: KelpPlant
+  location_x: 6
+  location_y: 2
+  element: Creature
+  temperature: 298.331757
+  units: 1
+  type: Other
+  amounts:
+  - id: Maturity
+    value: 4.5001421
+  - id: Fertilization
+  - id: AirPressure
+    value: 597.230164
+  - id: Temperature
+    value: 298.234833
   - id: OldAge
 - id: FossilBitsSmall
   location_x: -2
   location_y: -2
   element: Fossil
-  temperature: 315
+  temperature: 314.835754
   units: 1
   type: Other

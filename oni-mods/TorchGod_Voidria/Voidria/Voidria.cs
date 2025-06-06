@@ -131,19 +131,29 @@ namespace Voidria
                         }
 #endif
 
-                        if (rule.names.Contains("geysers/molten_iron"))
+                        if (rule.ruleId?.StartsWith("tg_geyser_molten_iron") == true)
                         {
                             if (options != null && options?.EnableIronVolcano == false)
                             {
-                                removed.Add(rule); //world.worldTemplateRules?.Remove(rule);
-                                PUtil.LogDebug("... remove iron volcano");
+                                if (history) 
+                                {
+                                    // replace molten iron volcano with jawbo gifts
+                                    rule.names.Remove("geysers/molten_iron");
+                                    rule.names.Add("dlc4::critters/pp_jawbo_gift1");
+                                    rule.names.Add("dlc4::critters/pp_jawbo_gift2");
+                                }
+                                else
+                                {
+                                    removed.Add(rule);
+                                    PUtil.LogDebug("... remove iron volcano");
+                                }
                             }
                         }
                         if (rule.names.Contains("poi/oil/small_oilpockets_geyser_a"))
                         {
                             if (options.EnableOilReservoir == false)
                             {
-                                removed.Add(rule); //world.worldTemplateRules?.Remove(rule);
+                                removed.Add(rule);
                                 PUtil.LogDebug("... remove oil pocket geyser");
                             }
                         }
