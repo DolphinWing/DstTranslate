@@ -55,7 +55,7 @@ msgstr ""
 
 #. STRINGS.BLUEPRINTS.OUTFIT_SUSPENDERS.NAME
 msgctxt "STRINGS.BLUEPRINTS.OUTFIT_SUSPENDERS.NAME"
-msgid "Suspenders/Ribbed Rust Sweater Outfit"
+msgid "Arbor Hugger Outfit"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.OUTFIT_TOP_FLANNEL_BLACK.NAME
@@ -621,26 +621,6 @@ msgstr ""
 #. STRINGS.BLUEPRINTS.PERMIT_FLOORLAMP_COTTAGE.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_FLOORLAMP_COTTAGE.NAME"
 msgid "<link=\"FLOORLAMP\">Storytime Lamp</link>"
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE.DESC
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE.DESC"
-msgid "permit_fossilsculpture description"
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE.NAME
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE.NAME"
-msgid "permit_fossilsculpture name"
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_HANGING.DESC
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_HANGING.DESC"
-msgid "permit_fossilsculpture_hanging description"
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_HANGING.NAME
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_HANGING.NAME"
-msgid "permit_fossilsculpture_hanging name"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_IDLE_JAWBO.DESC
@@ -1805,22 +1785,22 @@ msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_PJ_DINO2.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_PJ_DINO2.DESC"
-msgid "permit_pj_dino2 description"
+msgid "If all beds were part of a single bed mass, colony life would be one big slumber party."
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_PJ_DINO2.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_PJ_DINO2.NAME"
-msgid "permit_pj_dino2 name"
+msgid "Pangaea Jammies"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_PJ_DINO3.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_PJ_DINO3.DESC"
-msgid "permit_pj_dino3 description"
+msgid "The label inside reads: \"If at first you can't fall asleep, tri, tri again.\""
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_PJ_DINO3.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_PJ_DINO3.NAME"
-msgid "permit_pj_dino3 name"
+msgid "Triassic Jammies"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_RANCHERSTATION_COTTAGE.DESC
@@ -24260,7 +24240,7 @@ msgstr ""
 
 #. STRINGS.CODEX.HEADERS.CRITTER_EXTRA_DIET_PRODUCTION
 msgctxt "STRINGS.CODEX.HEADERS.CRITTER_EXTRA_DIET_PRODUCTION"
-msgid "Additional Production"
+msgid "Dewdrip"
 msgstr ""
 
 #. STRINGS.CODEX.HEADERS.CRITTERDROPS
@@ -29325,7 +29305,7 @@ msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.MESSAGE_BODY
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.MESSAGE_BODY"
-msgid "We've blasted the impactor asteroid into oblivion!\n\nThe remaining hunks of debris are orbiting at a safe distance. Initial scans of these remnants indicate the presence of harvestable resources including iridium, a metal new to our colony.\n\nIt never ceases to amaze me, how much of this universe we have yet to discover."
+msgid "We've blasted Demolior into oblivion! My colony is safe for now.\n\nAmong the impactor's remains, I've identified several useful resources as well as a small, familiar object... How did such a thing find its way onto an uninhabited asteroid? I have always hoped that other worlds existed... Perhaps they do, and we are more alike than I ever imagined.\n\nThere is so much we have yet to discover.\n"
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.MESSAGE_TITLE
@@ -29340,37 +29320,37 @@ msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.POPUP.DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.POPUP.DESCRIPTION"
-msgid "My Duplicants have successfully annihilated Demolior!\n\nWe can now prepare for the gathering of whatever precious resources it has left behind, space is the limit!...\n\nOne of our duplicants have wished upon the asteroid, little did they know only stars grant wishes, asteroids, well, a keepsake at most..."
+msgid ""
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.POPUP.NAME
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.POPUP.NAME"
-msgid "Completed: Blast Line of Defense"
+msgid ""
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.REQUIREMENT_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.REQUIREMENT_DESCRIPTION"
-msgid "Blast Demolior asteroid {0}/{1}"
+msgid "Destroyed Demolior before it arrived: {0}/{1}"
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.REQUIREMENT_NAME
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.REQUIREMENT_NAME"
-msgid "Blast Demolior asteroid"
+msgid "Destroy Demolior asteroid"
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_SURVIVED.DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_SURVIVED.DESCRIPTION"
-msgid ""
+msgid "Survive {0} cycles after Demolior asteroid collides with this world."
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_SURVIVED.NAME
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_SURVIVED.NAME"
-msgid "Not as hot as I"
+msgid "Life Found A Way"
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_SURVIVED.REQUIREMENT_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_SURVIVED.REQUIREMENT_DESCRIPTION"
-msgid "Survive {1} cycles after Demolior lands ({0}/{1})"
+msgid "Survived {0}/{1} cycles after Demolior impact"
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_SURVIVED.REQUIREMENT_NAME
@@ -30250,7 +30230,7 @@ msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.NO_DUPES_HAVE_DIED.REQUIREMENT_NAME
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.NO_DUPES_HAVE_DIED.REQUIREMENT_NAME"
-msgid "Have never let a duplicant die"
+msgid "Zero Casualties"
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.NOT_ACHIEVED_EVER
@@ -31645,7 +31625,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.CHAMELEON.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.CHAMELEON.DESC"
-msgid "Dartles are non-hostile critters who eat <link=\"DEWDRIP\">Dewdrips</link> right off the <link=\"DEWDRIPPERPLANT\">Dew Dripper</link> plant and excrete <link=\"BLEACHSTONE\">Bleach Stone</link>.\n\nThey are preyed on by <link=\"RAPTOR\">Rhexes</link>."
+msgid "Dartles are non-hostile critters who eat <link=\"DEWDRIP\">Dewdrips</link> right off the <link=\"DEWDRIPPERPLANT\">Dew Dripper</link> plant and excrete <link=\"BLEACHSTONE\">Bleach Stone</link> and <link=\"CHLORINEGAS\">Chlorine Gas</link> .\n\nThey are preyed on by <link=\"RAPTOR\">Rhexes</link>."
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.CHAMELEON.EGG_NAME
@@ -68830,7 +68810,7 @@ msgstr ""
 
 #. STRINGS.SUBWORLDS.WETLANDS.UTILITY
 msgctxt "STRINGS.SUBWORLDS.WETLANDS.UTILITY"
-msgid "The carnivorous <link=\"FLYTRAPPLANT\">Lura Plant</link> traps airborne critters such as pesky <link=\"MOSQUITOSPECIES\">Gnits</link> and produces <link=\"AMBER\">Amber</link> that can be converted to <link=\"NATURALRESIN\">Resin</link> used for <link=\"POLYPROPYLENE\">Plastic</link> production. Local foliage also includes <link=\"KELPPLANT\">Seakombs</link>, which can be processed into <link=\"PHYTOOIL\">Phyto Oil</link>.\n\nAquatic behemoths called <link=\"PREHISTORICPACUSPECIES\">Jawbos</link> prey on <link=\"PACUSPECIES\">Pacus</link> and excrete hefty chunks of <link=\"LIME\">Lime</link>."
+msgid "The carnivorous <link=\"FLYTRAPPLANT\">Lura Plant</link> traps airborne critters such as pesky <link=\"MOSQUITOSPECIES\">Gnits</link> and produces <link=\"AMBER\">Amber</link> that can be converted to <link=\"NATURALRESIN\">Resin</link> used for <link=\"POLYPROPYLENE\">Plastic</link> production. Local foliage also includes <link=\"KELPPLANT\">Seakombs</link>, which can be processed into <link=\"PHYTOOIL\">Phyto Oil</link>.\n\nAquatic behemoths called <link=\"PREHISTORICPACUSPECIES\">Jawbos</link> prey on <link=\"PACUSPECIES\">Pacus</link> and excrete hefty chunks of <link=\"RUST\">Rust</link>."
 msgstr ""
 
 #. STRINGS.UI.ACTIONS
@@ -69195,7 +69175,7 @@ msgstr ""
 
 #. STRINGS.UI.BUILDINGEFFECTS.DIET_ADDITIONAL_PRODUCED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.DIET_ADDITIONAL_PRODUCED"
-msgid "Additional Excretion: {Items}"
+msgid "Secondary Excretion: {Items}"
 msgstr ""
 
 #. STRINGS.UI.BUILDINGEFFECTS.DIET_CONSUMED
@@ -69775,7 +69755,7 @@ msgstr ""
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_ADDITIONAL_PRODUCED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_ADDITIONAL_PRODUCED"
-msgid "This critter will produces extra {Items} after eating."
+msgid "This critter gets bloated after eating and will produce {Items}"
 msgstr ""
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.DIET_CONSUMED
@@ -79298,6 +79278,16 @@ msgctxt "STRINGS.UI.KEEPSAKES.MORB_ROVER_MAKER.NAME"
 msgid "Toy Bot"
 msgstr ""
 
+#. STRINGS.UI.KEEPSAKES.VIEWMASTER.DESCRIPTION
+msgctxt "STRINGS.UI.KEEPSAKES.VIEWMASTER.DESCRIPTION"
+msgid "A tool used to gaze into frozen moments of time.\n\nOne of the images is of a child standing in a field, waving a huge piece of blackened titanium."
+msgstr ""
+
+#. STRINGS.UI.KEEPSAKES.VIEWMASTER.NAME
+msgctxt "STRINGS.UI.KEEPSAKES.VIEWMASTER.NAME"
+msgid "Stereoscope"
+msgstr ""
+
 #. STRINGS.UI.KLEI_INVENTORY_SCREEN.ARTABLE_ITEM_FACADE_FOR
 msgctxt "STRINGS.UI.KLEI_INVENTORY_SCREEN.ARTABLE_ITEM_FACADE_FOR"
 msgid "This blueprint works with any {ConfigProperName} of {ArtableQuality} quality."
@@ -86950,7 +86940,7 @@ msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.DLC4IMPACTORDEBRISFIELD1.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.DLC4IMPACTORDEBRISFIELD1.DESC"
-msgid "The solid harvestable remains of Demolior, containing <link=\"IRIDIUM\">Iridium</link>, <link=\"MAFICROCK\">Mafic Rock</link>, <link=\"GOLD\">Gold</link>, and <link=\"GRANITE\">Granite</link>, as well as a strange artifact.\n\nHarvesting resources requires a rocket equipped with a <link=\"NOSECONEHARVEST\">Drillcone</link>."
+msgid "The solid harvestable remains of Demolior, containing <link=\"IRIDIUM\">Iridium</link>, <link=\"MAFICROCK\">Mafic Rock</link>, <link=\"GOLD\">Gold</link>, and <link=\"GRANITE\">Granite</link>, as well as a strangely familiar artifact.\n\nHarvesting resources requires a rocket equipped with a <link=\"NOSECONEHARVEST\">Drillcone</link>."
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.DLC4IMPACTORDEBRISFIELD1.NAME
@@ -87250,7 +87240,7 @@ msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.DLC4PREHISTORICDEMOLIORSPACEDESTINATION.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.DLC4PREHISTORICDEMOLIORSPACEDESTINATION.DESCRIPTION"
-msgid "The remains of Demolior, containing a renewable source of iridium."
+msgid "The remains of an obliterated asteroid containing a renewable source of iridium."
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.DLC4PREHISTORICDEMOLIORSPACEDESTINATION.NAME
@@ -87260,7 +87250,7 @@ msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.DLC4PREHISTORICDEMOLIORSPACEDESTINATION2.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.DLC4PREHISTORICDEMOLIORSPACEDESTINATION2.DESCRIPTION"
-msgid "The remains of Demolior, containing a renewable source of Isosap."
+msgid "The liquid remains of an obliterated asteroid containing a renewable source of Isosap."
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.DLC4PREHISTORICDEMOLIORSPACEDESTINATION2.NAME
@@ -87270,7 +87260,7 @@ msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.DLC4PREHISTORICDEMOLIORSPACEDESTINATION3.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.DLC4PREHISTORICDEMOLIORSPACEDESTINATION3.DESCRIPTION"
-msgid "The remains of Demolior, containing a renewable source of iridium."
+msgid "The hot metallic remains of an obliterated asteroid containing a renewable source of iridium."
 msgstr ""
 
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.DLC4PREHISTORICDEMOLIORSPACEDESTINATION3.NAME
@@ -92685,7 +92675,7 @@ msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.MISSILESELECTIONSIDESCREEN.VANILLALARGEIMPACTOR.HEALTH_BAR_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.MISSILESELECTIONSIDESCREEN.VANILLALARGEIMPACTOR.HEALTH_BAR_TOOLTIP"
-msgid "Demolior impactor asteroid health: {0} / {1}"
+msgid "Demolior health: {0} / {1}"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.MISSILESELECTIONSIDESCREEN.VANILLALARGEIMPACTOR.TIME_UNTIL_COLLISION_TITLE
@@ -92695,7 +92685,7 @@ msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.MISSILESELECTIONSIDESCREEN.VANILLALARGEIMPACTOR.TIME_UNTIL_COLLISION_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.MISSILESELECTIONSIDESCREEN.VANILLALARGEIMPACTOR.TIME_UNTIL_COLLISION_TOOLTIP"
-msgid "Cycles remaining until impact: {0}"
+msgid "{0} cycles remaining until impact"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.DESCRIPTION
