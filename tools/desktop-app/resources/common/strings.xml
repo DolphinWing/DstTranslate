@@ -9,7 +9,7 @@
         <item>韋斯|維斯</item>
         <item>薇克伯頓|薇克巴頓</item>
         <item>晒|曬</item>
-        <item>濕|溼</item>
+        <!--<item>濕|溼</item>-->
         <item>卧槽|草泥馬</item>
         <item>激活|啟用</item>
         <item>檢測|偵測</item>
@@ -42,7 +42,7 @@
         <item>沙羅曼蛇|沙拉蠑螈</item>
         <item>神秘|神祕</item>
         <item>誒|欸</item>
-        <item>籽|子</item>
+        <!--<item>籽|子</item>-->
         <item>熒光果|螢光果</item>
         <item>乾凈|乾淨</item>
         <item>裝璜|裝潢</item>
@@ -86,6 +86,8 @@
 		<item>氣壓服|太空衣</item>
 		<item>閾值|門檻</item>
 		<item>莊嚴科技|引力科技</item>
+        <item>牛脂|動物油脂</item>
+		<!--<item>無子|無籽</item>-->
     </string-array>
     <string name="button_apply">Apply</string>
     <string name="button_refresh">Refresh</string>
