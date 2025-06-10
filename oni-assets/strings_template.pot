@@ -43,6 +43,41 @@ msgctxt "STRINGS.BLUEPRINTS.MANUALGENERATOR_ELLIPTICAL.NAME"
 msgid "<link=\"MANUALGENERATOR\">Elliptical Generator</link>"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.OUTFIT_ATMOSUIT_CHAMELEO.NAME
+msgctxt "STRINGS.BLUEPRINTS.OUTFIT_ATMOSUIT_CHAMELEO.NAME"
+msgid "Dartle Atmo Outfit"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.OUTFIT_ATMOSUIT_PACULACANTH.NAME
+msgctxt "STRINGS.BLUEPRINTS.OUTFIT_ATMOSUIT_PACULACANTH.NAME"
+msgid "Jawbo Atmo Outfit"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.OUTFIT_ATMOSUIT_RAPTOR.NAME
+msgctxt "STRINGS.BLUEPRINTS.OUTFIT_ATMOSUIT_RAPTOR.NAME"
+msgid "Rhex Atmo Outfit"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.OUTFIT_ATMOSUIT_STEGO.NAME
+msgctxt "STRINGS.BLUEPRINTS.OUTFIT_ATMOSUIT_STEGO.NAME"
+msgid "Lumb Atmo Outfit"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.OUTFIT_PJ_DINO.NAME
+msgctxt "STRINGS.BLUEPRINTS.OUTFIT_PJ_DINO.NAME"
+msgid "Jurassic Jammies Outfit"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.OUTFIT_PJ_DINO2.NAME
+msgctxt "STRINGS.BLUEPRINTS.OUTFIT_PJ_DINO2.NAME"
+msgid "Pangaea Jammies Outfit"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.OUTFIT_PJ_DINO3.NAME
+msgctxt "STRINGS.BLUEPRINTS.OUTFIT_PJ_DINO3.NAME"
+msgid "Triassic Jammies Outfit"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.OUTFIT_ROMPER_TAN.NAME
 msgctxt "STRINGS.BLUEPRINTS.OUTFIT_ROMPER_TAN.NAME"
 msgid "Fieldwork Outfit"
@@ -493,6 +528,26 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_ATMOSUIT_STEGO.NAME"
 msgid "Lumb Atmo Suit"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.PERMIT_BALLOON_BABYRHEX_EGG.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_BALLOON_BABYRHEX_EGG.DESC"
+msgid "These balloons are so cute that they often get popped by overenthusiastic critter fans."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_BALLOON_BABYRHEX_EGG.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_BALLOON_BABYRHEX_EGG.NAME"
+msgid "Poppable Lil' Predators"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_BALLOON_BABYSTEGO_EGG.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_BALLOON_BABYSTEGO_EGG.DESC"
+msgid "A happy little trio of inflatable critters. Now with blep."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_BALLOON_BABYSTEGO_EGG.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_BALLOON_BABYSTEGO_EGG.NAME"
+msgid "Bug-Eyed Blep"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_BED_COTTAGE.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_COTTAGE.DESC"
 msgid "Little scraps of textile waste make a cozy bedcover when they're stapled together by hand."
@@ -511,36 +566,6 @@ msgstr ""
 #. STRINGS.BLUEPRINTS.PERMIT_BED_JORGE.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_JORGE.NAME"
 msgid "<link=\"BED\">DIY Cot</link>"
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_BED_MIMICA.DESC
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_MIMICA.DESC"
-msgid "A good night's rest can be truly transformative."
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_BED_MIMICA.NAME
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_MIMICA.NAME"
-msgid "<link=\"BED\">Mimika Cot</link>"
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_BED_PACULACANTH.DESC
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_PACULACANTH.DESC"
-msgid "The distant echoes of a polluted water pond lull the mind to sleep."
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_BED_PACULACANTH.NAME
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_PACULACANTH.NAME"
-msgid "<link=\"BED\">Jawbo Cot</link>"
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_BED_RAPTOR.DESC
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_RAPTOR.DESC"
-msgid "Sink into this feather bed and dream of being at the top of the food chain."
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_BED_RAPTOR.NAME
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_BED_RAPTOR.NAME"
-msgid "<link=\"BED\">Rhex Cot</link>"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_BED_ROCK.DESC
@@ -661,6 +686,26 @@ msgstr ""
 #. STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_IDLE_STEGO.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_FOSSILSCULPTURE_IDLE_STEGO.NAME"
 msgid "Pointy Plates"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GASSTORAGE_DARTLE.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GASSTORAGE_DARTLE.DESC"
+msgid "The splotchy parts have an unsettlingly leather-like texture."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GASSTORAGE_DARTLE.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GASSTORAGE_DARTLE.NAME"
+msgid "<link=\"GASRESERVOIR\">Dartle Gas Reservoir</link>"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GASSTORAGE_LUMB.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GASSTORAGE_LUMB.DESC"
+msgid "Does not stomp."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_GASSTORAGE_LUMB.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_GASSTORAGE_LUMB.NAME"
+msgid "<link=\"GASRESERVOIR\">Lumb Gas Reservoir</link>"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_GENERATORMANUAL_ROCK.DESC
@@ -1385,12 +1430,12 @@ msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_MILKPRESS_STEGO.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_MILKPRESS_STEGO.DESC"
-msgid "Perhaps this was the Lumb's true calling?"
+msgid "Industrial equipment inspired by nature."
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_MILKPRESS_STEGO.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_MILKPRESS_STEGO.NAME"
-msgid "<link=\"MILKPRESS\">Prehistoric Plant Pulverizer</link>"
+msgid "<link=\"MILKPRESS\">Lumb Plant Pulverizer</link>"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_MITTENS_KNIT_BLACK_SMOG.DESC
@@ -1613,6 +1658,16 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_A_FROSTY.NAME"
 msgid "Freyja Noggin"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_A_PREHISTORIC.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_A_PREHISTORIC.DESC"
+msgid "A monument topper so mighty that even real Rhexes cower before it."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_A_PREHISTORIC.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_A_PREHISTORIC.NAME"
+msgid "Rhex Noggin"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_B_BIONIC.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_MONUMENT_UPPER_B_BIONIC.DESC"
 msgid "It's a special Ed-ition topper."
@@ -1663,6 +1718,16 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_PAINTING_ART_CERES_A.NAME"
 msgid "Lady With a Bammini"
 msgstr ""
 
+#. STRINGS.BLUEPRINTS.PERMIT_PAINTING_ART_STEGO.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_PAINTING_ART_STEGO.DESC"
+msgid "If this Duplicant had their own private fridge, this is the picture that would be displayed on it."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_PAINTING_ART_STEGO.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_PAINTING_ART_STEGO.NAME"
+msgid "Safari Selfie"
+msgstr ""
+
 #. STRINGS.BLUEPRINTS.PERMIT_PAINTING_TALL_ART_CERES_A.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_PAINTING_TALL_ART_CERES_A.DESC"
 msgid "The tale of this catch grows more unbelievable with each telling."
@@ -1681,6 +1746,16 @@ msgstr ""
 #. STRINGS.BLUEPRINTS.PERMIT_PAINTING_WIDE_ART_CERES_A.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_PAINTING_WIDE_ART_CERES_A.NAME"
 msgid "Babe the Blue Flox"
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_PAINTING_WIDE_ART_RHEX.DESC
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_PAINTING_WIDE_ART_RHEX.DESC"
+msgid "The fact that this was just a friendly game was not made clear to everyone involved."
+msgstr ""
+
+#. STRINGS.BLUEPRINTS.PERMIT_PAINTING_WIDE_ART_RHEX.NAME
+msgctxt "STRINGS.BLUEPRINTS.PERMIT_PAINTING_WIDE_ART_RHEX.NAME"
+msgid "Hide and Seek"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_PANTS_EXTENDEDWAIST_BLUE_WHEEZEWORT.DESC
@@ -2403,56 +2478,6 @@ msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CIRCUIT_PUNK.NAME"
 msgid "<link=\"EXTERIORWALL\">Phage Circuit</link>"
 msgstr ""
 
-#. STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_CHAMELEO.DESC
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_CHAMELEO.DESC"
-msgid "It watches over us like an unimpressed authority figure."
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_CHAMELEO.NAME
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_CHAMELEO.NAME"
-msgid "<link=\"EXTERIORWALL\">Impassive Dartle</link>"
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_MIMIKA.DESC
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_MIMIKA.DESC"
-msgid "A close-up of the strange plant's rich foliage."
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_MIMIKA.NAME
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_MIMIKA.NAME"
-msgid "<link=\"EXTERIORWALL\">Mimika Swirl</link>"
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_PACULACANTH.DESC
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_PACULACANTH.DESC"
-msgid "The introvert's wallpaper of choice for any rooms in which unwanted guests may linger."
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_PACULACANTH.NAME
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_PACULACANTH.NAME"
-msgid "<link=\"EXTERIORWALL\">Jawbo Glare</link>"
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_RAPTOR.DESC
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_RAPTOR.DESC"
-msgid "The only drawback is that everyone keeps trying to hang their coats on the horns."
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_RAPTOR.NAME
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_RAPTOR.NAME"
-msgid "<link=\"EXTERIORWALL\">Rhex Horn</link>"
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_STEGO.DESC
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_STEGO.DESC"
-msgid "A close-up of the look a Lumb gets when it suddenly has a thought. Thankfully, it doesn't happen often."
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_STEGO.NAME
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_CLOSEUP_STEGO.NAME"
-msgid "<link=\"EXTERIORWALL\">Lumb Panic</link>"
-msgstr ""
-
 #. STRINGS.BLUEPRINTS.PERMIT_WALLS_FOREST.DESC
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_FOREST.DESC"
 msgid "Sustainable forest bathing."
@@ -2521,16 +2546,6 @@ msgstr ""
 #. STRINGS.BLUEPRINTS.PERMIT_WALLS_PACULACANTH.NAME
 msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_PACULACANTH.NAME"
 msgid "<link=\"EXTERIORWALL\">Pixel Jawbo</link>"
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_WALLS_PREHISTORICCRITTERS.DESC
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_PREHISTORICCRITTERS.DESC"
-msgid "A carefully detailed depiction of all prehistoric critters great and small."
-msgstr ""
-
-#. STRINGS.BLUEPRINTS.PERMIT_WALLS_PREHISTORICCRITTERS.NAME
-msgctxt "STRINGS.BLUEPRINTS.PERMIT_WALLS_PREHISTORICCRITTERS.NAME"
-msgid "<link=\"EXTERIORWALL\">Outlined Figures</link>"
 msgstr ""
 
 #. STRINGS.BLUEPRINTS.PERMIT_WALLS_RAPTOR.DESC
@@ -15498,6 +15513,11 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILEFABRICATOR.RECIPE_DESCRIPTION"
 msgid "Produces {0} from {1} and {2}."
 msgstr ""
 
+#. STRINGS.BUILDINGS.PREFABS.MISSILEFABRICATOR.RECIPE_DESCRIPTION_LONGRANGE
+msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILEFABRICATOR.RECIPE_DESCRIPTION_LONGRANGE"
+msgid "Produces {0} from {1}, {2}, and {3}."
+msgstr ""
+
 #. STRINGS.BUILDINGS.PREFABS.MISSILELAUNCHER.BODY.CONTAINER1
 msgctxt "STRINGS.BUILDINGS.PREFABS.MISSILELAUNCHER.BODY.CONTAINER1"
 msgid "Fires <link=\"MISSILELAUNCHER\">Blastshot</link> shells at meteor showers to defend the colony from impact-related damage.\n\nRange: 16 tiles horizontally, 32 tiles vertically.\n\nMeteors that have been blown to smithereens leave behind no harvestable resources."
@@ -20895,7 +20915,7 @@ msgstr ""
 
 #. STRINGS.CLUSTER_NAMES.PREHISTORIC_CLASSIC_CLUSTER.DESCRIPTION
 msgctxt "STRINGS.CLUSTER_NAMES.PREHISTORIC_CLASSIC_CLUSTER.DESCRIPTION"
-msgid "A cluster of visitable planetoids with an Garden starting world."
+msgid "A cluster of visitable planetoids with a Garden starting world."
 msgstr ""
 
 #. STRINGS.CLUSTER_NAMES.PREHISTORIC_CLASSIC_CLUSTER.NAME
@@ -20903,9 +20923,19 @@ msgctxt "STRINGS.CLUSTER_NAMES.PREHISTORIC_CLASSIC_CLUSTER.NAME"
 msgid "Relica Cluster"
 msgstr ""
 
+#. STRINGS.CLUSTER_NAMES.PREHISTORIC_SHATTERED_CLUSTER.DESCRIPTION
+msgctxt "STRINGS.CLUSTER_NAMES.PREHISTORIC_SHATTERED_CLUSTER.DESCRIPTION"
+msgid "A cluster of visitable planetoids with an impactor-struck starting world."
+msgstr ""
+
+#. STRINGS.CLUSTER_NAMES.PREHISTORIC_SHATTERED_CLUSTER.NAME
+msgctxt "STRINGS.CLUSTER_NAMES.PREHISTORIC_SHATTERED_CLUSTER.NAME"
+msgid "RelicAAAA<sup>AAAGHH</sup> Cluster"
+msgstr ""
+
 #. STRINGS.CLUSTER_NAMES.PREHISTORIC_SPACEDOUT_CLUSTER.DESCRIPTION
 msgctxt "STRINGS.CLUSTER_NAMES.PREHISTORIC_SPACEDOUT_CLUSTER.DESCRIPTION"
-msgid "A cluster of visitable planetoids with an Garden starting world."
+msgid "A cluster of visitable planetoids with a Garden starting world."
 msgstr ""
 
 #. STRINGS.CLUSTER_NAMES.PREHISTORIC_SPACEDOUT_CLUSTER.NAME
@@ -29318,16 +29348,6 @@ msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.NAME"
 msgid "Blast Line of Defense"
 msgstr ""
 
-#. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.POPUP.DESCRIPTION
-msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.POPUP.DESCRIPTION"
-msgid ""
-msgstr ""
-
-#. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.POPUP.NAME
-msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.POPUP.NAME"
-msgid ""
-msgstr ""
-
 #. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.REQUIREMENT_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_DESTROYED.REQUIREMENT_DESCRIPTION"
 msgid "Destroyed Demolior before it arrived: {0}/{1}"
@@ -29340,12 +29360,12 @@ msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_SURVIVED.DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_SURVIVED.DESCRIPTION"
-msgid "Survive {0} cycles after Demolior asteroid collides with this world."
+msgid "Survive 100 cycles after Demolior asteroid collides with RelicAAAA<sup>AAAGHH</sup>."
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_SURVIVED.NAME
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_SURVIVED.NAME"
-msgid "Life Found A Way"
+msgid "The Lab: Life Found A Way"
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_SURVIVED.REQUIREMENT_DESCRIPTION
@@ -29355,7 +29375,7 @@ msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_SURVIVED.REQUIREMENT_NAME
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ASTEROID_SURVIVED.REQUIREMENT_NAME"
-msgid "Survive {0} cycles after Demolior impacts"
+msgid "Survive 100 cycles after Demolior impacts"
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.DESCRIPTION
@@ -31710,7 +31730,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.CRAB.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.CRAB.EGG_NAME"
-msgid "<link=\"CRAB\">Pinch Roe</link>"
+msgid "<link=\"CRAB\">Pokeshell Roe</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.CRAB.NAME
@@ -31735,7 +31755,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.CRAB.VARIANT_FRESH_WATER.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.CRAB.VARIANT_FRESH_WATER.EGG_NAME"
-msgid "<link=\"CRABFRESHWATER\">Sani Pinch Roe</link>"
+msgid "<link=\"CRABFRESHWATER\">Sanishell Roe</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.CRAB.VARIANT_FRESH_WATER.NAME
@@ -31760,7 +31780,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.CRAB.VARIANT_WOOD.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.CRAB.VARIANT_WOOD.EGG_NAME"
-msgid "<link=\"CRABWOOD\">Oak Pinch Roe</link>"
+msgid "<link=\"CRABWOOD\">Oakshell Roe</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.CRAB.VARIANT_WOOD.NAME
@@ -31920,7 +31940,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.EGG_NAME"
-msgid "<link=\"DRECKO\">Drecklet Egg</link>"
+msgid "<link=\"DRECKO\">Drecko Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.NAME
@@ -31945,7 +31965,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.EGG_NAME"
-msgid "<link=\"DRECKOPLASTIC\">Glossy Drecklet Egg</link>"
+msgid "<link=\"DRECKOPLASTIC\">Glossy Drecko Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.NAME
@@ -32425,7 +32445,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.HATCH.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.EGG_NAME"
-msgid "<link=\"HATCH\">Hatchling Egg</link>"
+msgid "<link=\"HATCH\">Hatch Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.HATCH.NAME
@@ -32450,7 +32470,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_HARD.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_HARD.EGG_NAME"
-msgid "<link=\"HATCHHARD\">Stone Hatchling Egg</link>"
+msgid "<link=\"HATCHHARD\">Stone Hatch Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_HARD.NAME
@@ -32475,7 +32495,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.EGG_NAME"
-msgid "<link=\"HATCHMETAL\">Smooth Hatchling Egg</link>"
+msgid "<link=\"HATCHMETAL\">Smooth Hatch Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.NAME
@@ -32500,7 +32520,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.EGG_NAME"
-msgid "<link=\"HATCHVEGGIE\">Sage Hatchling Egg</link>"
+msgid "<link=\"HATCHVEGGIE\">Sage Hatch Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.NAME
@@ -32545,7 +32565,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.ICEBELLY.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.ICEBELLY.EGG_NAME"
-msgid "<link=\"ICEBELLY\">Bammini Egg</link>"
+msgid "<link=\"ICEBELLY\">Bammoth Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.ICEBELLY.NAME
@@ -32570,7 +32590,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.ICEBELLY.VARIANT_GOLD.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.ICEBELLY.VARIANT_GOLD.EGG_NAME"
-msgid "<link=\"GOLDBELLY\">Regal Bammini Egg</link>"
+msgid "<link=\"GOLDBELLY\">Regal Bammoth Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.ICEBELLY.VARIANT_GOLD.NAME
@@ -32685,7 +32705,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.EGG_NAME"
-msgid "<link=\"LIGHTBUG\">Shine Nymph Egg</link>"
+msgid "<link=\"LIGHTBUG\">Shine Bug Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.NAME
@@ -32710,7 +32730,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.EGG_NAME"
-msgid "<link=\"LIGHTBUGBLACK\">Abyss Nymph Egg</link>"
+msgid "<link=\"LIGHTBUGBLACK\">Abyss Bug Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.NAME
@@ -32735,7 +32755,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.EGG_NAME"
-msgid "<link=\"LIGHTBUGBLUE\">Azure Nymph Egg</link>"
+msgid "<link=\"LIGHTBUGBLUE\">Azure Bug Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.NAME
@@ -32760,7 +32780,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.EGG_NAME"
-msgid "<link=\"LIGHTBUGCRYSTAL\">Radiant Nymph Egg</link>"
+msgid "<link=\"LIGHTBUGCRYSTAL\">Radiant Bug Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.NAME
@@ -32785,7 +32805,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.EGG_NAME"
-msgid "<link=\"LIGHTBUGORANGE\">Sun Nymph Egg</link>"
+msgid "<link=\"LIGHTBUGORANGE\">Sun Bug Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.NAME
@@ -32810,7 +32830,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.EGG_NAME"
-msgid "<link=\"LIGHTBUGPINK\">Coral Nymph Egg</link>"
+msgid "<link=\"LIGHTBUGPINK\">Coral Bug Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.NAME
@@ -32835,7 +32855,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.EGG_NAME"
-msgid "<link=\"LIGHTBUGPURPLE\">Royal Nymph Egg</link>"
+msgid "<link=\"LIGHTBUGPURPLE\">Royal Bug Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.NAME
@@ -32860,7 +32880,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_RADIOACTIVE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_RADIOACTIVE.EGG_NAME"
-msgid "<link=\"LIGHTBUGCRYSTAL\">Ionizing Nymph Egg</link>"
+msgid "<link=\"LIGHTBUGCRYSTAL\">Ionizing Bug Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_RADIOACTIVE.NAME
@@ -33015,7 +33035,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.EGG_NAME"
-msgid "<link=\"OILFLOATER\">Larva Egg</link>"
+msgid "<link=\"OILFLOATER\">Slickster Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.NAME
@@ -33040,7 +33060,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.EGG_NAME"
-msgid "<link=\"OILFLOATERDECOR\">Longhair Larva Egg</link>"
+msgid "<link=\"OILFLOATERDECOR\">Longhair Slickster Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.NAME
@@ -33065,7 +33085,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.EGG_NAME"
-msgid "<link=\"OILFLOATERHIGHTEMP\">Molten Larva Egg</link>"
+msgid "<link=\"OILFLOATERHIGHTEMP\">Molten Slickster Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.NAME
@@ -33115,7 +33135,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PACU.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.EGG_NAME"
-msgid "<link=\"PACU\">Fry Egg</link>"
+msgid "<link=\"PACU\">Pacu Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PACU.NAME
@@ -33140,7 +33160,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.EGG_NAME"
-msgid "<link=\"PACUCLEANER\">Gulp Fry Egg</link>"
+msgid "<link=\"PACUCLEANER\">Gulp Fish Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.NAME
@@ -33165,7 +33185,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.EGG_NAME"
-msgid "<link=\"PACUTROPICAL\">Tropical Fry Egg</link>"
+msgid "<link=\"PACUTROPICAL\">Tropical Pacu Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.NAME
@@ -33305,7 +33325,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PUFT.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.EGG_NAME"
-msgid "<link=\"PUFT\">Puftlet Egg</link>"
+msgid "<link=\"PUFT\">Puft Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PUFT.NAME
@@ -33330,7 +33350,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.EGG_NAME"
-msgid "<link=\"PUFTALPHA\">Puftlet Prince Egg</link>"
+msgid "<link=\"PUFTALPHA\">Puft Prince Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.NAME
@@ -33355,7 +33375,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.EGG_NAME"
-msgid "<link=\"PUFTBLEACHSTONE\">Squeaky Puftlet Egg</link>"
+msgid "<link=\"PUFTBLEACHSTONE\">Squeaky Puft Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.NAME
@@ -33380,7 +33400,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.EGG_NAME"
-msgid "<link=\"PUFTOXYLITE\">Dense Puftlet Egg</link>"
+msgid "<link=\"PUFTOXYLITE\">Dense Puft Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.NAME
@@ -33455,7 +33475,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.SEAL.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEAL.EGG_NAME"
-msgid "<link=\"SEAL\">Spigot Pup Egg</link>"
+msgid "<link=\"SEAL\">Spigot Seal Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.SEAL.NAME
@@ -33985,7 +34005,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.STATERPILLAR.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.STATERPILLAR.EGG_NAME"
-msgid "<link=\"STATERPILLAR\">Slug Egg</link>"
+msgid "<link=\"STATERPILLAR\">Plug Slug Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.STATERPILLAR.NAME
@@ -34250,7 +34270,7 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.WOODDEER.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.WOODDEER.EGG_NAME"
-msgid "<link=\"WOODDEER\">Flox Fawn Egg</link>"
+msgid "<link=\"WOODDEER\">Flox Egg</link>"
 msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.WOODDEER.NAME
@@ -57770,7 +57790,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.DRECKOEGG.NAME
 msgctxt "STRINGS.ITEMS.FOOD.DRECKOEGG.NAME"
-msgid "<link=\"DRECKO\">Drecklet Egg</link>"
+msgid "<link=\"DRECKO\">Drecko Egg</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.DRECKOEGG.RECIPEDESC
@@ -57955,7 +57975,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.HATCHEGG.NAME
 msgctxt "STRINGS.ITEMS.FOOD.HATCHEGG.NAME"
-msgid "<link=\"HATCH\">Hatchling Egg</link>"
+msgid "<link=\"HATCH\">Hatch Egg</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.HATCHEGG.RECIPEDESC
@@ -57995,7 +58015,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.LIGHTBUGEGG.NAME
 msgctxt "STRINGS.ITEMS.FOOD.LIGHTBUGEGG.NAME"
-msgid "<link=\"LIGHTBUG\">Shine Nymph Egg</link>"
+msgid "<link=\"LIGHTBUG\">Shine Bug Egg</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.LIGHTBUGEGG.RECIPEDESC
@@ -58085,7 +58105,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.OILFLOATEREGG.NAME
 msgctxt "STRINGS.ITEMS.FOOD.OILFLOATEREGG.NAME"
-msgid "<link=\"OILFLOATER\">Larva Egg</link>"
+msgid "<link=\"OILFLOATER\">Slickster Egg</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.OILFLOATEREGG.RECIPEDESC
@@ -58205,7 +58225,7 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.PUFTEGG.NAME
 msgctxt "STRINGS.ITEMS.FOOD.PUFTEGG.NAME"
-msgid "<link=\"PUFT\">Puftlet Egg</link>"
+msgid "<link=\"PUFT\">Puft Egg</link>"
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.PUFTEGG.RECIPEDESC
@@ -86733,6 +86753,11 @@ msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.HARDICECOMET.NAME"
 msgid "Ice Meteor"
 msgstr ""
 
+#. STRINGS.UI.SPACEDESTINATIONS.COMETS.IRIDIUMCOMET.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.IRIDIUMCOMET.NAME"
+msgid "Iridium Meteor"
+msgstr ""
+
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.IRONCOMET.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.IRONCOMET.NAME"
 msgid "Iron Meteor"
@@ -96218,6 +96243,11 @@ msgctxt "STRINGS.UI.WELCOMEMESSAGEBODY_DLC4_PREHISTORIC"
 msgid "My collision monitoring system has detected an imminent threat to our survival: a huge impactor asteroid is hurtling directly at this planet.\n\nWe must make our way to the surface and mount a defense system in time to destroy the incoming asteroid before it destroys us."
 msgstr ""
 
+#. STRINGS.UI.WELCOMEMESSAGEBODY_DLC4_PREHISTORIC_SHATTERED
+msgctxt "STRINGS.UI.WELCOMEMESSAGEBODY_DLC4_PREHISTORIC_SHATTERED"
+msgid "Impactor asteroid collision imminent!\n\nMy scans indicate that the impact will trigger the eruption of all geysers that surround our landing site. There are...so many.\n\nInitiate survival procedures immediately."
+msgstr ""
+
 #. STRINGS.UI.WELCOMEMESSAGEBODY_KF23
 msgctxt "STRINGS.UI.WELCOMEMESSAGEBODY_KF23"
 msgid "This asteroid is oddly tilted, as though a powerful external force once knocked it off its axis.\n\nI'll need to recalibrate my approach to colony-building in order to make the most of this unusual distribution of resources."
@@ -97421,6 +97451,16 @@ msgstr ""
 #. STRINGS.WORLDS.PREHISTORICMIXING.NAME
 msgctxt "STRINGS.WORLDS.PREHISTORICMIXING.NAME"
 msgid "Relica Fragment"
+msgstr ""
+
+#. STRINGS.WORLDS.PREHISTORICSHATTERED.DESCRIPTION
+msgctxt "STRINGS.WORLDS.PREHISTORICSHATTERED.DESCRIPTION"
+msgid "A geyser-rich location that will be struck by an impactor asteroid almost immediately.\n\n<smallcaps>Impact-related damage will trigger the eruption of this world's unusually high number of geyers. Colonies that survive the volatile aftermath will reap the benefits of the abundant natural resources released into the environment.</smallcaps>"
+msgstr ""
+
+#. STRINGS.WORLDS.PREHISTORICSHATTERED.NAME
+msgctxt "STRINGS.WORLDS.PREHISTORICSHATTERED.NAME"
+msgid "RelicAAAA<sup>AAAGHH</sup>"
 msgstr ""
 
 #. STRINGS.WORLDS.PREHISTORICSPACEDOUT.DESCRIPTION
