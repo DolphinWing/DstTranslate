@@ -30250,7 +30250,7 @@ msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.NO_DUPES_HAVE_DIED.REQUIREMENT_NAME
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.NO_DUPES_HAVE_DIED.REQUIREMENT_NAME"
-msgid "Zero Casualties"
+msgid "Zero Duplicant deaths in the colony"
 msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.NOT_ACHIEVED_EVER
@@ -66255,7 +66255,7 @@ msgstr ""
 
 #. STRINGS.RESEARCH.TECHS.SPACEGAS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SPACEGAS.DESC"
-msgid "<link=\"ELEMENTSGASSES\">Gas</link> engines and transportation for rockets."
+msgid "<link=\"ELEMENTSGAS\">Gas</link> engines and transportation for rockets."
 msgstr ""
 
 #. STRINGS.RESEARCH.TECHS.SPACEGAS.NAME
@@ -83680,7 +83680,7 @@ msgstr ""
 
 #. STRINGS.UI.PRODUCTINFO_REQUIRESRESEARCHDESC
 msgctxt "STRINGS.UI.PRODUCTINFO_REQUIRESRESEARCHDESC"
-msgid "Requires {0} Research"
+msgid "Requires research: {0}"
 msgstr ""
 
 #. STRINGS.UI.PRODUCTINFO_RESEARCHREQUIRED
@@ -96245,7 +96245,7 @@ msgstr ""
 
 #. STRINGS.UI.WELCOMEMESSAGEBODY_DLC4_PREHISTORIC_SHATTERED
 msgctxt "STRINGS.UI.WELCOMEMESSAGEBODY_DLC4_PREHISTORIC_SHATTERED"
-msgid "Impactor asteroid collision imminent!\n\nMy scans indicate that the impact will trigger the eruption of all geysers that surround our landing site. There are...so many.\n\nInitiate survival procedures immediately."
+msgid "Impactor asteroid collision in 10 cycles!\n\nMy scans indicate that the impact will trigger the eruption of all geysers that surround our landing site. There are...so many.\n\nInitiate survival procedures immediately."
 msgstr ""
 
 #. STRINGS.UI.WELCOMEMESSAGEBODY_KF23
