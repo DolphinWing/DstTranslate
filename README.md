@@ -69,3 +69,7 @@ Thanks those developers who have done brilliant work on these mods
 DstTranslator is a tool to convert translation document. For internal use only. I also use the tool to study Compose UI.
 * [desktop-app](tools/desktop-app) runs on Linux and Windows [![Desktop CI](https://github.com/DolphinWing/DstTranslate/actions/workflows/desktop.yml/badge.svg)](https://github.com/DolphinWing/DstTranslate/actions/workflows/desktop.yml)
 * [android-app](tools/android-app) runs on Android and is deprecated.
+
+For anyone who wants to contribute or build upon this mod, feel free to use my code as a foundation.
+I hope it helps you take your ideas further and benefits the community.
+Codes in this repository is licensed under the MIT License.
