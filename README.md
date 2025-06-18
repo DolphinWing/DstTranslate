@@ -74,4 +74,4 @@ DstTranslator is a tool to convert translation document. For internal use only. 
 
 For anyone who wants to contribute or build upon this mod, feel free to use my code as a foundation.
 I hope it helps you take your ideas further and benefits the community.
-Codes in this repository is licensed under the MIT License.
+Codes in this repository are licensed under the MIT License.
