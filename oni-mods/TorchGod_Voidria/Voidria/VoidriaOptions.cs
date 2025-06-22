@@ -4,7 +4,7 @@ using PeterHan.PLib.Options;
 namespace Voidria
 {
     [JsonObject(MemberSerialization.OptIn)]
-    [ModInfo("https://github.com/DolphinWing/DstTranslate/tree/master/workshop-3430682737")]
+    [ModInfo("https://github.com/DolphinWing/KleiWork/tree/master/workshop-3430682737")]
     class VoidriaOptions
     {
         public static LocString GiftedAreaTitle = (LocString)"Treasure Room";

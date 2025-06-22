@@ -1,4 +1,4 @@
-![GitHub package.json version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/DolphinWing/DSTTranslate?filename=workshop-2906930548%2Fpackage.json&logo=github) 
+![GitHub package.json version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/DolphinWing/KleiWork?filename=workshop-2906930548%2Fpackage.json&logo=github) 
 ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/2906930548?logo=steam) 
 ![Steam Favorites](https://img.shields.io/steam/favorites/2906930548?logo=steam)
 

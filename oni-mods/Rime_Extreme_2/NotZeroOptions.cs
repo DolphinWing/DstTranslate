@@ -4,7 +4,7 @@ using PeterHan.PLib.Options;
 namespace NotZeroK
 {
     [JsonObject(MemberSerialization.OptIn)]
-    [ModInfo("https://github.com/DolphinWing/DstTranslate/tree/master/workshop-3413401611")]
+    [ModInfo("https://github.com/DolphinWing/KleiWork/tree/master/workshop-3413401611")]
     class NotZeroOptions
     {
         [Option("NotZeroK.WorldConstants.MAP_MODE", "NotZeroK.WorldConstants.MAP_MODE_DESC")]

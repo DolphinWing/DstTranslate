@@ -47,8 +47,8 @@ fun ConfigPane(
     onModeChange: ((mode: PoHelper.Mode) -> Unit)? = null,
 ) {
     var visible by remember { mutableStateOf(false) }
-    val githubRoot = if (configs.dstWorkshopDir.contains("DstTranslate")) {
-        configs.dstWorkshopDir.substring(0, configs.dstWorkshopDir.indexOf("DstTranslate") + 12)
+    val githubRoot = if (configs.dstWorkshopDir.contains("KleiWork")) {
+        configs.dstWorkshopDir.substring(0, configs.dstWorkshopDir.indexOf("KleiWork") + 8)
     } else ""
 
     Column {
