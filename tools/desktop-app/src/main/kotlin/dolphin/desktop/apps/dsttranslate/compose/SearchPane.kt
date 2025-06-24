@@ -20,8 +20,8 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Clear
 import androidx.compose.material.icons.rounded.RadioButtonChecked
 import androidx.compose.material.icons.rounded.RadioButtonUnchecked
+import androidx.compose.material.icons.rounded.Replay
 import androidx.compose.material.icons.rounded.Save
-import androidx.compose.material.icons.rounded.Undo
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
@@ -94,7 +94,7 @@ fun SearchPane(
                     LazyToolTip(tooltip = last, backgroundColor = Color.Transparent) {
                         IconButton(onClick = { refreshItems(last) }) {
                             Icon(
-                                Icons.Rounded.Undo,
+                                Icons.Rounded.Replay,
                                 contentDescription = "Undo",
                                 tint = if (last.isNotEmpty()) Color.Gray else Color.LightGray
                             )
@@ -107,7 +107,7 @@ fun SearchPane(
             },
         )
         Row(verticalAlignment = Alignment.CenterVertically) {
-            SearchType.values().forEach { type ->
+            SearchType.entries.forEach { type ->
                 Row(
                     modifier = Modifier.clickable {
                         composeScope.launch { model.searchType(type) }

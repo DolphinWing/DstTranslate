@@ -2,7 +2,7 @@ import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import java.text.SimpleDateFormat
 import java.util.Date
 
-val releaseAppVersion = "3.0.0"
+val releaseAppVersion = "3.0.1"
 val releaseAppRevision = SimpleDateFormat("yy.M.d").format(Date()) ?: "0"
 
 plugins {
@@ -60,7 +60,7 @@ compose.desktop {
                 packageVersion = releaseAppVersion
                 debPackageVersion = releaseAppVersion
                 // rpmPackageVersion = releaseAppVersion
-                appRelease = releaseAppRevision.toString()
+                appRelease = releaseAppRevision
             }
         }
 
