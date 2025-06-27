@@ -25,7 +25,7 @@ This is a personal project that includes my mod work for the games by Klei Enter
 ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3430682737?logo=steam) 
 ![Steam Favorites](https://img.shields.io/steam/favorites/3430682737?logo=steam) <br />
 [workshop-3430682737](workshop-3430682737) is a map mod for Voidria clusters feat. with [TorchGod](https://github.com/TorchGod531).
-* DST [正體中文包](https://steamcommunity.com/sharedfiles/filedetails/?id=1993780385) <br />
+* DST [正體中文包](https://steamcommunity.com/sharedfiles/filedetails/?id=1993780385) (abandoned)<br />
 ![GitHub package.json version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/DolphinWing/KleiWork?filename=workshop-1993780385%2Fpackage.json&logo=github) 
 ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/1993780385?logo=steam) 
 ![Steam Favorites](https://img.shields.io/steam/favorites/1993780385?logo=steam) <br />
